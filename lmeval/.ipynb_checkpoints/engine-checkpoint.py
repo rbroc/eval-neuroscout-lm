@@ -17,33 +17,24 @@ class StridingLM:
                      for i_s, i_e in zip(i_start,i_end)]
         return split_lst
     
-    def _preprocess(self, text, tokenizer, split_by):
-        # 
-        if split_by == 'words':
-            text_lst = text.split()
-            split_text_lst = self._split(text_lst)
-            tokenized_lst = [tokenizer(' '.join(o), return_tensors='pt')
-                             for o in split_text_lst]
-        elif split_by == 'tokens':
-            tokenized = tokenizer(text, return_tensors='pt')
-            tokenized_lst = self._split(tokenized)
+    def _preprocess(self, text, tokenizer):
+        tokenized = tokenizer(text, return_tensors='pt')
+        tokenized_lst = self._split(tokenized)
         else:
             raise ValueError('Split by should be words or tokens')
         return tokenized_lst
     
-    
     def run(self, dataset, tokenizer, model,
-            model_name,
-            split_by='words'):
+            model_name):
         print(f'Running {model_name},'
               f'{dataset.name}, {self.context_length}')
         time.sleep(.5)
         results = []
         softmax_fn = torch.nn.Softmax(dim=-1)
         tokenized_lst = self._preprocess(dataset.text, 
-                                         tokenizer,
-                                         split_by)
-        for i in tqdm(range(len(tokenized_lst))):
+                                         tokenizer)
+        
+        for i in range(len(tokenized_lst)): # tqdm?
             # Inference
             t = tokenized_lst[i]
             input_ids = t['input_ids']
@@ -53,7 +44,6 @@ class StridingLM:
                 input_ids[0][-1] = tokenizer.mask_token_id
             target_ids[:,:-1] = -100
             outputs = model(input_ids, labels=target_ids)
-                
             # Compute metrics
             ctx = tokenizer.decode(input_ids[0][:-1])
             wd = tokenizer.decode(target_ids[0][-1])
@@ -66,13 +56,16 @@ class StridingLM:
             prob_true = float(prob_true.detach().numpy())
             prob_predicted = float(softmaxed[0,-1,top_id].detach().numpy())
             entr = entropy(softmaxed[0,-1,:].detach().numpy())
-            
-            results.append((dataset.name, model_name, 
+            results.append((dataset.name, 
+                            dataset.dataset_type,
+                            model_name, 
                             ctx, wd, top_token, loss,
                             entr, prob_true, prob_predicted,
                             self.context_length))
         output = pd.DataFrame(results, 
-                              columns=['dataset', 'model',
+                              columns=['dataset', 
+                                       'type',
+                                       'model',
                                        'context', 'target', 
                                        'top_predicted', 
                                        'loss', 'entropy',
