@@ -12,12 +12,8 @@ import glob
 from itertools import product
 from lmeval.datasets import NarrativesDataset
 from lmeval.engine import StridingLM
-import os
 import transformers
 
-# Don't use gpus
-os.environ['CUDA_VISIBLE_DEVICES']='-1'
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
 transformers.logging.set_verbosity(50)
 
 # Define parameters
@@ -93,6 +89,8 @@ def _validate(datafile,
   
 # Run
 if __name__=='__main__':
-    pool = Pool(20)
-    pool.starmap(_validate, parameters)
-    pool.close()
+    for p in parameters:
+        _validate(*p)
+    #pool = Pool(20)
+    #pool.starmap(_validate, parameters)
+    #pool.close()

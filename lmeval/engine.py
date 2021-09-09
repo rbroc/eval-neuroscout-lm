@@ -34,7 +34,7 @@ class StridingLM:
         print(f'Running {model_name}, '
               f'{dataset.name}, {self.context_length}, '
               f'{len(tokenized_lst)}')
-        for i in range(len(tokenized_lst)): # tqdm
+        for i in tqdm(range(len(tokenized_lst))): # tqdm
             # Inference
             input_ids = tokenized_lst[i]
             target_ids = input_ids.clone()
