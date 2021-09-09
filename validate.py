@@ -76,7 +76,11 @@ def _validate(datafile,
     engine = StridingLM(context_length=ctx_length)
     result = engine.run(data, tokenizer, model, model_id)
     # Log the data
-    log_id = f'{dataset_name}_{model_id}_{ctx_length}.txt'
+    if '/' in model_id:
+        model_id_log = model_id.split('/')[0]
+    else:
+        model_id_log = model_id
+    log_id = f'{dataset_name}_{model_id_log}_{ctx_length}.txt'
     result.to_csv(f'outputs/narratives/test_{log_id}',
                   sep='\t')
     # How many left?
@@ -88,5 +92,5 @@ def _validate(datafile,
 # Run
 if __name__=='__main__':
     pool = Pool(20)
-    results = pool.starmap(_validate, parameters)
+    pool.starmap(_validate, parameters)
     pool.close()

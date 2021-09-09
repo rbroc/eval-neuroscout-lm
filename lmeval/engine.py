@@ -10,12 +10,14 @@ class StridingLM:
                  context_length=20):
         self.context_length = context_length
         
-    def _split(self, lst):
-        i_start = range(0, len(lst)-self.context_length)
-        i_end = range(self.context_length, len(lst))
-        split_lst = [lst[i_s:i_e+1] 
+    def _split(self, tokenized):
+        n_tokens = tokenized['input_ids'].shape[-1]
+        i_start = range(0, n_tokens-self.context_length)
+        i_end = range(self.context_length, 
+                      n_tokens)
+        split_tks = [tokenized['input_ids'][:,i_s:i_e+1] 
                      for i_s, i_e in zip(i_start,i_end)]
-        return split_lst
+        return split_tks
     
     def _preprocess(self, text, tokenizer):
         tokenized = tokenizer(text, return_tensors='pt')
@@ -31,11 +33,9 @@ class StridingLM:
         softmax_fn = torch.nn.Softmax(dim=-1)
         tokenized_lst = self._preprocess(dataset.text, 
                                          tokenizer)
-        
-        for i in range(len(tokenized_lst)): # tqdm?
+        for i in range(len(tokenized_lst)): # tqdm
             # Inference
-            t = tokenized_lst[i]
-            input_ids = t['input_ids']
+            input_ids = tokenized_lst[i]
             target_ids = input_ids.clone()
             if any([mid in model_name
                     for mid in ['bert', 'bigbird', 'electra']]):
