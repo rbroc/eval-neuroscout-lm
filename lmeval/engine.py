@@ -20,8 +20,6 @@ class StridingLM:
     def _preprocess(self, text, tokenizer):
         tokenized = tokenizer(text, return_tensors='pt')
         tokenized_lst = self._split(tokenized)
-        else:
-            raise ValueError('Split by should be words or tokens')
         return tokenized_lst
     
     def run(self, dataset, tokenizer, model,
