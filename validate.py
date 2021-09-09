@@ -17,7 +17,7 @@ import transformers
 
 # Don't use gpus
 os.environ['CUDA_VISIBLE_DEVICES']='-1'
-transformers.logging.set_verbosity
+transformers.logging.set_verbosity(50)
 
 # Define parameters
 transcripts = glob.glob('inputs/narratives/gentle/*/transcript*')
