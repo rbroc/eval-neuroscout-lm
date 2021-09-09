@@ -1,16 +1,17 @@
 ### Evaluating LLMs on forward language modeling for NeuroScout transcripts
-- Data is Neuroscout transcripts
-	- Either as is
-	- Or with added punctuation
-- Evaluate different context windows
-- Evaluate the perplexity/surprisal/entropy of the predictions
-- Qualitatively inspect the predictions models produce
+- Evaluate:
+	- Transcripts vs. aligned
+	- Different context windows
+	- Different models (GPT, BERT, BigBird, etc).
+- Metrics
+	- Perplexity/surprisal/entropy of the predictions
+	- Qualitatively inspect model predictions
+- Datasets
+	- Narratives (large-scale)
 
-
-To dos:
-- Missing values: are those NAs (things that can't be aligned?)
-- Run
-- Note that we may need to evaluate transcripts
+Notes:
+- Missing values in transcripts (NAs in Narratives, missing in ingested transcripts?)
+- We may need to evaluate transcripts
 - Unrelated
     - Sentiment metrics?
     - Next turn perplexity
