@@ -46,15 +46,15 @@ class StridingLM:
             # Compute metrics
             ctx = tokenizer.decode(input_ids[0][:-1])
             wd = tokenizer.decode(target_ids[0][-1])
-            loss = float(outputs.loss.detach().numpy())
+            loss = float(outputs.loss.cpu().detach().numpy())
             top_id = torch.argmax(outputs.logits[0,-1,:], 
                                   axis=-1)
             top_token = tokenizer.decode(top_id).strip(' ')
             softmaxed = softmax_fn(outputs.logits)
             prob_true = softmaxed[0,-1,target_ids[0][-1]]
-            prob_true = float(prob_true.detach().numpy())
+            prob_true = float(prob_true.cpu().detach().numpy())
             prob_predicted = float(softmaxed[0,-1,top_id].detach().numpy())
-            entr = entropy(softmaxed[0,-1,:].detach().numpy())
+            entr = entropy(softmaxed[0,-1,:].cpu().detach().numpy())
             results.append((dataset.name, 
                             dataset.dataset_type,
                             model_name, 
