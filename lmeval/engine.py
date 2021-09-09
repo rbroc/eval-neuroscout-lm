@@ -20,7 +20,7 @@ class StridingLM:
         return split_tks
     
     def _preprocess(self, text, tokenizer):
-        tokenized = tokenizer(text, return_tensors='pt')
+        tokenized = tokenizer(text, return_tensors='pt').to(device='cuda:0')
         tokenized_lst = self._split(tokenized)
         return tokenized_lst
     
