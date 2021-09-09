@@ -78,8 +78,7 @@ def _validate(datafile,
         model_id_log = model_id.split('/')[0]
     else:
         model_id_log = model_id
-    print(f'{dataset_name}_{model_id_log}_{ctx_length}')
-    log_id = f'****{dataset_name}_{model_id_log}_{ctx_length}.txt****'
+    log_id = f'{dataset_name}_{model_id_log}_{ctx_length}.txt'
     result.to_csv(f'outputs/narratives/{log_id}',
                   sep='\t')
     # How many left?
@@ -90,5 +89,6 @@ def _validate(datafile,
   
 # Run
 if __name__=='__main__':
-    for p in parameters[624:]:
-        _validate(*p)
+    for p in parameters:
+        if 'align' in p[0]:
+            _validate(*p)
