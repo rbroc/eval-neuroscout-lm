@@ -77,7 +77,7 @@ def _validate(datafile,
     result = engine.run(data, tokenizer, model, model_id)
     # Log the data
     log_id = f'{dataset_name}_{model_id}_{ctx_length}.txt'
-    result.to_csv(f'outputs/narratives/{log_id}',
+    result.to_csv(f'outputs/narratives/test_{log_id}',
                   sep='\t')
     # How many left?
     n_files = len(glob.glob('outputs/narratives/*'))
