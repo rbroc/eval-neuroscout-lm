@@ -13,6 +13,7 @@ from itertools import product
 from lmeval.datasets import NarrativesDataset
 from lmeval.engine import StridingLM
 import os
+import logging
 
 # Don't use gpus
 os.environ['CUDA_VISIBLE_DEVICES']='-1'
