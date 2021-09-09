@@ -79,7 +79,7 @@ def _validate(datafile,
         model_id_log = model_id.split('/')[0]
     else:
         model_id_log = model_id
-    log_id = f'{dataset_name}_{model_id_log}_{ctx_length}_{}.txt'
+    log_id = f'{dataset_name}_{model_id_log}_{ctx_length}.txt'
     result.to_csv(f'outputs/narratives/{log_id}',
                   sep='\t')
     # How many left?
