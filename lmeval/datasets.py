@@ -27,9 +27,9 @@ class NarrativesDataset:
             self.dataset_type = 'aligned'
             data = pd.read_csv(filename, header=None)
             if case_sensitive:
-                self.text = data.iloc[:,0].tolist().dropna()
+                self.text = data.iloc[:,0].dropna().tolist()
             else:
-                self.text = data.iloc[:,1].tolist().dropna()
+                self.text = data.iloc[:,1].dropna().tolist()
         elif 'transcript' in filename:
             self.dataset_type = 'transcript'
             self.text = open(filename).read()

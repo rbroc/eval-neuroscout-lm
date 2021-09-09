@@ -89,12 +89,5 @@ def _validate(datafile,
   
 # Run
 if __name__=='__main__':
-    #failed = []
-    for p in parameters[-2:]:
-        #try:
+    for p in parameters[624:]:
         _validate(*p)
-        #except:
-        #    print('failed!')
-        #    failed.append((p[0], p[2], p[-1]))
-    #pd.DataFrame(failed,
-    #             columns=['dataset', 'model', 'context']).to_csv('failed.txt', sep='\t')
