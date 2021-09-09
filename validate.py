@@ -90,5 +90,4 @@ def _validate(datafile,
 # Run
 if __name__=='__main__':
     for p in parameters:
-        if 'align' in p[0]:
-            _validate(*p)
+        _validate(*p)
