@@ -58,6 +58,7 @@ def _make_dataset_id(datafile):
     narrative = ds_name_splits[3]
     ds_type = ds_name_splits[-1].split('.')[0]
     ds_id = '_'.join([narrative, ds_type])
+    print(f'** {ds_id} **')
     return ds_id
 
 
@@ -78,7 +79,7 @@ def _validate(datafile,
         model_id_log = model_id.split('/')[0]
     else:
         model_id_log = model_id
-    log_id = f'{dataset_name}_{model_id_log}_{ctx_length}.txt'
+    log_id = f'{dataset_name}_{model_id_log}_{ctx_length}_{}.txt'
     result.to_csv(f'outputs/narratives/{log_id}',
                   sep='\t')
     # How many left?
