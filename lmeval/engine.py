@@ -26,13 +26,14 @@ class StridingLM:
     
     def run(self, dataset, tokenizer, model,
             model_name):
-        print(f'Running {model_name}, '
-              f'{dataset.name}, {self.context_length}')
         time.sleep(.5)
         results = []
         softmax_fn = torch.nn.Softmax(dim=-1)
         tokenized_lst = self._preprocess(dataset.text, 
                                          tokenizer)
+        print(f'Running {model_name}, '
+              f'{dataset.name}, {self.context_length}, '
+              f'{len(tokenized_lst)}')
         for i in range(len(tokenized_lst)): # tqdm
             # Inference
             input_ids = tokenized_lst[i]
