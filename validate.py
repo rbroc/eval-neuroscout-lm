@@ -94,6 +94,7 @@ if __name__=='__main__':
         try:
             _validate(*p)
         except:
+            print('failed!')
             failed.append((p[0], p[2], p[-1]))
     pd.DataFrame(failed,
                  columns=['dataset', 'model', 'context']).to_csv('failed.txt', sep='\t')
