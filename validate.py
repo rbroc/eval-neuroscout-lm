@@ -90,7 +90,7 @@ def _validate(datafile,
 # Run
 if __name__=='__main__':
     failed = []
-    for p in parameters[624:]:
+    for p in parameters[-1:]:
         try:
             _validate(*p)
         except:
