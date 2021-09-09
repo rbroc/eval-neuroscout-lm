@@ -53,7 +53,7 @@ class StridingLM:
             softmaxed = softmax_fn(outputs.logits)
             prob_true = softmaxed[0,-1,target_ids[0][-1]]
             prob_true = float(prob_true.cpu().detach().numpy())
-            prob_predicted = float(softmaxed[0,-1,top_id].detach().numpy())
+            prob_predicted = float(softmaxed[0,-1,top_id].cpu().detach().numpy())
             entr = entropy(softmaxed[0,-1,:].cpu().detach().numpy())
             results.append((dataset.name, 
                             dataset.dataset_type,
