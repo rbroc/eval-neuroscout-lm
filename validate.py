@@ -89,8 +89,11 @@ def _validate(datafile,
   
 # Run
 if __name__=='__main__':
-    for p in parameters:
-        _validate(*p)
-    #pool = Pool(20)
-    #pool.starmap(_validate, parameters)
-    #pool.close()
+    failed = []
+    for p in parameters[624:]:
+        try:
+            _validate(*p)
+        except:
+            failed.append((p[0], p[2], p[-1]))
+    pd.DataFrame(failed,
+                 columns=['dataset', 'model', 'context']).to_csv('failed.txt', sep='\t')
