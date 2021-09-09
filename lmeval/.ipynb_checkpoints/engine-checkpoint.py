@@ -24,7 +24,7 @@ class StridingLM:
     
     def run(self, dataset, tokenizer, model,
             model_name):
-        print(f'Running {model_name},'
+        print(f'Running {model_name}, '
               f'{dataset.name}, {self.context_length}')
         time.sleep(.5)
         results = []

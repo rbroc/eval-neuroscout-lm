@@ -13,11 +13,9 @@ from itertools import product
 from lmeval.datasets import NarrativesDataset
 from lmeval.engine import StridingLM
 import os
-import logging
 
 # Don't use gpus
 os.environ['CUDA_VISIBLE_DEVICES']='-1'
-logging.disable(logging.WARNING)
 
 # Define parameters
 transcripts = glob.glob('inputs/narratives/gentle/*/transcript*')
@@ -83,7 +81,7 @@ def _validate(datafile,
                   sep='\t')
     # How many left?
     n_files = len(glob.glob('outputs/narratives/*'))
-    print(f'{n_files} out of {parameters}')
+    print(f'{n_files} out of {len(parameters)}')
     return result
 
   
