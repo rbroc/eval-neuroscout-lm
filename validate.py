@@ -75,7 +75,6 @@ def _validate(datafile,
     model = model_class.from_pretrained(model_id)
     dataset_name = _make_dataset_id(datafile)
     data = NarrativesDataset(datafile, dataset_name)
-    data.text = data.text[:100]
     engine = StridingLM(context_length=ctx_length)
     result = engine.run(data, tokenizer, model, model_id)
     # Log the data
