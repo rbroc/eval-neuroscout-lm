@@ -13,11 +13,10 @@ from itertools import product
 from lmeval.datasets import NarrativesDataset
 from lmeval.engine import StridingLM
 import os
-import transformers
 
 # Don't use gpus
 os.environ['CUDA_VISIBLE_DEVICES']='-1'
-transformers.logging.set_verbosity(50)
+logging.disable(logging.WARNING)
 
 # Define parameters
 transcripts = glob.glob('inputs/narratives/gentle/*/transcript*')
