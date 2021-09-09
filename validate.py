@@ -72,7 +72,7 @@ def _validate(datafile,
               ctx_length):
     ''' Main functon to run the validation'''
     tokenizer = tokenizer_class.from_pretrained(model_id)
-    model = model_class.from_pretrained(model_id).to('cpu')
+    model = model_class.from_pretrained(model_id)
     dataset_name = _make_dataset_id(datafile)
     data = NarrativesDataset(datafile, dataset_name)
     engine = StridingLM(context_length=ctx_length)
