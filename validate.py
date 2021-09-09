@@ -16,6 +16,7 @@ import os
 import transformers
 
 # Don't use gpus
+os.environ['CUDA_VISIBLE_DEVICES']='-1'
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 transformers.logging.set_verbosity(50)
 
