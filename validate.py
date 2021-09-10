@@ -69,7 +69,6 @@ def _validate(datafile,
     ''' Main functon to run the validation'''
     files = glob.glob('outputs/narratives/*')
     n_files = len(files)
-    print(n_files)
     dataset_name = _make_dataset_id(datafile)
     if '/' in model_id:
         model_id_log = model_id.split('/')[0]
@@ -93,4 +92,5 @@ def _validate(datafile,
 # Run
 if __name__=='__main__':
     for p in parameters:
+        print(len(parameters))
         _validate(*p)
