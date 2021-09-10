@@ -1,0 +1,691 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	bigbang_transcript	transcript	gpt2	Sheldon slowly walked into the restaurant, eying the decor suspiciously.	 His	eyes	3.701714515686035	6.122629642486572	1.4044341014596284e-06	0.1302320808172226	15
+1	bigbang_transcript	transcript	gpt2	ldon slowly walked into the restaurant, eying the decor suspiciously. His	 roommate	,	7.364526748657227	4.879202842712402	1.675341627560556e-05	0.19825665652751923	15
+2	bigbang_transcript	transcript	gpt2	 slowly walked into the restaurant, eying the decor suspiciously. His roommate	 Leonard	was	11.135866165161133	5.980856418609619	0.0005281597841531038	0.1182497888803482	15
+3	bigbang_transcript	transcript	gpt2	 walked into the restaurant, eying the decor suspiciously. His roommate Leonard	 pushed	him	8.057353973388672	3.1699914932250977	1.4389113857760094e-05	0.35748493671417236	15
+4	bigbang_transcript	transcript	gpt2	 into the restaurant, eying the decor suspiciously. His roommate Leonard pushed	 past	him	5.252189636230469	3.3713197708129883	0.0001650463236728683	0.33346813917160034	15
+5	bigbang_transcript	transcript	gpt2	 the restaurant, eying the decor suspiciously. His roommate Leonard pushed past	 him	,	1.12492036819458	2.5938918590545654	1.1629814252955839e-05	0.3253243863582611	15
+6	bigbang_transcript	transcript	gpt2	 restaurant, eying the decor suspiciously. His roommate Leonard pushed past him	 and	into	1.3460205793380737	6.13485050201416	0.00120300124399364	0.025356555357575417	15
+7	bigbang_transcript	transcript	gpt2	, eying the decor suspiciously. His roommate Leonard pushed past him and	 asked	,	5.5134806632995605	3.3664093017578125	2.412962567177601e-05	0.19652490317821503	15
+8	bigbang_transcript	transcript	gpt2	 eying the decor suspiciously. His roommate Leonard pushed past him and asked	 the	two	3.7549684047698975	6.572667598724365	0.0003913221589755267	0.04827030003070831	15
+9	bigbang_transcript	transcript	gpt2	ying the decor suspiciously. His roommate Leonard pushed past him and asked the	 host	ess	7.487934112548828	3.291303873062134	0.0007865988882258534	0.21873529255390167	15
+10	bigbang_transcript	transcript	gpt2	 the decor suspiciously. His roommate Leonard pushed past him and asked the host	ess	if	1.5585103034973145	2.7666966915130615	1.5761173926875927e-05	0.30293959379196167	15
+11	bigbang_transcript	transcript	gpt2	 decor suspiciously. His roommate Leonard pushed past him and asked the hostess	 for	a	2.4839534759521484	3.651515007019043	8.886859723133966e-05	0.29223647713661194	15
+12	bigbang_transcript	transcript	gpt2	 suspiciously. His roommate Leonard pushed past him and asked the hostess for	 a	drink	1.3120585680007935	5.245720863342285	0.00010157647193409503	0.15127311646938324	15
+13	bigbang_transcript	transcript	gpt2	ly. His roommate Leonard pushed past him and asked the hostess for a	 table	.	4.995508670806885	2.4881348609924316	0.000581669679377228	0.4678581655025482	15
+14	bigbang_transcript	transcript	gpt2	. His roommate Leonard pushed past him and asked the hostess for a table	 for	him	3.5338287353515625	3.698770046234131	0.00012588505342137069	0.2035609483718872	15
+15	bigbang_transcript	transcript	gpt2	 His roommate Leonard pushed past him and asked the hostess for a table for	 two	.	4.696154594421387	2.7285566329956055	0.000312188669340685	0.4879397749900818	15
+16	bigbang_transcript	transcript	gpt2	 roommate Leonard pushed past him and asked the hostess for a table for two	.	"
+"	0.6511064171791077	4.0610480308532715	1.5247807823470794e-05	0.19806376099586487	15
+17	bigbang_transcript	transcript	gpt2	 Leonard pushed past him and asked the hostess for a table for two.	 As	he	4.285840034484863	3.80716609954834	7.625589933013543e-05	0.23265478014945984	15
+18	bigbang_transcript	transcript	gpt2	 pushed past him and asked the hostess for a table for two. As	 they	were	2.483555793762207	4.191925048828125	1.7555834347149357e-05	0.1502847969532013	15
+19	bigbang_transcript	transcript	gpt2	 past him and asked the hostess for a table for two. As they	 were	leaving	1.7681059837341309	4.4971513748168945	2.8958676921320148e-05	0.14015500247478485	15
+20	bigbang_transcript	transcript	gpt2	 him and asked the hostess for a table for two. As they were	 led	to	7.931517601013184	2.723177194595337	5.537224296858767e-06	0.32626208662986755	15
+21	bigbang_transcript	transcript	gpt2	 and asked the hostess for a table for two. As they were led	 to	the	1.0906713008880615	2.2908923625946045	0.00041153328493237495	0.5309376120567322	15
+22	bigbang_transcript	transcript	gpt2	 asked the hostess for a table for two. As they were led to	 their	table	3.546316385269165	3.0188698768615723	9.226609108736739e-06	0.4002242088317871	15
+23	bigbang_transcript	transcript	gpt2	 the hostess for a table for two. As they were led to their	 chairs	,	5.093449592590332	2.0543251037597656	4.562660978990607e-05	0.6287621855735779	15
+24	bigbang_transcript	transcript	gpt2	 hostess for a table for two. As they were led to their chairs	,	the	0.47039294242858887	5.592942714691162	0.0001632890198379755	0.12259367853403091	15
+25	bigbang_transcript	transcript	gpt2	ess for a table for two. As they were led to their chairs,	 Sheldon	and	10.286897659301758	6.031230926513672	0.0003583145735319704	0.08994302153587341	15
+26	bigbang_transcript	transcript	gpt2	 for a table for two. As they were led to their chairs, Sheldon	 began	to	3.691009998321533	3.800326347351074	6.897791536175646e-06	0.47257500886917114	15
+27	bigbang_transcript	transcript	gpt2	 a table for two. As they were led to their chairs, Sheldon began	 to	speak	0.7598848938941956	6.052971839904785	0.00012066436465829611	0.06470371782779694	15
+28	bigbang_transcript	transcript	gpt2	 table for two. As they were led to their chairs, Sheldon began to	 protest	.	5.644107818603516	3.360011100769043	5.267338565317914e-06	0.3011786639690399	15
+29	bigbang_transcript	transcript	gpt2	 for two. As they were led to their chairs, Sheldon began to protest	 yet	again	9.121086120605469	0.6595839262008667	6.164582737255841e-05	0.8713259696960449	15
+30	bigbang_transcript	transcript	gpt2	 two. As they were led to their chairs, Sheldon began to protest yet	 again	.	0.1403946727514267	2.2034146785736084	0.00016299950948450714	0.4600393772125244	15
+31	bigbang_transcript	transcript	gpt2	. As they were led to their chairs, Sheldon began to protest yet again	.	"
+"	0.7120903134346008	3.794475793838501	1.0744320206867997e-05	0.21464894711971283	15
+32	bigbang_transcript	transcript	gpt2	 As they were led to their chairs, Sheldon began to protest yet again.	" """	I	1.5165985822677612	4.623594284057617	3.054182798223337e-06	0.12687107920646667	15
+33	bigbang_transcript	transcript	gpt2	" they were led to their chairs, Sheldon began to protest yet again. """	Just	because	5.428870677947998	5.165982246398926	2.7638211008707003e-07	0.11113251000642776	15
+34	bigbang_transcript	transcript	gpt2	" were led to their chairs, Sheldon began to protest yet again. ""Just"	 because	you	2.150216579437256	3.266493558883667	7.010588888078928e-05	0.2853253185749054	15
+35	bigbang_transcript	transcript	gpt2	" led to their chairs, Sheldon began to protest yet again. ""Just because"	 our	government	5.010748863220215	6.905468463897705	0.00014406935952138156	0.05517316237092018	15
+36	bigbang_transcript	transcript	gpt2	" to their chairs, Sheldon began to protest yet again. ""Just because our"	 next	president	6.9488019943237305	6.567310333251953	0.0007045051315799356	0.09114270657300949	15
+37	bigbang_transcript	transcript	gpt2	" their chairs, Sheldon began to protest yet again. ""Just because our next"	-	door	4.939460754394531	0.8898271918296814	1.8905544493463822e-05	0.8583338856697083	15
+38	bigbang_transcript	transcript	gpt2	" chairs, Sheldon began to protest yet again. ""Just because our next-"	door	neighbor	0.15001487731933594	0.8270930647850037	2.7203400421171864e-08	0.7322899103164673	15
+39	bigbang_transcript	transcript	gpt2	", Sheldon began to protest yet again. ""Just because our next-door"	 neighbor	is	0.28658267855644226	3.946445941925049	6.784220022382215e-05	0.293973833322525	15
+40	bigbang_transcript	transcript	gpt2	" Sheldon began to protest yet again. ""Just because our next-door neighbor"	 is	a	1.2212227582931519	5.899627685546875	0.00013435317669063807	0.15149439871311188	15
+41	bigbang_transcript	transcript	gpt2	" began to protest yet again. ""Just because our next-door neighbor is"	 a	Muslim	1.9573646783828735	6.180782794952393	0.00013151587336324155	0.15935009717941284	15
+42	bigbang_transcript	transcript	gpt2	" to protest yet again. ""Just because our next-door neighbor is a"	 waitress	doesn	10.443485260009766	2.9173781871795654	7.791125426592771e-06	0.33926159143447876	15
+43	bigbang_transcript	transcript	gpt2	" protest yet again. ""Just because our next-door neighbor is a waitress"	 here	doesn	6.139071464538574	2.671473741531372	0.000563602487090975	0.3375573754310608	15
+44	bigbang_transcript	transcript	gpt2	" yet again. ""Just because our next-door neighbor is a waitress here"	,	doesn	1.4334080219268799	3.0685226917266846	3.845675746561028e-05	0.3622179329395294	15
+45	bigbang_transcript	transcript	gpt2	" again. ""Just because our next-door neighbor is a waitress here,"	 it	doesn	2.418823480606079	1.3487257957458496	1.1574874406505842e-05	0.7376819849014282	15
+46	bigbang_transcript	transcript	gpt2	". ""Just because our next-door neighbor is a waitress here, it"	 does	not	3.084872245788574	0.6012585759162903	4.392896642002597e-07	0.9206041693687439	15
+47	bigbang_transcript	transcript	gpt2	" ""Just because our next-door neighbor is a waitress here, it does"	 not	mean	0.07138267159461975	0.8820875287055969	7.050258864182979e-05	0.8412616848945618	15
+48	bigbang_transcript	transcript	gpt2	Just because our next-door neighbor is a waitress here, it does not	 logically	follow	8.762228012084961	1.7313543558120728	0.0013440585462376475	0.6800697445869446	15
+49	bigbang_transcript	transcript	gpt2	 because our next-door neighbor is a waitress here, it does not logically	 follow	that	0.2168676108121872	0.9128950238227844	4.811248800251633e-06	0.8625133037567139	15
+50	bigbang_transcript	transcript	gpt2	 our next-door neighbor is a waitress here, it does not logically follow	 that	she	0.17940397560596466	4.177961826324463	0.005770419724285603	0.20908506214618683	15
+51	bigbang_transcript	transcript	gpt2	 next-door neighbor is a waitress here, it does not logically follow that	 we	should	4.394496917724609	3.5984084606170654	6.139303150121123e-05	0.20955006778240204	15
+52	bigbang_transcript	transcript	gpt2	-door neighbor is a waitress here, it does not logically follow that we	 have	to	3.145443916320801	4.192379474639893	7.731149526080117e-05	0.2569247782230377	15
+53	bigbang_transcript	transcript	gpt2	door neighbor is a waitress here, it does not logically follow that we have	 to	be	1.3855005502700806	5.7073516845703125	0.0001914622262120247	0.06437039375305176	15
+54	bigbang_transcript	transcript	gpt2	 neighbor is a waitress here, it does not logically follow that we have to	 eat	at	4.729395866394043	4.638149738311768	9.340399992652237e-05	0.1363784521818161	15
+55	bigbang_transcript	transcript	gpt2	 is a waitress here, it does not logically follow that we have to eat	 here	.	2.2426023483276367	3.3697760105133057	0.0006355736986733973	0.3147535026073456	15
+56	bigbang_transcript	transcript	gpt2	 a waitress here, it does not logically follow that we have to eat here	"."""	"
+"	3.198504686355591	2.5971946716308594	2.1274981918395497e-05	0.6445643305778503	15
+57	bigbang_transcript	transcript	gpt2	" waitress here, it does not logically follow that we have to eat here."""	" """	I	3.8150267601013184	4.834259986877441	4.4811142288381234e-05	0.10104720294475555	15
+58	bigbang_transcript	transcript	gpt2	" here, it does not logically follow that we have to eat here."" """	What	do	3.4189469814300537	3.949679136276245	1.6353380942746298e-06	0.10757328569889069	15
+59	bigbang_transcript	transcript	gpt2	", it does not logically follow that we have to eat here."" ""What"	�	�	13.600881576538086	1.9254741668701172	3.917963731225882e-10	0.5485442280769348	15
+60	bigbang_transcript	transcript	gpt2	" it does not logically follow that we have to eat here."" ""What�"	�	"?"""	11.106595993041992	6.168040752410889	1.9200188035028987e-06	0.06474178284406662	15
+61	bigbang_transcript	transcript	gpt2	" does not logically follow that we have to eat here."" ""What’"	s	the	3.59494948387146	3.9858758449554443	2.8732591090374626e-05	0.2898983359336853	15
+62	bigbang_transcript	transcript	gpt2	" not logically follow that we have to eat here."" ""What’s"	 the	point	1.2755080461502075	4.008731365203857	0.00022711552446708083	0.41298460960388184	15
+63	bigbang_transcript	transcript	gpt2	" logically follow that we have to eat here."" ""What’s the"	 point	�	1.1070380210876465	2.1271233558654785	1.0672963981050998e-05	0.3093825876712799	15
+64	bigbang_transcript	transcript	gpt2	" follow that we have to eat here."" ""What’s the point"	 of	eating	1.6881234645843506	5.280524730682373	5.773087468696758e-05	0.1069212257862091	15
+65	bigbang_transcript	transcript	gpt2	" that we have to eat here."" ""What’s the point of"	 even	eating	7.267122268676758	5.0424675941467285	0.00031402564491145313	0.07875120639801025	15
+66	bigbang_transcript	transcript	gpt2	" we have to eat here."" ""What’s the point of even"	 having	to	3.107921600341797	4.23321008682251	2.197531284764409e-05	0.2224932760000229	15
+67	bigbang_transcript	transcript	gpt2	" have to eat here."" ""What’s the point of even having"	 a	restaurant	1.666822910308838	6.649397850036621	6.695412594126537e-05	0.043447621166706085	15
+68	bigbang_transcript	transcript	gpt2	" to eat here."" ""What’s the point of even having a"	 weekly	meal	9.431583404541016	5.782985687255859	0.0004682592407334596	0.1707434207201004	15
+69	bigbang_transcript	transcript	gpt2	" eat here."" ""What’s the point of even having a weekly"	 restaurant	"?"""	4.236905097961426	2.8878262042999268	0.00031014447449706495	0.4436371922492981	15
+70	bigbang_transcript	transcript	gpt2	" here."" ""What’s the point of even having a weekly restaurant"	 schedule	"?"""	8.029348373413086	2.8054065704345703	7.088925030984683e-06	0.41404208540916443	15
+71	bigbang_transcript	transcript	gpt2	"."" ""What’s the point of even having a weekly restaurant schedule"	 if	you	2.543870687484741	2.7249040603637695	0.00033742611412890255	0.464844286441803	15
+72	bigbang_transcript	transcript	gpt2	" ""What’s the point of even having a weekly restaurant schedule if"	 we	don	2.718531370162964	3.3611483573913574	4.739111682283692e-05	0.23802180588245392	15
+73	bigbang_transcript	transcript	gpt2	What’s the point of even having a weekly restaurant schedule if we	�	�	9.402169227600098	2.4155972003936768	4.3218623124730016e-10	0.38737404346466064	15
+74	bigbang_transcript	transcript	gpt2	’s the point of even having a weekly restaurant schedule if we�	�	s	2.0925943851470947	3.445690631866455	5.765535888713202e-07	0.24532009661197662	15
+75	bigbang_transcript	transcript	gpt2	�s the point of even having a weekly restaurant schedule if we’	re	going	3.43326997756958	5.385058403015137	7.775402991683222e-06	0.09592866897583008	15
+76	bigbang_transcript	transcript	gpt2	s the point of even having a weekly restaurant schedule if we’re	 not	going	2.3615705966949463	6.221337795257568	0.0016137260245159268	0.050834789872169495	15
+77	bigbang_transcript	transcript	gpt2	 the point of even having a weekly restaurant schedule if we’re not	 going	to	2.9211819171905518	0.9456872344017029	1.8478955098544247e-05	0.8778751492500305	15
+78	bigbang_transcript	transcript	gpt2	 point of even having a weekly restaurant schedule if we’re not going	 to	be	0.1285753846168518	5.736187934875488	0.0003714444173965603	0.08330310136079788	15
+79	bigbang_transcript	transcript	gpt2	 of even having a weekly restaurant schedule if we’re not going to	 follow	the	6.445944309234619	4.2968621253967285	3.518564335536212e-05	0.1776702105998993	15
+80	bigbang_transcript	transcript	gpt2	 even having a weekly restaurant schedule if we’re not going to follow	 it	up	2.6664955615997314	2.8076159954071045	0.0003779820108320564	0.4531475603580475	15
+81	bigbang_transcript	transcript	gpt2	 having a weekly restaurant schedule if we’re not going to follow it	"?"""	"
+"	5.9012770652771	3.6966819763183594	9.648242848925292e-05	0.5103864669799805	15
+82	bigbang_transcript	transcript	gpt2	" a weekly restaurant schedule if we’re not going to follow it?"""	 Leonard	said	12.216511726379395	4.613598823547363	0.0001954026083694771	0.22002026438713074	15
+83	bigbang_transcript	transcript	gpt2	" weekly restaurant schedule if we’re not going to follow it?"" Leonard"	 sighed	.	6.635529518127441	1.7938134670257568	2.044111397481174e-06	0.6154481768608093	15
+84	bigbang_transcript	transcript	gpt2	" restaurant schedule if we’re not going to follow it?"" Leonard sighed"	,	""""	1.7866053581237793	5.675191402435303	3.867085251840763e-05	0.11863909661769867	15
+85	bigbang_transcript	transcript	gpt2	" schedule if we’re not going to follow it?"" Leonard sighed,"	 and	then	2.9321882724761963	6.114314079284668	0.00041877085459418595	0.061568718403577805	15
+86	bigbang_transcript	transcript	gpt2	" if we’re not going to follow it?"" Leonard sighed, and"	 picked	up	6.281220436096191	0.9532822966575623	1.228063752023445e-06	0.8486350178718567	15
+87	bigbang_transcript	transcript	gpt2	" we’re not going to follow it?"" Leonard sighed, and picked"	 up	the	0.15324154496192932	2.507472038269043	0.0007268068729899824	0.32101544737815857	15
+88	bigbang_transcript	transcript	gpt2	"’re not going to follow it?"" Leonard sighed, and picked up"	 one	of	4.539978981018066	1.5176665782928467	0.00014614115934818983	0.8233708739280701	15
+89	bigbang_transcript	transcript	gpt2	"�re not going to follow it?"" Leonard sighed, and picked up one"	 of	the	0.19295436143875122	1.9960992336273193	2.0184055756544694e-05	0.6094726324081421	15
+90	bigbang_transcript	transcript	gpt2	"re not going to follow it?"" Leonard sighed, and picked up one of"	 the	books	0.4671950936317444	7.390190124511719	0.00046251757885329425	0.02998523600399494	15
+91	bigbang_transcript	transcript	gpt2	" not going to follow it?"" Leonard sighed, and picked up one of the"	 menus	.	8.779827117919922	2.9348084926605225	5.826159394928254e-06	0.3522300124168396	15
+92	bigbang_transcript	transcript	gpt2	" going to follow it?"" Leonard sighed, and picked up one of the menus"	 on	the	2.4353408813476562	1.4202086925506592	2.329063499928452e-05	0.6464805006980896	15
+93	bigbang_transcript	transcript	gpt2	" to follow it?"" Leonard sighed, and picked up one of the menus on"	 the	table	0.4504687786102295	4.806025981903076	0.0002165453479392454	0.0988340750336647	15
+94	bigbang_transcript	transcript	gpt2	" follow it?"" Leonard sighed, and picked up one of the menus on the"	 table	.	2.181554079055786	2.129037618637085	3.2431013096356764e-05	0.5338339805603027	15
+95	bigbang_transcript	transcript	gpt2	" it?"" Leonard sighed, and picked up one of the menus on the table"	.	""""	0.641854465007782	2.5096616744995117	5.690164925908903e-06	0.44592082500457764	15
+96	bigbang_transcript	transcript	gpt2	"?"" Leonard sighed, and picked up one of the menus on the table."	" """	I	0.8949872255325317	5.2455830574035645	1.1682523108902387e-06	0.10392065346240997	15
+97	bigbang_transcript	transcript	gpt2	" Leonard sighed, and picked up one of the menus on the table. """	You	're	2.9060847759246826	4.26578950881958	2.3900513568264614e-08	0.14513099193572998	15
+98	bigbang_transcript	transcript	gpt2	" sighed, and picked up one of the menus on the table. ""You"	�	�	15.0197172164917	1.7124096155166626	3.2648447834127126e-10	0.585442304611206	15
+99	bigbang_transcript	transcript	gpt2	", and picked up one of the menus on the table. ""You�"	�	t	10.178878784179688	5.0970611572265625	3.504750111460453e-06	0.10409843921661377	15
+100	bigbang_transcript	transcript	gpt2	" and picked up one of the menus on the table. ""You’"	ll	have	3.364678382873535	4.164301872253418	5.7893863413482904e-05	0.1559884399175644	15
+101	bigbang_transcript	transcript	gpt2	" picked up one of the menus on the table. ""You’ll"	 live	here	7.618391990661621	3.8957886695861816	0.00017099679098464549	0.15536649525165558	15
+102	bigbang_transcript	transcript	gpt2	" up one of the menus on the table. ""You’ll live"	"."""	"
+"	3.9931697845458984	3.9811394214630127	7.12291439413093e-05	0.41331109404563904	15
+103	bigbang_transcript	transcript	gpt2	" one of the menus on the table. ""You’ll live."""	" """	I	3.225968837738037	4.574458122253418	6.5007980083464645e-06	0.1426030695438385	15
+104	bigbang_transcript	transcript	gpt2	" of the menus on the table. ""You’ll live."" """	Trust	me	8.32385540008545	1.1209529638290405	1.3781831853520998e-07	0.8454797267913818	15
+105	bigbang_transcript	transcript	gpt2	" the menus on the table. ""You’ll live."" ""Trust"	 me	,	0.1643836945295334	2.326364755630493	9.41124526434578e-05	0.300724059343338	15
+106	bigbang_transcript	transcript	gpt2	" menus on the table. ""You’ll live."" ""Trust me"	,	I	1.1522538661956787	4.742895126342773	6.523109914269298e-05	0.25712093710899353	15
+107	bigbang_transcript	transcript	gpt2	" on the table. ""You’ll live."" ""Trust me,"	 everything	is	7.358227252960205	3.414377212524414	3.794546137214638e-05	0.15614338219165802	15
+108	bigbang_transcript	transcript	gpt2	" the table. ""You’ll live."" ""Trust me, everything"	�	�	3.763840675354004	0.789030134677887	6.194205148801757e-10	0.8681288361549377	15
+109	bigbang_transcript	transcript	gpt2	" table. ""You’ll live."" ""Trust me, everything�"	�	is	0.11975710093975067	4.534329891204834	1.0863516308745602e-06	0.2326682209968567	15
+110	bigbang_transcript	transcript	gpt2	". ""You’ll live."" ""Trust me, everything’"	s	going	3.6714463233947754	3.571316719055176	9.77516538114287e-06	0.30640366673469543	15
+111	bigbang_transcript	transcript	gpt2	" ""You’ll live."" ""Trust me, everything’s"	 good	"."""	3.4082016944885254	3.1036274433135986	0.00025851186364889145	0.22272485494613647	15
+112	bigbang_transcript	transcript	gpt2	"You’ll live."" ""Trust me, everything’s good"	 here	.	4.565284729003906	2.6882131099700928	0.0017181163420900702	0.3294798731803894	15
+113	bigbang_transcript	transcript	gpt2	"’ll live."" ""Trust me, everything’s good here"	"."""	""""	1.8683642148971558	4.253859519958496	3.373912113602273e-05	0.3542911410331726	15
+114	bigbang_transcript	transcript	gpt2	"�ll live."" ""Trust me, everything’s good here."""	" """	I	1.0656307935714722	5.115393161773682	2.4718628992559388e-05	0.13246409595012665	15
+115	bigbang_transcript	transcript	gpt2	"ll live."" ""Trust me, everything’s good here."" """	Stat	istically	12.693568229675293	3.53963041305542	5.191621767153265e-06	0.3209387958049774	15
+116	bigbang_transcript	transcript	gpt2	" live."" ""Trust me, everything’s good here."" ""Stat"	istically	speaking	0.8748651146888733	1.9998857975006104	1.1022109447367257e-06	0.4172767102718353	15
+117	bigbang_transcript	transcript	gpt2	"."" ""Trust me, everything’s good here."" ""Statistically"	 unlikely	"."""	10.597233772277832	3.034960985183716	1.245418479811633e-05	0.1989782601594925	15
+118	bigbang_transcript	transcript	gpt2	" ""Trust me, everything’s good here."" ""Statistically unlikely"	","""	said	1.6451683044433594	5.756311893463135	1.886382233351469e-05	0.1176128163933754	15
+119	bigbang_transcript	transcript	gpt2	"Trust me, everything’s good here."" ""Statistically unlikely,"""	 said	the	1.9097251892089844	7.167995929718018	0.000208889483474195	0.0814698338508606	15
+120	bigbang_transcript	transcript	gpt2	" me, everything’s good here."" ""Statistically unlikely,"" said"	 Sheldon	.	10.167563438415527	2.5783193111419678	0.0011539774714037776	0.5237269997596741	15
+121	bigbang_transcript	transcript	gpt2	", everything’s good here."" ""Statistically unlikely,"" said Sheldon"	.	""""	0.7233721613883972	1.7748839855194092	1.0474451300979126e-05	0.7792438864707947	15
+122	bigbang_transcript	transcript	gpt2	" everything’s good here."" ""Statistically unlikely,"" said Sheldon."	 Penny	was	9.6018648147583	5.9990997314453125	0.00011504504072945565	0.049771297723054886	15
+123	bigbang_transcript	transcript	gpt2	"’s good here."" ""Statistically unlikely,"" said Sheldon. Penny"	,	who	3.3154842853546143	6.03094482421875	2.6783018256537616e-05	0.1507791131734848	15
+124	bigbang_transcript	transcript	gpt2	"�s good here."" ""Statistically unlikely,"" said Sheldon. Penny,"	 their	friend	7.097114562988281	7.392997741699219	0.00011544734297785908	0.025081157684326172	15
+125	bigbang_transcript	transcript	gpt2	"s good here."" ""Statistically unlikely,"" said Sheldon. Penny, their"	 neighbor	,	6.598313331604004	2.4610512256622314	0.00014069917961023748	0.6288174390792847	15
+126	bigbang_transcript	transcript	gpt2	" good here."" ""Statistically unlikely,"" said Sheldon. Penny, their neighbor"	,	was	0.44538864493370056	5.1985578536987305	0.0002143692399840802	0.12451944500207901	15
+127	bigbang_transcript	transcript	gpt2	" here."" ""Statistically unlikely,"" said Sheldon. Penny, their neighbor,"	 came	over	5.4524641036987305	3.35152006149292	1.1420382179494482e-05	0.1880824863910675	15
+128	bigbang_transcript	transcript	gpt2	"."" ""Statistically unlikely,"" said Sheldon. Penny, their neighbor, came"	 over	to	2.528521776199341	3.3634040355682373	0.0012556215515360236	0.300466924905777	15
+129	bigbang_transcript	transcript	gpt2	" ""Statistically unlikely,"" said Sheldon. Penny, their neighbor, came over"	 to	the	1.1204979419708252	5.02412223815918	0.00014651638048235327	0.13505622744560242	15
+130	bigbang_transcript	transcript	gpt2	"Statistically unlikely,"" said Sheldon. Penny, their neighbor, came over to"	 the	house	1.9940911531448364	4.973240375518799	0.0002835360646713525	0.30470940470695496	15
+131	bigbang_transcript	transcript	gpt2	"istically unlikely,"" said Sheldon. Penny, their neighbor, came over to the"	 table	and	4.797128677368164	2.7834670543670654	9.678955393610522e-05	0.35734596848487854	15
+132	bigbang_transcript	transcript	gpt2	" unlikely,"" said Sheldon. Penny, their neighbor, came over to the table"	 to	help	2.260106086730957	5.295719146728516	0.0001330119848717004	0.052839409559965134	15
+133	bigbang_transcript	transcript	gpt2	","" said Sheldon. Penny, their neighbor, came over to the table to"	 take	a	3.349862813949585	2.455239772796631	6.5471394918859e-05	0.5394341349601746	15
+134	bigbang_transcript	transcript	gpt2	 said Sheldon. Penny, their neighbor, came over to the table to take	 their	order	4.1460161209106445	5.749879360198975	0.00012513498950283974	0.08227598667144775	15
+135	bigbang_transcript	transcript	gpt2	 Sheldon. Penny, their neighbor, came over to the table to take their	 order	.	2.7296512126922607	1.790171504020691	1.4444636690313928e-05	0.5946450233459473	15
+136	bigbang_transcript	transcript	gpt2	. Penny, their neighbor, came over to the table to take their order	.	"
+"	0.4632176160812378	4.0686798095703125	1.4062483387533575e-05	0.1617671549320221	15
+137	bigbang_transcript	transcript	gpt2	 Penny, their neighbor, came over to the table to take their order.	" """	I	2.670297145843506	5.081218242645264	1.1559200174815487e-05	0.10549633949995041	15
+138	bigbang_transcript	transcript	gpt2	", their neighbor, came over to the table to take their order. """	Hi	,	6.989272117614746	3.5586447715759277	8.844641342875548e-06	0.3844965100288391	15
+139	bigbang_transcript	transcript	gpt2	" their neighbor, came over to the table to take their order. ""Hi"	 guys	","""	4.665490627288818	2.0485870838165283	0.0009748145239427686	0.3506544232368469	15
+140	bigbang_transcript	transcript	gpt2	" neighbor, came over to the table to take their order. ""Hi guys"	"?"""	he	6.002668857574463	4.440700531005859	1.1809182979050092e-05	0.15124385058879852	15
+141	bigbang_transcript	transcript	gpt2	", came over to the table to take their order. ""Hi guys?"""	" """	I	3.6408419609069824	4.9754252433776855	3.7196794437477365e-05	0.09484825283288956	15
+142	bigbang_transcript	transcript	gpt2	" came over to the table to take their order. ""Hi guys?"" """	You	're	4.000237464904785	4.555775165557861	9.01538328434981e-08	0.1652643382549286	15
+143	bigbang_transcript	transcript	gpt2	" over to the table to take their order. ""Hi guys?"" ""You"	 ready	"?"""	5.269723415374756	2.045605182647705	0.0006099132006056607	0.373765766620636	15
+144	bigbang_transcript	transcript	gpt2	" to the table to take their order. ""Hi guys?"" ""You ready"	"?"""	""""	1.0205968618392944	3.909804582595825	8.150078065227717e-05	0.4417121708393097	15
+145	bigbang_transcript	transcript	gpt2	" the table to take their order. ""Hi guys?"" ""You ready?"""	 Sheldon	asked	11.276615142822266	3.4959981441497803	5.711871926905587e-05	0.4463207423686981	15
+146	bigbang_transcript	transcript	gpt2	" table to take their order. ""Hi guys?"" ""You ready?"" Sheldon"	 gest	ured	9.237796783447266	0.0441722609102726	3.197406783783663e-09	0.9938265681266785	15
+147	bigbang_transcript	transcript	gpt2	" to take their order. ""Hi guys?"" ""You ready?"" Sheldon gest"	ured	to	0.007605998311191797	2.715161085128784	1.3699943224310118e-07	0.34562844038009644	15
+148	bigbang_transcript	transcript	gpt2	" take their order. ""Hi guys?"" ""You ready?"" Sheldon gestured"	 at	the	2.0218238830566406	4.476980209350586	8.807439735392109e-05	0.3729454278945923	15
+149	bigbang_transcript	transcript	gpt2	" their order. ""Hi guys?"" ""You ready?"" Sheldon gestured at"	 the	two	1.055610179901123	7.684409141540527	0.00034002240863628685	0.019796768203377724	15
+150	bigbang_transcript	transcript	gpt2	" order. ""Hi guys?"" ""You ready?"" Sheldon gestured at the"	 menu	.	6.971882343292236	2.9095401763916016	0.012876146472990513	0.4491082429885864	15
+151	bigbang_transcript	transcript	gpt2	". ""Hi guys?"" ""You ready?"" Sheldon gestured at the menu"	,	""""	1.9526983499526978	4.5579094886779785	2.849604788934812e-05	0.1832408457994461	15
+152	bigbang_transcript	transcript	gpt2	" ""Hi guys?"" ""You ready?"" Sheldon gestured at the menu,"	 fl	icking	8.02192497253418	1.3916739225387573	8.180742838703736e-08	0.7421987652778625	15
+153	bigbang_transcript	transcript	gpt2	"Hi guys?"" ""You ready?"" Sheldon gestured at the menu, fl"	ust	ered	3.6010892391204834	0.050900254398584366	3.238689594287081e-10	0.991108775138855	15
+154	bigbang_transcript	transcript	gpt2	" guys?"" ""You ready?"" Sheldon gestured at the menu, flust"	ered	.	0.011217503808438778	2.2600553035736084	4.212233193356951e-07	0.5691814422607422	15
+155	bigbang_transcript	transcript	gpt2	"?"" ""You ready?"" Sheldon gestured at the menu, flustered"	.	""""	0.6024406552314758	2.4332098960876465	7.129307050490752e-06	0.644137442111969	15
+156	bigbang_transcript	transcript	gpt2	" ""You ready?"" Sheldon gestured at the menu, flustered."	" """	I	0.7286014556884766	4.994811534881592	2.5640028411544336e-07	0.13535943627357483	15
+157	bigbang_transcript	transcript	gpt2	"You ready?"" Sheldon gestured at the menu, flustered. """	We	're	3.29176926612854	3.2226579189300537	5.6690556249350266e-08	0.2534603476524353	15
+158	bigbang_transcript	transcript	gpt2	" ready?"" Sheldon gestured at the menu, flustered. ""We"	 don	't	2.863387107849121	0.007120608352124691	6.817121978031082e-09	0.999394416809082	15
+159	bigbang_transcript	transcript	gpt2	"?"" Sheldon gestured at the menu, flustered. ""We don"	�	�	16.095125198364258	2.1627180576324463	1.9981447052508372e-10	0.33143526315689087	15
+160	bigbang_transcript	transcript	gpt2	" Sheldon gestured at the menu, flustered. ""We don�"	�	t	9.886175155639648	3.962557077407837	1.8609092649057857e-06	0.22831293940544128	15
+161	bigbang_transcript	transcript	gpt2	" gestured at the menu, flustered. ""We don’"	t	have	1.923410177230835	3.6536078453063965	1.6555737829548889e-06	0.21672110259532928	15
+162	bigbang_transcript	transcript	gpt2	"ured at the menu, flustered. ""We don’t"	 eat	here	4.7069315910339355	5.648993968963623	0.00027953778044320643	0.06656275689601898	15
+163	bigbang_transcript	transcript	gpt2	" at the menu, flustered. ""We don’t eat"	 here	.	3.036895513534546	3.344722270965576	0.0010420946637168527	0.1561664193868637	15
+164	bigbang_transcript	transcript	gpt2	" the menu, flustered. ""We don’t eat here"	,	we	2.096780300140381	5.441522121429443	7.061874202918261e-05	0.1021881178021431	15
+165	bigbang_transcript	transcript	gpt2	" menu, flustered. ""We don’t eat here,"	 I	don	3.84043550491333	4.103076934814453	0.00023740108008496463	0.12029863893985748	15
+166	bigbang_transcript	transcript	gpt2	", flustered. ""We don’t eat here, I"	 don	�	1.8747965097427368	0.9113616943359375	4.789286776940571e-06	0.5576385855674744	15
+167	bigbang_transcript	transcript	gpt2	" flustered. ""We don’t eat here, I don"	�	�	0.5925211906433105	0.4219551384449005	1.936181215356214e-09	0.9372916221618652	15
+168	bigbang_transcript	transcript	gpt2	"ustered. ""We don’t eat here, I don�"	�	t	0.11265493184328079	0.8224372863769531	1.2473414301439334e-07	0.8469475507736206	15
+169	bigbang_transcript	transcript	gpt2	"ered. ""We don’t eat here, I don’"	t	eat	0.1321956068277359	3.950702428817749	5.126133601152105e-06	0.2309063822031021	15
+170	bigbang_transcript	transcript	gpt2	". ""We don’t eat here, I don’t"	 know	what	3.8803870677948	2.937087059020996	9.961911928257905e-06	0.255123496055603	15
+171	bigbang_transcript	transcript	gpt2	" ""We don’t eat here, I don’t know"	 what	to	1.4841889142990112	3.9348294734954834	0.0005224512424319983	0.16359543800354004	15
+172	bigbang_transcript	transcript	gpt2	We don’t eat here, I don’t know what	�	�	1.9355531930923462	0.47603297233581543	4.0617759156091893e-10	0.9304742813110352	15
+173	bigbang_transcript	transcript	gpt2	 don’t eat here, I don’t know what�	�	t	0.04773256927728653	2.402144193649292	8.694283906152123e-07	0.6882962584495544	15
+174	bigbang_transcript	transcript	gpt2	’t eat here, I don’t know what’	s	going	4.545660972595215	4.466677188873291	6.180380296427757e-05	0.2169753760099411	15
+175	bigbang_transcript	transcript	gpt2	�t eat here, I don’t know what’s	 good	�	4.60432243347168	2.8465735912323	0.0002812041493598372	0.2990793287754059	15
+176	bigbang_transcript	transcript	gpt2	t eat here, I don’t know what’s good	"."""	"
+"	5.317587852478027	3.3942887783050537	6.430425855796784e-05	0.539987325668335	15
+177	bigbang_transcript	transcript	gpt2	" eat here, I don’t know what’s good."""	" """	I	3.5919480323791504	4.797875881195068	5.7810138969216496e-05	0.12335965037345886	15
+178	bigbang_transcript	transcript	gpt2	" here, I don’t know what’s good."" """	Just	because	5.2249627113342285	5.502458572387695	3.580261818569852e-06	0.04696812853217125	15
+179	bigbang_transcript	transcript	gpt2	", I don’t know what’s good."" ""Just"	 get	out	5.03533935546875	4.414597511291504	8.159463322954252e-05	0.07661697268486023	15
+180	bigbang_transcript	transcript	gpt2	" I don’t know what’s good."" ""Just get"	 a	job	3.2226901054382324	6.528048992156982	0.00011647798237390816	0.08473845571279526	15
+181	bigbang_transcript	transcript	gpt2	" don’t know what’s good."" ""Just get a"	 hamb	urger	7.402545928955078	0.07948728650808334	2.409479504805745e-09	0.9847912192344666	15
+182	bigbang_transcript	transcript	gpt2	"’t know what’s good."" ""Just get a hamb"	urger	,	0.012433869764208794	4.055771350860596	9.513282748230267e-06	0.12012553215026855	15
+183	bigbang_transcript	transcript	gpt2	"�t know what’s good."" ""Just get a hamburger"	,	and	2.0888986587524414	6.095333099365234	0.00010188535816268995	0.0630638524889946	15
+184	bigbang_transcript	transcript	gpt2	"t know what’s good."" ""Just get a hamburger,"	 you	know	2.918027877807617	5.9607367515563965	0.00033337087370455265	0.10787906497716904	15
+185	bigbang_transcript	transcript	gpt2	" know what’s good."" ""Just get a hamburger, you"	 like	it	6.089173316955566	3.430190324783325	0.000294027995551005	0.32452383637428284	15
+186	bigbang_transcript	transcript	gpt2	" what’s good."" ""Just get a hamburger, you like"	 hamb	urg	2.6415367126464844	0.32059329748153687	2.246811163786333e-07	0.9360635280609131	15
+187	bigbang_transcript	transcript	gpt2	"’s good."" ""Just get a hamburger, you like hamb"	urg	ers	0.07051263749599457	0.042577385902404785	5.817984128952958e-05	0.9962691068649292	15
+188	bigbang_transcript	transcript	gpt2	"�s good."" ""Just get a hamburger, you like hamburg"	ers	"."""	0.0044948020949959755	2.7717089653015137	1.1920915312657598e-06	0.24625623226165771	15
+189	bigbang_transcript	transcript	gpt2	"s good."" ""Just get a hamburger, you like hamburgers"	","""	said	2.2159957885742188	6.015183925628662	2.0874469555565156e-05	0.12836886942386627	15
+190	bigbang_transcript	transcript	gpt2	" good."" ""Just get a hamburger, you like hamburgers,"""	 said	the	2.0819664001464844	7.032351016998291	0.00032107013976201415	0.10265675187110901	15
+191	bigbang_transcript	transcript	gpt2	"."" ""Just get a hamburger, you like hamburgers,"" said"	 Leonard	.	7.831906318664551	3.9581871032714844	0.0016353767132386565	0.4404066205024719	15
+192	bigbang_transcript	transcript	gpt2	" ""Just get a hamburger, you like hamburgers,"" said Leonard"	.	""""	1.2241803407669067	2.1105241775512695	7.251348051795503e-06	0.41366085410118103	15
+193	bigbang_transcript	transcript	gpt2	"Just get a hamburger, you like hamburgers,"" said Leonard."	" """	You	0.773017168045044	4.272587776184082	1.2451338307073456e-06	0.1390763223171234	15
+194	bigbang_transcript	transcript	gpt2	" get a hamburger, you like hamburgers,"" said Leonard. """	I	'm	2.346078634262085	4.20186710357666	1.1439522040745942e-07	0.10637731850147247	15
+195	bigbang_transcript	transcript	gpt2	" a hamburger, you like hamburgers,"" said Leonard. ""I"	 like	hamb	2.804755210876465	4.656717777252197	0.0004868457035627216	0.19480478763580322	15
+196	bigbang_transcript	transcript	gpt2	" hamburger, you like hamburgers,"" said Leonard. ""I like"	 the	idea	2.6528778076171875	6.169447422027588	0.0003718840016517788	0.0866367369890213	15
+197	bigbang_transcript	transcript	gpt2	"urger, you like hamburgers,"" said Leonard. ""I like the"	 hamb	urger	3.0228352546691895	0.8406485915184021	6.5800913944258355e-06	0.5973239541053772	15
+198	bigbang_transcript	transcript	gpt2	", you like hamburgers,"" said Leonard. ""I like the hamb"	urg	ers	0.8440017104148865	0.062297459691762924	4.427557541930582e-06	0.992954432964325	15
+199	bigbang_transcript	transcript	gpt2	" you like hamburgers,"" said Leonard. ""I like the hamburg"	ers	.	0.0064099193550646305	3.2671210765838623	2.7714058887795545e-06	0.2630244493484497	15
+200	bigbang_transcript	transcript	gpt2	" like hamburgers,"" said Leonard. ""I like the hamburgers"	 where	they	6.3504319190979	2.9010655879974365	0.00014704179193358868	0.23352397978305817	15
+201	bigbang_transcript	transcript	gpt2	" hamburgers,"" said Leonard. ""I like the hamburgers where"	 we	have	3.3685526847839355	4.480702877044678	6.507104990305379e-05	0.1506321132183075	15
+202	bigbang_transcript	transcript	gpt2	"urgers,"" said Leonard. ""I like the hamburgers where we"	 usually	have	5.958106994628906	4.31946325302124	0.00038337119622156024	0.21891999244689941	15
+203	bigbang_transcript	transcript	gpt2	"ers,"" said Leonard. ""I like the hamburgers where we usually"	 have	a	1.4597854614257812	5.503702163696289	6.485173798864707e-05	0.13323035836219788	15
+204	bigbang_transcript	transcript	gpt2	","" said Leonard. ""I like the hamburgers where we usually have"	 hamb	urg	4.425772666931152	0.3273871839046478	4.2079045670107007e-07	0.91855388879776	15
+205	bigbang_transcript	transcript	gpt2	" said Leonard. ""I like the hamburgers where we usually have hamb"	urg	ers	0.07685963809490204	0.027147380635142326	6.05250397711643e-06	0.9976044297218323	15
+206	bigbang_transcript	transcript	gpt2	" Leonard. ""I like the hamburgers where we usually have hamburg"	ers	,	0.0021182496566325426	3.7049829959869385	5.367488711272017e-07	0.15536776185035706	15
+207	bigbang_transcript	transcript	gpt2	". ""I like the hamburgers where we usually have hamburgers"	,	but	1.8732407093048096	3.081238031387329	5.3381925681605935e-05	0.42654791474342346	15
+208	bigbang_transcript	transcript	gpt2	" ""I like the hamburgers where we usually have hamburgers,"	 you	know	4.334907054901123	1.8725844621658325	7.020106568234041e-05	0.6489876508712769	15
+209	bigbang_transcript	transcript	gpt2	I like the hamburgers where we usually have hamburgers, you	 can	have	1.8047921657562256	4.438047885894775	0.0001085855474229902	0.06914592534303665	15
+210	bigbang_transcript	transcript	gpt2	 like the hamburgers where we usually have hamburgers, you can	�	�	15.615455627441406	3.088669776916504	1.3630714335022276e-09	0.17315645515918732	15
+211	bigbang_transcript	transcript	gpt2	 the hamburgers where we usually have hamburgers, you can�	�	�	7.922745704650879	3.1679582595825195	1.0662450222298503e-05	0.4907534718513489	15
+212	bigbang_transcript	transcript	gpt2	 hamburgers where we usually have hamburgers, you can’	t	go	2.957339286804199	4.954370498657227	6.019689863023814e-06	0.06045568361878395	15
+213	bigbang_transcript	transcript	gpt2	urgers where we usually have hamburgers, you can’t	 make	it	4.453747749328613	4.412321090698242	6.652128649875522e-05	0.1459254026412964	15
+214	bigbang_transcript	transcript	gpt2	ers where we usually have hamburgers, you can’t make	 the	same	3.344254732131958	6.201883792877197	0.00023734255228191614	0.08859828114509583	15
+215	bigbang_transcript	transcript	gpt2	 where we usually have hamburgers, you can’t make the	 assumption	that	6.639983177185059	0.9887609481811523	2.3416298517986434e-06	0.8604679107666016	15
+216	bigbang_transcript	transcript	gpt2	 we usually have hamburgers, you can’t make the assumption	 that	you	0.17897915840148926	4.192441463470459	0.013708553276956081	0.1742689162492752	15
+217	bigbang_transcript	transcript	gpt2	 usually have hamburgers, you can’t make the assumption that	 I	'm	4.593360900878906	3.453833818435669	0.00016848649829626083	0.379498153924942	15
+218	bigbang_transcript	transcript	gpt2	 have hamburgers, you can’t make the assumption that I	�	�	5.307939529418945	1.273061990737915	1.8856955996682245e-09	0.7631470561027527	15
+219	bigbang_transcript	transcript	gpt2	 hamburgers, you can’t make the assumption that I�	�	m	0.22416889667510986	3.2777199745178223	1.3918407830715296e-06	0.36627572774887085	15
+220	bigbang_transcript	transcript	gpt2	urgers, you can’t make the assumption that I’	ll	be	2.6003594398498535	4.931146621704102	2.1557190848398022e-05	0.22366777062416077	15
+221	bigbang_transcript	transcript	gpt2	ers, you can’t make the assumption that I’ll	 like	you	4.803857803344727	3.8379814624786377	0.00010205752914771438	0.23427364230155945	15
+222	bigbang_transcript	transcript	gpt2	, you can’t make the assumption that I’ll like	 the	way	2.643632173538208	7.0063252449035645	0.00026323131169192493	0.0660543441772461	15
+223	bigbang_transcript	transcript	gpt2	 you can’t make the assumption that I’ll like the	 hamb	urger	9.561843872070312	0.5923178791999817	4.07212411346336e-07	0.7798570990562439	15
+224	bigbang_transcript	transcript	gpt2	 can’t make the assumption that I’ll like the hamb	urg	ers	1.4877643585205078	0.17378051578998566	0.0003378184628672898	0.9815883636474609	15
+225	bigbang_transcript	transcript	gpt2	’t make the assumption that I’ll like the hamburg	ers	.	0.0241130068898201	4.338265895843506	2.6865081963478588e-06	0.23504628241062164	15
+226	bigbang_transcript	transcript	gpt2	�t make the assumption that I’ll like the hamburgers	 here	.	5.171990871429443	3.141465425491333	0.0004117313656024635	0.3242773711681366	15
+227	bigbang_transcript	transcript	gpt2	t make the assumption that I’ll like the hamburgers here	"."""	"
+"	5.073411464691162	3.4247355461120605	5.199328370508738e-05	0.5183733105659485	15
+228	bigbang_transcript	transcript	gpt2	" make the assumption that I’ll like the hamburgers here."""	 Leonard	said	12.002945899963379	6.443637371063232	0.0007495810859836638	0.06743139028549194	15
+229	bigbang_transcript	transcript	gpt2	" the assumption that I’ll like the hamburgers here."" Leonard"	 rolled	his	8.058526992797852	0.8658592700958252	2.694618615350919e-06	0.8664412498474121	15
+230	bigbang_transcript	transcript	gpt2	" assumption that I’ll like the hamburgers here."" Leonard rolled"	 his	eyes	0.1961047202348709	0.2724604308605194	2.41922043642262e-06	0.9695390462875366	15
+231	bigbang_transcript	transcript	gpt2	" that I’ll like the hamburgers here."" Leonard rolled his"	 eyes	.	0.036683689802885056	2.087130546569824	1.0237999958917499e-05	0.4429686367511749	15
+232	bigbang_transcript	transcript	gpt2	" I’ll like the hamburgers here."" Leonard rolled his eyes"	 and	said	1.595410704612732	5.642378807067871	0.0003334615030325949	0.07135193794965744	15
+233	bigbang_transcript	transcript	gpt2	"’ll like the hamburgers here."" Leonard rolled his eyes and"	 looked	at	2.9103174209594727	3.145700454711914	1.173549571831245e-05	0.3712337017059326	15
+234	bigbang_transcript	transcript	gpt2	"�ll like the hamburgers here."" Leonard rolled his eyes and looked"	 at	the	1.0377577543258667	5.655579090118408	6.410092464648187e-05	0.20827242732048035	15
+235	bigbang_transcript	transcript	gpt2	"ll like the hamburgers here."" Leonard rolled his eyes and looked at"	 Penny	.	6.3086628913879395	2.729703426361084	8.925239671953022e-05	0.49448153376579285	15
+236	bigbang_transcript	transcript	gpt2	" like the hamburgers here."" Leonard rolled his eyes and looked at Penny"	.	""""	0.6943040490150452	1.6744807958602905	4.883032033831114e-06	0.6325182914733887	15
+237	bigbang_transcript	transcript	gpt2	" the hamburgers here."" Leonard rolled his eyes and looked at Penny."	" """	I	0.4657866060733795	4.522106170654297	1.8509864219140582e-07	0.1496019959449768	15
+238	bigbang_transcript	transcript	gpt2	" hamburgers here."" Leonard rolled his eyes and looked at Penny. """	I	'm	1.8965122699737549	3.9454026222229004	1.4335354592276417e-07	0.17644010484218597	15
+239	bigbang_transcript	transcript	gpt2	"urgers here."" Leonard rolled his eyes and looked at Penny. ""I"	'm	sorry	1.6709940433502197	3.8709471225738525	7.958178116496128e-07	0.1883314847946167	15
+240	bigbang_transcript	transcript	gpt2	"ers here."" Leonard rolled his eyes and looked at Penny. ""I'm"	 sorry	,	1.6426376104354858	2.843750238418579	8.927079034037888e-05	0.3445879817008972	15
+241	bigbang_transcript	transcript	gpt2	" here."" Leonard rolled his eyes and looked at Penny. ""I'm sorry"	"."""	"
+"	2.4273757934570312	2.4136769771575928	5.917953330936143e-06	0.4533623158931732	15
+242	bigbang_transcript	transcript	gpt2	"."" Leonard rolled his eyes and looked at Penny. ""I'm sorry."""	" """	I	2.3316903114318848	4.1544575691223145	3.37694046947945e-07	0.20131029188632965	15
+243	bigbang_transcript	transcript	gpt2	" Leonard rolled his eyes and looked at Penny. ""I'm sorry."" """	Give	me	7.7278151512146	2.0368943214416504	5.223652177477334e-09	0.5222398638725281	15
+244	bigbang_transcript	transcript	gpt2	" rolled his eyes and looked at Penny. ""I'm sorry."" ""Give"	 him	a	3.6158294677734375	3.0215628147125244	5.558874909183942e-05	0.31356680393218994	15
+245	bigbang_transcript	transcript	gpt2	" his eyes and looked at Penny. ""I'm sorry."" ""Give him"	 a	minute	1.174360990524292	4.326262474060059	5.881540346308611e-05	0.15469181537628174	15
+246	bigbang_transcript	transcript	gpt2	" eyes and looked at Penny. ""I'm sorry."" ""Give him a"	 hamb	urger	11.826457023620605	0.05183570832014084	7.587571682066141e-10	0.9910346865653992	15
+247	bigbang_transcript	transcript	gpt2	" and looked at Penny. ""I'm sorry."" ""Give him a hamb"	urger	"."""	0.007324153557419777	2.955430269241333	7.616534958287957e-07	0.25585564970970154	15
+248	bigbang_transcript	transcript	gpt2	" looked at Penny. ""I'm sorry."" ""Give him a hamburger"	"."""	""""	1.3762580156326294	3.16705060005188	8.949444236350246e-06	0.5055229067802429	15
+249	bigbang_transcript	transcript	gpt2	" at Penny. ""I'm sorry."" ""Give him a hamburger."""	" """	I	0.8853260278701782	4.790485382080078	1.4810462971581728e-06	0.13854655623435974	15
+250	bigbang_transcript	transcript	gpt2	" Penny. ""I'm sorry."" ""Give him a hamburger."" """	Uh	,	5.384145736694336	2.396522045135498	5.394530944613507e-06	0.4311279356479645	15
+251	bigbang_transcript	transcript	gpt2	". ""I'm sorry."" ""Give him a hamburger."" ""Uh"	,	I	0.8608008027076721	4.991849422454834	5.615061309072189e-05	0.0980207771062851	15
+252	bigbang_transcript	transcript	gpt2	" ""I'm sorry."" ""Give him a hamburger."" ""Uh,"	 which	one	7.732346534729004	2.592090606689453	1.4562052456312813e-05	0.5459273457527161	15
+253	bigbang_transcript	transcript	gpt2	"I'm sorry."" ""Give him a hamburger."" ""Uh, which"	 one	"?"""	0.562359631061554	2.030513048171997	4.7811001422815025e-05	0.5738064646720886	15
+254	bigbang_transcript	transcript	gpt2	"'m sorry."" ""Give him a hamburger."" ""Uh, which one"	,	I	4.497984886169434	6.50201416015625	6.734085764037445e-05	0.051537059247493744	15
+255	bigbang_transcript	transcript	gpt2	" sorry."" ""Give him a hamburger."" ""Uh, which one,"	 the	one	4.654394149780273	6.5101423263549805	0.0007780754240229726	0.10444708168506622	15
+256	bigbang_transcript	transcript	gpt2	"."" ""Give him a hamburger."" ""Uh, which one, the"	 Classic	"?"""	9.807855606079102	4.335521221160889	0.004233215935528278	0.37112873792648315	15
+257	bigbang_transcript	transcript	gpt2	" ""Give him a hamburger."" ""Uh, which one, the Classic"	 Burger	"?"""	2.628112554550171	1.676845669746399	0.0007743193418718874	0.6947401762008667	15
+258	bigbang_transcript	transcript	gpt2	"Give him a hamburger."" ""Uh, which one, the Classic Burger"	,	or	3.4514055252075195	5.0317583084106445	4.93233346787747e-05	0.18491244316101074	15
+259	bigbang_transcript	transcript	gpt2	" him a hamburger."" ""Uh, which one, the Classic Burger,"	 the	Classic	2.443446159362793	7.506954669952393	0.0006925549823790789	0.07688853144645691	15
+260	bigbang_transcript	transcript	gpt2	" a hamburger."" ""Uh, which one, the Classic Burger, the"	 Ranch	Burger	8.01317024230957	4.7604079246521	0.0008307710522785783	0.21744948625564575	15
+261	bigbang_transcript	transcript	gpt2	" hamburger."" ""Uh, which one, the Classic Burger, the Ranch"	 House	,	6.783753395080566	3.4433822631835938	0.0005755850579589605	0.2682969272136688	15
+262	bigbang_transcript	transcript	gpt2	"urger."" ""Uh, which one, the Classic Burger, the Ranch House"	 Burger	"?"""	3.0101518630981445	1.9529436826705933	8.772603905526921e-05	0.360554039478302	15
+263	bigbang_transcript	transcript	gpt2	"."" ""Uh, which one, the Classic Burger, the Ranch House Burger"	,	the	0.9429881572723389	3.052698850631714	0.00011234955309191719	0.4050007164478302	15
+264	bigbang_transcript	transcript	gpt2	" ""Uh, which one, the Classic Burger, the Ranch House Burger,"	 the	Burger	0.8979623317718506	7.724259853363037	0.0006536855944432318	0.01673140563070774	15
+265	bigbang_transcript	transcript	gpt2	Uh, which one, the Classic Burger, the Ranch House Burger, the	 Bar	becue	5.759760856628418	4.102174282073975	0.003404742106795311	0.3586237132549286	15
+266	bigbang_transcript	transcript	gpt2	, which one, the Classic Burger, the Ranch House Burger, the Bar	becue	Burger	1.0457582473754883	4.85249662399292	0.0002280293556395918	0.18963481485843658	15
+267	bigbang_transcript	transcript	gpt2	 which one, the Classic Burger, the Ranch House Burger, the Barbecue	 Burger	,	1.4772917032241821	1.350953221321106	8.57822087709792e-05	0.6856186389923096	15
+268	bigbang_transcript	transcript	gpt2	 one, the Classic Burger, the Ranch House Burger, the Barbecue Burger	 or	the	4.403700828552246	3.1115057468414307	0.0001822177873691544	0.5578835010528564	15
+269	bigbang_transcript	transcript	gpt2	, the Classic Burger, the Ranch House Burger, the Barbecue Burger or	 the	Chicken	0.6088114976882935	7.297946929931641	0.0007070149295032024	0.027604658156633377	15
+270	bigbang_transcript	transcript	gpt2	 the Classic Burger, the Ranch House Burger, the Barbecue Burger or the	 Kobe	Burger	8.221399307250977	4.174080848693848	0.025346901267766953	0.2448931783437729	15
+271	bigbang_transcript	transcript	gpt2	 Classic Burger, the Ranch House Burger, the Barbecue Burger or the Kobe	 burger	.	5.059635162353516	2.3468854427337646	0.0006547957309521735	0.5861303806304932	15
+272	bigbang_transcript	transcript	gpt2	 Burger, the Ranch House Burger, the Barbecue Burger or the Kobe burger	"?"""	"
+"	8.253215789794922	4.206975936889648	4.731008448288776e-05	0.45356008410453796	15
+273	bigbang_transcript	transcript	gpt2	", the Ranch House Burger, the Barbecue Burger or the Kobe burger?"""	" """	I	4.198296070098877	4.885644912719727	2.095824311254546e-05	0.10780174285173416	15
+274	bigbang_transcript	transcript	gpt2	" the Ranch House Burger, the Barbecue Burger or the Kobe burger?"" """	Can	you	6.190621852874756	2.3831655979156494	3.294839245882031e-07	0.33972612023353577	15
+275	bigbang_transcript	transcript	gpt2	" Ranch House Burger, the Barbecue Burger or the Kobe burger?"" ""Can"	�	�	14.49450969696045	2.2794549465179443	4.3440004371397833e-10	0.26297107338905334	15
+276	bigbang_transcript	transcript	gpt2	" House Burger, the Barbecue Burger or the Kobe burger?"" ""Can�"	�	t	10.047428131103516	4.193650722503662	3.9525380088889506e-06	0.34649431705474854	15
+277	bigbang_transcript	transcript	gpt2	" Burger, the Barbecue Burger or the Kobe burger?"" ""Can’"	t	you	0.8054391741752625	3.8715500831604004	8.528293983545154e-05	0.2219030261039734	15
+278	bigbang_transcript	transcript	gpt2	", the Barbecue Burger or the Kobe burger?"" ""Can’t"	 we	just	2.416839599609375	4.131105422973633	0.00019656420045066625	0.24852345883846283	15
+279	bigbang_transcript	transcript	gpt2	" the Barbecue Burger or the Kobe burger?"" ""Can’t we"	 just	go	1.4588600397109985	4.988734245300293	0.007611602079123259	0.11149043589830399	15
+280	bigbang_transcript	transcript	gpt2	" Barbecue Burger or the Kobe burger?"" ""Can’t we just"	 go	back	2.2340810298919678	4.475889682769775	0.0024326604325324297	0.12879718840122223	15
+281	bigbang_transcript	transcript	gpt2	"becue Burger or the Kobe burger?"" ""Can’t we just go"	 to	the	2.5031580924987793	5.007460117340088	0.00029551354236900806	0.2576565444469452	15
+282	bigbang_transcript	transcript	gpt2	" Burger or the Kobe burger?"" ""Can’t we just go to"	 Big	Mac	7.203521251678467	5.228540897369385	0.00028406252386048436	0.12610459327697754	15
+283	bigbang_transcript	transcript	gpt2	" or the Kobe burger?"" ""Can’t we just go to Big"	 Boy	's	5.809466361999512	4.242076873779297	0.00025465592625550926	0.3016686737537384	15
+284	bigbang_transcript	transcript	gpt2	" the Kobe burger?"" ""Can’t we just go to Big Boy"	"?"""	""""	3.468308448791504	3.9748237133026123	7.421928603434935e-05	0.3711543083190918	15
+285	bigbang_transcript	transcript	gpt2	" Kobe burger?"" ""Can’t we just go to Big Boy?"""	 asked	the	5.76080846786499	6.813576698303223	3.7212241295492277e-05	0.11800041794776917	15
+286	bigbang_transcript	transcript	gpt2	" burger?"" ""Can’t we just go to Big Boy?"" asked"	 Sheldon	.	9.447077751159668	2.130856513977051	0.00027385150315240026	0.6095472574234009	15
+287	bigbang_transcript	transcript	gpt2	"?"" ""Can’t we just go to Big Boy?"" asked Sheldon"	,	who	1.698284387588501	6.028789043426514	4.786912177223712e-05	0.08806809782981873	15
+288	bigbang_transcript	transcript	gpt2	" ""Can’t we just go to Big Boy?"" asked Sheldon,"	 exasper	ated	6.384170055389404	0.18639782071113586	4.597628874836168e-11	0.9629673361778259	15
+289	bigbang_transcript	transcript	gpt2	"Can’t we just go to Big Boy?"" asked Sheldon, exasper"	ated	.	0.042185503989458084	1.520097017288208	1.0071180156501214e-07	0.6940982341766357	15
+290	bigbang_transcript	transcript	gpt2	"’t we just go to Big Boy?"" asked Sheldon, exasperated"	.	""""	0.36835071444511414	2.183225393295288	1.8512140741222538e-05	0.4379269480705261	15
+291	bigbang_transcript	transcript	gpt2	"�t we just go to Big Boy?"" asked Sheldon, exasperated."	" """	I	0.8585739135742188	4.624026775360107	7.768216505610326e-07	0.10711612552404404	15
+292	bigbang_transcript	transcript	gpt2	"t we just go to Big Boy?"" asked Sheldon, exasperated. """	They	're	4.4827985763549805	4.09963846206665	2.131588239251414e-08	0.2666744589805603	15
+293	bigbang_transcript	transcript	gpt2	" we just go to Big Boy?"" asked Sheldon, exasperated. ""They"	 only	have	5.889089107513428	5.164862632751465	0.00042032587225548923	0.09698675572872162	15
+294	bigbang_transcript	transcript	gpt2	" just go to Big Boy?"" asked Sheldon, exasperated. ""They only"	 have	one	2.3042802810668945	4.155282020568848	2.2967438781051897e-05	0.24680966138839722	15
+295	bigbang_transcript	transcript	gpt2	" go to Big Boy?"" asked Sheldon, exasperated. ""They only have"	 one	.	1.3609859943389893	6.624569892883301	0.002129932167008519	0.02871161326766014	15
+296	bigbang_transcript	transcript	gpt2	" to Big Boy?"" asked Sheldon, exasperated. ""They only have one"	 burger	,	9.205660820007324	3.897692918777466	0.0008741050260141492	0.1329876184463501	15
+297	bigbang_transcript	transcript	gpt2	" Big Boy?"" asked Sheldon, exasperated. ""They only have one burger"	"."""	"
+"	2.415271282196045	2.034719705581665	5.340250936569646e-06	0.6820616722106934	15
+298	bigbang_transcript	transcript	gpt2	" Boy?"" asked Sheldon, exasperated. ""They only have one burger."""	" """	I	2.364192247390747	4.673366069793701	1.761944872669119e-06	0.1007300466299057	15
+299	bigbang_transcript	transcript	gpt2	"?"" asked Sheldon, exasperated. ""They only have one burger."" """	The	other	4.008420944213867	6.443743705749512	7.763622420497995e-07	0.08883250504732132	15
+300	bigbang_transcript	transcript	gpt2	" asked Sheldon, exasperated. ""They only have one burger."" ""The"	 Big	Mac	7.244659900665283	5.197207450866699	0.0006705237901769578	0.16420824825763702	15
+301	bigbang_transcript	transcript	gpt2	" Sheldon, exasperated. ""They only have one burger."" ""The Big"	 Boy	","""	5.799736499786377	4.419665813446045	0.0004747780621983111	0.19059309363365173	15
+302	bigbang_transcript	transcript	gpt2	", exasperated. ""They only have one burger."" ""The Big Boy"	"."""	""""	2.7791342735290527	4.008758068084717	1.9997518393211067e-05	0.3787205219268799	15
+303	bigbang_transcript	transcript	gpt2	" exasperated. ""They only have one burger."" ""The Big Boy."""	" """	The	0.9500693082809448	5.054476261138916	5.543666702578776e-06	0.10739825665950775	15
+304	bigbang_transcript	transcript	gpt2	"ated. ""They only have one burger."" ""The Big Boy."" """	The	Big	1.8848730325698853	7.006760120391846	3.883038516505621e-06	0.1798957884311676	15
+305	bigbang_transcript	transcript	gpt2	". ""They only have one burger."" ""The Big Boy."" ""The"	 Bar	"."""	7.598801612854004	5.1291117668151855	0.0042605712078511715	0.12217467278242111	15
+306	bigbang_transcript	transcript	gpt2	" ""They only have one burger."" ""The Big Boy."" ""The Bar"	becue	"."""	2.259798765182495	5.111034393310547	0.00014650092634838074	0.17963464558124542	15
+307	bigbang_transcript	transcript	gpt2	"They only have one burger."" ""The Big Boy."" ""The Barbecue"	 Burger	"."""	3.4010510444641113	1.374921441078186	0.003337386529892683	0.7842451930046082	15
+308	bigbang_transcript	transcript	gpt2	" only have one burger."" ""The Big Boy."" ""The Barbecue Burger"	 is	a	6.161893367767334	5.493185520172119	0.00010279448906658217	0.11382020264863968	15
+309	bigbang_transcript	transcript	gpt2	" have one burger."" ""The Big Boy."" ""The Barbecue Burger is"	 like	a	4.440248966217041	4.714021682739258	0.00027162881451658905	0.30859214067459106	15
+310	bigbang_transcript	transcript	gpt2	" one burger."" ""The Big Boy."" ""The Barbecue Burger is like"	 the	Big	2.159346103668213	7.19059944152832	0.000397393450839445	0.07570494711399078	15
+311	bigbang_transcript	transcript	gpt2	" burger."" ""The Big Boy."" ""The Barbecue Burger is like the"	 Big	Boy	2.750247001647949	3.2346997261047363	0.0023091111797839403	0.5762056112289429	15
+312	bigbang_transcript	transcript	gpt2	"."" ""The Big Boy."" ""The Barbecue Burger is like the Big"	 Boy	"."""	0.7401672601699829	3.773306369781494	4.643521970137954e-05	0.26001787185668945	15
+313	bigbang_transcript	transcript	gpt2	" ""The Big Boy."" ""The Barbecue Burger is like the Big Boy"	","""	says	1.9338648319244385	5.532315731048584	1.2393803444865625e-05	0.2253531813621521	15
+314	bigbang_transcript	transcript	gpt2	"The Big Boy."" ""The Barbecue Burger is like the Big Boy,"""	 suggested	the	8.780475616455078	7.335010051727295	4.440238626557402e-06	0.05182330682873726	15
+315	bigbang_transcript	transcript	gpt2	" Big Boy."" ""The Barbecue Burger is like the Big Boy,"" suggested"	 Penny	.	7.673150539398193	4.42873477935791	0.0004534358740784228	0.3352870047092438	15
+316	bigbang_transcript	transcript	gpt2	" Boy."" ""The Barbecue Burger is like the Big Boy,"" suggested Penny"	.	""""	0.9819306135177612	2.403660774230957	1.1149641068186611e-05	0.6496378779411316	15
+317	bigbang_transcript	transcript	gpt2	"."" ""The Barbecue Burger is like the Big Boy,"" suggested Penny."	" """	It	0.4843921959400177	4.06120491027832	1.6488539813508396e-06	0.2105216234922409	15
+318	bigbang_transcript	transcript	gpt2	" ""The Barbecue Burger is like the Big Boy,"" suggested Penny. """	Exc	use	10.211299896240234	0.972926676273346	1.1651438924786817e-08	0.7628416419029236	15
+319	bigbang_transcript	transcript	gpt2	"The Barbecue Burger is like the Big Boy,"" suggested Penny. ""Exc"	use	me	0.40435999631881714	1.0551966428756714	1.2537735756268376e-06	0.8032244443893433	15
+320	bigbang_transcript	transcript	gpt2	" Barbecue Burger is like the Big Boy,"" suggested Penny. ""Excuse"	 me	,	0.21073183417320251	2.3434226512908936	7.955468026921153e-05	0.5098612904548645	15
+321	bigbang_transcript	transcript	gpt2	"becue Burger is like the Big Boy,"" suggested Penny. ""Excuse me"	,	but	0.7196112275123596	4.807144641876221	4.7835343139013276e-05	0.2362089306116104	15
+322	bigbang_transcript	transcript	gpt2	" Burger is like the Big Boy,"" suggested Penny. ""Excuse me,"	 in	the	7.359777450561523	4.447054862976074	0.00011670919775497168	0.17569077014923096	15
+323	bigbang_transcript	transcript	gpt2	" is like the Big Boy,"" suggested Penny. ""Excuse me, in"	 a	way	2.4816207885742188	5.51160192489624	0.00014128012116998434	0.20787450671195984	15
+324	bigbang_transcript	transcript	gpt2	" like the Big Boy,"" suggested Penny. ""Excuse me, in a"	 world	where	4.902151584625244	2.0693886280059814	2.5461684344918467e-05	0.5584697127342224	15
+325	bigbang_transcript	transcript	gpt2	" the Big Boy,"" suggested Penny. ""Excuse me, in a world"	 that	's	2.9956283569335938	4.940402984619141	0.00027460246928967535	0.17003391683101654	15
+326	bigbang_transcript	transcript	gpt2	" Big Boy,"" suggested Penny. ""Excuse me, in a world that"	 already	has	6.923574447631836	4.5937347412109375	0.00014610982907470316	0.3205404281616211	15
+327	bigbang_transcript	transcript	gpt2	" Boy,"" suggested Penny. ""Excuse me, in a world that already"	 includes	the	4.646347999572754	7.2124857902526855	5.412810537563928e-07	0.041532132774591446	15
+328	bigbang_transcript	transcript	gpt2	","" suggested Penny. ""Excuse me, in a world that already includes"	 the	likes	3.1219282150268555	8.355387687683105	0.00038760335883125663	0.016287436708807945	15
+329	bigbang_transcript	transcript	gpt2	" suggested Penny. ""Excuse me, in a world that already includes the"	 Big	Bang	7.326237678527832	4.021902561187744	0.001151381991803646	0.3199290335178375	15
+330	bigbang_transcript	transcript	gpt2	" Penny. ""Excuse me, in a world that already includes the Big"	 Boy	,	6.214786052703857	3.976854085922241	0.0007706976612098515	0.26315900683403015	15
+331	bigbang_transcript	transcript	gpt2	". ""Excuse me, in a world that already includes the Big Boy"	,	I	1.1145105361938477	5.062386512756348	6.323464185697958e-05	0.13357257843017578	15
+332	bigbang_transcript	transcript	gpt2	" ""Excuse me, in a world that already includes the Big Boy,"	 why	don	3.8043785095214844	3.407217264175415	0.0002094087249133736	0.14898516237735748	15
+333	bigbang_transcript	transcript	gpt2	Excuse me, in a world that already includes the Big Boy, why	 would	you	2.955289363861084	3.7373292446136475	7.366671343334019e-05	0.2754746377468109	15
+334	bigbang_transcript	transcript	gpt2	use me, in a world that already includes the Big Boy, why would	 I	want	1.6134235858917236	4.490555763244629	3.059578739339486e-05	0.2144457846879959	15
+335	bigbang_transcript	transcript	gpt2	 me, in a world that already includes the Big Boy, why would I	 settle	for	7.280803203582764	1.2262425422668457	1.1727179298759438e-06	0.7402923703193665	15
+336	bigbang_transcript	transcript	gpt2	, in a world that already includes the Big Boy, why would I settle	 for	a	0.18350176513195038	5.082921981811523	0.00016187703295145184	0.18936708569526672	15
+337	bigbang_transcript	transcript	gpt2	 in a world that already includes the Big Boy, why would I settle for	 something	that	3.2311902046203613	3.777958631515503	0.0004778391739819199	0.206485316157341	15
+338	bigbang_transcript	transcript	gpt2	 a world that already includes the Big Boy, why would I settle for something	 like	that	2.778644323348999	3.390110492706299	8.368145790882409e-05	0.3690304160118103	15
+339	bigbang_transcript	transcript	gpt2	 world that already includes the Big Boy, why would I settle for something like	 a	$	3.2209112644195557	8.224879264831543	0.0005924066063016653	0.015147794038057327	15
+340	bigbang_transcript	transcript	gpt2	 that already includes the Big Boy, why would I settle for something like a	 Big	Boy	5.623799800872803	4.2557549476623535	0.0019076212774962187	0.436752587556839	15
+341	bigbang_transcript	transcript	gpt2	 already includes the Big Boy, why would I settle for something like a Big	 Boy	?	0.8183745741844177	5.237268447875977	0.0005549176712520421	0.2261512130498886	15
+342	bigbang_transcript	transcript	gpt2	 includes the Big Boy, why would I settle for something like a Big Boy	"?"""	"
+"	4.776938438415527	4.193338394165039	5.322192009771243e-05	0.45088034868240356	15
+343	bigbang_transcript	transcript	gpt2	" the Big Boy, why would I settle for something like a Big Boy?"""	" """	I	3.600227117538452	4.804685592651367	1.3872750059817918e-05	0.1308227777481079	15
+344	bigbang_transcript	transcript	gpt2	" Big Boy, why would I settle for something like a Big Boy?"" """	Because	I	4.265209197998047	3.8639159202575684	3.0649991344944283e-07	0.22464492917060852	15
+345	bigbang_transcript	transcript	gpt2	" Boy, why would I settle for something like a Big Boy?"" ""Because"	 you	're	1.9232478141784668	3.4650521278381348	3.903947799699381e-05	0.370319128036499	15
+346	bigbang_transcript	transcript	gpt2	", why would I settle for something like a Big Boy?"" ""Because you"	 are	a	2.8442842960357666	5.437739372253418	2.427699655527249e-05	0.12066703289747238	15
+347	bigbang_transcript	transcript	gpt2	" why would I settle for something like a Big Boy?"" ""Because you are"	 not	a	3.1094884872436523	5.4478044509887695	0.0009079342125914991	0.14990004897117615	15
+348	bigbang_transcript	transcript	gpt2	" would I settle for something like a Big Boy?"" ""Because you are not"	 at	all	5.8611650466918945	2.588566303253174	4.369231464806944e-05	0.5304355621337891	15
+349	bigbang_transcript	transcript	gpt2	" I settle for something like a Big Boy?"" ""Because you are not at"	 Big	Boy	9.199122428894043	1.6636478900909424	0.0006609300617128611	0.7620063424110413	15
+350	bigbang_transcript	transcript	gpt2	" settle for something like a Big Boy?"" ""Because you are not at Big"	 Boy	"."""	0.24493736028671265	4.328064441680908	0.00011160021676914766	0.11738753318786621	15
+351	bigbang_transcript	transcript	gpt2	" for something like a Big Boy?"" ""Because you are not at Big Boy"	"!"""	""""	3.3645293712615967	4.94479513168335	0.00021510248188860714	0.25982901453971863	15
+352	bigbang_transcript	transcript	gpt2	" something like a Big Boy?"" ""Because you are not at Big Boy!"""	 said	the	3.437174081802368	6.428707122802734	0.00026594323571771383	0.18595485389232635	15
+353	bigbang_transcript	transcript	gpt2	" like a Big Boy?"" ""Because you are not at Big Boy!"" said"	 Penny	.	7.798533916473389	2.8634910583496094	0.00013945480168331414	0.452129989862442	15
+354	bigbang_transcript	transcript	gpt2	" a Big Boy?"" ""Because you are not at Big Boy!"" said Penny"	 with	a	3.570374011993408	2.327803373336792	2.0296000002417713e-05	0.69646155834198	15
+355	bigbang_transcript	transcript	gpt2	" Big Boy?"" ""Because you are not at Big Boy!"" said Penny with"	 a	smile	0.3468737006187439	5.4374237060546875	0.00012566961231641471	0.10646069794893265	15
+356	bigbang_transcript	transcript	gpt2	" Boy?"" ""Because you are not at Big Boy!"" said Penny with a"	 grim	ace	5.135324478149414	0.7263783812522888	0.00021604685753118247	0.8744899034500122	15
+357	bigbang_transcript	transcript	gpt2	"?"" ""Because you are not at Big Boy!"" said Penny with a grim"	ace	.	0.1583702266216278	1.697868824005127	4.641859518983438e-08	0.6475188136100769	15
+358	bigbang_transcript	transcript	gpt2	" ""Because you are not at Big Boy!"" said Penny with a grimace"	,	""""	2.219086170196533	4.428816795349121	3.965685027651489e-05	0.2875140905380249	15
+359	bigbang_transcript	transcript	gpt2	"Because you are not at Big Boy!"" said Penny with a grimace,"	 her	eyes	3.518317937850952	5.360727310180664	6.968017260078341e-05	0.14413724839687347	15
+360	bigbang_transcript	transcript	gpt2	" you are not at Big Boy!"" said Penny with a grimace, her"	 patience	and	8.768206596374512	6.371555805206299	2.828614242389449e-06	0.02804103121161461	15
+361	bigbang_transcript	transcript	gpt2	" are not at Big Boy!"" said Penny with a grimace, her patience"	 wearing	thin	4.290824890136719	2.8273892402648926	1.0502837540116161e-05	0.3400830328464508	15
+362	bigbang_transcript	transcript	gpt2	" not at Big Boy!"" said Penny with a grimace, her patience wearing"	 thin	.	1.0806525945663452	1.9451552629470825	2.1492320229299366e-05	0.5729886293411255	15
+363	bigbang_transcript	transcript	gpt2	" at Big Boy!"" said Penny with a grimace, her patience wearing thin"	.	""""	0.5847558975219727	2.5192441940307617	9.476244485995267e-06	0.39645928144454956	15
+364	bigbang_transcript	transcript	gpt2	" Big Boy!"" said Penny with a grimace, her patience wearing thin."	 Sheldon	was	10.413583755493164	5.419409275054932	6.183036748552695e-05	0.09809836745262146	15
+365	bigbang_transcript	transcript	gpt2	" Boy!"" said Penny with a grimace, her patience wearing thin. Sheldon"	 threw	his	7.075539588928223	3.1987648010253906	1.076472585737065e-06	0.22900092601776123	15
+366	bigbang_transcript	transcript	gpt2	"!"" said Penny with a grimace, her patience wearing thin. Sheldon threw"	 up	his	2.168008804321289	2.6253409385681152	3.902228127117269e-05	0.3946066200733185	15
+367	bigbang_transcript	transcript	gpt2	 said Penny with a grimace, her patience wearing thin. Sheldon threw up	 his	hands	1.1412602663040161	1.4489951133728027	2.082850187434815e-05	0.7495155334472656	15
+368	bigbang_transcript	transcript	gpt2	 Penny with a grimace, her patience wearing thin. Sheldon threw up his	 hands	and	0.34346944093704224	2.3524649143218994	3.143955473206006e-05	0.3302645683288574	15
+369	bigbang_transcript	transcript	gpt2	 with a grimace, her patience wearing thin. Sheldon threw up his hands	 in	a	1.9582575559616089	4.60753059387207	0.00014681596076115966	0.16307644546031952	15
+370	bigbang_transcript	transcript	gpt2	 a grimace, her patience wearing thin. Sheldon threw up his hands in	 defeat	.	3.6319103240966797	1.806392788887024	4.876648745266721e-06	0.39560258388519287	15
+371	bigbang_transcript	transcript	gpt2	 grimace, her patience wearing thin. Sheldon threw up his hands in defeat	.	""""	0.923439621925354	2.897181510925293	5.7819916037260555e-06	0.3484042286872864	15
+372	bigbang_transcript	transcript	gpt2	ace, her patience wearing thin. Sheldon threw up his hands in defeat.	" """	I	1.2339307069778442	4.784124851226807	9.70174141912139e-07	0.15615856647491455	15
+373	bigbang_transcript	transcript	gpt2	", her patience wearing thin. Sheldon threw up his hands in defeat. """	Fine	,	5.922677993774414	2.3723647594451904	3.280007149442099e-05	0.3480452597141266	15
+374	bigbang_transcript	transcript	gpt2	" her patience wearing thin. Sheldon threw up his hands in defeat. ""Fine"	,	I	1.044853925704956	4.628865718841553	4.4676016841549426e-05	0.16454368829727173	15
+375	bigbang_transcript	transcript	gpt2	" patience wearing thin. Sheldon threw up his hands in defeat. ""Fine,"	 I	'll	1.8607721328735352	2.414029598236084	1.3414890418061987e-05	0.4960196018218994	15
+376	bigbang_transcript	transcript	gpt2	" wearing thin. Sheldon threw up his hands in defeat. ""Fine, I"	�	�	17.666410446166992	1.984821081161499	1.7826504161710943e-10	0.3813991844654083	15
+377	bigbang_transcript	transcript	gpt2	" thin. Sheldon threw up his hands in defeat. ""Fine, I�"	�	""""	10.552940368652344	5.465700626373291	7.118829216778977e-06	0.09216827154159546	15
+378	bigbang_transcript	transcript	gpt2	". Sheldon threw up his hands in defeat. ""Fine, I’"	ll	�	4.48264741897583	4.7093658447265625	9.188605326926336e-05	0.08437518030405045	15
+379	bigbang_transcript	transcript	gpt2	" Sheldon threw up his hands in defeat. ""Fine, I’ll"	 have	a	4.184884548187256	3.648094654083252	3.898329669027589e-05	0.17607147991657257	15
+380	bigbang_transcript	transcript	gpt2	" threw up his hands in defeat. ""Fine, I’ll have"	 the	rest	3.4668614864349365	7.1734700202941895	0.00018027696933131665	0.032868895679712296	15
+381	bigbang_transcript	transcript	gpt2	" up his hands in defeat. ""Fine, I’ll have the"	 Bar	row	10.365738868713379	5.512906074523926	0.0006302374531514943	0.1363116204738617	15
+382	bigbang_transcript	transcript	gpt2	" his hands in defeat. ""Fine, I’ll have the Bar"	becue	.	5.73378849029541	6.607387542724609	0.0003217807679902762	0.055019836872816086	15
+383	bigbang_transcript	transcript	gpt2	" hands in defeat. ""Fine, I’ll have the Barbecue"	 Burger	.	6.758729457855225	4.99880313873291	0.0008537587709724903	0.11587003618478775	15
+384	bigbang_transcript	transcript	gpt2	" in defeat. ""Fine, I’ll have the Barbecue Burger"	"."""	"
+"	2.787816047668457	3.4629714488983154	2.1618448954541236e-05	0.5073764324188232	15
+385	bigbang_transcript	transcript	gpt2	" defeat. ""Fine, I’ll have the Barbecue Burger."""	" """	I	3.251148223876953	5.048203945159912	5.034049991081702e-06	0.08434324711561203	15
+386	bigbang_transcript	transcript	gpt2	". ""Fine, I’ll have the Barbecue Burger."" """	Make	sure	7.973487854003906	2.8691465854644775	1.0921525017693057e-06	0.3582337200641632	15
+387	bigbang_transcript	transcript	gpt2	" ""Fine, I’ll have the Barbecue Burger."" ""Make"	 it	"."""	1.6415966749191284	5.566165447235107	0.0008017231593839824	0.05381370708346367	15
+388	bigbang_transcript	transcript	gpt2	"Fine, I’ll have the Barbecue Burger."" ""Make it"	 two	"."""	6.230462074279785	4.552667617797852	0.0005529042682610452	0.13181380927562714	15
+389	bigbang_transcript	transcript	gpt2	", I’ll have the Barbecue Burger."" ""Make it two"	","""	said	2.9909987449645996	5.14347505569458	2.287693314428907e-05	0.1765962690114975	15
+390	bigbang_transcript	transcript	gpt2	" I’ll have the Barbecue Burger."" ""Make it two,"""	 said	the	1.7357938289642334	6.5558180809021	0.00023847799457143992	0.14845237135887146	15
+391	bigbang_transcript	transcript	gpt2	"’ll have the Barbecue Burger."" ""Make it two,"" said"	 Leonard	.	8.337621688842773	3.5560998916625977	0.0013503743102774024	0.42206504940986633	15
+392	bigbang_transcript	transcript	gpt2	"�ll have the Barbecue Burger."" ""Make it two,"" said Leonard"	,	""""	1.5284430980682373	4.952724456787109	8.753723523113877e-05	0.2291700392961502	15
+393	bigbang_transcript	transcript	gpt2	"ll have the Barbecue Burger."" ""Make it two,"" said Leonard,"	 handing	me	5.320282936096191	4.150481224060059	9.665428706284729e-07	0.19014708697795868	15
+394	bigbang_transcript	transcript	gpt2	" have the Barbecue Burger."" ""Make it two,"" said Leonard, handing"	 her	a	3.5315346717834473	2.6297640800476074	0.011325472965836525	0.5332909226417542	15
+395	bigbang_transcript	transcript	gpt2	" the Barbecue Burger."" ""Make it two,"" said Leonard, handing her"	 the	burger	2.060696840286255	6.084196090698242	0.00025825327611528337	0.12895424664020538	15
+396	bigbang_transcript	transcript	gpt2	" Barbecue Burger."" ""Make it two,"" said Leonard, handing her the"	 menus	.	8.906867980957031	1.879402995109558	1.4689207091578282e-05	0.651853621006012	15
+397	bigbang_transcript	transcript	gpt2	"becue Burger."" ""Make it two,"" said Leonard, handing her the menus"	.	""""	0.41316381096839905	2.3730080127716064	1.3156279237591662e-05	0.6042200326919556	15
+398	bigbang_transcript	transcript	gpt2	" Burger."" ""Make it two,"" said Leonard, handing her the menus."	 Penny	was	9.891368865966797	5.765558242797852	4.6237157221185043e-05	0.04722856357693672	15
+399	bigbang_transcript	transcript	gpt2	"."" ""Make it two,"" said Leonard, handing her the menus. Penny"	 smiled	.	4.725013732910156	3.3692779541015625	1.1843118954857346e-05	0.2527860105037689	15
+400	bigbang_transcript	transcript	gpt2	" ""Make it two,"" said Leonard, handing her the menus. Penny smiled"	 at	him	2.33375883102417	2.788130283355713	1.7886861314764246e-05	0.30369699001312256	15
+401	bigbang_transcript	transcript	gpt2	"Make it two,"" said Leonard, handing her the menus. Penny smiled at"	 him	.	1.1049028635025024	2.1374688148498535	1.793874957911612e-06	0.39836472272872925	15
+402	bigbang_transcript	transcript	gpt2	" it two,"" said Leonard, handing her the menus. Penny smiled at him"	.	""""	0.9228913187980652	1.7055808305740356	4.3602476580417715e-06	0.6376919150352478	15
+403	bigbang_transcript	transcript	gpt2	" two,"" said Leonard, handing her the menus. Penny smiled at him."	" """	I	0.4448755979537964	4.592538833618164	1.4611073595460766e-07	0.16015008091926575	15
+404	bigbang_transcript	transcript	gpt2	","" said Leonard, handing her the menus. Penny smiled at him. """	Thank	you	4.173905372619629	0.20756259560585022	7.242111621508229e-08	0.9748782515525818	15
+405	bigbang_transcript	transcript	gpt2	" said Leonard, handing her the menus. Penny smiled at him. ""Thank"	 you	,	0.02407006546854973	2.5695486068725586	0.00024131606915034354	0.25233182311058044	15
+406	bigbang_transcript	transcript	gpt2	" Leonard, handing her the menus. Penny smiled at him. ""Thank you"	 Leonard	,	11.134772300720215	2.203742265701294	0.0004920843639411032	0.2732531726360321	15
+407	bigbang_transcript	transcript	gpt2	", handing her the menus. Penny smiled at him. ""Thank you Leonard"	"."""	"
+"	1.735741376876831	2.232343912124634	7.844218089303467e-06	0.6147273778915405	15
+408	bigbang_transcript	transcript	gpt2	" handing her the menus. Penny smiled at him. ""Thank you Leonard."""	" """	I	3.946074962615967	4.633075714111328	4.5903445311523683e-07	0.15052518248558044	15
+409	bigbang_transcript	transcript	gpt2	" her the menus. Penny smiled at him. ""Thank you Leonard."" """	By	the	6.687625408172607	2.7120728492736816	4.4152199052405194e-07	0.4649844765663147	15
+410	bigbang_transcript	transcript	gpt2	" the menus. Penny smiled at him. ""Thank you Leonard."" ""By"	 the	way	0.7160230875015259	0.6014298796653748	4.434265792951919e-05	0.9401838779449463	15
+411	bigbang_transcript	transcript	gpt2	" menus. Penny smiled at him. ""Thank you Leonard."" ""By the"	 way	,	0.06945925205945969	1.47259521484375	1.8827295207302086e-06	0.7334773540496826	15
+412	bigbang_transcript	transcript	gpt2	". Penny smiled at him. ""Thank you Leonard."" ""By the way"	,	I	0.3053588569164276	5.039050579071045	0.00011061289842473343	0.17642438411712646	15
+413	bigbang_transcript	transcript	gpt2	" Penny smiled at him. ""Thank you Leonard."" ""By the way,"	 I	'm	1.7972619533538818	4.114078044891357	1.5480516594834626e-05	0.1827397495508194	15
+414	bigbang_transcript	transcript	gpt2	" smiled at him. ""Thank you Leonard."" ""By the way, I"	 saw	you	5.383065223693848	3.6129050254821777	5.087572390038986e-06	0.39601150155067444	15
+415	bigbang_transcript	transcript	gpt2	" at him. ""Thank you Leonard."" ""By the way, I saw"	 you	in	1.1645151376724243	5.320991039276123	0.00018277016351930797	0.0785117894411087	15
+416	bigbang_transcript	transcript	gpt2	" him. ""Thank you Leonard."" ""By the way, I saw you"	 come	to	5.00199556350708	3.579493284225464	0.00021968614601064473	0.11938179284334183	15
+417	bigbang_transcript	transcript	gpt2	". ""Thank you Leonard."" ""By the way, I saw you come"	 home	"."""	4.187836170196533	3.8682351112365723	0.0005738043109886348	0.10668765753507614	15
+418	bigbang_transcript	transcript	gpt2	" ""Thank you Leonard."" ""By the way, I saw you come home"	 with	a	2.8304688930511475	4.29089879989624	3.947463119402528e-05	0.2535780668258667	15
+419	bigbang_transcript	transcript	gpt2	"Thank you Leonard."" ""By the way, I saw you come home with"	 your	wife	2.0657734870910645	6.4728007316589355	0.00016307190526276827	0.04465991631150246	15
+420	bigbang_transcript	transcript	gpt2	" you Leonard."" ""By the way, I saw you come home with your"	 date	,	8.416641235351562	4.358266353607178	0.00018782861297950149	0.12223611772060394	15
+421	bigbang_transcript	transcript	gpt2	" Leonard."" ""By the way, I saw you come home with your date"	 last	night	4.870726585388184	1.3234384059906006	6.887345080031082e-05	0.7082173228263855	15
+422	bigbang_transcript	transcript	gpt2	"."" ""By the way, I saw you come home with your date last"	 night	.	0.26028361916542053	2.7897818088531494	0.00018921561422757804	0.2655445337295532	15
+423	bigbang_transcript	transcript	gpt2	" ""By the way, I saw you come home with your date last night"	"!"""	"
+"	3.8897624015808105	4.565194129943848	7.463555812137201e-05	0.3300613462924957	15
+424	bigbang_transcript	transcript	gpt2	"By the way, I saw you come home with your date last night!"""	" """	I	2.8704752922058105	4.861344337463379	9.069782208825927e-06	0.10686428844928741	15
+425	bigbang_transcript	transcript	gpt2	" the way, I saw you come home with your date last night!"" """	I	'm	2.184854030609131	4.2013163566589355	8.13332405869005e-07	0.15525966882705688	15
+426	bigbang_transcript	transcript	gpt2	" way, I saw you come home with your date last night!"" ""I"	�	�	14.364846229553223	2.195650577545166	2.3354604361536246e-10	0.41774749755859375	15
+427	bigbang_transcript	transcript	gpt2	", I saw you come home with your date last night!"" ""I�"	�	�	10.313825607299805	3.3278660774230957	2.3058730675984407e-06	0.4415142238140106	15
+428	bigbang_transcript	transcript	gpt2	" I saw you come home with your date last night!"" ""I’"	m	sorry	3.210980176925659	4.397707462310791	3.3000449093378847e-06	0.2350762039422989	15
+429	bigbang_transcript	transcript	gpt2	" saw you come home with your date last night!"" ""I’m"	 so	sorry	2.4637398719787598	4.145989418029785	0.008264175616204739	0.2666376829147339	15
+430	bigbang_transcript	transcript	gpt2	" you come home with your date last night!"" ""I’m so"	 happy	"!"""	3.2232282161712646	3.5981056690216064	2.4448050680803135e-05	0.1275249719619751	15
+431	bigbang_transcript	transcript	gpt2	" come home with your date last night!"" ""I’m so happy"	 for	you	2.832113742828369	1.1903470754623413	1.379127297695959e-05	0.8452709317207336	15
+432	bigbang_transcript	transcript	gpt2	" home with your date last night!"" ""I’m so happy for"	 you	"!"""	0.16672374308109283	3.548624038696289	0.000467317906441167	0.19439983367919922	15
+433	bigbang_transcript	transcript	gpt2	" with your date last night!"" ""I’m so happy for you"	"."""	""""	2.5214600563049316	4.130824565887451	3.595045563997701e-05	0.3881992697715759	15
+434	bigbang_transcript	transcript	gpt2	" your date last night!"" ""I’m so happy for you."""	 Leonard	said	11.529637336730957	6.151417255401611	0.00027690824936144054	0.06171906739473343	15
+435	bigbang_transcript	transcript	gpt2	" date last night!"" ""I’m so happy for you."" Leonard"	 turned	to	5.4539947509765625	2.8631598949432373	9.117428271565586e-05	0.29844236373901367	15
+436	bigbang_transcript	transcript	gpt2	" last night!"" ""I’m so happy for you."" Leonard turned"	 to	look	1.1949418783187866	5.620237350463867	7.181570254033431e-05	0.0898517295718193	15
+437	bigbang_transcript	transcript	gpt2	" night!"" ""I’m so happy for you."" Leonard turned to"	 Sheldon	.	7.380568504333496	2.382178783416748	0.00022960120986681432	0.2977857291698456	15
+438	bigbang_transcript	transcript	gpt2	"!"" ""I’m so happy for you."" Leonard turned to Sheldon"	 as	he	3.8243839740753174	2.615731954574585	0.00020861167286057025	0.4355167746543884	15
+439	bigbang_transcript	transcript	gpt2	" ""I’m so happy for you."" Leonard turned to Sheldon as"	 Penny	and	7.929943084716797	5.862353324890137	6.176468741614372e-05	0.04412631317973137	15
+440	bigbang_transcript	transcript	gpt2	"I’m so happy for you."" Leonard turned to Sheldon as Penny"	 walked	over	3.750403642654419	3.1079695224761963	2.7619278171187034e-06	0.14991481602191925	15
+441	bigbang_transcript	transcript	gpt2	"’m so happy for you."" Leonard turned to Sheldon as Penny walked"	 away	.	1.9088592529296875	2.073098659515381	0.00010622859554132447	0.467209130525589	15
+442	bigbang_transcript	transcript	gpt2	"�m so happy for you."" Leonard turned to Sheldon as Penny walked away"	.	"
+"	0.7426357269287109	2.7187418937683105	8.569656529289205e-06	0.3370984196662903	15
+443	bigbang_transcript	transcript	gpt2	"m so happy for you."" Leonard turned to Sheldon as Penny walked away."	" """	I	1.1241638660430908	4.708364009857178	2.849288875950151e-07	0.15699221193790436	15
+444	bigbang_transcript	transcript	gpt2	" so happy for you."" Leonard turned to Sheldon as Penny walked away. """	What	's	3.2975969314575195	3.62782883644104	5.355356620384555e-07	0.15489362180233002	15
+445	bigbang_transcript	transcript	gpt2	" happy for you."" Leonard turned to Sheldon as Penny walked away. ""What"	 did	you	2.951645851135254	1.7280781269073486	9.594392395229079e-06	0.6860195994377136	15
+446	bigbang_transcript	transcript	gpt2	" for you."" Leonard turned to Sheldon as Penny walked away. ""What did"	 she	say	2.9248242378234863	2.2449114322662354	8.579452696722e-06	0.5162883400917053	15
+447	bigbang_transcript	transcript	gpt2	" you."" Leonard turned to Sheldon as Penny walked away. ""What did she"	 mean	"?"""	3.3060996532440186	1.7854163646697998	2.7392552510718815e-05	0.44988417625427246	15
+448	bigbang_transcript	transcript	gpt2	"."" Leonard turned to Sheldon as Penny walked away. ""What did she mean"	,	you	3.4329965114593506	6.360471725463867	0.00011045682185795158	0.050796136260032654	15
+449	bigbang_transcript	transcript	gpt2	" Leonard turned to Sheldon as Penny walked away. ""What did she mean,"	 she	said	3.9313082695007324	3.8597230911254883	9.520697494735941e-05	0.25321489572525024	15
+450	bigbang_transcript	transcript	gpt2	" turned to Sheldon as Penny walked away. ""What did she mean, she"	�	�	14.547155380249023	1.9044780731201172	1.0097234159900381e-10	0.48062947392463684	15
+451	bigbang_transcript	transcript	gpt2	" to Sheldon as Penny walked away. ""What did she mean, she�"	�	""""	10.373310089111328	3.2179207801818848	1.2634327504201792e-06	0.366292268037796	15
+452	bigbang_transcript	transcript	gpt2	" Sheldon as Penny walked away. ""What did she mean, she’"	s	not	5.8647003173828125	5.675652503967285	1.8097272914019413e-05	0.05575190484523773	15
+453	bigbang_transcript	transcript	gpt2	" as Penny walked away. ""What did she mean, she’s"	 happy	"?"""	7.705749988555908	3.425677537918091	3.331485277158208e-05	0.23627781867980957	15
+454	bigbang_transcript	transcript	gpt2	" Penny walked away. ""What did she mean, she’s happy"	 for	you	3.536341667175293	2.6485421657562256	5.65624468435999e-05	0.3692549765110016	15
+455	bigbang_transcript	transcript	gpt2	" walked away. ""What did she mean, she’s happy for"	 me	"?"""	1.1671756505966187	3.237860679626465	3.121995905530639e-05	0.21155893802642822	15
+456	bigbang_transcript	transcript	gpt2	" away. ""What did she mean, she’s happy for me"	"?"""	"
+"	1.6519598960876465	3.9165549278259277	3.229028152418323e-05	0.3860434293746948	15
+457	bigbang_transcript	transcript	gpt2	". ""What did she mean, she’s happy for me?"""	" """	I	3.3827953338623047	4.470586776733398	9.789158866624348e-06	0.13157613575458527	15
+458	bigbang_transcript	transcript	gpt2	" ""What did she mean, she’s happy for me?"" """	Is	that	5.191076278686523	2.405027389526367	5.511741392183467e-07	0.31954172253608704	15
+459	bigbang_transcript	transcript	gpt2	"What did she mean, she’s happy for me?"" ""Is"	 she	happy	1.6798336505889893	5.31480073928833	0.00016888236859813333	0.13963045179843903	15
+460	bigbang_transcript	transcript	gpt2	" did she mean, she’s happy for me?"" ""Is she"	 happy	for	1.8341283798217773	2.150524854660034	6.287216092459857e-05	0.4724065959453583	15
+461	bigbang_transcript	transcript	gpt2	" she mean, she’s happy for me?"" ""Is she happy"	 because	I	3.442169666290283	2.5940163135528564	0.0001983468100661412	0.27777156233787537	15
+462	bigbang_transcript	transcript	gpt2	" mean, she’s happy for me?"" ""Is she happy because"	 I	'm	1.306814432144165	4.215965747833252	8.49285424919799e-05	0.2744932174682617	15
+463	bigbang_transcript	transcript	gpt2	", she’s happy for me?"" ""Is she happy because I"	�	�	6.161205291748047	1.4547417163848877	4.71950123426268e-09	0.6542813777923584	15
+464	bigbang_transcript	transcript	gpt2	" she’s happy for me?"" ""Is she happy because I�"	�	m	0.560997724533081	1.7278627157211304	2.425434297848028e-09	0.43717867136001587	15
+465	bigbang_transcript	transcript	gpt2	"’s happy for me?"" ""Is she happy because I’"	m	happy	1.5145721435546875	5.659629821777344	2.454876266710926e-06	0.11357580125331879	15
+466	bigbang_transcript	transcript	gpt2	"�s happy for me?"" ""Is she happy because I’m"	 seeing	her	5.845750331878662	3.204890727996826	5.521849379874766e-05	0.3880670666694641	15
+467	bigbang_transcript	transcript	gpt2	"s happy for me?"" ""Is she happy because I’m seeing"	 someone	else	6.363868713378906	4.304465293884277	0.00010396092693554237	0.1658463031053543	15
+468	bigbang_transcript	transcript	gpt2	" happy for me?"" ""Is she happy because I’m seeing someone"	,	or	4.227947235107422	5.054652214050293	7.288892811629921e-05	0.20992331206798553	15
+469	bigbang_transcript	transcript	gpt2	" for me?"" ""Is she happy because I’m seeing someone,"	 or	is	1.5246849060058594	3.480306625366211	0.00026759871980175376	0.33166202902793884	15
+470	bigbang_transcript	transcript	gpt2	" me?"" ""Is she happy because I’m seeing someone, or"	 is	she	1.1012024879455566	1.4905308485031128	3.947381264879368e-05	0.6012166142463684	15
+471	bigbang_transcript	transcript	gpt2	"?"" ""Is she happy because I’m seeing someone, or is"	 she	happy	0.5576174259185791	4.991325855255127	0.00015701942902524024	0.0968976691365242	15
+472	bigbang_transcript	transcript	gpt2	" ""Is she happy because I’m seeing someone, or is she"	 happy	because	1.988395094871521	0.9435069561004639	2.4322020180989057e-05	0.8601830005645752	15
+473	bigbang_transcript	transcript	gpt2	Is she happy because I’m seeing someone, or is she happy	 because	I	0.1650281399488449	2.2506587505340576	0.0001678894186625257	0.5848647952079773	15
+474	bigbang_transcript	transcript	gpt2	 she happy because I’m seeing someone, or is she happy because	 she	's	1.6619075536727905	3.520535469055176	0.00014004814147483557	0.3432217538356781	15
+475	bigbang_transcript	transcript	gpt2	 happy because I’m seeing someone, or is she happy because she	 thinks	I	4.995111465454102	3.0602498054504395	2.3866859919507988e-06	0.25698527693748474	15
+476	bigbang_transcript	transcript	gpt2	 because I’m seeing someone, or is she happy because she thinks	 that	I	2.570712089538574	4.215628623962402	0.00279715983197093	0.16700328886508942	15
+477	bigbang_transcript	transcript	gpt2	 I’m seeing someone, or is she happy because she thinks that	 I	'm	3.0747673511505127	2.9754762649536133	0.00035211400245316327	0.44515350461006165	15
+478	bigbang_transcript	transcript	gpt2	’m seeing someone, or is she happy because she thinks that I	�	�	14.253162384033203	2.496596336364746	2.8855579037312395e-10	0.2791195809841156	15
+479	bigbang_transcript	transcript	gpt2	�m seeing someone, or is she happy because she thinks that I�	�	m	8.087058067321777	1.3287323713302612	2.82355154013203e-06	0.8391634225845337	15
+480	bigbang_transcript	transcript	gpt2	m seeing someone, or is she happy because she thinks that I’	m	happy	2.57637619972229	5.703545570373535	6.034405942045851e-06	0.06844677031040192	15
+481	bigbang_transcript	transcript	gpt2	 seeing someone, or is she happy because she thinks that I’m	 happy	?	2.6335487365722656	3.0498275756835938	4.156534032517811e-06	0.289438396692276	15
+482	bigbang_transcript	transcript	gpt2	 someone, or is she happy because she thinks that I’m happy	,	or	2.526944160461426	3.4635908603668213	8.469257591059431e-05	0.40174248814582825	15
+483	bigbang_transcript	transcript	gpt2	, or is she happy because she thinks that I’m happy,	 because	I	3.3388919830322266	2.194253444671631	0.0005167723866179585	0.5102754831314087	15
+484	bigbang_transcript	transcript	gpt2	 or is she happy because she thinks that I’m happy, because	 anyone	who	8.744948387145996	2.8634214401245117	2.55509621638339e-05	0.4196610748767853	15
+485	bigbang_transcript	transcript	gpt2	 is she happy because she thinks that I’m happy, because anyone	 who	thinks	0.8071712851524353	4.363350868225098	9.219330968335271e-05	0.11836383491754532	15
+486	bigbang_transcript	transcript	gpt2	 she happy because she thinks that I’m happy, because anyone who	 cared	about	8.215863227844238	1.7078267335891724	0.00039501237915828824	0.6310579776763916	15
+487	bigbang_transcript	transcript	gpt2	 happy because she thinks that I’m happy, because anyone who cared	 for	me	2.010162115097046	3.1429929733276367	6.015172402840108e-05	0.37261754274368286	15
+488	bigbang_transcript	transcript	gpt2	 because she thinks that I’m happy, because anyone who cared for	 someone	like	5.1556806564331055	3.9050750732421875	5.74608457100112e-05	0.18807755410671234	15
+489	bigbang_transcript	transcript	gpt2	 she thinks that I’m happy, because anyone who cared for someone	 would	be	3.762192726135254	4.25810432434082	9.108040103456005e-05	0.1782243549823761	15
+490	bigbang_transcript	transcript	gpt2	 thinks that I’m happy, because anyone who cared for someone would	 want	to	3.1071248054504395	2.089465618133545	9.907977073453367e-06	0.6136385202407837	15
+491	bigbang_transcript	transcript	gpt2	 that I’m happy, because anyone who cared for someone would want	 them	to	3.9277503490448	3.488706350326538	8.231528227042872e-06	0.33006319403648376	15
+492	bigbang_transcript	transcript	gpt2	 I’m happy, because anyone who cared for someone would want them	 to	be	1.1027426719665527	4.0039825439453125	0.00037762694410048425	0.27694612741470337	15
+493	bigbang_transcript	transcript	gpt2	’m happy, because anyone who cared for someone would want them to	 be	happy	1.305342674255371	4.6459879875183105	0.00020791857969015837	0.30605703592300415	15
+494	bigbang_transcript	transcript	gpt2	�m happy, because anyone who cared for someone would want them to be	 happy	.	1.9173855781555176	2.6584603786468506	0.0001053326777764596	0.45310717821121216	15
+495	bigbang_transcript	transcript	gpt2	m happy, because anyone who cared for someone would want them to be happy	,	and	1.93320894241333	4.161083221435547	4.587451257975772e-05	0.21406716108322144	15
+496	bigbang_transcript	transcript	gpt2	 happy, because anyone who cared for someone would want them to be happy,	 even	if	3.6459360122680664	1.5913915634155273	0.00016650327597744763	0.7257762551307678	15
+497	bigbang_transcript	transcript	gpt2	, because anyone who cared for someone would want them to be happy, even	 if	they	0.35759878158569336	2.5069825649261475	0.0009177362662740052	0.42459380626678467	15
+498	bigbang_transcript	transcript	gpt2	 because anyone who cared for someone would want them to be happy, even if	 the	person	3.0787036418914795	6.3895487785339355	0.00017131207277998328	0.1567062884569168	15
+499	bigbang_transcript	transcript	gpt2	 anyone who cared for someone would want them to be happy, even if the	 reason	for	5.078481674194336	2.667184829711914	4.012838326161727e-05	0.3389018476009369	15
+500	bigbang_transcript	transcript	gpt2	 who cared for someone would want them to be happy, even if the reason	 for	their	1.1132863759994507	3.4394240379333496	0.00020587244944181293	0.2299174964427948	15
+501	bigbang_transcript	transcript	gpt2	 cared for someone would want them to be happy, even if the reason for	 their	happiness	1.3785059452056885	5.9295334815979	7.990120502654463e-05	0.1266646534204483	15
+502	bigbang_transcript	transcript	gpt2	 for someone would want them to be happy, even if the reason for their	 happiness	is	1.9532239437103271	2.8888747692108154	2.7767822530222475e-07	0.39046260714530945	15
+503	bigbang_transcript	transcript	gpt2	 someone would want them to be happy, even if the reason for their happiness	 made	them	8.039810180664062	2.1767213344573975	6.381852472259197e-06	0.6220753788948059	15
+504	bigbang_transcript	transcript	gpt2	 would want them to be happy, even if the reason for their happiness made	 the	world	3.614871025085449	7.086325168609619	0.00029185382300056517	0.07438213378190994	15
+505	bigbang_transcript	transcript	gpt2	 want them to be happy, even if the reason for their happiness made the	 first	person	5.358154296875	6.100036144256592	0.00020233241957612336	0.15491685271263123	15
+506	bigbang_transcript	transcript	gpt2	 them to be happy, even if the reason for their happiness made the first	 person	feel	2.007143497467041	5.381009101867676	0.00017491806647740304	0.1340189129114151	15
+507	bigbang_transcript	transcript	gpt2	 to be happy, even if the reason for their happiness made the first person	 unhappy	.	3.8504035472869873	2.508456230163574	2.306023452547379e-05	0.5959062576293945	15
+508	bigbang_transcript	transcript	gpt2	 be happy, even if the reason for their happiness made the first person unhappy	"."""	"
+"	4.930990219116211	3.603567600250244	2.4677185137989e-05	0.5037123560905457	15
+509	bigbang_transcript	transcript	gpt2	" happy, even if the reason for their happiness made the first person unhappy."""	" """	I	4.375068187713623	5.062506198883057	7.740269938949496e-05	0.0962614044547081	15
+510	bigbang_transcript	transcript	gpt2	", even if the reason for their happiness made the first person unhappy."" """	You	're	3.4378721714019775	4.494898319244385	4.1833484232256524e-08	0.12534169852733612	15
+511	bigbang_transcript	transcript	gpt2	" even if the reason for their happiness made the first person unhappy."" ""You"	 know	,	3.014380931854248	3.0086240768432617	8.271917067759205e-06	0.36394044756889343	15
+512	bigbang_transcript	transcript	gpt2	" if the reason for their happiness made the first person unhappy."" ""You know"	,	I	1.1412017345428467	4.803328514099121	0.0001337019057245925	0.17395851016044617	15
+513	bigbang_transcript	transcript	gpt2	" the reason for their happiness made the first person unhappy."" ""You know,"	 because	you	5.181783676147461	3.7238900661468506	0.0003496314457152039	0.2038319706916809	15
+514	bigbang_transcript	transcript	gpt2	" reason for their happiness made the first person unhappy."" ""You know, because"	 the	first	3.422863006591797	6.6121673583984375	0.000243909569690004	0.11843722313642502	15
+515	bigbang_transcript	transcript	gpt2	" for their happiness made the first person unhappy."" ""You know, because the"	 second	person	4.00555419921875	0.8827480673789978	8.668005466461182e-05	0.8916197419166565	15
+516	bigbang_transcript	transcript	gpt2	" their happiness made the first person unhappy."" ""You know, because the second"	 person	is	0.11015567183494568	4.516676425933838	8.500643161823973e-05	0.18386492133140564	15
+517	bigbang_transcript	transcript	gpt2	" happiness made the first person unhappy."" ""You know, because the second person"	,	the	3.5987493991851807	4.635353088378906	7.90013000369072e-05	0.09964682161808014	15
+518	bigbang_transcript	transcript	gpt2	" made the first person unhappy."" ""You know, because the second person,"	 though	,	5.638731956481934	3.0874156951904297	0.000124646132462658	0.4810718595981598	15
+519	bigbang_transcript	transcript	gpt2	" the first person unhappy."" ""You know, because the second person, though"	 happy	,	5.833219051361084	2.007293224334717	5.4717886087018996e-05	0.627447783946991	15
+520	bigbang_transcript	transcript	gpt2	" first person unhappy."" ""You know, because the second person, though happy"	,	is	0.43432217836380005	4.632091999053955	0.0002622418978717178	0.20294608175754547	15
+521	bigbang_transcript	transcript	gpt2	" person unhappy."" ""You know, because the second person, though happy,"	 is	not	1.5564193725585938	5.178440093994141	0.00011012596951331943	0.13037006556987762	15
+522	bigbang_transcript	transcript	gpt2	" unhappy."" ""You know, because the second person, though happy, is"	 now	a	5.468894004821777	6.010984897613525	0.0006329219904728234	0.10055600851774216	15
+523	bigbang_transcript	transcript	gpt2	"."" ""You know, because the second person, though happy, is now"	 rom	antically	9.52568531036377	0.10864623636007309	7.59650276904722e-07	0.9843131303787231	15
+524	bigbang_transcript	transcript	gpt2	" ""You know, because the second person, though happy, is now rom"	antically	involved	0.019170716404914856	2.595749855041504	1.855735654032742e-08	0.6259745359420776	15
+525	bigbang_transcript	transcript	gpt2	You know, because the second person, though happy, is now romantically	 unavailable	.	8.1181001663208	2.661569833755493	2.8730519829878176e-07	0.2840108573436737	15
+526	bigbang_transcript	transcript	gpt2	 know, because the second person, though happy, is now romantically unavailable	 to	him	1.7311538457870483	4.18557596206665	0.00014960643602535129	0.22374902665615082	15
+527	bigbang_transcript	transcript	gpt2	, because the second person, though happy, is now romantically unavailable to	 the	first	2.3376502990722656	5.261305332183838	0.0003287198778707534	0.20823204517364502	15
+528	bigbang_transcript	transcript	gpt2	 because the second person, though happy, is now romantically unavailable to the	 first	person	1.3198069334030151	1.8502528667449951	7.628802995895967e-05	0.5165620446205139	15
+529	bigbang_transcript	transcript	gpt2	 the second person, though happy, is now romantically unavailable to the first	 person	.	0.670238196849823	2.2678658962249756	0.0002486415032763034	0.5349639654159546	15
+530	bigbang_transcript	transcript	gpt2	 second person, though happy, is now romantically unavailable to the first person	"."""	"
+"	5.234609127044678	3.192399024963379	3.4158605558332056e-05	0.586317777633667	15
+531	bigbang_transcript	transcript	gpt2	" person, though happy, is now romantically unavailable to the first person."""	 Sheldon	,	11.797195434570312	6.330048084259033	0.0013938514748588204	0.06475839018821716	15
+532	bigbang_transcript	transcript	gpt2	", though happy, is now romantically unavailable to the first person."" Sheldon"	 sat	down	7.713868141174316	3.696030616760254	0.00015475779946427792	0.2516948878765106	15
+533	bigbang_transcript	transcript	gpt2	" though happy, is now romantically unavailable to the first person."" Sheldon sat"	 back	down	3.0407071113586426	2.6203553676605225	0.0018859617412090302	0.27101266384124756	15
+534	bigbang_transcript	transcript	gpt2	" happy, is now romantically unavailable to the first person."" Sheldon sat back"	 in	his	1.8304542303085327	0.8148993253707886	1.0562141142145265e-05	0.8708476424217224	15
+535	bigbang_transcript	transcript	gpt2	", is now romantically unavailable to the first person."" Sheldon sat back in"	 his	chair	0.12750107049942017	0.6175690293312073	8.354094461537898e-06	0.9025272130966187	15
+536	bigbang_transcript	transcript	gpt2	" is now romantically unavailable to the first person."" Sheldon sat back in his"	 chair	,	0.10178081691265106	2.475715398788452	0.0001452987635275349	0.351214200258255	15
+537	bigbang_transcript	transcript	gpt2	" now romantically unavailable to the first person."" Sheldon sat back in his chair"	.	""""	2.1333584785461426	2.459770679473877	4.177426944806939e-06	0.529879629611969	15
+538	bigbang_transcript	transcript	gpt2	" romantically unavailable to the first person."" Sheldon sat back in his chair."	" """	I	0.6402730941772461	4.5136003494262695	6.78343155868788e-07	0.18087023496627808	15
+539	bigbang_transcript	transcript	gpt2	"antically unavailable to the first person."" Sheldon sat back in his chair. """	You	're	2.8722686767578125	4.186075687408447	1.5697095179234566e-08	0.183057501912117	15
+540	bigbang_transcript	transcript	gpt2	" unavailable to the first person."" Sheldon sat back in his chair. ""You"	�	�	15.146943092346191	2.0203330516815186	4.6172529688526254e-10	0.3387244641780853	15
+541	bigbang_transcript	transcript	gpt2	" to the first person."" Sheldon sat back in his chair. ""You�"	�	t	9.712841033935547	4.196226596832275	8.022760198400647e-07	0.19234567880630493	15
+542	bigbang_transcript	transcript	gpt2	" the first person."" Sheldon sat back in his chair. ""You’"	re	right	3.46809720993042	5.012045860290527	1.5743153198854998e-05	0.13520729541778564	15
+543	bigbang_transcript	transcript	gpt2	" first person."" Sheldon sat back in his chair. ""You’re"	 a	good	2.974236488342285	6.514557838439941	0.0001919870701385662	0.08022327721118927	15
+544	bigbang_transcript	transcript	gpt2	" person."" Sheldon sat back in his chair. ""You’re a"	 lucky	man	7.343612194061279	4.413571357727051	0.0007942720549181104	0.24514652788639069	15
+545	bigbang_transcript	transcript	gpt2	"."" Sheldon sat back in his chair. ""You’re a lucky"	 man	.	1.4557733535766602	2.7684125900268555	8.289298421004787e-05	0.26294881105422974	15
+546	bigbang_transcript	transcript	gpt2	" Sheldon sat back in his chair. ""You’re a lucky man"	,	I	2.1487345695495605	6.439131736755371	6.572679558303207e-05	0.06388501822948456	15
+547	bigbang_transcript	transcript	gpt2	" sat back in his chair. ""You’re a lucky man,"	 Leonard	.	10.427796363830566	2.9506022930145264	0.0014383975649252534	0.34326979517936707	15
+548	bigbang_transcript	transcript	gpt2	" back in his chair. ""You’re a lucky man, Leonard"	"."""	"
+"	1.5668598413467407	2.782151699066162	8.113002877507824e-06	0.5775181651115417	15
+549	bigbang_transcript	transcript	gpt2	" in his chair. ""You’re a lucky man, Leonard."""	" """	I	3.487860918045044	4.661314487457275	1.6788202401585295e-06	0.1622294783592224	15
+550	bigbang_transcript	transcript	gpt2	" his chair. ""You’re a lucky man, Leonard."" """	How	�	4.8415045738220215	4.119176864624023	1.3203541584516643e-06	0.15184645354747772	15
+551	bigbang_transcript	transcript	gpt2	" chair. ""You’re a lucky man, Leonard."" ""How"	 so	"?"""	4.475129127502441	1.2720671892166138	0.00010625094728311524	0.7370844483375549	15
+552	bigbang_transcript	transcript	gpt2	". ""You’re a lucky man, Leonard."" ""How so"	"?"""	""""	0.3216812014579773	3.7959232330322266	4.8546131438342854e-05	0.4682539403438568	15
+553	bigbang_transcript	transcript	gpt2	" ""You’re a lucky man, Leonard."" ""How so?"""	" """	I	0.6321375966072083	4.337615966796875	1.905101271404419e-06	0.17603160440921783	15
+554	bigbang_transcript	transcript	gpt2	"You’re a lucky man, Leonard."" ""How so?"" """	You	're	2.650571823120117	4.5844221115112305	7.084065032358922e-07	0.1767139732837677	15
+555	bigbang_transcript	transcript	gpt2	"’re a lucky man, Leonard."" ""How so?"" ""You"	�	�	12.867843627929688	1.5708566904067993	1.5234166705901941e-10	0.5640095472335815	15
+556	bigbang_transcript	transcript	gpt2	"�re a lucky man, Leonard."" ""How so?"" ""You�"	�	re	9.246179580688477	2.646315574645996	2.43087310991541e-06	0.5460274815559387	15
+557	bigbang_transcript	transcript	gpt2	"re a lucky man, Leonard."" ""How so?"" ""You’"	re	a	4.973650932312012	5.792480945587158	1.974577571672853e-05	0.08786653727293015	15
+558	bigbang_transcript	transcript	gpt2	" a lucky man, Leonard."" ""How so?"" ""You’re"	 talking	about	4.855874061584473	2.790423631668091	0.00014800566714257002	0.5282955169677734	15
+559	bigbang_transcript	transcript	gpt2	" lucky man, Leonard."" ""How so?"" ""You’re talking"	 to	me	2.459357738494873	4.605030059814453	0.00014157200348563492	0.19374337792396545	15
+560	bigbang_transcript	transcript	gpt2	" man, Leonard."" ""How so?"" ""You’re talking to"	 one	of	5.5856475830078125	2.1304128170013428	0.0007694489322602749	0.7614222764968872	15
+561	bigbang_transcript	transcript	gpt2	", Leonard."" ""How so?"" ""You’re talking to one"	 of	the	0.29184070229530334	2.7341675758361816	4.4614938815357164e-05	0.304552286863327	15
+562	bigbang_transcript	transcript	gpt2	" Leonard."" ""How so?"" ""You’re talking to one of"	 the	most	1.12693190574646	7.4404826164245605	0.0005379902431741357	0.03040642850100994	15
+563	bigbang_transcript	transcript	gpt2	"."" ""How so?"" ""You’re talking to one of the"	 three	of	5.897478103637695	7.128327369689941	0.0005695904255844653	0.04895555600523949	15
+564	bigbang_transcript	transcript	gpt2	" ""How so?"" ""You’re talking to one of the three"	 men	in	4.151666641235352	4.017329216003418	6.387654866557568e-05	0.14468097686767578	15
+565	bigbang_transcript	transcript	gpt2	"How so?"" ""You’re talking to one of the three men"	 in	the	2.032536745071411	3.2658259868621826	0.00010514100722502917	0.48447197675704956	15
+566	bigbang_transcript	transcript	gpt2	" so?"" ""You’re talking to one of the three men in"	 the	room	0.752848207950592	6.254064559936523	0.0001867253886302933	0.14917710423469543	15
+567	bigbang_transcript	transcript	gpt2	"?"" ""You’re talking to one of the three men in the"	 Western	Wall	9.3561372756958	6.986429214477539	0.0001832909183576703	0.04215822368860245	15
+568	bigbang_transcript	transcript	gpt2	" ""You’re talking to one of the three men in the Western"	 hemisphere	�	5.290429592132568	3.243025064468384	5.076014986116206e-07	0.30990588665008545	15
+569	bigbang_transcript	transcript	gpt2	You’re talking to one of the three men in the Western hemisphere	 capable	of	11.17841911315918	0.2763174772262573	1.2250888175913133e-05	0.9725698828697205	15
+570	bigbang_transcript	transcript	gpt2	’re talking to one of the three men in the Western hemisphere capable	 of	doing	0.02429138496518135	6.691321849822998	0.00012091942335246131	0.04189356416463852	15
+571	bigbang_transcript	transcript	gpt2	�re talking to one of the three men in the Western hemisphere capable of	 following	him	6.803112030029297	4.677199840545654	5.666330980602652e-05	0.17563825845718384	15
+572	bigbang_transcript	transcript	gpt2	re talking to one of the three men in the Western hemisphere capable of following	 that	path	5.235123634338379	6.634189605712891	0.00026582321152091026	0.04546717554330826	15
+573	bigbang_transcript	transcript	gpt2	 talking to one of the three men in the Western hemisphere capable of following that	 train	of	5.2723493576049805	2.0643279552459717	0.0003716651117429137	0.6358162760734558	15
+574	bigbang_transcript	transcript	gpt2	 to one of the three men in the Western hemisphere capable of following that train	 of	thought	0.5828386545181274	0.34674426913261414	1.490862473474408e-06	0.9660191535949707	15
+575	bigbang_transcript	transcript	gpt2	 one of the three men in the Western hemisphere capable of following that train of	 thought	.	0.029195409268140793	3.0789852142333984	0.00015276561316568404	0.4268942177295685	15
+576	bigbang_transcript	transcript	gpt2	 of the three men in the Western hemisphere capable of following that train of thought	"."""	"
+"	4.15180778503418	3.6382791996002197	1.865225021902006e-05	0.5078696012496948	15
+577	bigbang_transcript	transcript	gpt2	" the three men in the Western hemisphere capable of following that train of thought."""	" """	The	4.818404197692871	5.248071670532227	9.477458661422133e-05	0.08742756396532059	15
+578	bigbang_transcript	transcript	gpt2	" three men in the Western hemisphere capable of following that train of thought."" """	Well	,	5.18516731262207	2.0930545330047607	2.3186880753200967e-06	0.6511862277984619	15
+579	bigbang_transcript	transcript	gpt2	" men in the Western hemisphere capable of following that train of thought."" ""Well"	,	I	0.3853447139263153	4.778891086578369	0.00013863673666492105	0.14430323243141174	15
+580	bigbang_transcript	transcript	gpt2	" in the Western hemisphere capable of following that train of thought."" ""Well,"	 what	about	3.600733757019043	3.840026378631592	0.0005126686301082373	0.14236152172088623	15
+581	bigbang_transcript	transcript	gpt2	" the Western hemisphere capable of following that train of thought."" ""Well, what"	 do	you	2.2175660133361816	1.5085722208023071	0.00014263784396462142	0.6971172094345093	15
+582	bigbang_transcript	transcript	gpt2	" Western hemisphere capable of following that train of thought."" ""Well, what do"	 you	think	0.35197216272354126	2.477954149246216	9.243513341061771e-05	0.35958170890808105	15
+583	bigbang_transcript	transcript	gpt2	" hemisphere capable of following that train of thought."" ""Well, what do you"	 think	"?"""	1.0096858739852905	2.908883810043335	8.569400961278006e-06	0.3648104965686798	15
+584	bigbang_transcript	transcript	gpt2	" capable of following that train of thought."" ""Well, what do you think"	"?"""	""""	1.0375361442565918	4.111103057861328	0.0001687306066742167	0.4211886525154114	15
+585	bigbang_transcript	transcript	gpt2	" of following that train of thought."" ""Well, what do you think?"""	" """	I	0.8204458951950073	4.143827438354492	1.0935069440165535e-05	0.20021922886371613	15
+586	bigbang_transcript	transcript	gpt2	" following that train of thought."" ""Well, what do you think?"" """	I	think	1.6608772277832031	3.1205854415893555	1.1219161706321756e-06	0.3221055269241333	15
+587	bigbang_transcript	transcript	gpt2	" that train of thought."" ""Well, what do you think?"" ""I"	 said	,	6.4805588722229	4.235835075378418	3.5119446692988276e-05	0.17609558999538422	15
+588	bigbang_transcript	transcript	gpt2	" train of thought."" ""Well, what do you think?"" ""I said"	 I	'd	1.933584213256836	3.6507105827331543	5.420170782599598e-05	0.14695686101913452	15
+589	bigbang_transcript	transcript	gpt2	" of thought."" ""Well, what do you think?"" ""I said I"	 could	see	4.913866996765137	5.039438724517822	1.4797033145441674e-05	0.07948021590709686	15
+590	bigbang_transcript	transcript	gpt2	" thought."" ""Well, what do you think?"" ""I said I could"	 follow	you	6.165441513061523	3.7296106815338135	4.244834781275131e-05	0.30014678835868835	15
+591	bigbang_transcript	transcript	gpt2	"."" ""Well, what do you think?"" ""I said I could follow"	 it	"."""	3.7978508472442627	3.5950679779052734	0.00023022861569188535	0.14079466462135315	15
+592	bigbang_transcript	transcript	gpt2	" ""Well, what do you think?"" ""I said I could follow it"	,	but	2.1268067359924316	4.237086772918701	4.230470221955329e-05	0.23201635479927063	15
+593	bigbang_transcript	transcript	gpt2	"Well, what do you think?"" ""I said I could follow it,"	 not	follow	4.973142147064209	5.977938175201416	0.0006394541123881936	0.04864678159356117	15
+594	bigbang_transcript	transcript	gpt2	", what do you think?"" ""I said I could follow it, not"	 that	I	3.4083988666534424	2.331434726715088	0.004712426103651524	0.6449145078659058	15
+595	bigbang_transcript	transcript	gpt2	" what do you think?"" ""I said I could follow it, not that"	 I	'd	0.45357030630111694	3.7846665382385254	2.7971886083832942e-05	0.10316872596740723	15
+596	bigbang_transcript	transcript	gpt2	" do you think?"" ""I said I could follow it, not that I"	 cared	.	5.023717880249023	2.910550117492676	3.4764559586619725e-06	0.22847358882427216	15
+597	bigbang_transcript	transcript	gpt2	" you think?"" ""I said I could follow it, not that I cared"	"."""	""""	1.7737034559249878	3.4317450523376465	2.7520416551851667e-05	0.4659547209739685	15
+598	bigbang_transcript	transcript	gpt2	" think?"" ""I said I could follow it, not that I cared."""	 Penny	looked	9.856204986572266	5.725735664367676	8.488011371809989e-05	0.04356062784790993	15
+599	bigbang_transcript	transcript	gpt2	"?"" ""I said I could follow it, not that I cared."" Penny"	 returned	to	5.313817977905273	3.3168742656707764	4.301628905523103e-06	0.26237982511520386	15
+600	bigbang_transcript	transcript	gpt2	" ""I said I could follow it, not that I cared."" Penny returned"	 with	a	3.321875810623169	3.7988152503967285	4.6068722440395504e-05	0.4047948122024536	15
+601	bigbang_transcript	transcript	gpt2	"I said I could follow it, not that I cared."" Penny returned with"	 their	own	6.502734184265137	7.651098251342773	0.0001805431820685044	0.0148713868111372	15
+602	bigbang_transcript	transcript	gpt2	" said I could follow it, not that I cared."" Penny returned with their"	 burgers	and	9.899530410766602	2.7197797298431396	5.191196123632835e-06	0.2635970413684845	15
+603	bigbang_transcript	transcript	gpt2	" I could follow it, not that I cared."" Penny returned with their burgers"	,	and	1.3232141733169556	5.834675312042236	7.425858348142356e-05	0.16301779448986053	15
+604	bigbang_transcript	transcript	gpt2	" could follow it, not that I cared."" Penny returned with their burgers,"	 and	they	1.8721903562545776	6.335279941558838	0.0008019659435376525	0.05811004340648651	15
+605	bigbang_transcript	transcript	gpt2	" follow it, not that I cared."" Penny returned with their burgers, and"	 Sheldon	was	9.753705024719238	5.859861850738525	4.22986522607971e-05	0.05766153335571289	15
+606	bigbang_transcript	transcript	gpt2	" it, not that I cared."" Penny returned with their burgers, and Sheldon"	 cautiously	took	9.88090705871582	5.785154819488525	6.398308323696256e-05	0.041626546531915665	15
+607	bigbang_transcript	transcript	gpt2	", not that I cared."" Penny returned with their burgers, and Sheldon cautiously"	 took	a	3.2362704277038574	3.2472503185272217	3.712338184413966e-06	0.2148451805114746	15
+608	bigbang_transcript	transcript	gpt2	" not that I cared."" Penny returned with their burgers, and Sheldon cautiously took"	 a	bite	1.5309531688690186	1.8200690746307373	1.9414395865169354e-05	0.6537423729896545	15
+609	bigbang_transcript	transcript	gpt2	" that I cared."" Penny returned with their burgers, and Sheldon cautiously took a"	 bite	.	0.42355877161026	2.0408897399902344	7.43544842407573e-06	0.44370248913764954	15
+610	bigbang_transcript	transcript	gpt2	" I cared."" Penny returned with their burgers, and Sheldon cautiously took a bite"	.	""""	0.7722700238227844	2.2609591484069824	5.939713446423411e-06	0.4881695508956909	15
+611	bigbang_transcript	transcript	gpt2	" cared."" Penny returned with their burgers, and Sheldon cautiously took a bite."	 His	eyes	5.024982452392578	5.947312831878662	6.638214813392551e-07	0.07813428342342377	15
+612	bigbang_transcript	transcript	gpt2	"."" Penny returned with their burgers, and Sheldon cautiously took a bite. His"	 eyes	were	2.711437225341797	4.283196926116943	1.3680053598363884e-05	0.1847468912601471	15
+613	bigbang_transcript	transcript	gpt2	 Penny returned with their burgers, and Sheldon cautiously took a bite. His eyes	 widened	as	1.9096786975860596	2.7126362323760986	1.293884724873351e-05	0.23511642217636108	15
+614	bigbang_transcript	transcript	gpt2	 returned with their burgers, and Sheldon cautiously took a bite. His eyes widened	 in	surprise	2.435302734375	2.9643306732177734	2.0035950001329184e-05	0.3562331199645996	15
+615	bigbang_transcript	transcript	gpt2	 with their burgers, and Sheldon cautiously took a bite. His eyes widened in	 surprise	.	0.9934630393981934	2.0389063358306885	1.229666622748482e-06	0.3251795768737793	15
+616	bigbang_transcript	transcript	gpt2	 their burgers, and Sheldon cautiously took a bite. His eyes widened in surprise	,	and	1.5046734809875488	3.34623384475708	2.044970096903853e-05	0.3281450569629669	15
+617	bigbang_transcript	transcript	gpt2	 burgers, and Sheldon cautiously took a bite. His eyes widened in surprise,	 and	he	1.2511378526687622	3.42745304107666	0.0003642877854872495	0.4786489009857178	15
+618	bigbang_transcript	transcript	gpt2	, and Sheldon cautiously took a bite. His eyes widened in surprise, and	 he	looked	0.7052776217460632	5.646320343017578	0.00019752576190512627	0.0571407712996006	15
+619	bigbang_transcript	transcript	gpt2	 and Sheldon cautiously took a bite. His eyes widened in surprise, and he	 bit	his	5.570971488952637	2.981095552444458	8.155088835337665e-06	0.26851382851600647	15
+620	bigbang_transcript	transcript	gpt2	 Sheldon cautiously took a bite. His eyes widened in surprise, and he bit	 off	a	4.590724945068359	3.2288742065429688	0.00013248692266643047	0.29146459698677063	15
+621	bigbang_transcript	transcript	gpt2	 cautiously took a bite. His eyes widened in surprise, and he bit off	 a	few	1.3826990127563477	4.781747817993164	9.861223952611908e-05	0.17462927103042603	15
+622	bigbang_transcript	transcript	gpt2	 took a bite. His eyes widened in surprise, and he bit off a	 larger	chunk	6.4903974533081055	3.625366687774658	4.812476981896907e-05	0.3523094058036804	15
+623	bigbang_transcript	transcript	gpt2	 a bite. His eyes widened in surprise, and he bit off a larger	 piece	of	2.7533915042877197	0.7853105664253235	1.545000668556895e-05	0.8689665198326111	15
+624	bigbang_transcript	transcript	gpt2	 bite. His eyes widened in surprise, and he bit off a larger piece	.	"
+"	3.4282450675964355	3.6794638633728027	6.715147719660308e-06	0.2987610101699829	15
+625	bigbang_transcript	transcript	gpt2	. His eyes widened in surprise, and he bit off a larger piece.	" """	I	1.627938985824585	4.899763584136963	4.599739042987494e-07	0.12162401527166367	15
+626	bigbang_transcript	transcript	gpt2	" His eyes widened in surprise, and he bit off a larger piece. """	You	're	2.5724244117736816	4.585227012634277	6.109159755851579e-08	0.17542201280593872	15
+627	bigbang_transcript	transcript	gpt2	" eyes widened in surprise, and he bit off a larger piece. ""You"	 know	,	2.6817073822021484	2.821629047393799	1.1275937140453607e-05	0.37488263845443726	15
+628	bigbang_transcript	transcript	gpt2	" widened in surprise, and he bit off a larger piece. ""You know"	,	I	0.9417783617973328	4.598816394805908	0.0001946634438354522	0.24472716450691223	15
+629	bigbang_transcript	transcript	gpt2	" in surprise, and he bit off a larger piece. ""You know,"	 I	'm	1.3525140285491943	4.11890172958374	2.965514431707561e-05	0.14542828500270844	15
+630	bigbang_transcript	transcript	gpt2	" surprise, and he bit off a larger piece. ""You know, I"	 think	it	2.6706061363220215	3.6937103271484375	1.4825366633886006e-05	0.15166553854942322	15
+631	bigbang_transcript	transcript	gpt2	", and he bit off a larger piece. ""You know, I think"	 I	'm	2.0427684783935547	4.136501312255859	5.8095130953006446e-05	0.20206572115421295	15
+632	bigbang_transcript	transcript	gpt2	" and he bit off a larger piece. ""You know, I think I"	 may	have	4.945362091064453	2.6804046630859375	2.7881364076165482e-05	0.4681958556175232	15
+633	bigbang_transcript	transcript	gpt2	" he bit off a larger piece. ""You know, I think I may"	 have	been	0.7222802042961121	5.080935955047607	0.00030902394792065024	0.11820381879806519	15
+634	bigbang_transcript	transcript	gpt2	" bit off a larger piece. ""You know, I think I may have"	 mis	read	5.727964878082275	2.4593665599823	7.702725497438223e-07	0.3078680634498596	15
+635	bigbang_transcript	transcript	gpt2	" off a larger piece. ""You know, I think I may have mis"	jud	ged	1.2529059648513794	0.015284963883459568	5.179875302019354e-07	0.9984272718429565	15
+636	bigbang_transcript	transcript	gpt2	" a larger piece. ""You know, I think I may have misjud"	ged	the	0.0013727060286328197	4.08536958694458	1.4898469657964597e-07	0.1716850847005844	15
+637	bigbang_transcript	transcript	gpt2	" larger piece. ""You know, I think I may have misjudged"	 this	","""	3.1489105224609375	5.713008880615234	0.0007140762754715979	0.08184435963630676	15
+638	bigbang_transcript	transcript	gpt2	" piece. ""You know, I think I may have misjudged this"	 restaurant	.	9.380480766296387	3.7081217765808105	0.00010650994954630733	0.16339470446109772	15
+639	bigbang_transcript	transcript	gpt2	". ""You know, I think I may have misjudged this restaurant"	"."""	"
+"	2.0332655906677246	2.3726675510406494	9.424743439012673e-06	0.6593593955039978	15
+640	bigbang_transcript	transcript	gpt2	" ""You know, I think I may have misjudged this restaurant."""	" """	I	3.0367233753204346	4.348001480102539	5.657951533066807e-06	0.13500866293907166	15
+641	bigbang_transcript	transcript	gpt2	"You know, I think I may have misjudged this restaurant."" """	I	'm	2.195894956588745	3.8998241424560547	6.957678237995424e-07	0.14279477298259735	15
+642	bigbang_transcript	transcript	gpt2	" know, I think I may have misjudged this restaurant."" ""I"	 won	't	5.55682373046875	0.16669292747974396	5.337514267012011e-06	0.9817028641700745	15
+643	bigbang_transcript	transcript	gpt2	", I think I may have misjudged this restaurant."" ""I won"	�	�	14.418293952941895	2.387087106704712	3.580306190409388e-11	0.35410159826278687	15
+644	bigbang_transcript	transcript	gpt2	" I think I may have misjudged this restaurant."" ""I won�"	�	�	8.174290657043457	3.990473747253418	1.7592394669918576e-06	0.18016298115253448	15
+645	bigbang_transcript	transcript	gpt2	" think I may have misjudged this restaurant."" ""I won’"	t	be	2.9247426986694336	4.574409484863281	6.428953156500938e-07	0.21386513113975525	15
+646	bigbang_transcript	transcript	gpt2	" I may have misjudged this restaurant."" ""I won’t"	 go	to	5.015362739562988	4.482326507568359	0.0009048545616678894	0.1324930340051651	15
+647	bigbang_transcript	transcript	gpt2	" may have misjudged this restaurant."" ""I won’t go"	 out	of	3.4661684036254883	3.701718807220459	0.0002614107506815344	0.13544511795043945	15
+648	bigbang_transcript	transcript	gpt2	" have misjudged this restaurant."" ""I won’t go out"	 on	a	2.8104088306427	2.2776665687561035	7.185137656051666e-05	0.6372300386428833	15
+649	bigbang_transcript	transcript	gpt2	" misjudged this restaurant."" ""I won’t go out on"	 a	limb	0.4686044156551361	1.412308692932129	1.9626944776973687e-05	0.6528062224388123	15
+650	bigbang_transcript	transcript	gpt2	"judged this restaurant."" ""I won’t go out on a"	 limb	�	0.4103379249572754	2.7949721813201904	2.758847585937474e-07	0.27434706687927246	15
+651	bigbang_transcript	transcript	gpt2	"ged this restaurant."" ""I won’t go out on a limb"	,	but	3.117462158203125	4.770836353302002	4.57995047327131e-05	0.25997060537338257	15
+652	bigbang_transcript	transcript	gpt2	" this restaurant."" ""I won’t go out on a limb,"	 but	I	1.39749276638031	3.700578212738037	0.00016698216495569795	0.4018326699733734	15
+653	bigbang_transcript	transcript	gpt2	" restaurant."" ""I won’t go out on a limb, but"	 I	'm	0.7734835743904114	3.9139931201934814	5.0630871555767953e-05	0.12398381531238556	15
+654	bigbang_transcript	transcript	gpt2	"."" ""I won’t go out on a limb, but I"	 think	I	3.2723488807678223	3.6753580570220947	1.6553198292967863e-05	0.1920926421880722	15
+655	bigbang_transcript	transcript	gpt2	" ""I won’t go out on a limb, but I think"	 we	're	2.3807685375213623	3.2715184688568115	9.013972885441035e-05	0.15923267602920532	15
+656	bigbang_transcript	transcript	gpt2	I won’t go out on a limb, but I think we	 may	have	5.646074295043945	3.374091863632202	2.2675187210552394e-05	0.27950870990753174	15
+657	bigbang_transcript	transcript	gpt2	 won’t go out on a limb, but I think we may	 be	able	1.3957096338272095	4.653000354766846	7.149696466512978e-05	0.22430036962032318	15
+658	bigbang_transcript	transcript	gpt2	’t go out on a limb, but I think we may be	 looking	at	4.537308216094971	0.8482462763786316	6.297377694863826e-06	0.8713067173957825	15
+659	bigbang_transcript	transcript	gpt2	�t go out on a limb, but I think we may be looking	 at	a	0.15672674775123596	4.3638434410095215	0.0021820010151714087	0.30105870962142944	15
+660	bigbang_transcript	transcript	gpt2	t go out on a limb, but I think we may be looking at	 my	own	7.927117347717285	6.954176902770996	0.00014427682617679238	0.04504772648215294	15
+661	bigbang_transcript	transcript	gpt2	 go out on a limb, but I think we may be looking at my	 new	favorite	5.570538520812988	7.23773193359375	0.0009006949258036911	0.03666871041059494	15
+662	bigbang_transcript	transcript	gpt2	 out on a limb, but I think we may be looking at my new	 Tuesday	.	11.760029792785645	6.686816215515137	8.924963913159445e-05	0.05740436166524887	15
+663	bigbang_transcript	transcript	gpt2	 on a limb, but I think we may be looking at my new Tuesday	 hamb	urger	10.951433181762695	0.29446110129356384	6.402063235100286e-08	0.9199857711791992	15
+664	bigbang_transcript	transcript	gpt2	 a limb, but I think we may be looking at my new Tuesday hamb	urger	.	0.0847400575876236	4.848104476928711	1.8603942919526162e-07	0.18830479681491852	15
+665	bigbang_transcript	transcript	gpt2	 limb, but I think we may be looking at my new Tuesday hamburger	"."""	"
+"	3.700773239135742	2.4168777465820312	1.08708254629164e-05	0.6711506247520447	15

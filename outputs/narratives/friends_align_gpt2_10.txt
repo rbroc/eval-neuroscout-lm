@@ -1,0 +1,525 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	friends_align	aligned	gpt2	chandler and monica walked into the airport	 hand	in	9.703876495361328	1.5307447910308838	1.8563396224635653e-05	0.6417116522789001	10
+1	friends_align	aligned	gpt2	andler and monica walked into the airport hand	 in	hand	0.4188685119152069	0.3755302131175995	3.04515310745046e-06	0.9059149026870728	10
+2	friends_align	aligned	gpt2	ler and monica walked into the airport hand in	 hand	.	0.08871159702539444	2.4659833908081055	2.7809224775410257e-05	0.32722124457359314	10
+3	friends_align	aligned	gpt2	 and monica walked into the airport hand in hand	 pulling	out	10.333670616149902	4.709200859069824	7.755596925562713e-06	0.12074976414442062	10
+4	friends_align	aligned	gpt2	 monica walked into the airport hand in hand pulling	 their	luggage	4.3455681800842285	6.709470748901367	0.0001850367698352784	0.08190353959798813	10
+5	friends_align	aligned	gpt2	ica walked into the airport hand in hand pulling their	 suit	cases	6.4324116706848145	0.5167856216430664	8.599124703323469e-05	0.9357454776763916	10
+6	friends_align	aligned	gpt2	 walked into the airport hand in hand pulling their suit	cases	out	0.05893474072217941	3.61377215385437	1.7221496761976596e-07	0.13280600309371948	10
+7	friends_align	aligned	gpt2	 into the airport hand in hand pulling their suitcases	 behind	them	6.142810821533203	1.775896430015564	0.00042366422712802887	0.550217866897583	10
+8	friends_align	aligned	gpt2	 the airport hand in hand pulling their suitcases behind	 them	.	0.6152901649475098	3.0093612670898438	1.685149072727654e-05	0.3462354242801666	10
+9	friends_align	aligned	gpt2	 airport hand in hand pulling their suitcases behind them	 see	the	12.810293197631836	5.223587989807129	0.00016983634850475937	0.1304185837507248	10
+10	friends_align	aligned	gpt2	 hand in hand pulling their suitcases behind them see	 honey	comb	10.591571807861328	5.543108940124512	0.00041110118036158383	0.14550374448299408	10
+11	friends_align	aligned	gpt2	 in hand pulling their suitcases behind them see honey	 no	more	8.68696117401123	4.196091175079346	0.0004397087323013693	0.23480258882045746	10
+12	friends_align	aligned	gpt2	 hand pulling their suitcases behind them see honey no	 problem	.	7.222972869873047	3.8152873516082764	9.370099178340752e-06	0.3269020617008209	10
+13	friends_align	aligned	gpt2	 pulling their suitcases behind them see honey no problem	 getting	in	4.941774368286133	5.071481227874756	0.00010267621109960601	0.056615736335515976	10
+14	friends_align	aligned	gpt2	 their suitcases behind them see honey no problem getting	 a	little	3.8180480003356934	6.353888034820557	0.0001408953539794311	0.06646377593278885	10
+15	friends_align	aligned	gpt2	 suitcases behind them see honey no problem getting a	 cab	.	7.814101219177246	4.054147720336914	0.00119611038826406	0.21234357357025146	10
+16	friends_align	aligned	gpt2	cases behind them see honey no problem getting a cab	 no	problem	8.483796119689941	2.08061146736145	0.0005684958305209875	0.672918438911438	10
+17	friends_align	aligned	gpt2	 behind them see honey no problem getting a cab no	 traffic	.	8.339348793029785	5.352999210357666	0.0019725083839148283	0.10981940478086472	10
+18	friends_align	aligned	gpt2	 them see honey no problem getting a cab no traffic	 my	car	8.618656158447266	6.875138282775879	0.001075768144801259	0.08454122394323349	10
+19	friends_align	aligned	gpt2	 see honey no problem getting a cab no traffic my	 way	.	4.342508316040039	4.910306930541992	0.00018262128287460655	0.2161523848772049	10
+20	friends_align	aligned	gpt2	 honey no problem getting a cab no traffic my way	 totally	fine	10.60794734954834	6.307169437408447	0.000341060571372509	0.14527353644371033	10
+21	friends_align	aligned	gpt2	 no problem getting a cab no traffic my way totally	 works	.	6.782742023468018	4.783432483673096	0.00021306304552126676	0.12090210616588593	10
+22	friends_align	aligned	gpt2	 problem getting a cab no traffic my way totally works	 smiled	at	15.506139755249023	5.08716344833374	0.0004643303109332919	0.17035646736621857	10
+23	friends_align	aligned	gpt2	 getting a cab no traffic my way totally works smiled	 ch	ubby	8.087828636169434	4.993473529815674	1.8515052943257615e-05	0.11099221557378769	10
+24	friends_align	aligned	gpt2	 a cab no traffic my way totally works smiled ch	and	ler	7.67652702331543	3.126274585723877	0.0001380842732032761	0.6057417988777161	10
+25	friends_align	aligned	gpt2	 cab no traffic my way totally works smiled chand	ler	"
+"	0.37083885073661804	7.321828842163086	6.429805125662824e-06	0.03383884206414223	10
+26	friends_align	aligned	gpt2	 no traffic my way totally works smiled chandler	 mon	ahan	8.620220184326172	6.386996269226074	4.8458918172400445e-05	0.04725904017686844	10
+27	friends_align	aligned	gpt2	 traffic my way totally works smiled chandler mon	ica	.	4.5195536613464355	6.814919471740723	1.4748474313819315e-05	0.06636674702167511	10
+28	friends_align	aligned	gpt2	 my way totally works smiled chandler monica	 took	a	7.088095664978027	4.124189853668213	2.9026241463725455e-05	0.15426577627658844	10
+29	friends_align	aligned	gpt2	 way totally works smiled chandler monica took	 a	few	1.8010139465332031	5.829709529876709	0.00021038827253505588	0.053169213235378265	10
+30	friends_align	aligned	gpt2	 totally works smiled chandler monica took a	 deep	breath	3.87912654876709	0.7881219983100891	0.0035825008526444435	0.9037457704544067	10
+31	friends_align	aligned	gpt2	 works smiled chandler monica took a deep	 breath	and	0.10761429369449615	2.427947521209717	2.256029620184563e-05	0.37624692916870117	10
+32	friends_align	aligned	gpt2	 smiled chandler monica took a deep breath	 i	was	10.375951766967773	6.479198455810547	0.002207355108112097	0.03088517114520073	10
+33	friends_align	aligned	gpt2	 chandler monica took a deep breath i	 know	i	5.627902507781982	4.6837158203125	9.145233343588188e-05	0.16089703142642975	10
+34	friends_align	aligned	gpt2	andler monica took a deep breath i know	 i	am	1.7844786643981934	4.8058552742004395	0.00038365134969353676	0.06749190390110016	10
+35	friends_align	aligned	gpt2	ler monica took a deep breath i know i	 know	i	2.8309431076049805	3.22477388381958	0.00014664635818917304	0.5187008380889893	10
+36	friends_align	aligned	gpt2	 monica took a deep breath i know i know	 we	are	5.6414899826049805	4.518104076385498	0.0008687472436577082	0.10785382241010666	10
+37	friends_align	aligned	gpt2	ica took a deep breath i know i know we	 have	to	2.6642935276031494	4.364136695861816	0.0005248751258477569	0.31097277998924255	10
+38	friends_align	aligned	gpt2	 took a deep breath i know i know we have	 plenty	of	6.288608551025391	1.2270190715789795	8.922894630813971e-05	0.8201128840446472	10
+39	friends_align	aligned	gpt2	 a deep breath i know i know we have plenty	 of	time	0.20214754343032837	6.29201078414917	0.0004760073497891426	0.1641385406255722	10
+40	friends_align	aligned	gpt2	 deep breath i know i know we have plenty of	 time	to	1.6823760271072388	3.202176094055176	0.0002196716668549925	0.4089837968349457	10
+41	friends_align	aligned	gpt2	 breath i know i know we have plenty of time	 i	know	5.099588394165039	3.3355143070220947	0.00016256330127362162	0.39516451954841614	10
+42	friends_align	aligned	gpt2	 i know i know we have plenty of time i	 am	not	4.110377311706543	5.560369491577148	0.00011381706281099468	0.07569926977157593	10
+43	friends_align	aligned	gpt2	 know i know we have plenty of time i am	 totally	sure	6.377399444580078	6.2627363204956055	0.0015563872875645757	0.030752046033740044	10
+44	friends_align	aligned	gpt2	 i know we have plenty of time i am totally	 relaxed	about	6.872078895568848	4.119446277618408	1.4049981473363005e-05	0.15264296531677246	10
+45	friends_align	aligned	gpt2	 know we have plenty of time i am totally relaxed	 totally	.	10.249451637268066	5.480851650238037	0.0015340077225118876	0.16004320979118347	10
+46	friends_align	aligned	gpt2	 we have plenty of time i am totally relaxed totally	 calm	and	5.147514343261719	4.531946182250977	0.0013006307417526841	0.20807364583015442	10
+47	friends_align	aligned	gpt2	 have plenty of time i am totally relaxed totally calm	 suddenly	i	9.18143081665039	6.486973762512207	0.010708416812121868	0.06595028191804886	10
+48	friends_align	aligned	gpt2	 plenty of time i am totally relaxed totally calm suddenly	 her	eyes	7.562048435211182	5.867396354675293	0.00023724329366814345	0.08569776266813278	10
+49	friends_align	aligned	gpt2	 of time i am totally relaxed totally calm suddenly her	 eyes	were	2.5170834064483643	5.5638885498046875	0.00033066043397411704	0.07341908663511276	10
+50	friends_align	aligned	gpt2	 time i am totally relaxed totally calm suddenly her eyes	 grew	wide	6.411425590515137	4.408125400543213	2.195074102928629e-06	0.24390460550785065	10
+51	friends_align	aligned	gpt2	 i am totally relaxed totally calm suddenly her eyes grew	 wide	and	1.079226016998291	3.646885395050049	0.017408695071935654	0.22700291872024536	10
+52	friends_align	aligned	gpt2	 am totally relaxed totally calm suddenly her eyes grew wide	 as	she	3.2460451126098633	2.268965482711792	0.0004891753196716309	0.4601576030254364	10
+53	friends_align	aligned	gpt2	 totally relaxed totally calm suddenly her eyes grew wide as	 she	felt	0.640819251537323	4.989658832550049	0.0001770096132531762	0.08323833346366882	10
+54	friends_align	aligned	gpt2	 relaxed totally calm suddenly her eyes grew wide as she	 saw	the	2.4456751346588135	4.7037224769592285	1.4329014447866939e-05	0.27290675044059753	10
+55	friends_align	aligned	gpt2	 totally calm suddenly her eyes grew wide as she saw	 the	man	1.2974631786346436	7.471055030822754	0.0004931397852487862	0.03620243817567825	10
+56	friends_align	aligned	gpt2	 calm suddenly her eyes grew wide as she saw the	 line	of	7.644454479217529	3.184436321258545	0.001600641873665154	0.528382420539856	10
+57	friends_align	aligned	gpt2	 suddenly her eyes grew wide as she saw the line	 for	the	5.888030052185059	4.127817153930664	5.091851926408708e-05	0.43064650893211365	10
+58	friends_align	aligned	gpt2	 her eyes grew wide as she saw the line for	 airport	security	12.312332153320312	6.148865699768066	0.0017192716477438807	0.09074046462774277	10
+59	friends_align	aligned	gpt2	 eyes grew wide as she saw the line for airport	 security	.	2.4758825302124023	5.483189105987549	9.367484744871035e-05	0.18628714978694916	10
+60	friends_align	aligned	gpt2	 grew wide as she saw the line for airport security	 winding	down	8.100349426269531	3.276951789855957	1.3580409358837642e-05	0.3136657178401947	10
+61	friends_align	aligned	gpt2	 wide as she saw the line for airport security winding	 in	.	3.403228998184204	3.4153614044189453	0.005915102548897266	0.33621859550476074	10
+62	friends_align	aligned	gpt2	 as she saw the line for airport security winding in	 a	line	5.041472911834717	6.513856887817383	0.00022005557548254728	0.0725293755531311	10
+63	friends_align	aligned	gpt2	 she saw the line for airport security winding in a	 lengthy	line	9.450370788574219	5.887337684631348	3.930008097086102e-05	0.1506902128458023	10
+64	friends_align	aligned	gpt2	 saw the line for airport security winding in a lengthy	 t	uss	6.9575653076171875	1.9275691509246826	1.1504093890835065e-06	0.5319392085075378	10
+65	friends_align	aligned	gpt2	 the line for airport security winding in a lengthy t	angle	of	1.7757682800292969	1.2421201467514038	4.91783112011035e-08	0.7476629614830017	10
+66	friends_align	aligned	gpt2	 line for airport security winding in a lengthy tangle	 that	has	4.016667366027832	4.960374355316162	0.0004423722275532782	0.1579972803592682	10
+67	friends_align	aligned	gpt2	 for airport security winding in a lengthy tangle that	 stretched	from	3.8492860794067383	3.275146961212158	2.3785702069289982e-05	0.33935317397117615	10
+68	friends_align	aligned	gpt2	 airport security winding in a lengthy tangle that stretched	 all	the	3.738325834274292	1.255437970161438	2.510113517928403e-05	0.7578463554382324	10
+69	friends_align	aligned	gpt2	 security winding in a lengthy tangle that stretched all	 the	way	0.37005648016929626	0.01557766180485487	6.883633432153147e-07	0.9988034963607788	10
+70	friends_align	aligned	gpt2	 winding in a lengthy tangle that stretched all the	 way	to	0.0019595485646277666	2.080740451812744	6.623510125791654e-05	0.28308674693107605	10
+71	friends_align	aligned	gpt2	 in a lengthy tangle that stretched all the way	 around	the	4.46737003326416	4.050543308258057	0.0003560695331543684	0.3985377848148346	10
+72	friends_align	aligned	gpt2	 a lengthy tangle that stretched all the way around	 the	room	0.9283756017684937	7.467805862426758	0.0003380009438842535	0.028987199068069458	10
+73	friends_align	aligned	gpt2	 lengthy tangle that stretched all the way around the	 corner	.	4.643125534057617	2.871602773666382	8.354787132702768e-05	0.27699387073516846	10
+74	friends_align	aligned	gpt2	 tangle that stretched all the way around the corner	 mon	olith	14.807428359985352	4.223994731903076	4.494615859584883e-05	0.14993441104888916	10
+75	friends_align	aligned	gpt2	angle that stretched all the way around the corner mon	ica	.	6.223848342895508	6.275585651397705	0.000123186779092066	0.12863820791244507	10
+76	friends_align	aligned	gpt2	 that stretched all the way around the corner monica	 sc	ot	7.294812202453613	6.003997802734375	1.1985420314886142e-05	0.04405432567000389	10
+77	friends_align	aligned	gpt2	 stretched all the way around the corner monica sc	ur	vy	3.673875093460083	3.3416683673858643	3.1654367376177106e-06	0.3933197855949402	10
+78	friends_align	aligned	gpt2	 all the way around the corner monica scur	ried	to	4.1453423500061035	3.740049123764038	5.402268632437313e-10	0.10621971637010574	10
+79	friends_align	aligned	gpt2	 the way around the corner monica scurried	 toward	the	3.9177041053771973	3.7795231342315674	7.74982909206301e-05	0.3524906635284424	10
+80	friends_align	aligned	gpt2	 way around the corner monica scurried toward	 the	door	1.0532511472702026	7.5843610763549805	0.0005200225859880447	0.054826997220516205	10
+81	friends_align	aligned	gpt2	 around the corner monica scurried toward the	 end	of	5.179567337036133	1.5814664363861084	0.000261579203652218	0.7561870813369751	10
+82	friends_align	aligned	gpt2	 the corner monica scurried toward the end	 of	the	0.3561466932296753	2.2485733032226562	1.9609262380981818e-05	0.5986642241477966	10
+83	friends_align	aligned	gpt2	 corner monica scurried toward the end of	 the	room	0.5331318974494934	7.017442226409912	0.00041541544487699866	0.02990005724132061	10
+84	friends_align	aligned	gpt2	 monica scurried toward the end of the	 line	.	5.1059346199035645	3.0077903270721436	0.00013392145046964288	0.310173898935318	10
+85	friends_align	aligned	gpt2	ica scurried toward the end of the line	 with	a	3.6540091037750244	4.4974212646484375	3.309507155790925e-05	0.2380191534757614	10
+86	friends_align	aligned	gpt2	 scurried toward the end of the line with	 ch	unky	9.178993225097656	4.542489528656006	2.436593376842211e-06	0.22156311571598053	10
+87	friends_align	aligned	gpt2	urried toward the end of the line with ch	and	ler	7.805805206298828	2.3512940406799316	4.209979670122266e-05	0.6767541766166687	10
+88	friends_align	aligned	gpt2	ried toward the end of the line with chand	ler	,	0.424184650182724	7.528317928314209	1.5999114111764356e-05	0.061898116022348404	10
+89	friends_align	aligned	gpt2	 toward the end of the line with chandler	 following	the	8.941621780395508	5.666990756988525	0.0004076140758115798	0.13729479908943176	10
+90	friends_align	aligned	gpt2	 the end of the line with chandler following	 behind	.	5.515951156616211	3.912919521331787	0.0012067487696185708	0.2383941113948822	10
+91	friends_align	aligned	gpt2	 end of the line with chandler following behind	 we	have	9.172747611999512	5.444665431976318	0.00023329733812715858	0.07443597167730331	10
+92	friends_align	aligned	gpt2	 of the line with chandler following behind we	'll	be	3.532210111618042	4.9594645500183105	3.2132258638739586e-05	0.1033361405134201	10
+93	friends_align	aligned	gpt2	 the line with chandler following behind we'll	 be	able	2.2606914043426514	5.9449639320373535	0.0001776348944986239	0.0870237648487091	10
+94	friends_align	aligned	gpt2	 line with chandler following behind we'll be	 fine	.	5.838754653930664	3.030174493789673	0.0007592266774736345	0.5095522999763489	10
+95	friends_align	aligned	gpt2	 with chandler following behind we'll be fine	 he	's	8.999777793884277	4.631231307983398	0.0007551116868853569	0.19035592675209045	10
+96	friends_align	aligned	gpt2	 chandler following behind we'll be fine he	 said	.	2.6463770866394043	4.016208648681641	0.0006271515740081668	0.3474700152873993	10
+97	friends_align	aligned	gpt2	andler following behind we'll be fine he said	 as	he	5.23980712890625	3.9396016597747803	0.0006203000084497035	0.29604634642601013	10
+98	friends_align	aligned	gpt2	ler following behind we'll be fine he said as	 he	left	1.0341724157333374	5.809684753417969	0.00038888491690158844	0.04878942668437958	10
+99	friends_align	aligned	gpt2	 following behind we'll be fine he said as he	 caught	up	7.672446250915527	3.3927488327026367	6.552958075189963e-05	0.41630345582962036	10
+100	friends_align	aligned	gpt2	 behind we'll be fine he said as he caught	 up	with	1.0231884717941284	2.4267992973327637	0.0001381299371132627	0.4165591895580292	10
+101	friends_align	aligned	gpt2	 we'll be fine he said as he caught up	 to	him	1.422692894935608	4.302162170410156	0.00028984228265471756	0.17904643714427948	10
+102	friends_align	aligned	gpt2	'll be fine he said as he caught up to	 her	.	2.1196022033691406	3.382240056991577	0.00044038158375769854	0.439139187335968	10
+103	friends_align	aligned	gpt2	 be fine he said as he caught up to her	 we	arily	8.760274887084961	4.649104595184326	0.00028103459044359624	0.21177171170711517	10
+104	friends_align	aligned	gpt2	 fine he said as he caught up to her we	've	been	6.868013858795166	4.307873249053955	1.0170179848500993e-05	0.16561603546142578	10
+105	friends_align	aligned	gpt2	 he said as he caught up to her we've	 still	got	6.0938286781311035	2.2540152072906494	0.00018826048471964896	0.5670801401138306	10
+106	friends_align	aligned	gpt2	 said as he caught up to her we've still	 got	a	0.4475049376487732	4.475384712219238	0.0001297266862820834	0.19594958424568176	10
+107	friends_align	aligned	gpt2	 as he caught up to her we've still got	 time	to	4.312216758728027	2.2288050651550293	4.477987386053428e-05	0.4711914360523224	10
+108	friends_align	aligned	gpt2	 he caught up to her we've still got time	 to	get	0.9018175601959229	5.46817684173584	0.00012172503920737654	0.09362272173166275	10
+109	friends_align	aligned	gpt2	 caught up to her we've still got time to	 make	it	3.5252413749694824	4.15844202041626	8.619916479801759e-05	0.13315358757972717	10
+110	friends_align	aligned	gpt2	 up to her we've still got time to make	 our	way	3.2832298278808594	6.1374616622924805	7.15721762389876e-05	0.1575164794921875	10
+111	friends_align	aligned	gpt2	 to her we've still got time to make our	 flight	.	7.641507148742676	3.943187713623047	0.00019853582489304245	0.20299555361270905	10
+112	friends_align	aligned	gpt2	 her we've still got time to make our flight	 just	in	7.646352767944336	3.7792890071868896	9.379207767779008e-05	0.18373504281044006	10
+113	friends_align	aligned	gpt2	 we've still got time to make our flight just	 think	about	8.379310607910156	2.2149477005004883	1.4259813724493142e-05	0.6266682147979736	10
+114	friends_align	aligned	gpt2	've still got time to make our flight just think	 about	it	0.43801936507225037	3.395371437072754	0.00031518630567006767	0.33831506967544556	10
+115	friends_align	aligned	gpt2	 still got time to make our flight just think about	 how	much	2.3612043857574463	4.886265754699707	0.0003016770933754742	0.13868559896945953	10
+116	friends_align	aligned	gpt2	 got time to make our flight just think about how	 relaxing	it	9.24627685546875	2.5527515411376953	3.451569864409976e-05	0.48845043778419495	10
+117	friends_align	aligned	gpt2	 time to make our flight just think about how relaxing	 it	would	0.7585967183113098	1.9102766513824463	7.62544950703159e-05	0.3720255494117737	10
+118	friends_align	aligned	gpt2	 to make our flight just think about how relaxing it	's	going	4.621595859527588	2.037710428237915	9.11846109374892e-06	0.542385458946228	10
+119	friends_align	aligned	gpt2	 make our flight just think about how relaxing it's	 going	to	0.545463502407074	0.06488071382045746	2.991397923324257e-05	0.9933618307113647	10
+120	friends_align	aligned	gpt2	 our flight just think about how relaxing it's going	 to	be	0.009009778499603271	0.2592914402484894	7.93679373600753e-06	0.9589560627937317	10
+121	friends_align	aligned	gpt2	 flight just think about how relaxing it's going to	 be	.	0.050304971635341644	3.1563172340393066	0.000151572996401228	0.3278502821922302	10
+122	friends_align	aligned	gpt2	 just think about how relaxing it's going to be	 once	you	5.891598701477051	2.550262928009033	6.294214108493179e-05	0.4721753001213074	10
+123	friends_align	aligned	gpt2	 think about how relaxing it's going to be once	 we	get	2.0477349758148193	3.235694169998169	4.9675967602524906e-05	0.3861698508262634	10
+124	friends_align	aligned	gpt2	 about how relaxing it's going to be once we	're	done	2.3453664779663086	3.5451838970184326	8.459559808216e-07	0.2938133776187897	10
+125	friends_align	aligned	gpt2	 how relaxing it's going to be once we're	 on	the	3.6826000213623047	2.921363592147827	0.00013443890202324837	0.546807050704956	10
+126	friends_align	aligned	gpt2	 relaxing it's going to be once we're on	 the	road	0.7713521122932434	5.622024059295654	0.0002406243875157088	0.15421882271766663	10
+127	friends_align	aligned	gpt2	 it's going to be once we're on the	 way	to	5.055643558502197	2.8996055126190186	5.8185385569231585e-05	0.2728993594646454	10
+128	friends_align	aligned	gpt2	's going to be once we're on the way	 to	the	1.3380515575408936	6.624233722686768	0.00047199928667396307	0.1545291543006897	10
+129	friends_align	aligned	gpt2	 going to be once we're on the way to	 our	next	3.995720624923706	5.907363414764404	7.78761605033651e-05	0.11292915791273117	10
+130	friends_align	aligned	gpt2	 to be once we're on the way to our	 honey	moon	7.884544372558594	0.35238614678382874	9.87230523605831e-05	0.9639366865158081	10
+131	friends_align	aligned	gpt2	 be once we're on the way to our honey	moon	.	0.0467030294239521	3.1524739265441895	7.748606731183827e-05	0.40136808156967163	10
+132	friends_align	aligned	gpt2	 once we're on the way to our honeymoon	 <	3	11.594816207885742	3.959522247314453	0.00030379544477909803	0.3782142698764801	10
+133	friends_align	aligned	gpt2	 we're on the way to our honeymoon <	unk	now	12.917877197265625	3.385385274887085	7.112580351531506e-05	0.48063844442367554	10
+134	friends_align	aligned	gpt2	're on the way to our honeymoon <unk	>	"
+"	4.66931676864624	6.504355430603027	0.00023206834157463163	0.07894384115934372	10
+135	friends_align	aligned	gpt2	 on the way to our honeymoon <unk>	 <	unk	3.0470192432403564	7.2705254554748535	0.0004938645870424807	0.04270770400762558	10
+136	friends_align	aligned	gpt2	 the way to our honeymoon <unk> <	unk	>	3.1096036434173584	0.6055865287780762	5.232899980001093e-07	0.9298605918884277	10
+137	friends_align	aligned	gpt2	 way to our honeymoon <unk> <unk	>	<	0.07281194627285004	5.995056629180908	0.0003145567898172885	0.19250518083572388	10
+138	friends_align	aligned	gpt2	 to our honeymoon <unk> <unk>	 he	h	6.695309638977051	5.336368083953857	0.0003474151308182627	0.1456448882818222	10
+139	friends_align	aligned	gpt2	 our honeymoon <unk> <unk> he	 started	to	5.593222141265869	5.919732570648193	2.9181666832300834e-05	0.10500282049179077	10
+140	friends_align	aligned	gpt2	 honeymoon <unk> <unk> he started	 to	cry	2.19590425491333	6.053421974182129	0.0001842071651481092	0.07391131669282913	10
+141	friends_align	aligned	gpt2	moon <unk> <unk> he started to	 sway	back	7.457956790924072	4.886312007904053	0.00013326194311957806	0.08411634713411331	10
+142	friends_align	aligned	gpt2	 <unk> <unk> he started to sway	 his	head	3.51836895942688	3.095202684402466	5.209566734265536e-05	0.5277424454689026	10
+143	friends_align	aligned	gpt2	unk> <unk> he started to sway his	 hips	back	3.2408294677734375	4.39780855178833	1.3736261280428153e-05	0.1271989643573761	10
+144	friends_align	aligned	gpt2	> <unk> he started to sway his hips	 from	side	4.572901248931885	2.4707908630371094	0.00012186617095721886	0.6103099584579468	10
+145	friends_align	aligned	gpt2	 <unk> he started to sway his hips from	 side	to	0.35621926188468933	0.18153345584869385	0.00012647778203245252	0.9780886769294739	10
+146	friends_align	aligned	gpt2	unk> he started to sway his hips from side	 to	side	0.02321830950677395	0.01838507130742073	4.293568053981289e-06	0.998420238494873	10
+147	friends_align	aligned	gpt2	> he started to sway his hips from side to	 side	,	0.0016330252401530743	3.035728693008423	6.857453990960494e-05	0.2723158597946167	10
+148	friends_align	aligned	gpt2	 he started to sway his hips from side to side	 b	owing	11.689482688903809	3.6813127994537354	0.0001961364469025284	0.32709556818008423	10
+149	friends_align	aligned	gpt2	 started to sway his hips from side to side b	erm	.	9.270316123962402	3.2434399127960205	2.9615655421366682e-06	0.2946012020111084	10
+150	friends_align	aligned	gpt2	 to sway his hips from side to side berm	uda	.	9.760412216186523	4.7738752365112305	9.447491720493417e-06	0.2426239401102066	10
+151	friends_align	aligned	gpt2	 sway his hips from side to side bermuda	 b	erm	5.354300022125244	2.7896833419799805	0.0002661108737811446	0.6555861234664917	10
+152	friends_align	aligned	gpt2	 his hips from side to side bermuda b	ah	r	6.446836471557617	5.978216171264648	0.0005384419928304851	0.07697020471096039	10
+153	friends_align	aligned	gpt2	 hips from side to side bermuda bah	ama	b	4.2072248458862305	6.706377983093262	2.301061977050267e-05	0.14977097511291504	10
+154	friends_align	aligned	gpt2	 from side to side bermuda bahama	 come	to	9.206345558166504	5.971018314361572	0.0005556651740334928	0.18536168336868286	10
+155	friends_align	aligned	gpt2	 side to side bermuda bahama come	 on	.	4.173866271972656	5.673830986022949	0.0035159592516720295	0.10472682863473892	10
+156	friends_align	aligned	gpt2	 to side bermuda bahama come on	 pretty	much	8.709278106689453	4.225639820098877	0.0016781380400061607	0.24042828381061554	10
+157	friends_align	aligned	gpt2	 side bermuda bahama come on pretty	 mon	oton	10.524577140808105	3.7984042167663574	0.00022173515753820539	0.30745843052864075	10
+158	friends_align	aligned	gpt2	 bermuda bahama come on pretty mon	ica	b	5.212244033813477	5.019959449768066	1.8041670045931824e-05	0.24652187526226044	10
+159	friends_align	aligned	gpt2	ermuda bahama come on pretty monica	 <	3	9.174960136413574	4.385254859924316	0.0003497409343253821	0.4165706932544708	10
+160	friends_align	aligned	gpt2	uda bahama come on pretty monica <	unk	now	12.296664237976074	5.523534297943115	0.0002040277177002281	0.10334590077400208	10
+161	friends_align	aligned	gpt2	 bahama come on pretty monica <unk	>	I	4.225538730621338	6.684722900390625	5.4147178161656484e-05	0.03653584420681	10
+162	friends_align	aligned	gpt2	ahama come on pretty monica <unk>	 her	name	7.391777038574219	7.541443824768066	0.000392802496207878	0.0651656985282898	10
+163	friends_align	aligned	gpt2	ama come on pretty monica <unk> her	 lips	are	6.676766395568848	4.324705600738525	0.00162642786744982	0.3826342225074768	10
+164	friends_align	aligned	gpt2	 come on pretty monica <unk> her lips	 but	she	7.395863056182861	5.29526948928833	0.00034654978662729263	0.08732166886329651	10
+165	friends_align	aligned	gpt2	 on pretty monica <unk> her lips but	 the	way	3.758859157562256	6.884483337402344	0.00042555105756036937	0.07592123746871948	10
+166	friends_align	aligned	gpt2	 pretty monica <unk> her lips but the	 corners	are	6.986920356750488	3.7288155555725098	2.5801127776503563e-06	0.263658344745636	10
+167	friends_align	aligned	gpt2	 monica <unk> her lips but the corners	 of	her	1.4168816804885864	1.1201294660568237	4.3545216612983495e-05	0.8041474223136902	10
+168	friends_align	aligned	gpt2	ica <unk> her lips but the corners of	 her	mouth	0.2081863135099411	1.6452397108078003	5.832701572217047e-05	0.5469094514846802	10
+169	friends_align	aligned	gpt2	 <unk> her lips but the corners of her	 mouth	were	0.5920979976654053	5.204751968383789	3.0367433282663114e-05	0.13179613649845123	10
+170	friends_align	aligned	gpt2	unk> her lips but the corners of her mouth	 turned	red	5.683135032653809	4.89404296875	0.00016297318506985903	0.12652598321437836	10
+171	friends_align	aligned	gpt2	> her lips but the corners of her mouth turned	 up	to	4.2103376388549805	4.225860595703125	0.0011214868864044547	0.11286553740501404	10
+172	friends_align	aligned	gpt2	 her lips but the corners of her mouth turned up	 in	a	2.1203393936157227	4.69141960144043	0.00015342979168053716	0.29283541440963745	10
+173	friends_align	aligned	gpt2	 lips but the corners of her mouth turned up in	 a	smile	1.073938012123108	6.573437213897705	0.0003656228072941303	0.06762553006410599	10
+174	friends_align	aligned	gpt2	 but the corners of her mouth turned up in a	 smile	.	3.0373330116271973	2.120718479156494	7.173466656240635e-06	0.498976469039917	10
+175	friends_align	aligned	gpt2	 the corners of her mouth turned up in a smile	 they	had	9.529499053955078	4.600746154785156	1.180749950435711e-05	0.09098149091005325	10
+176	friends_align	aligned	gpt2	 corners of her mouth turned up in a smile they	 eventually	did	7.461557388305664	5.592248916625977	0.0002707505482248962	0.06145238131284714	10
+177	friends_align	aligned	gpt2	 of her mouth turned up in a smile they eventually	 made	out	4.3242058753967285	3.553318977355957	7.287305925274268e-05	0.19818884134292603	10
+178	friends_align	aligned	gpt2	 her mouth turned up in a smile they eventually made	 it	to	2.351370334625244	3.024993419647217	0.00020863617828581482	0.35219046473503113	10
+179	friends_align	aligned	gpt2	 mouth turned up in a smile they eventually made it	 to	the	1.0192594528198242	3.5616588592529297	0.000421731238020584	0.5539481043815613	10
+180	friends_align	aligned	gpt2	 turned up in a smile they eventually made it to	 the	hospital	0.8006818294525146	7.196130275726318	0.0005211301031522453	0.06601293385028839	10
+181	friends_align	aligned	gpt2	 up in a smile they eventually made it to the	 front	of	4.348695755004883	3.0483877658843994	0.001182129723019898	0.35864368081092834	10
+182	friends_align	aligned	gpt2	 in a smile they eventually made it to the front	 of	the	1.0370705127716064	1.2131677865982056	3.320885298307985e-05	0.8603459596633911	10
+183	friends_align	aligned	gpt2	 a smile they eventually made it to the front of	 the	line	0.1627802699804306	5.749621391296387	0.0002824042458087206	0.10882563143968582	10
+184	friends_align	aligned	gpt2	 smile they eventually made it to the front of the	 line	.	1.8840752840042114	2.5630557537078857	0.00010514668974792585	0.49151816964149475	10
+185	friends_align	aligned	gpt2	 they eventually made it to the front of the line	 to	win	3.4284908771514893	5.23054313659668	0.00017073361959774047	0.0829760730266571	10
+186	friends_align	aligned	gpt2	 eventually made it to the front of the line to	 go	up	5.3005757331848145	4.341137409210205	0.0008313453290611506	0.10848177224397659	10
+187	friends_align	aligned	gpt2	 made it to the front of the line to go	 through	the	2.840597152709961	4.580052852630615	0.0005808920250274241	0.2616662085056305	10
+188	friends_align	aligned	gpt2	 it to the front of the line to go through	 the	whole	1.5269817113876343	7.463583469390869	0.0003966597141698003	0.02686559036374092	10
+189	friends_align	aligned	gpt2	 to the front of the line to go through the	 metal	detectors	8.025519371032715	4.030521392822266	0.00025906215887516737	0.2971288561820984	10
+190	friends_align	aligned	gpt2	 the front of the line to go through the metal	 detector	.	1.3802019357681274	3.49075984954834	0.005183783825486898	0.3216748535633087	10
+191	friends_align	aligned	gpt2	 front of the line to go through the metal detector	 mon	olith	13.749429702758789	2.519664764404297	1.955300774625357e-07	0.32787221670150757	10
+192	friends_align	aligned	gpt2	 of the line to go through the metal detector mon	ica	.	7.922276973724365	6.195540428161621	0.00017936495714820921	0.12207546830177307	10
+193	friends_align	aligned	gpt2	 the line to go through the metal detector monica	 began	to	10.127742767333984	3.4976038932800293	1.6260471966234036e-05	0.5233400464057922	10
+194	friends_align	aligned	gpt2	 line to go through the metal detector monica began	 method	ically	12.533817291259766	0.685873806476593	3.876793016388547e-06	0.9046112895011902	10
+195	friends_align	aligned	gpt2	 to go through the metal detector monica began method	ically	.	0.14772658050060272	4.7865447998046875	4.023075064196746e-07	0.22354470193386078	10
+196	friends_align	aligned	gpt2	 go through the metal detector monica began methodically	 removing	the	3.8454031944274902	4.488058567047119	5.013500867789844e-06	0.36177581548690796	10
+197	friends_align	aligned	gpt2	 through the metal detector monica began methodically removing	 her	from	6.524502754211426	6.129901885986328	0.0001523607934359461	0.10780590027570724	10
+198	friends_align	aligned	gpt2	 the metal detector monica began methodically removing her	 watch	from	8.359865188598633	3.4317703247070312	0.00030041910940781236	0.2073235958814621	10
+199	friends_align	aligned	gpt2	 metal detector monica began methodically removing her watch	 and	the	2.5556211471557617	7.303110122680664	0.0005845787818543613	0.0194337647408247	10
+200	friends_align	aligned	gpt2	 detector monica began methodically removing her watch and	 belt	from	8.25368881225586	3.3388493061065674	0.00026967181474901736	0.2029506117105484	10
+201	friends_align	aligned	gpt2	 monica began methodically removing her watch and belt	 and	placing	2.8574349880218506	6.4854254722595215	0.0008393703028559685	0.029572121798992157	10
+202	friends_align	aligned	gpt2	ica began methodically removing her watch and belt and	 started	to	5.251093864440918	5.6924238204956055	1.557950599817559e-05	0.12044630199670792	10
+203	friends_align	aligned	gpt2	 began methodically removing her watch and belt and started	 to	walk	1.8881194591522217	5.908087253570557	0.00015113933477550745	0.07513269782066345	10
+204	friends_align	aligned	gpt2	 methodically removing her watch and belt and started to	 search	for	5.371049404144287	2.611142635345459	0.0001483437226852402	0.41850975155830383	10
+205	friends_align	aligned	gpt2	ically removing her watch and belt and started to search	 through	her	2.855923652648926	2.4355380535125732	7.395521242870018e-05	0.40921875834465027	10
+206	friends_align	aligned	gpt2	 removing her watch and belt and started to search through	 her	purse	0.9588527679443359	4.2137556076049805	0.00012458841956686229	0.27304887771606445	10
+207	friends_align	aligned	gpt2	 her watch and belt and started to search through her	 pockets	.	2.446143388748169	2.2916555404663086	8.342540240846574e-06	0.45236936211586	10
+208	friends_align	aligned	gpt2	 watch and belt and started to search through her pockets	 to	find	3.1558258533477783	2.0605549812316895	8.024113049032167e-05	0.6441324353218079	10
+209	friends_align	aligned	gpt2	 and belt and started to search through her pockets to	 check	for	5.113831043243408	3.309736728668213	6.173486326588318e-05	0.22025391459465027	10
+210	friends_align	aligned	gpt2	 belt and started to search through her pockets to check	 for	anything	1.4466229677200317	4.681848049163818	6.078484875615686e-05	0.22806933522224426	10
+211	friends_align	aligned	gpt2	 and started to search through her pockets to check for	 change	.	7.918608665466309	1.8129934072494507	8.759598131291568e-06	0.650257408618927	10
+212	friends_align	aligned	gpt2	 started to search through her pockets to check for change	 could	be	9.805588722229004	3.701218843460083	3.901875970768742e-05	0.28191837668418884	10
+213	friends_align	aligned	gpt2	 to search through her pockets to check for change could	 you	please	8.555679321289062	4.964009761810303	0.0002667688822839409	0.091067835688591	10
+214	friends_align	aligned	gpt2	 search through her pockets to check for change could you	 hurry	up	9.564556121826172	3.08524227142334	5.523594609257998e-06	0.33193889260292053	10
+215	friends_align	aligned	gpt2	 through her pockets to check for change could you hurry	 up	and	0.9177796840667725	1.5021127462387085	4.717996853287332e-05	0.7048283219337463	10
+216	friends_align	aligned	gpt2	 her pockets to check for change could you hurry up	 man	?	11.79416561126709	2.305288076400757	7.037634350126609e-05	0.5089606046676636	10
+217	friends_align	aligned	gpt2	 pockets to check for change could you hurry up man	 behind	the	9.93531608581543	3.9651572704315186	0.00013802992179989815	0.34235450625419617	10
+218	friends_align	aligned	gpt2	 to check for change could you hurry up man behind	 them	?	4.626521110534668	3.8131346702575684	2.64037571469089e-05	0.25191423296928406	10
+219	friends_align	aligned	gpt2	 check for change could you hurry up man behind them	 shouted	.	11.80639934539795	5.5008463859558105	0.0003520143509376794	0.07167374342679977	10
+220	friends_align	aligned	gpt2	 for change could you hurry up man behind them shouted	 glaring	at	9.525201797485352	5.024688720703125	0.0005247534136287868	0.31176286935806274	10
+221	friends_align	aligned	gpt2	 change could you hurry up man behind them shouted glaring	 her	down	7.024390697479248	4.844337463378906	0.00023351579147856683	0.15412293374538422	10
+222	friends_align	aligned	gpt2	 could you hurry up man behind them shouted glaring her	 she	was	9.521783828735352	5.8570942878723145	0.00017049764574039727	0.1285577416419983	10
+223	friends_align	aligned	gpt2	 you hurry up man behind them shouted glaring her she	 turned	around	4.6666483879089355	2.9510951042175293	0.00015402169083245099	0.24941261112689972	10
+224	friends_align	aligned	gpt2	 hurry up man behind them shouted glaring her she turned	 around	and	1.2694450616836548	3.3841564655303955	0.0022229403257369995	0.33869460225105286	10
+225	friends_align	aligned	gpt2	 up man behind them shouted glaring her she turned around	 in	surprise	4.046293258666992	3.8985424041748047	6.037077400833368e-05	0.1953253298997879	10
+226	friends_align	aligned	gpt2	 man behind them shouted glaring her she turned around in	 shock	.	2.799760341644287	2.4542434215545654	1.689273403826519e-06	0.3610152304172516	10
+227	friends_align	aligned	gpt2	 behind them shouted glaring her she turned around in shock	 hey	hey	13.327159881591797	5.6892828941345215	0.11454048752784729	0.11454048752784729	10
+228	friends_align	aligned	gpt2	 them shouted glaring her she turned around in shock hey	 i	am	5.025093078613281	4.728789806365967	0.00085244927322492	0.08259393274784088	10
+229	friends_align	aligned	gpt2	 shouted glaring her she turned around in shock hey i	 have	to	3.614197254180908	4.212615013122559	0.00028227566508576274	0.2099515050649643	10
+230	friends_align	aligned	gpt2	 glaring her she turned around in shock hey i have	 never	seen	3.561220407485962	3.117783546447754	0.00031319595291279256	0.39934080839157104	10
+231	friends_align	aligned	gpt2	 her she turned around in shock hey i have never	 set	foot	7.829980373382568	3.4306085109710693	0.00017991912318393588	0.2988415062427521	10
+232	friends_align	aligned	gpt2	 she turned around in shock hey i have never set	 one	up	4.815113067626953	3.5265390872955322	0.00043680588714778423	0.1985865831375122	10
+233	friends_align	aligned	gpt2	 turned around in shock hey i have never set one	 of	these	2.2201991081237793	1.8723748922348022	6.47890119580552e-05	0.5119224786758423	10
+234	friends_align	aligned	gpt2	 around in shock hey i have never set one of	 these	before	0.6506316065788269	5.310250759124756	0.0003638748894445598	0.14225183427333832	10
+235	friends_align	aligned	gpt2	 in shock hey i have never set one of these	 off	before	4.826800346374512	4.114196300506592	0.0008689338574185967	0.2669736444950104	10
+236	friends_align	aligned	gpt2	 shock hey i have never set one of these off	 before	.	1.295131802558899	4.210029125213623	0.0028055605944246054	0.1931237131357193	10
+237	friends_align	aligned	gpt2	 hey i have never set one of these off before	 and	i	2.306847095489502	3.8217437267303467	0.0005549843772314489	0.38630425930023193	10
+238	friends_align	aligned	gpt2	 i have never set one of these off before and	 i	am	4.4102253913879395	4.395613193511963	6.544014468090609e-05	0.11520444601774216	10
+239	friends_align	aligned	gpt2	 have never set one of these off before and i	 am	sure	2.7786149978637695	4.745960712432861	0.0003295693313702941	0.10439000278711319	10
+240	friends_align	aligned	gpt2	 never set one of these off before and i am	 not	sure	2.5582094192504883	4.00529670715332	0.00046456573181785643	0.34170016646385193	10
+241	friends_align	aligned	gpt2	 set one of these off before and i am not	 about	to	5.921133041381836	0.15705186128616333	8.505132427671924e-06	0.9864984750747681	10
+242	friends_align	aligned	gpt2	 one of these off before and i am not about	 to	give	0.023659877479076385	5.498624324798584	0.00024246503016911447	0.06565645337104797	10
+243	friends_align	aligned	gpt2	 of these off before and i am not about to	 start	a	4.070094585418701	6.109063148498535	2.728982326516416e-05	0.06829676777124405	10
+244	friends_align	aligned	gpt2	 these off before and i am not about to start	 now	.	6.153305530548096	3.360600709915161	0.0003847436746582389	0.46406006813049316	10
+245	friends_align	aligned	gpt2	 off before and i am not about to start now	 she	is	8.6355562210083	5.345704078674316	0.0003031215746887028	0.11723500490188599	10
+246	friends_align	aligned	gpt2	 before and i am not about to start now she	 sc	olds	8.118083000183105	3.9627768993377686	1.2676470078076818e-06	0.1445014923810959	10
+247	friends_align	aligned	gpt2	 and i am not about to start now she sc	olded	me	1.986802101135254	1.7904400825500488	2.8023970699564416e-08	0.6761125326156616	10
+248	friends_align	aligned	gpt2	 i am not about to start now she scolded	 holding	the	13.276628494262695	4.052594184875488	7.569725858047605e-05	0.11471053212881088	10
+249	friends_align	aligned	gpt2	 am not about to start now she scolded holding	 up	her	2.965296745300293	3.143001079559326	0.00018446696049068123	0.3747166395187378	10
+250	friends_align	aligned	gpt2	 not about to start now she scolded holding up	 her	hands	0.9853860139846802	5.448770046234131	0.00010268552432535216	0.16705279052257538	10
+251	friends_align	aligned	gpt2	 about to start now she scolded holding up her	 finger	.	4.744452476501465	3.121882677078247	0.00036346990964375436	0.29367104172706604	10
+252	friends_align	aligned	gpt2	 to start now she scolded holding up her finger	 she	was	7.376082420349121	5.453763008117676	0.00045598193537443876	0.09157215058803558	10
+253	friends_align	aligned	gpt2	 start now she scolded holding up her finger she	 started	to	4.329780578613281	4.235980033874512	2.2342386728269048e-05	0.38906148076057434	10
+254	friends_align	aligned	gpt2	 now she scolded holding up her finger she started	 to	cry	0.8813509345054626	5.565508842468262	0.00021025144087616354	0.11909296363592148	10
+255	friends_align	aligned	gpt2	 she scolded holding up her finger she started to	 walk	away	4.098745346069336	3.339735984802246	1.9117564079351723e-05	0.2665295898914337	10
+256	friends_align	aligned	gpt2	 scolded holding up her finger she started to walk	 through	the	5.235414028167725	1.588744044303894	7.300966535694897e-05	0.7871870398521423	10
+257	friends_align	aligned	gpt2	olded holding up her finger she started to walk through	 then	she	10.322673797607422	5.88454008102417	0.0012587938690558076	0.08749139308929443	10
+258	friends_align	aligned	gpt2	 holding up her finger she started to walk through then	 jumped	up	5.052968502044678	3.327373504638672	3.3852616070362274e-06	0.1541604846715927	10
+259	friends_align	aligned	gpt2	 up her finger she started to walk through then jumped	 back	up	2.4102110862731934	3.243593215942383	0.00192662188783288	0.16411031782627106	10
+260	friends_align	aligned	gpt2	 her finger she started to walk through then jumped back	 and	forth	2.641282320022583	4.95128870010376	0.00025847673532553017	0.2019752413034439	10
+261	friends_align	aligned	gpt2	 finger she started to walk through then jumped back and	 bent	over	7.765183925628662	2.3904869556427	2.166071681131143e-05	0.3778853118419647	10
+262	friends_align	aligned	gpt2	 she started to walk through then jumped back and bent	 down	to	1.203015685081482	2.91782283782959	0.0014656506245955825	0.40038007497787476	10
+263	friends_align	aligned	gpt2	 started to walk through then jumped back and bent down	 she	was	8.924079895019531	5.472319602966309	0.00014275690773501992	0.10020145773887634	10
+264	friends_align	aligned	gpt2	 to walk through then jumped back and bent down she	 took	a	4.432976722717285	3.3077425956726074	4.8002998482843395e-06	0.260517954826355	10
+265	friends_align	aligned	gpt2	 walk through then jumped back and bent down she took	 off	her	1.812888264656067	3.578077793121338	0.001410163938999176	0.3096199929714203	10
+266	friends_align	aligned	gpt2	 through then jumped back and bent down she took off	 her	shoes	1.0042990446090698	5.66264533996582	0.0003166337846778333	0.04597097635269165	10
+267	friends_align	aligned	gpt2	 then jumped back and bent down she took off her	 <	p	12.752882957458496	6.908581733703613	5.8894784160656855e-05	0.0291227325797081	10
+268	friends_align	aligned	gpt2	 jumped back and bent down she took off her <	unk	>	14.014007568359375	3.863468885421753	3.3751151931937784e-05	0.24550622701644897	10
+269	friends_align	aligned	gpt2	 back and bent down she took off her <unk	>	panties	1.139233112335205	6.077877044677734	5.959001646260731e-05	0.06271513551473618	10
+270	friends_align	aligned	gpt2	 and bent down she took off her <unk>	 and	ran	3.498778820037842	6.118819713592529	0.0018634991720318794	0.03756727650761604	10
+271	friends_align	aligned	gpt2	 bent down she took off her <unk> and	 put	her	3.9771816730499268	2.3121511936187744	6.86381317791529e-05	0.38369157910346985	10
+272	friends_align	aligned	gpt2	 down she took off her <unk> and put	 it	on	2.4352848529815674	2.7841360569000244	9.847831097431481e-05	0.3194398581981659	10
+273	friends_align	aligned	gpt2	 she took off her <unk> and put it	 in	her	1.7322123050689697	2.4260170459747314	0.00042892343481071293	0.3373335599899292	10
+274	friends_align	aligned	gpt2	 took off her <unk> and put it in	 her	mouth	1.2314863204956055	5.24655294418335	0.00019427266670390964	0.18934237957000732	10
+275	friends_align	aligned	gpt2	 off her <unk> and put it in her	 box	.	7.058784008026123	3.759331464767456	0.001414654077962041	0.2703680396080017	10
+276	friends_align	aligned	gpt2	 her <unk> and put it in her box	 on	the	5.249148368835449	3.4065966606140137	6.193808076204732e-05	0.37089261412620544	10
+277	friends_align	aligned	gpt2	 <unk> and put it in her box on	 the	floor	1.131754994392395	6.31827974319458	0.00020083383424207568	0.05184062570333481	10
+278	friends_align	aligned	gpt2	unk> and put it in her box on the	 convey	or	8.339338302612305	0.7756257057189941	4.671137503464706e-06	0.8102364540100098	10
+279	friends_align	aligned	gpt2	> and put it in her box on the convey	or	belt	0.179136723279953	0.6546089053153992	5.608148399005586e-07	0.9203931093215942	10
+280	friends_align	aligned	gpt2	 and put it in her box on the conveyor	 belt	.	0.053543541580438614	3.1117234230041504	0.0017357714241370559	0.41333913803100586	10
+281	friends_align	aligned	gpt2	 put it in her box on the conveyor belt	 she	was	5.808918476104736	4.58085298538208	4.2783769458765164e-05	0.12782885134220123	10
+282	friends_align	aligned	gpt2	 it in her box on the conveyor belt she	 smiled	.	10.517542839050293	3.8502280712127686	3.133279096800834e-05	0.1872226744890213	10
+283	friends_align	aligned	gpt2	 in her box on the conveyor belt she smiled	 at	me	2.0782535076141357	4.0734381675720215	0.0001632733183214441	0.1791411191225052	10
+284	friends_align	aligned	gpt2	 her box on the conveyor belt she smiled at	 the	man	2.0398831367492676	7.265418529510498	0.000349850335624069	0.048051152378320694	10
+285	friends_align	aligned	gpt2	 box on the conveyor belt she smiled at the	 security	guard	7.300148010253906	3.0744853019714355	0.0003947674122173339	0.4105047583580017	10
+286	friends_align	aligned	gpt2	 on the conveyor belt she smiled at the security	 guard	.	1.0333671569824219	2.9925127029418945	5.3894083976047114e-05	0.2925463318824768	10
+287	friends_align	aligned	gpt2	 the conveyor belt she smiled at the security guard	 that	was	5.285913467407227	4.8991546630859375	0.00011104332224931568	0.16366463899612427	10
+288	friends_align	aligned	gpt2	 conveyor belt she smiled at the security guard that	 was	standing	1.9223480224609375	5.779315948486328	3.3160849852720276e-05	0.07096386700868607	10
+289	friends_align	aligned	gpt2	or belt she smiled at the security guard that was	 a	little	6.266942024230957	5.395763397216797	0.00012203761434648186	0.13442708551883698	10
+290	friends_align	aligned	gpt2	 belt she smiled at the security guard that was a	 close	friend	5.076233863830566	2.3563830852508545	0.0007227648166008294	0.4672851264476776	10
+291	friends_align	aligned	gpt2	 she smiled at the security guard that was a close	 one	.	7.632129192352295	1.7534602880477905	3.470704905339517e-05	0.6269083619117737	10
+292	friends_align	aligned	gpt2	 smiled at the security guard that was a close one	 her	father	9.20132064819336	5.421191215515137	0.00023791281273588538	0.10159822553396225	10
+293	friends_align	aligned	gpt2	 at the security guard that was a close one her	 joy	was	11.517741203308105	4.521170139312744	0.00013334333198145032	0.16509060561656952	10
+294	friends_align	aligned	gpt2	 the security guard that was a close one her joy	 was	that	1.8961546421051025	6.3360161781311035	0.0001378844171995297	0.09163782745599747	10
+295	friends_align	aligned	gpt2	 security guard that was a close one her joy was	 cut	short	6.375797748565674	1.8772785663604736	4.9961501645157114e-05	0.5187500715255737	10
+296	friends_align	aligned	gpt2	 guard that was a close one her joy was cut	 short	by	0.47158318758010864	2.520043134689331	0.0005698631866835058	0.3023190498352051	10
+297	friends_align	aligned	gpt2	 that was a close one her joy was cut short	 as	she	3.465348720550537	3.713043689727783	0.0003296902577858418	0.41349491477012634	10
+298	friends_align	aligned	gpt2	 was a close one her joy was cut short as	 they	were	4.329145431518555	5.412640571594238	4.9681297241477296e-05	0.11859574168920517	10
+299	friends_align	aligned	gpt2	 a close one her joy was cut short as they	 heard	the	4.504392147064209	4.626450061798096	0.0002175470581278205	0.23425862193107605	10
+300	friends_align	aligned	gpt2	 close one her joy was cut short as they heard	 the	sound	1.4313863515853882	7.020869255065918	0.0004400081525091082	0.08246134221553802	10
+301	friends_align	aligned	gpt2	 one her joy was cut short as they heard the	 final	whistle	6.309794902801514	6.150188446044922	0.0008193270768970251	0.087547667324543	10
+302	friends_align	aligned	gpt2	 her joy was cut short as they heard the final	 call	.	4.725281238555908	2.8984413146972656	0.001050308346748352	0.3323265612125397	10
+303	friends_align	aligned	gpt2	 joy was cut short as they heard the final call	 for	the	2.9558773040771484	5.6277008056640625	5.0323571485932916e-05	0.18864072859287262	10
+304	friends_align	aligned	gpt2	 was cut short as they heard the final call for	 their	lives	2.749924659729004	7.337010383605957	0.00014435798220802099	0.04697524756193161	10
+305	friends_align	aligned	gpt2	 cut short as they heard the final call for their	 flight	.	6.275382041931152	2.5963821411132812	9.519700688542798e-05	0.4673575460910797	10
+306	friends_align	aligned	gpt2	 short as they heard the final call for their flight	 come	in	10.601278305053711	3.553109645843506	1.6041420167312026e-05	0.24726921319961548	10
+307	friends_align	aligned	gpt2	 as they heard the final call for their flight come	 over	the	4.081540584564209	3.0711536407470703	0.00021878282132092863	0.3650493621826172	10
+308	friends_align	aligned	gpt2	 they heard the final call for their flight come over	 the	ocean	1.02835214138031	6.926391124725342	0.0007478076731786132	0.026221919804811478	10
+309	friends_align	aligned	gpt2	 heard the final call for their flight come over the	 pa	.	13.728172302246094	5.559967041015625	0.00017024914268404245	0.06156270578503609	10
+310	friends_align	aligned	gpt2	 the final call for their flight come over the pa	 system	.	8.622611045837402	3.0216147899627686	0.0009017151896841824	0.39719465374946594	10
+311	friends_align	aligned	gpt2	 final call for their flight come over the pa system	 gate	.	9.205759048461914	3.3559629917144775	0.0030793698970228434	0.33652734756469727	10
+312	friends_align	aligned	gpt2	 call for their flight come over the pa system gate	 is	a	6.999188423156738	6.5235490798950195	0.00026986966258846223	0.06628933548927307	10
+313	friends_align	aligned	gpt2	 for their flight come over the pa system gate is	 on	the	5.312709808349609	4.221042633056641	0.0007647900492884219	0.36856555938720703	10
+314	friends_align	aligned	gpt2	 their flight come over the pa system gate is on	 the	left	0.9954954385757446	5.206479072570801	0.0005737437168136239	0.23552629351615906	10
+315	friends_align	aligned	gpt2	 flight come over the pa system gate is on the	 other	side	3.801480293273926	0.8288993835449219	1.1447705219325144e-05	0.8544734120368958	10
+316	friends_align	aligned	gpt2	 come over the pa system gate is on the other	 side	of	0.22408248484134674	2.044536590576172	0.0002740101481322199	0.5913251638412476	10
+317	friends_align	aligned	gpt2	 over the pa system gate is on the other side	 of	the	0.5185138583183289	1.380712628364563	4.1151117329718545e-05	0.8180460333824158	10
+318	friends_align	aligned	gpt2	 the pa system gate is on the other side of	 the	gate	0.20580284297466278	6.4974470138549805	0.0004102697130292654	0.12003710865974426	10
+319	friends_align	aligned	gpt2	 pa system gate is on the other side of the	 terminal	.	6.075622081756592	3.3741817474365234	0.0012274137698113918	0.37962839007377625	10
+320	friends_align	aligned	gpt2	 system gate is on the other side of the terminal	 mon	olith	12.361578941345215	3.387145757675171	5.254933057585731e-06	0.21636049449443817	10
+321	friends_align	aligned	gpt2	 gate is on the other side of the terminal mon	ica	.	6.061089992523193	5.019541263580322	0.0001384075148962438	0.2555485963821411	10
+322	friends_align	aligned	gpt2	 is on the other side of the terminal monica	 shouted	""""	12.785481452941895	4.4960150718688965	4.146182254771702e-05	0.17256487905979156	10
+323	friends_align	aligned	gpt2	 on the other side of the terminal monica shouted	 holding	the	11.526117324829102	4.466536045074463	0.00010323389869881794	0.14672797918319702	10
+324	friends_align	aligned	gpt2	 the other side of the terminal monica shouted holding	 her	hand	3.186337471008301	4.973048210144043	0.00035108570591546595	0.16775467991828918	10
+325	friends_align	aligned	gpt2	 other side of the terminal monica shouted holding her	 hands	up	2.1883301734924316	3.037592649459839	0.0001365937787340954	0.32023411989212036	10
+326	friends_align	aligned	gpt2	 side of the terminal monica shouted holding her hands	 to	her	3.391213893890381	1.6105455160140991	0.0001310239458689466	0.7501217722892761	10
+327	friends_align	aligned	gpt2	 of the terminal monica shouted holding her hands to	 her	chest	0.24659831821918488	2.7892768383026123	1.3278001461003441e-05	0.35901176929473877	10
+328	friends_align	aligned	gpt2	 the terminal monica shouted holding her hands to her	 head	.	3.377274513244629	2.5848517417907715	1.2257346497790422e-05	0.3957633972167969	10
+329	friends_align	aligned	gpt2	 terminal monica shouted holding her hands to her head	 ch	attering	11.540384292602539	4.194489479064941	1.2513051842688583e-05	0.1758095771074295	10
+330	friends_align	aligned	gpt2	 monica shouted holding her hands to her head ch	and	ered	7.9274702072143555	4.977743148803711	7.285422179847956e-05	0.11274691671133041	10
+331	friends_align	aligned	gpt2	ica shouted holding her hands to her head chand	ler	.	1.5904375314712524	5.136410236358643	6.5587310018599965e-06	0.22905892133712769	10
+332	friends_align	aligned	gpt2	 shouted holding her hands to her head chandler	 looked	at	9.923324584960938	4.674298286437988	3.908871440216899e-05	0.1766405701637268	10
+333	friends_align	aligned	gpt2	 holding her hands to her head chandler looked	 around	the	3.8523831367492676	3.4804959297180176	0.0010700636776164174	0.17611990869045258	10
+334	friends_align	aligned	gpt2	 her hands to her head chandler looked around	 in	confusion	3.4031286239624023	4.202261447906494	4.21458316850476e-05	0.10282698273658752	10
+335	friends_align	aligned	gpt2	 hands to her head chandler looked around in	 shock	.	2.514274835586548	2.159273624420166	1.1986631989202579e-06	0.39546841382980347	10
+336	friends_align	aligned	gpt2	 to her head chandler looked around in shock	 and	confusion	2.00736665725708	5.886285781860352	0.00048731520655564964	0.06964888423681259	10
+337	friends_align	aligned	gpt2	 her head chandler looked around in shock and	 then	looked	4.216557502746582	5.882782459259033	0.0007547553977929056	0.05873563885688782	10
+338	friends_align	aligned	gpt2	 head chandler looked around in shock and then	 ran	off	4.753905296325684	3.270324230194092	7.811594514350872e-06	0.16752806305885315	10
+339	friends_align	aligned	gpt2	 chandler looked around in shock and then ran	 over	to	3.04679536819458	1.5565240383148193	0.00020384792878758162	0.6898491978645325	10
+340	friends_align	aligned	gpt2	andler looked around in shock and then ran over	 to	the	0.3980100154876709	4.918501853942871	0.00023910278105176985	0.24767278134822845	10
+341	friends_align	aligned	gpt2	ler looked around in shock and then ran over to	 an	old	5.538919448852539	5.168049335479736	0.0005104105803184211	0.13291481137275696	10
+342	friends_align	aligned	gpt2	 looked around in shock and then ran over to an	 elderly	man	3.455084800720215	3.0701708793640137	0.0037616188637912273	0.3373878002166748	10
+343	friends_align	aligned	gpt2	 around in shock and then ran over to an elderly	 man	who	1.189283847808838	3.5088284015655518	4.9108759412774816e-05	0.23494115471839905	10
+344	friends_align	aligned	gpt2	 in shock and then ran over to an elderly man	 an	hour	9.690449714660645	3.845198392868042	0.0028058441821485758	0.5230826139450073	10
+345	friends_align	aligned	gpt2	 shock and then ran over to an elderly man an	 electric	ian	8.416890144348145	1.0146995782852173	0.00010549122089287266	0.8621331453323364	10
+346	friends_align	aligned	gpt2	 and then ran over to an elderly man an electric	 sc	ooter	7.324540138244629	0.37104612588882446	1.4098688438934914e-07	0.9535062909126282	10
+347	friends_align	aligned	gpt2	 then ran over to an elderly man an electric sc	ooter	.	0.0513344369828701	3.730748414993286	1.2493131862356677e-07	0.22622208297252655	10
+348	friends_align	aligned	gpt2	 ran over to an elderly man an electric scooter	 i	was	11.297651290893555	5.507105350494385	0.000660898454952985	0.11769043654203415	10
+349	friends_align	aligned	gpt2	 over to an elderly man an electric scooter i	 will	be	4.5511474609375	5.2742133140563965	0.00012151660484960303	0.09322099387645721	10
+350	friends_align	aligned	gpt2	 to an elderly man an electric scooter i will	 give	you	3.5341999530792236	2.838325262069702	5.801106453873217e-05	0.44891226291656494	10
+351	friends_align	aligned	gpt2	 an elderly man an electric scooter i will give	 you	a	0.8850997686386108	4.770707607269287	0.0009299481753259897	0.20524591207504272	10
+352	friends_align	aligned	gpt2	 elderly man an electric scooter i will give you	 sixty	thousand	10.038836479187012	5.62947416305542	0.0006309946766123176	0.08860523253679276	10
+353	friends_align	aligned	gpt2	 man an electric scooter i will give you sixty	 dollars	for	2.9853904247283936	4.577503204345703	0.0006928615039214492	0.15588894486427307	10
+354	friends_align	aligned	gpt2	 an electric scooter i will give you sixty dollars	 he	he	8.040560722351074	5.406829357147217	0.0022251768968999386	0.1140131801366806	10
+355	friends_align	aligned	gpt2	 electric scooter i will give you sixty dollars he	 said	.	2.7901225090026855	4.815738201141357	0.0008491800399497151	0.20381049811840057	10
+356	friends_align	aligned	gpt2	 scooter i will give you sixty dollars he said	 sh	ite	8.567909240722656	6.393496990203857	0.0002281489287270233	0.01937784068286419	10
+357	friends_align	aligned	gpt2	ooter i will give you sixty dollars he said sh	oving	it	5.9864888191223145	4.577353000640869	1.474177580007563e-08	0.09686791151762009	10
+358	friends_align	aligned	gpt2	 i will give you sixty dollars he said shoving	 a	man	2.6444804668426514	7.0063157081604	0.0003784860309679061	0.01991032250225544	10
+359	friends_align	aligned	gpt2	 will give you sixty dollars he said shoving a	 w	ad	6.863653182983398	3.0337464809417725	5.645844112223131e-07	0.5052275657653809	10
+360	friends_align	aligned	gpt2	 give you sixty dollars he said shoving a w	ad	of	0.5711053609848022	1.7171210050582886	7.873785943957046e-05	0.6836703419685364	10
+361	friends_align	aligned	gpt2	 you sixty dollars he said shoving a wad	 of	money	0.3566058874130249	5.36400032043457	0.00010483754886081442	0.1512879729270935	10
+362	friends_align	aligned	gpt2	 sixty dollars he said shoving a wad of	 cash	into	1.66494619846344	2.911426067352295	0.0005296297604218125	0.35398152470588684	10
+363	friends_align	aligned	gpt2	 dollars he said shoving a wad of cash	 into	his	1.0805647373199463	2.1412971019744873	1.0532080523262266e-05	0.5330554842948914	10
+364	friends_align	aligned	gpt2	 he said shoving a wad of cash into	 the	bank	1.657639741897583	6.6528239250183105	0.00040469123632647097	0.07079189270734787	10
+365	friends_align	aligned	gpt2	 said shoving a wad of cash into the	 man	's	4.186782360076904	0.22661536931991577	2.885909225369687e-06	0.9741315245628357	10
+366	friends_align	aligned	gpt2	 shoving a wad of cash into the man	's	pocket	0.04905347898602486	4.470665454864502	1.7800035493564792e-05	0.1653071641921997	10
+367	friends_align	aligned	gpt2	oving a wad of cash into the man's	 hand	.	3.100938558578491	3.2030816078186035	2.7061172659159638e-05	0.2914697825908661	10
+368	friends_align	aligned	gpt2	 a wad of cash into the man's hand	 if	he	6.819387912750244	2.746004343032837	0.00015213672304525971	0.5140467286109924	10
+369	friends_align	aligned	gpt2	 wad of cash into the man's hand if	 you	want	3.481694459915161	4.93708610534668	8.039958629524335e-05	0.0857788696885109	10
+370	friends_align	aligned	gpt2	ad of cash into the man's hand if you	 let	him	5.278125762939453	1.749140977859497	3.4640943340491503e-05	0.6705257296562195	10
+371	friends_align	aligned	gpt2	 of cash into the man's hand if you let	 us	know	6.76699161529541	3.5244672298431396	1.548198383716226e-06	0.40898609161376953	10
+372	friends_align	aligned	gpt2	 cash into the man's hand if you let us	 borrow	it	5.331601142883301	3.4579293727874756	1.1107137652288657e-05	0.2556244134902954	10
+373	friends_align	aligned	gpt2	 into the man's hand if you let us borrow	 your	money	3.0870683193206787	7.1004743576049805	9.024889004649594e-05	0.08152356743812561	10
+374	friends_align	aligned	gpt2	 the man's hand if you let us borrow your	 sc	abb	7.535027503967285	3.4237077236175537	3.601511195938656e-07	0.2353571206331253	10
+375	friends_align	aligned	gpt2	 man's hand if you let us borrow your sc	ooter	.	1.992522954940796	3.2878079414367676	4.3703505525627406e-07	0.3544822335243225	10
+376	friends_align	aligned	gpt2	's hand if you let us borrow your scooter	 to	take	3.5172877311706543	5.269391059875488	0.00033463662839494646	0.07027310878038406	10
+377	friends_align	aligned	gpt2	 hand if you let us borrow your scooter to	 get	to	3.1572306156158447	3.606771230697632	3.832003130810335e-05	0.2561819851398468	10
+378	friends_align	aligned	gpt2	 if you let us borrow your scooter to get	 to	the	1.2867525815963745	4.749824523925781	0.0005150650977157056	0.23815122246742249	10
+379	friends_align	aligned	gpt2	 you let us borrow your scooter to get to	 gate	1	12.343732833862305	5.236234664916992	0.001503266510553658	0.08616946637630463	10
+380	friends_align	aligned	gpt2	 let us borrow your scooter to get to gate	 <	3	11.396585464477539	6.5247483253479	0.0001667673495830968	0.07806079834699631	10
+381	friends_align	aligned	gpt2	 us borrow your scooter to get to gate <	unk	now	12.144471168518066	4.136803150177002	4.167129736742936e-05	0.38929519057273865	10
+382	friends_align	aligned	gpt2	 borrow your scooter to get to gate <unk	>	<	3.2141072750091553	6.76690673828125	0.0003734986239578575	0.04291115701198578	10
+383	friends_align	aligned	gpt2	 your scooter to get to gate <unk>	 the	gate	5.389584541320801	7.035861968994141	0.0006219979841262102	0.13453055918216705	10
+384	friends_align	aligned	gpt2	 scooter to get to gate <unk> the	 old	man	6.23189640045166	7.553154468536377	0.0017355607124045491	0.05387033149600029	10
+385	friends_align	aligned	gpt2	ooter to get to gate <unk> the old	 man	is	2.9013848304748535	5.901993274688721	0.00020706361101474613	0.060153618454933167	10
+386	friends_align	aligned	gpt2	 to get to gate <unk> the old man	 looked	at	6.986604690551758	3.662001609802246	2.475190194672905e-05	0.3537501394748688	10
+387	friends_align	aligned	gpt2	 get to gate <unk> the old man looked	 back	at	4.306943893432617	2.989825487136841	0.00039693646249361336	0.3846849501132965	10
+388	friends_align	aligned	gpt2	 to gate <unk> the old man looked back	 at	me	0.9766438007354736	3.0037968158721924	5.613454777630977e-05	0.245052769780159	10
+389	friends_align	aligned	gpt2	 gate <unk> the old man looked back at	 him	and	2.167789936065674	3.847475528717041	8.55298712849617e-05	0.2503330409526825	10
+390	friends_align	aligned	gpt2	 <unk> the old man looked back at him	 in	shock	3.684532403945923	4.164182186126709	4.7139892558334395e-05	0.1294095516204834	10
+391	friends_align	aligned	gpt2	unk> the old man looked back at him in	 surprise	and	2.656132698059082	2.905841112136841	1.3736673281528056e-05	0.2505871653556824	10
+392	friends_align	aligned	gpt2	> the old man looked back at him in surprise	 then	turned	5.377753257751465	5.697739601135254	0.0005623649922199547	0.07490427792072296	10
+393	friends_align	aligned	gpt2	 the old man looked back at him in surprise then	 slowly	turned	5.550214767456055	4.997806072235107	0.0007836588192731142	0.0885729268193245	10
+394	friends_align	aligned	gpt2	 old man looked back at him in surprise then slowly	 stepped	back	4.0647783279418945	2.4273171424865723	1.114933525059314e-06	0.3137466609477997	10
+395	friends_align	aligned	gpt2	 man looked back at him in surprise then slowly stepped	 back	.	1.0692883729934692	3.0999035835266113	0.0024362471885979176	0.1935720145702362	10
+396	friends_align	aligned	gpt2	 looked back at him in surprise then slowly stepped back	 off	the	6.7317609786987305	2.6245741844177246	0.0001960146619239822	0.4092711806297302	10
+397	friends_align	aligned	gpt2	 back at him in surprise then slowly stepped back off	 the	ledge	1.0997190475463867	5.764706134796143	0.0003186242829542607	0.043570760637521744	10
+398	friends_align	aligned	gpt2	 at him in surprise then slowly stepped back off the	 sc	ooter	7.964475154876709	0.5462684035301208	1.6630716359600228e-08	0.925451934337616	10
+399	friends_align	aligned	gpt2	 him in surprise then slowly stepped back off the sc	ooter	and	0.07175421714782715	2.6353793144226074	1.7646824801431649e-07	0.29845935106277466	10
+400	friends_align	aligned	gpt2	 in surprise then slowly stepped back off the scooter	 ch	ute	10.791383743286133	2.228494882583618	3.1426114333044097e-07	0.5828922390937805	10
+401	friends_align	aligned	gpt2	 surprise then slowly stepped back off the scooter ch	and	ler	8.291769981384277	0.9439814686775208	5.458540272229584e-06	0.8674960732460022	10
+402	friends_align	aligned	gpt2	 then slowly stepped back off the scooter chand	ler	and	0.08910271525382996	3.185882568359375	1.2725075748676318e-06	0.2268989086151123	10
+403	friends_align	aligned	gpt2	 slowly stepped back off the scooter chandler	 <	3	14.023805618286133	6.03803014755249	0.0012479929719120264	0.18918031454086304	10
+404	friends_align	aligned	gpt2	 stepped back off the scooter chandler <	unk	>	12.40073299407959	4.75235652923584	2.92425411316799e-05	0.19143851101398468	10
+405	friends_align	aligned	gpt2	 back off the scooter chandler <unk	>	I	2.069427967071533	6.799348831176758	4.784226621268317e-05	0.03598334267735481	10
+406	friends_align	aligned	gpt2	 off the scooter chandler <unk>	 wildly	,	13.259917259216309	6.72772741317749	0.003934063483029604	0.053333695977926254	10
+407	friends_align	aligned	gpt2	 the scooter chandler <unk> wildly	 to	the	6.038119316101074	5.549969673156738	0.00043098555761389434	0.23659288883209229	10
+408	friends_align	aligned	gpt2	 scooter chandler <unk> wildly to	 mon	ero	9.721489906311035	5.874741077423096	3.7719069950981066e-05	0.07032172381877899	10
+409	friends_align	aligned	gpt2	ooter chandler <unk> wildly to mon	ica	<	5.183853626251221	6.191413402557373	4.4740027078660205e-05	0.16230276226997375	10
+410	friends_align	aligned	gpt2	 chandler <unk> wildly to monica	 who	is	5.774720191955566	6.081343650817871	0.0005645903875119984	0.0786108747124672	10
+411	friends_align	aligned	gpt2	andler <unk> wildly to monica who	 hopped	on	10.869525909423828	3.2445859909057617	7.08004881744273e-06	0.36859893798828125	10
+412	friends_align	aligned	gpt2	ler <unk> wildly to monica who hopped	 on	the	1.113680124282837	4.808694362640381	0.0023072739131748676	0.16507862508296967	10
+413	friends_align	aligned	gpt2	 <unk> wildly to monica who hopped on	 the	train	1.7137680053710938	7.365628242492676	0.00037327728932723403	0.04575029015541077	10
+414	friends_align	aligned	gpt2	unk> wildly to monica who hopped on the	 back	of	3.3864283561706543	3.564653158187866	0.00025547033874318004	0.4733458161354065	10
+415	friends_align	aligned	gpt2	> wildly to monica who hopped on the back	 of	a	0.5724261999130249	3.691979169845581	6.826253229519352e-05	0.2520149052143097	10
+416	friends_align	aligned	gpt2	 wildly to monica who hopped on the back of	 the	bus	1.6957188844680786	6.604058742523193	0.0003273880574852228	0.09685748815536499	10
+417	friends_align	aligned	gpt2	 to monica who hopped on the back of the	 sc	ooter	6.990230560302734	0.4635626971721649	9.217028917873904e-08	0.9421502351760864	10
+418	friends_align	aligned	gpt2	 monica who hopped on the back of the sc	ooter	and	0.11726409941911697	2.922006368637085	3.188337416304421e-08	0.39082202315330505	10
+419	friends_align	aligned	gpt2	ica who hopped on the back of the scooter	 while	he	4.416418075561523	5.929393768310547	0.00015904809697531164	0.10657286643981934	10
+420	friends_align	aligned	gpt2	 who hopped on the back of the scooter while	 ch	ug	8.019485473632812	2.916085720062256	4.961365220879088e-07	0.3591122031211853	10
+421	friends_align	aligned	gpt2	 hopped on the back of the scooter while ch	and	ler	9.613336563110352	1.5449599027633667	5.809996309835697e-06	0.5989800095558167	10
+422	friends_align	aligned	gpt2	 on the back of the scooter while chand	ler	and	0.5686571598052979	7.880247116088867	2.6311226974939927e-05	0.0319194495677948	10
+423	friends_align	aligned	gpt2	 the back of the scooter while chandler	 took	the	6.596933841705322	4.039519786834717	8.767799954512157e-06	0.1526673436164856	10
+424	friends_align	aligned	gpt2	 back of the scooter while chandler took	 the	wheel	1.9194111824035645	6.912327289581299	0.00028664982528425753	0.06891925632953644	10
+425	friends_align	aligned	gpt2	 of the scooter while chandler took the	 wheel	.	2.767622232437134	2.964212656021118	0.000361368409357965	0.45865532755851746	10
+426	friends_align	aligned	gpt2	 the scooter while chandler took the wheel	 and	drove	2.8122715950012207	6.436024188995361	0.0007382432231679559	0.03190445899963379	10
+427	friends_align	aligned	gpt2	 scooter while chandler took the wheel and	 accelerated	to	7.765410423278809	4.194161891937256	1.5346173540820018e-06	0.11828228086233139	10
+428	friends_align	aligned	gpt2	ooter while chandler took the wheel and accelerated	 down	the	3.766848564147949	2.7031970024108887	0.00011974339577136561	0.498442679643631	10
+429	friends_align	aligned	gpt2	 while chandler took the wheel and accelerated down	 the	road	0.6092023253440857	5.247531890869141	0.000485486991237849	0.13401159644126892	10
+430	friends_align	aligned	gpt2	 chandler took the wheel and accelerated down the	 conc	ourse	8.553535461425781	0.2330346703529358	6.676240360548036e-08	0.9538059830665588	10
+431	friends_align	aligned	gpt2	andler took the wheel and accelerated down the conc	ourse	.	0.08154068887233734	3.0930349826812744	2.0136848633001136e-08	0.23407316207885742	10
+432	friends_align	aligned	gpt2	ler took the wheel and accelerated down the concourse	 weaving	through	12.100671768188477	4.278303623199463	0.00025228806771337986	0.1588137298822403	10
+433	friends_align	aligned	gpt2	 took the wheel and accelerated down the concourse weaving	 between	the	4.128029823303223	5.436185836791992	0.0004663644649554044	0.2534896731376648	10
+434	friends_align	aligned	gpt2	 the wheel and accelerated down the concourse weaving between	 passengers	and	5.5467095375061035	2.7306673526763916	3.374812877154909e-05	0.34368953108787537	10
+435	friends_align	aligned	gpt2	 wheel and accelerated down the concourse weaving between passengers	 and	the	0.9690080285072327	5.523690223693848	0.0009254232863895595	0.17877939343452454	10
+436	friends_align	aligned	gpt2	 and accelerated down the concourse weaving between passengers and	 luggage	.	5.548465728759766	2.744080066680908	4.085895125172101e-05	0.47421905398368835	10
+437	friends_align	aligned	gpt2	 accelerated down the concourse weaving between passengers and luggage	 they	were	9.544939041137695	4.797767639160156	3.5307195503264666e-05	0.1519497036933899	10
+438	friends_align	aligned	gpt2	 down the concourse weaving between passengers and luggage they	 scree	ched	12.509248733520508	0.7034077048301697	2.0690690689662006e-06	0.780205488204956	10
+439	friends_align	aligned	gpt2	 the concourse weaving between passengers and luggage they scree	ched	and	0.5551229119300842	3.8949544429779053	4.7506975420219533e-07	0.14902545511722565	10
+440	friends_align	aligned	gpt2	 concourse weaving between passengers and luggage they screeched	 to	a	2.0265657901763916	2.723289966583252	0.0003726332797668874	0.5727622509002686	10
+441	friends_align	aligned	gpt2	ourse weaving between passengers and luggage they screeched to	 the	ground	3.1379947662353516	5.071614742279053	0.00024146340729203075	0.16770876944065094	10
+442	friends_align	aligned	gpt2	 weaving between passengers and luggage they screeched to the	 gate	.	6.030516147613525	2.8346199989318848	0.00033803677069954574	0.35118284821510315	10
+443	friends_align	aligned	gpt2	 between passengers and luggage they screeched to the gate	 just	as	6.215555191040039	2.877357006072998	0.00017476857465226203	0.29607516527175903	10
+444	friends_align	aligned	gpt2	 passengers and luggage they screeched to the gate just	 before	the	1.5877550840377808	4.389185428619385	3.5341432521818206e-05	0.14517742395401	10
+445	friends_align	aligned	gpt2	 and luggage they screeched to the gate just before	 it	closed	2.86733341217041	2.999948501586914	1.2323592272878159e-05	0.289662629365921	10
+446	friends_align	aligned	gpt2	 luggage they screeched to the gate just before it	 closed	.	1.2500594854354858	2.1568517684936523	0.0011310435365885496	0.5835262537002563	10
+447	friends_align	aligned	gpt2	 they screeched to the gate just before it closed	 and	the	2.7273221015930176	6.1873064041137695	0.0009185243397951126	0.11897759884595871	10
+448	friends_align	aligned	gpt2	 screeched to the gate just before it closed and	 hurried	to	6.914837837219238	3.4955012798309326	0.0002985499450005591	0.1659206598997116	10
+449	friends_align	aligned	gpt2	ched to the gate just before it closed and hurried	 down	the	3.3005690574645996	2.406717538833618	0.0007719399873167276	0.5619253516197205	10
+450	friends_align	aligned	gpt2	 to the gate just before it closed and hurried down	 the	stairs	0.5881381630897522	4.767585754394531	0.0003781897248700261	0.12513472139835358	10
+451	friends_align	aligned	gpt2	 the gate just before it closed and hurried down the	 <	path	13.043231010437012	7.420042991638184	6.025042966939509e-05	0.01778537407517433	10
+452	friends_align	aligned	gpt2	 gate just before it closed and hurried down the <	unk	now	12.386577606201172	3.5034244060516357	0.00024123805633280426	0.43274956941604614	10
+453	friends_align	aligned	gpt2	 just before it closed and hurried down the <unk	>	stairs	2.589144706726074	5.8480424880981445	0.0003198393096681684	0.10682480037212372	10
+454	friends_align	aligned	gpt2	 before it closed and hurried down the <unk>	 they	were	9.650399208068848	5.0550642013549805	5.7385896070627496e-05	0.1383097767829895	10
+455	friends_align	aligned	gpt2	 it closed and hurried down the <unk> they	 finally	got	7.921200752258301	4.75869083404541	0.0013659840915352106	0.10486887395381927	10
+456	friends_align	aligned	gpt2	 closed and hurried down the <unk> they finally	 collapsed	.	7.246097564697266	3.6786861419677734	8.492012057104148e-06	0.1817428171634674	10
+457	friends_align	aligned	gpt2	 and hurried down the <unk> they finally collapsed	 into	the	1.8983733654022217	3.342402219772339	0.0007305239560082555	0.3777486979961395	10
+458	friends_align	aligned	gpt2	 hurried down the <unk> they finally collapsed into	 their	own	3.1662850379943848	6.313201427459717	0.00011077686940552667	0.16312873363494873	10
+459	friends_align	aligned	gpt2	 down the <unk> they finally collapsed into their	 seats	.	4.089859962463379	2.961217164993286	5.236692959442735e-05	0.3785030245780945	10
+460	friends_align	aligned	gpt2	 the <unk> they finally collapsed into their seats	 on	the	4.16422700881958	3.1677067279815674	5.324585072230548e-05	0.5650990009307861	10
+461	friends_align	aligned	gpt2	 <unk> they finally collapsed into their seats on	 the	floor	0.6751073002815247	6.439013481140137	0.0003337704692967236	0.0776371955871582	10
+462	friends_align	aligned	gpt2	unk> they finally collapsed into their seats on the	 plane	.	4.016507148742676	4.035617351531982	0.00014968591858632863	0.21076542139053345	10
+463	friends_align	aligned	gpt2	> they finally collapsed into their seats on the plane	 next	to	7.580991744995117	0.6180625557899475	3.8732738175895065e-05	0.9099613428115845	10
+464	friends_align	aligned	gpt2	 they finally collapsed into their seats on the plane next	 time	.	5.735348224639893	2.9804584980010986	2.7756257622968405e-05	0.35403764247894287	10
+465	friends_align	aligned	gpt2	 finally collapsed into their seats on the plane next time	 we	landed	3.745466709136963	4.439329147338867	4.603121124091558e-05	0.07294777035713196	10
+466	friends_align	aligned	gpt2	 collapsed into their seats on the plane next time we	're	in	4.386324882507324	4.40632438659668	5.140727239449916e-07	0.13232167065143585	10
+467	friends_align	aligned	gpt2	 into their seats on the plane next time we're	 going	to	2.653012275695801	1.7974330186843872	2.343916094105225e-05	0.6765512228012085	10
+468	friends_align	aligned	gpt2	 their seats on the plane next time we're going	 to	the	0.42023661732673645	5.797374725341797	0.0005351149593479931	0.11217620223760605	10
+469	friends_align	aligned	gpt2	 seats on the plane next time we're going to	 the	airport	2.345043897628784	6.1977338790893555	0.0003180640924256295	0.19086122512817383	10
+470	friends_align	aligned	gpt2	 on the plane next time we're going to the	 airport	.	1.5123590230941772	2.7120161056518555	0.00046275570639409125	0.4183415472507477	10
+471	friends_align	aligned	gpt2	 the plane next time we're going to the airport	 my	wife	10.89376163482666	5.6761274337768555	0.00023603749286849052	0.09258302301168442	10
+472	friends_align	aligned	gpt2	 plane next time we're going to the airport my	 way	.	3.8767406940460205	2.9687211513519287	6.662854866590351e-05	0.3217874765396118	10
+473	friends_align	aligned	gpt2	 next time we're going to the airport my way	 said	.	10.40570068359375	5.643815040588379	0.00021166808437556028	0.07985292375087738	10
+474	friends_align	aligned	gpt2	 time we're going to the airport my way said	 mon	soon	11.771332740783691	5.63006067276001	0.00031440859311260283	0.08226260542869568	10
+475	friends_align	aligned	gpt2	 we're going to the airport my way said mon	ica	.	4.425527572631836	4.602851867675781	1.1146677934448235e-05	0.3038598895072937	10
+476	friends_align	aligned	gpt2	're going to the airport my way said monica	 wiping	her	13.39819049835205	4.4790425300598145	4.790367529494688e-05	0.18792477250099182	10
+477	friends_align	aligned	gpt2	 going to the airport my way said monica wiping	 her	eyes	1.929483413696289	4.127086162567139	9.609900007490069e-05	0.21582630276679993	10
+478	friends_align	aligned	gpt2	 to the airport my way said monica wiping her	 forehead	.	4.068460464477539	3.5141818523406982	2.4617900635348633e-05	0.223542720079422	10
+479	friends_align	aligned	gpt2	 the airport my way said monica wiping her forehead	 four	times	9.296016693115234	1.271252989768982	0.00012150320981163532	0.8378881812095642	10
+480	friends_align	aligned	gpt2	 airport my way said monica wiping her forehead four	 hours	ago	5.3951568603515625	2.236891269683838	2.5754754460649565e-05	0.31131237745285034	10
+481	friends_align	aligned	gpt2	 my way said monica wiping her forehead four hours	 early	.	6.326176643371582	3.6146583557128906	0.0003426458570174873	0.24036099016666412	10
+482	friends_align	aligned	gpt2	 way said monica wiping her forehead four hours early	 ch	atted	11.522394180297852	4.813285827636719	8.230871571868192e-06	0.10534857958555222	10
+483	friends_align	aligned	gpt2	 said monica wiping her forehead four hours early ch	and	ler	7.961281776428223	5.296534061431885	0.00019355803669895977	0.23233424127101898	10
+484	friends_align	aligned	gpt2	 monica wiping her forehead four hours early chand	ler	,	1.3111721277236938	7.163670063018799	1.788084045983851e-05	0.07718773186206818	10
+485	friends_align	aligned	gpt2	ica wiping her forehead four hours early chandler	 closed	her	9.484010696411133	2.2466039657592773	0.00030061096185818315	0.5145958662033081	10
+486	friends_align	aligned	gpt2	 wiping her forehead four hours early chandler closed	 his	eyes	3.0873031616210938	1.6103967428207397	2.6831654395209625e-05	0.7816791534423828	10
+487	friends_align	aligned	gpt2	 her forehead four hours early chandler closed his	 eyes	and	0.22497645020484924	2.2782063484191895	1.3249282346805558e-05	0.4347497522830963	10
+488	friends_align	aligned	gpt2	 forehead four hours early chandler closed his eyes	 and	looked	0.8882718086242676	5.932012557983398	0.0004810528189409524	0.03765905275940895	10
+489	friends_align	aligned	gpt2	 four hours early chandler closed his eyes and	 leaned	back	5.3193254470825195	2.6184985637664795	1.6037553223213763e-06	0.3155654966831207	10
+490	friends_align	aligned	gpt2	 hours early chandler closed his eyes and leaned	 his	head	2.6228537559509277	2.117865562438965	4.613932833308354e-05	0.610274076461792	10
+491	friends_align	aligned	gpt2	 early chandler closed his eyes and leaned his	 head	back	0.48683789372444153	2.733210802078247	0.0006297724903561175	0.2555418908596039	10
+492	friends_align	aligned	gpt2	 chandler closed his eyes and leaned his head	 back	against	1.360492467880249	2.7283191680908203	0.0012499329168349504	0.2630671560764313	10
+493	friends_align	aligned	gpt2	andler closed his eyes and leaned his head back	 on	his	2.2015652656555176	1.1699236631393433	2.7167467123945244e-05	0.48616263270378113	10
+494	friends_align	aligned	gpt2	ler closed his eyes and leaned his head back on	 the	table	0.7868124842643738	4.704482078552246	0.00018653561710380018	0.11793114244937897	10
+495	friends_align	aligned	gpt2	 closed his eyes and leaned his head back on the	 seat	.	4.529959678649902	2.6211040019989014	0.004889583680778742	0.5094618797302246	10
+496	friends_align	aligned	gpt2	 his eyes and leaned his head back on the seat	 and	looked	3.6197214126586914	5.4722418785095215	0.00015752534091006964	0.0687456727027893	10
+497	friends_align	aligned	gpt2	 eyes and leaned his head back on the seat and	 smiled	.	3.0607526302337646	3.174272298812866	1.5150130820984486e-05	0.43905726075172424	10
+498	friends_align	aligned	gpt2	 and leaned his head back on the seat and smiled	 whatever	he	12.911935806274414	4.7079291343688965	8.62490342115052e-05	0.2720378041267395	10
+499	friends_align	aligned	gpt2	 leaned his head back on the seat and smiled whatever	 you	wanted	5.198271751403809	3.478768825531006	8.284168143291026e-05	0.2521834671497345	10
+500	friends_align	aligned	gpt2	 his head back on the seat and smiled whatever you	 want	.	1.5415794849395752	2.4555485248565674	1.8652170865607332e-06	0.3866204619407654	10
+501	friends_align	aligned	gpt2	 head back on the seat and smiled whatever you want	 right	now	7.724483013153076	2.8796019554138184	0.0006359320832416415	0.2783606946468353	10
+502	friends_align	aligned	gpt2	 back on the seat and smiled whatever you want right	 now	.	1.3219040632247925	1.9374746084213257	0.0001120577726396732	0.6341374516487122	10
+503	friends_align	aligned	gpt2	 on the seat and smiled whatever you want right now	 all	you	8.032520294189453	3.58201003074646	0.0002294099103892222	0.23842430114746094	10
+504	friends_align	aligned	gpt2	 the seat and smiled whatever you want right now all	 i	want	7.26169490814209	2.951974630355835	2.0242143364157528e-05	0.2770707607269287	10
+505	friends_align	aligned	gpt2	 seat and smiled whatever you want right now all i	 can	do	1.6858750581741333	1.9512852430343628	0.0005518804537132382	0.44962722063064575	10
+506	friends_align	aligned	gpt2	 and smiled whatever you want right now all i can	 think	about	1.3005971908569336	1.5706655979156494	2.381369449722115e-05	0.3600650727748871	10
+507	friends_align	aligned	gpt2	 smiled whatever you want right now all i can think	 is	that	0.8995273113250732	4.976132392883301	0.0017005333211272955	0.14761772751808167	10
+508	friends_align	aligned	gpt2	 whatever you want right now all i can think is	 b	tw	7.4538254737854	5.717495441436768	0.0003250913869123906	0.10899312794208527	10
+509	friends_align	aligned	gpt2	 you want right now all i can think is b	erm	uda	7.624239921569824	4.879891872406006	7.77622772147879e-05	0.3231348395347595	10
+510	friends_align	aligned	gpt2	 want right now all i can think is berm	uda	and	0.9656642079353333	5.7967071533203125	3.649908876468544e-06	0.1124948263168335	10
+511	friends_align	aligned	gpt2	 right now all i can think is bermuda	 b	erm	5.277341365814209	2.2662034034729004	4.5635460992343724e-05	0.7254749536514282	10
+512	friends_align	aligned	gpt2	 now all i can think is bermuda b	ah	ns	5.577289581298828	6.015714168548584	0.0002543329319451004	0.07177276909351349	10
+513	friends_align	aligned	gpt2	 all i can think is bermuda bah	ama	b	5.083449840545654	5.09388542175293	4.050537245348096e-05	0.33741477131843567	10
+514	friends_align	aligned	gpt2	 i can think is bermuda bahama	 come	to	8.347803115844727	5.616452217102051	0.0019974198658019304	0.164549320936203	10
+515	friends_align	aligned	gpt2	 can think is bermuda bahama come	 on	,	3.384310722351074	4.92985200881958	0.001829358865506947	0.17455081641674042	10
+516	friends_align	aligned	gpt2	 think is bermuda bahama come on	 pretty	much	9.18052864074707	4.122422218322754	0.0011535262456163764	0.30438271164894104	10
+517	friends_align	aligned	gpt2	 is bermuda bahama come on pretty	 m	ama	8.601346015930176	5.084062099456787	0.00010284398740623146	0.1733831763267517	10
+518	friends_align	aligned	gpt2	 bermuda bahama come on pretty m	ama	b	1.6125198602676392	4.919582366943359	5.81527165195439e-05	0.13617779314517975	10
+519	friends_align	aligned	gpt2	ermuda bahama come on pretty mama	 mon	te	10.438340187072754	6.101022720336914	0.00028266568551771343	0.057429514825344086	10
+520	friends_align	aligned	gpt2	uda bahama come on pretty mama mon	ica	.	4.331892490386963	5.362576961517334	2.8553624360938556e-05	0.17568747699260712	10
+521	friends_align	aligned	gpt2	 bahama come on pretty mama monica	 laughed	at	12.859436988830566	4.302199363708496	2.8276188459130935e-05	0.21232447028160095	10

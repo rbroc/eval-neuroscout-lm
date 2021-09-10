@@ -1,0 +1,790 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan looked up from his	 board	.	9.764392852783203	4.657496929168701	5.746162059949711e-05	0.15655279159545898	5
+1	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 looked up from his board	ing	point	9.486430168151855	6.155608654022217	7.587448635604233e-05	0.034337446093559265	5
+2	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 up from his boarding	 pass	down	8.883644104003906	4.928704261779785	0.0001386380026815459	0.21679438650608063	5
+3	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 from his boarding pass	 and	of	6.7834930419921875	5.224973678588867	0.0011323126964271069	0.08358563482761383	5
+4	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 his boarding pass and	 s	oo	4.627880096435547	6.322987079620361	0.009775461629033089	0.023801404982805252	5
+5	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 boarding pass and s	ig	m	7.1658935546875	6.537491321563721	0.0007724883616901934	0.05317773297429085	5
+6	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ing pass and sig	hed	ness	9.228752136230469	5.690200328826904	9.817568206926808e-05	0.053698018193244934	5
+7	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 pass and sighed	.	</s>	7.307384490966797	4.214111804962158	0.0006705684354528785	0.2623521089553833	5
+8	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and sighed.	 There	are	8.306024551391602	3.5951483249664307	0.00024702426162548363	0.26328355073928833	5
+9	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 sighed. There	 was	a	7.473483085632324	4.545727729797363	0.0005679466994479299	0.25023630261421204	5
+10	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ighed. There was	 his	.	7.407752990722656	5.847466468811035	0.000606532150413841	0.09330591559410095	5
+11	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	hed. There was his	 new	sp	9.971043586730957	5.003335475921631	4.6733774070162326e-05	0.1307927966117859	5
+12	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. There was his new	 partner	.	9.740076065063477	4.021151065826416	5.887605220777914e-05	0.2793881595134735	5
+13	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 There was his new partner	 N	ES	6.884346961975098	5.230782985687256	0.0010236845118924975	0.08526076376438141	5
+14	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 was his new partner N	at	han	4.557415008544922	4.12542724609375	0.010489136911928654	0.39932969212532043	5
+15	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 his new partner Nat	al	</s>	7.3906779289245605	5.756182670593262	0.0006169775733724236	0.07955443114042282	5
+16	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 new partner Natal	ie	</s>	8.399599075317383	5.2165141105651855	0.0002249576209578663	0.12763279676437378	5
+17	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 partner Natalie	,	I	5.191972732543945	5.881105899810791	0.005561027210205793	0.06812873482704163	5
+18	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie,	 awkward	,	8.069395065307617	5.722728252410889	0.0003129726101178676	0.07095923274755478	5
+19	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie, awkward	ly	,	10.31912612915039	3.967268466949463	3.2995918445521966e-05	0.3558993339538574	5
+20	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie, awkwardly	 clim	bing	8.188530921936035	1.4699957370758057	0.0002778217021841556	0.5275968313217163	5
+21	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie, awkwardly clim	bing	,	8.695215225219727	4.157802581787109	0.00016738477279432118	0.1926584392786026	5
+22	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, awkwardly climbing	 out	of	10.532610893249512	1.9499635696411133	2.6652947781258263e-05	0.6987580060958862	5
+23	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 awkwardly climbing out	 of	I	5.960992813110352	5.65030574798584	0.0025773511733859777	0.08566847443580627	5
+24	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ly climbing out of	 a	thing	5.514809608459473	6.295107841491699	0.004026695154607296	0.05305972322821617	5
+25	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 climbing out of a	 tax	on	7.915518283843994	5.861774444580078	0.00036503461888059974	0.09171632677316666	5
+26	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	bing out of a tax	i	's	7.80502986907959	5.489954948425293	0.0004076793265994638	0.13961613178253174	5
+27	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 out of a taxi	 at	a	7.211404323577881	6.16554069519043	0.0007381198811344802	0.04426606371998787	5
+28	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 of a taxi at	 the	end	6.876688480377197	5.986797332763672	0.001031554420478642	0.06926678866147995	5
+29	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 a taxi at the	 cur	ry	2.5219783782958984	4.300483703613281	0.08030058443546295	0.12975816428661346	5
+30	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 taxi at the cur	b	.	5.820074081420898	5.7723236083984375	0.002967385109513998	0.10716105997562408	5
+31	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	i at the curb	 of	things	6.464323043823242	5.922563552856445	0.0015580453909933567	0.04663408175110817	5
+32	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 at the curb of	 the	thing	7.682048320770264	6.208723545074463	0.0004610296164173633	0.06814662367105484	5
+33	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the curb of the	 air	b	7.788588047027588	5.367175102233887	0.0004144375561736524	0.09212619066238403	5
+34	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 curb of the air	port	I	13.790709495544434	5.082286834716797	1.0251109188175178e-06	0.1814355105161667	5
+35	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	b of the airport	.		6.706576347351074	3.731775999069214	0.0012228433042764664	0.396862655878067	5
+36	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 of the airport.	 She	d	6.8621506690979	5.347107887268066	0.0010466605890542269	0.055901966989040375	5
+37	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the airport. She	 f	ries	3.0311343669891357	4.7306132316589355	0.04826085641980171	0.12828585505485535	5
+38	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 airport. She f	umb	les	10.292024612426758	1.4822797775268555	3.390239362488501e-05	0.7076048254966736	5
+39	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	port. She fumb	led	to	11.134353637695312	4.173236846923828	1.4601971088268328e-05	0.35333359241485596	5
+40	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. She fumbled	 with	D	9.023229598999023	5.348242282867432	0.00012057602725690231	0.07211197912693024	5
+41	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 She fumbled with	 her	I	5.89612340927124	5.256752967834473	0.0027500854339450598	0.20924341678619385	5
+42	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 fumbled with her	 d	oo	5.165529251098633	5.457865238189697	0.005710037890821695	0.08173548430204391	5
+43	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	umbled with her d	uff	s	8.24703598022461	3.0954315662384033	0.00026203415472991765	0.5444241166114807	5
+44	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	led with her duff	le	</s>	7.032927513122559	6.313615322113037	0.0008823450771160424	0.041045207530260086	5
+45	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 with her duffle	 bag	thing	7.1788105964660645	5.76179313659668	0.0007625743746757507	0.057685207575559616	5
+46	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 her duffle bag	,		5.60867166519165	6.01624870300293	0.0036659357137978077	0.06329356133937836	5
+47	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 duffle bag,	 jack	et	6.388301372528076	5.500807762145996	0.0016811091918498278	0.09398511797189713	5
+48	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	uffle bag, jack	et	I	7.4984893798828125	5.970160484313965	0.0005539206322282553	0.05234462022781372	5
+49	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	le bag, jacket	,	more	5.369565486907959	5.429113388061523	0.004656153731048107	0.07960580289363861	5
+50	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 bag, jacket,	 and	are	6.509231090545654	5.568833827972412	0.0014896246138960123	0.07108225673437119	5
+51	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, jacket, and	 massive	.	10.677155494689941	4.201165676116943	2.3065884306561202e-05	0.27034813165664673	5
+52	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 jacket, and massive	 l	es	4.267806053161621	5.651477336883545	0.014012490399181843	0.06519602984189987	5
+53	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	et, and massive l	ugg	age	5.687099456787109	3.5957374572753906	0.0033894097432494164	0.39088308811187744	5
+54	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, and massive lugg	age	,	11.98198127746582	2.9131758213043213	6.255926109588472e-06	0.319813996553421	5
+55	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and massive luggage	 that	's	5.672407150268555	5.471518516540527	0.0034395765978842974	0.09988430887460709	5
+56	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 massive luggage that	 squ	are	4.2765421867370605	1.2495661973953247	0.013890611939132214	0.7957985997200012	5
+57	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 luggage that squ	e	*	5.9571027755737305	5.498658180236816	0.0025873975828289986	0.08789239078760147	5
+58	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	uggage that sque	aked	last	13.779865264892578	5.771114826202393	1.036288267641794e-06	0.07339984178543091	5
+59	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	age that squeaked	 shr	inks	6.306126117706299	3.677797794342041	0.0018250896828249097	0.2422560751438141	5
+60	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 that squeaked shr	illy	</s>	12.903820037841797	5.066011428833008	2.488526433808147e-06	0.1082940623164177	5
+61	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 squeaked shrilly	 as	a	8.242464065551758	6.189760208129883	0.0002632349787745625	0.0520223043859005	5
+62	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	eaked shrilly as	 she	goes	5.028961658477783	5.948206424713135	0.00654560374096036	0.05771896243095398	5
+63	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	aked shrilly as she	 t	asks	8.457100868225098	4.357475280761719	0.00021238686167635024	0.22280849516391754	5
+64	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 shrilly as she t	ugg	le	8.481542587280273	4.227766990661621	0.00020725878130178899	0.15290184319019318	5
+65	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	illy as she tugg	ed	to	9.897836685180664	5.041451454162598	5.028332452639006e-05	0.15894991159439087	5
+66	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 as she tugged	 it	.	5.327524185180664	5.211709976196289	0.00485607935115695	0.07061521708965302	5
+67	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 she tugged it	 through	I	7.173440456390381	5.532926559448242	0.0007666804594919086	0.10335653275251389	5
+68	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 tugged it through	 the	M	7.372808456420898	6.238391876220703	0.0006281016394495964	0.04328690469264984	5
+69	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ugged it through the	 air	.	7.487733364105225	5.362560272216797	0.0005599107244051993	0.12416773289442062	5
+70	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ed it through the air	port	.	11.439783096313477	5.8024444580078125	1.0758833923318889e-05	0.1044536754488945	5
+71	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 it through the airport	 doors	.	8.166791915893555	5.160545349121094	0.00028392754029482603	0.08237180858850479	5
+72	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 through the airport doors	.		6.545815467834473	5.663461208343506	0.0014361126814037561	0.12560197710990906	5
+73	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the airport doors.	 Ryan	's	6.445797443389893	5.047283172607422	0.001587178441695869	0.1373797357082367	5
+74	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 airport doors. Ryan	 walked	on	6.57463264465332	5.195631980895996	0.0013953183079138398	0.1705242097377777	5
+75	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	port doors. Ryan walked	 rel	ay	4.610013484954834	3.723815441131592	0.009951685555279255	0.14538873732089996	5
+76	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 doors. Ryan walked rel	uct	ance	8.334330558776855	2.650501251220703	0.0002401298697805032	0.37448588013648987	5
+77	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. Ryan walked reluct	antly	.	16.688520431518555	4.247420310974121	5.6528516978460175e-08	0.3086983859539032	5
+78	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan walked reluctantly	 toward	.	10.071327209472656	5.849863052368164	4.227446697768755e-05	0.05284150317311287	5
+79	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 walked reluctantly toward	 her	just	5.636477470397949	6.245047569274902	0.003565405961126089	0.0527491420507431	5
+80	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 reluctantly toward her	,	I	6.538628578186035	5.33268404006958	0.0014464706182479858	0.15704584121704102	5
+81	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	uctantly toward her,	 pulling	.	8.87502384185791	5.497070789337158	0.00013983833196107298	0.11969582736492157	5
+82	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	antly toward her, pulling	 his	I	9.008216857910156	4.907979488372803	0.00012239988427609205	0.16555312275886536	5
+83	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 toward her, pulling his	 own	</s>	8.765040397644043	5.33381986618042	0.00015609589172527194	0.15634946525096893	5
+84	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 her, pulling his own	 neat	ness	9.417900085449219	6.16758918762207	8.125650492729619e-05	0.07732567936182022	5
+85	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, pulling his own neat	ly	,	11.050509452819824	2.0463333129882812	1.5879058992140926e-05	0.7035631537437439	5
+86	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 pulling his own neatly	-	to	11.2533540725708	4.9375996589660645	1.296374284720514e-05	0.07857698202133179	5
+87	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 his own neatly-	pack	et	12.302486419677734	4.356199741363525	4.54043993158848e-06	0.23521341383457184	5
+88	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 own neatly-pack	ed	I	10.60274887084961	5.750692844390869	2.4847624445101246e-05	0.1279398798942566	5
+89	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 neatly-packed	 carry	I	8.260111808776855	6.061692237854004	0.00025862999609671533	0.08722567558288574	5
+90	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ly-packed carry	-	st	6.705504417419434	5.446233749389648	0.0012241550721228123	0.10033849626779556	5
+91	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-packed carry-	on	-	8.837806701660156	5.970938682556152	0.00014514070062432438	0.058328527957201004	5
+92	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	packed carry-on	 bag	.	8.021980285644531	6.051297187805176	0.00032816966995596886	0.04569021239876747	5
+93	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ed carry-on bag	 behind	</s>	8.441046714782715	6.008056163787842	0.00021582411136478186	0.06267933547496796	5
+94	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 carry-on bag behind	 him	a	6.945145606994629	6.122453212738037	0.0009632998262532055	0.06589284539222717	5
+95	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-on bag behind him	.		7.4580278396606445	4.062124252319336	0.0005767924594692886	0.33563923835754395	5
+96	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	on bag behind him.	 After	a	11.342097282409668	6.08555793762207	1.1862864994327538e-05	0.0680052861571312	5
+97	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 bag behind him. After	 checking	.	10.571956634521484	3.1206765174865723	2.5624629415688105e-05	0.35092055797576904	5
+98	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 behind him. After checking	 N	B	5.819061279296875	5.663803577423096	0.002970391884446144	0.08483028411865234	5
+99	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 him. After checking N	at	han	5.277173042297363	5.2245097160339355	0.005106847733259201	0.15963581204414368	5
+100	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. After checking Nat	al	.	4.390293121337891	5.790509223937988	0.012397097423672676	0.056928619742393494	5
+101	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 After checking Natal	ie	.	6.978407859802246	5.928468704223633	0.0009317858493886888	0.07039682567119598	5
+102	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 checking Natalie	's		7.639986038208008	5.118260860443115	0.00048083512228913605	0.134018674492836	5
+103	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie's	 bag	I	9.99423885345459	5.894498348236084	4.566224743030034e-05	0.09111033380031586	5
+104	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie's bag	,		4.205533981323242	5.708280086517334	0.014912822283804417	0.06960131973028183	5
+105	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie's bag,	 the	me	6.623638153076172	6.513208866119385	0.001328588929027319	0.025616182014346123	5
+106	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie's bag, the	 two	things	8.373666763305664	5.174040794372559	0.00023086743021849543	0.12214424461126328	5
+107	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	's bag, the two	 walked	,	10.276304244995117	4.78719425201416	3.443957393756136e-05	0.10895900428295135	5
+108	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 bag, the two walked	 toward	.	7.57448148727417	4.455078125	0.0005133865051902831	0.2622934877872467	5
+109	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, the two walked toward	 the	*	6.069108009338379	6.066972255706787	0.0023132360074669123	0.041462212800979614	5
+110	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the two walked toward the	 air	and	8.808722496032715	5.623612880706787	0.0001494239695603028	0.04712696000933647	5
+111	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 two walked toward the air	port	.	13.602824211120605	3.7420847415924072	1.23699624055007e-06	0.3364305794239044	5
+112	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 walked toward the airport	 security	line	6.003943920135498	6.258284091949463	0.002468995749950409	0.08420853316783905	5
+113	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 toward the airport security	 lines	</s>	7.639871120452881	5.3685302734375	0.00048089047777466476	0.10086672008037567	5
+114	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the airport security lines	.		6.663545608520508	3.0772805213928223	0.0012766121653839946	0.5167534351348877	5
+115	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 airport security lines.	 As	a	7.6871256828308105	5.395282745361328	0.00045869473251514137	0.11818143725395203	5
+116	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	port security lines. As	 N	ad	4.864089012145996	5.107931137084961	0.007718857377767563	0.09010984748601913	5
+117	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 security lines. As N	at	al	3.8091578483581543	4.983788013458252	0.022166838869452477	0.21409426629543304	5
+118	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 lines. As Nat	al	deal	4.640956401824951	6.147950649261475	0.009648464620113373	0.04572240263223648	5
+119	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. As Natal	ie	.	8.114630699157715	3.8247621059417725	0.00029913050821051	0.2913353741168976	5
+120	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 As Natalie	 strugg	les	8.593347549438477	5.022061824798584	0.0001853346184361726	0.17402824759483337	5
+121	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie strugg	led	I	14.040777206420898	5.083993911743164	7.983034606695583e-07	0.10445312410593033	5
+122	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie struggled	 to		5.331296443939209	5.456501483917236	0.004837794695049524	0.16367781162261963	5
+123	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie struggled to	 ext	end	4.171134948730469	2.8335142135620117	0.015434732660651207	0.610621452331543	5
+124	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie struggled to ext	ract		10.508153915405273	6.12553071975708	2.731284621404484e-05	0.038851626217365265	5
+125	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 struggled to extract	 her	I	5.892975807189941	5.440943241119385	0.0027587544173002243	0.08125955611467361	5
+126	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	led to extract her	 ID	s	6.9372334480285645	4.4726881980896	0.0009709522128105164	0.2026916891336441	5
+127	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to extract her ID	 from	there	6.9715681076049805	5.746069431304932	0.0009381807176396251	0.053815215826034546	5
+128	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 extract her ID from	 the	I	5.914836883544922	5.9987568855285645	0.0026990999467670918	0.056919731199741364	5
+129	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ract her ID from the	 bottom	of	10.390487670898438	3.540999412536621	3.072333493037149e-05	0.49141427874565125	5
+130	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 her ID from the bottom	 of		6.208564758300781	5.985161781311035	0.0020121235866099596	0.06848325580358505	5
+131	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 ID from the bottom of	 her	O	10.907383918762207	4.367187976837158	1.8322441974305548e-05	0.0784955844283104	5
+132	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 from the bottom of her	 d	iz	4.510711193084717	5.149820327758789	0.010990641079843044	0.06372726708650589	5
+133	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the bottom of her d	uff	s	10.578149795532227	2.5068936347961426	2.5466417355346493e-05	0.6734894514083862	5
+134	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 bottom of her duff	el	I	9.31898307800293	5.1002068519592285	8.970509225036949e-05	0.1225895956158638	5
+135	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 of her duffel	 bag	.	9.105945587158203	5.779355049133301	0.00011100389383500442	0.08020058274269104	5
+136	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 her duffel bag	,		5.51645565032959	6.031157970428467	0.004020072519779205	0.055906616151332855	5
+137	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 duffel bag,	 Ryan	S	6.670701026916504	5.631629467010498	0.0012675103498622775	0.07709380239248276	5
+138	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	uffel bag, Ryan	 sc	sc	1.0823724269866943	2.9867775440216064	0.33879080414772034	0.33879080414772034	5
+139	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	el bag, Ryan sc	op	es	8.911230087280273	1.477690577507019	0.00013486586976796389	0.7332223653793335	5
+140	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 bag, Ryan scop	ed	by	7.831228256225586	5.775463104248047	0.000397137482650578	0.09699232876300812	5
+141	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, Ryan scoped	 out	of	10.579578399658203	3.7292613983154297	2.5430072128074244e-05	0.24542802572250366	5
+142	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan scoped out	 the	for	6.909250259399414	5.665319919586182	0.0009985060896724463	0.11886169761419296	5
+143	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 scoped out the	 different	types	7.348696231842041	6.531737804412842	0.000643430626951158	0.023817162960767746	5
+144	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	oped out the different	 line	of	10.63381576538086	2.7407617568969727	2.4087537894956768e-05	0.5967035889625549	5
+145	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ed out the different line	 choices	.	11.662762641906738	3.9067234992980957	8.608478310634382e-06	0.3853805661201477	5
+146	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 out the different line choices	.		6.649315357208252	3.963780164718628	0.001294908463023603	0.4044021666049957	5
+147	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the different line choices.	" """	""""	5.198779106140137	5.406915664672852	0.005523305386304855	0.13508935272693634	5
+148	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" different line choices. """	B	ad	7.795029163360596	5.9495849609375	0.00041177673847414553	0.04827490821480751	5
+149	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" line choices. ""B"	ing	""""	4.293093681335449	5.090038299560547	0.013662590645253658	0.2541452646255493	5
+150	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" choices. ""Bing"	o	""""	8.76824951171875	5.5020599365234375	0.00015559572784695774	0.10280250757932663	5
+151	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""Bingo"	,		6.089936256408691	4.339597702026367	0.0022655532229691744	0.1900026649236679	5
+152	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Bingo,"	 As	I	7.4964447021484375	5.621231555938721	0.000555054284632206	0.09045510739088058	5
+153	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Bingo, As	ians	,	13.194822311401367	4.582111835479736	1.8602069076223415e-06	0.17248748242855072	5
+154	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ingo, Asians	"."""	</s>	5.800599098205566	3.5726585388183594	0.0030257422477006912	0.3287718594074249	5
+155	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"o, Asians."""	 He	R	4.610058784484863	4.861721992492676	0.009951232001185417	0.13601060211658478	5
+156	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	", Asians."" He"	 motion	,	9.621071815490723	5.04713773727417	6.631650467170402e-05	0.1802501082420349	5
+157	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" Asians."" He motion"	ed	to	7.945487022399902	4.642457962036133	0.0003542572376318276	0.1503872126340866	5
+158	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ians."" He motioned"	 toward	.	8.689352035522461	5.974835395812988	0.00016836915165185928	0.06779240071773529	5
+159	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" He motioned toward"	 the	I	7.127627372741699	5.43469762802124	0.0008026217110455036	0.18820689618587494	5
+160	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 He motioned toward the	 right	I	7.62775993347168	5.784358024597168	0.0004867500683758408	0.10368336737155914	5
+161	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 motioned toward the right	most	.	10.010351181030273	5.372766494750977	4.4932392484042794e-05	0.0724148228764534	5
+162	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ed toward the rightmost	 line	of	10.123208045959473	2.4280240535736084	4.0137161704478785e-05	0.5951029062271118	5
+163	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 toward the rightmost line	 with	</s>	4.486800193786621	6.097611904144287	0.011256602592766285	0.042660851031541824	5
+164	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the rightmost line with	 his	I	6.489960670471191	5.693995475769043	0.0015186091186478734	0.08656971901655197	5
+165	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 rightmost line with his	 ch	ch	1.5931881666183472	4.383114814758301	0.20327650010585785	0.20327650010585785	5
+166	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	most line with his ch	in	.	10.195962905883789	4.60719633102417	3.732067489181645e-05	0.16349616646766663	5
+167	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 line with his chin	.		8.23398208618164	5.257147312164307	0.0002654771669767797	0.12330838292837143	5
+168	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 with his chin.	" """	m	11.106307983398438	4.673474311828613	1.5017292753327638e-05	0.085511714220047	5
+169	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" his chin. """	You	""""	9.773917198181152	5.224282741546631	5.691693877452053e-05	0.15914872288703918	5
+170	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" chin. ""You"	 can	""""	6.775046348571777	3.684622049331665	0.0011419174261391163	0.3879345655441284	5
+171	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"in. ""You can"	't	""""	7.253744125366211	5.106557846069336	0.0007075205794535577	0.16297845542430878	5
+172	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""You can't"	 be	.	6.414430618286133	5.022819995880127	0.0016377525171265006	0.11657941341400146	5
+173	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""You can't be"	 serious	about	5.975586414337158	5.155797481536865	0.002540011890232563	0.10974249243736267	5
+174	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	You can't be serious	","""	""""	5.846010684967041	3.9133074283599854	0.0028914110735058784	0.37252384424209595	5
+175	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" can't be serious,"""	 rep	a	6.451900959014893	5.073235511779785	0.0015775206265971065	0.1332547664642334	5
+176	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"'t be serious,"" rep"	lied	to	16.406591415405273	1.6303884983062744	7.493896703181235e-08	0.7656828165054321	5
+177	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" be serious,"" replied"	 N	a	6.383554458618164	5.598023891448975	0.0016891078557819128	0.08086178451776505	5
+178	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" serious,"" replied N"	at	to	5.333985328674316	5.8690361976623535	0.004824805073440075	0.05224218964576721	5
+179	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	","" replied Nat"	al	S	9.566919326782227	4.095712661743164	7.000672485446557e-05	0.1361493021249771	5
+180	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 replied Natal	ie	so	10.564151763916016	5.092014312744141	2.5825404009083286e-05	0.17294727265834808	5
+181	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	lied Natalie	.		7.586908340454102	4.9221673011779785	0.0005070461775176227	0.175828754901886	5
+182	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie.	 Ryan	.	5.8431925773620605	5.800363063812256	0.0028995713219046593	0.06422669440507889	5
+183	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie. Ryan	 sh	od	5.776163578033447	5.089040279388428	0.003100587986409664	0.1278800517320633	5
+184	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie. Ryan sh	ru	ks	11.121737480163574	3.8377223014831543	1.4787369764235336e-05	0.3348581790924072	5
+185	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie. Ryan shru	gged	.	17.173887252807617	1.620595097541809	3.479172150377963e-08	0.7033374905586243	5
+186	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. Ryan shrugged	.		6.323843955993652	3.716146469116211	0.0017930378671735525	0.42210260033607483	5
+187	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan shrugged.	" """	""""	6.937145709991455	6.027554512023926	0.0009710373706184328	0.04826599732041359	5
+188	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" shrugged. """	L	""""	8.556020736694336	5.093930244445801	0.00019238342065364122	0.11864165961742401	5
+189	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"rugged. ""L"	ook	""""	10.298015594482422	3.494936943054199	3.3699900086503476e-05	0.4695208966732025	5
+190	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"gged. ""Look"	 at	""""	7.559365749359131	4.247293472290039	0.000521205656696111	0.1481761634349823	5
+191	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""Look at"	 the	H	9.728633880615234	3.6886558532714844	5.955356755293906e-05	0.20002849400043488	5
+192	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Look at the"	 other	I	9.47568130493164	5.112276554107666	7.669445767533034e-05	0.141394704580307	5
+193	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Look at the other	 lines	of	11.801620483398438	4.221291542053223	7.492403710784856e-06	0.23364146053791046	5
+194	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ook at the other lines	"."""		4.912234306335449	4.288942337036133	0.007356034126132727	0.17427214980125427	5
+195	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" at the other lines."""	" """	""""	5.237480640411377	5.4181342124938965	0.0053136274218559265	0.15434888005256653	5
+196	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" the other lines."" """	I	s	10.77231216430664	3.19223690032959	2.0972209313185886e-05	0.5363487005233765	5
+197	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" other lines."" ""I"	 never	really	3.9908478260040283	5.852105140686035	0.01848403923213482	0.0461258664727211	5
+198	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" lines."" ""I never"	 get	into	5.252200126647949	5.307173728942871	0.005235985387116671	0.12875480949878693	5
+199	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""I never get"	 behind	"."""	9.804147720336914	5.554072380065918	5.522208084585145e-05	0.08970668911933899	5
+200	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""I never get behind"	 people	things	5.9200592041015625	5.471395969390869	0.0026850420981645584	0.06298679113388062	5
+201	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	I never get behind people	 travel	ing	9.585708618164062	2.429673433303833	6.870362267363816e-05	0.6833619475364685	5
+202	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 never get behind people travel	ing	again	9.435033798217773	5.062594413757324	7.987612480064854e-05	0.12397541850805283	5
+203	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 get behind people traveling	 with	a	5.960078239440918	5.870665073394775	0.002579709980636835	0.037712618708610535	5
+204	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 behind people traveling with	 inf	ect	2.827907085418701	4.483248710632324	0.059136487543582916	0.1734374314546585	5
+205	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 people traveling with inf	ants	.	10.1498384475708	5.236292839050293	3.9082402508938685e-05	0.06902357190847397	5
+206	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 traveling with infants	 �	�	7.550495624542236	2.725456714630127	0.0005258494638837874	0.3620561957359314	5
+207	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ing with infants �	�	to	8.425199508666992	5.510021209716797	0.0002192715328419581	0.06188882887363434	5
+208	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 with infants –	 I	have	5.680591106414795	5.26780891418457	0.0034115409944206476	0.061354849487543106	5
+209	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 infants – I	've		9.848584175109863	5.829090595245361	5.2821920689893886e-05	0.053839609026908875	5
+210	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ants – I've	 never	been	5.99094295501709	5.6777143478393555	0.002501304028555751	0.06383363902568817	5
+211	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 – I've never	 seen	,	8.290786743164062	4.672351837158203	0.00025081707281060517	0.11200612038373947	5
+212	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	� I've never seen	 a	person	5.276554107666016	6.279386043548584	0.005110008176416159	0.023962611332535744	5
+213	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 I've never seen a	 st	ro	4.4642415046691895	5.220320701599121	0.011513425037264824	0.14446450769901276	5
+214	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	've never seen a st	roll	er	10.614465713500977	2.7959275245666504	2.455818685120903e-05	0.5626300573348999	5
+215	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 never seen a stroll	er	.	9.161617279052734	4.444484710693359	0.00010499294876353815	0.18794745206832886	5
+216	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 seen a stroller	 collap	se	9.25183391571045	1.4882371425628662	9.593554568709806e-05	0.7012512683868408	5
+217	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 a stroller collap	se	I	12.649592399597168	4.461134910583496	3.208867610737798e-06	0.1881924867630005	5
+218	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 stroller collapse	 in	I	7.81868839263916	5.2850022315979	0.000402148871216923	0.15098147094249725	5
+219	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	roller collapse in	 less	.	7.574658393859863	5.937100410461426	0.0005132959340699017	0.08316881209611893	5
+220	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	er collapse in less	 than	a	4.789530277252197	6.484607696533203	0.008316363207995892	0.027117284014821053	5
+221	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 collapse in less than	 tw	el	4.2120280265808105	3.6843886375427246	0.014816288836300373	0.45446133613586426	5
+222	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	se in less than tw	enty	.	11.661198616027832	5.230040550231934	8.621957022114657e-06	0.09781211614608765	5
+223	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 in less than twenty	 minutes	</s>	8.193108558654785	5.225387096405029	0.00027655280428007245	0.09526606649160385	5
+224	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 less than twenty minutes	"."""		4.561161518096924	4.292318820953369	0.010449913330376148	0.24436691403388977	5
+225	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" than twenty minutes."""	" """	""""	6.6358442306518555	5.216907501220703	0.0013124701799824834	0.11962348967790604	5
+226	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" twenty minutes."" """	O	H	8.22823429107666	5.583657741546631	0.0002670073008630425	0.07022456079721451	5
+227	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"enty minutes."" ""O"	ld	""""	11.803121566772461	6.107563495635986	7.4811637205129955e-06	0.0536278672516346	5
+228	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" minutes."" ""Old"	 people	are	4.765590667724609	4.788975715637207	0.008517852984368801	0.201153963804245	5
+229	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Old people"	 are	""""	5.878937721252441	4.422723770141602	0.002797755878418684	0.23277141153812408	5
+230	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Old people are"	 worse	than	8.906696319580078	4.431647300720215	0.00013547873822972178	0.25852248072624207	5
+231	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Old people are worse	 �	�	7.261146068572998	3.2409396171569824	0.0007023027865216136	0.48106667399406433	5
+232	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ld people are worse �	�	that	8.158467292785645	6.23089599609375	0.00028630089946091175	0.04020468518137932	5
+233	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 people are worse –	 their	are	7.767543792724609	6.039236545562744	0.00042325162212364376	0.06224093213677406	5
+234	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 are worse – their	 bodies	to	9.594377517700195	3.5939247608184814	6.811064667999744e-05	0.2178083211183548	5
+235	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 worse – their bodies	 are	to	5.731080055236816	5.281576156616211	0.0032435727771371603	0.13339222967624664	5
+236	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 – their bodies are	 lit	er	9.143184661865234	4.694172382354736	0.00010694615048123524	0.207689106464386	5
+237	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	� their bodies are lit	t	les	4.82123327255249	4.996047496795654	0.00805684458464384	0.1688424050807953	5
+238	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 their bodies are litt	ered	I	13.5458345413208	5.297028064727783	1.3095401527607464e-06	0.07020533084869385	5
+239	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 bodies are littered	 with	special	5.712308883666992	5.7414984703063965	0.0033050337806344032	0.06608746945858002	5
+240	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 are littered with	 hidden	places	10.099535942077637	5.9607157707214355	4.1098617657553405e-05	0.03774609416723251	5
+241	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 littered with hidden	 metal	I	9.096358299255371	6.021684169769287	0.00011207324132556096	0.06381881237030029	5
+242	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	tered with hidden metal	 and	with	6.591389179229736	6.078278064727783	0.0013721324503421783	0.05005538836121559	5
+243	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ered with hidden metal and	 they	are	4.663763046264648	5.544337272644043	0.009430906735360622	0.08186125755310059	5
+244	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 with hidden metal and they	 never	have	7.668636322021484	5.362924098968506	0.00046725472202524543	0.05937444791197777	5
+245	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 hidden metal and they never	 seem	to	7.361346244812012	1.3654685020446777	0.0006353425560519099	0.7974934577941895	5
+246	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 metal and they never seem	 to	me	4.441256999969482	3.597618818283081	0.011781120672821999	0.34698304533958435	5
+247	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and they never seem to	 appreciate	me	10.728402137756348	2.213571071624756	2.1913616365054622e-05	0.5334720611572266	5
+248	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 they never seem to appreciate	 how	they	7.487371444702148	4.852850437164307	0.0005601133452728391	0.09397898614406586	5
+249	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 never seem to appreciate how	 little	we	9.29533576965332	4.632920265197754	9.185163798974827e-05	0.12140841782093048	5
+250	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 seem to appreciate how little	 time	is	6.298739433288574	4.695212364196777	0.0018386209849268198	0.20763643085956573	5
+251	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to appreciate how little time	 they	are	5.7277445793151855	5.581101417541504	0.003254408948123455	0.08274808526039124	5
+252	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 appreciate how little time they	 have	.	7.136100769042969	4.735515117645264	0.000795849016867578	0.10815199464559555	5
+253	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 how little time they have	 left	to	6.847165584564209	5.030276775360107	0.0010624630376696587	0.20556814968585968	5
+254	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 little time they have left	 on	I	7.390619277954102	5.622922897338867	0.00061701366212219	0.13256382942199707	5
+255	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 time they have left on	 earth	for	9.860666275024414	4.849142074584961	5.218755541136488e-05	0.17592862248420715	5
+256	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 they have left on earth	"."""	</s>	4.743751525878906	4.957052230834961	0.00870592799037695	0.1142805963754654	5
+257	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" have left on earth."""	" """	""""	4.227181434631348	5.357733249664307	0.01459346804767847	0.22120626270771027	5
+258	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" left on earth."" """	He	's	11.003732681274414	5.254766464233398	1.6639469322399236e-05	0.1590157300233841	5
+259	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" on earth."" ""He"	 motion	""""	8.47576904296875	5.700693607330322	0.00020845890685450286	0.12197093665599823	5
+260	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" earth."" ""He motion"	ed	""""	9.509879112243652	4.810605525970459	7.411601836793125e-05	0.2753070890903473	5
+261	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""He motioned"	 to	""""	4.84631872177124	5.564033508300781	0.007857249118387699	0.0774780809879303	5
+262	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""He motioned to"	 the	I	5.758875846862793	5.912365436553955	0.003154656384140253	0.09738373011350632	5
+263	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	He motioned to the	 center	of	11.016290664672852	3.406898260116577	1.643182804400567e-05	0.49375033378601074	5
+264	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 motioned to the center	 line	and	8.44121265411377	5.094839096069336	0.00021578829910140485	0.07485201209783554	5
+265	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ed to the center line	,		3.220226764678955	5.590531349182129	0.03994600474834442	0.10678015649318695	5
+266	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to the center line,	 where	again	8.318815231323242	5.074601173400879	0.00024388455494772643	0.08146346360445023	5
+267	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the center line, where	 three	are	8.006958961486816	5.636230945587158	0.0003331362968310714	0.07658690959215164	5
+268	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 center line, where three	 Mid	dle	7.2811994552612305	5.311091899871826	0.0006883593741804361	0.15312011539936066	5
+269	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 line, where three Mid	dle	.	9.811118125915527	5.213659763336182	5.4838499636389315e-05	0.07204368710517883	5
+270	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, where three Middle	 East	ern	10.713956832885742	3.821505069732666	2.223246337962337e-05	0.3005305528640747	5
+271	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 where three Middle East	ern	s	9.607671737670898	5.782869815826416	6.72111491439864e-05	0.169933021068573	5
+272	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 three Middle Eastern	 men	.	9.577824592590332	5.327612400054932	6.924743502167985e-05	0.08354011178016663	5
+273	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Middle Eastern men	 in	</s>	8.089378356933594	6.368946075439453	0.00030678027542307973	0.055555954575538635	5
+274	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	dle Eastern men in	 su	su	1.3480607271194458	4.82546854019165	0.25974348187446594	0.25974348187446594	5
+275	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Eastern men in su	its	is	10.668205261230469	5.171550750732422	2.327328002138529e-05	0.09046654403209686	5
+276	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ern men in suits	 were	states	7.791036605834961	6.098611354827881	0.0004134242481086403	0.04170253500342369	5
+277	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 men in suits were	 taking	take	4.753861427307129	5.708361625671387	0.008618352934718132	0.0700811818242073	5
+278	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 in suits were taking	 off	but	7.948566913604736	4.863753795623779	0.0003531679685693234	0.06421367824077606	5
+279	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 suits were taking off	 their	s	4.992108345031738	6.008833408355713	0.006791331339627504	0.11477336287498474	5
+280	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	its were taking off their	 shoes	.	9.40057373046875	4.289578437805176	8.267658267868683e-05	0.17382939159870148	5
+281	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 were taking off their shoes	"."""	""""	3.2151384353637695	4.715348720550537	0.04014978185296059	0.1987123340368271	5
+282	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" taking off their shoes."""	" """	""""	5.065953254699707	5.701821327209473	0.006307895760983229	0.1299304962158203	5
+283	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" off their shoes."" """	F	""""	9.268669128417969	5.507014274597168	9.433400555280969e-05	0.09240123629570007	5
+284	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" their shoes."" ""F"	ive	""""	12.13054084777832	4.242015838623047	5.392288585426286e-06	0.36230939626693726	5
+285	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" shoes."" ""Five"	 words	""""	6.94271993637085	5.402796745300293	0.0009656394249759614	0.12179920077323914	5
+286	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Five words"	:		9.732301712036133	4.019944190979004	5.933558350079693e-05	0.2403322011232376	5
+287	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Five words:"	 randomly	.	11.037309646606445	5.215142726898193	1.6090039935079403e-05	0.1204507127404213	5
+288	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Five words: randomly	 select	ion	12.071586608886719	2.4676716327667236	5.719743057852611e-06	0.45067644119262695	5
+289	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ive words: randomly select	ed	to	9.53109359741211	5.397467613220215	7.256025855895132e-05	0.14692600071430206	5
+290	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 words: randomly selected	 for	I	6.755349159240723	5.974506855010986	0.0011646330822259188	0.04992498829960823	5
+291	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	: randomly selected for	 additional		9.664653778076172	5.892731189727783	6.348839815473184e-05	0.06258275359869003	5
+292	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 randomly selected for additional	 screen		12.086160659790039	6.3576340675354	5.636985861201538e-06	0.03807685151696205	5
+293	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 selected for additional screen	ing	we	9.966331481933594	5.68719482421875	4.695448660640977e-05	0.05765031650662422	5
+294	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ed for additional screening	"."""		5.99857234954834	5.786075115203857	0.0024822931736707687	0.0768158808350563	5
+295	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" for additional screening."""	" """	""""	4.502946376800537	5.474123477935791	0.011076314374804497	0.10578218847513199	5
+296	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" additional screening."" """	N	om	9.960610389709473	4.732354640960693	4.722390076494776e-05	0.09792198985815048	5
+297	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" screening."" ""N"	ow	""""	7.733019828796387	5.23246955871582	0.00043811913928948343	0.20696043968200684	5
+298	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ing."" ""Now"	 As	H	7.255345344543457	4.016933441162109	0.0007063884986564517	0.12889152765274048	5
+299	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Now As"	ians	""""	11.325822830200195	3.8303797245025635	1.2057516869390383e-05	0.20668931305408478	5
+300	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Now Asians"	,	I	5.77623176574707	4.950723648071289	0.003100375644862652	0.26865750551223755	5
+301	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Now Asians,	 they	are	5.587423324584961	4.1469855308532715	0.0037446636706590652	0.2516496181488037	5
+302	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ow Asians, they	 pack	ed	6.56901216506958	4.488924026489258	0.0014031830942258239	0.25916171073913574	5
+303	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Asians, they pack	 light	ly	7.237818241119385	4.976857662200928	0.000718878407496959	0.11417260020971298	5
+304	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ians, they pack light	,	m	6.081650733947754	5.755682945251465	0.0022844017948955297	0.03600436449050903	5
+305	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, they pack light,	 travel	s	10.699737548828125	3.534505844116211	2.255084655189421e-05	0.27504000067710876	5
+306	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 they pack light, travel	 effic	i	8.855779647827148	3.8142240047454834	0.0001425554510205984	0.3560282588005066	5
+307	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 pack light, travel effic	i	ently	7.23247766494751	4.567831993103027	0.0007227279129438102	0.20190124213695526	5
+308	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 light, travel effici	ently	.	11.989595413208008	3.7501673698425293	6.208476406754926e-06	0.21615183353424072	5
+309	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, travel efficiently	,		3.7304563522338867	5.287424087524414	0.023981885984539986	0.18442757427692413	5
+310	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 travel efficiently,	 and	that	5.368292808532715	5.456804275512695	0.004662083461880684	0.05693927779793739	5
+311	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 efficiently, and	 they	are	3.4263134002685547	5.053684234619141	0.032506562769412994	0.13736136257648468	5
+312	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	iently, and they	've	got	9.750524520874023	3.6492278575897217	5.826412598253228e-05	0.401248574256897	5
+313	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ently, and they've	 got	to	6.406272888183594	4.392826557159424	0.0016511668218299747	0.16892056167125702	5
+314	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, and they've got	 a	thing	4.463375091552734	5.9917144775390625	0.011523404158651829	0.11277320981025696	5
+315	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and they've got a	 thing	for	3.8266777992248535	3.9767842292785645	0.021781861782073975	0.14416806399822235	5
+316	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 they've got a thing	 for	a	5.3589630126953125	3.919558525085449	0.004705782048404217	0.2967388927936554	5
+317	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	've got a thing for	 sl	ide	3.332970380783081	5.010249137878418	0.03568694740533829	0.06349018961191177	5
+318	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 got a thing for sl	ip	of	9.14586067199707	5.4201531410217285	0.00010666038724593818	0.05711529403924942	5
+319	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 a thing for slip	-	ty	10.729751586914062	5.1562299728393555	2.188407779613044e-05	0.06904688477516174	5
+320	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 thing for slip-	on	-	8.692597389221191	4.46857213973999	0.00016782361490186304	0.36750999093055725	5
+321	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 for slip-on	 shoes	.	8.559690475463867	5.179609775543213	0.00019167870050296187	0.09012646973133087	5
+322	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 slip-on shoes	,	I	4.222383499145508	5.279689311981201	0.014663656242191792	0.06192215532064438	5
+323	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ip-on shoes,	 god	,	7.552250862121582	5.187083721160889	0.0005249271634966135	0.15850883722305298	5
+324	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-on shoes, god	 love	,	5.7909064292907715	5.402438640594482	0.003055211855098605	0.1276864856481552	5
+325	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	on shoes, god love	 ‘	s	13.842211723327637	5.5714216232299805	9.736520496517187e-07	0.06237851828336716	5
+326	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 shoes, god love ‘	em	,	5.960367202758789	4.987915992736816	0.0025789656210690737	0.10728590190410614	5
+327	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, god love ‘em	"."""		6.122615337371826	4.996508598327637	0.002192714251577854	0.18259650468826294	5
+328	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" god love ‘em."""	 N	ear	5.28699254989624	5.514506816864014	0.005056946072727442	0.04364890977740288	5
+329	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" love ‘em."" N"	at	ge	6.137880325317383	5.647958755493164	0.0021594963036477566	0.10674984753131866	5
+330	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ‘em."" Nat"	al	.	5.251986503601074	5.747773170471191	0.005237105302512646	0.08512651920318604	5
+331	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"em."" Natal"	ie	</s>	8.794713973999023	5.0817036628723145	0.0001515319454483688	0.1379353553056717	5
+332	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" Natalie"	 st	</s>	2.689601182937622	5.26116943359375	0.06790801137685776	0.12729936838150024	5
+333	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie st	ared	at	13.771862983703613	4.302761554718018	1.044614350576012e-06	0.2664230465888977	5
+334	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie stared	 at		6.935175895690918	5.701541423797607	0.0009729517041705549	0.14745426177978516	5
+335	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie stared at	 him	</s>	8.000865936279297	5.448594093322754	0.00033517240080982447	0.11318964511156082	5
+336	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie stared at him	 in	case	6.368958950042725	5.5174560546875	0.0017139422707259655	0.14463748037815094	5
+337	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 stared at him in	 wide	I	6.60189151763916	6.101654052734375	0.0013577977661043406	0.08760262280702591	5
+338	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ared at him in wide	-	p	11.078447341918945	4.971137046813965	1.544156293675769e-05	0.048827990889549255	5
+339	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 at him in wide-	ey	e	3.7663121223449707	3.2884938716888428	0.023137234151363373	0.4444688558578491	5
+340	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 him in wide-ey	ed	*	9.3834228515625	6.38131046295166	8.410684677073732e-05	0.06629511713981628	5
+341	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 in wide-eyed	 shock	</s>	8.344443321228027	5.397972583770752	0.000237713786191307	0.1124800592660904	5
+342	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 wide-eyed shock	.		6.821173667907715	3.933281898498535	0.0010904403170570731	0.29445528984069824	5
+343	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-eyed shock.	" """		5.658275604248047	5.655826091766357	0.0034885266795754433	0.06863360852003098	5
+344	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"eyed shock. """	T	ake	7.809368133544922	4.66399621963501	0.0004059143830090761	0.14391431212425232	5
+345	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ed shock. ""T"	hat	s	11.661642074584961	2.468020439147949	8.618130777904298e-06	0.39060255885124207	5
+346	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" shock. ""That"	's	a	5.372093677520752	4.5513224601745605	0.004644397180527449	0.15977507829666138	5
+347	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""That's"	 racist	.	12.106142044067383	3.633171558380127	5.525472715817159e-06	0.23356254398822784	5
+348	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""That's racist"	"."""	</s>	7.009624481201172	3.5440943241119385	0.0009031474473886192	0.3456488251686096	5
+349	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"That's racist."""	" """	""""	5.794925689697266	5.167842864990234	0.0030429561156779528	0.09925016760826111	5
+350	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"hat's racist."" """	I	s	9.16294002532959	4.503697395324707	0.00010485416714800522	0.21040529012680054	5
+351	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"'s racist."" ""I"	'm	a	6.841972351074219	4.645703315734863	0.0010679949773475528	0.3541276752948761	5
+352	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" racist."" ""I'm"	 like	""""	5.811217308044434	5.2027058601379395	0.002993782749399543	0.12102829664945602	5
+353	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""I'm like"	 my	I	6.093692779541016	6.119508743286133	0.0022570586297661066	0.0624350905418396	5
+354	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""I'm like my"	 mother	is	9.129401206970215	4.198627948760986	0.00010843049676623195	0.15587547421455383	5
+355	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	I'm like my mother	","""	""""	4.999963283538818	3.96840238571167	0.006738194730132818	0.15650561451911926	5
+356	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"'m like my mother,"""	 Ryan	""""	6.829526901245117	4.4388322830200195	0.0010813699336722493	0.2229282408952713	5
+357	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" like my mother,"" Ryan"	 sm	ack	3.9035067558288574	4.056502342224121	0.02017105184495449	0.3068500757217407	5
+358	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" my mother,"" Ryan sm"	iled	""""	16.69346809387207	5.646285533905029	5.62495507949734e-08	0.0853244811296463	5
+359	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" mother,"" Ryan smiled"	 back	.	8.471116065979004	5.421233654022217	0.000209430989343673	0.13824345171451569	5
+360	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	","" Ryan smiled back"	 at	I	8.079582214355469	6.0471415519714355	0.0003098005545325577	0.09569814801216125	5
+361	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan smiled back at	 her	I	5.914755821228027	5.537200450897217	0.0026993195060640574	0.13798779249191284	5
+362	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 smiled back at her	.	I	8.069894790649414	4.944289207458496	0.00031281623523682356	0.12957578897476196	5
+363	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	iled back at her.	" """	a	10.126236915588379	5.276321887969971	4.001577690360136e-05	0.058134038001298904	5
+364	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" back at her. """	I	s	10.309466361999512	2.596461772918701	3.331620246171951e-05	0.5914171934127808	5
+365	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" at her. ""I"	 stereoty	pe	11.26303482055664	1.8324637413024902	1.2838851034757681e-05	0.6994747519493103	5
+366	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" her. ""I stereoty"	pe	.	12.776521682739258	3.1538891792297363	2.826357558660675e-06	0.4693690538406372	5
+367	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""I stereotype"	 �	�	7.314907073974609	4.185883522033691	0.000665543251670897	0.2501762807369232	5
+368	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""I stereotype �"	�		11.462017059326172	4.552182197570801	1.0522269803914241e-05	0.18540075421333313	5
+369	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	I stereotype –	 it		7.542483329772949	5.32322883605957	0.0005300795892253518	0.08813415467739105	5
+370	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 stereotype – it	's	so	6.925457000732422	4.666630744934082	0.000982453697361052	0.15108777582645416	5
+371	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	pe – it's	 faster	than	8.347432136535645	4.1882500648498535	0.00023700427846051753	0.1960364133119583	5
+372	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 – it's faster	"."""	</s>	5.197099685668945	3.9046921730041504	0.005532588344067335	0.3339831531047821	5
+373	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"� it's faster."""	 N	ear	5.898672103881836	5.317708969116211	0.002743084914982319	0.09668988734483719	5
+374	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" it's faster."" N"	at	al	5.359630584716797	5.434849262237549	0.004702641628682613	0.12740489840507507	5
+375	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"'s faster."" Nat"	al	.	7.2350006103515625	5.088813781738281	0.0007209068862721324	0.1542021930217743	5
+376	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" faster."" Natal"	ie	.	6.768520832061768	5.650343418121338	0.001149393618106842	0.11476483196020126	5
+377	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" Natalie"	 followed	.	6.603205680847168	3.8037819862365723	0.0013560145162045956	0.34573209285736084	5
+378	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie followed	 behind	.	6.838799476623535	5.251513481140137	0.0010713886003941298	0.12597361207008362	5
+379	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie followed behind	 him	i	9.99161434173584	5.527192115783691	4.578225707518868e-05	0.06219461187720299	5
+380	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie followed behind him	 in	line	9.384634017944336	5.880534648895264	8.400499064009637e-05	0.04939093813300133	5
+381	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie followed behind him in	 dis	ney	4.779679775238037	3.25163197517395	0.008398687466979027	0.5340086817741394	5
+382	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 followed behind him in dis	bel	we	8.603487014770508	6.041256427764893	0.00018346490105614066	0.059590209275484085	5
+383	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 behind him in disbel	ief	</s>	14.272101402282715	5.7942681312561035	6.334392423923418e-07	0.05741148442029953	5
+384	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 him in disbelief	.	</s>	4.824855804443359	3.5011043548583984	0.008027712814509869	0.43022704124450684	5
+385	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 in disbelief.	 As	a	11.39065933227539	5.385130405426025	1.1300553524051793e-05	0.08348367363214493	5
+386	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 disbelief. As	 they	say	4.510430335998535	5.466461181640625	0.010993728414177895	0.11957919597625732	5
+387	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	belief. As they	 passed	.	10.5508394241333	2.374051809310913	2.617151039885357e-05	0.5290281176567078	5
+388	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ief. As they passed	 through	.	7.538720607757568	2.2540969848632812	0.0005320779164321721	0.6995329856872559	5
+389	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. As they passed through	 the	to	7.678424835205078	5.982658863067627	0.000462703057564795	0.09064701199531555	5
+390	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 As they passed through the	 metal	I	9.2052001953125	6.528841495513916	0.00010051538265543059	0.040500979870557785	5
+391	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 they passed through the metal	 det	ect	4.198143482208252	1.9737663269042969	0.015023439191281796	0.6673767566680908	5
+392	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 passed through the metal det	ect	ing	5.062917709350586	2.464449882507324	0.006327070761471987	0.29804766178131104	5
+393	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 through the metal detect	or	is	10.823719024658203	5.371575355529785	1.9921333660022356e-05	0.06844016909599304	5
+394	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the metal detector	,	to	6.158203125	4.679345607757568	0.0021160522010177374	0.16664426028728485	5
+395	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 metal detector,	 N	OW	4.48908805847168	6.318229675292969	0.01123087853193283	0.03435102105140686	5
+396	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 detector, N	at	han	5.989597797393799	6.049154281616211	0.0025046716909855604	0.113087497651577	5
+397	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ector, Nat	al	's	3.8288304805755615	6.095072269439697	0.021735021844506264	0.04595638066530228	5
+398	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	or, Natal	ie	,	9.352810859680176	5.0552849769592285	8.672134572407231e-05	0.17242348194122314	5
+399	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, Natalie	's	,	8.686036109924316	4.1884002685546875	0.00016892835265025496	0.11160692572593689	5
+400	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie's	 watch	you	8.100908279418945	6.076228618621826	0.0003032637177966535	0.03278474882245064	5
+401	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie's watch	 tri	b	7.443177700042725	4.299967288970947	0.0005854220362380147	0.23439930379390717	5
+402	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie's watch tri	g	ge	5.315715312957764	4.57534646987915	0.004913762211799622	0.3465995490550995	5
+403	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie's watch trig	ge	e	5.016177177429199	4.257660865783691	0.006629820913076401	0.253879576921463	5
+404	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	's watch trigge	red	</s>	13.227977752685547	4.729018211364746	1.7995427015193854e-06	0.2182462513446808	5
+405	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 watch triggered	 the	so	5.441827774047852	5.635598182678223	0.004331559874117374	0.0593886561691761	5
+406	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 triggered the	 al	i	4.783998489379883	5.586209774017334	0.008362493477761745	0.10488862544298172	5
+407	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ggered the al	arm	sl	10.437411308288574	6.12353515625	2.9314993298612535e-05	0.026900017634034157	5
+408	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	gered the alarm	 and	I	4.834329605102539	5.433806419372559	0.007952017709612846	0.10241132974624634	5
+409	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	red the alarm and	 she	's	6.704916000366211	5.253141403198242	0.0012248757993802428	0.14941488206386566	5
+410	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the alarm and she	 was	a	6.045079231262207	5.66956901550293	0.0023694937117397785	0.07972332090139389	5
+411	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 alarm and she was	 pulled	but	10.700419425964355	5.258171081542969	2.2535479729413055e-05	0.06716546416282654	5
+412	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	arm and she was pulled	 aside	to	9.033331871032715	3.851188898086548	0.000119364085549023	0.2343059927225113	5
+413	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and she was pulled aside	 for	a	7.127749443054199	3.1689341068267822	0.0008025235729292035	0.48169928789138794	5
+414	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 she was pulled aside for	 a	second	5.742252826690674	6.243734359741211	0.0032075343187898397	0.07113084197044373	5
+415	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 was pulled aside for a	 pat	ty	7.324636936187744	4.203940391540527	0.0006590989651158452	0.2885766625404358	5
+416	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 pulled aside for a pat	-	ty	9.36820125579834	4.634464740753174	8.539685950381681e-05	0.1503007858991623	5
+417	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 aside for a pat-	down	on	8.082069396972656	5.9576945304870605	0.00030903093283995986	0.07154565304517746	5
+418	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 for a pat-down	.	</s>	6.116350173950195	3.9862849712371826	0.0022064950317144394	0.35242176055908203	5
+419	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 a pat-down.	 Ryan	.	7.855433464050293	4.945811748504639	0.000387640087865293	0.18518558144569397	5
+420	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 pat-down. Ryan	 st	oo	3.06396222114563	5.545039653778076	0.04670228064060211	0.06482405215501785	5
+421	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-down. Ryan st	ood	.	9.59959602355957	4.5258378982543945	6.775607471354306e-05	0.2087530791759491	5
+422	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	down. Ryan stood	 by	.	4.948534965515137	5.77156925201416	0.007093796506524086	0.07893320173025131	5
+423	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. Ryan stood by	 imp	ul	6.7600860595703125	5.2343549728393555	0.001159129780717194	0.06706885248422623	5
+424	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan stood by imp	at	i	7.204186916351318	3.0515975952148438	0.0007434665458276868	0.23164503276348114	5
+425	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 stood by impat	i	I	5.531954765319824	6.201757907867432	0.003958243411034346	0.056320901960134506	5
+426	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ood by impati	ently	then	11.274238586425781	5.065727710723877	1.2695810255536344e-05	0.14756739139556885	5
+427	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 by impatiently	 as	in	7.778139591217041	4.609468460083008	0.0004187905869912356	0.11828455328941345	5
+428	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 impatiently as	 she	I	4.344549655914307	5.761479377746582	0.012977350503206253	0.15658234059810638	5
+429	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atiently as she	 was	a	6.3595428466796875	5.8888397216796875	0.001730157877318561	0.09180588275194168	5
+430	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	iently as she was	 finally	.	12.605438232421875	3.4713613986968994	3.3537266972416546e-06	0.2818698287010193	5
+431	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ently as she was finally	 cle	ans	5.9915666580200195	2.957413911819458	0.002499745460227132	0.4440280497074127	5
+432	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 as she was finally cle	ared	.	11.18050479888916	4.970760345458984	1.3943391422799323e-05	0.07942736148834229	5
+433	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 she was finally cleared	,	I	4.721386909484863	5.209174156188965	0.008902820758521557	0.1262194961309433	5
+434	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 was finally cleared,	 and	by	6.707900047302246	4.535345077514648	0.0012212260626256466	0.07908641546964645	5
+435	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 finally cleared, and	 then	again	12.202678680419922	2.6975667476654053	5.01699742017081e-06	0.5784972310066223	5
+436	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 cleared, and then	 motion	again	7.959022045135498	4.555083751678467	0.0003494946868158877	0.22932109236717224	5
+437	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ared, and then motion	ed	by	10.871809959411621	4.082922458648682	1.8985971109941602e-05	0.32993414998054504	5
+438	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, and then motioned	 for	a	8.139745712280273	5.206396102905273	0.000291711330646649	0.09739553183317184	5
+439	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and then motioned for	 her	.	6.970858097076416	4.753568172454834	0.0009388468461111188	0.1310582160949707	5
+440	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 then motioned for her	 to	be	4.396848678588867	4.494125843048096	0.012316091917455196	0.253130704164505	5
+441	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 motioned for her to	 follow	and	7.651055335998535	5.419267654418945	0.00047554197954013944	0.07429830729961395	5
+442	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ed for her to follow	 him	.	8.497184753417969	4.893235683441162	0.00020404194947332144	0.19586466252803802	5
+443	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 for her to follow him	 as	a	5.482726097106934	4.122110843658447	0.004157978110015392	0.38386109471321106	5
+444	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 her to follow him as	 he	says	4.903609275817871	5.442188262939453	0.007419755682349205	0.11595656722784042	5
+445	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to follow him as he	 walked	to	6.944149017333984	4.885869979858398	0.0009642604854889214	0.07745720446109772	5
+446	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 follow him as he walked	 down	to	6.100122451782227	5.016790390014648	0.0022425937931984663	0.10673034191131592	5
+447	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 him as he walked down	 the	thing	7.139421463012695	6.514540195465088	0.0007932109874673188	0.09020009636878967	5
+448	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 as he walked down the	 conc	ert	3.5462558269500732	1.4997698068618774	0.028832390904426575	0.7854265570640564	5
+449	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 he walked down the conc	our	se	8.8673677444458	4.713985919952393	0.00014091306366026402	0.19587141275405884	5
+450	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 walked down the concour	se	of	12.515040397644043	3.4576919078826904	3.6710227959702024e-06	0.41478922963142395	5
+451	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 down the concourse	.		6.711832046508789	3.3375768661499023	0.0012164332438260317	0.4820936620235443	5
+452	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the concourse.	 He	.	6.269038677215576	5.545945167541504	0.0018940481822937727	0.17199763655662537	5
+453	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 concourse. He	 stopped	by	9.762649536132812	4.993885517120361	5.756194150308147e-05	0.2265675663948059	5
+454	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ourse. He stopped	 half	a	7.4508562088012695	4.866909027099609	0.000580943888053298	0.18858987092971802	5
+455	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	se. He stopped half	way	.	8.689504623413086	4.179480075836182	0.00016834342386573553	0.2808845341205597	5
+456	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. He stopped halfway	 to	more	5.397274971008301	5.769808769226074	0.004528906662017107	0.05258621647953987	5
+457	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 He stopped halfway to	 their	s	5.2616095542907715	5.845409393310547	0.0051869493909180164	0.09683185815811157	5
+458	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 stopped halfway to their	 gate	.	10.616880416870117	4.730205535888672	2.449894236633554e-05	0.160702183842659	5
+459	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 halfway to their gate	 and	for	4.774561882019043	4.854827404022217	0.00844178069382906	0.08364827185869217	5
+460	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	way to their gate and	 pointed	.	10.255736351013184	5.5342254638671875	3.51552662323229e-05	0.06393001228570938	5
+461	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to their gate and pointed	 at	by	7.004389762878418	5.913539886474609	0.0009078878210857511	0.03406987711787224	5
+462	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 their gate and pointed at	 a	thing	3.778012990951538	6.4652323722839355	0.022868085652589798	0.02971748821437359	5
+463	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 gate and pointed at a	 l	ind	3.778088092803955	5.379136562347412	0.022866370156407356	0.07909651845693588	5
+464	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and pointed at a l	ugg	age	7.32413387298584	4.023731231689453	0.0006594304577447474	0.23598216474056244	5
+465	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 pointed at a lugg	age	so	9.789335250854492	5.841214656829834	5.604616671917029e-05	0.08111178129911423	5
+466	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 at a luggage	 store	.	10.519721984863281	5.308156967163086	2.699870128708426e-05	0.10973718762397766	5
+467	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 a luggage store	.		7.450990676879883	4.108633995056152	0.0005808660062029958	0.27739399671554565	5
+468	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 luggage store.	" """	""""	5.548989295959473	5.903533935546875	0.0038913872558623552	0.05872584134340286	5
+469	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"uggage store. """	If	""""	10.366369247436523	5.033380031585693	3.147334064124152e-05	0.14559046924114227	5
+470	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"age store. ""If"	 you	are	4.830251693725586	5.156009197235107	0.007984508760273457	0.12315952032804489	5
+471	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" store. ""If you"	're	a	6.613095760345459	5.8595147132873535	0.001342669129371643	0.05510011315345764	5
+472	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""If you're"	 going	to	7.437359809875488	1.7017712593078613	0.0005888379528187215	0.7532408237457275	5
+473	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""If you're going"	 to	be	5.0326151847839355	5.454703330993652	0.006521732080727816	0.15551522374153137	5
+474	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	If you're going to	 be	a	6.710553169250488	4.684906482696533	0.001217990298755467	0.3274727165699005	5
+475	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 you're going to be	 flying	I	8.571197509765625	5.363128662109375	0.00018948561046272516	0.08947969973087311	5
+476	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	're going to be flying	 with	just	8.76203727722168	5.594430446624756	0.00015656523464713246	0.08362127840518951	5
+477	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 going to be flying with	 me	is	6.295432090759277	4.5635271072387695	0.0018447121838107705	0.1702282726764679	5
+478	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to be flying with me	,	I	5.625744342803955	4.611558437347412	0.0036038795951753855	0.11793007701635361	5
+479	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 be flying with me,	 you	are	3.5557608604431152	5.104957103729248	0.028559640049934387	0.06469953805208206	5
+480	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 flying with me, you	 need	to	8.175241470336914	2.996244192123413	0.00028153861057944596	0.5000743865966797	5
+481	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 with me, you need	 to	go	4.2332587242126465	5.058890342712402	0.014505043625831604	0.08768956363201141	5
+482	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 me, you need to	 get	back	5.629396915435791	4.314365863800049	0.003590740729123354	0.26038306951522827	5
+483	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, you need to get	 a	,	4.271498680114746	5.998735427856445	0.01396084576845169	0.09349040687084198	5
+484	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 you need to get a	 carry	on	8.013083457946777	2.897861957550049	0.0003311022010166198	0.6072924137115479	5
+485	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 need to get a carry	-	I	8.910240173339844	5.154407978057861	0.00013499938359018415	0.07230708748102188	5
+486	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to get a carry-	on	-	10.966310501098633	3.0063865184783936	1.7273965568165295e-05	0.547330379486084	5
+487	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 get a carry-on	 bag	of	10.067072868347168	5.298870086669922	4.2454717913642526e-05	0.0954054519534111	5
+488	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 a carry-on bag	"."""		5.1849284172058105	4.604458332061768	0.005600338336080313	0.19400876760482788	5
+489	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" carry-on bag."""	" """	""""	5.0150041580200195	5.305924892425537	0.0066376025788486	0.1230640709400177	5
+490	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"-on bag."" """	You	""""	9.95637321472168	4.344996452331543	4.7424433432752267e-05	0.33383017778396606	5
+491	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"on bag."" ""You"	 know	what	6.396545886993408	4.442000389099121	0.0016673067584633827	0.15983834862709045	5
+492	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" bag."" ""You know"	 how	to	5.3597798347473145	2.7582573890686035	0.00470194173976779	0.6396409273147583	5
+493	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""You know how"	 much	I	8.304215431213379	4.633982181549072	0.0002474714710842818	0.23503009974956512	5
+494	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""You know how much"	 time	I	8.280384063720703	4.98718786239624	0.0002534397062845528	0.10857547074556351	5
+495	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	You know how much time	 you	have	4.904112339019775	4.591547012329102	0.007416022941470146	0.12666350603103638	5
+496	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 know how much time you	 lose	.	8.221303939819336	5.175337314605713	0.00026886421255767345	0.0961754098534584	5
+497	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 how much time you lose	 by	things	4.414446830749512	5.328454494476318	0.012101244181394577	0.08515085279941559	5
+498	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 much time you lose by	 checking	</s>	11.096174240112305	5.504053592681885	1.5170251572271809e-05	0.06318085640668869	5
+499	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 time you lose by checking	 in	you	7.565694808959961	5.353909492492676	0.0005179173895157874	0.09953639656305313	5
+500	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 you lose by checking in	"?"""	</s>	8.01699161529541	4.862915515899658	0.000329810893163085	0.20395541191101074	5
+501	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" lose by checking in?"""	" """	""""	6.41812801361084	5.024353981018066	0.001631707651540637	0.08457808941602707	5
+502	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" by checking in?"" """	I	s	6.522892951965332	5.491654396057129	0.001469411887228489	0.1460357904434204	5
+503	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" checking in?"" ""I"	 don	't	9.56908130645752	0.10401029884815216	6.985553773120046e-05	0.9902121424674988	5
+504	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" in?"" ""I don"	't	""""	8.168336868286133	5.017963886260986	0.00028348920750431716	0.12716101109981537	5
+505	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""I don't"	 know	about	6.783117294311523	4.195954322814941	0.0011327383108437061	0.13234438002109528	5
+506	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""I don't know"	","""	I	5.793483257293701	4.979901313781738	0.0030473493970930576	0.15961609780788422	5
+507	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"I don't know,"""	 s	*	6.349116325378418	5.549649715423584	0.0017482914263382554	0.0517723374068737	5
+508	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" don't know,"" s"	ig	ur	5.434781551361084	6.03130578994751	0.004362187813967466	0.040174517780542374	5
+509	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"'t know,"" sig"	hed	to	9.742067337036133	5.454301834106445	5.875896385987289e-05	0.08053622394800186	5
+510	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" know,"" sighed"	 N	a	3.765378713607788	5.763825416564941	0.023158838972449303	0.11140599846839905	5
+511	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	","" sighed N"	at	�	7.478631973266602	4.912934303283691	0.0005650296807289124	0.12656807899475098	5
+512	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 sighed Nat	al	</s>	3.06583309173584	4.956076145172119	0.046614985913038254	0.16507971286773682	5
+513	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ighed Natal	ie	</s>	8.365880966186523	5.258678436279297	0.00023267194046638906	0.12865447998046875	5
+514	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	hed Natalie	.	I	7.350916862487793	4.721229553222656	0.0006420033751055598	0.11363628506660461	5
+515	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie.	" """		5.124807834625244	5.1162495613098145	0.005947360768914223	0.14626851677894592	5
+516	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"atalie. """	F	""""	8.165976524353027	4.709856986999512	0.00028415911947377026	0.08774229884147644	5
+517	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"alie. ""F"	ive	""""	14.620471954345703	3.337637424468994	4.4710500901601335e-07	0.30576401948928833	5
+518	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ie. ""Five"	,	I	7.326105117797852	4.785953998565674	0.0006581320194527507	0.21682991087436676	5
+519	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""Five,"	 ten	.	5.425922393798828	2.9791908264160156	0.004401003941893578	0.3104569911956787	5
+520	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Five, ten"	 minutes	,	6.241018772125244	4.569344997406006	0.0019478698959574103	0.17818810045719147	5
+521	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Five, ten minutes	"?"""	</s>	7.078971862792969	3.5357680320739746	0.0008426389540545642	0.40398621559143066	5
+522	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ive, ten minutes?"""	" """	N	7.171778678894043	3.6232194900512695	0.000767955498304218	0.2694988548755646	5
+523	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	", ten minutes?"" """	Th	ink	7.822146415710449	4.181042194366455	0.000400760502088815	0.1756330281496048	5
+524	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ten minutes?"" ""Th"	irty	""""	10.263257026672363	5.391486644744873	3.489186929073185e-05	0.11996587365865707	5
+525	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" minutes?"" ""Thirty"	-	ish	8.432779312133789	4.963260650634766	0.00021761588868685067	0.09310464560985565	5
+526	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""Thirty-"	f	ore	6.335188865661621	5.548149108886719	0.0017728108214214444	0.07100233435630798	5
+527	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Thirty-f"	ive	</s>	12.336246490478516	5.498749732971191	4.389715741126565e-06	0.0883471891283989	5
+528	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Thirty-five	 minutes	I	6.744815349578857	5.4552388191223145	0.0011769658885896206	0.09216749668121338	5
+529	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	irty-five minutes	 a	thing	4.097813606262207	6.276494979858398	0.016608955338597298	0.05959196761250496	5
+530	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-five minutes a	 flight	on	11.026262283325195	5.328769207000732	1.6268793842755258e-05	0.09351350367069244	5
+531	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	five minutes a flight	"."""		5.861766815185547	5.197766304016113	0.0028462104965001345	0.13568194210529327	5
+532	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ive minutes a flight."""	" """	""""	6.261260509490967	5.275833606719971	0.001908837934024632	0.15156115591526031	5
+533	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" minutes a flight."" """	I	s	10.813056945800781	2.6321423053741455	2.0134884834988043e-05	0.620507001876831	5
+534	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" a flight."" ""I"	 travel	ed	8.901240348815918	4.099613189697266	0.00013621983816847205	0.3733616769313812	5
+535	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" flight."" ""I travel"	 two	""""	7.185667037963867	5.889884948730469	0.0007573635666631162	0.12284388393163681	5
+536	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""I travel two"	-	d	6.689214706420898	4.459499359130859	0.0012442591832950711	0.17921246588230133	5
+537	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""I travel two-"	h	ome	6.929474353790283	5.114361763000488	0.0009785151341930032	0.12157388776540756	5
+538	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	I travel two-h	und	s	12.571128845214844	6.088852882385254	3.4707893519225763e-06	0.07126958668231964	5
+539	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 travel two-hund	red	in	11.663397789001465	6.511463165283203	8.603014975960832e-06	0.03706079721450806	5
+540	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 two-hundred	-	we	7.889504909515381	5.009564399719238	0.00037465503555722535	0.07786229252815247	5
+541	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-hundred-	se	m	7.981810569763184	5.332913875579834	0.0003416204417590052	0.09762578457593918	5
+542	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	hundred-se	v	�	5.722166061401367	4.322417259216309	0.0032726151403039694	0.2679874300956726	5
+543	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	undred-sev	enty	-	11.37023639678955	5.789395332336426	1.1533710676303599e-05	0.11223969608545303	5
+544	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	red-seventy	 days	.	8.419424057006836	5.336392402648926	0.00022054171131458133	0.12460828572511673	5
+545	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-seventy days	 a		3.736659288406372	6.23638916015625	0.02383359521627426	0.0336422473192215	5
+546	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	seventy days a	 year	.	8.804744720458984	4.494811058044434	0.00015001952124293894	0.207601398229599	5
+547	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	venty days a year	"."""		5.361900806427002	4.44626522064209	0.004691979382187128	0.17661379277706146	5
+548	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"enty days a year."""	" """	""""	6.737359046936035	5.540935516357422	0.0011857746867462993	0.11933454871177673	5
+549	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" days a year."" """	T	""""	7.504124641418457	5.079159259796143	0.0005508078029379249	0.13051921129226685	5
+550	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" a year."" ""T"	hat	s	11.781745910644531	2.914511203765869	7.642807759111747e-06	0.5042416453361511	5
+551	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" year."" ""That"	's	a	5.782533645629883	4.50108528137207	0.0030808993615210056	0.22438392043113708	5
+552	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""That's"	 one	""""	6.136094093322754	4.490697860717773	0.0021633566357195377	0.12000305205583572	5
+553	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""That's one"	-	use	8.694475173950195	5.456586837768555	0.00016750863869674504	0.05541258305311203	5
+554	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	That's one-	h	um	8.056523323059082	4.2474141120910645	0.0003170270356349647	0.12714140117168427	5
+555	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	hat's one-h	und	ress	12.746262550354004	3.8299922943115234	2.91318883682834e-06	0.2180747240781784	5
+556	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	's one-hund	red	's	12.488750457763672	5.852916717529297	3.7688153042836348e-06	0.04303720220923424	5
+557	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 one-hundred	-	st	10.030182838439941	5.344006538391113	4.4050117139704525e-05	0.06505714356899261	5
+558	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-hundred-	f	�	6.249701499938965	5.851705551147461	0.0019310310017317533	0.040144674479961395	5
+559	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	hundred-f	if	th	10.016067504882812	3.4312350749969482	4.467630060389638e-05	0.33694830536842346	5
+560	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	undred-fif	ty	*	6.0653076171875	5.79746150970459	0.0023220437578856945	0.08347690105438232	5
+561	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	red-fifty	-	S	6.97682523727417	5.275205612182617	0.0009332613553851843	0.08002078533172607	5
+562	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-fifty-	se	m	8.933744430541992	4.77229642868042	0.00013186338765081018	0.21784628927707672	5
+563	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	fifty-se	ven	</s>	11.018525123596191	5.2345733642578125	1.6395151760661975e-05	0.15598776936531067	5
+564	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ifty-seven	 hours	</s>	9.419013977050781	5.2958149909973145	8.116605749819428e-05	0.13240061700344086	5
+565	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ty-seven hours	"."""	</s>	5.792920112609863	4.366737365722656	0.003049065824598074	0.24388395249843597	5
+566	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"-seven hours."""	" """	""""	6.345680236816406	5.677658557891846	0.0017543085850775242	0.08861750364303589	5
+567	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"seven hours."" """	T	ake	9.38308048248291	5.004749298095703	8.413559407927096e-05	0.2419237643480301	5
+568	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ven hours."" ""T"	hat	s	12.41520881652832	1.4456493854522705	4.0564241317042615e-06	0.7215806841850281	5
+569	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" hours."" ""That"	 makes	me	4.958563804626465	5.754946231842041	0.007023009471595287	0.05743304640054703	5
+570	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""That makes"	 se	se	1.898404836654663	5.13761568069458	0.1498073935508728	0.1498073935508728	5
+571	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""That makes se"	ven	.	11.49451732635498	4.373229503631592	1.0185789506067522e-05	0.28378987312316895	5
+572	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	That makes seven	 days	.	10.006101608276367	4.528399467468262	4.5123753807274625e-05	0.2251475304365158	5
+573	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	hat makes seven days	"."""		3.626189708709717	4.687713623046875	0.02661740966141224	0.1338471919298172	5
+574	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" makes seven days."""	" """	""""	3.875147819519043	5.246400833129883	0.02075127325952053	0.1683240830898285	5
+575	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" seven days."" """	You	""""	8.748432159423828	4.856757640838623	0.00015870995412115008	0.19733501970767975	5
+576	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ven days."" ""You"	're	a	5.524845123291016	5.29497766494751	0.003986486699432135	0.16783615946769714	5
+577	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" days."" ""You're"	 willing	to	9.82769775390625	1.1775850057601929	5.393679384724237e-05	0.8494647741317749	5
+578	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""You're willing"	 to	be	5.513439655303955	5.191288948059082	0.004032214637845755	0.10101129859685898	5
+579	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""You're willing to"	 throw	you	6.519089698791504	5.008327484130859	0.00147501181345433	0.07995627820491791	5
+580	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	You're willing to throw	 away	with	7.038919448852539	4.112900257110596	0.0008770737913437188	0.3338397741317749	5
+581	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	're willing to throw away	 an	I	6.722311973571777	5.379207134246826	0.00120375188998878	0.08744800835847855	5
+582	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 willing to throw away an	 entire	one	9.764863967895508	6.145139694213867	5.743455403717235e-05	0.04596370458602905	5
+583	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to throw away an entire	 week	of	8.693927764892578	5.104010105133057	0.0001676003885222599	0.12833228707313538	5
+584	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 throw away an entire week	"?"""	</s>	8.524344444274902	4.259210109710693	0.000198574794922024	0.3552442789077759	5
+585	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" away an entire week?"""	 N	AS	6.376355171203613	4.692398548126221	0.0017013122560456395	0.07048624008893967	5
+586	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" an entire week?"" N"	at	han	5.942238807678223	6.136815071105957	0.002626142930239439	0.0754687488079071	5
+587	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" entire week?"" Nat"	al	's	6.966447830200195	5.751107692718506	0.0009429969359189272	0.10501258075237274	5
+588	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" week?"" Natal"	ie	.	9.406211853027344	5.250756740570068	8.221180905820802e-05	0.12924283742904663	5
+589	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"?"" Natalie"	 pur	se	6.575743675231934	4.825638294219971	0.0013937688199803233	0.15263009071350098	5
+590	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie pur	sed	I	13.380242347717285	5.361539840698242	1.5453779269591905e-06	0.13141252100467682	5
+591	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie pursed	 her	s	6.065838813781738	6.1070733070373535	0.0023208102211356163	0.11418810486793518	5
+592	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie pursed her	 li	li	2.096299648284912	4.726058483123779	0.12291041016578674	0.12291041016578674	5
+593	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie pursed her li	ps	to	9.879871368408203	5.06489372253418	5.119488196214661e-05	0.14813272655010223	5
+594	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 pursed her lips	,		4.7060627937316895	5.789867877960205	0.009040302596986294	0.05771767348051071	5
+595	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	sed her lips,	 but	I	10.046501159667969	4.937128067016602	4.333712058723904e-05	0.06506026536226273	5
+596	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 her lips, but	 then	you	8.831789016723633	4.423171520233154	0.00014601676957681775	0.12569187581539154	5
+597	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 lips, but then	 turned	into	6.4691009521484375	3.200831651687622	0.0015506194904446602	0.4938434660434723	5
+598	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ps, but then turned	 and	now	7.2014970779418945	5.168432235717773	0.0007454688311554492	0.1262279450893402	5
+599	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, but then turned and	 walked	,	9.748563766479492	2.5315442085266113	5.8378424000693485e-05	0.47138357162475586	5
+600	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 but then turned and walked	 into	but	8.877521514892578	5.4716949462890625	0.00013948942068964243	0.08449584245681763	5
+601	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 then turned and walked into	 the	thing	7.835302829742432	5.663760185241699	0.0003955225402023643	0.07295706868171692	5
+602	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 turned and walked into the	 l	ect	4.221229076385498	4.626327991485596	0.014680590480566025	0.10005075484514236	5
+603	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and walked into the l	ugg	age	7.070370674133301	3.878429889678955	0.0008499177638441324	0.1765994131565094	5
+604	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 walked into the lugg	age	of	11.289332389831543	3.1600894927978516	1.2505617632996291e-05	0.3989691734313965	5
+605	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 into the luggage	 store	</s>	8.894266128540039	6.050522327423096	0.0001371731486869976	0.045346949249506	5
+606	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the luggage store	.		7.445613861083984	4.715112686157227	0.0005839975783601403	0.29521945118904114	5
+607	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 luggage store.	 So	.	6.804551124572754	5.414764404296875	0.0011087176389992237	0.1199704185128212	5
+608	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	uggage store. So	on	er	9.904522895812988	2.1867692470550537	4.994824848836288e-05	0.5182965397834778	5
+609	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	age store. Soon	 they	are	5.738183975219727	4.821021556854248	0.003220612881705165	0.2506107985973358	5
+610	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 store. Soon they	 were	.	7.836494445800781	4.836948394775391	0.00039505137829110026	0.29745346307754517	5
+611	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. Soon they were	 walking	to	6.348776340484619	5.179996013641357	0.0017488858429715037	0.06159578636288643	5
+612	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Soon they were walking	 down	the	8.972461700439453	5.6013288497924805	0.00012685556430369616	0.0780247300863266	5
+613	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	on they were walking down	 the	store	5.535614967346191	6.232662200927734	0.003943782299757004	0.029819907620549202	5
+614	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 they were walking down the	 a	a	3.3665006160736084	6.367624282836914	0.034510187804698944	0.034510187804698944	5
+615	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 were walking down the a	is	le	6.5317702293396	1.8201512098312378	0.0014564255252480507	0.6272879838943481	5
+616	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 walking down the ais	le	of	10.386496543884277	1.4070969820022583	3.084622585447505e-05	0.8192639350891113	5
+617	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 down the aisle	 of		4.746830940246582	6.026640892028809	0.008679157122969627	0.03604919835925102	5
+618	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the aisle of	 the	I	5.545716285705566	5.748643398284912	0.0039041456766426563	0.09392848610877991	5
+619	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 aisle of the	 plane	</s>	7.041755676269531	4.8557047843933105	0.0008745900122448802	0.12833696603775024	5
+620	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	isle of the plane	,	and	6.2206315994262695	5.562961578369141	0.001987989293411374	0.07555847615003586	5
+621	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	le of the plane,	 N	a	3.7631337642669678	5.371495246887207	0.02321089245378971	0.10881231725215912	5
+622	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 of the plane, N	at	is	5.378323554992676	5.560313701629639	0.004615552723407745	0.07802949100732803	5
+623	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the plane, Nat	al	to	4.175262451171875	6.0695695877075195	0.015371158719062805	0.03209453076124191	5
+624	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 plane, Natal	ie	</s>	7.336306571960449	6.096150875091553	0.0006514519336633384	0.042863063514232635	5
+625	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, Natalie	 carrying	,	13.297443389892578	3.3776004314422607	1.678779199210112e-06	0.3141874074935913	5
+626	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie carrying	 both	of	9.602843284606934	5.5122175216674805	6.753644993295893e-05	0.104100301861763	5
+627	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie carrying both	 her	?	7.153986930847168	6.243630409240723	0.0007817412260919809	0.03935443237423897	5
+628	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie carrying both her	 d	are	5.10870361328125	5.8897833824157715	0.006043910980224609	0.04874524846673012	5
+629	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie carrying both her d	uff	s	9.393735885620117	3.404017925262451	8.324389636982232e-05	0.5658364295959473	5
+630	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 carrying both her duff	el	</s>	6.361367702484131	6.334813117980957	0.001727003138512373	0.08296674489974976	5
+631	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 both her duffel	 bag	she	10.370938301086426	5.7081170082092285	3.132987330900505e-05	0.08821740001440048	5
+632	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 her duffel bag	 and	to	4.928798675537109	5.950507640838623	0.007235188968479633	0.050283245742321014	5
+633	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 duffel bag and	 a	d	4.289586067199707	6.193567752838135	0.01371060125529766	0.027999795973300934	5
+634	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	uffel bag and a	 new	one	9.446598052978516	5.909176349639893	7.895768794696778e-05	0.08252809941768646	5
+635	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	el bag and a new	 comp	ass	4.208988189697266	4.985641956329346	0.014861401170492172	0.15465715527534485	5
+636	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 bag and a new comp	act	by	9.243772506713867	5.662213325500488	9.671200677985325e-05	0.11348387598991394	5
+637	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and a new compact	 carry	one	12.883256912231445	3.2295050621032715	2.5402277969988063e-06	0.4973323941230774	5
+638	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 a new compact carry	-		6.366848945617676	6.13961124420166	0.0017175624379888177	0.07094096392393112	5
+639	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 new compact carry-	on	-	9.735281944274902	6.299234390258789	5.9158999647479504e-05	0.07483402639627457	5
+640	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 compact carry-on	 that	's	6.707510948181152	5.1309895515441895	0.001221701386384666	0.170365110039711	5
+641	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	act carry-on that	 mat	t	6.635275840759277	3.8334436416625977	0.0013132162857800722	0.25581204891204834	5
+642	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 carry-on that mat	ched	a	11.04343032836914	5.6076154708862305	1.599186180101242e-05	0.044516030699014664	5
+643	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-on that matched	 Ryan	's	6.279526233673096	5.224576473236084	0.0018742881948128343	0.17099899053573608	5
+644	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	on that matched Ryan	's	a	6.409756660461426	6.238287448883057	0.0016454255674034357	0.06339818984270096	5
+645	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 that matched Ryan's	.		6.009194850921631	3.936619758605957	0.0024560645688325167	0.33142679929733276	5
+646	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 matched Ryan's.	 Ryan	's	8.920385360717773	4.562135219573975	0.00013363672769628465	0.252066969871521	5
+647	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ched Ryan's. Ryan	 helped	.	10.824928283691406	3.460831880569458	1.9897264792234637e-05	0.42004257440567017	5
+648	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan's. Ryan helped	 load	.	5.5354461669921875	3.565814256668091	0.0039444491267204285	0.4227137863636017	5
+649	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	's. Ryan helped load	 the	stuff	9.338811874389648	5.268730640411377	8.79439030541107e-05	0.15194381773471832	5
+650	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. Ryan helped load the	 carry	you	8.742485046386719	5.821870803833008	0.00015965657075867057	0.06989758461713791	5
+651	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan helped load the carry	-	are	8.830316543579102	5.0553436279296875	0.00014623202150687575	0.0957612544298172	5
+652	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 helped load the carry-	on	-	8.655556678771973	4.445390224456787	0.00017415637557860464	0.3711886405944824	5
+653	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 load the carry-on	 into	I	6.713788986206055	6.040274620056152	0.0012140552280470729	0.05255868285894394	5
+654	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the carry-on into	 the	I	5.450739860534668	5.640345573425293	0.004293127916753292	0.15697695314884186	5
+655	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 carry-on into the	 over	I	8.166162490844727	5.912210464477539	0.00028410612139850855	0.036757297813892365	5
+656	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	-on into the over	head	s	8.767924308776855	2.3449995517730713	0.00015564631030429155	0.7098687291145325	5
+657	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	on into the overhead	 comp	ound	4.554537773132324	5.69764518737793	0.010519362986087799	0.03858867660164833	5
+658	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 into the overhead comp	art	e	6.953014373779297	5.341506481170654	0.0009557495359331369	0.07390490919351578	5
+659	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the overhead compart	ment	I	11.47164535522461	5.094329833984375	1.0421436854812782e-05	0.1292039453983307	5
+660	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 overhead compartment	 while	being	9.035377502441406	6.146273612976074	0.0001191202100017108	0.05849878489971161	5
+661	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	head compartment while	 she	does	5.620489120483398	5.565619468688965	0.0036228694953024387	0.06750171631574631	5
+662	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 compartment while she	 started	to	9.90433120727539	5.449613571166992	4.9957834562519565e-05	0.09958870708942413	5
+663	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	artment while she started	 to	prep	4.1374897956848145	6.2704362869262695	0.01596287079155445	0.04952334612607956	5
+664	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ment while she started to	 un	us	4.778763771057129	5.203887462615967	0.008406387642025948	0.07262259721755981	5
+665	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 while she started to un	pack	ed	12.711210250854492	5.217281341552734	3.017114067915827e-06	0.0991179347038269	5
+666	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 she started to unpack	 items	.	7.801287651062012	5.235589504241943	0.0004092078597750515	0.08626384288072586	5
+667	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 started to unpack items	 from	to	8.008417129516602	5.345736503601074	0.0003326506703160703	0.1527695506811142	5
+668	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 to unpack items from	 her	we	5.408801555633545	4.606410026550293	0.0044770012609660625	0.28244635462760925	5
+669	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 unpack items from her	 d	we	4.561892032623291	5.270883083343506	0.010442283004522324	0.12047088146209717	5
+670	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	pack items from her d	uff	s	8.313097953796387	5.327946662902832	0.00024528303765691817	0.26360782980918884	5
+671	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 items from her duff	el	state	8.698395729064941	6.004781723022461	0.00016685329319443554	0.11009608954191208	5
+672	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 from her duffel	 bag	is	7.919455528259277	5.67013692855835	0.0003636002365965396	0.07099442183971405	5
+673	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 her duffel bag	 onto	</s>	7.511109352111816	6.547181129455566	0.0005469740717671812	0.02439953200519085	5
+674	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 duffel bag onto	 the	thing	6.537543296813965	5.688998699188232	0.0014480421086773276	0.049157917499542236	5
+675	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	uffel bag onto the	 seat	of	11.031829833984375	1.1465048789978027	1.6178455553017557e-05	0.8707699179649353	5
+676	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	el bag onto the seat	.		6.724915981292725	3.8909358978271484	0.00120062124915421	0.3868330717086792	5
+677	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 bag onto the seat.	 Ryan	's	7.773776054382324	4.096608638763428	0.0004206218582112342	0.338973730802536	5
+678	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 onto the seat. Ryan	 looked	like	10.777671813964844	4.028265476226807	2.0860110453213565e-05	0.2736811339855194	5
+679	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the seat. Ryan looked	 over	.	10.045676231384277	3.0918073654174805	4.3372878280933946e-05	0.5137411952018738	5
+680	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 seat. Ryan looked over	 in	.	7.347797870635986	5.8318190574646	0.0006440088618546724	0.11122596263885498	5
+681	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	. Ryan looked over in	 conf	erence	4.21147346496582	3.7482426166534424	0.014824505895376205	0.335944265127182	5
+682	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Ryan looked over in conf	usion	with	13.661209106445312	3.35605525970459	1.1668427077893284e-06	0.48673176765441895	5
+683	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 looked over in confusion	.		6.94819450378418	4.745911121368408	0.000960367324296385	0.32411396503448486	5
+684	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 over in confusion.	" """	""""	5.178485870361328	5.865724563598633	0.005636534187942743	0.0723477303981781	5
+685	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" in confusion. """	T	""""	8.203529357910156	4.336098670959473	0.00027368581504561007	0.29090020060539246	5
+686	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" confusion. ""T"	w	ue	8.286591529846191	4.22359561920166	0.000251871591899544	0.24537073075771332	5
+687	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"usion. ""Tw"	o	.	8.512587547302246	3.5237326622009277	0.000200923255761154	0.4717648923397064	5
+688	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""Two"	 neck	</s>	11.211624145507812	3.4203014373779297	1.3516172657546122e-05	0.2858330309391022	5
+689	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Two neck"	 pill		8.875344276428223	5.213596820831299	0.00013979354116600007	0.13146762549877167	5
+690	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Two neck pill	ows	</s>	13.025476455688477	3.8118247985839844	2.2034707853890723e-06	0.2660951018333435	5
+691	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	wo neck pillows	"?"""	</s>	8.537617683410645	3.2684707641601562	0.00019595652702264488	0.47722187638282776	5
+692	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"o neck pillows?"""	" """	""""	6.716307163238525	5.066792964935303	0.0012110017705708742	0.17262521386146545	5
+693	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" neck pillows?"" """	You	""""	9.871463775634766	4.511856555938721	5.1627099310280755e-05	0.3140068054199219	5
+694	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" pillows?"" ""You"	 realize	""""	9.947986602783203	4.746113300323486	4.7823810746194795e-05	0.18097788095474243	5
+695	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ows?"" ""You realize"	 that	""""	5.846060752868652	4.392337322235107	0.0028912669513374567	0.3403259217739105	5
+696	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""You realize that"	 we	're	5.159317493438721	4.2229509353637695	0.005745620932430029	0.19837425649166107	5
+697	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""You realize that we"	're	here	6.488905429840088	5.659984111785889	0.0015202120412141085	0.07009831070899963	5
+698	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	You realize that we're	 in	a	6.493274688720703	5.6555585861206055	0.0015135840512812138	0.11136291921138763	5
+699	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 realize that we're in	 business	and	6.8818464279174805	5.1198859214782715	0.0010262473952025175	0.101046122610569	5
+700	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 that we're in business	 class	</s>	8.51713752746582	5.02109956741333	0.00020001106895506382	0.17564840614795685	5
+701	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 we're in business class	 and	of	6.534260272979736	3.5252187252044678	0.0014528034953400493	0.2573035955429077	5
+702	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	're in business class and	 they	're	5.225327968597412	5.262477874755859	0.005378596484661102	0.17575228214263916	5
+703	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 in business class and they	 will	be	6.655721664428711	4.263046741485596	0.0012866390170529485	0.35611894726753235	5
+704	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 business class and they will	 give	me	5.886835098266602	2.3945276737213135	0.0027757480274885893	0.3934219181537628	5
+705	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 class and they will give	 you	a	6.008034706115723	5.263386249542236	0.002458916511386633	0.10020513832569122	5
+706	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 and they will give you	 a	go	5.527789115905762	5.886176586151123	0.003974767401814461	0.05397476628422737	5
+707	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 they will give you a	 neck	l	5.657248020172119	5.078559875488281	0.0034921139013022184	0.11288323998451233	5
+708	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 will give you a neck	 pill	ow	7.670957565307617	3.559342622756958	0.0004661711573135108	0.41884469985961914	5
+709	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 give you a neck pill	ow	I	9.313146591186523	4.739933490753174	9.02301399037242e-05	0.1919640153646469	5
+710	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 you a neck pillow	,	you	6.26217794418335	5.061972618103027	0.0019070882117375731	0.1425020396709442	5
+711	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 a neck pillow,	 right	now	7.4743757247924805	5.424396514892578	0.0005674398853443563	0.06844134628772736	5
+712	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 neck pillow, right	"?"""	</s>	9.164979934692383	3.9652624130249023	0.00010464053775649518	0.3751160204410553	5
+713	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" pillow, right?"""	 N	B	3.762010097503662	6.052371025085449	0.023236988112330437	0.025181233882904053	5
+714	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"ow, right?"" N"	at	han	7.3713154792785645	3.905001163482666	0.0006290401797741652	0.3748341202735901	5
+715	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	", right?"" Nat"	al	.	8.041362762451172	3.5227150917053223	0.00032186988391913474	0.2942071557044983	5
+716	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" right?"" Natal"	ie	to	9.369871139526367	5.247141361236572	8.52543453220278e-05	0.05764215067028999	5
+717	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"?"" Natalie"	 gr	as	3.2797164916992188	4.609747886657715	0.03763892129063606	0.18263885378837585	5
+718	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 Natalie gr	im	.	12.127397537231445	5.144966125488281	5.4092606660560705e-06	0.10199954360723495	5
+719	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	atalie grim	aced	</s>	12.028630256652832	4.993531227111816	5.970797701593256e-06	0.1782054901123047	5
+720	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	alie grimaced	 back	st	10.220304489135742	5.34001350402832	3.6423185520106927e-05	0.1344350129365921	5
+721	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ie grimaced back	 at	</s>	6.44167947769165	5.4853973388671875	0.0015937279677018523	0.13995252549648285	5
+722	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 grimaced back at	 him	I	7.4253997802734375	5.652590274810791	0.0005959226400591433	0.11044953763484955	5
+723	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	imaced back at him	.		7.572138786315918	4.815743446350098	0.0005145906470716	0.22548945248126984	5
+724	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	aced back at him.	" """	""""	7.7501630783081055	5.4384446144104	0.00043067216756753623	0.1302359253168106	5
+725	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" back at him. """	I	s	10.770529747009277	3.1433980464935303	2.100962956319563e-05	0.49010685086250305	5
+726	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" at him. ""I"	 like	""""	4.128143787384033	5.197620391845703	0.016112761572003365	0.07887683063745499	5
+727	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" him. ""I like"	 my	own	6.752773284912109	6.0004425048828125	0.0011676372960209846	0.07498586177825928	5
+728	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""I like my"	 own	.	9.711828231811523	4.896909236907959	6.0562899307115003e-05	0.1823028028011322	5
+729	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""I like my own"	 stuff	I	6.596853733062744	3.956796169281006	0.0013646549778059125	0.26537585258483887	5
+730	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	I like my own stuff	"."""	I	6.761747360229492	4.320986747741699	0.0011572050862014294	0.211485356092453	5
+731	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" like my own stuff."""	" """	*	6.672587871551514	5.118549823760986	0.0012651205761358142	0.0717931017279625	5
+732	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" my own stuff."" """	Don	't	8.146834373474121	3.3931007385253906	0.0002896508085541427	0.4038521349430084	5
+733	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" own stuff."" ""Don"	't	I	7.978216171264648	5.847906112670898	0.0003428505442570895	0.035654861479997635	5
+734	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" stuff."" ""Don't"	 you	want	4.858090877532959	5.789105415344238	0.0077652945183217525	0.04190642759203911	5
+735	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Don't you"	 like	""""	7.231650352478027	3.7724456787109375	0.0007233259384520352	0.17005060613155365	5
+736	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""Don't you like"	 feeling	I	12.557537078857422	5.2953901290893555	3.5182852116122376e-06	0.1654248982667923	5
+737	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	Don't you like feeling	 connected	to	10.14693832397461	1.2470767498016357	3.9195885619847104e-05	0.8310061097145081	5
+738	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	't you like feeling connected	 to	I	5.653834342956543	5.597835063934326	0.0035040557850152254	0.12361708283424377	5
+739	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 you like feeling connected to	 home	I	6.471234321594238	5.796207904815674	0.0015473144594579935	0.07819706946611404	5
+740	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 like feeling connected to home	"?"""	</s>	7.338039398193359	5.517488479614258	0.0006503243348561227	0.12034248560667038	5
+741	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" feeling connected to home?"""	 Ryan	Ryan	3.330874443054199	5.94233512878418	0.035761814564466476	0.035761814564466476	5
+742	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" connected to home?"" Ryan"	 laughed	at	11.25775146484375	4.916749954223633	1.2906866686535068e-05	0.20764711499214172	5
+743	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" to home?"" Ryan laughed"	.		6.193769454956055	5.212806701660156	0.002042114734649658	0.13213269412517548	5
+744	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" home?"" Ryan laughed."	" """	D	7.419178009033203	4.491932392120361	0.0005996416439302266	0.21936628222465515	5
+745	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"?"" Ryan laughed. """	This	"."""	15.001816749572754	2.9889655113220215	3.053470720715268e-07	0.4510294198989868	5
+746	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" Ryan laughed. ""This"	 is	""""	5.435992240905762	5.3487629890441895	0.004356909543275833	0.14132767915725708	5
+747	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" laughed. ""This is"	 where	""""	4.249970436096191	4.069018840789795	0.014264658093452454	0.23379941284656525	5
+748	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	". ""This is where"	 I	am	5.032439708709717	3.374152898788452	0.006522877141833305	0.4180922210216522	5
+749	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""This is where I"	 live	.	9.3373384475708	4.252054214477539	8.807356789475307e-05	0.1948736608028412	5
+750	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	This is where I live	"."""	""""	4.043176651000977	4.173377513885498	0.017541661858558655	0.30491533875465393	5
+751	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" is where I live."""	" """	""""	8.26671028137207	4.682568073272705	0.00025692913914099336	0.22159124910831451	5
+752	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" where I live."" """	A	GA	10.224169731140137	4.643654823303223	3.6282686778577045e-05	0.16932256519794464	5
+753	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" I live."" ""A"	ll	""""	9.248477935791016	5.159780502319336	9.625808161217719e-05	0.0863991528749466	5
+754	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" live."" ""All"	 the	S	8.804109573364258	4.6674580574035645	0.00015011495270300657	0.0960782915353775	5
+755	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""All the"	 things	"."""	6.7632341384887695	3.7863712310791016	0.0011554858647286892	0.19221723079681396	5
+756	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" ""All the things"	 you	are	5.471342086791992	5.372273921966553	0.004205583594739437	0.09385362267494202	5
+757	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	All the things you	 probably	have	11.533636093139648	4.765181541442871	9.79502874542959e-06	0.17773741483688354	5
+758	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ll the things you probably	 hate	.	7.732518196105957	4.552125930786133	0.00043833881500177085	0.17581357061862946	5
+759	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the things you probably hate	 about	being	7.253454208374023	5.198850154876709	0.0007077257032506168	0.08699449151754379	5
+760	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 things you probably hate about	 travel	ing	12.90338134765625	0.5225962996482849	2.4896169179555727e-06	0.9410115480422974	5
+761	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 you probably hate about travel	ing	so	8.377287864685059	4.763345241546631	0.00023003299429547042	0.08894434571266174	5
+762	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 probably hate about traveling	 �	�	9.377670288085938	5.360827445983887	8.459210221190006e-05	0.09236558526754379	5
+763	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 hate about traveling �	�	I	12.579924583435059	5.190030574798584	3.440394038989325e-06	0.11365830898284912	5
+764	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 about traveling –	 the	right	6.96866512298584	6.40280818939209	0.0009409079211764038	0.0694730207324028	5
+765	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 traveling – the	 rec	y	4.1670074462890625	4.345189094543457	0.01549856923520565	0.16005705296993256	5
+766	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ing – the rec	y	c	8.90629768371582	0.9634062051773071	0.0001355326676275581	0.8452768921852112	5
+767	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 – the recy	c	ling	7.237380504608154	3.636002779006958	0.0007191932527348399	0.384865939617157	5
+768	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	� the recyc	led	I	14.481449127197266	4.982239246368408	5.137912921782117e-07	0.13556164503097534	5
+769	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the recycled	 air	b	6.682300567626953	6.386774063110352	0.0012528919614851475	0.032507263123989105	5
+770	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 recycled air	,	again	5.645847797393799	5.275504112243652	0.003532152622938156	0.08974767476320267	5
+771	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ycled air,	 the	second	8.181522369384766	6.5888824462890625	0.0002797757333610207	0.02978285402059555	5
+772	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	cled air, the	 art	of	8.308290481567383	2.8919875621795654	0.0002464649442117661	0.5603747367858887	5
+773	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	led air, the art	ific	ial	5.896374225616455	0.951887845993042	0.0027493955567479134	0.7985901832580566	5
+774	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 air, the artific	ial	in	10.844213485717773	5.217370510101318	1.9517214241204783e-05	0.17971651256084442	5
+775	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	, the artificial	 light	,	11.372173309326172	2.7086429595947266	1.1511389857332688e-05	0.5331419706344604	5
+776	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 the artificial light	ing	and	9.997047424316406	5.7344651222229	4.553420149022713e-05	0.05448644235730171	5
+777	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 artificial lighting	 �	�	6.524713516235352	4.046816349029541	0.0014667388750240207	0.24126668274402618	5
+778	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ificial lighting �	�		11.661947250366211	5.925321578979492	8.615504157205578e-06	0.0909765288233757	5
+779	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ial lighting –	 are		4.3218183517456055	5.83690881729126	0.013275722041726112	0.06783363223075867	5
+780	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 lighting – are	 warm	enough	4.7872490882873535	5.813530921936035	0.0083353566005826	0.08897731453180313	5
+781	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ing – are warm	 remind	er	10.003336906433105	2.020230293273926	4.5248692913446575e-05	0.4841216802597046	5
+782	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 – are warm remind	ers	of	13.455852508544922	3.254678964614868	1.4328401221064269e-06	0.3678532838821411	5
+783	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	� are warm reminders	 that	and	7.3974761962890625	5.375810623168945	0.0006127975648269057	0.0751158744096756	5
+784	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 are warm reminders that	 I	'm	5.669400215148926	4.10822057723999	0.003449933836236596	0.13405752182006836	5
+785	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 warm reminders that I	 am	to	7.216129302978516	4.689720630645752	0.000734640343580395	0.11497403681278229	5
+786	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	 reminders that I am	 home	free	5.393991470336914	4.573218822479248	0.00454380176961422	0.2024143934249878	5
+787	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	ers that I am home	"."""	</s>	5.812885284423828	5.198944568634033	0.0029887938871979713	0.08749555051326752	5
+788	upintheair_transcript	transcript	facebook/blenderbot-400M-distill	" that I am home."""	</s>		2.375166893005371	4.455905437469482	0.09299895167350769	0.3170405328273773	5

@@ -1,0 +1,588 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 jerry and george	 st	st	0.5111751556396484	3.2724645137786865	0.5997903347015381	0.5997903347015381	5
+1	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ry and george st	roll	s	13.543137550354004	1.3794983625411987	1.3130768365954282e-06	0.8426396250724792	5
+2	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and george stroll	ed	a	11.175116539001465	5.327403545379639	1.4018722140463069e-05	0.09604103863239288	5
+3	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 george strolled	 through	</s>	10.154911994934082	5.984772682189941	3.888461287715472e-05	0.06600091606378555	5
+4	seinfeld_align	aligned	facebook/blenderbot-400M-distill	orge strolled through	 the	I	7.265877723693848	6.011440753936768	0.0006989873945713043	0.1389317810535431	5
+5	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 strolled through the	 air	I	7.942562580108643	5.500166416168213	0.0003552948182914406	0.10223370790481567	5
+6	seinfeld_align	aligned	facebook/blenderbot-400M-distill	rolled through the air	port	.	10.067798614501953	5.428646087646484	4.242391514708288e-05	0.15824609994888306	5
+7	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ed through the airport	 with	respect	8.816136360168457	6.370186805725098	0.000148320323205553	0.06670326739549637	5
+8	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 through the airport with	 their	are	6.097622871398926	6.117438316345215	0.002248205244541168	0.03310287371277809	5
+9	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the airport with their	 suit	c	4.033364295959473	5.7270917892456055	0.01771463453769684	0.07931394875049591	5
+10	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 airport with their suit	c	ase	5.979742050170898	3.5082309246063232	0.0025294788647443056	0.462994784116745	5
+11	seinfeld_align	aligned	facebook/blenderbot-400M-distill	port with their suitc	ases	.	11.851302146911621	4.30494499206543	7.129266123229172e-06	0.15811903774738312	5
+12	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 with their suitcases	 ge	oc	4.988126277923584	5.651290416717529	0.006818428635597229	0.04765833541750908	5
+13	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 their suitcases ge	orge	is	8.85981559753418	6.299354553222656	0.00014198115968611091	0.05188163369894028	5
+14	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 suitcases george	 walked	</s>	8.689093589782715	5.57110595703125	0.00016841261822264642	0.10046949237585068	5
+15	seinfeld_align	aligned	facebook/blenderbot-400M-distill	cases george walked	 quickly	</s>	10.973455429077148	6.291363716125488	1.7150976418633945e-05	0.054428741335868835	5
+16	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ases george walked quickly	 		0.6693800687789917	2.8486106395721436	0.5120258927345276	0.5120258927345276	5
+17	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 george walked quickly 	<unk>	you	17.380983352661133	5.2721757888793945	2.8283631436920587e-08	0.10755286365747452	5
+18	seinfeld_align	aligned	facebook/blenderbot-400M-distill	orge walked quickly <unk>	 as	you	6.655003547668457	5.92182731628418	0.0012875633547082543	0.07730867713689804	5
+19	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 walked quickly <unk> as	 he	is	4.011992454528809	5.6967339515686035	0.018097305670380592	0.04851822555065155	5
+20	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 quickly <unk> as he	 scan	at	7.3664326667785645	5.993572235107422	0.0006321191322058439	0.03841271996498108	5
+21	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 <unk> as he scan	ned	a	10.62312126159668	5.328322410583496	2.434652196825482e-05	0.06257200241088867	5
+22	seinfeld_align	aligned	facebook/blenderbot-400M-distill	<unk> as he scanned	 the	we	5.830326557159424	6.509499549865723	0.002937117824330926	0.04811831936240196	5
+23	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 as he scanned the	 signs	.	9.828924179077148	3.9734060764312744	5.387065903050825e-05	0.18050092458724976	5
+24	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 he scanned the signs	 to	I	3.247515916824341	6.3771796226501465	0.03887064754962921	0.06675701588392258	5
+25	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 scanned the signs to	 figure	out	7.452685832977295	1.2165887355804443	0.0005798821221105754	0.8460844159126282	5
+26	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ned the signs to figure	 out	.	8.816770553588867	4.6601362228393555	0.0001482262887293473	0.21464543044567108	5
+27	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the signs to figure out	 which	is	7.188164710998535	4.576420307159424	0.0007554745534434915	0.18312658369541168	5
+28	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 signs to figure out which	 way	to	7.6286516189575195	4.028021812438965	0.0004863161302637309	0.19327041506767273	5
+29	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to figure out which way	 to	take	3.8513782024383545	4.844870567321777	0.02125042863190174	0.1502142697572708	5
+30	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 figure out which way to	 go	to	7.695908546447754	5.238656044006348	0.00045468364260159433	0.08154633641242981	5
+31	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 out which way to go	 a	a	3.079375743865967	6.620471954345703	0.04598795622587204	0.04598795622587204	5
+32	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 which way to go a	 man	's	6.913906097412109	4.319777488708496	0.0009938678704202175	0.19963769614696503	5
+33	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 way to go a man	 passing	on	10.144685745239258	4.97103214263916	3.9284273952944204e-05	0.13223813474178314	5
+34	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to go a man passing	 by	a	7.8689799308776855	5.175608158111572	0.0003824242448899895	0.0835200622677803	5
+35	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 go a man passing by	 sne	e	7.638000011444092	2.023855686187744	0.00048179103760048747	0.6862432360649109	5
+36	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a man passing by sne	e	ze	7.5433759689331055	3.4831690788269043	0.0005296067101880908	0.31870320439338684	5
+37	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 man passing by snee	z	ing	7.726613521575928	1.968268632888794	0.0004409348766785115	0.6105298399925232	5
+38	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 passing by sneez	ed	to	9.929795265197754	5.514973163604736	4.8701756895752624e-05	0.06100942939519882	5
+39	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 by sneezed	 in	.	8.391470909118652	5.25194787979126	0.0002267935051349923	0.07849391549825668	5
+40	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 sneezed in	 his	he	5.590353012084961	6.200540065765381	0.0037337085232138634	0.03714809939265251	5
+41	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ezed in his	 direction	.	9.094286918640137	4.144532680511475	0.00011230556992813945	0.2993433475494385	5
+42	seinfeld_align	aligned	facebook/blenderbot-400M-distill	zed in his direction	 causing	to	9.627265930175781	5.789820671081543	6.590701377717778e-05	0.11429932713508606	5
+43	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ed in his direction causing	 him	to	7.919504165649414	4.421414852142334	0.0003635825414676219	0.3913894295692444	5
+44	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 in his direction causing him	 to	is	6.630450248718262	5.626757621765137	0.0013195687206462026	0.11151140928268433	5
+45	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 his direction causing him to	 		2.654644727706909	6.203061580657959	0.07032380998134613	0.07032380998134613	5
+46	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 direction causing him to 	<unk>		17.667112350463867	4.838741302490234	2.1245682546577882e-08	0.1441757082939148	5
+47	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 causing him to <unk>	 backwards		8.626177787780762	4.9937639236450195	0.00017934881907422096	0.13919663429260254	5
+48	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 him to <unk> backwards	 and	to	4.507922172546387	5.365808486938477	0.011021333746612072	0.14295600354671478	5
+49	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to <unk> backwards and	 then	again	10.074426651000977	4.849291801452637	4.2143656173720956e-05	0.09119953215122223	5
+50	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 <unk> backwards and then	 fr	ames	3.7050492763519287	4.928016662597656	0.02459900826215744	0.16955089569091797	5
+51	seinfeld_align	aligned	facebook/blenderbot-400M-distill	<unk> backwards and then fr	ant	y	7.363351821899414	5.993130683898926	0.0006340693798847497	0.0750642716884613	5
+52	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 backwards and then frant	ically	.	8.70527458190918	4.977658748626709	0.00016570938169024885	0.09116273373365402	5
+53	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and then frantically	 squ	ir	5.210657119750977	4.384642124176025	0.005458084400743246	0.15886501967906952	5
+54	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 then frantically squ	irt	</s>	12.363821029663086	5.221468448638916	4.270321824151324e-06	0.09897258132696152	5
+55	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 frantically squirt	 		0.3770628869533539	1.6807602643966675	0.6858729124069214	0.6858729124069214	5
+56	seinfeld_align	aligned	facebook/blenderbot-400M-distill	antically squirt 	<unk>		17.915081024169922	4.024764060974121	1.6579802419869338e-08	0.3836939036846161	5
+57	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ically squirt <unk>	 onto		9.599482536315918	5.809717178344727	6.776377995265648e-05	0.07686665654182434	5
+58	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 squirt <unk> onto	 his		8.503643989562988	5.96217155456543	0.00020272828987799585	0.04555680975317955	5
+59	seinfeld_align	aligned	facebook/blenderbot-400M-distill	irt <unk> onto his	 hands	</s>	10.755695343017578	4.055392265319824	2.1323608962120488e-05	0.24766486883163452	5
+60	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 <unk> onto his hands	 jer	ks	6.7655792236328125	5.00777530670166	0.0011527795577421784	0.13385862112045288	5
+61	seinfeld_align	aligned	facebook/blenderbot-400M-distill	<unk> onto his hands jer	ry	s	5.820030212402344	3.2499051094055176	0.0029675159603357315	0.5958576798439026	5
+62	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 onto his hands jerry	 		0.40709590911865234	1.8905270099639893	0.6655803322792053	0.6655803322792053	5
+63	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 his hands jerry 	<unk>		18.198131561279297	5.466707706451416	1.2492565204524908e-08	0.10393088310956955	5
+64	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 hands jerry <unk>	 up	h	5.6656599044799805	5.820934772491455	0.0034628610592335463	0.06270213425159454	5
+65	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 jerry <unk> up	 behind		7.55644416809082	5.9777727127075195	0.0005227306974120438	0.053973667323589325	5
+66	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ry <unk> up behind	 him		9.178897857666016	4.877651214599609	0.00010319415741832927	0.19521503150463104	5
+67	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 <unk> up behind him	 sm	h	3.361487865447998	5.419539451599121	0.03468361496925354	0.12817887961864471	5
+68	seinfeld_align	aligned	facebook/blenderbot-400M-distill	<unk> up behind him sm	iling	down	13.322532653808594	5.9967780113220215	1.6371842548323912e-06	0.09840266406536102	5
+69	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 up behind him smiling	 just	to	11.991114616394043	5.781983852386475	6.199048584676348e-06	0.07982192188501358	5
+70	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 behind him smiling just	 relax	ed	4.442791938781738	4.086350440979004	0.011763053014874458	0.25916481018066406	5
+71	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 him smiling just relax	 learn	</s>	10.263538360595703	5.269843578338623	3.4882054023910314e-05	0.09486158937215805	5
+72	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 smiling just relax learn	 to	I	4.611459732055664	5.172480583190918	0.00993729941546917	0.15902909636497498	5
+73	seinfeld_align	aligned	facebook/blenderbot-400M-distill	iling just relax learn to	 love	on	5.192946910858154	4.282947540283203	0.005555612035095692	0.22813571989536285	5
+74	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 just relax learn to love	 the	next	7.969382286071777	5.289685249328613	0.0003458926803432405	0.19375446438789368	5
+75	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 relax learn to love the	 air	b	4.949813365936279	5.878682613372803	0.007084731478244066	0.08560284227132797	5
+76	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 learn to love the air	port	I	13.555334091186523	4.96122407913208	1.2971589740118361e-06	0.10923754423856735	5
+77	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to love the airport	 we	are	5.318999767303467	4.175995349884033	0.0048976498655974865	0.2015034556388855	5
+78	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 love the airport we	're	just	5.568211555480957	6.02797794342041	0.0038173000793904066	0.07174933701753616	5
+79	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the airport we're	 all	just	9.962418556213379	5.5047383308410645	4.7138593799900264e-05	0.10026638209819794	5
+80	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 airport we're all	 out	of	9.77294921875	3.291032552719116	5.6972112361108884e-05	0.5387929677963257	5
+81	seinfeld_align	aligned	facebook/blenderbot-400M-distill	port we're all out	 here	because	7.070413589477539	4.33511209487915	0.0008498815004713833	0.2238137423992157	5
+82	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 we're all out here	 moving	to	9.506525039672852	5.271867752075195	7.436501618940383e-05	0.16265065968036652	5
+83	seinfeld_align	aligned	facebook/blenderbot-400M-distill	're all out here moving	 around	a	8.977450370788574	5.136669158935547	0.00012622427311725914	0.15206407010555267	5
+84	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 all out here moving around	 seeing	if	12.360748291015625	4.324620723724365	4.283466296328697e-06	0.16303163766860962	5
+85	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 out here moving around seeing	 the	first	6.565543174743652	6.466763496398926	0.001408059149980545	0.031249795109033585	5
+86	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 here moving around seeing the	 world	do	8.277261734008789	5.30814790725708	0.0002542325237300247	0.047662120312452316	5
+87	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 moving around seeing the world	 ge	ese	3.103335380554199	4.896979331970215	0.044899195432662964	0.2362428605556488	5
+88	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 around seeing the world ge	orge	for	9.096761703491211	5.575484752655029	0.00011202806490473449	0.10337915271520615	5
+89	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 seeing the world george	 just	to	7.620578765869141	5.628429412841797	0.0004902581567876041	0.09662004560232162	5
+90	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the world george just	 looked	at	12.659079551696777	4.380452632904053	3.1785698411113117e-06	0.18320581316947937	5
+91	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 world george just looked	 at	.	7.5472822189331055	5.712609767913818	0.0005275417934171855	0.058499712496995926	5
+92	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 george just looked at	 him	in	7.025267601013184	5.270366668701172	0.0008891297038644552	0.06010773777961731	5
+93	seinfeld_align	aligned	facebook/blenderbot-400M-distill	orge just looked at him	 like	I	7.806159973144531	4.802557945251465	0.00040721867117099464	0.09230443835258484	5
+94	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 just looked at him like	 he	had	6.237321853637695	3.259427070617676	0.0019550847355276346	0.22713050246238708	5
+95	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 looked at him like he	 had	to	4.032696723937988	5.063083171844482	0.017726456746459007	0.14784789085388184	5
+96	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 at him like he had	 gone	I	10.122831344604492	4.884904384613037	4.015228114440106e-05	0.13499987125396729	5
+97	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 him like he had gone	 insane	and	9.741329193115234	5.431816577911377	5.880235767108388e-05	0.0702839121222496	5
+98	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 like he had gone insane	 they	are	4.839418411254883	5.269950866699219	0.007911652326583862	0.10180895030498505	5
+99	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 he had gone insane they	 roll	a	7.809454441070557	5.251341819763184	0.0004058794875163585	0.09655720740556717	5
+100	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 had gone insane they roll	ed	a	7.57075309753418	5.220658779144287	0.0005153042729943991	0.152732715010643	5
+101	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 gone insane they rolled	 up	a	9.647628784179688	4.543119430541992	6.457848940044641e-05	0.2504693269729614	5
+102	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 insane they rolled up	 to	a	4.334918975830078	6.076220989227295	0.013102930970489979	0.07408234477043152	5
+103	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 they rolled up to	 the	I	5.656276702880859	5.251189708709717	0.0034955074079334736	0.19120913743972778	5
+104	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 rolled up to the	 end	of	6.603835582733154	1.0676045417785645	0.0013551600277423859	0.8655180931091309	5
+105	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ed up to the end	 of	e	7.9120588302612305	6.0275139808654785	0.00036629970418289304	0.04246467724442482	5
+106	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 up to the end of	 the	last	6.903679847717285	6.305849075317383	0.0010040841298177838	0.04504277557134628	5
+107	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to the end of the	 security	.	6.756175994873047	5.571582794189453	0.0011636707931756973	0.06746932119131088	5
+108	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the end of the security	 line	</s>	5.596022605895996	5.433859825134277	0.00371259986422956	0.1290311962366104	5
+109	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 end of the security line	 and	there	5.7016987800598145	5.507257461547852	0.0033402859698981047	0.05590556189417839	5
+110	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 of the security line and	 jer	sey	4.4963297843933105	2.848022222518921	0.011149843223392963	0.41931790113449097	5
+111	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the security line and jer	ry	s	8.3499755859375	4.778538227081299	0.0002364023675909266	0.1950678825378418	5
+112	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 security line and jerry	 pointed	to	7.349146366119385	4.870614051818848	0.0006431411020457745	0.1182129979133606	5
+113	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 line and jerry pointed	 to	a	5.643710136413574	5.654510974884033	0.0035397119354456663	0.07516725361347198	5
+114	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and jerry pointed to	 the	a	6.591784477233887	6.360844135284424	0.001371589838527143	0.03508951514959335	5
+115	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 jerry pointed to the	 security	guard	6.487432479858398	5.951404094696045	0.0015224531525745988	0.08679109066724777	5
+116	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ry pointed to the security	 gu	ards	5.097036361694336	2.272657871246338	0.006114841904491186	0.5686876773834229	5
+117	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 pointed to the security gu	ards	we	10.7471923828125	5.089625358581543	2.1505698896362446e-05	0.07560400664806366	5
+118	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to the security guards	 checking	.	13.465846061706543	5.167181015014648	1.4185917507347767e-06	0.0793236792087555	5
+119	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the security guards checking	 board	</s>	8.738250732421875	5.877457618713379	0.00016033407882787287	0.1001259982585907	5
+120	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 security guards checking board	ing	</s>	9.23460865020752	5.703365325927734	9.760240936884657e-05	0.09152570366859436	5
+121	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 guards checking boarding	 passes	</s>	9.189665794372559	5.926257133483887	0.00010208896856056526	0.06601780652999878	5
+122	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ards checking boarding passes	 check	to	8.003106117248535	6.310719013214111	0.0003344222786836326	0.07277191430330276	5
+123	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 checking boarding passes check	 out	I	10.436352729797363	6.333375930786133	2.934605254267808e-05	0.037340860813856125	5
+124	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 boarding passes check out	 these	are	7.562939643859863	5.163738250732422	0.0005193462129682302	0.22547024488449097	5
+125	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ing passes check out these	 high	h	6.875973701477051	5.807217597961426	0.0010322920279577374	0.04791871830821037	5
+126	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 passes check out these high	 cal	or	8.620232582092285	2.6666791439056396	0.0001804182684281841	0.624470591545105	5
+127	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 check out these high cal	iber	we	13.786768913269043	6.246702194213867	1.029158738674596e-06	0.04842927306890488	5
+128	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 out these high caliber	 individuals	.	7.855741500854492	5.887012481689453	0.0003875207039527595	0.06657617539167404	5
+129	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 these high caliber individuals	 they	to	4.516873359680176	6.266783237457275	0.010923121124505997	0.03529229387640953	5
+130	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 high caliber individuals they	 have	been	7.183110237121582	5.663918972015381	0.0007593024056404829	0.07047787308692932	5
+131	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 caliber individuals they have	 working	you	8.441994667053223	6.034117221832275	0.0002156195987481624	0.03807693347334862	5
+132	seinfeld_align	aligned	facebook/blenderbot-400M-distill	iber individuals they have working	 at	a	4.902117729187012	5.722832679748535	0.007430829107761383	0.07326439768075943	5
+133	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 individuals they have working at	 x	y	6.707707405090332	5.833643913269043	0.001221461221575737	0.09441723674535751	5
+134	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 they have working at x	 r	r	1.804295539855957	5.114446640014648	0.16459035873413086	0.16459035873413086	5
+135	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 have working at x r	ay	there	6.292864799499512	5.790779113769531	0.0018494540126994252	0.03954770788550377	5
+136	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 working at x ray	 security		8.123381614685059	5.676592826843262	0.0002965242601931095	0.08176419883966446	5
+137	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 at x ray security	 how	do	6.150606155395508	4.905605316162109	0.0021321892272681	0.2030019611120224	5
+138	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 x ray security how	 '	t	7.271082401275635	4.818665027618408	0.0006953588454052806	0.14664174616336823	5
+139	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 ray security how '	b	'	6.531160354614258	5.572731018066406	0.0014573142398148775	0.11011794209480286	5
+140	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ay security how 'b	out	'	8.682934761047363	4.240543365478516	0.0001694530510576442	0.36122846603393555	5
+141	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 security how 'bout	 this	'	6.362297058105469	5.8404436111450195	0.0017253990517929196	0.10582234710454941	5
+142	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 how 'bout this	 crack	""""	6.241749286651611	4.992907524108887	0.0019464477663859725	0.0982280820608139	5
+143	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 'bout this crack	 squad	</s>	11.170424461364746	4.436943054199219	1.4084659596846905e-05	0.2473691999912262	5
+144	seinfeld_align	aligned	facebook/blenderbot-400M-distill	bout this crack squad	 of	thing	7.009998321533203	6.568977355957031	0.0009028101922012866	0.04228116199374199	5
+145	seinfeld_align	aligned	facebook/blenderbot-400M-distill	out this crack squad of	 sa	ves	8.166665077209473	4.510774612426758	0.00028396351262927055	0.17231974005699158	5
+146	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 this crack squad of sa	v	ory	4.85045051574707	5.112104892730713	0.007824850268661976	0.15825261175632477	5
+147	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 crack squad of sav	vy	ness	10.936748504638672	6.1767354011535645	1.7792239304981194e-05	0.06579728424549103	5
+148	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 squad of savvy	 motiv	ation	5.373411655426025	4.217407703399658	0.004638279788196087	0.31261059641838074	5
+149	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 of savvy motiv	ated	by	13.485458374023438	3.446188449859619	1.3910403140471317e-06	0.49888691306114197	5
+150	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 savvy motivated	 person	s	9.927107810974121	3.1065289974212646	4.883282235823572e-05	0.5753397941589355	5
+151	seinfeld_align	aligned	facebook/blenderbot-400M-distill	vvy motivated person	nel	.	11.567217826843262	4.661861419677734	9.471554221818224e-06	0.1745097041130066	5
+152	seinfeld_align	aligned	facebook/blenderbot-400M-distill	vy motivated personnel	 they	are	5.45408821105957	5.605247974395752	0.00427877577021718	0.14699655771255493	5
+153	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 motivated personnel they	've	got	7.776863098144531	3.9095635414123535	0.00041932554449886084	0.38075870275497437	5
+154	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ated personnel they've	 ch	ch	1.3741848468780518	3.994785785675049	0.25304579734802246	0.25304579734802246	5
+155	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 personnel they've ch	osen	but	12.816855430603027	3.515302896499634	2.7146286356583005e-06	0.2718275189399719	5
+156	seinfeld_align	aligned	facebook/blenderbot-400M-distill	nel they've chosen	 to	do	3.537177562713623	4.883334159851074	0.029095333069562912	0.14230892062187195	5
+157	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 they've chosen to	 stand	to	6.193062782287598	4.787748336791992	0.002043558284640312	0.10339813679456711	5
+158	seinfeld_align	aligned	facebook/blenderbot-400M-distill	've chosen to stand	 in	a	4.999564170837402	5.617000102996826	0.006740884855389595	0.11900105327367783	5
+159	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 chosen to stand in	 front	of	12.40218448638916	1.5606107711791992	4.109602286916925e-06	0.8076984286308289	5
+160	seinfeld_align	aligned	facebook/blenderbot-400M-distill	osen to stand in front	 of	.	6.238255500793457	5.871579170227051	0.0019532600417733192	0.06845951080322266	5
+161	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to stand in front of	 x	men	8.211441993713379	6.234871864318848	0.00027152898837812245	0.03391653299331665	5
+162	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 stand in front of x	 r	r	1.584147572517395	5.373974323272705	0.20512256026268005	0.20512256026268005	5
+163	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 in front of x r	ays	</s>	9.687386512756348	4.826144695281982	6.206140824360773e-05	0.15494269132614136	5
+164	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 front of x rays	 four		6.999349594116211	6.045960426330566	0.0009124753414653242	0.09179006516933441	5
+165	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 of x rays four	te	</s>	11.821650505065918	5.437466621398926	7.343824108829722e-06	0.1943480223417282	5
+166	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 x rays fourte	en	</s>	9.398097038269043	5.507896423339844	8.288163371616974e-05	0.1600630134344101	5
+167	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 rays fourteen	 hours	of	10.980552673339844	4.668461799621582	1.7029680748237297e-05	0.29694515466690063	5
+168	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ays fourteen hours	 a	ha	4.526222229003906	6.566320419311523	0.010821480304002762	0.029890235513448715	5
+169	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 fourteen hours a	 day	.	7.727029800415039	4.7110066413879395	0.0004407512897159904	0.18790501356124878	5
+170	seinfeld_align	aligned	facebook/blenderbot-400M-distill	teen hours a day	 as	a	4.15559196472168	5.513699531555176	0.015676507726311684	0.11047012358903885	5
+171	seinfeld_align	aligned	facebook/blenderbot-400M-distill	en hours a day as	 a	matter	6.5602126121521	6.376145362854004	0.0014155847020447254	0.08215148001909256	5
+172	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 hours a day as a	 profess	ion	8.489238739013672	1.0331478118896484	0.00020566978491842747	0.8640342950820923	5
+173	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a day as a profess	ion	I	10.916061401367188	5.188416481018066	1.816413350752555e-05	0.12436792999505997	5
+174	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 day as a profession	 they	are	4.079006195068359	4.843105792999268	0.016924278810620308	0.15821054577827454	5
+175	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 as a profession they	 put	on	6.722171783447266	2.970923900604248	0.001203920692205429	0.3692287504673004	5
+176	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a profession they put	 their	I	5.904327392578125	5.61466121673584	0.0027276163455098867	0.10009471327066422	5
+177	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 profession they put their	 bags	at	7.980761528015137	4.532928943634033	0.0003419789718464017	0.16682882606983185	5
+178	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ion they put their bags	 on	to	6.715008735656738	4.747117042541504	0.0012125755893066525	0.20321039855480194	5
+179	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 they put their bags on	 the	I	4.610840797424316	5.732109069824219	0.00994345173239708	0.11882779002189636	5
+180	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 put their bags on the	 con	con	2.0438003540039062	5.029749393463135	0.129535511136055	0.129535511136055	5
+181	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 their bags on the con	vey	or	10.709559440612793	2.6228809356689453	2.2330454157781787e-05	0.6274269223213196	5
+182	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 bags on the convey	or	.	7.471969127655029	5.3540120124816895	0.0005688071832992136	0.0953323021531105	5
+183	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 on the conveyor	 belt	is	9.59768295288086	4.334963798522949	6.788581231376156e-05	0.2806530296802521	5
+184	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the conveyor belt	 and	still	4.368188858032227	5.625511646270752	0.012674177065491676	0.049073901027441025	5
+185	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 conveyor belt and	 ste	ste	1.162691593170166	4.584081649780273	0.31264355778694153	0.31264355778694153	5
+186	seinfeld_align	aligned	facebook/blenderbot-400M-distill	veyor belt and ste	pped	to	14.477954864501953	6.269959449768066	5.155891926733602e-07	0.031630728393793106	5
+187	seinfeld_align	aligned	facebook/blenderbot-400M-distill	or belt and stepped	 through	but	9.229778289794922	5.438788414001465	9.807492460822687e-05	0.08090661466121674	5
+188	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 belt and stepped through	 the	thing	5.694038391113281	6.202542304992676	0.003365972777828574	0.06076423078775406	5
+189	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and stepped through the	 scan	ner	8.923432350158691	3.139742374420166	0.0001332301617367193	0.4669024646282196	5
+190	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 stepped through the scan	ners	.	11.543618202209473	5.053408622741699	9.69773464021273e-06	0.07285336405038834	5
+191	seinfeld_align	aligned	facebook/blenderbot-400M-distill	pped through the scanners	 as	a	5.748472213745117	4.974140167236328	0.0031876463908702135	0.16703498363494873	5
+192	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 through the scanners as	 they	are	5.491617202758789	5.562300205230713	0.004121173173189163	0.1430208534002304	5
+193	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the scanners as they	 ret	ire	4.923642158508301	4.066227912902832	0.007272595074027777	0.17921775579452515	5
+194	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 scanners as they ret	rie	ve	9.444859504699707	0.5583364367485046	7.909513806225732e-05	0.9182586073875427	5
+195	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ners as they retrie	ved	to	12.60346794128418	5.186732769012451	3.3603416795813246e-06	0.13408862054347992	5
+196	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 as they retrieved	 their	words	6.313451290130615	6.587376594543457	0.00181176932528615	0.022893574088811874	5
+197	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 they retrieved their	 shoes	I	9.470443725585938	4.458661079406738	7.709721830906346e-05	0.11968658864498138	5
+198	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 retrieved their shoes	 jer	se	7.4986467361450195	4.617021560668945	0.0005538332625292242	0.14870929718017578	5
+199	seinfeld_align	aligned	facebook/blenderbot-400M-distill	rieved their shoes jer	ry	s	5.513242721557617	5.286670684814453	0.00403300765901804	0.3128892481327057	5
+200	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ved their shoes jerry	 		0.3656957745552063	2.019228219985962	0.6937137842178345	0.6937137842178345	5
+201	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 their shoes jerry 	<unk>		18.230154037475586	5.32526969909668	1.2098863244602853e-08	0.18006116151809692	5
+202	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 shoes jerry <unk>	 over	.	6.77454137802124	5.310283184051514	0.0011424942640587687	0.10447980463504791	5
+203	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 jerry <unk> over	 at		4.360559940338135	6.320596694946289	0.012771234847605228	0.07573224604129791	5
+204	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ry <unk> over at	 the		6.380273818969727	5.84145450592041	0.0016946586547419429	0.15577083826065063	5
+205	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 <unk> over at the	 x	.	5.44456148147583	6.028223991394043	0.004319733940064907	0.0649401843547821	5
+206	seinfeld_align	aligned	facebook/blenderbot-400M-distill	<unk> over at the x	 r	r	0.6848776936531067	3.544879198074341	0.5041518807411194	0.5041518807411194	5
+207	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 over at the x r	ay	</s>	9.340490341186523	5.350186347961426	8.779635390965268e-05	0.08453698456287384	5
+208	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 at the x ray	 tv	pres	10.956873893737793	6.302867889404297	1.7437736460124142e-05	0.06588780134916306	5
+209	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the x ray tv	 screen	I	12.41237735748291	5.1662445068359375	4.067925601702882e-06	0.12943151593208313	5
+210	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 x ray tv screen	 what	do	6.2040534019470215	4.377992630004883	0.0020212214440107346	0.1560312658548355	5
+211	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 ray tv screen what	 do	you	6.227638244628906	4.080955505371094	0.0019741086289286613	0.3160707354545593	5
+212	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ay tv screen what do	 you	do	5.956713676452637	2.418332099914551	0.002588403644040227	0.5940021872520447	5
+213	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tv screen what do you	 think	about	8.291034698486328	2.3427858352661133	0.0002507549652364105	0.4951890707015991	5
+214	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 screen what do you think	 they	are	4.0182647705078125	4.725920677185059	0.017984142526984215	0.17264415323734283	5
+215	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 what do you think they	're	a	7.968445777893066	5.551791191101074	0.0003462166350800544	0.08667034655809402	5
+216	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 do you think they're	 looking	at	8.52843189239502	3.4834797382354736	0.00019776484987232834	0.27944666147232056	5
+217	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 you think they're looking	 for	a	7.01594352722168	5.3294243812561035	0.0008974587544798851	0.14682146906852722	5
+218	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 think they're looking for	 on	I	7.143320083618164	6.008838176727295	0.0007901244680397213	0.06728003919124603	5
+219	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 they're looking for on	 that	's	3.7293295860290527	4.675079345703125	0.024008922278881073	0.18302270770072937	5
+220	seinfeld_align	aligned	facebook/blenderbot-400M-distill	're looking for on that	 thing	.	5.622476577758789	4.862821578979492	0.003615676425397396	0.13273654878139496	5
+221	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 looking for on that thing	 i	just	4.527881145477295	5.616303443908691	0.010803543962538242	0.06845954060554504	5
+222	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 for on that thing i	 can	't	8.7070894241333	4.540620803833008	0.0001654090010561049	0.23841077089309692	5
+223	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 on that thing i can	't	</s>	7.04464054107666	5.229127883911133	0.0008720705518499017	0.05935078114271164	5
+224	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 that thing i can't	 make	sure	8.483968734741211	5.45585298538208	0.00020675644918810576	0.08350741863250732	5
+225	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 thing i can't make	 out	or	7.5245585441589355	5.740203857421875	0.0005396668566390872	0.05005989968776703	5
+226	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 i can't make out	 one	of	6.776198387145996	5.0025410652160645	0.001140602515079081	0.19275324046611786	5
+227	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 can't make out one	 object	s	9.434723854064941	3.0894792079925537	7.990085578057915e-05	0.5513067245483398	5
+228	seinfeld_align	aligned	facebook/blenderbot-400M-distill	't make out one object	 what	is	6.5593366622924805	4.995301246643066	0.0014168255729600787	0.08059912919998169	5
+229	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 make out one object what	's	a	6.617917060852051	5.747157096862793	0.0013362109893932939	0.05847723409533501	5
+230	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 out one object what's	 that	?	5.395689964294434	5.816125392913818	0.004536089953035116	0.08757657557725906	5
+231	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 one object what's that	 a	thing	4.3477373123168945	6.416706085205078	0.012936048209667206	0.05924522876739502	5
+232	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 object what's that a	 		1.292059063911438	4.321640968322754	0.27470457553863525	0.27470457553863525	5
+233	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 what's that a 	<unk>		17.4584903717041	4.879514694213867	2.6174246769983256e-08	0.10471180081367493	5
+234	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's that a <unk>	 with		6.8959736824035645	4.610414028167725	0.0010118511272594333	0.31284838914871216	5
+235	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 that a <unk> with	 a		3.922673225402832	3.3510549068450928	0.01978812739253044	0.54304438829422	5
+236	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a <unk> with a	 sc	sc	0.9508742690086365	3.825772285461426	0.38640305399894714	0.38640305399894714	5
+237	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 <unk> with a sc	ope	of	9.149764060974121	4.276634693145752	0.0001062448718585074	0.26101839542388916	5
+238	seinfeld_align	aligned	facebook/blenderbot-400M-distill	<unk> with a scope	 on	w	6.831640243530273	6.383589267730713	0.001079086447134614	0.03564358502626419	5
+239	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 with a scope on	 it	's	5.271329879760742	3.659445285797119	0.00513677392154932	0.4149335026741028	5
+240	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a scope on it	 look	to	12.04500675201416	4.137717247009277	5.873812824574998e-06	0.17017966508865356	5
+241	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 scope on it look	 there	's	5.570435523986816	4.308859348297119	0.003808820154517889	0.14604753255844116	5
+242	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ope on it look there	's	to	5.617596626281738	5.153316020965576	0.0036333620082587004	0.08571051806211472	5
+243	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 on it look there's	 some	</s>	6.936652183532715	5.675466537475586	0.0009715169435366988	0.08113949745893478	5
+244	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 it look there's some	 sort	of	10.347208976745605	0.19235998392105103	3.208220732631162e-05	0.9795169830322266	5
+245	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 look there's some sort	 of	take	6.381588935852051	6.227703094482422	0.0016924310475587845	0.027885781601071358	5
+246	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 there's some sort of	 bow	to	8.125146865844727	5.929539203643799	0.00029600117704831064	0.04170883819460869	5
+247	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's some sort of bow	ling	as	13.275110244750977	5.6634697914123535	1.7166930774692446e-06	0.03835184872150421	5
+248	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 some sort of bowling	 ball	I	10.629219055175781	5.1101531982421875	2.4198518076445907e-05	0.05424058809876442	5
+249	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 sort of bowling ball	 cand	I	6.199117660522461	5.785462379455566	0.0020312226843088865	0.06909316033124924	5
+250	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 of bowling ball cand	le	</s>	10.651848793029785	5.314548015594482	2.3657061319681816e-05	0.1501058042049408	5
+251	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 bowling ball candle	 would	be	6.621482849121094	3.722614049911499	0.00133145519066602	0.45471280813217163	5
+252	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ling ball candle would	 you	be	5.1333208084106445	4.718432903289795	0.00589694594964385	0.13975286483764648	5
+253	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 ball candle would you	 stop	being	7.383565902709961	4.881158828735352	0.000621381273958832	0.075387142598629	5
+254	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 candle would you stop	 it	's	6.596177101135254	4.494443416595459	0.001365578151308	0.21374432742595673	5
+255	seinfeld_align	aligned	facebook/blenderbot-400M-distill	le would you stop it	 sna	ke	6.300013542175293	1.2346932888031006	0.0018362802220508456	0.8521668910980225	5
+256	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 would you stop it sna	pped	would	12.195564270019531	4.935937404632568	5.052820597484242e-06	0.08256999403238297	5
+257	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 you stop it snapped	 ge	ese	6.621246337890625	5.729918479919434	0.0013317703269422054	0.07043972611427307	5
+258	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 stop it snapped ge	orge	so	8.409757614135742	5.0532450675964355	0.00022268381144385785	0.15045888721942902	5
+259	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 it snapped george	 let	go	5.852940082550049	4.760725975036621	0.002871444681659341	0.2753719091415405	5
+260	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 snapped george let	's	go	5.7011518478393555	4.209906101226807	0.0033421132247895002	0.16800867021083832	5
+261	seinfeld_align	aligned	facebook/blenderbot-400M-distill	pped george let's	 turn	.	6.07532262802124	4.002881050109863	0.0022989041171967983	0.28834402561187744	5
+262	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 george let's turn	 off	</s>	8.739267349243164	5.066440105438232	0.00016017118468880653	0.09002479165792465	5
+263	seinfeld_align	aligned	facebook/blenderbot-400M-distill	orge let's turn off	 the	I	5.706109046936035	5.522610664367676	0.0033255864400416613	0.06787069141864777	5
+264	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 let's turn off the	 comed	y	11.86944580078125	0.4934295415878296	7.001079666224541e-06	0.9036157131195068	5
+265	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's turn off the comed	y	of	10.059195518493652	5.8449811935424805	4.279044151189737e-05	0.10410481691360474	5
+266	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 turn off the comedy	 routine	</s>	11.573452949523926	4.934919834136963	9.41267626330955e-06	0.07063128054141998	5
+267	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 off the comedy routine	 for	again	7.040809154510498	5.870792388916016	0.0008754180744290352	0.06383334845304489	5
+268	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the comedy routine for	 a	list	4.481446266174316	6.071905136108398	0.011317034251987934	0.09295295923948288	5
+269	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 comedy routine for a	 minute	I	7.208026885986328	5.400486469268799	0.0007406169315800071	0.08864126354455948	5
+270	seinfeld_align	aligned	facebook/blenderbot-400M-distill	y routine for a minute	 can	be	7.5450592041015625	3.8950862884521484	0.000528715958353132	0.21626640856266022	5
+271	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 routine for a minute can	 we	this	2.7358603477478027	5.119981288909912	0.06483820080757141	0.08277706056833267	5
+272	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 for a minute can we	 they	?	4.614853382110596	5.284640312194824	0.009903635829687119	0.07093064486980438	5
+273	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a minute can we they	 walked	just	7.5607452392578125	5.464437961578369	0.0005204873159527779	0.03807193040847778	5
+274	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 minute can we they walked	 past	here	8.389627456665039	5.4563069343566895	0.00022721196000929922	0.06282331049442291	5
+275	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 can we they walked past	 the	right	5.54447078704834	6.169715404510498	0.003909012768417597	0.03886343911290169	5
+276	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 we they walked past the	 gift	card	9.557737350463867	5.477334976196289	7.065247336868197e-05	0.07211010903120041	5
+277	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 they walked past the gift	 shop	s	9.422271728515625	4.351831436157227	8.090202027233317e-05	0.21798235177993774	5
+278	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 walked past the gift shop	s	.	10.084819793701172	5.222906112670898	4.170792090008035e-05	0.12960930168628693	5
+279	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 past the gift shops	 looking	for	12.93720817565918	4.002231597900391	2.406810608590604e-06	0.17679385840892792	5
+280	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the gift shops looking	 for	on	5.958087921142578	5.556205749511719	0.0025848490186035633	0.06326629966497421	5
+281	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 gift shops looking for	 some	goo	5.493471145629883	6.142965316772461	0.004113542381674051	0.08715680241584778	5
+282	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 shops looking for some	 sn	ack	2.632674217224121	4.096736907958984	0.07188597321510315	0.18246611952781677	5
+283	seinfeld_align	aligned	facebook/blenderbot-400M-distill	s looking for some sn	acks	in	8.341107368469238	3.749418020248413	0.0002385081024840474	0.18540333211421967	5
+284	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 looking for some snacks	 to	with	4.388473033905029	5.7563557624816895	0.012419678270816803	0.03875915706157684	5
+285	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 for some snacks to	 take	care	5.780391216278076	3.8609256744384766	0.003087506862357259	0.38846877217292786	5
+286	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 some snacks to take	 on	a	5.282347202301025	4.779597759246826	0.005080491304397583	0.19771429896354675	5
+287	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 snacks to take on	 the	we	7.103784084320068	6.198481559753418	0.0008219885057769716	0.03314107656478882	5
+288	seinfeld_align	aligned	facebook/blenderbot-400M-distill	acks to take on the	 plane	and	8.877431869506836	4.710657596588135	0.00013950199354439974	0.10682264715433121	5
+289	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to take on the plane	 ge	ese	4.850099563598633	4.223727226257324	0.007827596738934517	0.29518428444862366	5
+290	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 take on the plane ge	orge	for	9.9555082321167	5.103198528289795	4.7465466195717454e-05	0.06630872935056686	5
+291	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 on the plane george	 		1.2337464094161987	4.34183931350708	0.29119959473609924	0.29119959473609924	5
+292	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the plane george 	<unk>	of	16.89354705810547	5.548557281494141	4.604957126730369e-08	0.06942260265350342	5
+293	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 plane george <unk>	 in		5.5534844398498535	6.489699363708496	0.0038739352021366358	0.047331441193819046	5
+294	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 george <unk> in	 to		4.965358734130859	6.053184986114502	0.0069754477590322495	0.08947452902793884	5
+295	seinfeld_align	aligned	facebook/blenderbot-400M-distill	orge <unk> in to	 look	at	6.666530609130859	5.7329888343811035	0.0012728070141747594	0.06973719596862793	5
+296	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 <unk> in to look	 at	</s>	4.375313758850098	4.237676620483398	0.012584195472300053	0.2556498050689697	5
+297	seinfeld_align	aligned	facebook/blenderbot-400M-distill	<unk> in to look at	 the	last	6.644826412200928	6.490946292877197	0.0013007341185584664	0.031835805624723434	5
+298	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 in to look at the	 price	of	10.155742645263672	3.847897529602051	3.885234036715701e-05	0.43847396969795227	5
+299	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to look at the price	 tag	s	11.498550415039062	2.807178497314453	1.0144789484911598e-05	0.4927463233470917	5
+300	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 look at the price tag	s	to	9.410881042480469	4.934542179107666	8.182886085705832e-05	0.14300492405891418	5
+301	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 at the price tags	 and	for	5.673273086547852	5.241787433624268	0.003436597529798746	0.06906017661094666	5
+302	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the price tags and	 sh	sh	3.0394344329833984	5.878525257110596	0.04786194860935211	0.04786194860935211	5
+303	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 price tags and sh	ook	together	6.349770545959473	5.835535049438477	0.0017471479950472713	0.10375896841287613	5
+304	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tags and shook	 head	but	5.383913040161133	5.412522792816162	0.004589824937283993	0.11558742821216583	5
+305	seinfeld_align	aligned	facebook/blenderbot-400M-distill	s and shook head	 do	a	5.657240867614746	5.667646884918213	0.003492139745503664	0.09610623121261597	5
+306	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and shook head do	 the	thing	6.0934062004089355	5.513166427612305	0.0022577052004635334	0.21245700120925903	5
+307	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 shook head do the	 people	and	8.684242248535156	4.558314323425293	0.00016923162911552936	0.17823247611522675	5
+308	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ook head do the people	 that	's	5.649677753448486	5.069843292236328	0.0035186505410820246	0.08460452407598495	5
+309	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 head do the people that	 work	for	7.132485389709473	4.29464864730835	0.0007987317512743175	0.1428203284740448	5
+310	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 do the people that work	 shop	s	11.800369262695312	5.162755489349365	7.5017833296442404e-06	0.11177787184715271	5
+311	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the people that work shop	s	again	9.637004852294922	4.921686172485352	6.526825745822862e-05	0.1864788979291916	5
+312	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 people that work shops	 have	been	8.415618896484375	5.106354236602783	0.00022138240456115454	0.16612061858177185	5
+313	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 that work shops have	 any	of	7.408740997314453	5.648928642272949	0.0006059331353753805	0.051079560071229935	5
+314	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 work shops have any	 idea	of	6.61576509475708	5.34294319152832	0.0013390897074714303	0.09037856757640839	5
+315	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 shops have any idea	 what	to	7.285139083862305	3.635838270187378	0.0006856528925709426	0.46350812911987305	5
+316	seinfeld_align	aligned	facebook/blenderbot-400M-distill	s have any idea what	 the	hell	6.4429850578308105	6.1143903732299805	0.0015916484408080578	0.07937800139188766	5
+317	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 have any idea what the	 prices	of	14.442131042480469	2.741272449493408	5.343947577785002e-07	0.3671262860298157	5
+318	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 any idea what the prices	 are	?	6.02207612991333	4.199254989624023	0.0024246303364634514	0.17028002440929413	5
+319	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 idea what the prices are	 every	thing	6.849291801452637	6.013694763183594	0.0010602065594866872	0.07210397720336914	5
+320	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 what the prices are every	 place	I	6.978831768035889	4.513484001159668	0.0009313907939940691	0.1454755663871765	5
+321	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the prices are every place	 else	you	10.924156188964844	5.332452297210693	1.8017688489635475e-05	0.07901664078235626	5
+322	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 prices are every place else	 in	a	7.420628547668457	5.938931465148926	0.0005987728363834321	0.047288522124290466	5
+323	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 are every place else in	 the	place	7.26318359375	6.232844352722168	0.0007008732063695788	0.055662550032138824	5
+324	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 every place else in the	 world	for	6.99089241027832	4.823594570159912	0.000920225284062326	0.10069403052330017	5
+325	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 place else in the world	 yeah	we	4.861573219299316	5.001171112060547	0.007738299202173948	0.07443621009588242	5
+326	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 else in the world yeah	 e	ct	3.4830691814422607	5.70447301864624	0.030713001266121864	0.10714248567819595	5
+327	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 in the world yeah e	ight	y	8.743401527404785	3.566213369369507	0.0001595104404259473	0.3665407598018646	5
+328	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the world yeah eight	 dollars	I	8.330378532409668	4.67525577545166	0.00024108080833684653	0.23611348867416382	5
+329	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 world yeah eight dollars	 for	I	6.1495680809021	5.681426525115967	0.002134403446689248	0.09750163555145264	5
+330	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 yeah eight dollars for	 a	thing	4.907253265380859	5.014622688293457	0.007392767816781998	0.13623835146427155	5
+331	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 eight dollars for a	 candy	cor	6.641861438751221	6.404510498046875	0.0013045965461060405	0.037240494042634964	5
+332	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ight dollars for a candy	 bar	</s>	8.508817672729492	4.719871997833252	0.00020168209448456764	0.18466006219387054	5
+333	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 dollars for a candy bar	 that	makes	6.170532703399658	5.413476943969727	0.002090122550725937	0.08141728490591049	5
+334	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 for a candy bar that	's	got	6.236869812011719	4.7957682609558105	0.0019559685606509447	0.13321226835250854	5
+335	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a candy bar that's	 fair	to	6.951618194580078	4.682127475738525	0.0009570849360898137	0.32062384486198425	5
+336	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 candy bar that's fair	 that	's	5.566230773925781	5.343832015991211	0.0038248698692768812	0.2029205709695816	5
+337	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 bar that's fair that	's	a	5.072349548339844	5.77748441696167	0.006267675664275885	0.05730029195547104	5
+338	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 that's fair that's	 what	you	4.942231178283691	5.188904762268066	0.007138650864362717	0.11197606474161148	5
+339	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's fair that's what	 we	're	3.8122496604919434	4.42927360534668	0.02209840528666973	0.14848729968070984	5
+340	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 fair that's what we	 charge	to	7.980960845947266	5.206815719604492	0.00034191072336398065	0.07414353638887405	5
+341	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 that's what we charge	 in	to	7.988341331481934	6.140567779541016	0.0003393964725546539	0.050978075712919235	5
+342	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's what we charge in	 our	s	5.354270935058594	5.50274658203125	0.004727914929389954	0.26625216007232666	5
+343	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 what we charge in our	 country	.	9.721049308776855	4.501646518707275	6.000699067953974e-05	0.21316561102867126	5
+344	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 we charge in our country	 after	we	7.30162239074707	5.048487186431885	0.0006744434940628707	0.23654060065746307	5
+345	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 charge in our country after	 waiting	to	9.586122512817383	4.616171360015869	6.867518823128194e-05	0.1806613951921463	5
+346	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 in our country after waiting	 for	a	5.13859224319458	5.057018756866455	0.005865941755473614	0.10475827753543854	5
+347	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 our country after waiting for	 their	s	6.314370155334473	4.179864883422852	0.0018101056339219213	0.454716295003891	5
+348	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 country after waiting for their	 turn	to	6.4728922843933105	2.037951946258545	0.0015447518089786172	0.7495997548103333	5
+349	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 after waiting for their turn	 to	be	5.011465549468994	5.571089744567871	0.006661133375018835	0.06409992277622223	5
+350	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 waiting for their turn to	 board	.	6.744704723358154	5.615482330322266	0.001177096157334745	0.06352772563695908	5
+351	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 for their turn to board	 they	are	4.983152389526367	4.8709211349487305	0.006852427963167429	0.08929579704999924	5
+352	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 their turn to board they	 mar	mar	2.579803943634033	5.468725204467773	0.07578885555267334	0.07578885555267334	5
+353	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 turn to board they mar	ched	it	13.091253280639648	5.219343185424805	2.0631973711715546e-06	0.07039973139762878	5
+354	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to board they marched	 down	to	9.820344924926758	4.425198554992676	5.4334836022462696e-05	0.1256454437971115	5
+355	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 board they marched down	 the	do	6.146615982055664	6.288449287414551	0.0021407136227935553	0.05788524076342583	5
+356	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 they marched down the	 	I	2.1715784072875977	4.79868221282959	0.11399754136800766	0.12545901536941528	5
+357	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 marched down the 	<unk>		18.617938995361328	2.7943365573883057	8.209790181012977e-09	0.6034499406814575	5
+358	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ched down the <unk>	 and		5.441546440124512	5.092031002044678	0.004332778975367546	0.15840381383895874	5
+359	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 down the <unk> and	 onto	</s>	7.898955345153809	5.1108551025390625	0.00037113099824637175	0.07243954390287399	5
+360	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the <unk> and onto	 the	I	4.868442058563232	5.637572288513184	0.007685329765081406	0.10200150310993195	5
+361	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 <unk> and onto the	 plane	are	8.151998519897461	5.4598002433776855	0.00028815874247811735	0.08814601600170135	5
+362	seinfeld_align	aligned	facebook/blenderbot-400M-distill	<unk> and onto the plane	 ge	ese	4.823934555053711	4.989593505859375	0.00803510844707489	0.21332596242427826	5
+363	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and onto the plane ge	orge	thing	10.432085037231445	5.211269378662109	2.947156644950155e-05	0.09743507206439972	5
+364	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 onto the plane george	 strugg	les	7.261788368225098	4.306009292602539	0.000701851851772517	0.3915991485118866	5
+365	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the plane george strugg	led	to	13.326164245605469	5.34168815612793	1.6312492334691342e-06	0.06689301878213882	5
+366	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 plane george struggled	 to	again	4.241646766662598	5.381871700286865	0.0143838906660676	0.10499941557645798	5
+367	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 george struggled to	 get	back	6.1658124923706055	5.525635242462158	0.0021000108681619167	0.13155527412891388	5
+368	seinfeld_align	aligned	facebook/blenderbot-400M-distill	orge struggled to get	 into	I	7.367636203765869	6.234235763549805	0.0006313588819466531	0.08740324527025223	5
+369	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 struggled to get into	 his	I	5.65315055847168	5.8305511474609375	0.0035064530093222857	0.10448835790157318	5
+370	seinfeld_align	aligned	facebook/blenderbot-400M-distill	led to get into his	 window	's	8.542745590209961	5.5046796798706055	0.0001949543657246977	0.10328608006238937	5
+371	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to get into his window	 seat	.	10.481802940368652	4.291022300720215	2.804212817864027e-05	0.2507539391517639	5
+372	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 get into his window seat	 and	that	6.4756011962890625	4.9382452964782715	0.0015405723825097084	0.10737220197916031	5
+373	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 into his window seat and	 fit	you	5.830076217651367	4.927501678466797	0.002937852870672941	0.098859041929245	5
+374	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 his window seat and fit	 his	a	7.414444923400879	6.36014461517334	0.000602486717980355	0.025327660143375397	5
+375	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 window seat and fit his	 bag	.	9.306190490722656	5.363341331481934	9.085998317459598e-05	0.10981971770524979	5
+376	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 seat and fit his bag	 down	to	8.526803970336914	4.460520267486572	0.00019808710203506052	0.12516799569129944	5
+377	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and fit his bag down	 by	a	7.283124923706055	4.959062576293945	0.0006870352663099766	0.23174245655536652	5
+378	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 fit his bag down by	 his	a	6.047922611236572	6.104119777679443	0.0023627651389688253	0.05568545684218407	5
+379	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 his bag down by his	 feet	is	10.348233222961426	5.026866912841797	3.2049363653641194e-05	0.10683748871088028	5
+380	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 bag down by his feet	 i	have	4.132354259490967	5.368447303771973	0.016045061871409416	0.06732587516307831	5
+381	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 down by his feet i	 feel	like	8.872441291809082	2.587583303451538	0.00014019988884683698	0.628315269947052	5
+382	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 by his feet i feel	 like	i	7.251009941101074	3.784621238708496	0.0007094574975781143	0.32547008991241455	5
+383	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 his feet i feel like	 i	'm	6.44947624206543	4.469198226928711	0.0015813499921932817	0.17737121880054474	5
+384	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 feet i feel like i	 can	't	7.81599760055542	3.740795373916626	0.0004032323195133358	0.41966453194618225	5
+385	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 i feel like i can	't	this	5.851971626281738	5.556447505950928	0.002874226775020361	0.04935495927929878	5
+386	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 feel like i can't	 breat	he	11.147595405578613	0.19172590970993042	1.4409890354727395e-05	0.969901442527771	5
+387	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 like i can't breat	he	so	7.544802665710449	4.958387851715088	0.0005288516404107213	0.13832637667655945	5
+388	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 i can't breathe	 in	I	6.329095840454102	6.079146385192871	0.0017836461775004864	0.07050690799951553	5
+389	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 can't breathe in	 here	I	4.974658966064453	5.004101276397705	0.0069108763709664345	0.08426983654499054	5
+390	seinfeld_align	aligned	facebook/blenderbot-400M-distill	't breathe in here	 jer	ry	7.264562129974365	1.9182285070419312	0.0006999076576903462	0.6594598889350891	5
+391	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 breathe in here jer	ry	s	4.820230960845947	5.0046067237854	0.008064922876656055	0.2409384846687317	5
+392	seinfeld_align	aligned	facebook/blenderbot-400M-distill	he in here jerry	 sh	oo	3.1685566902160645	5.29732084274292	0.04206426814198494	0.12411084026098251	5
+393	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 in here jerry sh	ru		9.838888168334961	5.413670539855957	5.333656372386031e-05	0.08945560455322266	5
+394	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 here jerry shru	gged	</s>	16.96462059020996	5.324523448944092	4.289028510129356e-08	0.11806394904851913	5
+395	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 jerry shrugged	 and	by	4.440429210662842	5.573764801025391	0.011790875345468521	0.043055012822151184	5
+396	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ry shrugged and	 st	st	1.933194875717163	5.145308971405029	0.14468520879745483	0.14468520879745483	5
+397	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 shrugged and st	ow	by	11.092893600463867	5.218708038330078	1.5220096429402474e-05	0.17311802506446838	5
+398	seinfeld_align	aligned	facebook/blenderbot-400M-distill	rugged and stow	ed	by	12.294361114501953	3.7375669479370117	4.577483650791692e-06	0.46515312790870667	5
+399	seinfeld_align	aligned	facebook/blenderbot-400M-distill	gged and stowed	 his	are	4.951019763946533	5.952817916870117	0.007076188921928406	0.06897687166929245	5
+400	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and stowed his	 l	ite	3.6938416957855225	5.680778980255127	0.024876249954104424	0.04272742196917534	5
+401	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 stowed his l	ugg	a	5.018634796142578	4.416314125061035	0.006613551173359156	0.2911493480205536	5
+402	seinfeld_align	aligned	facebook/blenderbot-400M-distill	owed his lugg	age	.	11.159117698669434	5.584247589111328	1.4244815247366205e-05	0.050707150250673294	5
+403	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ed his luggage	 in	a	6.5731096267700195	5.870005130767822	0.0013974455650895834	0.10519349575042725	5
+404	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 his luggage in	 the	I	6.495022773742676	6.312895774841309	0.0015109407249838114	0.10819322615861893	5
+405	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 luggage in the	 over	I	9.376409530639648	5.34653902053833	8.469876047456637e-05	0.057177700102329254	5
+406	seinfeld_align	aligned	facebook/blenderbot-400M-distill	uggage in the over	head	of	8.485020637512207	5.635493755340576	0.00020653920364566147	0.08495981991291046	5
+407	seinfeld_align	aligned	facebook/blenderbot-400M-distill	age in the overhead	 comp	act	3.8440768718719482	5.346060752868652	0.021406151354312897	0.07918290793895721	5
+408	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 in the overhead comp	art	s	7.519511699676514	5.311643123626709	0.000542397319804877	0.06326764076948166	5
+409	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the overhead compart	ment	I	11.47164535522461	5.094329833984375	1.0421436854812782e-05	0.1292039453983307	5
+410	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 overhead compartment	 well	I	5.258546829223633	5.572446823120117	0.005202860105782747	0.06648067384958267	5
+411	seinfeld_align	aligned	facebook/blenderbot-400M-distill	head compartment well	 it	's	5.7618818283081055	5.579306602478027	0.0031451864633709192	0.1214928925037384	5
+412	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 compartment well it	's	I	6.752590179443359	5.790963649749756	0.0011678506853058934	0.06950168311595917	5
+413	seinfeld_align	aligned	facebook/blenderbot-400M-distill	artment well it's	 all	so	10.038436889648438	5.910101890563965	4.3687985453289e-05	0.057325635105371475	5
+414	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ment well it's all	 a	time	4.1859893798828125	6.409683704376221	0.015207156538963318	0.02903733402490616	5
+415	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 well it's all a	 tiny	</s>	6.713526248931885	4.373222351074219	0.0012143744388595223	0.18288908898830414	5
+416	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 it's all a tiny	 world	</s>	8.017645835876465	4.681211471557617	0.00032959491363726556	0.21049953997135162	5
+417	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's all a tiny world	 on	a	8.597363471984863	5.225634574890137	0.00018459178681951016	0.21741321682929993	5
+418	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 all a tiny world on	 the	very	7.639790058135986	5.861852645874023	0.00048092941869981587	0.058775898069143295	5
+419	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a tiny world on the	 air	b	7.397943496704102	5.799335479736328	0.0006125110667198896	0.07087809592485428	5
+420	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny world on the air	pl	ane	5.904350280761719	1.9123964309692383	0.002727553714066744	0.6061606407165527	5
+421	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 world on the airpl	ane	.	14.750810623168945	5.606091499328613	3.924680811451253e-07	0.08255722373723984	5
+422	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 on the airplane	 isn	't	11.703454971313477	0.038041919469833374	8.265212272817735e-06	0.9967150688171387	5
+423	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the airplane isn	't	to	7.181853294372559	5.029739856719971	0.0007602577679790556	0.08626819401979446	5
+424	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 airplane isn't	 it	's	5.064207077026367	4.639496803283691	0.006318919826298952	0.20060613751411438	5
+425	seinfeld_align	aligned	facebook/blenderbot-400M-distill	plane isn't it	 there	's	7.08042049407959	3.86434268951416	0.0008414192125201225	0.2893959879875183	5
+426	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ane isn't it there	's	a	4.395939350128174	4.668689250946045	0.012327294796705246	0.3085581958293915	5
+427	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 isn't it there's	 that	's	4.487729549407959	5.070363998413086	0.011246148496866226	0.14645686745643616	5
+428	seinfeld_align	aligned	facebook/blenderbot-400M-distill	't it there's that	 little	I	9.37055778503418	5.37083625793457	8.519583207089454e-05	0.09275748580694199	5
+429	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 it there's that little	 tiny	</s>	8.863912582397461	5.2268218994140625	0.00014140074199531227	0.09585732221603394	5
+430	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 there's that little tiny	 table	to	6.547513961791992	5.650666236877441	0.001433675060980022	0.10123718529939651	5
+431	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's that little tiny table	 there	's	9.509408950805664	1.3035447597503662	7.415089203277603e-05	0.8353953957557678	5
+432	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 that little tiny table there	 tiny	</s>	5.416276931762695	5.174849987030029	0.004443660378456116	0.12326955795288086	5
+433	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 little tiny table there tiny	 computer		7.991504669189453	5.541214942932129	0.00033832452027127147	0.11696460843086243	5
+434	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny table there tiny computer	 little		5.556181907653809	5.856487274169922	0.0038634990341961384	0.07555121928453445	5
+435	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 table there tiny computer little	 cr	am	2.6522107124328613	5.173387050628662	0.07049520313739777	0.0737304538488388	5
+436	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 there tiny computer little cr	amp	to	10.15589714050293	4.775374889373779	3.8846308598294854e-05	0.09566619247198105	5
+437	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny computer little cramp	ed		10.054794311523438	5.341129302978516	4.297919076634571e-05	0.11548592150211334	5
+438	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 computer little cramped	 seats	and	12.212166786193848	5.586002826690674	4.969622295902809e-06	0.07279135286808014	5
+439	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 little cramped seats	 food	I	8.9567232131958	5.470795154571533	0.00012886783224530518	0.08753874897956848	5
+440	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 cramped seats food	 tiny	</s>	8.02405071258545	5.785464763641357	0.00032749082311056554	0.0772206112742424	5
+441	seinfeld_align	aligned	facebook/blenderbot-400M-distill	amped seats food tiny	 ut	ens	7.801567077636719	6.14119815826416	0.00040909324889071286	0.05576752498745918	5
+442	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ed seats food tiny ut	ens	ils	4.493683815002441	5.235866546630859	0.011179384775459766	0.16811181604862213	5
+443	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 seats food tiny utens	ils	</s>	12.200756072998047	4.939385414123535	5.026655799156288e-06	0.17142972350120544	5
+444	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 food tiny utensils	 tiny		4.750309944152832	5.657443046569824	0.008649013005197048	0.07086734473705292	5
+445	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny utensils tiny	 liqu	or	5.680193901062012	4.563287258148193	0.003412896767258644	0.3484572172164917	5
+446	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 utensils tiny liqu	or	</s>	9.25625991821289	4.627274990081787	9.551192488288507e-05	0.24847851693630219	5
+447	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ensils tiny liquor	 bott	les	5.030776023864746	3.4593310356140137	0.00653374008834362	0.49847397208213806	5
+448	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ils tiny liquor bott	les	of	13.96124267578125	4.35693359375	8.643888804726885e-07	0.30207324028015137	5
+449	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny liquor bottles	 tiny	I	4.599169731140137	5.439857482910156	0.010060183703899384	0.08358506858348846	5
+450	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 liquor bottles tiny	 bathroom	s	7.7311906814575195	3.6452078819274902	0.00043892121175304055	0.46000152826309204	5
+451	seinfeld_align	aligned	facebook/blenderbot-400M-distill	or bottles tiny bathroom	 tiny	</s>	7.701091766357422	5.218442916870117	0.0004523330135270953	0.1589733064174652	5
+452	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 bottles tiny bathroom tiny	 s		3.297252655029297	5.85481595993042	0.0369846411049366	0.07073754072189331	5
+453	seinfeld_align	aligned	facebook/blenderbot-400M-distill	les tiny bathroom tiny s	ink	</s>	10.895084381103516	4.5846333503723145	1.854918991739396e-05	0.20117393136024475	5
+454	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny bathroom tiny sink	 tiny		3.593369960784912	5.175045490264893	0.027505483478307724	0.10792484879493713	5
+455	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 bathroom tiny sink tiny	 mirror		5.311054706573486	5.96801233291626	0.004936717450618744	0.06673985719680786	5
+456	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny sink tiny mirror	 tiny	</s>	3.600613594055176	4.547453880310059	0.02730696275830269	0.1810385286808014	5
+457	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 sink tiny mirror tiny	 fa	</s>	2.8109323978424072	5.887137413024902	0.06014887988567352	0.06732674688100815	5
+458	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ink tiny mirror tiny fa	uc	et	8.62336254119873	4.462881565093994	0.0001798545417841524	0.2612529397010803	5
+459	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny mirror tiny fauc	et		6.9951324462890625	5.148341178894043	0.0009163314825855196	0.12388604879379272	5
+460	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 mirror tiny faucet	 so	I	4.412049770355225	5.35624361038208	0.012130290269851685	0.08034073561429977	5
+461	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 tiny faucet so	 there	's	7.2111711502075195	4.20643424987793	0.0007382918847724795	0.14289046823978424	5
+462	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 faucet so there	's	a	6.0654473304748535	5.184043884277344	0.0023217189591377974	0.06877806782722473	5
+463	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ucet so there's	 a	lot	4.1225128173828125	5.898649215698242	0.01620374247431755	0.0768386647105217	5
+464	seinfeld_align	aligned	facebook/blenderbot-400M-distill	et so there's a	 small	thing	9.791667938232422	5.896278381347656	5.591554145212285e-05	0.049682896584272385	5
+465	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 so there's a small	 problem	to	9.069270133972168	4.4432220458984375	0.00011515055666677654	0.11205991357564926	5
+466	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 there's a small problem	 there	to	5.731479644775391	4.477349281311035	0.003242276841774583	0.14082351326942444	5
+467	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's a small problem there	's	a	4.606049537658691	5.0461039543151855	0.009991206228733063	0.07710056006908417	5
+468	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a small problem there's	 gonna	be	9.35288143157959	2.5633280277252197	8.67152339196764e-05	0.6522198915481567	5
+469	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 small problem there's gonna	 be	so	6.6546783447265625	5.259028911590576	0.0012879823334515095	0.0975610762834549	5
+470	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 problem there's gonna be	 a	lot	5.626982688903809	5.546228885650635	0.0035994190257042646	0.10125032067298889	5
+471	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 there's gonna be a	 slight	thing	10.34242057800293	5.483527660369873	3.2236184779321775e-05	0.14334683120250702	5
+472	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's gonna be a slight	 delay	to	13.382962226867676	4.602383613586426	1.5411796994158067e-06	0.10207616537809372	5
+473	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 gonna be a slight delay	 we	're	5.338977336883545	4.6192779541015625	0.004800777416676283	0.11436979472637177	5
+474	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 be a slight delay we	're	just	7.936736106872559	5.697353363037109	0.00035737111466005445	0.09576187282800674	5
+475	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a slight delay we're	 gonna	be	9.276589393615723	5.014110565185547	9.358981333207339e-05	0.19014577567577362	5
+476	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 slight delay we're gonna	 be	we	6.518280029296875	5.527354717254639	0.0014762056525796652	0.0599525086581707	5
+477	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 delay we're gonna be	 a	to	4.2792768478393555	6.059935092926025	0.013852673582732677	0.054394904524087906	5
+478	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 we're gonna be a	 little	bit	8.747702598571777	5.304465293884277	0.0001588258019182831	0.1252666711807251	5
+479	seinfeld_align	aligned	facebook/blenderbot-400M-distill	're gonna be a little	 late	to	9.935277938842773	4.082969665527344	4.843546776100993e-05	0.1819254606962204	5
+480	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 gonna be a little late	 it	's	7.131809711456299	3.0148212909698486	0.0007992713944986463	0.501618504524231	5
+481	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 be a little late it	's	a	7.54686975479126	5.1523518562316895	0.0005277596064843237	0.10516835004091263	5
+482	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a little late it's	 life	</s>	7.962371826171875	5.20674991607666	0.0003483258478809148	0.07441242039203644	5
+483	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 little late it's life	 in	a	7.978887557983398	6.297266006469727	0.0003426203620620072	0.06353480368852615	5
+484	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 late it's life in	 mini	</s>	10.778261184692383	6.191555976867676	2.0847819541813806e-05	0.0631360337138176	5
+485	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 it's life in mini	ature		9.255836486816406	5.266737937927246	9.55523646553047e-05	0.09965682029724121	5
+486	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's life in miniature	 the	to	6.974942207336426	5.8748016357421875	0.0009350203326903284	0.1255321353673935	5
+487	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 life in miniature the	 pilot	to	9.22109603881836	5.862857818603516	9.89301988738589e-05	0.07335851341485977	5
+488	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 in miniature the pilot	 came	to	7.84335470199585	4.581700801849365	0.00039235063013620675	0.22662635147571564	5
+489	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 miniature the pilot came	 over	so	6.790936470031738	4.757259368896484	0.0011239161249250174	0.11373186111450195	5
+490	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ature the pilot came over	 the	I	6.323393821716309	6.152905464172363	0.0017938453238457441	0.04142572730779648	5
+491	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the pilot came over the	 pa	</s>	5.318814277648926	5.717648029327393	0.004898557905107737	0.07516378909349442	5
+492	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 pilot came over the pa	 system	.	7.780880451202393	4.694530963897705	0.00041764433262869716	0.17502300441265106	5
+493	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 came over the pa system	 and	again	6.61461067199707	4.875609397888184	0.0013406361686065793	0.07834518700838089	5
+494	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 over the pa system and	 started	again	9.920419692993164	5.051595687866211	4.916050602332689e-05	0.08810044825077057	5
+495	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the pa system and started	 describ	ing	12.906289100646973	1.0283972024917603	2.482388481439557e-06	0.7937808632850647	5
+496	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 pa system and started describ	ing	things	11.479663848876953	5.370261192321777	1.0338205356674735e-05	0.07524470239877701	5
+497	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 system and started describing	 their	own	4.997417449951172	5.431987285614014	0.0067553711123764515	0.09767042100429535	5
+498	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and started describing their	 route	.	8.562792778015137	3.806171178817749	0.00019108493870589882	0.31928157806396484	5
+499	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 started describing their route	 the	first	7.251755714416504	5.8733906745910645	0.0007089284481480718	0.10735651850700378	5
+500	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 describing their route the	 day	so	8.757879257202148	6.238897323608398	0.00015721774252597243	0.03989169001579285	5
+501	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ing their route the day	 we	are	4.352287292480469	5.393094539642334	0.012877327390015125	0.1316767781972885	5
+502	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 their route the day we	're	just	6.440320014953613	5.553388595581055	0.0015958952717483044	0.0410403348505497	5
+503	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 route the day we're	 head	ed	7.127815246582031	2.1012654304504395	0.0008024707203730941	0.4984503388404846	5
+504	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the day we're head	ed	to	8.701006889343262	3.455226182937622	0.0001664181618252769	0.2746884822845459	5
+505	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 day we're headed	 up	to	9.528578758239746	4.851430892944336	7.274295057868585e-05	0.10751280933618546	5
+506	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 we're headed up	 to	a	3.1316275596618652	5.664935111999512	0.04364670813083649	0.06494895368814468	5
+507	seinfeld_align	aligned	facebook/blenderbot-400M-distill	're headed up to	 th	e	4.465956687927246	6.209155559539795	0.011493696831166744	0.03253232315182686	5
+508	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 headed up to th	irty	for	11.877205848693848	5.640969276428223	6.946963367226999e-06	0.0782845988869667	5
+509	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ed up to thirty	 thousand	people	10.673612594604492	4.995574951171875	2.314774610567838e-05	0.11380337923765182	5
+510	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 up to thirty thousand	 feet	</s>	9.419363021850586	5.285546779632568	8.113771036732942e-05	0.08420537412166595	5
+511	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to thirty thousand feet	 then	.	14.176387786865234	4.9722137451171875	6.970644790271763e-07	0.1133861169219017	5
+512	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 thirty thousand feet then	 i	'm	4.662837028503418	5.0632548332214355	0.009439641609787941	0.08742421865463257	5
+513	seinfeld_align	aligned	facebook/blenderbot-400M-distill	irty thousand feet then i	'll	be	8.851082801818848	3.5621588230133057	0.00014322655624710023	0.4158986210823059	5
+514	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 thousand feet then i'll	 make	a	6.477760314941406	4.4465012550354	0.0015372494235634804	0.13193993270397186	5
+515	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 feet then i'll make	 a	thing	4.974771499633789	6.060788154602051	0.0069101001136004925	0.04932332783937454	5
+516	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 then i'll make a	 left	thing	6.126425743103027	5.351737022399902	0.0021843749564141035	0.05505162477493286	5
+517	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 i'll make a left	 by	a	6.105733394622803	5.5758161544799805	0.0022300456184893847	0.11627333611249924	5
+518	seinfeld_align	aligned	facebook/blenderbot-400M-distill	'll make a left by	 pit	ts	9.352587699890137	4.141609191894531	8.674067066749558e-05	0.17551667988300323	5
+519	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 make a left by pit	ts	bur	5.480742454528809	6.054403305053711	0.004166236147284508	0.09816619753837585	5
+520	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a left by pitts	bur	gh	3.9642510414123535	2.036930561065674	0.01898224838078022	0.47233477234840393	5
+521	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 left by pittsbur	gh	is	13.713096618652344	5.117918014526367	1.107841967495915e-06	0.15663038194179535	5
+522	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 by pittsburgh	 and	by	7.492754936218262	3.0212535858154297	0.0005571061628870666	0.5772860646247864	5
+523	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 pittsburgh and	 a	so	3.526550531387329	6.218400955200195	0.029406173154711723	0.05090568587183952	5
+524	seinfeld_align	aligned	facebook/blenderbot-400M-distill	tsburgh and a	 right	to	6.196229934692383	5.44007682800293	0.0020370956044644117	0.14155560731887817	5
+525	seinfeld_align	aligned	facebook/blenderbot-400M-distill	burgh and a right	 by	by	2.471080780029297	6.047507286071777	0.084493488073349	0.084493488073349	5
+526	seinfeld_align	aligned	facebook/blenderbot-400M-distill	gh and a right by	 ch	ch	1.4806151390075684	4.882885932922363	0.22749769687652588	0.22749769687652588	5
+527	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 and a right by ch	icago	</s>	10.097750663757324	3.674760580062866	4.11720757256262e-05	0.3763680160045624	5
+528	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a right by chicago	 jer	ry	6.237845420837402	5.194094657897949	0.001954061212018132	0.12446445971727371	5
+529	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 right by chicago jer	ry	a	6.684174060821533	5.75611686706543	0.0012505474733188748	0.05400791019201279	5
+530	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 by chicago jerry	 laughed	</s>	11.055797576904297	4.463666915893555	1.5795318176969886e-05	0.11934946477413177	5
+531	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 chicago jerry laughed	 as	a	7.411336898803711	5.519491195678711	0.000604362110607326	0.08880049735307693	5
+532	seinfeld_align	aligned	facebook/blenderbot-400M-distill	icago jerry laughed as	 he	had	5.060968399047852	4.672341346740723	0.006339416839182377	0.17860329151153564	5
+533	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 jerry laughed as he	 sat	</s>	6.367088794708252	5.347414016723633	0.0017171511426568031	0.09783966839313507	5
+534	seinfeld_align	aligned	facebook/blenderbot-400M-distill	ry laughed as he sat	 down	to	7.830951690673828	2.9618031978607178	0.0003972473496105522	0.5377148389816284	5
+535	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 laughed as he sat down	 listen	to	7.579590320587158	2.3894214630126953	0.0005107704200781882	0.6623664498329163	5
+536	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 as he sat down listen	 to	more	5.913203239440918	5.842357158660889	0.0027035123202949762	0.10962562263011932	5
+537	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 he sat down listen to	 this	I	4.276039123535156	5.529632091522217	0.013897600583732128	0.09013409167528152	5
+538	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 sat down listen to this	 guy	.	9.156279563903809	5.571249961853027	0.000105554900073912	0.08134143054485321	5
+539	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 down listen to this guy	 he	is	2.6941890716552734	5.501415252685547	0.0675971657037735	0.0740649476647377	5
+540	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 listen to this guy he	's	I	6.610486030578613	5.748584747314453	0.0013461774215102196	0.12008845806121826	5
+541	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 to this guy he's	 so	what	3.2211971282958984	5.989775657653809	0.03990725427865982	0.05613422021269798	5
+542	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 this guy he's so	 excited	about	7.282106399536133	4.5383453369140625	0.0006877351552248001	0.10602352768182755	5
+543	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 guy he's so excited	 about	shit	6.569795608520508	4.747373104095459	0.0014020842500030994	0.08990629017353058	5
+544	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 he's so excited about	 being	I	8.910614013671875	5.948956489562988	0.00013494890299625695	0.10397013276815414	5
+545	seinfeld_align	aligned	facebook/blenderbot-400M-distill	's so excited about being	 a	person	4.621654510498047	6.084878921508789	0.00983650702983141	0.060757990926504135	5
+546	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 so excited about being a	 pilot	a	10.529995918273926	4.948278427124023	2.6722735128714703e-05	0.11499852687120438	5
+547	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 excited about being a pilot	 he	is	2.716601848602295	5.1465229988098145	0.06609898805618286	0.0866503119468689	5
+548	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 about being a pilot he	 can	't	8.225025177001953	4.562236309051514	0.0002678655437193811	0.21737506985664368	5
+549	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 being a pilot he can	't	be	7.7799859046936035	4.385839462280273	0.0004180180258117616	0.22600288689136505	5
+550	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 a pilot he can't	 even	with	12.285863876342773	5.840108871459961	4.616546448232839e-06	0.06539957970380783	5
+551	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 pilot he can't even	 stand	to	8.135259628295898	4.074890613555908	0.0002930228365585208	0.3926304578781128	5
+552	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 he can't even stand	 himself	.	8.735845565795898	4.8329081535339355	0.0001607202138984576	0.11596105992794037	5
+553	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 can't even stand himself	 do	you	8.648387908935547	4.7253265380859375	0.00017540947010274976	0.1749112755060196	5
+554	seinfeld_align	aligned	facebook/blenderbot-400M-distill	't even stand himself do	 we	here	4.135761260986328	5.283779144287109	0.0159904882311821	0.07170644402503967	5
+555	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 even stand himself do we	 really	have	4.579226016998291	5.4746994972229	0.010262837633490562	0.07569727301597595	5
+556	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 stand himself do we really	 need	to	6.874593734741211	3.2234232425689697	0.001033717766404152	0.5250555872917175	5
+557	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 himself do we really need	 this	to	3.4354119300842285	5.006436824798584	0.03221213445067406	0.11487782001495361	5
+558	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 do we really need this	 information	to	9.071065902709961	5.370544910430908	0.00011494397040223703	0.09783286601305008	5
+559	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 we really need this information	 asked	we	6.933819770812988	4.8594746589660645	0.0009742725524120033	0.13561148941516876	5
+560	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 really need this information asked	 ge	orge	4.573829174041748	5.737475872039795	0.010318370535969734	0.1518697738647461	5
+561	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 need this information asked ge	orge	bus	6.239740371704102	5.871083736419678	0.0019503619987517595	0.07659687846899033	5
+562	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 this information asked george	 i		3.3419206142425537	5.665409088134766	0.03536896035075188	0.04085659608244896	5
+563	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 information asked george i	 mean	i	6.51431941986084	5.204378604888916	0.0014820639044046402	0.1326129287481308	5
+564	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 asked george i mean	 just	to	12.536432266235352	5.063793182373047	3.593328074202873e-06	0.14745956659317017	5
+565	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 george i mean just	 do	a	7.578081130981445	4.9577460289001465	0.0005115419626235962	0.060166895389556885	5
+566	seinfeld_align	aligned	facebook/blenderbot-400M-distill	orge i mean just do	 whatever	you	7.591192722320557	4.111855506896973	0.0005048784660175443	0.255448579788208	5
+567	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 i mean just do whatever	 the	next	6.858094215393066	5.930062294006348	0.0010509149869903922	0.07250165194272995	5
+568	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 mean just do whatever the	 hell	will	8.770692825317383	4.28151798248291	0.00015521602472290397	0.18707609176635742	5
+569	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 just do whatever the hell	 you	'd	4.780304431915283	4.308343887329102	0.008393443189561367	0.08437833935022354	5
+570	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 do whatever the hell you	 gotta	do	9.045035362243652	3.5928213596343994	0.00011797533079516143	0.477363646030426	5
+571	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 whatever the hell you gotta	 do	.	6.388728141784668	4.377345085144043	0.0016803918406367302	0.11515433341264725	5
+572	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 the hell you gotta do	 i	</s>	3.7701587677001953	5.375451564788818	0.02304840460419655	0.060658909380435944	5
+573	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 hell you gotta do i	 don	't	10.544896125793457	0.08277104049921036	2.6327523301006295e-05	0.9917368292808533	5
+574	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 you gotta do i don	't	you	5.80077600479126	4.674499988555908	0.0030252065043896437	0.10328524559736252	5
+575	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 gotta do i don't	 know	but	5.19742488861084	4.188991069793701	0.005530789028853178	0.12724527716636658	5
+576	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 do i don't know	 just	to	6.376368522644043	5.423340797424316	0.0017012902535498142	0.08515087515115738	5
+577	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 i don't know just	 end	I	5.020834922790527	5.838118553161621	0.006599014159291983	0.1174393892288208	5
+578	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 don't know just end	 up	having	8.52316665649414	5.675860404968262	0.00019880890613421798	0.03814298287034035	5
+579	seinfeld_align	aligned	facebook/blenderbot-400M-distill	't know just end up	 where	I	7.230880260467529	4.44898796081543	0.0007238832768052816	0.13494135439395905	5
+580	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 know just end up where	 it	is	4.78953218460083	4.882699012756348	0.008316346444189548	0.12030594050884247	5
+581	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 just end up where it	 says	so	9.059768676757812	4.668768405914307	0.00011624983744695783	0.20127169787883759	5
+582	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 end up where it says	 on	a	5.498908996582031	5.588532447814941	0.004091233480721712	0.10594560950994492	5
+583	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 up where it says on	 the	second	6.52475118637085	6.064128875732422	0.0014666842762380838	0.03504127636551857	5
+584	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 where it says on the	 ticket	to	7.531589984893799	4.33820104598999	0.0005358855123631656	0.3020778000354767	5
+585	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 it says on the ticket	 really	you	3.6737349033355713	5.343038558959961	0.02538149803876877	0.09308288991451263	5
+586	seinfeld_align	aligned	facebook/blenderbot-400M-distill	 says on the ticket really	</s>	I	6.593206405639648	5.680516242980957	0.0013696415117010474	0.04072899371385574	5

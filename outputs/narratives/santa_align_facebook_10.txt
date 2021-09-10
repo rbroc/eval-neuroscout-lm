@@ -1,0 +1,603 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	santa_align	aligned	facebook/blenderbot-400M-distill	 denny's it's always open proclaim	ed	.	9.221452713012695	4.9730329513549805	9.889493958326057e-05	0.1147732138633728	10
+1	santa_align	aligned	facebook/blenderbot-400M-distill	ny's it's always open proclaimed	 sc	sc	0.6157432198524475	3.3695294857025146	0.5402392148971558	0.5402392148971558	10
+2	santa_align	aligned	facebook/blenderbot-400M-distill	's it's always open proclaimed sc	ott	ish	8.597278594970703	3.71876859664917	0.00018460744468029588	0.4461335837841034	10
+3	santa_align	aligned	facebook/blenderbot-400M-distill	 it's always open proclaimed scott	 as	a	6.032560348510742	5.560378074645996	0.0023993426002562046	0.08547563850879669	10
+4	santa_align	aligned	facebook/blenderbot-400M-distill	's always open proclaimed scott as	 he	just	3.9484376907348633	5.372674942016602	0.0192848052829504	0.08506640046834946	10
+5	santa_align	aligned	facebook/blenderbot-400M-distill	 always open proclaimed scott as he	 opened	just	7.570342063903809	4.772913455963135	0.000515516207087785	0.11243101209402084	10
+6	santa_align	aligned	facebook/blenderbot-400M-distill	 open proclaimed scott as he opened	 the	door	6.657454013824463	6.269811153411865	0.0012844122247770429	0.03704589977860451	10
+7	santa_align	aligned	facebook/blenderbot-400M-distill	 proclaimed scott as he opened the	 door	.	4.338559150695801	4.51138162612915	0.01305532269179821	0.1131717786192894	10
+8	santa_align	aligned	facebook/blenderbot-400M-distill	claimed scott as he opened the door	 to	but	4.921442031860352	6.26931619644165	0.0072886100970208645	0.037193845957517624	10
+9	santa_align	aligned	facebook/blenderbot-400M-distill	aimed scott as he opened the door to	 the	you	5.881740570068359	6.255182266235352	0.0027899250853806734	0.03928485885262489	10
+10	santa_align	aligned	facebook/blenderbot-400M-distill	ed scott as he opened the door to the	 restaurant	.	9.56977653503418	4.219838619232178	6.980699981795624e-05	0.2589862048625946	10
+11	santa_align	aligned	facebook/blenderbot-400M-distill	 scott as he opened the door to the restaurant	 his	special	5.682823181152344	6.161637783050537	0.0034039360471069813	0.11507139354944229	10
+12	santa_align	aligned	facebook/blenderbot-400M-distill	ott as he opened the door to the restaurant his	 son	has	10.056324005126953	5.499582290649414	4.291348159313202e-05	0.07595375180244446	10
+13	santa_align	aligned	facebook/blenderbot-400M-distill	 as he opened the door to the restaurant his son	 char	ac	4.8266825675964355	4.5305047035217285	0.008013059385120869	0.11537755280733109	10
+14	santa_align	aligned	facebook/blenderbot-400M-distill	 he opened the door to the restaurant his son char	l	ie	8.08289909362793	2.8578600883483887	0.0003087747027166188	0.39055439829826355	10
+15	santa_align	aligned	facebook/blenderbot-400M-distill	 opened the door to the restaurant his son charl	ie	.	8.721014022827148	5.446199417114258	0.00016312177467625588	0.1143442764878273	10
+16	santa_align	aligned	facebook/blenderbot-400M-distill	 the door to the restaurant his son charlie	 	</s>	1.0109347105026245	2.793566942214966	0.36387869715690613	0.3656775951385498	10
+17	santa_align	aligned	facebook/blenderbot-400M-distill	 door to the restaurant his son charlie 	<unk>	of	17.79339027404785	4.701741695404053	1.872531463220639e-08	0.2402781993150711	10
+18	santa_align	aligned	facebook/blenderbot-400M-distill	 to the restaurant his son charlie <unk>	 sh	oo	2.665745496749878	5.736781597137451	0.06954748928546906	0.08995789289474487	10
+19	santa_align	aligned	facebook/blenderbot-400M-distill	 the restaurant his son charlie <unk> sh	uff	le	10.781603813171387	2.8318748474121094	2.0778248654096387e-05	0.47741803526878357	10
+20	santa_align	aligned	facebook/blenderbot-400M-distill	 restaurant his son charlie <unk> shuff	led	to	10.70556926727295	5.808923244476318	2.2419724700739607e-05	0.14346449077129364	10
+21	santa_align	aligned	facebook/blenderbot-400M-distill	 his son charlie <unk> shuffled	 through	a	9.456361770629883	4.865627288818359	7.819054007995874e-05	0.1465722620487213	10
+22	santa_align	aligned	facebook/blenderbot-400M-distill	 son charlie <unk> shuffled through	 the	to	5.061394691467285	6.356357574462891	0.006336716469377279	0.042791932821273804	10
+23	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie <unk> shuffled through the	 door	st	6.07271671295166	4.619608402252197	0.0023049034643918276	0.31725117564201355	10
+24	santa_align	aligned	facebook/blenderbot-400M-distill	lie <unk> shuffled through the door	 k	k	1.639470100402832	5.188735485076904	0.19408287107944489	0.19408287107944489	10
+25	santa_align	aligned	facebook/blenderbot-400M-distill	ie <unk> shuffled through the door k	icking	of	10.105300903320312	5.9381513595581055	4.0862396417651325e-05	0.035283904522657394	10
+26	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> shuffled through the door kicking	 snow	</s>	5.836670398712158	3.7253897190093994	0.002918543992564082	0.2597542703151703	10
+27	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> shuffled through the door kicking snow	 onto	the	9.324566841125488	5.876864910125732	8.920556865632534e-05	0.03965045511722565	10
+28	santa_align	aligned	facebook/blenderbot-400M-distill	 shuffled through the door kicking snow onto	 the	second	8.049199104309082	6.124333381652832	0.0003193574957549572	0.07657873630523682	10
+29	santa_align	aligned	facebook/blenderbot-400M-distill	uffled through the door kicking snow onto the	 	</s>	1.5384366512298584	4.172105312347412	0.21471652388572693	0.3137686848640442	10
+30	santa_align	aligned	facebook/blenderbot-400M-distill	led through the door kicking snow onto the 	<unk>		17.980833053588867	4.2328290939331055	1.5524721064252844e-08	0.2924245595932007	10
+31	santa_align	aligned	facebook/blenderbot-400M-distill	 through the door kicking snow onto the <unk>	 car		4.132556915283203	5.817531108856201	0.01604180783033371	0.09340151399374008	10
+32	santa_align	aligned	facebook/blenderbot-400M-distill	 the door kicking snow onto the <unk> car	pet	ed	10.56930923461914	4.870776176452637	2.5692543204058893e-05	0.10192301869392395	10
+33	santa_align	aligned	facebook/blenderbot-400M-distill	 door kicking snow onto the <unk> carpet	 i	just	3.829028606414795	5.835752964019775	0.021730713546276093	0.08857561647891998	10
+34	santa_align	aligned	facebook/blenderbot-400M-distill	 kicking snow onto the <unk> carpet i	 don	't	7.468499183654785	0.9782193303108215	0.0005707843229174614	0.8777750134468079	10
+35	santa_align	aligned	facebook/blenderbot-400M-distill	icking snow onto the <unk> carpet i don	't		7.918621063232422	4.868284702301025	0.0003639036731328815	0.1044936254620552	10
+36	santa_align	aligned	facebook/blenderbot-400M-distill	 snow onto the <unk> carpet i don't	 want	to	6.781097412109375	1.3773797750473022	0.001135028898715973	0.8308881521224976	10
+37	santa_align	aligned	facebook/blenderbot-400M-distill	 onto the <unk> carpet i don't want	 to	be	4.1995954513549805	4.969847679138184	0.01500164344906807	0.19427989423274994	10
+38	santa_align	aligned	facebook/blenderbot-400M-distill	 the <unk> carpet i don't want to	 eat	again	8.18172550201416	4.319432258605957	0.00027971883537247777	0.20292510092258453	10
+39	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> carpet i don't want to eat	 here	.	8.915613174438477	3.703253984451294	0.00013427606609184295	0.2999023199081421	10
+40	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> carpet i don't want to eat here	 he	's	4.201544761657715	5.667534828186035	0.014972426928579807	0.07865641266107559	10
+41	santa_align	aligned	facebook/blenderbot-400M-distill	 carpet i don't want to eat here he	 m	es	4.946089744567871	5.568296909332275	0.007111163344234228	0.07908722013235092	10
+42	santa_align	aligned	facebook/blenderbot-400M-distill	pet i don't want to eat here he m	umb	les	10.144294738769531	0.9900751113891602	3.929964441340417e-05	0.8412116765975952	10
+43	santa_align	aligned	facebook/blenderbot-400M-distill	 i don't want to eat here he mumb	led	I	10.694609642028809	5.0779709815979	2.2666783479508013e-05	0.08609464764595032	10
+44	santa_align	aligned	facebook/blenderbot-400M-distill	 don't want to eat here he mumbled	 as	we	6.748858451843262	3.637478828430176	0.001172217191196978	0.37262457609176636	10
+45	santa_align	aligned	facebook/blenderbot-400M-distill	't want to eat here he mumbled as	 sc	sc	2.7992746829986572	5.533030033111572	0.06085418909788132	0.06085418909788132	10
+46	santa_align	aligned	facebook/blenderbot-400M-distill	 want to eat here he mumbled as sc	ott	ish	10.025688171386719	2.602858066558838	4.424853977980092e-05	0.6771844625473022	10
+47	santa_align	aligned	facebook/blenderbot-400M-distill	 to eat here he mumbled as scott	 ent	h	7.438563346862793	5.010518550872803	0.0005881295655854046	0.20477156341075897	10
+48	santa_align	aligned	facebook/blenderbot-400M-distill	 eat here he mumbled as scott ent	ered	.	14.141715049743652	5.362807750701904	7.216575568236294e-07	0.06957334280014038	10
+49	santa_align	aligned	facebook/blenderbot-400M-distill	 here he mumbled as scott entered	 behind	.	11.809286117553711	4.636368274688721	7.435190127580427e-06	0.13496197760105133	10
+50	santa_align	aligned	facebook/blenderbot-400M-distill	 he mumbled as scott entered behind	 him	I	7.164135932922363	4.996672630310059	0.0007738473359495401	0.12801428139209747	10
+51	santa_align	aligned	facebook/blenderbot-400M-distill	 mumbled as scott entered behind him	 this	is	6.502869606018066	5.0474443435668945	0.001499130972661078	0.2562237083911896	10
+52	santa_align	aligned	facebook/blenderbot-400M-distill	umbled as scott entered behind him this	 wasn	't	12.94968318939209	0.5543197989463806	2.3769719064148376e-06	0.8718895316123962	10
+53	santa_align	aligned	facebook/blenderbot-400M-distill	led as scott entered behind him this wasn	't	.	8.357182502746582	4.6172614097595215	0.00023470465384889394	0.14694568514823914	10
+54	santa_align	aligned	facebook/blenderbot-400M-distill	 as scott entered behind him this wasn't	 how	we	6.746759414672852	4.484241485595703	0.0011746800737455487	0.25838586688041687	10
+55	santa_align	aligned	facebook/blenderbot-400M-distill	 scott entered behind him this wasn't how	 he	's	6.175006866455078	5.0459418296813965	0.0020807913970202208	0.12078347057104111	10
+56	santa_align	aligned	facebook/blenderbot-400M-distill	ott entered behind him this wasn't how he	 had	to	5.944931983947754	5.070608615875244	0.002619080012664199	0.17731429636478424	10
+57	santa_align	aligned	facebook/blenderbot-400M-distill	 entered behind him this wasn't how he had	 picture	's	9.384552955627441	5.312948703765869	8.401182276429608e-05	0.20091108977794647	10
+58	santa_align	aligned	facebook/blenderbot-400M-distill	ered behind him this wasn't how he had picture	d	.	7.38691520690918	4.62105131149292	0.0006193032604642212	0.12866708636283875	10
+59	santa_align	aligned	facebook/blenderbot-400M-distill	 behind him this wasn't how he had pictured	 spending	we	7.523116111755371	5.717487812042236	0.0005404457915574312	0.06512480974197388	10
+60	santa_align	aligned	facebook/blenderbot-400M-distill	 him this wasn't how he had pictured spending	 his	life	8.591217994689941	5.658146381378174	0.00018572974659036845	0.16782566905021667	10
+61	santa_align	aligned	facebook/blenderbot-400M-distill	 this wasn't how he had pictured spending his	 christ	ian	3.5779237747192383	3.529162883758545	0.0279336329549551	0.3861272931098938	10
+62	santa_align	aligned	facebook/blenderbot-400M-distill	 wasn't how he had pictured spending his christ	mas	you	11.56646728515625	5.980126857757568	9.478666470386088e-06	0.038284238427877426	10
+63	santa_align	aligned	facebook/blenderbot-400M-distill	't how he had pictured spending his christmas	 e	ct	2.7288832664489746	5.265250205993652	0.06529215723276138	0.11943519115447998	10
+64	santa_align	aligned	facebook/blenderbot-400M-distill	 how he had pictured spending his christmas e	ve	.	8.966939926147461	4.751210689544678	0.00012755789794027805	0.18419867753982544	10
+65	santa_align	aligned	facebook/blenderbot-400M-distill	 he had pictured spending his christmas eve	 what	is	4.834427833557129	5.053350925445557	0.00795123353600502	0.13088220357894897	10
+66	santa_align	aligned	facebook/blenderbot-400M-distill	 had pictured spending his christmas eve what	 are	the	6.851126670837402	4.6324849128723145	0.0010582627728581429	0.19748792052268982	10
+67	santa_align	aligned	facebook/blenderbot-400M-distill	 pictured spending his christmas eve what are	 you	doing	5.116436958312988	5.313565731048584	0.005997353699058294	0.08151547610759735	10
+68	santa_align	aligned	facebook/blenderbot-400M-distill	d spending his christmas eve what are you	 talking	about	10.619454383850098	0.22465448081493378	2.4435974410152994e-05	0.9766023755073547	10
+69	santa_align	aligned	facebook/blenderbot-400M-distill	 spending his christmas eve what are you talking	 about	?	6.299976348876953	5.187195777893066	0.0018363480921834707	0.13301636278629303	10
+70	santa_align	aligned	facebook/blenderbot-400M-distill	 his christmas eve what are you talking about	 everybody	else	10.501547813415527	5.183204650878906	2.7493862944538705e-05	0.06218201667070389	10
+71	santa_align	aligned	facebook/blenderbot-400M-distill	 christmas eve what are you talking about everybody	 likes	</s>	9.8616304397583	5.448462009429932	5.213726035435684e-05	0.1227359026670456	10
+72	santa_align	aligned	facebook/blenderbot-400M-distill	mas eve what are you talking about everybody likes	 den	ying	7.133949279785156	5.258379936218262	0.0007975632906891406	0.09253047406673431	10
+73	santa_align	aligned	facebook/blenderbot-400M-distill	 eve what are you talking about everybody likes den	ny	</s>	7.543407440185547	5.048003196716309	0.0005295901792123914	0.20077018439769745	10
+74	santa_align	aligned	facebook/blenderbot-400M-distill	ve what are you talking about everybody likes denny	's	a	7.847638130187988	6.313060760498047	0.0003906735510099679	0.03710634261369705	10
+75	santa_align	aligned	facebook/blenderbot-400M-distill	 what are you talking about everybody likes denny's	 it	's	7.402273654937744	3.822540044784546	0.0006098645972087979	0.450694739818573	10
+76	santa_align	aligned	facebook/blenderbot-400M-distill	 are you talking about everybody likes denny's it	's	a	7.1585917472839355	4.058187484741211	0.0007781495805829763	0.3549128472805023	10
+77	santa_align	aligned	facebook/blenderbot-400M-distill	 you talking about everybody likes denny's it's	 an	ts	7.000067234039307	5.129644393920898	0.0009118206216953695	0.08575072139501572	10
+78	santa_align	aligned	facebook/blenderbot-400M-distill	 talking about everybody likes denny's it's an	 amer	ican	8.91875171661377	0.3238891065120697	0.00013385525380726904	0.9552366137504578	10
+79	santa_align	aligned	facebook/blenderbot-400M-distill	 about everybody likes denny's it's an amer	ican	thing	11.981817245483398	5.897675037384033	6.2569502006226685e-06	0.11987875401973724	10
+80	santa_align	aligned	facebook/blenderbot-400M-distill	 everybody likes denny's it's an american	 inst	itute	6.67786979675293	3.063936233520508	0.0012584556825459003	0.25046998262405396	10
+81	santa_align	aligned	facebook/blenderbot-400M-distill	 likes denny's it's an american inst	itution	.	12.382881164550781	4.630431175231934	4.1897014853020664e-06	0.10533401370048523	10
+82	santa_align	aligned	facebook/blenderbot-400M-distill	 denny's it's an american institution	 as	a	6.996082305908203	3.967423439025879	0.0009154613362625241	0.3174901604652405	10
+83	santa_align	aligned	facebook/blenderbot-400M-distill	ny's it's an american institution as	 they	're	4.328015327453613	5.692119598388672	0.0131937051191926	0.10164389759302139	10
+84	santa_align	aligned	facebook/blenderbot-400M-distill	's it's an american institution as they	 appro	ve	8.990171432495117	1.3429805040359497	0.0001246287429239601	0.7670383453369141	10
+85	santa_align	aligned	facebook/blenderbot-400M-distill	 it's an american institution as they appro	ached	</s>	14.1817626953125	5.218654632568359	6.933278768883611e-07	0.09342092275619507	10
+86	santa_align	aligned	facebook/blenderbot-400M-distill	's an american institution as they approached	 the	a	7.663949489593506	6.505184650421143	0.00046944967471063137	0.042044613510370255	10
+87	santa_align	aligned	facebook/blenderbot-400M-distill	 an american institution as they approached the	 host	s	7.765328884124756	3.9575624465942383	0.0004241900169290602	0.29163652658462524	10
+88	santa_align	aligned	facebook/blenderbot-400M-distill	 american institution as they approached the host	ess	es	4.234842300415039	2.5081608295440674	0.01448209397494793	0.6633808612823486	10
+89	santa_align	aligned	facebook/blenderbot-400M-distill	ican institution as they approached the hostess	 stand	up	6.14912748336792	4.961723804473877	0.0021353443153202534	0.13432617485523224	10
+90	santa_align	aligned	facebook/blenderbot-400M-distill	 institution as they approached the hostess stand	 they	are	4.7357940673828125	5.294405937194824	0.008775479160249233	0.13288544118404388	10
+91	santa_align	aligned	facebook/blenderbot-400M-distill	itution as they approached the hostess stand they	 heard	from	7.838922500610352	5.060403823852539	0.0003940934839192778	0.06057823821902275	10
+92	santa_align	aligned	facebook/blenderbot-400M-distill	 as they approached the hostess stand they heard	 a	different	6.328699111938477	6.106060981750488	0.0017843530513346195	0.1052311584353447	10
+93	santa_align	aligned	facebook/blenderbot-400M-distill	 they approached the hostess stand they heard a	 loud	I	8.074353218078613	6.047982215881348	0.0003114245773758739	0.037946972995996475	10
+94	santa_align	aligned	facebook/blenderbot-400M-distill	 approached the hostess stand they heard a loud	 comm	ute	4.444467544555664	4.082449436187744	0.011743354611098766	0.3183237314224243	10
+95	santa_align	aligned	facebook/blenderbot-400M-distill	ached the hostess stand they heard a loud comm	ot	ion	8.153292655944824	1.4196630716323853	0.0002877861261367798	0.6585197448730469	10
+96	santa_align	aligned	facebook/blenderbot-400M-distill	 the hostess stand they heard a loud commot	ion	I	12.211798667907715	5.4107890129089355	4.971452653990127e-06	0.06058020517230034	10
+97	santa_align	aligned	facebook/blenderbot-400M-distill	 hostess stand they heard a loud commotion	 from	a	7.786327362060547	5.705216884613037	0.0004153755435254425	0.054092925041913986	10
+98	santa_align	aligned	facebook/blenderbot-400M-distill	ess stand they heard a loud commotion from	 inside	of	9.801212310791016	4.756711483001709	5.5384443840011954e-05	0.26629993319511414	10
+99	santa_align	aligned	facebook/blenderbot-400M-distill	 stand they heard a loud commotion from inside	 the	I	5.679401397705078	6.041412830352783	0.003415602957829833	0.08976835757493973	10
+100	santa_align	aligned	facebook/blenderbot-400M-distill	 they heard a loud commotion from inside the	 restaurant	I	9.22578239440918	4.687487602233887	9.846765169641003e-05	0.09602302312850952	10
+101	santa_align	aligned	facebook/blenderbot-400M-distill	 heard a loud commotion from inside the restaurant	 a	we	4.709285736083984	6.4202470779418945	0.009011211805045605	0.05653856694698334	10
+102	santa_align	aligned	facebook/blenderbot-400M-distill	 a loud commotion from inside the restaurant a	 huge	I	8.583274841308594	5.418768882751465	0.00018721084052231163	0.07515270262956619	10
+103	santa_align	aligned	facebook/blenderbot-400M-distill	 loud commotion from inside the restaurant a huge	 table	to	9.060752868652344	5.265952110290527	0.00011613557580858469	0.09085842967033386	10
+104	santa_align	aligned	facebook/blenderbot-400M-distill	 commotion from inside the restaurant a huge table	 of	people	7.64998722076416	5.755545616149902	0.0004760501906275749	0.1356588453054428	10
+105	santa_align	aligned	facebook/blenderbot-400M-distill	otion from inside the restaurant a huge table of	 j	az	2.7393312454223633	4.9941582679748535	0.06461353600025177	0.11407267302274704	10
+106	santa_align	aligned	facebook/blenderbot-400M-distill	ion from inside the restaurant a huge table of j	apan	ese	9.523955345153809	0.8281949162483215	7.308002386707813e-05	0.9026589393615723	10
+107	santa_align	aligned	facebook/blenderbot-400M-distill	 from inside the restaurant a huge table of japan	ese	people	7.07792854309082	6.204348087310791	0.0008435187628492713	0.04180637747049332	10
+108	santa_align	aligned	facebook/blenderbot-400M-distill	 inside the restaurant a huge table of japanese	 business	and	7.384194374084473	5.27725887298584	0.0006209907005541027	0.06999668478965759	10
+109	santa_align	aligned	facebook/blenderbot-400M-distill	 the restaurant a huge table of japanese business	men	and	11.102743148803711	5.30565071105957	1.5070932931848802e-05	0.10543365776538849	10
+110	santa_align	aligned	facebook/blenderbot-400M-distill	 restaurant a huge table of japanese businessmen	 were	and	5.0106658935546875	5.614843845367432	0.006666463799774647	0.1117907240986824	10
+111	santa_align	aligned	facebook/blenderbot-400M-distill	 a huge table of japanese businessmen were	 		0.8406280279159546	4.151637077331543	0.43143948912620544	0.43143948912620544	10
+112	santa_align	aligned	facebook/blenderbot-400M-distill	 huge table of japanese businessmen were 	<unk>	to	17.608016967773438	5.559985160827637	2.2539055066772562e-08	0.10408079624176025	10
+113	santa_align	aligned	facebook/blenderbot-400M-distill	 table of japanese businessmen were <unk>	 		1.0247588157653809	4.446455001831055	0.3588830232620239	0.3588830232620239	10
+114	santa_align	aligned	facebook/blenderbot-400M-distill	 of japanese businessmen were <unk> 	<unk>		17.77547264099121	5.219421863555908	1.9063834955090897e-08	0.17274782061576843	10
+115	santa_align	aligned	facebook/blenderbot-400M-distill	 japanese businessmen were <unk> <unk>	 to		3.8418028354644775	6.060347080230713	0.021454885601997375	0.0758245512843132	10
+116	santa_align	aligned	facebook/blenderbot-400M-distill	apanese businessmen were <unk> <unk> to	 one	second	4.883638381958008	5.640242576599121	0.007569420617073774	0.12237817794084549	10
+117	santa_align	aligned	facebook/blenderbot-400M-distill	ese businessmen were <unk> <unk> to one	 another		9.597258567810059	4.048883438110352	6.79146614857018e-05	0.32013562321662903	10
+118	santa_align	aligned	facebook/blenderbot-400M-distill	 businessmen were <unk> <unk> to one another	 and		5.790788650512695	5.791365623474121	0.003055570414289832	0.12234701961278915	10
+119	santa_align	aligned	facebook/blenderbot-400M-distill	men were <unk> <unk> to one another and	 er	r	7.114519119262695	5.083580017089844	0.0008132114890031517	0.21734854578971863	10
+120	santa_align	aligned	facebook/blenderbot-400M-distill	 were <unk> <unk> to one another and er	up	el	7.874981880187988	5.35167121887207	0.00038013586890883744	0.09157417714595795	10
+121	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> <unk> to one another and erup	ting	.	12.282318115234375	5.390010356903076	4.6329414544743486e-06	0.04426732659339905	10
+122	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> <unk> to one another and erupting	 in		6.47872257232666	6.344496250152588	0.0015357715310528874	0.04202837496995926	10
+123	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> to one another and erupting in	 		1.1763849258422852	4.13801908493042	0.30839160084724426	0.30839160084724426	10
+124	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> to one another and erupting in 	<unk>		16.868335723876953	5.28644323348999	4.722528146317018e-08	0.1623545140028	10
+125	santa_align	aligned	facebook/blenderbot-400M-distill	 to one another and erupting in <unk>	 of		4.98311710357666	5.52714729309082	0.006852669175714254	0.1442144513130188	10
+126	santa_align	aligned	facebook/blenderbot-400M-distill	 one another and erupting in <unk> of	 laugh	s	7.648540496826172	3.492523193359375	0.00047673939843662083	0.32604530453681946	10
+127	santa_align	aligned	facebook/blenderbot-400M-distill	 another and erupting in <unk> of laugh	ter		8.551749229431152	4.444317817687988	0.00019320678256917745	0.16256964206695557	10
+128	santa_align	aligned	facebook/blenderbot-400M-distill	 and erupting in <unk> of laughter	 har	ry	2.083494186401367	3.586933135986328	0.12449443340301514	0.3447602093219757	10
+129	santa_align	aligned	facebook/blenderbot-400M-distill	 erupting in <unk> of laughter har	ried	but	9.120870590209961	6.158787250518799	0.00010935943282674998	0.035136427730321884	10
+130	santa_align	aligned	facebook/blenderbot-400M-distill	upting in <unk> of laughter harried	 wait	</s>	6.548940658569336	5.6778974533081055	0.001431631506420672	0.05480290576815605	10
+131	santa_align	aligned	facebook/blenderbot-400M-distill	ting in <unk> of laughter harried wait	ress	es	9.99622917175293	1.710921287536621	4.557146894512698e-05	0.7832223773002625	10
+132	santa_align	aligned	facebook/blenderbot-400M-distill	 in <unk> of laughter harried waitress	es	</s>	9.064990997314453	4.380949020385742	0.0001156442885985598	0.17061854898929596	10
+133	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> of laughter harried waitresses	 we	have	6.332160949707031	5.330604076385498	0.0017781873466446996	0.09668298810720444	10
+134	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> of laughter harried waitresses we	a	ver	9.235461235046387	2.9310030937194824	9.751920879352838e-05	0.46472886204719543	10
+135	santa_align	aligned	facebook/blenderbot-400M-distill	 of laughter harried waitresses wea	ved	to	11.938578605651855	4.846121311187744	6.533427949761972e-06	0.16699707508087158	10
+136	santa_align	aligned	facebook/blenderbot-400M-distill	 laughter harried waitresses weaved	 between	to	9.557099342346191	5.440318584442139	7.069759158184752e-05	0.0806725025177002	10
+137	santa_align	aligned	facebook/blenderbot-400M-distill	ter harried waitresses weaved between	 them	and	9.806488037109375	5.88232946395874	5.509300535777584e-05	0.0661543756723404	10
+138	santa_align	aligned	facebook/blenderbot-400M-distill	 harried waitresses weaved between them	 to	some	3.9241385459899902	5.6835246086120605	0.019759150221943855	0.09005588293075562	10
+139	santa_align	aligned	facebook/blenderbot-400M-distill	ried waitresses weaved between them to	 p	ec	5.4397873878479	5.1170854568481445	0.004340405575931072	0.12258537113666534	10
+140	santa_align	aligned	facebook/blenderbot-400M-distill	 waitresses weaved between them to p	our	.	8.292057037353516	5.309185028076172	0.00025049876421689987	0.11714665591716766	10
+141	santa_align	aligned	facebook/blenderbot-400M-distill	resses weaved between them to pour	 ref	lex	2.4646105766296387	4.8848958015441895	0.08504194021224976	0.13956797122955322	10
+142	santa_align	aligned	facebook/blenderbot-400M-distill	es weaved between them to pour ref	ills	.	12.332698822021484	4.23225212097168	4.405316303746076e-06	0.2987179458141327	10
+143	santa_align	aligned	facebook/blenderbot-400M-distill	 weaved between them to pour refills	 of	I	5.468783378601074	5.612543106079102	0.004216358065605164	0.11863552778959274	10
+144	santa_align	aligned	facebook/blenderbot-400M-distill	aved between them to pour refills of	 coffee	.	7.5179524421691895	5.318908214569092	0.0005432437756098807	0.132438063621521	10
+145	santa_align	aligned	facebook/blenderbot-400M-distill	ved between them to pour refills of coffee	 a	place	5.131709575653076	6.766611099243164	0.005906454753130674	0.017322007566690445	10
+146	santa_align	aligned	facebook/blenderbot-400M-distill	 between them to pour refills of coffee a	 host	ess	10.04311466217041	4.7548651695251465	4.3484124034876004e-05	0.19104528427124023	10
+147	santa_align	aligned	facebook/blenderbot-400M-distill	 them to pour refills of coffee a host	ess	es	1.684244155883789	3.8484368324279785	0.1855846494436264	0.3115008771419525	10
+148	santa_align	aligned	facebook/blenderbot-400M-distill	 to pour refills of coffee a hostess	 hur	ry	3.218139171600342	4.813751220703125	0.04002947732806206	0.20835766196250916	10
+149	santa_align	aligned	facebook/blenderbot-400M-distill	 pour refills of coffee a hostess hur	ried	so	12.575849533081055	5.470988750457764	3.454443685768638e-06	0.06880262494087219	10
+150	santa_align	aligned	facebook/blenderbot-400M-distill	our refills of coffee a hostess hurried	 up	</s>	7.181146144866943	5.682480812072754	0.0007607953739352524	0.08095114678144455	10
+151	santa_align	aligned	facebook/blenderbot-400M-distill	 refills of coffee a hostess hurried up	 to	I	4.6737165451049805	5.145531177520752	0.009337500669062138	0.18578605353832245	10
+152	santa_align	aligned	facebook/blenderbot-400M-distill	ills of coffee a hostess hurried up to	 meet	with	5.594666481018066	5.844819068908691	0.0037176397163420916	0.06469056755304337	10
+153	santa_align	aligned	facebook/blenderbot-400M-distill	 of coffee a hostess hurried up to meet	 them	is	9.110219955444336	5.5857391357421875	0.00011053037451347336	0.10697577148675919	10
+154	santa_align	aligned	facebook/blenderbot-400M-distill	 coffee a hostess hurried up to meet them	 are	just	4.604184627532959	5.509377479553223	0.010009861551225185	0.05885343998670578	10
+155	santa_align	aligned	facebook/blenderbot-400M-distill	 a hostess hurried up to meet them are	 you	I	3.6008057594299316	5.422326564788818	0.027301715686917305	0.08123985677957535	10
+156	santa_align	aligned	facebook/blenderbot-400M-distill	 hostess hurried up to meet them are you	 with	I	5.291322708129883	5.465864181518555	0.005035095382481813	0.0797804445028305	10
+157	santa_align	aligned	facebook/blenderbot-400M-distill	ess hurried up to meet them are you with	 		1.526597023010254	5.390173435211182	0.2172737866640091	0.2172737866640091	10
+158	santa_align	aligned	facebook/blenderbot-400M-distill	 hurried up to meet them are you with 	<unk>		17.83213233947754	4.964874744415283	1.8013702529628972e-08	0.10643063485622406	10
+159	santa_align	aligned	facebook/blenderbot-400M-distill	ried up to meet them are you with <unk>	 no	you	6.562755584716797	6.203482627868652	0.0014119890984147787	0.03636984899640083	10
+160	santa_align	aligned	facebook/blenderbot-400M-distill	 up to meet them are you with <unk> no	 said	to	9.633622169494629	5.176534175872803	6.548941746586934e-05	0.11050255596637726	10
+161	santa_align	aligned	facebook/blenderbot-400M-distill	 to meet them are you with <unk> no said	 char	ter	4.09130859375	4.553213119506836	0.016717342659831047	0.1453275978565216	10
+162	santa_align	aligned	facebook/blenderbot-400M-distill	 meet them are you with <unk> no said char	l	ie	6.521446228027344	2.7124862670898438	0.0014715396100655198	0.5568350553512573	10
+163	santa_align	aligned	facebook/blenderbot-400M-distill	 them are you with <unk> no said charl	ie		6.681321144104004	5.788350582122803	0.0012541200267150998	0.0772208571434021	10
+164	santa_align	aligned	facebook/blenderbot-400M-distill	 are you with <unk> no said charlie	 dad	s	6.518121719360352	3.346639633178711	0.0014764399966225028	0.4114954471588135	10
+165	santa_align	aligned	facebook/blenderbot-400M-distill	 you with <unk> no said charlie dad	 bur	bur	2.5535497665405273	5.090025424957275	0.07780497521162033	0.09332270920276642	10
+166	santa_align	aligned	facebook/blenderbot-400M-distill	 with <unk> no said charlie dad bur	nt	to	11.033256530761719	5.031974792480469	1.615540350030642e-05	0.14031000435352325	10
+167	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> no said charlie dad burnt	 the	I	5.2274675369262695	5.831090927124023	0.0053671011701226234	0.054473329335451126	10
+168	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> no said charlie dad burnt the	 tur	tle	3.778149127960205	3.6869056224823	0.022864969447255135	0.35321879386901855	10
+169	santa_align	aligned	facebook/blenderbot-400M-distill	 no said charlie dad burnt the tur	key	.	11.32990837097168	5.1267852783203125	1.2008351404801942e-05	0.13887950778007507	10
+170	santa_align	aligned	facebook/blenderbot-400M-distill	 said charlie dad burnt the turkey	 oh	my	5.008671760559082	5.120732307434082	0.006679769605398178	0.0717671811580658	10
+171	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie dad burnt the turkey oh	 yeah	</s>	3.7842941284179688	4.983959674835205	0.022724894806742668	0.2225259691476822	10
+172	santa_align	aligned	facebook/blenderbot-400M-distill	lie dad burnt the turkey oh yeah	 this	</s>	8.650277137756348	5.388476371765137	0.00017507826851215214	0.10080926865339279	10
+173	santa_align	aligned	facebook/blenderbot-400M-distill	ie dad burnt the turkey oh yeah this	 way	</s>	7.295815467834473	4.509395599365234	0.000678371696267277	0.18512025475502014	10
+174	santa_align	aligned	facebook/blenderbot-400M-distill	 dad burnt the turkey oh yeah this way	 come	</s>	4.170154571533203	5.148612976074219	0.015449871309101582	0.1359671801328659	10
+175	santa_align	aligned	facebook/blenderbot-400M-distill	 burnt the turkey oh yeah this way come	 said	more	8.45406723022461	5.3652143478393555	0.00021303210814949125	0.06780672818422318	10
+176	santa_align	aligned	facebook/blenderbot-400M-distill	nt the turkey oh yeah this way come said	 the		6.603941440582275	6.11212158203125	0.001355016720481217	0.05168614909052849	10
+177	santa_align	aligned	facebook/blenderbot-400M-distill	 the turkey oh yeah this way come said the	 host	s	9.598650932312012	2.752736806869507	6.782018317608163e-05	0.4489074945449829	10
+178	santa_align	aligned	facebook/blenderbot-400M-distill	 turkey oh yeah this way come said the host	ess	es	1.29750394821167	1.4083685874938965	0.2732129395008087	0.6321774125099182	10
+179	santa_align	aligned	facebook/blenderbot-400M-distill	key oh yeah this way come said the hostess	 		1.089277982711792	3.830479621887207	0.33645933866500854	0.33645933866500854	10
+180	santa_align	aligned	facebook/blenderbot-400M-distill	 oh yeah this way come said the hostess 	<unk>		16.36805534362793	5.638832092285156	7.788326428226355e-08	0.11375542730093002	10
+181	santa_align	aligned	facebook/blenderbot-400M-distill	 yeah this way come said the hostess <unk>	 them		7.736055374145508	4.941885948181152	0.0004367912479210645	0.13705237209796906	10
+182	santa_align	aligned	facebook/blenderbot-400M-distill	 this way come said the hostess <unk> them	 toward	to	9.39949893951416	5.923575401306152	8.276551670860499e-05	0.08321455121040344	10
+183	santa_align	aligned	facebook/blenderbot-400M-distill	 way come said the hostess <unk> them toward	 a		4.328442096710205	6.289821624755859	0.013188078999519348	0.08997010439634323	10
+184	santa_align	aligned	facebook/blenderbot-400M-distill	 come said the hostess <unk> them toward a	 back	to	5.607943534851074	5.18114709854126	0.003668606746941805	0.20156055688858032	10
+185	santa_align	aligned	facebook/blenderbot-400M-distill	 said the hostess <unk> them toward a back	 room	of	7.03925895690918	5.176877975463867	0.0008767761755734682	0.12394005805253983	10
+186	santa_align	aligned	facebook/blenderbot-400M-distill	 the hostess <unk> them toward a back room	 several	I	7.144038200378418	5.9384989738464355	0.0007895570015534759	0.04338732734322548	10
+187	santa_align	aligned	facebook/blenderbot-400M-distill	 hostess <unk> them toward a back room several	 other	things	8.303581237792969	5.734910011291504	0.00024762836983427405	0.064536914229393	10
+188	santa_align	aligned	facebook/blenderbot-400M-distill	ess <unk> them toward a back room several other	 families	.	10.297392845153809	5.071267604827881	3.37208948621992e-05	0.1176268681883812	10
+189	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> them toward a back room several other families	 sat	at	9.63395881652832	5.643761157989502	6.546740041812882e-05	0.05194992199540138	10
+190	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> them toward a back room several other families sat	 quiet	ly	6.885859966278076	5.98740816116333	0.0010221366537734866	0.06256263703107834	10
+191	santa_align	aligned	facebook/blenderbot-400M-distill	 them toward a back room several other families sat quiet	ly	enough	8.289628982543945	5.205459117889404	0.00025110773276537657	0.11924546211957932	10
+192	santa_align	aligned	facebook/blenderbot-400M-distill	 toward a back room several other families sat quietly	 in	a	5.868351936340332	6.243753433227539	0.0028275290969759226	0.04645916447043419	10
+193	santa_align	aligned	facebook/blenderbot-400M-distill	 a back room several other families sat quietly in	 their	s	6.840827941894531	5.849209785461426	0.0010692175710573792	0.13377143442630768	10
+194	santa_align	aligned	facebook/blenderbot-400M-distill	 back room several other families sat quietly in their	 bo	ards	2.8275139331817627	4.248587608337402	0.05915975198149681	0.26553744077682495	10
+195	santa_align	aligned	facebook/blenderbot-400M-distill	 room several other families sat quietly in their bo	oth	s	11.949188232421875	0.27531665563583374	6.464480065915268e-06	0.9751161336898804	10
+196	santa_align	aligned	facebook/blenderbot-400M-distill	 several other families sat quietly in their booth	s	.	9.824544906616211	4.346948146820068	5.410710582509637e-05	0.1657455712556839	10
+197	santa_align	aligned	facebook/blenderbot-400M-distill	 other families sat quietly in their booths	 and	to	6.693168640136719	5.764243125915527	0.0012393495999276638	0.04285149276256561	10
+198	santa_align	aligned	facebook/blenderbot-400M-distill	 families sat quietly in their booths and	 one	more	6.940667152404785	5.089194297790527	0.0009676241315901279	0.1126997172832489	10
+199	santa_align	aligned	facebook/blenderbot-400M-distill	 sat quietly in their booths and one	 of	which	6.000396728515625	4.549969673156738	0.0024777697399258614	0.15888668596744537	10
+200	santa_align	aligned	facebook/blenderbot-400M-distill	 quietly in their booths and one of	 the	things	6.505681037902832	6.211205005645752	0.0014949223259463906	0.06484083086252213	10
+201	santa_align	aligned	facebook/blenderbot-400M-distill	ly in their booths and one of the	 father	s	8.251195907592773	0.7695732116699219	0.0002609463990665972	0.9034096002578735	10
+202	santa_align	aligned	facebook/blenderbot-400M-distill	 in their booths and one of the father	s	are	8.629927635192871	4.5308942794799805	0.00017867752467282116	0.1461915522813797	10
+203	santa_align	aligned	facebook/blenderbot-400M-distill	 their booths and one of the fathers	 		1.927278995513916	5.332562446594238	0.14554369449615479	0.14554369449615479	10
+204	santa_align	aligned	facebook/blenderbot-400M-distill	 booths and one of the fathers 	<unk>		18.69905662536621	4.83830451965332	7.570128524037045e-09	0.1588663011789322	10
+205	santa_align	aligned	facebook/blenderbot-400M-distill	oths and one of the fathers <unk>	 a	thing	2.536612033843994	5.6957011222839355	0.07913406193256378	0.09156610816717148	10
+206	santa_align	aligned	facebook/blenderbot-400M-distill	s and one of the fathers <unk> a	 fresh	ly	5.751511573791504	5.4244279861450195	0.00317797320894897	0.1301640123128891	10
+207	santa_align	aligned	facebook/blenderbot-400M-distill	 and one of the fathers <unk> a fresh	 band		7.872806549072266	4.7967448234558105	0.0003809636691585183	0.17729082703590393	10
+208	santa_align	aligned	facebook/blenderbot-400M-distill	 one of the fathers <unk> a fresh band	age		11.558103561401367	4.941539287567139	9.558275451126974e-06	0.1619836837053299	10
+209	santa_align	aligned	facebook/blenderbot-400M-distill	 of the fathers <unk> a fresh bandage	 on	by	6.13465690612793	4.460188865661621	0.0021664679516106844	0.3481774926185608	10
+210	santa_align	aligned	facebook/blenderbot-400M-distill	 the fathers <unk> a fresh bandage on	 his	to	9.120548248291016	5.573991298675537	0.00010939472849713638	0.08191048353910446	10
+211	santa_align	aligned	facebook/blenderbot-400M-distill	 fathers <unk> a fresh bandage on his	 hand	.	8.364480972290039	5.3707685470581055	0.0002329980197828263	0.10412732511758804	10
+212	santa_align	aligned	facebook/blenderbot-400M-distill	s <unk> a fresh bandage on his hand	 he	</s>	3.1754329204559326	5.108858585357666	0.04177601635456085	0.12113380432128906	10
+213	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> a fresh bandage on his hand he	 and	I	4.2369384765625	5.302529811859131	0.014451765455305576	0.1441100686788559	10
+214	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> a fresh bandage on his hand he and	 sc	sc	0.23261356353759766	1.5912706851959229	0.7924597263336182	0.7924597263336182	10
+215	santa_align	aligned	facebook/blenderbot-400M-distill	 a fresh bandage on his hand he and sc	ott	ish	7.607306957244873	4.60156774520874	0.0004968079156242311	0.3107246160507202	10
+216	santa_align	aligned	facebook/blenderbot-400M-distill	 fresh bandage on his hand he and scott	 no	to	5.043859958648682	4.9087395668029785	0.006448808591812849	0.175447478890419	10
+217	santa_align	aligned	facebook/blenderbot-400M-distill	 bandage on his hand he and scott no	dd	es	8.291553497314453	2.1228904724121094	0.00025062490021809936	0.6234402656555176	10
+218	santa_align	aligned	facebook/blenderbot-400M-distill	age on his hand he and scott nodd	ed	to	9.268956184387207	5.62814474105835	9.430693171452731e-05	0.06194770336151123	10
+219	santa_align	aligned	facebook/blenderbot-400M-distill	 on his hand he and scott nodded	 to	I	5.011275291442871	5.49533748626709	0.006662400439381599	0.05803176760673523	10
+220	santa_align	aligned	facebook/blenderbot-400M-distill	 his hand he and scott nodded to	 each	other	7.33452844619751	2.9306604862213135	0.0006526114884763956	0.5467694997787476	10
+221	santa_align	aligned	facebook/blenderbot-400M-distill	 hand he and scott nodded to each	 other	</s>	8.347001075744629	4.282041072845459	0.00023710647656116635	0.19674861431121826	10
+222	santa_align	aligned	facebook/blenderbot-400M-distill	 he and scott nodded to each other	 in	I	7.027152061462402	5.896053314208984	0.0008874558843672276	0.060319092124700546	10
+223	santa_align	aligned	facebook/blenderbot-400M-distill	 and scott nodded to each other in	 a	m	5.195210933685303	6.376227378845215	0.005543048027902842	0.027284083887934685	10
+224	santa_align	aligned	facebook/blenderbot-400M-distill	 scott nodded to each other in a	 g	alaxy	4.976676940917969	5.744168281555176	0.006896945182234049	0.04924791306257248	10
+225	santa_align	aligned	facebook/blenderbot-400M-distill	ott nodded to each other in a g	est	ure	6.620224475860596	1.2743737697601318	0.0013331318041309714	0.8133428692817688	10
+226	santa_align	aligned	facebook/blenderbot-400M-distill	 nodded to each other in a gest	ure	.	6.972322463989258	5.286081314086914	0.0009374732035212219	0.06597684323787689	10
+227	santa_align	aligned	facebook/blenderbot-400M-distill	dded to each other in a gesture	 of	sorts	6.143945693969727	6.22756290435791	0.0021464377641677856	0.06001826003193855	10
+228	santa_align	aligned	facebook/blenderbot-400M-distill	ed to each other in a gesture of	 solid	s	10.98067855834961	0.7585490345954895	1.702753252175171e-05	0.9097357392311096	10
+229	santa_align	aligned	facebook/blenderbot-400M-distill	 to each other in a gesture of solid	ar	is	8.496967315673828	5.454946994781494	0.00020408631826285273	0.07949487864971161	10
+230	santa_align	aligned	facebook/blenderbot-400M-distill	 each other in a gesture of solidar	ity	.	11.449670791625977	4.400472640991211	1.0652976015990134e-05	0.18229903280735016	10
+231	santa_align	aligned	facebook/blenderbot-400M-distill	 other in a gesture of solidarity	 as	well	8.630218505859375	3.1720197200775146	0.00017862555978354067	0.3772485852241516	10
+232	santa_align	aligned	facebook/blenderbot-400M-distill	 in a gesture of solidarity as	 sc	or	2.269770622253418	5.0288472175598145	0.10333588719367981	0.10542204976081848	10
+233	santa_align	aligned	facebook/blenderbot-400M-distill	 a gesture of solidarity as sc	ott	ish	7.3173322677612305	5.596717357635498	0.0006639310740865767	0.2161622792482376	10
+234	santa_align	aligned	facebook/blenderbot-400M-distill	 gesture of solidarity as scott	 and	by	5.538179874420166	5.366961479187012	0.003933679778128862	0.0884610041975975	10
+235	santa_align	aligned	facebook/blenderbot-400M-distill	esture of solidarity as scott and	 char	t	3.329519510269165	5.214848518371582	0.035810310393571854	0.09882057458162308	10
+236	santa_align	aligned	facebook/blenderbot-400M-distill	ure of solidarity as scott and char	l	ie	6.00208044052124	3.5443568229675293	0.0024736004415899515	0.3551657795906067	10
+237	santa_align	aligned	facebook/blenderbot-400M-distill	 of solidarity as scott and charl	ie	by	7.772472381591797	4.452220916748047	0.00042117066914215684	0.2747423052787781	10
+238	santa_align	aligned	facebook/blenderbot-400M-distill	 solidarity as scott and charlie	 took	.	9.370075225830078	4.6726226806640625	8.523702126694843e-05	0.18420180678367615	10
+239	santa_align	aligned	facebook/blenderbot-400M-distill	arity as scott and charlie took	 their	to	6.811814308166504	5.982523441314697	0.0011006939457729459	0.08235377818346024	10
+240	santa_align	aligned	facebook/blenderbot-400M-distill	ity as scott and charlie took their	 seats	.	11.18826675415039	4.237592697143555	1.3835581739840563e-05	0.24305303394794464	10
+241	santa_align	aligned	facebook/blenderbot-400M-distill	 as scott and charlie took their seats	 the	.	7.019928455352783	6.687496662139893	0.0008938894025050104	0.04023386538028717	10
+242	santa_align	aligned	facebook/blenderbot-400M-distill	 scott and charlie took their seats the	 host	s	10.148052215576172	1.6323802471160889	3.9152251702034846e-05	0.7824602723121643	10
+243	santa_align	aligned	facebook/blenderbot-400M-distill	ott and charlie took their seats the host	ess	es	6.455479621887207	2.815582752227783	0.0015718854265287519	0.5840820074081421	10
+244	santa_align	aligned	facebook/blenderbot-400M-distill	 and charlie took their seats the hostess	 handed	.	9.226945877075195	5.277283668518066	9.835321543505415e-05	0.11908335983753204	10
+245	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie took their seats the hostess handed	 them	a	7.496530532836914	6.446447849273682	0.0005550066125579178	0.04151762276887894	10
+246	santa_align	aligned	facebook/blenderbot-400M-distill	lie took their seats the hostess handed them	 men	a	9.882721900939941	6.165268421173096	5.104915180709213e-05	0.07277806103229523	10
+247	santa_align	aligned	facebook/blenderbot-400M-distill	ie took their seats the hostess handed them men	us	.	7.452702045440674	3.867574691772461	0.0005798726924695075	0.20654872059822083	10
+248	santa_align	aligned	facebook/blenderbot-400M-distill	 took their seats the hostess handed them menus	 which	is	8.118335723876953	5.0891008377075195	0.00029802427161484957	0.09154315292835236	10
+249	santa_align	aligned	facebook/blenderbot-400M-distill	 their seats the hostess handed them menus which	 char	t	3.6685097217559814	3.8971219062805176	0.02551446482539177	0.22259175777435303	10
+250	santa_align	aligned	facebook/blenderbot-400M-distill	 seats the hostess handed them menus which char	l	ie	5.235889911651611	3.7944068908691406	0.005322085693478584	0.3384343683719635	10
+251	santa_align	aligned	facebook/blenderbot-400M-distill	 the hostess handed them menus which charl	ie	to	8.12977409362793	5.9868693351745605	0.0002946346940007061	0.09708353132009506	10
+252	santa_align	aligned	facebook/blenderbot-400M-distill	 hostess handed them menus which charlie	 	is	3.422529458999634	5.899656295776367	0.032629791647195816	0.04605114087462425	10
+253	santa_align	aligned	facebook/blenderbot-400M-distill	ess handed them menus which charlie 	<unk>	of	17.739643096923828	5.055563926696777	1.9759255565077183e-08	0.12043115496635437	10
+254	santa_align	aligned	facebook/blenderbot-400M-distill	 handed them menus which charlie <unk>	 opened	to	9.876829147338867	4.701091766357422	5.135082028573379e-05	0.15491272509098053	10
+255	santa_align	aligned	facebook/blenderbot-400M-distill	 them menus which charlie <unk> opened	 you	to	3.7265119552612305	5.812520503997803	0.0240766704082489	0.07117997109889984	10
+256	santa_align	aligned	facebook/blenderbot-400M-distill	 menus which charlie <unk> opened you	 know	how	4.393998146057129	5.193686485290527	0.01235124934464693	0.14287760853767395	10
+257	santa_align	aligned	facebook/blenderbot-400M-distill	us which charlie <unk> opened you know	 		0.9859892129898071	4.194685459136963	0.37307000160217285	0.37307000160217285	10
+258	santa_align	aligned	facebook/blenderbot-400M-distill	 which charlie <unk> opened you know 	<unk>		17.702274322509766	3.507707118988037	2.051162795169148e-08	0.4663224220275879	10
+259	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie <unk> opened you know <unk>	 a		3.803523540496826	5.589685916900635	0.022292088717222214	0.21445117890834808	10
+260	santa_align	aligned	facebook/blenderbot-400M-distill	lie <unk> opened you know <unk> a	 real		5.252216815948486	6.033486366271973	0.005235898774117231	0.10849514603614807	10
+261	santa_align	aligned	facebook/blenderbot-400M-distill	ie <unk> opened you know <unk> a real	 good	thing	5.726335525512695	5.531833648681641	0.003258997341617942	0.11438018828630447	10
+262	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> opened you know <unk> a real good	 cook	ed	5.323299884796143	5.637019157409668	0.004876634571701288	0.05768093839287758	10
+263	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> opened you know <unk> a real good cook	 he	d	4.021553039550781	5.799953937530518	0.017925111576914787	0.08424992114305496	10
+264	santa_align	aligned	facebook/blenderbot-400M-distill	 opened you know <unk> a real good cook he	 said		8.72575569152832	5.016279697418213	0.00016235010116361082	0.09320355951786041	10
+265	santa_align	aligned	facebook/blenderbot-400M-distill	 you know <unk> a real good cook he said	 		1.559325098991394	4.595350742340088	0.21027794480323792	0.21027794480323792	10
+266	santa_align	aligned	facebook/blenderbot-400M-distill	 know <unk> a real good cook he said 	<unk>		16.9656925201416	5.60308313369751	4.2844298775435163e-08	0.12632274627685547	10
+267	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> a real good cook he said <unk>	 his	fancy	7.353297710418701	6.204586029052734	0.0006404768209904432	0.061993371695280075	10
+268	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> a real good cook he said <unk> his	 father	s	4.310011863708496	4.934922218322754	0.013433389365673065	0.1755446344614029	10
+269	santa_align	aligned	facebook/blenderbot-400M-distill	 a real good cook he said <unk> his father	 above	a	5.74436616897583	5.5966057777404785	0.0032007629051804543	0.06845651566982269	10
+270	santa_align	aligned	facebook/blenderbot-400M-distill	 real good cook he said <unk> his father above	 the	thing	7.147273063659668	5.795290946960449	0.0007870070403441787	0.08274956792593002	10
+271	santa_align	aligned	facebook/blenderbot-400M-distill	 good cook he said <unk> his father above the	 menu	so	9.065912246704102	5.0568037033081055	0.00011553788499440998	0.1059037372469902	10
+272	santa_align	aligned	facebook/blenderbot-400M-distill	 cook he said <unk> his father above the menu	 sc	sc	0.6425296664237976	3.229147434234619	0.5259602069854736	0.5259602069854736	10
+273	santa_align	aligned	facebook/blenderbot-400M-distill	 he said <unk> his father above the menu sc	ott		5.925004005432129	6.299510955810547	0.0026717963628470898	0.051720183342695236	10
+274	santa_align	aligned	facebook/blenderbot-400M-distill	 said <unk> his father above the menu scott	 gave	me	6.729093551635742	3.9678735733032227	0.0011956163216382265	0.19849318265914917	10
+275	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> his father above the menu scott gave	 a	to	3.555028200149536	5.968177318572998	0.028580572456121445	0.04514022171497345	10
+276	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> his father above the menu scott gave a	 sn	sn	1.5469688177108765	4.898616790771484	0.2128923237323761	0.2128923237323761	10
+277	santa_align	aligned	facebook/blenderbot-400M-distill	 his father above the menu scott gave a sn	ort	y	7.610055923461914	4.709521770477295	0.0004954442265443504	0.18939442932605743	10
+278	santa_align	aligned	facebook/blenderbot-400M-distill	 father above the menu scott gave a snort	 at	a	5.412450790405273	5.926715850830078	0.004460695665329695	0.10155120491981506	10
+279	santa_align	aligned	facebook/blenderbot-400M-distill	 above the menu scott gave a snort at	 the	second	6.273393630981445	6.3582000732421875	0.0018858173862099648	0.024189863353967667	10
+280	santa_align	aligned	facebook/blenderbot-400M-distill	 the menu scott gave a snort at the	 mention	of	13.125722885131836	0.3407086431980133	1.9932922441512346e-06	0.962852418422699	10
+281	santa_align	aligned	facebook/blenderbot-400M-distill	 menu scott gave a snort at the mention	 of	</s>	6.921590805053711	6.21492862701416	0.0009862594306468964	0.030544977635145187	10
+282	santa_align	aligned	facebook/blenderbot-400M-distill	 scott gave a snort at the mention of	 his	own	7.101626396179199	6.43832540512085	0.0008237643050961196	0.06305073201656342	10
+283	santa_align	aligned	facebook/blenderbot-400M-distill	ott gave a snort at the mention of his	 ex	es	5.356789588928223	4.178953170776367	0.004716022871434689	0.3190847635269165	10
+284	santa_align	aligned	facebook/blenderbot-400M-distill	 gave a snort at the mention of his ex	 wife	.	9.105670928955078	4.225412845611572	0.00011103430006187409	0.1762842983007431	10
+285	santa_align	aligned	facebook/blenderbot-400M-distill	 a snort at the mention of his ex wife	's	I	7.577813148498535	5.736297607421875	0.0005116788670420647	0.1272970587015152	10
+286	santa_align	aligned	facebook/blenderbot-400M-distill	 snort at the mention of his ex wife's	 new	ly	10.171602249145508	5.810568809509277	3.8240996218519285e-05	0.17069584131240845	10
+287	santa_align	aligned	facebook/blenderbot-400M-distill	ort at the mention of his ex wife's new	 boyfriend	.	8.22430419921875	4.242857933044434	0.0002680588513612747	0.15405088663101196	10
+288	santa_align	aligned	facebook/blenderbot-400M-distill	 at the mention of his ex wife's new boyfriend	 yeah	</s>	5.82997989654541	4.862390041351318	0.002938136225566268	0.1486135721206665	10
+289	santa_align	aligned	facebook/blenderbot-400M-distill	 the mention of his ex wife's new boyfriend yeah	 and	by	4.5925092697143555	4.914107799530029	0.010127412155270576	0.1197812408208847	10
+290	santa_align	aligned	facebook/blenderbot-400M-distill	 mention of his ex wife's new boyfriend yeah and	 you	too	5.217667102813721	4.739742279052734	0.005419958382844925	0.1819382756948471	10
+291	santa_align	aligned	facebook/blenderbot-400M-distill	 of his ex wife's new boyfriend yeah and you	 should	be	8.859167098999023	3.7876803874969482	0.00014207340427674353	0.43054333329200745	10
+292	santa_align	aligned	facebook/blenderbot-400M-distill	 his ex wife's new boyfriend yeah and you should	 see	things	5.445136070251465	5.003906726837158	0.004317253828048706	0.0753091424703598	10
+293	santa_align	aligned	facebook/blenderbot-400M-distill	 ex wife's new boyfriend yeah and you should see	 him	in	8.45468807220459	5.451234340667725	0.00021289991855155677	0.06179310753941536	10
+294	santa_align	aligned	facebook/blenderbot-400M-distill	 wife's new boyfriend yeah and you should see him	 walk	around	5.8587470054626465	5.070178508758545	0.0028548187110573053	0.06647465378046036	10
+295	santa_align	aligned	facebook/blenderbot-400M-distill	's new boyfriend yeah and you should see him walk	 on	the	7.100624084472656	5.1294379234313965	0.0008245901553891599	0.10930877178907394	10
+296	santa_align	aligned	facebook/blenderbot-400M-distill	 new boyfriend yeah and you should see him walk on	 water	.	8.87917423248291	4.198180198669434	0.00013925915118306875	0.14409282803535461	10
+297	santa_align	aligned	facebook/blenderbot-400M-distill	 boyfriend yeah and you should see him walk on water	 you	know	4.851807594299316	5.2284321784973145	0.007814237847924232	0.10575003176927567	10
+298	santa_align	aligned	facebook/blenderbot-400M-distill	 yeah and you should see him walk on water you	 don	't	9.993330955505371	0.0736718699336052	4.5703720388701186e-05	0.9928720593452454	10
+299	santa_align	aligned	facebook/blenderbot-400M-distill	 and you should see him walk on water you don	't	</s>	6.319477081298828	4.03889799118042	0.0018008844926953316	0.12108498811721802	10
+300	santa_align	aligned	facebook/blenderbot-400M-distill	 you should see him walk on water you don't	 like	to	6.518795490264893	4.202595233917236	0.0014754452276974916	0.2028137743473053	10
+301	santa_align	aligned	facebook/blenderbot-400M-distill	 should see him walk on water you don't like	 him	so	6.579883575439453	4.319775104522705	0.0013880111509934068	0.11618074029684067	10
+302	santa_align	aligned	facebook/blenderbot-400M-distill	 see him walk on water you don't like him	 very	much	6.235795021057129	0.7833900451660156	0.00195807171985507	0.9095442891120911	10
+303	santa_align	aligned	facebook/blenderbot-400M-distill	 him walk on water you don't like him very	 much	so	8.208381652832031	4.192849159240723	0.0002723610959947109	0.14431114494800568	10
+304	santa_align	aligned	facebook/blenderbot-400M-distill	 walk on water you don't like him very much	 do	a	6.9807281494140625	4.3648247718811035	0.0009296258212998509	0.26274847984313965	10
+305	santa_align	aligned	facebook/blenderbot-400M-distill	 on water you don't like him very much do	 you	like	5.310545444488525	4.149561405181885	0.004939231555908918	0.1838299185037613	10
+306	santa_align	aligned	facebook/blenderbot-400M-distill	 water you don't like him very much do you	 dad	dy	9.679880142211914	0.8340855836868286	6.252901948755607e-05	0.8705437779426575	10
+307	santa_align	aligned	facebook/blenderbot-400M-distill	 you don't like him very much do you dad	 a	thing	3.9265167713165283	5.449080467224121	0.019712213426828384	0.16286736726760864	10
+308	santa_align	aligned	facebook/blenderbot-400M-distill	 don't like him very much do you dad a	 tall	er	10.595403671264648	5.920712471008301	2.5030805772985332e-05	0.10010113567113876	10
+309	santa_align	aligned	facebook/blenderbot-400M-distill	't like him very much do you dad a tall	 wait	at	7.3647332191467285	4.818053245544434	0.0006331942859105766	0.10923628509044647	10
+310	santa_align	aligned	facebook/blenderbot-400M-distill	 like him very much do you dad a tall wait	ress	es	9.804889678955078	4.564753532409668	5.5181109928525984e-05	0.1621672809123993	10
+311	santa_align	aligned	facebook/blenderbot-400M-distill	 him very much do you dad a tall waitress	 with	a	4.983206272125244	5.656099319458008	0.006852057762444019	0.12371401488780975	10
+312	santa_align	aligned	facebook/blenderbot-400M-distill	 very much do you dad a tall waitress with	 		1.1794570684432983	4.43131160736084	0.30744561553001404	0.30744561553001404	10
+313	santa_align	aligned	facebook/blenderbot-400M-distill	 much do you dad a tall waitress with 	<unk>	of	16.895231246948242	4.178210258483887	4.597208658196905e-08	0.39373108744621277	10
+314	santa_align	aligned	facebook/blenderbot-400M-distill	 do you dad a tall waitress with <unk>	 hair		5.896285533905029	5.947951793670654	0.0027496395632624626	0.08718034625053406	10
+315	santa_align	aligned	facebook/blenderbot-400M-distill	 you dad a tall waitress with <unk> hair	 appro	v	4.096493721008301	5.632766246795654	0.01663088984787464	0.0723588839173317	10
+316	santa_align	aligned	facebook/blenderbot-400M-distill	 dad a tall waitress with <unk> hair appro	ached		13.750320434570312	5.379178524017334	1.0673612678147038e-06	0.09991466999053955	10
+317	santa_align	aligned	facebook/blenderbot-400M-distill	 a tall waitress with <unk> hair approached	 the		6.071673393249512	5.986339569091797	0.0023073081392794847	0.07943814247846603	10
+318	santa_align	aligned	facebook/blenderbot-400M-distill	 tall waitress with <unk> hair approached the	 table	ts	5.812924385070801	5.84689474105835	0.0029886774718761444	0.06350985169410706	10
+319	santa_align	aligned	facebook/blenderbot-400M-distill	 waitress with <unk> hair approached the table	 with	with	1.8544586896896362	5.329684734344482	0.15653765201568604	0.15653765201568604	10
+320	santa_align	aligned	facebook/blenderbot-400M-distill	ress with <unk> hair approached the table with	 an		6.953060626983643	4.746509552001953	0.0009557056473568082	0.3241526782512665	10
+321	santa_align	aligned	facebook/blenderbot-400M-distill	 with <unk> hair approached the table with an	 order	to	6.663297176361084	4.231128692626953	0.0012769292807206511	0.18459415435791016	10
+322	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> hair approached the table with an order	 pad	ding	8.16473388671875	3.2576704025268555	0.00028451241087168455	0.38150566816329956	10
+323	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> hair approached the table with an order pad	 coffee	se	6.060084342956543	6.511597633361816	0.0023342035710811615	0.02643839456140995	10
+324	santa_align	aligned	facebook/blenderbot-400M-distill	 hair approached the table with an order pad coffee	 the	for	6.34300422668457	6.025890827178955	0.0017590096686035395	0.0898999273777008	10
+325	santa_align	aligned	facebook/blenderbot-400M-distill	 approached the table with an order pad coffee the	 smile	I	5.5731120109558105	5.576456546783447	0.003798640565946698	0.055680833756923676	10
+326	santa_align	aligned	facebook/blenderbot-400M-distill	ached the table with an order pad coffee the smile	 return	s	11.77112865447998	0.9936608076095581	7.724383976892568e-06	0.8539916276931763	10
+327	santa_align	aligned	facebook/blenderbot-400M-distill	 the table with an order pad coffee the smile return	ed	to	10.09246826171875	2.5958168506622314	4.1390128899365664e-05	0.5770037174224854	10
+328	santa_align	aligned	facebook/blenderbot-400M-distill	 table with an order pad coffee the smile returned	 to	to	2.2850914001464844	5.654775619506836	0.1017647534608841	0.1017647534608841	10
+329	santa_align	aligned	facebook/blenderbot-400M-distill	 with an order pad coffee the smile returned to	 sc	or	2.6544814109802246	4.763904571533203	0.07033529132604599	0.18533869087696075	10
+330	santa_align	aligned	facebook/blenderbot-400M-distill	 an order pad coffee the smile returned to sc	ott	ish	8.955048561096191	3.8170018196105957	0.00012908384087495506	0.48361411690711975	10
+331	santa_align	aligned	facebook/blenderbot-400M-distill	 order pad coffee the smile returned to scott	's	with	6.264885425567627	6.163195610046387	0.0019019314786419272	0.035659752786159515	10
+332	santa_align	aligned	facebook/blenderbot-400M-distill	 pad coffee the smile returned to scott's	 face	.	7.832383155822754	4.7050604820251465	0.0003966789226979017	0.08601247519254684	10
+333	santa_align	aligned	facebook/blenderbot-400M-distill	 coffee the smile returned to scott's face	 no	matter	5.837108612060547	5.142993450164795	0.002917265286669135	0.3161017894744873	10
+334	santa_align	aligned	facebook/blenderbot-400M-distill	 the smile returned to scott's face no	 thank	you	3.977654457092285	5.450755596160889	0.018729517236351967	0.19096191227436066	10
+335	santa_align	aligned	facebook/blenderbot-400M-distill	 smile returned to scott's face no thank	 you	.	4.8927106857299805	5.124502658843994	0.0075010634027421474	0.10288042575120926	10
+336	santa_align	aligned	facebook/blenderbot-400M-distill	 returned to scott's face no thank you	 sc	ha	3.8551948070526123	5.049032688140869	0.021169476211071014	0.135087788105011	10
+337	santa_align	aligned	facebook/blenderbot-400M-distill	ed to scott's face no thank you sc	ott	's	5.195444583892822	4.927286624908447	0.0055417525582015514	0.2943900227546692	10
+338	santa_align	aligned	facebook/blenderbot-400M-distill	 to scott's face no thank you scott	 p	ry	3.3162479400634766	5.879734516143799	0.03628873452544212	0.05289563536643982	10
+339	santa_align	aligned	facebook/blenderbot-400M-distill	 scott's face no thank you scott p	au	ses	7.6876983642578125	4.18765115737915	0.00045843221596442163	0.21211747825145721	10
+340	santa_align	aligned	facebook/blenderbot-400M-distill	ott's face no thank you scott pau	sed		9.987485885620117	5.600997447967529	4.597161751007661e-05	0.06144394725561142	10
+341	santa_align	aligned	facebook/blenderbot-400M-distill	's face no thank you scott paused	 for	I	9.375589370727539	5.107780456542969	8.476821676595137e-05	0.2271541953086853	10
+342	santa_align	aligned	facebook/blenderbot-400M-distill	 face no thank you scott paused for	 a	I	4.550848007202148	6.502269268035889	0.010558245703577995	0.03327428176999092	10
+343	santa_align	aligned	facebook/blenderbot-400M-distill	 no thank you scott paused for a	 minute	.	11.011157989501953	4.3394927978515625	1.6516381947440095e-05	0.19531133770942688	10
+344	santa_align	aligned	facebook/blenderbot-400M-distill	 thank you scott paused for a minute	 as	a	5.919266223907471	4.676192760467529	0.0026871711015701294	0.15761114656925201	10
+345	santa_align	aligned	facebook/blenderbot-400M-distill	 you scott paused for a minute as	 he	was	3.2894721031188965	5.192743301391602	0.03727351874113083	0.0919698178768158	10
+346	santa_align	aligned	facebook/blenderbot-400M-distill	 scott paused for a minute as he	 read	s	8.439486503601074	2.6334240436553955	0.00021616104640997946	0.6460610032081604	10
+347	santa_align	aligned	facebook/blenderbot-400M-distill	ott paused for a minute as he read	 her	s	11.08969783782959	5.588973045349121	1.5268820789060555e-05	0.09758151322603226	10
+348	santa_align	aligned	facebook/blenderbot-400M-distill	 paused for a minute as he read her	 name	.	7.147963523864746	5.62019157409668	0.0007864643121138215	0.04512360692024231	10
+349	santa_align	aligned	facebook/blenderbot-400M-distill	aused for a minute as he read her name	 tag	s	7.275491714477539	5.942984580993652	0.0006922997417859733	0.08723998814821243	10
+350	santa_align	aligned	facebook/blenderbot-400M-distill	sed for a minute as he read her name tag	 jud	ging	6.86196231842041	4.052412033081055	0.001046857563778758	0.1682462841272354	10
+351	santa_align	aligned	facebook/blenderbot-400M-distill	 for a minute as he read her name tag jud	y	as	10.467513084411621	5.936577796936035	2.8445716452552006e-05	0.05701666325330734	10
+352	santa_align	aligned	facebook/blenderbot-400M-distill	 a minute as he read her name tag judy	 what	do	5.8271942138671875	4.767947673797607	0.002946332795545459	0.15749377012252808	10
+353	santa_align	aligned	facebook/blenderbot-400M-distill	 minute as he read her name tag judy what	 you	got	3.8545165061950684	4.373538494110107	0.021183840930461884	0.17698945105075836	10
+354	santa_align	aligned	facebook/blenderbot-400M-distill	 as he read her name tag judy what you	 say	.	7.548685073852539	4.718276023864746	0.0005268022650852799	0.12289132177829742	10
+355	santa_align	aligned	facebook/blenderbot-400M-distill	 he read her name tag judy what you say	 we	I	5.3096771240234375	4.982977390289307	0.004943524021655321	0.13682101666927338	10
+356	santa_align	aligned	facebook/blenderbot-400M-distill	 read her name tag judy what you say we	 start	a	9.736174583435059	5.444086074829102	5.9106198023073375e-05	0.11399620771408081	10
+357	santa_align	aligned	facebook/blenderbot-400M-distill	 her name tag judy what you say we start	 out	with	8.312777519226074	1.1800111532211304	0.00024536167620681226	0.8494528532028198	10
+358	santa_align	aligned	facebook/blenderbot-400M-distill	 name tag judy what you say we start out	 with	.	7.66972541809082	5.747990608215332	0.0004667459288612008	0.07485800981521606	10
+359	santa_align	aligned	facebook/blenderbot-400M-distill	 tag judy what you say we start out with	 cold	s	6.0061936378479	6.341076374053955	0.0024634471628814936	0.039575137197971344	10
+360	santa_align	aligned	facebook/blenderbot-400M-distill	 judy what you say we start out with cold	 glass	es	9.551799774169922	0.6789634823799133	7.107322744559497e-05	0.9272677302360535	10
+361	santa_align	aligned	facebook/blenderbot-400M-distill	y what you say we start out with cold glass	es	I	8.985644340515137	5.182015895843506	0.00012519420124590397	0.09440251439809799	10
+362	santa_align	aligned	facebook/blenderbot-400M-distill	 what you say we start out with cold glasses	 of	things	7.392287254333496	5.901195526123047	0.0006159855984151363	0.057195983827114105	10
+363	santa_align	aligned	facebook/blenderbot-400M-distill	 you say we start out with cold glasses of	 that	's	5.906439781188965	5.294256210327148	0.0027218605391681194	0.12765635550022125	10
+364	santa_align	aligned	facebook/blenderbot-400M-distill	 say we start out with cold glasses of that	 delicious	ness	10.93642807006836	5.632023334503174	1.7797943655750714e-05	0.08624082058668137	10
+365	santa_align	aligned	facebook/blenderbot-400M-distill	 we start out with cold glasses of that delicious	 season	al	8.304586410522461	4.60936164855957	0.00024737956118769944	0.17412476241588593	10
+366	santa_align	aligned	facebook/blenderbot-400M-distill	 start out with cold glasses of that delicious season	al	I	8.463154792785645	6.277863502502441	0.00021110507077537477	0.04135549068450928	10
+367	santa_align	aligned	facebook/blenderbot-400M-distill	 out with cold glasses of that delicious seasonal	 favorite	I	8.079133987426758	4.896234035491943	0.000309939292492345	0.13245008885860443	10
+368	santa_align	aligned	facebook/blenderbot-400M-distill	 with cold glasses of that delicious seasonal favorite	 egg	to	6.794891357421875	5.604444980621338	0.0011194795370101929	0.08790680766105652	10
+369	santa_align	aligned	facebook/blenderbot-400M-distill	 cold glasses of that delicious seasonal favorite egg	n	ect	7.324496746063232	4.796226501464844	0.0006591913406737149	0.18115657567977905	10
+370	santa_align	aligned	facebook/blenderbot-400M-distill	 glasses of that delicious seasonal favorite eggn	og	are	9.435713768005371	4.612037181854248	7.982178794918582e-05	0.11973977088928223	10
+371	santa_align	aligned	facebook/blenderbot-400M-distill	es of that delicious seasonal favorite eggnog	 char	m	4.843639373779297	4.707429885864258	0.007878330536186695	0.19025620818138123	10
+372	santa_align	aligned	facebook/blenderbot-400M-distill	 of that delicious seasonal favorite eggnog char	l	est	9.909219741821289	3.8800883293151855	4.971420639776625e-05	0.20435522496700287	10
+373	santa_align	aligned	facebook/blenderbot-400M-distill	 that delicious seasonal favorite eggnog charl	ie	</s>	8.855255126953125	6.044858932495117	0.00014263014600146562	0.0597350187599659	10
+374	santa_align	aligned	facebook/blenderbot-400M-distill	 delicious seasonal favorite eggnog charlie	 had	a	7.704610347747803	5.606149673461914	0.00045074435183778405	0.09829659014940262	10
+375	santa_align	aligned	facebook/blenderbot-400M-distill	 seasonal favorite eggnog charlie had	 just	ified	11.626253128051758	5.712291717529297	8.928582246880978e-06	0.057185396552085876	10
+376	santa_align	aligned	facebook/blenderbot-400M-distill	al favorite eggnog charlie had just	 be	ified	5.163996696472168	5.953851699829102	0.005718799773603678	0.06919506937265396	10
+377	santa_align	aligned	facebook/blenderbot-400M-distill	 favorite eggnog charlie had just be	gun	in	10.569314956665039	4.987663269042969	2.569241769379005e-05	0.07290305197238922	10
+378	santa_align	aligned	facebook/blenderbot-400M-distill	 eggnog charlie had just begun	 to	a	5.322773456573486	6.04926872253418	0.004879203159362078	0.09729766100645065	10
+379	santa_align	aligned	facebook/blenderbot-400M-distill	nog charlie had just begun to	 protest	.	9.222180366516113	5.712414741516113	9.882298036245629e-05	0.056035857647657394	10
+380	santa_align	aligned	facebook/blenderbot-400M-distill	og charlie had just begun to protest	 that	's	6.738414764404297	5.030837535858154	0.0011845235712826252	0.16295605897903442	10
+381	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie had just begun to protest that	 he	still	6.223889350891113	5.495138645172119	0.0019815233536064625	0.07581441104412079	10
+382	santa_align	aligned	facebook/blenderbot-400M-distill	lie had just begun to protest that he	 didn	't	8.944231986999512	0.4215865731239319	0.00013048769324086607	0.9443672895431519	10
+383	santa_align	aligned	facebook/blenderbot-400M-distill	ie had just begun to protest that he didn	't	have	6.881289005279541	4.1918044090271	0.001026819460093975	0.3380904793739319	10
+384	santa_align	aligned	facebook/blenderbot-400M-distill	 had just begun to protest that he didn't	 like	.	5.3255486488342285	4.32390832901001	0.004865680821239948	0.11132796108722687	10
+385	santa_align	aligned	facebook/blenderbot-400M-distill	 just begun to protest that he didn't like	 egg	-	4.904136657714844	5.940385818481445	0.007415842730551958	0.03694954141974449	10
+386	santa_align	aligned	facebook/blenderbot-400M-distill	 begun to protest that he didn't like egg	n	og	5.259510040283203	4.312551975250244	0.005197849124670029	0.28514209389686584	10
+387	santa_align	aligned	facebook/blenderbot-400M-distill	gun to protest that he didn't like eggn	og	at	5.989166259765625	5.145953178405762	0.002505752258002758	0.10678064823150635	10
+388	santa_align	aligned	facebook/blenderbot-400M-distill	 to protest that he didn't like eggnog	 when	I	7.660044193267822	2.0455679893493652	0.0004712865629699081	0.5108731985092163	10
+389	santa_align	aligned	facebook/blenderbot-400M-distill	 protest that he didn't like eggnog when	 jud	ging	7.282895565032959	1.7140222787857056	0.0006871928344480693	0.493602991104126	10
+390	santa_align	aligned	facebook/blenderbot-400M-distill	 that he didn't like eggnog when jud	y	's	10.17279052734375	4.201635360717773	3.8195576053112745e-05	0.2756374478340149	10
+391	santa_align	aligned	facebook/blenderbot-400M-distill	 he didn't like eggnog when judy	 inter	v	4.257758140563965	4.962338924407959	0.014153997413814068	0.19085124135017395	10
+392	santa_align	aligned	facebook/blenderbot-400M-distill	 didn't like eggnog when judy inter	rupt	ed	14.93947982788086	0.92568039894104	3.2498741120434715e-07	0.8819369077682495	10
+393	santa_align	aligned	facebook/blenderbot-400M-distill	't like eggnog when judy interrupt	ed	by	12.108514785766602	2.8663601875305176	5.5123737183748744e-06	0.35143616795539856	10
+394	santa_align	aligned	facebook/blenderbot-400M-distill	 like eggnog when judy interrupted	 him	is	8.867874145507812	5.187129020690918	0.00014084175927564502	0.09725304692983627	10
+395	santa_align	aligned	facebook/blenderbot-400M-distill	 eggnog when judy interrupted him	 we	have	7.405081748962402	5.465078353881836	0.0006081543979234993	0.17653103172779083	10
+396	santa_align	aligned	facebook/blenderbot-400M-distill	nog when judy interrupted him we	're	just	6.6373090744018555	5.826375484466553	0.0013105494435876608	0.06683949381113052	10
+397	santa_align	aligned	facebook/blenderbot-400M-distill	og when judy interrupted him we're	 out	of	10.029744148254395	3.4715046882629395	4.406941661727615e-05	0.4651601016521454	10
+398	santa_align	aligned	facebook/blenderbot-400M-distill	 when judy interrupted him we're out	 sc	or	3.699068069458008	4.773069858551025	0.024746574461460114	0.23222096264362335	10
+399	santa_align	aligned	facebook/blenderbot-400M-distill	 judy interrupted him we're out sc	ott	ish	8.963127136230469	2.4776482582092285	0.00012804522702936083	0.6656590700149536	10
+400	santa_align	aligned	facebook/blenderbot-400M-distill	y interrupted him we're out scott	 sh	ire	4.870275974273682	4.818161487579346	0.007671247236430645	0.2393450140953064	10
+401	santa_align	aligned	facebook/blenderbot-400M-distill	 interrupted him we're out scott sh	ru	z	9.891615867614746	4.3173017501831055	5.0597107474459335e-05	0.18283724784851074	10
+402	santa_align	aligned	facebook/blenderbot-400M-distill	rupted him we're out scott shru	gged	but	13.943443298339844	5.311028003692627	8.799125907898997e-07	0.06874856352806091	10
+403	santa_align	aligned	facebook/blenderbot-400M-distill	ed him we're out scott shrugged	 then	again	10.350414276123047	4.137939453125	3.19795472023543e-05	0.23214267194271088	10
+404	santa_align	aligned	facebook/blenderbot-400M-distill	 him we're out scott shrugged then	 i	'm	4.498158931732178	5.020211219787598	0.011129467748105526	0.22628271579742432	10
+405	santa_align	aligned	facebook/blenderbot-400M-distill	 we're out scott shrugged then i	'll	be	8.711569786071777	4.073481559753418	0.00016466956003569067	0.3396240770816803	10
+406	santa_align	aligned	facebook/blenderbot-400M-distill	're out scott shrugged then i'll	 take	care	6.738246917724609	4.878025054931641	0.0011847225250676274	0.14333847165107727	10
+407	santa_align	aligned	facebook/blenderbot-400M-distill	 out scott shrugged then i'll take	 a	look	6.02767276763916	5.248636245727539	0.002411098452284932	0.16111138463020325	10
+408	santa_align	aligned	facebook/blenderbot-400M-distill	 scott shrugged then i'll take a	 dec	or	3.9099695682525635	3.609063148498535	0.02004110999405384	0.37426498532295227	10
+409	santa_align	aligned	facebook/blenderbot-400M-distill	ott shrugged then i'll take a dec	af	y	9.692537307739258	4.240581512451172	6.174251029733568e-05	0.35750705003738403	10
+410	santa_align	aligned	facebook/blenderbot-400M-distill	 shrugged then i'll take a decaf	 coffee	</s>	7.584291934967041	4.891068935394287	0.0005083745927549899	0.15377609431743622	10
+411	santa_align	aligned	facebook/blenderbot-400M-distill	rugged then i'll take a decaf coffee	 and	I	5.906895637512207	4.676666736602783	0.002720619086176157	0.24783499538898468	10
+412	santa_align	aligned	facebook/blenderbot-400M-distill	gged then i'll take a decaf coffee and	 tur	b	7.464292049407959	3.347407579421997	0.000573190685827285	0.29968059062957764	10
+413	santa_align	aligned	facebook/blenderbot-400M-distill	 then i'll take a decaf coffee and tur	key	.	13.729170799255371	3.9929311275482178	1.0901765108428663e-06	0.20249822735786438	10
+414	santa_align	aligned	facebook/blenderbot-400M-distill	 i'll take a decaf coffee and turkey	 club	and	9.86699104309082	5.107419967651367	5.185855115996674e-05	0.07552884519100189	10
+415	santa_align	aligned	facebook/blenderbot-400M-distill	'll take a decaf coffee and turkey club	 she	's	4.511051177978516	3.4956865310668945	0.010986901819705963	0.3710058927536011	10
+416	santa_align	aligned	facebook/blenderbot-400M-distill	 take a decaf coffee and turkey club she	 turned	into	6.778519153594971	3.5029239654541016	0.001137958955951035	0.4326663017272949	10
+417	santa_align	aligned	facebook/blenderbot-400M-distill	 a decaf coffee and turkey club she turned	 to	be	4.870868682861328	5.332465648651123	0.007666704244911671	0.11353476345539093	10
+418	santa_align	aligned	facebook/blenderbot-400M-distill	 decaf coffee and turkey club she turned to	 char	ity	2.9601688385009766	3.8105661869049072	0.05181017518043518	0.32043012976646423	10
+419	santa_align	aligned	facebook/blenderbot-400M-distill	af coffee and turkey club she turned to char	l	est	6.500577449798584	2.1815295219421387	0.001502571627497673	0.6192224025726318	10
+420	santa_align	aligned	facebook/blenderbot-400M-distill	 coffee and turkey club she turned to charl	ie	d	7.341947078704834	5.9677228927612305	0.0006477880524471402	0.1344854235649109	10
+421	santa_align	aligned	facebook/blenderbot-400M-distill	 and turkey club she turned to charlie	 i	am	3.604353189468384	5.763969421386719	0.027205035090446472	0.03867896646261215	10
+422	santa_align	aligned	facebook/blenderbot-400M-distill	 turkey club she turned to charlie i	'll	be	7.719911575317383	4.525131702423096	0.00044389988761395216	0.15623459219932556	10
+423	santa_align	aligned	facebook/blenderbot-400M-distill	key club she turned to charlie i'll	 have	to	6.46693754196167	3.966804027557373	0.0015539774904027581	0.3367176949977875	10
+424	santa_align	aligned	facebook/blenderbot-400M-distill	 club she turned to charlie i'll have	 a	lot	4.780366897583008	6.023599624633789	0.008392916060984135	0.06270293146371841	10
+425	santa_align	aligned	facebook/blenderbot-400M-distill	 she turned to charlie i'll have a	 chocolate	life	10.327451705932617	6.123927116394043	3.272235335316509e-05	0.038899265229701996	10
+426	santa_align	aligned	facebook/blenderbot-400M-distill	 turned to charlie i'll have a chocolate	 milk	</s>	11.679641723632812	4.0755414962768555	8.464400707453024e-06	0.22266854345798492	10
+427	santa_align	aligned	facebook/blenderbot-400M-distill	 to charlie i'll have a chocolate milk	 and	I	6.548876762390137	4.768504619598389	0.0014317231252789497	0.09779667854309082	10
+428	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie i'll have a chocolate milk and	 we	'll	7.758999824523926	4.24949836730957	0.0004268832562956959	0.13388580083847046	10
+429	santa_align	aligned	facebook/blenderbot-400M-distill	lie i'll have a chocolate milk and we	're	talking	5.5896148681640625	5.734801292419434	0.0037364668678492308	0.05976232513785362	10
+430	santa_align	aligned	facebook/blenderbot-400M-distill	ie i'll have a chocolate milk and we're	 out	of	9.835084915161133	3.728696584701538	5.3539813961833715e-05	0.2565597593784332	10
+431	santa_align	aligned	facebook/blenderbot-400M-distill	 i'll have a chocolate milk and we're out	 jud	gment	6.4745097160339355	1.7317839860916138	0.0015422551659867167	0.4305444657802582	10
+432	santa_align	aligned	facebook/blenderbot-400M-distill	'll have a chocolate milk and we're out jud	y	z	5.534151554107666	5.8305206298828125	0.003949558362364769	0.09778136759996414	10
+433	santa_align	aligned	facebook/blenderbot-400M-distill	 have a chocolate milk and we're out judy	 inter	s	6.4572553634643555	5.071988105773926	0.0015690959990024567	0.13424184918403625	10
+434	santa_align	aligned	facebook/blenderbot-400M-distill	 a chocolate milk and we're out judy inter	rupt	ed	12.509862899780273	2.046750068664551	3.6900773920933716e-06	0.5403826236724854	10
+435	santa_align	aligned	facebook/blenderbot-400M-distill	 chocolate milk and we're out judy interrupt	ed	to	10.513642311096191	3.79970121383667	2.7163339836988598e-05	0.16137734055519104	10
+436	santa_align	aligned	facebook/blenderbot-400M-distill	 milk and we're out judy interrupted	 again	to	7.243106842041016	3.5400397777557373	0.0007150868186727166	0.15003415942192078	10
+437	santa_align	aligned	facebook/blenderbot-400M-distill	 and we're out judy interrupted again	 and	that	5.749422550201416	4.478187084197998	0.0031846193596720695	0.1934066116809845	10
+438	santa_align	aligned	facebook/blenderbot-400M-distill	 we're out judy interrupted again and	 char	t	3.368368148803711	4.185306072235107	0.034445807337760925	0.158015638589859	10
+439	santa_align	aligned	facebook/blenderbot-400M-distill	're out judy interrupted again and char	l	ie	6.148695468902588	2.9083104133605957	0.00213626679033041	0.5240704417228699	10
+440	santa_align	aligned	facebook/blenderbot-400M-distill	 out judy interrupted again and charl	ie	so	6.772470474243164	6.236464500427246	0.001144862617366016	0.045080333948135376	10
+441	santa_align	aligned	facebook/blenderbot-400M-distill	 judy interrupted again and charlie	 		0.40443891286849976	2.1529645919799805	0.6673511266708374	0.6673511266708374	10
+442	santa_align	aligned	facebook/blenderbot-400M-distill	y interrupted again and charlie 	<unk>		17.541013717651367	5.019314765930176	2.410095056859518e-08	0.2251705676317215	10
+443	santa_align	aligned	facebook/blenderbot-400M-distill	 interrupted again and charlie <unk>	 plain	ly	11.128554344177246	5.981204032897949	1.4686903341498692e-05	0.08455240726470947	10
+444	santa_align	aligned	facebook/blenderbot-400M-distill	rupted again and charlie <unk> plain	 		0.8991905450820923	3.967057228088379	0.4068988859653473	0.4068988859653473	10
+445	santa_align	aligned	facebook/blenderbot-400M-distill	ed again and charlie <unk> plain 	<unk>		18.372753143310547	3.3944320678710938	1.0490949442498732e-08	0.4768775999546051	10
+446	santa_align	aligned	facebook/blenderbot-400M-distill	 again and charlie <unk> plain <unk>	 fine		8.438075065612793	2.900533676147461	0.00021646641835104674	0.44551295042037964	10
+447	santa_align	aligned	facebook/blenderbot-400M-distill	 and charlie <unk> plain <unk> fine	 and		5.917529106140137	5.249574661254883	0.002691843779757619	0.15972323715686798	10
+448	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie <unk> plain <unk> fine and	 chicken		9.626250267028809	5.626095771789551	6.597398896701634e-05	0.11827515810728073	10
+449	santa_align	aligned	facebook/blenderbot-400M-distill	lie <unk> plain <unk> fine and chicken	 fingers		9.37627124786377	4.244765281677246	8.471048931824043e-05	0.3506081700325012	10
+450	santa_align	aligned	facebook/blenderbot-400M-distill	ie <unk> plain <unk> fine and chicken fingers	 jud	y	5.49399471282959	4.509707927703857	0.004111388232558966	0.25441133975982666	10
+451	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> plain <unk> fine and chicken fingers jud	y	things	6.602228164672852	6.088328838348389	0.0013573401374742389	0.04727621749043465	10
+452	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> plain <unk> fine and chicken fingers judy	 coll	ater	5.587294578552246	5.367639064788818	0.0037451470270752907	0.08180239051580429	10
+453	santa_align	aligned	facebook/blenderbot-400M-distill	 plain <unk> fine and chicken fingers judy coll	ected	</s>	14.458202362060547	4.665071487426758	5.25874781942548e-07	0.1727907806634903	10
+454	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> fine and chicken fingers judy collected	 their	s	7.5189900398254395	6.17790412902832	0.0005426803254522383	0.11728604882955551	10
+455	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> fine and chicken fingers judy collected their	 men	thing	8.80413818359375	6.129788398742676	0.00015011054347269237	0.04053211212158203	10
+456	santa_align	aligned	facebook/blenderbot-400M-distill	 fine and chicken fingers judy collected their men	us	.	11.30627727508545	3.8550021648406982	1.2295503438508604e-05	0.23567765951156616	10
+457	santa_align	aligned	facebook/blenderbot-400M-distill	 and chicken fingers judy collected their menus	 and	for	5.505597114562988	6.177156925201416	0.004063961561769247	0.08386403322219849	10
+458	santa_align	aligned	facebook/blenderbot-400M-distill	 chicken fingers judy collected their menus and	 		1.3599101305007935	5.106903076171875	0.2566838264465332	0.2566838264465332	10
+459	santa_align	aligned	facebook/blenderbot-400M-distill	 fingers judy collected their menus and 	<unk>		17.361289978027344	4.585200309753418	2.884610417197564e-08	0.2122238576412201	10
+460	santa_align	aligned	facebook/blenderbot-400M-distill	 judy collected their menus and <unk>	 off	but	6.09072732925415	5.013671875	0.0022637618239969015	0.11675194650888443	10
+461	santa_align	aligned	facebook/blenderbot-400M-distill	y collected their menus and <unk> off	 toward		13.59657096862793	4.993483543395996	1.2447561630324344e-06	0.1768965870141983	10
+462	santa_align	aligned	facebook/blenderbot-400M-distill	 collected their menus and <unk> off toward	 the		6.0590128898620605	5.824531555175781	0.0023367065005004406	0.1683923900127411	10
+463	santa_align	aligned	facebook/blenderbot-400M-distill	ected their menus and <unk> off toward the	 kitchen	of	10.624008178710938	3.2214319705963135	2.4324948753928766e-05	0.5130513906478882	10
+464	santa_align	aligned	facebook/blenderbot-400M-distill	 their menus and <unk> off toward the kitchen	 the		6.237917900085449	6.24984884262085	0.0019539189524948597	0.06419387459754944	10
+465	santa_align	aligned	facebook/blenderbot-400M-distill	 menus and <unk> off toward the kitchen the	 two	things	6.682592391967773	5.880789756774902	0.0012525267666205764	0.07891832292079926	10
+466	santa_align	aligned	facebook/blenderbot-400M-distill	us and <unk> off toward the kitchen the two	 sat	urn	8.366296768188477	6.0290751457214355	0.00023257527209352702	0.06096474826335907	10
+467	santa_align	aligned	facebook/blenderbot-400M-distill	 and <unk> off toward the kitchen the two sat	 in	a	6.063977241516113	5.553927421569824	0.0023251345846801996	0.0920221358537674	10
+468	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> off toward the kitchen the two sat in	 sil	ence	7.7703166007995605	4.734225273132324	0.00042207958176732063	0.24746187031269073	10
+469	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> off toward the kitchen the two sat in sil	ence	but	10.3162202835083	5.400697708129883	3.309195744805038e-05	0.07920584827661514	10
+470	santa_align	aligned	facebook/blenderbot-400M-distill	 off toward the kitchen the two sat in silence	 for		4.740232467651367	5.909952163696289	0.008736616000533104	0.057447027415037155	10
+471	santa_align	aligned	facebook/blenderbot-400M-distill	 toward the kitchen the two sat in silence for	 a	</s>	4.55557918548584	6.420312404632568	0.010508409701287746	0.050971731543540955	10
+472	santa_align	aligned	facebook/blenderbot-400M-distill	 the kitchen the two sat in silence for a	 minute	</s>	9.767682075500488	4.671353340148926	5.7272965932497755e-05	0.14436984062194824	10
+473	santa_align	aligned	facebook/blenderbot-400M-distill	 kitchen the two sat in silence for a minute	 sc	sc	1.0948131084442139	3.8317313194274902	0.33460214734077454	0.33460214734077454	10
+474	santa_align	aligned	facebook/blenderbot-400M-distill	 the two sat in silence for a minute sc	ott	ish	8.378827095031738	5.945810317993164	0.00022967914992477745	0.07500238716602325	10
+475	santa_align	aligned	facebook/blenderbot-400M-distill	 two sat in silence for a minute scott	 put	on	7.732686519622803	4.742624759674072	0.00043826509499922395	0.11529521644115448	10
+476	santa_align	aligned	facebook/blenderbot-400M-distill	 sat in silence for a minute scott put	 his	I	6.360827445983887	6.20566463470459	0.0017279363237321377	0.0362926609814167	10
+477	santa_align	aligned	facebook/blenderbot-400M-distill	 in silence for a minute scott put his	 pal	to	7.892251014709473	5.982896327972412	0.00037362767034210265	0.038500476628541946	10
+478	santa_align	aligned	facebook/blenderbot-400M-distill	 silence for a minute scott put his pal	ms	to	10.394403457641602	5.01631498336792	3.0603270715801045e-05	0.1238916888833046	10
+479	santa_align	aligned	facebook/blenderbot-400M-distill	ence for a minute scott put his palms	 down	.	6.504154205322266	5.0583343505859375	0.001497207093052566	0.1255849301815033	10
+480	santa_align	aligned	facebook/blenderbot-400M-distill	 for a minute scott put his palms down	 on	second	9.014568328857422	5.9169392585754395	0.00012162490020273253	0.060621343553066254	10
+481	santa_align	aligned	facebook/blenderbot-400M-distill	 a minute scott put his palms down on	 the	second	7.314342021942139	5.370530128479004	0.0006659193895757198	0.16964013874530792	10
+482	santa_align	aligned	facebook/blenderbot-400M-distill	 minute scott put his palms down on the	 table	I	7.1136980056762695	4.627716064453125	0.0008138797129504383	0.07646054029464722	10
+483	santa_align	aligned	facebook/blenderbot-400M-distill	 scott put his palms down on the table	 look	at	10.71280574798584	3.628791093826294	2.2258071112446487e-05	0.42803308367729187	10
+484	santa_align	aligned	facebook/blenderbot-400M-distill	ott put his palms down on the table look	 i	have	3.5158724784851074	5.197277545928955	0.029721857979893684	0.10800842940807343	10
+485	santa_align	aligned	facebook/blenderbot-400M-distill	 put his palms down on the table look i	 i	have	4.369901657104492	5.550262451171875	0.012652487494051456	0.07337077707052231	10
+486	santa_align	aligned	facebook/blenderbot-400M-distill	 his palms down on the table look i i	'm	not	7.025543689727783	5.47860050201416	0.0008888840675354004	0.09515289962291718	10
+487	santa_align	aligned	facebook/blenderbot-400M-distill	 palms down on the table look i i'm	 sorry	to	6.388826370239258	3.6627941131591797	0.0016802267637103796	0.20591576397418976	10
+488	santa_align	aligned	facebook/blenderbot-400M-distill	ms down on the table look i i'm sorry	 i	'm	4.777865409851074	4.429238796234131	0.008413941599428654	0.28303062915802	10
+489	santa_align	aligned	facebook/blenderbot-400M-distill	 down on the table look i i'm sorry i	 was	like	6.668708801269531	5.192473888397217	0.0012700374936684966	0.14353184401988983	10
+490	santa_align	aligned	facebook/blenderbot-400M-distill	 on the table look i i'm sorry i was	 just	to	9.357719421386719	5.142317771911621	8.629665535409003e-05	0.12224583327770233	10
+491	santa_align	aligned	facebook/blenderbot-400M-distill	 the table look i i'm sorry i was just	 kidding	with	10.434535026550293	2.1881024837493896	2.939944897661917e-05	0.5700559020042419	10
+492	santa_align	aligned	facebook/blenderbot-400M-distill	 table look i i'm sorry i was just kidding	 about	a	7.536001682281494	4.829736709594727	0.0005335266469046474	0.2188773900270462	10
+493	santa_align	aligned	facebook/blenderbot-400M-distill	 look i i'm sorry i was just kidding about	 ne	ur	7.470455169677734	4.944694519042969	0.0005696690641343594	0.1330483853816986	10
+494	santa_align	aligned	facebook/blenderbot-400M-distill	 i i'm sorry i was just kidding about ne	al	ing	6.570556640625	4.919310569763184	0.001401017652824521	0.1313938945531845	10
+495	santa_align	aligned	facebook/blenderbot-400M-distill	 i'm sorry i was just kidding about neal	 i	'm	5.654746055603027	4.341791152954102	0.0035008625127375126	0.18159128725528717	10
+496	santa_align	aligned	facebook/blenderbot-400M-distill	'm sorry i was just kidding about neal i	 like	to	7.599236965179443	3.605264186859131	0.0005008333828300238	0.5047824382781982	10
+497	santa_align	aligned	facebook/blenderbot-400M-distill	 sorry i was just kidding about neal i like	 him	to	9.102362632751465	3.748220205307007	0.00011140231072204188	0.17393048107624054	10
+498	santa_align	aligned	facebook/blenderbot-400M-distill	 i was just kidding about neal i like him	 i	am	5.058269023895264	4.354340076446533	0.006356553174555302	0.10518740117549896	10
+499	santa_align	aligned	facebook/blenderbot-400M-distill	 was just kidding about neal i like him i	'm	a	8.95315170288086	4.633455753326416	0.0001293288660235703	0.10769058018922806	10
+500	santa_align	aligned	facebook/blenderbot-400M-distill	 just kidding about neal i like him i'm	 sure	of	6.681885719299316	2.749617576599121	0.0012534118723124266	0.4813372492790222	10
+501	santa_align	aligned	facebook/blenderbot-400M-distill	 kidding about neal i like him i'm sure	 he	's	5.64132022857666	4.331825256347656	0.0035481818486005068	0.38224080204963684	10
+502	santa_align	aligned	facebook/blenderbot-400M-distill	 about neal i like him i'm sure he	's	got	6.241695880889893	4.720722198486328	0.0019465514924377203	0.207729309797287	10
+503	santa_align	aligned	facebook/blenderbot-400M-distill	 neal i like him i'm sure he's	 a	thing	6.5516862869262695	5.305903434753418	0.001427706447429955	0.231441929936409	10
+504	santa_align	aligned	facebook/blenderbot-400M-distill	al i like him i'm sure he's a	 good	thing	7.363481521606445	4.776429176330566	0.0006339875399135053	0.17883609235286713	10
+505	santa_align	aligned	facebook/blenderbot-400M-distill	 i like him i'm sure he's a good	 psych	olog	10.605541229248047	2.642932891845703	2.477832094882615e-05	0.3675823211669922	10
+506	santa_align	aligned	facebook/blenderbot-400M-distill	 like him i'm sure he's a good psych	iat	ry	7.5631914138793945	2.548807144165039	0.0005192154203541577	0.38306570053100586	10
+507	santa_align	aligned	facebook/blenderbot-400M-distill	 him i'm sure he's a good psychiat	rist	right	12.143481254577637	4.307085990905762	5.32296007804689e-06	0.11210204660892487	10
+508	santa_align	aligned	facebook/blenderbot-400M-distill	 i'm sure he's a good psychiatrist	 you	just	4.385193347930908	5.822926998138428	0.012460478581488132	0.07368792593479156	10
+509	santa_align	aligned	facebook/blenderbot-400M-distill	'm sure he's a good psychiatrist you	 know	what	6.294592380523682	4.382951736450195	0.0018462614389136434	0.10474798083305359	10
+510	santa_align	aligned	facebook/blenderbot-400M-distill	 sure he's a good psychiatrist you know	 there	's	4.9214935302734375	3.796133041381836	0.007288237567991018	0.27521437406539917	10
+511	santa_align	aligned	facebook/blenderbot-400M-distill	 he's a good psychiatrist you know there	's	a	5.386168479919434	5.422328472137451	0.004579485859721899	0.09274034202098846	10
+512	santa_align	aligned	facebook/blenderbot-400M-distill	's a good psychiatrist you know there's	 just	a	11.982234954833984	4.507345676422119	6.254341769817984e-06	0.1802653670310974	10
+513	santa_align	aligned	facebook/blenderbot-400M-distill	 a good psychiatrist you know there's just	 something	about	9.209254264831543	4.5345330238342285	0.0001001086930045858	0.1436556577682495	10
+514	santa_align	aligned	facebook/blenderbot-400M-distill	 good psychiatrist you know there's just something	 about	right	7.996817588806152	4.995223522186279	0.0003365318407304585	0.1739821881055832	10
+515	santa_align	aligned	facebook/blenderbot-400M-distill	 psychiatrist you know there's just something about	 him	right	7.666050434112549	4.964756965637207	0.0004684643936343491	0.12643276154994965	10
+516	santa_align	aligned	facebook/blenderbot-400M-distill	iatrist you know there's just something about him	 that	's	6.411778926849365	4.2212371826171875	0.0016421006293967366	0.36718034744262695	10
+517	santa_align	aligned	facebook/blenderbot-400M-distill	rist you know there's just something about him that	 makes	sense	7.18756103515625	3.7852394580841064	0.0007559306686744094	0.4244326055049896	10
+518	santa_align	aligned	facebook/blenderbot-400M-distill	 you know there's just something about him that makes	 me	happy	8.288925170898438	4.23567533493042	0.00025128430570475757	0.27066361904144287	10
+519	santa_align	aligned	facebook/blenderbot-400M-distill	 know there's just something about him that makes me	 want	to	5.6212334632873535	0.6858479380607605	0.0036201735492795706	0.9226874113082886	10
+520	santa_align	aligned	facebook/blenderbot-400M-distill	 there's just something about him that makes me want	 to	to	3.107084035873413	5.811402320861816	0.044731199741363525	0.044731199741363525	10
+521	santa_align	aligned	facebook/blenderbot-400M-distill	's just something about him that makes me want to	 i	just	3.69701886177063	4.967057704925537	0.024797340855002403	0.180897057056427	10
+522	santa_align	aligned	facebook/blenderbot-400M-distill	 just something about him that makes me want to i	 don	't	9.499253273010254	0.16274197399616241	7.490776624763384e-05	0.9833472371101379	10
+523	santa_align	aligned	facebook/blenderbot-400M-distill	 something about him that makes me want to i don	't	think	8.14114761352539	2.981796979904175	0.0002913027419708669	0.31680500507354736	10
+524	santa_align	aligned	facebook/blenderbot-400M-distill	 about him that makes me want to i don't	 know	about	7.061812400817871	3.8205127716064453	0.0008572229999117553	0.1999945491552353	10
+525	santa_align	aligned	facebook/blenderbot-400M-distill	 him that makes me want to i don't know	 l	es	5.142614841461182	5.349748611450195	0.005842392798513174	0.09454221278429031	10
+526	santa_align	aligned	facebook/blenderbot-400M-distill	 that makes me want to i don't know l	ash	i	6.224458694458008	5.491534233093262	0.001980395754799247	0.06783771514892578	10
+527	santa_align	aligned	facebook/blenderbot-400M-distill	 makes me want to i don't know lash	 out	and	8.836173057556152	4.786713123321533	0.00014537804236169904	0.1309015303850174	10
+528	santa_align	aligned	facebook/blenderbot-400M-distill	 me want to i don't know lash out	 ir	a	5.8680267333984375	6.015782833099365	0.0028284485451877117	0.05135243386030197	10
+529	santa_align	aligned	facebook/blenderbot-400M-distill	 want to i don't know lash out ir	ration	you	10.820894241333008	6.066874980926514	1.997768777073361e-05	0.05356812849640846	10
+530	santa_align	aligned	facebook/blenderbot-400M-distill	 to i don't know lash out irration	ally	</s>	13.491080284118652	4.740580081939697	1.3832426475346438e-06	0.12061160802841187	10
+531	santa_align	aligned	facebook/blenderbot-400M-distill	 i don't know lash out irrationally	 suggested	by	10.208993911743164	4.70113468170166	3.683750765048899e-05	0.19355271756649017	10
+532	santa_align	aligned	facebook/blenderbot-400M-distill	 don't know lash out irrationally suggested	 char	t	5.771581649780273	3.4746224880218506	0.00311482697725296	0.31957361102104187	10
+533	santa_align	aligned	facebook/blenderbot-400M-distill	't know lash out irrationally suggested char	l	ie	7.894290447235107	3.113905906677246	0.00037286634324118495	0.3269555866718292	10
+534	santa_align	aligned	facebook/blenderbot-400M-distill	 know lash out irrationally suggested charl	ie	I	8.710090637207031	6.133359432220459	0.00016491331916768104	0.057733118534088135	10
+535	santa_align	aligned	facebook/blenderbot-400M-distill	 lash out irrationally suggested charlie	 where	I	9.096393585205078	4.957190990447998	0.00011206927592866123	0.15566158294677734	10
+536	santa_align	aligned	facebook/blenderbot-400M-distill	ash out irrationally suggested charlie where	 did	you	6.747072696685791	4.876619338989258	0.0011743122013285756	0.2688404321670532	10
+537	santa_align	aligned	facebook/blenderbot-400M-distill	 out irrationally suggested charlie where did	 you	go	5.972301006317139	4.90932035446167	0.0025483707431703806	0.2216213345527649	10
+538	santa_align	aligned	facebook/blenderbot-400M-distill	 irrationally suggested charlie where did you	 hear	from	8.350651741027832	1.9120489358901978	0.0002362424274906516	0.6580131649971008	10
+539	santa_align	aligned	facebook/blenderbot-400M-distill	rationally suggested charlie where did you hear	 that	</s>	5.3299150466918945	5.227835655212402	0.0048444815911352634	0.09445714205503464	10
+540	santa_align	aligned	facebook/blenderbot-400M-distill	ally suggested charlie where did you hear that	 from	?	7.6936845779418945	3.9206604957580566	0.00045569593203254044	0.2411486953496933	10
+541	santa_align	aligned	facebook/blenderbot-400M-distill	 suggested charlie where did you hear that from	 ne	ne	2.086026191711426	4.638102054595947	0.12417960911989212	0.12417960911989212	10
+542	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie where did you hear that from ne	al	</s>	7.3568267822265625	6.675535678863525	0.0006382205174304545	0.01693345420062542	10
+543	santa_align	aligned	facebook/blenderbot-400M-distill	lie where did you hear that from neal	 i	am	3.355921745300293	5.7563676834106445	0.03487721085548401	0.08164016157388687	10
+544	santa_align	aligned	facebook/blenderbot-400M-distill	ie where did you hear that from neal i	 learn	to	7.0319623947143555	4.257983207702637	0.0008831968880258501	0.1714075803756714	10
+545	santa_align	aligned	facebook/blenderbot-400M-distill	 where did you hear that from neal i learn	 a	thing	4.62501859664917	5.683591842651367	0.009803473949432373	0.10563309490680695	10
+546	santa_align	aligned	facebook/blenderbot-400M-distill	 did you hear that from neal i learn a	 lot	of	7.516414165496826	0.9814075827598572	0.0005440800450742245	0.8655718564987183	10
+547	santa_align	aligned	facebook/blenderbot-400M-distill	 you hear that from neal i learn a lot	 from	a	8.400164604187012	5.289574146270752	0.00022483034990727901	0.08427958935499191	10
+548	santa_align	aligned	facebook/blenderbot-400M-distill	 hear that from neal i learn a lot from	 him	that	9.182046890258789	4.859694957733154	0.00010286978067597374	0.10504121333360672	10
+549	santa_align	aligned	facebook/blenderbot-400M-distill	 that from neal i learn a lot from him	 he	is	5.003103733062744	4.854730606079102	0.0067170667462050915	0.14695361256599426	10
+550	santa_align	aligned	facebook/blenderbot-400M-distill	 from neal i learn a lot from him he	 list	ens	6.788307189941406	5.630197525024414	0.0011268750531598926	0.08740971982479095	10
+551	santa_align	aligned	facebook/blenderbot-400M-distill	 neal i learn a lot from him he list	ens	to	12.226790428161621	2.416402578353882	4.897477538179373e-06	0.632586658000946	10
+552	santa_align	aligned	facebook/blenderbot-400M-distill	al i learn a lot from him he listens	 to	more	5.610318183898926	5.971686840057373	0.0036599058657884598	0.03806402534246445	10
+553	santa_align	aligned	facebook/blenderbot-400M-distill	 i learn a lot from him he listens to	 me	I	6.064560413360596	4.979748249053955	0.002323779044672847	0.09323801845312119	10
+554	santa_align	aligned	facebook/blenderbot-400M-distill	 learn a lot from him he listens to me	 sc	or	3.6782281398773193	5.6010332107543945	0.02526770532131195	0.049358829855918884	10
+555	santa_align	aligned	facebook/blenderbot-400M-distill	 a lot from him he listens to me sc	ott	ish	8.2493896484375	4.339431285858154	0.00026141805574297905	0.41384899616241455	10
+556	santa_align	aligned	facebook/blenderbot-400M-distill	 lot from him he listens to me scott	 sh	ire	5.288288593292236	5.4127044677734375	0.0050503965467214584	0.06476093083620071	10
+557	santa_align	aligned	facebook/blenderbot-400M-distill	 from him he listens to me scott sh	ook	</s>	8.313222885131836	5.258576393127441	0.0002452524204272777	0.1350523829460144	10
+558	santa_align	aligned	facebook/blenderbot-400M-distill	 him he listens to me scott shook	 his	I	6.727363586425781	6.126549243927002	0.001197686418890953	0.060488346964120865	10
+559	santa_align	aligned	facebook/blenderbot-400M-distill	 he listens to me scott shook his	 head	</s>	6.750415325164795	4.966833114624023	0.0011703933123499155	0.1782269924879074	10
+560	santa_align	aligned	facebook/blenderbot-400M-distill	 listens to me scott shook his head	 yeah	</s>	4.849400997161865	4.820069789886475	0.007833070121705532	0.1867889016866684	10
+561	santa_align	aligned	facebook/blenderbot-400M-distill	ens to me scott shook his head yeah	 and	that	5.523893356323242	4.722538471221924	0.00399028230458498	0.18181142210960388	10
+562	santa_align	aligned	facebook/blenderbot-400M-distill	 to me scott shook his head yeah and	 then	you	11.46898078918457	4.393017768859863	1.0449242836330086e-05	0.1319139450788498	10
+563	santa_align	aligned	facebook/blenderbot-400M-distill	 me scott shook his head yeah and then	 he	just	4.081178665161133	5.10346794128418	0.01688755303621292	0.07733664661645889	10
+564	santa_align	aligned	facebook/blenderbot-400M-distill	 scott shook his head yeah and then he	 charges	me	9.419921875	4.464122295379639	8.109238115139306e-05	0.14923745393753052	10
+565	santa_align	aligned	facebook/blenderbot-400M-distill	ott shook his head yeah and then he charges	 you	with	5.7335004806518555	3.602353572845459	0.0032357301097363234	0.3754611909389496	10
+566	santa_align	aligned	facebook/blenderbot-400M-distill	 shook his head yeah and then he charges you	 for	all	8.812006950378418	5.310290813446045	0.00014893405023030937	0.08157605677843094	10
+567	santa_align	aligned	facebook/blenderbot-400M-distill	ook his head yeah and then he charges you for	 it	.	5.509793281555176	4.034293174743652	0.004046943504363298	0.20179247856140137	10
+568	santa_align	aligned	facebook/blenderbot-400M-distill	 his head yeah and then he charges you for it	 jud	ging	8.563384056091309	1.2795767784118652	0.00019097194308415055	0.45578688383102417	10
+569	santa_align	aligned	facebook/blenderbot-400M-distill	 head yeah and then he charges you for it jud	y	thing	7.329400062561035	4.765478610992432	0.0006559668108820915	0.12437359243631363	10
+570	santa_align	aligned	facebook/blenderbot-400M-distill	 yeah and then he charges you for it judy	 		1.2071216106414795	4.413422584533691	0.2990568280220032	0.2990568280220032	10
+571	santa_align	aligned	facebook/blenderbot-400M-distill	 and then he charges you for it judy 	<unk>		18.572917938232422	4.653356552124023	8.587845989893594e-09	0.1673579216003418	10
+572	santa_align	aligned	facebook/blenderbot-400M-distill	 then he charges you for it judy <unk>	 with	a	6.710048675537109	5.922817707061768	0.001218605088070035	0.08431268483400345	10
+573	santa_align	aligned	facebook/blenderbot-400M-distill	 he charges you for it judy <unk> with	 their		7.303919792175293	5.9475908279418945	0.000672896218020469	0.07834187895059586	10
+574	santa_align	aligned	facebook/blenderbot-400M-distill	 charges you for it judy <unk> with their	 drinks	of	9.25291633605957	5.235714435577393	9.583177597960457e-05	0.1289539784193039	10
+575	santa_align	aligned	facebook/blenderbot-400M-distill	 you for it judy <unk> with their drinks	 the	I	5.340271949768066	6.179745197296143	0.004794565960764885	0.051715631037950516	10
+576	santa_align	aligned	facebook/blenderbot-400M-distill	 for it judy <unk> with their drinks the	 sandw	ich	6.905923843383789	1.1785905361175537	0.0010018331231549382	0.5716551542282104	10
+577	santa_align	aligned	facebook/blenderbot-400M-distill	 it judy <unk> with their drinks the sandw	ich	thing	11.531102180480957	5.956924915313721	9.81987250270322e-06	0.06903591752052307	10
+578	santa_align	aligned	facebook/blenderbot-400M-distill	 judy <unk> with their drinks the sandwich	 and	to	6.246340274810791	5.537328243255615	0.0019375319825485349	0.09259946644306183	10
+579	santa_align	aligned	facebook/blenderbot-400M-distill	y <unk> with their drinks the sandwich and	 chicken	</s>	8.15085506439209	5.821618556976318	0.0002884885179810226	0.03626737743616104	10
+580	santa_align	aligned	facebook/blenderbot-400M-distill	 <unk> with their drinks the sandwich and chicken	 fingers	.	9.561766624450684	4.632513523101807	7.036836905172095e-05	0.16281095147132874	10
+581	santa_align	aligned	facebook/blenderbot-400M-distill	<unk> with their drinks the sandwich and chicken fingers	 char	char	1.8608856201171875	4.687291622161865	0.15553481876850128	0.15553481876850128	10
+582	santa_align	aligned	facebook/blenderbot-400M-distill	 with their drinks the sandwich and chicken fingers char	l	est	7.926475524902344	2.476101875305176	0.0003610567073337734	0.5120831727981567	10
+583	santa_align	aligned	facebook/blenderbot-400M-distill	 their drinks the sandwich and chicken fingers charl	ie	are	7.716664791107178	5.937599182128906	0.0004453435249160975	0.08252657204866409	10
+584	santa_align	aligned	facebook/blenderbot-400M-distill	 drinks the sandwich and chicken fingers charlie	 do	together	6.733081817626953	5.637337684631348	0.0011908573796972632	0.12869204580783844	10
+585	santa_align	aligned	facebook/blenderbot-400M-distill	 the sandwich and chicken fingers charlie do	ve	</s>	9.483440399169922	4.976716995239258	7.610163447679952e-05	0.20635205507278442	10
+586	santa_align	aligned	facebook/blenderbot-400M-distill	 sandwich and chicken fingers charlie dove	 into	by	6.826932430267334	6.395923137664795	0.0010841788025572896	0.03848009184002876	10
+587	santa_align	aligned	facebook/blenderbot-400M-distill	ich and chicken fingers charlie dove into	 the	second	6.676333427429199	6.635779857635498	0.001260391203686595	0.04431033879518509	10
+588	santa_align	aligned	facebook/blenderbot-400M-distill	 and chicken fingers charlie dove into the	 f	f	1.2536028623580933	4.443115234375	0.28547441959381104	0.28547441959381104	10
+589	santa_align	aligned	facebook/blenderbot-400M-distill	 chicken fingers charlie dove into the f	rench	to	8.897322654724121	6.584314346313477	0.00013675462105311453	0.0357435904443264	10
+590	santa_align	aligned	facebook/blenderbot-400M-distill	 fingers charlie dove into the french	 f	ries	2.0700039863586426	4.1742353439331055	0.12618526816368103	0.2591070532798767	10
+591	santa_align	aligned	facebook/blenderbot-400M-distill	 charlie dove into the french f	ries	for	10.682884216308594	4.832711696624756	2.2934140361030586e-05	0.09992600232362747	10
+592	santa_align	aligned	facebook/blenderbot-400M-distill	lie dove into the french fries	 on		7.988210201263428	5.864394664764404	0.0003394410596229136	0.08706891536712646	10
+593	santa_align	aligned	facebook/blenderbot-400M-distill	ie dove into the french fries on	 his	to	7.782894134521484	6.216526985168457	0.00041680410504341125	0.04314805194735527	10
+594	santa_align	aligned	facebook/blenderbot-400M-distill	 dove into the french fries on his	 plate	.	11.352839469909668	4.6712422370910645	1.173612145066727e-05	0.12049490958452225	10
+595	santa_align	aligned	facebook/blenderbot-400M-distill	ve into the french fries on his plate	 mer	cha	4.919591903686523	4.221863269805908	0.007302111946046352	0.3582223057746887	10
+596	santa_align	aligned	facebook/blenderbot-400M-distill	 into the french fries on his plate mer	ry	is	6.897049903869629	5.745668888092041	0.001010762876830995	0.044721055775880814	10
+597	santa_align	aligned	facebook/blenderbot-400M-distill	 the french fries on his plate merry	 christ	ian	5.425059795379639	4.3113789558410645	0.004404802806675434	0.31164494156837463	10
+598	santa_align	aligned	facebook/blenderbot-400M-distill	 french fries on his plate merry christ	mas	is	12.775849342346191	5.640811920166016	2.8282586299610557e-06	0.07784803956747055	10
+599	santa_align	aligned	facebook/blenderbot-400M-distill	rench fries on his plate merry christmas	 you	can	4.827578544616699	4.983319282531738	0.008005885407328606	0.10482165962457657	10
+600	santa_align	aligned	facebook/blenderbot-400M-distill	 fries on his plate merry christmas you	 two	are	8.852642059326172	5.645363807678223	0.0001430034462828189	0.051055870950222015	10
+601	santa_align	aligned	facebook/blenderbot-400M-distill	ries on his plate merry christmas you two	</s>	for	4.4863739013671875	5.792201042175293	0.011261407285928726	0.09951743483543396	10

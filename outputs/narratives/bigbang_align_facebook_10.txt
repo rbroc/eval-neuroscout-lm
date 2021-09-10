@@ -1,0 +1,617 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon slowly walked into the restaurant the dec	or	ative	4.425618648529053	1.840928077697754	0.011966807767748833	0.7336328625679016	10
+1	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon slowly walked into the restaurant the decor	 susp	ense	8.42556381225586	2.05804705619812	0.00021919180289842188	0.5600083470344543	10
+2	bigbang_align	aligned	facebook/blenderbot-400M-distill	on slowly walked into the restaurant the decor susp	ic	ions	6.923710823059082	1.922824501991272	0.0009841709397733212	0.4100910425186157	10
+3	bigbang_align	aligned	facebook/blenderbot-400M-distill	 slowly walked into the restaurant the decor suspic	iously	is	10.152958869934082	5.5061821937561035	3.896063208230771e-05	0.0720495879650116	10
+4	bigbang_align	aligned	facebook/blenderbot-400M-distill	 walked into the restaurant the decor suspiciously	 his	.	8.25145435333252	4.45092248916626	0.0002608788199722767	0.2647947072982788	10
+5	bigbang_align	aligned	facebook/blenderbot-400M-distill	 into the restaurant the decor suspiciously his	 roomm	ate	10.47813606262207	0.9089844226837158	2.8145124815637246e-05	0.5090153217315674	10
+6	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the restaurant the decor suspiciously his roomm	ate	I	12.529500007629395	5.458052635192871	3.61832212547597e-06	0.049837321043014526	10
+7	bigbang_align	aligned	facebook/blenderbot-400M-distill	 restaurant the decor suspiciously his roommate	 le	le	2.789354085922241	6.458138942718506	0.06146089732646942	0.06146089732646942	10
+8	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the decor suspiciously his roommate le	on	ard	5.742321968078613	6.221549034118652	0.003207313595339656	0.07289797067642212	10
+9	bigbang_align	aligned	facebook/blenderbot-400M-distill	 decor suspiciously his roommate leon	ard	o	5.761404037475586	6.421628952026367	0.0031466910149902105	0.055962275713682175	10
+10	bigbang_align	aligned	facebook/blenderbot-400M-distill	or suspiciously his roommate leonard	 pushed	</s>	11.103520393371582	6.030838489532471	1.5059218640089966e-05	0.08808435499668121	10
+11	bigbang_align	aligned	facebook/blenderbot-400M-distill	 suspiciously his roommate leonard pushed	 past	I	9.947632789611816	5.832979202270508	4.784076372743584e-05	0.059470899403095245	10
+12	bigbang_align	aligned	facebook/blenderbot-400M-distill	iciously his roommate leonard pushed past	 him	a	8.271415710449219	5.410439968109131	0.0002557230764068663	0.1255883425474167	10
+13	bigbang_align	aligned	facebook/blenderbot-400M-distill	iously his roommate leonard pushed past him	 and	together	5.445967674255371	5.4641032218933105	0.004313662648200989	0.14854274690151215	10
+14	bigbang_align	aligned	facebook/blenderbot-400M-distill	 his roommate leonard pushed past him and	 asked	for	5.225723743438721	3.8346168994903564	0.005376467015594244	0.4389010965824127	10
+15	bigbang_align	aligned	facebook/blenderbot-400M-distill	 roommate leonard pushed past him and asked	 the	so	7.026177883148193	6.229944229125977	0.0008883205591700971	0.053262852132320404	10
+16	bigbang_align	aligned	facebook/blenderbot-400M-distill	ate leonard pushed past him and asked the	 host	s	6.954631805419922	4.446234703063965	0.0009542052866891026	0.2470419555902481	10
+17	bigbang_align	aligned	facebook/blenderbot-400M-distill	 leonard pushed past him and asked the host	ess	to	4.549337387084961	3.647620677947998	0.01057420764118433	0.25494062900543213	10
+18	bigbang_align	aligned	facebook/blenderbot-400M-distill	onard pushed past him and asked the hostess	 for	a	5.40934944152832	5.822883605957031	0.0044745490886271	0.08755902200937271	10
+19	bigbang_align	aligned	facebook/blenderbot-400M-distill	ard pushed past him and asked the hostess for	 a	blind	5.422094345092773	6.480489730834961	0.004417884163558483	0.026981141418218613	10
+20	bigbang_align	aligned	facebook/blenderbot-400M-distill	 pushed past him and asked the hostess for a	 table	t	6.665474891662598	4.23142147064209	0.001274151261895895	0.2290211319923401	10
+21	bigbang_align	aligned	facebook/blenderbot-400M-distill	 past him and asked the hostess for a table	 for	example	6.0302839279174805	5.171760559082031	0.0024048106279224157	0.12985296547412872	10
+22	bigbang_align	aligned	facebook/blenderbot-400M-distill	 him and asked the hostess for a table for	 two	or	7.48920202255249	5.569026947021484	0.000559088890440762	0.11016754060983658	10
+23	bigbang_align	aligned	facebook/blenderbot-400M-distill	 and asked the hostess for a table for two	 as	well	7.161360263824463	2.6942543983459473	0.0007759982836432755	0.483327716588974	10
+24	bigbang_align	aligned	facebook/blenderbot-400M-distill	 asked the hostess for a table for two as	 they	would	6.131409645080566	5.960315704345703	0.0021735152695327997	0.05069134011864662	10
+25	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the hostess for a table for two as they	 were	a	6.543015480041504	5.939362525939941	0.001440139370970428	0.07116860896348953	10
+26	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hostess for a table for two as they were	 led	to	6.100837230682373	5.3858771324157715	0.002240990987047553	0.18516303598880768	10
+27	bigbang_align	aligned	facebook/blenderbot-400M-distill	ess for a table for two as they were led	 to	by	6.077033042907715	4.59569787979126	0.002294976031407714	0.2679595649242401	10
+28	bigbang_align	aligned	facebook/blenderbot-400M-distill	 for a table for two as they were led to	 their	s	5.794397354125977	6.200893402099609	0.0030445647425949574	0.08633995056152344	10
+29	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a table for two as they were led to their	 chair	s	8.17379379272461	1.730238676071167	0.00028194632614031434	0.7647387981414795	10
+30	bigbang_align	aligned	facebook/blenderbot-400M-distill	 table for two as they were led to their chair	s	.	8.672720909118652	5.08602237701416	0.00017119263065978885	0.1213361844420433	10
+31	bigbang_align	aligned	facebook/blenderbot-400M-distill	 for two as they were led to their chairs	 she	d	4.311931610107422	4.385281562805176	0.013407628983259201	0.19574254751205444	10
+32	bigbang_align	aligned	facebook/blenderbot-400M-distill	 two as they were led to their chairs she	ld	ers	12.062236785888672	5.277078628540039	5.7734723668545485e-06	0.09747444093227386	10
+33	bigbang_align	aligned	facebook/blenderbot-400M-distill	 as they were led to their chairs sheld	on	to	8.401110649108887	4.734533309936523	0.0002246177609777078	0.265048086643219	10
+34	bigbang_align	aligned	facebook/blenderbot-400M-distill	 they were led to their chairs sheldon	 began	to	10.426471710205078	4.011435508728027	2.963746192108374e-05	0.257117360830307	10
+35	bigbang_align	aligned	facebook/blenderbot-400M-distill	 were led to their chairs sheldon began	 to	us	4.057049751281738	5.577044486999512	0.017299983650445938	0.061013106256723404	10
+36	bigbang_align	aligned	facebook/blenderbot-400M-distill	 led to their chairs sheldon began to	 protest	on	10.912524223327637	4.9472832679748535	1.822849480959121e-05	0.0942506417632103	10
+37	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to their chairs sheldon began to protest	 yet	again	11.545955657958984	3.734003782272339	9.67509186011739e-06	0.33532172441482544	10
+38	bigbang_align	aligned	facebook/blenderbot-400M-distill	 their chairs sheldon began to protest yet	 again	she	7.830048561096191	5.265476703643799	0.00039760605432093143	0.08925339579582214	10
+39	bigbang_align	aligned	facebook/blenderbot-400M-distill	 chairs sheldon began to protest yet again	 just	to	13.664183616638184	4.687587738037109	1.1633767371677095e-06	0.24332065880298615	10
+40	bigbang_align	aligned	facebook/blenderbot-400M-distill	s sheldon began to protest yet again just	 because	of	7.768834114074707	4.2493977546691895	0.00042270589619874954	0.32386258244514465	10
+41	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon began to protest yet again just because	 our	s	6.578424453735352	6.049009799957275	0.0013900375925004482	0.11423766613006592	10
+42	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon began to protest yet again just because our	 next	big	5.90371561050415	6.346641540527344	0.002729285042732954	0.03936346247792244	10
+43	bigbang_align	aligned	facebook/blenderbot-400M-distill	on began to protest yet again just because our next	 door	neighb	6.051953315734863	5.4268717765808105	0.002353260526433587	0.17404623329639435	10
+44	bigbang_align	aligned	facebook/blenderbot-400M-distill	 began to protest yet again just because our next door	 neighbor	's	8.510651588439941	5.326066493988037	0.00020131267956458032	0.1438983678817749	10
+45	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to protest yet again just because our next door neighbor	 is	a	4.825753688812256	5.1722211837768555	0.008020507171750069	0.18365393579006195	10
+46	bigbang_align	aligned	facebook/blenderbot-400M-distill	 protest yet again just because our next door neighbor is	 a	bit	4.3604559898376465	5.532467842102051	0.012772563844919205	0.08619565516710281	10
+47	bigbang_align	aligned	facebook/blenderbot-400M-distill	 yet again just because our next door neighbor is a	 wait	er	8.862008094787598	2.3417701721191406	0.00014167027256917208	0.5402332544326782	10
+48	bigbang_align	aligned	facebook/blenderbot-400M-distill	 again just because our next door neighbor is a wait	ress	.	9.171695709228516	3.0305988788604736	0.00010394012497272342	0.24891427159309387	10
+49	bigbang_align	aligned	facebook/blenderbot-400M-distill	 just because our next door neighbor is a waitress	 here	a	7.117209434509277	3.47430157661438	0.0008110269554890692	0.31520554423332214	10
+50	bigbang_align	aligned	facebook/blenderbot-400M-distill	 because our next door neighbor is a waitress here	 it	's	7.33758544921875	3.388274669647217	0.0006506196223199368	0.43419238924980164	10
+51	bigbang_align	aligned	facebook/blenderbot-400M-distill	 our next door neighbor is a waitress here it	 does	a	6.172324180603027	4.851361274719238	0.002086381195113063	0.1597011238336563	10
+52	bigbang_align	aligned	facebook/blenderbot-400M-distill	 next door neighbor is a waitress here it does	 not	to	7.903133869171143	5.35099458694458	0.00036958351847715676	0.07134270668029785	10
+53	bigbang_align	aligned	facebook/blenderbot-400M-distill	 door neighbor is a waitress here it does not	 log	ay	10.644203186035156	4.339381217956543	2.383862556598615e-05	0.16401995718479156	10
+54	bigbang_align	aligned	facebook/blenderbot-400M-distill	 neighbor is a waitress here it does not log	ically	at	10.333765983581543	5.080784320831299	3.251640373491682e-05	0.10144153237342834	10
+55	bigbang_align	aligned	facebook/blenderbot-400M-distill	 is a waitress here it does not logically	 follow	us	9.641636848449707	3.8420052528381348	6.496662535937503e-05	0.29233142733573914	10
+56	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a waitress here it does not logically follow	 that	's	4.900418281555176	5.86125373840332	0.007443469949066639	0.04089625924825668	10
+57	bigbang_align	aligned	facebook/blenderbot-400M-distill	 waitress here it does not logically follow that	 we	have	4.5920939445495605	5.220586776733398	0.010131621733307838	0.15853622555732727	10
+58	bigbang_align	aligned	facebook/blenderbot-400M-distill	ress here it does not logically follow that we	 have	to	6.0611138343811035	5.694828510284424	0.002331802388653159	0.09302407503128052	10
+59	bigbang_align	aligned	facebook/blenderbot-400M-distill	 here it does not logically follow that we have	 to	deal	3.2156291007995605	5.645665645599365	0.04013007506728172	0.08419108390808105	10
+60	bigbang_align	aligned	facebook/blenderbot-400M-distill	 it does not logically follow that we have to	 eat	again	7.15513801574707	5.159214973449707	0.0007808417431078851	0.08381712436676025	10
+61	bigbang_align	aligned	facebook/blenderbot-400M-distill	 does not logically follow that we have to eat	 here	.	4.15470027923584	3.970128297805786	0.01569049246609211	0.20427271723747253	10
+62	bigbang_align	aligned	facebook/blenderbot-400M-distill	 not logically follow that we have to eat here	 what	we	5.650014400482178	4.689008712768555	0.0035174658987671137	0.1487855464220047	10
+63	bigbang_align	aligned	facebook/blenderbot-400M-distill	 logically follow that we have to eat here what	's	got	6.743995666503906	4.961986541748047	0.001177931553684175	0.13407158851623535	10
+64	bigbang_align	aligned	facebook/blenderbot-400M-distill	ically follow that we have to eat here what's	 the	deal	7.977008819580078	5.454282283782959	0.0003432646335568279	0.13034212589263916	10
+65	bigbang_align	aligned	facebook/blenderbot-400M-distill	 follow that we have to eat here what's the	 point	of	7.80796480178833	1.5269196033477783	0.0004064844688400626	0.7596230506896973	10
+66	bigbang_align	aligned	facebook/blenderbot-400M-distill	 that we have to eat here what's the point	 of	here	7.954216957092285	4.266691207885742	0.00035117805236950517	0.17365553975105286	10
+67	bigbang_align	aligned	facebook/blenderbot-400M-distill	 we have to eat here what's the point of	 even	a	11.123659133911133	5.543395042419434	1.4758968063688371e-05	0.10302694141864777	10
+68	bigbang_align	aligned	facebook/blenderbot-400M-distill	 have to eat here what's the point of even	 having	a	5.845385551452637	5.071248531341553	0.002893219469115138	0.11605266481637955	10
+69	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to eat here what's the point of even having	 a	here	5.430802822113037	5.771757125854492	0.004379577469080687	0.09110504388809204	10
+70	bigbang_align	aligned	facebook/blenderbot-400M-distill	 eat here what's the point of even having a	 week	to	7.863811492919922	4.898198127746582	0.00038440589560195804	0.1270565241575241	10
+71	bigbang_align	aligned	facebook/blenderbot-400M-distill	 here what's the point of even having a week	ly	thing	10.17605209350586	5.144347667694092	3.807122993748635e-05	0.18094885349273682	10
+72	bigbang_align	aligned	facebook/blenderbot-400M-distill	 what's the point of even having a weekly	 restaurant	in	10.047093391418457	4.670772075653076	4.331145464675501e-05	0.14936326444149017	10
+73	bigbang_align	aligned	facebook/blenderbot-400M-distill	's the point of even having a weekly restaurant	 schedule	.	12.0821533203125	5.575379371643066	5.659623639076017e-06	0.09621773660182953	10
+74	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the point of even having a weekly restaurant schedule	 if	then	9.5872163772583	4.72846794128418	6.86001221765764e-05	0.297438383102417	10
+75	bigbang_align	aligned	facebook/blenderbot-400M-distill	 point of even having a weekly restaurant schedule if	 we	're	3.958643674850464	4.849551200866699	0.01908898912370205	0.07562589645385742	10
+76	bigbang_align	aligned	facebook/blenderbot-400M-distill	 of even having a weekly restaurant schedule if we	're	a	6.090490341186523	5.338386058807373	0.00226429826579988	0.09026069194078445	10
+77	bigbang_align	aligned	facebook/blenderbot-400M-distill	 even having a weekly restaurant schedule if we're	 not	having	6.435772895812988	5.411919593811035	0.001603169133886695	0.07303314656019211	10
+78	bigbang_align	aligned	facebook/blenderbot-400M-distill	 having a weekly restaurant schedule if we're not	 going	to	7.528282165527344	0.8448730111122131	0.00053766107885167	0.893803060054779	10
+79	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a weekly restaurant schedule if we're not going	 to	be	4.791049957275391	5.164831161499023	0.008303733542561531	0.24603760242462158	10
+80	bigbang_align	aligned	facebook/blenderbot-400M-distill	 weekly restaurant schedule if we're not going to	 follow	then	9.251336097717285	5.489819526672363	9.598330507287756e-05	0.07403835654258728	10
+81	bigbang_align	aligned	facebook/blenderbot-400M-distill	ly restaurant schedule if we're not going to follow	 it	's	5.511086940765381	4.711233615875244	0.004041711799800396	0.16327983140945435	10
+82	bigbang_align	aligned	facebook/blenderbot-400M-distill	 restaurant schedule if we're not going to follow it	 le	v	2.663832187652588	4.288939952850342	0.06968067586421967	0.18084773421287537	10
+83	bigbang_align	aligned	facebook/blenderbot-400M-distill	 schedule if we're not going to follow it le	on	ard	7.021590232849121	5.1943840980529785	0.0008924053399823606	0.19756214320659637	10
+84	bigbang_align	aligned	facebook/blenderbot-400M-distill	 if we're not going to follow it leon	ard	ard	1.9584734439849854	5.193874359130859	0.14107361435890198	0.14107361435890198	10
+85	bigbang_align	aligned	facebook/blenderbot-400M-distill	 we're not going to follow it leonard	 		0.9558305740356445	4.041957855224609	0.3844926655292511	0.3844926655292511	10
+86	bigbang_align	aligned	facebook/blenderbot-400M-distill	're not going to follow it leonard 	<unk>		18.141685485839844	5.116307735443115	1.3218010685989157e-08	0.23429735004901886	10
+87	bigbang_align	aligned	facebook/blenderbot-400M-distill	 not going to follow it leonard <unk>	 and	by	5.518946170806885	5.409549713134766	0.004010071977972984	0.08715905249118805	10
+88	bigbang_align	aligned	facebook/blenderbot-400M-distill	 going to follow it leonard <unk> and	 picked	up	8.210639953613281	4.125667095184326	0.0002717466850299388	0.2737821936607361	10
+89	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to follow it leonard <unk> and picked	 up	by	6.472446441650391	4.324805736541748	0.0015454404056072235	0.19102488458156586	10
+90	bigbang_align	aligned	facebook/blenderbot-400M-distill	 follow it leonard <unk> and picked up	 one	of	6.028949737548828	4.926918983459473	0.002408021129667759	0.2814403176307678	10
+91	bigbang_align	aligned	facebook/blenderbot-400M-distill	 it leonard <unk> and picked up one	 of	those	6.475854873657227	4.694728374481201	0.0015401821583509445	0.12329215556383133	10
+92	bigbang_align	aligned	facebook/blenderbot-400M-distill	 leonard <unk> and picked up one of	 the	things	6.286323547363281	6.053437232971191	0.0018615919398143888	0.06616345793008804	10
+93	bigbang_align	aligned	facebook/blenderbot-400M-distill	onard <unk> and picked up one of the	 men	's	8.110633850097656	5.533518314361572	0.0003003283927682787	0.099033884704113	10
+94	bigbang_align	aligned	facebook/blenderbot-400M-distill	ard <unk> and picked up one of the men	us	.	9.451423645019531	4.205294609069824	7.85776210250333e-05	0.266335129737854	10
+95	bigbang_align	aligned	facebook/blenderbot-400M-distill	 <unk> and picked up one of the menus	 on	a	5.736959457397461	4.556179046630859	0.0032245574984699488	0.33854347467422485	10
+96	bigbang_align	aligned	facebook/blenderbot-400M-distill	<unk> and picked up one of the menus on	 the	thing	6.914980888366699	6.36236572265625	0.0009928002255037427	0.03251803293824196	10
+97	bigbang_align	aligned	facebook/blenderbot-400M-distill	 and picked up one of the menus on the	 table	.	9.386839866638184	3.373544454574585	8.381991210626438e-05	0.3786139190196991	10
+98	bigbang_align	aligned	facebook/blenderbot-400M-distill	 picked up one of the menus on the table	 you	have	4.693657875061035	4.4165754318237305	0.009153145365417004	0.16776463389396667	10
+99	bigbang_align	aligned	facebook/blenderbot-400M-distill	 up one of the menus on the table you	'll	be	7.811553955078125	4.440858364105225	0.00040502820047549903	0.32075926661491394	10
+100	bigbang_align	aligned	facebook/blenderbot-400M-distill	 one of the menus on the table you'll	 live	with	7.438070297241211	4.118278503417969	0.0005884194979444146	0.27373331785202026	10
+101	bigbang_align	aligned	facebook/blenderbot-400M-distill	 of the menus on the table you'll live	 trust	me	6.559108734130859	1.3149954080581665	0.001417148276232183	0.8383867740631104	10
+102	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the menus on the table you'll live trust	 me	I	4.541409015655518	2.750241756439209	0.010658379644155502	0.3463960886001587	10
+103	bigbang_align	aligned	facebook/blenderbot-400M-distill	 menus on the table you'll live trust me	 everything	I	5.653497695922852	4.50857400894165	0.0035052343737334013	0.17591975629329681	10
+104	bigbang_align	aligned	facebook/blenderbot-400M-distill	us on the table you'll live trust me everything	's	to	8.877664566040039	4.683533668518066	0.00013946957187727094	0.11517906188964844	10
+105	bigbang_align	aligned	facebook/blenderbot-400M-distill	 on the table you'll live trust me everything's	 good	</s>	7.758753776550293	4.805712699890137	0.0004269884084351361	0.09299708157777786	10
+106	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the table you'll live trust me everything's good	 here	you	8.401321411132812	4.677964210510254	0.00022457037994172424	0.08673518151044846	10
+107	bigbang_align	aligned	facebook/blenderbot-400M-distill	 table you'll live trust me everything's good here	 stat	ic	7.823564052581787	4.714274883270264	0.0004001928318757564	0.1397683173418045	10
+108	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you'll live trust me everything's good here stat	istically	you	10.757994651794434	5.059996604919434	2.127463994838763e-05	0.133959099650383	10
+109	bigbang_align	aligned	facebook/blenderbot-400M-distill	'll live trust me everything's good here statistically	 unlikely	.	13.726093292236328	4.958646297454834	1.0935370937659172e-06	0.07485852390527725	10
+110	bigbang_align	aligned	facebook/blenderbot-400M-distill	 live trust me everything's good here statistically unlikely	 said	you	9.51938247680664	5.041723251342773	7.341495074797422e-05	0.06611446291208267	10
+111	bigbang_align	aligned	facebook/blenderbot-400M-distill	 trust me everything's good here statistically unlikely said	 she	's	4.632890224456787	3.9845099449157715	0.009726605378091335	0.31998470425605774	10
+112	bigbang_align	aligned	facebook/blenderbot-400M-distill	 me everything's good here statistically unlikely said she	ld	ards	11.991191864013672	4.2133708000183105	6.1985688262211625e-06	0.23128820955753326	10
+113	bigbang_align	aligned	facebook/blenderbot-400M-distill	 everything's good here statistically unlikely said sheld	on	's	10.57465648651123	2.4032278060913086	2.555554783612024e-05	0.7017894387245178	10
+114	bigbang_align	aligned	facebook/blenderbot-400M-distill	's good here statistically unlikely said sheldon	 pen	n	7.358734130859375	4.5458807945251465	0.0006370044429786503	0.2101479321718216	10
+115	bigbang_align	aligned	facebook/blenderbot-400M-distill	 good here statistically unlikely said sheldon pen	ny	s	9.158662796020508	5.329482078552246	0.00010530357394600287	0.06530044972896576	10
+116	bigbang_align	aligned	facebook/blenderbot-400M-distill	 here statistically unlikely said sheldon penny	 their	s	7.213618278503418	5.780219078063965	0.0007364873308688402	0.19748257100582123	10
+117	bigbang_align	aligned	facebook/blenderbot-400M-distill	 statistically unlikely said sheldon penny their	 neighbor	I	8.071975708007812	6.143846035003662	0.0003121658810414374	0.03538256511092186	10
+118	bigbang_align	aligned	facebook/blenderbot-400M-distill	istically unlikely said sheldon penny their neighbor	 came	to	3.907525062561035	5.299792766571045	0.020090162754058838	0.07218226045370102	10
+119	bigbang_align	aligned	facebook/blenderbot-400M-distill	 unlikely said sheldon penny their neighbor came	 over	we	5.80117654800415	5.821854591369629	0.003023994853720069	0.05544931814074516	10
+120	bigbang_align	aligned	facebook/blenderbot-400M-distill	 said sheldon penny their neighbor came over	 to	I	4.124116897583008	6.471952438354492	0.016177773475646973	0.03561556339263916	10
+121	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon penny their neighbor came over to	 the	second	6.469461441040039	6.392332553863525	0.0015500608133152127	0.04224565252661705	10
+122	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon penny their neighbor came over to the	 table	.	9.119373321533203	4.90751838684082	0.00010952333104796708	0.1468277871608734	10
+123	bigbang_align	aligned	facebook/blenderbot-400M-distill	on penny their neighbor came over to the table	 to	their	4.958582401275635	5.864062786102295	0.007022877223789692	0.0677490085363388	10
+124	bigbang_align	aligned	facebook/blenderbot-400M-distill	 penny their neighbor came over to the table to	 take	care	5.015191078186035	4.4102301597595215	0.006636362988501787	0.252472460269928	10
+125	bigbang_align	aligned	facebook/blenderbot-400M-distill	ny their neighbor came over to the table to take	 their	special	5.721954345703125	5.654885292053223	0.0032733085099607706	0.1880032867193222	10
+126	bigbang_align	aligned	facebook/blenderbot-400M-distill	 their neighbor came over to the table to take their	 order	and	5.446846961975098	4.5822367668151855	0.004309871233999729	0.09420333802700043	10
+127	bigbang_align	aligned	facebook/blenderbot-400M-distill	 neighbor came over to the table to take their order	 hi	king	6.536083221435547	2.1194257736206055	0.001450157375074923	0.695332407951355	10
+128	bigbang_align	aligned	facebook/blenderbot-400M-distill	 came over to the table to take their order hi	 guys	was	8.552887916564941	5.510967254638672	0.00019298696133773774	0.07200809568166733	10
+129	bigbang_align	aligned	facebook/blenderbot-400M-distill	 over to the table to take their order hi guys	 you	have	4.317689895629883	4.6208624839782715	0.013330640271306038	0.14352209866046906	10
+130	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to the table to take their order hi guys you	 ready	to	8.16390609741211	2.0066752433776855	0.00028474803548306227	0.6814205050468445	10
+131	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the table to take their order hi guys you ready	 she	's	4.901073932647705	3.981102466583252	0.0074385907500982285	0.22587698698043823	10
+132	bigbang_align	aligned	facebook/blenderbot-400M-distill	 table to take their order hi guys you ready she	ld	ard	9.635862350463867	4.420187473297119	6.534285057568923e-05	0.12053657323122025	10
+133	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to take their order hi guys you ready sheld	on	I	9.093330383300781	4.639244079589844	0.00011241302854614332	0.145004004240036	10
+134	bigbang_align	aligned	facebook/blenderbot-400M-distill	 take their order hi guys you ready sheldon	 		1.0969189405441284	4.3528852462768555	0.33389824628829956	0.33389824628829956	10
+135	bigbang_align	aligned	facebook/blenderbot-400M-distill	 their order hi guys you ready sheldon 	<unk>	of	17.925464630126953	4.126387119293213	1.6408520764343848e-08	0.382157564163208	10
+136	bigbang_align	aligned	facebook/blenderbot-400M-distill	 order hi guys you ready sheldon <unk>	 at	a	4.725311279296875	6.33405065536499	0.008867953903973103	0.04636533930897713	10
+137	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hi guys you ready sheldon <unk> at	 the	of	6.354321479797363	6.22175407409668	0.001739214756526053	0.05188491567969322	10
+138	bigbang_align	aligned	facebook/blenderbot-400M-distill	 guys you ready sheldon <unk> at the	 menu	of	6.967168807983398	5.582027435302734	0.0009423171286471188	0.13063566386699677	10
+139	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you ready sheldon <unk> at the menu	 fl	or	3.120398998260498	5.017021656036377	0.0441395603120327	0.08359330147504807	10
+140	bigbang_align	aligned	facebook/blenderbot-400M-distill	 ready sheldon <unk> at the menu fl	ust	ers	5.1033549308776855	3.4819910526275635	0.006076326128095388	0.34795114398002625	10
+141	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon <unk> at the menu flust	ered		14.31251049041748	5.128205299377441	6.083532184675278e-07	0.10883120447397232	10
+142	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon <unk> at the menu flustered	 we	just	3.62587833404541	6.014397621154785	0.026625700294971466	0.03447802737355232	10
+143	bigbang_align	aligned	facebook/blenderbot-400M-distill	on <unk> at the menu flustered we	 don	't	8.166163444519043	0.9472103118896484	0.00028410591767169535	0.8497961759567261	10
+144	bigbang_align	aligned	facebook/blenderbot-400M-distill	 <unk> at the menu flustered we don	't	have	7.601288318634033	4.576645374298096	0.0004998071235604584	0.12259075790643692	10
+145	bigbang_align	aligned	facebook/blenderbot-400M-distill	<unk> at the menu flustered we don't	 eat	our	6.05775260925293	4.608136177062988	0.002339653205126524	0.18894094228744507	10
+146	bigbang_align	aligned	facebook/blenderbot-400M-distill	 at the menu flustered we don't eat	 here	we	6.502686977386475	4.46640682220459	0.0014994050143286586	0.13601063191890717	10
+147	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the menu flustered we don't eat here	 i	'm	4.046707630157471	5.012912750244141	0.017479829490184784	0.07656151056289673	10
+148	bigbang_align	aligned	facebook/blenderbot-400M-distill	 menu flustered we don't eat here i	 don	't	8.958358764648438	0.1572934091091156	0.0001286572078242898	0.9844098091125488	10
+149	bigbang_align	aligned	facebook/blenderbot-400M-distill	 flustered we don't eat here i don	't	think	7.180100917816162	3.5313973426818848	0.0007615908980369568	0.29867127537727356	10
+150	bigbang_align	aligned	facebook/blenderbot-400M-distill	ustered we don't eat here i don't	 know	how	6.546242713928223	3.984501361846924	0.0014354990562424064	0.1453600376844406	10
+151	bigbang_align	aligned	facebook/blenderbot-400M-distill	ered we don't eat here i don't know	 what	to	7.394219398498535	2.9396798610687256	0.000614796532317996	0.5735039114952087	10
+152	bigbang_align	aligned	facebook/blenderbot-400M-distill	 we don't eat here i don't know what	's	he	8.200945854187012	4.763744831085205	0.00027439399855211377	0.24729801714420319	10
+153	bigbang_align	aligned	facebook/blenderbot-400M-distill	 don't eat here i don't know what's	 good	for	8.301485061645508	4.068681240081787	0.0002481481060385704	0.16737455129623413	10
+154	bigbang_align	aligned	facebook/blenderbot-400M-distill	't eat here i don't know what's good	 just	to	12.708145141601562	5.3154191970825195	3.0263747703429544e-06	0.06294221431016922	10
+155	bigbang_align	aligned	facebook/blenderbot-400M-distill	 eat here i don't know what's good just	 get	to	6.293374061584473	5.738155364990234	0.0018485122127458453	0.06637457758188248	10
+156	bigbang_align	aligned	facebook/blenderbot-400M-distill	 here i don't know what's good just get	 a	thing	5.572831153869629	5.9726338386535645	0.003799706930294633	0.07321393489837646	10
+157	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i don't know what's good just get a	 ha	ha	2.2156097888946533	5.4661712646484375	0.10908697545528412	0.10908697545528412	10
+158	bigbang_align	aligned	facebook/blenderbot-400M-distill	 don't know what's good just get a ha	mb	ur	10.755703926086426	0.4922322630882263	2.132343979610596e-05	0.9454485774040222	10
+159	bigbang_align	aligned	facebook/blenderbot-400M-distill	't know what's good just get a hamb	ur	ger	3.395533800125122	0.5438879132270813	0.033522654324769974	0.919738233089447	10
+160	bigbang_align	aligned	facebook/blenderbot-400M-distill	 know what's good just get a hambur	ger	in	11.112634658813477	5.188541412353516	1.4922583432053216e-05	0.06418846547603607	10
+161	bigbang_align	aligned	facebook/blenderbot-400M-distill	 what's good just get a hamburger	 you	'll	6.215529918670654	2.9547066688537598	0.001998157473281026	0.3534296452999115	10
+162	bigbang_align	aligned	facebook/blenderbot-400M-distill	's good just get a hamburger you	 like	a	5.310039520263672	4.635990142822266	0.004941730294376612	0.12732183933258057	10
+163	bigbang_align	aligned	facebook/blenderbot-400M-distill	 good just get a hamburger you like	 ha	st	3.2889556884765625	5.656963348388672	0.03729277849197388	0.1120234876871109	10
+164	bigbang_align	aligned	facebook/blenderbot-400M-distill	 just get a hamburger you like ha	mb	ur	9.663839340209961	0.8507433533668518	6.3540086557623e-05	0.895700991153717	10
+165	bigbang_align	aligned	facebook/blenderbot-400M-distill	 get a hamburger you like hamb	ur	ger	3.2535336017608643	1.3286199569702148	0.0386374369263649	0.7350086569786072	10
+166	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a hamburger you like hambur	gers	.	12.316805839538574	4.794057846069336	4.475888090382796e-06	0.1058550626039505	10
+167	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hamburger you like hamburgers	 said	you	7.145400524139404	4.7302565574646	0.0007884823717176914	0.19592170417308807	10
+168	bigbang_align	aligned	facebook/blenderbot-400M-distill	mburger you like hamburgers said	 le	ase	5.6034770011901855	5.303290843963623	0.0036850282922387123	0.15288394689559937	10
+169	bigbang_align	aligned	facebook/blenderbot-400M-distill	urger you like hamburgers said le	on	ard	6.936587810516357	5.943811416625977	0.0009715792257338762	0.11376095563173294	10
+170	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger you like hamburgers said leon	ard	o	5.795845031738281	5.527744770050049	0.003040159586817026	0.21688929200172424	10
+171	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you like hamburgers said leonard	 i	have	4.695457458496094	5.175810813903809	0.009136687032878399	0.10200495272874832	10
+172	bigbang_align	aligned	facebook/blenderbot-400M-distill	 like hamburgers said leonard i	 like	to	5.517240047454834	4.896170616149902	0.004016919061541557	0.27367421984672546	10
+173	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hamburgers said leonard i like	 the	idea	7.46308708190918	6.3394269943237305	0.0005738817853853106	0.03302476182579994	10
+174	bigbang_align	aligned	facebook/blenderbot-400M-distill	mburgers said leonard i like the	 ha	m	4.130274772644043	4.897096633911133	0.01607845351099968	0.15117858350276947	10
+175	bigbang_align	aligned	facebook/blenderbot-400M-distill	urgers said leonard i like the ha	mb	ur	8.617340087890625	0.4835326671600342	0.00018094087135978043	0.9459450840950012	10
+176	bigbang_align	aligned	facebook/blenderbot-400M-distill	gers said leonard i like the hamb	ur	ger	3.2116169929504395	1.0345410108566284	0.04029140993952751	0.7423814535140991	10
+177	bigbang_align	aligned	facebook/blenderbot-400M-distill	 said leonard i like the hambur	gers	</s>	15.952533721923828	4.54949951171875	1.1800556620755742e-07	0.1828363537788391	10
+178	bigbang_align	aligned	facebook/blenderbot-400M-distill	 leonard i like the hamburgers	 where	I	8.775106430053711	4.496750831604004	0.00015453250671271235	0.1702503114938736	10
+179	bigbang_align	aligned	facebook/blenderbot-400M-distill	onard i like the hamburgers where	 we	all	7.596219062805176	5.28118896484375	0.0005023470730520785	0.06597739458084106	10
+180	bigbang_align	aligned	facebook/blenderbot-400M-distill	ard i like the hamburgers where we	 usually	go	11.642244338989258	5.589446067810059	8.786935723037459e-06	0.09345512837171555	10
+181	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i like the hamburgers where we usually	 have	a	7.169577598571777	5.477524280548096	0.0007696475950069726	0.12623369693756104	10
+182	bigbang_align	aligned	facebook/blenderbot-400M-distill	 like the hamburgers where we usually have	 ha	st	4.244907379150391	5.858602046966553	0.01433706097304821	0.08036324381828308	10
+183	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the hamburgers where we usually have ha	mb	ur	12.91189193725586	0.08762522786855698	2.4685195967322215e-06	0.9922330379486084	10
+184	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hamburgers where we usually have hamb	ur	ger	4.323581695556641	0.788641631603241	0.013252333737909794	0.6842998266220093	10
+185	bigbang_align	aligned	facebook/blenderbot-400M-distill	mburgers where we usually have hambur	gers	at	11.195728302001953	3.9905214309692383	1.373273062199587e-05	0.21477356553077698	10
+186	bigbang_align	aligned	facebook/blenderbot-400M-distill	urgers where we usually have hamburgers	 you	'll	4.907328128814697	4.902843475341797	0.007392212748527527	0.08214466273784637	10
+187	bigbang_align	aligned	facebook/blenderbot-400M-distill	gers where we usually have hamburgers you	 can	get	8.241636276245117	5.362710952758789	0.0002634529664646834	0.08594731241464615	10
+188	bigbang_align	aligned	facebook/blenderbot-400M-distill	 where we usually have hamburgers you can	't	with	7.661458969116211	4.898476600646973	0.000470620347186923	0.1638135015964508	10
+189	bigbang_align	aligned	facebook/blenderbot-400M-distill	 we usually have hamburgers you can't	 make	a	7.254255294799805	4.146891117095947	0.0007071589352563024	0.3064110577106476	10
+190	bigbang_align	aligned	facebook/blenderbot-400M-distill	 usually have hamburgers you can't make	 the	place	7.652874946594238	5.716800212860107	0.00047467745025642216	0.09012529999017715	10
+191	bigbang_align	aligned	facebook/blenderbot-400M-distill	 have hamburgers you can't make the	 assum	es	12.61316204071045	1.1830379962921143	3.3279222861892777e-06	0.8452937602996826	10
+192	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hamburgers you can't make the assum	ption	that	12.564227104187012	1.8103976249694824	3.4948266147694085e-06	0.41543418169021606	10
+193	bigbang_align	aligned	facebook/blenderbot-400M-distill	mburgers you can't make the assumption	 that	you	6.060112953186035	4.467347621917725	0.002334137912839651	0.15063394606113434	10
+194	bigbang_align	aligned	facebook/blenderbot-400M-distill	urgers you can't make the assumption that	 i	'm	3.851147174835205	4.732094764709473	0.021255340427160263	0.17117923498153687	10
+195	bigbang_align	aligned	facebook/blenderbot-400M-distill	gers you can't make the assumption that i	'll	be	8.264626502990723	4.525207042694092	0.00025746499886736274	0.28847336769104004	10
+196	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you can't make the assumption that i'll	 like	to	5.701328277587891	5.072611331939697	0.0033415232319384813	0.14830663800239563	10
+197	bigbang_align	aligned	facebook/blenderbot-400M-distill	 can't make the assumption that i'll like	 the	one	6.467992305755615	5.9361252784729	0.0015523392939940095	0.038184501230716705	10
+198	bigbang_align	aligned	facebook/blenderbot-400M-distill	't make the assumption that i'll like the	 ha	ha	2.053093671798706	5.104025840759277	0.12833726406097412	0.12833726406097412	10
+199	bigbang_align	aligned	facebook/blenderbot-400M-distill	 make the assumption that i'll like the ha	mb	ur	11.458739280700684	0.1994737684726715	1.055680877470877e-05	0.9791600108146667	10
+200	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the assumption that i'll like the hamb	ur	ger	3.235572576522827	0.7919039726257324	0.03933767229318619	0.859648585319519	10
+201	bigbang_align	aligned	facebook/blenderbot-400M-distill	 assumption that i'll like the hambur	gers	after	13.71026611328125	4.5979156494140625	1.1109821116406238e-06	0.10730842500925064	10
+202	bigbang_align	aligned	facebook/blenderbot-400M-distill	ption that i'll like the hamburgers	 here	.	7.932639122009277	4.618101596832275	0.0003588382387533784	0.142678365111351	10
+203	bigbang_align	aligned	facebook/blenderbot-400M-distill	 that i'll like the hamburgers here	 le	ather	5.970453262329102	5.385342121124268	0.002553084632381797	0.22944840788841248	10
+204	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i'll like the hamburgers here le	on	a	5.576389312744141	6.243082523345947	0.0037862113676965237	0.06408143043518066	10
+205	bigbang_align	aligned	facebook/blenderbot-400M-distill	'll like the hamburgers here leon	ard	of	6.257743835449219	5.250275611877441	0.0019155633635818958	0.16695599257946014	10
+206	bigbang_align	aligned	facebook/blenderbot-400M-distill	 like the hamburgers here leonard	 roll	s	7.181356430053711	3.1842029094696045	0.0007606351864524186	0.5648541450500488	10
+207	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the hamburgers here leonard roll	ed	I	10.29905891418457	5.6640305519104	3.36647717631422e-05	0.07792329788208008	10
+208	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hamburgers here leonard rolled	 his	I	7.496280670166016	6.4072747230529785	0.0005551453214138746	0.034019991755485535	10
+209	bigbang_align	aligned	facebook/blenderbot-400M-distill	mburgers here leonard rolled his	 eyes	.	7.767246246337891	5.38058614730835	0.00042337755439803004	0.0640835165977478	10
+210	bigbang_align	aligned	facebook/blenderbot-400M-distill	urgers here leonard rolled his eyes	 and	again	6.59683895111084	4.993088245391846	0.0013646751176565886	0.10193187743425369	10
+211	bigbang_align	aligned	facebook/blenderbot-400M-distill	gers here leonard rolled his eyes and	 looked	at	11.647590637207031	4.314942359924316	8.740082193980925e-06	0.14846979081630707	10
+212	bigbang_align	aligned	facebook/blenderbot-400M-distill	 here leonard rolled his eyes and looked	 at	a	8.367512702941895	5.890810966491699	0.00023229263024404645	0.09861334413290024	10
+213	bigbang_align	aligned	facebook/blenderbot-400M-distill	 leonard rolled his eyes and looked at	 pen	cil	5.283472061157227	3.767835855484009	0.005074780434370041	0.4547763466835022	10
+214	bigbang_align	aligned	facebook/blenderbot-400M-distill	onard rolled his eyes and looked at pen	ny	s	6.152608871459961	3.89668607711792	0.00212792307138443	0.500933825969696	10
+215	bigbang_align	aligned	facebook/blenderbot-400M-distill	ard rolled his eyes and looked at penny	 i	i	3.376471996307373	6.028553009033203	0.03416778892278671	0.03416778892278671	10
+216	bigbang_align	aligned	facebook/blenderbot-400M-distill	 rolled his eyes and looked at penny i	'm	a	6.336000919342041	5.454317092895508	0.0017713716952130198	0.04838084429502487	10
+217	bigbang_align	aligned	facebook/blenderbot-400M-distill	ed his eyes and looked at penny i'm	 sorry	for	7.734249591827393	3.5060739517211914	0.00043758060201071203	0.1404305398464203	10
+218	bigbang_align	aligned	facebook/blenderbot-400M-distill	 his eyes and looked at penny i'm sorry	 give	me	5.792614936828613	3.390964984893799	0.003049996681511402	0.3914671540260315	10
+219	bigbang_align	aligned	facebook/blenderbot-400M-distill	 eyes and looked at penny i'm sorry give	 him	a	9.0545654296875	3.8697972297668457	0.00011685636127367616	0.24847066402435303	10
+220	bigbang_align	aligned	facebook/blenderbot-400M-distill	 and looked at penny i'm sorry give him	 a	go	4.919548034667969	6.334935188293457	0.0073024313896894455	0.03442918881773949	10
+221	bigbang_align	aligned	facebook/blenderbot-400M-distill	 looked at penny i'm sorry give him a	 ha	st	3.775484800338745	5.456836700439453	0.022925974801182747	0.08106265217065811	10
+222	bigbang_align	aligned	facebook/blenderbot-400M-distill	 at penny i'm sorry give him a ha	mb	ur	11.224312782287598	0.35593175888061523	1.3345753359317314e-05	0.9571801424026489	10
+223	bigbang_align	aligned	facebook/blenderbot-400M-distill	 penny i'm sorry give him a hamb	ur	ger	4.300149917602539	0.31198787689208984	0.013566529378294945	0.9565995335578918	10
+224	bigbang_align	aligned	facebook/blenderbot-400M-distill	ny i'm sorry give him a hambur	ger	to	8.841447830200195	5.545745372772217	0.00014461317914538085	0.1455211043357849	10
+225	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i'm sorry give him a hamburger	 u	m	5.955620288848877	5.322896480560303	0.0025912360288202763	0.07912832498550415	10
+226	bigbang_align	aligned	facebook/blenderbot-400M-distill	'm sorry give him a hamburger u	h	m	5.450157165527344	4.694530010223389	0.004295629449188709	0.2713998854160309	10
+227	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sorry give him a hamburger uh	 which	is	6.632874011993408	4.563575267791748	0.0013163745170459151	0.2261246293783188	10
+228	bigbang_align	aligned	facebook/blenderbot-400M-distill	 give him a hamburger uh which	 one	is	6.157632350921631	4.241624355316162	0.0021172601263970137	0.2096947282552719	10
+229	bigbang_align	aligned	facebook/blenderbot-400M-distill	 him a hamburger uh which one	 the	a	6.481724739074707	6.599896430969238	0.0015311677707359195	0.03374093025922775	10
+230	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a hamburger uh which one the	 classic	</s>	10.902738571166992	5.5807414054870605	1.840774348238483e-05	0.06231065094470978	10
+231	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hamburger uh which one the classic	 bur	ger	3.8692071437835693	1.6583819389343262	0.020874913781881332	0.7339414954185486	10
+232	bigbang_align	aligned	facebook/blenderbot-400M-distill	mburger uh which one the classic bur	ger	to	7.983614921569824	5.622969150543213	0.00034100443008355796	0.10886353999376297	10
+233	bigbang_align	aligned	facebook/blenderbot-400M-distill	urger uh which one the classic burger	 the	one	6.67436408996582	6.209238052368164	0.001262875273823738	0.059811268001794815	10
+234	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger uh which one the classic burger the	 ran	king	11.194801330566406	2.492875576019287	1.3745469004788902e-05	0.37525618076324463	10
+235	bigbang_align	aligned	facebook/blenderbot-400M-distill	 uh which one the classic burger the ran	ch	</s>	14.405344009399414	4.8934173583984375	5.544195573747857e-07	0.1447199285030365	10
+236	bigbang_align	aligned	facebook/blenderbot-400M-distill	h which one the classic burger the ranch	 house	</s>	7.379233360290527	4.759018898010254	0.0006240790244191885	0.11917677521705627	10
+237	bigbang_align	aligned	facebook/blenderbot-400M-distill	 which one the classic burger the ranch house	 bur	ger	5.4137468338012695	4.107692718505859	0.004454916343092918	0.22440187633037567	10
+238	bigbang_align	aligned	facebook/blenderbot-400M-distill	 one the classic burger the ranch house bur	ger	is	10.795379638671875	5.63266134262085	2.0493964257184416e-05	0.04709383845329285	10
+239	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the classic burger the ranch house burger	 the	I	6.965157508850098	6.472500801086426	0.0009442143491469324	0.0513044036924839	10
+240	bigbang_align	aligned	facebook/blenderbot-400M-distill	 classic burger the ranch house burger the	 bar	.	6.50600528717041	5.615747928619385	0.0014944373397156596	0.06578525900840759	10
+241	bigbang_align	aligned	facebook/blenderbot-400M-distill	 burger the ranch house burger the bar	b	ec	9.971663475036621	0.3213936686515808	4.67048266727943e-05	0.9659098982810974	10
+242	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger the ranch house burger the barb	ec	ue	7.485438823699951	0.38761869072914124	0.0005611968226730824	0.9322985410690308	10
+243	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the ranch house burger the barbec	ue	place	9.207706451416016	5.92084264755249	0.0001002637654892169	0.07460673153400421	10
+244	bigbang_align	aligned	facebook/blenderbot-400M-distill	 ranch house burger the barbecue	 bur	bur	3.0985066890716553	4.978961944580078	0.04511652886867523	0.1706593632698059	10
+245	bigbang_align	aligned	facebook/blenderbot-400M-distill	ch house burger the barbecue bur	ger	</s>	11.056964874267578	5.721395015716553	1.577687362441793e-05	0.06540857255458832	10
+246	bigbang_align	aligned	facebook/blenderbot-400M-distill	 house burger the barbecue burger	 or	you	6.772132873535156	5.912145614624023	0.001145249349065125	0.033358313143253326	10
+247	bigbang_align	aligned	facebook/blenderbot-400M-distill	 burger the barbecue burger or	 the	sl	6.657567024230957	6.3962321281433105	0.0012842672877013683	0.041325703263282776	10
+248	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger the barbecue burger or the	 k	are	3.6212592124938965	6.037136077880859	0.02674897201359272	0.03947170823812485	10
+249	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the barbecue burger or the k	o	be	7.502294540405273	4.88873291015625	0.0005518168909475207	0.26832810044288635	10
+250	bigbang_align	aligned	facebook/blenderbot-400M-distill	 barbecue burger or the ko	be	from	6.565570831298828	6.382021427154541	0.0014080198016017675	0.025148360058665276	10
+251	bigbang_align	aligned	facebook/blenderbot-400M-distill	becue burger or the kobe	 bur	ger	2.874070167541504	4.203568458557129	0.05646862834692001	0.15831051766872406	10
+252	bigbang_align	aligned	facebook/blenderbot-400M-distill	ecue burger or the kobe bur	ger	?	11.118083953857422	4.658424377441406	1.4841492884443142e-05	0.15044048428535461	10
+253	bigbang_align	aligned	facebook/blenderbot-400M-distill	ue burger or the kobe burger	 can	be	7.291854381561279	4.417393684387207	0.0006810639752075076	0.3571029007434845	10
+254	bigbang_align	aligned	facebook/blenderbot-400M-distill	 burger or the kobe burger can	't	be	7.013113021850586	5.937992572784424	0.0009000026620924473	0.07675977051258087	10
+255	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger or the kobe burger can't	 we	?	3.7275521755218506	5.782663822174072	0.024051636457443237	0.07351329922676086	10
+256	bigbang_align	aligned	facebook/blenderbot-400M-distill	 or the kobe burger can't we	 just	to	11.18402099609375	5.224893093109131	1.3894452422391623e-05	0.13146890699863434	10
+257	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the kobe burger can't we just	 go	back	8.388290405273438	4.777737617492676	0.00022751581855118275	0.09805078059434891	10
+258	bigbang_align	aligned	facebook/blenderbot-400M-distill	 kobe burger can't we just go	 to	our	4.842396259307861	5.695533752441406	0.007888128980994225	0.09634099155664444	10
+259	bigbang_align	aligned	facebook/blenderbot-400M-distill	obe burger can't we just go to	 big	stores	7.629522323608398	5.993854522705078	0.0004858928150497377	0.0642581656575203	10
+260	bigbang_align	aligned	facebook/blenderbot-400M-distill	be burger can't we just go to big	 boy	.	6.671257019042969	5.569414138793945	0.0012668053386732936	0.08353731036186218	10
+261	bigbang_align	aligned	facebook/blenderbot-400M-distill	 burger can't we just go to big boy	 asked	and	6.258552551269531	5.639016151428223	0.001914014108479023	0.060172274708747864	10
+262	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger can't we just go to big boy asked	 she	's	7.242457866668701	2.7982873916625977	0.0007155508501455188	0.5083048343658447	10
+263	bigbang_align	aligned	facebook/blenderbot-400M-distill	 can't we just go to big boy asked she	ld	ed	13.178179740905762	1.746288537979126	1.8914261090685613e-06	0.6946890354156494	10
+264	bigbang_align	aligned	facebook/blenderbot-400M-distill	't we just go to big boy asked sheld	on	's	10.312416076660156	3.570046901702881	3.321807525935583e-05	0.3143129348754883	10
+265	bigbang_align	aligned	facebook/blenderbot-400M-distill	 we just go to big boy asked sheldon	 ex	es	6.852622985839844	5.684980392456055	0.001056680572219193	0.09722486138343811	10
+266	bigbang_align	aligned	facebook/blenderbot-400M-distill	 just go to big boy asked sheldon ex	as	is	8.58273983001709	5.096778869628906	0.00018731108866631985	0.09236082434654236	10
+267	bigbang_align	aligned	facebook/blenderbot-400M-distill	 go to big boy asked sheldon exas	per	ts	8.926963806152344	4.257768630981445	0.00013276052777655423	0.2176557332277298	10
+268	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to big boy asked sheldon exasper	ated	and	11.78399658203125	4.980288505554199	7.6256237662164494e-06	0.07052388787269592	10
+269	bigbang_align	aligned	facebook/blenderbot-400M-distill	 big boy asked sheldon exasperated	 they	have	6.20713996887207	4.976622581481934	0.0020149918273091316	0.10036034882068634	10
+270	bigbang_align	aligned	facebook/blenderbot-400M-distill	 boy asked sheldon exasperated they	 only	have	9.977006912231445	5.831609725952148	4.645588342100382e-05	0.04687155783176422	10
+271	bigbang_align	aligned	facebook/blenderbot-400M-distill	 asked sheldon exasperated they only	 have	to	5.92385196685791	6.000765800476074	0.0026748767122626305	0.04976160451769829	10
+272	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon exasperated they only have	 one	thing	5.226312637329102	6.5822296142578125	0.005373302381485701	0.03307785838842392	10
+273	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon exasperated they only have one	 bur	den	4.020891189575195	4.6481499671936035	0.01793696917593479	0.1722351610660553	10
+274	bigbang_align	aligned	facebook/blenderbot-400M-distill	on exasperated they only have one bur	ger	and	10.739649772644043	5.752195835113525	2.1668531189789064e-05	0.06689521670341492	10
+275	bigbang_align	aligned	facebook/blenderbot-400M-distill	 exasperated they only have one burger	 the	one	6.766458988189697	6.36143159866333	0.0011517656967043877	0.04565899446606636	10
+276	bigbang_align	aligned	facebook/blenderbot-400M-distill	asperated they only have one burger the	 big	one	6.746269226074219	5.600895881652832	0.001175255747511983	0.18737921118736267	10
+277	bigbang_align	aligned	facebook/blenderbot-400M-distill	perated they only have one burger the big	 boy	thing	7.066296577453613	6.09036922454834	0.0008533877553418279	0.042043667286634445	10
+278	bigbang_align	aligned	facebook/blenderbot-400M-distill	ated they only have one burger the big boy	 the	thing	6.639484405517578	6.236919403076172	0.0013077013427391648	0.04120944067835808	10
+279	bigbang_align	aligned	facebook/blenderbot-400M-distill	 they only have one burger the big boy the	 bar	I	8.533466339111328	5.105463981628418	0.0001967716234503314	0.13851909339427948	10
+280	bigbang_align	aligned	facebook/blenderbot-400M-distill	 only have one burger the big boy the bar	b	ec	8.070450782775879	1.205858588218689	0.00031264228164218366	0.8071206212043762	10
+281	bigbang_align	aligned	facebook/blenderbot-400M-distill	 have one burger the big boy the barb	ec	ue	7.3823628425598145	0.40067780017852783	0.0006221291259862483	0.9248580932617188	10
+282	bigbang_align	aligned	facebook/blenderbot-400M-distill	 one burger the big boy the barbec	ue	to	9.371074676513672	6.172882080078125	8.515185618307441e-05	0.05494813993573189	10
+283	bigbang_align	aligned	facebook/blenderbot-400M-distill	 burger the big boy the barbecue	 bur	bur	2.316314458847046	3.7615933418273926	0.0986364483833313	0.2099645733833313	10
+284	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger the big boy the barbecue bur	ger	</s>	8.34083366394043	5.5598931312561035	0.00023857346968725324	0.09454058110713959	10
+285	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the big boy the barbecue burger	 is	to	4.253504276275635	5.760716915130615	0.014214334078133106	0.07861518114805222	10
+286	bigbang_align	aligned	facebook/blenderbot-400M-distill	 big boy the barbecue burger is	 like	a	7.221383094787598	5.248128890991211	0.0007307908381335437	0.12575307488441467	10
+287	bigbang_align	aligned	facebook/blenderbot-400M-distill	 boy the barbecue burger is like	 the	state	7.694673538208008	6.243041515350342	0.0004552457248792052	0.07618636637926102	10
+288	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the barbecue burger is like the	 big	thing	6.727241039276123	5.884068012237549	0.001197833102196455	0.1302758902311325	10
+289	bigbang_align	aligned	facebook/blenderbot-400M-distill	 barbecue burger is like the big	 boy	.	8.09561824798584	4.917325973510742	0.000304872082779184	0.13058605790138245	10
+290	bigbang_align	aligned	facebook/blenderbot-400M-distill	becue burger is like the big boy	 suggested	to	8.374197006225586	4.182811260223389	0.00023074520868249238	0.16146618127822876	10
+291	bigbang_align	aligned	facebook/blenderbot-400M-distill	ecue burger is like the big boy suggested	 pen	cil	6.593636989593506	2.490858554840088	0.0013690514024347067	0.6559525728225708	10
+292	bigbang_align	aligned	facebook/blenderbot-400M-distill	ue burger is like the big boy suggested pen	ny	.	8.534595489501953	3.863039493560791	0.00019654963398352265	0.2569211721420288	10
+293	bigbang_align	aligned	facebook/blenderbot-400M-distill	 burger is like the big boy suggested penny	 excuse	to	7.899632453918457	4.863341808319092	0.00037087989039719105	0.1413464993238449	10
+294	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger is like the big boy suggested penny excuse	 me	</s>	7.404400825500488	5.574533462524414	0.0006085686036385596	0.07682456076145172	10
+295	bigbang_align	aligned	facebook/blenderbot-400M-distill	 is like the big boy suggested penny excuse me	 in	a	8.66037368774414	5.976045608520508	0.00017331962590105832	0.05270260572433472	10
+296	bigbang_align	aligned	facebook/blenderbot-400M-distill	 like the big boy suggested penny excuse me in	 a	special	5.943353652954102	6.199740409851074	0.0026232178788632154	0.07162682712078094	10
+297	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the big boy suggested penny excuse me in a	 world	of	9.221561431884766	3.005943536758423	9.888420026982203e-05	0.5487739443778992	10
+298	bigbang_align	aligned	facebook/blenderbot-400M-distill	 big boy suggested penny excuse me in a world	 that	's	6.663787841796875	4.2324724197387695	0.0012763027334585786	0.33061063289642334	10
+299	bigbang_align	aligned	facebook/blenderbot-400M-distill	 boy suggested penny excuse me in a world that	 already	has	8.284255981445312	5.0892181396484375	0.00025246053701266646	0.17046865820884705	10
+300	bigbang_align	aligned	facebook/blenderbot-400M-distill	 suggested penny excuse me in a world that already	 includes	a	9.437159538269043	5.323631286621094	7.97065076767467e-05	0.09780307114124298	10
+301	bigbang_align	aligned	facebook/blenderbot-400M-distill	 penny excuse me in a world that already includes	 the	things	7.382561206817627	6.497844696044922	0.0006220057257451117	0.029432985931634903	10
+302	bigbang_align	aligned	facebook/blenderbot-400M-distill	ny excuse me in a world that already includes the	 big	thing	6.214928150177002	6.569194316864014	0.0019993602763861418	0.04393429681658745	10
+303	bigbang_align	aligned	facebook/blenderbot-400M-distill	 excuse me in a world that already includes the big	 boy	's	7.301998138427734	5.768481254577637	0.0006741901743225753	0.14652347564697266	10
+304	bigbang_align	aligned	facebook/blenderbot-400M-distill	 me in a world that already includes the big boy	 why	do	7.230554103851318	3.184088706970215	0.0007241194252856076	0.3529369533061981	10
+305	bigbang_align	aligned	facebook/blenderbot-400M-distill	 in a world that already includes the big boy why	 would	you	6.087654113769531	3.5814549922943115	0.002270729746669531	0.22596445679664612	10
+306	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a world that already includes the big boy why would	 i	to	6.114313125610352	4.989704132080078	0.0022109944839030504	0.1324979066848755	10
+307	bigbang_align	aligned	facebook/blenderbot-400M-distill	 world that already includes the big boy why would i	 settle	down	9.010845184326172	2.468095541000366	0.0001220786216435954	0.3644475042819977	10
+308	bigbang_align	aligned	facebook/blenderbot-400M-distill	 that already includes the big boy why would i settle	 for	a	7.644035816192627	4.588449954986572	0.0004788918886333704	0.2915683388710022	10
+309	bigbang_align	aligned	facebook/blenderbot-400M-distill	 already includes the big boy why would i settle for	 something	like	8.741509437561035	4.913487434387207	0.00015981249453034252	0.09394395351409912	10
+310	bigbang_align	aligned	facebook/blenderbot-400M-distill	 includes the big boy why would i settle for something	 like	that	5.612826824188232	3.7204017639160156	0.0036507348995655775	0.2819162607192993	10
+311	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the big boy why would i settle for something like	 a	line	6.673505783081055	6.375731468200684	0.0012639593333005905	0.035673126578330994	10
+312	bigbang_align	aligned	facebook/blenderbot-400M-distill	 big boy why would i settle for something like a	 big	deal	5.2398271560668945	4.68446683883667	0.005301174707710743	0.337304949760437	10
+313	bigbang_align	aligned	facebook/blenderbot-400M-distill	 boy why would i settle for something like a big	 boy	?	4.653029441833496	5.78046178817749	0.009532677941024303	0.10871528834104538	10
+314	bigbang_align	aligned	facebook/blenderbot-400M-distill	 why would i settle for something like a big boy	 because	of	7.476067543029785	1.0767185688018799	0.0005664805066771805	0.8726704120635986	10
+315	bigbang_align	aligned	facebook/blenderbot-400M-distill	 would i settle for something like a big boy because	 you	have	4.166173934936523	4.736454010009766	0.015511495061218739	0.1357993632555008	10
+316	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i settle for something like a big boy because you	 are	a	7.014347076416016	5.264763832092285	0.0008988926419988275	0.09278228878974915	10
+317	bigbang_align	aligned	facebook/blenderbot-400M-distill	 settle for something like a big boy because you are	 not	really	6.751592636108398	5.874138832092285	0.0011690161190927029	0.070684053003788	10
+318	bigbang_align	aligned	facebook/blenderbot-400M-distill	 for something like a big boy because you are not	 at	all	5.552581787109375	3.8875675201416016	0.0038774332497268915	0.3654397428035736	10
+319	bigbang_align	aligned	facebook/blenderbot-400M-distill	 something like a big boy because you are not at	 big	enough	6.55721378326416	3.3824410438537598	0.0014198359567672014	0.4324071407318115	10
+320	bigbang_align	aligned	facebook/blenderbot-400M-distill	 like a big boy because you are not at big	 boy	so	5.681163311004639	5.9561967849731445	0.0034095903392881155	0.06257563084363937	10
+321	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a big boy because you are not at big boy	 said	and	8.869991302490234	5.108442306518555	0.00014054382336325943	0.09602376818656921	10
+322	bigbang_align	aligned	facebook/blenderbot-400M-distill	 big boy because you are not at big boy said	 pen	cil	5.741842746734619	5.199821949005127	0.003208849811926484	0.18128128349781036	10
+323	bigbang_align	aligned	facebook/blenderbot-400M-distill	 boy because you are not at big boy said pen	ny	.	9.251165390014648	5.0183796882629395	9.59996905294247e-05	0.11900640279054642	10
+324	bigbang_align	aligned	facebook/blenderbot-400M-distill	 because you are not at big boy said penny	 with	this	6.421604156494141	5.046154022216797	0.001626045792363584	0.10903172940015793	10
+325	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you are not at big boy said penny with	 a	just	3.3349685668945312	6.0881452560424805	0.0356157049536705	0.04352603480219841	10
+326	bigbang_align	aligned	facebook/blenderbot-400M-distill	 are not at big boy said penny with a	 	</s>	2.2541379928588867	5.041950225830078	0.1049639880657196	0.1790294051170349	10
+327	bigbang_align	aligned	facebook/blenderbot-400M-distill	 not at big boy said penny with a 	<unk>		17.505165100097656	4.92918586730957	2.498064333167349e-08	0.09205958992242813	10
+328	bigbang_align	aligned	facebook/blenderbot-400M-distill	 at big boy said penny with a <unk>	 her	but	4.9935302734375	5.6634674072265625	0.006781683769077063	0.04369758814573288	10
+329	bigbang_align	aligned	facebook/blenderbot-400M-distill	 big boy said penny with a <unk> her	 pat	ter	8.08000659942627	4.434910774230957	0.00030966909253038466	0.22023464739322662	10
+330	bigbang_align	aligned	facebook/blenderbot-400M-distill	 boy said penny with a <unk> her pat	ience	with	12.249452590942383	4.664119243621826	4.787738816958154e-06	0.09671323001384735	10
+331	bigbang_align	aligned	facebook/blenderbot-400M-distill	 said penny with a <unk> her patience	 wearing	a	10.083451271057129	5.327810287475586	4.176502625341527e-05	0.09262584149837494	10
+332	bigbang_align	aligned	facebook/blenderbot-400M-distill	 penny with a <unk> her patience wearing	 thin	ly	11.293187141418457	3.537243604660034	1.2457508091756608e-05	0.4356648921966553	10
+333	bigbang_align	aligned	facebook/blenderbot-400M-distill	ny with a <unk> her patience wearing thin	 she	et	6.1571455001831055	5.6909685134887695	0.0021182908676564693	0.08743919432163239	10
+334	bigbang_align	aligned	facebook/blenderbot-400M-distill	 with a <unk> her patience wearing thin she	ld	ers	13.976008415222168	4.0939154624938965	8.517199603375047e-07	0.20199859142303467	10
+335	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a <unk> her patience wearing thin sheld	on	I	7.703188896179199	5.647478103637695	0.0004513854219112545	0.14528517425060272	10
+336	bigbang_align	aligned	facebook/blenderbot-400M-distill	 <unk> her patience wearing thin sheldon	 threw	a	12.242955207824707	4.953962802886963	4.818946308660088e-06	0.11835500597953796	10
+337	bigbang_align	aligned	facebook/blenderbot-400M-distill	<unk> her patience wearing thin sheldon threw	 up	we	6.865618705749512	6.0841875076293945	0.0010430365800857544	0.045315828174352646	10
+338	bigbang_align	aligned	facebook/blenderbot-400M-distill	 her patience wearing thin sheldon threw up	 his	you	8.296639442443848	6.340895652770996	0.0002493533829692751	0.036001816391944885	10
+339	bigbang_align	aligned	facebook/blenderbot-400M-distill	 patience wearing thin sheldon threw up his	 hands	and	9.651876449584961	5.381248474121094	6.430482608266175e-05	0.11214709281921387	10
+340	bigbang_align	aligned	facebook/blenderbot-400M-distill	ience wearing thin sheldon threw up his hands	 in	a	6.795580863952637	5.776898384094238	0.0011187082855030894	0.1367378681898117	10
+341	bigbang_align	aligned	facebook/blenderbot-400M-distill	 wearing thin sheldon threw up his hands in	 defe	ather	6.936030864715576	3.599442958831787	0.0009721203823573887	0.36263859272003174	10
+342	bigbang_align	aligned	facebook/blenderbot-400M-distill	 thin sheldon threw up his hands in defe	at	you	8.728154182434082	6.1709747314453125	0.00016196108481381088	0.0428091399371624	10
+343	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon threw up his hands in defeat	 fine	I	7.619847297668457	6.160623550415039	0.0004906166577711701	0.08819006383419037	10
+344	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon threw up his hands in defeat fine	 i	'm	4.086322784423828	5.7767333984375	0.0168008990585804	0.039992693811655045	10
+345	bigbang_align	aligned	facebook/blenderbot-400M-distill	on threw up his hands in defeat fine i	'll	be	7.9970479011535645	4.2991509437561035	0.00033645439543761313	0.3350880742073059	10
+346	bigbang_align	aligned	facebook/blenderbot-400M-distill	 threw up his hands in defeat fine i'll	 have	to	6.15590763092041	3.631847620010376	0.002120914636179805	0.48378074169158936	10
+347	bigbang_align	aligned	facebook/blenderbot-400M-distill	 up his hands in defeat fine i'll have	 the	next	6.772193908691406	4.949310302734375	0.0011451797327026725	0.10089443624019623	10
+348	bigbang_align	aligned	facebook/blenderbot-400M-distill	 his hands in defeat fine i'll have the	 bar	for	7.616060256958008	5.185112476348877	0.0004924780805595219	0.07635442167520523	10
+349	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hands in defeat fine i'll have the bar	b	ec	6.895373821258545	1.7028703689575195	0.001012458698824048	0.7677609920501709	10
+350	bigbang_align	aligned	facebook/blenderbot-400M-distill	 in defeat fine i'll have the barb	ec	ue	9.406913757324219	0.2395457625389099	8.215413254220039e-05	0.9629969000816345	10
+351	bigbang_align	aligned	facebook/blenderbot-400M-distill	 defeat fine i'll have the barbec	ue	but	10.672603607177734	4.963745594024658	2.3171131033450365e-05	0.17646390199661255	10
+352	bigbang_align	aligned	facebook/blenderbot-400M-distill	at fine i'll have the barbecue	 bur	ger	2.936899185180664	4.142326354980469	0.053029920905828476	0.14215829968452454	10
+353	bigbang_align	aligned	facebook/blenderbot-400M-distill	 fine i'll have the barbecue bur	ger	you	12.219348907470703	4.765677452087402	4.934059234074084e-06	0.10334409773349762	10
+354	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i'll have the barbecue burger	 make	a	7.648229122161865	5.171577453613281	0.000476887944387272	0.10039828717708588	10
+355	bigbang_align	aligned	facebook/blenderbot-400M-distill	'll have the barbecue burger make	 it	a	7.140781402587891	4.9152445793151855	0.0007921329815872014	0.0944041982293129	10
+356	bigbang_align	aligned	facebook/blenderbot-400M-distill	 have the barbecue burger make it	 two	on	7.77454948425293	6.066143035888672	0.0004202967684250325	0.03736790642142296	10
+357	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the barbecue burger make it two	 said	by	7.548694610595703	4.999980449676514	0.000526797492057085	0.2413005232810974	10
+358	bigbang_align	aligned	facebook/blenderbot-400M-distill	 barbecue burger make it two said	 le	ather	5.2653608322143555	4.922875881195068	0.005167528986930847	0.15219807624816895	10
+359	bigbang_align	aligned	facebook/blenderbot-400M-distill	becue burger make it two said le	on	ard	7.969916343688965	5.005802154541016	0.00034570798743516207	0.19831526279449463	10
+360	bigbang_align	aligned	facebook/blenderbot-400M-distill	ecue burger make it two said leon	ard	o	4.654918670654297	6.027071952819824	0.009514687582850456	0.11591482907533646	10
+361	bigbang_align	aligned	facebook/blenderbot-400M-distill	ue burger make it two said leonard	 hand	</s>	6.322450637817383	5.797418594360352	0.001795538468286395	0.08378630876541138	10
+362	bigbang_align	aligned	facebook/blenderbot-400M-distill	 burger make it two said leonard hand	ing	to	11.118999481201172	5.614096641540527	1.4827902305114549e-05	0.06266984343528748	10
+363	bigbang_align	aligned	facebook/blenderbot-400M-distill	ger make it two said leonard handing	 her	a	8.824941635131836	5.543341159820557	0.00014702006592415273	0.08191539347171783	10
+364	bigbang_align	aligned	facebook/blenderbot-400M-distill	 make it two said leonard handing her	 the	how	5.820181846618652	5.966023921966553	0.0029670658987015486	0.04706030711531639	10
+365	bigbang_align	aligned	facebook/blenderbot-400M-distill	 it two said leonard handing her the	 men	and	6.75949764251709	5.478271484375	0.0011598116252571344	0.07831162959337234	10
+366	bigbang_align	aligned	facebook/blenderbot-400M-distill	 two said leonard handing her the men	us	.	10.128974914550781	3.8550243377685547	3.990636469097808e-05	0.3453335165977478	10
+367	bigbang_align	aligned	facebook/blenderbot-400M-distill	 said leonard handing her the menus	 pen	cil	7.4063873291015625	2.967754364013672	0.0006073610857129097	0.6079921722412109	10
+368	bigbang_align	aligned	facebook/blenderbot-400M-distill	 leonard handing her the menus pen	ny	s	8.746125221252441	4.794412136077881	0.0001590765023138374	0.12859474122524261	10
+369	bigbang_align	aligned	facebook/blenderbot-400M-distill	onard handing her the menus penny	 sm	th	6.221001625061035	5.1088995933532715	0.0019872537814080715	0.15106649696826935	10
+370	bigbang_align	aligned	facebook/blenderbot-400M-distill	ard handing her the menus penny sm	iled	.	13.41765022277832	5.888009071350098	1.4886359167576302e-06	0.060330890119075775	10
+371	bigbang_align	aligned	facebook/blenderbot-400M-distill	 handing her the menus penny smiled	 at	a	5.218414306640625	6.409627437591553	0.005415910854935646	0.03962748870253563	10
+372	bigbang_align	aligned	facebook/blenderbot-400M-distill	ing her the menus penny smiled at	 him	.	9.547525405883789	5.981700897216797	7.137769716791809e-05	0.06961923092603683	10
+373	bigbang_align	aligned	facebook/blenderbot-400M-distill	 her the menus penny smiled at him	 thank	god	6.323580741882324	2.516401529312134	0.0017935094656422734	0.5406153798103333	10
+374	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the menus penny smiled at him thank	 you	for	5.293795585632324	3.306412696838379	0.005022660829126835	0.3631178140640259	10
+375	bigbang_align	aligned	facebook/blenderbot-400M-distill	 menus penny smiled at him thank you	 le	le	1.888206958770752	5.850344181060791	0.15134292840957642	0.15134292840957642	10
+376	bigbang_align	aligned	facebook/blenderbot-400M-distill	us penny smiled at him thank you le	on	</s>	7.26678466796875	5.7653422355651855	0.0006983536295592785	0.07628297805786133	10
+377	bigbang_align	aligned	facebook/blenderbot-400M-distill	 penny smiled at him thank you leon	ard	for	6.262441158294678	6.073452949523926	0.001906585763208568	0.07668473571538925	10
+378	bigbang_align	aligned	facebook/blenderbot-400M-distill	ny smiled at him thank you leonard	 by	e	7.052839756011963	1.7713453769683838	0.0008649490773677826	0.7713351845741272	10
+379	bigbang_align	aligned	facebook/blenderbot-400M-distill	 smiled at him thank you leonard by	 the		6.315513610839844	5.961538314819336	0.0018080363515764475	0.0696798637509346	10
+380	bigbang_align	aligned	facebook/blenderbot-400M-distill	iled at him thank you leonard by the	 way	.	7.987695217132568	2.4464194774627686	0.0003396158863324672	0.36196669936180115	10
+381	bigbang_align	aligned	facebook/blenderbot-400M-distill	 at him thank you leonard by the way	 i	hope	4.889283180236816	4.773838996887207	0.00752681540325284	0.10415980219841003	10
+382	bigbang_align	aligned	facebook/blenderbot-400M-distill	 him thank you leonard by the way i	 saw	for	10.361104965209961	3.616971015930176	3.163948349538259e-05	0.4459870457649231	10
+383	bigbang_align	aligned	facebook/blenderbot-400M-distill	 thank you leonard by the way i saw	 you	</s>	4.585933685302734	5.403629302978516	0.01019422896206379	0.07287036627531052	10
+384	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you leonard by the way i saw you	 come	to	5.9810333251953125	4.846603870391846	0.0025262152776122093	0.12011492252349854	10
+385	bigbang_align	aligned	facebook/blenderbot-400M-distill	 leonard by the way i saw you come	 home	to	9.335719108581543	3.6143994331359863	8.82162494235672e-05	0.2415798157453537	10
+386	bigbang_align	aligned	facebook/blenderbot-400M-distill	onard by the way i saw you come home	 with	a	7.093787670135498	4.755489349365234	0.0008302466594614089	0.2883344292640686	10
+387	bigbang_align	aligned	facebook/blenderbot-400M-distill	ard by the way i saw you come home with	 your	dead	7.074660778045654	6.313243865966797	0.0008462795522063971	0.029547525569796562	10
+388	bigbang_align	aligned	facebook/blenderbot-400M-distill	 by the way i saw you come home with your	 date	.	11.703775405883789	4.589284896850586	8.262564733740874e-06	0.1313207596540451	10
+389	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the way i saw you come home with your date	 last	thing	5.891737937927246	4.573863983154297	0.002762171905487776	0.1878235638141632	10
+390	bigbang_align	aligned	facebook/blenderbot-400M-distill	 way i saw you come home with your date last	 night	.	8.153553009033203	3.6917059421539307	0.0002877114457078278	0.27803245186805725	10
+391	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i saw you come home with your date last night	 i	have	5.096052646636963	4.877776145935059	0.006120860110968351	0.07548557221889496	10
+392	bigbang_align	aligned	facebook/blenderbot-400M-distill	 saw you come home with your date last night i	'm	a	6.712593078613281	5.002001762390137	0.0012155084405094385	0.09016776084899902	10
+393	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you come home with your date last night i'm	 so	thank	3.943202495574951	5.092676162719727	0.019386032596230507	0.09314405173063278	10
+394	bigbang_align	aligned	facebook/blenderbot-400M-distill	 come home with your date last night i'm so	 happy	right	6.222953796386719	3.968599796295166	0.001983378315344453	0.15066920220851898	10
+395	bigbang_align	aligned	facebook/blenderbot-400M-distill	 home with your date last night i'm so happy	 for	you	5.612614631652832	4.136697769165039	0.0036515090614557266	0.2943808436393738	10
+396	bigbang_align	aligned	facebook/blenderbot-400M-distill	 with your date last night i'm so happy for	 you	</s>	5.55361270904541	3.968412399291992	0.003873439272865653	0.16116651892662048	10
+397	bigbang_align	aligned	facebook/blenderbot-400M-distill	 your date last night i'm so happy for you	 le	v	4.491725921630859	6.178738117218018	0.011201292276382446	0.05257437750697136	10
+398	bigbang_align	aligned	facebook/blenderbot-400M-distill	 date last night i'm so happy for you le	on	ard	8.364608764648438	2.6285722255706787	0.00023296818835660815	0.6415454745292664	10
+399	bigbang_align	aligned	facebook/blenderbot-400M-distill	 last night i'm so happy for you leon	ard	</s>	5.379281044006348	5.552581787109375	0.004611135460436344	0.10234959423542023	10
+400	bigbang_align	aligned	facebook/blenderbot-400M-distill	 night i'm so happy for you leonard	 turned	into	7.521056175231934	4.84415340423584	0.0005415601772256196	0.12319723516702652	10
+401	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i'm so happy for you leonard turned	 to	have	6.098812103271484	5.718996047973633	0.0022455332800745964	0.09332728385925293	10
+402	bigbang_align	aligned	facebook/blenderbot-400M-distill	'm so happy for you leonard turned to	 she	's	4.095365047454834	4.043900489807129	0.01664966531097889	0.2504342496395111	10
+403	bigbang_align	aligned	facebook/blenderbot-400M-distill	 so happy for you leonard turned to she	ld	ard	12.604143142700195	5.591886043548584	3.3580736271687783e-06	0.07049106061458588	10
+404	bigbang_align	aligned	facebook/blenderbot-400M-distill	 happy for you leonard turned to sheld	on	's	10.231201171875	5.3321452140808105	3.602846118155867e-05	0.16947491466999054	10
+405	bigbang_align	aligned	facebook/blenderbot-400M-distill	 for you leonard turned to sheldon	 as	a	5.579624652862549	4.404122352600098	0.003773982636630535	0.1641106903553009	10
+406	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you leonard turned to sheldon as	 pen	cil	5.147536277770996	5.182307720184326	0.005813708994537592	0.1617555022239685	10
+407	bigbang_align	aligned	facebook/blenderbot-400M-distill	 leonard turned to sheldon as pen	ny	</s>	11.220008850097656	4.12257719039917	1.3403316188487224e-05	0.26031720638275146	10
+408	bigbang_align	aligned	facebook/blenderbot-400M-distill	onard turned to sheldon as penny	 walked	.	9.237631797790527	5.067531108856201	9.73077621893026e-05	0.1548847258090973	10
+409	bigbang_align	aligned	facebook/blenderbot-400M-distill	ard turned to sheldon as penny walked	 away	.	8.274006843566895	3.420637607574463	0.00025506134261377156	0.3150799870491028	10
+410	bigbang_align	aligned	facebook/blenderbot-400M-distill	 turned to sheldon as penny walked away	 what	is	7.768938064575195	3.730192184448242	0.00042266183299943805	0.20958106219768524	10
+411	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to sheldon as penny walked away what	 did	you	7.651675224304199	5.426971912384033	0.0004752471868414432	0.13168054819107056	10
+412	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon as penny walked away what did	 she	do	6.3120341300964355	1.5036559104919434	0.0018143383786082268	0.8256559371948242	10
+413	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon as penny walked away what did she	 mean	?	11.778756141662598	2.1040029525756836	7.665689736313652e-06	0.6248799562454224	10
+414	bigbang_align	aligned	facebook/blenderbot-400M-distill	on as penny walked away what did she mean	 she	does	5.787905216217041	5.027886867523193	0.003064395161345601	0.233424112200737	10
+415	bigbang_align	aligned	facebook/blenderbot-400M-distill	 as penny walked away what did she mean she	's	doing	6.845988750457764	5.282286167144775	0.001063713920302689	0.11937733739614487	10
+416	bigbang_align	aligned	facebook/blenderbot-400M-distill	 penny walked away what did she mean she's	 happy	about	5.590987682342529	3.1239869594573975	0.0037313406355679035	0.3382238447666168	10
+417	bigbang_align	aligned	facebook/blenderbot-400M-distill	ny walked away what did she mean she's happy	 for	you	3.8456950187683105	4.64625883102417	0.021371543407440186	0.15185987949371338	10
+418	bigbang_align	aligned	facebook/blenderbot-400M-distill	 walked away what did she mean she's happy for	 me	to	5.714141368865967	2.9512922763824463	0.003298982046544552	0.4266853630542755	10
+419	bigbang_align	aligned	facebook/blenderbot-400M-distill	 away what did she mean she's happy for me	 is	a	6.953525543212891	5.462874412536621	0.0009552616393193603	0.12575162947177887	10
+420	bigbang_align	aligned	facebook/blenderbot-400M-distill	 what did she mean she's happy for me is	 she	's	3.6538424491882324	2.9993748664855957	0.025891445577144623	0.5854015350341797	10
+421	bigbang_align	aligned	facebook/blenderbot-400M-distill	 did she mean she's happy for me is she	 happy	to	6.313414573669434	4.5341691970825195	0.0018118362640962005	0.12492171674966812	10
+422	bigbang_align	aligned	facebook/blenderbot-400M-distill	 she mean she's happy for me is she happy	 because	I	7.024016380310059	4.530672073364258	0.000890243100002408	0.179652601480484	10
+423	bigbang_align	aligned	facebook/blenderbot-400M-distill	 mean she's happy for me is she happy because	 i	'm	5.523332118988037	5.75132417678833	0.00399252213537693	0.06432163715362549	10
+424	bigbang_align	aligned	facebook/blenderbot-400M-distill	 she's happy for me is she happy because i	'm	so	8.955286979675293	5.335485935211182	0.0001290530344704166	0.10118439048528671	10
+425	bigbang_align	aligned	facebook/blenderbot-400M-distill	's happy for me is she happy because i'm	 seeing	things	9.70819091796875	4.757269382476807	6.078356091165915e-05	0.11643696576356888	10
+426	bigbang_align	aligned	facebook/blenderbot-400M-distill	 happy for me is she happy because i'm seeing	 someone	and	8.211326599121094	4.932557582855225	0.000271560245892033	0.11806201934814453	10
+427	bigbang_align	aligned	facebook/blenderbot-400M-distill	 for me is she happy because i'm seeing someone	 or	something	5.501986503601074	4.895097732543945	0.004078661557286978	0.08840962499380112	10
+428	bigbang_align	aligned	facebook/blenderbot-400M-distill	 me is she happy because i'm seeing someone or	 is	so	6.254016876220703	5.177276611328125	0.0019227147568017244	0.07054682821035385	10
+429	bigbang_align	aligned	facebook/blenderbot-400M-distill	 is she happy because i'm seeing someone or is	 she	a	3.7496273517608643	5.22966194152832	0.02352650836110115	0.05739084631204605	10
+430	bigbang_align	aligned	facebook/blenderbot-400M-distill	 she happy because i'm seeing someone or is she	 happy	to	4.554072380065918	4.750532150268555	0.010524260811507702	0.14331036806106567	10
+431	bigbang_align	aligned	facebook/blenderbot-400M-distill	 happy because i'm seeing someone or is she happy	 because	of	6.811637878417969	2.6395862102508545	0.0011008884757757187	0.6065573692321777	10
+432	bigbang_align	aligned	facebook/blenderbot-400M-distill	 because i'm seeing someone or is she happy because	 she	's	5.222817897796631	3.931154251098633	0.005392114166170359	0.33673039078712463	10
+433	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i'm seeing someone or is she happy because she	 thinks	about	5.972963333129883	4.652318954467773	0.0025466829538345337	0.15874838829040527	10
+434	bigbang_align	aligned	facebook/blenderbot-400M-distill	'm seeing someone or is she happy because she thinks	 that	's	5.5753350257873535	4.998187065124512	0.003790205344557762	0.08852088451385498	10
+435	bigbang_align	aligned	facebook/blenderbot-400M-distill	 seeing someone or is she happy because she thinks that	 i	a	4.370327949523926	5.533553600311279	0.012647095136344433	0.04335860535502434	10
+436	bigbang_align	aligned	facebook/blenderbot-400M-distill	 someone or is she happy because she thinks that i	'm	a	8.186973571777344	5.4392409324646	0.00027825465076602995	0.13318459689617157	10
+437	bigbang_align	aligned	facebook/blenderbot-400M-distill	 or is she happy because she thinks that i'm	 happy	with	5.765969753265381	3.5872385501861572	0.0031323565635830164	0.2891198992729187	10
+438	bigbang_align	aligned	facebook/blenderbot-400M-distill	 is she happy because she thinks that i'm happy	 because	of	7.459719657897949	2.9154999256134033	0.000575817481148988	0.5701497197151184	10
+439	bigbang_align	aligned	facebook/blenderbot-400M-distill	 she happy because she thinks that i'm happy because	 anyone	that	5.876971244812012	4.931908130645752	0.002803263021633029	0.09216777980327606	10
+440	bigbang_align	aligned	facebook/blenderbot-400M-distill	 happy because she thinks that i'm happy because anyone	 who	knows	7.033486366271973	5.035365581512451	0.000881852232851088	0.1253529191017151	10
+441	bigbang_align	aligned	facebook/blenderbot-400M-distill	 because she thinks that i'm happy because anyone who	 care	d	7.510284423828125	1.5317598581314087	0.0005474253557622433	0.6038079857826233	10
+442	bigbang_align	aligned	facebook/blenderbot-400M-distill	 she thinks that i'm happy because anyone who care	d	about	7.789391040802002	3.9474337100982666	0.0004141049284953624	0.3014373481273651	10
+443	bigbang_align	aligned	facebook/blenderbot-400M-distill	 thinks that i'm happy because anyone who cared	 for	a	6.26243782043457	5.313300609588623	0.0019065922824665904	0.11275579035282135	10
+444	bigbang_align	aligned	facebook/blenderbot-400M-distill	 that i'm happy because anyone who cared for	 someone	's	7.544813632965088	4.922165870666504	0.000528845761436969	0.07461065798997879	10
+445	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i'm happy because anyone who cared for someone	 would	be	8.013782501220703	4.197078227996826	0.00033087082556448877	0.19705802202224731	10
+446	bigbang_align	aligned	facebook/blenderbot-400M-distill	'm happy because anyone who cared for someone would	 want	to	8.780189514160156	0.7357865571975708	0.00015374890062958002	0.898190975189209	10
+447	bigbang_align	aligned	facebook/blenderbot-400M-distill	 happy because anyone who cared for someone would want	 them	to	5.592139720916748	3.3570852279663086	0.0037270444445312023	0.4149719774723053	10
+448	bigbang_align	aligned	facebook/blenderbot-400M-distill	 because anyone who cared for someone would want them	 to	be	3.740257501602173	3.6354258060455322	0.023747988045215607	0.45105427503585815	10
+449	bigbang_align	aligned	facebook/blenderbot-400M-distill	 anyone who cared for someone would want them to	 be	a	7.470577239990234	5.784321308135986	0.0005695993895642459	0.06307284533977509	10
+450	bigbang_align	aligned	facebook/blenderbot-400M-distill	 who cared for someone would want them to be	 happy	with	6.634778022766113	4.066303253173828	0.001313870190642774	0.19227463006973267	10
+451	bigbang_align	aligned	facebook/blenderbot-400M-distill	 cared for someone would want them to be happy	 even	if	9.616697311401367	5.231956481933594	6.660720828222111e-05	0.1985926777124405	10
+452	bigbang_align	aligned	facebook/blenderbot-400M-distill	d for someone would want them to be happy even	 if	it	7.272274494171143	4.382363319396973	0.000694530492182821	0.14702020585536957	10
+453	bigbang_align	aligned	facebook/blenderbot-400M-distill	 for someone would want them to be happy even if	 the	just	7.266696929931641	5.8479485511779785	0.0006984149222262204	0.08862075209617615	10
+454	bigbang_align	aligned	facebook/blenderbot-400M-distill	 someone would want them to be happy even if the	 reason	for	8.483844757080078	2.650846004486084	0.00020678216242231429	0.468773752450943	10
+455	bigbang_align	aligned	facebook/blenderbot-400M-distill	 would want them to be happy even if the reason	 for	a	6.739602565765381	4.884565830230713	0.0011831170413643122	0.19965988397598267	10
+456	bigbang_align	aligned	facebook/blenderbot-400M-distill	 want them to be happy even if the reason for	 their	s	6.5944108963012695	5.195688247680664	0.001367992372252047	0.22186896204948425	10
+457	bigbang_align	aligned	facebook/blenderbot-400M-distill	 them to be happy even if the reason for their	 happ	iness	10.124263763427734	0.6835182905197144	4.009479016531259e-05	0.8429872393608093	10
+458	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to be happy even if the reason for their happ	iness	is	9.300037384033203	4.751794815063477	9.142085764324293e-05	0.08508162200450897	10
+459	bigbang_align	aligned	facebook/blenderbot-400M-distill	 be happy even if the reason for their happiness	 made	to	10.712289810180664	4.561359882354736	2.2269572582445107e-05	0.15861374139785767	10
+460	bigbang_align	aligned	facebook/blenderbot-400M-distill	 happy even if the reason for their happiness made	 the	to	5.568207740783691	5.728865146636963	0.0038173154462128878	0.17968140542507172	10
+461	bigbang_align	aligned	facebook/blenderbot-400M-distill	 even if the reason for their happiness made the	 first	to	5.978675365447998	5.3908185958862305	0.0025321783032268286	0.11949193477630615	10
+462	bigbang_align	aligned	facebook/blenderbot-400M-distill	 if the reason for their happiness made the first	 person	in	6.777128219604492	4.7180585861206055	0.001139543135650456	0.12018924206495285	10
+463	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the reason for their happiness made the first person	 un	ha	5.661434173583984	3.7688379287719727	0.0034775251988321543	0.2853776514530182	10
+464	bigbang_align	aligned	facebook/blenderbot-400M-distill	 reason for their happiness made the first person un	ha	ppy	3.9911983013153076	3.7702627182006836	0.018477559089660645	0.37648501992225647	10
+465	bigbang_align	aligned	facebook/blenderbot-400M-distill	 for their happiness made the first person unha	ppy	and	12.547920227050781	5.218994140625	3.552282350938185e-06	0.06405876576900482	10
+466	bigbang_align	aligned	facebook/blenderbot-400M-distill	 their happiness made the first person unhappy	 you	are	3.843567371368408	4.989114761352539	0.021417059004306793	0.14670610427856445	10
+467	bigbang_align	aligned	facebook/blenderbot-400M-distill	 happiness made the first person unhappy you	 know	by	5.317700386047363	4.4206037521362305	0.004904016386717558	0.2285534143447876	10
+468	bigbang_align	aligned	facebook/blenderbot-400M-distill	iness made the first person unhappy you know	 because	of	7.5565900802612305	1.8651283979415894	0.0005226543289609253	0.7270569205284119	10
+469	bigbang_align	aligned	facebook/blenderbot-400M-distill	 made the first person unhappy you know because	 the	that	5.838983535766602	5.558004379272461	0.0029118014499545097	0.04189062863588333	10
+470	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the first person unhappy you know because the	 second	I	3.4858319759368896	5.262685775756836	0.03062826581299305	0.1574598252773285	10
+471	bigbang_align	aligned	facebook/blenderbot-400M-distill	 first person unhappy you know because the second	 person	I	7.5569915771484375	5.4403533935546875	0.0005224444903433323	0.0862734243273735	10
+472	bigbang_align	aligned	facebook/blenderbot-400M-distill	 person unhappy you know because the second person	 though	right	9.785984992980957	5.116421699523926	5.623421384370886e-05	0.11854555457830429	10
+473	bigbang_align	aligned	facebook/blenderbot-400M-distill	 unhappy you know because the second person though	 happy	right	6.240212440490723	5.283421516418457	0.0019494417356327176	0.062257591634988785	10
+474	bigbang_align	aligned	facebook/blenderbot-400M-distill	happy you know because the second person though happy	 is	a	5.554882049560547	5.178476810455322	0.003868524916470051	0.12747494876384735	10
+475	bigbang_align	aligned	facebook/blenderbot-400M-distill	ppy you know because the second person though happy is	 now	right	9.115154266357422	4.034658908843994	0.00010998638754244894	0.2907014489173889	10
+476	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you know because the second person though happy is now	 rom	antic	7.042227268218994	1.9639848470687866	0.0008741774363443255	0.6104206442832947	10
+477	bigbang_align	aligned	facebook/blenderbot-400M-distill	 know because the second person though happy is now rom	ant	ically	11.626319885253906	1.5296039581298828	8.92798288987251e-06	0.6621683835983276	10
+478	bigbang_align	aligned	facebook/blenderbot-400M-distill	 because the second person though happy is now romant	ically	to	9.263168334960938	5.565849304199219	9.48543383856304e-05	0.08999568223953247	10
+479	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the second person though happy is now romantically	 un	for	7.728585243225098	5.078557014465332	0.0004400662728585303	0.11122401803731918	10
+480	bigbang_align	aligned	facebook/blenderbot-400M-distill	 second person though happy is now romantically un	av	al	3.787025213241577	4.920246601104736	0.022662920877337456	0.08735872060060501	10
+481	bigbang_align	aligned	facebook/blenderbot-400M-distill	 person though happy is now romantically unav	ail	able	12.10403060913086	1.0682352781295776	5.537147899303818e-06	0.8189452886581421	10
+482	bigbang_align	aligned	facebook/blenderbot-400M-distill	 though happy is now romantically unavail	able	.	11.198995590209961	3.7321414947509766	1.3687937098438852e-05	0.21624413132667542	10
+483	bigbang_align	aligned	facebook/blenderbot-400M-distill	 happy is now romantically unavailable	 to	be	4.099374294281006	5.272647857666016	0.016583047807216644	0.13697831332683563	10
+484	bigbang_align	aligned	facebook/blenderbot-400M-distill	 is now romantically unavailable to	 the	back	7.741524696350098	6.1192498207092285	0.0004344088665675372	0.0447416752576828	10
+485	bigbang_align	aligned	facebook/blenderbot-400M-distill	 now romantically unavailable to the	 first	thing	5.810077667236328	5.486751079559326	0.002997196512296796	0.09746953845024109	10
+486	bigbang_align	aligned	facebook/blenderbot-400M-distill	 romantically unavailable to the first	 person	I	7.9179582595825195	5.805214881896973	0.0003641449729911983	0.07260891050100327	10
+487	bigbang_align	aligned	facebook/blenderbot-400M-distill	antically unavailable to the first person	 she	's	7.268157958984375	5.230959415435791	0.0006973953568376601	0.1409813016653061	10
+488	bigbang_align	aligned	facebook/blenderbot-400M-distill	ically unavailable to the first person she	ld	s	12.494343757629395	3.658877372741699	3.7477927889995044e-06	0.3089524507522583	10
+489	bigbang_align	aligned	facebook/blenderbot-400M-distill	 unavailable to the first person sheld	on	with	7.324884414672852	5.277261257171631	0.0006589357508346438	0.19229736924171448	10
+490	bigbang_align	aligned	facebook/blenderbot-400M-distill	available to the first person sheldon	 sat	with	7.523327827453613	4.720656394958496	0.0005403314135037363	0.2242029756307602	10
+491	bigbang_align	aligned	facebook/blenderbot-400M-distill	ailable to the first person sheldon sat	 back	.	7.470381736755371	5.557079792022705	0.0005697109154425561	0.06759725511074066	10
+492	bigbang_align	aligned	facebook/blenderbot-400M-distill	able to the first person sheldon sat back	 in	.	6.583868980407715	6.065213680267334	0.001382490387186408	0.05996283143758774	10
+493	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to the first person sheldon sat back in	 his	on	8.855420112609863	5.805377006530762	0.00014260667376220226	0.12023739516735077	10
+494	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the first person sheldon sat back in his	 chair	s	7.888924598693848	2.157621145248413	0.000374872557586059	0.7034310102462769	10
+495	bigbang_align	aligned	facebook/blenderbot-400M-distill	 first person sheldon sat back in his chair	 you	have	4.217310905456543	5.395070552825928	0.014738224446773529	0.0766531378030777	10
+496	bigbang_align	aligned	facebook/blenderbot-400M-distill	 person sheldon sat back in his chair you	're	not	7.398671627044678	5.817478656768799	0.0006120653706602752	0.07533329725265503	10
+497	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon sat back in his chair you're	 a	special	5.965342998504639	6.575132369995117	0.002566164592280984	0.024798661470413208	10
+498	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon sat back in his chair you're a	 lucky	person	8.607677459716797	3.260026693344116	0.0001826976949814707	0.39847537875175476	10
+499	bigbang_align	aligned	facebook/blenderbot-400M-distill	on sat back in his chair you're a lucky	 man	and	8.109375	4.648245811462402	0.000300706917187199	0.0922875627875328	10
+500	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sat back in his chair you're a lucky man	 le	x	4.086650848388672	5.581610679626465	0.016795385628938675	0.07555834203958511	10
+501	bigbang_align	aligned	facebook/blenderbot-400M-distill	 back in his chair you're a lucky man le	on	ard	6.333516597747803	3.092461109161377	0.0017757778987288475	0.5893400311470032	10
+502	bigbang_align	aligned	facebook/blenderbot-400M-distill	 in his chair you're a lucky man leon	ard	you	6.629192352294922	5.52180814743042	0.0013212296180427074	0.17827299237251282	10
+503	bigbang_align	aligned	facebook/blenderbot-400M-distill	 his chair you're a lucky man leonard	 how	they	5.041642665863037	4.352226734161377	0.006463123485445976	0.14040417969226837	10
+504	bigbang_align	aligned	facebook/blenderbot-400M-distill	 chair you're a lucky man leonard how	 so	are	5.5266032218933105	4.675566673278809	0.0039794836193323135	0.2950522005558014	10
+505	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you're a lucky man leonard how so	 you	just	3.4951515197753906	5.691145896911621	0.030344147235155106	0.05103697255253792	10
+506	bigbang_align	aligned	facebook/blenderbot-400M-distill	're a lucky man leonard how so you	're	a	7.02333927154541	5.1041717529296875	0.0008908456657081842	0.1408771574497223	10
+507	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a lucky man leonard how so you're	 talking	to	9.108255386352539	3.659291982650757	0.00011074777285102755	0.3278941214084625	10
+508	bigbang_align	aligned	facebook/blenderbot-400M-distill	 lucky man leonard how so you're talking	 to	about	3.993837594985962	5.810066223144531	0.018428854644298553	0.06578996777534485	10
+509	bigbang_align	aligned	facebook/blenderbot-400M-distill	 man leonard how so you're talking to	 one	of	5.960929870605469	4.406135082244873	0.0025775134563446045	0.2947982847690582	10
+510	bigbang_align	aligned	facebook/blenderbot-400M-distill	 leonard how so you're talking to one	 of	a	6.000978469848633	4.268401622772217	0.0024763280525803566	0.22219516336917877	10
+511	bigbang_align	aligned	facebook/blenderbot-400M-distill	onard how so you're talking to one of	 the	places	7.4474592208862305	5.942702293395996	0.0005829207948409021	0.07842037826776505	10
+512	bigbang_align	aligned	facebook/blenderbot-400M-distill	ard how so you're talking to one of the	 three	things	8.582393646240234	5.944499492645264	0.00018737601931206882	0.06308569014072418	10
+513	bigbang_align	aligned	facebook/blenderbot-400M-distill	 how so you're talking to one of the three	 men	so	7.657596588134766	5.131326675415039	0.00047244143206626177	0.11860078573226929	10
+514	bigbang_align	aligned	facebook/blenderbot-400M-distill	 so you're talking to one of the three men	 in	a	6.076541900634766	5.970696449279785	0.0022961036302149296	0.08549989014863968	10
+515	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you're talking to one of the three men in	 the	I	7.135303497314453	6.526287078857422	0.0007964842952787876	0.03434741124510765	10
+516	bigbang_align	aligned	facebook/blenderbot-400M-distill	're talking to one of the three men in the	 western	half	9.3928804397583	4.802197456359863	8.331510616699234e-05	0.20081230998039246	10
+517	bigbang_align	aligned	facebook/blenderbot-400M-distill	 talking to one of the three men in the western	 he	m	5.492521286010742	4.958171367645264	0.004117449279874563	0.0666864886879921	10
+518	bigbang_align	aligned	facebook/blenderbot-400M-distill	 to one of the three men in the western he	m	es	6.423062801361084	5.063215732574463	0.0016236758092418313	0.12876024842262268	10
+519	bigbang_align	aligned	facebook/blenderbot-400M-distill	 one of the three men in the western hem	is	p	5.972573757171631	4.034071922302246	0.00254767551086843	0.3302268087863922	10
+520	bigbang_align	aligned	facebook/blenderbot-400M-distill	 of the three men in the western hemis	p	here	6.851883411407471	3.523303508758545	0.0010574623011052608	0.4418717324733734	10
+521	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the three men in the western hemisp	here	.	11.415811538696289	5.078742504119873	1.1019856174243614e-05	0.1328740268945694	10
+522	bigbang_align	aligned	facebook/blenderbot-400M-distill	 three men in the western hemisphere	 capable	of	13.659500122070312	0.7190942764282227	1.1688385939123691e-06	0.91851407289505	10
+523	bigbang_align	aligned	facebook/blenderbot-400M-distill	 men in the western hemisphere capable	 of	being	7.272311210632324	5.714162826538086	0.0006945051718503237	0.10670311748981476	10
+524	bigbang_align	aligned	facebook/blenderbot-400M-distill	 in the western hemisphere capable of	 following	a	9.163707733154297	5.590824604034424	0.00010477370960870758	0.13141298294067383	10
+525	bigbang_align	aligned	facebook/blenderbot-400M-distill	 the western hemisphere capable of following	 that	being	6.29929256439209	6.049654006958008	0.001837604446336627	0.055787596851587296	10
+526	bigbang_align	aligned	facebook/blenderbot-400M-distill	 western hemisphere capable of following that	 train	a	8.595071792602539	5.853434085845947	0.0001850153785198927	0.05411744862794876	10
+527	bigbang_align	aligned	facebook/blenderbot-400M-distill	 hemisphere capable of following that train	 of	I	5.922307968139648	6.552609443664551	0.0026790094561874866	0.03909898176789284	10
+528	bigbang_align	aligned	facebook/blenderbot-400M-distill	misphere capable of following that train of	 thought	.	9.172266006469727	5.071569442749023	0.0001038808113662526	0.12373320013284683	10
+529	bigbang_align	aligned	facebook/blenderbot-400M-distill	isphere capable of following that train of thought	 well	to	6.782937049865723	5.655978202819824	0.001132942154072225	0.029671497642993927	10
+530	bigbang_align	aligned	facebook/blenderbot-400M-distill	phere capable of following that train of thought well	 what	do	7.178900241851807	4.755221366882324	0.0007625059806741774	0.09473481774330139	10
+531	bigbang_align	aligned	facebook/blenderbot-400M-distill	here capable of following that train of thought well what	 you	do	4.762437343597412	3.96061372756958	0.008544759824872017	0.3705606758594513	10
+532	bigbang_align	aligned	facebook/blenderbot-400M-distill	 capable of following that train of thought well what you	 think	of	9.347822189331055	3.4718358516693115	8.715505828149617e-05	0.26579272747039795	10
+533	bigbang_align	aligned	facebook/blenderbot-400M-distill	 of following that train of thought well what you think	 i	like	4.559968948364258	5.325296878814697	0.0104623818770051	0.06833845376968384	10
+534	bigbang_align	aligned	facebook/blenderbot-400M-distill	 following that train of thought well what you think i	 said	</s>	9.195052146911621	4.061182975769043	0.0001015406014630571	0.2193257212638855	10
+535	bigbang_align	aligned	facebook/blenderbot-400M-distill	 that train of thought well what you think i said	 i	'm	5.587020397186279	4.856205940246582	0.0037461728788912296	0.09023121744394302	10
+536	bigbang_align	aligned	facebook/blenderbot-400M-distill	 train of thought well what you think i said i	 could	imagine	7.884355545043945	5.151106357574463	0.00037658921792171896	0.08770228177309036	10
+537	bigbang_align	aligned	facebook/blenderbot-400M-distill	 of thought well what you think i said i could	 follow	people	7.8171515464782715	4.785001277923584	0.00040276735671795905	0.09840891510248184	10
+538	bigbang_align	aligned	facebook/blenderbot-400M-distill	 thought well what you think i said i could follow	 it	's	4.605049133300781	5.2906293869018555	0.010001208633184433	0.05533238500356674	10
+539	bigbang_align	aligned	facebook/blenderbot-400M-distill	 well what you think i said i could follow it	 not	.	8.216479301452637	4.648735046386719	0.0002701645717024803	0.12445253878831863	10
+540	bigbang_align	aligned	facebook/blenderbot-400M-distill	 what you think i said i could follow it not	 that	thing	5.714339256286621	5.018493175506592	0.0032983289565891027	0.09063197672367096	10
+541	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you think i said i could follow it not that	 i	do	3.9053220748901367	4.303095817565918	0.020134467631578445	0.161441832780838	10
+542	bigbang_align	aligned	facebook/blenderbot-400M-distill	 think i said i could follow it not that i	 care	about	7.592898845672607	3.4264447689056396	0.0005040179239585996	0.24061259627342224	10
+543	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i said i could follow it not that i care	d	for	8.429618835449219	3.5127451419830322	0.00021830473269801587	0.21497271955013275	10
+544	bigbang_align	aligned	facebook/blenderbot-400M-distill	 said i could follow it not that i cared	 pen	cil	7.413363933563232	3.3390231132507324	0.0006031382363289595	0.5366774201393127	10
+545	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i could follow it not that i cared pen	ny	.	11.337100982666016	4.744064807891846	1.1922292287636083e-05	0.18294566869735718	10
+546	bigbang_align	aligned	facebook/blenderbot-400M-distill	 could follow it not that i cared penny	 return	ed	10.307493209838867	2.1484405994415283	3.338202805025503e-05	0.4538852274417877	10
+547	bigbang_align	aligned	facebook/blenderbot-400M-distill	 follow it not that i cared penny return	ed	to	7.689840316772461	4.55626106262207	0.0004574512713588774	0.19833256304264069	10
+548	bigbang_align	aligned	facebook/blenderbot-400M-distill	 it not that i cared penny returned	 with	</s>	8.587441444396973	6.102650165557861	0.0001864325167844072	0.054046764969825745	10
+549	bigbang_align	aligned	facebook/blenderbot-400M-distill	 not that i cared penny returned with	 their	s	6.760612487792969	5.625688552856445	0.00115851906593889	0.16589386761188507	10
+550	bigbang_align	aligned	facebook/blenderbot-400M-distill	 that i cared penny returned with their	 bur	den	3.9702138900756836	4.5138702392578125	0.018869400024414062	0.17611990869045258	10
+551	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i cared penny returned with their bur	gers	.	12.550737380981445	5.63806676864624	3.5422890505287796e-06	0.11207101494073868	10
+552	bigbang_align	aligned	facebook/blenderbot-400M-distill	 cared penny returned with their burgers	 and	were	6.719099998474121	6.103626728057861	0.0012076246784999967	0.047561224550008774	10
+553	bigbang_align	aligned	facebook/blenderbot-400M-distill	d penny returned with their burgers and	 she	d	6.594069004058838	4.64890193939209	0.0013684601290151477	0.21804137527942657	10
+554	bigbang_align	aligned	facebook/blenderbot-400M-distill	 penny returned with their burgers and she	ld	s	10.086801528930664	3.076064109802246	4.162531695328653e-05	0.5094581842422485	10
+555	bigbang_align	aligned	facebook/blenderbot-400M-distill	ny returned with their burgers and sheld	on	's	8.414220809936523	4.403295516967773	0.00022169224394019693	0.4147054851055145	10
+556	bigbang_align	aligned	facebook/blenderbot-400M-distill	 returned with their burgers and sheldon	 c	ro	4.874983787536621	4.356997013092041	0.007635216228663921	0.2555163502693176	10
+557	bigbang_align	aligned	facebook/blenderbot-400M-distill	ed with their burgers and sheldon c	aut	ious	6.097274303436279	3.650639533996582	0.0022489898838102818	0.2013305127620697	10
+558	bigbang_align	aligned	facebook/blenderbot-400M-distill	 with their burgers and sheldon caut	iously	to	10.78847885131836	6.007271766662598	2.0635876353480853e-05	0.05695974826812744	10
+559	bigbang_align	aligned	facebook/blenderbot-400M-distill	 their burgers and sheldon cautiously	 took	but	8.477758407592773	5.5534257888793945	0.00020804442465305328	0.08732166141271591	10
+560	bigbang_align	aligned	facebook/blenderbot-400M-distill	 burgers and sheldon cautiously took	 a	thing	5.770702838897705	6.210605621337891	0.0031175659969449043	0.05952058732509613	10
+561	bigbang_align	aligned	facebook/blenderbot-400M-distill	gers and sheldon cautiously took a	 bite	of	6.7862958908081055	4.28573751449585	0.0011291435221210122	0.13090303540229797	10
+562	bigbang_align	aligned	facebook/blenderbot-400M-distill	 and sheldon cautiously took a bite	 his	a	8.792948722839355	5.784265518188477	0.00015179964248090982	0.07117978483438492	10
+563	bigbang_align	aligned	facebook/blenderbot-400M-distill	 sheldon cautiously took a bite his	 eyes	I	6.836322784423828	5.922110080718994	0.001074045430868864	0.06512995809316635	10
+564	bigbang_align	aligned	facebook/blenderbot-400M-distill	ldon cautiously took a bite his eyes	 w	th	3.595956563949585	5.056738376617432	0.027434425428509712	0.06689642369747162	10
+565	bigbang_align	aligned	facebook/blenderbot-400M-distill	on cautiously took a bite his eyes w	id	th	4.6973443031311035	4.4532575607299805	0.009119464084506035	0.2185315489768982	10
+566	bigbang_align	aligned	facebook/blenderbot-400M-distill	 cautiously took a bite his eyes wid	ened	and	11.921424865722656	5.456186771392822	6.646469955740031e-06	0.08495227247476578	10
+567	bigbang_align	aligned	facebook/blenderbot-400M-distill	autiously took a bite his eyes widened	 in	</s>	9.086511611938477	6.190975666046143	0.00011318225733703002	0.07123127579689026	10
+568	bigbang_align	aligned	facebook/blenderbot-400M-distill	iously took a bite his eyes widened in	 surprise	but	8.857037544250488	5.288283824920654	0.00014237627328839153	0.07021994888782501	10
+569	bigbang_align	aligned	facebook/blenderbot-400M-distill	 took a bite his eyes widened in surprise	 and	that	6.281102180480957	4.979837894439697	0.0018713372992351651	0.09805696457624435	10
+570	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a bite his eyes widened in surprise and	 he	is	4.846221923828125	5.21992826461792	0.007858010940253735	0.10987985879182816	10
+571	bigbang_align	aligned	facebook/blenderbot-400M-distill	 bite his eyes widened in surprise and he	 bit	a	5.9684014320373535	5.034997463226318	0.002558327978476882	0.11107482761144638	10
+572	bigbang_align	aligned	facebook/blenderbot-400M-distill	 his eyes widened in surprise and he bit	 off	a	6.484278678894043	3.7413485050201416	0.0015272621531039476	0.3202120065689087	10
+573	bigbang_align	aligned	facebook/blenderbot-400M-distill	 eyes widened in surprise and he bit off	 a	thing	4.864358425140381	6.060555458068848	0.007716776337474585	0.12996020913124084	10
+574	bigbang_align	aligned	facebook/blenderbot-400M-distill	 widened in surprise and he bit off a	 larger	one	10.795165061950684	3.230936288833618	2.0498378944466822e-05	0.5980997681617737	10
+575	bigbang_align	aligned	facebook/blenderbot-400M-distill	idened in surprise and he bit off a larger	 piece	of	8.94365119934082	2.311281681060791	0.00013056350871920586	0.6055334210395813	10
+576	bigbang_align	aligned	facebook/blenderbot-400M-distill	ened in surprise and he bit off a larger piece	 you	would	5.108828067779541	5.5994415283203125	0.006043160334229469	0.07668069750070572	10
+577	bigbang_align	aligned	facebook/blenderbot-400M-distill	 in surprise and he bit off a larger piece you	 know	.	5.329584121704102	4.297738552093506	0.004846085328608751	0.1144256591796875	10
+578	bigbang_align	aligned	facebook/blenderbot-400M-distill	 surprise and he bit off a larger piece you know	 i	'm	5.677544593811035	5.325552463531494	0.003421949688345194	0.0704885870218277	10
+579	bigbang_align	aligned	facebook/blenderbot-400M-distill	 and he bit off a larger piece you know i	 think	</s>	5.5967254638671875	5.039787769317627	0.00370999239385128	0.13839636743068695	10
+580	bigbang_align	aligned	facebook/blenderbot-400M-distill	 he bit off a larger piece you know i think	 i	like	6.363158226013184	5.282418727874756	0.0017239140579476953	0.09114471077919006	10
+581	bigbang_align	aligned	facebook/blenderbot-400M-distill	 bit off a larger piece you know i think i	 may	be	9.259033203125	4.709794521331787	9.52473928919062e-05	0.13224951922893524	10
+582	bigbang_align	aligned	facebook/blenderbot-400M-distill	 off a larger piece you know i think i may	 have	a	7.462944984436035	3.912348508834839	0.0005739632761105895	0.35956794023513794	10
+583	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a larger piece you know i think i may have	 mis	chie	7.340320587158203	3.7212393283843994	0.0006488424842245877	0.40788498520851135	10
+584	bigbang_align	aligned	facebook/blenderbot-400M-distill	 larger piece you know i think i may have mis	j	et	4.302977561950684	4.35849142074585	0.013528215698897839	0.18680593371391296	10
+585	bigbang_align	aligned	facebook/blenderbot-400M-distill	 piece you know i think i may have misj	ud	ge	4.031728744506836	3.186406135559082	0.01774362288415432	0.3358750343322754	10
+586	bigbang_align	aligned	facebook/blenderbot-400M-distill	 you know i think i may have misjud	ged	a	11.645784378051758	3.3596749305725098	8.755887392908335e-06	0.42399123311042786	10
+587	bigbang_align	aligned	facebook/blenderbot-400M-distill	 know i think i may have misjudged	 this	one	3.751598596572876	5.0129899978637695	0.023480182513594627	0.13914819061756134	10
+588	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i think i may have misjudged this	 restaurant	.	11.734773635864258	5.4896135330200195	8.010367309907451e-06	0.06555591523647308	10
+589	bigbang_align	aligned	facebook/blenderbot-400M-distill	 think i may have misjudged this restaurant	 i	still	4.605974197387695	5.635014533996582	0.00999196246266365	0.069167859852314	10
+590	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i may have misjudged this restaurant i	 won	't	7.509953498840332	0.9203878045082092	0.0005476066726259887	0.8908851146697998	10
+591	bigbang_align	aligned	facebook/blenderbot-400M-distill	 may have misjudged this restaurant i won	't	but	7.6631855964660645	4.644205570220947	0.00046980840852484107	0.12035442143678665	10
+592	bigbang_align	aligned	facebook/blenderbot-400M-distill	 have misjudged this restaurant i won't	 go	back	8.300201416015625	4.70487117767334	0.00024846679298207164	0.11791135370731354	10
+593	bigbang_align	aligned	facebook/blenderbot-400M-distill	 misjudged this restaurant i won't go	 out	to	10.516380310058594	3.902933359146118	2.7089074137620628e-05	0.25612175464630127	10
+594	bigbang_align	aligned	facebook/blenderbot-400M-distill	judged this restaurant i won't go out	 on	this	8.148548126220703	5.636241436004639	0.00028915476286783814	0.06250444799661636	10
+595	bigbang_align	aligned	facebook/blenderbot-400M-distill	udged this restaurant i won't go out on	 a	thing	4.773200035095215	6.209634304046631	0.008453283458948135	0.05781284719705582	10
+596	bigbang_align	aligned	facebook/blenderbot-400M-distill	ged this restaurant i won't go out on a	 lim	b	12.494974136352539	1.7103242874145508	3.7454315133800264e-06	0.7106879949569702	10
+597	bigbang_align	aligned	facebook/blenderbot-400M-distill	 this restaurant i won't go out on a lim	b	.	8.155011177062988	5.062646389007568	0.0002872920304071158	0.11134807020425797	10
+598	bigbang_align	aligned	facebook/blenderbot-400M-distill	 restaurant i won't go out on a limb	 but	still	7.377031326293945	4.66299295425415	0.0006254547624848783	0.08792519569396973	10
+599	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i won't go out on a limb but	 i	a	5.860374450683594	4.933125019073486	0.002850176300853491	0.08929181843996048	10
+600	bigbang_align	aligned	facebook/blenderbot-400M-distill	 won't go out on a limb but i	 think	so	5.74328088760376	4.6435747146606445	0.0032042379025369883	0.061990171670913696	10
+601	bigbang_align	aligned	facebook/blenderbot-400M-distill	't go out on a limb but i think	 we	all	5.591842174530029	4.397247791290283	0.0037281541153788567	0.16667598485946655	10
+602	bigbang_align	aligned	facebook/blenderbot-400M-distill	 go out on a limb but i think we	 may	have	9.878569602966309	2.8900399208068848	5.126155883772299e-05	0.31308144330978394	10
+603	bigbang_align	aligned	facebook/blenderbot-400M-distill	 out on a limb but i think we may	 be	a	5.52448034286499	5.080315589904785	0.003987940959632397	0.2185947299003601	10
+604	bigbang_align	aligned	facebook/blenderbot-400M-distill	 on a limb but i think we may be	 looking	at	8.558767318725586	3.0138466358184814	0.0001918555935844779	0.3485746681690216	10
+605	bigbang_align	aligned	facebook/blenderbot-400M-distill	 a limb but i think we may be looking	 at	a	4.420844078063965	5.026379108428955	0.012024082243442535	0.14353413879871368	10
+606	bigbang_align	aligned	facebook/blenderbot-400M-distill	 limb but i think we may be looking at	 my	life	8.642980575561523	6.122795581817627	0.00017636045231483877	0.04784216731786728	10
+607	bigbang_align	aligned	facebook/blenderbot-400M-distill	b but i think we may be looking at my	 new	est	10.455774307250977	4.9734601974487305	2.878159466490615e-05	0.19755682349205017	10
+608	bigbang_align	aligned	facebook/blenderbot-400M-distill	 but i think we may be looking at my new	 t	ube	3.8600687980651855	4.382171154022217	0.02106655016541481	0.18192319571971893	10
+609	bigbang_align	aligned	facebook/blenderbot-400M-distill	 i think we may be looking at my new t	ues	day	9.527671813964844	0.7648642659187317	7.280891441041604e-05	0.9111510515213013	10
+610	bigbang_align	aligned	facebook/blenderbot-400M-distill	 think we may be looking at my new tues	day	s	13.910970687866211	3.2743165493011475	9.089543482332374e-07	0.5632025003433228	10
+611	bigbang_align	aligned	facebook/blenderbot-400M-distill	 we may be looking at my new tuesday	 ha	v	3.817483425140381	5.040295600891113	0.021983051672577858	0.15072765946388245	10
+612	bigbang_align	aligned	facebook/blenderbot-400M-distill	 may be looking at my new tuesday ha	mb	ur	7.753793716430664	0.9196994304656982	0.00042911156197078526	0.8952657580375671	10
+613	bigbang_align	aligned	facebook/blenderbot-400M-distill	 be looking at my new tuesday hamb	ur	ger	2.5972530841827393	1.296090006828308	0.07447788119316101	0.7334206104278564	10
+614	bigbang_align	aligned	facebook/blenderbot-400M-distill	 looking at my new tuesday hambur	ger	with	9.161699295043945	4.217000484466553	0.00010498433402972296	0.39553114771842957	10
+615	bigbang_align	aligned	facebook/blenderbot-400M-distill	 at my new tuesday hamburger	</s>	again	4.142203330993652	4.812329292297363	0.015887809917330742	0.19340229034423828	10

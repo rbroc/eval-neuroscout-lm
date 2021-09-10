@@ -1,0 +1,718 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Chandler and Monica walked into the air	port	where	13.915434837341309	4.05322790145874	9.049060736288084e-07	0.19385313987731934	10
+1	friends_transcript	transcript	facebook/blenderbot-400M-distill	ndler and Monica walked into the airport	 hand	ic	8.627517700195312	4.186141014099121	0.00017910874157678336	0.35038527846336365	10
+2	friends_transcript	transcript	facebook/blenderbot-400M-distill	ler and Monica walked into the airport hand	-	st	10.405102729797363	3.9098904132843018	3.0277582482085563e-05	0.3034592270851135	10
+3	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and Monica walked into the airport hand-	in	sp	10.716585159301758	3.205195903778076	2.2174119294504635e-05	0.4332655668258667	10
+4	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Monica walked into the airport hand-in	-	ha	9.698081016540527	4.922447204589844	6.140120240161195e-05	0.1012037992477417	10
+5	friends_transcript	transcript	facebook/blenderbot-400M-distill	ica walked into the airport hand-in-	hand	ed	11.718873977661133	2.8975133895874023	8.13874794403091e-06	0.3169431686401367	10
+6	friends_transcript	transcript	facebook/blenderbot-400M-distill	 walked into the airport hand-in-hand	,	is	5.750535011291504	5.4142937660217285	0.003181077539920807	0.07323012501001358	10
+7	friends_transcript	transcript	facebook/blenderbot-400M-distill	 into the airport hand-in-hand,	 pulling	on	10.611122131347656	5.516993045806885	2.4640427000122145e-05	0.14565123617649078	10
+8	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the airport hand-in-hand, pulling	 their	friends	6.756872653961182	6.563751220703125	0.0011628603097051382	0.024249227717518806	10
+9	friends_transcript	transcript	facebook/blenderbot-400M-distill	 airport hand-in-hand, pulling their	 suit	.	9.369884490966797	4.71066951751709	8.525321027263999e-05	0.14641395211219788	10
+10	friends_transcript	transcript	facebook/blenderbot-400M-distill	port hand-in-hand, pulling their suit	c	ase	5.396251678466797	4.001585006713867	0.004533541854470968	0.3001609444618225	10
+11	friends_transcript	transcript	facebook/blenderbot-400M-distill	 hand-in-hand, pulling their suitc	ases	.	12.192428588867188	4.356563568115234	5.068685823061969e-06	0.23001307249069214	10
+12	friends_transcript	transcript	facebook/blenderbot-400M-distill	-in-hand, pulling their suitcases	 behind	,	10.8193998336792	5.114253520965576	2.0007571947644465e-05	0.14965443313121796	10
+13	friends_transcript	transcript	facebook/blenderbot-400M-distill	in-hand, pulling their suitcases behind	 them	,	8.798707008361816	5.237066745758057	0.00015092814282979816	0.11968497931957245	10
+14	friends_transcript	transcript	facebook/blenderbot-400M-distill	-hand, pulling their suitcases behind them	.		7.1858439445495605	4.9784369468688965	0.0007572296308353543	0.212295800447464	10
+15	friends_transcript	transcript	facebook/blenderbot-400M-distill	hand, pulling their suitcases behind them.	" """	D	7.286482334136963	4.989201545715332	0.0006847323966212571	0.09591712057590485	10
+16	friends_transcript	transcript	facebook/blenderbot-400M-distill	", pulling their suitcases behind them. """	S	""""	7.490976333618164	5.057258129119873	0.0005580979050137103	0.09522868692874908	10
+17	friends_transcript	transcript	facebook/blenderbot-400M-distill	" pulling their suitcases behind them. ""S"	ee	's	6.9200286865234375	6.299441337585449	0.0009878013515844941	0.03770279139280319	10
+18	friends_transcript	transcript	facebook/blenderbot-400M-distill	" their suitcases behind them. ""See"	 h	h	1.923356533050537	4.832311153411865	0.14611569046974182	0.14611569046974182	10
+19	friends_transcript	transcript	facebook/blenderbot-400M-distill	" suitcases behind them. ""See h"	oney	.	7.284004211425781	5.380764961242676	0.0006864311872050166	0.09634409099817276	10
+20	friends_transcript	transcript	facebook/blenderbot-400M-distill	"cases behind them. ""See honey"	"?"""	</s>	10.282371520996094	4.828692436218262	3.423125235713087e-05	0.21031782031059265	10
+21	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ases behind them. ""See honey?"""	 No	.	8.672182083129883	3.3326327800750732	0.00017128493345808238	0.49793165922164917	10
+22	friends_transcript	transcript	facebook/blenderbot-400M-distill	" behind them. ""See honey?"" No"	 problem	.	11.40156364440918	1.5444976091384888	1.1177990927535575e-05	0.7942914366722107	10
+23	friends_transcript	transcript	facebook/blenderbot-400M-distill	" them. ""See honey?"" No problem"	 getting	.	8.484745979309082	4.68890905380249	0.00020659578149206936	0.1443694829940796	10
+24	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""See honey?"" No problem getting"	 a	second	6.115808963775635	6.354401588439941	0.00220768922008574	0.03865106776356697	10
+25	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""See honey?"" No problem getting a"	 cab	.	10.169061660766602	4.462130069732666	3.8338290323736146e-05	0.22695676982402802	10
+26	friends_transcript	transcript	facebook/blenderbot-400M-distill	"See honey?"" No problem getting a cab"	,	a	5.907258987426758	5.439788818359375	0.0027196314185857773	0.088218554854393	10
+27	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ee honey?"" No problem getting a cab,"	 no	.	6.865050315856934	4.554510593414307	0.0010436298325657845	0.1841992437839508	10
+28	friends_transcript	transcript	facebook/blenderbot-400M-distill	" honey?"" No problem getting a cab, no"	 traffic	,	8.413372039794922	4.372567176818848	0.00022188038565218449	0.18718598783016205	10
+29	friends_transcript	transcript	facebook/blenderbot-400M-distill	"oney?"" No problem getting a cab, no traffic"	�	�	5.094991683959961	1.800526738166809	0.006127358879894018	0.6120397448539734	10
+30	friends_transcript	transcript	facebook/blenderbot-400M-distill	"?"" No problem getting a cab, no traffic�"	�	sp	6.002119064331055	4.74404239654541	0.0024735061451792717	0.09876630455255508	10
+31	friends_transcript	transcript	facebook/blenderbot-400M-distill	 No problem getting a cab, no traffic…	 my	first	7.3194804191589355	6.2554521560668945	0.0006625063251703978	0.04158034548163414	10
+32	friends_transcript	transcript	facebook/blenderbot-400M-distill	 problem getting a cab, no traffic… my	 way	.	7.57913875579834	3.502408504486084	0.0005110011552460492	0.31270694732666016	10
+33	friends_transcript	transcript	facebook/blenderbot-400M-distill	 getting a cab, no traffic… my way	 totally	a	8.053339958190918	5.84005069732666	0.000318037869874388	0.06568758934736252	10
+34	friends_transcript	transcript	facebook/blenderbot-400M-distill	 a cab, no traffic… my way totally	 works	.	8.975722312927246	4.550442218780518	0.0001264425809495151	0.1429298222064972	10
+35	friends_transcript	transcript	facebook/blenderbot-400M-distill	 cab, no traffic… my way totally works	","""	I	7.600332736968994	5.630440711975098	0.0005002849502488971	0.07213990390300751	10
+36	friends_transcript	transcript	facebook/blenderbot-400M-distill	", no traffic… my way totally works,"""	 sm	ear	5.958370208740234	4.298945903778076	0.002584120724350214	0.2107950747013092	10
+37	friends_transcript	transcript	facebook/blenderbot-400M-distill	" no traffic… my way totally works,"" sm"	iled		13.372934341430664	5.558033466339111	1.5567126183668734e-06	0.06640545278787613	10
+38	friends_transcript	transcript	facebook/blenderbot-400M-distill	" traffic… my way totally works,"" smiled"	 Cha	me	6.150827407836914	5.400066375732422	0.002131717512384057	0.0871206745505333	10
+39	friends_transcript	transcript	facebook/blenderbot-400M-distill	"… my way totally works,"" smiled Cha"	nd	ry	7.1447343826293945	5.436058521270752	0.0007890075794421136	0.10057088732719421	10
+40	friends_transcript	transcript	facebook/blenderbot-400M-distill	"� my way totally works,"" smiled Chand"	ler	I	14.502564430236816	5.27224063873291	5.030559009355784e-07	0.16294047236442566	10
+41	friends_transcript	transcript	facebook/blenderbot-400M-distill	" my way totally works,"" smiled Chandler"	.		8.800156593322754	4.442785263061523	0.0001507094711996615	0.15766370296478271	10
+42	friends_transcript	transcript	facebook/blenderbot-400M-distill	" way totally works,"" smiled Chandler."	 Mon	ies	8.013568878173828	5.990748882293701	0.0003309415187686682	0.0372246578335762	10
+43	friends_transcript	transcript	facebook/blenderbot-400M-distill	" totally works,"" smiled Chandler. Mon"	ica	.	9.711116790771484	4.466809272766113	6.060601299395785e-05	0.23251625895500183	10
+44	friends_transcript	transcript	facebook/blenderbot-400M-distill	" works,"" smiled Chandler. Monica"	 took	me	7.982287883758545	4.971389293670654	0.00034145728568546474	0.14486812055110931	10
+45	friends_transcript	transcript	facebook/blenderbot-400M-distill	","" smiled Chandler. Monica took"	 a	to	4.327638626098633	6.230828285217285	0.013198678381741047	0.06343206763267517	10
+46	friends_transcript	transcript	facebook/blenderbot-400M-distill	 smiled Chandler. Monica took a	 deep	er	8.772088050842285	2.217069149017334	0.0001549996668472886	0.7392107844352722	10
+47	friends_transcript	transcript	facebook/blenderbot-400M-distill	iled Chandler. Monica took a deep	 breath	.	8.863237380981445	3.255584955215454	0.00014149630442261696	0.30604973435401917	10
+48	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Chandler. Monica took a deep breath	.	</s>	6.744638442993164	4.522192478179932	0.0011771742720156908	0.1848885715007782	10
+49	friends_transcript	transcript	facebook/blenderbot-400M-distill	ndler. Monica took a deep breath.	" """	""""	9.728046417236328	5.335188865661621	5.958856490906328e-05	0.053838230669498444	10
+50	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ler. Monica took a deep breath. """	I	s	10.51712417602539	3.926731586456299	2.7068917916039936e-05	0.15649132430553436	10
+51	friends_transcript	transcript	facebook/blenderbot-400M-distill	". Monica took a deep breath. ""I"	 know	""""	7.365289688110352	4.205292224884033	0.0006328422459773719	0.1367906928062439	10
+52	friends_transcript	transcript	facebook/blenderbot-400M-distill	" Monica took a deep breath. ""I know"	,	I	8.297088623046875	3.929832935333252	0.0002492414496373385	0.25051113963127136	10
+53	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ica took a deep breath. ""I know,"	 I	""""	5.788168430328369	4.099245548248291	0.0030635881703346968	0.21480339765548706	10
+54	friends_transcript	transcript	facebook/blenderbot-400M-distill	" took a deep breath. ""I know, I"	 know	.	8.743331909179688	2.356423854827881	0.0001595214125700295	0.36169999837875366	10
+55	friends_transcript	transcript	facebook/blenderbot-400M-distill	" a deep breath. ""I know, I know"	,	it	8.467336654663086	3.6278557777404785	0.00021022409782744944	0.23605844378471375	10
+56	friends_transcript	transcript	facebook/blenderbot-400M-distill	" deep breath. ""I know, I know,"	 we	are	5.364201545715332	4.5968918800354	0.004681196063756943	0.09229019284248352	10
+57	friends_transcript	transcript	facebook/blenderbot-400M-distill	" breath. ""I know, I know, we"	 have	to	7.753991603851318	2.3884286880493164	0.0004290266369935125	0.6419451236724854	10
+58	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""I know, I know, we have"	 plenty	of	12.513293266296387	0.7987954020500183	3.6774404179595876e-06	0.899623453617096	10
+59	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""I know, I know, we have plenty"	 of	,	6.598168849945068	5.465157508850098	0.0013628614833578467	0.09890422970056534	10
+60	friends_transcript	transcript	facebook/blenderbot-400M-distill	I know, I know, we have plenty of	 time	,	7.719134330749512	2.718888998031616	0.0004442448844201863	0.3486763536930084	10
+61	friends_transcript	transcript	facebook/blenderbot-400M-distill	 know, I know, we have plenty of time	"."""	</s>	5.688815593719482	5.392228126525879	0.0033835982903838158	0.08497316390275955	10
+62	friends_transcript	transcript	facebook/blenderbot-400M-distill	", I know, we have plenty of time."""	" """	""""	5.328210830688477	5.6043901443481445	0.004852743353694677	0.10264194756746292	10
+63	friends_transcript	transcript	facebook/blenderbot-400M-distill	" I know, we have plenty of time."" """	I	s	10.410065650939941	4.1357622146606445	3.0127699574222788e-05	0.2679125666618347	10
+64	friends_transcript	transcript	facebook/blenderbot-400M-distill	" know, we have plenty of time."" ""I"	 am	a	7.821078777313232	4.889091491699219	0.000401188648538664	0.2641267776489258	10
+65	friends_transcript	transcript	facebook/blenderbot-400M-distill	", we have plenty of time."" ""I am"	 totally	into	8.933289527893066	6.1379218101501465	0.00013192329788580537	0.06019768491387367	10
+66	friends_transcript	transcript	facebook/blenderbot-400M-distill	" we have plenty of time."" ""I am totally"	 relax	ed	7.812698841094971	0.6858113408088684	0.00040456472197547555	0.8841580748558044	10
+67	friends_transcript	transcript	facebook/blenderbot-400M-distill	" have plenty of time."" ""I am totally relax"	ed	""""	7.885537624359131	4.121574401855469	0.0003761443658731878	0.20227043330669403	10
+68	friends_transcript	transcript	facebook/blenderbot-400M-distill	" plenty of time."" ""I am totally relaxed"	,	I	7.275815486907959	4.710991859436035	0.0006920755258761346	0.141909658908844	10
+69	friends_transcript	transcript	facebook/blenderbot-400M-distill	" of time."" ""I am totally relaxed,"	 totally	,	8.463587760925293	5.075245380401611	0.00021101359743624926	0.1357727199792862	10
+70	friends_transcript	transcript	facebook/blenderbot-400M-distill	" time."" ""I am totally relaxed, totally"	 calm	""""	8.919561386108398	4.474965572357178	0.00013374687114264816	0.1845179945230484	10
+71	friends_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""I am totally relaxed, totally calm"	"."""	</s>	5.851818561553955	4.371407985687256	0.0028746663592755795	0.21460752189159393	10
+72	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""I am totally relaxed, totally calm."""	 S	oo	7.675436496734619	5.413487434387207	0.00046408793423324823	0.07037677615880966	10
+73	friends_transcript	transcript	facebook/blenderbot-400M-distill	"I am totally relaxed, totally calm."" S"	ud	ay	4.196961879730225	4.814709186553955	0.01504120696336031	0.15463745594024658	10
+74	friends_transcript	transcript	facebook/blenderbot-400M-distill	" am totally relaxed, totally calm."" Sud"	den	ly	14.18543529510498	1.2586838006973267	6.907861802574189e-07	0.8644452691078186	10
+75	friends_transcript	transcript	facebook/blenderbot-400M-distill	" totally relaxed, totally calm."" Sudden"	ly	,	8.328109741210938	5.332219123840332	0.00024162829504348338	0.054010648280382156	10
+76	friends_transcript	transcript	facebook/blenderbot-400M-distill	" relaxed, totally calm."" Suddenly"	 her	s	6.30101203918457	5.954697132110596	0.0018344478448852897	0.07250301539897919	10
+77	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ed, totally calm."" Suddenly her"	 eyes	,	11.297739028930664	3.1860785484313965	1.2400926607369911e-05	0.2991967797279358	10
+78	friends_transcript	transcript	facebook/blenderbot-400M-distill	", totally calm."" Suddenly her eyes"	 grew	,	11.720115661621094	3.2195982933044434	8.128650733851828e-06	0.3189520537853241	10
+79	friends_transcript	transcript	facebook/blenderbot-400M-distill	" totally calm."" Suddenly her eyes grew"	 wide	.	10.893058776855469	4.16071891784668	1.858680661825929e-05	0.1941986382007599	10
+80	friends_transcript	transcript	facebook/blenderbot-400M-distill	" calm."" Suddenly her eyes grew wide"	 as	a	5.207569122314453	5.990649700164795	0.005474967882037163	0.0644683912396431	10
+81	friends_transcript	transcript	facebook/blenderbot-400M-distill	"."" Suddenly her eyes grew wide as"	 she	s	4.978914737701416	5.120270729064941	0.006881526205688715	0.11132238060235977	10
+82	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Suddenly her eyes grew wide as she	 saw	but	10.914641380310059	5.543928146362305	1.8189944967161864e-05	0.06373494118452072	10
+83	friends_transcript	transcript	facebook/blenderbot-400M-distill	uddenly her eyes grew wide as she saw	 the	ever	7.883692741394043	6.128856658935547	0.00037683898699469864	0.07533125579357147	10
+84	friends_transcript	transcript	facebook/blenderbot-400M-distill	denly her eyes grew wide as she saw the	 line	.	6.405508041381836	5.5386481285095215	0.0016524309758096933	0.05680717155337334	10
+85	friends_transcript	transcript	facebook/blenderbot-400M-distill	ly her eyes grew wide as she saw the line	 for	ty	5.9812726974487305	5.7830095291137695	0.002525610150769353	0.0643533244729042	10
+86	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her eyes grew wide as she saw the line for	 air	craft	8.133658409118652	5.375058174133301	0.000293492543278262	0.09286992251873016	10
+87	friends_transcript	transcript	facebook/blenderbot-400M-distill	 eyes grew wide as she saw the line for air	port	life	10.845263481140137	5.869322776794434	1.9496730601531453e-05	0.03726474940776825	10
+88	friends_transcript	transcript	facebook/blenderbot-400M-distill	 grew wide as she saw the line for airport	 security	and	7.845991134643555	5.18804931640625	0.0003913174441549927	0.06429965794086456	10
+89	friends_transcript	transcript	facebook/blenderbot-400M-distill	 wide as she saw the line for airport security	,	to	6.473089218139648	5.642888069152832	0.001544447266496718	0.05161517113447189	10
+90	friends_transcript	transcript	facebook/blenderbot-400M-distill	 as she saw the line for airport security,	 wind	s	4.954420566558838	5.165648460388184	0.007052166853100061	0.215975821018219	10
+91	friends_transcript	transcript	facebook/blenderbot-400M-distill	 she saw the line for airport security, wind	ing	up	9.52182674407959	5.689896106719971	7.323577301576734e-05	0.094801165163517	10
+92	friends_transcript	transcript	facebook/blenderbot-400M-distill	 saw the line for airport security, winding	 in	to	6.325993537902832	4.438475608825684	0.0017891876632347703	0.22722750902175903	10
+93	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the line for airport security, winding in	 a	sentence	4.028715133666992	5.369691848754883	0.01779717579483986	0.12307169288396835	10
+94	friends_transcript	transcript	facebook/blenderbot-400M-distill	 line for airport security, winding in a	 length	of	9.957008361816406	2.262969732284546	4.739432188216597e-05	0.6939606666564941	10
+95	friends_transcript	transcript	facebook/blenderbot-400M-distill	 for airport security, winding in a length	y	way	8.288418769836426	5.45542049407959	0.0002514116058591753	0.06311716884374619	10
+96	friends_transcript	transcript	facebook/blenderbot-400M-distill	 airport security, winding in a lengthy	 t	ha	6.869915962219238	5.0136027336120605	0.0010385643690824509	0.16742809116840363	10
+97	friends_transcript	transcript	facebook/blenderbot-400M-distill	port security, winding in a lengthy t	ang	y	6.552586078643799	4.3732991218566895	0.0014264219207689166	0.24970941245555878	10
+98	friends_transcript	transcript	facebook/blenderbot-400M-distill	 security, winding in a lengthy tang	le	.	11.544500350952148	4.446763515472412	9.689186299510766e-06	0.1900022029876709	10
+99	friends_transcript	transcript	facebook/blenderbot-400M-distill	, winding in a lengthy tangle	 that	's	7.453853607177734	4.613274574279785	0.0005792053416371346	0.1898951232433319	10
+100	friends_transcript	transcript	facebook/blenderbot-400M-distill	 winding in a lengthy tangle that	 stre	tc	5.806211948394775	1.8840091228485107	0.0030088056810200214	0.7563534379005432	10
+101	friends_transcript	transcript	facebook/blenderbot-400M-distill	ing in a lengthy tangle that stre	tc	hes	9.89655876159668	1.27475905418396	5.0347651267657056e-05	0.4346299171447754	10
+102	friends_transcript	transcript	facebook/blenderbot-400M-distill	 in a lengthy tangle that stretc	hed	out	12.00857162475586	4.591979026794434	6.091771410865476e-06	0.19591590762138367	10
+103	friends_transcript	transcript	facebook/blenderbot-400M-distill	 a lengthy tangle that stretched	 all	of	10.660303115844727	3.9305598735809326	2.3457911083824e-05	0.4205128848552704	10
+104	friends_transcript	transcript	facebook/blenderbot-400M-distill	 lengthy tangle that stretched all	 the	time	7.879648208618164	4.350496292114258	0.0003783660940825939	0.3920726776123047	10
+105	friends_transcript	transcript	facebook/blenderbot-400M-distill	y tangle that stretched all the	 way	to	6.298434734344482	4.3132643699646	0.0018391815247014165	0.16651789844036102	10
+106	friends_transcript	transcript	facebook/blenderbot-400M-distill	 tangle that stretched all the way	 around	.	8.50898265838623	5.419314861297607	0.00020164885791018605	0.08961880952119827	10
+107	friends_transcript	transcript	facebook/blenderbot-400M-distill	angle that stretched all the way around	 the	last	8.276334762573242	6.370604515075684	0.00025446832296438515	0.06236059218645096	10
+108	friends_transcript	transcript	facebook/blenderbot-400M-distill	le that stretched all the way around the	 corner	of	8.835161209106445	3.9139678478240967	0.00014552516222465783	0.2921490967273712	10
+109	friends_transcript	transcript	facebook/blenderbot-400M-distill	 that stretched all the way around the corner	.		7.416706085205078	4.349292755126953	0.0006011260556988418	0.24112911522388458	10
+110	friends_transcript	transcript	facebook/blenderbot-400M-distill	 stretched all the way around the corner.	 Mon	key	7.57501220703125	5.095908164978027	0.0005131140351295471	0.12440812587738037	10
+111	friends_transcript	transcript	facebook/blenderbot-400M-distill	tched all the way around the corner. Mon	ica	.	8.486662864685059	4.572613716125488	0.00020620027498807758	0.33158043026924133	10
+112	friends_transcript	transcript	facebook/blenderbot-400M-distill	hed all the way around the corner. Monica	 sc	or	3.1947755813598633	4.5252604484558105	0.040975719690322876	0.08949373662471771	10
+113	friends_transcript	transcript	facebook/blenderbot-400M-distill	 all the way around the corner. Monica sc	ur	ry	7.857302665710449	4.032951354980469	0.00038691621739417315	0.33466312289237976	10
+114	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the way around the corner. Monica scur	ried	.	14.788912773132324	3.972165822982788	3.777954304950981e-07	0.3125592768192291	10
+115	friends_transcript	transcript	facebook/blenderbot-400M-distill	 way around the corner. Monica scurried	 toward	a	9.788129806518555	5.5504231452941895	5.611374945146963e-05	0.07801143079996109	10
+116	friends_transcript	transcript	facebook/blenderbot-400M-distill	 around the corner. Monica scurried toward	 the	one	7.620572566986084	5.106766223907471	0.0004902611253783107	0.1902831643819809	10
+117	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the corner. Monica scurried toward the	 end	of	8.049039840698242	0.9730494618415833	0.0003194084856659174	0.874737560749054	10
+118	friends_transcript	transcript	facebook/blenderbot-400M-distill	 corner. Monica scurried toward the end	 of	a	5.521797180175781	5.843715667724609	0.003998654894530773	0.06800459325313568	10
+119	friends_transcript	transcript	facebook/blenderbot-400M-distill	. Monica scurried toward the end of	 the	I	7.6119842529296875	6.25185489654541	0.0004944897955283523	0.05741962045431137	10
+120	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Monica scurried toward the end of the	 line	of	7.161327362060547	5.282491683959961	0.0007760237203910947	0.10564330220222473	10
+121	friends_transcript	transcript	facebook/blenderbot-400M-distill	ica scurried toward the end of the line	,	I	5.337611198425293	5.919220924377441	0.004807339981198311	0.07940619438886642	10
+122	friends_transcript	transcript	facebook/blenderbot-400M-distill	 scurried toward the end of the line,	 with	or	7.566659927368164	5.828372001647949	0.0005174177349545062	0.07795530557632446	10
+123	friends_transcript	transcript	facebook/blenderbot-400M-distill	urried toward the end of the line, with	 Cha	ins	5.395973205566406	4.530439376831055	0.004534804727882147	0.1289955973625183	10
+124	friends_transcript	transcript	facebook/blenderbot-400M-distill	ried toward the end of the line, with Cha	nd	ler	5.086684226989746	2.6663265228271484	0.006178472191095352	0.4445265829563141	10
+125	friends_transcript	transcript	facebook/blenderbot-400M-distill	 toward the end of the line, with Chand	ler	's	9.295358657836914	6.293720722198486	9.184959344565868e-05	0.06293399631977081	10
+126	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the end of the line, with Chandler	 following	after	8.6886625289917	4.188614845275879	0.00016848517407197505	0.2642051875591278	10
+127	friends_transcript	transcript	facebook/blenderbot-400M-distill	 end of the line, with Chandler following	 behind	.	4.50742769241333	5.33793830871582	0.01102678943425417	0.07310552895069122	10
+128	friends_transcript	transcript	facebook/blenderbot-400M-distill	 of the line, with Chandler following behind	.	</s>	6.9200239181518555	4.626680374145508	0.0009878063574433327	0.2641455829143524	10
+129	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the line, with Chandler following behind.	" """	""""	6.410033226013184	5.827009677886963	0.001644969917833805	0.07862433046102524	10
+130	friends_transcript	transcript	facebook/blenderbot-400M-distill	" line, with Chandler following behind. """	We	are	11.696802139282227	4.961193561553955	8.320381311932579e-06	0.11160232871770859	10
+131	friends_transcript	transcript	facebook/blenderbot-400M-distill	", with Chandler following behind. ""We"	’	d	12.064424514770508	2.3027234077453613	5.76085858483566e-06	0.3113836646080017	10
+132	friends_transcript	transcript	facebook/blenderbot-400M-distill	" with Chandler following behind. ""We’"	ll	be	8.943988800048828	4.254175186157227	0.00013051943096797913	0.3205610513687134	10
+133	friends_transcript	transcript	facebook/blenderbot-400M-distill	" Chandler following behind. ""We’ll"	 be	""""	6.059881210327148	6.25412654876709	0.002334678079932928	0.04601771757006645	10
+134	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ndler following behind. ""We’ll be"	 fine	""""	6.977497577667236	3.686397075653076	0.0009326340514235198	0.3094314932823181	10
+135	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ler following behind. ""We’ll be fine"	","""	to	7.97930383682251	5.100777626037598	0.0003424778115004301	0.10800222307443619	10
+136	friends_transcript	transcript	facebook/blenderbot-400M-distill	" following behind. ""We’ll be fine,"""	 he	's	4.5448994636535645	3.5700690746307373	0.010621241293847561	0.4640641212463379	10
+137	friends_transcript	transcript	facebook/blenderbot-400M-distill	" behind. ""We’ll be fine,"" he"	 said	we	10.219637870788574	4.597302436828613	3.644749813247472e-05	0.0989062562584877	10
+138	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""We’ll be fine,"" he said"	 as	a	5.6611738204956055	4.487427234649658	0.003478430910035968	0.12475685775279999	10
+139	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""We’ll be fine,"" he said as"	 he	does	3.81856369972229	5.029445171356201	0.021959319710731506	0.12644203007221222	10
+140	friends_transcript	transcript	facebook/blenderbot-400M-distill	"We’ll be fine,"" he said as he"	 caught	a	6.870488166809082	4.583296298980713	0.0010379700688645244	0.11861975491046906	10
+141	friends_transcript	transcript	facebook/blenderbot-400M-distill	"’ll be fine,"" he said as he caught"	 up	with	9.604377746582031	2.0628910064697266	6.743289850419387e-05	0.40894782543182373	10
+142	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ll be fine,"" he said as he caught up"	 to	me	4.933876037597656	3.9499216079711914	0.007198546081781387	0.3902088701725006	10
+143	friends_transcript	transcript	facebook/blenderbot-400M-distill	" be fine,"" he said as he caught up to"	 her	I	6.444502830505371	5.182239055633545	0.0015892345691099763	0.07504235953092575	10
+144	friends_transcript	transcript	facebook/blenderbot-400M-distill	" fine,"" he said as he caught up to her"	.	</s>	6.6872334480285645	3.865105152130127	0.0012467270717024803	0.385938435792923	10
+145	friends_transcript	transcript	facebook/blenderbot-400M-distill	","" he said as he caught up to her."	" """	""""	7.650012493133545	5.066751956939697	0.0004760382289532572	0.10685425996780396	10
+146	friends_transcript	transcript	facebook/blenderbot-400M-distill	" he said as he caught up to her. """	We	""""	10.54965877532959	5.213425636291504	2.6202416847809218e-05	0.07500220835208893	10
+147	friends_transcript	transcript	facebook/blenderbot-400M-distill	" said as he caught up to her. ""We"	’	re	13.452779769897461	2.0290026664733887	1.4372487839864334e-06	0.283683180809021	10
+148	friends_transcript	transcript	facebook/blenderbot-400M-distill	" as he caught up to her. ""We’"	ve	just	10.292277336120605	4.0744194984436035	3.389383709873073e-05	0.2509554922580719	10
+149	friends_transcript	transcript	facebook/blenderbot-400M-distill	" he caught up to her. ""We’ve"	 still	""""	11.69602108001709	5.289369583129883	8.326884199050255e-06	0.13614019751548767	10
+150	friends_transcript	transcript	facebook/blenderbot-400M-distill	" caught up to her. ""We’ve still"	 got	to	7.539714813232422	4.371499061584473	0.0005315490998327732	0.25135546922683716	10
+151	friends_transcript	transcript	facebook/blenderbot-400M-distill	" up to her. ""We’ve still got"	 time	""""	8.710014343261719	1.9934053421020508	0.00016492583381477743	0.503612220287323	10
+152	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to her. ""We’ve still got time"	 to	make	3.877324342727661	5.626668453216553	0.02070615440607071	0.07012893259525299	10
+153	friends_transcript	transcript	facebook/blenderbot-400M-distill	" her. ""We’ve still got time to"	 make	a	4.598559379577637	5.035747051239014	0.010066325776278973	0.1207001581788063	10
+154	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""We’ve still got time to make"	 our	s	7.843253135681152	3.2145273685455322	0.00039239044417627156	0.5759873390197754	10
+155	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""We’ve still got time to make our"	 flight	into	7.573439598083496	5.94740104675293	0.0005139217246323824	0.0846405103802681	10
+156	friends_transcript	transcript	facebook/blenderbot-400M-distill	We’ve still got time to make our flight	"."""	</s>	4.720724105834961	4.668361663818359	0.008908726274967194	0.1755625456571579	10
+157	friends_transcript	transcript	facebook/blenderbot-400M-distill	"’ve still got time to make our flight."""	" """	""""	3.979710102081299	5.218324184417725	0.018691055476665497	0.16000249981880188	10
+158	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ve still got time to make our flight."" """	 Just	to	7.322356224060059	5.53455924987793	0.000660603865981102	0.06288143992424011	10
+159	friends_transcript	transcript	facebook/blenderbot-400M-distill	" still got time to make our flight."" "" Just"	 think	of	7.841910362243652	3.2434678077697754	0.00039291763096116483	0.2979068458080292	10
+160	friends_transcript	transcript	facebook/blenderbot-400M-distill	" got time to make our flight."" "" Just think"	 about	how	7.623823165893555	3.978299617767334	0.0004886699607595801	0.22961993515491486	10
+161	friends_transcript	transcript	facebook/blenderbot-400M-distill	" time to make our flight."" "" Just think about"	 how	long	3.910205364227295	4.107787609100342	0.02003638632595539	0.15040120482444763	10
+162	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to make our flight."" "" Just think about how"	 relax	ed	8.798611640930176	0.715610146522522	0.00015094243281055242	0.8363433480262756	10
+163	friends_transcript	transcript	facebook/blenderbot-400M-distill	" make our flight."" "" Just think about how relax"	ing	it	11.327835083007812	2.086148500442505	1.203327610710403e-05	0.6603065133094788	10
+164	friends_transcript	transcript	facebook/blenderbot-400M-distill	" our flight."" "" Just think about how relaxing"	 it	is	7.07219934463501	1.861303448677063	0.0008483653655275702	0.6506703495979309	10
+165	friends_transcript	transcript	facebook/blenderbot-400M-distill	" flight."" "" Just think about how relaxing it"	’	s	14.534795761108398	0.3098560869693756	4.871003511652816e-07	0.9568686485290527	10
+166	friends_transcript	transcript	facebook/blenderbot-400M-distill	"."" "" Just think about how relaxing it’"	s	to	11.392695426940918	1.1122703552246094	1.1277557860012166e-05	0.8309981226921082	10
+167	friends_transcript	transcript	facebook/blenderbot-400M-distill	" "" Just think about how relaxing it’s"	 going	to	10.343941688537598	0.476588636636734	3.2187199394684285e-05	0.9459083080291748	10
+168	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Just think about how relaxing it’s going	 to	be	5.476171493530273	1.7725847959518433	0.004185323137789965	0.7375068068504333	10
+169	friends_transcript	transcript	facebook/blenderbot-400M-distill	 think about how relaxing it’s going to	 be	.	5.267457008361816	4.671334266662598	0.005156707484275103	0.14807265996932983	10
+170	friends_transcript	transcript	facebook/blenderbot-400M-distill	 about how relaxing it’s going to be	 once	a	6.112523078918457	4.558856964111328	0.0022149551659822464	0.22661831974983215	10
+171	friends_transcript	transcript	facebook/blenderbot-400M-distill	 how relaxing it’s going to be once	 we	have	5.849352836608887	3.9920756816864014	0.002881763968616724	0.2065502107143402	10
+172	friends_transcript	transcript	facebook/blenderbot-400M-distill	 relaxing it’s going to be once we	’	ve	6.421175003051758	0.6829610466957092	0.001626743352971971	0.8709610104560852	10
+173	friends_transcript	transcript	facebook/blenderbot-400M-distill	ing it’s going to be once we’	re	a	7.569940567016602	5.827804088592529	0.0005157231935299933	0.08967214077711105	10
+174	friends_transcript	transcript	facebook/blenderbot-400M-distill	 it’s going to be once we’re	 on	to	6.794267654418945	4.978888034820557	0.0011201784946024418	0.0782620906829834	10
+175	friends_transcript	transcript	facebook/blenderbot-400M-distill	’s going to be once we’re on	 the	note	7.518879413604736	6.3216352462768555	0.0005427403375506401	0.022715946659445763	10
+176	friends_transcript	transcript	facebook/blenderbot-400M-distill	s going to be once we’re on the	 way	.	6.191497325897217	3.799943685531616	0.00204676017165184	0.20060795545578003	10
+177	friends_transcript	transcript	facebook/blenderbot-400M-distill	 going to be once we’re on the way	 to	a	4.203226089477539	4.346847057342529	0.01494727935642004	0.29507768154144287	10
+178	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to be once we’re on the way to	 our	next	5.961300849914551	5.487895488739014	0.0025765581522136927	0.10213178396224976	10
+179	friends_transcript	transcript	facebook/blenderbot-400M-distill	 be once we’re on the way to our	 h	omet	2.603785991668701	3.685305595397949	0.07399290055036545	0.2227059304714203	10
+180	friends_transcript	transcript	facebook/blenderbot-400M-distill	 once we’re on the way to our h	oney	s	8.40201473236084	5.1592583656311035	0.00022441467444878072	0.13547781109809875	10
+181	friends_transcript	transcript	facebook/blenderbot-400M-distill	 we’re on the way to our honey	mo	on	9.117323875427246	1.3249624967575073	0.00010974801989505067	0.7655980587005615	10
+182	friends_transcript	transcript	facebook/blenderbot-400M-distill	’re on the way to our honeymo	on	.	9.022244453430176	4.378182411193848	0.00012069497461197898	0.27610036730766296	10
+183	friends_transcript	transcript	facebook/blenderbot-400M-distill	re on the way to our honeymoon	"."""	""""	4.414453506469727	4.421430587768555	0.012101163156330585	0.316023051738739	10
+184	friends_transcript	transcript	facebook/blenderbot-400M-distill	" on the way to our honeymoon."""	" """	""""	5.175510883331299	4.765960693359375	0.005653328727930784	0.2818441092967987	10
+185	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the way to our honeymoon."" """	H	""""	6.600072860717773	5.462221145629883	0.001360268914140761	0.1185564249753952	10
+186	friends_transcript	transcript	facebook/blenderbot-400M-distill	" way to our honeymoon."" ""H"	am	""""	8.001197814941406	4.108780860900879	0.00033506107865832746	0.3018130958080292	10
+187	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to our honeymoon."" ""Ham"	mo	""""	8.238688468933105	5.0025739669799805	0.0002642306499183178	0.26484936475753784	10
+188	friends_transcript	transcript	facebook/blenderbot-400M-distill	" our honeymoon."" ""Hammo"	cks	""""	12.372543334960938	4.540643692016602	4.233237632433884e-06	0.3026849627494812	10
+189	friends_transcript	transcript	facebook/blenderbot-400M-distill	" honeymoon."" ""Hammocks"	,	I	6.808260440826416	5.559548854827881	0.0011046127183362842	0.08133896440267563	10
+190	friends_transcript	transcript	facebook/blenderbot-400M-distill	"oneymoon."" ""Hammocks,"	 p	""""	2.969637393951416	5.43283224105835	0.05132191255688667	0.10457869619131088	10
+191	friends_transcript	transcript	facebook/blenderbot-400M-distill	"moon."" ""Hammocks, p"	i	""""	4.915973663330078	6.092540264129639	0.007328580599278212	0.08941344916820526	10
+192	friends_transcript	transcript	facebook/blenderbot-400M-distill	"on."" ""Hammocks, pi"	�	�	4.528970718383789	4.265594482421875	0.0107917794957757	0.1349048912525177	10
+193	friends_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Hammocks, pi�"	�	a	6.291599750518799	2.0600972175598145	0.0018517948919907212	0.6851844787597656	10
+194	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""Hammocks, piñ"	a	.	6.081790924072266	5.229323387145996	0.0022840816527605057	0.13106857240200043	10
+195	friends_transcript	transcript	facebook/blenderbot-400M-distill	Hammocks, piña	 col	a	5.351585388183594	4.155338287353516	0.004740630276501179	0.17512479424476624	10
+196	friends_transcript	transcript	facebook/blenderbot-400M-distill	ammocks, piña col	ad	d	2.564682722091675	5.2017083168029785	0.07694359123706818	0.13769352436065674	10
+197	friends_transcript	transcript	facebook/blenderbot-400M-distill	mocks, piña colad	as	.	7.0853095054626465	5.825582981109619	0.000837315630633384	0.06645233929157257	10
+198	friends_transcript	transcript	facebook/blenderbot-400M-distill	cks, piña coladas	�	�	1.815091609954834	3.481898784637451	0.16282299160957336	0.16282299160957336	10
+199	friends_transcript	transcript	facebook/blenderbot-400M-distill	, piña coladas�	�	,	8.0106840133667	4.246492385864258	0.0003318975795991719	0.3242359459400177	10
+200	friends_transcript	transcript	facebook/blenderbot-400M-distill	 piña coladas…	""""	I	2.607375144958496	5.195540904998779	0.07372782379388809	0.10007885098457336	10
+201	friends_transcript	transcript	facebook/blenderbot-400M-distill	"iña coladas…"""	 He	's	4.556241035461426	5.185057640075684	0.010501459240913391	0.10988958925008774	10
+202	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ña coladas…"" He"	 started	with	11.564934730529785	4.7938923835754395	9.493202924204525e-06	0.14301416277885437	10
+203	friends_transcript	transcript	facebook/blenderbot-400M-distill	"�a coladas…"" He started"	 to	get	4.906880855560303	6.524370193481445	0.007395520806312561	0.03554607927799225	10
+204	friends_transcript	transcript	facebook/blenderbot-400M-distill	"a coladas…"" He started to"	 s	oo	5.253664493560791	4.815550804138184	0.005228323861956596	0.09658292680978775	10
+205	friends_transcript	transcript	facebook/blenderbot-400M-distill	" coladas…"" He started to s"	way	ing	6.8248162269592285	5.346015453338623	0.0010864755604416132	0.09060856699943542	10
+206	friends_transcript	transcript	facebook/blenderbot-400M-distill	"adas…"" He started to sway"	 his	own	7.1809306144714355	6.23380184173584	0.0007609594031237066	0.041060011833906174	10
+207	friends_transcript	transcript	facebook/blenderbot-400M-distill	"as…"" He started to sway his"	 h	ood	2.3889496326446533	4.66373348236084	0.09172596782445908	0.11269206553697586	10
+208	friends_transcript	transcript	facebook/blenderbot-400M-distill	"…"" He started to sway his h"	ips	.	13.99800968170166	3.3373045921325684	8.33185481496912e-07	0.4563734531402588	10
+209	friends_transcript	transcript	facebook/blenderbot-400M-distill	"�"" He started to sway his hips"	 from	a	9.185409545898438	5.688762664794922	0.00010252439096802846	0.09215341508388519	10
+210	friends_transcript	transcript	facebook/blenderbot-400M-distill	""" He started to sway his hips from"	 side	to	7.565491676330566	5.278254985809326	0.0005180226871743798	0.15026970207691193	10
+211	friends_transcript	transcript	facebook/blenderbot-400M-distill	 He started to sway his hips from side	 to	to	2.8842525482177734	5.901435375213623	0.05589655041694641	0.05589655041694641	10
+212	friends_transcript	transcript	facebook/blenderbot-400M-distill	 started to sway his hips from side to	 side	.	9.045476913452148	5.594468593597412	0.00011792324221460149	0.08429945260286331	10
+213	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to sway his hips from side to side	.		7.095005989074707	5.223499298095703	0.0008292356505990028	0.2074403464794159	10
+214	friends_transcript	transcript	facebook/blenderbot-400M-distill	 sway his hips from side to side.	" """	""""	7.58125638961792	5.568600177764893	0.0005099201225675642	0.12103889137506485	10
+215	friends_transcript	transcript	facebook/blenderbot-400M-distill	"way his hips from side to side. """	B	e	6.806038856506348	5.154789447784424	0.0011070698965340853	0.07610499858856201	10
+216	friends_transcript	transcript	facebook/blenderbot-400M-distill	" his hips from side to side. ""B"	erm	""""	7.307554244995117	5.219659805297852	0.0006704546394757926	0.09001842886209488	10
+217	friends_transcript	transcript	facebook/blenderbot-400M-distill	" hips from side to side. ""Berm"	ud	a	8.38370418548584	0.8108750581741333	0.0002285616792505607	0.8959700465202332	10
+218	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ips from side to side. ""Bermud"	a	""""	9.973710060119629	2.1086318492889404	4.66093079012353e-05	0.7076784372329712	10
+219	friends_transcript	transcript	facebook/blenderbot-400M-distill	" from side to side. ""Bermuda"	,	""""	7.063958644866943	5.445806503295898	0.0008553851512260735	0.05314551666378975	10
+220	friends_transcript	transcript	facebook/blenderbot-400M-distill	" side to side. ""Bermuda,"	 B	a	6.089240074157715	5.348772048950195	0.0022671318147331476	0.1665111780166626	10
+221	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to side. ""Bermuda, B"	a	ha	6.628726482391357	5.065214157104492	0.0013218452222645283	0.2127714902162552	10
+222	friends_transcript	transcript	facebook/blenderbot-400M-distill	" side. ""Bermuda, Ba"	ha	y	3.9642040729522705	5.143322944641113	0.018983138725161552	0.07407496869564056	10
+223	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""Bermuda, Baha"	ma	.	12.357892990112305	3.2385263442993164	4.295715370972175e-06	0.25565963983535767	10
+224	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""Bermuda, Bahama"	,	S	4.996621131896973	5.785120487213135	0.006760751828551292	0.07897606492042542	10
+225	friends_transcript	transcript	facebook/blenderbot-400M-distill	Bermuda, Bahama,	 come	to	6.922481060028076	4.871692180633545	0.0009853822411969304	0.18103207647800446	10
+226	friends_transcript	transcript	facebook/blenderbot-400M-distill	ermuda, Bahama, come	 on	.	7.226459980010986	4.4983415603637695	0.0007270901696756482	0.2713865339756012	10
+227	friends_transcript	transcript	facebook/blenderbot-400M-distill	uda, Bahama, come on	 pretty	soon	6.062699794769287	4.757320880889893	0.0023281064350157976	0.30498912930488586	10
+228	friends_transcript	transcript	facebook/blenderbot-400M-distill	a, Bahama, come on pretty	 m	t	3.2523300647735596	4.814202308654785	0.038683973252773285	0.1759672313928604	10
+229	friends_transcript	transcript	facebook/blenderbot-400M-distill	, Bahama, come on pretty m	ama	,	7.855467319488525	4.326739311218262	0.0003876269329339266	0.25854814052581787	10
+230	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Bahama, come on pretty mama	�	�	4.506288051605225	3.5638978481292725	0.01103936042636633	0.1188930943608284	10
+231	friends_transcript	transcript	facebook/blenderbot-400M-distill	ahama, come on pretty mama�	�	t	7.403405666351318	3.857290744781494	0.0006091744871810079	0.266035258769989	10
+232	friends_transcript	transcript	facebook/blenderbot-400M-distill	hama, come on pretty mama…	""""	</s>	3.390120029449463	5.390480041503906	0.03370463475584984	0.12569940090179443	10
+233	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ma, come on pretty mama…"""	 Mon	a	5.860326766967773	5.044089317321777	0.0028503122739493847	0.10118822008371353	10
+234	friends_transcript	transcript	facebook/blenderbot-400M-distill	", come on pretty mama…"" Mon"	ica	,	8.671064376831055	5.5051116943359375	0.0001714765530778095	0.09923019260168076	10
+235	friends_transcript	transcript	facebook/blenderbot-400M-distill	" come on pretty mama…"" Monica"	 pur	se	7.101749897003174	2.2790751457214355	0.0008236623252741992	0.6745868921279907	10
+236	friends_transcript	transcript	facebook/blenderbot-400M-distill	" on pretty mama…"" Monica pur"	sed	are	14.865453720092773	4.928160190582275	3.499577871934889e-07	0.18107402324676514	10
+237	friends_transcript	transcript	facebook/blenderbot-400M-distill	" pretty mama…"" Monica pursed"	 her	I	5.757098197937012	5.800113201141357	0.0031602689996361732	0.08157315105199814	10
+238	friends_transcript	transcript	facebook/blenderbot-400M-distill	" mama…"" Monica pursed her"	 li	z	2.5602166652679443	5.005574703216553	0.07728799432516098	0.1540788859128952	10
+239	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ama…"" Monica pursed her li"	ps	to	12.017024993896484	4.1681694984436035	6.040493190084817e-06	0.16249826550483704	10
+240	friends_transcript	transcript	facebook/blenderbot-400M-distill	"…"" Monica pursed her lips"	,	I	4.437284469604492	4.7846150398254395	0.011828014627099037	0.27746814489364624	10
+241	friends_transcript	transcript	facebook/blenderbot-400M-distill	"�"" Monica pursed her lips,"	 but	yeah	8.822147369384766	5.243739128112793	0.00014743140491191298	0.06399409472942352	10
+242	friends_transcript	transcript	facebook/blenderbot-400M-distill	""" Monica pursed her lips, but"	 the	kind	6.730523586273193	5.909714221954346	0.0011939076939597726	0.07849251478910446	10
+243	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Monica pursed her lips, but the	 cor	p	2.581470489501953	3.9824705123901367	0.07566265761852264	0.28488069772720337	10
+244	friends_transcript	transcript	facebook/blenderbot-400M-distill	ica pursed her lips, but the cor	ners	of	10.580379486083984	3.9379546642303467	2.540970490372274e-05	0.2746545970439911	10
+245	friends_transcript	transcript	facebook/blenderbot-400M-distill	 pursed her lips, but the corners	 of	a	4.120710372924805	5.914217948913574	0.016232984140515327	0.08568233251571655	10
+246	friends_transcript	transcript	facebook/blenderbot-400M-distill	sed her lips, but the corners of	 her	s	9.07341194152832	1.6855056285858154	0.00011467462172731757	0.7808072566986084	10
+247	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her lips, but the corners of her	 mouth	s	11.29025650024414	2.2104392051696777	1.2494073416746687e-05	0.7258220314979553	10
+248	friends_transcript	transcript	facebook/blenderbot-400M-distill	 lips, but the corners of her mouth	 turned	into	7.627978324890137	3.7805469036102295	0.0004866437229793519	0.3121547996997833	10
+249	friends_transcript	transcript	facebook/blenderbot-400M-distill	ps, but the corners of her mouth turned	 up	.	13.42171573638916	4.451113224029541	1.482596871937858e-06	0.11654257774353027	10
+250	friends_transcript	transcript	facebook/blenderbot-400M-distill	, but the corners of her mouth turned up	 in	,	8.316627502441406	5.03194522857666	0.0002444188285153359	0.11831949651241302	10
+251	friends_transcript	transcript	facebook/blenderbot-400M-distill	 but the corners of her mouth turned up in	 a	certain	5.049619674682617	4.994121551513672	0.0064117698930203915	0.10896989703178406	10
+252	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the corners of her mouth turned up in a	 smile	y	7.406363487243652	4.6871562004089355	0.0006073756376281381	0.12029094994068146	10
+253	friends_transcript	transcript	facebook/blenderbot-400M-distill	 corners of her mouth turned up in a smile	.		7.416670799255371	4.801290512084961	0.0006011470686644316	0.20907659828662872	10
+254	friends_transcript	transcript	facebook/blenderbot-400M-distill	ners of her mouth turned up in a smile.	 They	are	9.687170028686523	4.802312850952148	6.20748323854059e-05	0.16745531558990479	10
+255	friends_transcript	transcript	facebook/blenderbot-400M-distill	 of her mouth turned up in a smile. They	 eventually	do	7.005459785461426	5.2452592849731445	0.0009069169755093753	0.07226364314556122	10
+256	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her mouth turned up in a smile. They eventually	 made	me	8.555883407592773	3.229422092437744	0.00019240971596445888	0.34241798520088196	10
+257	friends_transcript	transcript	facebook/blenderbot-400M-distill	 mouth turned up in a smile. They eventually made	 it	.	6.687136173248291	4.049219131469727	0.0012468486092984676	0.3234768807888031	10
+258	friends_transcript	transcript	facebook/blenderbot-400M-distill	 turned up in a smile. They eventually made it	 to	.	4.55153226852417	4.212062835693359	0.01055102702230215	0.2610802948474884	10
+259	friends_transcript	transcript	facebook/blenderbot-400M-distill	 up in a smile. They eventually made it to	 the	end	7.146396636962891	5.86918830871582	0.0007876972085796297	0.09057269990444183	10
+260	friends_transcript	transcript	facebook/blenderbot-400M-distill	 in a smile. They eventually made it to the	 front	of	10.298356056213379	2.244633436203003	3.368843681528233e-05	0.6601943373680115	10
+261	friends_transcript	transcript	facebook/blenderbot-400M-distill	 a smile. They eventually made it to the front	 of	now	5.123591423034668	5.569260120391846	0.0059545994736254215	0.07829932868480682	10
+262	friends_transcript	transcript	facebook/blenderbot-400M-distill	 smile. They eventually made it to the front of	 the	in	8.553178787231445	6.140425682067871	0.00019293077639304101	0.04545953497290611	10
+263	friends_transcript	transcript	facebook/blenderbot-400M-distill	. They eventually made it to the front of the	 line	by	6.32751989364624	3.4323320388793945	0.0017864586552605033	0.2098528891801834	10
+264	friends_transcript	transcript	facebook/blenderbot-400M-distill	 They eventually made it to the front of the line	 to	be	3.558927536010742	4.570770263671875	0.028469344601035118	0.2270948588848114	10
+265	friends_transcript	transcript	facebook/blenderbot-400M-distill	 eventually made it to the front of the line to	 go	by	4.883374214172363	4.920777320861816	0.007571422029286623	0.13550418615341187	10
+266	friends_transcript	transcript	facebook/blenderbot-400M-distill	 made it to the front of the line to go	 through	a	8.965084075927734	4.617295742034912	0.00012779493408743292	0.0749039575457573	10
+267	friends_transcript	transcript	facebook/blenderbot-400M-distill	 it to the front of the line to go through	 the	to	7.897330284118652	6.129955768585205	0.0003717346990015358	0.08152424544095993	10
+268	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to the front of the line to go through the	 metal	I	8.408726692199707	5.955689430236816	0.00022291351342573762	0.03684930503368378	10
+269	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the front of the line to go through the metal	 det	ect	6.848259449005127	0.454598069190979	0.0010613012127578259	0.9515217542648315	10
+270	friends_transcript	transcript	facebook/blenderbot-400M-distill	 front of the line to go through the metal det	ect	or	7.957338809967041	0.5201715230941772	0.0003500836028251797	0.9031935334205627	10
+271	friends_transcript	transcript	facebook/blenderbot-400M-distill	 of the line to go through the metal detect	or	.	8.398672103881836	5.6227898597717285	0.00022516612079925835	0.08559323102235794	10
+272	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the line to go through the metal detector	.		8.380908012390137	4.998910903930664	0.00022920174524188042	0.1359463781118393	10
+273	friends_transcript	transcript	facebook/blenderbot-400M-distill	 line to go through the metal detector.	 Mon	ro	6.87751579284668	5.114997386932373	0.0010307012125849724	0.07012983411550522	10
+274	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to go through the metal detector. Mon	ica	.	10.761834144592285	4.768692493438721	2.1193109205341898e-05	0.25768446922302246	10
+275	friends_transcript	transcript	facebook/blenderbot-400M-distill	 go through the metal detector. Monica	 began	as	12.535889625549316	3.6456685066223145	3.595278030843474e-06	0.2700524926185608	10
+276	friends_transcript	transcript	facebook/blenderbot-400M-distill	 through the metal detector. Monica began	 method	s	12.889920234680176	0.40858033299446106	2.523358034522971e-06	0.9430972933769226	10
+277	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the metal detector. Monica began method	ically	.	12.245841026306152	2.8347225189208984	4.8050624172901735e-06	0.49416396021842957	10
+278	friends_transcript	transcript	facebook/blenderbot-400M-distill	 metal detector. Monica began methodically	 removing	.	9.305919647216797	6.027229309082031	9.088464139495045e-05	0.07100485265254974	10
+279	friends_transcript	transcript	facebook/blenderbot-400M-distill	 detector. Monica began methodically removing	 her	to	7.893044948577881	6.465909481048584	0.0003733310732059181	0.054477062076330185	10
+280	friends_transcript	transcript	facebook/blenderbot-400M-distill	ector. Monica began methodically removing her	 watch	.	6.442034721374512	5.800503730773926	0.0015931614907458425	0.1035202145576477	10
+281	friends_transcript	transcript	facebook/blenderbot-400M-distill	or. Monica began methodically removing her watch	 and	more	6.312623977661133	6.062662601470947	0.001813268754631281	0.055480893701314926	10
+282	friends_transcript	transcript	facebook/blenderbot-400M-distill	. Monica began methodically removing her watch and	 belt	are	11.437260627746582	4.985822677612305	1.078600780601846e-05	0.1270553469657898	10
+283	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Monica began methodically removing her watch and belt	,	I	6.263739109039307	4.929048538208008	0.0019041125196963549	0.13183800876140594	10
+284	friends_transcript	transcript	facebook/blenderbot-400M-distill	ica began methodically removing her watch and belt,	 and	that	7.156927585601807	6.0697503089904785	0.0007794458069838583	0.04970836639404297	10
+285	friends_transcript	transcript	facebook/blenderbot-400M-distill	 began methodically removing her watch and belt, and	 started	again	10.326132774353027	4.896803855895996	3.276556162745692e-05	0.08467783033847809	10
+286	friends_transcript	transcript	facebook/blenderbot-400M-distill	 methodically removing her watch and belt, and started	 to	things	3.9561147689819336	5.798775672912598	0.019137324765324593	0.10802853852510452	10
+287	friends_transcript	transcript	facebook/blenderbot-400M-distill	ically removing her watch and belt, and started to	 search	by	11.66463851928711	4.353520393371582	8.592345693614334e-06	0.11951646208763123	10
+288	friends_transcript	transcript	facebook/blenderbot-400M-distill	 removing her watch and belt, and started to search	 through	a	9.55556583404541	5.476531505584717	7.080609793774784e-05	0.07607800513505936	10
+289	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her watch and belt, and started to search through	 her	.	7.467403411865234	5.384722709655762	0.0005714100552722812	0.07449142634868622	10
+290	friends_transcript	transcript	facebook/blenderbot-400M-distill	 watch and belt, and started to search through her	 pock	ets	8.948298454284668	1.7124519348144531	0.00012995807628612965	0.703416645526886	10
+291	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and belt, and started to search through her pock	ets	.	9.85003662109375	2.4519705772399902	5.2745268476428464e-05	0.40582141280174255	10
+292	friends_transcript	transcript	facebook/blenderbot-400M-distill	 belt, and started to search through her pockets	 to	go	4.803349494934082	5.312466621398926	0.008202227763831615	0.06665608286857605	10
+293	friends_transcript	transcript	facebook/blenderbot-400M-distill	, and started to search through her pockets to	 check	out	9.473444938659668	3.127270460128784	7.686616299906746e-05	0.47594431042671204	10
+294	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and started to search through her pockets to check	 for	a	6.5139641761779785	4.976420879364014	0.001482590683735907	0.17444773018360138	10
+295	friends_transcript	transcript	facebook/blenderbot-400M-distill	 started to search through her pockets to check for	 change	.	10.799825668334961	4.298109531402588	2.0403056623763405e-05	0.18793722987174988	10
+296	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to search through her pockets to check for change	.		7.34234619140625	4.931087017059326	0.0006475295522250235	0.17973850667476654	10
+297	friends_transcript	transcript	facebook/blenderbot-400M-distill	 search through her pockets to check for change.	" """	""""	4.810118198394775	4.9520368576049805	0.008146898820996284	0.2483946979045868	10
+298	friends_transcript	transcript	facebook/blenderbot-400M-distill	" through her pockets to check for change. """	C	a	10.485445022583008	5.306336402893066	2.7940168365603313e-05	0.04912560060620308	10
+299	friends_transcript	transcript	facebook/blenderbot-400M-distill	" her pockets to check for change. ""C"	ould	n	12.451308250427246	3.5012731552124023	3.9126011870393995e-06	0.3015512526035309	10
+300	friends_transcript	transcript	facebook/blenderbot-400M-distill	" pockets to check for change. ""Could"	 you	""""	4.422135353088379	5.080298900604248	0.012008564546704292	0.22684194147586823	10
+301	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ets to check for change. ""Could you"	 hur	ry	4.780367374420166	4.019083023071289	0.00839291512966156	0.28858864307403564	10
+302	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to check for change. ""Could you hur"	ry	""""	9.711854934692383	4.094310760498047	6.0561294958461076e-05	0.2170557826757431	10
+303	friends_transcript	transcript	facebook/blenderbot-400M-distill	" check for change. ""Could you hurry"	 up	.	8.18025016784668	3.574681282043457	0.0002801319060381502	0.23502683639526367	10
+304	friends_transcript	transcript	facebook/blenderbot-400M-distill	" for change. ""Could you hurry up"	!	</s>	10.255208969116211	3.5211524963378906	3.517380901030265e-05	0.2956637740135193	10
+305	friends_transcript	transcript	facebook/blenderbot-400M-distill	" change. ""Could you hurry up!"	"?"""	</s>	11.05778694152832	2.5356976985931396	1.5763913324917667e-05	0.5549983382225037	10
+306	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""Could you hurry up!?"""	 a	time	5.707341194152832	6.356440544128418	0.0033214911818504333	0.03752792999148369	10
+307	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""Could you hurry up!?"" a"	 man	s	8.331843376159668	5.325323104858398	0.0002407279534963891	0.07724864780902863	10
+308	friends_transcript	transcript	facebook/blenderbot-400M-distill	"Could you hurry up!?"" a man"	 behind	a	6.143754959106445	4.968998432159424	0.0021468475461006165	0.1133885309100151	10
+309	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ould you hurry up!?"" a man behind"	 them	!	7.842425346374512	3.252546787261963	0.000392715388443321	0.4472779333591461	10
+310	friends_transcript	transcript	facebook/blenderbot-400M-distill	" you hurry up!?"" a man behind them"	 shout	ed	9.656704902648926	5.234555721282959	6.399503763532266e-05	0.1617816686630249	10
+311	friends_transcript	transcript	facebook/blenderbot-400M-distill	" hurry up!?"" a man behind them shout"	ed	a	7.784914493560791	5.090054988861084	0.0004159628297202289	0.16692832112312317	10
+312	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ry up!?"" a man behind them shouted"	,	a	5.208919525146484	5.3881916999816895	0.005467579700052738	0.0705019012093544	10
+313	friends_transcript	transcript	facebook/blenderbot-400M-distill	" up!?"" a man behind them shouted,"	 gl	or	6.35877799987793	4.12092399597168	0.001731481053866446	0.24441494047641754	10
+314	friends_transcript	transcript	facebook/blenderbot-400M-distill	"!?"" a man behind them shouted, gl"	ar	ing	6.1792449951171875	6.052831649780273	0.0020719917956739664	0.07640080899000168	10
+315	friends_transcript	transcript	facebook/blenderbot-400M-distill	"?"" a man behind them shouted, glar"	ing	,	10.146951675415039	4.853969573974609	3.9195394492708147e-05	0.13515721261501312	10
+316	friends_transcript	transcript	facebook/blenderbot-400M-distill	 a man behind them shouted, glaring	 at	all	4.795955181121826	5.526276588439941	0.008263102732598782	0.10025007277727127	10
+317	friends_transcript	transcript	facebook/blenderbot-400M-distill	 man behind them shouted, glaring at	 her	you	6.651413917541504	5.154588222503662	0.0012921941233798862	0.0907672569155693	10
+318	friends_transcript	transcript	facebook/blenderbot-400M-distill	 behind them shouted, glaring at her	.	</s>	7.068620204925537	4.117486953735352	0.0008514070650562644	0.39794400334358215	10
+319	friends_transcript	transcript	facebook/blenderbot-400M-distill	 them shouted, glaring at her.	 She	'd	8.956350326538086	4.331262588500977	0.00012891589722130448	0.11967416107654572	10
+320	friends_transcript	transcript	facebook/blenderbot-400M-distill	 shouted, glaring at her. She	 turned	out	7.716707229614258	4.533608436584473	0.0004453244910109788	0.11808136850595474	10
+321	friends_transcript	transcript	facebook/blenderbot-400M-distill	ed, glaring at her. She turned	 around	.	10.853742599487305	1.3699097633361816	1.933212115545757e-05	0.7736375331878662	10
+322	friends_transcript	transcript	facebook/blenderbot-400M-distill	, glaring at her. She turned around	 in	a	8.906340599060059	5.036116123199463	0.0001355269196210429	0.11577344685792923	10
+323	friends_transcript	transcript	facebook/blenderbot-400M-distill	 glaring at her. She turned around in	 shock	.	10.544981956481934	3.097498893737793	2.632524774526246e-05	0.40429356694221497	10
+324	friends_transcript	transcript	facebook/blenderbot-400M-distill	aring at her. She turned around in shock	.	</s>	6.947416305541992	4.087394714355469	0.0009611154673621058	0.2864346504211426	10
+325	friends_transcript	transcript	facebook/blenderbot-400M-distill	ing at her. She turned around in shock.	" """	""""	8.825746536254883	5.1364030838012695	0.00014690178795717657	0.15533629059791565	10
+326	friends_transcript	transcript	facebook/blenderbot-400M-distill	" at her. She turned around in shock. """	H	""""	6.6212382316589355	4.790189743041992	0.0013317809207364917	0.09060100466012955	10
+327	friends_transcript	transcript	facebook/blenderbot-400M-distill	" her. She turned around in shock. ""H"	ey	""""	9.68160629272461	4.1077141761779785	6.242113886401057e-05	0.2108151763677597	10
+328	friends_transcript	transcript	facebook/blenderbot-400M-distill	". She turned around in shock. ""Hey"	,	I	9.145201683044434	5.200432300567627	0.00010673073848010972	0.06645254045724869	10
+329	friends_transcript	transcript	facebook/blenderbot-400M-distill	" She turned around in shock. ""Hey,"	 I	'm	6.024872303009033	4.305497169494629	0.0024178598541766405	0.1845901608467102	10
+330	friends_transcript	transcript	facebook/blenderbot-400M-distill	" turned around in shock. ""Hey, I"	 have	to	6.2564215660095215	1.6719226837158203	0.0019180976087227464	0.7710041403770447	10
+331	friends_transcript	transcript	facebook/blenderbot-400M-distill	" around in shock. ""Hey, I have"	 never	been	6.94535493850708	5.026510715484619	0.0009630984859541059	0.1160440742969513	10
+332	friends_transcript	transcript	facebook/blenderbot-400M-distill	" in shock. ""Hey, I have never"	 set	t	9.861504554748535	4.834177017211914	5.214382690610364e-05	0.1090550422668457	10
+333	friends_transcript	transcript	facebook/blenderbot-400M-distill	" shock. ""Hey, I have never set"	 one	of	5.649744510650635	3.7084763050079346	0.0035184151493012905	0.2430407553911209	10
+334	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""Hey, I have never set one"	 of	things	6.988633155822754	5.541962623596191	0.0009223061497323215	0.07934869080781937	10
+335	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""Hey, I have never set one of"	 these	things	9.143058776855469	4.989731788635254	0.00010695967648644	0.21320511400699615	10
+336	friends_transcript	transcript	facebook/blenderbot-400M-distill	Hey, I have never set one of these	 off	s	8.61519718170166	3.5638818740844727	0.0001813290873542428	0.2920316755771637	10
+337	friends_transcript	transcript	facebook/blenderbot-400M-distill	ey, I have never set one of these off	 before	.	7.299909591674805	3.2083325386047363	0.0006755997892469168	0.30939945578575134	10
+338	friends_transcript	transcript	facebook/blenderbot-400M-distill	, I have never set one of these off before	,	I	4.026526927947998	4.950260162353516	0.01783616840839386	0.1380113661289215	10
+339	friends_transcript	transcript	facebook/blenderbot-400M-distill	 I have never set one of these off before,	 and	that	5.938523292541504	4.3962788581848145	0.0026359190233051777	0.18838442862033844	10
+340	friends_transcript	transcript	facebook/blenderbot-400M-distill	 have never set one of these off before, and	 I	would	6.195937156677246	5.051505088806152	0.0020376930478960276	0.08466757833957672	10
+341	friends_transcript	transcript	facebook/blenderbot-400M-distill	 never set one of these off before, and I	 am	sure	8.20895767211914	5.160470962524414	0.0002722043718677014	0.08010450005531311	10
+342	friends_transcript	transcript	facebook/blenderbot-400M-distill	 set one of these off before, and I am	 not	to	7.6305389404296875	4.993099212646484	0.00048539903946220875	0.09184006601572037	10
+343	friends_transcript	transcript	facebook/blenderbot-400M-distill	 one of these off before, and I am not	 about	things	6.855094909667969	4.909473419189453	0.0010540714720264077	0.11520525813102722	10
+344	friends_transcript	transcript	facebook/blenderbot-400M-distill	 of these off before, and I am not about	 to	be	5.934195041656494	4.226440906524658	0.0026473533362150192	0.22466148436069489	10
+345	friends_transcript	transcript	facebook/blenderbot-400M-distill	 these off before, and I am not about to	 start	.	8.589200973510742	4.733086109161377	0.00018610485130921006	0.1150778979063034	10
+346	friends_transcript	transcript	facebook/blenderbot-400M-distill	 off before, and I am not about to start	 now	.	7.489089012145996	3.7265889644622803	0.0005591522785834968	0.27442699670791626	10
+347	friends_transcript	transcript	facebook/blenderbot-400M-distill	 before, and I am not about to start now	","""	""""	4.275726318359375	4.476112365722656	0.013901944272220135	0.21051985025405884	10
+348	friends_transcript	transcript	facebook/blenderbot-400M-distill	", and I am not about to start now,"""	 she	is	4.2862067222595215	5.24267578125	0.013757011853158474	0.06307864934206009	10
+349	friends_transcript	transcript	facebook/blenderbot-400M-distill	" and I am not about to start now,"" she"	 sc	ares	1.6477612257003784	3.617258310317993	0.19248037040233612	0.28644609451293945	10
+350	friends_transcript	transcript	facebook/blenderbot-400M-distill	" I am not about to start now,"" she sc"	old	s	13.358550071716309	1.029135823249817	1.579266040607763e-06	0.7595040798187256	10
+351	friends_transcript	transcript	facebook/blenderbot-400M-distill	" am not about to start now,"" she scold"	ed	me	9.332114219665527	4.336886882781982	8.853489271132275e-05	0.2136342078447342	10
+352	friends_transcript	transcript	facebook/blenderbot-400M-distill	" not about to start now,"" she scolded"	,	I	6.615260601043701	5.088195323944092	0.0013397658476606011	0.1174502745270729	10
+353	friends_transcript	transcript	facebook/blenderbot-400M-distill	" about to start now,"" she scolded,"	 holding	,	11.844764709472656	3.7348227500915527	7.176025064836722e-06	0.344020813703537	10
+354	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to start now,"" she scolded, holding"	 up	,	8.691121101379395	4.9140520095825195	0.00016807153588160872	0.10672184079885483	10
+355	friends_transcript	transcript	facebook/blenderbot-400M-distill	" start now,"" she scolded, holding up"	 her	""""	6.522805690765381	5.845760822296143	0.0014695401769131422	0.10372044146060944	10
+356	friends_transcript	transcript	facebook/blenderbot-400M-distill	" now,"" she scolded, holding up her"	 finger	,	12.854507446289062	5.040266036987305	2.614318873384036e-06	0.10205315798521042	10
+357	friends_transcript	transcript	facebook/blenderbot-400M-distill	","" she scolded, holding up her finger"	.	</s>	6.319273948669434	4.240951061248779	0.0018012513173744082	0.1824938952922821	10
+358	friends_transcript	transcript	facebook/blenderbot-400M-distill	 she scolded, holding up her finger.	 She	.	7.815001964569092	5.452237129211426	0.0004036340396851301	0.16580019891262054	10
+359	friends_transcript	transcript	facebook/blenderbot-400M-distill	 scolded, holding up her finger. She	 started	with	12.07628345489502	4.61329460144043	5.692941613233415e-06	0.12569613754749298	10
+360	friends_transcript	transcript	facebook/blenderbot-400M-distill	olded, holding up her finger. She started	 to	get	4.961991310119629	5.997615814208984	0.006998978555202484	0.06191365048289299	10
+361	friends_transcript	transcript	facebook/blenderbot-400M-distill	ed, holding up her finger. She started to	 walk	.	5.433608055114746	4.778609752655029	0.004367309622466564	0.20519007742404938	10
+362	friends_transcript	transcript	facebook/blenderbot-400M-distill	, holding up her finger. She started to walk	 through	to	7.5868330001831055	5.653038024902344	0.0005070845945738256	0.08312515914440155	10
+363	friends_transcript	transcript	facebook/blenderbot-400M-distill	 holding up her finger. She started to walk through	,	and	7.82077693939209	4.808149814605713	0.0004013096331618726	0.10090213268995285	10
+364	friends_transcript	transcript	facebook/blenderbot-400M-distill	 up her finger. She started to walk through,	 then	.	11.685790061950684	1.0488286018371582	8.41251494421158e-06	0.7373037934303284	10
+365	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her finger. She started to walk through, then	 jump	.	8.281707763671875	3.298379421234131	0.00025310454657301307	0.4483709931373596	10
+366	friends_transcript	transcript	facebook/blenderbot-400M-distill	 finger. She started to walk through, then jump	ed	.	9.168331146240234	1.907515287399292	0.00010429035319248214	0.5295981168746948	10
+367	friends_transcript	transcript	facebook/blenderbot-400M-distill	. She started to walk through, then jumped	 back	.	12.58523178100586	3.026488780975342	3.422183908696752e-06	0.3751574754714966	10
+368	friends_transcript	transcript	facebook/blenderbot-400M-distill	 She started to walk through, then jumped back	 and	again	6.152820110321045	5.06704568862915	0.0021274734754115343	0.127770334482193	10
+369	friends_transcript	transcript	facebook/blenderbot-400M-distill	 started to walk through, then jumped back and	 b	a	4.2777791023254395	5.661061763763428	0.013873441144824028	0.039132677018642426	10
+370	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to walk through, then jumped back and b	ent	to	7.683144569396973	5.023072242736816	0.00046052446123212576	0.12612134218215942	10
+371	friends_transcript	transcript	facebook/blenderbot-400M-distill	 walk through, then jumped back and bent	 down	again	9.948649406433105	4.3695387840271	4.779213122674264e-05	0.15188097953796387	10
+372	friends_transcript	transcript	facebook/blenderbot-400M-distill	 through, then jumped back and bent down	.	</s>	7.940693378448486	5.222118377685547	0.0003559595497790724	0.10025694966316223	10
+373	friends_transcript	transcript	facebook/blenderbot-400M-distill	, then jumped back and bent down.	 She	had	6.987577438354492	4.997152805328369	0.0009232805459760129	0.07275612652301788	10
+374	friends_transcript	transcript	facebook/blenderbot-400M-distill	 then jumped back and bent down. She	 took	me	8.555834770202637	4.315812110900879	0.00019241914560552686	0.14331236481666565	10
+375	friends_transcript	transcript	facebook/blenderbot-400M-distill	 jumped back and bent down. She took	 off	from	5.797384738922119	4.714385509490967	0.003035483416169882	0.12174073606729507	10
+376	friends_transcript	transcript	facebook/blenderbot-400M-distill	ed back and bent down. She took off	 her	own	6.3428778648376465	5.706135272979736	0.0017592321382835507	0.13641364872455597	10
+377	friends_transcript	transcript	facebook/blenderbot-400M-distill	 back and bent down. She took off her	 an	ge	7.167445182800293	4.984294414520264	0.000771290622651577	0.15544834733009338	10
+378	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and bent down. She took off her an	k	les	7.424449920654297	0.8523487448692322	0.0005964887677691877	0.5755888223648071	10
+379	friends_transcript	transcript	facebook/blenderbot-400M-distill	 bent down. She took off her ank	let	s	10.904952049255371	2.1349406242370605	1.8367054508416913e-05	0.6568469405174255	10
+380	friends_transcript	transcript	facebook/blenderbot-400M-distill	ent down. She took off her anklet	 and	she	6.979841232299805	4.857338905334473	0.0009304507402703166	0.11888004839420319	10
+381	friends_transcript	transcript	facebook/blenderbot-400M-distill	 down. She took off her anklet and	 put	on	8.35057258605957	2.9527554512023926	0.00023626125766895711	0.36211097240448	10
+382	friends_transcript	transcript	facebook/blenderbot-400M-distill	. She took off her anklet and put	 it	to	6.060312271118164	4.242685317993164	0.0023336727172136307	0.12771086394786835	10
+383	friends_transcript	transcript	facebook/blenderbot-400M-distill	 She took off her anklet and put it	 in	a	7.383111000061035	5.7520294189453125	0.0006216638721525669	0.08478707075119019	10
+384	friends_transcript	transcript	facebook/blenderbot-400M-distill	 took off her anklet and put it in	 her	.	6.063965797424316	6.3758697509765625	0.002325161127373576	0.050574082881212234	10
+385	friends_transcript	transcript	facebook/blenderbot-400M-distill	 off her anklet and put it in her	 box	.	7.922281742095947	5.0401611328125	0.0003625740937422961	0.08929148316383362	10
+386	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her anklet and put it in her box	 on	a	7.365157127380371	5.749805927276611	0.0006329261232167482	0.05686766281723976	10
+387	friends_transcript	transcript	facebook/blenderbot-400M-distill	 anklet and put it in her box on	 the	thing	6.901771545410156	6.045224189758301	0.001006001722998917	0.04268404096364975	10
+388	friends_transcript	transcript	facebook/blenderbot-400M-distill	klet and put it in her box on the	 con	vert	3.3682899475097656	5.1235737800598145	0.034448493272066116	0.11371033638715744	10
+389	friends_transcript	transcript	facebook/blenderbot-400M-distill	let and put it in her box on the con	vey	or	10.783592224121094	1.616320252418518	2.0736963051604107e-05	0.6175701022148132	10
+390	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and put it in her box on the convey	or	.	10.644781112670898	3.9338858127593994	2.3824850359233096e-05	0.220781609416008	10
+391	friends_transcript	transcript	facebook/blenderbot-400M-distill	 put it in her box on the conveyor	 belt	to	9.024959564208984	5.188253879547119	0.00012036770931445062	0.04725966975092888	10
+392	friends_transcript	transcript	facebook/blenderbot-400M-distill	 it in her box on the conveyor belt	.		8.026864051818848	5.018411636352539	0.0003265707055106759	0.16127386689186096	10
+393	friends_transcript	transcript	facebook/blenderbot-400M-distill	 in her box on the conveyor belt.	 She	to	7.669964790344238	5.66310453414917	0.00046663417015224695	0.08281075954437256	10
+394	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her box on the conveyor belt. She	 sm	ashes	2.4464221000671387	4.498763084411621	0.08660288155078888	0.15685436129570007	10
+395	friends_transcript	transcript	facebook/blenderbot-400M-distill	 box on the conveyor belt. She sm	iled	.	14.894944190979004	4.481202125549316	3.3978804481193947e-07	0.1885000616312027	10
+396	friends_transcript	transcript	facebook/blenderbot-400M-distill	 on the conveyor belt. She smiled	 at	me	5.669171333312988	4.592520236968994	0.003450724296271801	0.3119175434112549	10
+397	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the conveyor belt. She smiled at	 the	time	7.278003692626953	6.297733306884766	0.0006905627669766545	0.03976293280720711	10
+398	friends_transcript	transcript	facebook/blenderbot-400M-distill	 conveyor belt. She smiled at the	 security	.	5.903231620788574	5.587828636169434	0.002730606822296977	0.13014869391918182	10
+399	friends_transcript	transcript	facebook/blenderbot-400M-distill	veyor belt. She smiled at the security	 guard	.	10.59834098815918	2.031290292739868	2.4957384084700607e-05	0.6971665620803833	10
+400	friends_transcript	transcript	facebook/blenderbot-400M-distill	or belt. She smiled at the security guard	,	I	7.465326309204102	4.5508294105529785	0.0005725983646698296	0.16099593043327332	10
+401	friends_transcript	transcript	facebook/blenderbot-400M-distill	 belt. She smiled at the security guard,	" """	to	9.797358512878418	4.691784381866455	5.559826968237758e-05	0.1576952040195465	10
+402	friends_transcript	transcript	facebook/blenderbot-400M-distill	". She smiled at the security guard, """	that	s	13.381516456604004	2.2176101207733154	1.5434102351719048e-06	0.547552227973938	10
+403	friends_transcript	transcript	facebook/blenderbot-400M-distill	" She smiled at the security guard, ""that"	 was	to	7.140772342681885	4.392413139343262	0.0007921399082988501	0.1496548354625702	10
+404	friends_transcript	transcript	facebook/blenderbot-400M-distill	" smiled at the security guard, ""that was"	 a	lot	5.91300106048584	6.122666835784912	0.0027040604036301374	0.036699771881103516	10
+405	friends_transcript	transcript	facebook/blenderbot-400M-distill	"iled at the security guard, ""that was a"	 close	to	6.54608678817749	3.2670278549194336	0.001435722690075636	0.4093517065048218	10
+406	friends_transcript	transcript	facebook/blenderbot-400M-distill	" at the security guard, ""that was a close"	 one	""""	6.392126083374023	4.2757062911987305	0.0016746922628954053	0.15502972900867462	10
+407	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the security guard, ""that was a close one"	"!"""	</s>	5.784866809844971	5.098080158233643	0.0030737195629626513	0.11138259619474411	10
+408	friends_transcript	transcript	facebook/blenderbot-400M-distill	" security guard, ""that was a close one!"""	 Her	name	8.727401733398438	5.851349353790283	0.0001620830880710855	0.1241665706038475	10
+409	friends_transcript	transcript	facebook/blenderbot-400M-distill	" guard, ""that was a close one!"" Her"	 joy	ous	8.463622093200684	4.409904479980469	0.00021100636513438076	0.23347826302051544	10
+410	friends_transcript	transcript	facebook/blenderbot-400M-distill	", ""that was a close one!"" Her joy"	 was	a	6.047964096069336	5.488003253936768	0.0023626675829291344	0.1353917270898819	10
+411	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""that was a close one!"" Her joy was"	 cut	from	7.431879997253418	4.955987453460693	0.0005920736002735794	0.11260731518268585	10
+412	friends_transcript	transcript	facebook/blenderbot-400M-distill	"that was a close one!"" Her joy was cut"	 short	,	8.471169471740723	3.921828031539917	0.00020941990078426898	0.18312019109725952	10
+413	friends_transcript	transcript	facebook/blenderbot-400M-distill	" was a close one!"" Her joy was cut short"	 as	a	8.494364738464355	3.10029673576355	0.00020461819076444954	0.437747597694397	10
+414	friends_transcript	transcript	facebook/blenderbot-400M-distill	" a close one!"" Her joy was cut short as"	 they	were	6.736296653747559	5.254147052764893	0.0011870353482663631	0.058331143110990524	10
+415	friends_transcript	transcript	facebook/blenderbot-400M-distill	" close one!"" Her joy was cut short as they"	 heard	.	7.822187423706055	4.382115364074707	0.00040074417483992875	0.2682502567768097	10
+416	friends_transcript	transcript	facebook/blenderbot-400M-distill	" one!"" Her joy was cut short as they heard"	 the	song	7.457594871520996	6.627472877502441	0.0005770422867499292	0.04000163450837135	10
+417	friends_transcript	transcript	facebook/blenderbot-400M-distill	"!"" Her joy was cut short as they heard the"	 final	song	9.227027893066406	4.653494834899902	9.834504453465343e-05	0.34557345509529114	10
+418	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Her joy was cut short as they heard the final	 call	.	10.482221603393555	3.8680667877197266	2.8030395696987398e-05	0.28415822982788086	10
+419	friends_transcript	transcript	facebook/blenderbot-400M-distill	 joy was cut short as they heard the final call	 for	us	4.006716728210449	5.671064853668213	0.01819302700459957	0.04371703416109085	10
+420	friends_transcript	transcript	facebook/blenderbot-400M-distill	 was cut short as they heard the final call for	 their	second	5.094654560089111	6.340599060058594	0.006129423622041941	0.045161906629800797	10
+421	friends_transcript	transcript	facebook/blenderbot-400M-distill	 cut short as they heard the final call for their	 flight	and	10.619732856750488	5.660447120666504	2.4429156837868504e-05	0.08596214652061462	10
+422	friends_transcript	transcript	facebook/blenderbot-400M-distill	 short as they heard the final call for their flight	 come	to	5.759971618652344	5.2244648933410645	0.003151200246065855	0.0837615355849266	10
+423	friends_transcript	transcript	facebook/blenderbot-400M-distill	 as they heard the final call for their flight come	 over	.	7.307011604309082	5.858464241027832	0.0006708189030177891	0.1273152083158493	10
+424	friends_transcript	transcript	facebook/blenderbot-400M-distill	 they heard the final call for their flight come over	 the	I	5.267580032348633	6.133169174194336	0.005156074184924364	0.06772349774837494	10
+425	friends_transcript	transcript	facebook/blenderbot-400M-distill	 heard the final call for their flight come over the	 PA	st	9.992920875549316	6.445797920227051	4.572247780743055e-05	0.03306135907769203	10
+426	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the final call for their flight come over the PA	 system	for	9.056432723999023	4.027618885040283	0.00011663828627206385	0.19946257770061493	10
+427	friends_transcript	transcript	facebook/blenderbot-400M-distill	 final call for their flight come over the PA system	.		9.243184089660645	4.516539573669434	9.676896297605708e-05	0.3056497871875763	10
+428	friends_transcript	transcript	facebook/blenderbot-400M-distill	 call for their flight come over the PA system.	" """	D	8.972890853881836	5.337926387786865	0.00012680112558882684	0.0555410236120224	10
+429	friends_transcript	transcript	facebook/blenderbot-400M-distill	" for their flight come over the PA system. """	O	H	6.456058979034424	4.456512451171875	0.0015709748258814216	0.1328202188014984	10
+430	friends_transcript	transcript	facebook/blenderbot-400M-distill	" their flight come over the PA system. ""O"	ur	""""	8.66755485534668	5.943902492523193	0.00017207927885465324	0.1393539309501648	10
+431	friends_transcript	transcript	facebook/blenderbot-400M-distill	" flight come over the PA system. ""Our"	 gate	""""	9.68791675567627	3.5564420223236084	6.202848453540355e-05	0.46803081035614014	10
+432	friends_transcript	transcript	facebook/blenderbot-400M-distill	" come over the PA system. ""Our gate"	 is	to	6.764413833618164	4.856470108032227	0.0011541239218786359	0.17030823230743408	10
+433	friends_transcript	transcript	facebook/blenderbot-400M-distill	" over the PA system. ""Our gate is"	 on	""""	6.571555137634277	4.491302013397217	0.0013996189227327704	0.3079696595668793	10
+434	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the PA system. ""Our gate is on"	 the	""""	7.929062366485596	5.403949737548828	0.00036012392956763506	0.22365276515483856	10
+435	friends_transcript	transcript	facebook/blenderbot-400M-distill	" PA system. ""Our gate is on the"	 other	one	7.0082807540893555	3.8989551067352295	0.0009043621830642223	0.2949794828891754	10
+436	friends_transcript	transcript	facebook/blenderbot-400M-distill	" system. ""Our gate is on the other"	 side	of	14.792181968688965	1.002538800239563	3.7656235463146004e-07	0.8085496425628662	10
+437	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""Our gate is on the other side"	 of		6.865460395812988	4.631654739379883	0.0010432022390887141	0.21734459698200226	10
+438	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""Our gate is on the other side of"	 the	word	7.959846019744873	5.840106964111328	0.0003492068499326706	0.04093340039253235	10
+439	friends_transcript	transcript	facebook/blenderbot-400M-distill	Our gate is on the other side of the	 term	in	10.11501407623291	4.141627311706543	4.046740286867134e-05	0.27437663078308105	10
+440	friends_transcript	transcript	facebook/blenderbot-400M-distill	ur gate is on the other side of the term	inal	w	14.069307327270508	5.961606979370117	7.758498554721882e-07	0.0587022565305233	10
+441	friends_transcript	transcript	facebook/blenderbot-400M-distill	 gate is on the other side of the terminal	"!"""	""""	3.992915153503418	5.418722629547119	0.01844586431980133	0.0867258757352829	10
+442	friends_transcript	transcript	facebook/blenderbot-400M-distill	" is on the other side of the terminal!"""	 Mon	th	6.8044209480285645	4.706391334533691	0.001108862110413611	0.14863263070583344	10
+443	friends_transcript	transcript	facebook/blenderbot-400M-distill	" on the other side of the terminal!"" Mon"	ica	!	8.993311882019043	5.255766868591309	0.00012423798034433275	0.08892824500799179	10
+444	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the other side of the terminal!"" Monica"	 shout	!	9.390039443969727	5.104719638824463	8.355211321031675e-05	0.09601367264986038	10
+445	friends_transcript	transcript	facebook/blenderbot-400M-distill	" other side of the terminal!"" Monica shout"	ed	!	8.900105476379395	4.367115497589111	0.00013637453957926482	0.16151529550552368	10
+446	friends_transcript	transcript	facebook/blenderbot-400M-distill	" side of the terminal!"" Monica shouted"	,		4.3757476806640625	5.94194221496582	0.012578732334077358	0.09245465695858002	10
+447	friends_transcript	transcript	facebook/blenderbot-400M-distill	" of the terminal!"" Monica shouted,"	 holding	.	9.457443237304688	4.818698883056641	7.810602983227e-05	0.17899420857429504	10
+448	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the terminal!"" Monica shouted, holding"	 her	,	5.979306221008301	5.47952938079834	0.0025305806193500757	0.13396669924259186	10
+449	friends_transcript	transcript	facebook/blenderbot-400M-distill	" terminal!"" Monica shouted, holding her"	 hands	.	11.698607444763184	3.976729154586792	8.305380106321536e-06	0.2376958280801773	10
+450	friends_transcript	transcript	facebook/blenderbot-400M-distill	"inal!"" Monica shouted, holding her hands"	 to	be	5.914767265319824	6.09515380859375	0.0026992883067578077	0.07281902432441711	10
+451	friends_transcript	transcript	facebook/blenderbot-400M-distill	"!"" Monica shouted, holding her hands to"	 her	.	5.16954231262207	5.07340669631958	0.005687170196324587	0.13155610859394073	10
+452	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Monica shouted, holding her hands to her	 head	.	8.4815092086792	4.427407741546631	0.0002072655624942854	0.18569700419902802	10
+453	friends_transcript	transcript	facebook/blenderbot-400M-distill	ica shouted, holding her hands to her head	.	</s>	6.375774383544922	5.288541316986084	0.0017023013206198812	0.06109969690442085	10
+454	friends_transcript	transcript	facebook/blenderbot-400M-distill	 shouted, holding her hands to her head.	 Cha	d	4.96867561340332	4.735095500946045	0.0069523523561656475	0.1047583594918251	10
+455	friends_transcript	transcript	facebook/blenderbot-400M-distill	ed, holding her hands to her head. Cha	nd	end	2.9984607696533203	5.533705234527588	0.04986376315355301	0.0656200721859932	10
+456	friends_transcript	transcript	facebook/blenderbot-400M-distill	, holding her hands to her head. Chand	ler	.	15.019916534423828	5.138542652130127	2.9987020866428793e-07	0.1645679920911789	10
+457	friends_transcript	transcript	facebook/blenderbot-400M-distill	 holding her hands to her head. Chandler	 looked	like	11.692244529724121	3.2103137969970703	8.35839455248788e-06	0.33626529574394226	10
+458	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her hands to her head. Chandler looked	 around	to	8.774252891540527	3.9309394359588623	0.00015466446348000318	0.16108772158622742	10
+459	friends_transcript	transcript	facebook/blenderbot-400M-distill	 hands to her head. Chandler looked around	 in	order	7.257883071899414	5.427849769592285	0.0007045979727990925	0.09136472642421722	10
+460	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to her head. Chandler looked around in	 shock	.	10.092428207397461	2.000743865966797	4.139176962780766e-05	0.7491359114646912	10
+461	friends_transcript	transcript	facebook/blenderbot-400M-distill	 her head. Chandler looked around in shock	,	but	7.8781232833862305	5.043211936950684	0.0003789435140788555	0.11728174984455109	10
+462	friends_transcript	transcript	facebook/blenderbot-400M-distill	 head. Chandler looked around in shock,	 and	then	7.730804920196533	4.347113132476807	0.00043909059604629874	0.24685131013393402	10
+463	friends_transcript	transcript	facebook/blenderbot-400M-distill	. Chandler looked around in shock, and	 then	.	11.063262939453125	4.267217636108398	1.567783510836307e-05	0.16721056401729584	10
+464	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Chandler looked around in shock, and then	 ran	.	8.202564239501953	3.6589107513427734	0.0002739503397606313	0.2050129771232605	10
+465	friends_transcript	transcript	facebook/blenderbot-400M-distill	ndler looked around in shock, and then ran	 over	by	7.549811363220215	3.0602262020111084	0.0005262095364741981	0.4255232512950897	10
+466	friends_transcript	transcript	facebook/blenderbot-400M-distill	ler looked around in shock, and then ran over	 to	me	6.464744567871094	5.436809539794922	0.0015573888085782528	0.17643237113952637	10
+467	friends_transcript	transcript	facebook/blenderbot-400M-distill	 looked around in shock, and then ran over to	 an	a	7.08299446105957	5.559082508087158	0.0008392560412175953	0.057800859212875366	10
+468	friends_transcript	transcript	facebook/blenderbot-400M-distill	 around in shock, and then ran over to an	 e	ag	3.9861559867858887	4.642852783203125	0.01857096329331398	0.240462988615036	10
+469	friends_transcript	transcript	facebook/blenderbot-400M-distill	 in shock, and then ran over to an e	lder	ly	14.302838325500488	0.1532398909330368	6.142655024632404e-07	0.9852439165115356	10
+470	friends_transcript	transcript	facebook/blenderbot-400M-distill	 shock, and then ran over to an elder	ly	one	9.31808853149414	3.2458741664886475	8.978537516668439e-05	0.5797693133354187	10
+471	friends_transcript	transcript	facebook/blenderbot-400M-distill	, and then ran over to an elderly	 man	's	11.156291961669922	3.2204034328460693	1.4285116776591167e-05	0.31142735481262207	10
+472	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and then ran over to an elderly man	 on	thing	6.8210625648498535	5.37967586517334	0.0010905613889917731	0.10175950825214386	10
+473	friends_transcript	transcript	facebook/blenderbot-400M-distill	 then ran over to an elderly man on	 an	end	7.205244064331055	5.03339958190918	0.0007426809752359986	0.1248345896601677	10
+474	friends_transcript	transcript	facebook/blenderbot-400M-distill	 ran over to an elderly man on an	 electric	song	8.897294998168945	6.027713775634766	0.00013675828813575208	0.06347654014825821	10
+475	friends_transcript	transcript	facebook/blenderbot-400M-distill	 over to an elderly man on an electric	 sc	sc	0.6312552690505981	3.1165332794189453	0.5319236516952515	0.5319236516952515	10
+476	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to an elderly man on an electric sc	oot	er	10.264641761779785	0.28579461574554443	3.484358967398293e-05	0.9661152958869934	10
+477	friends_transcript	transcript	facebook/blenderbot-400M-distill	 an elderly man on an electric scoot	er	to	9.719486236572266	5.439549446105957	6.010087963659316e-05	0.08801915496587753	10
+478	friends_transcript	transcript	facebook/blenderbot-400M-distill	 elderly man on an electric scooter	.		6.393510818481445	4.735948085784912	0.0016723748994991183	0.30302298069000244	10
+479	friends_transcript	transcript	facebook/blenderbot-400M-distill	lderly man on an electric scooter.	" """	a	8.835261344909668	5.160329818725586	0.00014551066851709038	0.06957598030567169	10
+480	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ly man on an electric scooter. """	I	s	12.249506950378418	1.4129046201705933	4.787476882484043e-06	0.7954907417297363	10
+481	friends_transcript	transcript	facebook/blenderbot-400M-distill	" man on an electric scooter. ""I"	 will	be	6.55773401260376	4.618694305419922	0.0014190977672114968	0.2686990797519684	10
+482	friends_transcript	transcript	facebook/blenderbot-400M-distill	" on an electric scooter. ""I will"	 give	me	6.0954179763793945	2.659013032913208	0.0022531687282025814	0.24536004662513733	10
+483	friends_transcript	transcript	facebook/blenderbot-400M-distill	" an electric scooter. ""I will give"	 you	""""	5.2542548179626465	4.59763765335083	0.005225237924605608	0.2957834005355835	10
+484	friends_transcript	transcript	facebook/blenderbot-400M-distill	" electric scooter. ""I will give you"	 six	""""	7.294526100158691	4.1831278800964355	0.0006792465574108064	0.35254448652267456	10
+485	friends_transcript	transcript	facebook/blenderbot-400M-distill	" scooter. ""I will give you six"	ty	""""	8.282959938049316	2.8191380500793457	0.0002527878386899829	0.5814117789268494	10
+486	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ooter. ""I will give you sixty"	 dollars	""""	12.778806686401367	1.9763476848602295	2.8199074222357012e-06	0.48859161138534546	10
+487	friends_transcript	transcript	facebook/blenderbot-400M-distill	"er. ""I will give you sixty dollars"	","""		8.214778900146484	4.389720916748047	0.00027062444132752717	0.24160197377204895	10
+488	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""I will give you sixty dollars,"""	 he	is	3.829695701599121	5.190537929534912	0.021716224029660225	0.11311877518892288	10
+489	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""I will give you sixty dollars,"" he"	 said	he	9.205353736877441	5.087836265563965	0.00010049994307337329	0.10883940011262894	10
+490	friends_transcript	transcript	facebook/blenderbot-400M-distill	"I will give you sixty dollars,"" he said"	,	""""	7.639870643615723	4.643149375915527	0.0004808905359823257	0.21679189801216125	10
+491	friends_transcript	transcript	facebook/blenderbot-400M-distill	" will give you sixty dollars,"" he said,"	 sh	iz	2.1632328033447266	4.344407081604004	0.11495288461446762	0.13856948912143707	10
+492	friends_transcript	transcript	facebook/blenderbot-400M-distill	" give you sixty dollars,"" he said, sh"	o	el	7.7548723220825195	4.0083537101745605	0.0004286488110665232	0.15912747383117676	10
+493	friends_transcript	transcript	facebook/blenderbot-400M-distill	" you sixty dollars,"" he said, sho"	ving	s	11.097370147705078	5.3767991065979	1.5152113519434351e-05	0.07258516550064087	10
+494	friends_transcript	transcript	facebook/blenderbot-400M-distill	" sixty dollars,"" he said, shoving"	 a	d	4.396248817443848	5.882332801818848	0.012323485687375069	0.06508252769708633	10
+495	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ty dollars,"" he said, shoving a"	 w	w	2.2409720420837402	4.889069557189941	0.10635507851839066	0.10635507851839066	10
+496	friends_transcript	transcript	facebook/blenderbot-400M-distill	" dollars,"" he said, shoving a w"	ad	,	6.53691291809082	3.889376401901245	0.0014489543391391635	0.3065902590751648	10
+497	friends_transcript	transcript	facebook/blenderbot-400M-distill	","" he said, shoving a wad"	 of	*	8.417584419250488	4.0393829345703125	0.00022094765154179186	0.15637478232383728	10
+498	friends_transcript	transcript	facebook/blenderbot-400M-distill	 he said, shoving a wad of	 cash	I	11.197744369506836	5.620996952056885	1.3705076526093762e-05	0.08774010092020035	10
+499	friends_transcript	transcript	facebook/blenderbot-400M-distill	 said, shoving a wad of cash	 into	I	8.501542091369629	6.130943298339844	0.00020315483561716974	0.06009087339043617	10
+500	friends_transcript	transcript	facebook/blenderbot-400M-distill	, shoving a wad of cash into	 the	,	7.356237411499023	5.577057838439941	0.0006385969463735819	0.0796286091208458	10
+501	friends_transcript	transcript	facebook/blenderbot-400M-distill	 shoving a wad of cash into the	 man	s	7.2264909744262695	5.670627117156982	0.0007270675851032138	0.10754174739122391	10
+502	friends_transcript	transcript	facebook/blenderbot-400M-distill	oving a wad of cash into the man	’	s	7.960240364074707	1.0736069679260254	0.0003490691597107798	0.6870781779289246	10
+503	friends_transcript	transcript	facebook/blenderbot-400M-distill	ving a wad of cash into the man’	s	a	8.685834884643555	6.504701614379883	0.00016896240413188934	0.031806692481040955	10
+504	friends_transcript	transcript	facebook/blenderbot-400M-distill	 a wad of cash into the man’s	 hand	I	8.655850410461426	5.331953048706055	0.00017410524014849216	0.1186375692486763	10
+505	friends_transcript	transcript	facebook/blenderbot-400M-distill	 wad of cash into the man’s hand	,	I	6.616631507873535	5.4019012451171875	0.0013379298616200686	0.19886639714241028	10
+506	friends_transcript	transcript	facebook/blenderbot-400M-distill	ad of cash into the man’s hand,	" """	s	8.654495239257812	5.485630035400391	0.00017434131586924195	0.05245102941989899	10
+507	friends_transcript	transcript	facebook/blenderbot-400M-distill	" of cash into the man’s hand, """	if	""""	11.522311210632324	4.972229480743408	9.90657827060204e-06	0.30836206674575806	10
+508	friends_transcript	transcript	facebook/blenderbot-400M-distill	" cash into the man’s hand, ""if"	 you	""""	4.700041770935059	5.379568099975586	0.009094896726310253	0.08210272341966629	10
+509	friends_transcript	transcript	facebook/blenderbot-400M-distill	" into the man’s hand, ""if you"	 let	sl	2.7178890705108643	4.424960136413574	0.06601395457983017	0.13322322070598602	10
+510	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the man’s hand, ""if you let"	 us	""""	7.4101409912109375	2.5365145206451416	0.0006050853407941759	0.6474106311798096	10
+511	friends_transcript	transcript	facebook/blenderbot-400M-distill	" man’s hand, ""if you let us"	 b	a	2.541407823562622	5.459373474121094	0.0787554457783699	0.10745637863874435	10
+512	friends_transcript	transcript	facebook/blenderbot-400M-distill	"’s hand, ""if you let us b"	orrow	""""	9.887714385986328	2.290158748626709	5.07948971062433e-05	0.5893464088439941	10
+513	friends_transcript	transcript	facebook/blenderbot-400M-distill	"s hand, ""if you let us borrow"	 your	stuff	7.8413496017456055	6.237668991088867	0.0003931381506845355	0.042771875858306885	10
+514	friends_transcript	transcript	facebook/blenderbot-400M-distill	" hand, ""if you let us borrow your"	 sc	or	4.020063877105713	4.003947734832764	0.01795181818306446	0.34671178460121155	10
+515	friends_transcript	transcript	facebook/blenderbot-400M-distill	", ""if you let us borrow your sc"	oot	er	10.219819068908691	0.7592860460281372	3.6440877011045814e-05	0.8996860384941101	10
+516	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""if you let us borrow your scoot"	er	.	11.326581954956055	4.199571132659912	1.204836371471174e-05	0.2205641120672226	10
+517	friends_transcript	transcript	facebook/blenderbot-400M-distill	if you let us borrow your scooter	 to	a	6.692054748535156	5.599908351898193	0.001240730518475175	0.08624257892370224	10
+518	friends_transcript	transcript	facebook/blenderbot-400M-distill	 you let us borrow your scooter to	 get	back	7.692083358764648	3.7327880859375	0.00045642632176168263	0.315034955739975	10
+519	friends_transcript	transcript	facebook/blenderbot-400M-distill	 let us borrow your scooter to get	 to	.	6.366398334503174	4.292087554931641	0.0017183368327096105	0.28510963916778564	10
+520	friends_transcript	transcript	facebook/blenderbot-400M-distill	 us borrow your scooter to get to	 gate	.	8.6368408203125	5.472558498382568	0.00017744670913089067	0.11453461647033691	10
+521	friends_transcript	transcript	facebook/blenderbot-400M-distill	 borrow your scooter to get to gate	 B	W	4.82796573638916	5.710226535797119	0.008002785965800285	0.04579891264438629	10
+522	friends_transcript	transcript	facebook/blenderbot-400M-distill	orrow your scooter to get to gate B	75	.	9.365377426147461	5.430186748504639	8.563830488128588e-05	0.06606719642877579	10
+523	friends_transcript	transcript	facebook/blenderbot-400M-distill	 your scooter to get to gate B75	"."""		5.188042640686035	4.559727668762207	0.005582922603935003	0.17292830348014832	10
+524	friends_transcript	transcript	facebook/blenderbot-400M-distill	" scooter to get to gate B75."""	 The	one	8.472007751464844	6.31581974029541	0.00020924437558278441	0.046572133898735046	10
+525	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ooter to get to gate B75."" The"	 old	est	8.705811500549316	4.988080978393555	0.0001656205131439492	0.30542391538619995	10
+526	friends_transcript	transcript	facebook/blenderbot-400M-distill	"er to get to gate B75."" The old"	 man	who	8.35653018951416	3.699476957321167	0.0002348579146200791	0.2484353631734848	10
+527	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to get to gate B75."" The old man"	 looked	for	11.678181648254395	3.8321993350982666	8.47676710691303e-06	0.24804696440696716	10
+528	friends_transcript	transcript	facebook/blenderbot-400M-distill	" get to gate B75."" The old man looked"	 back	at	9.71325397491455	3.4017810821533203	6.047660644981079e-05	0.3109971284866333	10
+529	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to gate B75."" The old man looked back"	 at	me	5.293803691864014	4.264815330505371	0.005022619850933552	0.3886752724647522	10
+530	friends_transcript	transcript	facebook/blenderbot-400M-distill	" gate B75."" The old man looked back at"	 him	.	8.866175651550293	3.3866348266601562	0.00014108108007349074	0.5146709680557251	10
+531	friends_transcript	transcript	facebook/blenderbot-400M-distill	" B75."" The old man looked back at him"	 in	a	4.970851898193359	5.8699631690979	0.006937237456440926	0.08752353489398956	10
+532	friends_transcript	transcript	facebook/blenderbot-400M-distill	"75."" The old man looked back at him in"	 surprise	.	4.914190292358398	4.747254371643066	0.007341661490499973	0.2626372277736664	10
+533	friends_transcript	transcript	facebook/blenderbot-400M-distill	"."" The old man looked back at him in surprise"	,	I	7.337015151977539	4.476742267608643	0.000650990754365921	0.2771779000759125	10
+534	friends_transcript	transcript	facebook/blenderbot-400M-distill	 The old man looked back at him in surprise,	 then	you	11.991560935974121	4.3051228523254395	6.196284175530309e-06	0.16339117288589478	10
+535	friends_transcript	transcript	facebook/blenderbot-400M-distill	 old man looked back at him in surprise, then	 slowly	but	8.084117889404297	4.827757835388184	0.0003083986521232873	0.10233546793460846	10
+536	friends_transcript	transcript	facebook/blenderbot-400M-distill	 man looked back at him in surprise, then slowly	 ste	alth	2.110541582107544	3.686494827270508	0.12117233127355576	0.19983713328838348	10
+537	friends_transcript	transcript	facebook/blenderbot-400M-distill	 looked back at him in surprise, then slowly ste	pped	by	13.238265991210938	4.120605945587158	1.7811246380006196e-06	0.26158764958381653	10
+538	friends_transcript	transcript	facebook/blenderbot-400M-distill	 back at him in surprise, then slowly stepped	 back	to	8.981402397155762	4.066864013671875	0.00012572637933772057	0.1660626232624054	10
+539	friends_transcript	transcript	facebook/blenderbot-400M-distill	 at him in surprise, then slowly stepped back	 off	of	9.703824043273926	4.555148601531982	6.104960630182177e-05	0.22103959321975708	10
+540	friends_transcript	transcript	facebook/blenderbot-400M-distill	 him in surprise, then slowly stepped back off	 the	thing	7.15746545791626	6.276843547821045	0.0007790264789946377	0.05782821401953697	10
+541	friends_transcript	transcript	facebook/blenderbot-400M-distill	 in surprise, then slowly stepped back off the	 sc	or	3.4795949459075928	4.891765117645264	0.03081989660859108	0.07894687354564667	10
+542	friends_transcript	transcript	facebook/blenderbot-400M-distill	 surprise, then slowly stepped back off the sc	oot	er	9.95464038848877	0.2727409601211548	4.750665175379254e-05	0.9660326242446899	10
+543	friends_transcript	transcript	facebook/blenderbot-400M-distill	, then slowly stepped back off the scoot	er	.	10.097772598266602	4.099286079406738	4.1171144403051585e-05	0.1468929648399353	10
+544	friends_transcript	transcript	facebook/blenderbot-400M-distill	 then slowly stepped back off the scooter	.	</s>	6.788640975952148	4.384804725646973	0.0011264989152550697	0.24197790026664734	10
+545	friends_transcript	transcript	facebook/blenderbot-400M-distill	 slowly stepped back off the scooter.	 Cha	d	6.284902572631836	5.1665449142456055	0.0018642382929101586	0.07980898022651672	10
+546	friends_transcript	transcript	facebook/blenderbot-400M-distill	 stepped back off the scooter. Cha	nd	el	4.418828010559082	5.855992794036865	0.012048348784446716	0.056551769375801086	10
+547	friends_transcript	transcript	facebook/blenderbot-400M-distill	pped back off the scooter. Chand	ler	.	14.196301460266113	5.030076026916504	6.833207635281724e-07	0.2211337685585022	10
+548	friends_transcript	transcript	facebook/blenderbot-400M-distill	 back off the scooter. Chandler	 g	g	3.007573127746582	5.824583053588867	0.04941144585609436	0.04941144585609436	10
+549	friends_transcript	transcript	facebook/blenderbot-400M-distill	 off the scooter. Chandler g	est	ure	6.535673141479492	3.66748309135437	0.0014507526066154242	0.36459362506866455	10
+550	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the scooter. Chandler gest	ured	.	13.503335952758789	2.851619005203247	1.3663928939422476e-06	0.5893886089324951	10
+551	friends_transcript	transcript	facebook/blenderbot-400M-distill	 scooter. Chandler gestured	 wild	.	9.004203796386719	3.578341245651245	0.00012289205915294588	0.4891629219055176	10
+552	friends_transcript	transcript	facebook/blenderbot-400M-distill	ooter. Chandler gestured wild	ly	.	10.504385948181152	1.5041563510894775	2.7415928343543783e-05	0.7677858471870422	10
+553	friends_transcript	transcript	facebook/blenderbot-400M-distill	er. Chandler gestured wildly	 to	e	4.129109859466553	5.996066570281982	0.01609720103442669	0.050526682287454605	10
+554	friends_transcript	transcript	facebook/blenderbot-400M-distill	. Chandler gestured wildly to	 Mon	st	10.256158828735352	4.856700897216797	3.514041600283235e-05	0.26491326093673706	10
+555	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Chandler gestured wildly to Mon	ica	I	11.471611022949219	5.668593406677246	1.0421794286230579e-05	0.08056781440973282	10
+556	friends_transcript	transcript	facebook/blenderbot-400M-distill	ndler gestured wildly to Monica	,		5.266629219055176	6.035613536834717	0.0051609789952635765	0.07575911283493042	10
+557	friends_transcript	transcript	facebook/blenderbot-400M-distill	ler gestured wildly to Monica,	 who	is	7.2825727462768555	5.749149322509766	0.0006874145474284887	0.08320148289203644	10
+558	friends_transcript	transcript	facebook/blenderbot-400M-distill	 gestured wildly to Monica, who	 hop	s	9.781131744384766	0.7212466597557068	5.6507789850002155e-05	0.9076282382011414	10
+559	friends_transcript	transcript	facebook/blenderbot-400M-distill	estured wildly to Monica, who hop	ped	,	9.004544258117676	4.849053859710693	0.00012285026605241	0.11636039614677429	10
+560	friends_transcript	transcript	facebook/blenderbot-400M-distill	ured wildly to Monica, who hopped	 on	is	6.920855522155762	5.524871826171875	0.000986985513009131	0.09492100030183792	10
+561	friends_transcript	transcript	facebook/blenderbot-400M-distill	 wildly to Monica, who hopped on	 the	list	6.654327392578125	6.444799900054932	0.0012884344905614853	0.049291208386421204	10
+562	friends_transcript	transcript	facebook/blenderbot-400M-distill	ly to Monica, who hopped on the	 back	of	8.609506607055664	2.7585551738739014	0.0001823639468057081	0.39368778467178345	10
+563	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to Monica, who hopped on the back	 of	a	5.927910804748535	5.375269889831543	0.002664041705429554	0.1823151856660843	10
+564	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Monica, who hopped on the back of	 the	more	7.1870622634887695	6.169651985168457	0.0007563078543171287	0.03963561728596687	10
+565	friends_transcript	transcript	facebook/blenderbot-400M-distill	ica, who hopped on the back of the	 sc	ope	2.945960283279419	4.1309733390808105	0.052551575005054474	0.22287531197071075	10
+566	friends_transcript	transcript	facebook/blenderbot-400M-distill	, who hopped on the back of the sc	oot	er	9.080885887145996	0.5568580627441406	0.00011382069351384416	0.9280071258544922	10
+567	friends_transcript	transcript	facebook/blenderbot-400M-distill	 who hopped on the back of the scoot	er	.	10.830631256103516	5.471199989318848	1.978410546144005e-05	0.05545035004615784	10
+568	friends_transcript	transcript	facebook/blenderbot-400M-distill	 hopped on the back of the scooter	 while	I	8.303169250488281	5.387781143188477	0.0002477303787600249	0.08331045508384705	10
+569	friends_transcript	transcript	facebook/blenderbot-400M-distill	ped on the back of the scooter while	 Cha	cha	4.475294589996338	3.681830406188965	0.011386869475245476	0.4075362980365753	10
+570	friends_transcript	transcript	facebook/blenderbot-400M-distill	 on the back of the scooter while Cha	nd	lers	4.084490776062012	4.7294087409973145	0.01683170720934868	0.1658945232629776	10
+571	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the back of the scooter while Chand	ler	is	12.522296905517578	5.531074523925781	3.6444812394620385e-06	0.1523991972208023	10
+572	friends_transcript	transcript	facebook/blenderbot-400M-distill	 back of the scooter while Chandler	 took	a	9.802682876586914	5.802486419677734	5.5303007684415206e-05	0.08698203414678574	10
+573	friends_transcript	transcript	facebook/blenderbot-400M-distill	 of the scooter while Chandler took	 the	m	6.8319926261901855	6.34395170211792	0.001078706351108849	0.033446427434682846	10
+574	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the scooter while Chandler took the	 wheel	and	8.702120780944824	3.7724978923797607	0.00016623288684058934	0.3297067880630493	10
+575	friends_transcript	transcript	facebook/blenderbot-400M-distill	 scooter while Chandler took the wheel	 and	so	5.424566268920898	5.744560241699219	0.0044069779105484486	0.05805107578635216	10
+576	friends_transcript	transcript	facebook/blenderbot-400M-distill	ooter while Chandler took the wheel and	 acce	ler	8.112432479858398	0.9207004308700562	0.0002997888077516109	0.8807222247123718	10
+577	friends_transcript	transcript	facebook/blenderbot-400M-distill	er while Chandler took the wheel and acce	ler	ate	9.788949966430664	2.119837522506714	5.606775448541157e-05	0.43628233671188354	10
+578	friends_transcript	transcript	facebook/blenderbot-400M-distill	 while Chandler took the wheel and acceler	ated	was	12.591658592224121	4.271042346954346	3.400259629415814e-06	0.16292867064476013	10
+579	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Chandler took the wheel and accelerated	 down	a	9.93493938446045	4.113650798797607	4.8451885959366336e-05	0.17711195349693298	10
+580	friends_transcript	transcript	facebook/blenderbot-400M-distill	ndler took the wheel and accelerated down	 the	.	6.391345977783203	5.501168727874756	0.0016759983263909817	0.09820032864809036	10
+581	friends_transcript	transcript	facebook/blenderbot-400M-distill	ler took the wheel and accelerated down the	 conc	ert	4.229800701141357	0.9835078716278076	0.014555291272699833	0.8426390886306763	10
+582	friends_transcript	transcript	facebook/blenderbot-400M-distill	 took the wheel and accelerated down the conc	our	se	10.255928039550781	1.8128472566604614	3.514851050567813e-05	0.6822163462638855	10
+583	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the wheel and accelerated down the concour	se	of	11.210877418518066	4.687821865081787	1.3526260772778187e-05	0.17342905700206757	10
+584	friends_transcript	transcript	facebook/blenderbot-400M-distill	 wheel and accelerated down the concourse	.	</s>	8.182693481445312	4.463945388793945	0.00027944816974923015	0.20504596829414368	10
+585	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and accelerated down the concourse.	 We	have	7.196056365966797	4.7061004638671875	0.0007495356258004904	0.12941642105579376	10
+586	friends_transcript	transcript	facebook/blenderbot-400M-distill	 accelerated down the concourse. We	a	ver	4.966156482696533	5.313164710998535	0.006969884503632784	0.1398695707321167	10
+587	friends_transcript	transcript	facebook/blenderbot-400M-distill	lerated down the concourse. Wea	ving	to	10.2171049118042	5.917163848876953	3.65399282600265e-05	0.11155885457992554	10
+588	friends_transcript	transcript	facebook/blenderbot-400M-distill	ated down the concourse. Weaving	 between	a	10.885154724121094	6.600578308105469	1.8734284822130576e-05	0.030012287199497223	10
+589	friends_transcript	transcript	facebook/blenderbot-400M-distill	 down the concourse. Weaving between	 pass	en	8.49447250366211	3.246368408203125	0.00020459624647628516	0.5016238689422607	10
+590	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the concourse. Weaving between pass	eng	ers	6.128491401672363	3.172724485397339	0.0021798675879836082	0.33511054515838623	10
+591	friends_transcript	transcript	facebook/blenderbot-400M-distill	 concourse. Weaving between passeng	ers	.	11.464701652526855	3.7294793128967285	1.0494050911802333e-05	0.320419579744339	10
+592	friends_transcript	transcript	facebook/blenderbot-400M-distill	ourse. Weaving between passengers	 and	o	7.220450401306152	5.263452053070068	0.0007314728572964668	0.105831578373909	10
+593	friends_transcript	transcript	facebook/blenderbot-400M-distill	se. Weaving between passengers and	 l	es	6.678341865539551	3.5840864181518555	0.0012578621972352266	0.39301416277885437	10
+594	friends_transcript	transcript	facebook/blenderbot-400M-distill	. Weaving between passengers and l	ugg	age	9.148246765136719	2.621997117996216	0.00010640616528689861	0.4867153465747833	10
+595	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Weaving between passengers and lugg	age	about	9.322303771972656	5.103172302246094	8.94077165867202e-05	0.09741117805242538	10
+596	friends_transcript	transcript	facebook/blenderbot-400M-distill	aving between passengers and luggage	,	or	3.8117074966430664	5.053588390350342	0.02211039699614048	0.17728841304779053	10
+597	friends_transcript	transcript	facebook/blenderbot-400M-distill	ving between passengers and luggage,	 they	're	5.4468607902526855	5.187838077545166	0.004309813492000103	0.11225093901157379	10
+598	friends_transcript	transcript	facebook/blenderbot-400M-distill	 between passengers and luggage, they	 sc	sc	1.3117271661758423	4.025265693664551	0.2693544626235962	0.2693544626235962	10
+599	friends_transcript	transcript	facebook/blenderbot-400M-distill	 passengers and luggage, they sc	re	me	5.409379005432129	4.727783203125	0.0044744182378053665	0.2208946794271469	10
+600	friends_transcript	transcript	facebook/blenderbot-400M-distill	engers and luggage, they scre	ec	e	7.0346550941467285	1.667242169380188	0.0008808220154605806	0.6905727982521057	10
+601	friends_transcript	transcript	facebook/blenderbot-400M-distill	ers and luggage, they screec	hed	.	11.405107498168945	4.85417366027832	1.1138446097902488e-05	0.13585273921489716	10
+602	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and luggage, they screeched	 to	me	4.74685525894165	3.5683822631835938	0.008678944781422615	0.4003443717956543	10
+603	friends_transcript	transcript	facebook/blenderbot-400M-distill	 luggage, they screeched to	 the	me	6.792113304138184	6.341703414916992	0.0011225941125303507	0.05775526165962219	10
+604	friends_transcript	transcript	facebook/blenderbot-400M-distill	uggage, they screeched to the	 gate	way	10.949520111083984	4.879011154174805	1.756644451234024e-05	0.1472650021314621	10
+605	friends_transcript	transcript	facebook/blenderbot-400M-distill	age, they screeched to the gate	 just	to	9.792462348937988	5.017999172210693	5.587115811067633e-05	0.19075417518615723	10
+606	friends_transcript	transcript	facebook/blenderbot-400M-distill	, they screeched to the gate just	 before	.	10.074509620666504	3.0330348014831543	4.214014916215092e-05	0.33487021923065186	10
+607	friends_transcript	transcript	facebook/blenderbot-400M-distill	 they screeched to the gate just before	 it	's	5.399214744567871	4.1112141609191895	0.004520129412412643	0.3504234254360199	10
+608	friends_transcript	transcript	facebook/blenderbot-400M-distill	 screeched to the gate just before it	 closed	again	7.6903581619262695	3.069030523300171	0.00045721433707512915	0.5089203119277954	10
+609	friends_transcript	transcript	facebook/blenderbot-400M-distill	reeched to the gate just before it closed	 and	again	6.957944869995117	3.0960171222686768	0.0009510491508990526	0.5030634999275208	10
+610	friends_transcript	transcript	facebook/blenderbot-400M-distill	eched to the gate just before it closed and	 hur	ry	5.346124172210693	4.027973651885986	0.004766589030623436	0.22382502257823944	10
+611	friends_transcript	transcript	facebook/blenderbot-400M-distill	hed to the gate just before it closed and hur	ried	again	11.508567810058594	3.185680389404297	1.0043670954473782e-05	0.41500043869018555	10
+612	friends_transcript	transcript	facebook/blenderbot-400M-distill	 to the gate just before it closed and hurried	 down	again	11.586222648620605	3.7544617652893066	9.293245057051536e-06	0.2631940245628357	10
+613	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the gate just before it closed and hurried down	 the	that	7.465198993682861	5.813040256500244	0.0005726710660383105	0.0410430021584034	10
+614	friends_transcript	transcript	facebook/blenderbot-400M-distill	 gate just before it closed and hurried down the	 j	az	3.126769542694092	4.758654594421387	0.04385925084352493	0.15636387467384338	10
+615	friends_transcript	transcript	facebook/blenderbot-400M-distill	 just before it closed and hurried down the j	et	we	6.345033645629883	4.968329906463623	0.0017554434016346931	0.1404944211244583	10
+616	friends_transcript	transcript	facebook/blenderbot-400M-distill	 before it closed and hurried down the jet	way	is	10.628487586975098	5.074105262756348	2.4216218662331812e-05	0.0606614351272583	10
+617	friends_transcript	transcript	facebook/blenderbot-400M-distill	 it closed and hurried down the jetway	.		7.599016189575195	4.869953155517578	0.0005009441520087421	0.1649407297372818	10
+618	friends_transcript	transcript	facebook/blenderbot-400M-distill	 closed and hurried down the jetway.	 They	have	7.09037446975708	5.206271648406982	0.0008330855052918196	0.071724534034729	10
+619	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and hurried down the jetway. They	 finally	did	9.109527587890625	3.977473020553589	0.0001106069321394898	0.25503045320510864	10
+620	friends_transcript	transcript	facebook/blenderbot-400M-distill	 hurried down the jetway. They finally	 collap	se	11.382309913635254	2.9144115447998047	1.1395294677640777e-05	0.2537698447704315	10
+621	friends_transcript	transcript	facebook/blenderbot-400M-distill	ried down the jetway. They finally collap	sed	.	14.062533378601074	3.8197808265686035	7.811231057530676e-07	0.22463974356651306	10
+622	friends_transcript	transcript	facebook/blenderbot-400M-distill	 down the jetway. They finally collapsed	 into	something	8.35104751586914	4.644676208496094	0.00023614913516212255	0.28730249404907227	10
+623	friends_transcript	transcript	facebook/blenderbot-400M-distill	 the jetway. They finally collapsed into	 their	.	9.13836669921875	5.359271049499512	0.00010746267071226612	0.16441132128238678	10
+624	friends_transcript	transcript	facebook/blenderbot-400M-distill	 jetway. They finally collapsed into their	 seats	.	12.851348876953125	1.232069969177246	2.6225868623441784e-06	0.8315855860710144	10
+625	friends_transcript	transcript	facebook/blenderbot-400M-distill	etway. They finally collapsed into their seats	 on	.	5.984055519104004	5.801242351531982	0.0025185912381857634	0.07646402716636658	10
+626	friends_transcript	transcript	facebook/blenderbot-400M-distill	way. They finally collapsed into their seats on	 the	way	8.94585132598877	5.134040355682373	0.000130276515847072	0.2110254317522049	10
+627	friends_transcript	transcript	facebook/blenderbot-400M-distill	. They finally collapsed into their seats on the	 plane	.	8.615200996398926	3.005897283554077	0.0001813284179661423	0.5181421041488647	10
+628	friends_transcript	transcript	facebook/blenderbot-400M-distill	 They finally collapsed into their seats on the plane	.		6.351347923278809	5.147472858428955	0.001744394307024777	0.11407829821109772	10
+629	friends_transcript	transcript	facebook/blenderbot-400M-distill	 finally collapsed into their seats on the plane.	" """	E	8.259247779846191	5.2694292068481445	0.00025885365903377533	0.06053351238369942	10
+630	friends_transcript	transcript	facebook/blenderbot-400M-distill	" collapsed into their seats on the plane. """	N	other	8.945083618164062	5.110400199890137	0.00013037657481618226	0.10746579617261887	10
+631	friends_transcript	transcript	facebook/blenderbot-400M-distill	"sed into their seats on the plane. ""N"	ext	""""	12.432933807373047	5.296193599700928	3.985159310104791e-06	0.23601756989955902	10
+632	friends_transcript	transcript	facebook/blenderbot-400M-distill	" into their seats on the plane. ""Next"	 time	""""	7.725543022155762	3.536015272140503	0.0004414069408085197	0.42394131422042847	10
+633	friends_transcript	transcript	facebook/blenderbot-400M-distill	" their seats on the plane. ""Next time"	 we	""""	5.702358245849609	5.040162086486816	0.00333808409050107	0.1739433854818344	10
+634	friends_transcript	transcript	facebook/blenderbot-400M-distill	" seats on the plane. ""Next time we"	’	ve	12.789193153381348	2.4366161823272705	2.7907692583539756e-06	0.2573954463005066	10
+635	friends_transcript	transcript	facebook/blenderbot-400M-distill	" on the plane. ""Next time we’"	re	""""	13.827326774597168	5.231174468994141	9.882530775939813e-07	0.16375847160816193	10
+636	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the plane. ""Next time we’re"	 going	to	6.912848472595215	2.676473617553711	0.0009949196828529239	0.5856830477714539	10
+637	friends_transcript	transcript	facebook/blenderbot-400M-distill	" plane. ""Next time we’re going"	 to	be	4.758884429931641	4.997515678405762	0.008575167506933212	0.14038142561912537	10
+638	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""Next time we’re going to"	 the	same	6.956648826599121	5.64839506149292	0.0009522825130261481	0.08895757794380188	10
+639	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""Next time we’re going to the"	 air	place	8.20508861541748	4.771817207336426	0.0002732595312409103	0.09415508806705475	10
+640	friends_transcript	transcript	facebook/blenderbot-400M-distill	Next time we’re going to the air	port	.	14.332996368408203	3.829406499862671	5.960174576102872e-07	0.22059424221515656	10
+641	friends_transcript	transcript	facebook/blenderbot-400M-distill	ext time we’re going to the airport	 my	I	6.879083633422852	6.017699718475342	0.00102908699773252	0.12663878500461578	10
+642	friends_transcript	transcript	facebook/blenderbot-400M-distill	 time we’re going to the airport my	 way	to	6.916286468505859	5.046703815460205	0.0009915047558024526	0.0792062059044838	10
+643	friends_transcript	transcript	facebook/blenderbot-400M-distill	 we’re going to the airport my way	","""	""""	4.701563358306885	4.378923416137695	0.009081070311367512	0.26932162046432495	10
+644	friends_transcript	transcript	facebook/blenderbot-400M-distill	"’re going to the airport my way,"""	 said	by	9.23944091796875	3.83292818069458	9.713191684568301e-05	0.33368632197380066	10
+645	friends_transcript	transcript	facebook/blenderbot-400M-distill	"re going to the airport my way,"" said"	 Mon	key	7.316481590270996	3.360318660736084	0.0006644960376434028	0.4326138198375702	10
+646	friends_transcript	transcript	facebook/blenderbot-400M-distill	" going to the airport my way,"" said Mon"	ica	's	11.556951522827148	3.3788294792175293	9.569288522470742e-06	0.4363882839679718	10
+647	friends_transcript	transcript	facebook/blenderbot-400M-distill	" to the airport my way,"" said Monica"	,	I	6.212557315826416	4.725417613983154	0.002004105830565095	0.22614240646362305	10
+648	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the airport my way,"" said Monica,"	 w	ai	4.4906721115112305	5.199137210845947	0.011213104240596294	0.07175092399120331	10
+649	friends_transcript	transcript	facebook/blenderbot-400M-distill	" airport my way,"" said Monica, w"	ip	oo	4.057713508605957	5.6802849769592285	0.017288506031036377	0.0585961639881134	10
+650	friends_transcript	transcript	facebook/blenderbot-400M-distill	"port my way,"" said Monica, wip"	ing	""""	9.535759925842285	4.560870170593262	7.222242857096717e-05	0.3076331615447998	10
+651	friends_transcript	transcript	facebook/blenderbot-400M-distill	" my way,"" said Monica, wiping"	 her	""""	6.9346160888671875	5.78856897354126	0.0009734969353303313	0.05011751130223274	10
+652	friends_transcript	transcript	facebook/blenderbot-400M-distill	" way,"" said Monica, wiping her"	 fore	st	4.914792537689209	2.0243337154388428	0.007337240036576986	0.6786381602287292	10
+653	friends_transcript	transcript	facebook/blenderbot-400M-distill	","" said Monica, wiping her fore"	head	,	8.847081184387207	3.410902261734009	0.00014380090578924865	0.2818982005119324	10
+654	friends_transcript	transcript	facebook/blenderbot-400M-distill	 said Monica, wiping her forehead	.		6.767374038696289	5.409917831420898	0.0011507126037031412	0.10749742388725281	10
+655	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Monica, wiping her forehead.	" """	E	8.710197448730469	5.041062831878662	0.00016489574045408517	0.06536336243152618	10
+656	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ica, wiping her forehead. """	F	R	8.518655776977539	4.395120620727539	0.00019970770517829806	0.16640335321426392	10
+657	friends_transcript	transcript	facebook/blenderbot-400M-distill	", wiping her forehead. ""F"	our	""""	10.412955284118652	3.1165857315063477	3.0040757337701507e-05	0.4570828676223755	10
+658	friends_transcript	transcript	facebook/blenderbot-400M-distill	" wiping her forehead. ""Four"	 hours	""""	10.553776741027832	4.390270233154297	2.6094739951076917e-05	0.3102257549762726	10
+659	friends_transcript	transcript	facebook/blenderbot-400M-distill	"iping her forehead. ""Four hours"	 early	""""	11.898782730102539	3.0105068683624268	6.798672984587029e-06	0.5002074837684631	10
+660	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ing her forehead. ""Four hours early"	"."""	</s>	7.907829284667969	4.229781150817871	0.0003678521607071161	0.2296757698059082	10
+661	friends_transcript	transcript	facebook/blenderbot-400M-distill	" her forehead. ""Four hours early."""	 Cha	cha	4.831295967102051	4.677995204925537	0.00797617994248867	0.19864283502101898	10
+662	friends_transcript	transcript	facebook/blenderbot-400M-distill	" forehead. ""Four hours early."" Cha"	nd	lers	5.245891571044922	5.849606513977051	0.005269121844321489	0.046031199395656586	10
+663	friends_transcript	transcript	facebook/blenderbot-400M-distill	"head. ""Four hours early."" Chand"	ler	's	13.911826133728027	5.953465938568115	9.081771281671536e-07	0.06918064504861832	10
+664	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""Four hours early."" Chandler"	 closed	.	7.341291427612305	4.324148654937744	0.0006482130265794694	0.2881163954734802	10
+665	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""Four hours early."" Chandler closed"	 his	to	6.3663105964660645	6.260118007659912	0.00171848782338202	0.03537296876311302	10
+666	friends_transcript	transcript	facebook/blenderbot-400M-distill	"Four hours early."" Chandler closed his"	 eyes	.	7.847259998321533	3.63912296295166	0.00039082139846868813	0.35349297523498535	10
+667	friends_transcript	transcript	facebook/blenderbot-400M-distill	"our hours early."" Chandler closed his eyes"	 and	are	7.877187728881836	6.08453369140625	0.00037929811514914036	0.049205515533685684	10
+668	friends_transcript	transcript	facebook/blenderbot-400M-distill	" hours early."" Chandler closed his eyes and"	 lean	.	8.047780990600586	5.396230220794678	0.00031981096253730357	0.09151293337345123	10
+669	friends_transcript	transcript	facebook/blenderbot-400M-distill	" early."" Chandler closed his eyes and lean"	ed	.	7.426673412322998	3.3596599102020264	0.0005951641360297799	0.2978306710720062	10
+670	friends_transcript	transcript	facebook/blenderbot-400M-distill	"."" Chandler closed his eyes and leaned"	 his	O	7.2117719650268555	6.255197048187256	0.0007378485170193017	0.04227878898382187	10
+671	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Chandler closed his eyes and leaned his	 head	.	6.493571758270264	5.104735374450684	0.0015131349209696054	0.154185950756073	10
+672	friends_transcript	transcript	facebook/blenderbot-400M-distill	ndler closed his eyes and leaned his head	 back	.	5.828179836273193	3.8911685943603516	0.002943429397419095	0.3515445590019226	10
+673	friends_transcript	transcript	facebook/blenderbot-400M-distill	ler closed his eyes and leaned his head back	 on	.	6.6260576248168945	4.9465508460998535	0.001325378310866654	0.09298235923051834	10
+674	friends_transcript	transcript	facebook/blenderbot-400M-distill	 closed his eyes and leaned his head back on	 the	that	6.80504035949707	6.302292823791504	0.0011081758420914412	0.02569451555609703	10
+675	friends_transcript	transcript	facebook/blenderbot-400M-distill	 his eyes and leaned his head back on the	 seat	and	9.067842483520508	5.321603775024414	0.00011531504424056038	0.09658996015787125	10
+676	friends_transcript	transcript	facebook/blenderbot-400M-distill	 eyes and leaned his head back on the seat	 and	that	5.635671138763428	5.805979251861572	0.0035682818852365017	0.052913419902324677	10
+677	friends_transcript	transcript	facebook/blenderbot-400M-distill	 and leaned his head back on the seat and	 sm	ack	3.5604355335235596	3.9905192852020264	0.028426438570022583	0.18427740037441254	10
+678	friends_transcript	transcript	facebook/blenderbot-400M-distill	 leaned his head back on the seat and sm	iled	.	14.492057800292969	4.967739105224609	5.083690552964981e-07	0.11466073989868164	10
+679	friends_transcript	transcript	facebook/blenderbot-400M-distill	ed his head back on the seat and smiled	.		7.437222480773926	5.397144794464111	0.0005889185122214258	0.09622256457805634	10
+680	friends_transcript	transcript	facebook/blenderbot-400M-distill	 his head back on the seat and smiled.	" """	""""	7.5270538330078125	5.329927921295166	0.0005383217358030379	0.12925410270690918	10
+681	friends_transcript	transcript	facebook/blenderbot-400M-distill	" head back on the seat and smiled. """	What	""""	10.906405448913574	4.122113227844238	1.834038266679272e-05	0.2952631115913391	10
+682	friends_transcript	transcript	facebook/blenderbot-400M-distill	" back on the seat and smiled. ""What"	ever	""""	10.980167388916016	3.865934371948242	1.703624366200529e-05	0.2543390095233917	10
+683	friends_transcript	transcript	facebook/blenderbot-400M-distill	" on the seat and smiled. ""Whatever"	 you	are	5.727780342102051	3.37785267829895	0.0032542934641242027	0.2628566324710846	10
+684	friends_transcript	transcript	facebook/blenderbot-400M-distill	" the seat and smiled. ""Whatever you"	 want	to	7.011050701141357	2.8991427421569824	0.0009018605924211442	0.2886105179786682	10
+685	friends_transcript	transcript	facebook/blenderbot-400M-distill	" seat and smiled. ""Whatever you want"	"."""		8.05656623840332	4.778803825378418	0.0003170135314576328	0.2146497368812561	10
+686	friends_transcript	transcript	facebook/blenderbot-400M-distill	" and smiled. ""Whatever you want."""	 Right	now	9.895490646362305	4.157645225524902	5.040147516410798e-05	0.3045414388179779	10
+687	friends_transcript	transcript	facebook/blenderbot-400M-distill	" smiled. ""Whatever you want."" Right"	 now	.	9.435304641723633	2.3178608417510986	7.985446427483112e-05	0.6369481086730957	10
+688	friends_transcript	transcript	facebook/blenderbot-400M-distill	"iled. ""Whatever you want."" Right now"	 all	of	9.628535270690918	4.82514762878418	6.582339847227558e-05	0.15134142339229584	10
+689	friends_transcript	transcript	facebook/blenderbot-400M-distill	". ""Whatever you want."" Right now all"	 I	see	7.597428321838379	3.5591633319854736	0.0005017400835640728	0.1570890098810196	10
+690	friends_transcript	transcript	facebook/blenderbot-400M-distill	" ""Whatever you want."" Right now all I"	 can	is	5.513747215270996	3.6935977935791016	0.004030972719192505	0.19317512214183807	10
+691	friends_transcript	transcript	facebook/blenderbot-400M-distill	"Whatever you want."" Right now all I can"	 think	about	9.437060356140137	1.2507426738739014	7.971440209075809e-05	0.6661747694015503	10
+692	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ever you want."" Right now all I can think"	 is	one	4.010160446166992	4.059413909912109	0.018130488693714142	0.17954610288143158	10
+693	friends_transcript	transcript	facebook/blenderbot-400M-distill	" you want."" Right now all I can think is"	:	and	9.82198715209961	4.763418197631836	5.4245672799879685e-05	0.24381519854068756	10
+694	friends_transcript	transcript	facebook/blenderbot-400M-distill	" want."" Right now all I can think is:"	 B	ec	4.188701629638672	5.754393100738525	0.015165964141488075	0.06536319106817245	10
+695	friends_transcript	transcript	facebook/blenderbot-400M-distill	"."" Right now all I can think is: B"	erm	ud	8.054476737976074	3.6528947353363037	0.0003176765167154372	0.4665655195713043	10
+696	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Right now all I can think is: Berm	ud	a	11.690696716308594	0.17995384335517883	8.37133757158881e-06	0.9700180888175964	10
+697	friends_transcript	transcript	facebook/blenderbot-400M-distill	 now all I can think is: Bermud	a	to	7.954234600067139	5.633409023284912	0.0003511719114612788	0.06445948779582977	10
+698	friends_transcript	transcript	facebook/blenderbot-400M-distill	 all I can think is: Bermuda	,	B	6.133175373077393	4.5112528800964355	0.002169680316001177	0.14292168617248535	10
+699	friends_transcript	transcript	facebook/blenderbot-400M-distill	 I can think is: Bermuda,	 B	u	8.086568832397461	5.475770473480225	0.0003076435823459178	0.05252644047141075	10
+700	friends_transcript	transcript	facebook/blenderbot-400M-distill	 can think is: Bermuda, B	a	ha	6.526465892791748	5.4718780517578125	0.0014641713351011276	0.11797305196523666	10
+701	friends_transcript	transcript	facebook/blenderbot-400M-distill	 think is: Bermuda, Ba	ha	d	2.746687412261963	4.221367359161377	0.06413997709751129	0.16590142250061035	10
+702	friends_transcript	transcript	facebook/blenderbot-400M-distill	 is: Bermuda, Baha	ma	.	12.1932954788208	3.392359733581543	5.064297056378564e-06	0.28284314274787903	10
+703	friends_transcript	transcript	facebook/blenderbot-400M-distill	: Bermuda, Bahama	,	I	5.650735855102539	5.459150314331055	0.0035149299073964357	0.14780601859092712	10
+704	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Bermuda, Bahama,	 come	to	6.04950475692749	5.014458656311035	0.0023590298369526863	0.13871943950653076	10
+705	friends_transcript	transcript	facebook/blenderbot-400M-distill	ermuda, Bahama, come	 on	.	7.226459980010986	4.4983415603637695	0.0007270901696756482	0.2713865339756012	10
+706	friends_transcript	transcript	facebook/blenderbot-400M-distill	uda, Bahama, come on	 pretty	soon	6.062699794769287	4.757320880889893	0.0023281064350157976	0.30498912930488586	10
+707	friends_transcript	transcript	facebook/blenderbot-400M-distill	a, Bahama, come on pretty	 m	t	3.2523300647735596	4.814202308654785	0.038683973252773285	0.1759672313928604	10
+708	friends_transcript	transcript	facebook/blenderbot-400M-distill	, Bahama, come on pretty m	ama	,	7.855467319488525	4.326739311218262	0.0003876269329339266	0.25854814052581787	10
+709	friends_transcript	transcript	facebook/blenderbot-400M-distill	 Bahama, come on pretty mama	�	�	4.506288051605225	3.5638978481292725	0.01103936042636633	0.1188930943608284	10
+710	friends_transcript	transcript	facebook/blenderbot-400M-distill	ahama, come on pretty mama�	�	t	7.403405666351318	3.857290744781494	0.0006091744871810079	0.266035258769989	10
+711	friends_transcript	transcript	facebook/blenderbot-400M-distill	hama, come on pretty mama…	""""	</s>	3.390120029449463	5.390480041503906	0.03370463475584984	0.12569940090179443	10
+712	friends_transcript	transcript	facebook/blenderbot-400M-distill	"ma, come on pretty mama…"""	 Mon	a	5.860326766967773	5.044089317321777	0.0028503122739493847	0.10118822008371353	10
+713	friends_transcript	transcript	facebook/blenderbot-400M-distill	", come on pretty mama…"" Mon"	ica	,	8.671064376831055	5.5051116943359375	0.0001714765530778095	0.09923019260168076	10
+714	friends_transcript	transcript	facebook/blenderbot-400M-distill	" come on pretty mama…"" Monica"	 laughed	at	10.401518821716309	4.820930480957031	3.0386287107830867e-05	0.08725691586732864	10
+715	friends_transcript	transcript	facebook/blenderbot-400M-distill	" on pretty mama…"" Monica laughed"	.	</s>	6.183542728424072	3.9706838130950928	0.0020631058141589165	0.22613507509231567	10
+716	friends_transcript	transcript	facebook/blenderbot-400M-distill	" pretty mama…"" Monica laughed."	</s>		2.6900477409362793	5.028665065765381	0.06787770241498947	0.1479698121547699	10

@@ -1,0 +1,527 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	seinfeld_align	aligned	gpt2	jerry and george strolled through the airport	 with	their	3.7946653366088867	6.152252197265625	3.0758819775655866e-05	0.1183609887957573	10
+1	seinfeld_align	aligned	gpt2	erry and george strolled through the airport with	 their	luggage	2.3184127807617188	7.386442184448242	0.00027414108626544476	0.04003031551837921	10
+2	seinfeld_align	aligned	gpt2	 and george strolled through the airport with their	 suit	cases	6.917447090148926	0.5682877898216248	7.025165541563183e-05	0.8971778154373169	10
+3	seinfeld_align	aligned	gpt2	 george strolled through the airport with their suit	cases	.	0.11505074054002762	4.37075138092041	2.2950731093374088e-08	0.11007845401763916	10
+4	seinfeld_align	aligned	gpt2	orge strolled through the airport with their suitcases	 ge	eking	13.925630569458008	2.9937031269073486	4.3800022808682115e-07	0.296644926071167	10
+5	seinfeld_align	aligned	gpt2	 strolled through the airport with their suitcases ge	orge	ous	9.38024616241455	6.152065753936768	0.0003142925852444023	0.09351964294910431	10
+6	seinfeld_align	aligned	gpt2	rolled through the airport with their suitcases george	 walked	to	9.940577507019043	3.6611597537994385	2.215277709183283e-05	0.12227698415517807	10
+7	seinfeld_align	aligned	gpt2	 through the airport with their suitcases george walked	 quickly	to	7.438477993011475	3.529798746109009	0.00022738432744517922	0.16889095306396484	10
+8	seinfeld_align	aligned	gpt2	 the airport with their suitcases george walked quickly	 <	a	14.113365173339844	5.196926593780518	0.0002963760634884238	0.11292221397161484	10
+9	seinfeld_align	aligned	gpt2	 airport with their suitcases george walked quickly <	unk	now	13.557711601257324	2.2620842456817627	3.015892616531346e-05	0.6767740845680237	10
+10	seinfeld_align	aligned	gpt2	 with their suitcases george walked quickly <unk	>	<	4.030686855316162	7.037263870239258	0.00015053107927087694	0.027865787968039513	10
+11	seinfeld_align	aligned	gpt2	 their suitcases george walked quickly <unk>	 as	he	6.511254787445068	4.777833938598633	0.0005615753470920026	0.2285364866256714	10
+12	seinfeld_align	aligned	gpt2	 suitcases george walked quickly <unk> as	 he	walked	1.4185024499893188	6.009443283081055	0.00018966411880683154	0.0556107833981514	10
+13	seinfeld_align	aligned	gpt2	cases george walked quickly <unk> as he	 scanned	the	5.609389305114746	2.9519267082214355	2.47316656896146e-05	0.5691938996315002	10
+14	seinfeld_align	aligned	gpt2	 george walked quickly <unk> as he scanned	 the	area	0.5752436518669128	6.9576568603515625	0.0004539091023616493	0.050705309957265854	10
+15	seinfeld_align	aligned	gpt2	orge walked quickly <unk> as he scanned the	 signs	.	8.439742088317871	3.977592945098877	4.9038935685530305e-05	0.14698709547519684	10
+16	seinfeld_align	aligned	gpt2	 walked quickly <unk> as he scanned the signs	 to	see	4.395608425140381	4.202218532562256	0.00024616465088911355	0.18425308167934418	10
+17	seinfeld_align	aligned	gpt2	 quickly <unk> as he scanned the signs to	 figure	out	5.08258056640625	0.5053948163986206	2.2023648398317164e-06	0.93222975730896	10
+18	seinfeld_align	aligned	gpt2	 <unk> as he scanned the signs to figure	 out	what	0.07366426289081573	2.5615580081939697	8.487773447996005e-05	0.36451539397239685	10
+19	seinfeld_align	aligned	gpt2	unk> as he scanned the signs to figure out	 which	ones	2.5061535835266113	5.45870304107666	5.9431331465020776e-05	0.16988468170166016	10
+20	seinfeld_align	aligned	gpt2	> as he scanned the signs to figure out which	 way	to	3.185392379760742	3.107020854949951	8.818024798529223e-05	0.31560423970222473	10
+21	seinfeld_align	aligned	gpt2	 as he scanned the signs to figure out which way	 to	go	1.5091476440429688	3.0247068405151367	0.00012789989705197513	0.424565851688385	10
+22	seinfeld_align	aligned	gpt2	 he scanned the signs to figure out which way to	 go	.	0.7824389934539795	1.9536221027374268	1.933046405611094e-05	0.6186965107917786	10
+23	seinfeld_align	aligned	gpt2	 scanned the signs to figure out which way to go	 a	few	8.383745193481445	4.897814750671387	0.00043466463102959096	0.2259758561849594	10
+24	seinfeld_align	aligned	gpt2	 the signs to figure out which way to go a	 man	's	6.453054904937744	5.291671276092529	2.159193900297396e-05	0.05804048478603363	10
+25	seinfeld_align	aligned	gpt2	 signs to figure out which way to go a man	 passing	by	9.534613609313965	3.0793840885162354	0.00015375444490928203	0.38491037487983704	10
+26	seinfeld_align	aligned	gpt2	 to figure out which way to go a man passing	 by	.	0.9605213403701782	4.613290786743164	0.0026095686480402946	0.1615542620420456	10
+27	seinfeld_align	aligned	gpt2	 figure out which way to go a man passing by	 sne	aks	11.333240509033203	1.6436892747879028	1.5407277942358633e-07	0.45118939876556396	10
+28	seinfeld_align	aligned	gpt2	 out which way to go a man passing by sne	ez	ing	1.1168241500854492	0.26954060792922974	3.0948369385441765e-05	0.948194146156311	10
+29	seinfeld_align	aligned	gpt2	 which way to go a man passing by sneez	ed	and	4.01370906829834	4.127208232879639	2.4090915758279152e-05	0.1419772505760193	10
+30	seinfeld_align	aligned	gpt2	 way to go a man passing by sneezed	 in	the	3.168398380279541	4.376557350158691	0.001134016434662044	0.334388792514801	10
+31	seinfeld_align	aligned	gpt2	 to go a man passing by sneezed in	 his	face	2.6773006916046143	6.250786781311035	0.00011244299821555614	0.04125947132706642	10
+32	seinfeld_align	aligned	gpt2	 go a man passing by sneezed in his	 direction	.	4.677403926849365	2.7488017082214355	5.249957666819682e-06	0.3887675702571869	10
+33	seinfeld_align	aligned	gpt2	 a man passing by sneezed in his direction	 causing	him	8.174171447753906	3.6623711585998535	7.736196494079195e-06	0.32042232155799866	10
+34	seinfeld_align	aligned	gpt2	 man passing by sneezed in his direction causing	 him	to	1.1391627788543701	0.3146965503692627	1.38393452289165e-05	0.9698019027709961	10
+35	seinfeld_align	aligned	gpt2	 passing by sneezed in his direction causing him	 to	fall	0.04914223402738571	5.772453784942627	9.979183960240334e-05	0.07640320807695389	10
+36	seinfeld_align	aligned	gpt2	 by sneezed in his direction causing him to	 <	pause	12.64615535736084	6.647546768188477	1.443982091586804e-05	0.025037622079253197	10
+37	seinfeld_align	aligned	gpt2	 sneezed in his direction causing him to <	unk	now	11.761207580566406	3.2972404956817627	8.565234020352364e-05	0.4959154427051544	10
+38	seinfeld_align	aligned	gpt2	ezed in his direction causing him to <unk	>	fall	3.9234189987182617	6.628756046295166	0.00025050336262211204	0.04595530405640602	10
+39	seinfeld_align	aligned	gpt2	ed in his direction causing him to <unk>	 backwards	.	6.591136932373047	3.570643901824951	0.008734424598515034	0.28923556208610535	10
+40	seinfeld_align	aligned	gpt2	 in his direction causing him to <unk> backwards	 and	fall	1.9131990671157837	6.357238292694092	0.000828088668640703	0.05985793471336365	10
+41	seinfeld_align	aligned	gpt2	 his direction causing him to <unk> backwards and	 then	fall	3.960204601287842	5.869866847991943	0.0008981882710941136	0.0951097384095192	10
+42	seinfeld_align	aligned	gpt2	 direction causing him to <unk> backwards and then	 frantically	sprint	9.278273582458496	6.415024757385254	0.0013312033843249083	0.031778257340192795	10
+43	seinfeld_align	aligned	gpt2	 causing him to <unk> backwards and then frantically	 squ	irming	7.555580139160156	3.2795073986053467	5.468497192850919e-07	0.14240893721580505	10
+44	seinfeld_align	aligned	gpt2	 him to <unk> backwards and then frantically squ	irt	a	2.3118643760681152	5.1862382888793945	5.1389533837209456e-06	0.09085462987422943	10
+45	seinfeld_align	aligned	gpt2	 to <unk> backwards and then frantically squirt	 <	unk	6.169012546539307	6.261651992797852	0.00016611798491794616	0.17826303839683533	10
+46	seinfeld_align	aligned	gpt2	 <unk> backwards and then frantically squirt <	unk	>	2.1209359169006348	0.31417790055274963	2.079407863675442e-07	0.9588228464126587	10
+47	seinfeld_align	aligned	gpt2	unk> backwards and then frantically squirt <unk	>	back	0.07016374170780182	6.840878963470459	0.0001261953148059547	0.03198704123497009	10
+48	seinfeld_align	aligned	gpt2	> backwards and then frantically squirt <unk>	 onto	the	6.018463134765625	2.87668776512146	2.360572398174554e-05	0.5528641939163208	10
+49	seinfeld_align	aligned	gpt2	 backwards and then frantically squirt <unk> onto	 his	face	3.5052342414855957	5.243280410766602	5.686684016836807e-05	0.13886071741580963	10
+50	seinfeld_align	aligned	gpt2	 and then frantically squirt <unk> onto his	 hands	and	5.135309219360352	2.6439380645751953	3.7545744362432742e-06	0.30191609263420105	10
+51	seinfeld_align	aligned	gpt2	 then frantically squirt <unk> onto his hands	 j	ut	9.478715896606445	4.7814836502075195	8.080247062025592e-05	0.11894974112510681	10
+52	seinfeld_align	aligned	gpt2	 frantically squirt <unk> onto his hands j	erry	.	5.127739906311035	6.414494037628174	3.185105015290901e-05	0.04215305671095848	10
+53	seinfeld_align	aligned	gpt2	 squirt <unk> onto his hands jerry	 <	unk	3.71860671043396	4.860824108123779	9.54860879573971e-05	0.3765046298503876	10
+54	seinfeld_align	aligned	gpt2	irt <unk> onto his hands jerry <	unk	>	0.6164703965187073	0.19456572830677032	1.0123734028866238e-07	0.9756847620010376	10
+55	seinfeld_align	aligned	gpt2	 <unk> onto his hands jerry <unk	>	and	0.03327201306819916	6.646553993225098	0.0001155204008682631	0.08034573495388031	10
+56	seinfeld_align	aligned	gpt2	unk> onto his hands jerry <unk>	 up	to	6.316616535186768	4.712743759155273	0.007883497513830662	0.08915441483259201	10
+57	seinfeld_align	aligned	gpt2	> onto his hands jerry <unk> up	 behind	him	6.961297988891602	3.810920476913452	5.718793181586079e-05	0.25543898344039917	10
+58	seinfeld_align	aligned	gpt2	 onto his hands jerry <unk> up behind	 him	and	1.1878275871276855	3.9263625144958496	0.00012623867951333523	0.17163360118865967	10
+59	seinfeld_align	aligned	gpt2	 his hands jerry <unk> up behind him	 smiling	<	10.38169002532959	4.278661727905273	0.00011232561519136652	0.18385718762874603	10
+60	seinfeld_align	aligned	gpt2	 hands jerry <unk> up behind him smiling	 just	like	7.208719730377197	3.4429097175598145	0.00018845809972845018	0.25091663002967834	10
+61	seinfeld_align	aligned	gpt2	 jerry <unk> up behind him smiling just	 relax	and	9.357291221618652	5.518198490142822	0.0006637651822529733	0.0946718230843544	10
+62	seinfeld_align	aligned	gpt2	erry <unk> up behind him smiling just relax	 learn	more	12.758416175842285	5.120064735412598	0.00040719457319937646	0.16404356062412262	10
+63	seinfeld_align	aligned	gpt2	 <unk> up behind him smiling just relax learn	 to	play	1.6918563842773438	5.79370641708374	0.000235052895732224	0.03700981289148331	10
+64	seinfeld_align	aligned	gpt2	unk> up behind him smiling just relax learn to	 love	yourself	3.8365986347198486	4.685063362121582	0.0014636705163866282	0.18763262033462524	10
+65	seinfeld_align	aligned	gpt2	> up behind him smiling just relax learn to love	 the	way	3.003211498260498	7.025328159332275	0.0002376128832111135	0.049160685390233994	10
+66	seinfeld_align	aligned	gpt2	 up behind him smiling just relax learn to love the	 airport	.	11.539934158325195	4.839284896850586	0.002133757807314396	0.20170000195503235	10
+67	seinfeld_align	aligned	gpt2	 behind him smiling just relax learn to love the airport	 we	love	7.542306423187256	4.175234317779541	0.00015795037325005978	0.118886299431324	10
+68	seinfeld_align	aligned	gpt2	 him smiling just relax learn to love the airport we	're	in	2.787989377975464	4.060613632202148	8.481476356791973e-07	0.19672514498233795	10
+69	seinfeld_align	aligned	gpt2	 smiling just relax learn to love the airport we're	 all	in	3.5572757720947266	4.555180549621582	0.0007216627709567547	0.12824372947216034	10
+70	seinfeld_align	aligned	gpt2	 just relax learn to love the airport we're all	 out	here	6.8350629806518555	1.8469085693359375	0.0007735408144071698	0.4601426124572754	10
+71	seinfeld_align	aligned	gpt2	 relax learn to love the airport we're all out	 here	for	0.9715303182601929	3.9209485054016113	0.0036207670345902443	0.22064873576164246	10
+72	seinfeld_align	aligned	gpt2	 learn to love the airport we're all out here	 moving	to	7.102406978607178	3.6177151203155518	5.387434794101864e-05	0.15789398550987244	10
+73	seinfeld_align	aligned	gpt2	 to love the airport we're all out here moving	 around	.	2.761448860168457	3.705508232116699	0.0015908284112811089	0.2195226103067398	10
+74	seinfeld_align	aligned	gpt2	 love the airport we're all out here moving around	 seeing	the	8.586784362792969	4.826614856719971	8.580639405408874e-05	0.11020591855049133	10
+75	seinfeld_align	aligned	gpt2	 the airport we're all out here moving around seeing	 the	world	2.413900136947632	6.60501766204834	0.00041095350752584636	0.1039050817489624	10
+76	seinfeld_align	aligned	gpt2	 airport we're all out here moving around seeing the	 world	.	2.4157907962799072	2.9988579750061035	2.9088112569297664e-05	0.3212651014328003	10
+77	seinfeld_align	aligned	gpt2	 we're all out here moving around seeing the world	 ge	oc	13.506770133972168	3.365055561065674	6.718633812852204e-06	0.21761485934257507	10
+78	seinfeld_align	aligned	gpt2	're all out here moving around seeing the world ge	orge	.	5.486801624298096	6.393995761871338	0.0003978097520302981	0.09092844277620316	10
+79	seinfeld_align	aligned	gpt2	 all out here moving around seeing the world george	 just	like	6.223142623901367	6.629344940185547	0.0012175430310890079	0.0458751805126667	10
+80	seinfeld_align	aligned	gpt2	 out here moving around seeing the world george just	 looked	at	6.21865701675415	3.9667177200317383	1.3050232155364938e-05	0.17302638292312622	10
+81	seinfeld_align	aligned	gpt2	 here moving around seeing the world george just looked	 at	me	2.4811434745788574	2.2298974990844727	0.0002730524865910411	0.613953173160553	10
+82	seinfeld_align	aligned	gpt2	 moving around seeing the world george just looked at	 him	.	2.5096561908721924	3.511723279953003	2.7564967240323313e-05	0.2633224427700043	10
+83	seinfeld_align	aligned	gpt2	 around seeing the world george just looked at him	 like	he	2.437352180480957	2.941511869430542	0.000268336123554036	0.30290859937667847	10
+84	seinfeld_align	aligned	gpt2	 seeing the world george just looked at him like	 he	was	1.114650011062622	1.90303635597229	1.5187364624580368e-05	0.6851481795310974	10
+85	seinfeld_align	aligned	gpt2	 the world george just looked at him like he	 had	a	2.7724363803863525	4.955394744873047	0.001348186400718987	0.1744045913219452	10
+86	seinfeld_align	aligned	gpt2	 world george just looked at him like he had	 gone	to	5.018467903137207	4.043666362762451	6.991728878347203e-05	0.15067961812019348	10
+87	seinfeld_align	aligned	gpt2	 george just looked at him like he had gone	 insane	.	2.8638787269592285	2.4151620864868164	2.7505986508913338e-05	0.4989067316055298	10
+88	seinfeld_align	aligned	gpt2	orge just looked at him like he had gone insane	 they	were	10.120767593383789	5.137775421142578	7.982587703736499e-05	0.09494228661060333	10
+89	seinfeld_align	aligned	gpt2	 just looked at him like he had gone insane they	 rolled	over	6.420375823974609	3.0887515544891357	1.8173457647208124e-05	0.17538590729236603	10
+90	seinfeld_align	aligned	gpt2	 looked at him like he had gone insane they rolled	 up	their	2.353780746459961	2.5105087757110596	0.0003016580012626946	0.47678372263908386	10
+91	seinfeld_align	aligned	gpt2	 at him like he had gone insane they rolled up	 to	him	3.051856517791748	3.576383113861084	0.00023580358538310975	0.28406408429145813	10
+92	seinfeld_align	aligned	gpt2	 him like he had gone insane they rolled up to	 the	door	1.18354070186615	6.841393947601318	0.0002885621215682477	0.034313417971134186	10
+93	seinfeld_align	aligned	gpt2	 like he had gone insane they rolled up to the	 end	of	6.708465576171875	1.3137785196304321	0.00013881365885026753	0.8063317537307739	10
+94	seinfeld_align	aligned	gpt2	 he had gone insane they rolled up to the end	 of	the	0.13462451100349426	1.2460788488388062	8.384650755033363e-06	0.8218389749526978	10
+95	seinfeld_align	aligned	gpt2	 had gone insane they rolled up to the end of	 the	room	0.1979968100786209	6.245866775512695	0.00023948984744492918	0.05141209438443184	10
+96	seinfeld_align	aligned	gpt2	 gone insane they rolled up to the end of the	 security	fence	9.070935249328613	5.305790424346924	0.00042675252188928425	0.09460924565792084	10
+97	seinfeld_align	aligned	gpt2	 insane they rolled up to the end of the security	 line	and	2.6912059783935547	3.263598680496216	0.000178652408067137	0.2641393542289734	10
+98	seinfeld_align	aligned	gpt2	 they rolled up to the end of the security line	 and	began	1.42203950881958	5.998104572296143	0.0005158697022125125	0.03935237228870392	10
+99	seinfeld_align	aligned	gpt2	 rolled up to the end of the security line and	 j	ogged	8.578673362731934	2.5248587131500244	1.9940020479225495e-07	0.413171648979187	10
+100	seinfeld_align	aligned	gpt2	 up to the end of the security line and j	erry	-	4.725430011749268	3.825137138366699	4.999792508897372e-06	0.36879050731658936	10
+101	seinfeld_align	aligned	gpt2	 to the end of the security line and jerry	 pointed	to	8.402703285217285	3.1666531562805176	0.0001454872399335727	0.22525890171527863	10
+102	seinfeld_align	aligned	gpt2	 the end of the security line and jerry pointed	 to	the	1.5165013074874878	3.779296875	0.0002874290512409061	0.3708690106868744	10
+103	seinfeld_align	aligned	gpt2	 end of the security line and jerry pointed to	 the	door	1.0810236930847168	7.9905195236206055	0.00048060447443276644	0.013382929377257824	10
+104	seinfeld_align	aligned	gpt2	 of the security line and jerry pointed to the	 security	line	5.311262607574463	5.77869987487793	0.0008701246115379035	0.16033142805099487	10
+105	seinfeld_align	aligned	gpt2	 the security line and jerry pointed to the security	 guards	.	3.9222326278686523	3.687852144241333	0.00012888434866908938	0.23882946372032166	10
+106	seinfeld_align	aligned	gpt2	 security line and jerry pointed to the security guards	 checking	the	7.253396511077881	3.7097644805908203	1.9669003449962474e-05	0.3544309139251709	10
+107	seinfeld_align	aligned	gpt2	 line and jerry pointed to the security guards checking	 boarding	passes	10.929898262023926	3.8366143703460693	0.00024118009605444968	0.38381049036979675	10
+108	seinfeld_align	aligned	gpt2	 and jerry pointed to the security guards checking boarding	 passes	.	0.9005624055862427	2.8640389442443848	5.823645096825203e-06	0.279709130525589	10
+109	seinfeld_align	aligned	gpt2	 jerry pointed to the security guards checking boarding passes	 check	-	12.687007904052734	3.7833614349365234	6.132722774054855e-05	0.322861909866333	10
+110	seinfeld_align	aligned	gpt2	erry pointed to the security guards checking boarding passes check	 out	of	3.3851349353790283	4.213325500488281	0.00013292947551235557	0.3119002878665924	10
+111	seinfeld_align	aligned	gpt2	 pointed to the security guards checking boarding passes check out	 these	cards	6.57179069519043	7.558252334594727	9.123607014771551e-05	0.015325062908232212	10
+112	seinfeld_align	aligned	gpt2	 to the security guards checking boarding passes check out these	 high	-	6.910930633544922	3.629415988922119	0.0001263588637812063	0.40305230021476746	10
+113	seinfeld_align	aligned	gpt2	 the security guards checking boarding passes check out these high	 caliber	weapons	6.770858287811279	5.704826831817627	0.00048622905160300434	0.09739946573972702	10
+114	seinfeld_align	aligned	gpt2	 security guards checking boarding passes check out these high caliber	 individuals	.	9.055895805358887	3.728477716445923	1.0638519597705454e-05	0.34709346294403076	10
+115	seinfeld_align	aligned	gpt2	 guards checking boarding passes check out these high caliber individuals	 they	are	7.2422895431518555	4.916856288909912	2.0396901163621806e-05	0.08750022202730179	10
+116	seinfeld_align	aligned	gpt2	 checking boarding passes check out these high caliber individuals they	 have	to	2.875300407409668	5.629194736480713	0.00011686396464938298	0.05787777900695801	10
+117	seinfeld_align	aligned	gpt2	 boarding passes check out these high caliber individuals they have	 working	for	6.27979850769043	3.232296943664551	0.00010453031427459791	0.21678002178668976	10
+118	seinfeld_align	aligned	gpt2	 passes check out these high caliber individuals they have working	 at	the	2.885110855102539	6.446376323699951	0.00032221226138062775	0.2112324982881546	10
+119	seinfeld_align	aligned	gpt2	 check out these high caliber individuals they have working at	 x	xx	9.826045036315918	5.8780694007873535	0.0009965691715478897	0.11606592684984207	10
+120	seinfeld_align	aligned	gpt2	 out these high caliber individuals they have working at x	 ray	.	7.680349349975586	6.310405731201172	0.0006671114824712276	0.08619646728038788	10
+121	seinfeld_align	aligned	gpt2	 these high caliber individuals they have working at x ray	 security	.	7.227121353149414	4.7728352546691895	0.0016221599653363228	0.21489985287189484	10
+122	seinfeld_align	aligned	gpt2	 high caliber individuals they have working at x ray security	 how	do	9.68071174621582	3.927314281463623	0.0004131311143282801	0.16745924949645996	10
+123	seinfeld_align	aligned	gpt2	 caliber individuals they have working at x ray security how	 '	good	8.642679214477539	6.627012252807617	0.00015801098197698593	0.04427341744303703	10
+124	seinfeld_align	aligned	gpt2	 individuals they have working at x ray security how '	b	out	5.398459434509277	4.243796348571777	4.722199810203165e-05	0.31183573603630066	10
+125	seinfeld_align	aligned	gpt2	 they have working at x ray security how 'b	out	to	0.9387476444244385	5.03970193862915	9.301160389441065e-06	0.17836809158325195	10
+126	seinfeld_align	aligned	gpt2	 have working at x ray security how 'bout	 this	?	3.07692551612854	6.52397346496582	0.0007012569694779813	0.08882126957178116	10
+127	seinfeld_align	aligned	gpt2	 working at x ray security how 'bout this	 crack	er	8.972432136535645	4.9852399826049805	0.0002889112220145762	0.175585076212883	10
+128	seinfeld_align	aligned	gpt2	 at x ray security how 'bout this crack	 squad	?	9.750314712524414	6.230081081390381	0.001445646514184773	0.11592645198106766	10
+129	seinfeld_align	aligned	gpt2	 x ray security how 'bout this crack squad	 of	hackers	3.1446430683135986	7.721611976623535	0.00014002448006067425	0.022685794159770012	10
+130	seinfeld_align	aligned	gpt2	 ray security how 'bout this crack squad of	 savvy	,	9.279788970947266	7.027588844299316	0.00019163763499818742	0.05384712666273117	10
+131	seinfeld_align	aligned	gpt2	 security how 'bout this crack squad of savvy	 motivated	criminals	12.235353469848633	6.4652419090271	2.8115538952988572e-05	0.05985471233725548	10
+132	seinfeld_align	aligned	gpt2	 how 'bout this crack squad of savvy motivated	 personnel	,	7.6311492919921875	4.46083927154541	0.0003526239306665957	0.09531068056821823	10
+133	seinfeld_align	aligned	gpt2	 'bout this crack squad of savvy motivated personnel	 they	have	6.088364601135254	4.46428918838501	2.893360760936048e-05	0.14743411540985107	10
+134	seinfeld_align	aligned	gpt2	bout this crack squad of savvy motivated personnel they	've	assembled	2.3024017810821533	4.77862024307251	5.906123533350183e-06	0.10916718095541	10
+135	seinfeld_align	aligned	gpt2	out this crack squad of savvy motivated personnel they've	 chosen	to	6.190436840057373	2.874532461166382	2.5841876777121797e-05	0.3420000672340393	10
+136	seinfeld_align	aligned	gpt2	 this crack squad of savvy motivated personnel they've chosen	 to	play	0.904852032661438	5.978037357330322	0.00017096835654228926	0.03823348134756088	10
+137	seinfeld_align	aligned	gpt2	 crack squad of savvy motivated personnel they've chosen to	 stand	up	6.230493068695068	3.5468780994415283	9.478225547354668e-05	0.19913308322429657	10
+138	seinfeld_align	aligned	gpt2	 squad of savvy motivated personnel they've chosen to stand	 in	for	2.3823349475860596	2.867257833480835	0.0010307912016287446	0.28144317865371704	10
+139	seinfeld_align	aligned	gpt2	 of savvy motivated personnel they've chosen to stand in	 front	of	2.8909640312194824	0.3315817713737488	1.3973843124404084e-05	0.9591246843338013	10
+140	seinfeld_align	aligned	gpt2	 savvy motivated personnel they've chosen to stand in front	 of	.	0.03801800310611725	4.490035057067871	0.0011691739782691002	0.14611023664474487	10
+141	seinfeld_align	aligned	gpt2	 motivated personnel they've chosen to stand in front of	 x	-	12.118570327758789	5.276556968688965	0.0024744814727455378	0.11626377701759338	10
+142	seinfeld_align	aligned	gpt2	 personnel they've chosen to stand in front of x	 rays	of	8.470253944396973	4.15091609954834	9.4595794507768e-05	0.18911296129226685	10
+143	seinfeld_align	aligned	gpt2	 they've chosen to stand in front of x rays	 fourteen	times	13.582032203674316	3.1032402515411377	2.0043244148837402e-05	0.45031633973121643	10
+144	seinfeld_align	aligned	gpt2	've chosen to stand in front of x rays fourteen	 hours	a	4.879800796508789	2.6877152919769287	5.475348007166758e-05	0.4539474844932556	10
+145	seinfeld_align	aligned	gpt2	 chosen to stand in front of x rays fourteen hours	 a	day	1.0733590126037598	0.08318158984184265	8.644723266115761e-07	0.988961398601532	10
+146	seinfeld_align	aligned	gpt2	 to stand in front of x rays fourteen hours a	 day	.	0.011677835136651993	3.4439945220947266	0.0005876073846593499	0.24730539321899414	10
+147	seinfeld_align	aligned	gpt2	 stand in front of x rays fourteen hours a day	 as	a	5.7063140869140625	5.155664443969727	0.00039572507375851274	0.18245328962802887	10
+148	seinfeld_align	aligned	gpt2	 in front of x rays fourteen hours a day as	 a	result	1.7519375085830688	7.33066987991333	0.00024937657872214913	0.036804646253585815	10
+149	seinfeld_align	aligned	gpt2	 front of x rays fourteen hours a day as a	 profession	.	8.253743171691895	2.828784227371216	1.320301180385286e-05	0.3901815414428711	10
+150	seinfeld_align	aligned	gpt2	 of x rays fourteen hours a day as a profession	 they	are	7.468114376068115	5.339291572570801	5.0360824388917536e-05	0.12895327806472778	10
+151	seinfeld_align	aligned	gpt2	 x rays fourteen hours a day as a profession they	 put	their	6.087786674499512	4.466098785400391	0.00018937463755719364	0.1478881537914276	10
+152	seinfeld_align	aligned	gpt2	 rays fourteen hours a day as a profession they put	 their	lives	1.7769320011138916	4.317246913909912	6.718176155118272e-05	0.3436974883079529	10
+153	seinfeld_align	aligned	gpt2	 fourteen hours a day as a profession they put their	 bags	in	10.624963760375977	2.808396816253662	4.145667116972618e-05	0.25674203038215637	10
+154	seinfeld_align	aligned	gpt2	 hours a day as a profession they put their bags	 on	the	1.505273461341858	3.80991530418396	0.0007512521697208285	0.30674058198928833	10
+155	seinfeld_align	aligned	gpt2	 a day as a profession they put their bags on	 the	floor	1.1700254678726196	4.001184940338135	0.00010809140803758055	0.22997887432575226	10
+156	seinfeld_align	aligned	gpt2	 day as a profession they put their bags on the	 convey	or	6.7839765548706055	0.885430634021759	1.9697459720191546e-05	0.7958360910415649	10
+157	seinfeld_align	aligned	gpt2	 as a profession they put their bags on the convey	or	belt	0.26975440979003906	0.540621817111969	8.553026020763355e-08	0.8748407959938049	10
+158	seinfeld_align	aligned	gpt2	 a profession they put their bags on the conveyor	 belt	and	0.08620922267436981	3.41462779045105	0.00241427356377244	0.21465152502059937	10
+159	seinfeld_align	aligned	gpt2	 profession they put their bags on the conveyor belt	 and	they	1.6455670595169067	6.696862697601318	0.0008150614448823035	0.026863552629947662	10
+160	seinfeld_align	aligned	gpt2	 they put their bags on the conveyor belt and	 stepped	out	5.642190456390381	3.067854881286621	1.1982230034845998e-06	0.22448834776878357	10
+161	seinfeld_align	aligned	gpt2	 put their bags on the conveyor belt and stepped	 through	the	3.8822388648986816	2.3949124813079834	0.003325356636196375	0.5828801989555359	10
+162	seinfeld_align	aligned	gpt2	 their bags on the conveyor belt and stepped through	 the	door	0.6172059774398804	5.6926350593566895	0.00038850627606734633	0.1708257645368576	10
+163	seinfeld_align	aligned	gpt2	 bags on the conveyor belt and stepped through the	 scanners	.	11.168878555297852	2.9707820415496826	4.3539086618693545e-05	0.3372851014137268	10
+164	seinfeld_align	aligned	gpt2	 on the conveyor belt and stepped through the scanners	 as	they	3.8350272178649902	4.3142547607421875	0.0002681779151316732	0.1579892337322235	10
+165	seinfeld_align	aligned	gpt2	 the conveyor belt and stepped through the scanners as	 they	were	1.8145420551300049	5.564966678619385	5.590163345914334e-05	0.055511780083179474	10
+166	seinfeld_align	aligned	gpt2	 conveyor belt and stepped through the scanners as they	 retrieved	the	7.965333938598633	4.681554794311523	2.970093373733107e-05	0.3200070261955261	10
+167	seinfeld_align	aligned	gpt2	or belt and stepped through the scanners as they retrieved	 their	weapons	2.5220675468444824	5.868387222290039	5.146583134774119e-05	0.2103794664144516	10
+168	seinfeld_align	aligned	gpt2	 belt and stepped through the scanners as they retrieved their	 shoes	.	7.740601062774658	1.7413828372955322	1.6876161680556834e-05	0.5729389786720276	10
+169	seinfeld_align	aligned	gpt2	 and stepped through the scanners as they retrieved their shoes	 j	ut	11.753118515014648	3.5590407848358154	3.295960596005898e-06	0.15478865802288055	10
+170	seinfeld_align	aligned	gpt2	 stepped through the scanners as they retrieved their shoes j	erry	cans	4.91986083984375	2.011942148208618	4.378113374059467e-07	0.4554928243160248	10
+171	seinfeld_align	aligned	gpt2	 through the scanners as they retrieved their shoes jerry	 <	span	14.79241943359375	4.964394569396973	0.00028465574723668396	0.1199709102511406	10
+172	seinfeld_align	aligned	gpt2	 the scanners as they retrieved their shoes jerry <	unk	>	11.84321117401123	3.1206798553466797	2.137078990926966e-05	0.545914888381958	10
+173	seinfeld_align	aligned	gpt2	 scanners as they retrieved their shoes jerry <unk	>	j	0.6635271310806274	7.247440814971924	2.6028921638499014e-05	0.05585694685578346	10
+174	seinfeld_align	aligned	gpt2	 as they retrieved their shoes jerry <unk>	 over	the	7.282258987426758	4.021318435668945	0.0002732863649725914	0.246614471077919	10
+175	seinfeld_align	aligned	gpt2	 they retrieved their shoes jerry <unk> over	 at	the	3.5465753078460693	6.477937698364258	0.00022762338630855083	0.13576436042785645	10
+176	seinfeld_align	aligned	gpt2	 retrieved their shoes jerry <unk> over at	 the	store	2.16833758354187	8.1043062210083	0.00042589291115291417	0.02335430681705475	10
+177	seinfeld_align	aligned	gpt2	 their shoes jerry <unk> over at the	 x	box	6.805685043334961	6.108392238616943	0.0006200331263244152	0.10589662939310074	10
+178	seinfeld_align	aligned	gpt2	 shoes jerry <unk> over at the x	 ray	site	8.692388534545898	7.4171576499938965	0.0012922289315611124	0.030053379014134407	10
+179	seinfeld_align	aligned	gpt2	 jerry <unk> over at the x ray	 tv	show	7.91555118560791	6.294309139251709	0.0008557329420000315	0.07247352600097656	10
+180	seinfeld_align	aligned	gpt2	erry <unk> over at the x ray tv	 screen	.	7.061464309692383	5.885003089904785	0.0005553094088099897	0.0900648981332779	10
+181	seinfeld_align	aligned	gpt2	 <unk> over at the x ray tv screen	 what	's	7.665318489074707	4.595727920532227	0.0014622712042182684	0.10522956401109695	10
+182	seinfeld_align	aligned	gpt2	unk> over at the x ray tv screen what	 do	you	2.6439998149871826	1.2385560274124146	0.00032642381847836077	0.7923964858055115	10
+183	seinfeld_align	aligned	gpt2	> over at the x ray tv screen what do	 you	think	0.3770827651023865	2.685016393661499	0.0002632149844430387	0.31056612730026245	10
+184	seinfeld_align	aligned	gpt2	 over at the x ray tv screen what do you	 think	of	1.2708280086517334	3.6534719467163086	1.3605589629150927e-05	0.21575318276882172	10
+185	seinfeld_align	aligned	gpt2	 at the x ray tv screen what do you think	 they	are	4.395005226135254	3.4557042121887207	8.010445162653923e-05	0.2345842719078064	10
+186	seinfeld_align	aligned	gpt2	 the x ray tv screen what do you think they	're	doing	2.6916332244873047	3.047929286956787	9.46360614761943e-06	0.4590842127799988	10
+187	seinfeld_align	aligned	gpt2	 x ray tv screen what do you think they're	 looking	at	3.6024348735809326	0.9864107966423035	4.787105353898369e-05	0.5431137681007385	10
+188	seinfeld_align	aligned	gpt2	 ray tv screen what do you think they're looking	 for	?	0.789267361164093	2.898883104324341	0.004597154911607504	0.5326414704322815	10
+189	seinfeld_align	aligned	gpt2	 tv screen what do you think they're looking for	 on	the	4.305872440338135	4.375718593597412	0.00018651940627023578	0.22610679268836975	10
+190	seinfeld_align	aligned	gpt2	 screen what do you think they're looking for on	 that	particular	3.023550271987915	6.8582611083984375	0.00029400610947050154	0.0529593750834465	10
+191	seinfeld_align	aligned	gpt2	 what do you think they're looking for on that	 thing	?	6.7806243896484375	2.538116693496704	0.00019711308414116502	0.46768221259117126	10
+192	seinfeld_align	aligned	gpt2	 do you think they're looking for on that thing	 i	'm	9.582073211669922	4.4187798500061035	4.483011434786022e-05	0.1310679167509079	10
+193	seinfeld_align	aligned	gpt2	 you think they're looking for on that thing i	 can	't	3.17325758934021	4.508655071258545	8.067482121987268e-05	0.2485370934009552	10
+194	seinfeld_align	aligned	gpt2	 think they're looking for on that thing i can	't	see	1.2003036737442017	4.335711479187012	0.000410080625442788	0.07935153692960739	10
+195	seinfeld_align	aligned	gpt2	 they're looking for on that thing i can't	 make	it	4.3793487548828125	4.170629978179932	0.00021303404355421662	0.22462064027786255	10
+196	seinfeld_align	aligned	gpt2	're looking for on that thing i can't make	 out	.	2.686923027038574	4.54523229598999	0.0006353624048642814	0.14006416499614716	10
+197	seinfeld_align	aligned	gpt2	 looking for on that thing i can't make out	 one	way	7.617169380187988	4.325557231903076	0.000669630360789597	0.22350665926933289	10
+198	seinfeld_align	aligned	gpt2	 for on that thing i can't make out one	 object	.	9.068526268005371	4.712229251861572	0.00029719609301537275	0.10708905756473541	10
+199	seinfeld_align	aligned	gpt2	 on that thing i can't make out one object	 what	it	7.570270538330078	4.734823703765869	0.0037304095458239317	0.1485452950000763	10
+200	seinfeld_align	aligned	gpt2	 that thing i can't make out one object what	's	the	4.086302280426025	5.261317253112793	0.0001354926498606801	0.06309879571199417	10
+201	seinfeld_align	aligned	gpt2	 thing i can't make out one object what's	 that	?	4.7727251052856445	5.020386695861816	0.004349980968981981	0.25330880284309387	10
+202	seinfeld_align	aligned	gpt2	 i can't make out one object what's that	 a	thing	6.449672698974609	7.233683109283447	0.0006106917280703783	0.07424980401992798	10
+203	seinfeld_align	aligned	gpt2	 can't make out one object what's that a	 <	?	9.740516662597656	6.365324020385742	0.000153899090946652	0.10773248225450516	10
+204	seinfeld_align	aligned	gpt2	't make out one object what's that a <	unk	now	11.836784362792969	5.311489105224609	0.00041588873136788607	0.16014280915260315	10
+205	seinfeld_align	aligned	gpt2	 make out one object what's that a <unk	>	?	2.926349401473999	4.854140281677246	0.00013730845239479095	0.1369200348854065	10
+206	seinfeld_align	aligned	gpt2	 out one object what's that a <unk>	 with	?	4.937361717224121	4.652012348175049	0.001116272178478539	0.2377600222826004	10
+207	seinfeld_align	aligned	gpt2	 one object what's that a <unk> with	 a	<	2.510073184967041	6.117503643035889	0.0007099068607203662	0.16483068466186523	10
+208	seinfeld_align	aligned	gpt2	 object what's that a <unk> with a	 scope	of	7.458625316619873	4.395895957946777	0.007847868837416172	0.198189377784729	10
+209	seinfeld_align	aligned	gpt2	 what's that a <unk> with a scope	 on	it	4.76418924331665	3.631225347518921	0.000598130514845252	0.3494797348976135	10
+210	seinfeld_align	aligned	gpt2	's that a <unk> with a scope on	 it	is	1.8210822343826294	4.5288004875183105	0.00039691748679615557	0.12749673426151276	10
+211	seinfeld_align	aligned	gpt2	 that a <unk> with a scope on it	 look	like	10.685901641845703	3.5644705295562744	0.00011475443170638755	0.49047186970710754	10
+212	seinfeld_align	aligned	gpt2	 a <unk> with a scope on it look	 there	.	7.360875129699707	4.586971282958984	0.001476326840929687	0.15076416730880737	10
+213	seinfeld_align	aligned	gpt2	 <unk> with a scope on it look there	's	a	2.700537919998169	4.07931661605835	3.385692980373278e-05	0.23571161925792694	10
+214	seinfeld_align	aligned	gpt2	unk> with a scope on it look there's	 some	kind	3.220674991607666	7.52677059173584	0.0006731938337907195	0.03927667811512947	10
+215	seinfeld_align	aligned	gpt2	> with a scope on it look there's some	 sort	of	3.646108865737915	0.14934302866458893	8.52933862915961e-06	0.986841082572937	10
+216	seinfeld_align	aligned	gpt2	 with a scope on it look there's some sort	 of	a	0.012826208025217056	8.336644172668457	9.016080730361864e-05	0.012933686375617981	10
+217	seinfeld_align	aligned	gpt2	 a scope on it look there's some sort of	 bowling	ball	12.101791381835938	6.763937473297119	0.0007773485849611461	0.05760441720485687	10
+218	seinfeld_align	aligned	gpt2	 scope on it look there's some sort of bowling	 ball	.	2.9583327770233154	5.399260520935059	0.0011936378432437778	0.07209251075983047	10
+219	seinfeld_align	aligned	gpt2	 on it look there's some sort of bowling ball	 candle	.	15.021537780761719	5.092716693878174	0.00045255254372023046	0.09732755273580551	10
+220	seinfeld_align	aligned	gpt2	 it look there's some sort of bowling ball candle	 would	be	8.717842102050781	4.074863433837891	7.629799074493349e-05	0.33054888248443604	10
+221	seinfeld_align	aligned	gpt2	 look there's some sort of bowling ball candle would	 you	like	4.4679155349731445	3.443331003189087	0.000344438711181283	0.4288463592529297	10
+222	seinfeld_align	aligned	gpt2	 there's some sort of bowling ball candle would you	 stop	and	7.802127838134766	4.631572246551514	5.257259545032866e-06	0.10568974912166595	10
+223	seinfeld_align	aligned	gpt2	's some sort of bowling ball candle would you stop	 it	?	3.6054368019104004	3.3708407878875732	0.000350243499269709	0.23374487459659576	10
+224	seinfeld_align	aligned	gpt2	 some sort of bowling ball candle would you stop it	 snapped	?	14.690797805786133	4.278633117675781	6.884172762511298e-05	0.15051531791687012	10
+225	seinfeld_align	aligned	gpt2	 sort of bowling ball candle would you stop it snapped	 ge	orge	13.183019638061523	4.389986038208008	5.3832714911550283e-05	0.14225046336650848	10
+226	seinfeld_align	aligned	gpt2	 of bowling ball candle would you stop it snapped ge	orge	?	2.211946487426758	6.245507717132568	3.3985977552219993e-06	0.20544272661209106	10
+227	seinfeld_align	aligned	gpt2	 bowling ball candle would you stop it snapped george	 let	's	9.026538848876953	3.808645486831665	0.00014895436470396817	0.2751666009426117	10
+228	seinfeld_align	aligned	gpt2	 ball candle would you stop it snapped george let	's	go	1.3338892459869385	4.9001970291137695	3.400397326913662e-05	0.07373440265655518	10
+229	seinfeld_align	aligned	gpt2	 candle would you stop it snapped george let's	 turn	it	6.302613735198975	3.464189291000366	0.00029465346597135067	0.2371542751789093	10
+230	seinfeld_align	aligned	gpt2	 would you stop it snapped george let's turn	 off	the	2.7520127296447754	3.981199264526367	0.0009175494196824729	0.4810188412666321	10
+231	seinfeld_align	aligned	gpt2	 you stop it snapped george let's turn off	 the	lights	0.7047533988952637	6.991193771362305	0.0005628191283904016	0.07301843911409378	10
+232	seinfeld_align	aligned	gpt2	 stop it snapped george let's turn off the	 comedy	.	10.857125282287598	5.93928337097168	0.00014689250383526087	0.11169681698083878	10
+233	seinfeld_align	aligned	gpt2	 it snapped george let's turn off the comedy	 routine	and	5.874208450317383	3.983848810195923	0.00010708066110964864	0.20324012637138367	10
+234	seinfeld_align	aligned	gpt2	 snapped george let's turn off the comedy routine	 for	a	3.4012258052825928	3.751401424407959	0.00019065018568653613	0.36950281262397766	10
+235	seinfeld_align	aligned	gpt2	 george let's turn off the comedy routine for	 a	moment	0.8998957872390747	2.1222150325775146	5.623796096188016e-05	0.334485799074173	10
+236	seinfeld_align	aligned	gpt2	orge let's turn off the comedy routine for a	 minute	.	1.8840988874435425	2.3861258029937744	8.960598279372789e-06	0.3395584523677826	10
+237	seinfeld_align	aligned	gpt2	 let's turn off the comedy routine for a minute	 can	be	11.335494041442871	4.1121296882629395	0.0001833395945141092	0.19862143695354462	10
+238	seinfeld_align	aligned	gpt2	's turn off the comedy routine for a minute can	 we	see	7.576258659362793	4.865759372711182	0.0005123901646584272	0.08032429218292236	10
+239	seinfeld_align	aligned	gpt2	 turn off the comedy routine for a minute can we	 they	are	10.506528854370117	6.3940019607543945	0.005498846992850304	0.04977869614958763	10
+240	seinfeld_align	aligned	gpt2	 off the comedy routine for a minute can we they	 walked	into	10.275238990783691	3.9065937995910645	1.0956652658933308e-05	0.1132822036743164	10
+241	seinfeld_align	aligned	gpt2	 the comedy routine for a minute can we they walked	 past	the	4.556052207946777	4.503332138061523	0.00016599424998275936	0.15251524746418	10
+242	seinfeld_align	aligned	gpt2	 comedy routine for a minute can we they walked past	 the	door	2.0458450317382812	7.993955612182617	0.00039774872129783034	0.027501923963427544	10
+243	seinfeld_align	aligned	gpt2	 routine for a minute can we they walked past the	 gift	shop	9.25832462310791	2.254462718963623	8.243518823292106e-05	0.6700003743171692	10
+244	seinfeld_align	aligned	gpt2	 for a minute can we they walked past the gift	 shops	and	3.9791011810302734	3.7949931621551514	3.803700383286923e-05	0.22822237014770508	10
+245	seinfeld_align	aligned	gpt2	 a minute can we they walked past the gift shops	 looking	for	5.427915573120117	2.7712655067443848	0.0003734904748853296	0.4913175106048584	10
+246	seinfeld_align	aligned	gpt2	 minute can we they walked past the gift shops looking	 for	something	0.5918218493461609	5.60573673248291	0.00030931420042179525	0.14804497361183167	10
+247	seinfeld_align	aligned	gpt2	 can we they walked past the gift shops looking for	 some	kind	3.338517189025879	7.285660266876221	0.0011087460443377495	0.03278175741434097	10
+248	seinfeld_align	aligned	gpt2	 we they walked past the gift shops looking for some	 snacks	.	5.671458721160889	2.7596819400787354	6.9307889134506695e-06	0.32933589816093445	10
+249	seinfeld_align	aligned	gpt2	 they walked past the gift shops looking for some snacks	 to	eat	3.144404888153076	4.104626655578613	8.100237755570561e-05	0.2613406777381897	10
+250	seinfeld_align	aligned	gpt2	 walked past the gift shops looking for some snacks to	 take	home	2.8228187561035156	0.7875604629516602	8.271367732959334e-06	0.8480177521705627	10
+251	seinfeld_align	aligned	gpt2	 past the gift shops looking for some snacks to take	 on	the	5.803571701049805	3.8765125274658203	0.0024239886552095413	0.3177512586116791	10
+252	seinfeld_align	aligned	gpt2	 the gift shops looking for some snacks to take on	 the	day	1.1689611673355103	6.206076145172119	0.00035904956166632473	0.08483830839395523	10
+253	seinfeld_align	aligned	gpt2	 gift shops looking for some snacks to take on the	 plane	.	7.768222332000732	3.1881887912750244	0.000275535712717101	0.35092565417289734	10
+254	seinfeld_align	aligned	gpt2	 shops looking for some snacks to take on the plane	 ge	oc	15.321779251098633	4.160616397857666	1.3307159861142281e-05	0.15911678969860077	10
+255	seinfeld_align	aligned	gpt2	 looking for some snacks to take on the plane ge	orge	.	3.805906295776367	5.583220958709717	3.130450932076201e-05	0.21774226427078247	10
+256	seinfeld_align	aligned	gpt2	 for some snacks to take on the plane george	 <	3	8.00941276550293	5.8394951820373535	0.00025980183272622526	0.16390585899353027	10
+257	seinfeld_align	aligned	gpt2	 some snacks to take on the plane george <	unk	now	10.858640670776367	5.303754806518555	7.290906069101766e-05	0.1545366495847702	10
+258	seinfeld_align	aligned	gpt2	 snacks to take on the plane george <unk	>	I	2.8275461196899414	7.243976593017578	2.6881443773163483e-05	0.025964437052607536	10
+259	seinfeld_align	aligned	gpt2	 to take on the plane george <unk>	 in	the	6.029869079589844	6.0422682762146	0.0004904834204353392	0.1426481306552887	10
+260	seinfeld_align	aligned	gpt2	 take on the plane george <unk> in	 to	the	6.546693801879883	6.937917232513428	0.000815585080999881	0.06683284044265747	10
+261	seinfeld_align	aligned	gpt2	 on the plane george <unk> in to	 look	at	6.118420600891113	2.5337111949920654	0.00015916848496999592	0.5508832335472107	10
+262	seinfeld_align	aligned	gpt2	 the plane george <unk> in to look	 at	the	0.679847776889801	4.773268699645996	0.00042193944682367146	0.2618037462234497	10
+263	seinfeld_align	aligned	gpt2	 plane george <unk> in to look at	 the	map	1.6542505025863647	8.05601978302002	0.0006573124555870891	0.02402874082326889	10
+264	seinfeld_align	aligned	gpt2	 george <unk> in to look at the	 price	of	8.353828430175781	4.783869743347168	0.0005381856462918222	0.2684159576892853	10
+265	seinfeld_align	aligned	gpt2	orge <unk> in to look at the price	 tags	.	5.713438987731934	4.242545127868652	7.000609184615314e-05	0.133621484041214	10
+266	seinfeld_align	aligned	gpt2	 <unk> in to look at the price tags	 and	see	2.676659345626831	5.92676305770874	0.0007247140747494996	0.15253160893917084	10
+267	seinfeld_align	aligned	gpt2	unk> in to look at the price tags and	 shook	my	13.43587589263916	1.8492681980133057	1.3481014775607036e-06	0.534646213054657	10
+268	seinfeld_align	aligned	gpt2	> in to look at the price tags and shook	 head	.	6.669564247131348	4.724483013153076	0.00033699412597343326	0.25064054131507874	10
+269	seinfeld_align	aligned	gpt2	 in to look at the price tags and shook head	 do	you	9.865067481994629	5.349304676055908	0.00019888277165591717	0.1118018701672554	10
+270	seinfeld_align	aligned	gpt2	 to look at the price tags and shook head do	 the	same	3.4919776916503906	7.045047283172607	0.0006300426321104169	0.12391488999128342	10
+271	seinfeld_align	aligned	gpt2	 look at the price tags and shook head do the	 people	who	4.111414909362793	5.208108901977539	0.00015258652274496853	0.11044080555438995	10
+272	seinfeld_align	aligned	gpt2	 at the price tags and shook head do the people	 that	are	4.156111240386963	5.924643039703369	0.00024343405675608665	0.056851185858249664	10
+273	seinfeld_align	aligned	gpt2	 the price tags and shook head do the people that	 work	for	3.6130852699279785	2.6959524154663086	8.84464243426919e-05	0.1919868141412735	10
+274	seinfeld_align	aligned	gpt2	 price tags and shook head do the people that work	 shops	and	13.482489585876465	5.327525615692139	4.841013651457615e-05	0.0768173336982727	10
+275	seinfeld_align	aligned	gpt2	 tags and shook head do the people that work shops	 have	to	4.4825029373168945	4.542306900024414	0.00012194745795568451	0.28469318151474	10
+276	seinfeld_align	aligned	gpt2	 and shook head do the people that work shops have	 any	idea	6.553928375244141	5.297667503356934	0.0003437364939600229	0.1796400099992752	10
+277	seinfeld_align	aligned	gpt2	 shook head do the people that work shops have any	 idea	what	1.5086348056793213	2.4136176109313965	4.52225958724739e-06	0.37844282388687134	10
+278	seinfeld_align	aligned	gpt2	 head do the people that work shops have any idea	 what	they	1.0190168619155884	3.9573111534118652	0.002137606032192707	0.27284371852874756	10
+279	seinfeld_align	aligned	gpt2	 do the people that work shops have any idea what	 the	hell	2.4805495738983154	6.833941459655762	0.0003780023253057152	0.03221557289361954	10
+280	seinfeld_align	aligned	gpt2	 the people that work shops have any idea what the	 prices	are	4.522640228271484	1.8052477836608887	4.32354754593689e-05	0.6385611295700073	10
+281	seinfeld_align	aligned	gpt2	 people that work shops have any idea what the prices	 are	.	0.4256056547164917	3.2645936012268066	0.00043613926391117275	0.28078752756118774	10
+282	seinfeld_align	aligned	gpt2	 that work shops have any idea what the prices are	 every	day	8.898650169372559	2.395375967025757	3.3575688576092944e-05	0.45170435309410095	10
+283	seinfeld_align	aligned	gpt2	 work shops have any idea what the prices are every	 place	.	7.226442337036133	3.6309940814971924	8.647504728287458e-06	0.14564979076385498	10
+284	seinfeld_align	aligned	gpt2	 shops have any idea what the prices are every place	 else	.	3.169140577316284	3.297090768814087	0.0008627852075733244	0.2052105963230133	10
+285	seinfeld_align	aligned	gpt2	 have any idea what the prices are every place else	 in	the	1.63974928855896	2.6770119667053223	8.286740921903402e-05	0.6304353475570679	10
+286	seinfeld_align	aligned	gpt2	 any idea what the prices are every place else in	 the	world	0.4227883815765381	1.8259243965148926	9.221568325301632e-05	0.7399641275405884	10
+287	seinfeld_align	aligned	gpt2	 idea what the prices are every place else in the	 world	.	0.2936035692691803	2.892669439315796	4.708511369244661e-06	0.38186827301979065	10
+288	seinfeld_align	aligned	gpt2	 what the prices are every place else in the world	 yeah	,	11.763978004455566	4.705386638641357	0.044176340103149414	0.153774693608284	10
+289	seinfeld_align	aligned	gpt2	 the prices are every place else in the world yeah	 eight	years	11.056222915649414	5.699512481689453	0.0012164335930719972	0.05834158509969711	10
+290	seinfeld_align	aligned	gpt2	 prices are every place else in the world yeah eight	 dollars	a	4.085573196411133	4.912524700164795	0.0008296594605781138	0.08140416443347931	10
+291	seinfeld_align	aligned	gpt2	 are every place else in the world yeah eight dollars	 for	a	2.6549739837646484	5.188048839569092	0.0004207765741739422	0.2722998261451721	10
+292	seinfeld_align	aligned	gpt2	 every place else in the world yeah eight dollars for	 a	car	1.35918390750885	7.274471282958984	0.0002860761305782944	0.015012616291642189	10
+293	seinfeld_align	aligned	gpt2	 place else in the world yeah eight dollars for a	 candy	bar	8.351056098937988	3.640735149383545	0.00047508798888884485	0.472646564245224	10
+294	seinfeld_align	aligned	gpt2	 else in the world yeah eight dollars for a candy	 bar	,	0.8189926147460938	4.836836814880371	0.002583929803222418	0.11831188201904297	10
+295	seinfeld_align	aligned	gpt2	 in the world yeah eight dollars for a candy bar	 that	's	3.949525833129883	4.385030269622803	0.00031912277336232364	0.17804282903671265	10
+296	seinfeld_align	aligned	gpt2	 the world yeah eight dollars for a candy bar that	's	not	1.8493692874908447	5.957966327667236	1.9658493329188786e-05	0.0468536913394928	10
+297	seinfeld_align	aligned	gpt2	 world yeah eight dollars for a candy bar that's	 fair	and	8.13426685333252	3.7692129611968994	0.0007879140903241932	0.10965436697006226	10
+298	seinfeld_align	aligned	gpt2	 yeah eight dollars for a candy bar that's fair	 that	's	7.0629425048828125	4.66316556930542	0.0014893083134666085	0.22159014642238617	10
+299	seinfeld_align	aligned	gpt2	 eight dollars for a candy bar that's fair that	's	fair	2.2021260261535645	5.770877838134766	3.090050086029805e-05	0.16256766021251678	10
+300	seinfeld_align	aligned	gpt2	 dollars for a candy bar that's fair that's	 what	you	6.707417964935303	4.1174421310424805	0.00012812761997338384	0.1360364407300949	10
+301	seinfeld_align	aligned	gpt2	 for a candy bar that's fair that's what	 we	're	2.2253994941711426	4.206022262573242	7.909732084954157e-05	0.22287671267986298	10
+302	seinfeld_align	aligned	gpt2	 a candy bar that's fair that's what we	 charge	for	7.46174430847168	3.422095775604248	2.3804796001059003e-05	0.2760041356086731	10
+303	seinfeld_align	aligned	gpt2	 candy bar that's fair that's what we charge	 in	the	4.4348225593566895	5.580492973327637	0.0024372341576963663	0.1465088129043579	10
+304	seinfeld_align	aligned	gpt2	 bar that's fair that's what we charge in	 our	stores	2.6891984939575195	6.824099063873291	0.00013998540816828609	0.04631846770644188	10
+305	seinfeld_align	aligned	gpt2	 that's fair that's what we charge in our	 country	.	5.528473854064941	2.99729323387146	2.250472789455671e-05	0.27960672974586487	10
+306	seinfeld_align	aligned	gpt2	's fair that's what we charge in our country	 after	all	7.290165424346924	3.4800524711608887	8.467653242405504e-05	0.5108429193496704	10
+307	seinfeld_align	aligned	gpt2	 fair that's what we charge in our country after	 waiting	for	9.945954322814941	4.137706756591797	0.00011174406972713768	0.24311009049415588	10
+308	seinfeld_align	aligned	gpt2	 that's what we charge in our country after waiting	 for	a	1.4019383192062378	5.2326202392578125	0.0005862050456926227	0.09605208039283752	10
+309	seinfeld_align	aligned	gpt2	's what we charge in our country after waiting for	 their	money	5.365738868713379	7.505882740020752	0.00013619639503303915	0.021919284015893936	10
+310	seinfeld_align	aligned	gpt2	 what we charge in our country after waiting for their	 turn	to	4.66042947769165	3.2642712593078613	2.5192628527292982e-05	0.261736661195755	10
+311	seinfeld_align	aligned	gpt2	 we charge in our country after waiting for their turn	 to	pay	1.3422894477844238	5.570586681365967	0.0001331230450887233	0.07546200603246689	10
+312	seinfeld_align	aligned	gpt2	 charge in our country after waiting for their turn to	 board	a	6.524097919464111	3.4222211837768555	0.00017520530673209578	0.2965547442436218	10
+313	seinfeld_align	aligned	gpt2	 in our country after waiting for their turn to board	 they	were	9.443060874938965	6.108861446380615	0.00020663476607296616	0.09874112159013748	10
+314	seinfeld_align	aligned	gpt2	 our country after waiting for their turn to board they	 marched	in	8.632493019104004	4.085738658905029	2.638106707308907e-05	0.11534029990434647	10
+315	seinfeld_align	aligned	gpt2	 country after waiting for their turn to board they marched	 down	the	3.312091112136841	4.28941535949707	0.00012096073623979464	0.40429309010505676	10
+316	seinfeld_align	aligned	gpt2	 after waiting for their turn to board they marched down	 the	street	0.7741337418556213	5.641836166381836	0.0005122877773828804	0.1332470029592514	10
+317	seinfeld_align	aligned	gpt2	 waiting for their turn to board they marched down the	 <	a	12.73059368133545	6.424424171447754	0.00013141671661287546	0.10018249601125717	10
+318	seinfeld_align	aligned	gpt2	 for their turn to board they marched down the <	unk	now	11.502400398254395	4.0904927253723145	0.0002655991120263934	0.3839074671268463	10
+319	seinfeld_align	aligned	gpt2	 their turn to board they marched down the <unk	>	to	2.280855655670166	7.160033702850342	0.0007019495824351907	0.026115547865629196	10
+320	seinfeld_align	aligned	gpt2	 turn to board they marched down the <unk>	 and	into	3.7298731803894043	6.266364574432373	0.0011445474810898304	0.03963489830493927	10
+321	seinfeld_align	aligned	gpt2	 to board they marched down the <unk> and	 onto	the	4.527801036834717	2.3853719234466553	2.099485573126003e-05	0.7196463942527771	10
+322	seinfeld_align	aligned	gpt2	 board they marched down the <unk> and onto	 the	<	0.35214969515800476	6.3069167137146	0.0005667563527822495	0.13372352719306946	10
+323	seinfeld_align	aligned	gpt2	 they marched down the <unk> and onto the	 plane	.	7.430209159851074	3.3357865810394287	0.0002734938752837479	0.37114396691322327	10
+324	seinfeld_align	aligned	gpt2	 marched down the <unk> and onto the plane	 ge	ys	13.407037734985352	4.385491847991943	1.587105361977592e-05	0.15537771582603455	10
+325	seinfeld_align	aligned	gpt2	 down the <unk> and onto the plane ge	orge	.	5.459441661834717	6.079816818237305	8.190553489839658e-05	0.1678333282470703	10
+326	seinfeld_align	aligned	gpt2	 the <unk> and onto the plane george	 struggled	to	10.9566068649292	3.0879709720611572	4.06448771173018e-06	0.42247170209884644	10
+327	seinfeld_align	aligned	gpt2	 <unk> and onto the plane george struggled	 to	get	0.917356014251709	5.511078357696533	0.000267685652943328	0.12899446487426758	10
+328	seinfeld_align	aligned	gpt2	unk> and onto the plane george struggled to	 get	up	1.7510883808135986	4.202993869781494	9.254068572772667e-05	0.09118852019309998	10
+329	seinfeld_align	aligned	gpt2	> and onto the plane george struggled to get	 into	the	3.5190072059631348	3.4472668170928955	7.049134728731588e-05	0.3610447943210602	10
+330	seinfeld_align	aligned	gpt2	 and onto the plane george struggled to get into	 his	seat	2.364180088043213	4.435721397399902	6.266331183724105e-05	0.3926197290420532	10
+331	seinfeld_align	aligned	gpt2	 onto the plane george struggled to get into his	 window	.	6.964174747467041	3.0633208751678467	0.002207282232120633	0.2989481985569	10
+332	seinfeld_align	aligned	gpt2	 the plane george struggled to get into his window	 seat	.	3.374387264251709	2.7858967781066895	0.0005047152517363429	0.35504841804504395	10
+333	seinfeld_align	aligned	gpt2	 plane george struggled to get into his window seat	 and	was	2.023311138153076	6.79617166519165	0.0005660011083818972	0.03160505369305611	10
+334	seinfeld_align	aligned	gpt2	 george struggled to get into his window seat and	 fit	in	9.448846817016602	3.2180144786834717	9.176460298476741e-05	0.2549344003200531	10
+335	seinfeld_align	aligned	gpt2	orge struggled to get into his window seat and fit	 his	seat	2.1200757026672363	6.4343390464782715	0.00018445808382239193	0.06603538244962692	10
+336	seinfeld_align	aligned	gpt2	 struggled to get into his window seat and fit his	 bag	into	4.738236427307129	3.5037026405334473	0.0014539051335304976	0.23121076822280884	10
+337	seinfeld_align	aligned	gpt2	 to get into his window seat and fit his bag	 down	.	3.849696159362793	3.4477286338806152	0.00031478842720389366	0.21321389079093933	10
+338	seinfeld_align	aligned	gpt2	 get into his window seat and fit his bag down	 by	the	5.4105143547058105	1.704950213432312	8.219409210141748e-05	0.6291052103042603	10
+339	seinfeld_align	aligned	gpt2	 into his window seat and fit his bag down by	 his	side	1.4521281719207764	4.657819747924805	5.055269502918236e-05	0.094113789498806	10
+340	seinfeld_align	aligned	gpt2	 his window seat and fit his bag down by his	 feet	.	3.4748473167419434	2.1096718311309814	3.9498729165643454e-05	0.5862047672271729	10
+341	seinfeld_align	aligned	gpt2	 window seat and fit his bag down by his feet	 i	.	10.592342376708984	5.380795478820801	0.0009242341038770974	0.09507621079683304	10
+342	seinfeld_align	aligned	gpt2	 seat and fit his bag down by his feet i	 feel	like	5.346965312957764	4.32470703125	0.00011596726108109578	0.30379369854927063	10
+343	seinfeld_align	aligned	gpt2	 and fit his bag down by his feet i feel	 like	i	1.1694886684417725	4.130013465881348	0.0012384371366351843	0.22254101932048798	10
+344	seinfeld_align	aligned	gpt2	 fit his bag down by his feet i feel like	 i	'm	1.4431746006011963	3.636277198791504	9.372480417368934e-05	0.248126819729805	10
+345	seinfeld_align	aligned	gpt2	 his bag down by his feet i feel like i	 can	't	2.8322551250457764	4.632486343383789	4.4798744056606665e-05	0.2230089008808136	10
+346	seinfeld_align	aligned	gpt2	 bag down by his feet i feel like i can	't	breathe	1.2768611907958984	4.61159610748291	6.098258018027991e-05	0.08267227560281754	10
+347	seinfeld_align	aligned	gpt2	 down by his feet i feel like i can't	 breathe	.	2.4771389961242676	4.4654083251953125	0.0002683470374904573	0.18198278546333313	10
+348	seinfeld_align	aligned	gpt2	 by his feet i feel like i can't breathe	 in	the	3.849060297012329	4.532785892486572	0.0005079973489046097	0.15365053713321686	10
+349	seinfeld_align	aligned	gpt2	 his feet i feel like i can't breathe in	 here	.	4.199174880981445	4.040741443634033	0.0003243936807848513	0.2802443504333496	10
+350	seinfeld_align	aligned	gpt2	 feet i feel like i can't breathe in here	 j	k	7.612215518951416	6.312027931213379	0.0015257956692948937	0.048117686063051224	10
+351	seinfeld_align	aligned	gpt2	 i feel like i can't breathe in here j	erry	.	6.071981430053711	6.8825907707214355	4.694822200690396e-05	0.043210722506046295	10
+352	seinfeld_align	aligned	gpt2	 feel like i can't breathe in here jerry	 shrugged	.	11.032683372497559	3.5689408779144287	1.5314339179894887e-05	0.22619016468524933	10
+353	seinfeld_align	aligned	gpt2	 like i can't breathe in here jerry shrugged	 and	said	2.05362606048584	5.386941432952881	0.0005812792223878205	0.12240149080753326	10
+354	seinfeld_align	aligned	gpt2	 i can't breathe in here jerry shrugged and	 st	rolled	6.502869606018066	1.9684550762176514	2.106394958900637e-06	0.5701965689659119	10
+355	seinfeld_align	aligned	gpt2	 can't breathe in here jerry shrugged and st	owed	his	3.9091968536376953	2.6183271408081055	4.461769620434097e-09	0.2991825044155121	10
+356	seinfeld_align	aligned	gpt2	't breathe in here jerry shrugged and stowed	 his	bag	1.1182410717010498	6.083486557006836	0.00010807592479977757	0.08342461287975311	10
+357	seinfeld_align	aligned	gpt2	 breathe in here jerry shrugged and stowed his	 luggage	away	5.187029838562012	3.388434886932373	0.0002746317768469453	0.18112999200820923	10
+358	seinfeld_align	aligned	gpt2	 in here jerry shrugged and stowed his luggage	 in	his	2.058281421661377	1.8882883787155151	6.606837996514514e-05	0.39135491847991943	10
+359	seinfeld_align	aligned	gpt2	 here jerry shrugged and stowed his luggage in	 the	back	1.0731903314590454	5.097640514373779	0.00025776756228879094	0.19726622104644775	10
+360	seinfeld_align	aligned	gpt2	 jerry shrugged and stowed his luggage in the	 overhead	bin	7.526646614074707	4.1235032081604	0.00015672994777560234	0.24140484631061554	10
+361	seinfeld_align	aligned	gpt2	erry shrugged and stowed his luggage in the overhead	 compartment	.	1.8055031299591064	2.1985504627227783	0.00011602678569033742	0.4886464476585388	10
+362	seinfeld_align	aligned	gpt2	 shrugged and stowed his luggage in the overhead compartment	 well	away	10.494451522827148	3.0299360752105713	0.00042387552093714476	0.2304987907409668	10
+363	seinfeld_align	aligned	gpt2	 and stowed his luggage in the overhead compartment well	 it	was	8.670334815979004	4.115907192230225	0.00012638366024475545	0.28183287382125854	10
+364	seinfeld_align	aligned	gpt2	 stowed his luggage in the overhead compartment well it	's	not	3.1603686809539795	5.690101146697998	3.789249967667274e-05	0.07399415969848633	10
+365	seinfeld_align	aligned	gpt2	owed his luggage in the overhead compartment well it's	 all	over	3.846398115158081	5.655053615570068	0.00124141457490623	0.11392306536436081	10
+366	seinfeld_align	aligned	gpt2	 his luggage in the overhead compartment well it's all	 a	bit	3.948164224624634	4.77658748626709	0.00015068784705363214	0.1687040627002716	10
+367	seinfeld_align	aligned	gpt2	 luggage in the overhead compartment well it's all a	 tiny	bit	7.304914474487305	5.8751301765441895	0.0021443867590278387	0.17294524610042572	10
+368	seinfeld_align	aligned	gpt2	 in the overhead compartment well it's all a tiny	 world	of	7.14385986328125	3.7975335121154785	0.0001902760996017605	0.2951367199420929	10
+369	seinfeld_align	aligned	gpt2	 the overhead compartment well it's all a tiny world	 on	the	5.62183952331543	3.4154458045959473	5.6499335187254474e-05	0.24028553068637848	10
+370	seinfeld_align	aligned	gpt2	 overhead compartment well it's all a tiny world on	 the	outside	1.4753121137619019	5.145839691162109	0.0001348394580418244	0.1573365479707718	10
+371	seinfeld_align	aligned	gpt2	 compartment well it's all a tiny world on the	 airplane	.	8.820651054382324	4.138424396514893	0.00019082693324889988	0.3271152973175049	10
+372	seinfeld_align	aligned	gpt2	 well it's all a tiny world on the airplane	 isn	't	9.04528522491455	0.007112377323210239	3.305330409375529e-08	0.9994194507598877	10
+373	seinfeld_align	aligned	gpt2	 it's all a tiny world on the airplane isn	't	it	0.000403084559366107	2.262896776199341	1.3430058061203454e-06	0.6922987103462219	10
+374	seinfeld_align	aligned	gpt2	's all a tiny world on the airplane isn't	 it	?	1.389136552810669	1.607818603515625	0.00020791277347598225	0.6096562743186951	10
+375	seinfeld_align	aligned	gpt2	 all a tiny world on the airplane isn't it	 there	?	8.978899002075195	3.088745355606079	0.0005226286011748016	0.3400464355945587	10
+376	seinfeld_align	aligned	gpt2	 a tiny world on the airplane isn't it there	's	a	5.852330684661865	4.27316951751709	5.720303670386784e-05	0.17099276185035706	10
+377	seinfeld_align	aligned	gpt2	 tiny world on the airplane isn't it there's	 that	much	5.1381516456604	6.912024021148682	0.0006542440387420356	0.05371169373393059	10
+378	seinfeld_align	aligned	gpt2	 world on the airplane isn't it there's that	 little	bit	3.4922564029693604	6.483372688293457	0.0040871636010706425	0.1896885186433792	10
+379	seinfeld_align	aligned	gpt2	 on the airplane isn't it there's that little	 tiny	little	6.121426105499268	6.305910587310791	0.008661214262247086	0.09142173826694489	10
+380	seinfeld_align	aligned	gpt2	 the airplane isn't it there's that little tiny	 table	in	8.681538581848145	4.835280418395996	0.0006243433454073966	0.09719733148813248	10
+381	seinfeld_align	aligned	gpt2	 airplane isn't it there's that little tiny table	 there	?	3.8584909439086914	3.774808645248413	0.005120323970913887	0.15678077936172485	10
+382	seinfeld_align	aligned	gpt2	 isn't it there's that little tiny table there	 tiny	little	11.893081665039062	3.690354585647583	0.030547987669706345	0.521941602230072	10
+383	seinfeld_align	aligned	gpt2	't it there's that little tiny table there tiny	 computer	that	7.967573642730713	4.903123378753662	0.0014165325555950403	0.10051245987415314	10
+384	seinfeld_align	aligned	gpt2	 it there's that little tiny table there tiny computer	 little	computer	9.13632583618164	6.441890716552734	0.02695629931986332	0.13372012972831726	10
+385	seinfeld_align	aligned	gpt2	 there's that little tiny table there tiny computer little	 cramped	room	9.745351791381836	5.844907283782959	0.00041904026875272393	0.06355331838130951	10
+386	seinfeld_align	aligned	gpt2	's that little tiny table there tiny computer little cramped	 seats	.	8.413461685180664	5.7826409339904785	0.0004985164850950241	0.054899875074625015	10
+387	seinfeld_align	aligned	gpt2	 that little tiny table there tiny computer little cramped seats	 food	and	8.916316986083984	7.4038801193237305	0.013634564355015755	0.0284841600805521	10
+388	seinfeld_align	aligned	gpt2	 little tiny table there tiny computer little cramped seats food	 tiny	little	5.358949661254883	6.997086524963379	0.01877780444920063	0.05633414164185524	10
+389	seinfeld_align	aligned	gpt2	 tiny table there tiny computer little cramped seats food tiny	 ut	ens	8.10830307006836	0.03003878891468048	1.9837145259771205e-07	0.9975007176399231	10
+390	seinfeld_align	aligned	gpt2	 table there tiny computer little cramped seats food tiny ut	ens	ils	0.0022432657424360514	0.13563984632492065	1.886839295917042e-11	0.9699156880378723	10
+391	seinfeld_align	aligned	gpt2	 there tiny computer little cramped seats food tiny utens	ils	tiny	0.016451895236968994	3.910299062728882	9.544843493358712e-08	0.43425941467285156	10
+392	seinfeld_align	aligned	gpt2	 tiny computer little cramped seats food tiny utensils	 tiny	computers	0.7801475524902344	7.512269020080566	0.003063152777031064	0.024772798642516136	10
+393	seinfeld_align	aligned	gpt2	 computer little cramped seats food tiny utensils tiny	 liquor	bottles	9.225258827209473	3.821139335632324	0.0002786173718050122	0.48945415019989014	10
+394	seinfeld_align	aligned	gpt2	 little cramped seats food tiny utensils tiny liquor	 bottles	tiny	0.5527017712593079	5.761381149291992	0.010234382003545761	0.1755325198173523	10
+395	seinfeld_align	aligned	gpt2	 cramped seats food tiny utensils tiny liquor bottles	 tiny	bottles	1.878232479095459	7.496082305908203	0.003634238615632057	0.025788620114326477	10
+396	seinfeld_align	aligned	gpt2	 seats food tiny utensils tiny liquor bottles tiny	 bathroom	ut	7.915514945983887	5.595484733581543	0.00042458061943762004	0.09803953766822815	10
+397	seinfeld_align	aligned	gpt2	 food tiny utensils tiny liquor bottles tiny bathroom	 tiny	bathroom	8.817340850830078	7.340622901916504	0.001795638003386557	0.03759761154651642	10
+398	seinfeld_align	aligned	gpt2	 tiny utensils tiny liquor bottles tiny bathroom tiny	 sink	tiny	6.023930549621582	1.7974752187728882	0.0004643096181098372	0.7376901507377625	10
+399	seinfeld_align	aligned	gpt2	 utensils tiny liquor bottles tiny bathroom tiny sink	 tiny	bathroom	0.4978283643722534	6.481247425079346	0.0007188375457189977	0.0720430463552475	10
+400	seinfeld_align	aligned	gpt2	ensils tiny liquor bottles tiny bathroom tiny sink tiny	 mirror	tiny	5.796664237976074	1.5121455192565918	0.00030187511583790183	0.7921720743179321	10
+401	seinfeld_align	aligned	gpt2	ils tiny liquor bottles tiny bathroom tiny sink tiny mirror	 tiny	kitchen	0.240899458527565	6.7296624183654785	0.001916143810376525	0.03997764736413956	10
+402	seinfeld_align	aligned	gpt2	 tiny liquor bottles tiny bathroom tiny sink tiny mirror tiny	 f	auc	7.3045806884765625	0.7325747609138489	8.409438692069671e-07	0.8966797590255737	10
+403	seinfeld_align	aligned	gpt2	 liquor bottles tiny bathroom tiny sink tiny mirror tiny f	auc	et	0.06894410401582718	0.08223319798707962	2.1340072819953093e-08	0.9858479499816895	10
+404	seinfeld_align	aligned	gpt2	 bottles tiny bathroom tiny sink tiny mirror tiny fauc	et	tiny	0.009179413318634033	2.0267910957336426	1.0337460309983726e-07	0.7108538150787354	10
+405	seinfeld_align	aligned	gpt2	 tiny bathroom tiny sink tiny mirror tiny faucet	 so	you	8.575251579284668	4.766732215881348	0.00017542418208904564	0.12435612827539444	10
+406	seinfeld_align	aligned	gpt2	 bathroom tiny sink tiny mirror tiny faucet so	 there	's	5.056758880615234	2.4729249477386475	0.0014464188134297729	0.34973958134651184	10
+407	seinfeld_align	aligned	gpt2	 tiny sink tiny mirror tiny faucet so there	's	no	0.9053975939750671	3.162243604660034	2.447775477776304e-05	0.35497263073921204	10
+408	seinfeld_align	aligned	gpt2	 sink tiny mirror tiny faucet so there's	 a	little	1.9923264980316162	5.806155204772949	0.0002323398512089625	0.13665401935577393	10
+409	seinfeld_align	aligned	gpt2	 tiny mirror tiny faucet so there's a	 small	amount	3.6796586513519287	6.4761834144592285	0.0014050741447135806	0.08740634471178055	10
+410	seinfeld_align	aligned	gpt2	 mirror tiny faucet so there's a small	 problem	with	7.88078498840332	3.330514430999756	0.00017218137509189546	0.2891772389411926	10
+411	seinfeld_align	aligned	gpt2	 tiny faucet so there's a small problem	 there	.	4.910680770874023	2.661433458328247	0.0004231870698276907	0.49045151472091675	10
+412	seinfeld_align	aligned	gpt2	 faucet so there's a small problem there	's	a	5.970418930053711	3.814380407333374	5.3821218898519874e-05	0.2158709317445755	10
+413	seinfeld_align	aligned	gpt2	aucet so there's a small problem there's	 gonna	be	6.4096150398254395	0.40676966309547424	1.0507794286240824e-05	0.9479960799217224	10
+414	seinfeld_align	aligned	gpt2	et so there's a small problem there's gonna	 be	a	0.05228863283991814	3.903879404067993	9.746992873260751e-05	0.39339154958724976	10
+415	seinfeld_align	aligned	gpt2	 so there's a small problem there's gonna be	 a	lot	0.9896120429039001	6.057757377624512	0.0002146583137800917	0.13092969357967377	10
+416	seinfeld_align	aligned	gpt2	 there's a small problem there's gonna be a	 slight	problem	5.967867374420166	6.019784927368164	0.0019378963625058532	0.10518098622560501	10
+417	seinfeld_align	aligned	gpt2	's a small problem there's gonna be a slight	 delay	in	3.330183267593384	3.768601655960083	0.0002248495729872957	0.14775465428829193	10
+418	seinfeld_align	aligned	gpt2	 a small problem there's gonna be a slight delay	 we	'll	7.248974323272705	3.267704725265503	0.00012876643449999392	0.21492822468280792	10
+419	seinfeld_align	aligned	gpt2	 small problem there's gonna be a slight delay we	're	going	1.995847225189209	2.8396310806274414	2.199566779381712e-06	0.33418020606040955	10
+420	seinfeld_align	aligned	gpt2	 problem there's gonna be a slight delay we're	 gonna	have	1.0268869400024414	3.763638973236084	2.6891932066064328e-05	0.26294299960136414	10
+421	seinfeld_align	aligned	gpt2	 there's gonna be a slight delay we're gonna	 be	able	1.8278486728668213	4.166391372680664	0.00015577016165480018	0.374382883310318	10
+422	seinfeld_align	aligned	gpt2	's gonna be a slight delay we're gonna be	 a	little	3.882194995880127	3.704524278640747	0.0005006889696232975	0.3581559360027313	10
+423	seinfeld_align	aligned	gpt2	 gonna be a slight delay we're gonna be a	 little	bit	1.4037240743637085	3.07878041267395	0.001961279194802046	0.4237317144870758	10
+424	seinfeld_align	aligned	gpt2	 be a slight delay we're gonna be a little	 late	.	3.7341160774230957	3.4385335445404053	0.00025057652965188026	0.23533865809440613	10
+425	seinfeld_align	aligned	gpt2	 a slight delay we're gonna be a little late	 it	's	8.085100173950195	2.8410634994506836	9.439915447728708e-05	0.4052916467189789	10
+426	seinfeld_align	aligned	gpt2	 slight delay we're gonna be a little late it	's	gonna	0.9502967596054077	2.9847278594970703	2.9865770557080396e-05	0.4914360046386719	10
+427	seinfeld_align	aligned	gpt2	 delay we're gonna be a little late it's	 life	or	9.547455787658691	3.8004112243652344	0.0003747900191228837	0.21652773022651672	10
+428	seinfeld_align	aligned	gpt2	 we're gonna be a little late it's life	 in	the	4.67368221282959	3.802932024002075	0.00023520020477008075	0.5295153260231018	10
+429	seinfeld_align	aligned	gpt2	're gonna be a little late it's life in	 miniature	.	7.497927665710449	3.50142765045166	2.3266271455213428e-05	0.23501990735530853	10
+430	seinfeld_align	aligned	gpt2	 gonna be a little late it's life in miniature	 the	way	6.969684600830078	7.232976913452148	0.0005732508725486696	0.05866174027323723	10
+431	seinfeld_align	aligned	gpt2	 be a little late it's life in miniature the	 pilot	is	8.668294906616211	5.994168281555176	0.0012743319384753704	0.08789951354265213	10
+432	seinfeld_align	aligned	gpt2	 a little late it's life in miniature the pilot	 came	up	7.031744003295898	3.3151285648345947	9.635798960516695e-06	0.14559076726436615	10
+433	seinfeld_align	aligned	gpt2	 little late it's life in miniature the pilot came	 over	to	4.8948163986206055	3.4111669063568115	0.00038371054688468575	0.24467788636684418	10
+434	seinfeld_align	aligned	gpt2	 late it's life in miniature the pilot came over	 the	line	2.7438457012176514	6.673335552215576	0.0004661419370677322	0.036599382758140564	10
+435	seinfeld_align	aligned	gpt2	 it's life in miniature the pilot came over the	 pa	is	12.307779312133789	5.178147315979004	7.034730515442789e-05	0.11273134499788284	10
+436	seinfeld_align	aligned	gpt2	's life in miniature the pilot came over the pa	 system	and	9.926043510437012	3.64640212059021	0.000923400919418782	0.18430708348751068	10
+437	seinfeld_align	aligned	gpt2	 life in miniature the pilot came over the pa system	 and	was	1.5876367092132568	6.066178798675537	0.001015968038700521	0.03919749706983566	10
+438	seinfeld_align	aligned	gpt2	 in miniature the pilot came over the pa system and	 started	to	3.713479518890381	5.434791088104248	1.6739502825657837e-05	0.1837608814239502	10
+439	seinfeld_align	aligned	gpt2	 miniature the pilot came over the pa system and started	 describing	the	8.743415832519531	3.8114829063415527	3.4736744964902755e-06	0.29865965247154236	10
+440	seinfeld_align	aligned	gpt2	 the pilot came over the pa system and started describing	 their	experience	4.308752059936523	6.842920303344727	0.0001155313293565996	0.06750188022851944	10
+441	seinfeld_align	aligned	gpt2	 pilot came over the pa system and started describing their	 route	.	6.462739944458008	3.0581045150756836	0.0002722859790083021	0.3211268484592438	10
+442	seinfeld_align	aligned	gpt2	 came over the pa system and started describing their route	 the	next	6.317073822021484	4.830796241760254	0.0007068453123793006	0.15022727847099304	10
+443	seinfeld_align	aligned	gpt2	 over the pa system and started describing their route the	 day	before	3.353914737701416	1.6413638591766357	9.84338330454193e-05	0.5372916460037231	10
+444	seinfeld_align	aligned	gpt2	 the pa system and started describing their route the day	 we	arrived	5.212140083312988	4.648073673248291	5.584459358942695e-05	0.1119045689702034	10
+445	seinfeld_align	aligned	gpt2	 pa system and started describing their route the day we	're	going	6.233266830444336	5.104506015777588	5.46811691037874e-07	0.13884484767913818	10
+446	seinfeld_align	aligned	gpt2	 system and started describing their route the day we're	 headed	to	6.899640083312988	2.8770854473114014	1.890041312435642e-05	0.283865749835968	10
+447	seinfeld_align	aligned	gpt2	 and started describing their route the day we're headed	 up	to	3.791750431060791	3.3677263259887695	0.00016839263844303787	0.2974785268306732	10
+448	seinfeld_align	aligned	gpt2	 started describing their route the day we're headed up	 to	the	1.1154773235321045	6.474658489227295	0.0002885526337195188	0.18996748328208923	10
+449	seinfeld_align	aligned	gpt2	 describing their route the day we're headed up to	 thirty	-	13.283149719238281	3.607231616973877	0.0011484434362500906	0.3282352387905121	10
+450	seinfeld_align	aligned	gpt2	 their route the day we're headed up to thirty	 thousand	feet	3.8822684288024902	3.8905222415924072	0.0007784137269482017	0.3082731366157532	10
+451	seinfeld_align	aligned	gpt2	 route the day we're headed up to thirty thousand	 feet	.	1.2851617336273193	3.171980857849121	1.735967271088157e-05	0.27957671880722046	10
+452	seinfeld_align	aligned	gpt2	 the day we're headed up to thirty thousand feet	 then	we	7.243749141693115	4.620138168334961	0.0013740530703216791	0.1824984848499298	10
+453	seinfeld_align	aligned	gpt2	 day we're headed up to thirty thousand feet then	 i	'll	9.004030227661133	3.8597793579101562	2.064538603008259e-05	0.18647463619709015	10
+454	seinfeld_align	aligned	gpt2	 we're headed up to thirty thousand feet then i	'll	be	1.6195321083068848	4.759797096252441	3.237411510781385e-05	0.16074138879776	10
+455	seinfeld_align	aligned	gpt2	're headed up to thirty thousand feet then i'll	 make	it	3.8227925300598145	3.0890753269195557	7.356092100962996e-05	0.23204483091831207	10
+456	seinfeld_align	aligned	gpt2	 headed up to thirty thousand feet then i'll make	 a	big	1.598036527633667	6.946071624755859	0.0003976384468842298	0.04310734197497368	10
+457	seinfeld_align	aligned	gpt2	 up to thirty thousand feet then i'll make a	 left	turn	7.366011142730713	2.5441887378692627	0.0005797520861960948	0.64124596118927	10
+458	seinfeld_align	aligned	gpt2	 to thirty thousand feet then i'll make a left	 by	the	6.794848918914795	5.813366889953613	0.0002486896701157093	0.1520693153142929	10
+459	seinfeld_align	aligned	gpt2	 thirty thousand feet then i'll make a left by	 p	rying	6.852839469909668	5.878677845001221	0.0004252948274370283	0.07789978384971619	10
+460	seinfeld_align	aligned	gpt2	 thousand feet then i'll make a left by p	itt	sburgh	8.002291679382324	5.196737289428711	0.00025822629686445	0.1935644894838333	10
+461	seinfeld_align	aligned	gpt2	 feet then i'll make a left by pitt	sburgh	.	1.7681611776351929	6.152028560638428	3.3571621315786615e-05	0.10842566937208176	10
+462	seinfeld_align	aligned	gpt2	 then i'll make a left by pittsburgh	 and	then	2.9955391883850098	6.1443772315979	0.0011602992890402675	0.0572972297668457	10
+463	seinfeld_align	aligned	gpt2	 i'll make a left by pittsburgh and	 a	right	4.043541431427002	1.2941322326660156	0.0004027550166938454	0.8614708185195923	10
+464	seinfeld_align	aligned	gpt2	'll make a left by pittsburgh and a	 right	by	0.16224423050880432	0.9981027245521545	0.0006350056501105428	0.8846276998519897	10
+465	seinfeld_align	aligned	gpt2	 make a left by pittsburgh and a right	 by	p	0.1038317158818245	7.192058086395264	0.00032652082154527307	0.07528741657733917	10
+466	seinfeld_align	aligned	gpt2	 a left by pittsburgh and a right by	 ch	icago	5.30203914642334	2.3710525035858154	7.509666488658695e-07	0.685185432434082	10
+467	seinfeld_align	aligned	gpt2	 left by pittsburgh and a right by ch	icago	.	0.3896310031414032	3.461862564086914	3.725200031112763e-06	0.43983030319213867	10
+468	seinfeld_align	aligned	gpt2	 by pittsburgh and a right by chicago	 j	ones	9.660244941711426	5.1625142097473145	3.383249350008555e-05	0.07132984697818756	10
+469	seinfeld_align	aligned	gpt2	 pittsburgh and a right by chicago j	erry	.	3.9075677394866943	7.114349842071533	7.922036274976563e-06	0.05009162053465843	10
+470	seinfeld_align	aligned	gpt2	ittsburgh and a right by chicago jerry	 laughed	.	11.111169815063477	3.8520259857177734	9.933695764630102e-06	0.17880500853061676	10
+471	seinfeld_align	aligned	gpt2	sburgh and a right by chicago jerry laughed	 as	he	3.591158866882324	3.11368989944458	0.0001935661566676572	0.4779224693775177	10
+472	seinfeld_align	aligned	gpt2	 and a right by chicago jerry laughed as	 he	said	0.7199143171310425	6.090794563293457	0.00028805865440517664	0.04348859190940857	10
+473	seinfeld_align	aligned	gpt2	 a right by chicago jerry laughed as he	 sat	down	4.5630388259887695	3.2197892665863037	0.00011600664583966136	0.28853052854537964	10
+474	seinfeld_align	aligned	gpt2	 right by chicago jerry laughed as he sat	 down	to	1.2664976119995117	2.994049549102783	0.0020105901639908552	0.22678422927856445	10
+475	seinfeld_align	aligned	gpt2	 by chicago jerry laughed as he sat down	 listen	to	13.72153091430664	2.5744333267211914	0.0005310943233780563	0.6446728706359863	10
+476	seinfeld_align	aligned	gpt2	 chicago jerry laughed as he sat down listen	 to	the	0.3614734709262848	5.236824989318848	0.0002706863160710782	0.22176483273506165	10
+477	seinfeld_align	aligned	gpt2	icago jerry laughed as he sat down listen to	 this	song	2.72153902053833	6.491308212280273	0.0001926650875248015	0.06856735050678253	10
+478	seinfeld_align	aligned	gpt2	 jerry laughed as he sat down listen to this	 guy	.	5.3018364906311035	5.142866611480713	0.00015585089568048716	0.16254059970378876	10
+479	seinfeld_align	aligned	gpt2	erry laughed as he sat down listen to this guy	 he	knew	6.3295488357543945	4.823689937591553	9.113361011259258e-05	0.07321544736623764	10
+480	seinfeld_align	aligned	gpt2	 laughed as he sat down listen to this guy he	's	never	3.376756191253662	5.2179670333862305	1.872418033599388e-05	0.09539347887039185	10
+481	seinfeld_align	aligned	gpt2	 as he sat down listen to this guy he's	 so	good	4.474029541015625	5.442142486572266	0.0018003215081989765	0.10095663368701935	10
+482	seinfeld_align	aligned	gpt2	 he sat down listen to this guy he's so	 excited	to	4.027307033538818	1.696354866027832	9.24517007661052e-06	0.4193046987056732	10
+483	seinfeld_align	aligned	gpt2	 sat down listen to this guy he's so excited	 about	.	1.0471792221069336	4.273664951324463	0.0014844555407762527	0.27678772807121277	10
+484	seinfeld_align	aligned	gpt2	 down listen to this guy he's so excited about	 being	a	4.6233062744140625	4.342024326324463	4.76420609629713e-05	0.19792592525482178	10
+485	seinfeld_align	aligned	gpt2	 listen to this guy he's so excited about being	 a	part	1.6956613063812256	6.074516773223877	0.0003277808427810669	0.2145129144191742	10
+486	seinfeld_align	aligned	gpt2	 to this guy he's so excited about being a	 pilot	.	7.000133991241455	3.1104114055633545	0.004948582034558058	0.33607685565948486	10
+487	seinfeld_align	aligned	gpt2	 this guy he's so excited about being a pilot	 he	's	4.304629325866699	4.041738510131836	0.000214716637856327	0.24481910467147827	10
+488	seinfeld_align	aligned	gpt2	 guy he's so excited about being a pilot he	 can	't	2.7382469177246094	3.0427393913269043	2.6345729565946385e-05	0.5125027894973755	10
+489	seinfeld_align	aligned	gpt2	 he's so excited about being a pilot he can	't	wait	0.32747361063957214	2.6951963901519775	0.00011499768152134493	0.43833160400390625	10
+490	seinfeld_align	aligned	gpt2	's so excited about being a pilot he can't	 even	imagine	2.744086265563965	4.789514064788818	0.003507407149299979	0.06606288254261017	10
+491	seinfeld_align	aligned	gpt2	 so excited about being a pilot he can't even	 stand	to	4.835217475891113	3.905372142791748	3.746871880139224e-05	0.21321403980255127	10
+492	seinfeld_align	aligned	gpt2	 excited about being a pilot he can't even stand	 himself	.	5.814883232116699	4.058078289031982	6.906074850121513e-05	0.16255395114421844	10
+493	seinfeld_align	aligned	gpt2	 about being a pilot he can't even stand himself	 do	you	8.549073219299316	4.726202487945557	0.0001725391484797001	0.10211435705423355	10
+494	seinfeld_align	aligned	gpt2	 being a pilot he can't even stand himself do	 we	have	3.898555040359497	4.2285590171813965	0.0001884476514533162	0.16108295321464539	10
+495	seinfeld_align	aligned	gpt2	 a pilot he can't even stand himself do we	 really	need	2.5547378063201904	2.09336256980896	0.003679784247651696	0.5169298648834229	10
+496	seinfeld_align	aligned	gpt2	 pilot he can't even stand himself do we really	 need	to	0.6689171195030212	3.7124993801116943	1.876551323221065e-05	0.24566374719142914	10
+497	seinfeld_align	aligned	gpt2	 he can't even stand himself do we really need	 this	.	3.689741849899292	6.470761775970459	0.00030483934096992016	0.07982035726308823	10
+498	seinfeld_align	aligned	gpt2	 can't even stand himself do we really need this	 information	?	5.117734909057617	3.656911611557007	0.00018490686488803476	0.19621413946151733	10
+499	seinfeld_align	aligned	gpt2	't even stand himself do we really need this information	 asked	for	10.537408828735352	3.2224643230438232	0.00011708561942214146	0.36308053135871887	10
+500	seinfeld_align	aligned	gpt2	 even stand himself do we really need this information asked	 ge	orge	13.77021312713623	4.348662376403809	0.0005061172996647656	0.2351047545671463	10
+501	seinfeld_align	aligned	gpt2	 stand himself do we really need this information asked ge	orge	?	1.470815658569336	5.945728302001953	8.491863809467759e-06	0.18285785615444183	10
+502	seinfeld_align	aligned	gpt2	 himself do we really need this information asked george	 i	h	6.785623550415039	6.965890407562256	0.0006335061625577509	0.029152030125260353	10
+503	seinfeld_align	aligned	gpt2	 do we really need this information asked george i	 mean	it	6.563379287719727	5.773204326629639	0.0002553274389356375	0.047485802322626114	10
+504	seinfeld_align	aligned	gpt2	 we really need this information asked george i mean	 just	to	4.53394079208374	5.598859786987305	0.001790926675312221	0.06909756362438202	10
+505	seinfeld_align	aligned	gpt2	 really need this information asked george i mean just	 do	it	4.987537384033203	4.0670881271362305	0.00013358703290577978	0.1873154491186142	10
+506	seinfeld_align	aligned	gpt2	 need this information asked george i mean just do	 whatever	you	4.714245796203613	2.630451202392578	0.0004255428502801806	0.575989842414856	10
+507	seinfeld_align	aligned	gpt2	 this information asked george i mean just do whatever	 the	hell	3.380702495574951	2.303542137145996	9.647599654272199e-05	0.44452306628227234	10
+508	seinfeld_align	aligned	gpt2	 information asked george i mean just do whatever the	 hell	you	0.8574684858322144	1.2752161026000977	2.3548454919364303e-05	0.8166666626930237	10
+509	seinfeld_align	aligned	gpt2	 asked george i mean just do whatever the hell	 you	want	0.1789824366569519	1.479157567024231	0.00023990200133994222	0.7528219223022461	10
+510	seinfeld_align	aligned	gpt2	 george i mean just do whatever the hell you	 gotta	do	6.7691497802734375	1.070591688156128	0.00034254175261594355	0.8679285049438477	10
+511	seinfeld_align	aligned	gpt2	orge i mean just do whatever the hell you gotta	 do	to	0.1300792545080185	3.925158977508545	0.0014306640950962901	0.19353176653385162	10
+512	seinfeld_align	aligned	gpt2	 i mean just do whatever the hell you gotta do	 i	mean	8.03439712524414	3.488032579421997	0.0001342050381936133	0.3010583221912384	10
+513	seinfeld_align	aligned	gpt2	 mean just do whatever the hell you gotta do i	 don	't	3.530272960662842	0.01596621237695217	6.741952063293866e-08	0.9985645413398743	10
+514	seinfeld_align	aligned	gpt2	 just do whatever the hell you gotta do i don	't	know	0.001500314916484058	3.286811351776123	2.1983349142828956e-05	0.22442303597927094	10
+515	seinfeld_align	aligned	gpt2	 do whatever the hell you gotta do i don't	 know	what	1.3912322521209717	4.338360786437988	0.00010575642227195203	0.18745934963226318	10
+516	seinfeld_align	aligned	gpt2	 whatever the hell you gotta do i don't know	 just	how	6.066490173339844	5.366937160491943	0.0019113973248749971	0.09730052202939987	10
+517	seinfeld_align	aligned	gpt2	 the hell you gotta do i don't know just	 end	up	9.675552368164062	2.6075491905212402	0.0002733738801907748	0.62335604429245	10
+518	seinfeld_align	aligned	gpt2	 hell you gotta do i don't know just end	 up	with	0.4228694438934326	5.356312274932861	0.0005609734798781574	0.11699733883142471	10
+519	seinfeld_align	aligned	gpt2	 you gotta do i don't know just end up	 where	you	5.845059871673584	2.9170186519622803	0.0013864951906725764	0.3460453152656555	10
+520	seinfeld_align	aligned	gpt2	 gotta do i don't know just end up where	 it	is	3.710026979446411	3.7286629676818848	0.00011269990500295535	0.2010161578655243	10
+521	seinfeld_align	aligned	gpt2	 do i don't know just end up where it	 says	i	4.693599224090576	5.343728542327881	6.79051736369729e-05	0.10239192098379135	10
+522	seinfeld_align	aligned	gpt2	 i don't know just end up where it says	 on	the	3.804243564605713	2.6289432048797607	0.00024604846839793026	0.5541138648986816	10
+523	seinfeld_align	aligned	gpt2	 don't know just end up where it says on	 the	label	0.5914807319641113	5.686934471130371	0.00022264615108724684	0.09988829493522644	10
+524	seinfeld_align	aligned	gpt2	't know just end up where it says on the	 ticket	.	5.418034553527832	3.393860101699829	0.0003414270468056202	0.33936163783073425	10
+525	seinfeld_align	aligned	gpt2	 know just end up where it says on the ticket	 really	.	8.344926834106445	4.296584129333496	0.0025481078773736954	0.15386362373828888	10

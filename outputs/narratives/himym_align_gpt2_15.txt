@@ -1,0 +1,520 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	himym_align	aligned	gpt2	barney and quinn walked into the airport pulling their matching pink tiger stripe	 suit	.	5.9563307762146	3.7580573558807373	0.0021132640540599823	0.15696673095226288	15
+1	himym_align	aligned	gpt2	ney and quinn walked into the airport pulling their matching pink tiger stripe suit	cases	.	2.229198455810547	3.28009033203125	1.2761294954088953e-07	0.23836581408977509	15
+2	himym_align	aligned	gpt2	 and quinn walked into the airport pulling their matching pink tiger stripe suitcases	 bar	re	12.56535530090332	0.6543049216270447	2.7067106202594005e-05	0.9229540228843689	15
+3	himym_align	aligned	gpt2	 quinn walked into the airport pulling their matching pink tiger stripe suitcases bar	ney	ed	13.313536643981934	4.993022918701172	6.609141564695165e-05	0.28508585691452026	15
+4	himym_align	aligned	gpt2	inn walked into the airport pulling their matching pink tiger stripe suitcases barney	 leaned	over	13.147576332092285	3.1439552307128906	3.475969833743875e-06	0.248330757021904	15
+5	himym_align	aligned	gpt2	 walked into the airport pulling their matching pink tiger stripe suitcases barney leaned	 over	the	1.4326211214065552	3.0980477333068848	0.00030511122895404696	0.21116016805171967	15
+6	himym_align	aligned	gpt2	 into the airport pulling their matching pink tiger stripe suitcases barney leaned over	 and	looked	2.0774803161621094	5.947923183441162	0.00035759565071202815	0.037907082587480545	15
+7	himym_align	aligned	gpt2	 the airport pulling their matching pink tiger stripe suitcases barney leaned over and	 kissed	her	4.672415733337402	4.029344081878662	1.1397722118999809e-05	0.23357588052749634	15
+8	himym_align	aligned	gpt2	 airport pulling their matching pink tiger stripe suitcases barney leaned over and kissed	 her	.	1.4343557357788086	5.090576171875	0.0002693778369575739	0.15275754034519196	15
+9	himym_align	aligned	gpt2	 pulling their matching pink tiger stripe suitcases barney leaned over and kissed her	 on	the	2.224693536758423	0.2918201684951782	4.995578819944058e-06	0.9575298428535461	15
+10	himym_align	aligned	gpt2	 their matching pink tiger stripe suitcases barney leaned over and kissed her on	 the	cheek	0.04807892441749573	1.8021587133407593	3.728997762664221e-05	0.3937142491340637	15
+11	himym_align	aligned	gpt2	 matching pink tiger stripe suitcases barney leaned over and kissed her on the	 cheek	.	0.9427315592765808	2.506864547729492	0.0005773961893282831	0.5148559212684631	15
+12	himym_align	aligned	gpt2	 pink tiger stripe suitcases barney leaned over and kissed her on the cheek	 this	time	8.702223777770996	1.8699263334274292	1.546681232866831e-05	0.670006275177002	15
+13	himym_align	aligned	gpt2	 tiger stripe suitcases barney leaned over and kissed her on the cheek this	 is	a	6.787961006164551	5.553628444671631	0.0002905644359998405	0.11173637211322784	15
+14	himym_align	aligned	gpt2	 stripe suitcases barney leaned over and kissed her on the cheek this is	 going	to	4.050875186920166	0.708656907081604	2.863949521270115e-05	0.911055862903595	15
+15	himym_align	aligned	gpt2	 suitcases barney leaned over and kissed her on the cheek this is going	 to	be	0.07970189303159714	2.2060978412628174	6.772283813916147e-05	0.6553227305412292	15
+16	himym_align	aligned	gpt2	cases barney leaned over and kissed her on the cheek this is going to	 be	a	0.4607267379760742	4.433934688568115	9.2268455773592e-05	0.16178391873836517	15
+17	himym_align	aligned	gpt2	 barney leaned over and kissed her on the cheek this is going to be	 an	amazing	4.0072431564331055	3.9457476139068604	0.0003013389650732279	0.23018722236156464	15
+18	himym_align	aligned	gpt2	ney leaned over and kissed her on the cheek this is going to be an	 amazing	night	1.4418938159942627	4.4968180656433105	7.980121881701052e-05	0.10992973297834396	15
+19	himym_align	aligned	gpt2	 leaned over and kissed her on the cheek this is going to be an amazing	 week	.	5.1306304931640625	3.8886966705322266	5.7738412579055876e-05	0.25071945786476135	15
+20	himym_align	aligned	gpt2	 over and kissed her on the cheek this is going to be an amazing week	 i	love	6.136869430541992	3.9850733280181885	0.00012895198597107083	0.11736975610256195	15
+21	himym_align	aligned	gpt2	 and kissed her on the cheek this is going to be an amazing week i	'm	going	2.1830930709838867	4.055137634277344	5.800526196253486e-06	0.16677699983119965	15
+22	himym_align	aligned	gpt2	 kissed her on the cheek this is going to be an amazing week i'm	 so	excited	2.339332342147827	2.9983134269714355	0.017571846023201942	0.3686383068561554	15
+23	himym_align	aligned	gpt2	 her on the cheek this is going to be an amazing week i'm so	 glad	i	2.3528497219085693	3.1392953395843506	7.631706830579787e-05	0.3275958299636841	15
+24	himym_align	aligned	gpt2	 on the cheek this is going to be an amazing week i'm so glad	 we	got	3.2384469509124756	3.6317028999328613	0.00013639293320011348	0.22958698868751526	15
+25	himym_align	aligned	gpt2	 the cheek this is going to be an amazing week i'm so glad we	 were	able	3.627997398376465	0.8009284138679504	2.496203933333163e-06	0.9014163017272949	15
+26	himym_align	aligned	gpt2	 cheek this is going to be an amazing week i'm so glad we were	 able	to	0.09505213052034378	0.039805009961128235	3.140139028801059e-07	0.9966208934783936	15
+27	himym_align	aligned	gpt2	 this is going to be an amazing week i'm so glad we were able	 to	get	0.003316262038424611	4.179645538330078	0.00015105986676644534	0.25767746567726135	15
+28	himym_align	aligned	gpt2	 is going to be an amazing week i'm so glad we were able to	 put	together	4.471216201782227	3.36344051361084	9.813393990043551e-05	0.2500222325325012	15
+29	himym_align	aligned	gpt2	 going to be an amazing week i'm so glad we were able to put	 everything	together	5.517012119293213	1.7293705940246582	8.31019933684729e-05	0.6517292261123657	15
+30	himym_align	aligned	gpt2	 to be an amazing week i'm so glad we were able to put everything	 that	we	5.061609268188477	3.1537106037139893	0.00023871338635217398	0.4330783784389496	15
+31	himym_align	aligned	gpt2	 be an amazing week i'm so glad we were able to put everything that	 happened	in	3.118847131729126	3.441211223602295	4.432451169122942e-05	0.1877179741859436	15
+32	himym_align	aligned	gpt2	 an amazing week i'm so glad we were able to put everything that happened	 behind	us	4.983706951141357	1.347963809967041	5.48417228856124e-05	0.7895416021347046	15
+33	himym_align	aligned	gpt2	 amazing week i'm so glad we were able to put everything that happened behind	 us	.	0.23854829370975494	3.1930975914001465	2.2816886485088617e-05	0.3309551477432251	15
+34	himym_align	aligned	gpt2	 week i'm so glad we were able to put everything that happened behind us	 he	he	9.05073356628418	4.6202239990234375	0.002126915380358696	0.18034671247005463	15
+35	himym_align	aligned	gpt2	 i'm so glad we were able to put everything that happened behind us he	 looked	at	7.35080099105835	3.70375394821167	9.821373168961145e-06	0.1976090371608734	15
+36	himym_align	aligned	gpt2	'm so glad we were able to put everything that happened behind us he looked	 back	at	3.739819288253784	2.424208641052246	0.0001625403674552217	0.3118565082550049	15
+37	himym_align	aligned	gpt2	 so glad we were able to put everything that happened behind us he looked back	 at	me	0.9946130514144897	1.9905152320861816	4.053020529681817e-05	0.4748278558254242	15
+38	himym_align	aligned	gpt2	 glad we were able to put everything that happened behind us he looked back at	 his	wife	3.5327954292297363	6.315133094787598	9.93780413409695e-05	0.054646410048007965	15
+39	himym_align	aligned	gpt2	 we were able to put everything that happened behind us he looked back at his	 neon	sign	13.490739822387695	5.373536586761475	0.0015570205869153142	0.2222229540348053	15
+40	himym_align	aligned	gpt2	 were able to put everything that happened behind us he looked back at his neon	 colored	glasses	6.673336982727051	7.190210819244385	9.55593422986567e-05	0.03127612918615341	15
+41	himym_align	aligned	gpt2	 able to put everything that happened behind us he looked back at his neon colored	 suitcase	and	7.421727180480957	2.7473292350769043	1.5768975572427735e-05	0.41376256942749023	15
+42	himym_align	aligned	gpt2	 to put everything that happened behind us he looked back at his neon colored suitcase	 and	said	0.9331424236297607	4.9686431884765625	0.0005826712585985661	0.1941126585006714	15
+43	himym_align	aligned	gpt2	 put everything that happened behind us he looked back at his neon colored suitcase and	 frowned	.	6.09440279006958	2.592982292175293	1.3083336853014771e-05	0.5274295210838318	15
+44	himym_align	aligned	gpt2	 everything that happened behind us he looked back at his neon colored suitcase and frowned	 well	.	9.988701820373535	3.5293495655059814	0.00010827202640939504	0.2808270752429962	15
+45	himym_align	aligned	gpt2	 that happened behind us he looked back at his neon colored suitcase and frowned well	 almost	as	8.822417259216309	5.677283763885498	0.0010944412788376212	0.1381448209285736	15
+46	himym_align	aligned	gpt2	 happened behind us he looked back at his neon colored suitcase and frowned well almost	 everything	.	8.284664154052734	3.9306020736694336	4.3747026211349294e-05	0.12557686865329742	15
+47	himym_align	aligned	gpt2	 behind us he looked back at his neon colored suitcase and frowned well almost everything	 qu	ivering	11.438838005065918	3.015974998474121	1.8145790647849935e-07	0.35622021555900574	15
+48	himym_align	aligned	gpt2	 us he looked back at his neon colored suitcase and frowned well almost everything qu	inn	ily	7.954042434692383	5.619924545288086	0.0001190886105177924	0.11013282835483551	15
+49	himym_align	aligned	gpt2	 he looked back at his neon colored suitcase and frowned well almost everything quinn	 rolled	his	12.23215389251709	3.5854411125183105	8.155207615345716e-05	0.12608088552951813	15
+50	himym_align	aligned	gpt2	 looked back at his neon colored suitcase and frowned well almost everything quinn rolled	 her	eyes	4.36907958984375	1.0548253059387207	4.278113556210883e-05	0.8579961657524109	15
+51	himym_align	aligned	gpt2	 back at his neon colored suitcase and frowned well almost everything quinn rolled her	 eyes	.	0.14740052819252014	2.9882166385650635	3.271156674600206e-05	0.38188669085502625	15
+52	himym_align	aligned	gpt2	 at his neon colored suitcase and frowned well almost everything quinn rolled her eyes	 hey	hey	12.07492446899414	6.353792190551758	0.04117473214864731	0.04117473214864731	15
+53	himym_align	aligned	gpt2	 his neon colored suitcase and frowned well almost everything quinn rolled her eyes hey	 you	know	4.6114044189453125	5.2343926429748535	0.00032234610989689827	0.11830590665340424	15
+54	himym_align	aligned	gpt2	 neon colored suitcase and frowned well almost everything quinn rolled her eyes hey you	're	not	2.3212337493896484	5.577765464782715	2.730198684730567e-05	0.11561382561922073	15
+55	himym_align	aligned	gpt2	 colored suitcase and frowned well almost everything quinn rolled her eyes hey you're	 lucky	I	5.998985290527344	5.181759357452393	9.783003042684868e-05	0.11740898340940475	15
+56	himym_align	aligned	gpt2	 suitcase and frowned well almost everything quinn rolled her eyes hey you're lucky	 i	'm	3.2220959663391113	4.2855939865112305	4.775447087013163e-05	0.20176175236701965	15
+57	himym_align	aligned	gpt2	 and frowned well almost everything quinn rolled her eyes hey you're lucky i	 only	have	5.839938163757324	4.7675933837890625	0.0007893872680142522	0.19029849767684937	15
+58	himym_align	aligned	gpt2	 frowned well almost everything quinn rolled her eyes hey you're lucky i only	 threw	a	7.3279571533203125	4.738924026489258	4.322205131757073e-05	0.1553386002779007	15
+59	himym_align	aligned	gpt2	 well almost everything quinn rolled her eyes hey you're lucky i only threw	 out	a	3.568385124206543	5.103432655334473	0.00037552983849309385	0.11753873527050018	15
+60	himym_align	aligned	gpt2	 almost everything quinn rolled her eyes hey you're lucky i only threw out	 your	name	5.565668106079102	7.738794803619385	7.930569699965417e-05	0.021236607804894447	15
+61	himym_align	aligned	gpt2	 everything quinn rolled her eyes hey you're lucky i only threw out your	 luggage	and	8.485002517700195	5.570266246795654	4.57155256299302e-05	0.07181736826896667	15
+62	himym_align	aligned	gpt2	 quinn rolled her eyes hey you're lucky i only threw out your luggage	 next	time	7.485659599304199	2.46976900100708	4.835466097574681e-05	0.46462950110435486	15
+63	himym_align	aligned	gpt2	inn rolled her eyes hey you're lucky i only threw out your luggage next	 time	i	0.7429987192153931	4.238958358764648	8.041116961976513e-05	0.25770315527915955	15
+64	himym_align	aligned	gpt2	 rolled her eyes hey you're lucky i only threw out your luggage next time	 you	're	2.624962568283081	4.822518348693848	3.1758278055349365e-05	0.10459055751562119	15
+65	himym_align	aligned	gpt2	 her eyes hey you're lucky i only threw out your luggage next time you	 storm	ed	11.50845718383789	4.708104133605957	0.0004983897088095546	0.2144131362438202	15
+66	himym_align	aligned	gpt2	 eyes hey you're lucky i only threw out your luggage next time you storm	 off	i	3.4105947017669678	5.188126564025879	0.0005234295967966318	0.09788068383932114	15
+67	himym_align	aligned	gpt2	 hey you're lucky i only threw out your luggage next time you storm off	 to	the	2.9286158084869385	6.281590461730957	0.0004652155621442944	0.06978606432676315	15
+68	himym_align	aligned	gpt2	 you're lucky i only threw out your luggage next time you storm off to	 at	least	9.334389686584473	2.078923463821411	5.495526420418173e-05	0.7346606850624084	15
+69	himym_align	aligned	gpt2	're lucky i only threw out your luggage next time you storm off to at	l	anta	5.533737659454346	1.3528610467910767	5.746393867411825e-07	0.6890527009963989	15
+70	himym_align	aligned	gpt2	 lucky i only threw out your luggage next time you storm off to atl	antic	.	2.4001076221466064	5.737843036651611	0.00010974562610499561	0.12616589665412903	15
+71	himym_align	aligned	gpt2	 i only threw out your luggage next time you storm off to atlantic	 city	.	6.251461505889893	3.997899293899536	0.0008444870472885668	0.2690911889076233	15
+72	himym_align	aligned	gpt2	 only threw out your luggage next time you storm off to atlantic city	 after	a	5.629111289978027	5.567413330078125	0.00010384964843979105	0.12742158770561218	15
+73	himym_align	aligned	gpt2	 threw out your luggage next time you storm off to atlantic city after	 a	long	1.9401081800460815	5.952308177947998	0.0003242992388550192	0.1533210575580597	15
+74	himym_align	aligned	gpt2	 out your luggage next time you storm off to atlantic city after a	 fight	.	6.956843852996826	2.9016506671905518	8.845231786835939e-05	0.34590429067611694	15
+75	himym_align	aligned	gpt2	 your luggage next time you storm off to atlantic city after a fight	 you	'll	5.0982770919799805	4.731357574462891	3.8068483263486996e-05	0.07565204054117203	15
+76	himym_align	aligned	gpt2	 luggage next time you storm off to atlantic city after a fight you	'll	be	2.720396041870117	4.670511245727539	9.145715739578009e-05	0.12858884036540985	15
+77	himym_align	aligned	gpt2	 next time you storm off to atlantic city after a fight you'll	 be	greeted	2.0214126110076904	6.437601089477539	0.0005846612621098757	0.05005420371890068	15
+78	himym_align	aligned	gpt2	 time you storm off to atlantic city after a fight you'll be	 wearing	a	6.180177211761475	5.1616010665893555	8.083828288363293e-05	0.23792652785778046	15
+79	himym_align	aligned	gpt2	 you storm off to atlantic city after a fight you'll be wearing	 hot	pants	7.555023193359375	4.131206035614014	0.0011782150249928236	0.3222995400428772	15
+80	himym_align	aligned	gpt2	 storm off to atlantic city after a fight you'll be wearing hot	 pink	and	3.491121292114258	6.128579139709473	0.0016188932349905372	0.06261187791824341	15
+81	himym_align	aligned	gpt2	 off to atlantic city after a fight you'll be wearing hot pink	 <	3	10.168885231018066	5.323336601257324	0.00044692345545627177	0.18349358439445496	15
+82	himym_align	aligned	gpt2	 to atlantic city after a fight you'll be wearing hot pink <	unk	now	12.421554565429688	3.5176830291748047	3.414595266804099e-05	0.48496493697166443	15
+83	himym_align	aligned	gpt2	 atlantic city after a fight you'll be wearing hot pink <unk	>	"
+"	3.992743492126465	7.065064907073975	0.0004556170024443418	0.06813638657331467	15
+84	himym_align	aligned	gpt2	lantic city after a fight you'll be wearing hot pink <unk>	 bar	ber	9.51363468170166	5.743454933166504	0.0004941822262480855	0.0770273357629776	15
+85	himym_align	aligned	gpt2	antic city after a fight you'll be wearing hot pink <unk> bar	ney	<	6.009283542633057	7.239228248596191	0.00015683202946092933	0.053575895726680756	15
+86	himym_align	aligned	gpt2	 city after a fight you'll be wearing hot pink <unk> barney	 <	unk	2.626591205596924	5.5419440269470215	0.0002477905072737485	0.3018985688686371	15
+87	himym_align	aligned	gpt2	 after a fight you'll be wearing hot pink <unk> barney <	unk	>	1.3645116090774536	0.19523198902606964	5.30929575859318e-08	0.9767260551452637	15
+88	himym_align	aligned	gpt2	 a fight you'll be wearing hot pink <unk> barney <unk	>	bar	0.01743759959936142	6.826877117156982	0.0001486810651840642	0.058337144553661346	15
+89	himym_align	aligned	gpt2	 fight you'll be wearing hot pink <unk> barney <unk>	 the	hot	4.905088424682617	7.765511512756348	0.0005293875583447516	0.01749563403427601	15
+90	himym_align	aligned	gpt2	 you'll be wearing hot pink <unk> barney <unk> the	 bags	are	10.74308967590332	4.3143815994262695	3.564715734682977e-05	0.23029282689094543	15
+91	himym_align	aligned	gpt2	'll be wearing hot pink <unk> barney <unk> the bags	 onto	the	10.033049583435059	3.141629457473755	2.9228719995444408e-06	0.41308140754699707	15
+92	himym_align	aligned	gpt2	 be wearing hot pink <unk> barney <unk> the bags onto	 the	floor	0.8413715958595276	5.655818939208984	0.00020327682432252914	0.17470654845237732	15
+93	himym_align	aligned	gpt2	 wearing hot pink <unk> barney <unk> the bags onto the	 security	desk	10.23320198059082	6.03981351852417	0.0008197705028578639	0.07951439172029495	15
+94	himym_align	aligned	gpt2	 hot pink <unk> barney <unk> the bags onto the security	 convey	or	6.227391242980957	1.03000807762146	4.734931735583814e-06	0.724525511264801	15
+95	himym_align	aligned	gpt2	 pink <unk> barney <unk> the bags onto the security convey	or	belt	0.403265118598938	2.6843316555023193	1.813934613892343e-05	0.6306582689285278	15
+96	himym_align	aligned	gpt2	 <unk> barney <unk> the bags onto the security conveyor	 belt	<	0.5231915712356567	4.551549434661865	0.0009092342806980014	0.28360986709594727	15
+97	himym_align	aligned	gpt2	unk> barney <unk> the bags onto the security conveyor belt	 and	the	3.8770785331726074	6.388875484466553	0.0006413609953597188	0.0714203491806984	15
+98	himym_align	aligned	gpt2	> barney <unk> the bags onto the security conveyor belt and	 they	're	4.036745071411133	5.444699287414551	0.00012187135143904015	0.11549883335828781	15
+99	himym_align	aligned	gpt2	 barney <unk> the bags onto the security conveyor belt and they	 stepped	out	8.878402709960938	3.084324359893799	8.155935802278691e-07	0.19150066375732422	15
+100	himym_align	aligned	gpt2	ney <unk> the bags onto the security conveyor belt and they stepped	 through	the	4.339394569396973	3.6721789836883545	0.008375068195164204	0.3304290473461151	15
+101	himym_align	aligned	gpt2	 <unk> the bags onto the security conveyor belt and they stepped through	 the	door	0.9519534111022949	5.71801233291626	0.00044865283416584134	0.13962459564208984	15
+102	himym_align	aligned	gpt2	unk> the bags onto the security conveyor belt and they stepped through the	 body	of	7.272907257080078	4.583724021911621	0.00023769681865815073	0.24855491518974304	15
+103	himym_align	aligned	gpt2	> the bags onto the security conveyor belt and they stepped through the body	 scanner	.	5.258409023284912	4.131809711456299	0.014583908952772617	0.23020784556865692	15
+104	himym_align	aligned	gpt2	 the bags onto the security conveyor belt and they stepped through the body scanner	 one	by	8.231195449829102	1.8807909488677979	0.00010226697486359626	0.5744377374649048	15
+105	himym_align	aligned	gpt2	 bags onto the security conveyor belt and they stepped through the body scanner one	 of	the	4.9500532150268555	2.2177000045776367	4.8919373512035236e-05	0.564233660697937	15
+106	himym_align	aligned	gpt2	 onto the security conveyor belt and they stepped through the body scanner one of	 the	doors	0.5108221173286438	6.544689178466797	0.00036956771509721875	0.07026022672653198	15
+107	himym_align	aligned	gpt2	 the security conveyor belt and they stepped through the body scanner one of the	 security	guards	2.920396327972412	5.262301921844482	0.0028519481420516968	0.1441609114408493	15
+108	himym_align	aligned	gpt2	 security conveyor belt and they stepped through the body scanner one of the security	 guards	.	1.6806809902191162	4.75045919418335	8.62637025420554e-05	0.14017125964164734	15
+109	himym_align	aligned	gpt2	 conveyor belt and they stepped through the body scanner one of the security guards	 waved	at	8.095757484436035	3.285062789916992	6.151549314381555e-06	0.15117384493350983	15
+110	himym_align	aligned	gpt2	or belt and they stepped through the body scanner one of the security guards waved	 them	over	1.9726413488388062	2.8281002044677734	5.666977813234553e-05	0.28696563839912415	15
+111	himym_align	aligned	gpt2	 belt and they stepped through the body scanner one of the security guards waved them	 over	.	1.261042594909668	2.467564344406128	0.00030538643477484584	0.35424554347991943	15
+112	himym_align	aligned	gpt2	 and they stepped through the body scanner one of the security guards waved them over	 and	said	1.3866125345230103	5.1669721603393555	0.0009165703668259084	0.08250577747821808	15
+113	himym_align	aligned	gpt2	 they stepped through the body scanner one of the security guards waved them over and	 held	them	5.811038970947266	2.308316946029663	1.8236181858810596e-05	0.5124512314796448	15
+114	himym_align	aligned	gpt2	 stepped through the body scanner one of the security guards waved them over and held	 up	a	2.827179431915283	2.250002384185791	9.365673759020865e-05	0.35898658633232117	15
+115	himym_align	aligned	gpt2	 through the body scanner one of the security guards waved them over and held up	 bar	bed	10.612992286682129	3.075753688812256	2.5447319785598665e-05	0.3751506805419922	15
+116	himym_align	aligned	gpt2	 the body scanner one of the security guards waved them over and held up bar	ney	.	11.784102439880371	4.796212196350098	1.1263845408393536e-05	0.2552450895309448	15
+117	himym_align	aligned	gpt2	 body scanner one of the security guards waved them over and held up barney	's	head	5.877223491668701	6.698017597198486	0.00022608503059018403	0.06470317393541336	15
+118	himym_align	aligned	gpt2	 scanner one of the security guards waved them over and held up barney's	 suitcase	.	8.98521614074707	2.8843493461608887	1.4981130334490445e-05	0.4249216616153717	15
+119	himym_align	aligned	gpt2	 one of the security guards waved them over and held up barney's suitcase	 sir	.	15.243393898010254	2.7292582988739014	0.0006179553456604481	0.5827416181564331	15
+120	himym_align	aligned	gpt2	 of the security guards waved them over and held up barney's suitcase sir	 is	a	8.1149263381958	6.537003993988037	0.0008712601265870035	0.07350311428308487	15
+121	himym_align	aligned	gpt2	 the security guards waved them over and held up barney's suitcase sir is	 this	a	4.140552520751953	6.227595329284668	0.0021491132210940123	0.08921060711145401	15
+122	himym_align	aligned	gpt2	 security guards waved them over and held up barney's suitcase sir is this	 is	a	3.8391823768615723	5.749134063720703	0.0003348582540638745	0.1490257829427719	15
+123	himym_align	aligned	gpt2	 guards waved them over and held up barney's suitcase sir is this is	 this	is	6.469426155090332	5.888698577880859	0.0021852757781744003	0.18127651512622833	15
+124	himym_align	aligned	gpt2	 waved them over and held up barney's suitcase sir is this is this	 yours	sir	8.625027656555176	4.902110576629639	0.0006822381401434541	0.19545212388038635	15
+125	himym_align	aligned	gpt2	 them over and held up barney's suitcase sir is this is this yours	 she	is	8.493921279907227	5.55081033706665	0.0008377626654691994	0.10586284101009369	15
+126	himym_align	aligned	gpt2	 over and held up barney's suitcase sir is this is this yours she	 asked	for	4.89673376083374	4.313014507293701	0.0004452474240679294	0.18355312943458557	15
+127	himym_align	aligned	gpt2	 and held up barney's suitcase sir is this is this yours she asked	 <	3	9.779168128967285	6.515242576599121	0.00038361267070285976	0.07556357979774475	15
+128	himym_align	aligned	gpt2	 held up barney's suitcase sir is this is this yours she asked <	unk	now	12.298038482666016	4.792074680328369	7.888799882493913e-05	0.25213301181793213	15
+129	himym_align	aligned	gpt2	 up barney's suitcase sir is this is this yours she asked <unk	>	I	3.3321127891540527	6.497753620147705	0.00024192452838178724	0.036655984818935394	15
+130	himym_align	aligned	gpt2	 barney's suitcase sir is this is this yours she asked <unk>	 yes	sir	3.477525472640991	4.837789058685303	0.03983350098133087	0.16781923174858093	15
+131	himym_align	aligned	gpt2	ney's suitcase sir is this is this yours she asked <unk> yes	 it	is	3.390798568725586	1.8547252416610718	0.0003865603939630091	0.622707724571228	15
+132	himym_align	aligned	gpt2	's suitcase sir is this is this yours she asked <unk> yes it	 is	<	0.471729576587677	4.5894856452941895	0.001924616051837802	0.2507610023021698	15
+133	himym_align	aligned	gpt2	 suitcase sir is this is this yours she asked <unk> yes it is	 he	is	4.654579162597656	5.7801513671875	0.016248522326350212	0.12104815244674683	15
+134	himym_align	aligned	gpt2	 sir is this is this yours she asked <unk> yes it is he	 said	<	3.279520034790039	4.738759517669678	0.0006247285637073219	0.15580376982688904	15
+135	himym_align	aligned	gpt2	 is this is this yours she asked <unk> yes it is he said	 with	a	6.316239356994629	5.535450458526611	0.0001630718179512769	0.15244178473949432	15
+136	himym_align	aligned	gpt2	 this is this yours she asked <unk> yes it is he said with	 a	smile	1.9312939643859863	6.316640377044678	0.00044688009074889123	0.11847622692584991	15
+137	himym_align	aligned	gpt2	 is this yours she asked <unk> yes it is he said with a	 sigh	<	5.055057525634766	4.378301620483398	0.0006627218681387603	0.24975039064884186	15
+138	himym_align	aligned	gpt2	 this yours she asked <unk> yes it is he said with a sigh	 the	other	5.143571853637695	7.312367916107178	0.001421443885192275	0.040647488087415695	15
+139	himym_align	aligned	gpt2	 yours she asked <unk> yes it is he said with a sigh the	 guard	said	8.026715278625488	5.818830490112305	0.0005892881308682263	0.10914023965597153	15
+140	himym_align	aligned	gpt2	 she asked <unk> yes it is he said with a sigh the guard	 placed	his	6.710282325744629	2.665393352508545	1.3502829460776411e-05	0.4192816913127899	15
+141	himym_align	aligned	gpt2	 asked <unk> yes it is he said with a sigh the guard placed	 the	sword	2.0450072288513184	7.430370807647705	0.0005345403333194554	0.03259366378188133	15
+142	himym_align	aligned	gpt2	 <unk> yes it is he said with a sigh the guard placed the	 suitcase	on	7.9572224617004395	3.903583526611328	5.754690573667176e-05	0.24365641176700592	15
+143	himym_align	aligned	gpt2	unk> yes it is he said with a sigh the guard placed the suitcase	 on	the	1.3885228633880615	1.9026750326156616	9.790759941097349e-05	0.5966701507568359	15
+144	himym_align	aligned	gpt2	> yes it is he said with a sigh the guard placed the suitcase on	 a	table	3.33388352394104	4.478002548217773	0.0001461980282329023	0.22467155754566193	15
+145	himym_align	aligned	gpt2	 yes it is he said with a sigh the guard placed the suitcase on a	 table	and	1.4446752071380615	3.4169068336486816	0.00017747080710250884	0.25027909874916077	15
+146	himym_align	aligned	gpt2	 it is he said with a sigh the guard placed the suitcase on a table	 and	looked	1.4368239641189575	5.760978698730469	0.0014668111689388752	0.036672379821538925	15
+147	himym_align	aligned	gpt2	 is he said with a sigh the guard placed the suitcase on a table and	 opened	it	5.052573204040527	1.077709674835205	1.8612845451571047e-05	0.6442585587501526	15
+148	himym_align	aligned	gpt2	 he said with a sigh the guard placed the suitcase on a table and opened	 it	.	0.3936743438243866	2.607388734817505	0.00012168575631221756	0.3466126322746277	15
+149	himym_align	aligned	gpt2	 said with a sigh the guard placed the suitcase on a table and opened it	 up	.	1.831656575202942	2.379926919937134	0.0002921224804595113	0.51161128282547	15
+150	himym_align	aligned	gpt2	 with a sigh the guard placed the suitcase on a table and opened it up	 revealing	a	6.588631629943848	3.0541131496429443	4.25727957917843e-05	0.43850961327552795	15
+151	himym_align	aligned	gpt2	 a sigh the guard placed the suitcase on a table and opened it up revealing	 a	large	0.850383460521698	6.537212371826172	0.00019940616039093584	0.09866329282522202	15
+152	himym_align	aligned	gpt2	 sigh the guard placed the suitcase on a table and opened it up revealing a	 silver	box	5.198475360870361	6.5107831954956055	0.004676131531596184	0.03833138942718506	15
+153	himym_align	aligned	gpt2	 the guard placed the suitcase on a table and opened it up revealing a silver	 metal	box	5.695047855377197	5.670424461364746	0.0011957979295402765	0.11609995365142822	15
+154	himym_align	aligned	gpt2	 guard placed the suitcase on a table and opened it up revealing a silver metal	 cube	.	5.535652160644531	3.7648308277130127	0.00013697418035008013	0.2576424479484558	15
+155	himym_align	aligned	gpt2	 placed the suitcase on a table and opened it up revealing a silver metal cube	 about	the	5.887933731079102	3.9784200191497803	0.0012133922427892685	0.15553320944309235	15
+156	himym_align	aligned	gpt2	 the suitcase on a table and opened it up revealing a silver metal cube about	 a	foot	2.9146780967712402	3.0174875259399414	0.00011528406321303919	0.3924235999584198	15
+157	himym_align	aligned	gpt2	 suitcase on a table and opened it up revealing a silver metal cube about a	 foot	long	1.0932902097702026	2.70515775680542	0.0001179957325803116	0.24344272911548615	15
+158	himym_align	aligned	gpt2	 on a table and opened it up revealing a silver metal cube about a foot	 long	.	1.6210898160934448	2.2290029525756836	0.0009485517512075603	0.4223993718624115	15
+159	himym_align	aligned	gpt2	 a table and opened it up revealing a silver metal cube about a foot long	 on	the	6.033949851989746	2.418804883956909	1.5188036741164979e-05	0.35227206349372864	15
+160	himym_align	aligned	gpt2	 table and opened it up revealing a silver metal cube about a foot long on	 each	side	2.586282253265381	0.727982223033905	2.265307102788938e-06	0.8163526654243469	15
+161	himym_align	aligned	gpt2	 and opened it up revealing a silver metal cube about a foot long on each	 side	.	0.23050223290920258	2.279831647872925	0.00011406770499888808	0.5081738829612732	15
+162	himym_align	aligned	gpt2	 opened it up revealing a silver metal cube about a foot long on each side	 what	looked	10.348557472229004	2.6290042400360107	3.1563562515657395e-05	0.39959871768951416	15
+163	himym_align	aligned	gpt2	 it up revealing a silver metal cube about a foot long on each side what	 is	known	2.9818029403686523	4.970404148101807	0.0003382938739378005	0.06263190507888794	15
+164	himym_align	aligned	gpt2	 up revealing a silver metal cube about a foot long on each side what is	 that	cube	6.43452262878418	3.7888667583465576	0.0012364644790068269	0.3627055883407593	15
+165	himym_align	aligned	gpt2	 revealing a silver metal cube about a foot long on each side what is that	 qu	ilt	9.332513809204102	2.7898125648498535	1.0094969127294462e-07	0.4067423939704895	15
+166	himym_align	aligned	gpt2	 a silver metal cube about a foot long on each side what is that qu	inn	?	7.652436256408691	5.199700355529785	1.1554446928130346e-06	0.14661884307861328	15
+167	himym_align	aligned	gpt2	 silver metal cube about a foot long on each side what is that quinn	 looked	like	9.652812957763672	0.23103085160255432	5.2688778851006646e-06	0.9730721712112427	15
+168	himym_align	aligned	gpt2	 metal cube about a foot long on each side what is that quinn looked	 equally	like	14.011526107788086	5.439515113830566	6.205520912772045e-05	0.18626989424228668	15
+169	himym_align	aligned	gpt2	 cube about a foot long on each side what is that quinn looked equally	 confused	.	6.180994510650635	3.368299961090088	2.3147224055719562e-05	0.17532432079315186	15
+170	himym_align	aligned	gpt2	 about a foot long on each side what is that quinn looked equally confused	 yeah	,	11.992709159851074	4.9925994873046875	0.023233532905578613	0.10464631021022797	15
+171	himym_align	aligned	gpt2	 a foot long on each side what is that quinn looked equally confused yeah	 what	is	4.881892681121826	4.4654107093811035	0.0035551767796278	0.13735437393188477	15
+172	himym_align	aligned	gpt2	 foot long on each side what is that quinn looked equally confused yeah what	 is	that	2.055401563644409	2.3822455406188965	0.000607288908213377	0.5705286860466003	15
+173	himym_align	aligned	gpt2	 long on each side what is that quinn looked equally confused yeah what is	 that	qu	0.506047248840332	4.057116985321045	0.0023003150708973408	0.5086645483970642	15
+174	himym_align	aligned	gpt2	 on each side what is that quinn looked equally confused yeah what is that	 bar	?	8.472573280334473	6.159384250640869	0.0007698964909650385	0.07262097299098969	15
+175	himym_align	aligned	gpt2	 each side what is that quinn looked equally confused yeah what is that bar	ney	?	6.303648948669434	6.542331695556641	0.0002527990145608783	0.07530856877565384	15
+176	himym_align	aligned	gpt2	 side what is that quinn looked equally confused yeah what is that barney	 pointed	out	8.879899978637695	4.3963823318481445	0.0012224436504766345	0.18315266072750092	15
+177	himym_align	aligned	gpt2	 what is that quinn looked equally confused yeah what is that barney pointed	 to	?	2.0418314933776855	5.609793663024902	0.00787966325879097	0.07995972782373428	15
+178	himym_align	aligned	gpt2	 is that quinn looked equally confused yeah what is that barney pointed to	 it	was	4.427445411682129	5.203832149505615	0.006632894743233919	0.09550279378890991	15
+179	himym_align	aligned	gpt2	 that quinn looked equally confused yeah what is that barney pointed to it	 non	-	10.652652740478516	6.128451824188232	0.000607952824793756	0.1257530152797699	15
+180	himym_align	aligned	gpt2	 quinn looked equally confused yeah what is that barney pointed to it non	chal	antly	2.6382851600646973	0.2910058796405792	3.339903642540776e-08	0.9313934445381165	15
+181	himym_align	aligned	gpt2	inn looked equally confused yeah what is that barney pointed to it nonchal	antly	?	0.028804346919059753	5.425896644592285	1.3285598754464445e-07	0.11590062081813812	15
+182	himym_align	aligned	gpt2	 looked equally confused yeah what is that barney pointed to it nonchalantly	 it	's	4.679288387298584	3.8271989822387695	0.00046205040416680276	0.19348421692848206	15
+183	himym_align	aligned	gpt2	 equally confused yeah what is that barney pointed to it nonchalantly it	's	a	1.6009132862091064	5.760482311248779	7.642411219421774e-05	0.11148753762245178	15
+184	himym_align	aligned	gpt2	 confused yeah what is that barney pointed to it nonchalantly it's	 a	bar	2.2102606296539307	7.596958160400391	0.0006249099969863892	0.06299127638339996	15
+185	himym_align	aligned	gpt2	 yeah what is that barney pointed to it nonchalantly it's a	 magic	wand	7.487604141235352	5.9430155754089355	0.0010828025406226516	0.11287587136030197	15
+186	himym_align	aligned	gpt2	 what is that barney pointed to it nonchalantly it's a magic	 trick	.	3.9250128269195557	4.376614093780518	0.0005512950010597706	0.16662822663784027	15
+187	himym_align	aligned	gpt2	 is that barney pointed to it nonchalantly it's a magic trick	 you	can	5.0509562492370605	3.480149507522583	5.8683745010057464e-05	0.3823120892047882	15
+188	himym_align	aligned	gpt2	 that barney pointed to it nonchalantly it's a magic trick you	 see	in	5.025162220001221	4.419974327087402	1.6801846868474968e-05	0.17518575489521027	15
+189	himym_align	aligned	gpt2	 barney pointed to it nonchalantly it's a magic trick you see	 i	think	11.601663589477539	4.7346601486206055	0.00030456719105131924	0.09125091135501862	15
+190	himym_align	aligned	gpt2	ney pointed to it nonchalantly it's a magic trick you see i	'm	not	2.9780263900756836	4.245112419128418	4.377990080683958e-06	0.26113036274909973	15
+191	himym_align	aligned	gpt2	 pointed to it nonchalantly it's a magic trick you see i'm	 something	of	8.971962928771973	4.371861457824707	0.0002290143456775695	0.21544736623764038	15
+192	himym_align	aligned	gpt2	 to it nonchalantly it's a magic trick you see i'm something	 of	a	1.5747299194335938	0.7408435940742493	1.5671872461098246e-05	0.7785226702690125	15
+193	himym_align	aligned	gpt2	 it nonchalantly it's a magic trick you see i'm something of	 a	magician	0.2528771758079529	7.578028678894043	0.0005342973745428026	0.02866421826183796	15
+194	himym_align	aligned	gpt2	 nonchalantly it's a magic trick you see i'm something of a	 magician	.	3.8245434761047363	4.300893783569336	9.557239536661655e-05	0.16558556258678436	15
+195	himym_align	aligned	gpt2	chalantly it's a magic trick you see i'm something of a magician	 the	way	6.3964033126831055	6.02829647064209	0.0004458271141629666	0.14497727155685425	15
+196	himym_align	aligned	gpt2	antly it's a magic trick you see i'm something of a magician the	 guard	says	10.291563987731934	5.890362739562988	0.0009945230558514595	0.06350971758365631	15
+197	himym_align	aligned	gpt2	 it's a magic trick you see i'm something of a magician the guard	 <	3	10.340616226196289	4.8612470626831055	0.00020770409901160747	0.38312873244285583	15
+198	himym_align	aligned	gpt2	's a magic trick you see i'm something of a magician the guard <	unk	now	12.691064834594727	4.432308673858643	9.27071669138968e-05	0.23187075555324554	15
+199	himym_align	aligned	gpt2	 a magic trick you see i'm something of a magician the guard <unk	>	"
+"	4.257391452789307	6.790955543518066	0.00015384504513349384	0.045409832149744034	15
+200	himym_align	aligned	gpt2	 magic trick you see i'm something of a magician the guard <unk>	 to	the	6.37507438659668	6.531869888305664	0.0004375716671347618	0.07747010141611099	15
+201	himym_align	aligned	gpt2	 trick you see i'm something of a magician the guard <unk> to	 several	of	8.974998474121094	6.605679035186768	0.00010651436605257913	0.08581600338220596	15
+202	himym_align	aligned	gpt2	 you see i'm something of a magician the guard <unk> to several	 others	.	4.55433988571167	4.6423139572143555	6.487269274657592e-05	0.15090341866016388	15
+203	himym_align	aligned	gpt2	 see i'm something of a magician the guard <unk> to several others	 for	a	5.16268253326416	6.113399028778076	0.0004510901344474405	0.08829701691865921	15
+204	himym_align	aligned	gpt2	 i'm something of a magician the guard <unk> to several others for	 backup	<	7.929780006408691	4.774264812469482	0.0012452974915504456	0.16130615770816803	15
+205	himym_align	aligned	gpt2	'm something of a magician the guard <unk> to several others for backup	 sir	<	10.85558032989502	3.24780535697937	0.0014931567711755633	0.41597557067871094	15
+206	himym_align	aligned	gpt2	 something of a magician the guard <unk> to several others for backup sir	 you	're	6.488522052764893	5.039122104644775	0.0002904569555539638	0.08380775898694992	15
+207	himym_align	aligned	gpt2	 of a magician the guard <unk> to several others for backup sir you	 need	to	3.5722768306732178	3.635106086730957	5.4452873882837594e-05	0.49051007628440857	15
+208	himym_align	aligned	gpt2	 a magician the guard <unk> to several others for backup sir you need	 to	be	0.7249462008476257	5.697127342224121	0.0002708704269025475	0.05915683135390282	15
+209	himym_align	aligned	gpt2	 magician the guard <unk> to several others for backup sir you need to	 open	the	5.662044525146484	4.086203098297119	0.0005606688791885972	0.278158962726593	15
+210	himym_align	aligned	gpt2	 the guard <unk> to several others for backup sir you need to open	 this	up	3.857618570327759	6.216012001037598	0.00012178727047285065	0.07195574790239334	15
+211	himym_align	aligned	gpt2	 guard <unk> to several others for backup sir you need to open this	 box	and	5.30109977722168	4.941894054412842	0.0001248340413440019	0.09584635496139526	15
+212	himym_align	aligned	gpt2	 <unk> to several others for backup sir you need to open this box	 oh	my	9.737722396850586	5.307647228240967	0.005320458207279444	0.09006015956401825	15
+213	himym_align	aligned	gpt2	unk> to several others for backup sir you need to open this box oh	 i	dont	4.06051778793335	4.6218342781066895	0.000206659417017363	0.0667487233877182	15
+214	himym_align	aligned	gpt2	> to several others for backup sir you need to open this box oh i	 can	't	3.2128331661224365	4.087847709655762	0.0002784511889331043	0.3338622450828552	15
+215	himym_align	aligned	gpt2	 to several others for backup sir you need to open this box oh i can	't	open	1.066872239112854	4.816065788269043	0.0002820156223606318	0.08364059776067734	15
+216	himym_align	aligned	gpt2	 several others for backup sir you need to open this box oh i can't	 do	it	3.345248222351074	2.886415958404541	0.00018815752991940826	0.23089925944805145	15
+217	himym_align	aligned	gpt2	 others for backup sir you need to open this box oh i can't do	 that	i	1.5569859743118286	5.619813442230225	0.002068693982437253	0.07779555022716522	15
+218	himym_align	aligned	gpt2	 for backup sir you need to open this box oh i can't do that	 <	3	7.031386375427246	3.8404643535614014	0.000639869540464133	0.5039269924163818	15
+219	himym_align	aligned	gpt2	 backup sir you need to open this box oh i can't do that <	unk	now	12.511549949645996	3.6264801025390625	0.00010170481982640922	0.49160516262054443	15
+220	himym_align	aligned	gpt2	 sir you need to open this box oh i can't do that <unk	>	i	4.138831615447998	6.408320903778076	0.00015366970910690725	0.04281168431043625	15
+221	himym_align	aligned	gpt2	 you need to open this box oh i can't do that <unk>	 code	:	10.013266563415527	6.157949447631836	0.00048066183808259666	0.09615211933851242	15
+222	himym_align	aligned	gpt2	 need to open this box oh i can't do that <unk> code	 a	int	5.828986167907715	6.734022617340088	0.0008154351380653679	0.04564141482114792	15
+223	himym_align	aligned	gpt2	 to open this box oh i can't do that <unk> code a	 magician	is	10.754093170166016	6.2818522453308105	0.0004940039943903685	0.05259853973984718	15
+224	himym_align	aligned	gpt2	 open this box oh i can't do that <unk> code a magician	 never	does	6.408854961395264	5.69128942489624	0.00022021408949512988	0.07523781061172485	15
+225	himym_align	aligned	gpt2	 this box oh i can't do that <unk> code a magician never	 reveals	his	8.293764114379883	5.049254894256592	3.166351234540343e-05	0.12380823493003845	15
+226	himym_align	aligned	gpt2	 box oh i can't do that <unk> code a magician never reveals	 his	secrets	2.1655454635620117	5.42844820022583	3.910624946001917e-05	0.11110175400972366	15
+227	himym_align	aligned	gpt2	 oh i can't do that <unk> code a magician never reveals his	 tricks	<	3.191960573196411	3.2539713382720947	3.733760240720585e-05	0.47471189498901367	15
+228	himym_align	aligned	gpt2	 i can't do that <unk> code a magician never reveals his tricks	 the	way	7.200034141540527	4.983657360076904	0.0003858518321067095	0.18527458608150482	15
+229	himym_align	aligned	gpt2	 can't do that <unk> code a magician never reveals his tricks the	 only	way	4.648847579956055	2.308004379272461	0.0004612975171767175	0.6448249816894531	15
+230	himym_align	aligned	gpt2	't do that <unk> code a magician never reveals his tricks the only	 person	who	3.778801202774048	2.4440150260925293	1.0278677109454293e-05	0.5381914973258972	15
+231	himym_align	aligned	gpt2	 do that <unk> code a magician never reveals his tricks the only person	 i	know	7.255363464355469	3.0066351890563965	2.069347283395473e-05	0.4285445213317871	15
+232	himym_align	aligned	gpt2	 that <unk> code a magician never reveals his tricks the only person i	 could	find	3.9469759464263916	4.559627532958984	4.2543095332803205e-05	0.0957135334610939	15
+233	himym_align	aligned	gpt2	 <unk> code a magician never reveals his tricks the only person i could	 possibly	trust	4.457291603088379	4.327910423278809	0.0024918238632380962	0.25517553091049194	15
+234	himym_align	aligned	gpt2	unk> code a magician never reveals his tricks the only person i could possibly	 reveal	is	6.445727348327637	3.4917027950286865	2.5104714950430207e-05	0.17095685005187988	15
+235	himym_align	aligned	gpt2	> code a magician never reveals his tricks the only person i could possibly reveal	 the	truth	3.251791477203369	4.440603733062744	0.0001325227931374684	0.18630723655223846	15
+236	himym_align	aligned	gpt2	 code a magician never reveals his tricks the only person i could possibly reveal the	 trick	is	3.396552085876465	2.8860206604003906	4.163049379712902e-05	0.42483097314834595	15
+237	himym_align	aligned	gpt2	 a magician never reveals his tricks the only person i could possibly reveal the trick	 to	was	2.0477452278137207	2.149834632873535	0.0020369149278849363	0.39821916818618774	15
+238	himym_align	aligned	gpt2	 magician never reveals his tricks the only person i could possibly reveal the trick to	 is	the	1.0983349084854126	5.854253768920898	0.0005206295172683895	0.11831727623939514	15
+239	himym_align	aligned	gpt2	 never reveals his tricks the only person i could possibly reveal the trick to is	 another	person	6.8975677490234375	6.8304901123046875	5.055015571997501e-05	0.09768711030483246	15
+240	himym_align	aligned	gpt2	 reveals his tricks the only person i could possibly reveal the trick to is another	 magician	.	5.226212978363037	3.6165733337402344	0.00012518356379587203	0.29366058111190796	15
+241	himym_align	aligned	gpt2	 his tricks the only person i could possibly reveal the trick to is another magician	 on	the	5.578426837921143	4.056868076324463	0.0001551827444927767	0.3013862669467926	15
+242	himym_align	aligned	gpt2	 tricks the only person i could possibly reveal the trick to is another magician on	 cue	.	9.716222763061523	3.4057345390319824	0.00021748834114987403	0.40302348136901855	15
+243	himym_align	aligned	gpt2	 the only person i could possibly reveal the trick to is another magician on cue	 one	day	8.078130722045898	4.195001125335693	0.0003291724424343556	0.23802869021892548	15
+244	himym_align	aligned	gpt2	 only person i could possibly reveal the trick to is another magician on cue one	 of	the	2.0745534896850586	2.777937412261963	0.00015021466242615134	0.35662856698036194	15
+245	himym_align	aligned	gpt2	 person i could possibly reveal the trick to is another magician on cue one of	 the	other	1.086921215057373	7.442014217376709	0.0009133662679232657	0.03083391860127449	15
+246	himym_align	aligned	gpt2	 i could possibly reveal the trick to is another magician on cue one of the	 security	guards	8.216169357299805	4.6951446533203125	0.0008969182381406426	0.2134348601102829	15
+247	himym_align	aligned	gpt2	 could possibly reveal the trick to is another magician on cue one of the security	 guards	.	1.4864100217819214	5.341894626617432	0.00020838255295529962	0.1522231251001358	15
+248	himym_align	aligned	gpt2	 possibly reveal the trick to is another magician on cue one of the security guards	 stepped	in	7.065363883972168	2.7453136444091797	1.8575871081338846e-06	0.2786906063556671	15
+249	himym_align	aligned	gpt2	 reveal the trick to is another magician on cue one of the security guards stepped	 forward	and	2.2101144790649414	2.4068000316619873	4.684876694227569e-05	0.3322816789150238	15
+250	himym_align	aligned	gpt2	 the trick to is another magician on cue one of the security guards stepped forward	 i	.	11.518993377685547	4.833799839019775	0.0013465333031490445	0.33175092935562134	15
+251	himym_align	aligned	gpt2	 trick to is another magician on cue one of the security guards stepped forward i	'm	sure	3.868579149246216	4.492299556732178	1.1660647032840643e-05	0.2282996028661728	15
+252	himym_align	aligned	gpt2	 to is another magician on cue one of the security guards stepped forward i'm	 a	little	4.354806423187256	6.903658866882324	0.0006198535556904972	0.061244577169418335	15
+253	himym_align	aligned	gpt2	 is another magician on cue one of the security guards stepped forward i'm a	 magician	and	3.515758514404297	4.925168991088867	0.00011745115625672042	0.09700095653533936	15
+254	himym_align	aligned	gpt2	 another magician on cue one of the security guards stepped forward i'm a magician	 he	's	5.768628120422363	5.505669116973877	0.001627900986932218	0.1202402338385582	15
+255	himym_align	aligned	gpt2	 magician on cue one of the security guards stepped forward i'm a magician he	 said	""""	3.6454386711120605	5.070201873779297	0.0008983622537925839	0.12310780584812164	15
+256	himym_align	aligned	gpt2	 on cue one of the security guards stepped forward i'm a magician he said	 pulling	the	9.801324844360352	3.912595510482788	1.2593445717357099e-05	0.14981839060783386	15
+257	himym_align	aligned	gpt2	 cue one of the security guards stepped forward i'm a magician he said pulling	 out	a	1.9759761095046997	2.9692118167877197	0.0001258725387742743	0.3749173879623413	15
+258	himym_align	aligned	gpt2	 one of the security guards stepped forward i'm a magician he said pulling out	 a	sword	1.1152018308639526	6.329328536987305	0.00022623277618549764	0.048899661749601364	15
+259	himym_align	aligned	gpt2	 of the security guards stepped forward i'm a magician he said pulling out a	 deck	of	6.53891134262085	3.637493133544922	0.002423547673970461	0.43643423914909363	15
+260	himym_align	aligned	gpt2	 the security guards stepped forward i'm a magician he said pulling out a deck	 of	cards	0.8954749703407288	2.12141489982605	1.8721479136729613e-05	0.7744534611701965	15
+261	himym_align	aligned	gpt2	 security guards stepped forward i'm a magician he said pulling out a deck of	 cards	and	0.2594256103038788	4.396200180053711	0.00020134163787588477	0.18565264344215393	15
+262	himym_align	aligned	gpt2	 guards stepped forward i'm a magician he said pulling out a deck of cards	 from	the	2.7612805366516113	3.1516900062561035	0.0005210358067415655	0.29954302310943604	15
+263	himym_align	aligned	gpt2	 stepped forward i'm a magician he said pulling out a deck of cards from	 his	pocket	1.4073652029037476	5.053133010864258	0.00014252289838623255	0.15578937530517578	15
+264	himym_align	aligned	gpt2	 forward i'm a magician he said pulling out a deck of cards from his	 breast	pocket	8.793352127075195	4.200218200683594	0.0002973363152705133	0.2849279046058655	15
+265	himym_align	aligned	gpt2	 i'm a magician he said pulling out a deck of cards from his breast	 pocket	.	1.1895173788070679	4.224676132202148	0.00018546354840509593	0.16403315961360931	15
+266	himym_align	aligned	gpt2	'm a magician he said pulling out a deck of cards from his breast pocket	 bar	ks	11.493315696716309	2.6480143070220947	3.720403037732467e-05	0.6086742877960205	15
+267	himym_align	aligned	gpt2	 a magician he said pulling out a deck of cards from his breast pocket bar	ney	.	10.918804168701172	4.979122161865234	1.023403001454426e-05	0.19587326049804688	15
+268	himym_align	aligned	gpt2	 magician he said pulling out a deck of cards from his breast pocket barney	 shrugged	.	11.940443992614746	3.044388771057129	1.1572059520403855e-05	0.2263820618391037	15
+269	himym_align	aligned	gpt2	 he said pulling out a deck of cards from his breast pocket barney shrugged	 fair	.	11.338197708129883	2.230332136154175	0.00034652670728974044	0.5058798789978027	15
+270	himym_align	aligned	gpt2	 said pulling out a deck of cards from his breast pocket barney shrugged fair	 enough	.	2.263723373413086	1.6744924783706665	9.41034231800586e-05	0.6062867045402527	15
+271	himym_align	aligned	gpt2	 pulling out a deck of cards from his breast pocket barney shrugged fair enough	 he	could	8.30946159362793	4.765462875366211	7.067272235872224e-05	0.10411234200000763	15
+272	himym_align	aligned	gpt2	 out a deck of cards from his breast pocket barney shrugged fair enough he	 leaned	forward	7.232269287109375	2.8714747428894043	1.837163836171385e-06	0.2381076067686081	15
+273	himym_align	aligned	gpt2	 a deck of cards from his breast pocket barney shrugged fair enough he leaned	 over	and	2.6161835193634033	2.4777512550354004	0.00032519781962037086	0.4067480266094208	15
+274	himym_align	aligned	gpt2	 deck of cards from his breast pocket barney shrugged fair enough he leaned over	 and	took	0.9778992533683777	5.627132415771484	0.0003027489292435348	0.04417191818356514	15
+275	himym_align	aligned	gpt2	 of cards from his breast pocket barney shrugged fair enough he leaned over and	 whispered	,	3.943385124206543	3.517920970916748	0.0002215198619524017	0.21947374939918518	15
+276	himym_align	aligned	gpt2	 cards from his breast pocket barney shrugged fair enough he leaned over and whispered	 in	his	2.576131582260132	3.523818016052246	9.054626571014524e-05	0.31708499789237976	15
+277	himym_align	aligned	gpt2	 from his breast pocket barney shrugged fair enough he leaned over and whispered in	 the	ear	2.6992344856262207	5.725461006164551	0.00041636405512690544	0.2488589733839035	15
+278	himym_align	aligned	gpt2	 his breast pocket barney shrugged fair enough he leaned over and whispered in the	 guard	's	7.7507195472717285	1.973030686378479	0.0013083746889606118	0.6947596669197083	15
+279	himym_align	aligned	gpt2	 breast pocket barney shrugged fair enough he leaned over and whispered in the guard	's	ear	0.3753179609775543	0.29476451873779297	1.5424506273120642e-05	0.9691875576972961	15
+280	himym_align	aligned	gpt2	 pocket barney shrugged fair enough he leaned over and whispered in the guard's	 ear	.	0.030146315693855286	2.680572986602783	4.720302240457386e-05	0.3686715066432953	15
+281	himym_align	aligned	gpt2	 barney shrugged fair enough he leaned over and whispered in the guard's ear	 the	words	4.867753028869629	5.343414783477783	0.00031870746170170605	0.1810692995786667	15
+282	himym_align	aligned	gpt2	ney shrugged fair enough he leaned over and whispered in the guard's ear the	 guard	's	7.580756664276123	4.189948081970215	0.000213915656786412	0.30451759696006775	15
+283	himym_align	aligned	gpt2	 shrugged fair enough he leaned over and whispered in the guard's ear the guard	 raised	his	7.074924945831299	1.712453007698059	2.001324901357293e-05	0.4790511429309845	15
+284	himym_align	aligned	gpt2	 fair enough he leaned over and whispered in the guard's ear the guard raised	 his	hand	0.54008948802948	3.8358283042907715	8.107028406811878e-05	0.23373731970787048	15
+285	himym_align	aligned	gpt2	 enough he leaned over and whispered in the guard's ear the guard raised his	 eyebrows	.	2.71470308303833	2.7969160079956055	5.7067842135438696e-05	0.38862669467926025	15
+286	himym_align	aligned	gpt2	 he leaned over and whispered in the guard's ear the guard raised his eyebrows	 and	said	1.9660923480987549	5.508925914764404	0.0005330706480890512	0.09693039953708649	15
+287	himym_align	aligned	gpt2	 leaned over and whispered in the guard's ear the guard raised his eyebrows and	 smiled	.	4.0023651123046875	3.7015798091888428	3.365307202329859e-05	0.35675209760665894	15
+288	himym_align	aligned	gpt2	 over and whispered in the guard's ear the guard raised his eyebrows and smiled	 oh	so	11.051993370056152	4.467418670654297	0.005811259616166353	0.26269274950027466	15
+289	himym_align	aligned	gpt2	 and whispered in the guard's ear the guard raised his eyebrows and smiled oh	 i	'm	9.460143089294434	4.494115352630615	0.00039071368519216776	0.10932712256908417	15
+290	himym_align	aligned	gpt2	 whispered in the guard's ear the guard raised his eyebrows and smiled oh i	 see	you	3.3202967643737793	4.796757221221924	0.0005066689918749034	0.1159052848815918	15
+291	himym_align	aligned	gpt2	 in the guard's ear the guard raised his eyebrows and smiled oh i see	 alright	i	9.451416969299316	4.941451072692871	0.020813224837183952	0.1642002910375595	15
+292	himym_align	aligned	gpt2	 the guard's ear the guard raised his eyebrows and smiled oh i see alright	 you	're	3.8131422996520996	5.1241374015808105	0.0002726235834416002	0.09398049116134644	15
+293	himym_align	aligned	gpt2	 guard's ear the guard raised his eyebrows and smiled oh i see alright you	're	right	2.3773319721221924	5.196214199066162	1.6166204659384675e-05	0.10906457155942917	15
+294	himym_align	aligned	gpt2	's ear the guard raised his eyebrows and smiled oh i see alright you're	 free	to	6.277317523956299	4.260787487030029	0.0004673886869568378	0.32933536171913147	15
+295	himym_align	aligned	gpt2	 ear the guard raised his eyebrows and smiled oh i see alright you're free	 to	go	1.2756730318069458	4.706413745880127	0.00015990776591934264	0.17658455669879913	15
+296	himym_align	aligned	gpt2	 the guard raised his eyebrows and smiled oh i see alright you're free to	 go	.	1.7237526178359985	5.1798601150512695	0.008528758771717548	0.1050974428653717	15
+297	himym_align	aligned	gpt2	 guard raised his eyebrows and smiled oh i see alright you're free to go	 he	he	6.473731994628906	4.655323505401611	0.0019160849042236805	0.23911307752132416	15
+298	himym_align	aligned	gpt2	 raised his eyebrows and smiled oh i see alright you're free to go he	 z	zz	8.344169616699219	5.432433605194092	0.0004577064246404916	0.08670853078365326	15
+299	himym_align	aligned	gpt2	 his eyebrows and smiled oh i see alright you're free to go he z	ipped	his	2.197962760925293	3.6111910343170166	3.4502388501778114e-08	0.15318049490451813	15
+300	himym_align	aligned	gpt2	 eyebrows and smiled oh i see alright you're free to go he zipped	 up	to	2.3473970890045166	3.253129482269287	0.0007625116850249469	0.21626214683055878	15
+301	himym_align	aligned	gpt2	 and smiled oh i see alright you're free to go he zipped up	 bar	re	9.950827598571777	5.645351886749268	0.0005582112935371697	0.1261679232120514	15
+302	himym_align	aligned	gpt2	 smiled oh i see alright you're free to go he zipped up bar	ney	's	6.954760551452637	6.875298976898193	5.2362218411872163e-05	0.0641147792339325	15
+303	himym_align	aligned	gpt2	 oh i see alright you're free to go he zipped up barney	's	and	2.861222267150879	7.599593162536621	0.0004271036304999143	0.019862787798047066	15
+304	himym_align	aligned	gpt2	 i see alright you're free to go he zipped up barney's	 bag	and	6.477781295776367	5.181229114532471	0.00024288849090225995	0.10949153453111649	15
+305	himym_align	aligned	gpt2	 see alright you're free to go he zipped up barney's bag	 and	went	1.8789968490600586	6.035927772521973	0.0010682714637368917	0.037997256964445114	15
+306	himym_align	aligned	gpt2	 alright you're free to go he zipped up barney's bag and	 handed	it	4.443843841552734	2.30057692527771	5.106874596094713e-06	0.41943904757499695	15
+307	himym_align	aligned	gpt2	 you're free to go he zipped up barney's bag and handed	 it	to	0.7347734570503235	1.4724068641662598	0.0003449189243838191	0.6865065097808838	15
+308	himym_align	aligned	gpt2	're free to go he zipped up barney's bag and handed it	 back	to	3.158656597137451	1.5283398628234863	0.0007071389118209481	0.6812363862991333	15
+309	himym_align	aligned	gpt2	 free to go he zipped up barney's bag and handed it back	 to	me	0.3592424988746643	4.331663608551025	0.00011320476187393069	0.2870427370071411	15
+310	himym_align	aligned	gpt2	 to go he zipped up barney's bag and handed it back to	 him	.	1.9419317245483398	1.8202685117721558	2.0119126929785125e-05	0.6674836874008179	15
+311	himym_align	aligned	gpt2	 go he zipped up barney's bag and handed it back to him	 qu	ivering	11.77668285369873	3.9509193897247314	1.8814024542734842e-06	0.25295576453208923	15
+312	himym_align	aligned	gpt2	 he zipped up barney's bag and handed it back to him qu	inn	.	8.00655746459961	3.3297996520996094	3.148160976707004e-05	0.4300343096256256	15
+313	himym_align	aligned	gpt2	 zipped up barney's bag and handed it back to him quinn	 followed	by	10.11330509185791	1.8418715000152588	0.00018787173030432314	0.7247095108032227	15
+314	himym_align	aligned	gpt2	ipped up barney's bag and handed it back to him quinn followed	 bar	ney	11.052919387817383	0.2125660926103592	4.861069555772701e-06	0.978417158126831	15
+315	himym_align	aligned	gpt2	 up barney's bag and handed it back to him quinn followed bar	ney	's	0.024764927104115486	3.766536235809326	9.525378175112564e-08	0.1461789309978485	15
+316	himym_align	aligned	gpt2	 barney's bag and handed it back to him quinn followed barney	 down	the	3.967186689376831	2.121407985687256	0.00026502591208554804	0.6561240553855896	15
+317	himym_align	aligned	gpt2	ney's bag and handed it back to him quinn followed barney down	 the	street	0.4835207462310791	3.6259565353393555	0.00018166188965551555	0.22141611576080322	15
+318	himym_align	aligned	gpt2	's bag and handed it back to him quinn followed barney down the	 conc	ourse	8.34542179107666	0.165476992726326	1.1814172466984019e-06	0.97438645362854	15
+319	himym_align	aligned	gpt2	 bag and handed it back to him quinn followed barney down the conc	ourse	.	0.02682642452418804	2.9453704357147217	8.166323084424221e-08	0.3333371579647064	15
+320	himym_align	aligned	gpt2	 and handed it back to him quinn followed barney down the concourse	 in	a	4.162445068359375	4.606572151184082	0.0002748097467701882	0.19824135303497314	15
+321	himym_align	aligned	gpt2	 handed it back to him quinn followed barney down the concourse in	 total	silence	7.777349472045898	4.883626461029053	0.00016391438839491457	0.26614803075790405	15
+322	himym_align	aligned	gpt2	 it back to him quinn followed barney down the concourse in total	 confusion	.	4.686983108520508	2.6300530433654785	6.316770395642379e-06	0.4318385124206543	15
+323	himym_align	aligned	gpt2	 back to him quinn followed barney down the concourse in total confusion	 magic	.	14.4998197555542	7.046749114990234	0.0046718236990273	0.09122773259878159	15
+324	himym_align	aligned	gpt2	 to him quinn followed barney down the concourse in total confusion magic	 trick	.	5.249730110168457	5.361603736877441	0.002784655662253499	0.1530577391386032	15
+325	himym_align	aligned	gpt2	 him quinn followed barney down the concourse in total confusion magic trick	 why	did	9.630203247070312	5.137058734893799	0.002849697135388851	0.07710287719964981	15
+326	himym_align	aligned	gpt2	 quinn followed barney down the concourse in total confusion magic trick why	 wouldn	't	4.9521684646606445	0.018191032111644745	3.6166337480381117e-08	0.9982720613479614	15
+327	himym_align	aligned	gpt2	inn followed barney down the concourse in total confusion magic trick why wouldn	't	he	0.0013505632523447275	3.77254581451416	4.285136583348503e-06	0.2733141779899597	15
+328	himym_align	aligned	gpt2	 followed barney down the concourse in total confusion magic trick why wouldn't	 he	just	2.363804817199707	4.503273010253906	6.34894022368826e-05	0.25673627853393555	15
+329	himym_align	aligned	gpt2	 barney down the concourse in total confusion magic trick why wouldn't he	 tell	you	4.806068420410156	4.034256935119629	7.01409881003201e-05	0.13108330965042114	15
+330	himym_align	aligned	gpt2	ney down the concourse in total confusion magic trick why wouldn't he tell	 her	that	2.7226719856262207	4.018437385559082	0.003919453825801611	0.10892331600189209	15
+331	himym_align	aligned	gpt2	 down the concourse in total confusion magic trick why wouldn't he tell her	 what	he	2.433222770690918	3.4068922996520996	0.0003309842722956091	0.23734407126903534	15
+332	himym_align	aligned	gpt2	 the concourse in total confusion magic trick why wouldn't he tell her what	 was	going	2.6155447959899902	2.489175319671631	9.984905045712367e-05	0.41562435030937195	15
+333	himym_align	aligned	gpt2	 concourse in total confusion magic trick why wouldn't he tell her what was	 in	his	2.8480300903320312	2.800736427307129	0.00017002630920615047	0.23543530702590942	15
+334	himym_align	aligned	gpt2	ourse in total confusion magic trick why wouldn't he tell her what was in	 the	book	1.6003886461257935	5.720117568969727	0.0002479888789821416	0.13754902780056	15
+335	himym_align	aligned	gpt2	 in total confusion magic trick why wouldn't he tell her what was in the	 box	?	2.797816514968872	3.3490986824035645	0.0006493686232715845	0.37732747197151184	15
+336	himym_align	aligned	gpt2	 total confusion magic trick why wouldn't he tell her what was in the box	 she	was	5.424118518829346	3.7520530223846436	7.098334754118696e-05	0.33864960074424744	15
+337	himym_align	aligned	gpt2	 confusion magic trick why wouldn't he tell her what was in the box she	 tried	to	6.993828773498535	1.7378901243209839	7.331615961447824e-06	0.7481801509857178	15
+338	himym_align	aligned	gpt2	 magic trick why wouldn't he tell her what was in the box she tried	 to	open	0.3079988360404968	4.987087726593018	7.60062102926895e-05	0.10436218976974487	15
+339	himym_align	aligned	gpt2	 trick why wouldn't he tell her what was in the box she tried to	 interrog	ate	10.022072792053223	0.02692483924329281	2.0309841308741028e-10	0.9968833327293396	15
+340	himym_align	aligned	gpt2	 why wouldn't he tell her what was in the box she tried to interrog	ate	him	0.0028852284885942936	2.43129301071167	2.533367080559401e-07	0.4563750624656677	15
+341	himym_align	aligned	gpt2	 wouldn't he tell her what was in the box she tried to interrogate	 him	about	0.5571663975715637	2.5193750858306885	1.4014960470376536e-05	0.35659337043762207	15
+342	himym_align	aligned	gpt2	't he tell her what was in the box she tried to interrogate him	 as	she	5.970605850219727	3.7567248344421387	0.0003384733572602272	0.19890490174293518	15
+343	himym_align	aligned	gpt2	 he tell her what was in the box she tried to interrogate him as	 they	were	3.65895414352417	4.869334697723389	7.071623986121267e-05	0.17157979309558868	15
+344	himym_align	aligned	gpt2	 tell her what was in the box she tried to interrogate him as they	 sat	in	3.827117919921875	3.413254499435425	7.714200910413638e-05	0.19729992747306824	15
+345	himym_align	aligned	gpt2	 her what was in the box she tried to interrogate him as they sat	 in	the	1.6757020950317383	2.5173840522766113	0.00017725075304042548	0.4493473172187805	15
+346	himym_align	aligned	gpt2	 what was in the box she tried to interrogate him as they sat in	 front	of	3.5009994506835938	0.06430650502443314	1.8792089804264833e-06	0.9936385750770569	15
+347	himym_align	aligned	gpt2	 was in the box she tried to interrogate him as they sat in front	 of	the	0.007046017330139875	2.351797103881836	4.620870458893478e-05	0.2940461039543152	15
+348	himym_align	aligned	gpt2	 in the box she tried to interrogate him as they sat in front of	 the	door	1.2527393102645874	6.355968475341797	0.00023962912382557988	0.07348010689020157	15
+349	himym_align	aligned	gpt2	 the box she tried to interrogate him as they sat in front of the	 gate	.	5.9470062255859375	2.787137031555176	0.0019815750420093536	0.4725387990474701	15
+350	himym_align	aligned	gpt2	 box she tried to interrogate him as they sat in front of the gate	 but	he	6.088247776031494	4.324682235717773	6.742356345057487e-05	0.16605158150196075	15
+351	himym_align	aligned	gpt2	 she tried to interrogate him as they sat in front of the gate but	 he	refused	1.5898038148880005	4.766870975494385	0.0001521470840089023	0.17143291234970093	15
+352	himym_align	aligned	gpt2	 tried to interrogate him as they sat in front of the gate but he	 refused	to	1.4788243770599365	2.0462429523468018	5.1858201004506554e-06	0.5115161538124084	15
+353	himym_align	aligned	gpt2	 to interrogate him as they sat in front of the gate but he refused	 to	answer	0.47195082902908325	4.542975425720215	0.00014778776676394045	0.08974230289459229	15
+354	himym_align	aligned	gpt2	 interrogate him as they sat in front of the gate but he refused to	 spill	the	8.934165000915527	2.7282044887542725	9.529761882731691e-05	0.23493124544620514	15
+355	himym_align	aligned	gpt2	ate him as they sat in front of the gate but he refused to spill	 the	beans	1.569432020187378	3.50689435005188	8.645952766528353e-05	0.3959621489048004	15
+356	himym_align	aligned	gpt2	 him as they sat in front of the gate but he refused to spill the	 beans	.	0.7330996990203857	2.7878170013427734	9.667534186519333e-07	0.3496660888195038	15
+357	himym_align	aligned	gpt2	 as they sat in front of the gate but he refused to spill the beans	 i	.	11.740684509277344	4.498136043548584	0.00035045912954956293	0.28342679142951965	15
+358	himym_align	aligned	gpt2	 they sat in front of the gate but he refused to spill the beans i	 told	him	3.998997449874878	1.457348346710205	2.1013662262703292e-05	0.76190584897995	15
+359	himym_align	aligned	gpt2	 sat in front of the gate but he refused to spill the beans i told	 you	i	3.5549662113189697	4.141291618347168	0.0033658421598374844	0.16007451713085175	15
+360	himym_align	aligned	gpt2	 in front of the gate but he refused to spill the beans i told you	 <	3	9.126527786254883	4.717885494232178	0.00039689007098786533	0.3978501856327057	15
+361	himym_align	aligned	gpt2	 front of the gate but he refused to spill the beans i told you <	unk	now	12.446186065673828	4.565593242645264	0.00012646116374526173	0.30204400420188904	15
+362	himym_align	aligned	gpt2	 of the gate but he refused to spill the beans i told you <unk	>	he	4.109454154968262	6.040147304534912	0.000462690950371325	0.0536150261759758	15
+363	himym_align	aligned	gpt2	 the gate but he refused to spill the beans i told you <unk>	 code	:	10.822745323181152	6.706276893615723	0.0006572084384970367	0.12983301281929016	15
+364	himym_align	aligned	gpt2	 gate but he refused to spill the beans i told you <unk> code	 as	he	6.299941062927246	5.658236026763916	0.00044514998444356024	0.06809519231319427	15
+365	himym_align	aligned	gpt2	 but he refused to spill the beans i told you <unk> code as	 they	were	5.140292167663574	5.356835842132568	0.00012733500625472516	0.11736442148685455	15
+366	himym_align	aligned	gpt2	 he refused to spill the beans i told you <unk> code as they	 boarded	the	11.687528610229492	4.25673246383667	1.5620740668964572e-05	0.2793513536453247	15
+367	himym_align	aligned	gpt2	 refused to spill the beans i told you <unk> code as they boarded	 the	ship	1.3495454788208008	5.462390422821045	0.00036293527227826416	0.1331021785736084	15
+368	himym_align	aligned	gpt2	 to spill the beans i told you <unk> code as they boarded the	 plane	<	2.1689038276672363	3.695795774459839	9.389696060679853e-05	0.37260904908180237	15
+369	himym_align	aligned	gpt2	 spill the beans i told you <unk> code as they boarded the plane	 and	they	2.6304824352264404	5.799644470214844	0.0008308256510645151	0.06417778879404068	15
+370	himym_align	aligned	gpt2	 the beans i told you <unk> code as they boarded the plane and	 found	out	5.806666851043701	4.412240982055664	2.874329402402509e-05	0.16005410254001617	15
+371	himym_align	aligned	gpt2	 beans i told you <unk> code as they boarded the plane and found	 their	way	3.404656410217285	6.21879243850708	0.00012831768253818154	0.23262591660022736	15
+372	himym_align	aligned	gpt2	 i told you <unk> code as they boarded the plane and found their	 seats	<	5.218618869781494	3.9527440071105957	5.908311504754238e-05	0.31474775075912476	15
+373	himym_align	aligned	gpt2	 told you <unk> code as they boarded the plane and found their seats	 bar	re	11.176712036132812	2.7485766410827637	0.00016512877482455224	0.570274829864502	15
+374	himym_align	aligned	gpt2	 you <unk> code as they boarded the plane and found their seats bar	ney	ed	12.17380142211914	3.7194581031799316	5.136125400895253e-05	0.46521639823913574	15
+375	himym_align	aligned	gpt2	 <unk> code as they boarded the plane and found their seats barney	 placed	on	10.219969749450684	3.8197083473205566	2.091777241730597e-05	0.2205437421798706	15
+376	himym_align	aligned	gpt2	unk> code as they boarded the plane and found their seats barney placed	 the	next	5.417415618896484	7.3572211265563965	0.0009820559062063694	0.03220813348889351	15
+377	himym_align	aligned	gpt2	> code as they boarded the plane and found their seats barney placed the	 bag	over	5.333981513977051	3.9947104454040527	0.00038380385376513004	0.1745273619890213	15
+378	himym_align	aligned	gpt2	 code as they boarded the plane and found their seats barney placed the bag	 on	the	2.4224066734313965	2.031494617462158	0.00014903991541359574	0.5586759448051453	15
+379	himym_align	aligned	gpt2	 as they boarded the plane and found their seats barney placed the bag on	 his	lap	3.8049426078796387	3.797508478164673	2.5608722353354096e-05	0.24602742493152618	15
+380	himym_align	aligned	gpt2	 they boarded the plane and found their seats barney placed the bag on his	 seat	.	3.2031421661376953	3.332317590713501	0.0015103404875844717	0.3444701135158539	15
+381	himym_align	aligned	gpt2	 boarded the plane and found their seats barney placed the bag on his seat	 pulled	out	11.637894630432129	3.3751747608184814	4.0826420445227996e-05	0.1732637733221054	15
+382	himym_align	aligned	gpt2	 the plane and found their seats barney placed the bag on his seat pulled	 out	and	1.850142240524292	3.093545436859131	0.0004651273775380105	0.27568334341049194	15
+383	himym_align	aligned	gpt2	 plane and found their seats barney placed the bag on his seat pulled out	 the	bag	1.9660580158233643	5.916722774505615	0.0005717489402741194	0.18243922293186188	15
+384	himym_align	aligned	gpt2	 and found their seats barney placed the bag on his seat pulled out the	 box	and	5.357454776763916	3.3533034324645996	0.0005468539311550558	0.34175506234169006	15
+385	himym_align	aligned	gpt2	 found their seats barney placed the bag on his seat pulled out the box	 and	put	1.0948693752288818	5.714608192443848	0.0013065709499642253	0.04285963252186775	15
+386	himym_align	aligned	gpt2	 their seats barney placed the bag on his seat pulled out the box and	 handed	it	3.74381422996521	1.3648147583007812	4.752510903927032e-06	0.7335091829299927	15
+387	himym_align	aligned	gpt2	 seats barney placed the bag on his seat pulled out the box and handed	 it	to	0.31372934579849243	1.2812814712524414	0.0001938904169946909	0.6574995517730713	15
+388	himym_align	aligned	gpt2	 barney placed the bag on his seat pulled out the box and handed it	 to	the	0.3892461955547333	5.376574993133545	0.00012160999176558107	0.147674098610878	15
+389	himym_align	aligned	gpt2	ney placed the bag on his seat pulled out the box and handed it to	 qu	iver	12.309764862060547	4.376895427703857	3.2339190170205256e-07	0.09825373440980911	15
+390	himym_align	aligned	gpt2	 placed the bag on his seat pulled out the box and handed it to qu	inn	.	5.971343994140625	4.226411819458008	5.680483445758e-05	0.3739868700504303	15
+391	himym_align	aligned	gpt2	 the bag on his seat pulled out the box and handed it to quinn	 he	said	6.944737911224365	5.631552219390869	0.000315301091177389	0.05372672528028488	15
+392	himym_align	aligned	gpt2	 bag on his seat pulled out the box and handed it to quinn he	 took	it	3.87156343460083	2.612309217453003	6.781172032788163e-06	0.3127942383289337	15
+393	himym_align	aligned	gpt2	 on his seat pulled out the box and handed it to quinn he took	 a	deep	1.5970102548599243	4.600912094116211	0.00012312765466049314	0.11986473947763443	15
+394	himym_align	aligned	gpt2	 his seat pulled out the box and handed it to quinn he took a	 key	and	7.601890563964844	2.89801287651062	0.0008277974557131529	0.3764190971851349	15
+395	himym_align	aligned	gpt2	 seat pulled out the box and handed it to quinn he took a key	 from	the	1.9598228931427002	2.4749362468719482	0.0003036904672626406	0.43539732694625854	15
+396	himym_align	aligned	gpt2	 pulled out the box and handed it to quinn he took a key from	 his	pocket	1.31466543674469	3.700474739074707	5.526357199414633e-05	0.40105506777763367	15
+397	himym_align	aligned	gpt2	 out the box and handed it to quinn he took a key from his	 pocket	and	0.9258332252502441	1.571507453918457	0.0004259899724274874	0.7041398286819458	15
+398	himym_align	aligned	gpt2	 the box and handed it to quinn he took a key from his pocket	 and	opened	0.41601356863975525	5.577733039855957	0.0015738828806206584	0.04874105378985405	15
+399	himym_align	aligned	gpt2	 box and handed it to quinn he took a key from his pocket and	 handed	it	3.311602830886841	0.7360320091247559	5.518817488336936e-06	0.8811165690422058	15
+400	himym_align	aligned	gpt2	 and handed it to quinn he took a key from his pocket and handed	 it	to	0.11045481264591217	1.2506914138793945	0.0001615815854165703	0.7256666421890259	15
+401	himym_align	aligned	gpt2	 handed it to quinn he took a key from his pocket and handed it	 to	the	0.3299145996570587	5.526014804840088	0.00039262944483198225	0.12858033180236816	15
+402	himym_align	aligned	gpt2	 it to quinn he took a key from his pocket and handed it to	 her	.	2.687486410140991	1.980705738067627	0.00017349261906929314	0.6825254559516907	15
+403	himym_align	aligned	gpt2	 to quinn he took a key from his pocket and handed it to her	 pointing	to	11.310173034667969	2.7874293327331543	2.3021209926810116e-05	0.29901251196861267	15
+404	himym_align	aligned	gpt2	 quinn he took a key from his pocket and handed it to her pointing	 to	the	1.19048011302948	3.223076105117798	0.0003015018883161247	0.3444749712944031	15
+405	himym_align	aligned	gpt2	inn he took a key from his pocket and handed it to her pointing to	 a	small	2.1794748306274414	6.774166107177734	0.0001930785074364394	0.038845282047986984	15
+406	himym_align	aligned	gpt2	 he took a key from his pocket and handed it to her pointing to a	 small	,	3.1741459369659424	6.444392204284668	0.001661350717768073	0.03502420708537102	15
+407	himym_align	aligned	gpt2	 took a key from his pocket and handed it to her pointing to a small	 key	hole	6.44970178604126	4.419102668762207	0.0015486868796870112	0.15043535828590393	15
+408	himym_align	aligned	gpt2	 a key from his pocket and handed it to her pointing to a small key	hole	in	2.475320339202881	3.09708571434021	3.455012847553007e-05	0.2536884844303131	15
+409	himym_align	aligned	gpt2	 key from his pocket and handed it to her pointing to a small keyhole	 in	the	1.3767160177230835	1.450368881225586	5.429699012893252e-05	0.663105845451355	15
+410	himym_align	aligned	gpt2	 from his pocket and handed it to her pointing to a small keyhole in	 the	wall	0.5008047819137573	4.550198078155518	0.00015712325694039464	0.26987943053245544	15
+411	himym_align	aligned	gpt2	 his pocket and handed it to her pointing to a small keyhole in the	 side	of	3.9752306938171387	0.9407041072845459	4.6362722059711814e-05	0.8549086451530457	15
+412	himym_align	aligned	gpt2	 pocket and handed it to her pointing to a small keyhole in the side	 of	the	0.2455911636352539	1.1539099216461182	3.025876503670588e-05	0.7117558717727661	15
+413	himym_align	aligned	gpt2	 and handed it to her pointing to a small keyhole in the side of	 the	room	0.38239145278930664	5.523468017578125	0.0002259956527268514	0.132206529378891	15
+414	himym_align	aligned	gpt2	 handed it to her pointing to a small keyhole in the side of the	 cube	.	6.834384918212891	2.847423791885376	0.0003561256162356585	0.5003004670143127	15
+415	himym_align	aligned	gpt2	 it to her pointing to a small keyhole in the side of the cube	 as	she	4.993709564208984	3.2372725009918213	0.00024544124607928097	0.31539979577064514	15
+416	himym_align	aligned	gpt2	 to her pointing to a small keyhole in the side of the cube as	 she	walked	1.269120454788208	5.962339878082275	0.00015387136954814196	0.031197654083371162	15
+417	himym_align	aligned	gpt2	 her pointing to a small keyhole in the side of the cube as she	 turned	to	4.409595489501953	2.972348213195801	5.400192821980454e-05	0.16769303381443024	15
+418	himym_align	aligned	gpt2	 pointing to a small keyhole in the side of the cube as she turned	 the	cube	2.47367525100708	5.235997200012207	0.0002282736386405304	0.20510253310203552	15
+419	himym_align	aligned	gpt2	 to a small keyhole in the side of the cube as she turned the	 key	.	2.942284107208252	2.7294106483459473	0.0008193874382413924	0.49914464354515076	15
+420	himym_align	aligned	gpt2	 a small keyhole in the side of the cube as she turned the key	 the	other	6.34091854095459	5.707858562469482	0.0005604753969237208	0.14845195412635803	15
+421	himym_align	aligned	gpt2	 small keyhole in the side of the cube as she turned the key the	 lid	closed	8.047008514404297	4.273077011108398	0.00014477662625722587	0.09879592061042786	15
+422	himym_align	aligned	gpt2	 keyhole in the side of the cube as she turned the key the lid	 of	the	3.105419158935547	1.172426700592041	2.419657539576292e-05	0.7774915099143982	15
+423	himym_align	aligned	gpt2	hole in the side of the cube as she turned the key the lid of	 the	cube	0.27147120237350464	5.727476119995117	0.00036295439349487424	0.19045349955558777	15
+424	himym_align	aligned	gpt2	 in the side of the cube as she turned the key the lid of the	 cube	.	2.271362543106079	4.648942947387695	1.775009764060087e-06	0.08645087480545044	15
+425	himym_align	aligned	gpt2	 the side of the cube as she turned the key the lid of the cube	 opened	.	2.736565351486206	2.545170783996582	5.969094854663126e-05	0.366731733083725	15
+426	himym_align	aligned	gpt2	 side of the cube as she turned the key the lid of the cube opened	 revealing	a	4.784560680389404	3.382117986679077	4.214353975839913e-05	0.33524036407470703	15
+427	himym_align	aligned	gpt2	 of the cube as she turned the key the lid of the cube opened revealing	 a	large	1.1083194017410278	6.95472526550293	0.00024284710525535047	0.06250391900539398	15
+428	himym_align	aligned	gpt2	 the cube as she turned the key the lid of the cube opened revealing a	 small	,	3.016810178756714	6.785324573516846	0.0034033951815217733	0.045226696878671646	15
+429	himym_align	aligned	gpt2	 cube as she turned the key the lid of the cube opened revealing a small	 flower	.	6.898490905761719	4.84309196472168	0.0064743696711957455	0.2014593780040741	15
+430	himym_align	aligned	gpt2	 as she turned the key the lid of the cube opened revealing a small flower	 pot	.	3.955702543258667	3.771881103515625	0.00023899046937003732	0.3091791868209839	15
+431	himym_align	aligned	gpt2	 she turned the key the lid of the cube opened revealing a small flower pot	 filled	with	3.4176928997039795	0.18156255781650543	8.974788943305612e-05	0.9768035411834717	15
+432	himym_align	aligned	gpt2	 turned the key the lid of the cube opened revealing a small flower pot filled	 with	a	0.023749519139528275	6.38005256652832	5.347403566702269e-05	0.06733690202236176	15
+433	himym_align	aligned	gpt2	 the key the lid of the cube opened revealing a small flower pot filled with	 dirt	.	7.310644149780273	2.271787405014038	3.990242475993e-05	0.46103036403656006	15
+434	himym_align	aligned	gpt2	 key the lid of the cube opened revealing a small flower pot filled with dirt	 as	well	5.639970302581787	3.9516031742095947	0.00030571597744710743	0.20041345059871674	15
+435	himym_align	aligned	gpt2	 the lid of the cube opened revealing a small flower pot filled with dirt as	 she	sat	3.713576316833496	5.8518524169921875	0.00014776200987398624	0.04899502918124199	15
+436	himym_align	aligned	gpt2	 lid of the cube opened revealing a small flower pot filled with dirt as she	 looked	at	3.611241102218628	2.7478220462799072	5.0141079555032775e-06	0.30261850357055664	15
+437	himym_align	aligned	gpt2	 of the cube opened revealing a small flower pot filled with dirt as she looked	 to	the	3.9850120544433594	3.54430890083313	0.0002060061669908464	0.4348084032535553	15
+438	himym_align	aligned	gpt2	 the cube opened revealing a small flower pot filled with dirt as she looked to	 bar	ter	11.969149589538574	3.339660882949829	3.287273284513503e-05	0.24714311957359314	15
+439	himym_align	aligned	gpt2	 cube opened revealing a small flower pot filled with dirt as she looked to bar	ney	.	10.559896469116211	4.531127452850342	2.738560851867078e-06	0.15043425559997559	15
+440	himym_align	aligned	gpt2	 opened revealing a small flower pot filled with dirt as she looked to barney	 in	the	5.140078544616699	3.8049654960632324	0.000147548271343112	0.3641274571418762	15
+441	himym_align	aligned	gpt2	 revealing a small flower pot filled with dirt as she looked to barney in	 confusion	.	6.84113073348999	1.321522831916809	9.862551451078616e-07	0.7480764985084534	15
+442	himym_align	aligned	gpt2	 a small flower pot filled with dirt as she looked to barney in confusion	 a	few	8.551626205444336	5.902017116546631	0.0001962072856258601	0.17904405295848846	15
+443	himym_align	aligned	gpt2	 small flower pot filled with dirt as she looked to barney in confusion a	 green	and	6.953053951263428	6.897334098815918	0.0025705595035105944	0.035585515201091766	15
+444	himym_align	aligned	gpt2	 flower pot filled with dirt as she looked to barney in confusion a green	 stalk	of	8.558579444885254	3.3024656772613525	0.00024241763458121568	0.5302112102508545	15
+445	himym_align	aligned	gpt2	 pot filled with dirt as she looked to barney in confusion a green stalk	 pushed	out	8.285191535949707	3.868440628051758	2.2953801817493513e-05	0.10494054853916168	15
+446	himym_align	aligned	gpt2	 filled with dirt as she looked to barney in confusion a green stalk pushed	 its	way	3.822899103164673	1.419040560722351	1.6012651030905545e-05	0.8451528549194336	15
+447	himym_align	aligned	gpt2	 with dirt as she looked to barney in confusion a green stalk pushed its	 way	into	0.22961916029453278	3.1747682094573975	0.00015392298519145697	0.17835597693920135	15
+448	himym_align	aligned	gpt2	 dirt as she looked to barney in confusion a green stalk pushed its way	 out	of	2.556411027908325	2.187877655029297	0.0009598226752132177	0.5046027302742004	15
+449	himym_align	aligned	gpt2	 as she looked to barney in confusion a green stalk pushed its way out	 of	the	0.7058213353157043	2.255246639251709	5.096906897961162e-05	0.415744423866272	15
+450	himym_align	aligned	gpt2	 she looked to barney in confusion a green stalk pushed its way out of	 the	way	1.0814560651779175	6.473200798034668	0.0003471005184110254	0.08625703305006027	15
+451	himym_align	aligned	gpt2	 looked to barney in confusion a green stalk pushed its way out of the	 dirt	.	6.083434104919434	3.074540615081787	0.00023852729646023363	0.34935232996940613	15
+452	himym_align	aligned	gpt2	 to barney in confusion a green stalk pushed its way out of the dirt	 and	into	1.6070282459259033	5.173555374145508	0.0013243802823126316	0.22278259694576263	15
+453	himym_align	aligned	gpt2	 barney in confusion a green stalk pushed its way out of the dirt and	 climbed	into	6.287792205810547	3.343149423599243	8.128405170282349e-06	0.13835246860980988	15
+454	himym_align	aligned	gpt2	ney in confusion a green stalk pushed its way out of the dirt and climbed	 several	steps	7.815691947937012	4.185534477233887	0.000262212852248922	0.22805742919445038	15
+455	himym_align	aligned	gpt2	 in confusion a green stalk pushed its way out of the dirt and climbed several	 inches	into	3.8807454109191895	3.5514636039733887	2.1500169168575667e-05	0.1386401206254959	15
+456	himym_align	aligned	gpt2	 confusion a green stalk pushed its way out of the dirt and climbed several inches	 out	of	3.058685064315796	1.4015594720840454	0.0006150736007839441	0.7236878275871277	15
+457	himym_align	aligned	gpt2	 a green stalk pushed its way out of the dirt and climbed several inches out	 of	the	0.36624523997306824	1.065396785736084	1.404203794663772e-05	0.8365767598152161	15
+458	himym_align	aligned	gpt2	 green stalk pushed its way out of the dirt and climbed several inches out of	 the	ground	0.1675771176815033	4.288107395172119	0.00019831497047562152	0.3604434132575989	15
+459	himym_align	aligned	gpt2	 stalk pushed its way out of the dirt and climbed several inches out of the	 box	.	8.087596893310547	2.383179187774658	0.000910571834538132	0.5916743278503418	15
+460	himym_align	aligned	gpt2	 pushed its way out of the dirt and climbed several inches out of the box	 on	the	4.835307598114014	3.9387688636779785	7.249636109918356e-05	0.24527765810489655	15
+461	himym_align	aligned	gpt2	 its way out of the dirt and climbed several inches out of the box on	 its	own	2.974551200866699	2.8559978008270264	3.526240470819175e-05	0.37436041235923767	15
+462	himym_align	aligned	gpt2	 way out of the dirt and climbed several inches out of the box on its	 end	.	6.105672359466553	1.9271960258483887	5.180154403205961e-05	0.6388456225395203	15
+463	himym_align	aligned	gpt2	 out of the dirt and climbed several inches out of the box on its end	 was	a	9.20660400390625	6.141827583312988	0.00012747145956382155	0.1720239818096161	15
+464	himym_align	aligned	gpt2	 of the dirt and climbed several inches out of the box on its end was	 a	little	1.9329215288162231	7.643586158752441	0.0003009859356097877	0.019912803545594215	15
+465	himym_align	aligned	gpt2	 the dirt and climbed several inches out of the box on its end was a	 red	-	6.557016372680664	6.986107349395752	0.0013710735365748405	0.06403292715549469	15
+466	himym_align	aligned	gpt2	 dirt and climbed several inches out of the box on its end was a red	 <	3	11.804242134094238	6.800980567932129	0.00015954756236169487	0.045045290142297745	15
+467	himym_align	aligned	gpt2	 and climbed several inches out of the box on its end was a red <	unk	>	11.292013168334961	4.460005283355713	0.00020281710021663457	0.2034016102552414	15
+468	himym_align	aligned	gpt2	 climbed several inches out of the box on its end was a red <unk	>	that	1.716956615447998	7.6695427894592285	0.00043989752884954214	0.041116710752248764	15
+469	himym_align	aligned	gpt2	 several inches out of the box on its end was a red <unk>	 passengers	'	14.306406021118164	6.17927360534668	3.600989293772727e-05	0.11502542346715927	15
+470	himym_align	aligned	gpt2	 inches out of the box on its end was a red <unk> passengers	 and	a	4.12238073348999	6.01915979385376	0.0009070177329704165	0.08237291872501373	15
+471	himym_align	aligned	gpt2	 out of the box on its end was a red <unk> passengers and	 flight	attendants	6.440141677856445	2.649200916290283	6.0411162849050015e-05	0.46542462706565857	15
+472	himym_align	aligned	gpt2	 of the box on its end was a red <unk> passengers and flight	 attendants	.	0.7400713562965393	5.759994983673096	2.7469086489873007e-05	0.14645738899707794	15
+473	himym_align	aligned	gpt2	 the box on its end was a red <unk> passengers and flight attendants	 were	seated	3.156486749649048	6.647434711456299	5.1222519687144086e-05	0.021690750494599342	15
+474	himym_align	aligned	gpt2	 box on its end was a red <unk> passengers and flight attendants were	 gathered	around	7.010636329650879	3.252744197845459	0.00023749312094878405	0.23775002360343933	15
+475	himym_align	aligned	gpt2	 on its end was a red <unk> passengers and flight attendants were gathered	 around	the	1.8416223526000977	3.717649459838867	0.00025046939845196903	0.3933368921279907	15
+476	himym_align	aligned	gpt2	 its end was a red <unk> passengers and flight attendants were gathered around	 their	seats	4.015447616577148	6.078986167907715	4.921657819068059e-05	0.1720617264509201	15
+477	himym_align	aligned	gpt2	 end was a red <unk> passengers and flight attendants were gathered around their	 seats	.	1.6757352352142334	3.136422872543335	4.508325218921527e-05	0.2273133248090744	15
+478	himym_align	aligned	gpt2	 was a red <unk> passengers and flight attendants were gathered around their seats	 staring	at	9.067731857299805	2.537423849105835	4.6637556806672364e-05	0.6091009378433228	15
+479	himym_align	aligned	gpt2	 a red <unk> passengers and flight attendants were gathered around their seats staring	 with	their	5.189357757568359	6.1106061935424805	3.947170262108557e-05	0.052113357931375504	15
+480	himym_align	aligned	gpt2	 red <unk> passengers and flight attendants were gathered around their seats staring with	 qu	ivering	10.53315544128418	1.8621938228607178	2.044130864575777e-09	0.581402063369751	15
+481	himym_align	aligned	gpt2	 <unk> passengers and flight attendants were gathered around their seats staring with qu	inn	spir	10.761001586914062	3.2013442516326904	8.754408554523252e-06	0.2262934148311615	15
+482	himym_align	aligned	gpt2	unk> passengers and flight attendants were gathered around their seats staring with quinn	 as	they	7.226078033447266	6.034961700439453	0.001011684420518577	0.18206672370433807	15
+483	himym_align	aligned	gpt2	> passengers and flight attendants were gathered around their seats staring with quinn as	 the	plane	3.0155560970306396	7.692559719085693	0.0004310492076911032	0.02762397937476635	15
+484	himym_align	aligned	gpt2	 passengers and flight attendants were gathered around their seats staring with quinn as the	 <	em	12.347983360290527	7.317256450653076	5.1215640269219875e-05	0.02329874038696289	15
+485	himym_align	aligned	gpt2	 and flight attendants were gathered around their seats staring with quinn as the <	unk	>	12.728544235229492	4.208859920501709	9.549263631924987e-05	0.3661632239818573	15
+486	himym_align	aligned	gpt2	 flight attendants were gathered around their seats staring with quinn as the <unk	>	was	1.3991514444351196	8.359590530395508	0.00010616863437462598	0.04406586289405823	15
+487	himym_align	aligned	gpt2	 attendants were gathered around their seats staring with quinn as the <unk>	 began	to	5.250705718994141	3.0817275047302246	6.720622877764981e-06	0.5918377637863159	15
+488	himym_align	aligned	gpt2	 were gathered around their seats staring with quinn as the <unk> began	 to	speak	0.543708086013794	6.5494842529296875	0.0001294706016778946	0.03073008358478546	15
+489	himym_align	aligned	gpt2	 gathered around their seats staring with quinn as the <unk> began to	 open	its	5.719852924346924	3.3425369262695312	0.0003833318187389523	0.17972254753112793	15
+490	himym_align	aligned	gpt2	 around their seats staring with quinn as the <unk> began to open	 in	a	4.117640018463135	5.019780158996582	0.0003798432007897645	0.13817670941352844	15
+491	himym_align	aligned	gpt2	 their seats staring with quinn as the <unk> began to open in	 its	own	3.7378482818603516	6.783316135406494	8.272567356470972e-05	0.11741974204778671	15
+492	himym_align	aligned	gpt2	 seats staring with quinn as the <unk> began to open in its	 center	.	5.736915588378906	3.007058620452881	0.000339563877787441	0.4582342803478241	15
+493	himym_align	aligned	gpt2	 staring with quinn as the <unk> began to open in its center	 was	a	8.462398529052734	6.038257598876953	0.000282143970252946	0.1678442656993866	15
+494	himym_align	aligned	gpt2	 with quinn as the <unk> began to open in its center was	 a	large	2.0624799728393555	7.564055442810059	0.00029797825845889747	0.040138717740774155	15
+495	himym_align	aligned	gpt2	 quinn as the <unk> began to open in its center was a	 diamond	-	7.937684059143066	5.153065204620361	0.0035738369915634394	0.11820213496685028	15
+496	himym_align	aligned	gpt2	inn as the <unk> began to open in its center was a diamond	 ring	.	2.8901000022888184	4.345478534698486	0.001080057118088007	0.166893869638443	15
+497	himym_align	aligned	gpt2	 as the <unk> began to open in its center was a diamond ring	 which	was	3.567251205444336	5.375339031219482	0.00021830960758961737	0.16119103133678436	15
+498	himym_align	aligned	gpt2	 the <unk> began to open in its center was a diamond ring which	 bar	re	11.642683029174805	2.582108736038208	5.494453034771141e-06	0.46217069029808044	15
+499	himym_align	aligned	gpt2	 <unk> began to open in its center was a diamond ring which bar	ney	ed	10.867584228515625	1.5117934942245483	1.2713324395008385e-05	0.8399074077606201	15
+500	himym_align	aligned	gpt2	unk> began to open in its center was a diamond ring which barney	 pl	ucked	9.259502410888672	3.261073589324951	9.017058744120732e-08	0.2550022602081299	15
+501	himym_align	aligned	gpt2	> began to open in its center was a diamond ring which barney pl	ucked	from	1.3048545122146606	2.258394718170166	2.995904679892192e-08	0.41537243127822876	15
+502	himym_align	aligned	gpt2	 began to open in its center was a diamond ring which barney plucked	 from	the	0.7489199638366699	2.605381727218628	0.00042519308044575155	0.45060932636260986	15
+503	himym_align	aligned	gpt2	 to open in its center was a diamond ring which barney plucked from	 the	ground	0.8190822601318359	6.203561782836914	0.00022984997485764325	0.14709213376045227	15
+504	himym_align	aligned	gpt2	 open in its center was a diamond ring which barney plucked from the	 flower	bed	6.506349563598633	4.816180229187012	0.001527655404061079	0.11238911747932434	15
+505	himym_align	aligned	gpt2	 in its center was a diamond ring which barney plucked from the flower	 and	placed	3.6207146644592285	6.335928916931152	0.0010659218532964587	0.0754498541355133	15
+506	himym_align	aligned	gpt2	 its center was a diamond ring which barney plucked from the flower and	 held	in	3.889584541320801	4.0726399421691895	0.0005885447608307004	0.25176575779914856	15
+507	himym_align	aligned	gpt2	 center was a diamond ring which barney plucked from the flower and held	 out	to	5.018660545349121	3.671790361404419	0.000548647134564817	0.24529659748077393	15
+508	himym_align	aligned	gpt2	 was a diamond ring which barney plucked from the flower and held out	 to	the	1.3161160945892334	4.714051723480225	0.0003730863390956074	0.3369903862476349	15
+509	himym_align	aligned	gpt2	 a diamond ring which barney plucked from the flower and held out to	 qu	ench	10.551164627075195	1.7621313333511353	2.672288523797306e-08	0.6137871146202087	15
+510	himym_align	aligned	gpt2	 diamond ring which barney plucked from the flower and held out to qu	inn	s	9.739943504333496	4.653862953186035	1.3905066225561313e-05	0.26813405752182007	15
+511	himym_align	aligned	gpt2	 ring which barney plucked from the flower and held out to quinn	 qu	inn	8.476531982421875	4.275888919830322	5.982502671031398e-07	0.2573109269142151	15
+512	himym_align	aligned	gpt2	 which barney plucked from the flower and held out to quinn qu	inn	s	1.5031707286834717	6.218753337860107	0.0002697815652936697	0.11458246409893036	15
+513	himym_align	aligned	gpt2	 barney plucked from the flower and held out to quinn quinn	 will	be	6.958635330200195	6.093973636627197	0.0005099253612570465	0.0792371854186058	15
+514	himym_align	aligned	gpt2	ney plucked from the flower and held out to quinn quinn will	 you	?	4.379152297973633	6.048341751098633	0.0005033146007917821	0.06000728905200958	15
+515	himym_align	aligned	gpt2	 plucked from the flower and held out to quinn quinn will you	 marry	me	5.669909477233887	3.4902944564819336	2.4440092602162622e-05	0.3469671308994293	15
+516	himym_align	aligned	gpt2	ucked from the flower and held out to quinn quinn will you marry	 me	?	1.1059329509735107	3.994478464126587	0.00039020838448777795	0.29182857275009155	15

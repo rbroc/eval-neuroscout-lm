@@ -1,0 +1,552 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	upintheair_align	aligned	gpt2	ryan looked up from his boarding pass and <unk> there was his new	 partner	.	6.675022125244141	4.277365207672119	3.837727490463294e-05	0.18021443486213684	15
+1	upintheair_align	aligned	gpt2	 looked up from his boarding pass and <unk> there was his new partner	 n	ipping	8.68878173828125	5.876380443572998	6.250038131838664e-05	0.041096992790699005	15
+2	upintheair_align	aligned	gpt2	 up from his boarding pass and <unk> there was his new partner n	atalie	.	7.300326347351074	5.624174118041992	3.0996923214843264e-06	0.16867762804031372	15
+3	upintheair_align	aligned	gpt2	 from his boarding pass and <unk> there was his new partner natalie	 <	unk	3.8577089309692383	6.8288164138793945	0.00019326499023009092	0.054145727306604385	15
+4	upintheair_align	aligned	gpt2	 his boarding pass and <unk> there was his new partner natalie <	unk	>	3.3890976905822754	0.8484493494033813	2.846655604571424e-07	0.859402596950531	15
+5	upintheair_align	aligned	gpt2	 boarding pass and <unk> there was his new partner natalie <unk	>	and	0.14658968150615692	5.981690406799316	2.2593743778998032e-05	0.09930469840765	15
+6	upintheair_align	aligned	gpt2	 pass and <unk> there was his new partner natalie <unk>	 climbing	up	10.59876537322998	4.14738655090332	0.00023655718541704118	0.20847877860069275	15
+7	upintheair_align	aligned	gpt2	 and <unk> there was his new partner natalie <unk> climbing	 out	of	3.2997207641601562	2.680222272872925	0.0027001702692359686	0.5177628993988037	15
+8	upintheair_align	aligned	gpt2	 <unk> there was his new partner natalie <unk> climbing out	 of	the	0.6888293623924255	3.014280080795288	0.0001299542491324246	0.3546557128429413	15
+9	upintheair_align	aligned	gpt2	unk> there was his new partner natalie <unk> climbing out of	 a	window	2.226195812225342	6.29946756362915	0.0003139665932394564	0.08261962234973907	15
+10	upintheair_align	aligned	gpt2	> there was his new partner natalie <unk> climbing out of a	 taxi	and	7.120180130004883	5.049243450164795	0.0008585690520703793	0.08748092502355576	15
+11	upintheair_align	aligned	gpt2	 there was his new partner natalie <unk> climbing out of a taxi	 at	the	3.673854112625122	4.752160549163818	0.00030671071726828814	0.16782617568969727	15
+12	upintheair_align	aligned	gpt2	 was his new partner natalie <unk> climbing out of a taxi at	 the	end	2.0231614112854004	5.924442291259766	0.00034594108001329005	0.1262228935956955	15
+13	upintheair_align	aligned	gpt2	 his new partner natalie <unk> climbing out of a taxi at the	 curb	<	6.849006175994873	3.5997462272644043	3.426356443014811e-06	0.3625277280807495	15
+14	upintheair_align	aligned	gpt2	 new partner natalie <unk> climbing out of a taxi at the curb	 of	a	3.836352825164795	4.15556526184082	4.083782550878823e-05	0.31995889544487	15
+15	upintheair_align	aligned	gpt2	 partner natalie <unk> climbing out of a taxi at the curb of	 the	street	1.8247661590576172	6.787638187408447	0.00043103963253088295	0.07433002442121506	15
+16	upintheair_align	aligned	gpt2	 natalie <unk> climbing out of a taxi at the curb of the	 airport	.	5.862664222717285	5.211596488952637	0.006677683442831039	0.08553574979305267	15
+17	upintheair_align	aligned	gpt2	atalie <unk> climbing out of a taxi at the curb of the airport	 she	was	7.669047832489014	5.613087177276611	0.00014366884715855122	0.13536317646503448	15
+18	upintheair_align	aligned	gpt2	 <unk> climbing out of a taxi at the curb of the airport she	 <	unk	10.535744667053223	5.304313659667969	7.173795893322676e-05	0.2701733410358429	15
+19	upintheair_align	aligned	gpt2	unk> climbing out of a taxi at the curb of the airport she <	unk	>	10.811800956726074	1.0399879217147827	3.4572449294500984e-06	0.8675650358200073	15
+20	upintheair_align	aligned	gpt2	> climbing out of a taxi at the curb of the airport she <unk	>	was	3.1874642372131348	6.743996620178223	1.1095913578174077e-05	0.03400062769651413	15
+21	upintheair_align	aligned	gpt2	 climbing out of a taxi at the curb of the airport she <unk>	 with	her	6.574827194213867	5.28396463394165	0.0002388472785241902	0.1625317484140396	15
+22	upintheair_align	aligned	gpt2	 out of a taxi at the curb of the airport she <unk> with	 her	husband	1.8465873003005981	6.719037055969238	0.0004387832887005061	0.049063898622989655	15
+23	upintheair_align	aligned	gpt2	 of a taxi at the curb of the airport she <unk> with her	 bag	.	5.396035194396973	4.525881767272949	0.0011450710007920861	0.14716148376464844	15
+24	upintheair_align	aligned	gpt2	 a taxi at the curb of the airport she <unk> with her bag	 jacket	on	11.913418769836426	4.38715934753418	6.885716720717028e-05	0.18770188093185425	15
+25	upintheair_align	aligned	gpt2	 taxi at the curb of the airport she <unk> with her bag jacket	 and	a	2.0977795124053955	6.835381507873535	0.0005785318790003657	0.06447400897741318	15
+26	upintheair_align	aligned	gpt2	 at the curb of the airport she <unk> with her bag jacket and	 massive	bag	10.083770751953125	6.804383277893066	0.00011430654558353126	0.06971906870603561	15
+27	upintheair_align	aligned	gpt2	 the curb of the airport she <unk> with her bag jacket and massive	 luggage	.	5.768587589263916	4.716943264007568	0.0003400997957214713	0.2644534111022949	15
+28	upintheair_align	aligned	gpt2	 curb of the airport she <unk> with her bag jacket and massive luggage	 that	she	4.6279497146606445	5.18724250793457	0.0003777230449486524	0.22504457831382751	15
+29	upintheair_align	aligned	gpt2	 of the airport she <unk> with her bag jacket and massive luggage that	 sque	aked	10.416914939880371	0.5661525726318359	4.297196376512602e-09	0.8321735262870789	15
+30	upintheair_align	aligned	gpt2	 the airport she <unk> with her bag jacket and massive luggage that sque	aked	and	0.19190701842308044	4.201966285705566	7.779298982768523e-08	0.11840711534023285	15
+31	upintheair_align	aligned	gpt2	 airport she <unk> with her bag jacket and massive luggage that squeaked	 <	unk	5.76938533782959	6.188482284545898	0.0001502191589679569	0.16746361553668976	15
+32	upintheair_align	aligned	gpt2	 she <unk> with her bag jacket and massive luggage that squeaked <	unk	>	2.4846913814544678	0.3132338225841522	5.5483852179349924e-08	0.9571802616119385	15
+33	upintheair_align	aligned	gpt2	 <unk> with her bag jacket and massive luggage that squeaked <unk	>	and	0.04392831772565842	6.069552898406982	0.00017799917259253561	0.07493996620178223	15
+34	upintheair_align	aligned	gpt2	unk> with her bag jacket and massive luggage that squeaked <unk>	 as	she	5.85076379776001	3.4798636436462402	0.0003195755125489086	0.42051559686660767	15
+35	upintheair_align	aligned	gpt2	> with her bag jacket and massive luggage that squeaked <unk> as	 she	walked	0.6224363446235657	5.875321865081787	0.00014422053936868906	0.0633120909333229	15
+36	upintheair_align	aligned	gpt2	 with her bag jacket and massive luggage that squeaked <unk> as she	 tug	ged	7.759166717529297	0.02076396532356739	4.7827867888372566e-08	0.9976207613945007	15
+37	upintheair_align	aligned	gpt2	 her bag jacket and massive luggage that squeaked <unk> as she tug	ged	on	0.002102666301652789	3.261535406112671	3.0286325909401057e-06	0.22186847031116486	15
+38	upintheair_align	aligned	gpt2	 bag jacket and massive luggage that squeaked <unk> as she tugged	 it	out	2.7309436798095703	3.6853747367858887	6.6684304329101e-05	0.14735272526741028	15
+39	upintheair_align	aligned	gpt2	 jacket and massive luggage that squeaked <unk> as she tugged it	 through	the	4.586111068725586	2.016726016998291	0.0003926462377421558	0.4867647588253021	15
+40	upintheair_align	aligned	gpt2	 and massive luggage that squeaked <unk> as she tugged it through	 the	door	0.6320976614952087	6.144031524658203	0.0004111265589017421	0.08610891550779343	15
+41	upintheair_align	aligned	gpt2	 massive luggage that squeaked <unk> as she tugged it through the	 airport	door	6.596513271331787	3.8161909580230713	0.0015994712011888623	0.19514942169189453	15
+42	upintheair_align	aligned	gpt2	 luggage that squeaked <unk> as she tugged it through the airport	 doors	.	3.1190567016601562	2.200511932373047	3.0321418307721615e-05	0.6027524471282959	15
+43	upintheair_align	aligned	gpt2	 that squeaked <unk> as she tugged it through the airport doors	 r	umbling	9.31134033203125	4.487027168273926	0.00016638914530631155	0.12615863978862762	15
+44	upintheair_align	aligned	gpt2	 squeaked <unk> as she tugged it through the airport doors r	yan	.	9.965171813964844	6.577733039855957	7.091870065778494e-05	0.062472324818372726	15
+45	upintheair_align	aligned	gpt2	aked <unk> as she tugged it through the airport doors ryan	 walked	over	8.411767959594727	3.5431323051452637	1.5035948308650404e-05	0.1638365536928177	15
+46	upintheair_align	aligned	gpt2	 <unk> as she tugged it through the airport doors ryan walked	 <	unk	11.771309852600098	6.351968288421631	0.0004088949062861502	0.07666085660457611	15
+47	upintheair_align	aligned	gpt2	unk> as she tugged it through the airport doors ryan walked <	unk	>	12.719053268432617	0.452743262052536	5.194677328290709e-07	0.9490062594413757	15
+48	upintheair_align	aligned	gpt2	> as she tugged it through the airport doors ryan walked <unk	>	to	1.7337697744369507	5.166121006011963	0.00014192720118444413	0.11035328358411789	15
+49	upintheair_align	aligned	gpt2	 as she tugged it through the airport doors ryan walked <unk>	 toward	the	3.664078712463379	3.3517258167266846	3.0397670343518257e-05	0.4582218527793884	15
+50	upintheair_align	aligned	gpt2	 she tugged it through the airport doors ryan walked <unk> toward	 her	.	2.3355712890625	5.551490306854248	0.00023673143004998565	0.13022950291633606	15
+51	upintheair_align	aligned	gpt2	 tugged it through the airport doors ryan walked <unk> toward her	 pulling	her	10.657454490661621	3.7375500202178955	4.831180194742046e-05	0.25133585929870605	15
+52	upintheair_align	aligned	gpt2	ged it through the airport doors ryan walked <unk> toward her pulling	 his	hand	3.9044981002807617	6.138131618499756	0.00019865031936205924	0.047230660915374756	15
+53	upintheair_align	aligned	gpt2	 it through the airport doors ryan walked <unk> toward her pulling his	 own	bag	4.773796081542969	6.718896865844727	0.00040576973697170615	0.04003152623772621	15
+54	upintheair_align	aligned	gpt2	 through the airport doors ryan walked <unk> toward her pulling his own	 neatly	folded	10.487418174743652	4.645543575286865	0.0036727627739310265	0.20828355848789215	15
+55	upintheair_align	aligned	gpt2	 the airport doors ryan walked <unk> toward her pulling his own neatly	 packed	bag	3.6043756008148193	4.961210250854492	0.0002320579660590738	0.2323816418647766	15
+56	upintheair_align	aligned	gpt2	 airport doors ryan walked <unk> toward her pulling his own neatly packed	 carry	-	5.9099202156066895	3.573734760284424	0.001356662018224597	0.31307926774024963	15
+57	upintheair_align	aligned	gpt2	 doors ryan walked <unk> toward her pulling his own neatly packed carry	 on	his	2.9602839946746826	5.09364652633667	0.002957691205665469	0.12574215233325958	15
+58	upintheair_align	aligned	gpt2	 ryan walked <unk> toward her pulling his own neatly packed carry on	 bag	.	3.245746374130249	4.178983688354492	0.0009830159833654761	0.1606220155954361	15
+59	upintheair_align	aligned	gpt2	yan walked <unk> toward her pulling his own neatly packed carry on bag	 behind	him	4.92426872253418	1.7558408975601196	0.00028575744363479316	0.4172290563583374	15
+60	upintheair_align	aligned	gpt2	 walked <unk> toward her pulling his own neatly packed carry on bag behind	 him	.	1.0038151741027832	2.809587240219116	3.784652290050872e-05	0.49071770906448364	15
+61	upintheair_align	aligned	gpt2	 <unk> toward her pulling his own neatly packed carry on bag behind him	 after	he	6.809925556182861	5.262494087219238	0.00018124497728422284	0.1512911468744278	15
+62	upintheair_align	aligned	gpt2	unk> toward her pulling his own neatly packed carry on bag behind him after	 checking	the	6.726993560791016	4.078587055206299	4.2634059354895726e-05	0.14884348213672638	15
+63	upintheair_align	aligned	gpt2	> toward her pulling his own neatly packed carry on bag behind him after checking	 <	a	12.833288192749023	5.926332473754883	0.000125734499306418	0.08706563711166382	15
+64	upintheair_align	aligned	gpt2	 toward her pulling his own neatly packed carry on bag behind him after checking <	unk	now	13.000899314880371	4.069424152374268	2.6341107513871975e-05	0.33133751153945923	15
+65	upintheair_align	aligned	gpt2	 her pulling his own neatly packed carry on bag behind him after checking <unk	>	for	2.0672805309295654	6.391677379608154	0.0009187529212795198	0.05128834769129753	15
+66	upintheair_align	aligned	gpt2	 pulling his own neatly packed carry on bag behind him after checking <unk>	 bag	.	8.536209106445312	5.675211429595947	0.0021704749669879675	0.10079265385866165	15
+67	upintheair_align	aligned	gpt2	 his own neatly packed carry on bag behind him after checking <unk> bag	 the	next	5.764765739440918	5.563796520233154	0.0006885598413646221	0.12693296372890472	15
+68	upintheair_align	aligned	gpt2	 own neatly packed carry on bag behind him after checking <unk> bag the	 two	of	5.7962751388549805	6.0678629875183105	0.0010703896405175328	0.2225632667541504	15
+69	upintheair_align	aligned	gpt2	 neatly packed carry on bag behind him after checking <unk> bag the two	 walked	into	7.091261386871338	3.8366458415985107	2.223171577497851e-05	0.1084035262465477	15
+70	upintheair_align	aligned	gpt2	 packed carry on bag behind him after checking <unk> bag the two walked	 toward	the	5.27070426940918	4.106855392456055	7.31397740310058e-05	0.25776389241218567	15
+71	upintheair_align	aligned	gpt2	 carry on bag behind him after checking <unk> bag the two walked toward	 the	door	1.4973758459091187	7.103793144226074	0.0005443745176307857	0.04716748371720314	15
+72	upintheair_align	aligned	gpt2	 on bag behind him after checking <unk> bag the two walked toward the	 airport	.	6.243031024932861	3.9656319618225098	0.0012870030477643013	0.3220849633216858	15
+73	upintheair_align	aligned	gpt2	 bag behind him after checking <unk> bag the two walked toward the airport	 security	.	5.5317463874816895	4.777961730957031	0.0005216955905780196	0.14242540299892426	15
+74	upintheair_align	aligned	gpt2	 behind him after checking <unk> bag the two walked toward the airport security	 lines	.	5.552363395690918	3.017364978790283	8.847006029100157e-06	0.444630891084671	15
+75	upintheair_align	aligned	gpt2	 him after checking <unk> bag the two walked toward the airport security lines	 as	they	4.842547416687012	3.365724563598633	0.0001587260194355622	0.45245715975761414	15
+76	upintheair_align	aligned	gpt2	 after checking <unk> bag the two walked toward the airport security lines as	 n	ag	10.213831901550293	6.6453938484191895	7.204903522506356e-05	0.024208402261137962	15
+77	upintheair_align	aligned	gpt2	 checking <unk> bag the two walked toward the airport security lines as n	atalie	and	6.854428291320801	6.406350612640381	6.625500077461766e-07	0.053863219916820526	15
+78	upintheair_align	aligned	gpt2	 <unk> bag the two walked toward the airport security lines as natalie	 struggled	to	7.845983982086182	1.8547393083572388	2.2014071419107495e-06	0.6366865038871765	15
+79	upintheair_align	aligned	gpt2	unk> bag the two walked toward the airport security lines as natalie struggled	 to	get	0.4641945958137512	4.584083080291748	0.00023607510956935585	0.29770079255104065	15
+80	upintheair_align	aligned	gpt2	> bag the two walked toward the airport security lines as natalie struggled to	 extract	her	7.753970146179199	3.4381561279296875	4.927733698423253e-06	0.32322001457214355	15
+81	upintheair_align	aligned	gpt2	 bag the two walked toward the airport security lines as natalie struggled to extract	 her	belongings	1.1093279123306274	5.835368633270264	0.00016786532069090754	0.08552990853786469	15
+82	upintheair_align	aligned	gpt2	 the two walked toward the airport security lines as natalie struggled to extract her	 id	.	11.189431190490723	3.8097877502441406	2.1613595890812576e-06	0.2182484120130539	15
+83	upintheair_align	aligned	gpt2	 two walked toward the airport security lines as natalie struggled to extract her id	 from	her	4.142777919769287	2.717841386795044	0.00012854195665568113	0.3443918526172638	15
+84	upintheair_align	aligned	gpt2	 walked toward the airport security lines as natalie struggled to extract her id from	 the	bag	1.1147499084472656	6.985905647277832	0.00038745885831303895	0.07609095424413681	15
+85	upintheair_align	aligned	gpt2	 toward the airport security lines as natalie struggled to extract her id from the	 bottom	of	6.589969635009766	1.3178174495697021	4.301356602809392e-05	0.8245113492012024	15
+86	upintheair_align	aligned	gpt2	 the airport security lines as natalie struggled to extract her id from the bottom	 of	the	0.20392577350139618	1.599481463432312	6.784754532418447e-06	0.55324387550354	15
+87	upintheair_align	aligned	gpt2	 airport security lines as natalie struggled to extract her id from the bottom of	 her	bag	1.9162298440933228	6.398846626281738	0.00031069034594111145	0.042775943875312805	15
+88	upintheair_align	aligned	gpt2	 security lines as natalie struggled to extract her id from the bottom of her	 d	ildo	6.665487766265869	4.211401462554932	3.506149732857011e-05	0.17552223801612854	15
+89	upintheair_align	aligned	gpt2	 lines as natalie struggled to extract her id from the bottom of her d	uff	el	3.5359086990356445	0.08483071625232697	3.5476745097184903e-07	0.991956353187561	15
+90	upintheair_align	aligned	gpt2	 as natalie struggled to extract her id from the bottom of her duff	el	bag	0.008426232263445854	0.54707270860672	6.865492707675003e-08	0.9231059551239014	15
+91	upintheair_align	aligned	gpt2	 natalie struggled to extract her id from the bottom of her duffel	 bag	.	0.07241851091384888	2.54740309715271	0.0002364592073718086	0.4176182150840759	15
+92	upintheair_align	aligned	gpt2	atalie struggled to extract her id from the bottom of her duffel bag	 r	uff	11.229880332946777	3.695094347000122	2.9889582947362214e-05	0.1834898293018341	15
+93	upintheair_align	aligned	gpt2	 struggled to extract her id from the bottom of her duffel bag r	yan	.	10.88762092590332	6.521584987640381	0.00037766844616271555	0.09437611699104309	15
+94	upintheair_align	aligned	gpt2	 to extract her id from the bottom of her duffel bag ryan	 <	3	8.71933364868164	4.943663597106934	0.0009540022583678365	0.32097694277763367	15
+95	upintheair_align	aligned	gpt2	 extract her id from the bottom of her duffel bag ryan <	unk	>	12.100152969360352	4.559060573577881	5.8557179727358744e-05	0.2462204545736313	15
+96	upintheair_align	aligned	gpt2	 her id from the bottom of her duffel bag ryan <unk	>	"
+"	1.325097918510437	6.713386058807373	9.506713831797242e-05	0.0325801745057106	15
+97	upintheair_align	aligned	gpt2	 id from the bottom of her duffel bag ryan <unk>	 out	of	8.446828842163086	4.13026237487793	0.0009457403793931007	0.3462837040424347	15
+98	upintheair_align	aligned	gpt2	 from the bottom of her duffel bag ryan <unk> out	 the	top	3.036383867263794	6.401086330413818	0.0005458095110952854	0.07669194787740707	15
+99	upintheair_align	aligned	gpt2	 the bottom of her duffel bag ryan <unk> out the	 different	parts	10.092084884643555	7.088150501251221	0.0007574844639748335	0.037938229739665985	15
+100	upintheair_align	aligned	gpt2	 bottom of her duffel bag ryan <unk> out the different	 line	of	9.602031707763672	5.492452621459961	0.0002528621698729694	0.1487245261669159	15
+101	upintheair_align	aligned	gpt2	 of her duffel bag ryan <unk> out the different line	 choices	.	7.4528303146362305	4.469537734985352	5.3815627325093374e-05	0.11385095119476318	15
+102	upintheair_align	aligned	gpt2	 her duffel bag ryan <unk> out the different line choices	 b	tw	7.346936225891113	5.745547294616699	5.4759540944360197e-05	0.07620884478092194	15
+103	upintheair_align	aligned	gpt2	 duffel bag ryan <unk> out the different line choices b	ingo	<	5.786514759063721	4.917551040649414	7.215829828055575e-05	0.24695326387882233	15
+104	upintheair_align	aligned	gpt2	uffel bag ryan <unk> out the different line choices bingo	 as	well	7.617873191833496	6.00750207901001	0.00026535801589488983	0.04976075142621994	15
+105	upintheair_align	aligned	gpt2	el bag ryan <unk> out the different line choices bingo as	ians	<	5.843570232391357	6.170948505401611	1.256109226233093e-05	0.14122413098812103	15
+106	upintheair_align	aligned	gpt2	 bag ryan <unk> out the different line choices bingo asians	 he	he	7.585294723510742	5.769110679626465	0.0004910315619781613	0.074617400765419	15
+107	upintheair_align	aligned	gpt2	 ryan <unk> out the different line choices bingo asians he	 <	unk	7.125757694244385	6.838348865509033	0.0001501166116213426	0.06265778839588165	15
+108	upintheair_align	aligned	gpt2	yan <unk> out the different line choices bingo asians he <	unk	>	2.222885847091675	0.1926993876695633	1.8009450286626816e-07	0.9798142313957214	15
+109	upintheair_align	aligned	gpt2	 <unk> out the different line choices bingo asians he <unk	>	i	0.028042161837220192	6.471401214599609	4.371500472188927e-05	0.02963658794760704	15
+110	upintheair_align	aligned	gpt2	unk> out the different line choices bingo asians he <unk>	 toward	the	12.753423690795898	6.591477394104004	3.082965486100875e-05	0.22036367654800415	15
+111	upintheair_align	aligned	gpt2	> out the different line choices bingo asians he <unk> toward	 the	end	1.7472083568572998	6.695850849151611	0.0007736537954770029	0.1421276032924652	15
+112	upintheair_align	aligned	gpt2	 out the different line choices bingo asians he <unk> toward the	 <	un	4.892813682556152	7.377532958984375	0.00014672611723653972	0.028065131977200508	15
+113	upintheair_align	aligned	gpt2	 the different line choices bingo asians he <unk> toward the <	unk	>	4.040081024169922	0.3188374936580658	1.533580160639758e-07	0.9644230008125305	15
+114	upintheair_align	aligned	gpt2	 different line choices bingo asians he <unk> toward the <unk	>	end	0.032682958990335464	8.251838684082031	0.0003143440408166498	0.023321622982621193	15
+115	upintheair_align	aligned	gpt2	 line choices bingo asians he <unk> toward the <unk>	 line	choices	6.489614486694336	6.062697887420654	0.0023875210899859667	0.06744808703660965	15
+116	upintheair_align	aligned	gpt2	 choices bingo asians he <unk> toward the <unk> line	 with	the	4.552426338195801	5.600132465362549	0.00010254311928292736	0.20805619657039642	15
+117	upintheair_align	aligned	gpt2	 bingo asians he <unk> toward the <unk> line with	 his	<	3.3167734146118164	6.8860087394714355	0.00025166620616801083	0.09698355197906494	15
+118	upintheair_align	aligned	gpt2	ingo asians he <unk> toward the <unk> line with his	 chin	.	5.561239242553711	4.7317118644714355	0.0004910810384899378	0.1713101714849472	15
+119	upintheair_align	aligned	gpt2	 asians he <unk> toward the <unk> line with his chin	 you	<	7.724647521972656	5.805820465087891	0.0004149964661337435	0.07577837258577347	15
+120	upintheair_align	aligned	gpt2	ians he <unk> toward the <unk> line with his chin you	 can	see	2.4429266452789307	4.849605560302734	0.0002452835033182055	0.22433853149414062	15
+121	upintheair_align	aligned	gpt2	 he <unk> toward the <unk> line with his chin you can	't	tell	3.182640790939331	4.71962833404541	0.0003365018928889185	0.09228039532899857	15
+122	upintheair_align	aligned	gpt2	 <unk> toward the <unk> line with his chin you can't	 be	sure	4.581652641296387	4.970090866088867	4.812947736354545e-05	0.2711280584335327	15
+123	upintheair_align	aligned	gpt2	unk> toward the <unk> line with his chin you can't be	 serious	.	3.8220767974853516	3.898817539215088	3.957481749239378e-05	0.19132062792778015	15
+124	upintheair_align	aligned	gpt2	> toward the <unk> line with his chin you can't be serious	 replied	to	13.570225715637207	4.374552249908447	6.962462066439912e-05	0.32618531584739685	15
+125	upintheair_align	aligned	gpt2	 toward the <unk> line with his chin you can't be serious replied	 n	ope	6.958094120025635	6.479061126708984	7.936004840303212e-05	0.04930536821484566	15
+126	upintheair_align	aligned	gpt2	 the <unk> line with his chin you can't be serious replied n	atalie	@	6.2987775802612305	6.765838623046875	9.05281376617495e-06	0.05126331001520157	15
+127	upintheair_align	aligned	gpt2	 <unk> line with his chin you can't be serious replied natalie	 r	yan	5.569304466247559	7.108940124511719	0.001744526089169085	0.03925701975822449	15
+128	upintheair_align	aligned	gpt2	unk> line with his chin you can't be serious replied natalie r	yan	<	3.4256234169006348	6.2481608390808105	1.9470260667731054e-05	0.1437579095363617	15
+129	upintheair_align	aligned	gpt2	> line with his chin you can't be serious replied natalie ryan	 shrugged	her	8.862719535827637	4.494710922241211	0.00016486151434946805	0.13499994575977325	15
+130	upintheair_align	aligned	gpt2	 line with his chin you can't be serious replied natalie ryan shrugged	 look	at	9.003700256347656	4.24791145324707	0.000536450301297009	0.42074257135391235	15
+131	upintheair_align	aligned	gpt2	 with his chin you can't be serious replied natalie ryan shrugged look	 at	her	0.7085915207862854	3.75012469291687	0.00016143474204000086	0.20026710629463196	15
+132	upintheair_align	aligned	gpt2	 his chin you can't be serious replied natalie ryan shrugged look at	 the	girl	2.2173874378204346	7.597722053527832	0.00047967658611014485	0.033248066902160645	15
+133	upintheair_align	aligned	gpt2	 chin you can't be serious replied natalie ryan shrugged look at the	 other	girl	4.617084980010986	5.686103343963623	0.000323348242091015	0.1571463644504547	15
+134	upintheair_align	aligned	gpt2	 you can't be serious replied natalie ryan shrugged look at the other	 lines	of	9.310261726379395	3.9409213066101074	9.617469913791865e-05	0.2681051194667816	15
+135	upintheair_align	aligned	gpt2	 can't be serious replied natalie ryan shrugged look at the other lines	 i	was	6.110161304473877	6.9783406257629395	0.002931595779955387	0.03285300359129906	15
+136	upintheair_align	aligned	gpt2	't be serious replied natalie ryan shrugged look at the other lines i	 never	thought	6.365574836730957	4.841150760650635	9.755264181876555e-05	0.11590559035539627	15
+137	upintheair_align	aligned	gpt2	 be serious replied natalie ryan shrugged look at the other lines i never	 get	to	4.631771087646484	5.541060447692871	0.00015388280735351145	0.11136545240879059	15
+138	upintheair_align	aligned	gpt2	 serious replied natalie ryan shrugged look at the other lines i never get	 behind	.	8.37918472290039	5.384700775146484	0.0015201789792627096	0.09708596765995026	15
+139	upintheair_align	aligned	gpt2	 replied natalie ryan shrugged look at the other lines i never get behind	 people	i	6.575786590576172	5.014898777008057	0.0006123461062088609	0.1004832461476326	15
+140	upintheair_align	aligned	gpt2	 natalie ryan shrugged look at the other lines i never get behind people	 traveling	with	11.825220108032227	5.045216083526611	6.235676846699789e-05	0.10454488545656204	15
+141	upintheair_align	aligned	gpt2	atalie ryan shrugged look at the other lines i never get behind people traveling	 with	their	2.307485342025757	6.548669338226318	0.0003272893954999745	0.07869081944227219	15
+142	upintheair_align	aligned	gpt2	 ryan shrugged look at the other lines i never get behind people traveling with	 infants	.	10.825284957885742	3.914003372192383	1.187512680189684e-05	0.3331790268421173	15
+143	upintheair_align	aligned	gpt2	yan shrugged look at the other lines i never get behind people traveling with infants	 i	'm	5.808727741241455	4.890530109405518	0.00014668397489003837	0.04856156185269356	15
+144	upintheair_align	aligned	gpt2	 shrugged look at the other lines i never get behind people traveling with infants i	've	never	3.466686964035034	3.7730507850646973	9.440428584639449e-06	0.1728750318288803	15
+145	upintheair_align	aligned	gpt2	 look at the other lines i never get behind people traveling with infants i've	 never	seen	1.8663407564163208	3.381803035736084	0.0005536480457521975	0.2722265422344208	15
+146	upintheair_align	aligned	gpt2	 at the other lines i never get behind people traveling with infants i've never	 seen	a	1.8115508556365967	4.369089126586914	6.722020043525845e-05	0.16578708589076996	15
+147	upintheair_align	aligned	gpt2	 the other lines i never get behind people traveling with infants i've never seen	 a	child	1.9295244216918945	6.547415733337402	0.0001992349571082741	0.05080976337194443	15
+148	upintheair_align	aligned	gpt2	 other lines i never get behind people traveling with infants i've never seen a	 st	roller	6.6857008934021	2.3961424827575684	0.00010920414933934808	0.6340548992156982	15
+149	upintheair_align	aligned	gpt2	 lines i never get behind people traveling with infants i've never seen a st	roller	with	0.39259499311447144	5.58225154876709	1.0114978067576885e-05	0.0758688896894455	15
+150	upintheair_align	aligned	gpt2	 i never get behind people traveling with infants i've never seen a stroller	 collapse	in	8.943775177001953	4.199429512023926	1.0143628060177434e-05	0.08835845440626144	15
+151	upintheair_align	aligned	gpt2	 never get behind people traveling with infants i've never seen a stroller collapse	 in	my	2.5352916717529297	4.214099884033203	0.0008112542564049363	0.19111397862434387	15
+152	upintheair_align	aligned	gpt2	 get behind people traveling with infants i've never seen a stroller collapse in	 less	than	4.382576942443848	0.10454505681991577	5.1652117690537125e-05	0.9895115494728088	15
+153	upintheair_align	aligned	gpt2	 behind people traveling with infants i've never seen a stroller collapse in less	 than	a	0.0075934575870633125	3.3856148719787598	9.496400707575958e-06	0.1777307689189911	15
+154	upintheair_align	aligned	gpt2	 people traveling with infants i've never seen a stroller collapse in less than	 twenty	minutes	5.592371940612793	1.4309176206588745	0.00010207884770352393	0.5182615518569946	15
+155	upintheair_align	aligned	gpt2	 traveling with infants i've never seen a stroller collapse in less than twenty	 minutes	.	0.6996623873710632	2.985318660736084	1.5711135347373784e-05	0.4433552324771881	15
+156	upintheair_align	aligned	gpt2	 with infants i've never seen a stroller collapse in less than twenty minutes	 old	.	11.362943649291992	2.4164435863494873	5.520338618225651e-06	0.5376226305961609	15
+157	upintheair_align	aligned	gpt2	 infants i've never seen a stroller collapse in less than twenty minutes old	 people	are	10.570322036743164	5.274351596832275	0.000163460717885755	0.09705637395381927	15
+158	upintheair_align	aligned	gpt2	 i've never seen a stroller collapse in less than twenty minutes old people	 are	going	2.842411994934082	6.393341541290283	3.234090399928391e-05	0.02982151508331299	15
+159	upintheair_align	aligned	gpt2	've never seen a stroller collapse in less than twenty minutes old people are	 worse	off	9.060503005981445	0.794501543045044	2.9247205475257942e-06	0.8655581474304199	15
+160	upintheair_align	aligned	gpt2	 never seen a stroller collapse in less than twenty minutes old people are worse	 their	parents	12.14850902557373	6.970557689666748	7.582554098917171e-05	0.03769785538315773	15
+161	upintheair_align	aligned	gpt2	 seen a stroller collapse in less than twenty minutes old people are worse their	 bodies	are	5.329980373382568	4.282823085784912	7.217698566819308e-06	0.2989787757396698	15
+162	upintheair_align	aligned	gpt2	 a stroller collapse in less than twenty minutes old people are worse their bodies	 are	more	1.4769277572631836	6.262252330780029	7.943109085317701e-05	0.05669139698147774	15
+163	upintheair_align	aligned	gpt2	 stroller collapse in less than twenty minutes old people are worse their bodies are	 littered	with	6.929865837097168	0.9098503589630127	0.00040319040999747813	0.8727807998657227	15
+164	upintheair_align	aligned	gpt2	roller collapse in less than twenty minutes old people are worse their bodies are littered	 with	blood	0.1751333326101303	6.55493688583374	4.690700734499842e-05	0.040449850261211395	15
+165	upintheair_align	aligned	gpt2	 collapse in less than twenty minutes old people are worse their bodies are littered with	 hidden	organs	9.328767776489258	6.213321208953857	0.00034480824251659214	0.06407561153173447	15
+166	upintheair_align	aligned	gpt2	 in less than twenty minutes old people are worse their bodies are littered with hidden	 metal	and	6.662482261657715	4.885394096374512	0.0004949696594849229	0.1430889368057251	15
+167	upintheair_align	aligned	gpt2	 less than twenty minutes old people are worse their bodies are littered with hidden metal	 and	other	1.9232525825500488	6.890877723693848	0.00032666578772477806	0.04191085323691368	15
+168	upintheair_align	aligned	gpt2	 than twenty minutes old people are worse their bodies are littered with hidden metal and	 they	are	4.281900882720947	4.328243732452393	0.0001725879847072065	0.19386935234069824	15
+169	upintheair_align	aligned	gpt2	 twenty minutes old people are worse their bodies are littered with hidden metal and they	 never	get	5.150691986083984	4.918367385864258	0.00010310673678759485	0.08393314480781555	15
+170	upintheair_align	aligned	gpt2	 minutes old people are worse their bodies are littered with hidden metal and they never	 seem	to	3.209961414337158	0.3723839223384857	5.489941031555645e-06	0.9600280523300171	15
+171	upintheair_align	aligned	gpt2	 old people are worse their bodies are littered with hidden metal and they never seem	 to	be	0.046537820249795914	4.4459710121154785	0.00017394138558302075	0.09974805265665054	15
+172	upintheair_align	aligned	gpt2	 people are worse their bodies are littered with hidden metal and they never seem to	 appreciate	the	6.385019302368164	3.3262338638305664	1.0246584452033858e-06	0.3223060071468353	15
+173	upintheair_align	aligned	gpt2	 are worse their bodies are littered with hidden metal and they never seem to appreciate	 how	much	3.37561297416687	5.737950325012207	0.00010039679909823462	0.18259258568286896	15
+174	upintheair_align	aligned	gpt2	 worse their bodies are littered with hidden metal and they never seem to appreciate how	 little	they	4.7274627685546875	4.3450846672058105	0.0001630305196158588	0.3646685481071472	15
+175	upintheair_align	aligned	gpt2	 their bodies are littered with hidden metal and they never seem to appreciate how little	 time	they	3.527801036834717	2.816897392272949	0.0002644173218868673	0.46572214365005493	15
+176	upintheair_align	aligned	gpt2	 bodies are littered with hidden metal and they never seem to appreciate how little time	 they	have	0.9168858528137207	2.663975238800049	3.059982191189192e-05	0.3962457776069641	15
+177	upintheair_align	aligned	gpt2	 are littered with hidden metal and they never seem to appreciate how little time they	 have	left	1.0144628286361694	2.340634822845459	0.0002259259345009923	0.5133040547370911	15
+178	upintheair_align	aligned	gpt2	 littered with hidden metal and they never seem to appreciate how little time they have	 left	.	0.5720258355140686	2.614042043685913	0.0007372548570856452	0.45272427797317505	15
+179	upintheair_align	aligned	gpt2	 with hidden metal and they never seem to appreciate how little time they have left	 on	their	3.689584255218506	2.8104004859924316	7.042712240945548e-05	0.4897335171699524	15
+180	upintheair_align	aligned	gpt2	 hidden metal and they never seem to appreciate how little time they have left on	 earth	.	4.323416233062744	2.611769199371338	1.0281329423378338e-06	0.5032841563224792	15
+181	upintheair_align	aligned	gpt2	 metal and they never seem to appreciate how little time they have left on earth	 he	has	8.808476448059082	5.6929030418396	0.00042247388046234846	0.08115742355585098	15
+182	upintheair_align	aligned	gpt2	 and they never seem to appreciate how little time they have left on earth he	 <	3	12.144704818725586	4.204277038574219	0.0002956465759780258	0.45233237743377686	15
+183	upintheair_align	aligned	gpt2	 they never seem to appreciate how little time they have left on earth he <	unk	now	11.406269073486328	4.744651794433594	9.149772085947916e-05	0.23031708598136902	15
+184	upintheair_align	aligned	gpt2	 never seem to appreciate how little time they have left on earth he <unk	>	I	2.8556385040283203	6.878082275390625	3.8382924685720354e-05	0.030398786067962646	15
+185	upintheair_align	aligned	gpt2	 seem to appreciate how little time they have left on earth he <unk>	 to	do	4.486638069152832	6.811614990234375	0.00035616420791484416	0.026050200685858727	15
+186	upintheair_align	aligned	gpt2	 to appreciate how little time they have left on earth he <unk> to	 the	point	4.7128190994262695	6.094056129455566	0.00039125708281062543	0.3031731843948364	15
+187	upintheair_align	aligned	gpt2	 appreciate how little time they have left on earth he <unk> to the	 center	of	8.379631996154785	3.2014546394348145	8.664798951940611e-05	0.4573289155960083	15
+188	upintheair_align	aligned	gpt2	 how little time they have left on earth he <unk> to the center	 line	of	7.626652717590332	4.017419338226318	0.00019110050925519317	0.2419881671667099	15
+189	upintheair_align	aligned	gpt2	 little time they have left on earth he <unk> to the center line	 where	he	4.7237067222595215	3.9446988105773926	0.0004045728128403425	0.27396222949028015	15
+190	upintheair_align	aligned	gpt2	 time they have left on earth he <unk> to the center line where	 three	of	8.075835227966309	7.351081848144531	0.0008816354093141854	0.049152132123708725	15
+191	upintheair_align	aligned	gpt2	 they have left on earth he <unk> to the center line where three	 middle	-	8.179839134216309	6.151010990142822	0.0006585994851775467	0.0815611407160759	15
+192	upintheair_align	aligned	gpt2	 have left on earth he <unk> to the center line where three middle	 eastern	ers	6.9824957847595215	6.24318790435791	3.1010302336653695e-05	0.16627298295497894	15
+193	upintheair_align	aligned	gpt2	 left on earth he <unk> to the center line where three middle eastern	 men	are	4.074259281158447	5.597371578216553	8.36444814922288e-05	0.09456831961870193	15
+194	upintheair_align	aligned	gpt2	 on earth he <unk> to the center line where three middle eastern men	 in	a	4.897241592407227	6.2637176513671875	0.0001635191001696512	0.11248160153627396	15
+195	upintheair_align	aligned	gpt2	 earth he <unk> to the center line where three middle eastern men in	 suits	of	4.735882759094238	5.590256690979004	1.67983234860003e-05	0.08094757795333862	15
+196	upintheair_align	aligned	gpt2	 he <unk> to the center line where three middle eastern men in suits	 were	standing	2.5674421787261963	5.815606594085693	5.639347727992572e-05	0.1301298588514328	15
+197	upintheair_align	aligned	gpt2	 <unk> to the center line where three middle eastern men in suits were	 taking	pictures	5.506409168243408	4.355587482452393	2.4360522729693912e-05	0.17549608647823334	15
+198	upintheair_align	aligned	gpt2	unk> to the center line where three middle eastern men in suits were taking	 off	.	3.45674991607666	3.610161304473877	0.0013962683733552694	0.24368824064731598	15
+199	upintheair_align	aligned	gpt2	> to the center line where three middle eastern men in suits were taking off	 their	shoes	1.4959040880203247	5.3981757164001465	0.00038638204568997025	0.08974754810333252	15
+200	upintheair_align	aligned	gpt2	 to the center line where three middle eastern men in suits were taking off their	 shoes	.	2.3911752700805664	2.28008770942688	2.7453515940578654e-05	0.3913954496383667	15
+201	upintheair_align	aligned	gpt2	 the center line where three middle eastern men in suits were taking off their shoes	 five	minutes	10.261804580688477	3.142974376678467	0.00012118876475142315	0.34297871589660645	15
+202	upintheair_align	aligned	gpt2	 center line where three middle eastern men in suits were taking off their shoes five	 words	at	10.036904335021973	3.987699508666992	9.981686889659613e-05	0.10420388728380203	15
+203	upintheair_align	aligned	gpt2	 line where three middle eastern men in suits were taking off their shoes five words	 randomly	.	9.699233055114746	3.2775888442993164	0.0009667492122389376	0.2847621738910675	15
+204	upintheair_align	aligned	gpt2	 where three middle eastern men in suits were taking off their shoes five words randomly	 selected	from	7.393685817718506	2.3082683086395264	1.0642394954629708e-05	0.5404871106147766	15
+205	upintheair_align	aligned	gpt2	 three middle eastern men in suits were taking off their shoes five words randomly selected	 for	their	3.0722460746765137	5.230485916137695	8.546752360416576e-05	0.143233522772789	15
+206	upintheair_align	aligned	gpt2	 middle eastern men in suits were taking off their shoes five words randomly selected for	 additional	research	8.723031044006348	6.603607177734375	4.423219434102066e-05	0.03699170798063278	15
+207	upintheair_align	aligned	gpt2	 eastern men in suits were taking off their shoes five words randomly selected for additional	 screening	.	6.6076154708862305	2.8468263149261475	0.00024359420058317482	0.401639461517334	15
+208	upintheair_align	aligned	gpt2	 men in suits were taking off their shoes five words randomly selected for additional screening	 now	.	10.082632064819336	4.865450859069824	0.00022364033793564886	0.14452718198299408	15
+209	upintheair_align	aligned	gpt2	 in suits were taking off their shoes five words randomly selected for additional screening now	 as	they	5.128702640533447	5.101051330566406	0.00035606735036708415	0.11541546136140823	15
+210	upintheair_align	aligned	gpt2	 suits were taking off their shoes five words randomly selected for additional screening now as	ians	are	11.95855712890625	5.074904918670654	4.385040028864751e-06	0.092400461435318	15
+211	upintheair_align	aligned	gpt2	 were taking off their shoes five words randomly selected for additional screening now asians	 they	were	7.882040977478027	4.786646366119385	7.22105469321832e-05	0.10832538455724716	15
+212	upintheair_align	aligned	gpt2	 taking off their shoes five words randomly selected for additional screening now asians they	 pack	up	10.662700653076172	4.318970203399658	0.00015553500270470977	0.1666213423013687	15
+213	upintheair_align	aligned	gpt2	 off their shoes five words randomly selected for additional screening now asians they pack	 light	on	9.0990571975708	5.892564296722412	0.0001206634915433824	0.06867581605911255	15
+214	upintheair_align	aligned	gpt2	 their shoes five words randomly selected for additional screening now asians they pack light	 travel	bags	7.9923295974731445	5.214932918548584	0.005418048705905676	0.11924973130226135	15
+215	upintheair_align	aligned	gpt2	 shoes five words randomly selected for additional screening now asians they pack light travel	 efficiently	.	12.213608741760254	3.712463140487671	2.596413469291292e-05	0.22702936828136444	15
+216	upintheair_align	aligned	gpt2	 five words randomly selected for additional screening now asians they pack light travel efficiently	 and	efficiently	1.7768150568008423	6.030575275421143	0.0013298352714627981	0.05556795746088028	15
+217	upintheair_align	aligned	gpt2	 words randomly selected for additional screening now asians they pack light travel efficiently and	 they	are	4.758543968200684	4.6454758644104	6.280064553720877e-05	0.18867725133895874	15
+218	upintheair_align	aligned	gpt2	 randomly selected for additional screening now asians they pack light travel efficiently and they	've	been	4.801975250244141	4.985573768615723	5.3116027629585005e-06	0.16095229983329773	15
+219	upintheair_align	aligned	gpt2	 selected for additional screening now asians they pack light travel efficiently and they've	 got	a	2.9330861568450928	5.205768585205078	0.00013948572450317442	0.19567464292049408	15
+220	upintheair_align	aligned	gpt2	 for additional screening now asians they pack light travel efficiently and they've got	 a	lot	1.6722848415374756	6.082918643951416	0.00025735964300110936	0.1262938678264618	15
+221	upintheair_align	aligned	gpt2	 additional screening now asians they pack light travel efficiently and they've got a	 thing	for	8.017580032348633	0.8426762223243713	2.5394823751412332e-05	0.8632696866989136	15
+222	upintheair_align	aligned	gpt2	 screening now asians they pack light travel efficiently and they've got a thing	 for	the	0.16164423525333405	7.695629596710205	0.00019626630819402635	0.03031960129737854	15
+223	upintheair_align	aligned	gpt2	 now asians they pack light travel efficiently and they've got a thing for	 slip	-	11.980889320373535	4.528156757354736	0.00030040263663977385	0.1889270693063736	15
+224	upintheair_align	aligned	gpt2	 asians they pack light travel efficiently and they've got a thing for slip	 on	s	5.901384353637695	5.772266864776611	0.0006039072177372873	0.19017243385314941	15
+225	upintheair_align	aligned	gpt2	ians they pack light travel efficiently and they've got a thing for slip on	 shoes	.	4.268027305603027	2.5553653240203857	2.9165394153096713e-05	0.49262842535972595	15
+226	upintheair_align	aligned	gpt2	 they pack light travel efficiently and they've got a thing for slip on shoes	 god	damn	16.49626350402832	3.174975633621216	0.00035271685919724405	0.3026045858860016	15
+227	upintheair_align	aligned	gpt2	 pack light travel efficiently and they've got a thing for slip on shoes god	 love	them	8.790754318237305	4.371776103973389	0.00029388940311037004	0.24630562961101532	15
+228	upintheair_align	aligned	gpt2	 light travel efficiently and they've got a thing for slip on shoes god love	 em	.	8.077470779418945	4.409504413604736	0.0012138185556977987	0.3693183660507202	15
+229	upintheair_align	aligned	gpt2	 travel efficiently and they've got a thing for slip on shoes god love em	 n	igg	7.6395649909973145	6.860593795776367	0.004810935351997614	0.04983669891953468	15
+230	upintheair_align	aligned	gpt2	 efficiently and they've got a thing for slip on shoes god love em n	atalie	j	10.090848922729492	7.219974517822266	2.078331272059586e-05	0.026307208463549614	15
+231	upintheair_align	aligned	gpt2	 and they've got a thing for slip on shoes god love em natalie	 stared	at	11.14924430847168	3.4346680641174316	5.944289114268031e-06	0.44408661127090454	15
+232	upintheair_align	aligned	gpt2	 they've got a thing for slip on shoes god love em natalie stared	 at	her	0.8752106428146362	3.1884894371032715	0.00010525235848035663	0.3190878629684448	15
+233	upintheair_align	aligned	gpt2	've got a thing for slip on shoes god love em natalie stared at	 him	like	3.8449268341064453	4.830577850341797	7.987190474523231e-05	0.13629931211471558	15
+234	upintheair_align	aligned	gpt2	 got a thing for slip on shoes god love em natalie stared at him	 in	the	3.0744173526763916	4.03284215927124	5.436300489236601e-05	0.17550024390220642	15
+235	upintheair_align	aligned	gpt2	 a thing for slip on shoes god love em natalie stared at him in	 wide	eyed	7.81939172744751	3.7625153064727783	0.0007465128437615931	0.3561852276325226	15
+236	upintheair_align	aligned	gpt2	 thing for slip on shoes god love em natalie stared at him in wide	 eyed	disbelief	1.055106520652771	5.2105278968811035	0.00023225053155329078	0.09829358756542206	15
+237	upintheair_align	aligned	gpt2	 for slip on shoes god love em natalie stared at him in wide eyed	 shock	and	2.921809196472168	4.620818138122559	0.0001329153892584145	0.15916593372821808	15
+238	upintheair_align	aligned	gpt2	 slip on shoes god love em natalie stared at him in wide eyed shock	 that	he	5.2798919677734375	4.898994445800781	0.0012042801827192307	0.2023141086101532	15
+239	upintheair_align	aligned	gpt2	 on shoes god love em natalie stared at him in wide eyed shock that	's	why	6.511331558227539	5.4785919189453125	0.00012980253086425364	0.07417608052492142	15
+240	upintheair_align	aligned	gpt2	 shoes god love em natalie stared at him in wide eyed shock that's	 racist	.	11.245756149291992	5.435741901397705	0.001183612854219973	0.11665802448987961	15
+241	upintheair_align	aligned	gpt2	 god love em natalie stared at him in wide eyed shock that's racist	 i	was	5.821478843688965	5.451450347900391	0.0007816027500666678	0.06895364075899124	15
+242	upintheair_align	aligned	gpt2	 love em natalie stared at him in wide eyed shock that's racist i	'm	not	3.0428338050842285	5.093695640563965	1.1560478014871478e-05	0.09436558932065964	15
+243	upintheair_align	aligned	gpt2	 em natalie stared at him in wide eyed shock that's racist i'm	 like	,	4.963094711303711	6.081889629364014	0.01064513623714447	0.07358134537935257	15
+244	upintheair_align	aligned	gpt2	 natalie stared at him in wide eyed shock that's racist i'm like	 my	own	6.0499725341796875	6.369411945343018	0.00046966239460743964	0.05286527797579765	15
+245	upintheair_align	aligned	gpt2	atalie stared at him in wide eyed shock that's racist i'm like my	 mother	and	3.796391248703003	5.727538585662842	0.0005796037148684263	0.059469979256391525	15
+246	upintheair_align	aligned	gpt2	 stared at him in wide eyed shock that's racist i'm like my mother	 r	/	7.734619140625	6.889412879943848	0.000981565099209547	0.029774121940135956	15
+247	upintheair_align	aligned	gpt2	 at him in wide eyed shock that's racist i'm like my mother r	yan	and	4.829370498657227	6.789248466491699	1.8540265955380164e-05	0.05130106583237648	15
+248	upintheair_align	aligned	gpt2	 him in wide eyed shock that's racist i'm like my mother ryan	 smiled	and	9.883869171142578	4.507091045379639	9.869316272670403e-05	0.24762988090515137	15
+249	upintheair_align	aligned	gpt2	 in wide eyed shock that's racist i'm like my mother ryan smiled	 back	at	4.32900857925415	4.070277214050293	0.000735979643650353	0.19694355130195618	15
+250	upintheair_align	aligned	gpt2	 wide eyed shock that's racist i'm like my mother ryan smiled back	 at	me	1.5488522052764893	1.8506429195404053	4.181122130830772e-05	0.642208456993103	15
+251	upintheair_align	aligned	gpt2	 eyed shock that's racist i'm like my mother ryan smiled back at	 her	and	2.0224204063415527	4.690911293029785	0.0012260735966265202	0.22752127051353455	15
+252	upintheair_align	aligned	gpt2	 shock that's racist i'm like my mother ryan smiled back at her	 i	was	4.875701427459717	6.58125114440918	0.004936653655022383	0.04403282329440117	15
+253	upintheair_align	aligned	gpt2	 that's racist i'm like my mother ryan smiled back at her i	 stereotype	i	12.763513565063477	5.9806132316589355	8.856950444169343e-05	0.049308277666568756	15
+254	upintheair_align	aligned	gpt2	's racist i'm like my mother ryan smiled back at her i stereotype	 it	's	5.3198699951171875	5.193328857421875	0.004068348091095686	0.14470010995864868	15
+255	upintheair_align	aligned	gpt2	 racist i'm like my mother ryan smiled back at her i stereotype it	's	like	1.9884768724441528	5.536198616027832	0.0001734106772346422	0.11345917731523514	15
+256	upintheair_align	aligned	gpt2	 i'm like my mother ryan smiled back at her i stereotype it's	 faster	to	9.14035415649414	4.703701972961426	0.00018163963977713138	0.18405252695083618	15
+257	upintheair_align	aligned	gpt2	'm like my mother ryan smiled back at her i stereotype it's faster	 n	be	4.800144672393799	7.069075107574463	0.0005154146929271519	0.0282874945551157	15
+258	upintheair_align	aligned	gpt2	 like my mother ryan smiled back at her i stereotype it's faster n	atalie	i	18.000295639038086	6.340421199798584	9.29857742448803e-06	0.03603987395763397	15
+259	upintheair_align	aligned	gpt2	 my mother ryan smiled back at her i stereotype it's faster natalie	 followed	n	8.975027084350586	4.543212890625	0.0001277327974094078	0.07515540719032288	15
+260	upintheair_align	aligned	gpt2	 mother ryan smiled back at her i stereotype it's faster natalie followed	 behind	a	7.012357234954834	4.783593654632568	0.001040164497680962	0.07415148615837097	15
+261	upintheair_align	aligned	gpt2	 ryan smiled back at her i stereotype it's faster natalie followed behind	 him	,	5.219099998474121	4.689725875854492	0.00011794025340350345	0.07204247266054153	15
+262	upintheair_align	aligned	gpt2	yan smiled back at her i stereotype it's faster natalie followed behind him	 in	a	5.588253974914551	5.7720046043396	0.00029158187680877745	0.10597255825996399	15
+263	upintheair_align	aligned	gpt2	 smiled back at her i stereotype it's faster natalie followed behind him in	 disbelief	.	8.19784164428711	4.9113054275512695	8.42517547425814e-05	0.14215371012687683	15
+264	upintheair_align	aligned	gpt2	 back at her i stereotype it's faster natalie followed behind him in disbelief	 as	she	4.0480427742004395	3.226365089416504	0.0005338790360838175	0.3300890624523163	15
+265	upintheair_align	aligned	gpt2	 at her i stereotype it's faster natalie followed behind him in disbelief as	 they	both	3.951709747314453	5.743154048919678	0.00012607201642822474	0.09368497878313065	15
+266	upintheair_align	aligned	gpt2	 her i stereotype it's faster natalie followed behind him in disbelief as they	 passed	by	5.242583751678467	3.7655935287475586	9.725177369546145e-05	0.21674035489559174	15
+267	upintheair_align	aligned	gpt2	 i stereotype it's faster natalie followed behind him in disbelief as they passed	 through	the	3.67171573638916	3.9401979446411133	0.00030735452310182154	0.4370945394039154	15
+268	upintheair_align	aligned	gpt2	 stereotype it's faster natalie followed behind him in disbelief as they passed through	 the	door	0.7439272403717041	6.815360069274902	0.00046008883509784937	0.04631568491458893	15
+269	upintheair_align	aligned	gpt2	 it's faster natalie followed behind him in disbelief as they passed through the	 metal	gate	6.385720252990723	4.399441242218018	0.0010575064225122333	0.14482121169567108	15
+270	upintheair_align	aligned	gpt2	's faster natalie followed behind him in disbelief as they passed through the metal	 detector	.	2.617933750152588	3.1113405227661133	0.0013921123463660479	0.4639383852481842	15
+271	upintheair_align	aligned	gpt2	 faster natalie followed behind him in disbelief as they passed through the metal detector	 <	3	13.45154094696045	6.404568672180176	0.0019319892162457108	0.07226157188415527	15
+272	upintheair_align	aligned	gpt2	 natalie followed behind him in disbelief as they passed through the metal detector <	unk	now	12.85833740234375	3.6128153800964355	9.68734166235663e-05	0.45963671803474426	15
+273	upintheair_align	aligned	gpt2	atalie followed behind him in disbelief as they passed through the metal detector <unk	>	and	3.4577629566192627	5.615762710571289	0.0032706602942198515	0.21289272606372833	15
+274	upintheair_align	aligned	gpt2	 followed behind him in disbelief as they passed through the metal detector <unk>	 watch	tower	8.964406967163086	4.890295505523682	0.0005613762186840177	0.24315987527370453	15
+275	upintheair_align	aligned	gpt2	 behind him in disbelief as they passed through the metal detector <unk> watch	 triggered	by	10.96235466003418	4.680153846740723	0.00030164376948960125	0.24378834664821625	15
+276	upintheair_align	aligned	gpt2	 him in disbelief as they passed through the metal detector <unk> watch triggered	 the	alarm	2.560666084289551	7.336963653564453	0.0006148556713014841	0.04563022777438164	15
+277	upintheair_align	aligned	gpt2	 in disbelief as they passed through the metal detector <unk> watch triggered the	 alarm	.	2.899691104888916	3.3258888721466064	0.0005283420323394239	0.2755862772464752	15
+278	upintheair_align	aligned	gpt2	 disbelief as they passed through the metal detector <unk> watch triggered the alarm	 and	the	2.706277370452881	6.204333305358887	0.0009328536689281464	0.10402538627386093	15
+279	upintheair_align	aligned	gpt2	 as they passed through the metal detector <unk> watch triggered the alarm and	 she	was	5.818906784057617	5.673652172088623	0.00012708324356935918	0.1220933198928833	15
+280	upintheair_align	aligned	gpt2	 they passed through the metal detector <unk> watch triggered the alarm and she	 was	taken	1.9788275957107544	5.9780497550964355	6.0696318541886285e-05	0.06364545226097107	15
+281	upintheair_align	aligned	gpt2	 passed through the metal detector <unk> watch triggered the alarm and she was	 pulled	out	4.912449359893799	2.639915704727173	1.6773109337009373e-06	0.22998446226119995	15
+282	upintheair_align	aligned	gpt2	 through the metal detector <unk> watch triggered the alarm and she was pulled	 aside	by	5.168932914733887	3.215238571166992	1.682545553194359e-05	0.19306714832782745	15
+283	upintheair_align	aligned	gpt2	 the metal detector <unk> watch triggered the alarm and she was pulled aside	 for	a	3.439973831176758	4.198089599609375	9.772928024176508e-05	0.22229361534118652	15
+284	upintheair_align	aligned	gpt2	 metal detector <unk> watch triggered the alarm and she was pulled aside for	 a	second	1.4596543312072754	5.897016525268555	0.00012377448729239404	0.07087447494268417	15
+285	upintheair_align	aligned	gpt2	 detector <unk> watch triggered the alarm and she was pulled aside for a	 pat	on	5.336190223693848	2.12746262550354	0.0005364479729905725	0.42317453026771545	15
+286	upintheair_align	aligned	gpt2	 <unk> watch triggered the alarm and she was pulled aside for a pat	 down	.	1.650848150253296	3.361335515975952	0.00018233932496514171	0.41875264048576355	15
+287	upintheair_align	aligned	gpt2	unk> watch triggered the alarm and she was pulled aside for a pat down	 r	/	9.475826263427734	6.607819557189941	0.0004251329228281975	0.03070448897778988	15
+288	upintheair_align	aligned	gpt2	> watch triggered the alarm and she was pulled aside for a pat down r	yan	.	8.420364379882812	6.66895055770874	0.00011563498992472887	0.10898904502391815	15
+289	upintheair_align	aligned	gpt2	 watch triggered the alarm and she was pulled aside for a pat down ryan	 stood	up	8.621237754821777	3.686715841293335	2.433267582091503e-05	0.261963814496994	15
+290	upintheair_align	aligned	gpt2	 triggered the alarm and she was pulled aside for a pat down ryan stood	 by	her	3.123774528503418	3.1726415157318115	0.004546825774013996	0.3243083357810974	15
+291	upintheair_align	aligned	gpt2	 the alarm and she was pulled aside for a pat down ryan stood by	 <	a	12.664716720581055	7.076189041137695	0.00021669117268174887	0.032807882875204086	15
+292	upintheair_align	aligned	gpt2	 alarm and she was pulled aside for a pat down ryan stood by <	unk	now	13.361627578735352	4.6148600578308105	4.325505506130867e-05	0.1948665827512741	15
+293	upintheair_align	aligned	gpt2	 and she was pulled aside for a pat down ryan stood by <unk	>	and	2.023150682449341	4.290482521057129	0.0010717505356296897	0.41732057929039	15
+294	upintheair_align	aligned	gpt2	 she was pulled aside for a pat down ryan stood by <unk>	 as	she	4.030608177185059	3.9765233993530273	0.0004570604069158435	0.24027156829833984	15
+295	upintheair_align	aligned	gpt2	 was pulled aside for a pat down ryan stood by <unk> as	 she	looked	1.9378831386566162	6.036871910095215	0.00023489442537538707	0.04878697544336319	15
+296	upintheair_align	aligned	gpt2	 pulled aside for a pat down ryan stood by <unk> as she	 was	about	3.536247968673706	6.553252696990967	8.67645867401734e-05	0.085816390812397	15
+297	upintheair_align	aligned	gpt2	 aside for a pat down ryan stood by <unk> as she was	 finally	able	6.500482559204102	4.607280731201172	0.0015278374776244164	0.3250192701816559	15
+298	upintheair_align	aligned	gpt2	 for a pat down ryan stood by <unk> as she was finally	 cleared	of	6.824385643005371	2.829575538635254	9.044788384926505e-06	0.16589809954166412	15
+299	upintheair_align	aligned	gpt2	 a pat down ryan stood by <unk> as she was finally cleared	 and	the	4.0535383224487305	6.389632225036621	0.0007071928703226149	0.026129383593797684	15
+300	upintheair_align	aligned	gpt2	 pat down ryan stood by <unk> as she was finally cleared and	 then	she	5.4054765701293945	6.518889904022217	0.00040397371049039066	0.036309659481048584	15
+301	upintheair_align	aligned	gpt2	 down ryan stood by <unk> as she was finally cleared and then	 <	unk	6.540587425231934	7.022855281829834	2.8915947041241452e-05	0.06754118949174881	15
+302	upintheair_align	aligned	gpt2	 ryan stood by <unk> as she was finally cleared and then <	unk	>	3.1611709594726562	0.2023816704750061	5.665646085617482e-08	0.9763250350952148	15
+303	upintheair_align	aligned	gpt2	yan stood by <unk> as she was finally cleared and then <unk	>	and	0.024060754105448723	6.412546634674072	1.2233072084200103e-05	0.02831817790865898	15
+304	upintheair_align	aligned	gpt2	 stood by <unk> as she was finally cleared and then <unk>	 for	the	6.208255290985107	5.297327518463135	0.00013698723341803998	0.1596817672252655	15
+305	upintheair_align	aligned	gpt2	 by <unk> as she was finally cleared and then <unk> for	 her	to	2.7120165824890137	5.603780269622803	0.0003179313207510859	0.3460226058959961	15
+306	upintheair_align	aligned	gpt2	 <unk> as she was finally cleared and then <unk> for her	 to	be	1.0005028247833252	5.431501388549805	0.00014558705152012408	0.09361638128757477	15
+307	upintheair_align	aligned	gpt2	unk> as she was finally cleared and then <unk> for her to	 follow	<	5.680290699005127	3.9270589351654053	0.00022119410277809948	0.2984284460544586	15
+308	upintheair_align	aligned	gpt2	> as she was finally cleared and then <unk> for her to follow	 him	.	3.389733076095581	3.8399717807769775	2.39489963860251e-05	0.2109854817390442	15
+309	upintheair_align	aligned	gpt2	 as she was finally cleared and then <unk> for her to follow him	 as	he	4.473175525665283	2.5998196601867676	0.0003431490622460842	0.37479010224342346	15
+310	upintheair_align	aligned	gpt2	 she was finally cleared and then <unk> for her to follow him as	 he	left	1.0297858715057373	5.405083179473877	0.00019976490875706077	0.06553295254707336	15
+311	upintheair_align	aligned	gpt2	 was finally cleared and then <unk> for her to follow him as he	 walked	away	2.700640916824341	3.575291872024536	2.0772518837475218e-05	0.15103670954704285	15
+312	upintheair_align	aligned	gpt2	 finally cleared and then <unk> for her to follow him as he walked	 down	the	3.084980010986328	1.2294697761535645	7.50690305721946e-05	0.8138059377670288	15
+313	upintheair_align	aligned	gpt2	 cleared and then <unk> for her to follow him as he walked down	 the	street	0.218788281083107	3.462714195251465	0.00017035476048476994	0.19900040328502655	15
+314	upintheair_align	aligned	gpt2	 and then <unk> for her to follow him as he walked down the	 conc	ourse	8.691031455993652	0.20211926102638245	1.431350256098085e-07	0.9630619883537292	15
+315	upintheair_align	aligned	gpt2	 then <unk> for her to follow him as he walked down the conc	ourse	.	0.03785433992743492	3.363175868988037	2.860298025098018e-07	0.376350462436676	15
+316	upintheair_align	aligned	gpt2	 <unk> for her to follow him as he walked down the concourse	 he	was	6.603839874267578	5.5157389640808105	0.00024298405332956463	0.09607795625925064	15
+317	upintheair_align	aligned	gpt2	unk> for her to follow him as he walked down the concourse he	 stopped	and	5.975959777832031	4.176066875457764	3.388241020729765e-05	0.21082456409931183	15
+318	upintheair_align	aligned	gpt2	> for her to follow him as he walked down the concourse he stopped	 halfway	down	6.139893531799316	2.837949752807617	0.000611968687735498	0.2522723972797394	15
+319	upintheair_align	aligned	gpt2	 for her to follow him as he walked down the concourse he stopped halfway	 to	the	1.8325942754745483	4.920799255371094	0.00021545073832385242	0.17637474834918976	15
+320	upintheair_align	aligned	gpt2	 her to follow him as he walked down the concourse he stopped halfway to	 their	table	6.38591194152832	5.528135776519775	8.277386950794607e-05	0.16453726589679718	15
+321	upintheair_align	aligned	gpt2	 to follow him as he walked down the concourse he stopped halfway to their	 gate	.	7.783798694610596	2.3466036319732666	0.0001760495943017304	0.3581641614437103	15
+322	upintheair_align	aligned	gpt2	 follow him as he walked down the concourse he stopped halfway to their gate	 and	said	1.4928374290466309	5.393691539764404	0.0006874381215311587	0.08648702502250671	15
+323	upintheair_align	aligned	gpt2	 him as he walked down the concourse he stopped halfway to their gate and	 pointed	to	4.6824445724487305	2.8977322578430176	0.00047061056829988956	0.31053459644317627	15
+324	upintheair_align	aligned	gpt2	 as he walked down the concourse he stopped halfway to their gate and pointed	 at	the	1.8153958320617676	4.035820484161377	9.469300857745111e-05	0.28317534923553467	15
+325	upintheair_align	aligned	gpt2	 he walked down the concourse he stopped halfway to their gate and pointed at	 a	man	3.147052049636841	6.5661749839782715	0.00017425445548724383	0.06360222399234772	15
+326	upintheair_align	aligned	gpt2	 walked down the concourse he stopped halfway to their gate and pointed at a	 luggage	rack	9.751739501953125	3.691258430480957	5.82595712330658e-05	0.38487327098846436	15
+327	upintheair_align	aligned	gpt2	 down the concourse he stopped halfway to their gate and pointed at a luggage	 store	.	6.3389482498168945	4.326145648956299	0.0019853487610816956	0.18998917937278748	15
+328	upintheair_align	aligned	gpt2	 the concourse he stopped halfway to their gate and pointed at a luggage store	 if	they	8.622711181640625	3.197826623916626	0.0001466500252718106	0.2252510040998459	15
+329	upintheair_align	aligned	gpt2	 concourse he stopped halfway to their gate and pointed at a luggage store if	 you	were	4.124195098876953	4.565644264221191	4.224243457429111e-05	0.10379180312156677	15
+330	upintheair_align	aligned	gpt2	ourse he stopped halfway to their gate and pointed at a luggage store if you	're	not	3.228551149368286	4.909148216247559	2.07962602871703e-06	0.12137556076049805	15
+331	upintheair_align	aligned	gpt2	 he stopped halfway to their gate and pointed at a luggage store if you're	 going	to	3.0666353702545166	1.3712328672409058	1.63299118867144e-05	0.7883797287940979	15
+332	upintheair_align	aligned	gpt2	 stopped halfway to their gate and pointed at a luggage store if you're going	 to	buy	0.26411277055740356	5.1941399574279785	0.00022229694877751172	0.08140169084072113	15
+333	upintheair_align	aligned	gpt2	 halfway to their gate and pointed at a luggage store if you're going to	 be	there	2.832648515701294	5.3081536293029785	4.895569145446643e-05	0.1296200156211853	15
+334	upintheair_align	aligned	gpt2	 to their gate and pointed at a luggage store if you're going to be	 flying	.	5.571311950683594	3.8082003593444824	7.504017412429675e-05	0.13543175160884857	15
+335	upintheair_align	aligned	gpt2	 their gate and pointed at a luggage store if you're going to be flying	 with	them	3.2900424003601074	4.00533390045166	3.161139466101304e-05	0.17341089248657227	15
+336	upintheair_align	aligned	gpt2	 gate and pointed at a luggage store if you're going to be flying with	 me	.	2.386782646179199	2.4724280834198	5.82011944061378e-06	0.5462778210639954	15
+337	upintheair_align	aligned	gpt2	 and pointed at a luggage store if you're going to be flying with me	 you	'll	6.444005966186523	3.616070032119751	6.151246634544805e-05	0.11282386630773544	15
+338	upintheair_align	aligned	gpt2	 pointed at a luggage store if you're going to be flying with me you	 need	to	2.4381794929504395	1.2126457691192627	3.461015694483649e-06	0.8189358711242676	15
+339	upintheair_align	aligned	gpt2	 at a luggage store if you're going to be flying with me you need	 to	be	0.20136196911334991	4.863129138946533	0.00015194181469269097	0.0896296575665474	15
+340	upintheair_align	aligned	gpt2	 a luggage store if you're going to be flying with me you need to	 get	a	2.7718698978424072	4.241037845611572	4.30447471444495e-05	0.15262167155742645	15
+341	upintheair_align	aligned	gpt2	 luggage store if you're going to be flying with me you need to get	 a	ticket	1.7848525047302246	6.466221809387207	0.0002972993825096637	0.08429505676031113	15
+342	upintheair_align	aligned	gpt2	 store if you're going to be flying with me you need to get a	 carry	on	8.11275863647461	3.9038074016571045	0.002331006806343794	0.209873765707016	15
+343	upintheair_align	aligned	gpt2	 if you're going to be flying with me you need to get a carry	 on	.	1.3391685485839844	4.667677402496338	0.01247632410377264	0.2189522087574005	15
+344	upintheair_align	aligned	gpt2	 you're going to be flying with me you need to get a carry on	 bag	.	3.161579132080078	3.8274149894714355	0.0016182431718334556	0.23437967896461487	15
+345	upintheair_align	aligned	gpt2	're going to be flying with me you need to get a carry on bag	 you	need	5.241539478302002	3.3538544178009033	0.00025075243320316076	0.2449936419725418	15
+346	upintheair_align	aligned	gpt2	 going to be flying with me you need to get a carry on bag you	 know	you	4.710124969482422	4.5041279792785645	0.00027356334612704813	0.09255103021860123	15
+347	upintheair_align	aligned	gpt2	 to be flying with me you need to get a carry on bag you know	 how	to	3.392855167388916	4.507538795471191	0.00028042905614711344	0.22247442603111267	15
+348	upintheair_align	aligned	gpt2	 be flying with me you need to get a carry on bag you know how	 much	you	2.9269111156463623	4.850793838500977	0.0002656617434695363	0.176917165517807	15
+349	upintheair_align	aligned	gpt2	 flying with me you need to get a carry on bag you know how much	 time	you	3.6615660190582275	2.8224239349365234	0.0004124815168324858	0.4012106955051422	15
+350	upintheair_align	aligned	gpt2	 with me you need to get a carry on bag you know how much time	 you	have	0.9034732580184937	3.390749216079712	9.46646323427558e-05	0.15442056953907013	15
+351	upintheair_align	aligned	gpt2	 me you need to get a carry on bag you know how much time you	 lose	.	5.543231010437012	4.487661361694336	1.9355733456905e-05	0.09853130578994751	15
+352	upintheair_align	aligned	gpt2	 you need to get a carry on bag you know how much time you lose	 by	not	2.916623115539551	5.006639003753662	0.00022838084260001779	0.1558559685945511	15
+353	upintheair_align	aligned	gpt2	 need to get a carry on bag you know how much time you lose by	 checking	out	7.072315692901611	4.080868244171143	3.0287483241409063e-05	0.16186417639255524	15
+354	upintheair_align	aligned	gpt2	 to get a carry on bag you know how much time you lose by checking	 in	with	3.1401548385620117	3.869744300842285	0.006755664478987455	0.1629098355770111	15
+355	upintheair_align	aligned	gpt2	 get a carry on bag you know how much time you lose by checking in	 i	think	10.335514068603516	4.806451320648193	0.0002452786429785192	0.07142139226198196	15
+356	upintheair_align	aligned	gpt2	 a carry on bag you know how much time you lose by checking in i	 don	't	3.380344867706299	0.025228289887309074	2.0705336112314399e-07	0.9975311160087585	15
+357	upintheair_align	aligned	gpt2	 carry on bag you know how much time you lose by checking in i don	't	know	0.0031764074228703976	3.542694330215454	6.873892743897159e-06	0.21499989926815033	15
+358	upintheair_align	aligned	gpt2	 on bag you know how much time you lose by checking in i don't	 know	how	1.482719898223877	3.5023860931396484	8.567998884245753e-05	0.2431051880121231	15
+359	upintheair_align	aligned	gpt2	 bag you know how much time you lose by checking in i don't know	 <	3	9.527762413024902	2.469119071960449	0.0003187734691891819	0.7083244919776917	15
+360	upintheair_align	aligned	gpt2	 you know how much time you lose by checking in i don't know <	unk	now	12.729327201843262	3.2320334911346436	5.0301794544793665e-05	0.5487322211265564	15
+361	upintheair_align	aligned	gpt2	 know how much time you lose by checking in i don't know <unk	>	i	3.995364189147949	6.552470684051514	0.00012438819976523519	0.0403665192425251	15
+362	upintheair_align	aligned	gpt2	 how much time you lose by checking in i don't know <unk>	 n	ope	6.166240692138672	4.546969890594482	2.0767653040820733e-05	0.3145889639854431	15
+363	upintheair_align	aligned	gpt2	 much time you lose by checking in i don't know <unk> n	atalie	:	7.869842529296875	6.943478107452393	6.328281870082719e-06	0.07887717336416245	15
+364	upintheair_align	aligned	gpt2	 time you lose by checking in i don't know <unk> natalie	 five	<	9.56597900390625	6.700521469116211	0.004207462538033724	0.06262195855379105	15
+365	upintheair_align	aligned	gpt2	 you lose by checking in i don't know <unk> natalie five	 ten	<	6.475831031799316	5.6083984375	0.09752608090639114	0.14636489748954773	15
+366	upintheair_align	aligned	gpt2	 lose by checking in i don't know <unk> natalie five ten	 minutes	ago	5.798135757446289	3.240243434906006	0.0001247385225724429	0.5294561386108398	15
+367	upintheair_align	aligned	gpt2	 by checking in i don't know <unk> natalie five ten minutes	 thirty	seconds	8.06226921081543	3.140606164932251	0.00596838491037488	0.3328709006309509	15
+368	upintheair_align	aligned	gpt2	 checking in i don't know <unk> natalie five ten minutes thirty	 five	minutes	2.6636624336242676	4.734470844268799	0.057038284838199615	0.1474210023880005	15
+369	upintheair_align	aligned	gpt2	 in i don't know <unk> natalie five ten minutes thirty five	 minutes	thirty	1.8141223192214966	5.483673572540283	0.0005414997576735914	0.1073685958981514	15
+370	upintheair_align	aligned	gpt2	 i don't know <unk> natalie five ten minutes thirty five minutes	 a	half	5.005444049835205	6.415661334991455	0.0007407846860587597	0.08149977773427963	15
+371	upintheair_align	aligned	gpt2	 don't know <unk> natalie five ten minutes thirty five minutes a	 flight	<	8.639856338500977	5.435052871704102	0.0009927902137860656	0.19873830676078796	15
+372	upintheair_align	aligned	gpt2	't know <unk> natalie five ten minutes thirty five minutes a flight	 i	'm	7.480264186859131	4.886107444763184	0.0005977411638014019	0.10033152252435684	15
+373	upintheair_align	aligned	gpt2	 know <unk> natalie five ten minutes thirty five minutes a flight i	 travel	to	9.37791633605957	5.807126522064209	0.000420703407144174	0.09625085443258286	15
+374	upintheair_align	aligned	gpt2	 <unk> natalie five ten minutes thirty five minutes a flight i travel	 two	hours	5.418688774108887	4.6427483558654785	0.003696243278682232	0.18309758603572845	15
+375	upintheair_align	aligned	gpt2	unk> natalie five ten minutes thirty five minutes a flight i travel two	 hundred	miles	3.024733543395996	3.872119665145874	0.0018480457365512848	0.1657830774784088	15
+376	upintheair_align	aligned	gpt2	> natalie five ten minutes thirty five minutes a flight i travel two hundred	 seventy	-	4.097419738769531	3.5597357749938965	0.01140363235026598	0.2253972589969635	15
+377	upintheair_align	aligned	gpt2	 natalie five ten minutes thirty five minutes a flight i travel two hundred seventy	 days	a	5.996903419494629	5.432825565338135	0.0003346995508763939	0.15413911640644073	15
+378	upintheair_align	aligned	gpt2	atalie five ten minutes thirty five minutes a flight i travel two hundred seventy days	 a	year	1.6196799278259277	0.5307954549789429	4.69720944238361e-05	0.9329569935798645	15
+379	upintheair_align	aligned	gpt2	 five ten minutes thirty five minutes a flight i travel two hundred seventy days a	 year	.	0.062126483768224716	4.68706750869751	0.0001870832493295893	0.16718001663684845	15
+380	upintheair_align	aligned	gpt2	 ten minutes thirty five minutes a flight i travel two hundred seventy days a year	 that	is	5.924663543701172	5.353879928588867	0.0008898061932995915	0.14735613763332367	15
+381	upintheair_align	aligned	gpt2	 minutes thirty five minutes a flight i travel two hundred seventy days a year that	's	a	4.3386125564575195	5.825465202331543	9.271845920011401e-05	0.04960843548178673	15
+382	upintheair_align	aligned	gpt2	 thirty five minutes a flight i travel two hundred seventy days a year that's	 one	hundred	4.241240501403809	4.6252827644348145	0.0009586311643943191	0.16822464764118195	15
+383	upintheair_align	aligned	gpt2	 five minutes a flight i travel two hundred seventy days a year that's one	 hundred	and	1.980093002319336	3.545469284057617	0.005207014735788107	0.3611450791358948	15
+384	upintheair_align	aligned	gpt2	 minutes a flight i travel two hundred seventy days a year that's one hundred	 fifty	-	3.3438971042633057	4.523652076721191	0.009026238694787025	0.10005977749824524	15
+385	upintheair_align	aligned	gpt2	 a flight i travel two hundred seventy days a year that's one hundred fifty	 seven	days	4.598991394042969	4.279067039489746	0.001121143694035709	0.15991434454917908	15
+386	upintheair_align	aligned	gpt2	 flight i travel two hundred seventy days a year that's one hundred fifty seven	 hours	a	3.118177890777588	2.927689552307129	0.00017291976837441325	0.34556660056114197	15
+387	upintheair_align	aligned	gpt2	 i travel two hundred seventy days a year that's one hundred fifty seven hours	 that	I	6.049352169036865	3.40301775932312	0.0014652014942839742	0.3964523375034332	15
+388	upintheair_align	aligned	gpt2	 travel two hundred seventy days a year that's one hundred fifty seven hours that	 makes	it	6.265169143676758	4.0808424949646	6.95864946465008e-06	0.17433854937553406	15
+389	upintheair_align	aligned	gpt2	 two hundred seventy days a year that's one hundred fifty seven hours that makes	 seven	hundred	6.440371036529541	3.9816789627075195	0.002595433034002781	0.2532760500907898	15
+390	upintheair_align	aligned	gpt2	 hundred seventy days a year that's one hundred fifty seven hours that makes seven	 days	a	1.4241125583648682	3.4938719272613525	0.00034874939592555165	0.29386624693870544	15
+391	upintheair_align	aligned	gpt2	 seventy days a year that's one hundred fifty seven hours that makes seven days	 you	're	7.7330098152160645	4.87220573425293	0.000248644151724875	0.11607283353805542	15
+392	upintheair_align	aligned	gpt2	 days a year that's one hundred fifty seven hours that makes seven days you	're	going	2.0265588760375977	5.629520893096924	3.5544489946914837e-06	0.06866778433322906	15
+393	upintheair_align	aligned	gpt2	 a year that's one hundred fifty seven hours that makes seven days you're	 willing	to	6.247873783111572	0.3290078639984131	2.0983905415050685e-05	0.9595325589179993	15
+394	upintheair_align	aligned	gpt2	 year that's one hundred fifty seven hours that makes seven days you're willing	 to	spend	0.045199111104011536	4.5213751792907715	0.00018556055147200823	0.14401356875896454	15
+395	upintheair_align	aligned	gpt2	 that's one hundred fifty seven hours that makes seven days you're willing to	 throw	away	5.5717878341674805	3.604999542236328	1.0878934517677408e-05	0.2204999178647995	15
+396	upintheair_align	aligned	gpt2	's one hundred fifty seven hours that makes seven days you're willing to throw	 away	.	1.5161731243133545	3.8759942054748535	0.00012692790187429637	0.2149086445569992	15
+397	upintheair_align	aligned	gpt2	 one hundred fifty seven hours that makes seven days you're willing to throw away	 an	entire	4.830458641052246	3.928055763244629	0.000374844967154786	0.36024758219718933	15
+398	upintheair_align	aligned	gpt2	 hundred fifty seven hours that makes seven days you're willing to throw away an	 entire	day	1.1044023036956787	4.471232891082764	0.0009995975997298956	0.19313687086105347	15
+399	upintheair_align	aligned	gpt2	 fifty seven hours that makes seven days you're willing to throw away an entire	 week	of	2.293663740158081	2.5931971073150635	2.0471310563152656e-05	0.3344191610813141	15
+400	upintheair_align	aligned	gpt2	 seven hours that makes seven days you're willing to throw away an entire week	 n	the	12.031352996826172	6.201290130615234	0.00182221713475883	0.05717397853732109	15
+401	upintheair_align	aligned	gpt2	 hours that makes seven days you're willing to throw away an entire week n	atalie	.	9.433262825012207	7.040024280548096	3.367363751749508e-05	0.07237748801708221	15
+402	upintheair_align	aligned	gpt2	 that makes seven days you're willing to throw away an entire week natalie	 <	3	7.322430610656738	3.0716888904571533	0.0003555667644832283	0.6079933643341064	15
+403	upintheair_align	aligned	gpt2	 makes seven days you're willing to throw away an entire week natalie <	unk	ay	12.87382984161377	4.938970565795898	0.0001887907274067402	0.13409827649593353	15
+404	upintheair_align	aligned	gpt2	 seven days you're willing to throw away an entire week natalie <unk	>	you	2.562433958053589	6.435784339904785	2.5957027901313268e-05	0.03432553634047508	15
+405	upintheair_align	aligned	gpt2	 days you're willing to throw away an entire week natalie <unk>	 her	name	6.069911003112793	7.829827308654785	0.0002873321354854852	0.01581699773669243	15
+406	upintheair_align	aligned	gpt2	 you're willing to throw away an entire week natalie <unk> her	 lips	are	6.7363810539245605	4.4260101318359375	0.0014364811358973384	0.3447573184967041	15
+407	upintheair_align	aligned	gpt2	're willing to throw away an entire week natalie <unk> her lips	 but	she	7.313257217407227	5.37471342086792	0.0003089058445766568	0.10118603706359863	15
+408	upintheair_align	aligned	gpt2	 willing to throw away an entire week natalie <unk> her lips but	 then	she	4.7715840339660645	4.914028644561768	0.001413690741173923	0.25382402539253235	15
+409	upintheair_align	aligned	gpt2	 to throw away an entire week natalie <unk> her lips but then	 turned	to	7.857776165008545	4.352689743041992	0.00020907202269881964	0.13555124402046204	15
+410	upintheair_align	aligned	gpt2	 throw away an entire week natalie <unk> her lips but then turned	 and	she	3.550252914428711	5.8170485496521	0.000512798607815057	0.0565447062253952	15
+411	upintheair_align	aligned	gpt2	 away an entire week natalie <unk> her lips but then turned and	 walked	away	5.018775939941406	3.1075565814971924	1.1891833310073707e-05	0.3130793571472168	15
+412	upintheair_align	aligned	gpt2	 an entire week natalie <unk> her lips but then turned and walked	 into	the	3.7140302658081055	3.926532030105591	6.6036605858244e-05	0.31877538561820984	15
+413	upintheair_align	aligned	gpt2	 entire week natalie <unk> her lips but then turned and walked into	 the	room	1.1364359855651855	5.586597919464111	0.0002740190248005092	0.12415504455566406	15
+414	upintheair_align	aligned	gpt2	 week natalie <unk> her lips but then turned and walked into the	 luggage	.	11.669393539428711	5.099316596984863	0.0002738412586040795	0.09027136117219925	15
+415	upintheair_align	aligned	gpt2	 natalie <unk> her lips but then turned and walked into the luggage	 store	.	4.7600274085998535	4.000397205352783	0.0012692197924479842	0.30268919467926025	15
+416	upintheair_align	aligned	gpt2	atalie <unk> her lips but then turned and walked into the luggage store	 soon	after	9.045944213867188	1.9988279342651367	7.075745816109702e-05	0.5967350006103516	15
+417	upintheair_align	aligned	gpt2	 <unk> her lips but then turned and walked into the luggage store soon	 they	were	8.02094841003418	4.568478584289551	5.831176895298995e-05	0.21778923273086548	15
+418	upintheair_align	aligned	gpt2	unk> her lips but then turned and walked into the luggage store soon they	 were	all	1.533666968345642	5.382996082305908	5.598853022092953e-05	0.08897026628255844	15
+419	upintheair_align	aligned	gpt2	> her lips but then turned and walked into the luggage store soon they were	 walking	down	4.634018898010254	3.7194087505340576	0.0002180686715291813	0.1393282413482666	15
+420	upintheair_align	aligned	gpt2	 her lips but then turned and walked into the luggage store soon they were walking	 down	the	1.870501160621643	2.7305679321289062	0.00024131503596436232	0.613516092300415	15
+421	upintheair_align	aligned	gpt2	 lips but then turned and walked into the luggage store soon they were walking down	 the	street	0.5338127017021179	3.1695520877838135	0.00015620992053300142	0.3975067138671875	15
+422	upintheair_align	aligned	gpt2	 but then turned and walked into the luggage store soon they were walking down the	 aisle	.	2.5222015380859375	3.636977434158325	0.000400103977881372	0.290527880191803	15
+423	upintheair_align	aligned	gpt2	 then turned and walked into the luggage store soon they were walking down the aisle	 of	the	3.40248441696167	2.773979425430298	2.2711676137987524e-05	0.5011250376701355	15
+424	upintheair_align	aligned	gpt2	 turned and walked into the luggage store soon they were walking down the aisle of	 the	store	0.6941150426864624	6.233311653137207	0.0004822101618628949	0.1839512437582016	15
+425	upintheair_align	aligned	gpt2	 and walked into the luggage store soon they were walking down the aisle of the	 plane	.	5.068442344665527	2.996583938598633	8.82635431480594e-05	0.4278816282749176	15
+426	upintheair_align	aligned	gpt2	 walked into the luggage store soon they were walking down the aisle of the plane	 n	apping	11.012378692626953	5.0520243644714355	0.00016254777438007295	0.1655498743057251	15
+427	upintheair_align	aligned	gpt2	 into the luggage store soon they were walking down the aisle of the plane n	atalie	.	10.027973175048828	7.118788719177246	1.661315400269814e-05	0.08052297681570053	15
+428	upintheair_align	aligned	gpt2	 the luggage store soon they were walking down the aisle of the plane natalie	 carrying	her	10.059930801391602	4.896181583404541	7.460721826646477e-05	0.27267855405807495	15
+429	upintheair_align	aligned	gpt2	 luggage store soon they were walking down the aisle of the plane natalie carrying	 both	her	6.64901065826416	4.801522254943848	8.289983816212043e-05	0.25462910532951355	15
+430	upintheair_align	aligned	gpt2	 store soon they were walking down the aisle of the plane natalie carrying both	 her	and	1.5514636039733887	5.03729248046875	0.00015301107487175614	0.1422923505306244	15
+431	upintheair_align	aligned	gpt2	 soon they were walking down the aisle of the plane natalie carrying both her	 d	icks	7.446014404296875	5.796648979187012	7.465189992217347e-05	0.05382954701781273	15
+432	upintheair_align	aligned	gpt2	 they were walking down the aisle of the plane natalie carrying both her d	uff	el	3.2262144088745117	0.1657431423664093	5.868007519893581e-07	0.9769755601882935	15
+433	upintheair_align	aligned	gpt2	 were walking down the aisle of the plane natalie carrying both her duff	el	bag	0.021252987906336784	0.9448615908622742	6.605181113172875e-08	0.7029407024383545	15
+434	upintheair_align	aligned	gpt2	 walking down the aisle of the plane natalie carrying both her duffel	 bag	and	0.30649372935295105	1.1460636854171753	0.0005801596562378109	0.8362122774124146	15
+435	upintheair_align	aligned	gpt2	 down the aisle of the plane natalie carrying both her duffel bag	 and	her	0.17248108983039856	5.4875922203063965	0.00047060588258318603	0.17153365910053253	15
+436	upintheair_align	aligned	gpt2	 the aisle of the plane natalie carrying both her duffel bag and	 a	bag	1.8215752840042114	6.540795803070068	0.0001898113259812817	0.05681877210736275	15
+437	upintheair_align	aligned	gpt2	 aisle of the plane natalie carrying both her duffel bag and a	 new	pair	6.396387100219727	6.858331203460693	0.0006603194051422179	0.04860099032521248	15
+438	upintheair_align	aligned	gpt2	 of the plane natalie carrying both her duffel bag and a new	 compact	backpack	9.41183853149414	6.4421234130859375	0.0002810790028888732	0.05852879211306572	15
+439	upintheair_align	aligned	gpt2	 the plane natalie carrying both her duffel bag and a new compact	 carry	bag	5.427672386169434	2.87530779838562	0.002079559722915292	0.2809094488620758	15
+440	upintheair_align	aligned	gpt2	 plane natalie carrying both her duffel bag and a new compact carry	 on	bag	3.4581940174102783	4.163933277130127	0.0013563554966822267	0.33228448033332825	15
+441	upintheair_align	aligned	gpt2	 natalie carrying both her duffel bag and a new compact carry on	 that	she	5.178974628448486	5.332511901855469	0.0006151222623884678	0.22713960707187653	15
+442	upintheair_align	aligned	gpt2	atalie carrying both her duffel bag and a new compact carry on that	 matched	her	7.86791467666626	2.991194009780884	6.80311086398433e-06	0.3228129744529724	15
+443	upintheair_align	aligned	gpt2	 carrying both her duffel bag and a new compact carry on that matched	 r	ucks	11.247661590576172	3.3308141231536865	4.383851774036884e-06	0.3996565043926239	15
+444	upintheair_align	aligned	gpt2	 both her duffel bag and a new compact carry on that matched r	yan	's	9.741939544677734	2.665349245071411	3.512579860398546e-05	0.7228837013244629	15
+445	upintheair_align	aligned	gpt2	 her duffel bag and a new compact carry on that matched ryan	's	.	0.43449637293815613	7.4339704513549805	0.0004152906476520002	0.024208011105656624	15
+446	upintheair_align	aligned	gpt2	 duffel bag and a new compact carry on that matched ryan's	 r	yan	5.5594706535339355	5.016759872436523	1.9896964658983052e-05	0.250956267118454	15
+447	upintheair_align	aligned	gpt2	uffel bag and a new compact carry on that matched ryan's r	yan	's	1.0058951377868652	6.0773234367370605	3.45430635206867e-05	0.28548040986061096	15
+448	upintheair_align	aligned	gpt2	el bag and a new compact carry on that matched ryan's ryan	 helped	him	10.734060287475586	4.499123573303223	6.388210749719292e-05	0.26336100697517395	15
+449	upintheair_align	aligned	gpt2	 bag and a new compact carry on that matched ryan's ryan helped	 load	the	8.033392906188965	3.8530781269073486	0.0003996470186393708	0.20783096551895142	15
+450	upintheair_align	aligned	gpt2	 and a new compact carry on that matched ryan's ryan helped load	 the	car	1.5857288837432861	7.1775922775268555	0.0005298273172229528	0.032652705907821655	15
+451	upintheair_align	aligned	gpt2	 a new compact carry on that matched ryan's ryan helped load the	 carry	on	6.117476940155029	2.3581955432891846	0.0004072051669936627	0.6708645820617676	15
+452	upintheair_align	aligned	gpt2	 new compact carry on that matched ryan's ryan helped load the carry	 on	.	0.415232390165329	5.751695156097412	0.011597231961786747	0.06495269387960434	15
+453	upintheair_align	aligned	gpt2	 compact carry on that matched ryan's ryan helped load the carry on	 into	the	4.754720687866211	3.593555450439453	3.078072768403217e-05	0.46356093883514404	15
+454	upintheair_align	aligned	gpt2	 carry on that matched ryan's ryan helped load the carry on into	 the	next	0.8625150322914124	7.19036865234375	0.0006248108693398535	0.023317594081163406	15
+455	upintheair_align	aligned	gpt2	 on that matched ryan's ryan helped load the carry on into the	 overhead	compartment	8.512228012084961	6.178346157073975	0.0006691241287626326	0.05145488306879997	15
+456	upintheair_align	aligned	gpt2	 that matched ryan's ryan helped load the carry on into the overhead	 compartment	.	2.9086859226226807	2.9164459705352783	0.0006016229745000601	0.41216525435447693	15
+457	upintheair_align	aligned	gpt2	 matched ryan's ryan helped load the carry on into the overhead compartment	 while	the	4.236543655395508	6.141693592071533	0.0004288519558031112	0.14025527238845825	15
+458	upintheair_align	aligned	gpt2	 ryan's ryan helped load the carry on into the overhead compartment while	 she	was	3.387181043624878	5.736858367919922	0.0002711467386689037	0.1186114102602005	15
+459	upintheair_align	aligned	gpt2	yan's ryan helped load the carry on into the overhead compartment while she	 started	to	6.010385513305664	4.856040954589844	1.2180727026134264e-05	0.29663729667663574	15
+460	upintheair_align	aligned	gpt2	's ryan helped load the carry on into the overhead compartment while she started	 to	walk	1.273963451385498	6.178991794586182	0.00016947767289821059	0.038083307445049286	15
+461	upintheair_align	aligned	gpt2	 ryan helped load the carry on into the overhead compartment while she started to	 un	load	5.203141689300537	0.7251657843589783	5.426718274748055e-08	0.8736349940299988	15
+462	upintheair_align	aligned	gpt2	yan helped load the carry on into the overhead compartment while she started to un	pack	the	3.5520882606506348	3.3546149730682373	2.0622667307179654e-06	0.245588481426239	15
+463	upintheair_align	aligned	gpt2	 helped load the carry on into the overhead compartment while she started to unpack	 items	.	6.2922682762146	2.77022385597229	1.3031470189162064e-05	0.41561830043792725	15
+464	upintheair_align	aligned	gpt2	 load the carry on into the overhead compartment while she started to unpack items	 from	the	2.2662060260772705	2.074040174484253	8.074996003415436e-05	0.4353484511375427	15
+465	upintheair_align	aligned	gpt2	 the carry on into the overhead compartment while she started to unpack items from	 her	bag	0.9271032810211182	5.238547325134277	0.00019268652249593288	0.1492898315191269	15
+466	upintheair_align	aligned	gpt2	 carry on into the overhead compartment while she started to unpack items from her	 d	uff	6.906782150268555	1.4312463998794556	4.4868789927932085e-07	0.45606470108032227	15
+467	upintheair_align	aligned	gpt2	 on into the overhead compartment while she started to unpack items from her d	uff	el	0.8439790606498718	0.0785965844988823	1.3303045420798298e-07	0.9896432161331177	15
+468	upintheair_align	aligned	gpt2	 into the overhead compartment while she started to unpack items from her duff	el	bag	0.009795336984097958	0.47738826274871826	2.3691164585670776e-08	0.9244211316108704	15
+469	upintheair_align	aligned	gpt2	 the overhead compartment while she started to unpack items from her duffel	 bag	.	0.08436771482229233	1.8563047647476196	0.0002582275483291596	0.6272776126861572	15
+470	upintheair_align	aligned	gpt2	 overhead compartment while she started to unpack items from her duffel bag	 onto	the	6.336014747619629	1.8138079643249512	7.122743227228057e-06	0.5604193210601807	15
+471	upintheair_align	aligned	gpt2	 compartment while she started to unpack items from her duffel bag onto	 the	floor	0.6117517352104187	4.3953118324279785	0.00014045604621060193	0.27369916439056396	15
+472	upintheair_align	aligned	gpt2	 while she started to unpack items from her duffel bag onto the	 seat	.	5.877171993255615	3.439380407333374	0.002882438711822033	0.23539267480373383	15
+473	upintheair_align	aligned	gpt2	 she started to unpack items from her duffel bag onto the seat	 r	ims	9.535530090332031	3.2122838497161865	7.751352313789539e-06	0.27205201983451843	15
+474	upintheair_align	aligned	gpt2	 started to unpack items from her duffel bag onto the seat r	yan	's	14.494993209838867	5.103892803192139	6.585445953533053e-05	0.20392397046089172	15
+475	upintheair_align	aligned	gpt2	 to unpack items from her duffel bag onto the seat ryan	 looked	at	8.248212814331055	2.70223331451416	1.2507080100476742e-05	0.516624391078949	15
+476	upintheair_align	aligned	gpt2	 unpack items from her duffel bag onto the seat ryan looked	 over	at	3.1393823623657227	2.6196706295013428	0.00028479425236582756	0.2744962275028229	15
+477	upintheair_align	aligned	gpt2	pack items from her duffel bag onto the seat ryan looked over	 in	amaz	5.123908996582031	3.714160203933716	2.0585106540238485e-05	0.13878963887691498	15
+478	upintheair_align	aligned	gpt2	 items from her duffel bag onto the seat ryan looked over in	 confusion	.	2.899716854095459	1.9144673347473145	1.4474896943283966e-06	0.5239077210426331	15
+479	upintheair_align	aligned	gpt2	 from her duffel bag onto the seat ryan looked over in confusion	 two	of	11.258543014526367	6.172064304351807	0.0012273051543161273	0.0696178674697876	15
+480	upintheair_align	aligned	gpt2	 her duffel bag onto the seat ryan looked over in confusion two	 neck	ed	10.099441528320312	5.366772651672363	0.00011436050408519804	0.19699467718601227	15
+481	upintheair_align	aligned	gpt2	 duffel bag onto the seat ryan looked over in confusion two neck	 pill	ows	6.428593635559082	0.4473421573638916	5.455717655422632e-06	0.9465972781181335	15
+482	upintheair_align	aligned	gpt2	uffel bag onto the seat ryan looked over in confusion two neck pill	ows	were	0.06797438114881516	5.079903602600098	2.5924439484015238e-08	0.16361066699028015	15
+483	upintheair_align	aligned	gpt2	el bag onto the seat ryan looked over in confusion two neck pillows	 you	can	8.70665168762207	5.101539134979248	6.784774450352415e-05	0.1572432816028595	15
+484	upintheair_align	aligned	gpt2	 bag onto the seat ryan looked over in confusion two neck pillows you	 realize	that	8.662698745727539	4.594908714294434	4.111645102966577e-05	0.08617901802062988	15
+485	upintheair_align	aligned	gpt2	 onto the seat ryan looked over in confusion two neck pillows you realize	 that	you	2.241063117980957	4.718951225280762	0.002503494266420603	0.11792167276144028	15
+486	upintheair_align	aligned	gpt2	 the seat ryan looked over in confusion two neck pillows you realize that	 we	are	4.721014976501465	3.7575554847717285	0.00018245808314532042	0.2068241834640503	15
+487	upintheair_align	aligned	gpt2	 seat ryan looked over in confusion two neck pillows you realize that we	're	not	1.8206082582473755	5.314441204071045	6.50750553177204e-06	0.1345338523387909	15
+488	upintheair_align	aligned	gpt2	 ryan looked over in confusion two neck pillows you realize that we're	 in	a	3.4286062717437744	4.78486967086792	0.0007762526511214674	0.20772825181484222	15
+489	upintheair_align	aligned	gpt2	yan looked over in confusion two neck pillows you realize that we're in	 business	.	6.030384063720703	3.430222749710083	0.0014422426465898752	0.32055002450942993	15
+490	upintheair_align	aligned	gpt2	 looked over in confusion two neck pillows you realize that we're in business	 class	.	5.496962547302246	3.7900290489196777	0.0010616377694532275	0.3244679570198059	15
+491	upintheair_align	aligned	gpt2	 over in confusion two neck pillows you realize that we're in business class	 and	we	2.37384295463562	5.121055603027344	0.000464000302599743	0.12483131140470505	15
+492	upintheair_align	aligned	gpt2	 in confusion two neck pillows you realize that we're in business class and	 they	're	3.9977304935455322	3.2423601150512695	3.0401492040255107e-05	0.44544893503189087	15
+493	upintheair_align	aligned	gpt2	 confusion two neck pillows you realize that we're in business class and they	 will	be	4.944762229919434	5.359762191772461	5.6003213103394955e-05	0.07644500583410263	15
+494	upintheair_align	aligned	gpt2	 two neck pillows you realize that we're in business class and they will	 give	you	3.7168941497802734	1.2989825010299683	5.253066319710342e-06	0.7266435623168945	15
+495	upintheair_align	aligned	gpt2	 neck pillows you realize that we're in business class and they will give	 you	a	0.3264009356498718	5.067807197570801	0.00044212734792381525	0.20621109008789062	15
+496	upintheair_align	aligned	gpt2	 pillows you realize that we're in business class and they will give you	 a	discount	1.6252853870391846	6.228891372680664	0.00021976001153234392	0.05274348333477974	15
+497	upintheair_align	aligned	gpt2	ows you realize that we're in business class and they will give you a	 neck	brace	10.349523544311523	5.113880634307861	0.0005404608091339469	0.1159844920039177	15
+498	upintheair_align	aligned	gpt2	 you realize that we're in business class and they will give you a neck	 pillow	.	5.022883415222168	3.746852397918701	0.00041337122092954814	0.1991453766822815	15
+499	upintheair_align	aligned	gpt2	 realize that we're in business class and they will give you a neck pillow	 right	now	6.151832580566406	2.752786636352539	0.0010002302005887032	0.32838886976242065	15
+500	upintheair_align	aligned	gpt2	 that we're in business class and they will give you a neck pillow right	 n	'	12.17087459564209	4.856295108795166	0.00040550812263973057	0.21253451704978943	15
+501	upintheair_align	aligned	gpt2	 we're in business class and they will give you a neck pillow right n	atalie	?	9.968076705932617	4.752397060394287	3.064460997848073e-06	0.1693141609430313	15
+502	upintheair_align	aligned	gpt2	're in business class and they will give you a neck pillow right natalie	 <	3	7.492622375488281	3.2620978355407715	0.0003114932042080909	0.5675278306007385	15
+503	upintheair_align	aligned	gpt2	 in business class and they will give you a neck pillow right natalie <	unk	now	12.388096809387207	4.911606311798096	0.00011412712774472311	0.1654093712568283	15
+504	upintheair_align	aligned	gpt2	 business class and they will give you a neck pillow right natalie <unk	>	I	2.5380027294158936	6.489534854888916	4.5326123654376715e-05	0.03381217643618584	15
+505	upintheair_align	aligned	gpt2	 class and they will give you a neck pillow right natalie <unk>	 back	to	7.481459617614746	4.749902248382568	0.00327829597517848	0.13301223516464233	15
+506	upintheair_align	aligned	gpt2	 and they will give you a neck pillow right natalie <unk> back	 at	the	3.90641450881958	4.679855823516846	0.0003871266089845449	0.193974107503891	15
+507	upintheair_align	aligned	gpt2	 they will give you a neck pillow right natalie <unk> back at	 him	<	5.0397491455078125	4.940210819244385	4.156951399636455e-05	0.15613386034965515	15
+508	upintheair_align	aligned	gpt2	 will give you a neck pillow right natalie <unk> back at him	 i	'm	5.749124050140381	4.393282413482666	0.0002501226554159075	0.10655755549669266	15
+509	upintheair_align	aligned	gpt2	 give you a neck pillow right natalie <unk> back at him i	 like	that	4.870645523071289	4.042968273162842	0.00039507850306108594	0.14387688040733337	15
+510	upintheair_align	aligned	gpt2	 you a neck pillow right natalie <unk> back at him i like	 my	neck	4.70704460144043	5.226834297180176	0.0001254630769835785	0.29118940234184265	15
+511	upintheair_align	aligned	gpt2	 a neck pillow right natalie <unk> back at him i like my	 own	neck	4.158486366271973	5.735650539398193	0.00031192993628792465	0.11520939320325851	15
+512	upintheair_align	aligned	gpt2	 neck pillow right natalie <unk> back at him i like my own	 stuff	n	4.9288649559021	5.296378135681152	0.0006756639922969043	0.06871693581342697	15
+513	upintheair_align	aligned	gpt2	 pillow right natalie <unk> back at him i like my own stuff	 don	't	7.398343086242676	0.7315639853477478	6.366944580804557e-05	0.9188656210899353	15
+514	upintheair_align	aligned	gpt2	 right natalie <unk> back at him i like my own stuff don	't	you	0.07187703996896744	3.926342010498047	1.3826475878886413e-05	0.37082183361053467	15
+515	upintheair_align	aligned	gpt2	 natalie <unk> back at him i like my own stuff don't	 you	?	1.2202785015106201	3.1182873249053955	0.0008751510758884251	0.5654441118240356	15
+516	upintheair_align	aligned	gpt2	atalie <unk> back at him i like my own stuff don't you	 like	my	5.820783615112305	5.491080284118652	0.0007197755621746182	0.12620329856872559	15
+517	upintheair_align	aligned	gpt2	 <unk> back at him i like my own stuff don't you like	 feeling	like	7.783281326293945	5.872798919677734	0.0002767520782072097	0.10460793226957321	15
+518	upintheair_align	aligned	gpt2	unk> back at him i like my own stuff don't you like feeling	 connected	to	6.997406959533691	2.5339200496673584	2.8799557185266167e-05	0.5068778395652771	15
+519	upintheair_align	aligned	gpt2	> back at him i like my own stuff don't you like feeling connected	 to	people	0.6817902326583862	4.206705570220947	0.0002837000065483153	0.10305449366569519	15
+520	upintheair_align	aligned	gpt2	 back at him i like my own stuff don't you like feeling connected to	 home	?	9.029651641845703	4.515980243682861	0.00020714043057523668	0.2755087912082672	15
+521	upintheair_align	aligned	gpt2	 at him i like my own stuff don't you like feeling connected to home	 r	/	8.036619186401367	6.462987899780273	0.000895308970939368	0.1165488064289093	15
+522	upintheair_align	aligned	gpt2	 him i like my own stuff don't you like feeling connected to home r	yan	?	5.259520530700684	6.642767906188965	1.2411261195666157e-05	0.1060686782002449	15
+523	upintheair_align	aligned	gpt2	 i like my own stuff don't you like feeling connected to home ryan	 laughed	.	10.834388732910156	5.3853325843811035	0.00011333388101775199	0.11671106517314911	15
+524	upintheair_align	aligned	gpt2	 like my own stuff don't you like feeling connected to home ryan laughed	 this	time	6.38359260559082	4.797927379608154	0.000142019780469127	0.15982788801193237	15
+525	upintheair_align	aligned	gpt2	 my own stuff don't you like feeling connected to home ryan laughed this	 is	a	2.975118398666382	4.992912292480469	0.0006076177232898772	0.09113918989896774	15
+526	upintheair_align	aligned	gpt2	 own stuff don't you like feeling connected to home ryan laughed this is	 where	you	4.3120832443237305	3.6527764797210693	0.00026424205861985683	0.23749423027038574	15
+527	upintheair_align	aligned	gpt2	 stuff don't you like feeling connected to home ryan laughed this is where	 i	'm	3.106781482696533	5.188668727874756	0.00023322644119616598	0.05417679250240326	15
+528	upintheair_align	aligned	gpt2	 don't you like feeling connected to home ryan laughed this is where i	 live	.	5.4834370613098145	5.059250354766846	0.0008059486863203347	0.12743178009986877	15
+529	upintheair_align	aligned	gpt2	't you like feeling connected to home ryan laughed this is where i live	 all	the	5.498632907867432	3.3438847064971924	0.0008510514162480831	0.3036664128303528	15
+530	upintheair_align	aligned	gpt2	 you like feeling connected to home ryan laughed this is where i live all	 the	time	1.3369418382644653	0.5572326183319092	0.00025017588632181287	0.9384281039237976	15
+531	upintheair_align	aligned	gpt2	 like feeling connected to home ryan laughed this is where i live all the	 things	i	7.664656639099121	3.651667833328247	0.0002385103580309078	0.43493086099624634	15
+532	upintheair_align	aligned	gpt2	 feeling connected to home ryan laughed this is where i live all the things	 you	can	3.479478597640991	4.670724868774414	0.0002842248941306025	0.08366408199071884	15
+533	upintheair_align	aligned	gpt2	 connected to home ryan laughed this is where i live all the things you	 probably	know	6.759304046630859	4.150392532348633	0.001096692867577076	0.17589817941188812	15
+534	upintheair_align	aligned	gpt2	 to home ryan laughed this is where i live all the things you probably	 hate	about	5.370995998382568	4.540791034698486	0.0002646322245709598	0.16082589328289032	15
+535	upintheair_align	aligned	gpt2	 home ryan laughed this is where i live all the things you probably hate	 about	me	1.7535207271575928	5.294892311096191	0.0002446315484121442	0.24650263786315918	15
+536	upintheair_align	aligned	gpt2	 ryan laughed this is where i live all the things you probably hate about	 traveling	.	9.83877182006836	4.203292369842529	0.00015137191803660244	0.27062833309173584	15
+537	upintheair_align	aligned	gpt2	yan laughed this is where i live all the things you probably hate about traveling	 the	world	3.9031739234924316	1.5205479860305786	0.0003028484352398664	0.7916460037231445	15
+538	upintheair_align	aligned	gpt2	 laughed this is where i live all the things you probably hate about traveling the	 recycled	world	18.445894241333008	7.004353046417236	0.00013614939234685153	0.04012357071042061	15
+539	upintheair_align	aligned	gpt2	 this is where i live all the things you probably hate about traveling the recycled	 air	ways	4.470940589904785	4.472833633422852	0.0012315528001636267	0.18516190350055695	15
+540	upintheair_align	aligned	gpt2	 is where i live all the things you probably hate about traveling the recycled air	 the	way	6.74659538269043	5.868669033050537	0.0006988572422415018	0.23491208255290985	15
+541	upintheair_align	aligned	gpt2	 where i live all the things you probably hate about traveling the recycled air the	 artificial	air	12.851043701171875	6.3025221824646	0.0015145587967708707	0.14426368474960327	15
+542	upintheair_align	aligned	gpt2	 i live all the things you probably hate about traveling the recycled air the artificial	 lighting	is	7.130359649658203	4.965297698974609	0.00024761416716501117	0.143131822347641	15
+543	upintheair_align	aligned	gpt2	 live all the things you probably hate about traveling the recycled air the artificial lighting	 are	supposed	7.70998477935791	5.334782600402832	4.7943794925231487e-05	0.0613400861620903	15
+544	upintheair_align	aligned	gpt2	 all the things you probably hate about traveling the recycled air the artificial lighting are	 warm	and	10.256695747375488	2.8756015300750732	0.0009023154270835221	0.4415780007839203	15
+545	upintheair_align	aligned	gpt2	 the things you probably hate about traveling the recycled air the artificial lighting are warm	 reminders	of	8.903816223144531	1.694365382194519	9.14798365556635e-05	0.48599132895469666	15
+546	upintheair_align	aligned	gpt2	 things you probably hate about traveling the recycled air the artificial lighting are warm reminders	 that	you	1.0869930982589722	4.3563737869262695	0.005448853597044945	0.23665770888328552	15
+547	upintheair_align	aligned	gpt2	 you probably hate about traveling the recycled air the artificial lighting are warm reminders that	 i	'm	9.054525375366211	4.100393295288086	4.587795410770923e-05	0.20058850944042206	15
+548	upintheair_align	aligned	gpt2	 probably hate about traveling the recycled air the artificial lighting are warm reminders that i	 am	not	2.2108986377716064	5.427408695220947	0.00015053848619572818	0.1748712807893753	15
+549	upintheair_align	aligned	gpt2	 hate about traveling the recycled air the artificial lighting are warm reminders that i am	 home	.	6.07608699798584	3.3744301795959473	0.0005924935103394091	0.34770017862319946	15

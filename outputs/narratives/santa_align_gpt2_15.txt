@@ -1,0 +1,542 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	santa_align	aligned	gpt2	denny's it's always open proclaimed scott as he opened the door	 to	the	1.9607765674591064	5.076419830322266	0.00040896626887843013	0.29200688004493713	15
+1	santa_align	aligned	gpt2	enny's it's always open proclaimed scott as he opened the door to	 the	room	1.23992919921875	6.848299980163574	0.00047835198347456753	0.11702475696802139	15
+2	santa_align	aligned	gpt2	's it's always open proclaimed scott as he opened the door to the	 restaurant	.	5.819165229797363	3.607271432876587	0.00023863025126047432	0.347278356552124	15
+3	santa_align	aligned	gpt2	 it's always open proclaimed scott as he opened the door to the restaurant	 his	father	7.463691711425781	5.72245979309082	0.0001820633769966662	0.09185834974050522	15
+4	santa_align	aligned	gpt2	's always open proclaimed scott as he opened the door to the restaurant his	 son	had	4.5050578117370605	4.836818218231201	9.622894140193239e-05	0.1883520781993866	15
+5	santa_align	aligned	gpt2	 always open proclaimed scott as he opened the door to the restaurant his son	 char	med	9.688051223754883	0.48571470379829407	3.233095924315421e-07	0.9336584210395813	15
+6	santa_align	aligned	gpt2	 open proclaimed scott as he opened the door to the restaurant his son char	lie	had	9.902132987976074	4.153788089752197	1.2820565871152212e-06	0.3700590133666992	15
+7	santa_align	aligned	gpt2	 proclaimed scott as he opened the door to the restaurant his son charlie	 <	a	13.037103652954102	7.138032913208008	0.00044029767741449177	0.039557602256536484	15
+8	santa_align	aligned	gpt2	 scott as he opened the door to the restaurant his son charlie <	unk	>	10.740019798278809	5.177933692932129	7.190727046690881e-05	0.19744974374771118	15
+9	santa_align	aligned	gpt2	ott as he opened the door to the restaurant his son charlie <unk	>	was	1.8536471128463745	6.118222236633301	6.673443567706272e-05	0.06541107594966888	15
+10	santa_align	aligned	gpt2	 as he opened the door to the restaurant his son charlie <unk>	 shuff	led	10.059398651123047	0.06583498418331146	7.113150246595978e-08	0.9902488589286804	15
+11	santa_align	aligned	gpt2	 he opened the door to the restaurant his son charlie <unk> shuff	led	into	0.009529695846140385	3.554856777191162	2.094027991006442e-07	0.15952709317207336	15
+12	santa_align	aligned	gpt2	 opened the door to the restaurant his son charlie <unk> shuffled	 through	the	2.923476219177246	3.214362859725952	0.0015074455877766013	0.33095672726631165	15
+13	santa_align	aligned	gpt2	 the door to the restaurant his son charlie <unk> shuffled through	 the	kitchen	1.2239935398101807	6.164670944213867	0.0005240614991635084	0.05846245214343071	15
+14	santa_align	aligned	gpt2	 door to the restaurant his son charlie <unk> shuffled through the	 door	.	3.9091694355010986	3.397062063217163	0.0009063192410394549	0.2822415828704834	15
+15	santa_align	aligned	gpt2	 to the restaurant his son charlie <unk> shuffled through the door	 kicking	and	11.756878852844238	4.416450500488281	3.369928526808508e-05	0.161110058426857	15
+16	santa_align	aligned	gpt2	 the restaurant his son charlie <unk> shuffled through the door kicking	 snow	off	8.636184692382812	3.5317461490631104	0.0010093428427353501	0.3362141251564026	15
+17	santa_align	aligned	gpt2	 restaurant his son charlie <unk> shuffled through the door kicking snow	 onto	the	6.96427059173584	1.9384623765945435	1.008047183859162e-05	0.4706484377384186	15
+18	santa_align	aligned	gpt2	 his son charlie <unk> shuffled through the door kicking snow onto	 the	floor	0.8505522608757019	4.805656433105469	0.0002363743114983663	0.2537603974342346	15
+19	santa_align	aligned	gpt2	 son charlie <unk> shuffled through the door kicking snow onto the	 <	un	10.637762069702148	7.066406726837158	0.00011121288116555661	0.022217635065317154	15
+20	santa_align	aligned	gpt2	 charlie <unk> shuffled through the door kicking snow onto the <	unk	>	3.075881004333496	0.3747518062591553	1.8859333295040415e-07	0.9548915028572083	15
+21	santa_align	aligned	gpt2	lie <unk> shuffled through the door kicking snow onto the <unk	>	floor	0.03401074931025505	6.826066970825195	6.021860826876946e-05	0.08940955251455307	15
+22	santa_align	aligned	gpt2	 <unk> shuffled through the door kicking snow onto the <unk>	 carpet	.	4.385577201843262	3.459106683731079	0.0006278242217376828	0.38066011667251587	15
+23	santa_align	aligned	gpt2	unk> shuffled through the door kicking snow onto the <unk> carpet	 i	was	9.032659530639648	5.986125946044922	0.00030965422047302127	0.044217437505722046	15
+24	santa_align	aligned	gpt2	> shuffled through the door kicking snow onto the <unk> carpet i	 don	't	5.52262020111084	0.09747836738824844	1.0586311418592231e-06	0.9900209903717041	15
+25	santa_align	aligned	gpt2	 shuffled through the door kicking snow onto the <unk> carpet i don	't	know	0.011071793735027313	3.218874454498291	7.505987923650537e-06	0.24603350460529327	15
+26	santa_align	aligned	gpt2	led through the door kicking snow onto the <unk> carpet i don't	 want	to	2.419279098510742	2.4786229133605957	1.1391939551685937e-05	0.60475754737854	15
+27	santa_align	aligned	gpt2	 through the door kicking snow onto the <unk> carpet i don't want	 to	be	0.5385175943374634	5.139474391937256	0.00028800577274523675	0.08334558457136154	15
+28	santa_align	aligned	gpt2	 the door kicking snow onto the <unk> carpet i don't want to	 eat	it	5.9985527992248535	4.5506086349487305	0.00011666180216707289	0.1929817646741867	15
+29	santa_align	aligned	gpt2	 door kicking snow onto the <unk> carpet i don't want to eat	 here	.	5.201373100280762	4.669848442077637	0.0005392953171394765	0.13267695903778076	15
+30	santa_align	aligned	gpt2	 kicking snow onto the <unk> carpet i don't want to eat here	 he	he	7.097312927246094	4.761795997619629	0.0013850181130692363	0.2637344300746918	15
+31	santa_align	aligned	gpt2	 snow onto the <unk> carpet i don't want to eat here he	 m	umbles	7.371779918670654	6.824798107147217	0.002852406119927764	0.04315340891480446	15
+32	santa_align	aligned	gpt2	 onto the <unk> carpet i don't want to eat here he m	umbled	something	4.650371551513672	4.67833137512207	3.880638388409352e-08	0.11793362349271774	15
+33	santa_align	aligned	gpt2	 the <unk> carpet i don't want to eat here he mumbled	 as	he	4.5932841300964355	2.598677635192871	0.0002793727326206863	0.5440706014633179	15
+34	santa_align	aligned	gpt2	 <unk> carpet i don't want to eat here he mumbled as	 sc	ooter	9.919520378112793	4.790624618530273	6.799516540922923e-06	0.050253015011548996	15
+35	santa_align	aligned	gpt2	unk> carpet i don't want to eat here he mumbled as sc	ott	came	2.4760050773620605	6.774914741516113	2.1343044863897376e-05	0.02965714782476425	15
+36	santa_align	aligned	gpt2	> carpet i don't want to eat here he mumbled as scott	 entered	the	4.337132453918457	4.052344799041748	4.695641473517753e-05	0.22059345245361328	15
+37	santa_align	aligned	gpt2	 carpet i don't want to eat here he mumbled as scott entered	 behind	him	6.858997344970703	3.122683048248291	0.0004017305909655988	0.32151341438293457	15
+38	santa_align	aligned	gpt2	 i don't want to eat here he mumbled as scott entered behind	 him	.	0.8080909252166748	2.780158758163452	6.789597682654858e-05	0.5079252123832703	15
+39	santa_align	aligned	gpt2	 don't want to eat here he mumbled as scott entered behind him	 this	time	9.1572904586792	2.322577476501465	2.4742554160184227e-05	0.7227783799171448	15
+40	santa_align	aligned	gpt2	't want to eat here he mumbled as scott entered behind him this	 wasn	't	6.722239971160889	0.014012067578732967	2.613347476199124e-07	0.9988023042678833	15
+41	santa_align	aligned	gpt2	 want to eat here he mumbled as scott entered behind him this wasn	't	the	0.0017528659664094448	4.76184606552124	2.974451717818738e-06	0.15863236784934998	15
+42	santa_align	aligned	gpt2	 to eat here he mumbled as scott entered behind him this wasn't	 how	he	4.958484649658203	3.6679060459136963	8.323285146616399e-05	0.3663051128387451	15
+43	santa_align	aligned	gpt2	 eat here he mumbled as scott entered behind him this wasn't how	 he	was	1.0181093215942383	4.159246921539307	0.00016298663103953004	0.07981891930103302	15
+44	santa_align	aligned	gpt2	 here he mumbled as scott entered behind him this wasn't how he	 had	been	2.727173089981079	4.41347599029541	0.0025152103044092655	0.12128303200006485	15
+45	santa_align	aligned	gpt2	 he mumbled as scott entered behind him this wasn't how he had	 pictured	it	7.062085151672363	3.084744453430176	2.387697122685495e-06	0.46239757537841797	15
+46	santa_align	aligned	gpt2	 mumbled as scott entered behind him this wasn't how he had pictured	 spending	the	10.292511940002441	2.9359381198883057	1.7485357602708973e-05	0.3398776352405548	15
+47	santa_align	aligned	gpt2	umbled as scott entered behind him this wasn't how he had pictured spending	 his	time	1.5353763103485107	4.453420162200928	8.934489596867934e-05	0.1460489183664322	15
+48	santa_align	aligned	gpt2	 as scott entered behind him this wasn't how he had pictured spending his	 christ	mas	10.465240478515625	0.264419287443161	7.783434739394579e-06	0.9576515555381775	15
+49	santa_align	aligned	gpt2	 scott entered behind him this wasn't how he had pictured spending his christ	mas	.	0.032794635742902756	4.383339881896973	2.7938169296248816e-05	0.21740059554576874	15
+50	santa_align	aligned	gpt2	ott entered behind him this wasn't how he had pictured spending his christmas	 eve	.	6.070018291473389	4.74498987197876	0.0009485619957558811	0.14856082201004028	15
+51	santa_align	aligned	gpt2	 entered behind him this wasn't how he had pictured spending his christmas eve	 what	with	9.91818904876709	3.7409629821777344	0.00014557225222233683	0.30352526903152466	15
+52	santa_align	aligned	gpt2	 behind him this wasn't how he had pictured spending his christmas eve what	 are	you	8.866371154785156	4.025040626525879	0.0003810494381468743	0.23323974013328552	15
+53	santa_align	aligned	gpt2	 him this wasn't how he had pictured spending his christmas eve what are	 you	doing	1.4680907726287842	3.67000675201416	0.00032431402360089123	0.252032607793808	15
+54	santa_align	aligned	gpt2	 this wasn't how he had pictured spending his christmas eve what are you	 talking	about	3.0623013973236084	0.29060155153274536	5.898316430830164e-07	0.9505019187927246	15
+55	santa_align	aligned	gpt2	 wasn't how he had pictured spending his christmas eve what are you talking	 about	?	0.04863956198096275	3.2084133625030518	0.0008748738327994943	0.3921066224575043	15
+56	santa_align	aligned	gpt2	't how he had pictured spending his christmas eve what are you talking about	 everybody	?	10.570218086242676	5.4141387939453125	0.00011891765461768955	0.09257904440164566	15
+57	santa_align	aligned	gpt2	 how he had pictured spending his christmas eve what are you talking about everybody	 likes	to	7.054210662841797	4.125639915466309	5.254690677247709e-06	0.3773936331272125	15
+58	santa_align	aligned	gpt2	 he had pictured spending his christmas eve what are you talking about everybody likes	 d	icks	8.747222900390625	5.745211124420166	8.347175935341511e-06	0.07351157069206238	15
+59	santa_align	aligned	gpt2	 had pictured spending his christmas eve what are you talking about everybody likes d	enny	?	7.318310260772705	5.895491123199463	4.385693955555325e-06	0.10066124051809311	15
+60	santa_align	aligned	gpt2	 pictured spending his christmas eve what are you talking about everybody likes denny	's	and	2.501343250274658	6.3701701164245605	0.0006539903697557747	0.05764321610331535	15
+61	santa_align	aligned	gpt2	 spending his christmas eve what are you talking about everybody likes denny's	 it	's	7.158256530761719	3.65327525138855	0.0010633302154019475	0.4452199935913086	15
+62	santa_align	aligned	gpt2	 his christmas eve what are you talking about everybody likes denny's it	's	a	0.861149787902832	5.5893707275390625	5.164915637578815e-05	0.07461531460285187	15
+63	santa_align	aligned	gpt2	 christmas eve what are you talking about everybody likes denny's it's	 an	amazing	5.053225994110107	6.101865768432617	0.0016946058021858335	0.060304272919893265	15
+64	santa_align	aligned	gpt2	mas eve what are you talking about everybody likes denny's it's an	 americ	an	5.579049110412598	0.9330207109451294	3.2626227039145306e-05	0.7379677295684814	15
+65	santa_align	aligned	gpt2	 eve what are you talking about everybody likes denny's it's an americ	an	thing	0.301952064037323	5.966612815856934	0.0002589643409010023	0.177860826253891	15
+66	santa_align	aligned	gpt2	 what are you talking about everybody likes denny's it's an american	 institution	.	7.014688014984131	4.301239013671875	6.345545261865482e-05	0.18951627612113953	15
+67	santa_align	aligned	gpt2	 are you talking about everybody likes denny's it's an american institution	 as	well	5.903339862823486	3.5125954151153564	0.00027109679649583995	0.3148251473903656	15
+68	santa_align	aligned	gpt2	 you talking about everybody likes denny's it's an american institution as	 they	have	3.277711868286133	4.776317596435547	0.00011701420589815825	0.10021186619997025	15
+69	santa_align	aligned	gpt2	 talking about everybody likes denny's it's an american institution as they	 approached	the	10.686180114746094	4.88128662109375	3.028109404112911e-06	0.1734151691198349	15
+70	santa_align	aligned	gpt2	 about everybody likes denny's it's an american institution as they approached	 the	end	1.7315975427627563	6.975154876708984	0.0003884216712322086	0.07397095113992691	15
+71	santa_align	aligned	gpt2	 everybody likes denny's it's an american institution as they approached the	 host	el	9.96479606628418	4.6127729415893555	0.0011022030375897884	0.20300187170505524	15
+72	santa_align	aligned	gpt2	 likes denny's it's an american institution as they approached the host	ess	.	3.997549533843994	4.245401859283447	7.914458547020331e-05	0.17829208076000214	15
+73	santa_align	aligned	gpt2	 denny's it's an american institution as they approached the hostess	 stand	.	9.664140701293945	4.0876288414001465	9.793257049750537e-05	0.19663551449775696	15
+74	santa_align	aligned	gpt2	enny's it's an american institution as they approached the hostess stand	 they	were	4.922025680541992	5.0329508781433105	0.0001868887193268165	0.17528024315834045	15
+75	santa_align	aligned	gpt2	's it's an american institution as they approached the hostess stand they	 heard	a	5.539650917053223	4.645358562469482	7.067209662636742e-05	0.12002639472484589	15
+76	santa_align	aligned	gpt2	 it's an american institution as they approached the hostess stand they heard	 a	loud	1.9597880840301514	6.210643768310547	0.0003225275140721351	0.058877818286418915	15
+77	santa_align	aligned	gpt2	's an american institution as they approached the hostess stand they heard a	 loud	bang	2.6469573974609375	4.4984588623046875	0.0018046812620013952	0.14526502788066864	15
+78	santa_align	aligned	gpt2	 an american institution as they approached the hostess stand they heard a loud	 comm	otion	4.977395057678223	0.006651647388935089	2.276995871852705e-07	0.9993782043457031	15
+79	santa_align	aligned	gpt2	 american institution as they approached the hostess stand they heard a loud comm	otion	.	0.0006848612101748586	3.2999305725097656	5.977043859850539e-10	0.2895697355270386	15
+80	santa_align	aligned	gpt2	an institution as they approached the hostess stand they heard a loud commotion	 from	the	2.835214138031006	3.2704105377197266	0.0005057866801507771	0.34965842962265015	15
+81	santa_align	aligned	gpt2	 institution as they approached the hostess stand they heard a loud commotion from	 inside	the	2.4114363193511963	1.9139971733093262	0.0002931409399025142	0.39700400829315186	15
+82	santa_align	aligned	gpt2	 as they approached the hostess stand they heard a loud commotion from inside	 the	building	0.899317741394043	5.185890197753906	0.00031702741398476064	0.10863259434700012	15
+83	santa_align	aligned	gpt2	 they approached the hostess stand they heard a loud commotion from inside the	 restaurant	.	2.1597325801849365	1.811769723892212	0.00014130823547020555	0.6248845458030701	15
+84	santa_align	aligned	gpt2	 approached the hostess stand they heard a loud commotion from inside the restaurant	 a	few	8.244412422180176	2.6570253372192383	0.00019110742141492665	0.48233431577682495	15
+85	santa_align	aligned	gpt2	 the hostess stand they heard a loud commotion from inside the restaurant a	 huge	explosion	8.249436378479004	6.55869722366333	0.0018054445972666144	0.06489740312099457	15
+86	santa_align	aligned	gpt2	 hostess stand they heard a loud commotion from inside the restaurant a huge	 table	.	6.1946892738342285	4.899613380432129	0.00045652760309167206	0.12636823952198029	15
+87	santa_align	aligned	gpt2	ess stand they heard a loud commotion from inside the restaurant a huge table	 of	food	3.61156964302063	6.863460540771484	0.00019954961317125708	0.06985567510128021	15
+88	santa_align	aligned	gpt2	 stand they heard a loud commotion from inside the restaurant a huge table of	 j	ugs	6.437119483947754	3.9227547645568848	4.183709449989692e-07	0.17007382214069366	15
+89	santa_align	aligned	gpt2	 they heard a loud commotion from inside the restaurant a huge table of j	apan	ese	4.0723772048950195	0.04992135241627693	2.68028884420346e-07	0.9960259199142456	15
+90	santa_align	aligned	gpt2	 heard a loud commotion from inside the restaurant a huge table of japan	ese	food	0.0036151548847556114	6.4957051277160645	8.24393137008883e-05	0.05898360162973404	15
+91	santa_align	aligned	gpt2	 a loud commotion from inside the restaurant a huge table of japanese	 businessmen	and	6.104528903961182	4.95332145690918	2.247854581582942e-06	0.13406570255756378	15
+92	santa_align	aligned	gpt2	 loud commotion from inside the restaurant a huge table of japanese businessmen	 were	sitting	4.039263725280762	5.631271839141846	2.8087817554478534e-05	0.0806993618607521	15
+93	santa_align	aligned	gpt2	 commotion from inside the restaurant a huge table of japanese businessmen were	 <	a	14.031829833984375	6.304421424865723	0.0012208502739667892	0.08178169280290604	15
+94	santa_align	aligned	gpt2	otion from inside the restaurant a huge table of japanese businessmen were <	unk	now	11.823802947998047	4.303040027618408	0.00010495820606593043	0.25730785727500916	15
+95	santa_align	aligned	gpt2	 from inside the restaurant a huge table of japanese businessmen were <unk	>	talking	2.418971061706543	7.401111125946045	7.553360774181783e-05	0.02143022231757641	15
+96	santa_align	aligned	gpt2	 inside the restaurant a huge table of japanese businessmen were <unk>	 <	unk	5.906359672546387	7.514628887176514	0.0005797574413008988	0.019197609275579453	15
+97	santa_align	aligned	gpt2	 the restaurant a huge table of japanese businessmen were <unk> <	unk	>	4.113205432891846	0.8113359808921814	7.562264840998978e-07	0.8756877779960632	15
+98	santa_align	aligned	gpt2	 restaurant a huge table of japanese businessmen were <unk> <unk	>	<	0.13989262282848358	6.940446376800537	0.0004527399141807109	0.1379648894071579	15
+99	santa_align	aligned	gpt2	 a huge table of japanese businessmen were <unk> <unk>	 to	the	4.778800964355469	6.5590901374816895	0.0002729495754465461	0.03625611215829849	15
+100	santa_align	aligned	gpt2	 huge table of japanese businessmen were <unk> <unk> to	 one	another	6.267157077789307	3.8370349407196045	0.006949804723262787	0.3048449456691742	15
+101	santa_align	aligned	gpt2	 table of japanese businessmen were <unk> <unk> to one	 another	.	0.9989237785339355	3.9539589881896973	3.7043297197669744e-05	0.18393145501613617	15
+102	santa_align	aligned	gpt2	 of japanese businessmen were <unk> <unk> to one another	 and	to	3.321108341217041	6.81597900390625	0.0006871588993817568	0.07191707193851471	15
+103	santa_align	aligned	gpt2	 japanese businessmen were <unk> <unk> to one another and	 erupt	in	12.470108032226562	3.2769320011138916	3.6800458474317566e-05	0.3404713571071625	15
+104	santa_align	aligned	gpt2	apanese businessmen were <unk> <unk> to one another and erupt	ing	into	3.6311988830566406	3.5540237426757812	7.851737791497726e-06	0.3323032855987549	15
+105	santa_align	aligned	gpt2	ese businessmen were <unk> <unk> to one another and erupting	 in	a	1.4175572395324707	6.444192409515381	0.0005484102293848991	0.09087201207876205	15
+106	santa_align	aligned	gpt2	 businessmen were <unk> <unk> to one another and erupting in	 <	unk	6.444411277770996	5.793519973754883	7.925796671770513e-05	0.2202296257019043	15
+107	santa_align	aligned	gpt2	 were <unk> <unk> to one another and erupting in <	unk	>	1.0203338861465454	0.5317848324775696	2.8114408223700593e-07	0.9265240430831909	15
+108	santa_align	aligned	gpt2	 <unk> <unk> to one another and erupting in <unk	>	<	0.05670441314578056	5.9036030769348145	0.00021129178639966995	0.18161579966545105	15
+109	santa_align	aligned	gpt2	unk> <unk> to one another and erupting in <unk>	 of	rage	5.900367259979248	6.347462177276611	0.00012984131171833724	0.15864577889442444	15
+110	santa_align	aligned	gpt2	> <unk> to one another and erupting in <unk> of	 laughter	</	3.4287185668945312	3.6518149375915527	0.00011551872012205422	0.18860110640525818	15
+111	santa_align	aligned	gpt2	 <unk> to one another and erupting in <unk> of laughter	 har	bors	13.47836971282959	3.9497294425964355	0.003635681699961424	0.22780629992485046	15
+112	santa_align	aligned	gpt2	unk> to one another and erupting in <unk> of laughter har	ried	by	2.727135419845581	5.9601149559021	3.0836552014079643e-06	0.09274424612522125	15
+113	santa_align	aligned	gpt2	> to one another and erupting in <unk> of laughter harried	 wait	ers	10.18466854095459	0.9606947302818298	2.7100932129542343e-05	0.6570399403572083	15
+114	santa_align	aligned	gpt2	 to one another and erupting in <unk> of laughter harried wait	resses	.	1.3082077503204346	4.127241611480713	9.030009096022695e-08	0.17483709752559662	15
+115	santa_align	aligned	gpt2	 one another and erupting in <unk> of laughter harried waitresses	 we	've	8.304441452026367	5.301267623901367	0.0001394021528540179	0.06325080990791321	15
+116	santa_align	aligned	gpt2	 another and erupting in <unk> of laughter harried waitresses we	aved	their	6.3552446365356445	4.978113174438477	5.054236851265159e-08	0.09963319450616837	15
+117	santa_align	aligned	gpt2	 and erupting in <unk> of laughter harried waitresses weaved	 between	the	4.766034126281738	6.039334774017334	0.00027266828692518175	0.18906311690807343	15
+118	santa_align	aligned	gpt2	 erupting in <unk> of laughter harried waitresses weaved between	 them	.	2.8022971153259277	3.1262717247009277	1.7563477740623057e-05	0.313454806804657	15
+119	santa_align	aligned	gpt2	ing in <unk> of laughter harried waitresses weaved between them	 to	make	3.6179819107055664	6.607399940490723	0.00039053044747561216	0.04928530752658844	15
+120	santa_align	aligned	gpt2	 in <unk> of laughter harried waitresses weaved between them to	 pour	their	7.210235118865967	5.1628031730651855	0.00012887154298368841	0.0927906185388565	15
+121	santa_align	aligned	gpt2	 <unk> of laughter harried waitresses weaved between them to pour	 ref	ills	12.187034606933594	3.5089333057403564	1.8863288175907655e-07	0.22666214406490326	15
+122	santa_align	aligned	gpt2	unk> of laughter harried waitresses weaved between them to pour ref	ills	of	1.5363737344741821	3.524345636367798	4.169704084233672e-07	0.1767536997795105	15
+123	santa_align	aligned	gpt2	> of laughter harried waitresses weaved between them to pour refills	 of	their	1.7059166431427002	6.18951416015625	8.80100778886117e-05	0.07449211925268173	15
+124	santa_align	aligned	gpt2	 of laughter harried waitresses weaved between them to pour refills of	 coffee	and	3.8799872398376465	2.797121047973633	0.0005539615522138774	0.3124457001686096	15
+125	santa_align	aligned	gpt2	 laughter harried waitresses weaved between them to pour refills of coffee	 a	few	6.930317401885986	5.631279945373535	0.0002656174765434116	0.11644382029771805	15
+126	santa_align	aligned	gpt2	 harried waitresses weaved between them to pour refills of coffee a	 host	ess	7.690365791320801	2.194718837738037	0.00018633401487022638	0.4516790211200714	15
+127	santa_align	aligned	gpt2	ried waitresses weaved between them to pour refills of coffee a host	ess	had	0.5908627510070801	5.419748306274414	0.00020985932496841997	0.07335163652896881	15
+128	santa_align	aligned	gpt2	 waitresses weaved between them to pour refills of coffee a hostess	 hurried	ly	9.056528091430664	2.3166651725769043	3.310962347313762e-05	0.552030622959137	15
+129	santa_align	aligned	gpt2	resses weaved between them to pour refills of coffee a hostess hurried	 up	to	3.8698084354400635	1.941195011138916	7.296800322365016e-05	0.5777763724327087	15
+130	santa_align	aligned	gpt2	 weaved between them to pour refills of coffee a hostess hurried up	 to	the	0.6456921100616455	5.035804748535156	0.00044369458919391036	0.20969635248184204	15
+131	santa_align	aligned	gpt2	aved between them to pour refills of coffee a hostess hurried up to	 meet	him	4.239175319671631	2.913965940475464	2.62690446106717e-05	0.2480154037475586	15
+132	santa_align	aligned	gpt2	 between them to pour refills of coffee a hostess hurried up to meet	 them	.	1.3962748050689697	2.240490674972534	7.935467692732345e-06	0.47733843326568604	15
+133	santa_align	aligned	gpt2	 them to pour refills of coffee a hostess hurried up to meet them	 are	not	10.941595077514648	7.2058939933776855	0.00012820996926166117	0.031918782740831375	15
+134	santa_align	aligned	gpt2	 to pour refills of coffee a hostess hurried up to meet them are	 you	?	6.9910478591918945	5.871047496795654	0.00037330170744098723	0.11443901807069778	15
+135	santa_align	aligned	gpt2	 pour refills of coffee a hostess hurried up to meet them are you	 with	a	5.928348541259766	5.376132011413574	8.808367419987917e-05	0.17261967062950134	15
+136	santa_align	aligned	gpt2	 refills of coffee a hostess hurried up to meet them are you with	 <	name	10.313874244689941	6.715933322906494	5.992474325466901e-05	0.0599483847618103	15
+137	santa_align	aligned	gpt2	ills of coffee a hostess hurried up to meet them are you with <	unk	now	13.364638328552246	3.948570489883423	3.665069380076602e-05	0.4282735288143158	15
+138	santa_align	aligned	gpt2	 of coffee a hostess hurried up to meet them are you with <unk	>	and	3.310643196105957	7.340770721435547	0.0004876379680354148	0.0429532490670681	15
+139	santa_align	aligned	gpt2	 coffee a hostess hurried up to meet them are you with <unk>	 no	,	5.975018501281738	6.488511562347412	0.010357754305005074	0.06096379831433296	15
+140	santa_align	aligned	gpt2	 a hostess hurried up to meet them are you with <unk> no	 said	.	8.898061752319336	6.55594539642334	0.00114912330172956	0.05771023407578468	15
+141	santa_align	aligned	gpt2	 hostess hurried up to meet them are you with <unk> no said	 char	.	9.668109893798828	5.748091697692871	2.4107490389724262e-05	0.06562186032533646	15
+142	santa_align	aligned	gpt2	ess hurried up to meet them are you with <unk> no said char	lie	?	4.178380966186523	5.455657005310059	4.3561529309954494e-05	0.13536624610424042	15
+143	santa_align	aligned	gpt2	 hurried up to meet them are you with <unk> no said charlie	 dad	.	11.413705825805664	6.316797733306885	1.2876133041572757e-05	0.06499533355236053	15
+144	santa_align	aligned	gpt2	 up to meet them are you with <unk> no said charlie dad	 burnt	his	12.635933876037598	4.982602596282959	5.86587302677799e-05	0.0761169046163559	15
+145	santa_align	aligned	gpt2	 to meet them are you with <unk> no said charlie dad burnt	 the	house	2.8162968158721924	7.350898742675781	0.0004714611277449876	0.032086197286844254	15
+146	santa_align	aligned	gpt2	 meet them are you with <unk> no said charlie dad burnt the	 turkey	.	9.386763572692871	5.455440998077393	0.00087907345732674	0.0731496661901474	15
+147	santa_align	aligned	gpt2	 them are you with <unk> no said charlie dad burnt the turkey	 oh	my	9.156352996826172	5.010551452636719	0.011745240539312363	0.11088279634714127	15
+148	santa_align	aligned	gpt2	 are you with <unk> no said charlie dad burnt the turkey oh	 yeah	,	3.155816078186035	5.444183826446533	0.010628534480929375	0.09921448677778244	15
+149	santa_align	aligned	gpt2	 you with <unk> no said charlie dad burnt the turkey oh yeah	 this	is	5.113985061645508	4.368311882019043	0.00012685504043474793	0.3813393712043762	15
+150	santa_align	aligned	gpt2	 with <unk> no said charlie dad burnt the turkey oh yeah this	 way	i	5.749279975891113	5.630282402038574	0.000719782488886267	0.10092730820178986	15
+151	santa_align	aligned	gpt2	 <unk> no said charlie dad burnt the turkey oh yeah this way	 come	on	6.768184661865234	2.932539463043213	0.001421867054887116	0.5166058540344238	15
+152	santa_align	aligned	gpt2	unk> no said charlie dad burnt the turkey oh yeah this way come	 said	char	11.535778045654297	7.006644248962402	0.00014603114686906338	0.058259252458810806	15
+153	santa_align	aligned	gpt2	> no said charlie dad burnt the turkey oh yeah this way come said	 the	turkey	4.798812389373779	7.823542594909668	0.00047678383998572826	0.02599162608385086	15
+154	santa_align	aligned	gpt2	 no said charlie dad burnt the turkey oh yeah this way come said the	 host	ess	7.785120010375977	6.060014247894287	0.00031515100272372365	0.12339673936367035	15
+155	santa_align	aligned	gpt2	 said charlie dad burnt the turkey oh yeah this way come said the host	ess	said	1.9532843828201294	5.56533670425415	4.733820605906658e-05	0.23145245015621185	15
+156	santa_align	aligned	gpt2	 charlie dad burnt the turkey oh yeah this way come said the hostess	 <	3	9.10145378112793	4.533278465270996	0.0011439911322668195	0.4372975528240204	15
+157	santa_align	aligned	gpt2	lie dad burnt the turkey oh yeah this way come said the hostess <	unk	now	12.67674732208252	4.998005390167236	0.00012745587446261197	0.2731269896030426	15
+158	santa_align	aligned	gpt2	 dad burnt the turkey oh yeah this way come said the hostess <unk	>	I	4.371425628662109	6.844216346740723	0.00010470366396475583	0.04321447014808655	15
+159	santa_align	aligned	gpt2	 burnt the turkey oh yeah this way come said the hostess <unk>	 them	I	9.399945259094238	7.271773338317871	0.00025147225824184716	0.017829621210694313	15
+160	santa_align	aligned	gpt2	 the turkey oh yeah this way come said the hostess <unk> them	 toward	the	12.093687057495117	3.9908077716827393	0.00010637260129442438	0.4593294560909271	15
+161	santa_align	aligned	gpt2	 turkey oh yeah this way come said the hostess <unk> them toward	 a	wall	3.909329414367676	7.532060146331787	0.00037866985076107085	0.02341175079345703	15
+162	santa_align	aligned	gpt2	 oh yeah this way come said the hostess <unk> them toward a	 back	door	5.511316299438477	4.796431541442871	0.0016414755955338478	0.1519288420677185	15
+163	santa_align	aligned	gpt2	 yeah this way come said the hostess <unk> them toward a back	 room	<	2.603452682495117	5.03715705871582	0.011778924614191055	0.08271941542625427	15
+164	santa_align	aligned	gpt2	 this way come said the hostess <unk> them toward a back room	 several	times	9.589118957519531	3.2276034355163574	0.00017487061268184334	0.5158853530883789	15
+165	santa_align	aligned	gpt2	 way come said the hostess <unk> them toward a back room several	 other	times	5.950376987457275	2.9807541370391846	0.0012978067388758063	0.6214495897293091	15
+166	santa_align	aligned	gpt2	 come said the hostess <unk> them toward a back room several other	 families	had	7.907279968261719	5.167933940887451	1.5550007447018288e-05	0.0945059135556221	15
+167	santa_align	aligned	gpt2	 said the hostess <unk> them toward a back room several other families	 sat	in	5.150070667266846	3.6607162952423096	6.990719703026116e-05	0.22161391377449036	15
+168	santa_align	aligned	gpt2	 the hostess <unk> them toward a back room several other families sat	 quietly	in	5.252681255340576	3.704470634460449	0.0024093259125947952	0.18965215981006622	15
+169	santa_align	aligned	gpt2	 hostess <unk> them toward a back room several other families sat quietly	 in	the	1.7654144763946533	4.053800582885742	0.0034167596604675055	0.2546630799770355	15
+170	santa_align	aligned	gpt2	ess <unk> them toward a back room several other families sat quietly in	 their	rooms	2.383707046508789	5.555929660797119	0.00025600340450182557	0.10803678631782532	15
+171	santa_align	aligned	gpt2	 <unk> them toward a back room several other families sat quietly in their	 booths	.	6.795096397399902	3.489792823791504	3.331610969325993e-06	0.31664058566093445	15
+172	santa_align	aligned	gpt2	unk> them toward a back room several other families sat quietly in their booths	 and	watched	2.5412075519561768	6.23994779586792	0.0005497047095559537	0.10122513771057129	15
+173	santa_align	aligned	gpt2	> them toward a back room several other families sat quietly in their booths and	 one	of	5.589081287384033	5.663463115692139	0.0025171416345983744	0.1782391369342804	15
+174	santa_align	aligned	gpt2	 them toward a back room several other families sat quietly in their booths and one	 of	them	1.7464807033538818	1.126336693763733	9.64767696132185e-06	0.665948212146759	15
+175	santa_align	aligned	gpt2	 toward a back room several other families sat quietly in their booths and one of	 the	children	1.4804325103759766	5.815585136413574	0.00034216430503875017	0.07577598839998245	15
+176	santa_align	aligned	gpt2	 a back room several other families sat quietly in their booths and one of the	 fathers	,	5.641096115112305	5.5198445320129395	1.139706341746205e-06	0.06609807908535004	15
+177	santa_align	aligned	gpt2	 back room several other families sat quietly in their booths and one of the fathers	 <	a	14.303047180175781	6.4344401359558105	0.0005807756097055972	0.1068088710308075	15
+178	santa_align	aligned	gpt2	 room several other families sat quietly in their booths and one of the fathers <	unk	>	10.981233596801758	5.101205348968506	0.00013282419240567833	0.15019315481185913	15
+179	santa_align	aligned	gpt2	 several other families sat quietly in their booths and one of the fathers <unk	>	said	2.1090188026428223	6.3342790603637695	2.782833507808391e-05	0.05717313662171364	15
+180	santa_align	aligned	gpt2	 other families sat quietly in their booths and one of the fathers <unk>	 a	little	6.849773406982422	6.529786109924316	0.0006919683655723929	0.11245913803577423	15
+181	santa_align	aligned	gpt2	 families sat quietly in their booths and one of the fathers <unk> a	 fresh	-	8.750285148620605	6.859488487243652	0.0039469706825912	0.089445561170578	15
+182	santa_align	aligned	gpt2	 sat quietly in their booths and one of the fathers <unk> a fresh	 band	of	8.338985443115234	4.9293060302734375	0.0022606973070651293	0.0936572477221489	15
+183	santa_align	aligned	gpt2	 quietly in their booths and one of the fathers <unk> a fresh band	age	on	3.4982311725616455	5.343067646026611	2.1908995222474914e-06	0.14842455089092255	15
+184	santa_align	aligned	gpt2	 in their booths and one of the fathers <unk> a fresh bandage	 on	his	2.0204856395721436	1.8712836503982544	0.00012142934428993613	0.6216418147087097	15
+185	santa_align	aligned	gpt2	 their booths and one of the fathers <unk> a fresh bandage on	 his	arm	0.501650333404541	4.154365539550781	0.00013021584891248494	0.10040805488824844	15
+186	santa_align	aligned	gpt2	 booths and one of the fathers <unk> a fresh bandage on his	 hand	<	3.3065500259399414	3.1713061332702637	3.4217937354696915e-05	0.33793050050735474	15
+187	santa_align	aligned	gpt2	 and one of the fathers <unk> a fresh bandage on his hand	 he	was	5.711338043212891	6.0034990310668945	0.0003708875738084316	0.057745687663555145	15
+188	santa_align	aligned	gpt2	 one of the fathers <unk> a fresh bandage on his hand he	 and	his	6.475013732910156	4.527263164520264	0.00036857635132037103	0.31923604011535645	15
+189	santa_align	aligned	gpt2	 of the fathers <unk> a fresh bandage on his hand he and	 sc	ruff	9.26585865020752	4.679780960083008	4.646627075999277e-06	0.06975480914115906	15
+190	santa_align	aligned	gpt2	 the fathers <unk> a fresh bandage on his hand he and sc	ott	had	4.955615997314453	6.600461959838867	2.901594780269079e-05	0.04695248231291771	15
+191	santa_align	aligned	gpt2	 fathers <unk> a fresh bandage on his hand he and scott	 nodded	at	9.88223648071289	4.76611328125	7.8690740338061e-05	0.09505154937505722	15
+192	santa_align	aligned	gpt2	 <unk> a fresh bandage on his hand he and scott nodded	 to	each	2.2213134765625	2.8105416297912598	0.00012372109631542116	0.5562450289726257	15
+193	santa_align	aligned	gpt2	unk> a fresh bandage on his hand he and scott nodded to	 each	other	0.7409526109695435	0.42904847860336304	7.294270471902564e-05	0.9199057817459106	15
+194	santa_align	aligned	gpt2	> a fresh bandage on his hand he and scott nodded to each	 other	.	0.05325208604335785	3.366844654083252	2.2428253942052834e-05	0.32170718908309937	15
+195	santa_align	aligned	gpt2	 a fresh bandage on his hand he and scott nodded to each other	 in	agreement	3.1959927082061768	4.622374057769775	0.00011316337622702122	0.13822680711746216	15
+196	santa_align	aligned	gpt2	 fresh bandage on his hand he and scott nodded to each other in	 a	friendly	2.3245630264282227	5.988647937774658	0.0001943896641023457	0.1144290640950203	15
+197	santa_align	aligned	gpt2	 bandage on his hand he and scott nodded to each other in a	 gesture	of	4.702390193939209	2.451695442199707	7.210926560219377e-05	0.5843119025230408	15
+198	santa_align	aligned	gpt2	age on his hand he and scott nodded to each other in a gesture	 of	respect	0.5526295304298401	4.947737693786621	8.39072308735922e-05	0.1462872326374054	15
+199	santa_align	aligned	gpt2	 on his hand he and scott nodded to each other in a gesture of	 solidarity	.	4.25593900680542	1.7320891618728638	8.111419447232038e-06	0.6581310033798218	15
+200	santa_align	aligned	gpt2	 his hand he and scott nodded to each other in a gesture of solidarity	 as	they	4.190677642822266	3.512375831604004	0.0003419201239012182	0.3513306677341461	15
+201	santa_align	aligned	gpt2	 hand he and scott nodded to each other in a gesture of solidarity as	 sc	ott	8.267463684082031	1.1473891735076904	5.054484972788487e-07	0.8385697603225708	15
+202	santa_align	aligned	gpt2	 he and scott nodded to each other in a gesture of solidarity as sc	ott	and	0.15533104538917542	6.195162773132324	1.4769912013434805e-05	0.06975389271974564	15
+203	santa_align	aligned	gpt2	 and scott nodded to each other in a gesture of solidarity as scott	 and	sc	2.7810535430908203	6.69269323348999	0.0013196638319641352	0.12916450202465057	15
+204	santa_align	aligned	gpt2	 scott nodded to each other in a gesture of solidarity as scott and	 char	l	9.205368995666504	4.926971912384033	3.4602776395331603e-06	0.1291944533586502	15
+205	santa_align	aligned	gpt2	ott nodded to each other in a gesture of solidarity as scott and char	lie	walked	1.633307933807373	6.108722686767578	1.446089186174504e-06	0.05652857944369316	15
+206	santa_align	aligned	gpt2	 nodded to each other in a gesture of solidarity as scott and charlie	 took	their	4.377991676330566	3.8021209239959717	7.256990556925302e-06	0.20434461534023285	15
+207	santa_align	aligned	gpt2	 to each other in a gesture of solidarity as scott and charlie took	 their	seats	1.9593607187271118	3.7733983993530273	8.244538912549615e-05	0.30878013372421265	15
+208	santa_align	aligned	gpt2	 each other in a gesture of solidarity as scott and charlie took their	 seats	.	1.09538733959198	2.9450604915618896	6.69443907099776e-05	0.24498769640922546	15
+209	santa_align	aligned	gpt2	 other in a gesture of solidarity as scott and charlie took their seats	 the	other	7.986574649810791	6.824479579925537	0.0006093935226090252	0.08091536164283752	15
+210	santa_align	aligned	gpt2	 in a gesture of solidarity as scott and charlie took their seats the	 host	ess	7.089962959289551	4.246076583862305	0.0024848105385899544	0.23423117399215698	15
+211	santa_align	aligned	gpt2	 a gesture of solidarity as scott and charlie took their seats the host	ess	and	1.4006649255752563	5.694240570068359	5.762328873970546e-05	0.07611902058124542	15
+212	santa_align	aligned	gpt2	 gesture of solidarity as scott and charlie took their seats the hostess	 handed	over	5.7743330001831055	3.475858449935913	7.581663794553606e-06	0.17400772869586945	15
+213	santa_align	aligned	gpt2	 of solidarity as scott and charlie took their seats the hostess handed	 them	a	1.820526123046875	3.6068971157073975	0.0003655626205727458	0.3372161090373993	15
+214	santa_align	aligned	gpt2	 solidarity as scott and charlie took their seats the hostess handed them	 menus	and	9.820271492004395	3.131962776184082	5.053752829553559e-06	0.25116539001464844	15
+215	santa_align	aligned	gpt2	 as scott and charlie took their seats the hostess handed them menus	 which	were	4.53012752532959	4.741960048675537	0.00017215721891261637	0.13338616490364075	15
+216	santa_align	aligned	gpt2	 scott and charlie took their seats the hostess handed them menus which	 char	med	8.216471672058105	1.9930340051651	1.2008034900645725e-05	0.4080118238925934	15
+217	santa_align	aligned	gpt2	ott and charlie took their seats the hostess handed them menus which char	lie	had	2.2172670364379883	5.200924396514893	2.1988213916301902e-08	0.14214970171451569	15
+218	santa_align	aligned	gpt2	 and charlie took their seats the hostess handed them menus which charlie	 <	>	13.95504379272461	6.612102031707764	0.0009117061854340136	0.06186498701572418	15
+219	santa_align	aligned	gpt2	 charlie took their seats the hostess handed them menus which charlie <	unk	>	11.000428199768066	5.457079887390137	0.0001277500850846991	0.1461588740348816	15
+220	santa_align	aligned	gpt2	lie took their seats the hostess handed them menus which charlie <unk	>	said	1.890415906906128	6.948149681091309	0.0003513819247018546	0.0601215586066246	15
+221	santa_align	aligned	gpt2	 took their seats the hostess handed them menus which charlie <unk>	 opened	the	9.288928031921387	3.7978177070617676	5.854154733242467e-05	0.22556740045547485	15
+222	santa_align	aligned	gpt2	 their seats the hostess handed them menus which charlie <unk> opened	 you	up	7.081546783447266	3.5260262489318848	0.00021590337564703077	0.44196414947509766	15
+223	santa_align	aligned	gpt2	 seats the hostess handed them menus which charlie <unk> opened you	 know	,	7.178993225097656	4.817863941192627	0.00014496450603473932	0.11980325728654861	15
+224	santa_align	aligned	gpt2	 the hostess handed them menus which charlie <unk> opened you know	 <	unk	3.527527332305908	7.191181182861328	0.00013149039295967668	0.06299344450235367	15
+225	santa_align	aligned	gpt2	 hostess handed them menus which charlie <unk> opened you know <	unk	>	2.8230371475219727	0.4740360379219055	2.692844134344341e-07	0.934412956237793	15
+226	santa_align	aligned	gpt2	ess handed them menus which charlie <unk> opened you know <unk	>	and	0.055841125547885895	6.264986515045166	0.00010764283069875091	0.1369781345129013	15
+227	santa_align	aligned	gpt2	 handed them menus which charlie <unk> opened you know <unk>	 a	menu	5.0934157371521	7.464715957641602	0.0006857629050500691	0.05715666711330414	15
+228	santa_align	aligned	gpt2	 them menus which charlie <unk> opened you know <unk> a	 real	menu	5.757098197937012	7.519398212432861	0.002605015179142356	0.036759473383426666	15
+229	santa_align	aligned	gpt2	 menus which charlie <unk> opened you know <unk> a real	 good	place	5.3581438064575195	6.782731533050537	0.0012918825959786773	0.0788857713341713	15
+230	santa_align	aligned	gpt2	 which charlie <unk> opened you know <unk> a real good	 cook	<	7.636980056762695	5.358426094055176	0.0010335722472518682	0.14537182450294495	15
+231	santa_align	aligned	gpt2	 charlie <unk> opened you know <unk> a real good cook	 he	he	6.577024936676025	5.099411964416504	0.0005682731862179935	0.09775537252426147	15
+232	santa_align	aligned	gpt2	lie <unk> opened you know <unk> a real good cook he	 said	<	4.405128002166748	3.323215961456299	0.00043229563743807375	0.522605836391449	15
+233	santa_align	aligned	gpt2	 <unk> opened you know <unk> a real good cook he said	 <	unk	0.7105342745780945	2.875985622406006	8.755614544497803e-05	0.6677495837211609	15
+234	santa_align	aligned	gpt2	unk> opened you know <unk> a real good cook he said <	unk	>	0.5564509630203247	0.021101586520671844	8.99593954883926e-10	0.9980117082595825	15
+235	santa_align	aligned	gpt2	> opened you know <unk> a real good cook he said <unk	>	he	0.004237719811499119	5.886231899261475	7.156974606914446e-05	0.05583719164133072	15
+236	santa_align	aligned	gpt2	 opened you know <unk> a real good cook he said <unk>	 his	name	5.578306674957275	6.847328186035156	0.0006256368942558765	0.11246589571237564	15
+237	santa_align	aligned	gpt2	 you know <unk> a real good cook he said <unk> his	 father	was	4.864345073699951	4.752714157104492	6.257846689550206e-05	0.128453329205513	15
+238	santa_align	aligned	gpt2	 know <unk> a real good cook he said <unk> his father	 above	<	11.533931732177734	4.944849967956543	0.00021879732958041131	0.15001460909843445	15
+239	santa_align	aligned	gpt2	 <unk> a real good cook he said <unk> his father above	 the	law	3.5447490215301514	7.196593284606934	0.0002367967099417001	0.033636122941970825	15
+240	santa_align	aligned	gpt2	unk> a real good cook he said <unk> his father above the	 menu	<	7.868680477142334	4.459473133087158	0.003847130574285984	0.3541956841945648	15
+241	santa_align	aligned	gpt2	> a real good cook he said <unk> his father above the menu	 sc	ott	9.885801315307617	5.761017322540283	6.176903298182879e-06	0.0908282995223999	15
+242	santa_align	aligned	gpt2	 a real good cook he said <unk> his father above the menu sc	ott	<	2.794107437133789	6.880205154418945	0.000104360151453875	0.07672682404518127	15
+243	santa_align	aligned	gpt2	 real good cook he said <unk> his father above the menu scott	 gave	him	5.573497772216797	3.160309314727783	3.0481665817205794e-05	0.40010350942611694	15
+244	santa_align	aligned	gpt2	 good cook he said <unk> his father above the menu scott gave	 a	good	3.2964324951171875	7.07633638381958	0.0005940576083958149	0.03881746903061867	15
+245	santa_align	aligned	gpt2	 cook he said <unk> his father above the menu scott gave a	 sn	ide	7.489481449127197	2.565117597579956	6.40555640529783e-07	0.3526661992073059	15
+246	santa_align	aligned	gpt2	 he said <unk> his father above the menu scott gave a sn	ort	<	1.9092893600463867	3.244724988937378	2.7827022108795063e-07	0.33272430300712585	15
+247	santa_align	aligned	gpt2	 said <unk> his father above the menu scott gave a snort	 at	the	2.664936065673828	4.30762243270874	0.0003912954998668283	0.16203799843788147	15
+248	santa_align	aligned	gpt2	 <unk> his father above the menu scott gave a snort at	 the	top	1.740769624710083	7.475163459777832	0.00034963656798936427	0.02369771897792816	15
+249	santa_align	aligned	gpt2	unk> his father above the menu scott gave a snort at the	 mention	of	5.89442777633667	1.096994400024414	1.6611777027719654e-05	0.8764037489891052	15
+250	santa_align	aligned	gpt2	> his father above the menu scott gave a snort at the mention	 of	the	0.09874629974365234	6.39132022857666	0.00011332001304253936	0.1394803524017334	15
+251	santa_align	aligned	gpt2	 his father above the menu scott gave a snort at the mention of	 his	father	2.598118543624878	5.336952209472656	0.00021952055976726115	0.1741362363100052	15
+252	santa_align	aligned	gpt2	 father above the menu scott gave a snort at the mention of his	 ex	-	6.564662933349609	1.6666274070739746	0.00016358283755835146	0.7864901423454285	15
+253	santa_align	aligned	gpt2	 above the menu scott gave a snort at the mention of his ex	 wife	.	5.837182521820068	3.646873950958252	0.00021985806233715266	0.2946545481681824	15
+254	santa_align	aligned	gpt2	 the menu scott gave a snort at the mention of his ex wife	's	name	2.162661075592041	6.673480987548828	6.305360147962347e-05	0.19374769926071167	15
+255	santa_align	aligned	gpt2	 menu scott gave a snort at the mention of his ex wife's	 new	name	5.804415702819824	6.695067405700684	0.00109536899253726	0.05532630905508995	15
+256	santa_align	aligned	gpt2	 scott gave a snort at the mention of his ex wife's new	 boyfriend	.	3.1531894207000732	2.9810757637023926	3.196342004230246e-05	0.3688628673553467	15
+257	santa_align	aligned	gpt2	ott gave a snort at the mention of his ex wife's new boyfriend	 yeah	,	15.24477481842041	4.930528163909912	0.011140340007841587	0.21011137962341309	15
+258	santa_align	aligned	gpt2	 gave a snort at the mention of his ex wife's new boyfriend yeah	 and	he	4.241741180419922	5.722838401794434	0.000832206686027348	0.09811189025640488	15
+259	santa_align	aligned	gpt2	 a snort at the mention of his ex wife's new boyfriend yeah and	 you	know	4.22246789932251	4.715795516967773	0.000130101791000925	0.1372835785150528	15
+260	santa_align	aligned	gpt2	 snort at the mention of his ex wife's new boyfriend yeah and you	 should	be	4.29463529586792	5.144608020782471	0.00027526894700713456	0.08169573545455933	15
+261	santa_align	aligned	gpt2	ort at the mention of his ex wife's new boyfriend yeah and you should	 see	her	3.5155935287475586	4.229457855224609	0.00014593309606425464	0.10999879240989685	15
+262	santa_align	aligned	gpt2	 at the mention of his ex wife's new boyfriend yeah and you should see	 him	in	2.4508612155914307	5.764057159423828	0.00011661226744763553	0.08933928608894348	15
+263	santa_align	aligned	gpt2	 the mention of his ex wife's new boyfriend yeah and you should see him	 walk	out	6.646852493286133	3.675424098968506	5.5110394896473736e-05	0.117819644510746	15
+264	santa_align	aligned	gpt2	 mention of his ex wife's new boyfriend yeah and you should see him walk	 on	the	4.126465797424316	3.840099811553955	0.0011426325654610991	0.318509578704834	15
+265	santa_align	aligned	gpt2	 of his ex wife's new boyfriend yeah and you should see him walk on	 water	.	4.33121395111084	5.380388259887695	0.0002667023509275168	0.10552075505256653	15
+266	santa_align	aligned	gpt2	 his ex wife's new boyfriend yeah and you should see him walk on water	 you	know	4.59101676940918	4.586859703063965	0.0004832461418118328	0.23161950707435608	15
+267	santa_align	aligned	gpt2	 ex wife's new boyfriend yeah and you should see him walk on water you	 don	't	3.9897329807281494	0.020375549793243408	4.4232191953597066e-07	0.998153030872345	15
+268	santa_align	aligned	gpt2	 wife's new boyfriend yeah and you should see him walk on water you don	't	want	0.0020672159735113382	3.6352992057800293	1.3748391211265698e-05	0.17829552292823792	15
+269	santa_align	aligned	gpt2	's new boyfriend yeah and you should see him walk on water you don't	 like	him	3.9197163581848145	5.190021991729736	0.00157125573605299	0.10253738611936569	15
+270	santa_align	aligned	gpt2	 new boyfriend yeah and you should see him walk on water you don't like	 him	and	2.1974287033081055	5.666311264038086	0.0003063887997996062	0.05760069191455841	15
+271	santa_align	aligned	gpt2	 boyfriend yeah and you should see him walk on water you don't like him	 very	much	5.774225234985352	0.731903612613678	0.0009695416083559394	0.9003998041152954	15
+272	santa_align	aligned	gpt2	 yeah and you should see him walk on water you don't like him very	 much	.	0.0711815282702446	4.074113368988037	0.00032634471426717937	0.26206275820732117	15
+273	santa_align	aligned	gpt2	 and you should see him walk on water you don't like him very much	 do	you	6.883720397949219	1.4947041273117065	0.00022594504116568714	0.7991810441017151	15
+274	santa_align	aligned	gpt2	 you should see him walk on water you don't like him very much do	 you	?	0.19086094200611115	2.4367032051086426	0.0008164778701029718	0.5162272453308105	15
+275	santa_align	aligned	gpt2	 should see him walk on water you don't like him very much do you	 dad	?	11.558432579040527	3.8910491466522217	9.60351899266243e-05	0.28558313846588135	15
+276	santa_align	aligned	gpt2	 see him walk on water you don't like him very much do you dad	 a	favor	5.704291343688965	0.7820765376091003	2.3881601009634323e-05	0.8781048655509949	15
+277	santa_align	aligned	gpt2	 him walk on water you don't like him very much do you dad a	 tall	order	13.089681625366211	6.00178337097168	0.007314363494515419	0.06804047524929047	15
+278	santa_align	aligned	gpt2	 walk on water you don't like him very much do you dad a tall	 waitress	?	12.713849067687988	5.316915035247803	0.0011609139619395137	0.11491334438323975	15
+279	santa_align	aligned	gpt2	 on water you don't like him very much do you dad a tall waitress	 with	a	4.249600410461426	4.871912479400635	5.949379919911735e-05	0.34817856550216675	15
+280	santa_align	aligned	gpt2	 water you don't like him very much do you dad a tall waitress with	 <	a	12.551298141479492	6.153311252593994	6.0517864767462015e-05	0.0742514580488205	15
+281	santa_align	aligned	gpt2	 you don't like him very much do you dad a tall waitress with <	unk	now	12.290637969970703	4.18887186050415	1.4698396626044996e-05	0.314453125	15
+282	santa_align	aligned	gpt2	 don't like him very much do you dad a tall waitress with <unk	>	a	2.194143056869507	7.2855634689331055	0.000544946058653295	0.11033027619123459	15
+283	santa_align	aligned	gpt2	't like him very much do you dad a tall waitress with <unk>	 hair	and	3.77181077003479	4.846307754516602	0.001782214967533946	0.1540110558271408	15
+284	santa_align	aligned	gpt2	 like him very much do you dad a tall waitress with <unk> hair	 approached	me	13.215856552124023	3.5394859313964844	4.569186330627417e-06	0.17464545369148254	15
+285	santa_align	aligned	gpt2	 him very much do you dad a tall waitress with <unk> hair approached	 the	bar	3.0187110900878906	6.29461145401001	0.0002894812205340713	0.08706715703010559	15
+286	santa_align	aligned	gpt2	 very much do you dad a tall waitress with <unk> hair approached the	 table	and	2.975682497024536	3.591723918914795	0.00014226423809304833	0.2549670338630676	15
+287	santa_align	aligned	gpt2	 much do you dad a tall waitress with <unk> hair approached the table	 with	a	2.4933879375457764	4.156965255737305	6.551390833919868e-05	0.32628610730171204	15
+288	santa_align	aligned	gpt2	 do you dad a tall waitress with <unk> hair approached the table with	 an	open	3.2020978927612305	6.199265003204346	0.0011657478753477335	0.04700036719441414	15
+289	santa_align	aligned	gpt2	 you dad a tall waitress with <unk> hair approached the table with an	 order	for	5.764519214630127	2.815730094909668	0.000308393471641466	0.21613217890262604	15
+290	santa_align	aligned	gpt2	 dad a tall waitress with <unk> hair approached the table with an order	 pad	.	10.982544898986816	3.504387378692627	0.00027292966842651367	0.26127055287361145	15
+291	santa_align	aligned	gpt2	 a tall waitress with <unk> hair approached the table with an order pad	 coffee	.	11.944711685180664	3.4351534843444824	0.0006958767189644277	0.3323774039745331	15
+292	santa_align	aligned	gpt2	 tall waitress with <unk> hair approached the table with an order pad coffee	 the	other	7.754626750946045	5.059414863586426	0.00042198257870040834	0.1312815099954605	15
+293	santa_align	aligned	gpt2	 waitress with <unk> hair approached the table with an order pad coffee the	 smile	was	9.971309661865234	4.626224517822266	3.246516644139774e-05	0.18622459471225739	15
+294	santa_align	aligned	gpt2	 with <unk> hair approached the table with an order pad coffee the smile	 returned	.	5.6542863845825195	2.8974225521087646	2.4782459604466567e-06	0.40894556045532227	15
+295	santa_align	aligned	gpt2	 <unk> hair approached the table with an order pad coffee the smile returned	 to	her	2.1265463829040527	3.8344614505767822	0.00018018385162577033	0.2742213010787964	15
+296	santa_align	aligned	gpt2	unk> hair approached the table with an order pad coffee the smile returned to	 sc	run	9.769601821899414	2.30513596534729	1.0159379826291115e-07	0.39034542441368103	15
+297	santa_align	aligned	gpt2	> hair approached the table with an order pad coffee the smile returned to sc	ott	ish	8.173759460449219	2.0822627544403076	6.639969342359109e-06	0.6717538237571716	15
+298	santa_align	aligned	gpt2	 hair approached the table with an order pad coffee the smile returned to scott	's	face	6.289942264556885	2.2569122314453125	6.523311458295211e-05	0.6631311774253845	15
+299	santa_align	aligned	gpt2	 approached the table with an order pad coffee the smile returned to scott's	 face	.	0.3100804388523102	1.9203622341156006	3.764653956750408e-05	0.5802508592605591	15
+300	santa_align	aligned	gpt2	 the table with an order pad coffee the smile returned to scott's face	 no	longer	9.179754257202148	2.502896785736084	5.802118175779469e-05	0.48090335726737976	15
+301	santa_align	aligned	gpt2	 table with an order pad coffee the smile returned to scott's face no	 thank	you	10.93104362487793	0.595837414264679	5.071626219432801e-05	0.9070290923118591	15
+302	santa_align	aligned	gpt2	 with an order pad coffee the smile returned to scott's face no thank	 you	.	0.09441269189119339	4.099851131439209	0.0026764089707285166	0.36748093366622925	15
+303	santa_align	aligned	gpt2	 an order pad coffee the smile returned to scott's face no thank you	 sc	ott	8.522957801818848	0.3371821641921997	3.8763488419135683e-07	0.9545276761054993	15
+304	santa_align	aligned	gpt2	 order pad coffee the smile returned to scott's face no thank you sc	ott	.	0.04324094206094742	5.3646016120910645	1.7861195829027565e-06	0.1580071747303009	15
+305	santa_align	aligned	gpt2	 pad coffee the smile returned to scott's face no thank you scott	 paused	for	9.79417610168457	4.064925670623779	1.7673786715022288e-05	0.22075453400611877	15
+306	santa_align	aligned	gpt2	 coffee the smile returned to scott's face no thank you scott paused	 for	a	1.5793904066085815	0.804375946521759	0.00014414424367714673	0.9023225903511047	15
+307	santa_align	aligned	gpt2	 the smile returned to scott's face no thank you scott paused for	 a	moment	0.1027752235531807	1.2251191139221191	4.3728738091886044e-05	0.7045823931694031	15
+308	santa_align	aligned	gpt2	 smile returned to scott's face no thank you scott paused for a	 minute	and	3.979846239089966	4.025543212890625	1.1314978110021912e-05	0.1917286515235901	15
+309	santa_align	aligned	gpt2	 returned to scott's face no thank you scott paused for a minute	 as	he	3.2972564697265625	3.57743763923645	0.0010813346598297358	0.3416896164417267	15
+310	santa_align	aligned	gpt2	 to scott's face no thank you scott paused for a minute as	 he	looked	1.0485838651657104	5.380335807800293	0.0002786079130601138	0.10874351859092712	15
+311	santa_align	aligned	gpt2	 scott's face no thank you scott paused for a minute as he	 read	the	4.509436130523682	3.2841131687164307	6.80607627145946e-05	0.21583786606788635	15
+312	santa_align	aligned	gpt2	ott's face no thank you scott paused for a minute as he read	 her	a	4.090253829956055	5.959015846252441	0.001805736101232469	0.09279695898294449	15
+313	santa_align	aligned	gpt2	's face no thank you scott paused for a minute as he read her	 name	.	3.290403366088867	3.301509141921997	0.00010643021232681349	0.3458639979362488	15
+314	santa_align	aligned	gpt2	 face no thank you scott paused for a minute as he read her name	 tag	.	8.335886001586914	4.241667747497559	0.0019882521592080593	0.2021198570728302	15
+315	santa_align	aligned	gpt2	 no thank you scott paused for a minute as he read her name tag	 jud	icious	12.896681785583496	5.081826210021973	0.00011575476673897356	0.2331509292125702	15
+316	santa_align	aligned	gpt2	 thank you scott paused for a minute as he read her name tag jud	y	.	4.466817855834961	7.407914161682129	0.0005105148302391171	0.10316941887140274	15
+317	santa_align	aligned	gpt2	 you scott paused for a minute as he read her name tag judy	 what	she	7.8466477394104	4.688476085662842	0.0006250810693018138	0.20287635922431946	15
+318	santa_align	aligned	gpt2	 scott paused for a minute as he read her name tag judy what	 you	're	6.253083229064941	4.54050874710083	6.458492134697735e-05	0.05960141122341156	15
+319	santa_align	aligned	gpt2	ott paused for a minute as he read her name tag judy what you	 say	.	4.9013519287109375	3.5240488052368164	8.031787729123607e-06	0.29047033190727234	15
+320	santa_align	aligned	gpt2	 paused for a minute as he read her name tag judy what you say	 we	're	7.778225421905518	4.526324272155762	0.0002786118711810559	0.08821842819452286	15
+321	santa_align	aligned	gpt2	 for a minute as he read her name tag judy what you say we	 start	to	7.634026527404785	4.717572212219238	1.9162682292517275e-05	0.23710870742797852	15
+322	santa_align	aligned	gpt2	 a minute as he read her name tag judy what you say we start	 out	with	4.248508930206299	4.625799655914307	0.0007992924656718969	0.28842347860336304	15
+323	santa_align	aligned	gpt2	 minute as he read her name tag judy what you say we start out	 with	a	1.3006973266601562	5.910390853881836	0.001171858748421073	0.08735939860343933	15
+324	santa_align	aligned	gpt2	 as he read her name tag judy what you say we start out with	 cold	and	9.333517074584961	6.340970039367676	0.0022502916399389505	0.07964692264795303	15
+325	santa_align	aligned	gpt2	 he read her name tag judy what you say we start out with cold	 glasses	and	8.449915885925293	4.745521068572998	0.0008822939707897604	0.23752906918525696	15
+326	santa_align	aligned	gpt2	 read her name tag judy what you say we start out with cold glasses	 of	water	3.0165910720825195	6.175360202789307	0.0001238758850377053	0.11615215241909027	15
+327	santa_align	aligned	gpt2	 her name tag judy what you say we start out with cold glasses of	 that	kind	6.849516868591309	7.05128288269043	0.0012470966903492808	0.07392645627260208	15
+328	santa_align	aligned	gpt2	 name tag judy what you say we start out with cold glasses of that	 delicious	beer	6.091936111450195	7.015057563781738	0.001416100189089775	0.02738063782453537	15
+329	santa_align	aligned	gpt2	 tag judy what you say we start out with cold glasses of that delicious	 seasonal	beer	9.471662521362305	6.397080421447754	0.0017651607049629092	0.05531536042690277	15
+330	santa_align	aligned	gpt2	 judy what you say we start out with cold glasses of that delicious seasonal	 favorite	.	6.593713760375977	4.583077430725098	5.460054308059625e-05	0.2278960943222046	15
+331	santa_align	aligned	gpt2	y what you say we start out with cold glasses of that delicious seasonal favorite	 egg	plant	9.240167617797852	4.553833961486816	0.0007033223519101739	0.17424288392066956	15
+332	santa_align	aligned	gpt2	 what you say we start out with cold glasses of that delicious seasonal favorite egg	n	og	3.8551955223083496	0.025152970105409622	2.987216873862053e-08	0.9977834820747375	15
+333	santa_align	aligned	gpt2	 you say we start out with cold glasses of that delicious seasonal favorite eggn	og	,	0.001686461502686143	4.325363636016846	3.349267899466213e-06	0.20928795635700226	15
+334	santa_align	aligned	gpt2	 say we start out with cold glasses of that delicious seasonal favorite eggnog	 char	cut	12.65650749206543	4.495957851409912	2.380753358011134e-05	0.15331391990184784	15
+335	santa_align	aligned	gpt2	 we start out with cold glasses of that delicious seasonal favorite eggnog char	lie	.	7.000265598297119	5.154094219207764	4.213900410832139e-06	0.15503589808940887	15
+336	santa_align	aligned	gpt2	 start out with cold glasses of that delicious seasonal favorite eggnog charlie	 had	.	9.353201866149902	5.596410274505615	0.0025347070768475533	0.06789729744195938	15
+337	santa_align	aligned	gpt2	 out with cold glasses of that delicious seasonal favorite eggnog charlie had	 just	been	3.400712013244629	4.899245738983154	0.0018799988320097327	0.2277406007051468	15
+338	santa_align	aligned	gpt2	 with cold glasses of that delicious seasonal favorite eggnog charlie had just	 begun	to	4.759222507476807	2.305527448654175	3.619320239067747e-07	0.6663320660591125	15
+339	santa_align	aligned	gpt2	 cold glasses of that delicious seasonal favorite eggnog charlie had just begun	 to	melt	0.37172552943229675	5.826563835144043	0.0002047609887085855	0.06096040457487106	15
+340	santa_align	aligned	gpt2	 glasses of that delicious seasonal favorite eggnog charlie had just begun to	 protest	.	11.034233093261719	3.599106550216675	8.546753633709159e-06	0.2900548577308655	15
+341	santa_align	aligned	gpt2	 of that delicious seasonal favorite eggnog charlie had just begun to protest	 that	it	3.878182888031006	5.4427289962768555	0.0016090143471956253	0.10321513563394547	15
+342	santa_align	aligned	gpt2	 that delicious seasonal favorite eggnog charlie had just begun to protest that	 he	was	3.1636269092559814	3.3291149139404297	7.81087510404177e-05	0.28738170862197876	15
+343	santa_align	aligned	gpt2	 delicious seasonal favorite eggnog charlie had just begun to protest that he	 didn	't	2.9951353073120117	0.009444858878850937	1.0578967035712594e-08	0.9991734623908997	15
+344	santa_align	aligned	gpt2	 seasonal favorite eggnog charlie had just begun to protest that he didn	't	want	0.0008417400531470776	3.945990562438965	3.226699163860758e-06	0.1571030467748642	15
+345	santa_align	aligned	gpt2	 favorite eggnog charlie had just begun to protest that he didn't	 like	the	2.357304573059082	5.202187538146973	6.891995872138068e-05	0.2113780528306961	15
+346	santa_align	aligned	gpt2	 eggnog charlie had just begun to protest that he didn't like	 egg	n	9.004999160766602	2.5402169227600098	0.00012155839067418128	0.6600587964057922	15
+347	santa_align	aligned	gpt2	nog charlie had just begun to protest that he didn't like egg	n	og	3.2038424015045166	0.01750878617167473	4.272864284615707e-09	0.9982004165649414	15
+348	santa_align	aligned	gpt2	og charlie had just begun to protest that he didn't like eggn	og	.	0.004532658960670233	4.522415637969971	2.1436926544993185e-06	0.27520275115966797	15
+349	santa_align	aligned	gpt2	 charlie had just begun to protest that he didn't like eggnog	 when	he	5.816314697265625	3.3269777297973633	0.0002184204786317423	0.4003834128379822	15
+350	santa_align	aligned	gpt2	lie had just begun to protest that he didn't like eggnog when	 jud	o	14.643826484680176	3.571063280105591	1.5563011402264237e-05	0.305866003036499	15
+351	santa_align	aligned	gpt2	 had just begun to protest that he didn't like eggnog when jud	y	was	4.9516682624816895	7.349203109741211	2.1760817617177963e-05	0.07867085188627243	15
+352	santa_align	aligned	gpt2	 just begun to protest that he didn't like eggnog when judy	 interrupted	him	10.196762084960938	2.695033073425293	3.238676981709432e-06	0.40643444657325745	15
+353	santa_align	aligned	gpt2	 begun to protest that he didn't like eggnog when judy interrupted	 him	.	1.0570814609527588	3.1360721588134766	2.704879443626851e-05	0.28989526629447937	15
+354	santa_align	aligned	gpt2	 to protest that he didn't like eggnog when judy interrupted him	 we	arily	10.174195289611816	5.523565292358398	0.00047707141493447125	0.07054001837968826	15
+355	santa_align	aligned	gpt2	 protest that he didn't like eggnog when judy interrupted him we	're	going	4.094865322113037	5.0440263748168945	8.728006832825486e-06	0.11534559726715088	15
+356	santa_align	aligned	gpt2	 that he didn't like eggnog when judy interrupted him we're	 out	of	4.8628764152526855	3.109621047973633	0.0002798165660351515	0.47560539841651917	15
+357	santa_align	aligned	gpt2	 he didn't like eggnog when judy interrupted him we're out	 sc	ot	8.417998313903809	3.3657684326171875	5.152052722223743e-07	0.28527846932411194	15
+358	santa_align	aligned	gpt2	 didn't like eggnog when judy interrupted him we're out sc	ott	in	3.8471713066101074	4.748887538909912	7.838312740204856e-06	0.2234465777873993	15
+359	santa_align	aligned	gpt2	't like eggnog when judy interrupted him we're out scott	 shrugged	it	15.322433471679688	3.821550130844116	1.6404435882577673e-05	0.1785762757062912	15
+360	santa_align	aligned	gpt2	 like eggnog when judy interrupted him we're out scott shrugged	 then	he	7.245884895324707	6.490134239196777	0.0024995412677526474	0.042526599019765854	15
+361	santa_align	aligned	gpt2	 eggnog when judy interrupted him we're out scott shrugged then	 i	went	6.327688694000244	5.9428324699401855	6.723953265463933e-05	0.03286875784397125	15
+362	santa_align	aligned	gpt2	nog when judy interrupted him we're out scott shrugged then i	'll	go	3.9087045192718506	5.32313346862793	7.402808842016384e-05	0.07493653893470764	15
+363	santa_align	aligned	gpt2	og when judy interrupted him we're out scott shrugged then i'll	 take	it	3.417836904525757	3.7834527492523193	4.95469466841314e-05	0.15156833827495575	15
+364	santa_align	aligned	gpt2	 when judy interrupted him we're out scott shrugged then i'll take	 a	look	1.9244667291641235	5.330479145050049	0.00018540812015999109	0.13734878599643707	15
+365	santa_align	aligned	gpt2	 judy interrupted him we're out scott shrugged then i'll take a	 dec	oy	9.40982437133789	4.197532653808594	7.1493232098873705e-06	0.351712167263031	15
+366	santa_align	aligned	gpt2	y interrupted him we're out scott shrugged then i'll take a dec	af	.	4.207698822021484	7.108072280883789	4.8751389840617776e-05	0.03895459324121475	15
+367	santa_align	aligned	gpt2	 interrupted him we're out scott shrugged then i'll take a decaf	 coffee	and	5.245404243469238	4.581492900848389	0.00026524413260631263	0.1842060387134552	15
+368	santa_align	aligned	gpt2	 him we're out scott shrugged then i'll take a decaf coffee	 and	a	1.6120431423187256	6.243680953979492	0.0010385781060904264	0.04594167694449425	15
+369	santa_align	aligned	gpt2	 we're out scott shrugged then i'll take a decaf coffee and	 turkey	.	11.273554801940918	5.59568977355957	0.0006102217012085021	0.09821135550737381	15
+370	santa_align	aligned	gpt2	're out scott shrugged then i'll take a decaf coffee and turkey	 club	.	9.71147632598877	4.856780529022217	8.455084025627002e-05	0.1876610964536667	15
+371	santa_align	aligned	gpt2	 out scott shrugged then i'll take a decaf coffee and turkey club	 she	said	8.318058967590332	5.607306957244873	0.00029069557785987854	0.12858043611049652	15
+372	santa_align	aligned	gpt2	 scott shrugged then i'll take a decaf coffee and turkey club she	 turned	to	5.284884452819824	3.8067915439605713	0.0002347635745536536	0.1387205272912979	15
+373	santa_align	aligned	gpt2	ott shrugged then i'll take a decaf coffee and turkey club she turned	 to	me	2.0987021923065186	3.775235891342163	0.00019009440438821912	0.41921401023864746	15
+374	santa_align	aligned	gpt2	 shrugged then i'll take a decaf coffee and turkey club she turned to	 char	lie	11.051156997680664	3.414522409439087	2.0789295831491472e-06	0.2753731608390808	15
+375	santa_align	aligned	gpt2	 then i'll take a decaf coffee and turkey club she turned to char	lie	and	1.8213889598846436	5.275951385498047	3.0455899832304567e-05	0.22915644943714142	15
+376	santa_align	aligned	gpt2	 i'll take a decaf coffee and turkey club she turned to charlie	 i	'll	7.044561862945557	5.320921421051025	8.500787953380495e-05	0.07609408348798752	15
+377	santa_align	aligned	gpt2	'll take a decaf coffee and turkey club she turned to charlie i	'll	take	5.4522705078125	4.601198673248291	3.96809664380271e-05	0.22777868807315826	15
+378	santa_align	aligned	gpt2	 take a decaf coffee and turkey club she turned to charlie i'll	 have	to	3.4839465618133545	3.3347275257110596	6.539643072756007e-05	0.285757452249527	15
+379	santa_align	aligned	gpt2	 a decaf coffee and turkey club she turned to charlie i'll have	 a	good	2.3074190616607666	6.288758754730225	0.0004034265875816345	0.03538000211119652	15
+380	santa_align	aligned	gpt2	 decaf coffee and turkey club she turned to charlie i'll have a	 chocolate	bar	7.172816753387451	5.90342378616333	0.0015207191463559866	0.14924567937850952	15
+381	santa_align	aligned	gpt2	af coffee and turkey club she turned to charlie i'll have a chocolate	 milk	and	5.3473310470581055	6.025374889373779	0.0026111314073204994	0.06404769420623779	15
+382	santa_align	aligned	gpt2	 coffee and turkey club she turned to charlie i'll have a chocolate milk	 and	a	2.643235683441162	5.946576118469238	0.0007178823580034077	0.06033201515674591	15
+383	santa_align	aligned	gpt2	 and turkey club she turned to charlie i'll have a chocolate milk and	 we	'll	6.122734546661377	2.405982494354248	6.672530435025692e-05	0.5586103796958923	15
+384	santa_align	aligned	gpt2	 turkey club she turned to charlie i'll have a chocolate milk and we	're	going	2.622425079345703	4.309744834899902	5.600448730547214e-06	0.2714443504810333	15
+385	santa_align	aligned	gpt2	 club she turned to charlie i'll have a chocolate milk and we're	 out	of	4.722249507904053	4.486260890960693	0.0005823306273669004	0.19897282123565674	15
+386	santa_align	aligned	gpt2	 she turned to charlie i'll have a chocolate milk and we're out	 jud	icious	14.565312385559082	6.021435737609863	8.650015661260113e-05	0.06424429267644882	15
+387	santa_align	aligned	gpt2	 turned to charlie i'll have a chocolate milk and we're out jud	y	and	3.0816221237182617	6.5911030769348145	0.0005542716244235635	0.061856649816036224	15
+388	santa_align	aligned	gpt2	 to charlie i'll have a chocolate milk and we're out judy	 interrupted	by	12.66484260559082	3.876248836517334	8.064446774369571e-06	0.39639899134635925	15
+389	santa_align	aligned	gpt2	 charlie i'll have a chocolate milk and we're out judy interrupted	 again	.	5.523204803466797	4.544010639190674	0.001758512225933373	0.20254428684711456	15
+390	santa_align	aligned	gpt2	lie i'll have a chocolate milk and we're out judy interrupted again	 and	again	2.8795852661132812	3.9626100063323975	0.000407787854783237	0.4495231807231903	15
+391	santa_align	aligned	gpt2	 i'll have a chocolate milk and we're out judy interrupted again and	 char	med	13.07671070098877	4.697634696960449	3.126717638224363e-05	0.30187559127807617	15
+392	santa_align	aligned	gpt2	'll have a chocolate milk and we're out judy interrupted again and char	lie	is	4.836143493652344	6.257044792175293	9.154426834356855e-07	0.10933688282966614	15
+393	santa_align	aligned	gpt2	 have a chocolate milk and we're out judy interrupted again and charlie	 <	3	11.237643241882324	5.233962535858154	0.0005792026640847325	0.3070347011089325	15
+394	santa_align	aligned	gpt2	 a chocolate milk and we're out judy interrupted again and charlie <	unk	now	11.48306655883789	4.961830139160156	6.383246363839135e-05	0.16126729547977448	15
+395	santa_align	aligned	gpt2	 chocolate milk and we're out judy interrupted again and charlie <unk	>	I	2.4012155532836914	6.998349189758301	0.00012313993647694588	0.038177166134119034	15
+396	santa_align	aligned	gpt2	 milk and we're out judy interrupted again and charlie <unk>	 plain	ol	10.052703857421875	6.791080474853516	0.0006256245542317629	0.05867616832256317	15
+397	santa_align	aligned	gpt2	 and we're out judy interrupted again and charlie <unk> plain	 <	unk	4.805846214294434	6.2438883781433105	9.969084203476086e-05	0.1964089274406433	15
+398	santa_align	aligned	gpt2	 we're out judy interrupted again and charlie <unk> plain <	unk	>	1.5668818950653076	0.15475213527679443	8.107458171480175e-08	0.9830719232559204	15
+399	santa_align	aligned	gpt2	're out judy interrupted again and charlie <unk> plain <unk	>	I	0.0146369943395257	6.811858654022217	6.620900239795446e-05	0.034371767193078995	15
+400	santa_align	aligned	gpt2	 out judy interrupted again and charlie <unk> plain <unk>	 fine	<	8.018601417541504	3.7270758152008057	0.003771998453885317	0.3445601463317871	15
+401	santa_align	aligned	gpt2	 judy interrupted again and charlie <unk> plain <unk> fine	 and	good	4.3119120597839355	6.099082946777344	0.0009411014034412801	0.07782038301229477	15
+402	santa_align	aligned	gpt2	y interrupted again and charlie <unk> plain <unk> fine and	 chicken	<	10.491225242614746	5.844909191131592	0.006371321156620979	0.18991027772426605	15
+403	santa_align	aligned	gpt2	 interrupted again and charlie <unk> plain <unk> fine and chicken	 fingers	<	7.483260154724121	4.8592729568481445	0.0002960851415991783	0.2963172197341919	15
+404	santa_align	aligned	gpt2	 again and charlie <unk> plain <unk> fine and chicken fingers	 jud	icious	12.132829666137695	5.2137064933776855	1.5081103811098728e-05	0.08805880695581436	15
+405	santa_align	aligned	gpt2	 and charlie <unk> plain <unk> fine and chicken fingers jud	y	<	2.655902862548828	5.115522384643555	0.00039531709626317024	0.42649078369140625	15
+406	santa_align	aligned	gpt2	 charlie <unk> plain <unk> fine and chicken fingers judy	 collected	<	11.437557220458984	6.804444789886475	0.00010012370330514386	0.03831057995557785	15
+407	santa_align	aligned	gpt2	lie <unk> plain <unk> fine and chicken fingers judy collected	 their	food	6.590525150299072	7.116648197174072	7.776360143907368e-05	0.04766875132918358	15
+408	santa_align	aligned	gpt2	 <unk> plain <unk> fine and chicken fingers judy collected their	 menus	and	10.657604217529297	4.676985740661621	6.141818448668346e-05	0.1375843733549118	15
+409	santa_align	aligned	gpt2	unk> plain <unk> fine and chicken fingers judy collected their menus	 and	ate	2.1913206577301025	6.942464828491211	0.000524662435054779	0.029248714447021484	15
+410	santa_align	aligned	gpt2	> plain <unk> fine and chicken fingers judy collected their menus and	 <	unk	8.94693374633789	5.344291687011719	0.00013568546273745596	0.2798677384853363	15
+411	santa_align	aligned	gpt2	 plain <unk> fine and chicken fingers judy collected their menus and <	unk	>	1.6776249408721924	0.39169076085090637	2.8405966645550507e-07	0.9479499459266663	15
+412	santa_align	aligned	gpt2	 <unk> fine and chicken fingers judy collected their menus and <unk	>	they	0.03171956539154053	6.988952159881592	4.2539566493360326e-05	0.036597803235054016	15
+413	santa_align	aligned	gpt2	unk> fine and chicken fingers judy collected their menus and <unk>	 off	to	8.178330421447754	4.732662200927734	0.0015478413552045822	0.1786538064479828	15
+414	santa_align	aligned	gpt2	> fine and chicken fingers judy collected their menus and <unk> off	 toward	the	8.577596664428711	4.511835098266602	7.548224402853521e-06	0.4613075256347656	15
+415	santa_align	aligned	gpt2	 fine and chicken fingers judy collected their menus and <unk> off toward	 the	end	0.6273520588874817	7.003365993499756	0.0005722674541175365	0.057713937014341354	15
+416	santa_align	aligned	gpt2	 and chicken fingers judy collected their menus and <unk> off toward the	 kitchen	.	3.209261894226074	3.3249123096466064	0.0031750318594276905	0.4285796880722046	15
+417	santa_align	aligned	gpt2	 chicken fingers judy collected their menus and <unk> off toward the kitchen	 the	next	6.83464241027832	6.711404800415039	0.00038493683678098023	0.16614601016044617	15
+418	santa_align	aligned	gpt2	 fingers judy collected their menus and <unk> off toward the kitchen the	 two	of	5.095470428466797	6.853610038757324	0.0010940864449366927	0.10249575972557068	15
+419	santa_align	aligned	gpt2	 judy collected their menus and <unk> off toward the kitchen the two	 sat	down	5.375197410583496	3.204071521759033	9.020465950015932e-05	0.4073146879673004	15
+420	santa_align	aligned	gpt2	y collected their menus and <unk> off toward the kitchen the two sat	 in	silence	2.6466164588928223	3.446331262588501	0.0003513890551403165	0.2481149584054947	15
+421	santa_align	aligned	gpt2	 collected their menus and <unk> off toward the kitchen the two sat in	 silence	.	1.5003260374069214	2.864088296890259	6.323150591924787e-05	0.337026983499527	15
+422	santa_align	aligned	gpt2	 their menus and <unk> off toward the kitchen the two sat in silence	 for	a	1.7074426412582397	2.1597509384155273	0.0003470934752840549	0.6314932703971863	15
+423	santa_align	aligned	gpt2	 menus and <unk> off toward the kitchen the two sat in silence for	 a	while	0.43539077043533325	2.334704637527466	7.303218444576487e-05	0.36493101716041565	15
+424	santa_align	aligned	gpt2	 and <unk> off toward the kitchen the two sat in silence for a	 minute	or	3.846888780593872	2.3545212745666504	3.856576313410187e-06	0.38612228631973267	15
+425	santa_align	aligned	gpt2	 <unk> off toward the kitchen the two sat in silence for a minute	 sc	ow	10.932497024536133	2.8934249877929688	3.7449541423484334e-07	0.4247067868709564	15
+426	santa_align	aligned	gpt2	unk> off toward the kitchen the two sat in silence for a minute sc	ott	ishly	6.071584701538086	2.1414411067962646	3.360954394793225e-07	0.6285147666931152	15
+427	santa_align	aligned	gpt2	> off toward the kitchen the two sat in silence for a minute scott	 put	his	14.576863288879395	3.575836658477783	0.0002000176318688318	0.2854662239551544	15
+428	santa_align	aligned	gpt2	 off toward the kitchen the two sat in silence for a minute scott put	 his	hand	1.5055279731750488	4.072972774505615	0.00011166185868205503	0.26913437247276306	15
+429	santa_align	aligned	gpt2	 toward the kitchen the two sat in silence for a minute scott put his	 palms	together	6.656208038330078	2.3513753414154053	0.00016691703058313578	0.30810248851776123	15
+430	santa_align	aligned	gpt2	 the kitchen the two sat in silence for a minute scott put his palms	 down	on	2.703756332397461	2.5177714824676514	0.0008606932824477553	0.3958883583545685	15
+431	santa_align	aligned	gpt2	 kitchen the two sat in silence for a minute scott put his palms down	 on	the	0.9862574338912964	1.7636432647705078	2.7290332582197152e-05	0.4909745156764984	15
+432	santa_align	aligned	gpt2	 the two sat in silence for a minute scott put his palms down on	 the	table	0.7495477795600891	4.286002159118652	0.00020207716443110257	0.39907267689704895	15
+433	santa_align	aligned	gpt2	 two sat in silence for a minute scott put his palms down on the	 table	and	0.9252636432647705	2.742882013320923	0.0008105167653411627	0.30110013484954834	15
+434	santa_align	aligned	gpt2	 sat in silence for a minute scott put his palms down on the table	 look	at	11.577190399169922	3.291008710861206	0.00011848768190247938	0.4431152045726776	15
+435	santa_align	aligned	gpt2	 in silence for a minute scott put his palms down on the table look	 i	was	9.958449363708496	5.905391693115234	0.0014122113352641463	0.050857845693826675	15
+436	santa_align	aligned	gpt2	 silence for a minute scott put his palms down on the table look i	 i	i	6.750469207763672	6.946463584899902	0.04697761312127113	0.04697761312127113	15
+437	santa_align	aligned	gpt2	 for a minute scott put his palms down on the table look i i	'm	going	4.896969795227051	5.436949253082275	1.3128667887940537e-05	0.10589440166950226	15
+438	santa_align	aligned	gpt2	 a minute scott put his palms down on the table look i i'm	 sorry	i	3.3761327266693115	4.26572322845459	0.006608473137021065	0.3262462019920349	15
+439	santa_align	aligned	gpt2	 minute scott put his palms down on the table look i i'm sorry	 i	'm	1.2761253118515015	4.567649841308594	0.004444652236998081	0.18967901170253754	15
+440	santa_align	aligned	gpt2	 scott put his palms down on the table look i i'm sorry i	 was	just	2.9192018508911133	5.527166843414307	0.00012057562707923353	0.09051162749528885	15
+441	santa_align	aligned	gpt2	ott put his palms down on the table look i i'm sorry i was	 just	trying	2.695854425430298	5.554473400115967	0.0030322708189487457	0.0735880434513092	15
+442	santa_align	aligned	gpt2	 put his palms down on the table look i i'm sorry i was just	 kidding	.	4.917365550994873	4.570396900177002	1.7477725123171695e-05	0.1677117943763733	15
+443	santa_align	aligned	gpt2	 his palms down on the table look i i'm sorry i was just kidding	 about	it	3.4585022926330566	4.492491722106934	0.0005008516018278897	0.10614614188671112	15
+444	santa_align	aligned	gpt2	 palms down on the table look i i'm sorry i was just kidding about	 ne	i	8.996988296508789	6.402527809143066	0.0009658671915531158	0.04631988704204559	15
+445	santa_align	aligned	gpt2	 down on the table look i i'm sorry i was just kidding about ne	al	's	5.6085405349731445	6.390881538391113	0.000120489792607259	0.07318772375583649	15
+446	santa_align	aligned	gpt2	 on the table look i i'm sorry i was just kidding about neal	 i	was	3.592698574066162	5.207386493682861	0.00974402204155922	0.1025533601641655	15
+447	santa_align	aligned	gpt2	 the table look i i'm sorry i was just kidding about neal i	 like	to	4.864858627319336	5.630521297454834	0.0008815559558570385	0.0960131287574768	15
+448	santa_align	aligned	gpt2	 table look i i'm sorry i was just kidding about neal i like	 him	i	4.199007987976074	4.592043399810791	0.00016802758909761906	0.28089067339897156	15
+449	santa_align	aligned	gpt2	 look i i'm sorry i was just kidding about neal i like him	 i	like	1.493690848350525	5.408984184265137	0.020922547206282616	0.12960965931415558	15
+450	santa_align	aligned	gpt2	 i i'm sorry i was just kidding about neal i like him i	'm	sorry	3.6047589778900146	4.960086345672607	8.012029866222292e-06	0.12235753983259201	15
+451	santa_align	aligned	gpt2	 i'm sorry i was just kidding about neal i like him i'm	 sure	i	3.680807590484619	3.2822983264923096	0.00015698953939136118	0.2876588702201843	15
+452	santa_align	aligned	gpt2	'm sorry i was just kidding about neal i like him i'm sure	 he	's	1.1167969703674316	4.077047348022461	0.00015303136024158448	0.16009517014026642	15
+453	santa_align	aligned	gpt2	 sorry i was just kidding about neal i like him i'm sure he	's	a	1.5943291187286377	5.263128280639648	9.181672794511542e-06	0.17437618970870972	15
+454	santa_align	aligned	gpt2	 i was just kidding about neal i like him i'm sure he's	 a	good	1.755440354347229	5.759605884552002	0.0006822484428994358	0.14608004689216614	15
+455	santa_align	aligned	gpt2	 was just kidding about neal i like him i'm sure he's a	 good	guy	1.8821815252304077	4.253139495849609	0.0001831548725022003	0.3342765271663666	15
+456	santa_align	aligned	gpt2	 just kidding about neal i like him i'm sure he's a good	 psychiatrist	but	12.59522533416748	4.112868309020996	1.7079963072319515e-05	0.13139823079109192	15
+457	santa_align	aligned	gpt2	 kidding about neal i like him i'm sure he's a good psychiatrist	 you	know	5.05191707611084	3.6702520847320557	0.0002595186233520508	0.35409989953041077	15
+458	santa_align	aligned	gpt2	 about neal i like him i'm sure he's a good psychiatrist you	 know	i	1.0117003917694092	4.270529747009277	0.0001816347794374451	0.12394990026950836	15
+459	santa_align	aligned	gpt2	 neal i like him i'm sure he's a good psychiatrist you know	 there	's	6.120677471160889	2.6556944847106934	0.000638386292848736	0.511748731136322	15
+460	santa_align	aligned	gpt2	al i like him i'm sure he's a good psychiatrist you know there	's	a	0.6742706894874573	4.112993240356445	3.4364544262643903e-05	0.2537931501865387	15
+461	santa_align	aligned	gpt2	 i like him i'm sure he's a good psychiatrist you know there's	 just	a	4.599096298217773	3.832003116607666	0.0024242480285465717	0.15400303900241852	15
+462	santa_align	aligned	gpt2	 like him i'm sure he's a good psychiatrist you know there's just	 something	about	2.5790810585021973	3.0529067516326904	0.0002733527508098632	0.5199832916259766	15
+463	santa_align	aligned	gpt2	 him i'm sure he's a good psychiatrist you know there's just something	 about	him	0.7274110317230225	3.5722012519836426	0.00011207150964764878	0.38981157541275024	15
+464	santa_align	aligned	gpt2	 i'm sure he's a good psychiatrist you know there's just something about	 him	that	1.0502012968063354	2.7569849491119385	4.7968063881853595e-05	0.4304695725440979	15
+465	santa_align	aligned	gpt2	'm sure he's a good psychiatrist you know there's just something about him	 that	makes	0.7704783082008362	4.039721965789795	0.0011704509379342198	0.2024165838956833	15
+466	santa_align	aligned	gpt2	 sure he's a good psychiatrist you know there's just something about him that	 makes	him	1.487818717956543	1.8186113834381104	8.258975867647678e-06	0.4276725947856903	15
+467	santa_align	aligned	gpt2	 he's a good psychiatrist you know there's just something about him that makes	 me	want	2.5017952919006348	4.158437728881836	4.547604112303816e-05	0.23117679357528687	15
+468	santa_align	aligned	gpt2	's a good psychiatrist you know there's just something about him that makes me	 want	to	1.4945634603500366	0.22734834253787994	5.626077836495824e-06	0.9742026925086975	15
+469	santa_align	aligned	gpt2	 a good psychiatrist you know there's just something about him that makes me want	 to	go	0.027429142966866493	5.289425373077393	0.00014637851563747972	0.08216523379087448	15
+470	santa_align	aligned	gpt2	 good psychiatrist you know there's just something about him that makes me want to	 i	'm	14.434030532836914	4.618412494659424	0.00010116448538610712	0.12723545730113983	15
+471	santa_align	aligned	gpt2	 psychiatrist you know there's just something about him that makes me want to i	 don	't	2.9726953506469727	0.011429044418036938	2.8554310915751557e-08	0.9989954829216003	15
+472	santa_align	aligned	gpt2	 you know there's just something about him that makes me want to i don	't	know	0.0007154765771701932	2.4118752479553223	5.500740826391848e-06	0.4472406208515167	15
+473	santa_align	aligned	gpt2	 know there's just something about him that makes me want to i don't	 know	what	0.704950749874115	3.268045425415039	2.1630530682159588e-05	0.24182437360286713	15
+474	santa_align	aligned	gpt2	 there's just something about him that makes me want to i don't know	 lash	out	17.673309326171875	5.007261276245117	0.0005285860970616341	0.2840297818183899	15
+475	santa_align	aligned	gpt2	's just something about him that makes me want to i don't know lash	 out	at	1.703019618988037	3.939176082611084	0.0008559618727304041	0.19740226864814758	15
+476	santa_align	aligned	gpt2	 just something about him that makes me want to i don't know lash out	 ir	ons	9.83678913116455	4.822912693023682	0.0002701160265132785	0.10471238195896149	15
+477	santa_align	aligned	gpt2	 something about him that makes me want to i don't know lash out ir	ration	ally	5.198835372924805	0.006469788961112499	2.849072366917227e-11	0.9993498921394348	15
+478	santa_align	aligned	gpt2	 about him that makes me want to i don't know lash out irration	ally	.	0.0006444760947488248	4.565419673919678	6.684127129119588e-06	0.16681303083896637	15
+479	santa_align	aligned	gpt2	 him that makes me want to i don't know lash out irrationally	 suggested	that	13.220096588134766	4.874115467071533	2.239786226709839e-05	0.21643804013729095	15
+480	santa_align	aligned	gpt2	 that makes me want to i don't know lash out irrationally suggested	 char	lie	10.175020217895508	3.0102908611297607	2.091966052830685e-06	0.403367280960083	15
+481	santa_align	aligned	gpt2	 makes me want to i don't know lash out irrationally suggested char	lie	and	1.041074275970459	7.134326934814453	0.00011444278061389923	0.036491893231868744	15
+482	santa_align	aligned	gpt2	 me want to i don't know lash out irrationally suggested charlie	 where	to	7.454998016357422	4.51396369934082	0.0013706005411222577	0.11577608436346054	15
+483	santa_align	aligned	gpt2	 want to i don't know lash out irrationally suggested charlie where	 did	you	4.084783554077148	3.865816354751587	6.196133472258225e-05	0.19095148146152496	15
+484	santa_align	aligned	gpt2	 to i don't know lash out irrationally suggested charlie where did	 you	get	1.8398728370666504	4.140114784240723	0.00015651366265956312	0.28587159514427185	15
+485	santa_align	aligned	gpt2	 i don't know lash out irrationally suggested charlie where did you	 hear	that	3.596497058868408	3.5697638988494873	2.3977772798389196e-05	0.26128947734832764	15
+486	santa_align	aligned	gpt2	 don't know lash out irrationally suggested charlie where did you hear	 that	?	1.3172523975372314	4.718645095825195	0.0032533803023397923	0.26028233766555786	15
+487	santa_align	aligned	gpt2	't know lash out irrationally suggested charlie where did you hear that	 from	?	3.1548495292663574	3.7538747787475586	0.004068394191563129	0.35511472821235657	15
+488	santa_align	aligned	gpt2	 know lash out irrationally suggested charlie where did you hear that from	 ne	lly	12.324186325073242	6.2304301261901855	0.00043622124940156937	0.048154182732105255	15
+489	santa_align	aligned	gpt2	 lash out irrationally suggested charlie where did you hear that from ne	al	?	4.345105171203613	3.8641977310180664	5.93272598052863e-05	0.442322313785553	15
+490	santa_align	aligned	gpt2	 out irrationally suggested charlie where did you hear that from neal	 i	was	7.278646469116211	5.441072463989258	0.00036078516859561205	0.10887644439935684	15
+491	santa_align	aligned	gpt2	 irrationally suggested charlie where did you hear that from neal i	 learn	that	9.063692092895508	4.566718101501465	2.2066878955229186e-05	0.1806526929140091	15
+492	santa_align	aligned	gpt2	rationally suggested charlie where did you hear that from neal i learn	 a	lot	3.7963032722473145	5.622304916381836	0.0003378197434358299	0.1912056803703308	15
+493	santa_align	aligned	gpt2	ally suggested charlie where did you hear that from neal i learn a	 lot	about	1.4127894639968872	2.445930242538452	6.702825430693338e-06	0.4992752969264984	15
+494	santa_align	aligned	gpt2	 suggested charlie where did you hear that from neal i learn a lot	 from	her	1.942635416984558	4.887070178985596	0.0001908461272250861	0.16275395452976227	15
+495	santa_align	aligned	gpt2	 charlie where did you hear that from neal i learn a lot from	 him	?	2.653210163116455	4.740128040313721	0.00021999313321430236	0.1702268421649933	15
+496	santa_align	aligned	gpt2	lie where did you hear that from neal i learn a lot from him	 he	is	5.593564033508301	5.189214706420898	0.0013865588698536158	0.11595843732357025	15
+497	santa_align	aligned	gpt2	 where did you hear that from neal i learn a lot from him he	 listens	to	7.329431533813477	3.137899875640869	0.00011917256779270247	0.5123603940010071	15
+498	santa_align	aligned	gpt2	 did you hear that from neal i learn a lot from him he listens	 to	me	0.6847095489501953	4.237910747528076	0.0005982848233543336	0.22004248201847076	15
+499	santa_align	aligned	gpt2	 you hear that from neal i learn a lot from him he listens to	 me	and	1.131575345993042	4.879141330718994	4.426242594490759e-05	0.18365409970283508	15
+500	santa_align	aligned	gpt2	 hear that from neal i learn a lot from him he listens to me	 sc	ott	9.0516357421875	5.935057163238525	1.9710663764271885e-05	0.0773332267999649	15
+501	santa_align	aligned	gpt2	 that from neal i learn a lot from him he listens to me sc	ott	and	2.713547706604004	6.741668701171875	7.064472447382286e-05	0.06013025343418121	15
+502	santa_align	aligned	gpt2	 from neal i learn a lot from him he listens to me scott	 shook	off	10.999229431152344	6.346399784088135	0.00015266097034327686	0.09163548052310944	15
+503	santa_align	aligned	gpt2	 neal i learn a lot from him he listens to me scott shook	 his	head	2.88466477394104	2.200620651245117	2.897890044550877e-05	0.7091343402862549	15
+504	santa_align	aligned	gpt2	al i learn a lot from him he listens to me scott shook his	 head	and	0.3020936846733093	5.436384201049805	0.0005350801511667669	0.09812624752521515	15
+505	santa_align	aligned	gpt2	 i learn a lot from him he listens to me scott shook his head	 yeah	he	8.056977272033691	5.234260082244873	0.0347185879945755	0.10174663364887238	15
+506	santa_align	aligned	gpt2	 learn a lot from him he listens to me scott shook his head yeah	 and	he	4.182163238525391	5.56787109375	0.001331066363491118	0.12956683337688446	15
+507	santa_align	aligned	gpt2	 a lot from him he listens to me scott shook his head yeah and	 then	he	3.3644402027130127	5.228719711303711	0.0030893790535628796	0.20163513720035553	15
+508	santa_align	aligned	gpt2	 lot from him he listens to me scott shook his head yeah and then	 he	said	1.5596932172775269	5.273791790008545	0.0005432664765976369	0.14753001928329468	15
+509	santa_align	aligned	gpt2	 from him he listens to me scott shook his head yeah and then he	 charges	at	10.568915367126465	3.6569252014160156	1.8603381249704398e-05	0.17227548360824585	15
+510	santa_align	aligned	gpt2	 him he listens to me scott shook his head yeah and then he charges	 you	with	6.182352066040039	5.302168846130371	0.0022110333666205406	0.10063948482275009	15
+511	santa_align	aligned	gpt2	 he listens to me scott shook his head yeah and then he charges you	 for	the	3.505293130874634	6.0915021896362305	0.00045560134458355606	0.0519203282892704	15
+512	santa_align	aligned	gpt2	 listens to me scott shook his head yeah and then he charges you for	 it	.	3.093221426010132	5.08767557144165	0.006928100250661373	0.1892724633216858	15
+513	santa_align	aligned	gpt2	 to me scott shook his head yeah and then he charges you for it	 jud	o	12.582145690917969	5.454336166381836	0.00020998032414354384	0.11628614366054535	15
+514	santa_align	aligned	gpt2	 me scott shook his head yeah and then he charges you for it jud	y	.	3.519700765609741	6.91061544418335	0.0003021340526174754	0.07481721043586731	15
+515	santa_align	aligned	gpt2	 scott shook his head yeah and then he charges you for it judy	 <	3	8.54814338684082	5.650758743286133	0.0012556705623865128	0.2592046856880188	15
+516	santa_align	aligned	gpt2	ott shook his head yeah and then he charges you for it judy <	unk	now	11.45958137512207	5.137033462524414	0.00013703953300137073	0.16832402348518372	15
+517	santa_align	aligned	gpt2	 shook his head yeah and then he charges you for it judy <unk	>	I	3.3844029903411865	6.6080145835876465	0.00014321763592306525	0.042182136327028275	15
+518	santa_align	aligned	gpt2	 his head yeah and then he charges you for it judy <unk>	 with	a	6.80162239074707	5.606688499450684	0.0001536526542622596	0.13711757957935333	15
+519	santa_align	aligned	gpt2	 head yeah and then he charges you for it judy <unk> with	 their	own	6.435550689697266	8.092806816101074	0.00017640211444813758	0.018843945115804672	15
+520	santa_align	aligned	gpt2	 yeah and then he charges you for it judy <unk> with their	 drinks	and	7.860368728637695	5.01840353012085	0.0009631578577682376	0.106014184653759	15
+521	santa_align	aligned	gpt2	 and then he charges you for it judy <unk> with their drinks	 the	next	6.042222499847412	5.596569061279297	0.00035512744216248393	0.1982724368572235	15
+522	santa_align	aligned	gpt2	 then he charges you for it judy <unk> with their drinks the	 sandwich	is	10.248849868774414	5.500558853149414	0.0019303294830024242	0.21427549421787262	15
+523	santa_align	aligned	gpt2	 he charges you for it judy <unk> with their drinks the sandwich	 and	the	4.755742073059082	6.526750087738037	0.0006090563838370144	0.1157560795545578	15
+524	santa_align	aligned	gpt2	 charges you for it judy <unk> with their drinks the sandwich and	 chicken	is	6.434617042541504	5.722388744354248	0.0007730372017249465	0.0885697528719902	15
+525	santa_align	aligned	gpt2	 you for it judy <unk> with their drinks the sandwich and chicken	 fingers	<	6.372929096221924	4.870285987854004	0.00014086722512729466	0.24003802239894867	15
+526	santa_align	aligned	gpt2	 for it judy <unk> with their drinks the sandwich and chicken fingers	 char	cut	10.89478874206543	6.178339958190918	6.304604903561994e-05	0.07294728606939316	15
+527	santa_align	aligned	gpt2	 it judy <unk> with their drinks the sandwich and chicken fingers char	lie	<	3.3814499378204346	6.372688293457031	9.871949441730976e-05	0.20317013561725616	15
+528	santa_align	aligned	gpt2	 judy <unk> with their drinks the sandwich and chicken fingers charlie	 dove	<	10.789976119995117	6.822933197021484	0.00039190638926811516	0.10235249996185303	15
+529	santa_align	aligned	gpt2	y <unk> with their drinks the sandwich and chicken fingers charlie dove	 into	the	4.9202728271484375	4.537965774536133	9.15663258638233e-05	0.26155900955200195	15
+530	santa_align	aligned	gpt2	 <unk> with their drinks the sandwich and chicken fingers charlie dove into	 the	water	1.2214319705963135	7.569536209106445	0.0005837797652930021	0.013583392836153507	15
+531	santa_align	aligned	gpt2	unk> with their drinks the sandwich and chicken fingers charlie dove into the	 french	fries	7.930385589599609	2.809906482696533	0.00018870954227168113	0.2858826816082001	15
+532	santa_align	aligned	gpt2	> with their drinks the sandwich and chicken fingers charlie dove into the french	 fries	.	1.0880728960037231	3.501225709915161	0.00036563692265190184	0.3012026250362396	15
+533	santa_align	aligned	gpt2	 with their drinks the sandwich and chicken fingers charlie dove into the french fries	 on	the	4.329327583312988	3.182372570037842	2.7499378120410256e-05	0.4716658294200897	15
+534	santa_align	aligned	gpt2	 their drinks the sandwich and chicken fingers charlie dove into the french fries on	 his	plate	3.213672161102295	5.764431476593018	8.669260569149628e-05	0.08033718913793564	15
+535	santa_align	aligned	gpt2	 drinks the sandwich and chicken fingers charlie dove into the french fries on his	 plate	.	2.8477444648742676	2.626829147338867	8.417231583734974e-05	0.5031195282936096	15
+536	santa_align	aligned	gpt2	 the sandwich and chicken fingers charlie dove into the french fries on his plate	 merry	-	15.020832061767578	5.871857643127441	0.001467419322580099	0.12562532722949982	15
+537	santa_align	aligned	gpt2	 sandwich and chicken fingers charlie dove into the french fries on his plate merry	 christ	mas	3.4840633869171143	0.38140425086021423	8.901952969608828e-05	0.957661509513855	15
+538	santa_align	aligned	gpt2	 and chicken fingers charlie dove into the french fries on his plate merry christ	mas	.	0.046630896627902985	4.991359710693359	0.0003230377333238721	0.17138180136680603	15
+539	santa_align	aligned	gpt2	 chicken fingers charlie dove into the french fries on his plate merry christmas	 you	're	6.749078750610352	6.0316691398620605	0.0004014486912637949	0.06164955720305443	15
+540	santa_align	aligned	gpt2	 fingers charlie dove into the french fries on his plate merry christmas you	 two	.	5.234114170074463	5.834429740905762	0.0024461732245981693	0.14270921051502228	15

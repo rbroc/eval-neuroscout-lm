@@ -1,0 +1,941 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	shapessocial_align	aligned	gpt2	a young boy carrying a ball goes to an empty	 playground	.	6.922115325927734	3.308394432067871	0.0007969840662553906	0.25106874108314514	10
+1	shapessocial_align	aligned	gpt2	 young boy carrying a ball goes to an empty playground	 to	play	3.9373393058776855	4.625831127166748	0.00014138079131953418	0.25229957699775696	10
+2	shapessocial_align	aligned	gpt2	 boy carrying a ball goes to an empty playground to	 play	with	1.7456204891204834	3.8588171005249023	0.00027198155294172466	0.21471023559570312	10
+3	shapessocial_align	aligned	gpt2	 carrying a ball goes to an empty playground to play	 by	.	6.03725004196167	4.838098526000977	0.001004067249596119	0.19309675693511963	10
+4	shapessocial_align	aligned	gpt2	 a ball goes to an empty playground to play by	 himself	.	3.534518003463745	2.731440544128418	2.8992339139222167e-05	0.4040795862674713	10
+5	shapessocial_align	aligned	gpt2	 ball goes to an empty playground to play by himself	 the	next	7.144484996795654	4.218959808349609	0.00019240143592469394	0.28418323397636414	10
+6	shapessocial_align	aligned	gpt2	 goes to an empty playground to play by himself the	 boy	is	7.260448455810547	5.5250325202941895	0.0009549267124384642	0.0675823837518692	10
+7	shapessocial_align	aligned	gpt2	 to an empty playground to play by himself the boy	 kicks	his	8.843161582946777	3.736117362976074	8.024716953514144e-05	0.17126230895519257	10
+8	shapessocial_align	aligned	gpt2	 an empty playground to play by himself the boy kicks	 the	ball	1.9865422248840332	6.0042948722839355	0.0002617912832647562	0.20196305215358734	10
+9	shapessocial_align	aligned	gpt2	 empty playground to play by himself the boy kicks the	 ball	out	1.8270492553710938	3.9290997982025146	0.0002071572671411559	0.11213703453540802	10
+10	shapessocial_align	aligned	gpt2	 playground to play by himself the boy kicks the ball	 and	runs	2.7941157817840576	6.111050128936768	0.0010034585138782859	0.05312810465693474	10
+11	shapessocial_align	aligned	gpt2	 to play by himself the boy kicks the ball and	 then	runs	3.179533004760742	6.248365879058838	0.0010474335867911577	0.03712669014930725	10
+12	shapessocial_align	aligned	gpt2	 play by himself the boy kicks the ball and then	 d	ashes	6.553528785705566	3.58750581741333	1.3231821867520921e-05	0.3250816762447357	10
+13	shapessocial_align	aligned	gpt2	 by himself the boy kicks the ball and then d	ashes	off	1.067026138305664	3.6748464107513428	1.1696719148801549e-09	0.12453043460845947	10
+14	shapessocial_align	aligned	gpt2	 himself the boy kicks the ball and then dashes	 after	the	3.922694444656372	3.6345181465148926	0.00016279651026707143	0.2582135796546936	10
+15	shapessocial_align	aligned	gpt2	 the boy kicks the ball and then dashes after	 it	.	1.4904392957687378	3.1654603481292725	0.00015011450159363449	0.3646363914012909	10
+16	shapessocial_align	aligned	gpt2	 boy kicks the ball and then dashes after it	 he	runs	7.314847946166992	5.964526176452637	0.0003689032164402306	0.03850328177213669	10
+17	shapessocial_align	aligned	gpt2	 kicks the ball and then dashes after it he	 lines	up	7.543887138366699	0.9976403117179871	7.027171704976354e-06	0.8697935342788696	10
+18	shapessocial_align	aligned	gpt2	 the ball and then dashes after it he lines	 up	for	0.13716185092926025	4.124316692352295	0.0023883513640612364	0.09857429563999176	10
+19	shapessocial_align	aligned	gpt2	 ball and then dashes after it he lines up	 his	left	4.145476341247559	6.145371913909912	0.00014525954611599445	0.060357943177223206	10
+20	shapessocial_align	aligned	gpt2	 and then dashes after it he lines up his	 shot	.	5.651651859283447	3.1046371459960938	0.0007191493641585112	0.24411457777023315	10
+21	shapessocial_align	aligned	gpt2	 then dashes after it he lines up his shot	 and	hits	2.2620484828948975	6.474174976348877	0.0007256732205860317	0.02815903164446354	10
+22	shapessocial_align	aligned	gpt2	 dashes after it he lines up his shot and	 kicks	it	6.4488067626953125	3.8114209175109863	6.0080627008574083e-05	0.3333324193954468	10
+23	shapessocial_align	aligned	gpt2	ashes after it he lines up his shot and kicks	 the	ball	2.090440273284912	4.054466724395752	0.0001549542648717761	0.46659815311431885	10
+24	shapessocial_align	aligned	gpt2	 after it he lines up his shot and kicks the	 ball	out	0.45335283875465393	3.756171464920044	9.239667997462675e-05	0.11156115680932999	10
+25	shapessocial_align	aligned	gpt2	 it he lines up his shot and kicks the ball	 again	.	7.420642375946045	2.79337739944458	0.00022083622752688825	0.4195012152194977	10
+26	shapessocial_align	aligned	gpt2	 he lines up his shot and kicks the ball again	 the	other	7.045395374298096	4.220226764678955	0.00024755625054240227	0.22099006175994873	10
+27	shapessocial_align	aligned	gpt2	 lines up his shot and kicks the ball again the	 boy	.	9.666292190551758	5.999363899230957	0.00027115290868096054	0.051083069294691086	10
+28	shapessocial_align	aligned	gpt2	 up his shot and kicks the ball again the boy	 catches	it	6.44359827041626	1.8111783266067505	3.5552675399230793e-06	0.6146038174629211	10
+29	shapessocial_align	aligned	gpt2	 his shot and kicks the ball again the boy catches	 up	to	4.580759525299072	2.494112968444824	4.929054921376519e-05	0.3348711133003235	10
+30	shapessocial_align	aligned	gpt2	 shot and kicks the ball again the boy catches up	 to	the	1.1814987659454346	4.300714015960693	0.00046658882638439536	0.2500896453857422	10
+31	shapessocial_align	aligned	gpt2	 and kicks the ball again the boy catches up to	 the	ball	1.4108455181121826	6.073297023773193	0.00026944372802972794	0.10008157044649124	10
+32	shapessocial_align	aligned	gpt2	 kicks the ball again the boy catches up to the	 ball	and	1.9659878015518188	3.581127643585205	0.00028164280229248106	0.34314030408859253	10
+33	shapessocial_align	aligned	gpt2	 the ball again the boy catches up to the ball	 and	the	1.0933539867401123	5.989495754241943	0.0008935094228945673	0.033817194402217865	10
+34	shapessocial_align	aligned	gpt2	 ball again the boy catches up to the ball and	 bounces	it	6.222667694091797	2.7835707664489746	7.803814696671907e-06	0.40915361046791077	10
+35	shapessocial_align	aligned	gpt2	 again the boy catches up to the ball and bounces	 it	off	0.8528265953063965	3.7738940715789795	0.00016021756164263934	0.13811901211738586	10
+36	shapessocial_align	aligned	gpt2	 the boy catches up to the ball and bounces it	 off	the	1.875641107559204	2.8611092567443848	0.0005759376217611134	0.3381443917751312	10
+37	shapessocial_align	aligned	gpt2	 boy catches up to the ball and bounces it off	 the	ground	1.0806787014007568	5.361731052398682	0.0003828447952400893	0.0587925985455513	10
+38	shapessocial_align	aligned	gpt2	 catches up to the ball and bounces it off the	 <	a	12.087271690368652	6.6358184814453125	0.00015822557907085866	0.039515092968940735	10
+39	shapessocial_align	aligned	gpt2	 up to the ball and bounces it off the <	unk	now	10.843935012817383	4.519264221191406	0.00017847448179963976	0.28145042061805725	10
+40	shapessocial_align	aligned	gpt2	 to the ball and bounces it off the <unk	>	and	1.9318461418151855	6.609884738922119	0.0012550471583381295	0.03486393392086029	10
+41	shapessocial_align	aligned	gpt2	 the ball and bounces it off the <unk>	 fences	.	10.014480590820312	3.453704833984375	1.8415994418319315e-05	0.3546561598777771	10
+42	shapessocial_align	aligned	gpt2	 ball and bounces it off the <unk> fences	 several	times	9.1527738571167	1.27802574634552	4.220700066071004e-05	0.8182876706123352	10
+43	shapessocial_align	aligned	gpt2	 and bounces it off the <unk> fences several	 times	.	0.18208175897598267	2.9618427753448486	3.0044790037209168e-05	0.36598891019821167	10
+44	shapessocial_align	aligned	gpt2	 bounces it off the <unk> fences several times	 passing	through	11.566914558410645	4.213723182678223	0.00012151242844993249	0.22665461897850037	10
+45	shapessocial_align	aligned	gpt2	 it off the <unk> fences several times passing	 it	.	3.8013854026794434	4.074117183685303	0.0004187432350590825	0.21919851005077362	10
+46	shapessocial_align	aligned	gpt2	 off the <unk> fences several times passing it	 to	the	3.515791416168213	5.9188947677612305	0.0006326714064925909	0.14196915924549103	10
+47	shapessocial_align	aligned	gpt2	 the <unk> fences several times passing it to	 himself	.	9.162718772888184	2.9256796836853027	0.0001267004117835313	0.3812670409679413	10
+48	shapessocial_align	aligned	gpt2	 <unk> fences several times passing it to himself	 as	he	4.500491619110107	3.7079367637634277	0.00037647318094968796	0.3310742676258087	10
+49	shapessocial_align	aligned	gpt2	unk> fences several times passing it to himself as	 he	walks	0.9436966180801392	6.365339756011963	0.00027339207008481026	0.036382000893354416	10
+50	shapessocial_align	aligned	gpt2	> fences several times passing it to himself as he	 circles	the	8.235910415649414	3.1850759983062744	0.00043795580859296024	0.2875269055366516	10
+51	shapessocial_align	aligned	gpt2	 fences several times passing it to himself as he circles	 the	room	0.9764496088027954	6.745933532714844	0.0003857328265439719	0.059686582535505295	10
+52	shapessocial_align	aligned	gpt2	 several times passing it to himself as he circles the	 ball	.	4.705348014831543	3.7109694480895996	0.00011107773025287315	0.2898968458175659	10
+53	shapessocial_align	aligned	gpt2	 times passing it to himself as he circles the ball	 lining	up	13.175196647644043	3.0827577114105225	1.239555558640859e-06	0.3436988592147827	10
+54	shapessocial_align	aligned	gpt2	 passing it to himself as he circles the ball lining	 up	for	1.0716488361358643	3.4359471797943115	0.0012941572349518538	0.20911285281181335	10
+55	shapessocial_align	aligned	gpt2	 it to himself as he circles the ball lining up	 his	left	4.936765670776367	6.3044304847717285	7.662847929168493e-05	0.04203628748655319	10
+56	shapessocial_align	aligned	gpt2	 to himself as he circles the ball lining up his	 next	pass	4.554841041564941	5.624017238616943	0.00016166317800525576	0.08602960407733917	10
+57	shapessocial_align	aligned	gpt2	 himself as he circles the ball lining up his next	 shot	.	2.5364997386932373	1.9890143871307373	0.00014792944421060383	0.622277557849884	10
+58	shapessocial_align	aligned	gpt2	 as he circles the ball lining up his next shot	 his	head	10.067427635192871	6.329595565795898	0.00011851774615934119	0.07147596776485443	10
+59	shapessocial_align	aligned	gpt2	 he circles the ball lining up his next shot his	 father	,	5.864887237548828	6.045253276824951	2.9194861781434156e-05	0.07361947000026703	10
+60	shapessocial_align	aligned	gpt2	 circles the ball lining up his next shot his father	 shows	him	8.48563003540039	3.0327961444854736	1.4728349015058484e-05	0.4486578106880188	10
+61	shapessocial_align	aligned	gpt2	 the ball lining up his next shot his father shows	 up	to	2.269500494003296	3.459362268447876	0.00044730069930665195	0.16384956240653992	10
+62	shapessocial_align	aligned	gpt2	 ball lining up his next shot his father shows up	 and	he	2.40240740776062	6.422159194946289	0.0005443020490929484	0.03790983930230141	10
+63	shapessocial_align	aligned	gpt2	 lining up his next shot his father shows up and	 calls	him	5.135205268859863	3.9585766792297363	2.8448446755646728e-05	0.20962373912334442	10
+64	shapessocial_align	aligned	gpt2	 up his next shot his father shows up and calls	 for	help	2.370107889175415	3.7342965602874756	0.00019656498625408858	0.28435271978378296	10
+65	shapessocial_align	aligned	gpt2	 his next shot his father shows up and calls for	 him	to	2.2548084259033203	1.1182500123977661	1.1373479537724052e-05	0.7564175128936768	10
+66	shapessocial_align	aligned	gpt2	 next shot his father shows up and calls for him	 the	next	7.91287899017334	3.0835070610046387	0.00016112381126731634	0.5697697401046753	10
+67	shapessocial_align	aligned	gpt2	 shot his father shows up and calls for him the	 boy	's	5.263731479644775	3.525989532470703	0.00038615375524386764	0.31205832958221436	10
+68	shapessocial_align	aligned	gpt2	 his father shows up and calls for him the boy	 takes	off	7.422255039215088	3.5376296043395996	2.4981334263429744e-06	0.14992550015449524	10
+69	shapessocial_align	aligned	gpt2	 father shows up and calls for him the boy takes	 one	of	5.312041759490967	2.834930658340454	6.43211169517599e-05	0.24859993159770966	10
+70	shapessocial_align	aligned	gpt2	 shows up and calls for him the boy takes one	 final	look	4.366933345794678	4.111196041107178	0.001023464254103601	0.3313353359699249	10
+71	shapessocial_align	aligned	gpt2	 up and calls for him the boy takes one final	 kick	to	5.777493476867676	3.047635078430176	0.0018645593663677573	0.23164863884449005	10
+72	shapessocial_align	aligned	gpt2	 and calls for him the boy takes one final kick	 of	his	3.563180446624756	2.425933599472046	2.4811764887999743e-05	0.6118022203445435	10
+73	shapessocial_align	aligned	gpt2	 calls for him the boy takes one final kick of	 the	game	1.5991592407226562	5.928358554840088	0.00034725171281024814	0.10794080793857574	10
+74	shapessocial_align	aligned	gpt2	 for him the boy takes one final kick of the	 ball	and	3.268775463104248	3.0825698375701904	3.766752706724219e-05	0.29999402165412903	10
+75	shapessocial_align	aligned	gpt2	 him the boy takes one final kick of the ball	 before	he	2.944972038269043	5.985363006591797	0.00011288464884273708	0.10443206131458282	10
+76	shapessocial_align	aligned	gpt2	 the boy takes one final kick of the ball before	 leaving	the	4.895968914031982	2.393165349960327	3.052555985050276e-05	0.5836575031280518	10
+77	shapessocial_align	aligned	gpt2	 boy takes one final kick of the ball before leaving	 the	field	0.4599999487400055	3.781656503677368	0.00011014081246685237	0.29853999614715576	10
+78	shapessocial_align	aligned	gpt2	 takes one final kick of the ball before leaving the	 playground	.	11.321246147155762	2.660909652709961	5.883538324269466e-05	0.4413001239299774	10
+79	shapessocial_align	aligned	gpt2	 one final kick of the ball before leaving the playground	 to	take	2.6609153747558594	5.8981475830078125	0.00020696938736364245	0.03318106383085251	10
+80	shapessocial_align	aligned	gpt2	 final kick of the ball before leaving the playground to	 meet	the	4.747893333435059	5.5019917488098145	4.3753778300015256e-05	0.17266802489757538	10
+81	shapessocial_align	aligned	gpt2	 kick of the ball before leaving the playground to meet	 his	father	2.0067362785339355	5.703456401824951	0.00013133304310031235	0.055149246007204056	10
+82	shapessocial_align	aligned	gpt2	 of the ball before leaving the playground to meet his	 waiting	teammates	8.826430320739746	5.939501762390137	0.0002687179949134588	0.0483846552670002	10
+83	shapessocial_align	aligned	gpt2	 the ball before leaving the playground to meet his waiting	 father	.	3.8524065017700195	2.1750965118408203	4.595501013682224e-05	0.5567997097969055	10
+84	shapessocial_align	aligned	gpt2	 ball before leaving the playground to meet his waiting father	 the	next	7.022221565246582	2.9147868156433105	0.00017383735394105315	0.4620143175125122	10
+85	shapessocial_align	aligned	gpt2	 before leaving the playground to meet his waiting father the	 boy	was	5.260345935821533	5.59005069732666	0.00023847361444495618	0.11424791067838669	10
+86	shapessocial_align	aligned	gpt2	 leaving the playground to meet his waiting father the boy	 his	father	8.44572639465332	4.662618160247803	0.00026939460076391697	0.23539847135543823	10
+87	shapessocial_align	aligned	gpt2	 the playground to meet his waiting father the boy his	 father	had	1.4839441776275635	4.77059268951416	4.9140922783408314e-05	0.1760498434305191	10
+88	shapessocial_align	aligned	gpt2	 playground to meet his waiting father the boy his father	 exchange	for	16.68433380126953	6.087091445922852	5.606569902738556e-05	0.057268716394901276	10
+89	shapessocial_align	aligned	gpt2	 to meet his waiting father the boy his father exchange	 a	kiss	2.8288686275482178	5.980902671813965	6.823800504207611e-05	0.16200068593025208	10
+90	shapessocial_align	aligned	gpt2	 meet his waiting father the boy his father exchange a	 few	words	2.9458203315734863	5.245275020599365	0.002073335461318493	0.2829703688621521	10
+91	shapessocial_align	aligned	gpt2	 his waiting father the boy his father exchange a few	 words	with	1.1694754362106323	2.5735280513763428	7.264890882652253e-05	0.4314802587032318	10
+92	shapessocial_align	aligned	gpt2	 waiting father the boy his father exchange a few words	 and	then	3.6631979942321777	5.812895774841309	0.0008871203172020614	0.15933817625045776	10
+93	shapessocial_align	aligned	gpt2	 father the boy his father exchange a few words and	 leave	the	5.36472749710083	3.2033607959747314	2.1242007278488018e-05	0.1981276273727417	10
+94	shapessocial_align	aligned	gpt2	 the boy his father exchange a few words and leave	 the	room	1.5576835870742798	4.912674427032471	0.00016680128464940935	0.24387623369693756	10
+95	shapessocial_align	aligned	gpt2	 boy his father exchange a few words and leave the	 boy	alone	5.92369270324707	3.860450267791748	0.0003933528787456453	0.23757193982601166	10
+96	shapessocial_align	aligned	gpt2	 his father exchange a few words and leave the boy	 his	own	7.580554962158203	5.957887172698975	0.00014563868171535432	0.10898490995168686	10
+97	shapessocial_align	aligned	gpt2	 father exchange a few words and leave the boy his	 father	's	4.118760108947754	3.831284284591675	6.630384450545534e-05	0.31983351707458496	10
+98	shapessocial_align	aligned	gpt2	 exchange a few words and leave the boy his father	 live	.	11.78742504119873	3.0883328914642334	2.139265779987909e-05	0.3231208920478821	10
+99	shapessocial_align	aligned	gpt2	 a few words and leave the boy his father live	 in	the	2.1832351684570312	4.599367141723633	0.0009654631139710546	0.15390804409980774	10
+100	shapessocial_align	aligned	gpt2	 few words and leave the boy his father live in	 a	house	2.178715229034424	6.614871978759766	0.0003986531519331038	0.05799711495637894	10
+101	shapessocial_align	aligned	gpt2	 words and leave the boy his father live in a	 modest	house	7.202573776245117	3.7744548320770264	0.0009335908107459545	0.27600616216659546	10
+102	shapessocial_align	aligned	gpt2	 and leave the boy his father live in a modest	 two	-	6.047507286071777	0.8064128756523132	5.822780804010108e-05	0.8306313753128052	10
+103	shapessocial_align	aligned	gpt2	 leave the boy his father live in a modest two	 story	house	4.035561561584473	2.8307740688323975	0.0001265509781660512	0.4309961497783661	10
+104	shapessocial_align	aligned	gpt2	 the boy his father live in a modest two story	 home	in	2.46919846534729	3.3536336421966553	0.0006011176155880094	0.18310923874378204	10
+105	shapessocial_align	aligned	gpt2	 boy his father live in a modest two story home	 with	a	2.1629581451416016	3.837603807449341	4.508051279117353e-05	0.2751646637916565	10
+106	shapessocial_align	aligned	gpt2	 his father live in a modest two story home with	 a	large	1.3861324787139893	6.640880584716797	0.0004224010044708848	0.042993802577257156	10
+107	shapessocial_align	aligned	gpt2	 father live in a modest two story home with a	 pointed	porch	10.147403717041016	5.476147174835205	0.0001286555198021233	0.08006995171308517	10
+108	shapessocial_align	aligned	gpt2	 live in a modest two story home with a pointed	 roof	and	3.345010280609131	2.720813035964966	0.0012427926994860172	0.27802836894989014	10
+109	shapessocial_align	aligned	gpt2	 in a modest two story home with a pointed roof	 after	a	8.689889907836914	5.717133045196533	9.268178109778091e-05	0.1246149092912674	10
+110	shapessocial_align	aligned	gpt2	 a modest two story home with a pointed roof after	 arriving	in	6.713970184326172	2.5650203227996826	3.539358658599667e-05	0.3247210681438446	10
+111	shapessocial_align	aligned	gpt2	 modest two story home with a pointed roof after arriving	 home	from	3.3039441108703613	3.2740705013275146	0.00031681128893978894	0.33761894702911377	10
+112	shapessocial_align	aligned	gpt2	 two story home with a pointed roof after arriving home	 they	were	8.595861434936523	5.1324357986450195	4.6805314923403785e-05	0.12182379513978958	10
+113	shapessocial_align	aligned	gpt2	 story home with a pointed roof after arriving home they	 have	been	4.188161373138428	5.382859230041504	0.00015352280752267689	0.12325339019298553	10
+114	shapessocial_align	aligned	gpt2	 home with a pointed roof after arriving home they have	 a	lot	2.3534903526306152	6.948333740234375	0.00037739568506367505	0.03556768223643303	10
+115	shapessocial_align	aligned	gpt2	 with a pointed roof after arriving home they have a	 short	time	5.476922035217285	4.805259704589844	0.00047254853416234255	0.17394663393497467	10
+116	shapessocial_align	aligned	gpt2	 a pointed roof after arriving home they have a short	 chat	.	4.116296768188477	3.0204343795776367	9.720226080389693e-05	0.17177292704582214	10
+117	shapessocial_align	aligned	gpt2	 pointed roof after arriving home they have a short chat	 and	then	1.726708173751831	5.60602331161499	0.0009333237539976835	0.10570388287305832	10
+118	shapessocial_align	aligned	gpt2	 roof after arriving home they have a short chat and	 the	two	3.3517210483551025	6.815185070037842	0.0004099985526409	0.06937011331319809	10
+119	shapessocial_align	aligned	gpt2	 after arriving home they have a short chat and the	 boy	is	5.013040542602539	4.890920162200928	5.0865612138295546e-05	0.10990415513515472	10
+120	shapessocial_align	aligned	gpt2	 arriving home they have a short chat and the boy	 turns	to	5.02287483215332	3.020982027053833	1.6417641745647416e-05	0.287601113319397	10
+121	shapessocial_align	aligned	gpt2	 home they have a short chat and the boy turns	 and	says	3.399348258972168	4.703650951385498	0.0004088683635927737	0.1627541482448578	10
+122	shapessocial_align	aligned	gpt2	 they have a short chat and the boy turns and	 climbs	up	6.857358455657959	2.8373141288757324	2.7012379177904222e-06	0.1570132076740265	10
+123	shapessocial_align	aligned	gpt2	 have a short chat and the boy turns and climbs	 the	stairs	3.347993850708008	3.9258458614349365	0.00011025524872820824	0.3154200315475464	10
+124	shapessocial_align	aligned	gpt2	 a short chat and the boy turns and climbs the	 stairs	.	1.1483561992645264	2.750169277191162	0.00012393150245770812	0.3538021743297577	10
+125	shapessocial_align	aligned	gpt2	 short chat and the boy turns and climbs the stairs	 to	the	1.5232235193252563	3.0171568393707275	0.0001497908669989556	0.47158703207969666	10
+126	shapessocial_align	aligned	gpt2	 chat and the boy turns and climbs the stairs to	 his	room	1.8787450790405273	4.07827091217041	3.684592229546979e-05	0.32069066166877747	10
+127	shapessocial_align	aligned	gpt2	 and the boy turns and climbs the stairs to his	 second	floor	5.829442024230957	2.8093361854553223	4.1530176531523466e-05	0.46908679604530334	10
+128	shapessocial_align	aligned	gpt2	 the boy turns and climbs the stairs to his second	 floor	apartment	0.8650623559951782	3.1547067165374756	0.0015470230719074607	0.35792285203933716	10
+129	shapessocial_align	aligned	gpt2	 boy turns and climbs the stairs to his second floor	 bedroom	.	3.0530850887298584	2.2573280334472656	0.0008310186676681042	0.5087544322013855	10
+130	shapessocial_align	aligned	gpt2	 turns and climbs the stairs to his second floor bedroom	 his	first	10.344892501831055	6.572695732116699	0.0001643441937630996	0.04236926883459091	10
+131	shapessocial_align	aligned	gpt2	 and climbs the stairs to his second floor bedroom his	 father	's	4.033084869384766	5.4126410484313965	4.380852260510437e-05	0.06485193222761154	10
+132	shapessocial_align	aligned	gpt2	 climbs the stairs to his second floor bedroom his father	 follows	him	9.460535049438477	3.0924549102783203	6.309227956080576e-06	0.3831760585308075	10
+133	shapessocial_align	aligned	gpt2	 the stairs to his second floor bedroom his father follows	 gives	him	13.269708633422852	2.563260078430176	2.428026846246212e-06	0.6119298338890076	10
+134	shapessocial_align	aligned	gpt2	 stairs to his second floor bedroom his father follows gives	 his	father	3.679666042327881	6.058758735656738	0.0010912049328908324	0.06968748569488525	10
+135	shapessocial_align	aligned	gpt2	 to his second floor bedroom his father follows gives his	 son	a	2.6528875827789307	4.203287601470947	6.558863969985396e-05	0.37059319019317627	10
+136	shapessocial_align	aligned	gpt2	 his second floor bedroom his father follows gives his son	 a	hard	0.9999765157699585	7.184163570404053	0.0004046876565553248	0.012864536605775356	10
+137	shapessocial_align	aligned	gpt2	 second floor bedroom his father follows gives his son a	 good	look	4.0985260009765625	5.120624542236328	0.0002495451190043241	0.11605431139469147	10
+138	shapessocial_align	aligned	gpt2	 floor bedroom his father follows gives his son a good	night	kiss	7.110558986663818	1.5445066690444946	1.1362394616298843e-05	0.7965878844261169	10
+139	shapessocial_align	aligned	gpt2	 bedroom his father follows gives his son a goodnight	 kiss	.	0.2290327548980713	2.737555980682373	0.00023941142717376351	0.3111329674720764	10
+140	shapessocial_align	aligned	gpt2	 his father follows gives his son a goodnight kiss	 and	a	2.068671941757202	5.694140911102295	0.0011200825683772564	0.11276549100875854	10
+141	shapessocial_align	aligned	gpt2	 father follows gives his son a goodnight kiss and	 t	ugs	7.656798362731934	1.8728386163711548	9.350242748951132e-07	0.46225085854530334	10
+142	shapessocial_align	aligned	gpt2	 follows gives his son a goodnight kiss and t	ucks	his	1.1404271125793457	3.0278055667877197	1.4118693059117504e-07	0.2666601240634918	10
+143	shapessocial_align	aligned	gpt2	 gives his son a goodnight kiss and tucks	 him	in	1.3275235891342163	2.181687593460083	3.164198642480187e-05	0.3502803444862366	10
+144	shapessocial_align	aligned	gpt2	 his son a goodnight kiss and tucks him	 in	for	0.9390339255332947	3.7073915004730225	0.008755908347666264	0.14047154784202576	10
+145	shapessocial_align	aligned	gpt2	 son a goodnight kiss and tucks him in	 for	a	2.093269109725952	3.626598596572876	9.638124174671248e-05	0.39692413806915283	10
+146	shapessocial_align	aligned	gpt2	 a goodnight kiss and tucks him in for	 the	night	2.0593507289886475	5.030734062194824	0.00029540815739892423	0.2580130696296692	10
+147	shapessocial_align	aligned	gpt2	 goodnight kiss and tucks him in for the	 night	.	2.001659870147705	2.6179025173187256	0.0006693549221381545	0.5540251135826111	10
+148	shapessocial_align	aligned	gpt2	night kiss and tucks him in for the night	 while	he	5.390309810638428	4.721848011016846	9.425477765034884e-05	0.28377875685691833	10
+149	shapessocial_align	aligned	gpt2	 kiss and tucks him in for the night while	 the	rest	3.0708389282226562	6.67367696762085	0.0002790634171105921	0.08143153041601181	10
+150	shapessocial_align	aligned	gpt2	 and tucks him in for the night while the	 boy	is	5.569045543670654	5.558290481567383	0.00030573311960324645	0.08120284974575043	10
+151	shapessocial_align	aligned	gpt2	 tucks him in for the night while the boy	 falls	asleep	6.411362648010254	0.8244248628616333	4.112906424325047e-07	0.8783310651779175	10
+152	shapessocial_align	aligned	gpt2	ucks him in for the night while the boy falls	 asleep	.	0.354921817779541	2.736992120742798	0.0018246759427711368	0.46967390179634094	10
+153	shapessocial_align	aligned	gpt2	 him in for the night while the boy falls asleep	 his	head	7.689328193664551	5.97556734085083	0.0001661694550421089	0.09748473018407822	10
+154	shapessocial_align	aligned	gpt2	 in for the night while the boy falls asleep his	 father	is	3.419158697128296	6.038751125335693	5.146701369085349e-05	0.06330101191997528	10
+155	shapessocial_align	aligned	gpt2	 for the night while the boy falls asleep his father	 walks	in	5.734950065612793	3.2528631687164307	1.4925982441127417e-06	0.18268010020256042	10
+156	shapessocial_align	aligned	gpt2	 the night while the boy falls asleep his father walks	 back	to	4.1529974937438965	2.3157691955566406	0.0004897713661193848	0.4893706142902374	10
+157	shapessocial_align	aligned	gpt2	 night while the boy falls asleep his father walks back	 downstairs	to	4.801540374755859	2.6823341846466064	7.579939119750634e-05	0.24308083951473236	10
+158	shapessocial_align	aligned	gpt2	 while the boy falls asleep his father walks back downstairs	 to	find	1.4437856674194336	4.554450511932373	0.00016469971160404384	0.15820260345935822	10
+159	shapessocial_align	aligned	gpt2	 the boy falls asleep his father walks back downstairs to	 his	room	2.9753780364990234	2.1431703567504883	2.7363199478713796e-05	0.6498924493789673	10
+160	shapessocial_align	aligned	gpt2	 boy falls asleep his father walks back downstairs to his	 bedroom	.	2.5401370525360107	3.278097152709961	0.0003148055402562022	0.26738953590393066	10
+161	shapessocial_align	aligned	gpt2	 falls asleep his father walks back downstairs to his bedroom	 on	the	5.6312150955200195	3.1200342178344727	1.7875077901408076e-05	0.4342106282711029	10
+162	shapessocial_align	aligned	gpt2	 asleep his father walks back downstairs to his bedroom on	 the	second	0.9982779026031494	5.625789165496826	0.00026673017418943346	0.07835458219051361	10
+163	shapessocial_align	aligned	gpt2	 his father walks back downstairs to his bedroom on the	 first	floor	3.436654806137085	1.6327793598175049	8.054592763073742e-05	0.6393828392028809	10
+164	shapessocial_align	aligned	gpt2	 father walks back downstairs to his bedroom on the first	 floor	.	0.5139759182929993	2.539586067199707	0.0015388332540169358	0.28736498951911926	10
+165	shapessocial_align	aligned	gpt2	 walks back downstairs to his bedroom on the first floor	 climbs	into	14.959321975708008	2.9536221027374268	5.183177108847303e-06	0.23876839876174927	10
+166	shapessocial_align	aligned	gpt2	 back downstairs to his bedroom on the first floor climbs	 into	bed	1.4728193283081055	1.6818357706069946	8.06157368060667e-06	0.44873806834220886	10
+167	shapessocial_align	aligned	gpt2	 downstairs to his bedroom on the first floor climbs into	 bed	and	0.9855016469955444	2.6938633918762207	6.092457624617964e-05	0.3307115435600281	10
+168	shapessocial_align	aligned	gpt2	 to his bedroom on the first floor climbs into bed	 and	begins	1.1871299743652344	6.078268051147461	0.0011750319972634315	0.04891432821750641	10
+169	shapessocial_align	aligned	gpt2	 his bedroom on the first floor climbs into bed and	 quickly	starts	5.690317630767822	6.06876802444458	0.0002802014641929418	0.03233848884701729	10
+170	shapessocial_align	aligned	gpt2	 bedroom on the first floor climbs into bed and quickly	 falls	asleep	4.158175945281982	0.7429845929145813	4.297372129258292e-07	0.8769492506980896	10
+171	shapessocial_align	aligned	gpt2	 on the first floor climbs into bed and quickly falls	 asleep	.	0.2094493806362152	2.4417221546173096	0.0011763224611058831	0.5253928899765015	10
+172	shapessocial_align	aligned	gpt2	 the first floor climbs into bed and quickly falls asleep	 upstairs	.	8.018718719482422	2.1151041984558105	0.00029645810718648136	0.5594784021377563	10
+173	shapessocial_align	aligned	gpt2	 first floor climbs into bed and quickly falls asleep upstairs	 the	next	7.058465003967285	1.664937138557434	7.799248123774305e-05	0.7745125889778137	10
+174	shapessocial_align	aligned	gpt2	 floor climbs into bed and quickly falls asleep upstairs the	 boy	is	7.518397808074951	5.305500507354736	0.00019067671382799745	0.12376248091459274	10
+175	shapessocial_align	aligned	gpt2	 climbs into bed and quickly falls asleep upstairs the boy	 begins	to	4.201882362365723	2.573476791381836	6.108407433202956e-07	0.6783162951469421	10
+176	shapessocial_align	aligned	gpt2	 into bed and quickly falls asleep upstairs the boy begins	 to	cry	0.3833998143672943	5.91609525680542	0.00013175966159906238	0.07599800825119019	10
+177	shapessocial_align	aligned	gpt2	 bed and quickly falls asleep upstairs the boy begins to	 dream	of	4.588021755218506	2.7677061557769775	0.0002802317321766168	0.2981224060058594	10
+178	shapessocial_align	aligned	gpt2	 and quickly falls asleep upstairs the boy begins to dream	 the	dream	5.5863494873046875	6.066372871398926	0.0002420792734483257	0.08789879828691483	10
+179	shapessocial_align	aligned	gpt2	 quickly falls asleep upstairs the boy begins to dream the	 ceiling	is	9.034207344055176	5.13651180267334	0.0007606293074786663	0.1499079167842865	10
+180	shapessocial_align	aligned	gpt2	 falls asleep upstairs the boy begins to dream the ceiling	 opens	up	6.433405876159668	2.778632640838623	9.739312190504279e-06	0.3689126670360565	10
+181	shapessocial_align	aligned	gpt2	 asleep upstairs the boy begins to dream the ceiling opens	 up	and	0.940582811832428	3.132087469100952	0.0012134290300309658	0.2795875072479248	10
+182	shapessocial_align	aligned	gpt2	 upstairs the boy begins to dream the ceiling opens up	 and	he	1.281125545501709	5.157221794128418	0.002244639676064253	0.17361664772033691	10
+183	shapessocial_align	aligned	gpt2	 the boy begins to dream the ceiling opens up and	 he	sees	1.506325125694275	4.993452072143555	0.0002467162848915905	0.08395744860172272	10
+184	shapessocial_align	aligned	gpt2	 boy begins to dream the ceiling opens up and he	 floats	into	7.3744330406188965	3.9070303440093994	5.363006494008005e-06	0.09739958494901657	10
+185	shapessocial_align	aligned	gpt2	 begins to dream the ceiling opens up and he floats	 into	the	2.495737314224243	2.4050135612487793	4.7162084229057655e-05	0.5508520007133484	10
+186	shapessocial_align	aligned	gpt2	 to dream the ceiling opens up and he floats into	 the	air	0.5483686923980713	4.756682395935059	0.0002967128239106387	0.27247580885887146	10
+187	shapessocial_align	aligned	gpt2	 dream the ceiling opens up and he floats into the	 sky	.	2.6967692375183105	2.965907573699951	0.00018143467605113983	0.38315683603286743	10
+188	shapessocial_align	aligned	gpt2	 the ceiling opens up and he floats into the sky	 along	with	7.30331563949585	1.1327078342437744	4.604606147040613e-05	0.7699933648109436	10
+189	shapessocial_align	aligned	gpt2	 ceiling opens up and he floats into the sky along	 with	the	0.25463536381721497	4.863673210144043	3.1643907277612016e-05	0.2488182932138443	10
+190	shapessocial_align	aligned	gpt2	 opens up and he floats into the sky along with	 a	huge	2.3000125885009766	6.901546478271484	0.00014718854799866676	0.03317378833889961	10
+191	shapessocial_align	aligned	gpt2	 up and he floats into the sky along with a	 huge	wave	3.466838836669922	6.600738525390625	0.001467213500291109	0.04186166450381279	10
+192	shapessocial_align	aligned	gpt2	 and he floats into the sky along with a huge	 bird	.	5.276948928833008	3.6909663677215576	0.0012214728631079197	0.32820290327072144	10
+193	shapessocial_align	aligned	gpt2	 he floats into the sky along with a huge bird	 high	above	9.347692489624023	1.5684088468551636	0.0013139760121703148	0.5855728983879089	10
+194	shapessocial_align	aligned	gpt2	 floats into the sky along with a huge bird high	 above	.	0.5548830032348633	2.8068439960479736	0.0003593338478822261	0.32872021198272705	10
+195	shapessocial_align	aligned	gpt2	 into the sky along with a huge bird high above	 mountains	.	10.0987548828125	2.9334897994995117	0.00010151023889193311	0.35286420583724976	10
+196	shapessocial_align	aligned	gpt2	 the sky along with a huge bird high above mountains	 the	size	6.664370536804199	6.620554447174072	0.0005524847074411809	0.12381770461797714	10
+197	shapessocial_align	aligned	gpt2	 sky along with a huge bird high above mountains the	 boy	was	8.318541526794434	5.578718662261963	0.0002583973400760442	0.11484057456254959	10
+198	shapessocial_align	aligned	gpt2	 along with a huge bird high above mountains the boy	 can	't	4.11234188079834	4.538732528686523	6.912116805324331e-05	0.16212494671344757	10
+199	shapessocial_align	aligned	gpt2	 with a huge bird high above mountains the boy can	 fly	.	2.4242937564849854	4.355278015136719	2.893162309192121e-05	0.16588987410068512	10
+200	shapessocial_align	aligned	gpt2	 a huge bird high above mountains the boy can fly	 the	whole	5.15592098236084	6.464934349060059	0.00035302594187669456	0.05366728454828262	10
+201	shapessocial_align	aligned	gpt2	 huge bird high above mountains the boy can fly the	 giant	bird	6.768913269042969	5.774953842163086	0.0013500890927389264	0.25083306431770325	10
+202	shapessocial_align	aligned	gpt2	 bird high above mountains the boy can fly the giant	 bird	.	3.117278814315796	4.469639301300049	0.00034836670965887606	0.1329176127910614	10
+203	shapessocial_align	aligned	gpt2	 high above mountains the boy can fly the giant bird	 splits	into	12.777242660522461	3.4779889583587646	2.3559607598144794e-06	0.27459797263145447	10
+204	shapessocial_align	aligned	gpt2	 above mountains the boy can fly the giant bird splits	 into	two	1.246517300605774	3.258481979370117	0.00010595807543722913	0.4183270335197449	10
+205	shapessocial_align	aligned	gpt2	 mountains the boy can fly the giant bird splits into	 two	halves	0.9579453468322754	4.767930030822754	0.0011046254076063633	0.1032063290476799	10
+206	shapessocial_align	aligned	gpt2	 the boy can fly the giant bird splits into two	 smaller	pieces	4.137889385223389	4.962754249572754	0.0063384175300598145	0.15564769506454468	10
+207	shapessocial_align	aligned	gpt2	 boy can fly the giant bird splits into two smaller	 birds	.	2.540591239929199	3.353844404220581	9.332904483017046e-06	0.25223612785339355	10
+208	shapessocial_align	aligned	gpt2	 can fly the giant bird splits into two smaller birds	 which	fly	3.905025005340576	5.102541923522949	8.6376974650193e-05	0.15821199119091034	10
+209	shapessocial_align	aligned	gpt2	 fly the giant bird splits into two smaller birds which	 <	a	13.122724533081055	6.599996089935303	0.0001970277080545202	0.0388479121029377	10
+210	shapessocial_align	aligned	gpt2	 the giant bird splits into two smaller birds which <	unk	now	11.807231903076172	4.386861801147461	0.0001541266101412475	0.2948799431324005	10
+211	shapessocial_align	aligned	gpt2	 giant bird splits into two smaller birds which <unk	>	and	1.982763648033142	6.361494064331055	0.0005410356679931283	0.12397866696119308	10
+212	shapessocial_align	aligned	gpt2	 bird splits into two smaller birds which <unk>	 across	the	9.103404998779297	3.355558395385742	0.0008213604451157153	0.4257187843322754	10
+213	shapessocial_align	aligned	gpt2	 splits into two smaller birds which <unk> across	 the	field	0.9164609313011169	6.491309642791748	0.0004143486439716071	0.02931748330593109	10
+214	shapessocial_align	aligned	gpt2	 into two smaller birds which <unk> across the	 sky	.	3.8572747707366943	4.020374298095703	0.00017117768584284931	0.27769774198532104	10
+215	shapessocial_align	aligned	gpt2	 two smaller birds which <unk> across the sky	 with	their	4.195405960083008	5.557247638702393	8.068059105426073e-05	0.17337898910045624	10
+216	shapessocial_align	aligned	gpt2	 smaller birds which <unk> across the sky with	 the	same	2.7104625701904297	7.311921119689941	0.0006481272866949439	0.09261082857847214	10
+217	shapessocial_align	aligned	gpt2	 birds which <unk> across the sky with the	 boy	's	9.101480484008789	5.491934299468994	0.0006686850101687014	0.13573628664016724	10
+218	shapessocial_align	aligned	gpt2	 which <unk> across the sky with the boy	 the	sky	7.181554794311523	7.57806396484375	0.0007324886973947287	0.025130195543169975	10
+219	shapessocial_align	aligned	gpt2	 <unk> across the sky with the boy the	 two	of	5.64802360534668	5.487632751464844	0.0007432245183736086	0.3035415709018707	10
+220	shapessocial_align	aligned	gpt2	unk> across the sky with the boy the two	 birds	were	7.362491130828857	5.759857654571533	0.0001065289179678075	0.09768016636371613	10
+221	shapessocial_align	aligned	gpt2	> across the sky with the boy the two birds	 become	friends	8.693220138549805	6.193984031677246	0.00023630463692825288	0.04381804168224335	10
+222	shapessocial_align	aligned	gpt2	 across the sky with the boy the two birds become	 four	.	8.838314056396484	4.793749809265137	0.000211790538742207	0.1548909991979599	10
+223	shapessocial_align	aligned	gpt2	 the sky with the boy the two birds become four	 birds	.	3.6800036430358887	3.644331693649292	6.0648457292700186e-05	0.28281348943710327	10
+224	shapessocial_align	aligned	gpt2	 sky with the boy the two birds become four birds	 the	boy	6.49862003326416	6.755229949951172	0.0005549733177758753	0.04034091904759407	10
+225	shapessocial_align	aligned	gpt2	 with the boy the two birds become four birds the	 boy	is	3.7277419567108154	5.635152816772461	0.00012363305722828954	0.05205032601952553	10
+226	shapessocial_align	aligned	gpt2	 the boy the two birds become four birds the boy	 plays	with	6.83191442489624	3.597504138946533	4.498212001635693e-05	0.4110860228538513	10
+227	shapessocial_align	aligned	gpt2	 boy the two birds become four birds the boy plays	 with	the	1.1126295328140259	4.433203220367432	0.0034720879048109055	0.18949584662914276	10
+228	shapessocial_align	aligned	gpt2	 the two birds become four birds the boy plays with	 the	other	2.791804790496826	6.461740970611572	0.00033241332857869565	0.1047220304608345	10
+229	shapessocial_align	aligned	gpt2	 two birds become four birds the boy plays with the	 birds	.	4.72503662109375	3.698151111602783	4.6049059164943174e-05	0.3611765205860138	10
+230	shapessocial_align	aligned	gpt2	 birds become four birds the boy plays with the birds	 but	the	5.236632347106934	4.826343059539795	0.00017303231288678944	0.1283687949180603	10
+231	shapessocial_align	aligned	gpt2	 become four birds the boy plays with the birds but	 then	he	3.889462471008301	5.516632556915283	0.0010465736268088222	0.14271405339241028	10
+232	shapessocial_align	aligned	gpt2	 four birds the boy plays with the birds but then	 the	boy	2.876513719558716	5.558877944946289	0.0002452339685987681	0.23133184015750885	10
+233	shapessocial_align	aligned	gpt2	 birds the boy plays with the birds but then the	 flock	of	8.01722526550293	5.484097003936768	0.0010374977719038725	0.1436813473701477	10
+234	shapessocial_align	aligned	gpt2	 the boy plays with the birds but then the flock	 gangs	up	13.436441421508789	2.543327569961548	3.808972905972041e-06	0.5222991108894348	10
+235	shapessocial_align	aligned	gpt2	 boy plays with the birds but then the flock gangs	 up	and	0.6234158277511597	2.648212194442749	0.00017846909759100527	0.3221876919269562	10
+236	shapessocial_align	aligned	gpt2	 plays with the birds but then the flock gangs up	 on	each	1.4785256385803223	3.2631161212921143	7.610604370711371e-05	0.16879801452159882	10
+237	shapessocial_align	aligned	gpt2	 with the birds but then the flock gangs up on	 him	.	2.2392466068267822	2.816431999206543	1.1288833775324747e-05	0.28809958696365356	10
+238	shapessocial_align	aligned	gpt2	 the birds but then the flock gangs up on him	 and	he	1.3028141260147095	6.020867347717285	0.0004535629996098578	0.08714229613542557	10
+239	shapessocial_align	aligned	gpt2	 birds but then the flock gangs up on him and	 starts	to	3.5937225818634033	5.197103977203369	2.9130208076821873e-06	0.12369358539581299	10
+240	shapessocial_align	aligned	gpt2	 but then the flock gangs up on him and starts	 chasing	him	3.846493721008301	1.541109323501587	6.14926921116421e-06	0.7127338647842407	10
+241	shapessocial_align	aligned	gpt2	 then the flock gangs up on him and starts chasing	 him	.	0.35090312361717224	2.9306416511535645	1.842984238464851e-05	0.2974328398704529	10
+242	shapessocial_align	aligned	gpt2	 the flock gangs up on him and starts chasing him	 he	is	9.458712577819824	5.452267646789551	0.0003755172074306756	0.05595580115914345	10
+243	shapessocial_align	aligned	gpt2	 flock gangs up on him and starts chasing him he	 tries	to	3.7681164741516113	0.8556302189826965	4.355892087914981e-06	0.8963716626167297	10
+244	shapessocial_align	aligned	gpt2	 gangs up on him and starts chasing him he tries	 to	get	0.1007680669426918	5.070955276489258	0.00017003866378217936	0.07089710980653763	10
+245	shapessocial_align	aligned	gpt2	 up on him and starts chasing him he tries to	 fly	away	5.70013427734375	3.6990456581115723	3.0835526558803394e-05	0.22145745158195496	10
+246	shapessocial_align	aligned	gpt2	 on him and starts chasing him he tries to fly	 away	but	1.522261619567871	3.0257503986358643	0.0008228168589994311	0.2549876272678375	10
+247	shapessocial_align	aligned	gpt2	 him and starts chasing him he tries to fly away	 but	he	1.2995140552520752	5.148935317993164	0.00028389354702085257	0.1919596791267395	10
+248	shapessocial_align	aligned	gpt2	 and starts chasing him he tries to fly away but	 cannot	.	6.698190212249756	3.5783369541168213	7.3143783083651215e-06	0.29031357169151306	10
+249	shapessocial_align	aligned	gpt2	 starts chasing him he tries to fly away but cannot	 escape	.	4.601635456085205	3.6423068046569824	7.721744623268023e-05	0.33103621006011963	10
+250	shapessocial_align	aligned	gpt2	 chasing him he tries to fly away but cannot escape	 thankfully	.	12.50200366973877	4.147787570953369	0.00014069965982344002	0.3107365667819977	10
+251	shapessocial_align	aligned	gpt2	 him he tries to fly away but cannot escape thankfully	 the	other	3.985311985015869	7.960402965545654	0.00042163909529335797	0.015540745109319687	10
+252	shapessocial_align	aligned	gpt2	 he tries to fly away but cannot escape thankfully the	 dream	is	8.338020324707031	5.671391010284424	0.0001866485399659723	0.09709734469652176	10
+253	shapessocial_align	aligned	gpt2	 tries to fly away but cannot escape thankfully the dream	 ends	.	3.381103277206421	3.642526388168335	3.2341567930416204e-06	0.15269248187541962	10
+254	shapessocial_align	aligned	gpt2	 to fly away but cannot escape thankfully the dream ends	 and	the	2.4138197898864746	5.009781360626221	0.0005575049435719848	0.1723538190126419	10
+255	shapessocial_align	aligned	gpt2	 fly away but cannot escape thankfully the dream ends and	 the	dream	1.6050004959106445	7.687126636505127	0.0004980954108759761	0.028407730162143707	10
+256	shapessocial_align	aligned	gpt2	 away but cannot escape thankfully the dream ends and the	 birds	are	7.45775032043457	5.232211112976074	3.172159631503746e-05	0.15694497525691986	10
+257	shapessocial_align	aligned	gpt2	 but cannot escape thankfully the dream ends and the birds	 disappear	.	5.065125465393066	2.6834475994110107	8.186123523046263e-06	0.4941924214363098	10
+258	shapessocial_align	aligned	gpt2	 cannot escape thankfully the dream ends and the birds disappear	 the	next	6.250245094299316	6.9501190185546875	0.0008266250952146947	0.11586359888315201	10
+259	shapessocial_align	aligned	gpt2	 escape thankfully the dream ends and the birds disappear the	 boy	is	7.222472190856934	5.322587490081787	0.00010391045361757278	0.12542764842510223	10
+260	shapessocial_align	aligned	gpt2	 thankfully the dream ends and the birds disappear the boy	 sleeps	.	6.3011674880981445	3.7633485794067383	1.2144170113970176e-06	0.21775855123996735	10
+261	shapessocial_align	aligned	gpt2	 the dream ends and the birds disappear the boy sleeps	 peacefully	.	3.6652157306671143	3.007826089859009	0.0015567966038361192	0.35010260343551636	10
+262	shapessocial_align	aligned	gpt2	 dream ends and the birds disappear the boy sleeps peacefully	 for	a	4.18519401550293	2.971998929977417	0.00012764711573254317	0.43760108947753906	10
+263	shapessocial_align	aligned	gpt2	 ends and the birds disappear the boy sleeps peacefully for	 the	rest	2.114089012145996	1.9786138534545898	6.068043876439333e-05	0.44638362526893616	10
+264	shapessocial_align	aligned	gpt2	 and the birds disappear the boy sleeps peacefully for the	 rest	of	0.8504945039749146	0.07956988364458084	8.832311323203612e-06	0.9912557601928711	10
+265	shapessocial_align	aligned	gpt2	 the birds disappear the boy sleeps peacefully for the rest	 of	the	0.008687912486493587	1.215112566947937	1.3916851457906887e-05	0.600007176399231	10
+266	shapessocial_align	aligned	gpt2	 birds disappear the boy sleeps peacefully for the rest of	 the	day	0.7548738718032837	2.0832531452178955	7.773254765197635e-05	0.4531964361667633	10
+267	shapessocial_align	aligned	gpt2	 disappear the boy sleeps peacefully for the rest of the	 night	.	1.2388148307800293	2.303845167160034	9.367192251374945e-05	0.5378603339195251	10
+268	shapessocial_align	aligned	gpt2	 the boy sleeps peacefully for the rest of the night	 in	a	3.277988910675049	2.9002575874328613	6.247750570764765e-05	0.3133637309074402	10
+269	shapessocial_align	aligned	gpt2	 boy sleeps peacefully for the rest of the night in	 the	same	1.5818383693695068	7.121789455413818	0.0005685870419256389	0.04034443944692612	10
+270	shapessocial_align	aligned	gpt2	 sleeps peacefully for the rest of the night in the	 morning	.	6.157690525054932	2.6198301315307617	0.0002264641661895439	0.41371795535087585	10
+271	shapessocial_align	aligned	gpt2	 peacefully for the rest of the night in the morning	 the	sun	6.783384323120117	7.998449325561523	0.0003838532720692456	0.021690690889954567	10
+272	shapessocial_align	aligned	gpt2	 for the rest of the night in the morning the	 boy	was	6.41351318359375	5.280682563781738	0.000393433787394315	0.1614854633808136	10
+273	shapessocial_align	aligned	gpt2	 the rest of the night in the morning the boy	's	mother	2.88478946685791	5.497483253479004	1.9875600628438406e-05	0.1377638578414917	10
+274	shapessocial_align	aligned	gpt2	 rest of the night in the morning the boy's	 father	,	2.3688433170318604	5.307830810546875	4.2976320401066914e-05	0.10203898698091507	10
+275	shapessocial_align	aligned	gpt2	 of the night in the morning the boy's father	 climbs	into	9.953890800476074	2.755826711654663	4.876835646427935e-06	0.23830774426460266	10
+276	shapessocial_align	aligned	gpt2	 the night in the morning the boy's father climbs	 the	stairs	3.1807174682617188	4.122434139251709	0.00012000889546470717	0.32860779762268066	10
+277	shapessocial_align	aligned	gpt2	 night in the morning the boy's father climbs the	 stairs	to	1.0394186973571777	2.861757755279541	0.00010915034363279119	0.27512863278388977	10
+278	shapessocial_align	aligned	gpt2	 in the morning the boy's father climbs the stairs	 to	the	1.3402159214019775	3.7772865295410156	0.0001254425005754456	0.31691017746925354	10
+279	shapessocial_align	aligned	gpt2	 the morning the boy's father climbs the stairs to	 his	room	1.6483120918273926	4.897302150726318	8.391799201490358e-05	0.12020760774612427	10
+280	shapessocial_align	aligned	gpt2	 morning the boy's father climbs the stairs to his	 son	's	3.9467825889587402	0.3949338495731354	7.016830932116136e-05	0.9458275437355042	10
+281	shapessocial_align	aligned	gpt2	 the boy's father climbs the stairs to his son	's	room	0.05914207547903061	3.380441427230835	1.1070826076320373e-05	0.3381253182888031	10
+282	shapessocial_align	aligned	gpt2	 boy's father climbs the stairs to his son's	 bedroom	.	1.6592910289764404	2.5420329570770264	0.000550061755347997	0.3518097698688507	10
+283	shapessocial_align	aligned	gpt2	's father climbs the stairs to his son's bedroom	 and	finds	2.1351537704467773	6.037662982940674	0.0006190873100422323	0.04524681344628334	10
+284	shapessocial_align	aligned	gpt2	 father climbs the stairs to his son's bedroom and	 wakes	up	6.0627593994140625	2.335066556930542	1.0705934073484968e-05	0.487832248210907	10
+285	shapessocial_align	aligned	gpt2	 climbs the stairs to his son's bedroom and wakes	 him	up	1.334843635559082	2.0157103538513184	1.1988208825641777e-05	0.6400828957557678	10
+286	shapessocial_align	aligned	gpt2	 the stairs to his son's bedroom and wakes him	 up	.	0.354891300201416	3.006340265274048	0.0006535234278999269	0.3605622947216034	10
+287	shapessocial_align	aligned	gpt2	 stairs to his son's bedroom and wakes him up	 the	next	5.1986494064331055	0.8028305172920227	2.6424539100844413e-05	0.8694420456886292	10
+288	shapessocial_align	aligned	gpt2	 to his son's bedroom and wakes him up the	 boy	is	8.997042655944824	5.016003131866455	0.00021028560877311975	0.11833514273166656	10
+289	shapessocial_align	aligned	gpt2	 his son's bedroom and wakes him up the boy	 follows	him	8.234611511230469	3.3995673656463623	2.764801820376306e-06	0.3302951753139496	10
+290	shapessocial_align	aligned	gpt2	 son's bedroom and wakes him up the boy follows	 his	father	2.3341097831726074	5.413090229034424	0.00014984670269768685	0.135001540184021	10
+291	shapessocial_align	aligned	gpt2	's bedroom and wakes him up the boy follows his	 father	's	2.53652286529541	3.4873085021972656	4.0593964513391256e-05	0.13512501120567322	10
+292	shapessocial_align	aligned	gpt2	 bedroom and wakes him up the boy follows his father	 down	the	4.323298454284668	1.9732341766357422	0.0002443801495246589	0.4874736964702606	10
+293	shapessocial_align	aligned	gpt2	 and wakes him up the boy follows his father down	 the	hall	0.9810364246368408	4.1326727867126465	0.00024149876844603568	0.16429968178272247	10
+294	shapessocial_align	aligned	gpt2	 wakes him up the boy follows his father down the	 stairs	.	2.0553271770477295	2.7306880950927734	6.639813364017755e-05	0.2658080756664276	10
+295	shapessocial_align	aligned	gpt2	 him up the boy follows his father down the stairs	 to	the	1.945936679840088	3.1257193088531494	0.00022380557493306696	0.4820318818092346	10
+296	shapessocial_align	aligned	gpt2	 up the boy follows his father down the stairs to	 the	basement	0.7991316318511963	6.502740859985352	0.00033092297962866724	0.05092892795801163	10
+297	shapessocial_align	aligned	gpt2	 the boy follows his father down the stairs to the	 first	floor	4.506635665893555	2.456861972808838	4.387992521515116e-05	0.6718422770500183	10
+298	shapessocial_align	aligned	gpt2	 boy follows his father down the stairs to the first	 floor	.	0.4164115786552429	2.8180649280548096	0.0012499490985646844	0.25016140937805176	10
+299	shapessocial_align	aligned	gpt2	 follows his father down the stairs to the first floor	 of	the	1.6147948503494263	2.8733971118927	1.6087466065073386e-05	0.5654553174972534	10
+300	shapessocial_align	aligned	gpt2	 his father down the stairs to the first floor of	 their	home	3.42757248878479	4.09862756729126	0.00012630475976038724	0.24011941254138947	10
+301	shapessocial_align	aligned	gpt2	 father down the stairs to the first floor of their	 home	.	1.9406152963638306	2.6607847213745117	0.00021212555293459445	0.40897220373153687	10
+302	shapessocial_align	aligned	gpt2	 down the stairs to the first floor of their home	 they	had	7.350250244140625	5.024196624755859	2.684368701011408e-05	0.08662121742963791	10
+303	shapessocial_align	aligned	gpt2	 the stairs to the first floor of their home they	 have	been	3.3006718158721924	5.256985187530518	9.35094358283095e-05	0.12658047676086426	10
+304	shapessocial_align	aligned	gpt2	 stairs to the first floor of their home they have	 a	small	3.2861061096191406	6.954212665557861	0.0003717885119840503	0.0328107550740242	10
+305	shapessocial_align	aligned	gpt2	 to the first floor of their home they have a	 brief	case	7.8329620361328125	5.199349403381348	0.0005017205257900059	0.13320130109786987	10
+306	shapessocial_align	aligned	gpt2	 the first floor of their home they have a brief	 conversation	about	2.3447017669677734	2.8395164012908936	3.684965577122057e-06	0.24737581610679626	10
+307	shapessocial_align	aligned	gpt2	 first floor of their home they have a brief conversation	 before	leaving	3.6983931064605713	5.090881824493408	7.309795182663947e-05	0.10835427790880203	10
+308	shapessocial_align	aligned	gpt2	 floor of their home they have a brief conversation before	 the	door	3.0182478427886963	7.4505486488342285	0.00037810203502886	0.030322792008519173	10
+309	shapessocial_align	aligned	gpt2	 of their home they have a brief conversation before the	 boy	is	5.913528919219971	5.262285232543945	4.8825120757101104e-05	0.09390467405319214	10
+310	shapessocial_align	aligned	gpt2	 their home they have a brief conversation before the boy	 heads	to	6.541398525238037	2.499291181564331	5.401214366429485e-06	0.22411039471626282	10
+311	shapessocial_align	aligned	gpt2	 home they have a brief conversation before the boy heads	 out	to	2.1953744888305664	2.635321855545044	0.0002853261539712548	0.25060105323791504	10
+312	shapessocial_align	aligned	gpt2	 they have a brief conversation before the boy heads out	 for	the	2.6555299758911133	3.151073455810547	3.1461677281185985e-05	0.2683274745941162	10
+313	shapessocial_align	aligned	gpt2	 have a brief conversation before the boy heads out for	 the	night	1.3108634948730469	6.4534430503845215	0.0004346115165390074	0.06430650502443314	10
+314	shapessocial_align	aligned	gpt2	 a brief conversation before the boy heads out for the	 day	.	3.4751765727996826	2.0104868412017822	6.125196523498744e-05	0.617494523525238	10
+315	shapessocial_align	aligned	gpt2	 brief conversation before the boy heads out for the day	 the	next	7.330728530883789	7.66624641418457	0.0005494355573318899	0.026033245027065277	10
+316	shapessocial_align	aligned	gpt2	 conversation before the boy heads out for the day the	 day	before	4.816662788391113	2.8224265575408936	0.00012064381735399365	0.3806268274784088	10
+317	shapessocial_align	aligned	gpt2	 before the boy heads out for the day the day	 passes	.	7.661052703857422	2.9136078357696533	7.41145595384296e-06	0.41963544487953186	10
+318	shapessocial_align	aligned	gpt2	 the boy heads out for the day the day passes	 the	boy	6.1765594482421875	7.9541144371032715	0.0004373944248072803	0.032688207924366	10
+319	shapessocial_align	aligned	gpt2	 boy heads out for the day the day passes the	 father	is	7.9135870933532715	5.498558044433594	9.215711179422215e-05	0.07320307195186615	10
+320	shapessocial_align	aligned	gpt2	 heads out for the day the day passes the father	 waits	for	6.5555620193481445	3.061917304992676	4.487544174480718e-06	0.3218497037887573	10
+321	shapessocial_align	aligned	gpt2	 out for the day the day passes the father waits	 for	his	0.9521305561065674	2.7656679153442383	0.0007531355950050056	0.34607747197151184	10
+322	shapessocial_align	aligned	gpt2	 for the day the day passes the father waits for	 his	son	1.062185287475586	4.384554386138916	8.963821164797992e-05	0.27307313680648804	10
+323	shapessocial_align	aligned	gpt2	 the day the day passes the father waits for his	 son	to	1.2601364850997925	2.0705652236938477	4.496426117839292e-05	0.5327684879302979	10
+324	shapessocial_align	aligned	gpt2	 day the day passes the father waits for his son	 to	come	0.5332642197608948	4.590783596038818	6.63572718622163e-05	0.11278945207595825	10
+325	shapessocial_align	aligned	gpt2	 the day passes the father waits for his son to	 return	home	2.728156328201294	1.975562334060669	1.0439049219712615e-05	0.43422186374664307	10
+326	shapessocial_align	aligned	gpt2	 day passes the father waits for his son to return	 home	.	0.9638468027114868	2.735830068588257	0.0011966651072725654	0.3901181221008301	10
+327	shapessocial_align	aligned	gpt2	 passes the father waits for his son to return home	 when	he	5.572675704956055	3.925844430923462	0.00038643545121885836	0.29277297854423523	10
+328	shapessocial_align	aligned	gpt2	 the father waits for his son to return home when	 he	is	1.1831490993499756	4.7610602378845215	0.00014619441935792565	0.13879340887069702	10
+329	shapessocial_align	aligned	gpt2	 father waits for his son to return home when he	 does	not	4.986827373504639	2.3874285221099854	3.527711669448763e-06	0.3683912754058838	10
+330	shapessocial_align	aligned	gpt2	 waits for his son to return home when he does	 the	same	6.243387699127197	4.990514755249023	0.0005325428210198879	0.3391891419887543	10
+331	shapessocial_align	aligned	gpt2	 for his son to return home when he does the	 two	-	6.546593189239502	4.486567497253418	0.0001609507598914206	0.40220698714256287	10
+332	shapessocial_align	aligned	gpt2	 his son to return home when he does the two	 talk	about	9.40102767944336	3.040832996368408	0.0001210514601552859	0.29752033948898315	10
+333	shapessocial_align	aligned	gpt2	 son to return home when he does the two talk	 briefly	.	5.287964344024658	2.6930572986602783	0.0015470144571736455	0.3651779592037201	10
+334	shapessocial_align	aligned	gpt2	 to return home when he does the two talk briefly	 the	next	6.611806392669678	3.6486012935638428	0.00017701595788821578	0.49070224165916443	10
+335	shapessocial_align	aligned	gpt2	 return home when he does the two talk briefly the	 boy	is	6.551475524902344	5.319326400756836	0.0002108746557496488	0.12518879771232605	10
+336	shapessocial_align	aligned	gpt2	 home when he does the two talk briefly the boy	 climbs	up	6.639655113220215	2.9108774662017822	4.493999313126551e-06	0.2121792435646057	10
+337	shapessocial_align	aligned	gpt2	 when he does the two talk briefly the boy climbs	 into	the	1.8457149267196655	2.0595123767852783	8.931621778174303e-06	0.31285515427589417	10
+338	shapessocial_align	aligned	gpt2	 he does the two talk briefly the boy climbs into	 bed	and	1.3276077508926392	2.9812605381011963	0.0002063563297269866	0.3381659686565399	10
+339	shapessocial_align	aligned	gpt2	 does the two talk briefly the boy climbs into bed	 as	he	5.158490180969238	4.080928325653076	0.0002127538900822401	0.28887781500816345	10
+340	shapessocial_align	aligned	gpt2	 the two talk briefly the boy climbs into bed as	 does	the	6.711398124694824	4.967915058135986	8.408399480686057e-06	0.2744380235671997	10
+341	shapessocial_align	aligned	gpt2	 two talk briefly the boy climbs into bed as does	 his	mother	1.62582528591156	3.7064878940582275	0.0001139415762736462	0.2502167224884033	10
+342	shapessocial_align	aligned	gpt2	 talk briefly the boy climbs into bed as does his	 father	.	1.535457968711853	2.4258196353912354	6.917568680364639e-05	0.4047199487686157	10
+343	shapessocial_align	aligned	gpt2	 briefly the boy climbs into bed as does his father	 downstairs	.	9.935132026672363	1.8417397737503052	0.0002675294235814363	0.5912967324256897	10
+344	shapessocial_align	aligned	gpt2	 the boy climbs into bed as does his father downstairs	 both	of	11.392895698547363	6.150197505950928	0.00011597989941947162	0.07846736907958984	10
+345	shapessocial_align	aligned	gpt2	 boy climbs into bed as does his father downstairs both	 fall	asleep	6.170017242431641	0.5010254383087158	4.649608399631688e-06	0.9306927919387817	10
+346	shapessocial_align	aligned	gpt2	 climbs into bed as does his father downstairs both fall	 right	in	9.0274019241333	2.480262517929077	0.0005130311474204063	0.33920857310295105	10
+347	shapessocial_align	aligned	gpt2	 into bed as does his father downstairs both fall right	 asleep	.	2.600926160812378	2.7509853839874268	0.0011132706422358751	0.47537824511528015	10
+348	shapessocial_align	aligned	gpt2	 bed as does his father downstairs both fall right asleep	 shortly	after	8.209080696105957	1.4667571783065796	9.505164052825421e-05	0.5460991263389587	10
+349	shapessocial_align	aligned	gpt2	 as does his father downstairs both fall right asleep shortly	 after	the	0.5394675135612488	4.872814178466797	0.0003698388172779232	0.16924278438091278	10
+350	shapessocial_align	aligned	gpt2	 does his father downstairs both fall right asleep shortly after	 falling	asleep	5.933208465576172	2.7552151679992676	4.872435602010228e-05	0.3525027632713318	10
+351	shapessocial_align	aligned	gpt2	 his father downstairs both fall right asleep shortly after falling	 the	stairs	6.553647518157959	4.584098815917969	0.0003990882833022624	0.2690242826938629	10
+352	shapessocial_align	aligned	gpt2	 father downstairs both fall right asleep shortly after falling the	 boy	's	7.091934680938721	3.828528642654419	0.00014330717385746539	0.13469725847244263	10
+353	shapessocial_align	aligned	gpt2	 downstairs both fall right asleep shortly after falling the boy	 starts	to	8.30349349975586	3.809486150741577	1.9092858565272763e-06	0.4361366629600525	10
+354	shapessocial_align	aligned	gpt2	 both fall right asleep shortly after falling the boy starts	 to	cry	0.8476201295852661	5.564879417419434	0.00016401610628236085	0.12963926792144775	10
+355	shapessocial_align	aligned	gpt2	 fall right asleep shortly after falling the boy starts to	 have	a	5.531486511230469	5.009028434753418	4.878404979535844e-06	0.1877550184726715	10
+356	shapessocial_align	aligned	gpt2	 right asleep shortly after falling the boy starts to have	 the	same	4.284597873687744	6.008242130279541	0.00021368714806158096	0.1305951327085495	10
+357	shapessocial_align	aligned	gpt2	 asleep shortly after falling the boy starts to have the	 bird	's	9.899330139160156	5.9985833168029785	0.00022890628315508366	0.1740041971206665	10
+358	shapessocial_align	aligned	gpt2	 shortly after falling the boy starts to have the bird	 dream	.	9.593546867370605	3.8190605640411377	0.0004907705588266253	0.27096036076545715	10
+359	shapessocial_align	aligned	gpt2	 after falling the boy starts to have the bird dream	 again	.	4.093532562255859	2.1019930839538574	0.0016370766097679734	0.5425000190734863	10
+360	shapessocial_align	aligned	gpt2	 falling the boy starts to have the bird dream again	 the	bird	6.537800312042236	6.076135635375977	0.00038744680932722986	0.09923899918794632	10
+361	shapessocial_align	aligned	gpt2	 the boy starts to have the bird dream again the	 four	of	7.824808120727539	5.456762313842773	0.00026494477060623467	0.28213489055633545	10
+362	shapessocial_align	aligned	gpt2	 boy starts to have the bird dream again the four	 birds	start	4.944695949554443	5.509934902191162	3.6897818063152954e-05	0.08464747667312622	10
+363	shapessocial_align	aligned	gpt2	 starts to have the bird dream again the four birds	 from	the	5.548031806945801	5.130698204040527	0.0003185591194778681	0.3730866014957428	10
+364	shapessocial_align	aligned	gpt2	 to have the bird dream again the four birds from	 the	sky	1.0361183881759644	6.99623966217041	0.00029092657496221364	0.05979551002383232	10
+365	shapessocial_align	aligned	gpt2	 have the bird dream again the four birds from the	 previous	day	4.250540256500244	5.628459453582764	0.00035862738150171936	0.10994971543550491	10
+366	shapessocial_align	aligned	gpt2	 the bird dream again the four birds from the previous	 night	.	2.090959072113037	5.293493747711182	0.0005202849861234426	0.1520015001296997	10
+367	shapessocial_align	aligned	gpt2	 bird dream again the four birds from the previous night	 are	now	3.621082305908203	6.012516498565674	4.2910673073492944e-05	0.05601506307721138	10
+368	shapessocial_align	aligned	gpt2	 dream again the four birds from the previous night are	 back	.	2.8164055347442627	3.2035393714904785	0.0015671992441639304	0.20140306651592255	10
+369	shapessocial_align	aligned	gpt2	 again the four birds from the previous night are back	 they	are	9.001490592956543	4.516238689422607	0.00013645581202581525	0.18184202909469604	10
+370	shapessocial_align	aligned	gpt2	 the four birds from the previous night are back they	 surround	the	11.570457458496094	3.617509365081787	2.283923322465853e-06	0.36914199590682983	10
+371	shapessocial_align	aligned	gpt2	 four birds from the previous night are back they surround	 him	.	3.43725323677063	3.7584667205810547	2.4015696908463724e-05	0.19942741096019745	10
+372	shapessocial_align	aligned	gpt2	 birds from the previous night are back they surround him	 preventing	him	10.247354507446289	2.5277726650238037	1.3283930684337975e-06	0.6056054830551147	10
+373	shapessocial_align	aligned	gpt2	 from the previous night are back they surround him preventing	 him	from	0.5305200219154358	0.7426825165748596	4.8256938498525415e-06	0.9169221520423889	10
+374	shapessocial_align	aligned	gpt2	 the previous night are back they surround him preventing him	 from	getting	0.0845266804099083	5.384248733520508	0.00017815377213992178	0.11522383987903595	10
+375	shapessocial_align	aligned	gpt2	 previous night are back they surround him preventing him from	 escaping	.	4.198643684387207	3.2186875343322754	1.2458846867957618e-05	0.4301289916038513	10
+376	shapessocial_align	aligned	gpt2	 night are back they surround him preventing him from escaping	 no	matter	9.574081420898438	2.5509531497955322	0.0005369301070459187	0.5939951539039612	10
+377	shapessocial_align	aligned	gpt2	 are back they surround him preventing him from escaping no	 matter	what	0.24028269946575165	1.2780225276947021	2.8937336082890397e-07	0.5793750286102295	10
+378	shapessocial_align	aligned	gpt2	 back they surround him preventing him from escaping no matter	 which	way	4.8882060050964355	3.7723069190979004	2.7524174583959393e-05	0.3390656113624573	10
+379	shapessocial_align	aligned	gpt2	 they surround him preventing him from escaping no matter which	 direction	he	2.450855255126953	2.5413100719451904	8.503972640028223e-05	0.49770891666412354	10
+380	shapessocial_align	aligned	gpt2	 surround him preventing him from escaping no matter which direction	 he	was	0.5294011235237122	3.850766181945801	6.168873369460925e-05	0.2115706503391266	10
+381	shapessocial_align	aligned	gpt2	 him preventing him from escaping no matter which direction he	 turns	.	6.597988605499268	1.9583454132080078	1.5201731912384275e-05	0.6365023255348206	10
+382	shapessocial_align	aligned	gpt2	 preventing him from escaping no matter which direction he turns	 the	other	5.196816444396973	6.251884460449219	0.00026444855029694736	0.08148083835840225	10
+383	shapessocial_align	aligned	gpt2	 him from escaping no matter which direction he turns the	 birds	.	9.540367126464844	3.936997413635254	1.7373627997585572e-05	0.2676900029182434	10
+384	shapessocial_align	aligned	gpt2	 from escaping no matter which direction he turns the birds	 transform	into	13.62417984008789	2.4103314876556396	8.707169399713166e-06	0.5371164083480835	10
+385	shapessocial_align	aligned	gpt2	 escaping no matter which direction he turns the birds transform	 into	.	0.6153310537338257	6.824435710906982	0.0010327429044991732	0.07697336375713348	10
+386	shapessocial_align	aligned	gpt2	 no matter which direction he turns the birds transform into	 a	flock	2.7011852264404297	7.504501819610596	0.00017811056750360876	0.026584018021821976	10
+387	shapessocial_align	aligned	gpt2	 matter which direction he turns the birds transform into a	 giant	,	5.0052385330200195	7.330984115600586	0.0023309329990297556	0.035938017070293427	10
+388	shapessocial_align	aligned	gpt2	 which direction he turns the birds transform into a giant	 monster	.	5.717957973480225	3.762977361679077	0.003818030934780836	0.34813764691352844	10
+389	shapessocial_align	aligned	gpt2	 direction he turns the birds transform into a giant monster	 with	a	2.7055845260620117	5.534847736358643	3.225055115763098e-05	0.19471649825572968	10
+390	shapessocial_align	aligned	gpt2	 he turns the birds transform into a giant monster with	 two	horns	4.849754333496094	4.824350357055664	0.00039195429417304695	0.14883002638816833	10
+391	shapessocial_align	aligned	gpt2	 turns the birds transform into a giant monster with two	 long	,	5.649221897125244	3.6411633491516113	0.001949948724359274	0.13752102851867676	10
+392	shapessocial_align	aligned	gpt2	 the birds transform into a giant monster with two long	 arms	and	2.3985142707824707	2.447852373123169	3.3696123864501715e-05	0.3747398555278778	10
+393	shapessocial_align	aligned	gpt2	 birds transform into a giant monster with two long arms	 and	a	0.8959305882453918	4.291171073913574	0.000606691581197083	0.24323782324790955	10
+394	shapessocial_align	aligned	gpt2	 transform into a giant monster with two long arms and	 two	legs	1.6330827474594116	4.42763090133667	0.0016547231934964657	0.17587998509407043	10
+395	shapessocial_align	aligned	gpt2	 into a giant monster with two long arms and two	 w	ands	6.824707984924316	2.9631223678588867	2.863073120806803e-07	0.32464757561683655	10
+396	shapessocial_align	aligned	gpt2	 a giant monster with two long arms and two w	obb	ly	3.2320737838745117	0.0020457410719245672	2.4462283310100474e-09	0.9998338222503662	10
+397	shapessocial_align	aligned	gpt2	 giant monster with two long arms and two wobb	ly	legs	0.00019810620869975537	2.842620372772217	7.785873458487913e-05	0.5190281271934509	10
+398	shapessocial_align	aligned	gpt2	 monster with two long arms and two wobbly	 legs	.	0.5803229808807373	2.436460018157959	4.596215512719937e-05	0.5332812666893005	10
+399	shapessocial_align	aligned	gpt2	 with two long arms and two wobbly legs	 the	man	7.372549533843994	8.194788932800293	0.0006281472742557526	0.016560157760977745	10
+400	shapessocial_align	aligned	gpt2	 two long arms and two wobbly legs the	 monster	was	6.750607013702393	6.189047336578369	0.00010763750469777733	0.07499514520168304	10
+401	shapessocial_align	aligned	gpt2	 long arms and two wobbly legs the monster	 <	----------------------------------------------------------------	13.207291603088379	6.354684829711914	0.0003091932157985866	0.05845969542860985	10
+402	shapessocial_align	aligned	gpt2	 arms and two wobbly legs the monster <	unk	now	13.008008003234863	4.687999248504639	5.055576912127435e-05	0.16456535458564758	10
+403	shapessocial_align	aligned	gpt2	 and two wobbly legs the monster <unk	>	and	2.1574995517730713	7.321049690246582	0.00016941805370151997	0.03243869170546532	10
+404	shapessocial_align	aligned	gpt2	 two wobbly legs the monster <unk>	 the	monster	6.2889604568481445	7.4499053955078125	0.000754081120248884	0.0655122697353363	10
+405	shapessocial_align	aligned	gpt2	 wobbly legs the monster <unk> the	 boy	<	7.651926040649414	6.198133945465088	0.0007651550695300102	0.09144660085439682	10
+406	shapessocial_align	aligned	gpt2	obbly legs the monster <unk> the boy	 he	's	6.158049583435059	5.132941722869873	0.00011719335452653468	0.1261121928691864	10
+407	shapessocial_align	aligned	gpt2	ly legs the monster <unk> the boy he	 misses	<	8.993234634399414	4.765944957733154	9.518786100670695e-05	0.19427502155303955	10
+408	shapessocial_align	aligned	gpt2	 legs the monster <unk> the boy he misses	 and	the	3.3226187229156494	5.822814464569092	0.000777201377786696	0.13210369646549225	10
+409	shapessocial_align	aligned	gpt2	 the monster <unk> the boy he misses and	 tries	to	4.765150547027588	0.8156495690345764	1.363027604384115e-05	0.9005546569824219	10
+410	shapessocial_align	aligned	gpt2	 monster <unk> the boy he misses and tries	 again	<	5.610211372375488	3.8533170223236084	0.0020442530512809753	0.2912485599517822	10
+411	shapessocial_align	aligned	gpt2	 <unk> the boy he misses and tries again	 frightened	by	13.71927547454834	4.854980945587158	2.6809979317476973e-05	0.15595975518226624	10
+412	shapessocial_align	aligned	gpt2	unk> the boy he misses and tries again frightened	 the	boy	3.5108633041381836	6.196604251861572	0.0003911966341547668	0.06690169870853424	10
+413	shapessocial_align	aligned	gpt2	> the boy he misses and tries again frightened the	 boy	.	2.3643739223480225	5.229673862457275	0.0010208283783867955	0.061752259731292725	10
+414	shapessocial_align	aligned	gpt2	 the boy he misses and tries again frightened the boy	 flies	away	7.265778541564941	3.0408504009246826	2.37408239627257e-05	0.21612846851348877	10
+415	shapessocial_align	aligned	gpt2	 boy he misses and tries again frightened the boy flies	 over	to	4.021459579467773	3.17313551902771	0.0002423119149170816	0.2536148428916931	10
+416	shapessocial_align	aligned	gpt2	 he misses and tries again frightened the boy flies over	 the	edge	1.7981936931610107	5.718561172485352	0.0002873022749554366	0.09446701407432556	10
+417	shapessocial_align	aligned	gpt2	 misses and tries again frightened the boy flies over the	 monster	.	7.801800727844238	3.6959455013275146	0.0007355455309152603	0.21554020047187805	10
+418	shapessocial_align	aligned	gpt2	 and tries again frightened the boy flies over the monster	 ev	ading	12.367575645446777	1.6276766061782837	2.6501427328184946e-06	0.6641210317611694	10
+419	shapessocial_align	aligned	gpt2	 tries again frightened the boy flies over the monster ev	ading	the	0.4530501365661621	4.403663635253906	1.0461317145882276e-07	0.19185662269592285	10
+420	shapessocial_align	aligned	gpt2	 again frightened the boy flies over the monster evading	 its	attack	3.5111947059631348	6.135171413421631	5.411601159721613e-05	0.10546664893627167	10
+421	shapessocial_align	aligned	gpt2	 frightened the boy flies over the monster evading its	 grasp	.	3.3414807319641113	2.181208372116089	1.078911645890912e-05	0.5199626088142395	10
+422	shapessocial_align	aligned	gpt2	 the boy flies over the monster evading its grasp	 the	monster	7.363739967346191	6.6888604164123535	0.00037473542033694685	0.08100122958421707	10
+423	shapessocial_align	aligned	gpt2	 boy flies over the monster evading its grasp the	 monster	flies	2.5592026710510254	6.0055766105651855	1.9656459699035622e-05	0.08644016087055206	10
+424	shapessocial_align	aligned	gpt2	 flies over the monster evading its grasp the monster	 <	----------------------------------------------------------------	12.919132232666016	6.679679870605469	0.0002734422159846872	0.055153943598270416	10
+425	shapessocial_align	aligned	gpt2	 over the monster evading its grasp the monster <	unk	now	12.426172256469727	3.971454381942749	0.0001229092013090849	0.3925830125808716	10
+426	shapessocial_align	aligned	gpt2	 the monster evading its grasp the monster <unk	>	and	3.1794111728668213	7.482892990112305	0.0007639180403202772	0.02804902195930481	10
+427	shapessocial_align	aligned	gpt2	 monster evading its grasp the monster <unk>	 into	the	7.475490570068359	4.029374599456787	3.4548600524431095e-05	0.2606836259365082	10
+428	shapessocial_align	aligned	gpt2	 evading its grasp the monster <unk> into	 a	corner	1.867266058921814	6.927856922149658	0.00024059855786617845	0.03240600973367691	10
+429	shapessocial_align	aligned	gpt2	ading its grasp the monster <unk> into a	 little	hole	5.904628753662109	6.94450044631958	0.002100330078974366	0.038451775908470154	10
+430	shapessocial_align	aligned	gpt2	 its grasp the monster <unk> into a little	 ball	of	4.195324897766113	3.6466715335845947	0.00010336411651223898	0.19949159026145935	10
+431	shapessocial_align	aligned	gpt2	 grasp the monster <unk> into a little ball	 it	will	6.064772605895996	5.160859107971191	0.00011196658306289464	0.15664874017238617	10
+432	shapessocial_align	aligned	gpt2	 the monster <unk> into a little ball it	 <	unk	7.970666885375977	5.152680397033691	1.9524541130522266e-05	0.3186025321483612	10
+433	shapessocial_align	aligned	gpt2	 monster <unk> into a little ball it <	unk	>	1.185803771018982	0.31343501806259155	5.815900294692256e-07	0.961201012134552	10
+434	shapessocial_align	aligned	gpt2	 <unk> into a little ball it <unk	>	and	0.060636963695287704	6.181343078613281	9.619107731850818e-05	0.10308440029621124	10
+435	shapessocial_align	aligned	gpt2	unk> into a little ball it <unk>	 lung	es	11.619058609008789	3.3213253021240234	0.0001333584514213726	0.4831112325191498	10
+436	shapessocial_align	aligned	gpt2	> into a little ball it <unk> lung	ing	for	3.035590410232544	4.627242565155029	2.9499084121198393e-05	0.10971759259700775	10
+437	shapessocial_align	aligned	gpt2	 into a little ball it <unk> lunging	 at	the	2.7694435119628906	3.9740164279937744	0.0001608962775208056	0.20720846951007843	10
+438	shapessocial_align	aligned	gpt2	 a little ball it <unk> lunging at	 the	wall	1.8144309520721436	7.27039098739624	0.00031399194267578423	0.05472734197974205	10
+439	shapessocial_align	aligned	gpt2	 little ball it <unk> lunging at the	 boy	<	7.423539638519287	3.7986607551574707	0.00020105033763684332	0.2587348222732544	10
+440	shapessocial_align	aligned	gpt2	 ball it <unk> lunging at the boy	 after	he	6.914194107055664	4.959235191345215	0.00011169309436809272	0.21298184990882874	10
+441	shapessocial_align	aligned	gpt2	 it <unk> lunging at the boy after	 the	first	2.5995934009552	7.572421073913574	0.00032660883152857423	0.043177999556064606	10
+442	shapessocial_align	aligned	gpt2	 <unk> lunging at the boy after the	 boy	was	4.189261436462402	5.504993438720703	0.00010374147677794099	0.09621911495923996	10
+443	shapessocial_align	aligned	gpt2	unk> lunging at the boy after the boy	 <	3	8.965903282165527	6.832964897155762	0.00036869655014015734	0.05214794725179672	10
+444	shapessocial_align	aligned	gpt2	> lunging at the boy after the boy <	unk	now	12.095487594604492	4.240633010864258	8.57384002301842e-05	0.3194931745529175	10
+445	shapessocial_align	aligned	gpt2	 lunging at the boy after the boy <unk	>	and	3.9937620162963867	7.283003807067871	0.0005802289233542979	0.029758477583527565	10
+446	shapessocial_align	aligned	gpt2	ing at the boy after the boy <unk>	 this	is	7.062704563140869	4.789163589477539	0.00025739718694239855	0.3224562704563141	10
+447	shapessocial_align	aligned	gpt2	 at the boy after the boy <unk> this	 attack	was	8.05859088897705	4.925301551818848	0.0011051625479012728	0.13393309712409973	10
+448	shapessocial_align	aligned	gpt2	 the boy after the boy <unk> this attack	 the	boy	6.874241352081299	6.806506633758545	0.0009186932584270835	0.14636069536209106	10
+449	shapessocial_align	aligned	gpt2	 boy after the boy <unk> this attack the	 nightmare	<	10.250753402709961	5.471672534942627	0.0010335436090826988	0.22429965436458588	10
+450	shapessocial_align	aligned	gpt2	 after the boy <unk> this attack the nightmare	 finally	ends	8.174018859863281	4.738997936248779	0.0013145807897672057	0.16236762702465057	10
+451	shapessocial_align	aligned	gpt2	 the boy <unk> this attack the nightmare finally	 ends	<	1.9454971551895142	2.8049964904785156	6.741843662894098e-06	0.5597499012947083	10
+452	shapessocial_align	aligned	gpt2	 boy <unk> this attack the nightmare finally ends	 the	nightmare	5.4069952964782715	7.17910099029541	0.0006329650059342384	0.049948085099458694	10
+453	shapessocial_align	aligned	gpt2	 <unk> this attack the nightmare finally ends the	 boy	is	7.115452766418457	5.448069095611572	0.0003615341556724161	0.11494453251361847	10
+454	shapessocial_align	aligned	gpt2	unk> this attack the nightmare finally ends the boy	 sleeps	in	7.413554668426514	5.326079368591309	1.2544861419883091e-05	0.0873052328824997	10
+455	shapessocial_align	aligned	gpt2	> this attack the nightmare finally ends the boy sleeps	 peacefully	.	5.191775321960449	4.504299640655518	0.0013789627701044083	0.16027413308620453	10
+456	shapessocial_align	aligned	gpt2	 this attack the nightmare finally ends the boy sleeps peacefully	 for	a	4.175728797912598	3.2378876209259033	0.00021091906819492579	0.355428010225296	10
+457	shapessocial_align	aligned	gpt2	 attack the nightmare finally ends the boy sleeps peacefully for	 the	rest	1.540424108505249	2.5995986461639404	0.00010749581269919872	0.4138464033603668	10
+458	shapessocial_align	aligned	gpt2	 the nightmare finally ends the boy sleeps peacefully for the	 rest	of	0.9042290449142456	0.03846225142478943	2.99465182251879e-06	0.996221661567688	10
+459	shapessocial_align	aligned	gpt2	 nightmare finally ends the boy sleeps peacefully for the rest	 of	his	0.0038712099194526672	1.3096925020217896	1.6252704881480895e-05	0.655611515045166	10
+460	shapessocial_align	aligned	gpt2	 finally ends the boy sleeps peacefully for the rest of	 the	day	0.6411802172660828	2.7108571529388428	0.00012134538701502606	0.3671780526638031	10
+461	shapessocial_align	aligned	gpt2	 ends the boy sleeps peacefully for the rest of the	 night	.	1.1678063869476318	2.112196922302246	7.868624379625544e-05	0.567747950553894	10
+462	shapessocial_align	aligned	gpt2	 the boy sleeps peacefully for the rest of the night	 in	a	3.277988910675049	2.9002575874328613	6.247750570764765e-05	0.3133637309074402	10
+463	shapessocial_align	aligned	gpt2	 boy sleeps peacefully for the rest of the night in	 the	same	1.5818383693695068	7.121789455413818	0.0005685870419256389	0.04034443944692612	10
+464	shapessocial_align	aligned	gpt2	 sleeps peacefully for the rest of the night in the	 morning	.	6.157690525054932	2.6198301315307617	0.0002264641661895439	0.41371795535087585	10
+465	shapessocial_align	aligned	gpt2	 peacefully for the rest of the night in the morning	 the	sun	6.783384323120117	7.998449325561523	0.0003838532720692456	0.021690690889954567	10
+466	shapessocial_align	aligned	gpt2	 for the rest of the night in the morning the	 boy	was	6.41351318359375	5.280682563781738	0.000393433787394315	0.1614854633808136	10
+467	shapessocial_align	aligned	gpt2	 the rest of the night in the morning the boy	's	mother	2.88478946685791	5.497483253479004	1.9875600628438406e-05	0.1377638578414917	10
+468	shapessocial_align	aligned	gpt2	 rest of the night in the morning the boy's	 dad	,	5.00396728515625	5.3665547370910645	2.5472152628935874e-05	0.07354865968227386	10
+469	shapessocial_align	aligned	gpt2	 of the night in the morning the boy's dad	 wakes	up	7.75443172454834	1.4458187818527222	8.433502443949692e-06	0.7031463980674744	10
+470	shapessocial_align	aligned	gpt2	 the night in the morning the boy's dad wakes	 up	and	0.32585763931274414	3.3547425270080566	0.0007116415654309094	0.24179470539093018	10
+471	shapessocial_align	aligned	gpt2	 night in the morning the boy's dad wakes up	 walks	in	14.155753135681152	2.8764679431915283	2.3904992758616572e-06	0.21020223200321198	10
+472	shapessocial_align	aligned	gpt2	 in the morning the boy's dad wakes up walks	 to	the	2.874274253845215	2.9084842205047607	0.00018877530237659812	0.3547910451889038	10
+473	shapessocial_align	aligned	gpt2	 the morning the boy's dad wakes up walks to	 the	house	0.9957964420318604	5.31060791015625	0.00021449752966873348	0.10737310349941254	10
+474	shapessocial_align	aligned	gpt2	 morning the boy's dad wakes up walks to the	 stairs	and	5.887697219848633	2.7934021949768066	4.099132274859585e-05	0.2236209362745285	10
+475	shapessocial_align	aligned	gpt2	 the boy's dad wakes up walks to the stairs	 and	sees	1.3798439502716064	5.651164531707764	0.0010359048610553145	0.07444576174020767	10
+476	shapessocial_align	aligned	gpt2	 boy's dad wakes up walks to the stairs and	 <	player	12.114598274230957	6.388108730316162	3.0712748412042856e-05	0.04583793133497238	10
+477	shapessocial_align	aligned	gpt2	's dad wakes up walks to the stairs and <	unk	now	13.627935409545898	3.637868642807007	6.706386193400249e-05	0.42035195231437683	10
+478	shapessocial_align	aligned	gpt2	 dad wakes up walks to the stairs and <unk	>	gets	3.2807364463806152	6.834807395935059	8.20051645860076e-05	0.025848738849163055	10
+479	shapessocial_align	aligned	gpt2	 wakes up walks to the stairs and <unk>	 for	a	6.565451145172119	4.338478088378906	0.00010738411947386339	0.2803640067577362	10
+480	shapessocial_align	aligned	gpt2	 up walks to the stairs and <unk> for	 his	first	4.595920562744141	7.6724677085876465	0.00020909619343001395	0.021389173343777657	10
+481	shapessocial_align	aligned	gpt2	 walks to the stairs and <unk> for his	 son	.	6.351042747497559	3.863758087158203	0.00020984285220038146	0.30451396107673645	10
+482	shapessocial_align	aligned	gpt2	 to the stairs and <unk> for his son	 to	get	2.477426767349243	5.264847278594971	0.00015113911649677902	0.07197535037994385	10
+483	shapessocial_align	aligned	gpt2	 the stairs and <unk> for his son to	 come	to	3.2678756713867188	3.719442129135132	0.0003157327009830624	0.07950679957866669	10
+484	shapessocial_align	aligned	gpt2	 stairs and <unk> for his son to come	 down	.	3.0803093910217285	3.2454590797424316	0.0010642042616382241	0.21000830829143524	10
+485	shapessocial_align	aligned	gpt2	 and <unk> for his son to come down	 the	stairs	3.291985034942627	4.263640403747559	0.0006451981607824564	0.1958393156528473	10
+486	shapessocial_align	aligned	gpt2	 <unk> for his son to come down the	 boy	's	10.210680961608887	4.989385604858398	0.001011350192129612	0.2906859815120697	10
+487	shapessocial_align	aligned	gpt2	unk> for his son to come down the boy	 jumps	up	8.853102684020996	4.549539089202881	0.0001945945550687611	0.09532725065946579	10
+488	shapessocial_align	aligned	gpt2	> for his son to come down the boy jumps	 up	and	2.5944771766662598	2.9795684814453125	0.0028750442434102297	0.4291626513004303	10
+489	shapessocial_align	aligned	gpt2	 for his son to come down the boy jumps up	 and	down	0.6941232681274414	4.952558994293213	0.0013336309930309653	0.24047476053237915	10
+490	shapessocial_align	aligned	gpt2	 his son to come down the boy jumps up and	 goes	to	4.640239715576172	3.6405515670776367	9.488105206401087e-06	0.17325831949710846	10
+491	shapessocial_align	aligned	gpt2	 son to come down the boy jumps up and goes	 down	on	1.8713902235031128	3.581177234649658	0.0024972588289529085	0.1446627676486969	10
+492	shapessocial_align	aligned	gpt2	 to come down the boy jumps up and goes down	 the	stairs	2.130558490753174	4.253352642059326	0.0003923251642845571	0.3723445534706116	10
+493	shapessocial_align	aligned	gpt2	 come down the boy jumps up and goes down the	 stairs	.	1.2278940677642822	2.964576005935669	0.00020535054500214756	0.3819126784801483	10
+494	shapessocial_align	aligned	gpt2	 down the boy jumps up and goes down the stairs	 after	him	5.536839008331299	5.262294769287109	0.0002504605508875102	0.12649868428707123	10
+495	shapessocial_align	aligned	gpt2	 the boy jumps up and goes down the stairs after	 a	few	3.1428489685058594	5.165914058685303	0.00020754194702021778	0.1561116874217987	10
+496	shapessocial_align	aligned	gpt2	 boy jumps up and goes down the stairs after a	 brief	pause	3.7414727210998535	5.359572887420654	0.007387111429125071	0.11401262134313583	10
+497	shapessocial_align	aligned	gpt2	 jumps up and goes down the stairs after a brief	 good	time	8.607465744018555	4.866314888000488	8.64362737047486e-05	0.1495146006345749	10
+498	shapessocial_align	aligned	gpt2	 up and goes down the stairs after a brief good	 morning	.	4.983746528625488	3.839237689971924	0.00031949899857863784	0.362627774477005	10
+499	shapessocial_align	aligned	gpt2	 and goes down the stairs after a brief good morning	 the	next	7.91523551940918	4.384083271026611	0.00030162205803208053	0.4234924018383026	10
+500	shapessocial_align	aligned	gpt2	 goes down the stairs after a brief good morning the	 boy	is	6.729518890380859	5.65775203704834	0.00032295892015099525	0.08246297389268875	10
+501	shapessocial_align	aligned	gpt2	 down the stairs after a brief good morning the boy	 again	.	8.390148162841797	6.0815887451171875	0.00017655749979894608	0.037902481853961945	10
+502	shapessocial_align	aligned	gpt2	 the stairs after a brief good morning the boy again	 heads	to	7.440674781799316	2.947275161743164	9.729020348459017e-06	0.20433756709098816	10
+503	shapessocial_align	aligned	gpt2	 stairs after a brief good morning the boy again heads	 out	to	2.6237597465515137	2.9066085815429688	0.0007834366988390684	0.27381187677383423	10
+504	shapessocial_align	aligned	gpt2	 after a brief good morning the boy again heads out	 for	a	2.0413970947265625	3.1040258407592773	4.97338296554517e-05	0.2609461545944214	10
+505	shapessocial_align	aligned	gpt2	 a brief good morning the boy again heads out for	 the	bathroom	1.1915035247802734	6.7698445320129395	0.0004747866769321263	0.034059375524520874	10
+506	shapessocial_align	aligned	gpt2	 brief good morning the boy again heads out for the	 day	.	4.033115863800049	3.0048534870147705	0.0001784518826752901	0.38775399327278137	10
+507	shapessocial_align	aligned	gpt2	 good morning the boy again heads out for the day	 and	the	2.5567567348480225	6.05045747756958	0.0011129786726087332	0.03683486208319664	10
+508	shapessocial_align	aligned	gpt2	 morning the boy again heads out for the day and	 the	next	2.940906047821045	6.5691986083984375	0.000277774001006037	0.06778986752033234	10
+509	shapessocial_align	aligned	gpt2	 the boy again heads out for the day and the	 day	after	3.9282844066619873	2.4150948524475098	5.278876778902486e-05	0.5664629936218262	10
+510	shapessocial_align	aligned	gpt2	 boy again heads out for the day and the day	 passes	.	5.62210750579834	3.2885611057281494	8.493613563587132e-07	0.235187828540802	10
+511	shapessocial_align	aligned	gpt2	 again heads out for the day and the day passes	 at	a	5.7058000564575195	4.1622209548950195	0.00023561350826639682	0.2634354829788208	10
+512	shapessocial_align	aligned	gpt2	 heads out for the day and the day passes at	 the	same	2.169203281402588	5.206136226654053	0.0003236902703065425	0.30645373463630676	10
+513	shapessocial_align	aligned	gpt2	 out for the day and the day passes at the	 end	of	2.447006940841675	1.1594436168670654	3.392510552657768e-05	0.7657268643379211	10
+514	shapessocial_align	aligned	gpt2	 for the day and the day passes at the end	 of	the	0.19083869457244873	2.2718114852905273	8.876036736182868e-05	0.6134675741195679	10
+515	shapessocial_align	aligned	gpt2	 the day and the day passes at the end of	 the	day	0.5763968229293823	4.093511581420898	0.00023945391876623034	0.4125877916812897	10
+516	shapessocial_align	aligned	gpt2	 day and the day passes at the end of the	 day	.	1.258148193359375	2.836866617202759	0.00019278669788036495	0.4739903509616852	10
+517	shapessocial_align	aligned	gpt2	 and the day passes at the end of the day	 the	next	6.393428802490234	8.134550094604492	0.00044382052146829665	0.027913173660635948	10
+518	shapessocial_align	aligned	gpt2	 the day passes at the end of the day the	 boy	is	7.499076843261719	5.327734470367432	0.0004344176850281656	0.1198936253786087	10
+519	shapessocial_align	aligned	gpt2	 day passes at the end of the day the boy	 returns	home	5.324924468994141	1.9798640012741089	4.6105842557153665e-06	0.40595191717147827	10
+520	shapessocial_align	aligned	gpt2	 passes at the end of the day the boy returns	 home	to	1.2585813999176025	3.6802239418029785	0.0026538788806647062	0.14775584638118744	10
+521	shapessocial_align	aligned	gpt2	 at the end of the day the boy returns home	 greets	his	14.651023864746094	3.484344244003296	1.1191041267011315e-06	0.2307313084602356	10
+522	shapessocial_align	aligned	gpt2	 the end of the day the boy returns home greets	 his	parents	1.5091310739517212	3.6103577613830566	9.924886398948729e-05	0.25506582856178284	10
+523	shapessocial_align	aligned	gpt2	 end of the day the boy returns home greets his	 father	and	2.4153337478637695	3.0383946895599365	0.0001426001836080104	0.2188751995563507	10
+524	shapessocial_align	aligned	gpt2	 of the day the boy returns home greets his father	 quickly	.	9.564169883728027	3.095691204071045	2.9443923267535865e-05	0.3032768666744232	10
+525	shapessocial_align	aligned	gpt2	 the day the boy returns home greets his father quickly	 and	asks	1.7764842510223389	6.0222954750061035	0.0010255270171910524	0.0551212802529335	10
+526	shapessocial_align	aligned	gpt2	 day the boy returns home greets his father quickly and	 then	he	4.35777473449707	6.007328987121582	0.0006092682015150785	0.042358942329883575	10
+527	shapessocial_align	aligned	gpt2	 the boy returns home greets his father quickly and then	 goes	to	3.3520572185516357	2.415562152862549	2.132749841621262e-06	0.46642157435417175	10
+528	shapessocial_align	aligned	gpt2	 boy returns home greets his father quickly and then goes	 straight	to	5.544329643249512	1.45480215549469	0.000408173946198076	0.6595244407653809	10
+529	shapessocial_align	aligned	gpt2	 returns home greets his father quickly and then goes straight	 upstairs	to	6.324344635009766	2.3712940216064453	0.0003589142288547009	0.40599533915519714	10
+530	shapessocial_align	aligned	gpt2	 home greets his father quickly and then goes straight upstairs	 to	the	1.0628563165664673	4.882776737213135	0.00020445061090867966	0.1429111659526825	10
+531	shapessocial_align	aligned	gpt2	 greets his father quickly and then goes straight upstairs to	 his	room	2.245565891265869	3.0326249599456787	3.6789515434065834e-05	0.47545385360717773	10
+532	shapessocial_align	aligned	gpt2	 his father quickly and then goes straight upstairs to his	 bedroom	.	1.8298254013061523	2.387169599533081	0.0005376598564907908	0.4148811995983124	10
+533	shapessocial_align	aligned	gpt2	 father quickly and then goes straight upstairs to his bedroom	 the	next	7.843046188354492	1.6565831899642944	7.621377153554931e-05	0.7613546848297119	10
+534	shapessocial_align	aligned	gpt2	 quickly and then goes straight upstairs to his bedroom the	 boy	is	8.837510108947754	5.582322597503662	0.00014035341155249625	0.09535897523164749	10
+535	shapessocial_align	aligned	gpt2	 and then goes straight upstairs to his bedroom the boy	 climbs	into	5.8428425788879395	2.585953950881958	4.3986204900647863e-07	0.2449404001235962	10
+536	shapessocial_align	aligned	gpt2	 then goes straight upstairs to his bedroom the boy climbs	 into	bed	1.436790108680725	1.051268458366394	5.181660526432097e-06	0.7371585965156555	10
+537	shapessocial_align	aligned	gpt2	 goes straight upstairs to his bedroom the boy climbs into	 bed	and	0.29771482944488525	2.393242597579956	0.0001232655340572819	0.42050567269325256	10
+538	shapessocial_align	aligned	gpt2	 straight upstairs to his bedroom the boy climbs into bed	 as	he	5.501605033874512	4.2659430503845215	0.0002955542295239866	0.240672305226326	10
+539	shapessocial_align	aligned	gpt2	 upstairs to his bedroom the boy climbs into bed as	 does	the	7.560203552246094	4.293572902679443	6.9491770773311146e-06	0.28527379035949707	10
+540	shapessocial_align	aligned	gpt2	 to his bedroom the boy climbs into bed as does	 his	mother	1.6700465679168701	4.128578186035156	0.00012480733857955784	0.20657110214233398	10
+541	shapessocial_align	aligned	gpt2	 his bedroom the boy climbs into bed as does his	 father	.	1.6427264213562012	2.2949373722076416	7.10021413397044e-05	0.4564255177974701	10
+542	shapessocial_align	aligned	gpt2	 bedroom the boy climbs into bed as does his father	 downstairs	.	9.201525688171387	2.0206704139709473	0.00037714646896347404	0.5570152401924133	10
+543	shapessocial_align	aligned	gpt2	 the boy climbs into bed as does his father downstairs	 both	of	11.392895698547363	6.150197505950928	0.00011597989941947162	0.07846736907958984	10
+544	shapessocial_align	aligned	gpt2	 boy climbs into bed as does his father downstairs both	 eventually	falling	9.145366668701172	5.6657023429870605	0.0006051924428902566	0.1054878681898117	10
+545	shapessocial_align	aligned	gpt2	 climbs into bed as does his father downstairs both eventually	 fall	asleep	5.694368362426758	0.40406709909439087	2.2135425297165057e-06	0.9423378705978394	10
+546	shapessocial_align	aligned	gpt2	 into bed as does his father downstairs both eventually fall	 asleep	.	0.057837922126054764	2.574727773666382	0.0022713763173669577	0.520471453666687	10
+547	shapessocial_align	aligned	gpt2	 bed as does his father downstairs both eventually fall asleep	 the	next	6.365994453430176	2.447734832763672	0.00011702458141371608	0.6357919573783875	10
+548	shapessocial_align	aligned	gpt2	 as does his father downstairs both eventually fall asleep the	 third	time	6.491332054138184	1.1050901412963867	2.449684325256385e-05	0.7859815955162048	10
+549	shapessocial_align	aligned	gpt2	 does his father downstairs both eventually fall asleep the third	 night	.	2.5429983139038086	2.8535706996917725	0.0003053024411201477	0.4269235134124756	10
+550	shapessocial_align	aligned	gpt2	 his father downstairs both eventually fall asleep the third night	 in	a	3.616702079772949	3.722588300704956	0.00021374839707277715	0.2520718574523926	10
+551	shapessocial_align	aligned	gpt2	 father downstairs both eventually fall asleep the third night in	 a	row	1.2852890491485596	6.3942790031433105	0.0005812178715132177	0.09135063737630844	10
+552	shapessocial_align	aligned	gpt2	 downstairs both eventually fall asleep the third night in a	 row	.	1.6258317232131958	2.5110762119293213	4.412024736666353e-06	0.5403327941894531	10
+553	shapessocial_align	aligned	gpt2	 both eventually fall asleep the third night in a row	 the	next	6.855413436889648	6.400639057159424	0.000352396018570289	0.1747400015592575	10
+554	shapessocial_align	aligned	gpt2	 eventually fall asleep the third night in a row the	 boy	was	6.9849958419799805	5.277375221252441	0.00020032421161886305	0.14399196207523346	10
+555	shapessocial_align	aligned	gpt2	 fall asleep the third night in a row the boy	 begins	to	8.164012908935547	2.7969000339508057	4.942564260090876e-07	0.6594579219818115	10
+556	shapessocial_align	aligned	gpt2	 asleep the third night in a row the boy begins	 to	cry	0.45893657207489014	6.043772220611572	0.0001520828518550843	0.06752122193574905	10
+557	shapessocial_align	aligned	gpt2	 the third night in a row the boy begins to	 dream	of	5.64012336730957	3.1189756393432617	0.0003687494318000972	0.2776440382003784	10
+558	shapessocial_align	aligned	gpt2	 third night in a row the boy begins to dream	 the	dream	5.564899444580078	6.466552734375	0.00024491522344760597	0.06474903970956802	10
+559	shapessocial_align	aligned	gpt2	 night in a row the boy begins to dream the	 towering	figure	10.807913780212402	6.965456485748291	0.0019234047504141927	0.0622374527156353	10
+560	shapessocial_align	aligned	gpt2	 in a row the boy begins to dream the towering	 monster	.	4.406264305114746	5.528327941894531	0.004232242237776518	0.09745118021965027	10
+561	shapessocial_align	aligned	gpt2	 a row the boy begins to dream the towering monster	 from	the	4.431197166442871	4.18609094619751	0.00021479895804077387	0.34863370656967163	10
+562	shapessocial_align	aligned	gpt2	 row the boy begins to dream the towering monster from	 the	past	1.0302891731262207	6.72022819519043	0.000338853889843449	0.039594925940036774	10
+563	shapessocial_align	aligned	gpt2	 the boy begins to dream the towering monster from the	 previous	scene	4.533421039581299	4.875987529754639	0.00011715385335264727	0.08988989144563675	10
+564	shapessocial_align	aligned	gpt2	 boy begins to dream the towering monster from the previous	 dream	.	4.6218461990356445	3.8239808082580566	0.0005204187473282218	0.3606339991092682	10
+565	shapessocial_align	aligned	gpt2	 begins to dream the towering monster from the previous dream	 appears	.	5.413731575012207	3.2747511863708496	1.3543233762902673e-05	0.1660064160823822	10
+566	shapessocial_align	aligned	gpt2	 to dream the towering monster from the previous dream appears	 again	.	3.423525810241699	2.469233512878418	0.0018532087560743093	0.4052233397960663	10
+567	shapessocial_align	aligned	gpt2	 dream the towering monster from the previous dream appears again	 slowly	,	10.201157569885254	3.4551236629486084	0.0009401083225384355	0.21712763607501984	10
+568	shapessocial_align	aligned	gpt2	 the towering monster from the previous dream appears again slowly	 following	the	8.26629638671875	3.663367509841919	7.554055628133938e-05	0.320739209651947	10
+569	shapessocial_align	aligned	gpt2	 towering monster from the previous dream appears again slowly following	 the	same	1.1204156875610352	7.629990577697754	0.0004335111298132688	0.02296818420290947	10
+570	shapessocial_align	aligned	gpt2	 monster from the previous dream appears again slowly following the	 boy	's	6.666866302490234	3.1040194034576416	0.0002429505839245394	0.36135706305503845	10
+571	shapessocial_align	aligned	gpt2	 from the previous dream appears again slowly following the boy	 and	his	3.4235692024230957	5.639796733856201	0.0006974783609621227	0.17280560731887817	10
+572	shapessocial_align	aligned	gpt2	 the previous dream appears again slowly following the boy and	 reaching	the	10.47494888305664	3.9563159942626953	0.00010821902833413333	0.27278319001197815	10
+573	shapessocial_align	aligned	gpt2	 previous dream appears again slowly following the boy and reaching	 for	the	3.011470079421997	2.813527822494507	4.139087468502112e-05	0.34503716230392456	10
+574	shapessocial_align	aligned	gpt2	 dream appears again slowly following the boy and reaching for	 him	.	3.961968183517456	2.447826862335205	2.841623791027814e-05	0.5446007251739502	10
+575	shapessocial_align	aligned	gpt2	 appears again slowly following the boy and reaching for him	 with	his	3.995872974395752	2.99706768989563	1.6299891285598278e-05	0.3709065318107605	10
+576	shapessocial_align	aligned	gpt2	 again slowly following the boy and reaching for him with	 one	hand	2.668044090270996	1.474930763244629	7.862402708269656e-05	0.7245796322822571	10
+577	shapessocial_align	aligned	gpt2	 slowly following the boy and reaching for him with one	 arm	.	2.6448583602905273	2.507789134979248	3.356333763804287e-05	0.5029706954956055	10
+578	shapessocial_align	aligned	gpt2	 following the boy and reaching for him with one arm	 the	boy	7.374168395996094	6.171894550323486	0.000373879331164062	0.12052514404058456	10
+579	shapessocial_align	aligned	gpt2	 the boy and reaching for him with one arm the	 boy	was	2.1262242794036865	5.717974662780762	0.0001294143876293674	0.07591163367033005	10
+580	shapessocial_align	aligned	gpt2	 boy and reaching for him with one arm the boy	 stays	in	10.12523078918457	4.957498073577881	8.421711186201719e-07	0.0861339420080185	10
+581	shapessocial_align	aligned	gpt2	 and reaching for him with one arm the boy stays	 out	of	4.785581111907959	1.6399742364883423	6.488898361567408e-05	0.7514702081680298	10
+582	shapessocial_align	aligned	gpt2	 reaching for him with one arm the boy stays out	 of	sight	0.34631577134132385	2.69384503364563	4.718756827060133e-05	0.3343120813369751	10
+583	shapessocial_align	aligned	gpt2	 for him with one arm the boy stays out of	 his	way	2.6331868171691895	2.94185471534729	3.4288375900359824e-05	0.6056545972824097	10
+584	shapessocial_align	aligned	gpt2	 him with one arm the boy stays out of his	 reach	.	4.8942413330078125	2.8598031997680664	1.804013481887523e-05	0.326373815536499	10
+585	shapessocial_align	aligned	gpt2	 with one arm the boy stays out of his reach	 and	the	1.743017315864563	6.247256278991699	0.0009129992686212063	0.08960450440645218	10
+586	shapessocial_align	aligned	gpt2	 one arm the boy stays out of his reach and	 ho	ists	8.842463493347168	1.270275354385376	4.021270797238685e-05	0.5124415159225464	10
+587	shapessocial_align	aligned	gpt2	 arm the boy stays out of his reach and ho	vers	over	1.1295952796936035	3.814404249191284	1.645897995672385e-08	0.2680007219314575	10
+588	shapessocial_align	aligned	gpt2	 the boy stays out of his reach and hovers	 <	span	14.363958358764648	6.096711158752441	0.00041124949348159134	0.07041648030281067	10
+589	shapessocial_align	aligned	gpt2	 boy stays out of his reach and hovers <	unk	>	12.685418128967285	4.468860626220703	4.422321217134595e-05	0.22824375331401825	10
+590	shapessocial_align	aligned	gpt2	 stays out of his reach and hovers <unk	>	over	1.3169337511062622	4.621038436889648	0.00039687511161901057	0.12478962540626526	10
+591	shapessocial_align	aligned	gpt2	 out of his reach and hovers <unk>	 around	the	3.5963387489318848	3.8492305278778076	0.0011466470314189792	0.22377946972846985	10
+592	shapessocial_align	aligned	gpt2	 of his reach and hovers <unk> around	 the	corner	1.3567665815353394	6.721779823303223	0.00023444638645742089	0.05910468474030495	10
+593	shapessocial_align	aligned	gpt2	 his reach and hovers <unk> around the	 <	unk	5.001779556274414	6.659863471984863	0.00014879465743433684	0.1460856795310974	10
+594	shapessocial_align	aligned	gpt2	 reach and hovers <unk> around the <	unk	>	1.4728052616119385	0.6783217787742615	1.268489427275199e-06	0.9163036942481995	10
+595	shapessocial_align	aligned	gpt2	 and hovers <unk> around the <unk	>	and	0.07228932529687881	7.418285369873047	0.0003871317603625357	0.02139480598270893	10
+596	shapessocial_align	aligned	gpt2	 hovers <unk> around the <unk>	 feet	<	7.366463661193848	3.3590550422668457	1.6795602277852595e-05	0.36239397525787354	10
+597	shapessocial_align	aligned	gpt2	vers <unk> around the <unk> feet	 suddenly	stopped	10.841519355773926	6.585438251495361	0.0018743074033409357	0.047071777284145355	10
+598	shapessocial_align	aligned	gpt2	 <unk> around the <unk> feet suddenly	 he	was	6.834609508514404	6.17386531829834	0.00018855478265322745	0.048743534833192825	10
+599	shapessocial_align	aligned	gpt2	unk> around the <unk> feet suddenly he	 is	about	4.902290344238281	6.596719264984131	6.0412112361518666e-05	0.021401148289442062	10
+600	shapessocial_align	aligned	gpt2	> around the <unk> feet suddenly he is	 joined	by	7.672954559326172	1.8301465511322021	9.31947124627186e-06	0.6849596500396729	10
+601	shapessocial_align	aligned	gpt2	 around the <unk> feet suddenly he is joined	 by	a	0.37602126598358154	4.973413467407227	5.3742285672342405e-05	0.18263182044029236	10
+602	shapessocial_align	aligned	gpt2	 the <unk> feet suddenly he is joined by	 another	<	3.7357101440429688	5.783106327056885	0.00025476617156527936	0.2373517006635666	10
+603	shapessocial_align	aligned	gpt2	 <unk> feet suddenly he is joined by another	 boy	.	5.501595497131348	3.89709734916687	0.0013687042519450188	0.19178833067417145	10
+604	shapessocial_align	aligned	gpt2	unk> feet suddenly he is joined by another boy	 the	size	6.8438544273376465	6.0762739181518555	0.0003508718218654394	0.1348050832748413	10
+605	shapessocial_align	aligned	gpt2	> feet suddenly he is joined by another boy the	 boys	are	5.38431453704834	5.45884895324707	0.00017174598178826272	0.14064708352088928	10
+606	shapessocial_align	aligned	gpt2	 feet suddenly he is joined by another boy the boys	 speak	in	6.475927829742432	4.223866939544678	7.752975761832204e-06	0.1628883332014084	10
+607	shapessocial_align	aligned	gpt2	 suddenly he is joined by another boy the boys speak	 frantically	.	9.847482681274414	3.085735559463501	0.00027625358779914677	0.27379173040390015	10
+608	shapessocial_align	aligned	gpt2	 he is joined by another boy the boys speak frantically	 as	they	2.959775686264038	3.6229474544525146	0.0007284943712875247	0.3018031120300293	10
+609	shapessocial_align	aligned	gpt2	 is joined by another boy the boys speak frantically as	 the	boy	2.264162540435791	7.358547687530518	0.00031488234526477754	0.057545363903045654	10
+610	shapessocial_align	aligned	gpt2	 joined by another boy the boys speak frantically as the	 monster	is	6.898996829986572	6.504658222198486	0.0011724354699254036	0.026086853817105293	10
+611	shapessocial_align	aligned	gpt2	 by another boy the boys speak frantically as the monster	 reaches	for	5.789077281951904	3.213808059692383	1.0734229363151826e-05	0.3380584120750427	10
+612	shapessocial_align	aligned	gpt2	 another boy the boys speak frantically as the monster reaches	 down	and	3.08650803565979	2.5052568912506104	0.0021687052212655544	0.3736114501953125	10
+613	shapessocial_align	aligned	gpt2	 boy the boys speak frantically as the monster reaches down	 the	back	5.111071586608887	6.4152374267578125	0.00027510873042047024	0.04104306548833847	10
+614	shapessocial_align	aligned	gpt2	 the boys speak frantically as the monster reaches down the	 boys	throat	5.829610824584961	3.1899070739746094	2.701776429603342e-05	0.3116881251335144	10
+615	shapessocial_align	aligned	gpt2	 boys speak frantically as the monster reaches down the boys	 fly	into	11.774356842041016	4.341063976287842	4.991036621504463e-05	0.06592690944671631	10
+616	shapessocial_align	aligned	gpt2	 speak frantically as the monster reaches down the boys fly	 over	the	2.9078989028930664	3.198131799697876	0.0002868431038223207	0.22717781364917755	10
+617	shapessocial_align	aligned	gpt2	 frantically as the monster reaches down the boys fly over	 the	ground	1.4779952764511108	6.7985615730285645	0.0003764567954931408	0.050004299730062485	10
+618	shapessocial_align	aligned	gpt2	 as the monster reaches down the boys fly over the	 monster	and	5.929266452789307	3.289621114730835	0.00020142128050792962	0.25537654757499695	10
+619	shapessocial_align	aligned	gpt2	 the monster reaches down the boys fly over the monster	 which	is	6.326296329498291	5.825258731842041	0.00015750530292280018	0.12458714842796326	10
+620	shapessocial_align	aligned	gpt2	 monster reaches down the boys fly over the monster which	 is	then	2.032599925994873	6.5003204345703125	0.0001403515925630927	0.05961420014500618	10
+621	shapessocial_align	aligned	gpt2	 reaches down the boys fly over the monster which is	 still	in	4.176138877868652	6.152048587799072	0.002222043229267001	0.06831570714712143	10
+622	shapessocial_align	aligned	gpt2	 down the boys fly over the monster which is still	 claw	ing	8.054889678955078	0.22951534390449524	4.86945100419689e-05	0.9620563387870789	10
+623	shapessocial_align	aligned	gpt2	 the boys fly over the monster which is still claw	ing	at	0.040039218962192535	2.6389641761779785	7.260471647896338e-06	0.4940451383590698	10
+624	shapessocial_align	aligned	gpt2	 boys fly over the monster which is still clawing	 at	the	0.6763361692428589	2.9467852115631104	0.00014421369996853173	0.25526362657546997	10
+625	shapessocial_align	aligned	gpt2	 fly over the monster which is still clawing at	 them	.	3.976255178451538	2.963653802871704	1.4930130419088528e-05	0.4319394528865814	10
+626	shapessocial_align	aligned	gpt2	 over the monster which is still clawing at them	 the	whole	5.880974769592285	5.25424337387085	0.000663994112983346	0.1587151437997818	10
+627	shapessocial_align	aligned	gpt2	 the monster which is still clawing at them the	 boys	are	10.631258964538574	5.815374374389648	8.692101982887834e-05	0.10583343356847763	10
+628	shapessocial_align	aligned	gpt2	 monster which is still clawing at them the boys	 make	a	5.867935657501221	4.190864086151123	8.901896944735199e-05	0.20586612820625305	10
+629	shapessocial_align	aligned	gpt2	 which is still clawing at them the boys make	 a	point	2.000138282775879	6.694235324859619	0.00022320807329379022	0.025062115862965584	10
+630	shapessocial_align	aligned	gpt2	 is still clawing at them the boys make a	 desperate	attempt	4.754829406738281	4.2856340408325195	0.01797017641365528	0.2075207680463791	10
+631	shapessocial_align	aligned	gpt2	 still clawing at them the boys make a desperate	 plan	to	7.930755615234375	1.9883968830108643	8.672701369505376e-06	0.5291366577148438	10
+632	shapessocial_align	aligned	gpt2	 clawing at them the boys make a desperate plan	 and	try	3.4730587005615234	6.210690498352051	0.0005882271216250956	0.04022796079516411	10
+633	shapessocial_align	aligned	gpt2	ing at them the boys make a desperate plan and	 the	girls	3.938450336456299	6.876684665679932	0.0003788992471527308	0.10729394853115082	10
+634	shapessocial_align	aligned	gpt2	 at them the boys make a desperate plan and the	 new	girl	7.403200149536133	7.483541488647461	0.0002734089794103056	0.029685089364647865	10
+635	shapessocial_align	aligned	gpt2	 them the boys make a desperate plan and the new	 boy	is	3.8793060779571533	5.623821258544922	0.0005890751490369439	0.12094336748123169	10
+636	shapessocial_align	aligned	gpt2	 the boys make a desperate plan and the new boy	 speeds	off	9.948293685913086	2.5738017559051514	5.289488399284892e-06	0.30118328332901	10
+637	shapessocial_align	aligned	gpt2	 boys make a desperate plan and the new boy speeds	 away	.	2.1630947589874268	3.259410858154297	0.0007831522962078452	0.30044010281562805	10
+638	shapessocial_align	aligned	gpt2	 make a desperate plan and the new boy speeds away	 he	is	7.559161186218262	5.647426128387451	0.00020443992980290204	0.05909671634435654	10
+639	shapessocial_align	aligned	gpt2	 a desperate plan and the new boy speeds away he	 quickly	finds	4.6934003829956055	5.770191669464111	0.00027012554346583784	0.05276111513376236	10
+640	shapessocial_align	aligned	gpt2	 desperate plan and the new boy speeds away he quickly	 returns	to	4.952676773071289	1.9440131187438965	1.9381745914870407e-06	0.6741133332252502	10
+641	shapessocial_align	aligned	gpt2	 plan and the new boy speeds away he quickly returns	 with	a	3.7027008533477783	4.174604892730713	4.594910205923952e-05	0.2923138737678528	10
+642	shapessocial_align	aligned	gpt2	 and the new boy speeds away he quickly returns with	 a	new	1.1517775058746338	7.348067283630371	0.00023290123499464244	0.024597609415650368	10
+643	shapessocial_align	aligned	gpt2	 the new boy speeds away he quickly returns with a	 ball	of	6.434096336364746	4.273547649383545	0.0003276522329542786	0.20155397057533264	10
+644	shapessocial_align	aligned	gpt2	 new boy speeds away he quickly returns with a ball	 the	size	6.87650203704834	6.3879618644714355	0.0004905288224108517	0.15855032205581665	10
+645	shapessocial_align	aligned	gpt2	 boy speeds away he quickly returns with a ball the	 boys	are	6.531516075134277	5.80657958984375	9.163685172097757e-05	0.06627032160758972	10
+646	shapessocial_align	aligned	gpt2	 speeds away he quickly returns with a ball the boys	 put	to	5.4554901123046875	3.5942890644073486	0.00018536199058871716	0.13651342689990997	10
+647	shapessocial_align	aligned	gpt2	 away he quickly returns with a ball the boys put	 the	ball	3.8220927715301514	4.8047003746032715	0.0003727523435372859	0.43786025047302246	10
+648	shapessocial_align	aligned	gpt2	 he quickly returns with a ball the boys put the	 ball	into	1.220026969909668	2.9061169624328613	9.723496077640448e-06	0.22751988470554352	10
+649	shapessocial_align	aligned	gpt2	 quickly returns with a ball the boys put the ball	 in	the	1.822182059288025	3.857593297958374	0.007003760430961847	0.17285025119781494	10
+650	shapessocial_align	aligned	gpt2	 returns with a ball the boys put the ball in	 a	basket	4.012978553771973	6.54382848739624	0.000310279632685706	0.07679561525583267	10
+651	shapessocial_align	aligned	gpt2	 with a ball the boys put the ball in a	 <	3	11.89650821685791	7.052948474884033	0.0007556281634606421	0.037009209394454956	10
+652	shapessocial_align	aligned	gpt2	 a ball the boys put the ball in a <	unk	now	11.354516983032227	5.125885963439941	0.00019070781127084047	0.24196672439575195	10
+653	shapessocial_align	aligned	gpt2	 ball the boys put the ball in a <unk	>	position	2.780613422393799	6.923863410949707	0.00042780200601555407	0.054246652871370316	10
+654	shapessocial_align	aligned	gpt2	 the boys put the ball in a <unk>	 the	other	6.548647403717041	7.171540260314941	0.0006642201915383339	0.045608364045619965	10
+655	shapessocial_align	aligned	gpt2	 boys put the ball in a <unk> the	 last	two	4.858684062957764	4.7435302734375	0.00027569703524932265	0.10196147859096527	10
+656	shapessocial_align	aligned	gpt2	 put the ball in a <unk> the last	 minute	.	3.938033103942871	3.9753477573394775	2.2142705347505398e-05	0.21821922063827515	10
+657	shapessocial_align	aligned	gpt2	 the ball in a <unk> the last minute	 they	were	5.959057331085205	5.4062981605529785	5.5878259445307776e-05	0.08483877032995224	10
+658	shapessocial_align	aligned	gpt2	 ball in a <unk> the last minute they	 let	you	5.6347455978393555	4.9228949546813965	3.885126352543011e-05	0.12083704024553299	10
+659	shapessocial_align	aligned	gpt2	 in a <unk> the last minute they let	 it	go	2.4778995513916016	4.33058500289917	5.127207259647548e-05	0.2662076950073242	10
+660	shapessocial_align	aligned	gpt2	 a <unk> the last minute they let it	 go	.	1.2242274284362793	3.9426257610321045	0.00023018040519673377	0.29081037640571594	10
+661	shapessocial_align	aligned	gpt2	 <unk> the last minute they let it go	 shooting	it	11.799578666687012	6.240360736846924	0.000197201719856821	0.05172678455710411	10
+662	shapessocial_align	aligned	gpt2	unk> the last minute they let it go shooting	 the	shit	3.009869337081909	7.699719429016113	0.00037139951018616557	0.02601705864071846	10
+663	shapessocial_align	aligned	gpt2	> the last minute they let it go shooting the	 ball	.	2.3051555156707764	4.6906867027282715	0.00013413668784778565	0.11067818850278854	10
+664	shapessocial_align	aligned	gpt2	 the last minute they let it go shooting the ball	 into	the	3.4396870136260986	1.9236372709274292	6.4848645706661046e-06	0.7516828775405884	10
+665	shapessocial_align	aligned	gpt2	 last minute they let it go shooting the ball into	 the	net	0.2515271008014679	4.5844526290893555	0.0003955261781811714	0.15791229903697968	10
+666	shapessocial_align	aligned	gpt2	 minute they let it go shooting the ball into the	 monster	's	11.394641876220703	5.664004802703857	0.0005329116247594357	0.11481551826000214	10
+667	shapessocial_align	aligned	gpt2	 they let it go shooting the ball into the monster	 which	was	7.51992654800415	5.408578395843506	0.00019735709065571427	0.13695235550403595	10
+668	shapessocial_align	aligned	gpt2	 let it go shooting the ball into the monster which	 breaks	the	7.281031608581543	3.7992632389068604	1.9565677575883456e-05	0.1875210553407669	10
+669	shapessocial_align	aligned	gpt2	 it go shooting the ball into the monster which breaks	 into	a	3.481562852859497	4.765264987945557	4.2601910536177456e-05	0.13078604638576508	10
+670	shapessocial_align	aligned	gpt2	 go shooting the ball into the monster which breaks into	 a	ball	2.085045576095581	6.895455360412598	0.0001859842159319669	0.04998816177248955	10
+671	shapessocial_align	aligned	gpt2	 shooting the ball into the monster which breaks into a	 heap	of	5.234330654144287	2.5879435539245605	2.8174339604447596e-05	0.43688660860061646	10
+672	shapessocial_align	aligned	gpt2	 the ball into the monster which breaks into a heap	 excited	ly	12.60163402557373	3.1223156452178955	0.00019627262372523546	0.460080087184906	10
+673	shapessocial_align	aligned	gpt2	 ball into the monster which breaks into a heap excited	 the	monster	5.205014228820801	7.182379722595215	0.0003988923563156277	0.060791414231061935	10
+674	shapessocial_align	aligned	gpt2	 into the monster which breaks into a heap excited the	 boy	.	5.5741729736328125	3.5014262199401855	0.00033642860944382846	0.22597037255764008	10
+675	shapessocial_align	aligned	gpt2	 the monster which breaks into a heap excited the boy	 sw	oon	10.354898452758789	3.5609662532806396	2.5493353206229585e-08	0.15229278802871704	10
+676	shapessocial_align	aligned	gpt2	 monster which breaks into a heap excited the boy sw	oops	in	4.753691673278809	3.2477848529815674	7.361464215982494e-10	0.21457450091838837	10
+677	shapessocial_align	aligned	gpt2	 which breaks into a heap excited the boy swoops	 over	to	3.1981420516967773	2.8655192852020264	0.0003140299813821912	0.26736241579055786	10
+678	shapessocial_align	aligned	gpt2	 breaks into a heap excited the boy swoops over	 the	table	2.5595266819000244	6.747679710388184	0.00023101619444787502	0.038044605404138565	10
+679	shapessocial_align	aligned	gpt2	 into a heap excited the boy swoops over the	 heap	and	7.689175605773926	3.0501492023468018	3.0231403798097745e-05	0.380401611328125	10
+680	shapessocial_align	aligned	gpt2	 a heap excited the boy swoops over the heap	 until	he	6.068640232086182	2.719602108001709	9.082204087462742e-06	0.4768775403499603	10
+681	shapessocial_align	aligned	gpt2	 heap excited the boy swoops over the heap until	 he	is	0.7686620354652405	4.832982540130615	0.0001335703709628433	0.06797879934310913	10
+682	shapessocial_align	aligned	gpt2	 excited the boy swoops over the heap until he	 notices	the	4.700832843780518	3.8551924228668213	1.2324634326432715e-06	0.19995979964733124	10
+683	shapessocial_align	aligned	gpt2	 the boy swoops over the heap until he notices	 that	the	1.9329607486724854	4.090085983276367	0.0007240459672175348	0.25610804557800293	10
+684	shapessocial_align	aligned	gpt2	 boy swoops over the heap until he notices that	 the	man	1.3244593143463135	7.908327579498291	0.00042237111483700573	0.01131847407668829	10
+685	shapessocial_align	aligned	gpt2	 swoops over the heap until he notices that the	 other	two	4.886716842651367	6.839580059051514	0.000266371265752241	0.058138296008110046	10
+686	shapessocial_align	aligned	gpt2	oops over the heap until he notices that the other	 boy	is	5.948646545410156	3.6702466011047363	0.00024002851569093764	0.25842565298080444	10
+687	shapessocial_align	aligned	gpt2	 over the heap until he notices that the other boy	 is	still	1.2535808086395264	6.025078296661377	4.5417476940201595e-05	0.06462747603654861	10
+688	shapessocial_align	aligned	gpt2	 the heap until he notices that the other boy is	 gone	.	4.7386040687561035	1.7626367807388306	3.215077595086768e-05	0.6328971982002258	10
+689	shapessocial_align	aligned	gpt2	 heap until he notices that the other boy is gone	 he	goes	9.543525695800781	5.685260772705078	0.000309965165797621	0.031095556914806366	10
+690	shapessocial_align	aligned	gpt2	 until he notices that the other boy is gone he	 goes	to	3.307842254638672	2.9422996044158936	2.273637392136152e-06	0.37318676710128784	10
+691	shapessocial_align	aligned	gpt2	 he notices that the other boy is gone he goes	 looking	for	4.517419338226318	0.7808990478515625	6.6470900492277e-05	0.8776000738143921	10
+692	shapessocial_align	aligned	gpt2	 notices that the other boy is gone he goes looking	 for	the	0.10682804882526398	4.673686981201172	0.00011703214840963483	0.16646406054496765	10
+693	shapessocial_align	aligned	gpt2	 that the other boy is gone he goes looking for	 his	father	1.8894014358520508	4.833853244781494	0.0001915316970553249	0.1417584866285324	10
+694	shapessocial_align	aligned	gpt2	 the other boy is gone he goes looking for his	 new	girlfriend	5.724221229553223	5.604262351989746	0.0014659248990938067	0.1098548173904419	10
+695	shapessocial_align	aligned	gpt2	 other boy is gone he goes looking for his new	 friend	.	3.2886698246002197	4.338196277618408	0.00022475223522633314	0.2771250903606415	10
+696	shapessocial_align	aligned	gpt2	 boy is gone he goes looking for his new friend	 but	he	4.537596702575684	4.892289638519287	0.0001018615803332068	0.10090916603803635	10
+697	shapessocial_align	aligned	gpt2	 is gone he goes looking for his new friend but	 can	't	4.193384170532227	0.8025092482566833	2.659310666786041e-05	0.8686362504959106	10
+698	shapessocial_align	aligned	gpt2	 gone he goes looking for his new friend but can	't	find	0.1561104655265808	0.7621124982833862	4.844786963076331e-05	0.8857601284980774	10
+699	shapessocial_align	aligned	gpt2	 he goes looking for his new friend but can't	 find	him	0.1553412526845932	2.6144087314605713	8.308722317451611e-05	0.4152664542198181	10
+700	shapessocial_align	aligned	gpt2	 goes looking for his new friend but can't find	 him	.	0.6793416738510132	2.5563137531280518	0.00012542714830487967	0.566848635673523	10
+701	shapessocial_align	aligned	gpt2	 looking for his new friend but can't find him	 he	's	5.401755332946777	5.543262481689453	0.00017915038915816694	0.09507399052381516	10
+702	shapessocial_align	aligned	gpt2	 for his new friend but can't find him he	 checks	his	8.2902250289917	3.94046950340271	2.3158037947723642e-05	0.14328914880752563	10
+703	shapessocial_align	aligned	gpt2	 his new friend but can't find him he checks	 under	the	7.292087078094482	4.224606037139893	0.00022124785755295306	0.3520825505256653	10
+704	shapessocial_align	aligned	gpt2	 new friend but can't find him he checks under	 the	name	1.1843327283859253	7.131958484649658	0.00033096206607297063	0.045498523861169815	10
+705	shapessocial_align	aligned	gpt2	 friend but can't find him he checks under the	 rubble	.	6.095266342163086	3.5720512866973877	0.00026965735014528036	0.18912887573242188	10
+706	shapessocial_align	aligned	gpt2	 but can't find him he checks under the rubble	 for	a	4.466108798980713	6.299471855163574	0.00013731692160945386	0.09556449949741364	10
+707	shapessocial_align	aligned	gpt2	 can't find him he checks under the rubble for	 his	own	3.3381052017211914	7.341710090637207	0.0001767659414326772	0.03666037321090698	10
+708	shapessocial_align	aligned	gpt2	't find him he checks under the rubble for his	 friend	.	5.790961742401123	4.316100597381592	5.326195605448447e-05	0.2250874638557434	10
+709	shapessocial_align	aligned	gpt2	 find him he checks under the rubble for his friend	 he	finds	6.0053863525390625	5.702470302581787	0.0005002288380637765	0.05850639194250107	10
+710	shapessocial_align	aligned	gpt2	 him he checks under the rubble for his friend he	 finds	a	3.2796707153320312	5.006067752838135	9.519041486782953e-05	0.09761722385883331	10
+711	shapessocial_align	aligned	gpt2	 he checks under the rubble for his friend he finds	 the	body	3.4437174797058105	7.129933834075928	0.00044799569877795875	0.04933883249759674	10
+712	shapessocial_align	aligned	gpt2	 checks under the rubble for his friend he finds the	 ball	.	7.485256671905518	4.99833345413208	0.00032279029255732894	0.14901793003082275	10
+713	shapessocial_align	aligned	gpt2	 under the rubble for his friend he finds the ball	 but	it	5.125738143920898	5.628435134887695	0.00015703044482506812	0.07732561975717545	10
+714	shapessocial_align	aligned	gpt2	 the rubble for his friend he finds the ball but	 not	the	4.6738996505737305	4.069615840911865	0.00029695944976992905	0.2706771194934845	10
+715	shapessocial_align	aligned	gpt2	 rubble for his friend he finds the ball but not	 the	ball	1.454001545906067	6.8730340003967285	0.0004303618043195456	0.12471199780702591	10
+716	shapessocial_align	aligned	gpt2	 for his friend he finds the ball but not the	 other	way	4.281042575836182	1.702385663986206	5.584314203588292e-05	0.7723726034164429	10
+717	shapessocial_align	aligned	gpt2	 his friend he finds the ball but not the other	 boy	.	7.109020709991455	2.991448163986206	0.00021370679314713925	0.4102642238140106	10
+718	shapessocial_align	aligned	gpt2	 friend he finds the ball but not the other boy	 his	father	7.225479602813721	5.419527530670166	0.0002537724212743342	0.16730478405952454	10
+719	shapessocial_align	aligned	gpt2	 he finds the ball but not the other boy his	 friend	.	3.83514666557312	5.718148231506348	7.938684575492516e-05	0.13427384197711945	10
+720	shapessocial_align	aligned	gpt2	 finds the ball but not the other boy his friend	 is	trying	2.8520119190216064	5.4654388427734375	3.88061125704553e-05	0.07275130599737167	10
+721	shapessocial_align	aligned	gpt2	 the ball but not the other boy his friend is	 nowhere	to	11.527412414550781	0.9505916833877563	6.15648696111748e-06	0.7771246433258057	10
+722	shapessocial_align	aligned	gpt2	 ball but not the other boy his friend is nowhere	 to	be	0.26725706458091736	0.06880354136228561	0.00010669975017663091	0.9934306740760803	10
+723	shapessocial_align	aligned	gpt2	 but not the other boy his friend is nowhere to	 be	found	0.007468162104487419	0.6934732794761658	1.3951391792943468e-06	0.6375892758369446	10
+724	shapessocial_align	aligned	gpt2	 not the other boy his friend is nowhere to be	 seen	.	1.146019697189331	2.2386691570281982	3.555374496500008e-05	0.57289719581604	10
+725	shapessocial_align	aligned	gpt2	 the other boy his friend is nowhere to be seen	 disappointed	.	14.32706356048584	2.4928672313690186	2.01289640244795e-05	0.4923221468925476	10
+726	shapessocial_align	aligned	gpt2	 other boy his friend is nowhere to be seen disappointed	 the	boy	6.342534065246582	7.393465995788574	0.0005949158221483231	0.06893310695886612	10
+727	shapessocial_align	aligned	gpt2	 boy his friend is nowhere to be seen disappointed the	 boy	is	3.617300033569336	5.017055511474609	0.0004425841325428337	0.1147548034787178	10
+728	shapessocial_align	aligned	gpt2	 his friend is nowhere to be seen disappointed the boy	 <	3	12.130060195922852	4.826558589935303	0.00047977338545024395	0.2786003351211548	10
+729	shapessocial_align	aligned	gpt2	 friend is nowhere to be seen disappointed the boy <	unk	now	12.862506866455078	4.254469394683838	6.587392272194847e-05	0.2923121452331543	10
+730	shapessocial_align	aligned	gpt2	 is nowhere to be seen disappointed the boy <unk	>	is	3.222491502761841	6.587977409362793	0.0001100675217458047	0.04985670745372772	10
+731	shapessocial_align	aligned	gpt2	 nowhere to be seen disappointed the boy <unk>	 the	boy	5.127655029296875	7.698032379150391	0.0006589178810827434	0.035824231803417206	10
+732	shapessocial_align	aligned	gpt2	 to be seen disappointed the boy <unk> the	 ball	was	7.893641471862793	6.021613597869873	0.0008820155053399503	0.09580188989639282	10
+733	shapessocial_align	aligned	gpt2	 be seen disappointed the boy <unk> the ball	 and	the	4.447119235992432	6.156445503234863	0.0008501235279254615	0.18288078904151917	10
+734	shapessocial_align	aligned	gpt2	 seen disappointed the boy <unk> the ball and	 slowly	he	9.10428524017334	6.780978679656982	0.0016933927545323968	0.033390481024980545	10
+735	shapessocial_align	aligned	gpt2	 disappointed the boy <unk> the ball and slowly	 leaves	the	8.958906173706055	3.466055154800415	2.1733174435212277e-05	0.22131285071372986	10
+736	shapessocial_align	aligned	gpt2	 the boy <unk> the ball and slowly leaves	 the	ground	1.3720489740371704	6.360634803771973	0.00017058516095858067	0.08008577674627304	10
+737	shapessocial_align	aligned	gpt2	 boy <unk> the ball and slowly leaves the	 dream	.	10.201849937438965	5.785220146179199	0.00027429472538642585	0.08978498727083206	10
+738	shapessocial_align	aligned	gpt2	 <unk> the ball and slowly leaves the dream	 he	's	7.3699951171875	5.385307312011719	0.0002691285335458815	0.08010770380496979	10
+739	shapessocial_align	aligned	gpt2	unk> the ball and slowly leaves the dream he	 sleeps	in	8.093883514404297	4.333491802215576	1.2512433386291377e-05	0.28581273555755615	10
+740	shapessocial_align	aligned	gpt2	> the ball and slowly leaves the dream he sleeps	 the	next	6.124319553375244	4.72597599029541	0.00026795841404236853	0.16892924904823303	10
+741	shapessocial_align	aligned	gpt2	 the ball and slowly leaves the dream he sleeps the	 rest	of	2.7582411766052246	0.3444872498512268	4.589279706124216e-05	0.9605779647827148	10
+742	shapessocial_align	aligned	gpt2	 ball and slowly leaves the dream he sleeps the rest	 of	his	0.026384279131889343	1.1756224632263184	4.8267516831401736e-05	0.46855267882347107	10
+743	shapessocial_align	aligned	gpt2	 and slowly leaves the dream he sleeps the rest of	 the	day	1.0061734914779663	2.4207708835601807	0.0001752530224621296	0.26273632049560547	10
+744	shapessocial_align	aligned	gpt2	 slowly leaves the dream he sleeps the rest of the	 night	.	1.6533783674240112	3.2434003353118896	9.353281348012388e-05	0.44153892993927	10
+745	shapessocial_align	aligned	gpt2	 leaves the dream he sleeps the rest of the night	 in	the	2.342583179473877	4.380299091339111	0.001001626835204661	0.18783602118492126	10
+746	shapessocial_align	aligned	gpt2	 the dream he sleeps the rest of the night in	 the	dream	1.5780972242355347	7.076767921447754	0.00043961036135442555	0.043094683438539505	10
+747	shapessocial_align	aligned	gpt2	 dream he sleeps the rest of the night in the	 morning	.	6.155400276184082	2.8382699489593506	0.0002242393820779398	0.4096504747867584	10
+748	shapessocial_align	aligned	gpt2	 he sleeps the rest of the night in the morning	 the	same	7.554676055908203	7.3838019371032715	0.0004074447206221521	0.05751379579305649	10
+749	shapessocial_align	aligned	gpt2	 sleeps the rest of the night in the morning the	 boy	is	6.92122745513916	5.657817840576172	0.00042997239506803453	0.07305384427309036	10
+750	shapessocial_align	aligned	gpt2	 the rest of the night in the morning the boy	's	mother	2.88478946685791	5.497483253479004	1.9875600628438406e-05	0.1377638578414917	10
+751	shapessocial_align	aligned	gpt2	 rest of the night in the morning the boy's	 father	,	2.3688433170318604	5.307830810546875	4.2976320401066914e-05	0.10203898698091507	10
+752	shapessocial_align	aligned	gpt2	 of the night in the morning the boy's father	 wakes	up	7.941149711608887	1.623051643371582	1.0369304618507158e-05	0.6722249388694763	10
+753	shapessocial_align	aligned	gpt2	 the night in the morning the boy's father wakes	 up	and	0.36498135328292847	3.35703182220459	0.0005595947150141001	0.22275908291339874	10
+754	shapessocial_align	aligned	gpt2	 night in the morning the boy's father wakes up	 and	finds	1.402856469154358	5.33919095993042	0.0008130556670948863	0.07213565707206726	10
+755	shapessocial_align	aligned	gpt2	 in the morning the boy's father wakes up and	 calls	911	4.349982738494873	3.535930633544922	3.475099219940603e-05	0.2559315264225006	10
+756	shapessocial_align	aligned	gpt2	 the morning the boy's father wakes up and calls	 for	help	2.7645225524902344	2.7824933528900146	9.467134805163369e-05	0.5233966112136841	10
+757	shapessocial_align	aligned	gpt2	 morning the boy's father wakes up and calls for	 him	to	3.9795782566070557	1.6099185943603516	4.143230398767628e-06	0.4791068434715271	10
+758	shapessocial_align	aligned	gpt2	 the boy's father wakes up and calls for him	 from	the	6.623611927032471	2.944385290145874	9.233690798282623e-05	0.39822614192962646	10
+759	shapessocial_align	aligned	gpt2	 boy's father wakes up and calls for him from	 the	hospital	1.035839319229126	6.142613887786865	0.00024448512704111636	0.09809127449989319	10
+760	shapessocial_align	aligned	gpt2	's father wakes up and calls for him from the	 bottom	of	5.9885172843933105	0.8949152231216431	1.3997366295370739e-05	0.8413219451904297	10
+761	shapessocial_align	aligned	gpt2	 father wakes up and calls for him from the bottom	 of	the	0.17965959012508392	1.7135547399520874	8.1336129369447e-06	0.44886329770088196	10
+762	shapessocial_align	aligned	gpt2	 wakes up and calls for him from the bottom of	 the	stairs	0.7390849590301514	5.531702041625977	0.00025228774757124484	0.16113366186618805	10
+763	shapessocial_align	aligned	gpt2	 up and calls for him from the bottom of the	 stairs	.	2.1066246032714844	2.5423645973205566	8.378492202609777e-05	0.4754774570465088	10
+764	shapessocial_align	aligned	gpt2	 and calls for him from the bottom of the stairs	 the	next	7.430110931396484	5.3540120124816895	0.00035610460327006876	0.1874360293149948	10
+765	shapessocial_align	aligned	gpt2	 calls for him from the bottom of the stairs the	 boy	was	7.658556938171387	5.56104850769043	8.904369315132499e-05	0.06960953027009964	10
+766	shapessocial_align	aligned	gpt2	 for him from the bottom of the stairs the boy	 wakes	up	8.208843231201172	0.8637285232543945	7.395959187306289e-07	0.8720449209213257	10
+767	shapessocial_align	aligned	gpt2	 him from the bottom of the stairs the boy wakes	 up	in	0.1471221148967743	3.463355541229248	0.0013373397523537278	0.1672953963279724	10
+768	shapessocial_align	aligned	gpt2	 from the bottom of the stairs the boy wakes up	 gets	up	12.712610244750977	5.006838321685791	9.400531780556776e-06	0.1547466665506363	10
+769	shapessocial_align	aligned	gpt2	 the bottom of the stairs the boy wakes up gets	 out	of	2.989809989929199	1.3831868171691895	0.00011087596794823185	0.7329838275909424	10
+770	shapessocial_align	aligned	gpt2	 bottom of the stairs the boy wakes up gets out	 of	bed	0.2842518389225006	1.0840587615966797	7.932765583973378e-06	0.7220128178596497	10
+771	shapessocial_align	aligned	gpt2	 of the stairs the boy wakes up gets out of	 bed	and	0.5779210329055786	2.4381864070892334	7.362395263044164e-05	0.42967501282691956	10
+772	shapessocial_align	aligned	gpt2	 the stairs the boy wakes up gets out of bed	 and	goes	0.7648372650146484	5.27232027053833	0.0013332880334928632	0.09714744240045547	10
+773	shapessocial_align	aligned	gpt2	 stairs the boy wakes up gets out of bed and	 walks	to	3.1150283813476562	3.2136170864105225	1.0458829819981474e-05	0.23133623600006104	10
+774	shapessocial_align	aligned	gpt2	 the boy wakes up gets out of bed and walks	 downstairs	to	5.107369422912598	2.4101626873016357	0.0004063103988301009	0.4148387908935547	10
+775	shapessocial_align	aligned	gpt2	 boy wakes up gets out of bed and walks downstairs	 father	and	12.766407012939453	5.31818962097168	8.347244875039905e-05	0.09029360115528107	10
+776	shapessocial_align	aligned	gpt2	 wakes up gets out of bed and walks downstairs father	 and	son	2.5144901275634766	1.7722364664077759	7.530145376222208e-05	0.5668473243713379	10
+777	shapessocial_align	aligned	gpt2	 up gets out of bed and walks downstairs father and	 son	to	0.649024248123169	4.969540119171143	0.00023137484095059335	0.14262934029102325	10
+778	shapessocial_align	aligned	gpt2	 gets out of bed and walks downstairs father and son	 exchange	a	9.159685134887695	5.194806098937988	5.788077032775618e-06	0.20240521430969238	10
+779	shapessocial_align	aligned	gpt2	 out of bed and walks downstairs father and son exchange	 a	few	1.4874789714813232	4.887556552886963	4.976452692062594e-05	0.20064125955104828	10
+780	shapessocial_align	aligned	gpt2	 of bed and walks downstairs father and son exchange a	 few	words	1.6735129356384277	4.816394805908203	0.0026508073788136244	0.3370887339115143	10
+781	shapessocial_align	aligned	gpt2	 bed and walks downstairs father and son exchange a few	 words	.	1.0460467338562012	2.6606533527374268	2.2610900487052277e-05	0.39429640769958496	10
+782	shapessocial_align	aligned	gpt2	 and walks downstairs father and son exchange a few words	 and	then	2.8835196495056152	5.551206111907959	0.0005359406350180507	0.2306365966796875	10
+783	shapessocial_align	aligned	gpt2	 walks downstairs father and son exchange a few words and	 the	two	3.505629301071167	6.727692604064941	0.0002364918909734115	0.06366632133722305	10
+784	shapessocial_align	aligned	gpt2	 downstairs father and son exchange a few words and the	 boy	is	3.456026077270508	5.672159671783447	9.586297528585419e-05	0.061195436865091324	10
+785	shapessocial_align	aligned	gpt2	 father and son exchange a few words and the boy	 heads	off	7.145129203796387	2.752115488052368	2.9241784432088025e-05	0.2015518844127655	10
+786	shapessocial_align	aligned	gpt2	 and son exchange a few words and the boy heads	 out	to	2.751264810562134	3.0158939361572266	0.0008349364507012069	0.20427727699279785	10
+787	shapessocial_align	aligned	gpt2	 son exchange a few words and the boy heads out	 the	door	2.9716877937316895	1.5529677867889404	0.00011900731624336913	0.7831129431724548	10
+788	shapessocial_align	aligned	gpt2	 exchange a few words and the boy heads out the	 boy	's	9.520879745483398	4.1484832763671875	0.0015917523996904492	0.4349043369293213	10
+789	shapessocial_align	aligned	gpt2	 a few words and the boy heads out the boy	 walks	out	5.114685535430908	3.3299648761749268	5.195710764382966e-05	0.10389956086874008	10
+790	shapessocial_align	aligned	gpt2	 few words and the boy heads out the boy walks	 to	the	2.7576985359191895	2.5532500743865967	0.0001823210041038692	0.5828185677528381	10
+791	shapessocial_align	aligned	gpt2	 words and the boy heads out the boy walks to	 the	door	0.5560282468795776	6.464958667755127	0.00040972192073240876	0.0761512815952301	10
+792	shapessocial_align	aligned	gpt2	 and the boy heads out the boy walks to the	 playground	.	5.818144798278809	2.944504499435425	0.0003401493886485696	0.3078477382659912	10
+793	shapessocial_align	aligned	gpt2	 the boy heads out the boy walks to the playground	 where	he	2.003887176513672	3.5033974647521973	0.00035036590998061	0.3445018529891968	10
+794	shapessocial_align	aligned	gpt2	 boy heads out the boy walks to the playground where	 his	father	3.5835771560668945	4.788034439086914	0.00013923122605774552	0.1304057389497757	10
+795	shapessocial_align	aligned	gpt2	 heads out the boy walks to the playground where his	 ball	is	8.160205841064453	4.382168769836426	0.0012013210216537118	0.392782062292099	10
+796	shapessocial_align	aligned	gpt2	 out the boy walks to the playground where his ball	 is	placed	0.9845246076583862	4.9982147216796875	0.00015795437502674758	0.11632057279348373	10
+797	shapessocial_align	aligned	gpt2	 the boy walks to the playground where his ball is	 still	in	5.489704608917236	5.049955368041992	0.003886038903146982	0.1689932644367218	10
+798	shapessocial_align	aligned	gpt2	 boy walks to the playground where his ball is still	 sitting	.	4.424311637878418	2.6794278621673584	0.00019623013213276863	0.45104578137397766	10
+799	shapessocial_align	aligned	gpt2	 walks to the playground where his ball is still sitting	 at	the	4.207369327545166	3.421900749206543	0.00044095373596064746	0.38956418633461	10
+800	shapessocial_align	aligned	gpt2	 to the playground where his ball is still sitting at	 the	end	1.0213830471038818	5.147708415985107	0.00027068296913057566	0.11305949836969376	10
+801	shapessocial_align	aligned	gpt2	 the playground where his ball is still sitting at the	 far	end	5.15263557434082	1.4163604974746704	0.0010458092438057065	0.7313061356544495	10
+802	shapessocial_align	aligned	gpt2	 playground where his ball is still sitting at the far	 end	of	0.23940645158290863	1.3017202615737915	8.994455129140988e-05	0.7156371474266052	10
+803	shapessocial_align	aligned	gpt2	 where his ball is still sitting at the far end	 of	the	0.30460551381111145	1.4759408235549927	8.989554771687835e-06	0.7244300246238708	10
+804	shapessocial_align	aligned	gpt2	 his ball is still sitting at the far end of	 the	field	0.35235825181007385	4.707017421722412	0.0003115377912763506	0.2772834897041321	10
+805	shapessocial_align	aligned	gpt2	 ball is still sitting at the far end of the	 yard	.	5.806298732757568	2.7970163822174072	0.0002889798197429627	0.4241415858268738	10
+806	shapessocial_align	aligned	gpt2	 is still sitting at the far end of the yard	 the	other	7.346793174743652	6.7510576248168945	0.0007079931674525142	0.07745712995529175	10
+807	shapessocial_align	aligned	gpt2	 still sitting at the far end of the yard the	 boy	was	6.231480121612549	5.259310245513916	0.000379407312721014	0.1613583266735077	10
+808	shapessocial_align	aligned	gpt2	 sitting at the far end of the yard the boy	 enters	the	8.324289321899414	2.9316442012786865	2.145040070899995e-06	0.29081255197525024	10
+809	shapessocial_align	aligned	gpt2	 at the far end of the yard the boy enters	 the	room	1.0629749298095703	5.989138603210449	0.00019923978834412992	0.08905776590108871	10
+810	shapessocial_align	aligned	gpt2	 the far end of the yard the boy enters the	 playground	.	5.414774417877197	3.197239637374878	0.0005363264353945851	0.301906555891037	10
+811	shapessocial_align	aligned	gpt2	 far end of the yard the boy enters the playground	 closing	the	11.292601585388184	2.4697115421295166	3.936876964871772e-06	0.5233204960823059	10
+812	shapessocial_align	aligned	gpt2	 end of the yard the boy enters the playground closing	 the	door	0.5822678208351135	3.7914111614227295	0.00017640537407714874	0.40147268772125244	10
+813	shapessocial_align	aligned	gpt2	 of the yard the boy enters the playground closing the	 gate	.	2.9410996437072754	2.999582290649414	0.00016273537767119706	0.3353325426578522	10
+814	shapessocial_align	aligned	gpt2	 the yard the boy enters the playground closing the gate	 after	he	5.293604373931885	5.262045383453369	0.0002136716793756932	0.11387452483177185	10
+815	shapessocial_align	aligned	gpt2	 yard the boy enters the playground closing the gate after	 himself	.	9.129678726196289	3.1004559993743896	3.077274959650822e-05	0.43927937746047974	10
+816	shapessocial_align	aligned	gpt2	 the boy enters the playground closing the gate after himself	 he	was	6.716931343078613	5.742089748382568	0.00031658977968618274	0.08684166520833969	10
+817	shapessocial_align	aligned	gpt2	 boy enters the playground closing the gate after himself he	 <	3	11.64702033996582	6.133608818054199	0.0002202281029894948	0.13387270271778107	10
+818	shapessocial_align	aligned	gpt2	 enters the playground closing the gate after himself he <	unk	now	11.98875617980957	4.318481922149658	0.00012149954272899777	0.2576322555541992	10
+819	shapessocial_align	aligned	gpt2	 the playground closing the gate after himself he <unk	>	said	2.616853952407837	7.339868545532227	8.538530528312549e-05	0.030244046822190285	10
+820	shapessocial_align	aligned	gpt2	 playground closing the gate after himself he <unk>	 walks	into	7.813961029052734	3.2183678150177	3.605556912589236e-06	0.1654108166694641	10
+821	shapessocial_align	aligned	gpt2	 closing the gate after himself he <unk> walks	 to	the	3.2710700035095215	3.965942621231079	0.0005281518097035587	0.4724208414554596	10
+822	shapessocial_align	aligned	gpt2	 the gate after himself he <unk> walks to	 the	gate	0.7427270412445068	6.523160457611084	0.0005096416571177542	0.11070036888122559	10
+823	shapessocial_align	aligned	gpt2	 gate after himself he <unk> walks to the	 single	-	9.661373138427734	6.5344953536987305	0.00016617204528301954	0.11834238469600677	10
+824	shapessocial_align	aligned	gpt2	 after himself he <unk> walks to the single	 ball	and	6.753490447998047	5.769960403442383	0.001309884013608098	0.08831942081451416	10
+825	shapessocial_align	aligned	gpt2	 himself he <unk> walks to the single ball	 he	<	4.219722270965576	5.547654151916504	0.0002837911597453058	0.0848260223865509	10
+826	shapessocial_align	aligned	gpt2	 he <unk> walks to the single ball he	 slowly	walks	9.54684829711914	6.079587459564209	0.0006422016303986311	0.037672847509384155	10
+827	shapessocial_align	aligned	gpt2	 <unk> walks to the single ball he slowly	 and	carefully	5.061812400817871	5.37038516998291	0.00036632135743275285	0.1446533352136612	10
+828	shapessocial_align	aligned	gpt2	unk> walks to the single ball he slowly and	 <	3	11.456597328186035	6.393828868865967	0.0001828374370234087	0.06600330024957657	10
+829	shapessocial_align	aligned	gpt2	> walks to the single ball he slowly and <	unk	now	12.820103645324707	3.8380563259124756	5.499731923919171e-05	0.4070025384426117	10
+830	shapessocial_align	aligned	gpt2	 walks to the single ball he slowly and <unk	>	s	2.8053956031799316	7.700673580169678	0.00022207893198356032	0.03074548952281475	10
+831	shapessocial_align	aligned	gpt2	 to the single ball he slowly and <unk>	 kicks	the	8.341877937316895	4.199475288391113	3.320269024698064e-05	0.13382109999656677	10
+832	shapessocial_align	aligned	gpt2	 the single ball he slowly and <unk> kicks	 the	ball	1.9903539419174194	4.658799171447754	0.0002525253512430936	0.4456530213356018	10
+833	shapessocial_align	aligned	gpt2	 single ball he slowly and <unk> kicks the	 ball	.	0.8805980086326599	4.412313938140869	0.00014851897140033543	0.0858452320098877	10
+834	shapessocial_align	aligned	gpt2	 ball he slowly and <unk> kicks the ball	 halfway	through	9.207849502563477	2.7932567596435547	0.00013925267558079213	0.32940244674682617	10
+835	shapessocial_align	aligned	gpt2	 he slowly and <unk> kicks the ball halfway	 down	the	2.4631242752075195	1.337759017944336	0.00014332686259876937	0.8018973469734192	10
+836	shapessocial_align	aligned	gpt2	 slowly and <unk> kicks the ball halfway down	 the	field	0.23790329694747925	1.4470092058181763	0.00010995916090905666	0.7576211094856262	10
+837	shapessocial_align	aligned	gpt2	 and <unk> kicks the ball halfway down the	 yard	.	8.201678276062012	2.875515937805176	0.00014722086780238897	0.3972998857498169	10
+838	shapessocial_align	aligned	gpt2	 <unk> kicks the ball halfway down the yard	 as	a	5.584305763244629	4.773779392242432	0.0001339058653684333	0.13793711364269257	10
+839	shapessocial_align	aligned	gpt2	unk> kicks the ball halfway down the yard as	 he	tries	2.310281991958618	5.604254722595215	0.000136545771965757	0.06990253925323486	10
+840	shapessocial_align	aligned	gpt2	> kicks the ball halfway down the yard as he	 kicks	it	5.843290328979492	3.421499013900757	0.00016266462625935674	0.24942055344581604	10
+841	shapessocial_align	aligned	gpt2	 kicks the ball halfway down the yard as he kicks	 the	ball	1.4121237993240356	1.5207431316375732	9.064208279596642e-05	0.8283035755157471	10
+842	shapessocial_align	aligned	gpt2	 the ball halfway down the yard as he kicks the	 ball	out	0.15930821001529694	3.7821576595306396	0.00011106729652965441	0.14877784252166748	10
+843	shapessocial_align	aligned	gpt2	 ball halfway down the yard as he kicks the ball	 again	.	6.651858806610107	2.3715550899505615	0.0002104685117956251	0.5047286748886108	10
+844	shapessocial_align	aligned	gpt2	 halfway down the yard as he kicks the ball again	 his	way	9.164661407470703	2.898209571838379	6.637027399847284e-05	0.611484169960022	10
+845	shapessocial_align	aligned	gpt2	 down the yard as he kicks the ball again his	 mysterious	way	12.910518646240234	7.127415180206299	8.055998478084803e-05	0.035863474011421204	10
+846	shapessocial_align	aligned	gpt2	 the yard as he kicks the ball again his mysterious	 friend	.	4.345847129821777	5.394187927246094	7.028887193882838e-05	0.2524424195289612	10
+847	shapessocial_align	aligned	gpt2	 yard as he kicks the ball again his mysterious friend	 from	the	3.9540374279022217	5.466980457305908	0.00022150538279674947	0.2685551643371582	10
+848	shapessocial_align	aligned	gpt2	 as he kicks the ball again his mysterious friend from	 the	crowd	0.9958323836326599	7.275029182434082	0.00027651109849102795	0.031461238861083984	10
+849	shapessocial_align	aligned	gpt2	 he kicks the ball again his mysterious friend from the	 dream	.	8.459870338439941	4.58998441696167	0.0015190812991932034	0.20812568068504333	10
+850	shapessocial_align	aligned	gpt2	 kicks the ball again his mysterious friend from the dream	 appears	and	5.9326300621032715	2.9029858112335205	6.772876076865941e-06	0.2794399559497833	10
+851	shapessocial_align	aligned	gpt2	 the ball again his mysterious friend from the dream appears	 and	tells	1.4217413663864136	6.21328592300415	0.000917572237085551	0.0456051230430603	10
+852	shapessocial_align	aligned	gpt2	 ball again his mysterious friend from the dream appears and	 sne	aks	7.777022838592529	0.2602042257785797	6.392031903779127e-10	0.9544728398323059	10
+853	shapessocial_align	aligned	gpt2	 again his mysterious friend from the dream appears and sne	aks	into	0.030735129490494728	3.199709415435791	4.309218315512453e-09	0.1939881145954132	10
+854	shapessocial_align	aligned	gpt2	 his mysterious friend from the dream appears and sneaks	 towards	the	5.4212799072265625	4.253943920135498	4.626858753908891e-06	0.31896084547042847	10
+855	shapessocial_align	aligned	gpt2	 mysterious friend from the dream appears and sneaks towards	 the	house	1.2338531017303467	7.5172953605651855	0.00038105121348053217	0.028248300775885582	10
+856	shapessocial_align	aligned	gpt2	 friend from the dream appears and sneaks towards the	 playground	.	9.417966842651367	2.814145088195801	0.0004322625754866749	0.4347786009311676	10
+857	shapessocial_align	aligned	gpt2	 from the dream appears and sneaks towards the playground	 he	was	6.343499660491943	4.382308483123779	7.212312630144879e-05	0.14675331115722656	10
+858	shapessocial_align	aligned	gpt2	 the dream appears and sneaks towards the playground he	 checks	out	10.120441436767578	3.386716365814209	1.1231213647988625e-05	0.19034560024738312	10
+859	shapessocial_align	aligned	gpt2	 dream appears and sneaks towards the playground he checks	 that	the	5.245151519775391	4.120357990264893	0.0015783488051965833	0.23876583576202393	10
+860	shapessocial_align	aligned	gpt2	 appears and sneaks towards the playground he checks that	 his	parents	2.3593435287475586	7.2592387199401855	0.00022162916138768196	0.019252996891736984	10
+861	shapessocial_align	aligned	gpt2	 and sneaks towards the playground he checks that his	 friend	is	4.579461097717285	3.635711193084717	6.078330989112146e-05	0.34428128600120544	10
+862	shapessocial_align	aligned	gpt2	 sneaks towards the playground he checks that his friend	 is	still	1.0102238655090332	5.259302616119385	7.93637300375849e-05	0.09475338459014893	10
+863	shapessocial_align	aligned	gpt2	aks towards the playground he checks that his friend is	 there	.	3.9265072345733643	2.846761465072632	0.00026578744291327894	0.3324367105960846	10
+864	shapessocial_align	aligned	gpt2	 towards the playground he checks that his friend is there	 he	goes	7.432066440582275	5.592137813568115	0.00035296365967951715	0.039211999624967575	10
+865	shapessocial_align	aligned	gpt2	 the playground he checks that his friend is there he	 quietly	asks	8.24239730834961	6.236280918121338	0.0004022378125227988	0.024128390476107597	10
+866	shapessocial_align	aligned	gpt2	 playground he checks that his friend is there he quietly	 opens	the	5.70802116394043	1.734660029411316	6.696272521367064e-06	0.5399392247200012	10
+867	shapessocial_align	aligned	gpt2	 he checks that his friend is there he quietly opens	 the	door	0.6999821066856384	2.6973929405212402	9.773918282007799e-05	0.6722444891929626	10
+868	shapessocial_align	aligned	gpt2	 checks that his friend is there he quietly opens the	 gate	and	4.593955039978027	2.8527703285217285	0.00040356157114729285	0.28385159373283386	10
+869	shapessocial_align	aligned	gpt2	 that his friend is there he quietly opens the gate	 he	was	6.197925567626953	5.16187047958374	8.604834147263318e-05	0.08858001977205276	10
+870	shapessocial_align	aligned	gpt2	 his friend is there he quietly opens the gate he	 sne	aks	8.567848205566406	0.9196956753730774	6.9123733403841925e-09	0.8060232996940613	10
+871	shapessocial_align	aligned	gpt2	 friend is there he quietly opens the gate he sne	aks	in	0.21544751524925232	3.072303056716919	1.3484846572708875e-09	0.19501325488090515	10
+872	shapessocial_align	aligned	gpt2	 is there he quietly opens the gate he sneaks	 up	behind	2.8235955238342285	2.950164556503296	0.0002745170204434544	0.31528016924858093	10
+873	shapessocial_align	aligned	gpt2	 there he quietly opens the gate he sneaks up	 on	the	2.6957695484161377	4.860229015350342	0.00030778811196796596	0.21716266870498657	10
+874	shapessocial_align	aligned	gpt2	 he quietly opens the gate he sneaks up on	 the	other	1.6145418882369995	7.488045692443848	0.0003522095794323832	0.03367920592427254	10
+875	shapessocial_align	aligned	gpt2	 quietly opens the gate he sneaks up on the	 boy	and	5.02641487121582	3.105214834213257	0.0005725354421883821	0.2889334559440613	10
+876	shapessocial_align	aligned	gpt2	 opens the gate he sneaks up on the boy	 who	is	3.4520349502563477	4.9103593826293945	0.00014899068628437817	0.21472866833209991	10
+877	shapessocial_align	aligned	gpt2	 the gate he sneaks up on the boy who	 still	has	6.847785472869873	5.017559051513672	0.0009814932709559798	0.18088427186012268	10
+878	shapessocial_align	aligned	gpt2	 gate he sneaks up on the boy who still	 doesn	't	3.540426731109619	0.008382502011954784	1.2098066548560382e-08	0.9992721676826477	10
+879	shapessocial_align	aligned	gpt2	 he sneaks up on the boy who still doesn	't	know	0.0007531190640293062	3.5914688110351562	1.18762216061441e-06	0.2746132016181946	10
+880	shapessocial_align	aligned	gpt2	 sneaks up on the boy who still doesn't	 see	him	4.358016014099121	3.3460216522216797	2.9686993002542295e-05	0.31725871562957764	10
+881	shapessocial_align	aligned	gpt2	aks up on the boy who still doesn't see	 him	.	1.7843010425567627	3.044739246368408	3.9704511436866596e-05	0.3863185942173004	10
+882	shapessocial_align	aligned	gpt2	 up on the boy who still doesn't see him	 he	's	7.639764308929443	5.821959018707275	0.00021974508126731962	0.07717468589544296	10
+883	shapessocial_align	aligned	gpt2	 on the boy who still doesn't see him he	 taps	his	8.476970672607422	3.305020570755005	2.0315674191806465e-05	0.28941720724105835	10
+884	shapessocial_align	aligned	gpt2	 the boy who still doesn't see him he taps	 the	boy	1.8817193508148193	6.153208255767822	0.00024867424508556724	0.17515744268894196	10
+885	shapessocial_align	aligned	gpt2	 boy who still doesn't see him he taps the	 boy	's	5.330632209777832	2.3601808547973633	0.00015679001808166504	0.5290586352348328	10
+886	shapessocial_align	aligned	gpt2	 who still doesn't see him he taps the boy	 on	the	2.084977865219116	0.5222935080528259	1.1017091310350224e-05	0.9105916619300842	10
+887	shapessocial_align	aligned	gpt2	 still doesn't see him he taps the boy on	 the	shoulder	0.09768625348806381	2.550724983215332	6.737300282111391e-05	0.5074661374092102	10
+888	shapessocial_align	aligned	gpt2	 doesn't see him he taps the boy on the	 shoulder	and	0.7735775113105774	2.898958206176758	0.00030863203573971987	0.32807546854019165	10
+889	shapessocial_align	aligned	gpt2	't see him he taps the boy on the shoulder	 the	boy	6.7571611404418945	6.481919765472412	0.0003856327384710312	0.07446100562810898	10
+890	shapessocial_align	aligned	gpt2	 see him he taps the boy on the shoulder the	 boy	is	3.044384717941284	5.533221244812012	9.677485650172457e-05	0.07286008447408676	10
+891	shapessocial_align	aligned	gpt2	 him he taps the boy on the shoulder the boy	 <	3	13.080068588256836	6.177872180938721	0.00040478212758898735	0.1574190855026245	10
+892	shapessocial_align	aligned	gpt2	 he taps the boy on the shoulder the boy <	unk	now	12.656353950500488	4.441895484924316	5.2440711442613974e-05	0.1902776062488556	10
+893	shapessocial_align	aligned	gpt2	 taps the boy on the shoulder the boy <unk	>	and	2.257751941680908	7.093085289001465	0.00023312993289437145	0.06543637067079544	10
+894	shapessocial_align	aligned	gpt2	 the boy on the shoulder the boy <unk>	 around	the	9.096381187438965	4.35560417175293	0.0005470787873491645	0.206451416015625	10
+895	shapessocial_align	aligned	gpt2	 boy on the shoulder the boy <unk> around	 the	corner	1.4207578897476196	5.467973709106445	0.00015543425979558378	0.16133370995521545	10
+896	shapessocial_align	aligned	gpt2	 on the shoulder the boy <unk> around the	 two	of	6.782963752746582	6.0281662940979	0.00040238897781819105	0.20484812557697296	10
+897	shapessocial_align	aligned	gpt2	 the shoulder the boy <unk> around the two	 friends	<	6.861407279968262	4.590284824371338	3.393946826690808e-05	0.19800986349582672	10
+898	shapessocial_align	aligned	gpt2	 shoulder the boy <unk> around the two friends	 talk	about	8.922887802124023	3.5567195415496826	0.0013709078775718808	0.39606884121894836	10
+899	shapessocial_align	aligned	gpt2	 the boy <unk> around the two friends talk	 back	to	5.5080695152282715	2.696474313735962	0.0011062537087127566	0.3398340344429016	10
+900	shapessocial_align	aligned	gpt2	 boy <unk> around the two friends talk back	 and	forth	1.3721626996994019	0.36353927850723267	1.954802246473264e-05	0.9656310677528381	10
+901	shapessocial_align	aligned	gpt2	 <unk> around the two friends talk back and	 forth	.	0.021720271557569504	3.9912657737731934	4.096797511010664e-06	0.18337930738925934	10
+902	shapessocial_align	aligned	gpt2	unk> around the two friends talk back and forth	 the	whole	5.6277852058410645	3.6694064140319824	0.0005324289086274803	0.4423791170120239	10
+903	shapessocial_align	aligned	gpt2	> around the two friends talk back and forth the	 boy	is	8.583745002746582	5.754405498504639	0.00025353324599564075	0.06843290477991104	10
+904	shapessocial_align	aligned	gpt2	 around the two friends talk back and forth the boy	 races	to	9.000432968139648	3.799363613128662	7.304095561266877e-06	0.14958389103412628	10
+905	shapessocial_align	aligned	gpt2	 the two friends talk back and forth the boy races	 to	the	1.8071032762527466	4.33199405670166	0.0004821306501980871	0.3374394476413727	10
+906	shapessocial_align	aligned	gpt2	 two friends talk back and forth the boy races to	 get	to	3.0108842849731445	4.229661464691162	4.29022875323426e-05	0.13793426752090454	10
+907	shapessocial_align	aligned	gpt2	 friends talk back and forth the boy races to get	 his	bearings	2.3773586750030518	6.331842422485352	0.00016240325930994004	0.10564050078392029	10
+908	shapessocial_align	aligned	gpt2	 talk back and forth the boy races to get his	 ball	.	7.203701972961426	3.9372429847717285	0.0006142538040876389	0.1870521754026413	10
+909	shapessocial_align	aligned	gpt2	 back and forth the boy races to get his ball	 as	he	5.139568328857422	4.441874027252197	0.00027075267280451953	0.2381516546010971	10
+910	shapessocial_align	aligned	gpt2	 and forth the boy races to get his ball as	 his	father	3.9253172874450684	6.2838263511657715	0.00021895969985052943	0.12812083959579468	10
+911	shapessocial_align	aligned	gpt2	 forth the boy races to get his ball as his	 friend	,	4.7538042068481445	6.760580062866211	5.203992986935191e-05	0.08737730979919434	10
+912	shapessocial_align	aligned	gpt2	 the boy races to get his ball as his friend	 gets	his	4.416675567626953	5.302483558654785	6.154847142170183e-06	0.05111558362841606	10
+913	shapessocial_align	aligned	gpt2	 boy races to get his ball as his friend gets	 in	the	3.8843166828155518	3.949458122253418	0.004243350587785244	0.15110768377780914	10
+914	shapessocial_align	aligned	gpt2	 races to get his ball as his friend gets in	 position	to	4.071587085723877	1.9524871110916138	7.551298494945513e-06	0.5188930630683899	10
+915	shapessocial_align	aligned	gpt2	 to get his ball as his friend gets in position	 the	ball	7.466803550720215	5.432023525238037	0.0004394234565552324	0.15698359906673431	10
+916	shapessocial_align	aligned	gpt2	 get his ball as his friend gets in position the	 boy	will	7.9757080078125	5.282404899597168	0.00016223982675001025	0.08933639526367188	10
+917	shapessocial_align	aligned	gpt2	 his ball as his friend gets in position the boy	 kicks	it	6.1056718826293945	3.2434964179992676	4.8699705075705424e-05	0.20510023832321167	10
+918	shapessocial_align	aligned	gpt2	 ball as his friend gets in position the boy kicks	 the	ball	1.7396873235702515	4.857734680175781	0.00015505909686908126	0.3775562047958374	10
+919	shapessocial_align	aligned	gpt2	 as his friend gets in position the boy kicks the	 ball	out	4.275445938110352	3.7225255966186523	9.666385449236259e-05	0.16527557373046875	10
+920	shapessocial_align	aligned	gpt2	 his friend gets in position the boy kicks the ball	 to	the	2.951043128967285	4.0693254470825195	0.0003045534249395132	0.3362897038459778	10
+921	shapessocial_align	aligned	gpt2	 friend gets in position the boy kicks the ball to	 his	feet	1.949537754058838	4.788728713989258	8.921353582991287e-05	0.09084320813417435	10
+922	shapessocial_align	aligned	gpt2	 gets in position the boy kicks the ball to his	 friend	's	5.412106513977051	3.5495917797088623	7.432640995830297e-05	0.23714183270931244	10
+923	shapessocial_align	aligned	gpt2	 in position the boy kicks the ball to his friend	 who	is	3.243757724761963	5.599315166473389	0.000459930335637182	0.10390432178974152	10
+924	shapessocial_align	aligned	gpt2	 position the boy kicks the ball to his friend who	 quickly	gets	5.463720321655273	5.98382568359375	0.0004556876956485212	0.0416891910135746	10
+925	shapessocial_align	aligned	gpt2	 the boy kicks the ball to his friend who quickly	 passes	it	4.67823600769043	2.3298959732055664	2.2019001335138455e-05	0.36591067910194397	10
+926	shapessocial_align	aligned	gpt2	 boy kicks the ball to his friend who quickly passes	 it	to	0.9012047052383423	2.490098714828491	7.063496013870463e-05	0.47598692774772644	10
+927	shapessocial_align	aligned	gpt2	 kicks the ball to his friend who quickly passes it	 back	to	2.3117306232452393	1.2543185949325562	0.0016730970237404108	0.8012902736663818	10
+928	shapessocial_align	aligned	gpt2	 the ball to his friend who quickly passes it back	 playing	the	11.090736389160156	4.808875560760498	6.892729288665578e-05	0.14054618775844574	10
+929	shapessocial_align	aligned	gpt2	 ball to his friend who quickly passes it back playing	 together	.	7.203102111816406	2.6218748092651367	0.0005211080424487591	0.5393988490104675	10
+930	shapessocial_align	aligned	gpt2	 to his friend who quickly passes it back playing together	 in	the	3.466482639312744	4.530605316162109	0.00013803313777316362	0.3179892599582672	10
+931	shapessocial_align	aligned	gpt2	 his friend who quickly passes it back playing together in	 real	life	5.518954277038574	0.6040250658988953	9.094236884266138e-05	0.8884671330451965	10
+932	shapessocial_align	aligned	gpt2	 friend who quickly passes it back playing together in real	 life	.	0.12163544446229935	2.380929946899414	7.085953984642401e-05	0.5851527452468872	10
+933	shapessocial_align	aligned	gpt2	 who quickly passes it back playing together in real life	 just	to	7.261796951293945	4.105749130249023	0.0005482375854626298	0.23850016295909882	10
+934	shapessocial_align	aligned	gpt2	 quickly passes it back playing together in real life just	 as	it	2.4336814880371094	4.886569023132324	0.0007239066762849689	0.11268438398838043	10
+935	shapessocial_align	aligned	gpt2	 passes it back playing together in real life just as	 they	did	2.736196279525757	3.6355583667755127	3.294604175607674e-05	0.2654615640640259	10
+936	shapessocial_align	aligned	gpt2	 it back playing together in real life just as they	 had	in	2.628716468811035	3.800788164138794	0.003782871877774596	0.1967267245054245	10
+937	shapessocial_align	aligned	gpt2	 back playing together in real life just as they had	 in	the	1.3264882564544678	4.800974369049072	0.00032959654345177114	0.27204427123069763	10
+938	shapessocial_align	aligned	gpt2	 playing together in real life just as they had in	 the	past	1.2681586742401123	5.613687992095947	0.0005012846668250859	0.14993153512477875	10
+939	shapessocial_align	aligned	gpt2	 together in real life just as they had in the	 dream	.	6.04003381729126	3.6482999324798584	0.003591870190575719	0.27468714118003845	10

@@ -1,0 +1,639 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	seinfeld_transcript	transcript	gpt2	Jerry and George strolled through the airport with their suitcases. George walked	 quickly	to	5.3308563232421875	3.3185973167419434	0.00027047094772569835	0.16787350177764893	15
+1	seinfeld_transcript	transcript	gpt2	 and George strolled through the airport with their suitcases. George walked quickly	,	and	2.884730100631714	6.002906322479248	7.697715045651421e-05	0.08833200484514236	15
+2	seinfeld_transcript	transcript	gpt2	 George strolled through the airport with their suitcases. George walked quickly,	 grim	acing	8.369963645935059	0.4412519037723541	1.08248104879749e-05	0.9171338677406311	15
+3	seinfeld_transcript	transcript	gpt2	 strolled through the airport with their suitcases. George walked quickly, grim	acing	.	0.07231505215167999	2.7349677085876465	8.860027378432278e-09	0.31749796867370605	15
+4	seinfeld_transcript	transcript	gpt2	rolled through the airport with their suitcases. George walked quickly, grimacing	 as	he	2.06705904006958	2.037691831588745	0.00015833227371331304	0.6285362839698792	15
+5	seinfeld_transcript	transcript	gpt2	 through the airport with their suitcases. George walked quickly, grimacing as	 he	looked	0.4508236050605774	5.311193466186523	0.00012042791058775038	0.06380510330200195	15
+6	seinfeld_transcript	transcript	gpt2	 the airport with their suitcases. George walked quickly, grimacing as he	 scanned	the	4.9675188064575195	2.1377065181732178	1.2435359167284332e-05	0.655896782875061	15
+7	seinfeld_transcript	transcript	gpt2	 airport with their suitcases. George walked quickly, grimacing as he scanned	 the	room	0.4139081537723541	6.546681880950928	0.0003846769395750016	0.12221290916204453	15
+8	seinfeld_transcript	transcript	gpt2	 with their suitcases. George walked quickly, grimacing as he scanned the	 signs	.	8.317652702331543	3.31766939163208	3.544774153851904e-05	0.3008967936038971	15
+9	seinfeld_transcript	transcript	gpt2	 their suitcases. George walked quickly, grimacing as he scanned the signs	 to	see	4.924607753753662	3.6301941871643066	0.000158912647748366	0.23253749310970306	15
+10	seinfeld_transcript	transcript	gpt2	 suitcases. George walked quickly, grimacing as he scanned the signs to	 figure	out	5.49268913269043	0.6182757019996643	2.010346179304179e-06	0.9167481064796448	15
+11	seinfeld_transcript	transcript	gpt2	cases. George walked quickly, grimacing as he scanned the signs to figure	 out	what	0.08671817928552628	2.138906240463257	4.777621870744042e-05	0.4425266683101654	15
+12	seinfeld_transcript	transcript	gpt2	. George walked quickly, grimacing as he scanned the signs to figure out	 which	one	2.367624282836914	4.950429439544678	5.124140079715289e-05	0.1918937712907791	15
+13	seinfeld_transcript	transcript	gpt2	 George walked quickly, grimacing as he scanned the signs to figure out which	 way	to	3.461268901824951	3.2736306190490723	5.163297464605421e-05	0.22384870052337646	15
+14	seinfeld_transcript	transcript	gpt2	 walked quickly, grimacing as he scanned the signs to figure out which way	 to	go	1.3127821683883667	2.688831090927124	0.00016577386122662574	0.38440999388694763	15
+15	seinfeld_transcript	transcript	gpt2	 quickly, grimacing as he scanned the signs to figure out which way to	 go	.	0.9805669784545898	1.2618181705474854	1.1043591257475782e-05	0.7842130064964294	15
+16	seinfeld_transcript	transcript	gpt2	, grimacing as he scanned the signs to figure out which way to go	.	"
+"	0.2729489207267761	3.843106746673584	1.0300663234374952e-05	0.34842249751091003	15
+17	seinfeld_transcript	transcript	gpt2	 grimacing as he scanned the signs to figure out which way to go.	 A	few	4.467898845672607	7.17996883392334	4.2513485823292285e-05	0.07503519207239151	15
+18	seinfeld_transcript	transcript	gpt2	acing as he scanned the signs to figure out which way to go. A	 man	in	4.086787223815918	5.138551712036133	0.0001950279256561771	0.11961787194013596	15
+19	seinfeld_transcript	transcript	gpt2	 as he scanned the signs to figure out which way to go. A man	 passing	by	7.158695697784424	2.119281530380249	9.543393389321864e-05	0.6896660923957825	15
+20	seinfeld_transcript	transcript	gpt2	 he scanned the signs to figure out which way to go. A man passing	 by	,	0.4071509838104248	5.598714828491211	0.0012274736072868109	0.051336511969566345	15
+21	seinfeld_transcript	transcript	gpt2	 scanned the signs to figure out which way to go. A man passing by	 sne	aked	7.691004276275635	1.0847712755203247	7.421213865654863e-09	0.6245072484016418	15
+22	seinfeld_transcript	transcript	gpt2	 the signs to figure out which way to go. A man passing by sne	ez	ed	0.6727568507194519	1.0550233125686646	0.00021741182717960328	0.5029000043869019	15
+23	seinfeld_transcript	transcript	gpt2	 signs to figure out which way to go. A man passing by sneez	ed	and	1.00132417678833	3.262094736099243	2.933655196102336e-06	0.3050282299518585	15
+24	seinfeld_transcript	transcript	gpt2	 to figure out which way to go. A man passing by sneezed	 in	the	3.6897361278533936	4.601655006408691	0.0009523342596367002	0.1825478971004486	15
+25	seinfeld_transcript	transcript	gpt2	 figure out which way to go. A man passing by sneezed in	 his	seat	3.1030213832855225	6.269172668457031	0.00010975629993481562	0.057262200862169266	15
+26	seinfeld_transcript	transcript	gpt2	 out which way to go. A man passing by sneezed in his	 direction	,	3.5473721027374268	2.405674934387207	1.692364435257332e-06	0.26679906249046326	15
+27	seinfeld_transcript	transcript	gpt2	 which way to go. A man passing by sneezed in his direction	,	and	1.280765414237976	3.9184274673461914	7.956961781019345e-05	0.38762062788009644	15
+28	seinfeld_transcript	transcript	gpt2	 way to go. A man passing by sneezed in his direction,	 causing	the	5.750161170959473	4.439168453216553	5.721193247154588e-06	0.2387111335992813	15
+29	seinfeld_transcript	transcript	gpt2	 to go. A man passing by sneezed in his direction, causing	 him	to	2.1758437156677246	0.5158079266548157	3.4381966543151066e-05	0.9477218985557556	15
+30	seinfeld_transcript	transcript	gpt2	 go. A man passing by sneezed in his direction, causing him	 to	fall	0.058740295469760895	5.614294528961182	9.92207569652237e-05	0.06100453808903694	15
+31	seinfeld_transcript	transcript	gpt2	. A man passing by sneezed in his direction, causing him to	 recoil	.	6.392763137817383	3.2849109172821045	2.75430556939682e-06	0.24319615960121155	15
+32	seinfeld_transcript	transcript	gpt2	 A man passing by sneezed in his direction, causing him to recoil	 backwards	.	4.083943843841553	2.218752384185791	0.0014067096635699272	0.4689604640007019	15
+33	seinfeld_transcript	transcript	gpt2	 man passing by sneezed in his direction, causing him to recoil backwards	 and	fall	1.7158513069152832	6.232719421386719	0.0004247169417794794	0.06952791661024094	15
+34	seinfeld_transcript	transcript	gpt2	 passing by sneezed in his direction, causing him to recoil backwards and	 then	fall	4.302661895751953	5.971013069152832	0.0007030771230347455	0.08219875395298004	15
+35	seinfeld_transcript	transcript	gpt2	 by sneezed in his direction, causing him to recoil backwards and then	 frantically	run	7.8810296058654785	5.85735559463501	0.0010440181940793991	0.0562652088701725	15
+36	seinfeld_transcript	transcript	gpt2	 sneezed in his direction, causing him to recoil backwards and then frantically	 squ	irm	6.036016941070557	2.220074415206909	2.8517476948763942e-06	0.37981483340263367	15
+37	seinfeld_transcript	transcript	gpt2	ezed in his direction, causing him to recoil backwards and then frantically squ	irt	a	4.01148796081543	4.649654388427734	1.0462458703841548e-06	0.11100821942090988	15
+38	seinfeld_transcript	transcript	gpt2	ed in his direction, causing him to recoil backwards and then frantically squirt	 Pure	Water	12.747268676757812	5.533903121948242	0.011088233441114426	0.19409827888011932	15
+39	seinfeld_transcript	transcript	gpt2	 in his direction, causing him to recoil backwards and then frantically squirt Pure	ll	ium	9.092087745666504	4.577572345733643	9.277496428694576e-05	0.11113259941339493	15
+40	seinfeld_transcript	transcript	gpt2	 his direction, causing him to recoil backwards and then frantically squirt Purell	 onto	the	6.90324068069458	3.047808885574341	2.0659801521105692e-05	0.39194875955581665	15
+41	seinfeld_transcript	transcript	gpt2	 direction, causing him to recoil backwards and then frantically squirt Purell onto	 his	back	1.437652826309204	4.696556568145752	8.210103260353208e-05	0.1673748940229416	15
+42	seinfeld_transcript	transcript	gpt2	, causing him to recoil backwards and then frantically squirt Purell onto his	 hands	.	4.333127021789551	1.790594220161438	3.7251597859722096e-06	0.5540480613708496	15
+43	seinfeld_transcript	transcript	gpt2	 causing him to recoil backwards and then frantically squirt Purell onto his hands	.	"
+"	0.6978963613510132	4.675089359283447	1.6554948160774074e-05	0.28593969345092773	15
+44	seinfeld_transcript	transcript	gpt2	 him to recoil backwards and then frantically squirt Purell onto his hands.	 Jerry	's	10.962752342224121	6.292746067047119	3.11363983200863e-05	0.080052949488163	15
+45	seinfeld_transcript	transcript	gpt2	 to recoil backwards and then frantically squirt Purell onto his hands. Jerry	 sa	un	8.866893768310547	0.12121447175741196	3.256942449070266e-08	0.9869359135627747	15
+46	seinfeld_transcript	transcript	gpt2	 recoil backwards and then frantically squirt Purell onto his hands. Jerry sa	un	tered	0.015098690055310726	0.7763859033584595	9.034138021002391e-11	0.5108945965766907	15
+47	seinfeld_transcript	transcript	gpt2	 backwards and then frantically squirt Purell onto his hands. Jerry saun	tered	over	1.4251034259796143	3.1370692253112793	1.3318248726079673e-08	0.22852826118469238	15
+48	seinfeld_transcript	transcript	gpt2	 and then frantically squirt Purell onto his hands. Jerry sauntered	 up	to	2.2788920402526855	2.2268099784851074	0.00016632111510261893	0.46688175201416016	15
+49	seinfeld_transcript	transcript	gpt2	 then frantically squirt Purell onto his hands. Jerry sauntered up	 behind	him	3.467604398727417	2.842350721359253	7.500060746679083e-05	0.5251779556274414	15
+50	seinfeld_transcript	transcript	gpt2	 frantically squirt Purell onto his hands. Jerry sauntered up behind	 him	,	0.7879162430763245	2.0749738216400146	7.108121280907653e-06	0.3891300559043884	15
+51	seinfeld_transcript	transcript	gpt2	 squirt Purell onto his hands. Jerry sauntered up behind him	,	and	0.9509034156799316	6.3781561851501465	5.777049591415562e-05	0.0679839700460434	15
+52	seinfeld_transcript	transcript	gpt2	irt Purell onto his hands. Jerry sauntered up behind him,	 smiling	.	5.0484538078308105	3.837636709213257	9.73802016233094e-05	0.2733924388885498	15
+53	seinfeld_transcript	transcript	gpt2	 Purell onto his hands. Jerry sauntered up behind him, smiling	.	""""	1.361889123916626	3.488565683364868	8.246918696386274e-06	0.3149144649505615	15
+54	seinfeld_transcript	transcript	gpt2	ll onto his hands. Jerry sauntered up behind him, smiling.	" """	I	1.143046498298645	5.0280537605285645	7.407014663840528e-07	0.12083447724580765	15
+55	seinfeld_transcript	transcript	gpt2	" onto his hands. Jerry sauntered up behind him, smiling. """	Just	a	4.667819976806641	5.409282684326172	3.5222763017372927e-07	0.08680936694145203	15
+56	seinfeld_transcript	transcript	gpt2	" his hands. Jerry sauntered up behind him, smiling. ""Just"	 relax	,	4.4214959144592285	2.671893835067749	0.00020405909162946045	0.2358216792345047	15
+57	seinfeld_transcript	transcript	gpt2	" hands. Jerry sauntered up behind him, smiling. ""Just relax"	"!"""	he	4.624351501464844	3.2166988849639893	3.169977844663663e-06	0.2870197892189026	15
+58	seinfeld_transcript	transcript	gpt2	". Jerry sauntered up behind him, smiling. ""Just relax!"""	" """	I	4.266164779663086	4.812771797180176	1.181345737677475e-06	0.14035660028457642	15
+59	seinfeld_transcript	transcript	gpt2	" Jerry sauntered up behind him, smiling. ""Just relax!"" """	Learn	to	9.773258209228516	3.7708115577697754	1.70850952940782e-07	0.23886731266975403	15
+60	seinfeld_transcript	transcript	gpt2	" sauntered up behind him, smiling. ""Just relax!"" ""Learn"	 to	be	1.4649620056152344	5.233486175537109	0.00010869372636079788	0.06353156268596649	15
+61	seinfeld_transcript	transcript	gpt2	"untered up behind him, smiling. ""Just relax!"" ""Learn to"	 love	yourself	3.317922830581665	4.455966949462891	0.004319913685321808	0.146277517080307	15
+62	seinfeld_transcript	transcript	gpt2	"tered up behind him, smiling. ""Just relax!"" ""Learn to love"	 the	way	3.0387966632843018	6.703742980957031	0.00022193638142198324	0.0593765527009964	15
+63	seinfeld_transcript	transcript	gpt2	" up behind him, smiling. ""Just relax!"" ""Learn to love the"	 airport	"!"""	10.5101957321167	3.691997766494751	0.0006110263639129698	0.19200952351093292	15
+64	seinfeld_transcript	transcript	gpt2	" behind him, smiling. ""Just relax!"" ""Learn to love the airport"	"."""	""""	2.3997955322265625	4.574701309204102	2.619647239043843e-05	0.290578156709671	15
+65	seinfeld_transcript	transcript	gpt2	" him, smiling. ""Just relax!"" ""Learn to love the airport."""	" """	I	1.184813141822815	5.230911731719971	6.845896791674022e-07	0.0954512357711792	15
+66	seinfeld_transcript	transcript	gpt2	", smiling. ""Just relax!"" ""Learn to love the airport."" """	We	're	4.071149826049805	3.669417381286621	2.0639735964778083e-07	0.2060314267873764	15
+67	seinfeld_transcript	transcript	gpt2	" smiling. ""Just relax!"" ""Learn to love the airport."" ""We"	're	going	1.542794942855835	4.794452667236328	2.777813278953545e-06	0.1635458618402481	15
+68	seinfeld_transcript	transcript	gpt2	". ""Just relax!"" ""Learn to love the airport."" ""We're"	 all	here	3.13374662399292	5.847822666168213	0.0007701872964389622	0.08321812003850937	15
+69	seinfeld_transcript	transcript	gpt2	" ""Just relax!"" ""Learn to love the airport."" ""We're all"	 out	here	5.605902671813965	1.949363350868225	0.0005100451526232064	0.5194692015647888	15
+70	seinfeld_transcript	transcript	gpt2	"Just relax!"" ""Learn to love the airport."" ""We're all out"	 here	"."""	0.6583402752876282	4.346582412719727	0.011195513419806957	0.07712868601083755	15
+71	seinfeld_transcript	transcript	gpt2	" relax!"" ""Learn to love the airport."" ""We're all out here"	,	and	2.6224746704101562	6.0979790687561035	7.024716614978388e-05	0.0659627616405487	15
+72	seinfeld_transcript	transcript	gpt2	"!"" ""Learn to love the airport."" ""We're all out here,"	 moving	around	7.339962959289551	4.586709022521973	8.89267394086346e-05	0.07622846961021423	15
+73	seinfeld_transcript	transcript	gpt2	" ""Learn to love the airport."" ""We're all out here, moving"	 around	,	2.6899704933166504	3.7090349197387695	0.0010541649535298347	0.15871094167232513	15
+74	seinfeld_transcript	transcript	gpt2	"Learn to love the airport."" ""We're all out here, moving around"	,	and	1.8272384405136108	5.41888952255249	0.00017834026948548853	0.07429038733243942	15
+75	seinfeld_transcript	transcript	gpt2	" to love the airport."" ""We're all out here, moving around,"	 seeing	the	6.907217979431152	4.454677581787109	6.199031486175954e-05	0.13675275444984436	15
+76	seinfeld_transcript	transcript	gpt2	" love the airport."" ""We're all out here, moving around, seeing"	 the	world	2.07621693611145	5.025666236877441	0.00027280146605335176	0.23098671436309814	15
+77	seinfeld_transcript	transcript	gpt2	" the airport."" ""We're all out here, moving around, seeing the"	 world	,	1.320243239402771	2.504948139190674	5.7288627431262285e-05	0.29982009530067444	15
+78	seinfeld_transcript	transcript	gpt2	" airport."" ""We're all out here, moving around, seeing the world"	"."""	"
+"	2.741121292114258	3.6516807079315186	1.5942910977173597e-05	0.38576868176460266	15
+79	seinfeld_transcript	transcript	gpt2	"."" ""We're all out here, moving around, seeing the world."""	 George	said	8.38332748413086	6.4294281005859375	0.0009129089885391295	0.0640125572681427	15
+80	seinfeld_transcript	transcript	gpt2	" ""We're all out here, moving around, seeing the world."" George"	 just	smiled	7.931923866271973	5.57636022567749	0.0003901726158801466	0.04963315650820732	15
+81	seinfeld_transcript	transcript	gpt2	"We're all out here, moving around, seeing the world."" George just"	 looked	at	2.9272937774658203	2.93774151802063	2.4477865736116655e-05	0.4921528100967407	15
+82	seinfeld_transcript	transcript	gpt2	"'re all out here, moving around, seeing the world."" George just looked"	 at	her	0.6856725215911865	3.6167805194854736	4.1486746340524405e-05	0.23890134692192078	15
+83	seinfeld_transcript	transcript	gpt2	" all out here, moving around, seeing the world."" George just looked at"	 him	.	1.5380430221557617	3.3890721797943115	2.1703457605326548e-05	0.25226494669914246	15
+84	seinfeld_transcript	transcript	gpt2	" out here, moving around, seeing the world."" George just looked at him"	 like	he	3.7333054542541504	2.029524803161621	3.241468220949173e-05	0.5795905590057373	15
+85	seinfeld_transcript	transcript	gpt2	" here, moving around, seeing the world."" George just looked at him like"	 he	was	0.5704294443130493	2.180879592895508	1.1299380275886506e-05	0.5920237898826599	15
+86	seinfeld_transcript	transcript	gpt2	", moving around, seeing the world."" George just looked at him like he"	 had	a	2.7004199028015137	4.428792476654053	0.0014584417222067714	0.17077746987342834	15
+87	seinfeld_transcript	transcript	gpt2	" moving around, seeing the world."" George just looked at him like he had"	 gone	to	5.317794322967529	3.757572889328003	3.8872014556545764e-05	0.17523430287837982	15
+88	seinfeld_transcript	transcript	gpt2	" around, seeing the world."" George just looked at him like he had gone"	 insane	.	2.844437599182129	1.8202515840530396	1.3187867807573639e-05	0.6148990392684937	15
+89	seinfeld_transcript	transcript	gpt2	", seeing the world."" George just looked at him like he had gone insane"	.	""""	0.5024113059043884	3.201298236846924	2.3592116122017615e-05	0.3287915885448456	15
+90	seinfeld_transcript	transcript	gpt2	" seeing the world."" George just looked at him like he had gone insane."	 They	were	5.584064960479736	4.364351749420166	6.025965859635107e-08	0.16344496607780457	15
+91	seinfeld_transcript	transcript	gpt2	" the world."" George just looked at him like he had gone insane. They"	 rolled	their	7.350341796875	3.0344552993774414	2.718435825954657e-05	0.3462829291820526	15
+92	seinfeld_transcript	transcript	gpt2	" world."" George just looked at him like he had gone insane. They rolled"	 up	their	2.3911938667297363	1.9617031812667847	0.00033501695725135505	0.6549297571182251	15
+93	seinfeld_transcript	transcript	gpt2	"."" George just looked at him like he had gone insane. They rolled up"	 to	the	2.8665361404418945	3.6425304412841797	0.0001758238358888775	0.3524279296398163	15
+94	seinfeld_transcript	transcript	gpt2	 George just looked at him like he had gone insane. They rolled up to	 the	door	1.2874789237976074	6.420004844665527	0.00029025535332039	0.056407272815704346	15
+95	seinfeld_transcript	transcript	gpt2	 just looked at him like he had gone insane. They rolled up to the	 end	of	6.203627109527588	1.274889588356018	0.00021160091273486614	0.8037519454956055	15
+96	seinfeld_transcript	transcript	gpt2	 looked at him like he had gone insane. They rolled up to the end	 of	the	0.21883569657802582	1.0209484100341797	6.414794825104764e-06	0.8502525091171265	15
+97	seinfeld_transcript	transcript	gpt2	 at him like he had gone insane. They rolled up to the end of	 the	room	0.17727267742156982	5.9095258712768555	0.00026545400032773614	0.0663149505853653	15
+98	seinfeld_transcript	transcript	gpt2	 him like he had gone insane. They rolled up to the end of the	 security	fence	8.592388153076172	5.334739685058594	0.0006747317966073751	0.0616270937025547	15
+99	seinfeld_transcript	transcript	gpt2	 like he had gone insane. They rolled up to the end of the security	 line	and	2.8066327571868896	2.5308725833892822	6.761233817087486e-05	0.40488001704216003	15
+100	seinfeld_transcript	transcript	gpt2	 he had gone insane. They rolled up to the end of the security line	,	and	1.5314993858337402	5.491935729980469	3.963502967962995e-05	0.21472594141960144	15
+101	seinfeld_transcript	transcript	gpt2	 had gone insane. They rolled up to the end of the security line,	 and	the	1.7244834899902344	6.287966251373291	0.000769598875194788	0.0558009147644043	15
+102	seinfeld_transcript	transcript	gpt2	 gone insane. They rolled up to the end of the security line, and	 Jerry	was	9.89967155456543	6.281745910644531	0.00015419947158079594	0.05180533230304718	15
+103	seinfeld_transcript	transcript	gpt2	 insane. They rolled up to the end of the security line, and Jerry	 pointed	to	5.8108720779418945	2.73056697845459	0.0002260121691506356	0.31898051500320435	15
+104	seinfeld_transcript	transcript	gpt2	. They rolled up to the end of the security line, and Jerry pointed	 to	the	0.949123740196228	3.21086049079895	0.00012339335808064789	0.378818154335022	15
+105	seinfeld_transcript	transcript	gpt2	 They rolled up to the end of the security line, and Jerry pointed to	 the	door	0.988611102104187	7.484966278076172	0.0004442285862751305	0.02323148213326931	15
+106	seinfeld_transcript	transcript	gpt2	 rolled up to the end of the security line, and Jerry pointed to the	 security	guard	5.241152286529541	5.877342224121094	0.0006298026419244707	0.07544489949941635	15
+107	seinfeld_transcript	transcript	gpt2	 up to the end of the security line, and Jerry pointed to the security	 guards	.	3.4467873573303223	3.7705137729644775	6.964947533560917e-05	0.20288068056106567	15
+108	seinfeld_transcript	transcript	gpt2	 to the end of the security line, and Jerry pointed to the security guards	 checking	the	7.565317153930664	3.520172595977783	1.3497137842932716e-05	0.32017162442207336	15
+109	seinfeld_transcript	transcript	gpt2	 the end of the security line, and Jerry pointed to the security guards checking	 boarding	passes	11.251517295837402	2.8911638259887695	0.00038313353434205055	0.56056809425354	15
+110	seinfeld_transcript	transcript	gpt2	 end of the security line, and Jerry pointed to the security guards checking boarding	 passes	.	0.536101758480072	2.724073648452759	6.2103081290842965e-06	0.33895158767700195	15
+111	seinfeld_transcript	transcript	gpt2	 of the security line, and Jerry pointed to the security guards checking boarding passes	.	"
+"	1.0898973941802979	3.4436776638031006	1.751255513227079e-05	0.3622666001319885	15
+112	seinfeld_transcript	transcript	gpt2	 the security line, and Jerry pointed to the security guards checking boarding passes.	" """	They	1.6870226860046387	4.666080474853516	4.182894826953998e-06	0.09396448731422424	15
+113	seinfeld_transcript	transcript	gpt2	" security line, and Jerry pointed to the security guards checking boarding passes. """	Check	ing	7.151862144470215	3.686910629272461	2.991132078022929e-06	0.31872719526290894	15
+114	seinfeld_transcript	transcript	gpt2	" line, and Jerry pointed to the security guards checking boarding passes. ""Check"	 out	the	2.85213565826416	3.4579546451568604	0.00024469546042382717	0.2973485291004181	15
+115	seinfeld_transcript	transcript	gpt2	", and Jerry pointed to the security guards checking boarding passes. ""Check out"	 these	guys	2.979665756225586	5.870148658752441	0.0002748339611571282	0.15837472677230835	15
+116	seinfeld_transcript	transcript	gpt2	" and Jerry pointed to the security guards checking boarding passes. ""Check out these"	 high	-	7.334280014038086	2.877807140350342	0.00010599383676890284	0.513367772102356	15
+117	seinfeld_transcript	transcript	gpt2	" Jerry pointed to the security guards checking boarding passes. ""Check out these high"	 caliber	guns	7.264088153839111	5.142651557922363	0.0005588538479059935	0.12135744094848633	15
+118	seinfeld_transcript	transcript	gpt2	" pointed to the security guards checking boarding passes. ""Check out these high caliber"	 individuals	","""	9.156054496765137	3.9187662601470947	3.5217124150221935e-06	0.15254414081573486	15
+119	seinfeld_transcript	transcript	gpt2	" to the security guards checking boarding passes. ""Check out these high caliber individuals"	 they	are	6.293264389038086	4.5375776290893555	4.3038253352278844e-05	0.15758687257766724	15
+120	seinfeld_transcript	transcript	gpt2	" the security guards checking boarding passes. ""Check out these high caliber individuals they"	 have	in	2.454349994659424	5.58079719543457	0.00010283219307893887	0.08430828899145126	15
+121	seinfeld_transcript	transcript	gpt2	" security guards checking boarding passes. ""Check out these high caliber individuals they have"	 working	for	5.1615681648254395	3.460444927215576	0.00013432666310109198	0.17470605671405792	15
+122	seinfeld_transcript	transcript	gpt2	" guards checking boarding passes. ""Check out these high caliber individuals they have working"	 at	the	2.7420339584350586	5.528579235076904	0.00019131391309201717	0.2793082594871521	15
+123	seinfeld_transcript	transcript	gpt2	" checking boarding passes. ""Check out these high caliber individuals they have working at"	 X	-	8.087604522705078	6.356122970581055	0.0003504703054204583	0.1377861499786377	15
+124	seinfeld_transcript	transcript	gpt2	" boarding passes. ""Check out these high caliber individuals they have working at X"	-	ray	1.8809442520141602	5.691195487976074	0.00018362664559390396	0.061732035130262375	15
+125	seinfeld_transcript	transcript	gpt2	" passes. ""Check out these high caliber individuals they have working at X-"	ray	machines	2.9512150287628174	3.9719934463500977	1.3207873053033836e-05	0.3402192294597626	15
+126	seinfeld_transcript	transcript	gpt2	". ""Check out these high caliber individuals they have working at X-ray"	 security	.	9.495184898376465	4.3538737297058105	0.0002891241747420281	0.09389044344425201	15
+127	seinfeld_transcript	transcript	gpt2	" ""Check out these high caliber individuals they have working at X-ray security"	"."""	"
+"	2.4965944290161133	2.9140186309814453	5.553582013817504e-05	0.6127133369445801	15
+128	seinfeld_transcript	transcript	gpt2	"Check out these high caliber individuals they have working at X-ray security."""	" """	I	5.269920825958252	5.923914432525635	0.000981640536338091	0.06884877383708954	15
+129	seinfeld_transcript	transcript	gpt2	" out these high caliber individuals they have working at X-ray security."" """	How	do	5.108365058898926	3.8872299194335938	5.672976044479583e-07	0.16280204057693481	15
+130	seinfeld_transcript	transcript	gpt2	" these high caliber individuals they have working at X-ray security."" ""How"	 '	b	7.480026721954346	5.319343566894531	7.789851952111349e-05	0.26233914494514465	15
+131	seinfeld_transcript	transcript	gpt2	" high caliber individuals they have working at X-ray security."" ""How '"	b	out	1.0178545713424683	0.23355576395988464	2.889165671149385e-07	0.9745433330535889	15
+132	seinfeld_transcript	transcript	gpt2	" caliber individuals they have working at X-ray security."" ""How 'b"	out	that	0.0299065038561821	4.543079376220703	5.584361588262254e-06	0.24296489357948303	15
+133	seinfeld_transcript	transcript	gpt2	" individuals they have working at X-ray security."" ""How 'bout"	 this	"?"""	2.7140557765960693	5.432884216308594	0.0002662450133357197	0.2843340039253235	15
+134	seinfeld_transcript	transcript	gpt2	" they have working at X-ray security."" ""How 'bout this"	 crack	er	9.229448318481445	4.24867057800293	0.0008320445194840431	0.27241578698158264	15
+135	seinfeld_transcript	transcript	gpt2	" have working at X-ray security."" ""How 'bout this crack"	 squad	"?"""	7.952789783477783	4.0611066818237305	0.0014775425661355257	0.4249334931373596	15
+136	seinfeld_transcript	transcript	gpt2	" working at X-ray security."" ""How 'bout this crack squad"	 of	hackers	3.833540916442871	7.4105424880981445	0.00013685505837202072	0.02588549442589283	15
+137	seinfeld_transcript	transcript	gpt2	" at X-ray security."" ""How 'bout this crack squad of"	 savvy	,	10.062104225158691	6.948411464691162	0.00012068250362062827	0.054121699184179306	15
+138	seinfeld_transcript	transcript	gpt2	" X-ray security."" ""How 'bout this crack squad of savvy"	 motivated	criminals	13.043424606323242	6.281708240509033	1.4796220057178289e-05	0.08253468573093414	15
+139	seinfeld_transcript	transcript	gpt2	"-ray security."" ""How 'bout this crack squad of savvy motivated"	 personnel	"?"""	7.783330917358398	3.8347108364105225	9.925133781507611e-05	0.3489430248737335	15
+140	seinfeld_transcript	transcript	gpt2	"ray security."" ""How 'bout this crack squad of savvy motivated personnel"	"?"""	""""	1.1334946155548096	4.506853103637695	0.00018134599667973816	0.2424386441707611	15
+141	seinfeld_transcript	transcript	gpt2	" security."" ""How 'bout this crack squad of savvy motivated personnel?"""	" """	I	1.7921432256698608	5.440114974975586	1.2095974852854852e-05	0.06874814629554749	15
+142	seinfeld_transcript	transcript	gpt2	"."" ""How 'bout this crack squad of savvy motivated personnel?"" """	They	're	3.4483087062835693	4.494426250457764	8.02749937633962e-08	0.22271834313869476	15
+143	seinfeld_transcript	transcript	gpt2	" ""How 'bout this crack squad of savvy motivated personnel?"" ""They"	've	got	2.508664608001709	3.038775682449341	7.620757514814613e-06	0.4976728856563568	15
+144	seinfeld_transcript	transcript	gpt2	"How 'bout this crack squad of savvy motivated personnel?"" ""They've"	 chosen	to	8.607439994812012	4.157179355621338	5.004194827051833e-05	0.3322601020336151	15
+145	seinfeld_transcript	transcript	gpt2	" 'bout this crack squad of savvy motivated personnel?"" ""They've chosen"	 to	play	1.10161554813385	5.369162082672119	0.00015332104521803558	0.07832826673984528	15
+146	seinfeld_transcript	transcript	gpt2	"bout this crack squad of savvy motivated personnel?"" ""They've chosen to"	 stand	up	5.711141586303711	3.768568277359009	6.69119181111455e-05	0.2115222066640854	15
+147	seinfeld_transcript	transcript	gpt2	"out this crack squad of savvy motivated personnel?"" ""They've chosen to stand"	 in	the	2.549774169921875	3.3648388385772705	0.0010351355886086822	0.35094448924064636	15
+148	seinfeld_transcript	transcript	gpt2	" this crack squad of savvy motivated personnel?"" ""They've chosen to stand in"	 front	of	2.64158296585083	0.45953673124313354	1.9144867110298946e-05	0.941551148891449	15
+149	seinfeld_transcript	transcript	gpt2	" crack squad of savvy motivated personnel?"" ""They've chosen to stand in front"	 of	the	0.0550321489572525	4.302727222442627	0.00016808509826660156	0.29829081892967224	15
+150	seinfeld_transcript	transcript	gpt2	" squad of savvy motivated personnel?"" ""They've chosen to stand in front of"	 x	-	11.911726951599121	5.189517021179199	0.001983616966754198	0.172541081905365	15
+151	seinfeld_transcript	transcript	gpt2	" of savvy motivated personnel?"" ""They've chosen to stand in front of x"	-	ray	1.719628930091858	1.2345525026321411	1.923367199196946e-05	0.5347861647605896	15
+152	seinfeld_transcript	transcript	gpt2	" savvy motivated personnel?"" ""They've chosen to stand in front of x-"	rays	and	0.8550894260406494	3.2840330600738525	8.856254680722486e-07	0.2769753038883209	15
+153	seinfeld_transcript	transcript	gpt2	" motivated personnel?"" ""They've chosen to stand in front of x-rays"	 fourteen	times	13.088865280151367	1.0849114656448364	2.0454410787351662e-06	0.8299737572669983	15
+154	seinfeld_transcript	transcript	gpt2	" personnel?"" ""They've chosen to stand in front of x-rays fourteen"	 hours	a	4.114768981933594	1.6220030784606934	4.4865155359730124e-05	0.7053717970848083	15
+155	seinfeld_transcript	transcript	gpt2	"?"" ""They've chosen to stand in front of x-rays fourteen hours"	 a	day	0.49165481328964233	0.0867631733417511	6.061454769223928e-07	0.9870055913925171	15
+156	seinfeld_transcript	transcript	gpt2	" ""They've chosen to stand in front of x-rays fourteen hours a"	 day	,	0.01331567857414484	3.0777344703674316	0.0002630295348353684	0.20825880765914917	15
+157	seinfeld_transcript	transcript	gpt2	They've chosen to stand in front of x-rays fourteen hours a day	,	and	1.5403610467910767	4.94157600402832	3.815170202869922e-05	0.1232743114233017	15
+158	seinfeld_transcript	transcript	gpt2	've chosen to stand in front of x-rays fourteen hours a day,	 as	I	5.2370710372924805	4.870578289031982	0.0003235131152905524	0.08616681396961212	15
+159	seinfeld_transcript	transcript	gpt2	 chosen to stand in front of x-rays fourteen hours a day, as	 a	doctor	2.7821547985076904	7.219915866851807	0.00016072079597506672	0.022184716537594795	15
+160	seinfeld_transcript	transcript	gpt2	 to stand in front of x-rays fourteen hours a day, as a	 profession	.	7.748077392578125	2.714423418045044	2.1943802494206466e-05	0.32895904779434204	15
+161	seinfeld_transcript	transcript	gpt2	 stand in front of x-rays fourteen hours a day, as a profession	"."""	"
+"	4.041439533233643	4.045310020446777	2.1571890101768076e-05	0.45149174332618713	15
+162	seinfeld_transcript	transcript	gpt2	" in front of x-rays fourteen hours a day, as a profession."""	 They	were	5.414205551147461	5.706284523010254	2.6920798745777574e-07	0.0913870632648468	15
+163	seinfeld_transcript	transcript	gpt2	" front of x-rays fourteen hours a day, as a profession."" They"	 put	their	5.593542098999023	4.941553115844727	0.00015442848962265998	0.08594827353954315	15
+164	seinfeld_transcript	transcript	gpt2	" of x-rays fourteen hours a day, as a profession."" They put"	 their	hands	2.538306951522827	6.089411735534668	8.062573033384979e-05	0.15771029889583588	15
+165	seinfeld_transcript	transcript	gpt2	" x-rays fourteen hours a day, as a profession."" They put their"	 bags	in	7.223214626312256	2.977672576904297	5.44324102520477e-05	0.2118007242679596	15
+166	seinfeld_transcript	transcript	gpt2	"-rays fourteen hours a day, as a profession."" They put their bags"	 on	the	1.7021812200546265	2.902745008468628	0.00017640096484683454	0.5544111728668213	15
+167	seinfeld_transcript	transcript	gpt2	"rays fourteen hours a day, as a profession."" They put their bags on"	 the	floor	0.5971617698669434	4.185126781463623	0.0001353379775537178	0.23881877958774567	15
+168	seinfeld_transcript	transcript	gpt2	" fourteen hours a day, as a profession."" They put their bags on the"	 convey	or	6.277003765106201	0.8619673848152161	6.732719612045912e-06	0.7788006067276001	15
+169	seinfeld_transcript	transcript	gpt2	" hours a day, as a profession."" They put their bags on the convey"	or	belt	0.16082881391048431	0.6672126650810242	2.6105195161107986e-07	0.8628895878791809	15
+170	seinfeld_transcript	transcript	gpt2	" a day, as a profession."" They put their bags on the conveyor"	 belt	and	0.12157200276851654	2.6441986560821533	0.0006227140547707677	0.36634764075279236	15
+171	seinfeld_transcript	transcript	gpt2	" day, as a profession."" They put their bags on the conveyor belt"	 and	headed	0.9801401495933533	5.779257774353027	0.0005867179716005921	0.059245821088552475	15
+172	seinfeld_transcript	transcript	gpt2	", as a profession."" They put their bags on the conveyor belt and"	 stepped	out	4.829992294311523	3.0081679821014404	1.0782150638988242e-06	0.27138569951057434	15
+173	seinfeld_transcript	transcript	gpt2	" as a profession."" They put their bags on the conveyor belt and stepped"	 through	the	3.8194780349731445	2.6551108360290527	0.0020297153387218714	0.5307941436767578	15
+174	seinfeld_transcript	transcript	gpt2	" a profession."" They put their bags on the conveyor belt and stepped through"	 the	door	0.6564722657203674	5.733555316925049	0.00034316960955038667	0.16881754994392395	15
+175	seinfeld_transcript	transcript	gpt2	" profession."" They put their bags on the conveyor belt and stepped through the"	 scanners	.	10.656206130981445	2.621821641921997	1.6892250641831197e-05	0.4009777307510376	15
+176	seinfeld_transcript	transcript	gpt2	"."" They put their bags on the conveyor belt and stepped through the scanners"	.	"
+"	0.9404487013816833	3.9779107570648193	9.762314221006818e-06	0.31053996086120605	15
+177	seinfeld_transcript	transcript	gpt2	 They put their bags on the conveyor belt and stepped through the scanners.	 As	they	4.3368377685546875	3.322610855102539	6.378164835041389e-05	0.4021991491317749	15
+178	seinfeld_transcript	transcript	gpt2	 put their bags on the conveyor belt and stepped through the scanners. As	 they	approached	1.1397151947021484	4.47492790222168	4.270859426469542e-05	0.08471659570932388	15
+179	seinfeld_transcript	transcript	gpt2	 their bags on the conveyor belt and stepped through the scanners. As they	 retrieved	their	9.434100151062012	2.801050901412964	7.175545306381537e-06	0.36267706751823425	15
+180	seinfeld_transcript	transcript	gpt2	 bags on the conveyor belt and stepped through the scanners. As they retrieved	 their	bags	1.8063970804214478	5.526533603668213	5.469514144351706e-05	0.12521915137767792	15
+181	seinfeld_transcript	transcript	gpt2	 on the conveyor belt and stepped through the scanners. As they retrieved their	 shoes	,	7.645787715911865	1.647873044013977	2.614243385323789e-05	0.624687910079956	15
+182	seinfeld_transcript	transcript	gpt2	 the conveyor belt and stepped through the scanners. As they retrieved their shoes	,	they	0.47224533557891846	5.868599891662598	8.393625466851518e-05	0.15701912343502045	15
+183	seinfeld_transcript	transcript	gpt2	 conveyor belt and stepped through the scanners. As they retrieved their shoes,	 Jerry	and	9.36394214630127	6.31966495513916	4.514299871516414e-05	0.0433337464928627	15
+184	seinfeld_transcript	transcript	gpt2	or belt and stepped through the scanners. As they retrieved their shoes, Jerry	 pe	ered	8.08915901184082	0.29299286007881165	5.187976270804029e-08	0.9535086750984192	15
+185	seinfeld_transcript	transcript	gpt2	 belt and stepped through the scanners. As they retrieved their shoes, Jerry pe	ered	over	0.05059400200843811	2.962592363357544	9.097288256043612e-08	0.19197550415992737	15
+186	seinfeld_transcript	transcript	gpt2	 and stepped through the scanners. As they retrieved their shoes, Jerry peered	 over	the	1.690524935722351	2.65334415435791	0.0005048696766607463	0.24360354244709015	15
+187	seinfeld_transcript	transcript	gpt2	 stepped through the scanners. As they retrieved their shoes, Jerry peered over	 at	the	1.775949478149414	4.679077625274658	8.408503344981e-05	0.27626365423202515	15
+188	seinfeld_transcript	transcript	gpt2	 through the scanners. As they retrieved their shoes, Jerry peered over at	 the	two	1.2869627475738525	7.750813007354736	0.00042260874761268497	0.022726332768797874	15
+189	seinfeld_transcript	transcript	gpt2	 the scanners. As they retrieved their shoes, Jerry peered over at the	 X	-	8.155152320861816	2.236323833465576	0.00014228500367607921	0.7499109506607056	15
+190	seinfeld_transcript	transcript	gpt2	 scanners. As they retrieved their shoes, Jerry peered over at the X	-	ray	0.3622583746910095	3.0661609172821045	6.102350016590208e-05	0.43388596177101135	15
+191	seinfeld_transcript	transcript	gpt2	. As they retrieved their shoes, Jerry peered over at the X-	ray	machine	1.1277730464935303	4.466374397277832	2.2240751604840625e-06	0.33284783363342285	15
+192	seinfeld_transcript	transcript	gpt2	 As they retrieved their shoes, Jerry peered over at the X-ray	 TV	.	8.877382278442383	3.3957889080047607	0.00016548432176932693	0.2985391616821289	15
+193	seinfeld_transcript	transcript	gpt2	 they retrieved their shoes, Jerry peered over at the X-ray TV	 screen	.	3.0259435176849365	2.171414613723755	3.706376810441725e-05	0.4181850552558899	15
+194	seinfeld_transcript	transcript	gpt2	 retrieved their shoes, Jerry peered over at the X-ray TV screen	.	"
+"	0.9884105920791626	3.711848735809326	1.0396440302429255e-05	0.23795922100543976	15
+195	seinfeld_transcript	transcript	gpt2	 their shoes, Jerry peered over at the X-ray TV screen.	" """	I	1.4400545358657837	5.127601146697998	5.1286797315697186e-06	0.09219016879796982	15
+196	seinfeld_transcript	transcript	gpt2	" shoes, Jerry peered over at the X-ray TV screen. """	What	's	3.1416890621185303	3.64255428314209	1.0677476893761195e-06	0.22463390231132507	15
+197	seinfeld_transcript	transcript	gpt2	", Jerry peered over at the X-ray TV screen. ""What"	 do	you	2.4521241188049316	1.042110800743103	6.861345173092559e-05	0.7871472835540771	15
+198	seinfeld_transcript	transcript	gpt2	" Jerry peered over at the X-ray TV screen. ""What do"	 you	think	0.21022477746009827	2.3641068935394287	0.00019884751236531883	0.42605462670326233	15
+199	seinfeld_transcript	transcript	gpt2	" peered over at the X-ray TV screen. ""What do you"	 think	"?"""	0.8187208771705627	2.6722095012664795	7.9424726209254e-06	0.4370144307613373	15
+200	seinfeld_transcript	transcript	gpt2	"ered over at the X-ray TV screen. ""What do you think"	 they	're	4.265587329864502	3.145559549331665	3.8205369492061436e-05	0.35179322957992554	15
+201	seinfeld_transcript	transcript	gpt2	" over at the X-ray TV screen. ""What do you think they"	're	doing	1.1441518068313599	2.861783504486084	4.248200184520101e-06	0.41317781805992126	15
+202	seinfeld_transcript	transcript	gpt2	" at the X-ray TV screen. ""What do you think they're"	 looking	for	3.265310764312744	0.9162752628326416	2.2045123841962777e-05	0.5371025800704956	15
+203	seinfeld_transcript	transcript	gpt2	" the X-ray TV screen. ""What do you think they're looking"	 for	"?"""	0.5352153778076172	1.3933303356170654	0.0013992175227031112	0.7259277105331421	15
+204	seinfeld_transcript	transcript	gpt2	" X-ray TV screen. ""What do you think they're looking for"	 on	that	5.433195114135742	3.7122623920440674	8.629194053355604e-05	0.24163295328617096	15
+205	seinfeld_transcript	transcript	gpt2	"-ray TV screen. ""What do you think they're looking for on"	 that	"?"""	1.5113499164581299	5.715758800506592	0.00032646037288941443	0.1904570758342743	15
+206	seinfeld_transcript	transcript	gpt2	"ray TV screen. ""What do you think they're looking for on that"	 thing	"?"""	5.330577373504639	1.3496201038360596	6.553058483405039e-05	0.7426933646202087	15
+207	seinfeld_transcript	transcript	gpt2	" TV screen. ""What do you think they're looking for on that thing"	"?"""	"
+"	0.3646296560764313	4.277282238006592	2.1125599232618697e-05	0.31445789337158203	15
+208	seinfeld_transcript	transcript	gpt2	" screen. ""What do you think they're looking for on that thing?"""	" """	I	3.0324716567993164	4.842061996459961	6.332184511848027e-06	0.15267881751060486	15
+209	seinfeld_transcript	transcript	gpt2	". ""What do you think they're looking for on that thing?"" """	I	don	1.8832957744598389	3.024620532989502	1.0972509016937693e-06	0.2865177094936371	15
+210	seinfeld_transcript	transcript	gpt2	" ""What do you think they're looking for on that thing?"" ""I"	 can	't	3.464327096939087	2.2244765758514404	2.3015367332845926e-05	0.5663003921508789	15
+211	seinfeld_transcript	transcript	gpt2	"What do you think they're looking for on that thing?"" ""I can"	't	tell	0.5504710078239441	3.665708303451538	0.00030649235122837126	0.22618423402309418	15
+212	seinfeld_transcript	transcript	gpt2	" do you think they're looking for on that thing?"" ""I can't"	 make	that	4.881725788116455	3.3970887660980225	3.584240039344877e-05	0.17031191289424896	15
+213	seinfeld_transcript	transcript	gpt2	" you think they're looking for on that thing?"" ""I can't make"	 out	what	2.7036685943603516	3.6287004947662354	0.00020131208293605596	0.23034225404262543	15
+214	seinfeld_transcript	transcript	gpt2	" think they're looking for on that thing?"" ""I can't make out"	 one	way	6.990413188934326	3.262463331222534	0.0006429897039197385	0.2641638517379761	15
+215	seinfeld_transcript	transcript	gpt2	" they're looking for on that thing?"" ""I can't make out one"	 object	,	10.05121898651123	3.9919474124908447	0.00019254896324127913	0.13841263949871063	15
+216	seinfeld_transcript	transcript	gpt2	"'re looking for on that thing?"" ""I can't make out one object"	"."""	""""	2.980738639831543	4.115298271179199	4.166490907664411e-05	0.42554402351379395	15
+217	seinfeld_transcript	transcript	gpt2	" looking for on that thing?"" ""I can't make out one object."""	" """	I	0.8927717208862305	4.558202266693115	2.359383188377251e-06	0.11546877771615982	15
+218	seinfeld_transcript	transcript	gpt2	" for on that thing?"" ""I can't make out one object."" """	What	do	3.0460968017578125	3.803114652633667	1.918521547850105e-06	0.13773316144943237	15
+219	seinfeld_transcript	transcript	gpt2	" on that thing?"" ""I can't make out one object."" ""What"	's	that	2.2258152961730957	3.3037710189819336	2.3136921299737878e-05	0.27178940176963806	15
+220	seinfeld_transcript	transcript	gpt2	" that thing?"" ""I can't make out one object."" ""What's"	 that	"?"""	1.3312405347824097	2.350743055343628	0.0014128094771876931	0.5941262245178223	15
+221	seinfeld_transcript	transcript	gpt2	" thing?"" ""I can't make out one object."" ""What's that"	"?"""	""""	0.4644187092781067	2.6811463832855225	0.00010228579048998654	0.6643790006637573	15
+222	seinfeld_transcript	transcript	gpt2	"?"" ""I can't make out one object."" ""What's that?"""	" """	A	0.43241655826568604	4.60445499420166	2.6190282369498163e-06	0.11810454726219177	15
+223	seinfeld_transcript	transcript	gpt2	" ""I can't make out one object."" ""What's that?"" """	A	piece	2.7735395431518555	7.4687724113464355	6.802011398576724e-07	0.014333028346300125	15
+224	seinfeld_transcript	transcript	gpt2	"I can't make out one object."" ""What's that?"" ""A"	 ha	zy	7.90436315536499	3.597240924835205	0.006272641010582447	0.17706993222236633	15
+225	seinfeld_transcript	transcript	gpt2	" can't make out one object."" ""What's that?"" ""A ha"	ird	ry	1.9878201484680176	1.0511271953582764	5.41070176041103e-06	0.510580837726593	15
+226	seinfeld_transcript	transcript	gpt2	"'t make out one object."" ""What's that?"" ""A haird"	ry	er	0.6030673384666443	0.0029647371266037226	1.812054506444838e-08	0.9997768998146057	15
+227	seinfeld_transcript	transcript	gpt2	" make out one object."" ""What's that?"" ""A hairdry"	er	"."""	0.00021646064124070108	3.4679338932037354	5.087622866994934e-06	0.3232060670852661	15
+228	seinfeld_transcript	transcript	gpt2	" out one object."" ""What's that?"" ""A hairdryer"	 with	a	4.644168853759766	4.642187118530273	3.325379657326266e-05	0.4108215570449829	15
+229	seinfeld_transcript	transcript	gpt2	" one object."" ""What's that?"" ""A hairdryer with"	 a	hat	0.8958585262298584	7.362642765045166	0.0001837495219660923	0.02453380450606346	15
+230	seinfeld_transcript	transcript	gpt2	" object."" ""What's that?"" ""A hairdryer with a"	 scope	"."""	7.987104415893555	3.2994580268859863	0.0015154414577409625	0.2984370291233063	15
+231	seinfeld_transcript	transcript	gpt2	"."" ""What's that?"" ""A hairdryer with a scope"	 on	it	3.8184852600097656	2.7637200355529785	0.00012464482279028744	0.20928408205509186	15
+232	seinfeld_transcript	transcript	gpt2	" ""What's that?"" ""A hairdryer with a scope on"	 it	"?"""	1.1186304092407227	2.7488255500793457	0.0001404376671416685	0.24733798205852509	15
+233	seinfeld_transcript	transcript	gpt2	"What's that?"" ""A hairdryer with a scope on it"	"?"""	""""	1.5387892723083496	3.8453080654144287	0.00010720758291427046	0.4524199068546295	15
+234	seinfeld_transcript	transcript	gpt2	"'s that?"" ""A hairdryer with a scope on it?"""	" """	I	0.6873551607131958	4.761810302734375	3.349489134052419e-06	0.07289005815982819	15
+235	seinfeld_transcript	transcript	gpt2	" that?"" ""A hairdryer with a scope on it?"" """	Look	,	6.902462482452393	2.4627020359039307	1.1372119956831739e-07	0.459839791059494	15
+236	seinfeld_transcript	transcript	gpt2	"?"" ""A hairdryer with a scope on it?"" ""Look"	,	I	0.8142260909080505	4.516623020172119	0.00017397708143107593	0.28904464840888977	15
+237	seinfeld_transcript	transcript	gpt2	" ""A hairdryer with a scope on it?"" ""Look,"	 there	's	3.689257860183716	1.5563961267471313	0.000266115996055305	0.6737648844718933	15
+238	seinfeld_transcript	transcript	gpt2	"A hairdryer with a scope on it?"" ""Look, there"	's	a	0.4068949818611145	3.629258871078491	2.8863654733868316e-05	0.26930227875709534	15
+239	seinfeld_transcript	transcript	gpt2	" hairdryer with a scope on it?"" ""Look, there's"	 some	kind	3.9855995178222656	7.091211318969727	0.0002629979280754924	0.03038729541003704	15
+240	seinfeld_transcript	transcript	gpt2	"irdryer with a scope on it?"" ""Look, there's some"	 sort	of	3.6993563175201416	0.0748336985707283	3.759021410587593e-06	0.9932898879051208	15
+241	seinfeld_transcript	transcript	gpt2	"ryer with a scope on it?"" ""Look, there's some sort"	 of	thing	0.007093483582139015	8.006596565246582	6.839185516582802e-05	0.033647507429122925	15
+242	seinfeld_transcript	transcript	gpt2	"er with a scope on it?"" ""Look, there's some sort of"	 bowling	alley	12.179750442504883	5.455270290374756	0.0006433529779314995	0.162674680352211	15
+243	seinfeld_transcript	transcript	gpt2	" with a scope on it?"" ""Look, there's some sort of bowling"	 ball	in	1.951613426208496	4.472614288330078	0.0006720426608808339	0.1222841814160347	15
+244	seinfeld_transcript	transcript	gpt2	" a scope on it?"" ""Look, there's some sort of bowling ball"	 candle	that	14.54991626739502	4.5823893547058105	0.0005342579679563642	0.1331484317779541	15
+245	seinfeld_transcript	transcript	gpt2	" scope on it?"" ""Look, there's some sort of bowling ball candle"	"."""	""""	4.007392883300781	3.54499888420105	3.228741843486205e-05	0.5247397422790527	15
+246	seinfeld_transcript	transcript	gpt2	" on it?"" ""Look, there's some sort of bowling ball candle."""	" """	I	0.7054306864738464	4.759253025054932	2.614132654343848e-06	0.06723788380622864	15
+247	seinfeld_transcript	transcript	gpt2	" it?"" ""Look, there's some sort of bowling ball candle."" """	Would	you	6.425865173339844	1.924564242362976	6.651764294929308e-08	0.39504915475845337	15
+248	seinfeld_transcript	transcript	gpt2	"?"" ""Look, there's some sort of bowling ball candle."" ""Would"	 you	like	0.9390305280685425	2.5024125576019287	0.00025195450871251523	0.6155515313148499	15
+249	seinfeld_transcript	transcript	gpt2	" ""Look, there's some sort of bowling ball candle."" ""Would you"	 stop	"?"""	6.066935062408447	5.190073013305664	6.537454282806721e-06	0.05358489230275154	15
+250	seinfeld_transcript	transcript	gpt2	"Look, there's some sort of bowling ball candle."" ""Would you stop"	 it	"?"""	3.4582338333129883	1.9733586311340332	0.00013009447138756514	0.6322149038314819	15
+251	seinfeld_transcript	transcript	gpt2	", there's some sort of bowling ball candle."" ""Would you stop it"	"!"""	""""	5.665414810180664	5.4369049072265625	0.00018391007324680686	0.1518668383359909	15
+252	seinfeld_transcript	transcript	gpt2	" there's some sort of bowling ball candle."" ""Would you stop it!"""	 snapped	the	5.92208194732666	6.923549175262451	5.730928478442365e-06	0.1006978452205658	15
+253	seinfeld_transcript	transcript	gpt2	"'s some sort of bowling ball candle."" ""Would you stop it!"" snapped"	 George	.	6.268176078796387	3.3354992866516113	0.0007679926347918808	0.4485670328140259	15
+254	seinfeld_transcript	transcript	gpt2	" some sort of bowling ball candle."" ""Would you stop it!"" snapped George"	.	""""	0.8170753121376038	2.519631862640381	1.3581407984020188e-05	0.6251882314682007	15
+255	seinfeld_transcript	transcript	gpt2	" sort of bowling ball candle."" ""Would you stop it!"" snapped George."	" """	I	0.49838948249816895	4.7734503746032715	8.649181495457015e-07	0.1296473890542984	15
+256	seinfeld_transcript	transcript	gpt2	" of bowling ball candle."" ""Would you stop it!"" snapped George. """	Let	's	4.923911094665527	1.9784913063049316	5.171910899548493e-08	0.4850632846355438	15
+257	seinfeld_transcript	transcript	gpt2	" bowling ball candle."" ""Would you stop it!"" snapped George. ""Let"	's	go	0.7116769552230835	3.9023563861846924	8.178881216736045e-06	0.23479028046131134	15
+258	seinfeld_transcript	transcript	gpt2	" ball candle."" ""Would you stop it!"" snapped George. ""Let's"	 turn	it	5.754602432250977	2.728224992752075	8.288816025014967e-05	0.23574784398078918	15
+259	seinfeld_transcript	transcript	gpt2	" candle."" ""Would you stop it!"" snapped George. ""Let's turn"	 off	the	2.3071541786193848	1.610482931137085	0.00024377930094487965	0.7609957456588745	15
+260	seinfeld_transcript	transcript	gpt2	"."" ""Would you stop it!"" snapped George. ""Let's turn off"	 the	lights	0.2934023141860962	5.603199481964111	0.0002948393812403083	0.23873305320739746	15
+261	seinfeld_transcript	transcript	gpt2	" ""Would you stop it!"" snapped George. ""Let's turn off the"	 comedy	"!"""	11.069403648376465	4.357867240905762	3.075569838983938e-05	0.18128862977027893	15
+262	seinfeld_transcript	transcript	gpt2	"Would you stop it!"" snapped George. ""Let's turn off the comedy"	 routine	and	7.305837631225586	3.1932718753814697	2.560630855441559e-05	0.19635623693466187	15
+263	seinfeld_transcript	transcript	gpt2	" you stop it!"" snapped George. ""Let's turn off the comedy routine"	 for	a	3.6014461517333984	2.079658031463623	0.00017965635925065726	0.6140088438987732	15
+264	seinfeld_transcript	transcript	gpt2	" stop it!"" snapped George. ""Let's turn off the comedy routine for"	 a	minute	0.5734971761703491	2.112938404083252	5.489202885655686e-05	0.25795629620552063	15
+265	seinfeld_transcript	transcript	gpt2	" it!"" snapped George. ""Let's turn off the comedy routine for a"	 minute	"."""	1.3701692819595337	2.607292890548706	1.26261238619918e-05	0.1870756596326828	15
+266	seinfeld_transcript	transcript	gpt2	"!"" snapped George. ""Let's turn off the comedy routine for a minute"	,	then	1.8935811519622803	4.068075656890869	1.8302229364053346e-05	0.32179367542266846	15
+267	seinfeld_transcript	transcript	gpt2	" snapped George. ""Let's turn off the comedy routine for a minute,"	 can	you	6.864103317260742	1.591606855392456	7.688196092203725e-06	0.3986418545246124	15
+268	seinfeld_transcript	transcript	gpt2	" George. ""Let's turn off the comedy routine for a minute, can"	 we	"?"""	1.2861294746398926	0.9953316450119019	0.0002245647192467004	0.7209035158157349	15
+269	seinfeld_transcript	transcript	gpt2	". ""Let's turn off the comedy routine for a minute, can we"	"?"""	"
+"	0.28179317712783813	3.0974111557006836	1.945560688909609e-05	0.5423579216003418	15
+270	seinfeld_transcript	transcript	gpt2	" ""Let's turn off the comedy routine for a minute, can we?"""	 They	're	5.900057792663574	5.595247745513916	1.3981019719722099e-07	0.08627227693796158	15
+271	seinfeld_transcript	transcript	gpt2	"Let's turn off the comedy routine for a minute, can we?"" They"	 walked	out	6.181164264678955	3.299152374267578	8.51077311381232e-06	0.12992562353610992	15
+272	seinfeld_transcript	transcript	gpt2	"'s turn off the comedy routine for a minute, can we?"" They walked"	 past	the	4.004464626312256	4.491195201873779	9.706470154924318e-05	0.19225531816482544	15
+273	seinfeld_transcript	transcript	gpt2	" turn off the comedy routine for a minute, can we?"" They walked past"	 the	stage	1.6832880973815918	7.6695709228515625	0.00042637542355805635	0.021387409418821335	15
+274	seinfeld_transcript	transcript	gpt2	" off the comedy routine for a minute, can we?"" They walked past the"	 gift	shop	9.042619705200195	1.416581392288208	3.153872239636257e-05	0.7916277647018433	15
+275	seinfeld_transcript	transcript	gpt2	" the comedy routine for a minute, can we?"" They walked past the gift"	 shops	,	3.9197654724121094	2.639033794403076	9.293463335779961e-06	0.33328500390052795	15
+276	seinfeld_transcript	transcript	gpt2	" comedy routine for a minute, can we?"" They walked past the gift shops"	,	and	1.0913082361221313	6.38476037979126	7.621990516781807e-05	0.08794347941875458	15
+277	seinfeld_transcript	transcript	gpt2	" routine for a minute, can we?"" They walked past the gift shops,"	 looking	for	4.339345932006836	4.040139675140381	0.00024373806081712246	0.22063404321670532	15
+278	seinfeld_transcript	transcript	gpt2	" for a minute, can we?"" They walked past the gift shops, looking"	 for	something	1.502869725227356	5.73993444442749	0.00012048223288729787	0.11668872833251953	15
+279	seinfeld_transcript	transcript	gpt2	" a minute, can we?"" They walked past the gift shops, looking for"	 some	kind	3.7735648155212402	6.8407793045043945	0.0005169383366592228	0.08903463184833527	15
+280	seinfeld_transcript	transcript	gpt2	" minute, can we?"" They walked past the gift shops, looking for some"	 snacks	.	5.810901641845703	2.4732627868652344	6.604592272196896e-06	0.3074182868003845	15
+281	seinfeld_transcript	transcript	gpt2	", can we?"" They walked past the gift shops, looking for some snacks"	 to	eat	3.3011727333068848	4.292236328125	7.112047751434147e-05	0.22884297370910645	15
+282	seinfeld_transcript	transcript	gpt2	" can we?"" They walked past the gift shops, looking for some snacks to"	 take	home	2.9086990356445312	1.1238830089569092	7.206348072941182e-06	0.7688157558441162	15
+283	seinfeld_transcript	transcript	gpt2	" we?"" They walked past the gift shops, looking for some snacks to take"	 on	the	6.708718776702881	3.1537322998046875	0.0009202085784636438	0.3553481996059418	15
+284	seinfeld_transcript	transcript	gpt2	"?"" They walked past the gift shops, looking for some snacks to take on"	 the	day	1.079563856124878	6.291590690612793	0.000370948517229408	0.08037560433149338	15
+285	seinfeld_transcript	transcript	gpt2	 They walked past the gift shops, looking for some snacks to take on the	 plane	.	7.503841400146484	2.3732874393463135	0.00016382223111577332	0.5245960354804993	15
+286	seinfeld_transcript	transcript	gpt2	 walked past the gift shops, looking for some snacks to take on the plane	.	"
+"	0.640785276889801	4.0009284019470215	1.122393223340623e-05	0.34906429052352905	15
+287	seinfeld_transcript	transcript	gpt2	 past the gift shops, looking for some snacks to take on the plane.	 George	and	8.86818790435791	6.336767673492432	0.0005660653696395457	0.05564996600151062	15
+288	seinfeld_transcript	transcript	gpt2	 the gift shops, looking for some snacks to take on the plane. George	 pe	ered	10.052326202392578	1.9140983819961548	1.226718154612172e-06	0.5660478472709656	15
+289	seinfeld_transcript	transcript	gpt2	 gift shops, looking for some snacks to take on the plane. George pe	ered	over	1.0008182525634766	2.8873486518859863	1.2488015954659204e-07	0.2378692328929901	15
+290	seinfeld_transcript	transcript	gpt2	 shops, looking for some snacks to take on the plane. George peered	 in	the	3.911316394805908	3.5965964794158936	0.002377541968598962	0.14198699593544006	15
+291	seinfeld_transcript	transcript	gpt2	, looking for some snacks to take on the plane. George peered in	 to	see	3.334301233291626	3.119926691055298	0.0002213773550465703	0.4487520456314087	15
+292	seinfeld_transcript	transcript	gpt2	 looking for some snacks to take on the plane. George peered in to	 look	at	4.7226762771606445	2.198446750640869	3.236471093259752e-05	0.6048842668533325	15
+293	seinfeld_transcript	transcript	gpt2	 for some snacks to take on the plane. George peered in to look	 at	the	0.44237619638442993	4.420716285705566	0.00012230857100803405	0.31463074684143066	15
+294	seinfeld_transcript	transcript	gpt2	 some snacks to take on the plane. George peered in to look at	 the	other	1.1421732902526855	7.67573881149292	0.0005430906894616783	0.015341750346124172	15
+295	seinfeld_transcript	transcript	gpt2	 snacks to take on the plane. George peered in to look at the	 price	tag	9.518959045410156	2.8994176387786865	0.0001273645757464692	0.30219969153404236	15
+296	seinfeld_transcript	transcript	gpt2	 to take on the plane. George peered in to look at the price	 tags	.	3.5044922828674316	2.945648193359375	1.498670462751761e-05	0.24659231305122375	15
+297	seinfeld_transcript	transcript	gpt2	 take on the plane. George peered in to look at the price tags	,	and	2.154083728790283	4.828153610229492	4.072318188264035e-05	0.25575903058052063	15
+298	seinfeld_transcript	transcript	gpt2	 on the plane. George peered in to look at the price tags,	 and	he	1.4319547414779663	5.361134052276611	0.0005970699712634087	0.10028081387281418	15
+299	seinfeld_transcript	transcript	gpt2	 the plane. George peered in to look at the price tags, and	 shook	his	7.518894195556641	0.5443657040596008	4.410386793551879e-07	0.9233251214027405	15
+300	seinfeld_transcript	transcript	gpt2	 plane. George peered in to look at the price tags, and shook	 his	head	0.08534663170576096	0.07545367628335953	8.335685492966149e-07	0.9926581978797913	15
+301	seinfeld_transcript	transcript	gpt2	. George peered in to look at the price tags, and shook his	 head	.	0.007251372095197439	2.44818377494812	6.793342618038878e-05	0.5693844556808472	15
+302	seinfeld_transcript	transcript	gpt2	 George peered in to look at the price tags, and shook his head	.	""""	0.6038748025894165	2.372114658355713	8.486850674671587e-06	0.47622478008270264	15
+303	seinfeld_transcript	transcript	gpt2	 peered in to look at the price tags, and shook his head.	" """	I	0.7688968777656555	4.377288818359375	6.100109999351844e-07	0.21613873541355133	15
+304	seinfeld_transcript	transcript	gpt2	"ered in to look at the price tags, and shook his head. """	Do	you	5.066853046417236	1.7277164459228516	2.797118270336796e-07	0.6014377474784851	15
+305	seinfeld_transcript	transcript	gpt2	" in to look at the price tags, and shook his head. ""Do"	 the	math	4.866326332092285	6.325711250305176	0.00040653767064213753	0.18881207704544067	15
+306	seinfeld_transcript	transcript	gpt2	" to look at the price tags, and shook his head. ""Do the"	 people	who	4.329931735992432	4.402774333953857	0.00018347406876273453	0.11627379059791565	15
+307	seinfeld_transcript	transcript	gpt2	" look at the price tags, and shook his head. ""Do the people"	 that	are	3.4233624935150146	5.182051658630371	0.00025380789884366095	0.07855807989835739	15
+308	seinfeld_transcript	transcript	gpt2	" at the price tags, and shook his head. ""Do the people that"	 work	here	3.5475945472717285	2.404473066329956	3.314481000415981e-05	0.2279054820537567	15
+309	seinfeld_transcript	transcript	gpt2	" the price tags, and shook his head. ""Do the people that work"	 in	the	2.055574893951416	4.694570541381836	0.00023706846695858985	0.30021053552627563	15
+310	seinfeld_transcript	transcript	gpt2	" price tags, and shook his head. ""Do the people that work in"	 these	factories	3.4908478260040283	5.5821332931518555	0.00010487599502084777	0.08389860391616821	15
+311	seinfeld_transcript	transcript	gpt2	" tags, and shook his head. ""Do the people that work in these"	 shops	have	4.736128807067871	4.753804683685303	1.4448046385950875e-06	0.12620653212070465	15
+312	seinfeld_transcript	transcript	gpt2	", and shook his head. ""Do the people that work in these shops"	 have	any	1.9987033605575562	3.9480626583099365	3.60562298737932e-05	0.290457546710968	15
+313	seinfeld_transcript	transcript	gpt2	" and shook his head. ""Do the people that work in these shops have"	 any	idea	1.2576942443847656	3.511469602584839	0.00021407385065685958	0.513296365737915	15
+314	seinfeld_transcript	transcript	gpt2	" shook his head. ""Do the people that work in these shops have any"	 idea	what	0.5881537199020386	2.244443893432617	3.5752368603425566e-06	0.419901579618454	15
+315	seinfeld_transcript	transcript	gpt2	" his head. ""Do the people that work in these shops have any idea"	 what	they	0.904278576374054	4.168215751647949	0.0014056756626814604	0.16606831550598145	15
+316	seinfeld_transcript	transcript	gpt2	" head. ""Do the people that work in these shops have any idea what"	 the	hell	2.697927474975586	7.05764102935791	0.00038760746247135103	0.08079858869314194	15
+317	seinfeld_transcript	transcript	gpt2	". ""Do the people that work in these shops have any idea what the"	 prices	are	5.083695411682129	1.3832311630249023	3.439571082708426e-05	0.7498756051063538	15
+318	seinfeld_transcript	transcript	gpt2	" ""Do the people that work in these shops have any idea what the prices"	 are	"?"""	0.2983779311180115	2.7269182205200195	0.00015247409464791417	0.3440350890159607	15
+319	seinfeld_transcript	transcript	gpt2	Do the people that work in these shops have any idea what the prices are	 every	day	8.53101921081543	1.7607308626174927	2.6136351152672432e-05	0.6361587643623352	15
+320	seinfeld_transcript	transcript	gpt2	 the people that work in these shops have any idea what the prices are every	 place	.	7.841427803039551	3.453479766845703	5.66853077543783e-06	0.16427645087242126	15
+321	seinfeld_transcript	transcript	gpt2	 people that work in these shops have any idea what the prices are every place	 else	is	3.2005789279937744	3.028930187225342	0.0010366069618612528	0.2642793357372284	15
+322	seinfeld_transcript	transcript	gpt2	 that work in these shops have any idea what the prices are every place else	 in	the	1.8879504203796387	3.282099962234497	5.661929026246071e-05	0.4620206654071808	15
+323	seinfeld_transcript	transcript	gpt2	 work in these shops have any idea what the prices are every place else in	 the	world	0.8212979435920715	2.8621814250946045	0.00012200613127788529	0.3588660955429077	15
+324	seinfeld_transcript	transcript	gpt2	 in these shops have any idea what the prices are every place else in the	 world	.	1.1629672050476074	2.7133893966674805	1.5041676988403196e-06	0.45951026678085327	15
+325	seinfeld_transcript	transcript	gpt2	 these shops have any idea what the prices are every place else in the world	"?"""	"
+"	4.793649196624756	3.4198262691497803	5.7234214182244614e-05	0.540743887424469	15
+326	seinfeld_transcript	transcript	gpt2	" shops have any idea what the prices are every place else in the world?"""	" """	I	4.092565059661865	4.9493513107299805	3.219135760446079e-05	0.11275621503591537	15
+327	seinfeld_transcript	transcript	gpt2	" have any idea what the prices are every place else in the world?"" """	Yeah	,	4.011369705200195	1.8259557485580444	2.5786671358218882e-06	0.5836924314498901	15
+328	seinfeld_transcript	transcript	gpt2	" any idea what the prices are every place else in the world?"" ""Yeah"	,	I	0.532097578048706	4.094579219818115	7.463138172170147e-05	0.20229370892047882	15
+329	seinfeld_transcript	transcript	gpt2	" idea what the prices are every place else in the world?"" ""Yeah,"	 eight	dollars	10.322959899902344	4.789002418518066	0.00038106224383227527	0.11067205667495728	15
+330	seinfeld_transcript	transcript	gpt2	" what the prices are every place else in the world?"" ""Yeah, eight"	 dollars	a	2.233792781829834	3.8403522968292236	0.0006019661668688059	0.12964384257793427	15
+331	seinfeld_transcript	transcript	gpt2	" the prices are every place else in the world?"" ""Yeah, eight dollars"	 for	a	2.6609115600585938	4.476000785827637	0.00026356932357884943	0.31269484758377075	15
+332	seinfeld_transcript	transcript	gpt2	" prices are every place else in the world?"" ""Yeah, eight dollars for"	 a	bottle	1.0865066051483154	7.137908935546875	0.00028211079188622534	0.018552323803305626	15
+333	seinfeld_transcript	transcript	gpt2	" are every place else in the world?"" ""Yeah, eight dollars for a"	 candy	bar	8.17949104309082	3.160395622253418	0.00036514989915303886	0.525600016117096	15
+334	seinfeld_transcript	transcript	gpt2	" every place else in the world?"" ""Yeah, eight dollars for a candy"	 bar	,	0.6968601942062378	3.7055978775024414	0.0009800520492717624	0.1570930778980255	15
+335	seinfeld_transcript	transcript	gpt2	" place else in the world?"" ""Yeah, eight dollars for a candy bar"	"."""	""""	2.2000985145568848	3.617560386657715	2.735801535891369e-05	0.46895846724510193	15
+336	seinfeld_transcript	transcript	gpt2	" else in the world?"" ""Yeah, eight dollars for a candy bar."""	" """	I	0.7860086560249329	4.692291259765625	4.225231350574177e-06	0.08161157369613647	15
+337	seinfeld_transcript	transcript	gpt2	" in the world?"" ""Yeah, eight dollars for a candy bar."" """	That	's	3.054107904434204	2.046954393386841	3.482702481960587e-08	0.6838752627372742	15
+338	seinfeld_transcript	transcript	gpt2	" the world?"" ""Yeah, eight dollars for a candy bar."" ""That"	's	a	0.39421483874320984	5.005084991455078	2.3682745450059883e-05	0.09526537358760834	15
+339	seinfeld_transcript	transcript	gpt2	" world?"" ""Yeah, eight dollars for a candy bar."" ""That's"	 fair	enough	5.7859086990356445	2.3958849906921387	0.0011254752753302455	0.28256291151046753	15
+340	seinfeld_transcript	transcript	gpt2	"?"" ""Yeah, eight dollars for a candy bar."" ""That's fair"	,	but	2.106501340866089	5.294674873352051	3.0336314011947252e-05	0.11228025704622269	15
+341	seinfeld_transcript	transcript	gpt2	" ""Yeah, eight dollars for a candy bar."" ""That's fair,"	 that	's	3.5005738735198975	0.7466603517532349	2.8131526050856337e-05	0.9086808562278748	15
+342	seinfeld_transcript	transcript	gpt2	"Yeah, eight dollars for a candy bar."" ""That's fair, that"	's	fair	0.10603239387273788	3.989515542984009	1.4308643585536629e-05	0.3535248637199402	15
+343	seinfeld_transcript	transcript	gpt2	", eight dollars for a candy bar."" ""That's fair, that's"	 what	I	2.7492499351501465	3.3073995113372803	0.0001892362633952871	0.32246142625808716	15
+344	seinfeld_transcript	transcript	gpt2	" eight dollars for a candy bar."" ""That's fair, that's what"	 we	're	2.279242992401123	3.3711097240448	4.4556971261044964e-05	0.3725382387638092	15
+345	seinfeld_transcript	transcript	gpt2	" dollars for a candy bar."" ""That's fair, that's what we"	 charge	for	7.33181095123291	2.8875224590301514	5.419305125542451e-06	0.23155856132507324	15
+346	seinfeld_transcript	transcript	gpt2	" for a candy bar."" ""That's fair, that's what we charge"	 in	the	4.858308792114258	5.536900043487549	0.0006434118840843439	0.15320159494876862	15
+347	seinfeld_transcript	transcript	gpt2	" a candy bar."" ""That's fair, that's what we charge in"	 our	stores	2.484976291656494	5.68776798248291	9.499377483734861e-05	0.1903495341539383	15
+348	seinfeld_transcript	transcript	gpt2	" candy bar."" ""That's fair, that's what we charge in our"	 country	","""	4.685802459716797	2.5050265789031982	2.985914579767268e-05	0.25079408288002014	15
+349	seinfeld_transcript	transcript	gpt2	" bar."" ""That's fair, that's what we charge in our country"	"."""	""""	1.6612842082977295	3.5906872749328613	4.7357236326206475e-05	0.31637534499168396	15
+350	seinfeld_transcript	transcript	gpt2	"."" ""That's fair, that's what we charge in our country."""	 After	all	6.465641975402832	5.360827922821045	2.913669504778227e-06	0.15034812688827515	15
+351	seinfeld_transcript	transcript	gpt2	" ""That's fair, that's what we charge in our country."" After"	 waiting	for	7.046854019165039	3.6086862087249756	8.025942952372134e-05	0.34379395842552185	15
+352	seinfeld_transcript	transcript	gpt2	"That's fair, that's what we charge in our country."" After waiting"	 for	the	1.0575331449508667	5.286557197570801	0.000336755852913484	0.1245429590344429	15
+353	seinfeld_transcript	transcript	gpt2	"'s fair, that's what we charge in our country."" After waiting for"	 their	response	5.186739921569824	7.119228363037109	9.71592016867362e-05	0.034919336438179016	15
+354	seinfeld_transcript	transcript	gpt2	" fair, that's what we charge in our country."" After waiting for their"	 turn	,	3.513028383255005	2.3514134883880615	2.8338581614661962e-05	0.3381536900997162	15
+355	seinfeld_transcript	transcript	gpt2	", that's what we charge in our country."" After waiting for their turn"	 to	speak	1.0841366052627563	5.9192795753479	9.360563853988424e-05	0.04471611976623535	15
+356	seinfeld_transcript	transcript	gpt2	" that's what we charge in our country."" After waiting for their turn to"	 board	the	6.075827598571777	2.7543129920959473	0.00012321716349106282	0.36595696210861206	15
+357	seinfeld_transcript	transcript	gpt2	"'s what we charge in our country."" After waiting for their turn to board"	,	the	2.440133571624756	5.807602405548096	0.00014242599718272686	0.20504054427146912	15
+358	seinfeld_transcript	transcript	gpt2	" what we charge in our country."" After waiting for their turn to board,"	 they	were	2.173245429992676	5.465662479400635	5.0281803851248696e-05	0.16608306765556335	15
+359	seinfeld_transcript	transcript	gpt2	" we charge in our country."" After waiting for their turn to board, they"	 marched	to	7.083745956420898	3.823068857192993	1.2105030691600405e-05	0.11394226551055908	15
+360	seinfeld_transcript	transcript	gpt2	" charge in our country."" After waiting for their turn to board, they marched"	 down	the	2.9043707847595215	4.300739765167236	0.0001661399146541953	0.3939228653907776	15
+361	seinfeld_transcript	transcript	gpt2	" in our country."" After waiting for their turn to board, they marched down"	 the	street	1.043531894683838	5.4062581062316895	0.0004573384649120271	0.17163537442684174	15
+362	seinfeld_transcript	transcript	gpt2	" our country."" After waiting for their turn to board, they marched down the"	 jet	ty	10.22826099395752	0.16069260239601135	4.731191893370124e-06	0.9819497466087341	15
+363	seinfeld_transcript	transcript	gpt2	" country."" After waiting for their turn to board, they marched down the jet"	way	,	6.004462718963623	3.1686477661132812	3.25841065205168e-05	0.21268703043460846	15
+364	seinfeld_transcript	transcript	gpt2	"."" After waiting for their turn to board, they marched down the jetway"	 and	into	1.638984203338623	5.392098903656006	0.0006915078847669065	0.1309082806110382	15
+365	seinfeld_transcript	transcript	gpt2	 After waiting for their turn to board, they marched down the jetway and	 onto	the	3.6202170848846436	3.2030248641967773	2.860633503587451e-05	0.6084432005882263	15
+366	seinfeld_transcript	transcript	gpt2	 waiting for their turn to board, they marched down the jetway and onto	 the	deck	0.4628521203994751	6.768996715545654	0.00042975222459062934	0.038546882569789886	15
+367	seinfeld_transcript	transcript	gpt2	 for their turn to board, they marched down the jetway and onto the	 plane	.	5.8510332107543945	2.6705703735351562	0.00015940444427542388	0.4829740524291992	15
+368	seinfeld_transcript	transcript	gpt2	 their turn to board, they marched down the jetway and onto the plane	.	"
+"	0.7215011119842529	4.768046855926514	2.1986001229379326e-05	0.24113810062408447	15
+369	seinfeld_transcript	transcript	gpt2	 turn to board, they marched down the jetway and onto the plane.	 George	was	8.891250610351562	6.562976837158203	0.0016614367486909032	0.06056942790746689	15
+370	seinfeld_transcript	transcript	gpt2	 to board, they marched down the jetway and onto the plane. George	 struggled	to	8.698813438415527	2.2893099784851074	2.8041768018738367e-06	0.5478965044021606	15
+371	seinfeld_transcript	transcript	gpt2	 board, they marched down the jetway and onto the plane. George struggled	 to	get	0.6343861818313599	4.475593090057373	0.00012472168600652367	0.1869492381811142	15
+372	seinfeld_transcript	transcript	gpt2	, they marched down the jetway and onto the plane. George struggled to	 get	out	1.7453794479370117	3.494358777999878	1.7646063497522846e-05	0.1539742648601532	15
+373	seinfeld_transcript	transcript	gpt2	 they marched down the jetway and onto the plane. George struggled to get	 into	the	3.8805060386657715	2.0845465660095215	8.608188181824517e-06	0.46380099654197693	15
+374	seinfeld_transcript	transcript	gpt2	 marched down the jetway and onto the plane. George struggled to get into	 his	seat	1.6054096221923828	2.6566221714019775	6.772036431357265e-05	0.629200279712677	15
+375	seinfeld_transcript	transcript	gpt2	 down the jetway and onto the plane. George struggled to get into his	 window	,	8.10948371887207	2.8760406970977783	0.0010552859166637063	0.24415896832942963	15
+376	seinfeld_transcript	transcript	gpt2	 the jetway and onto the plane. George struggled to get into his window	 seat	,	2.5745487213134766	2.737098217010498	0.000279516534646973	0.2676352560520172	15
+377	seinfeld_transcript	transcript	gpt2	 jetway and onto the plane. George struggled to get into his window seat	 and	was	1.5195292234420776	6.185414791107178	0.0007574802730232477	0.04851531982421875	15
+378	seinfeld_transcript	transcript	gpt2	way and onto the plane. George struggled to get into his window seat and	 fit	in	9.919528007507324	2.996208906173706	6.993388524278998e-05	0.2305792272090912	15
+379	seinfeld_transcript	transcript	gpt2	 and onto the plane. George struggled to get into his window seat and fit	 his	seat	1.6771034002304077	5.935568332672119	0.00022164490655995905	0.08558659255504608	15
+380	seinfeld_transcript	transcript	gpt2	 onto the plane. George struggled to get into his window seat and fit his	 bag	into	4.2891082763671875	3.11004900932312	0.00208675442263484	0.3041893541812897	15
+381	seinfeld_transcript	transcript	gpt2	 the plane. George struggled to get into his window seat and fit his bag	 down	.	3.6630821228027344	3.513348340988159	0.0003413265512790531	0.15208418667316437	15
+382	seinfeld_transcript	transcript	gpt2	 plane. George struggled to get into his window seat and fit his bag down	 by	the	5.465285301208496	1.8736506700515747	3.6956495023332536e-05	0.6211909651756287	15
+383	seinfeld_transcript	transcript	gpt2	. George struggled to get into his window seat and fit his bag down by	 his	side	1.398339033126831	4.645297527313232	5.336049434845336e-05	0.11699254810810089	15
+384	seinfeld_transcript	transcript	gpt2	 George struggled to get into his window seat and fit his bag down by his	 feet	.	3.4234156608581543	2.033987522125244	4.3517207814147696e-05	0.5977405905723572	15
+385	seinfeld_transcript	transcript	gpt2	 struggled to get into his window seat and fit his bag down by his feet	.	"
+"	0.5627486705780029	3.8524723052978516	1.3016424418310635e-05	0.3141312897205353	15
+386	seinfeld_transcript	transcript	gpt2	 to get into his window seat and fit his bag down by his feet.	" """	I	2.7165322303771973	4.884958744049072	1.802969018172007e-05	0.16653794050216675	15
+387	seinfeld_transcript	transcript	gpt2	" get into his window seat and fit his bag down by his feet. """	I	'm	1.8861337900161743	4.151235580444336	3.355819444550434e-07	0.194399893283844	15
+388	seinfeld_transcript	transcript	gpt2	" into his window seat and fit his bag down by his feet. ""I"	 feel	like	4.898007392883301	3.342041492462158	3.7452515243785456e-05	0.44870734214782715	15
+389	seinfeld_transcript	transcript	gpt2	" his window seat and fit his bag down by his feet. ""I feel"	 like	I	0.8550435900688171	3.2786457538604736	0.0011060195975005627	0.4342375099658966	15
+390	seinfeld_transcript	transcript	gpt2	" window seat and fit his bag down by his feet. ""I feel like"	 I	'm	0.868669867515564	2.664567708969116	5.634433182422072e-05	0.45216044783592224	15
+391	seinfeld_transcript	transcript	gpt2	" seat and fit his bag down by his feet. ""I feel like I"	 can	't	2.856104612350464	4.588569641113281	2.0697534637292847e-05	0.1513805091381073	15
+392	seinfeld_transcript	transcript	gpt2	" and fit his bag down by his feet. ""I feel like I can"	't	go	1.8338364362716675	4.560851097106934	9.086343925446272e-05	0.07411910593509674	15
+393	seinfeld_transcript	transcript	gpt2	" fit his bag down by his feet. ""I feel like I can't"	 breathe	","""	3.3117878437042236	3.4009158611297607	4.853229256696068e-05	0.2293819934129715	15
+394	seinfeld_transcript	transcript	gpt2	" his bag down by his feet. ""I feel like I can't breathe"	 in	this	4.074328422546387	3.922842025756836	0.0004635957593563944	0.1703505963087082	15
+395	seinfeld_transcript	transcript	gpt2	" bag down by his feet. ""I feel like I can't breathe in"	 here	","""	2.5697638988494873	2.6430397033691406	0.00024323682009708136	0.24372664093971252	15
+396	seinfeld_transcript	transcript	gpt2	" down by his feet. ""I feel like I can't breathe in here"	"!"""	"
+"	3.8825173377990723	4.068914413452148	2.467585727572441e-05	0.2998088598251343	15
+397	seinfeld_transcript	transcript	gpt2	" by his feet. ""I feel like I can't breathe in here!"""	 Jerry	said	9.518431663513184	5.906435966491699	7.332512905122712e-05	0.08683405816555023	15
+398	seinfeld_transcript	transcript	gpt2	" his feet. ""I feel like I can't breathe in here!"" Jerry"	 shrugged	.	7.036099910736084	2.347768783569336	4.3394679778430145e-06	0.48377710580825806	15
+399	seinfeld_transcript	transcript	gpt2	" feet. ""I feel like I can't breathe in here!"" Jerry shrugged"	 and	looked	2.5237889289855957	5.696852684020996	0.00035089862649329007	0.046396564692258835	15
+400	seinfeld_transcript	transcript	gpt2	". ""I feel like I can't breathe in here!"" Jerry shrugged and"	 st	rolled	6.589605808258057	1.7120906114578247	8.556812645110767e-07	0.514504075050354	15
+401	seinfeld_transcript	transcript	gpt2	" ""I feel like I can't breathe in here!"" Jerry shrugged and st"	owed	his	4.9099016189575195	2.3840742111206055	5.75483749543082e-09	0.363997220993042	15
+402	seinfeld_transcript	transcript	gpt2	"I feel like I can't breathe in here!"" Jerry shrugged and stowed"	 his	bag	1.007393479347229	6.076274394989014	0.00012074488040525466	0.052705563604831696	15
+403	seinfeld_transcript	transcript	gpt2	" feel like I can't breathe in here!"" Jerry shrugged and stowed his"	 luggage	away	5.5482378005981445	3.031816244125366	0.00017268882947973907	0.29310816526412964	15
+404	seinfeld_transcript	transcript	gpt2	" like I can't breathe in here!"" Jerry shrugged and stowed his luggage"	 in	his	2.0504045486450195	1.7948817014694214	4.651186827686615e-05	0.4092533588409424	15
+405	seinfeld_transcript	transcript	gpt2	" I can't breathe in here!"" Jerry shrugged and stowed his luggage in"	 the	back	0.9750038385391235	5.108845233917236	0.0002290757984155789	0.19936750829219818	15
+406	seinfeld_transcript	transcript	gpt2	" can't breathe in here!"" Jerry shrugged and stowed his luggage in the"	 overhead	bin	7.003804683685303	4.120913982391357	0.0001789901580195874	0.27526891231536865	15
+407	seinfeld_transcript	transcript	gpt2	"'t breathe in here!"" Jerry shrugged and stowed his luggage in the overhead"	 compartment	.	2.5345845222473145	1.868472695350647	3.774974902626127e-05	0.6041432619094849	15
+408	seinfeld_transcript	transcript	gpt2	" breathe in here!"" Jerry shrugged and stowed his luggage in the overhead compartment"	.	""""	0.5299161672592163	3.454430103302002	8.437085853074677e-06	0.30391520261764526	15
+409	seinfeld_transcript	transcript	gpt2	" in here!"" Jerry shrugged and stowed his luggage in the overhead compartment."	" """	I	1.1146957874298096	4.828495979309082	7.336237786148558e-07	0.16355304419994354	15
+410	seinfeld_transcript	transcript	gpt2	" here!"" Jerry shrugged and stowed his luggage in the overhead compartment. """	Well	,	4.229622840881348	2.2537171840667725	4.920227070215333e-07	0.6520276069641113	15
+411	seinfeld_transcript	transcript	gpt2	"!"" Jerry shrugged and stowed his luggage in the overhead compartment. ""Well"	,	I	0.4039795398712158	4.372472763061523	9.943838813342154e-05	0.21360227465629578	15
+412	seinfeld_transcript	transcript	gpt2	" Jerry shrugged and stowed his luggage in the overhead compartment. ""Well,"	 it	's	2.752225160598755	2.601746082305908	2.971767753479071e-05	0.5033068060874939	15
+413	seinfeld_transcript	transcript	gpt2	" shrugged and stowed his luggage in the overhead compartment. ""Well, it"	's	not	0.6950317621231079	4.896524429321289	2.2668673409498297e-05	0.09544793516397476	15
+414	seinfeld_transcript	transcript	gpt2	" and stowed his luggage in the overhead compartment. ""Well, it's"	 all	right	3.45378041267395	4.588752746582031	0.001241666846908629	0.17775222659111023	15
+415	seinfeld_transcript	transcript	gpt2	" stowed his luggage in the overhead compartment. ""Well, it's all"	 a	bit	3.9960010051727295	4.372194290161133	0.0001240478886757046	0.2746075689792633	15
+416	seinfeld_transcript	transcript	gpt2	"owed his luggage in the overhead compartment. ""Well, it's all a"	 tiny	bit	7.892499923706055	4.814523696899414	0.0013495790772140026	0.283210426568985	15
+417	seinfeld_transcript	transcript	gpt2	" his luggage in the overhead compartment. ""Well, it's all a tiny"	 world	of	5.570761680603027	3.6391539573669434	0.00010835019202204421	0.15270468592643738	15
+418	seinfeld_transcript	transcript	gpt2	" luggage in the overhead compartment. ""Well, it's all a tiny world"	 on	the	5.216458797454834	3.7551565170288086	6.4146748627536e-05	0.1888411045074463	15
+419	seinfeld_transcript	transcript	gpt2	" in the overhead compartment. ""Well, it's all a tiny world on"	 the	outside	1.6214962005615234	5.361110210418701	0.00010854636639123783	0.1233738586306572	15
+420	seinfeld_transcript	transcript	gpt2	" the overhead compartment. ""Well, it's all a tiny world on the"	 airplane	","""	6.672835826873779	3.293891429901123	7.375594577752054e-05	0.2058786153793335	15
+421	seinfeld_transcript	transcript	gpt2	" overhead compartment. ""Well, it's all a tiny world on the airplane"	,	but	1.6604392528533936	4.0984954833984375	2.8067310267942958e-05	0.19509898126125336	15
+422	seinfeld_transcript	transcript	gpt2	" compartment. ""Well, it's all a tiny world on the airplane,"	 isn	't	3.2571568489074707	0.004457284230738878	5.577574846427069e-09	0.9996082186698914	15
+423	seinfeld_transcript	transcript	gpt2	". ""Well, it's all a tiny world on the airplane, isn"	't	it	0.0003513672563713044	0.010817202739417553	2.3411534044726068e-08	0.9988418221473694	15
+424	seinfeld_transcript	transcript	gpt2	" ""Well, it's all a tiny world on the airplane, isn't"	 it	"?"""	0.001167331007309258	1.1008942127227783	1.7021204257616773e-05	0.6919665336608887	15
+425	seinfeld_transcript	transcript	gpt2	Well, it's all a tiny world on the airplane, isn't it	"?"""	"
+"	0.6316894888877869	3.9625802040100098	3.984503564424813e-05	0.4616229236125946	15
+426	seinfeld_transcript	transcript	gpt2	", it's all a tiny world on the airplane, isn't it?"""	" """	I	4.05157470703125	4.7850446701049805	1.004997920972528e-05	0.09858923405408859	15
+427	seinfeld_transcript	transcript	gpt2	" it's all a tiny world on the airplane, isn't it?"" """	There	's	4.558109760284424	1.957719326019287	9.83149220701307e-07	0.5052462220191956	15
+428	seinfeld_transcript	transcript	gpt2	"'s all a tiny world on the airplane, isn't it?"" ""There"	's	no	0.802031934261322	3.3276240825653076	2.5024601200129837e-05	0.31108298897743225	15
+429	seinfeld_transcript	transcript	gpt2	" all a tiny world on the airplane, isn't it?"" ""There's"	 that	one	5.275071144104004	5.704421520233154	0.0006593462312594056	0.10702664405107498	15
+430	seinfeld_transcript	transcript	gpt2	" a tiny world on the airplane, isn't it?"" ""There's that"	 little	world	3.550384044647217	6.287961483001709	0.013240273110568523	0.12370756268501282	15
+431	seinfeld_transcript	transcript	gpt2	" tiny world on the airplane, isn't it?"" ""There's that little"	 tiny	world	6.471115589141846	3.720874786376953	0.003682950744405389	0.5150903463363647	15
+432	seinfeld_transcript	transcript	gpt2	" world on the airplane, isn't it?"" ""There's that little tiny"	 table	in	7.685940265655518	4.424400806427002	0.0014174901880323887	0.15203289687633514	15
+433	seinfeld_transcript	transcript	gpt2	" on the airplane, isn't it?"" ""There's that little tiny table"	 there	,	3.6977956295013428	3.1642367839813232	0.003726091468706727	0.1889878511428833	15
+434	seinfeld_transcript	transcript	gpt2	" the airplane, isn't it?"" ""There's that little tiny table there"	,	and	1.649574875831604	5.08396053314209	4.6961253246990964e-05	0.08630692213773727	15
+435	seinfeld_transcript	transcript	gpt2	" airplane, isn't it?"" ""There's that little tiny table there,"	 tiny	little	8.38080883026123	4.475532531738281	0.009129965677857399	0.40077465772628784	15
+436	seinfeld_transcript	transcript	gpt2	", isn't it?"" ""There's that little tiny table there, tiny"	 computer	,	7.598926544189453	4.400920867919922	0.002279585227370262	0.10706325620412827	15
+437	seinfeld_transcript	transcript	gpt2	" isn't it?"" ""There's that little tiny table there, tiny computer"	,	tiny	2.256467580795288	4.605762958526611	9.122186747845262e-05	0.16722385585308075	15
+438	seinfeld_transcript	transcript	gpt2	"'t it?"" ""There's that little tiny table there, tiny computer,"	 little	little	2.813347339630127	6.521910190582275	0.08205242455005646	0.08205242455005646	15
+439	seinfeld_transcript	transcript	gpt2	" it?"" ""There's that little tiny table there, tiny computer, little"	 cramped	room	9.76840591430664	5.151148319244385	0.0002951518108602613	0.1510351002216339	15
+440	seinfeld_transcript	transcript	gpt2	"?"" ""There's that little tiny table there, tiny computer, little cramped"	 seats	,	8.22197151184082	3.158795118331909	1.7139022020273842e-05	0.2622782289981842	15
+441	seinfeld_transcript	transcript	gpt2	" ""There's that little tiny table there, tiny computer, little cramped seats"	,	little	1.2328441143035889	4.504674434661865	0.00015225089737214148	0.13897408545017242	15
+442	seinfeld_transcript	transcript	gpt2	There's that little tiny table there, tiny computer, little cramped seats,	 tiny	little	1.9811370372772217	7.068886756896973	0.005697913467884064	0.04843752831220627	15
+443	seinfeld_transcript	transcript	gpt2	's that little tiny table there, tiny computer, little cramped seats, tiny	 food	,	6.18941593170166	4.974984645843506	4.569343582261354e-05	0.10430380702018738	15
+444	seinfeld_transcript	transcript	gpt2	 that little tiny table there, tiny computer, little cramped seats, tiny food	,	little	2.0894665718078613	3.699582815170288	0.0002053844218607992	0.3146844208240509	15
+445	seinfeld_transcript	transcript	gpt2	 little tiny table there, tiny computer, little cramped seats, tiny food,	 tiny	TV	1.392218828201294	6.988191604614258	0.0024098707363009453	0.026200955733656883	15
+446	seinfeld_transcript	transcript	gpt2	 tiny table there, tiny computer, little cramped seats, tiny food, tiny	 ut	ens	7.110136032104492	0.010989443399012089	1.2838980012475076e-07	0.9991037249565125	15
+447	seinfeld_transcript	transcript	gpt2	 table there, tiny computer, little cramped seats, tiny food, tiny ut	ens	ils	0.0011063652345910668	0.05986052006483078	4.7072185559160484e-12	0.9892101883888245	15
+448	seinfeld_transcript	transcript	gpt2	 there, tiny computer, little cramped seats, tiny food, tiny utens	ils	,	0.012963660061359406	2.3833649158477783	7.600867490964447e-09	0.41669827699661255	15
+449	seinfeld_transcript	transcript	gpt2	, tiny computer, little cramped seats, tiny food, tiny utensils	,	tiny	0.744658350944519	4.686250686645508	0.0003157940227538347	0.24364478886127472	15
+450	seinfeld_transcript	transcript	gpt2	 tiny computer, little cramped seats, tiny food, tiny utensils,	 tiny	computers	1.3679085969924927	7.119390487670898	0.0010710603091865778	0.02244398556649685	15
+451	seinfeld_transcript	transcript	gpt2	 computer, little cramped seats, tiny food, tiny utensils, tiny	 liquor	,	9.673982620239258	3.500673770904541	4.070672002853826e-05	0.2439539134502411	15
+452	seinfeld_transcript	transcript	gpt2	, little cramped seats, tiny food, tiny utensils, tiny liquor	 bottles	,	1.9896094799041748	2.1393203735351562	1.9627297660917975e-05	0.5128113627433777	15
+453	seinfeld_transcript	transcript	gpt2	 little cramped seats, tiny food, tiny utensils, tiny liquor bottles	,	tiny	0.7242828011512756	4.429323673248291	0.00027856361703015864	0.21955090761184692	15
+454	seinfeld_transcript	transcript	gpt2	 cramped seats, tiny food, tiny utensils, tiny liquor bottles,	 tiny	bottles	1.4005849361419678	7.446779727935791	0.0017138057155534625	0.015079988166689873	15
+455	seinfeld_transcript	transcript	gpt2	 seats, tiny food, tiny utensils, tiny liquor bottles, tiny	 bathroom	stalls	6.74760627746582	5.017429828643799	0.00013789479271508753	0.0844096839427948	15
+456	seinfeld_transcript	transcript	gpt2	, tiny food, tiny utensils, tiny liquor bottles, tiny bathroom	,	tiny	3.0164759159088135	3.11116886138916	0.000253996200626716	0.5064755082130432	15
+457	seinfeld_transcript	transcript	gpt2	 tiny food, tiny utensils, tiny liquor bottles, tiny bathroom,	 tiny	bathroom	0.5070348978042603	7.011343002319336	0.0009414115338586271	0.048061005771160126	15
+458	seinfeld_transcript	transcript	gpt2	 food, tiny utensils, tiny liquor bottles, tiny bathroom, tiny	 sink	,	4.866628646850586	1.5910643339157104	0.0009443013113923371	0.6917870044708252	15
+459	seinfeld_transcript	transcript	gpt2	, tiny utensils, tiny liquor bottles, tiny bathroom, tiny sink	,	tiny	0.3429712951183319	3.203953266143799	0.0003013470850419253	0.5134842395782471	15
+460	seinfeld_transcript	transcript	gpt2	 tiny utensils, tiny liquor bottles, tiny bathroom, tiny sink,	 tiny	bathroom	0.5456461906433105	6.177553653717041	0.0005613105022348464	0.0951288491487503	15
+461	seinfeld_transcript	transcript	gpt2	 utensils, tiny liquor bottles, tiny bathroom, tiny sink, tiny	 mirror	,	5.547469139099121	1.718368411064148	0.0007607085863128304	0.6916545033454895	15
+462	seinfeld_transcript	transcript	gpt2	ensils, tiny liquor bottles, tiny bathroom, tiny sink, tiny mirror	,	tiny	0.32939642667770386	3.4431700706481934	0.0002686141524463892	0.5118374824523926	15
+463	seinfeld_transcript	transcript	gpt2	ils, tiny liquor bottles, tiny bathroom, tiny sink, tiny mirror,	 tiny	bathroom	0.655573308467865	6.532199382781982	0.0009441207512281835	0.044881824404001236	15
+464	seinfeld_transcript	transcript	gpt2	, tiny liquor bottles, tiny bathroom, tiny sink, tiny mirror, tiny	 f	auc	6.620867729187012	0.38090765476226807	5.501818378661483e-08	0.9463159441947937	15
+465	seinfeld_transcript	transcript	gpt2	 tiny liquor bottles, tiny bathroom, tiny sink, tiny mirror, tiny f	auc	et	0.06666654348373413	0.11374329030513763	3.2928970661316725e-10	0.9765298366546631	15
+466	seinfeld_transcript	transcript	gpt2	 liquor bottles, tiny bathroom, tiny sink, tiny mirror, tiny fauc	et	,	0.022800898179411888	1.675205945968628	1.73963542238198e-07	0.6553624868392944	15
+467	seinfeld_transcript	transcript	gpt2	 bottles, tiny bathroom, tiny sink, tiny mirror, tiny faucet	"."""	"
+"	5.837887763977051	3.683077812194824	1.3406281141215004e-05	0.4729761779308319	15
+468	seinfeld_transcript	transcript	gpt2	", tiny bathroom, tiny sink, tiny mirror, tiny faucet."""	" """	I	4.035552501678467	5.209551811218262	0.00010903442307608202	0.10283294320106506	15
+469	seinfeld_transcript	transcript	gpt2	" tiny bathroom, tiny sink, tiny mirror, tiny faucet."" """	So	,	4.043779373168945	4.327888488769531	2.42691021412611e-06	0.19447259604930878	15
+470	seinfeld_transcript	transcript	gpt2	" bathroom, tiny sink, tiny mirror, tiny faucet."" ""So"	,	what	1.6959974765777588	4.895413398742676	8.240050374297425e-05	0.13984401524066925	15
+471	seinfeld_transcript	transcript	gpt2	", tiny sink, tiny mirror, tiny faucet."" ""So,"	 there	's	4.454031944274902	2.329070806503296	0.0005401270464062691	0.38055694103240967	15
+472	seinfeld_transcript	transcript	gpt2	" tiny sink, tiny mirror, tiny faucet."" ""So, there"	's	a	0.9497672915458679	3.9102020263671875	3.732545883394778e-05	0.2465994507074356	15
+473	seinfeld_transcript	transcript	gpt2	" sink, tiny mirror, tiny faucet."" ""So, there's"	 a	lot	1.4218952655792236	7.041905879974365	0.0002732164866756648	0.0686819776892662	15
+474	seinfeld_transcript	transcript	gpt2	", tiny mirror, tiny faucet."" ""So, there's a"	 small	mirror	4.554617881774902	4.902428150177002	0.0010368672665208578	0.3903975486755371	15
+475	seinfeld_transcript	transcript	gpt2	" tiny mirror, tiny faucet."" ""So, there's a small"	 problem	with	6.879946708679199	3.2018625736236572	4.397006341605447e-05	0.21140290796756744	15
+476	seinfeld_transcript	transcript	gpt2	" mirror, tiny faucet."" ""So, there's a small problem"	,	and	2.3405072689056396	5.760502815246582	5.0066850235452875e-05	0.06801047921180725	15
+477	seinfeld_transcript	transcript	gpt2	", tiny faucet."" ""So, there's a small problem,"	 there	's	4.213717460632324	1.2022312879562378	0.0001614149659872055	0.7769795656204224	15
+478	seinfeld_transcript	transcript	gpt2	" tiny faucet."" ""So, there's a small problem, there"	's	a	0.25474032759666443	2.3975906372070312	2.6638139388523996e-05	0.6070945262908936	15
+479	seinfeld_transcript	transcript	gpt2	" faucet."" ""So, there's a small problem, there's"	 gonna	be	8.176178932189941	0.3026648163795471	1.6786654668976553e-05	0.9624467492103577	15
+480	seinfeld_transcript	transcript	gpt2	"aucet."" ""So, there's a small problem, there's gonna"	 be	a	0.03338558226823807	2.88667631149292	6.96074785082601e-05	0.5455067753791809	15
+481	seinfeld_transcript	transcript	gpt2	"et."" ""So, there's a small problem, there's gonna be"	 a	problem	0.6144471168518066	4.836252689361572	0.00017107429448515177	0.2414480745792389	15
+482	seinfeld_transcript	transcript	gpt2	"."" ""So, there's a small problem, there's gonna be a"	 slight	problem	5.538763523101807	5.345370769500732	0.0020075542852282524	0.27620887756347656	15
+483	seinfeld_transcript	transcript	gpt2	" ""So, there's a small problem, there's gonna be a slight"	 delay	,	4.623503684997559	3.485128164291382	0.00026860591606236994	0.19063249230384827	15
+484	seinfeld_transcript	transcript	gpt2	So, there's a small problem, there's gonna be a slight delay	,	but	1.9800525903701782	3.3695268630981445	4.024153167847544e-05	0.24622300267219543	15
+485	seinfeld_transcript	transcript	gpt2	, there's a small problem, there's gonna be a slight delay,	 we	're	4.025350570678711	2.890986680984497	0.00010751979425549507	0.3308223783969879	15
+486	seinfeld_transcript	transcript	gpt2	 there's a small problem, there's gonna be a slight delay, we	're	gonna	1.1368765830993652	2.895587205886841	4.9783443500928115e-06	0.3953603208065033	15
+487	seinfeld_transcript	transcript	gpt2	's a small problem, there's gonna be a slight delay, we're	 gonna	have	1.0888859033584595	3.184805393218994	1.4370738426805474e-05	0.3676990568637848	15
+488	seinfeld_transcript	transcript	gpt2	 a small problem, there's gonna be a slight delay, we're gonna	 be	able	1.9954087734222412	4.92765474319458	0.00012785442231688648	0.25285804271698	15
+489	seinfeld_transcript	transcript	gpt2	 small problem, there's gonna be a slight delay, we're gonna be	 a	little	4.170291900634766	2.9482059478759766	0.0002921238192357123	0.4797300100326538	15
+490	seinfeld_transcript	transcript	gpt2	 problem, there's gonna be a slight delay, we're gonna be a	 little	bit	0.7092108726501465	3.012502431869507	0.0015005187597125769	0.5176668763160706	15
+491	seinfeld_transcript	transcript	gpt2	, there's gonna be a slight delay, we're gonna be a little	 late	.	2.710195302963257	3.1173834800720215	0.00017308691167272627	0.2127457857131958	15
+492	seinfeld_transcript	transcript	gpt2	 there's gonna be a slight delay, we're gonna be a little late	"."""	"
+"	2.1634132862091064	2.3926291465759277	1.977584724954795e-05	0.6871042847633362	15
+493	seinfeld_transcript	transcript	gpt2	"'s gonna be a slight delay, we're gonna be a little late."""	" """	I	4.13864278793335	4.902618885040283	1.7358444893034175e-05	0.09425841271877289	15
+494	seinfeld_transcript	transcript	gpt2	" gonna be a slight delay, we're gonna be a little late."" """	It	's	3.41961932182312	2.204328775405884	3.359015181558789e-07	0.6040511131286621	15
+495	seinfeld_transcript	transcript	gpt2	" be a slight delay, we're gonna be a little late."" ""It"	's	not	0.5168613195419312	4.818006992340088	2.114784365403466e-05	0.12977446615695953	15
+496	seinfeld_transcript	transcript	gpt2	" a slight delay, we're gonna be a little late."" ""It's"	 life	or	9.577457427978516	3.7697277069091797	0.0002616011188365519	0.1797088235616684	15
+497	seinfeld_transcript	transcript	gpt2	" slight delay, we're gonna be a little late."" ""It's life"	 in	the	4.020194053649902	4.294620037078857	0.000259868596913293	0.4367603659629822	15
+498	seinfeld_transcript	transcript	gpt2	" delay, we're gonna be a little late."" ""It's life in"	 miniature	","""	7.134297847747803	2.662681818008423	3.6661582271335647e-05	0.3581293523311615	15
+499	seinfeld_transcript	transcript	gpt2	", we're gonna be a little late."" ""It's life in miniature"	"."""	""""	1.9975817203521729	4.537432670593262	2.6887048079515807e-05	0.360503613948822	15
+500	seinfeld_transcript	transcript	gpt2	" we're gonna be a little late."" ""It's life in miniature."""	 The	two	3.965930938720703	8.039161682128906	7.340798038057983e-05	0.026080673560500145	15
+501	seinfeld_transcript	transcript	gpt2	"'re gonna be a little late."" ""It's life in miniature."" The"	 pilot	was	6.8296732902526855	6.195824146270752	0.0014570608036592603	0.0547872930765152	15
+502	seinfeld_transcript	transcript	gpt2	" gonna be a little late."" ""It's life in miniature."" The pilot"	 came	out	5.603586673736572	3.403280019760132	6.624191883020103e-06	0.15250782668590546	15
+503	seinfeld_transcript	transcript	gpt2	" be a little late."" ""It's life in miniature."" The pilot came"	 over	to	4.0470967292785645	3.721297264099121	0.0004791112442035228	0.1742997169494629	15
+504	seinfeld_transcript	transcript	gpt2	" a little late."" ""It's life in miniature."" The pilot came over"	 the	bridge	2.6323461532592773	6.734382152557373	0.0005795134347863495	0.06080116331577301	15
+505	seinfeld_transcript	transcript	gpt2	" little late."" ""It's life in miniature."" The pilot came over the"	 PA	system	7.332491874694824	4.461607933044434	0.001108485390432179	0.15075573325157166	15
+506	seinfeld_transcript	transcript	gpt2	" late."" ""It's life in miniature."" The pilot came over the PA"	 system	and	1.7707080841064453	3.7518956661224365	0.0001639747788431123	0.17885011434555054	15
+507	seinfeld_transcript	transcript	gpt2	"."" ""It's life in miniature."" The pilot came over the PA system"	 and	was	1.7549409866333008	6.035497188568115	0.0007515737670473754	0.05285284295678139	15
+508	seinfeld_transcript	transcript	gpt2	" ""It's life in miniature."" The pilot came over the PA system and"	 started	to	3.970810651779175	5.6918182373046875	1.2180353223811835e-05	0.11947157979011536	15
+509	seinfeld_transcript	transcript	gpt2	"It's life in miniature."" The pilot came over the PA system and started"	 describing	the	8.810174942016602	4.128712177276611	3.2865002594917314e-06	0.31371933221817017	15
+510	seinfeld_transcript	transcript	gpt2	"'s life in miniature."" The pilot came over the PA system and started describing"	 their	experience	4.942063331604004	6.503325462341309	0.00013249168114271015	0.07141704857349396	15
+511	seinfeld_transcript	transcript	gpt2	" life in miniature."" The pilot came over the PA system and started describing their"	 route	.	5.888123512268066	3.0960946083068848	0.00023337206221185625	0.27797621488571167	15
+512	seinfeld_transcript	transcript	gpt2	" in miniature."" The pilot came over the PA system and started describing their route"	 for	the	4.340913772583008	4.585503578186035	7.456510502379388e-05	0.3983980417251587	15
+513	seinfeld_transcript	transcript	gpt2	" miniature."" The pilot came over the PA system and started describing their route for"	 the	next	0.9313134551048279	6.5882368087768555	0.000796412059571594	0.0685545802116394	15
+514	seinfeld_transcript	transcript	gpt2	"."" The pilot came over the PA system and started describing their route for the"	 day	.	3.541490316390991	2.2401931285858154	4.945472755935043e-05	0.5381433963775635	15
+515	seinfeld_transcript	transcript	gpt2	 The pilot came over the PA system and started describing their route for the day	:	"
+"	4.291906833648682	4.2470598220825195	0.00017674102855380625	0.3745625913143158	15
+516	seinfeld_transcript	transcript	gpt2	 pilot came over the PA system and started describing their route for the day:	" """	We	1.9538469314575195	5.512876033782959	4.971809175913222e-05	0.13867789506912231	15
+517	seinfeld_transcript	transcript	gpt2	" came over the PA system and started describing their route for the day: """	We	're	2.117805004119873	4.345987319946289	1.1833901680802228e-07	0.17221824824810028	15
+518	seinfeld_transcript	transcript	gpt2	" over the PA system and started describing their route for the day: ""We"	're	going	1.8508307933807373	4.31118106842041	2.025289632001659e-06	0.32251840829849243	15
+519	seinfeld_transcript	transcript	gpt2	" the PA system and started describing their route for the day: ""We're"	 headed	for	5.089320182800293	3.0445497035980225	1.103555132431211e-05	0.20107635855674744	15
+520	seinfeld_transcript	transcript	gpt2	" PA system and started describing their route for the day: ""We're headed"	 up	to	3.1791582107543945	4.085442066192627	0.0005497453967109323	0.24130049347877502	15
+521	seinfeld_transcript	transcript	gpt2	" system and started describing their route for the day: ""We're headed up"	 to	the	1.3642240762710571	6.392236709594727	0.0001953182800207287	0.23824633657932281	15
+522	seinfeld_transcript	transcript	gpt2	" and started describing their route for the day: ""We're headed up to"	 thirty	-	11.936044692993164	3.4380345344543457	0.0010049084667116404	0.3083600699901581	15
+523	seinfeld_transcript	transcript	gpt2	" started describing their route for the day: ""We're headed up to thirty"	-	five	1.2159552574157715	2.2837793827056885	1.3119736649969127e-05	0.3430849015712738	15
+524	seinfeld_transcript	transcript	gpt2	" describing their route for the day: ""We're headed up to thirty-"	th	ousand	5.01362419128418	0.7700374126434326	6.721513273078017e-06	0.5313782095909119	15
+525	seinfeld_transcript	transcript	gpt2	" their route for the day: ""We're headed up to thirty-th"	ousand	feet	0.520110011100769	4.1673712730407715	1.4161688568492536e-06	0.23131974041461945	15
+526	seinfeld_transcript	transcript	gpt2	" route for the day: ""We're headed up to thirty-thousand"	 feet	,	1.5258376598358154	3.444504737854004	3.953818668378517e-05	0.15072552859783173	15
+527	seinfeld_transcript	transcript	gpt2	" for the day: ""We're headed up to thirty-thousand feet"	,	and	1.910294771194458	4.652535438537598	4.3989410187350586e-05	0.283162921667099	15
+528	seinfeld_transcript	transcript	gpt2	" the day: ""We're headed up to thirty-thousand feet,"	 then	we	4.975879192352295	4.399993419647217	0.0009895586408674717	0.31840208172798157	15
+529	seinfeld_transcript	transcript	gpt2	" day: ""We're headed up to thirty-thousand feet, then"	 I	'll	4.047765731811523	3.0013270378112793	2.1237829059828073e-05	0.28966784477233887	15
+530	seinfeld_transcript	transcript	gpt2	": ""We're headed up to thirty-thousand feet, then I"	'll	be	1.351382851600647	4.861445903778076	3.226277476642281e-05	0.11131379753351212	15
+531	seinfeld_transcript	transcript	gpt2	" ""We're headed up to thirty-thousand feet, then I'll"	 make	it	3.9521706104278564	3.1403675079345703	4.9079575546784326e-05	0.19367222487926483	15
+532	seinfeld_transcript	transcript	gpt2	We're headed up to thirty-thousand feet, then I'll make	 a	big	1.6865781545639038	6.784780979156494	0.0002752547152340412	0.03440113738179207	15
+533	seinfeld_transcript	transcript	gpt2	're headed up to thirty-thousand feet, then I'll make a	 left	turn	6.6449480056762695	2.2042577266693115	0.00043134865700267255	0.6608956456184387	15
+534	seinfeld_transcript	transcript	gpt2	 headed up to thirty-thousand feet, then I'll make a left	 by	the	6.637307643890381	5.627567768096924	0.00014277093578130007	0.14246703684329987	15
+535	seinfeld_transcript	transcript	gpt2	 up to thirty-thousand feet, then I'll make a left by	 Pittsburgh	.	13.485654830932617	3.7802681922912598	0.00010320784349460155	0.22150495648384094	15
+536	seinfeld_transcript	transcript	gpt2	 to thirty-thousand feet, then I'll make a left by Pittsburgh	,	and	1.7262561321258545	4.703502655029297	7.305829058168456e-05	0.28624287247657776	15
+537	seinfeld_transcript	transcript	gpt2	 thirty-thousand feet, then I'll make a left by Pittsburgh,	 and	then	1.2428938150405884	4.833367824554443	0.0005969912745058537	0.18329115211963654	15
+538	seinfeld_transcript	transcript	gpt2	-thousand feet, then I'll make a left by Pittsburgh, and	 a	right	3.5467238426208496	0.7535569071769714	5.1979353884235024e-05	0.9160481095314026	15
+539	seinfeld_transcript	transcript	gpt2	thousand feet, then I'll make a left by Pittsburgh, and a	 right	by	0.07625241577625275	0.6284619569778442	0.0002088172477670014	0.9261562824249268	15
+540	seinfeld_transcript	transcript	gpt2	ousand feet, then I'll make a left by Pittsburgh, and a right	 by	New	0.06447754800319672	5.208868503570557	2.9351047487580217e-05	0.08149761706590652	15
+541	seinfeld_transcript	transcript	gpt2	 feet, then I'll make a left by Pittsburgh, and a right by	 Chicago	.	3.010836124420166	2.0630688667297363	2.547867552493699e-05	0.5516873598098755	15
+542	seinfeld_transcript	transcript	gpt2	, then I'll make a left by Pittsburgh, and a right by Chicago	"…"""	"
+"	6.87832498550415	3.386181592941284	6.806926103308797e-05	0.5526197552680969	15
+543	seinfeld_transcript	transcript	gpt2	" then I'll make a left by Pittsburgh, and a right by Chicago…"""	 Jerry	said	9.675548553466797	6.510791301727295	0.00018440057465340942	0.09524895995855331	15
+544	seinfeld_transcript	transcript	gpt2	" I'll make a left by Pittsburgh, and a right by Chicago…"" Jerry"	 laughed	.	7.866250991821289	2.3080716133117676	3.5625869259092724e-06	0.549095869064331	15
+545	seinfeld_transcript	transcript	gpt2	"'ll make a left by Pittsburgh, and a right by Chicago…"" Jerry laughed"	 as	he	3.142838716506958	2.2858104705810547	0.00013159499212633818	0.6446651816368103	15
+546	seinfeld_transcript	transcript	gpt2	" make a left by Pittsburgh, and a right by Chicago…"" Jerry laughed as"	 he	looked	0.42524948716163635	5.710253715515137	0.00013941136421635747	0.06490886956453323	15
+547	seinfeld_transcript	transcript	gpt2	" a left by Pittsburgh, and a right by Chicago…"" Jerry laughed as he"	 sat	down	4.719426155090332	2.9345693588256836	4.912975418847054e-05	0.3632155954837799	15
+548	seinfeld_transcript	transcript	gpt2	" left by Pittsburgh, and a right by Chicago…"" Jerry laughed as he sat"	 down	to	1.120936393737793	2.71820068359375	0.0012785692233592272	0.25073909759521484	15
+549	seinfeld_transcript	transcript	gpt2	" by Pittsburgh, and a right by Chicago…"" Jerry laughed as he sat down"	.	""""	1.8907899856567383	2.430720806121826	1.1623333193711005e-05	0.47780677676200867	15
+550	seinfeld_transcript	transcript	gpt2	" Pittsburgh, and a right by Chicago…"" Jerry laughed as he sat down."	" """	I	0.7164612412452698	4.515999794006348	3.259195182181429e-06	0.1425182819366455	15
+551	seinfeld_transcript	transcript	gpt2	", and a right by Chicago…"" Jerry laughed as he sat down. """	Listen	,	7.128203868865967	2.0660243034362793	9.77015861280961e-06	0.6268835067749023	15
+552	seinfeld_transcript	transcript	gpt2	" and a right by Chicago…"" Jerry laughed as he sat down. ""Listen"	 to	me	2.000730276107788	3.425110101699829	0.00013525880058296025	0.28605401515960693	15
+553	seinfeld_transcript	transcript	gpt2	" a right by Chicago…"" Jerry laughed as he sat down. ""Listen to"	 this	.	2.837855339050293	5.034186840057373	0.00021889508934691548	0.14967569708824158	15
+554	seinfeld_transcript	transcript	gpt2	" right by Chicago…"" Jerry laughed as he sat down. ""Listen to this"	 guy	.	2.9535694122314453	3.6845879554748535	9.493341349298134e-05	0.2569981515407562	15
+555	seinfeld_transcript	transcript	gpt2	" by Chicago…"" Jerry laughed as he sat down. ""Listen to this guy"	,	he	1.4812053442001343	4.939074516296387	5.9017420426243916e-05	0.21986046433448792	15
+556	seinfeld_transcript	transcript	gpt2	" Chicago…"" Jerry laughed as he sat down. ""Listen to this guy,"	 he	's	1.5454754829406738	3.1503446102142334	8.95438643055968e-05	0.4987718164920807	15
+557	seinfeld_transcript	transcript	gpt2	"…"" Jerry laughed as he sat down. ""Listen to this guy, he"	's	a	0.7186261415481567	5.105619430541992	1.603120836080052e-05	0.14093226194381714	15
+558	seinfeld_transcript	transcript	gpt2	" Jerry laughed as he sat down. ""Listen to this guy, he's"	 so	good	4.349160194396973	5.598554611206055	0.00035122272674925625	0.09652184695005417	15
+559	seinfeld_transcript	transcript	gpt2	" laughed as he sat down. ""Listen to this guy, he's so"	 excited	to	6.738853454589844	2.700540542602539	1.2430442438926548e-05	0.22764092683792114	15
+560	seinfeld_transcript	transcript	gpt2	" as he sat down. ""Listen to this guy, he's so excited"	 about	this	1.566678762435913	4.063995838165283	0.00016937078908085823	0.28407734632492065	15
+561	seinfeld_transcript	transcript	gpt2	" he sat down. ""Listen to this guy, he's so excited about"	 being	here	3.7585368156433105	3.900641918182373	4.0877395804272965e-05	0.217362180352211	15
+562	seinfeld_transcript	transcript	gpt2	" sat down. ""Listen to this guy, he's so excited about being"	 a	part	1.8714489936828613	6.577078342437744	0.00024478527484461665	0.1337355077266693	15
+563	seinfeld_transcript	transcript	gpt2	" down. ""Listen to this guy, he's so excited about being a"	 pilot	.	6.816106796264648	2.8925673961639404	0.002629232592880726	0.309984028339386	15
+564	seinfeld_transcript	transcript	gpt2	". ""Listen to this guy, he's so excited about being a pilot"	,	he	2.0957140922546387	3.432861328125	5.617023634840734e-05	0.29783865809440613	15
+565	seinfeld_transcript	transcript	gpt2	" ""Listen to this guy, he's so excited about being a pilot,"	 he	's	1.1699321269989014	3.0441133975982666	8.287640957860276e-05	0.4425077438354492	15
+566	seinfeld_transcript	transcript	gpt2	Listen to this guy, he's so excited about being a pilot, he	 can	't	3.741320848464966	3.3389434814453125	3.677725908346474e-05	0.34196656942367554	15
+567	seinfeld_transcript	transcript	gpt2	 to this guy, he's so excited about being a pilot, he can	't	wait	0.7694265842437744	2.2188050746917725	0.00015795539366081357	0.5383775234222412	15
+568	seinfeld_transcript	transcript	gpt2	 this guy, he's so excited about being a pilot, he can't	 even	get	2.7613413333892822	4.809609889984131	0.004970140755176544	0.08415980637073517	15
+569	seinfeld_transcript	transcript	gpt2	 guy, he's so excited about being a pilot, he can't even	 stand	to	4.296265602111816	4.011922359466553	5.640058225253597e-05	0.22434817254543304	15
+570	seinfeld_transcript	transcript	gpt2	, he's so excited about being a pilot, he can't even stand	 himself	.	6.531380653381348	4.075396537780762	4.291233199182898e-05	0.13524024188518524	15
+571	seinfeld_transcript	transcript	gpt2	 he's so excited about being a pilot, he can't even stand himself	"."""	"
+"	3.370924711227417	2.339118719100952	1.5173725842032582e-05	0.6957929134368896	15
+572	seinfeld_transcript	transcript	gpt2	"'s so excited about being a pilot, he can't even stand himself."""	" """	I	4.248802185058594	4.838778972625732	1.3566672350862063e-05	0.13482603430747986	15
+573	seinfeld_transcript	transcript	gpt2	" so excited about being a pilot, he can't even stand himself."" """	Do	you	5.017651557922363	1.230485439300537	2.9334981377360236e-07	0.8186338543891907	15
+574	seinfeld_transcript	transcript	gpt2	" excited about being a pilot, he can't even stand himself."" ""Do"	 we	have	4.040808200836182	3.4478960037231445	7.672900392208248e-05	0.25141337513923645	15
+575	seinfeld_transcript	transcript	gpt2	" about being a pilot, he can't even stand himself."" ""Do we"	 really	need	1.689758539199829	2.2067646980285645	0.0017875436460599303	0.34883543848991394	15
+576	seinfeld_transcript	transcript	gpt2	" being a pilot, he can't even stand himself."" ""Do we really"	 need	to	1.0049265623092651	3.5077035427093506	1.1365935279172845e-05	0.27630725502967834	15
+577	seinfeld_transcript	transcript	gpt2	" a pilot, he can't even stand himself."" ""Do we really need"	 this	"?"""	3.872452735900879	5.280340671539307	0.0002838156360667199	0.23451845347881317	15
+578	seinfeld_transcript	transcript	gpt2	" pilot, he can't even stand himself."" ""Do we really need this"	 information	"?"""	5.133875370025635	2.772855043411255	7.889994594734162e-05	0.39729803800582886	15
+579	seinfeld_transcript	transcript	gpt2	", he can't even stand himself."" ""Do we really need this information"	"?"""	""""	0.9079806804656982	5.331299781799316	0.00017325009685009718	0.23242078721523285	15
+580	seinfeld_transcript	transcript	gpt2	" he can't even stand himself."" ""Do we really need this information?"""	 asked	the	3.3719048500061035	7.170764446258545	6.026878327247687e-05	0.0872422605752945	15
+581	seinfeld_transcript	transcript	gpt2	" can't even stand himself."" ""Do we really need this information?"" asked"	 George	.	6.283870697021484	3.266423463821411	0.0004158794763498008	0.5285348892211914	15
+582	seinfeld_transcript	transcript	gpt2	"'t even stand himself."" ""Do we really need this information?"" asked George"	.	""""	0.6262819170951843	2.0634796619415283	1.7949898392544128e-05	0.718011736869812	15
+583	seinfeld_transcript	transcript	gpt2	" even stand himself."" ""Do we really need this information?"" asked George."	" """	I	0.32324597239494324	4.342463970184326	2.6113616513612214e-07	0.12589184939861298	15
+584	seinfeld_transcript	transcript	gpt2	" stand himself."" ""Do we really need this information?"" asked George. """	I	don	2.0649778842926025	3.666516065597534	2.3720494368717482e-07	0.1772269755601883	15
+585	seinfeld_transcript	transcript	gpt2	" himself."" ""Do we really need this information?"" asked George. ""I"	 mean	,	2.5722591876983643	1.770375370979309	1.7400627257302403e-05	0.7340442538261414	15
+586	seinfeld_transcript	transcript	gpt2	"."" ""Do we really need this information?"" asked George. ""I mean"	,	I	0.30017128586769104	4.254446983337402	0.0003110439865849912	0.1354510486125946	15
+587	seinfeld_transcript	transcript	gpt2	" ""Do we really need this information?"" asked George. ""I mean,"	 just	because	5.34063720703125	4.921975135803223	0.0020208796486258507	0.11882054805755615	15
+588	seinfeld_transcript	transcript	gpt2	"Do we really need this information?"" asked George. ""I mean, just"	 do	it	5.124968528747559	2.968865394592285	3.675197149277665e-05	0.2784750163555145	15
+589	seinfeld_transcript	transcript	gpt2	" we really need this information?"" asked George. ""I mean, just do"	 whatever	you	4.455660820007324	2.054565906524658	0.00012128186062909663	0.6199117302894592	15
+590	seinfeld_transcript	transcript	gpt2	" really need this information?"" asked George. ""I mean, just do whatever"	 the	hell	3.539156436920166	2.5676162242889404	0.00011442953837104142	0.5782892107963562	15
+591	seinfeld_transcript	transcript	gpt2	" need this information?"" asked George. ""I mean, just do whatever the"	 hell	you	0.5827517509460449	0.7558676600456238	3.2911048037931323e-06	0.8882142305374146	15
+592	seinfeld_transcript	transcript	gpt2	" this information?"" asked George. ""I mean, just do whatever the hell"	 you	want	0.1237340196967125	1.0092136859893799	4.965217158314772e-05	0.8246454000473022	15
+593	seinfeld_transcript	transcript	gpt2	" information?"" asked George. ""I mean, just do whatever the hell you"	 gotta	do	6.122521877288818	0.9476985931396484	0.00024826041772030294	0.8704146146774292	15
+594	seinfeld_transcript	transcript	gpt2	"?"" asked George. ""I mean, just do whatever the hell you gotta"	 do	to	0.1550145149230957	2.590261936187744	0.0003840470453724265	0.23312246799468994	15
+595	seinfeld_transcript	transcript	gpt2	" asked George. ""I mean, just do whatever the hell you gotta do"	"."""	"
+"	1.7033659219741821	2.0987560749053955	1.3126224985171575e-05	0.6662806272506714	15
+596	seinfeld_transcript	transcript	gpt2	" George. ""I mean, just do whatever the hell you gotta do."""	" """	I	4.306649684906006	4.66335391998291	1.2501914170570672e-05	0.13589376211166382	15
+597	seinfeld_transcript	transcript	gpt2	". ""I mean, just do whatever the hell you gotta do."" """	I	'm	1.9509503841400146	3.4221854209899902	7.288840606634039e-07	0.19858498871326447	15
+598	seinfeld_transcript	transcript	gpt2	" ""I mean, just do whatever the hell you gotta do."" ""I"	 don	't	2.336623430252075	0.007148765027523041	7.695533099649765e-09	0.9993813037872314	15
+599	seinfeld_transcript	transcript	gpt2	"I mean, just do whatever the hell you gotta do."" ""I don"	't	know	0.0005743046058341861	2.7748396396636963	9.152773600362707e-06	0.3734284043312073	15
+600	seinfeld_transcript	transcript	gpt2	" mean, just do whatever the hell you gotta do."" ""I don't"	 know	what	0.9747973680496216	2.992764711380005	1.133649766416056e-05	0.17635542154312134	15
+601	seinfeld_transcript	transcript	gpt2	", just do whatever the hell you gotta do."" ""I don't know"	"."""	""""	3.2908554077148438	4.2670392990112305	3.4078409953508526e-05	0.3912679851055145	15
+602	seinfeld_transcript	transcript	gpt2	" just do whatever the hell you gotta do."" ""I don't know."""	" """	I	0.9281333684921265	4.155000686645508	2.3343993689195486e-06	0.17154812812805176	15
+603	seinfeld_transcript	transcript	gpt2	" do whatever the hell you gotta do."" ""I don't know."" """	Just	do	4.525792121887207	5.320537090301514	7.076176871123607e-07	0.053481411188840866	15
+604	seinfeld_transcript	transcript	gpt2	" whatever the hell you gotta do."" ""I don't know."" ""Just"	 end	it	9.309976577758789	2.779777765274048	3.0555951525457203e-05	0.3025583326816559	15
+605	seinfeld_transcript	transcript	gpt2	" the hell you gotta do."" ""I don't know."" ""Just end"	-	of	5.964713096618652	4.703054428100586	0.0002145575563190505	0.16645845770835876	15
+606	seinfeld_transcript	transcript	gpt2	" hell you gotta do."" ""I don't know."" ""Just end-"	up	with	2.3563358783721924	5.194343566894531	7.56055271722289e-08	0.12154527008533478	15
+607	seinfeld_transcript	transcript	gpt2	" you gotta do."" ""I don't know."" ""Just end-up"	 where	you	6.4670796394348145	1.752437949180603	0.00019919620535802096	0.5792177319526672	15
+608	seinfeld_transcript	transcript	gpt2	" gotta do."" ""I don't know."" ""Just end-up where"	 it	's	3.968055248260498	2.9410059452056885	1.4078297681408003e-05	0.2793557643890381	15
+609	seinfeld_transcript	transcript	gpt2	" do."" ""I don't know."" ""Just end-up where it"	 says	you	5.669170379638672	4.957406044006348	3.076651773881167e-05	0.15363606810569763	15
+610	seinfeld_transcript	transcript	gpt2	"."" ""I don't know."" ""Just end-up where it says"	 on	the	4.279437065124512	1.9154548645019531	0.00011954578076256439	0.5954210758209229	15
+611	seinfeld_transcript	transcript	gpt2	" ""I don't know."" ""Just end-up where it says on"	 the	label	0.5300979614257812	5.5550432205200195	0.00017696853319648653	0.08176086097955704	15
+612	seinfeld_transcript	transcript	gpt2	"I don't know."" ""Just end-up where it says on the"	 ticket	that	4.740068435668945	3.4276227951049805	0.0006172681460157037	0.24706509709358215	15
+613	seinfeld_transcript	transcript	gpt2	" don't know."" ""Just end-up where it says on the ticket"	,	'	2.174569606781006	4.570558547973633	3.8469599530799314e-05	0.18428263068199158	15
+614	seinfeld_transcript	transcript	gpt2	"'t know."" ""Just end-up where it says on the ticket,"	 really	"?"""	7.457197189331055	3.0184860229492188	0.00041818039608187973	0.3118666410446167	15
+615	seinfeld_transcript	transcript	gpt2	" know."" ""Just end-up where it says on the ticket, really"	"."""	""""	2.0560717582702637	3.805499792098999	2.9065491617075168e-05	0.3244735896587372	15

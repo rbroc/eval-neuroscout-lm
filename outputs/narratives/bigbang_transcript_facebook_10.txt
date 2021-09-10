@@ -1,0 +1,795 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Sheldon slowly walked into the restaurant, e	ying	.	11.796712875366211	5.083353042602539	7.529263257310959e-06	0.16386935114860535	10
+1	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ldon slowly walked into the restaurant, eying	 the		6.95298957824707	6.236075401306152	0.0009557734592817724	0.030534639954566956	10
+2	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	on slowly walked into the restaurant, eying the	 dec	or	5.553377151489258	2.8166379928588867	0.0038743503391742706	0.33867326378822327	10
+3	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 slowly walked into the restaurant, eying the dec	or	ation	5.279375076293945	2.664505958557129	0.005095612723380327	0.2123301774263382	10
+4	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 walked into the restaurant, eying the decor	 susp	ense	8.954381942749023	2.4613800048828125	0.00012916991545353085	0.2557881772518158	10
+5	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 into the restaurant, eying the decor susp	ic	ions	8.242119789123535	2.2068111896514893	0.00026332540437579155	0.4274866282939911	10
+6	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the restaurant, eying the decor suspic	iously	.	10.365755081176758	4.0294623374938965	3.149269105051644e-05	0.23548796772956848	10
+7	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 restaurant, eying the decor suspiciously	.		6.1957831382751465	4.0504560470581055	0.0020380066707730293	0.3412134051322937	10
+8	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, eying the decor suspiciously.	 His	own	9.934317588806152	6.3336100578308105	4.848201933782548e-05	0.07673019170761108	10
+9	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 eying the decor suspiciously. His	 roomm	ates	11.65395736694336	0.7673078179359436	8.684618478582706e-06	0.7413759231567383	10
+10	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ying the decor suspiciously. His roomm	ate	is	12.374853134155273	4.704120635986328	4.223471933073597e-06	0.19673526287078857	10
+11	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the decor suspiciously. His roommate	 Le	.	5.872140884399414	5.588253974914551	0.0028168356511741877	0.16406086087226868	10
+12	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 decor suspiciously. His roommate Le	on	ard	4.773504734039307	3.1628665924072266	0.008450711145997047	0.5392933487892151	10
+13	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	or suspiciously. His roommate Leon	ard	o	6.173436164855957	4.778200626373291	0.0020840626675635576	0.3155563473701477	10
+14	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 suspiciously. His roommate Leonard	 pushed	.	9.924592971801758	4.693805694580078	4.8955789679894224e-05	0.29169905185699463	10
+15	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	iciously. His roommate Leonard pushed	 past	.	10.12703800201416	4.372530460357666	3.9983737224247307e-05	0.31415820121765137	10
+16	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	iously. His roommate Leonard pushed past	 him	.	9.072019577026367	2.8101792335510254	0.00011483439448056743	0.4211078882217407	10
+17	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	. His roommate Leonard pushed past him	 and	together	5.813817977905273	4.4497833251953125	0.002986008068546653	0.30228391289711	10
+18	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 His roommate Leonard pushed past him and	 asked	for	5.823496341705322	2.572526693344116	0.0029572476632893085	0.6467642784118652	10
+19	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 roommate Leonard pushed past him and asked	 the	so	7.036672115325928	6.3211259841918945	0.0008790470310486853	0.04931672662496567	10
+20	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ate Leonard pushed past him and asked the	 host	s	7.044834136962891	4.348151206970215	0.0008719015750102699	0.26310551166534424	10
+21	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Leonard pushed past him and asked the host	ess	es	4.438957214355469	3.2317745685577393	0.011808248236775398	0.44355320930480957	10
+22	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	onard pushed past him and asked the hostess	 for	a	5.40934944152832	5.822883605957031	0.0044745490886271	0.08755902200937271	10
+23	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ard pushed past him and asked the hostess for	 a	blind	5.422094345092773	6.480489730834961	0.004417884163558483	0.026981141418218613	10
+24	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 pushed past him and asked the hostess for a	 table	t	6.665474891662598	4.23142147064209	0.001274151261895895	0.2290211319923401	10
+25	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 past him and asked the hostess for a table	 for	example	6.0302839279174805	5.171760559082031	0.0024048106279224157	0.12985296547412872	10
+26	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 him and asked the hostess for a table for	 two	or	7.48920202255249	5.569026947021484	0.000559088890440762	0.11016754060983658	10
+27	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 and asked the hostess for a table for two	.	</s>	7.074603080749512	3.095782518386841	0.0008463285048492253	0.4793849587440491	10
+28	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 asked the hostess for a table for two.	 As	a	8.219815254211426	4.340066432952881	0.000269264739472419	0.13933394849300385	10
+29	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the hostess for a table for two. As	 they	say	3.2402126789093018	4.8789753913879395	0.03915556147694588	0.15644505620002747	10
+30	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 hostess for a table for two. As they	 were	and	7.276279926300049	4.748437881469727	0.0006917541031725705	0.135739266872406	10
+31	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ess for a table for two. As they were	 led	by	7.38704776763916	1.204746127128601	0.0006192213040776551	0.8341749310493469	10
+32	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 for a table for two. As they were led	 to	by	5.1346821784973145	2.4629969596862793	0.005888923071324825	0.5030656456947327	10
+33	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 a table for two. As they were led to	 their	own	5.7794189453125	5.706200122833252	0.0030905096791684628	0.09835294634103775	10
+34	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 table for two. As they were led to their	 chair	s	7.716287612915039	0.8221933841705322	0.0004455115704331547	0.9128262996673584	10
+35	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 for two. As they were led to their chair	s	.	11.456031799316406	1.6535392999649048	1.0585436029941775e-05	0.7360563278198242	10
+36	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 two. As they were led to their chairs	,	I	6.505619049072266	4.666806697845459	0.0014950146432965994	0.1144644245505333	10
+37	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	. As they were led to their chairs,	 She	H	3.697267532348633	5.45911979675293	0.02479117549955845	0.11959579586982727	10
+38	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 As they were led to their chairs, She	ld	ers	11.721864700317383	5.299261093139648	8.114449883578345e-06	0.0838540717959404	10
+39	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 they were led to their chairs, Sheld	on	,	9.819185256958008	4.343746662139893	5.439787491923198e-05	0.24306322634220123	10
+40	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 were led to their chairs, Sheldon	 began	to	9.448983192443848	3.8769688606262207	7.876961899455637e-05	0.30439144372940063	10
+41	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 led to their chairs, Sheldon began	 to	go	4.662178993225098	5.4257330894470215	0.009445855394005775	0.08536338061094284	10
+42	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 to their chairs, Sheldon began to	 protest	.	10.099282264709473	4.3101420402526855	4.1109062294708565e-05	0.16649752855300903	10
+43	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 their chairs, Sheldon began to protest	 yet	.	7.111015796661377	4.085546970367432	0.0008160655270330608	0.19759073853492737	10
+44	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 chairs, Sheldon began to protest yet	 again	.	9.847281455993652	2.949507474899292	5.289076216286048e-05	0.47089874744415283	10
+45	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	s, Sheldon began to protest yet again	.	</s>	6.668938636779785	4.960621356964111	0.001269745989702642	0.20464637875556946	10
+46	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, Sheldon began to protest yet again.	" """	E	7.111120700836182	5.112499237060547	0.0008159800199791789	0.15471944212913513	10
+47	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Sheldon began to protest yet again. """	J	im	7.9567766189575195	4.611403942108154	0.00035028037382289767	0.074642613530159	10
+48	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ldon began to protest yet again. ""J"	ust	one	9.729469299316406	5.783970832824707	5.950385457254015e-05	0.07078688591718674	10
+49	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"on began to protest yet again. ""Just"	 because	of	5.9877705574035645	2.5899908542633057	0.0025092519354075193	0.5921566486358643	10
+50	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" began to protest yet again. ""Just because"	 our	s	6.261115074157715	5.444406986236572	0.0019091159338131547	0.14611485600471497	10
+51	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" to protest yet again. ""Just because our"	 next	""""	9.215595245361328	3.8794360160827637	9.947590297088027e-05	0.36356306076049805	10
+52	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" protest yet again. ""Just because our next"	-	ness	9.101564407348633	4.866438865661621	0.0001114912229240872	0.06532783061265945	10
+53	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" yet again. ""Just because our next-"	do	or	10.241312026977539	0.7957887053489685	3.566602026694454e-05	0.8114140033721924	10
+54	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" again. ""Just because our next-do"	or	""""	7.1422648429870605	5.360879421234131	0.0007909585838206112	0.08460907638072968	10
+55	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""Just because our next-door"	 neighbor	's	10.501758575439453	4.675290584564209	2.7488056730362587e-05	0.15556591749191284	10
+56	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Just because our next-door neighbor"	 is	a	4.918757438659668	5.716655731201172	0.007308206986635923	0.0509946271777153	10
+57	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	Just because our next-door neighbor is	 a	thing	4.878293991088867	5.979419708251953	0.007609985768795013	0.05503363534808159	10
+58	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ust because our next-door neighbor is a	 wait	ress	8.28700065612793	1.7932021617889404	0.00025176850613206625	0.6644546985626221	10
+59	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 because our next-door neighbor is a wait	ress	es	11.43783950805664	0.1904284805059433	1.0779765034385491e-05	0.9801558256149292	10
+60	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 our next-door neighbor is a waitress	 here	but	6.206755638122559	5.117150783538818	0.0020157669205218554	0.05366184562444687	10
+61	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 next-door neighbor is a waitress here	,	I	6.397653579711914	5.179490566253662	0.0016654601786285639	0.06584670394659042	10
+62	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	-door neighbor is a waitress here,	 it	's	6.038430690765381	4.714009761810303	0.002385299187153578	0.22730693221092224	10
+63	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	door neighbor is a waitress here, it	 does	not	7.160274028778076	4.834779739379883	0.0007768415962345898	0.15578196942806244	10
+64	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	or neighbor is a waitress here, it does	 not	matter	7.524031162261963	5.534371376037598	0.0005399516085162759	0.10019440948963165	10
+65	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 neighbor is a waitress here, it does not	 log	ify	10.33653450012207	3.258059024810791	3.242650200263597e-05	0.29335248470306396	10
+66	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 is a waitress here, it does not log	ically	we	11.81410026550293	4.175835132598877	7.399482910841471e-06	0.11350685358047485	10
+67	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 a waitress here, it does not logically	 follow	either	9.561015129089355	4.049102306365967	7.042125071166083e-05	0.15992046892642975	10
+68	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 waitress here, it does not logically follow	 that	way	5.253579139709473	4.658673286437988	0.005228769034147263	0.10050109028816223	10
+69	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ress here, it does not logically follow that	 we	have	6.6121134757995605	4.198030471801758	0.0013439886970445514	0.29588064551353455	10
+70	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 here, it does not logically follow that we	 have	to	6.4977521896362305	4.335157871246338	0.0015068220673128963	0.23298634588718414	10
+71	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, it does not logically follow that we have	 to	to	2.404189109802246	5.157754421234131	0.09033871442079544	0.09033871442079544	10
+72	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 it does not logically follow that we have to	 eat	again	7.15513801574707	5.159214973449707	0.0007808417431078851	0.08381712436676025	10
+73	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 does not logically follow that we have to eat	 here	.	4.15470027923584	3.970128297805786	0.01569049246609211	0.20427271723747253	10
+74	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 not logically follow that we have to eat here	"."""	""""	4.928133964538574	5.358107089996338	0.007240000646561384	0.12106949836015701	10
+75	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" logically follow that we have to eat here."""	" """	""""	6.832258224487305	5.001349925994873	0.0010784200858324766	0.183352991938591	10
+76	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ically follow that we have to eat here."" """	What	""""	10.71843147277832	3.6191909313201904	2.2133219317765906e-05	0.16684502363204956	10
+77	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" follow that we have to eat here."" ""What"	’	s	10.142659187316895	4.283915042877197	3.93639893445652e-05	0.20077702403068542	10
+78	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" that we have to eat here."" ""What’"	s	the	7.1072235107421875	4.998779296875	0.0008191660745069385	0.07577362656593323	10
+79	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" we have to eat here."" ""What’s"	 the	deal	7.475308418273926	6.16091251373291	0.0005669108941219747	0.05152386426925659	10
+80	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" have to eat here."" ""What’s the"	 point	of	10.526579856872559	0.8940596580505371	2.6814170269062743e-05	0.8718318939208984	10
+81	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" to eat here."" ""What’s the point"	 of	a	7.8134026527404785	5.220754146575928	0.0004042801447212696	0.1862306445837021	10
+82	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" eat here."" ""What’s the point of"	 even	ing	9.39883804321289	5.7381696701049805	8.282023918582126e-05	0.08216606080532074	10
+83	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" here."" ""What’s the point of even"	 having	to	9.836186408996582	3.412745952606201	5.3480860515264794e-05	0.4342675507068634	10
+84	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""What’s the point of even having"	 a	game	6.019154071807861	6.256288528442383	0.002431725850328803	0.04481663182377815	10
+85	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""What’s the point of even having a"	 week	of	8.324490547180176	5.199497699737549	0.00024250448041129857	0.05687614530324936	10
+86	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	What’s the point of even having a week	ly	.	10.319084167480469	5.723478317260742	3.299733725725673e-05	0.06821749359369278	10
+87	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	’s the point of even having a weekly	 restaurant	.	11.0878324508667	4.844593048095703	1.5297327990992926e-05	0.18361139297485352	10
+88	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	s the point of even having a weekly restaurant	 schedule	.	14.454894065856934	4.267302989959717	5.276175443214015e-07	0.24601778388023376	10
+89	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the point of even having a weekly restaurant schedule	 if	then	9.5872163772583	4.72846794128418	6.86001221765764e-05	0.297438383102417	10
+90	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 point of even having a weekly restaurant schedule if	 we	're	3.958643674850464	4.849551200866699	0.01908898912370205	0.07562589645385742	10
+91	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 of even having a weekly restaurant schedule if we	’	ve	8.089821815490723	1.7936328649520874	0.00030664430232718587	0.38547176122665405	10
+92	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 even having a weekly restaurant schedule if we’	re	just	11.268282890319824	4.994030952453613	1.277164847124368e-05	0.0992734283208847	10
+93	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 having a weekly restaurant schedule if we’re	 not	a	6.329225540161133	4.966866493225098	0.0017834142781794071	0.11234866082668304	10
+94	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 a weekly restaurant schedule if we’re not	 going	to	7.4994025230407715	1.6030889749526978	0.0005534149822779	0.7869439721107483	10
+95	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 weekly restaurant schedule if we’re not going	 to	be	5.267611503601074	5.58115291595459	0.005155911203473806	0.1297871470451355	10
+96	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ly restaurant schedule if we’re not going to	 follow	.	9.480155944824219	4.472047805786133	7.635202928213403e-05	0.14650297164916992	10
+97	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 restaurant schedule if we’re not going to follow	 it	’	6.808300018310547	4.734109878540039	0.0011045688297599554	0.19326837360858917	10
+98	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 schedule if we’re not going to follow it	"?"""	</s>	10.261835098266602	4.831693172454834	3.494151678751223e-05	0.256914883852005	10
+99	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" if we’re not going to follow it?"""	 Le	ather	7.176335334777832	3.812760829925537	0.0007644642610102892	0.4090791940689087	10
+100	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" we’re not going to follow it?"" Le"	on	ard	8.216429710388184	1.859716773033142	0.0002701778430491686	0.7564275860786438	10
+101	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’re not going to follow it?"" Leon"	ard	o	4.733836650848389	4.10106086730957	0.008792671374976635	0.38942840695381165	10
+102	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"re not going to follow it?"" Leonard"	 s	oo	7.862552642822266	5.223768711090088	0.000384890241548419	0.12203497439622879	10
+103	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" not going to follow it?"" Leonard s"	ig	ue	6.0227766036987305	5.781239986419678	0.0024229323025792837	0.07708222419023514	10
+104	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" going to follow it?"" Leonard sig"	hed	.	9.63252067565918	4.919092178344727	6.55615731375292e-05	0.12393730133771896	10
+105	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" to follow it?"" Leonard sighed"	,	to	5.978781700134277	5.282898902893066	0.0025319086853414774	0.07838945835828781	10
+106	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" follow it?"" Leonard sighed,"	 and	are	8.33246898651123	5.492900848388672	0.00024057737027760595	0.11611852794885635	10
+107	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" it?"" Leonard sighed, and"	 picked	up	10.854104042053223	4.05780553817749	1.9325127141200937e-05	0.223563551902771	10
+108	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" Leonard sighed, and picked"	 up	.	8.296664237976074	4.576404571533203	0.0002493472129572183	0.267505943775177	10
+109	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Leonard sighed, and picked up	 one	by	7.185983657836914	5.091165065765381	0.00075712357647717	0.11807301640510559	10
+110	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	onard sighed, and picked up one	 of	those	6.001690864562988	5.346229553222656	0.0024745643604546785	0.12157627195119858	10
+111	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ard sighed, and picked up one of	 the	.	7.778354644775391	6.273031711578369	0.0004187005979474634	0.033213309943675995	10
+112	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 sighed, and picked up one of the	 men	who	8.859793663024902	4.727272033691406	0.00014198436110746115	0.12647207081317902	10
+113	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ighed, and picked up one of the men	us	.	9.83845043182373	3.0156009197235107	5.33599522896111e-05	0.4861496686935425	10
+114	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	hed, and picked up one of the menus	 on	a	5.944270610809326	4.963862419128418	0.002620813436806202	0.22112451493740082	10
+115	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, and picked up one of the menus on	 the	,	8.40416431427002	5.827758312225342	0.00022393288963939995	0.07297676801681519	10
+116	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 and picked up one of the menus on the	 table	.	9.386839866638184	3.373544454574585	8.381991210626438e-05	0.3786139190196991	10
+117	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 picked up one of the menus on the table	.		7.509500503540039	5.664571762084961	0.0005478548118844628	0.09565293043851852	10
+118	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 up one of the menus on the table.	" """	""""	8.684499740600586	5.464483261108398	0.0001691880461294204	0.06742122024297714	10
+119	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" one of the menus on the table. """	You	are	9.803617477416992	4.830445289611816	5.525138840312138e-05	0.14413614571094513	10
+120	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" of the menus on the table. ""You"	’	ve	12.129694938659668	3.2854340076446533	5.39685106559773e-06	0.2074243575334549	10
+121	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the menus on the table. ""You’"	ll	be	11.109338760375977	2.4382452964782715	1.4971857126511168e-05	0.6294383406639099	10
+122	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" menus on the table. ""You’ll"	 live	""""	9.412087440490723	4.226442337036133	8.173019159585238e-05	0.21591882407665253	10
+123	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"us on the table. ""You’ll live"	"."""	</s>	9.581174850463867	3.902162551879883	6.9015848566778e-05	0.35658150911331177	10
+124	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" on the table. ""You’ll live."""	" """	O	9.960437774658203	4.6128082275390625	4.7232035285560414e-05	0.08202987164258957	10
+125	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the table. ""You’ll live."" """	T	""""	7.405678749084473	5.40777063369751	0.0006077912403270602	0.08653174340724945	10
+126	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" table. ""You’ll live."" ""T"	r	ue	7.275263786315918	1.8149118423461914	0.0006924573099240661	0.64701247215271	10
+127	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""You’ll live."" ""Tr"	ust	""""	11.960246086120605	1.8788350820541382	6.393388503056485e-06	0.6465893983840942	10
+128	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""You’ll live."" ""Trust"	 me	""""	7.041571140289307	2.9334030151367188	0.0008747510146349669	0.4895821213722229	10
+129	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"You’ll live."" ""Trust me"	,	I	7.100228309631348	4.629626274108887	0.0008249162929132581	0.17821525037288666	10
+130	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’ll live."" ""Trust me,"	 everything	""""	10.25482177734375	3.2125954627990723	3.518740777508356e-05	0.23235511779785156	10
+131	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ll live."" ""Trust me, everything"	’	s	12.710362434387207	0.4147181212902069	3.0196711122698616e-06	0.9263855218887329	10
+132	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" live."" ""Trust me, everything’"	s	""""	7.2956647872924805	5.832237720489502	0.0006784736760891974	0.08247677981853485	10
+133	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Trust me, everything’s"	 good	</s>	7.404725551605225	4.575760364532471	0.0006083710468374193	0.17364388704299927	10
+134	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Trust me, everything’s good"	 here	in	9.828059196472168	3.7987070083618164	5.391728336689994e-05	0.2814410924911499	10
+135	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	Trust me, everything’s good here	"."""	</s>	6.238077640533447	4.551146030426025	0.001953607425093651	0.18109601736068726	10
+136	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"rust me, everything’s good here."""	" """	""""	6.617358207702637	4.9106316566467285	0.0013369577936828136	0.10564206540584564	10
+137	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ust me, everything’s good here."" """	St	ay	12.894105911254883	3.956801176071167	2.512819037292502e-06	0.26557230949401855	10
+138	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" me, everything’s good here."" ""St"	at	""""	8.42797565460205	5.643571376800537	0.000218663684790954	0.08363830298185349	10
+139	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", everything’s good here."" ""Stat"	istically	,	14.401307106018066	4.130511283874512	5.566624849961954e-07	0.2740437388420105	10
+140	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" everything’s good here."" ""Statistically"	 unlikely	""""	12.086036682128906	4.064296722412109	5.637689355353359e-06	0.22811923921108246	10
+141	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’s good here."" ""Statistically unlikely"	","""	I	7.09591007232666	5.9580535888671875	0.0008284865762107074	0.0357174389064312	10
+142	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"s good here."" ""Statistically unlikely,"""	 said	""""	10.223244667053223	4.789990425109863	3.631627623690292e-05	0.18282215297222137	10
+143	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" good here."" ""Statistically unlikely,"" said"	 She	's	5.133767604827881	4.353191375732422	0.0058943117037415504	0.3586040437221527	10
+144	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" here."" ""Statistically unlikely,"" said She"	ld	ing	8.671128273010254	5.128468036651611	0.0001714655227260664	0.08733836561441422	10
+145	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Statistically unlikely,"" said Sheld"	on	""""	6.0177459716796875	5.418988227844238	0.0024351521860808134	0.09393712878227234	10
+146	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Statistically unlikely,"" said Sheldon"	.	</s>	7.127520561218262	4.85396671295166	0.0008027073927223682	0.15809059143066406	10
+147	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"Statistically unlikely,"" said Sheldon."	 P	E	4.060282230377197	5.584668159484863	0.01724414899945259	0.08264792710542679	10
+148	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"atistically unlikely,"" said Sheldon. P"	en	cil	9.15424633026123	6.069441318511963	0.00010576970089459792	0.06754664331674576	10
+149	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"istically unlikely,"" said Sheldon. Pen"	ny	.	10.618246078491211	4.242666721343994	2.4465503884130158e-05	0.36302968859672546	10
+150	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" unlikely,"" said Sheldon. Penny"	,	I	8.268009185791016	5.7298078536987305	0.0002565954637248069	0.06915625184774399	10
+151	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	","" said Sheldon. Penny,"	 their	s	8.980849266052246	4.034641265869141	0.0001257960102520883	0.3918893337249756	10
+152	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 said Sheldon. Penny, their	 neighbor	.	10.389777183532715	2.661867618560791	3.0745173717150465e-05	0.5917178392410278	10
+153	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Sheldon. Penny, their neighbor	,	and	6.261590957641602	5.105676651000977	0.0019082070793956518	0.09255583584308624	10
+154	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ldon. Penny, their neighbor,	 came	.	6.831409931182861	4.4446187019348145	0.0010793352266773582	0.23954015970230103	10
+155	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	on. Penny, their neighbor, came	 over	.	9.560484886169434	1.5752805471420288	7.045859820209444e-05	0.7693632245063782	10
+156	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	. Penny, their neighbor, came over	 to	me	6.34342098236084	5.5339035987854	0.001758276717737317	0.11710090935230255	10
+157	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Penny, their neighbor, came over to	 the	next	7.974225044250488	6.061021327972412	0.0003442216257099062	0.060112837702035904	10
+158	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	enny, their neighbor, came over to the	 table	.	8.398636817932129	4.3863043785095215	0.00022517406614497304	0.17270565032958984	10
+159	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ny, their neighbor, came over to the table	 to	get	3.1678707599639893	5.844583034515381	0.042093127965927124	0.043608520179986954	10
+160	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, their neighbor, came over to the table to	 take	care	6.817418575286865	4.074318885803223	0.0010945427929982543	0.28141018748283386	10
+161	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 their neighbor, came over to the table to take	 their	s	7.374120235443115	3.8389675617218018	0.0006272782920859754	0.49016475677490234	10
+162	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 neighbor, came over to the table to take their	 order	.	6.339575290679932	4.309228420257568	0.001765051856637001	0.18044988811016083	10
+163	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, came over to the table to take their order	.	</s>	6.851696968078613	3.732919216156006	0.0010576595086604357	0.40571385622024536	10
+164	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 came over to the table to take their order.	" """	""""	7.582744121551514	5.349169731140137	0.0005091620259918272	0.06976555287837982	10
+165	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" over to the table to take their order. """	H	""""	5.908188819885254	5.34220552444458	0.0027171040419489145	0.08143650740385056	10
+166	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" to the table to take their order. ""H"	i	""""	7.076057434082031	4.850249290466309	0.0008450984605588019	0.19067087769508362	10
+167	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the table to take their order. ""Hi"	 guys	""""	5.790861129760742	5.181910991668701	0.003055349923670292	0.15634718537330627	10
+168	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" table to take their order. ""Hi guys"	"?"""	</s>	9.680098533630371	4.01932430267334	6.251532613532618e-05	0.31620436906814575	10
+169	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" to take their order. ""Hi guys?"""	" """	E	6.680752754211426	5.701723575592041	0.0012548330705612898	0.06733975559473038	10
+170	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" take their order. ""Hi guys?"" """	You	""""	11.262638092041016	3.417398691177368	1.2843942386098206e-05	0.41067391633987427	10
+171	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" their order. ""Hi guys?"" ""You"	 ready	""""	8.749649047851562	2.334214210510254	0.0001585170248290524	0.43312597274780273	10
+172	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" order. ""Hi guys?"" ""You ready"	"?"""	</s>	9.983688354492188	2.9992194175720215	4.614656063495204e-05	0.525974452495575	10
+173	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""Hi guys?"" ""You ready?"""	 She	's	6.080265522003174	5.667080879211426	0.002287569222971797	0.06350778788328171	10
+174	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Hi guys?"" ""You ready?"" She"	ld	s	8.765092849731445	5.152899265289307	0.00015608768444508314	0.11182805150747299	10
+175	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"Hi guys?"" ""You ready?"" Sheld"	on	.	6.903817176818848	5.778504848480225	0.0010039458284154534	0.07731251418590546	10
+176	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"i guys?"" ""You ready?"" Sheldon"	 g	het	6.245657444000244	5.256979465484619	0.0019388558575883508	0.10191982984542847	10
+177	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" guys?"" ""You ready?"" Sheldon g"	est	e	5.250892639160156	3.721323013305664	0.005242835730314255	0.2477066069841385	10
+178	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""You ready?"" Sheldon gest"	ured	me	14.379213333129883	4.6362152099609375	5.690978355232801e-07	0.11354171484708786	10
+179	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""You ready?"" Sheldon gestured"	 at	ta	7.407938003540039	6.310744762420654	0.0006064197514206171	0.03665795549750328	10
+180	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"You ready?"" Sheldon gestured at"	 the	time	7.405865669250488	6.520059585571289	0.0006076777935959399	0.04553964361548424	10
+181	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ready?"" Sheldon gestured at the"	 menu	of	4.335887908935547	3.585812568664551	0.013090248219668865	0.36606350541114807	10
+182	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" Sheldon gestured at the menu"	,	I	4.629512786865234	5.083036422729492	0.009759514592587948	0.11043260246515274	10
+183	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Sheldon gestured at the menu,	 fl	ames	3.309082269668579	4.7191877365112305	0.03654969856142998	0.13868726789951324	10
+184	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ldon gestured at the menu, fl	ust	are	4.941594123840332	4.218818664550781	0.0071432036347687244	0.14638274908065796	10
+185	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	on gestured at the menu, flust	ered	,	12.809288024902344	5.565716743469238	2.73524801741587e-06	0.07836674153804779	10
+186	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 gestured at the menu, flustered	.		6.5900468826293945	4.254237174987793	0.0013739756541326642	0.27936646342277527	10
+187	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	estured at the menu, flustered.	" """	""""	7.511051654815674	5.1562042236328125	0.0005470055039040744	0.111378513276577	10
+188	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ured at the menu, flustered. """	We	""""	10.760390281677246	4.716275691986084	2.1223731891950592e-05	0.17136390507221222	10
+189	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" at the menu, flustered. ""We"	 don	't	9.462706565856934	0.21827968955039978	7.769600779283792e-05	0.9707261919975281	10
+190	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the menu, flustered. ""We don"	’	t	17.086015701293945	0.05973830074071884	3.7987241796599847e-08	0.9932671785354614	10
+191	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" menu, flustered. ""We don’"	t	have	7.474092483520508	4.8231940269470215	0.0005676007713191211	0.25105488300323486	10
+192	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", flustered. ""We don’t"	 eat	"."""	10.341835975646973	2.8821194171905518	3.2255036785500124e-05	0.2581084966659546	10
+193	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" flustered. ""We don’t eat"	 here	""""	6.7326273918151855	3.265251398086548	0.001191398361697793	0.2810286283493042	10
+194	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ustered. ""We don’t eat here"	,	we	8.500053405761719	5.200189113616943	0.00020345744269434363	0.14699001610279083	10
+195	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ered. ""We don’t eat here,"	 I	.	3.828310489654541	3.473792314529419	0.021746324375271797	0.47956573963165283	10
+196	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""We don’t eat here, I"	 don	't	11.540857315063477	0.11123078316450119	9.724547453515697e-06	0.9855937361717224	10
+197	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""We don’t eat here, I don"	’	t	17.57520866394043	0.01944400742650032	2.3290757766858405e-08	0.9979950189590454	10
+198	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	We don’t eat here, I don’	t	think	10.244083404541016	3.657086133956909	3.556732917786576e-05	0.14786610007286072	10
+199	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 don’t eat here, I don’t	 know	about	8.341800689697266	3.819209098815918	0.00023834279272705317	0.0933956503868103	10
+200	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	’t eat here, I don’t know	 what	to	9.068384170532227	3.4608869552612305	0.00011525266745593399	0.3183222711086273	10
+201	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	t eat here, I don’t know what	’	s	12.347596168518066	2.4200520515441895	4.3401728362368885e-06	0.5319576263427734	10
+202	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 eat here, I don’t know what’	s	to	8.39221477508545	4.942861557006836	0.00022662486298941076	0.1261330544948578	10
+203	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 here, I don’t know what’s	 good	to	8.46782112121582	4.596531391143799	0.00021012227807659656	0.1722467988729477	10
+204	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, I don’t know what’s good	"."""	</s>	5.638349533081055	1.9734125137329102	0.0035587369929999113	0.6627035737037659	10
+205	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" I don’t know what’s good."""	" """	D	7.0480265617370605	4.906975269317627	0.0008691224502399564	0.15112514793872833	10
+206	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" don’t know what’s good."" """	J	ob	6.806572914123535	4.1728081703186035	0.0011064785066992044	0.21695256233215332	10
+207	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’t know what’s good."" ""J"	ust	me	11.750328063964844	6.026169776916504	7.886734238127246e-06	0.03989342600107193	10
+208	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"t know what’s good."" ""Just"	 get	""""	6.407395362854004	4.165363311767578	0.00164931477047503	0.4231838285923004	10
+209	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" know what’s good."" ""Just get"	 a	""""	5.116562843322754	6.566666603088379	0.005996599327772856	0.0440751388669014	10
+210	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" what’s good."" ""Just get a"	 ha	mmer	3.206465244293213	4.887482166290283	0.04049951955676079	0.09581012278795242	10
+211	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’s good."" ""Just get a ha"	mb	ur	11.76462459564209	0.35506826639175415	7.774783625791315e-06	0.9598000049591064	10
+212	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"s good."" ""Just get a hamb"	ur	ger	4.813766002655029	0.3988533616065979	0.008117234334349632	0.945846676826477	10
+213	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" good."" ""Just get a hambur"	ger	.	8.069170951843262	4.9478068351745605	0.00031304260483011603	0.12268533557653427	10
+214	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Just get a hamburger"	,	I	5.93882942199707	4.944438934326172	0.0026351127307862043	0.22034280002117157	10
+215	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Just get a hamburger,"	 you	are	4.137289524078369	4.7941975593566895	0.01596606709063053	0.09179487079381943	10
+216	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	Just get a hamburger, you	 like	your	6.320778846740723	4.836857318878174	0.00179854198358953	0.1084270179271698	10
+217	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ust get a hamburger, you like	 ha	m	3.787409543991089	4.997068405151367	0.022654207423329353	0.11347431689500809	10
+218	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 get a hamburger, you like ha	mb	ur	10.834403038024902	0.7871594429016113	1.9709626940311864e-05	0.9086328744888306	10
+219	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 a hamburger, you like hamb	ur	ger	4.342227458953857	1.3187462091445923	0.013007521629333496	0.5854009985923767	10
+220	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 hamburger, you like hambur	gers	.	13.589644432067871	3.6623735427856445	1.2534079587567248e-06	0.2628830075263977	10
+221	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	mburger, you like hamburgers	","""	""""	5.453829288482666	5.15008544921875	0.004279884975403547	0.12569652497768402	10
+222	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"urger, you like hamburgers,"""	 said	by	8.51515007019043	3.9834201335906982	0.0002004091365961358	0.2990495264530182	10
+223	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ger, you like hamburgers,"" said"	 Le	b	7.363104820251465	5.293368816375732	0.0006342263659462333	0.10006054490804672	10
+224	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", you like hamburgers,"" said Le"	on	ard	6.620337009429932	4.462993621826172	0.0013329817447811365	0.20765656232833862	10
+225	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" you like hamburgers,"" said Leon"	ard	o	4.972478866577148	4.535377025604248	0.0069259596057236195	0.30697381496429443	10
+226	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" like hamburgers,"" said Leonard"	.	I	8.448579788208008	4.66158390045166	0.00021420433768071234	0.11268690228462219	10
+227	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" hamburgers,"" said Leonard."	" """	""""	6.982091903686523	4.07628870010376	0.0009283592808060348	0.21486204862594604	10
+228	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"mburgers,"" said Leonard. """	I	""""	10.835938453674316	3.6317098140716553	1.9679400793393143e-05	0.3207102417945862	10
+229	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"urgers,"" said Leonard. ""I"	 like	""""	4.222500801086426	5.109024524688721	0.014661933295428753	0.14967206120491028	10
+230	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"gers,"" said Leonard. ""I like"	 the	""""	5.964789390563965	6.536646842956543	0.0025675862561911345	0.03488245606422424	10
+231	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	","" said Leonard. ""I like the"	 ha	""""	3.6645565032958984	4.478420257568359	0.02561553195118904	0.16040733456611633	10
+232	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" said Leonard. ""I like the ha"	mb	ur	9.915722846984863	0.5799263119697571	4.9391950597055256e-05	0.9343521595001221	10
+233	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Leonard. ""I like the hamb"	ur	ger	4.835292816162109	0.8520118594169617	0.007944362238049507	0.7940173745155334	10
+234	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"onard. ""I like the hambur"	gers	""""	13.366188049316406	3.182400941848755	1.5672495692342636e-06	0.3194027841091156	10
+235	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ard. ""I like the hamburgers"	 where	I	6.958219528198242	2.1472573280334473	0.0009507880895398557	0.6574273705482483	10
+236	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""I like the hamburgers where"	 we	all	7.251400470733643	5.097140789031982	0.0007091804291121662	0.15812920033931732	10
+237	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""I like the hamburgers where we"	 usually	get	10.895942687988281	5.433868408203125	1.853328649303876e-05	0.09466446936130524	10
+238	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	I like the hamburgers where we usually	 have	a	6.306167125701904	5.302962303161621	0.0018250147113576531	0.14996829628944397	10
+239	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 like the hamburgers where we usually have	 ha	st	4.244907379150391	5.858602046966553	0.01433706097304821	0.08036324381828308	10
+240	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the hamburgers where we usually have ha	mb	ur	12.91189193725586	0.08762522786855698	2.4685195967322215e-06	0.9922330379486084	10
+241	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 hamburgers where we usually have hamb	ur	ger	4.323581695556641	0.788641631603241	0.013252333737909794	0.6842998266220093	10
+242	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	mburgers where we usually have hambur	gers	at	11.195728302001953	3.9905214309692383	1.373273062199587e-05	0.21477356553077698	10
+243	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	urgers where we usually have hamburgers	,	you	4.994381904602051	5.17366886138916	0.006775906775146723	0.08295232057571411	10
+244	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	gers where we usually have hamburgers,	 you	can	4.5894670486450195	5.028895378112793	0.010158268734812737	0.1148320734500885	10
+245	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 where we usually have hamburgers, you	 can	still	9.025991439819336	3.1321792602539062	0.00012024350871797651	0.49588677287101746	10
+246	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 we usually have hamburgers, you can	’	t	5.055469036102295	2.378140926361084	0.006374376360327005	0.6039151549339294	10
+247	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 usually have hamburgers, you can’	t	just	10.121129035949707	5.345086574554443	4.0220686059910804e-05	0.07707230001688004	10
+248	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 have hamburgers, you can’t	 make	a	6.785733222961426	5.235533237457275	0.001129779382608831	0.08988585323095322	10
+249	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 hamburgers, you can’t make	 the	to	7.6577582359313965	5.980859756469727	0.0004723651218228042	0.06886719912290573	10
+250	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	mburgers, you can’t make the	 assum	ment	9.544588088989258	2.9231884479522705	7.15876740287058e-05	0.28388357162475586	10
+251	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	urgers, you can’t make the assum	ption	that	12.981966018676758	2.6828367710113525	2.301462018294842e-06	0.5131785869598389	10
+252	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	gers, you can’t make the assumption	 that	.	5.318570137023926	3.9190099239349365	0.004899755585938692	0.21499395370483398	10
+253	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, you can’t make the assumption that	 I	would	6.50860071182251	4.384228706359863	0.0014905643183737993	0.11065049469470978	10
+254	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 you can’t make the assumption that I	’	d	8.959394454956055	1.8420436382293701	0.00012852413055952638	0.41266390681266785	10
+255	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 can’t make the assumption that I’	ll	be	7.691133975982666	4.648974418640137	0.0004568597942125052	0.26311561465263367	10
+256	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	’t make the assumption that I’ll	 like	to	8.220935821533203	4.01617431640625	0.00026896331110037863	0.28772032260894775	10
+257	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	t make the assumption that I’ll like	 the	to	7.694725513458252	5.860213756561279	0.00045522188884206116	0.06938472390174866	10
+258	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 make the assumption that I’ll like the	 ha	ird	2.153106451034546	4.349410057067871	0.11612287163734436	0.2749229967594147	10
+259	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the assumption that I’ll like the ha	mb	ur	10.707480430603027	0.35156482458114624	2.2376920242095366e-05	0.9608663320541382	10
+260	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 assumption that I’ll like the hamb	ur	ger	2.631981611251831	1.5103963613510132	0.07193577289581299	0.6893711090087891	10
+261	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ption that I’ll like the hambur	gers	.	10.795750617980957	4.911909103393555	2.0486377252382226e-05	0.15554212033748627	10
+262	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 that I’ll like the hamburgers	 here	in	8.876494407653809	3.2223618030548096	0.0001396328443661332	0.29249048233032227	10
+263	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 I’ll like the hamburgers here	"."""	</s>	4.228910446166992	4.821349620819092	0.01456825714558363	0.14618192613124847	10
+264	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’ll like the hamburgers here."""	 Le	af	6.516878128051758	5.704105377197266	0.0014782767975702882	0.18056149780750275	10
+265	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ll like the hamburgers here."" Le"	on	ard	6.475114822387695	3.949164628982544	0.0015413224464282393	0.3929970860481262	10
+266	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" like the hamburgers here."" Leon"	ard	o	6.050419330596924	4.747869491577148	0.002356873359531164	0.34533655643463135	10
+267	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the hamburgers here."" Leonard"	 roll	s	9.09886646270752	1.5453548431396484	0.00011179243301739916	0.7937286496162415	10
+268	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" hamburgers here."" Leonard roll"	ed	""""	8.84829044342041	4.228285312652588	0.0001436270249541849	0.227500781416893	10
+269	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"mburgers here."" Leonard rolled"	 his	""""	8.327536582946777	6.066580295562744	0.00024176684382837266	0.05696026235818863	10
+270	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"urgers here."" Leonard rolled his"	 eyes	.	8.665931701660156	3.15250825881958	0.0001723588356981054	0.45756980776786804	10
+271	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"gers here."" Leonard rolled his eyes"	 and	I	7.531142234802246	5.466423988342285	0.0005361254443414509	0.12095193564891815	10
+272	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" here."" Leonard rolled his eyes and"	 looked	at	9.631196022033691	4.580707550048828	6.564849900314584e-05	0.16483286023139954	10
+273	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" Leonard rolled his eyes and looked"	 at	a	7.754247665405273	5.673750400543213	0.00042891671182587743	0.09195485711097717	10
+274	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Leonard rolled his eyes and looked at	 P	but	4.551295280456543	5.94277811050415	0.010553526692092419	0.07051823288202286	10
+275	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	onard rolled his eyes and looked at P	en	cil	9.42507553100586	3.871673107147217	8.067553426371887e-05	0.26593315601348877	10
+276	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ard rolled his eyes and looked at Pen	ny	but	6.347404479980469	5.815421104431152	0.001751287025399506	0.06243031099438667	10
+277	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 rolled his eyes and looked at Penny	.	</s>	7.294214725494385	2.656705856323242	0.0006794581422582269	0.39414697885513306	10
+278	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ed his eyes and looked at Penny.	" """	""""	8.6105318069458	5.33282470703125	0.00018217696924693882	0.07498914748430252	10
+279	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" his eyes and looked at Penny. """	I	s	11.137810707092285	3.2739319801330566	1.4551588719768915e-05	0.45634570717811584	10
+280	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" eyes and looked at Penny. ""I"	'm	a	7.257537364959717	4.732272624969482	0.0007048416882753372	0.11627831310033798	10
+281	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" and looked at Penny. ""I'm"	 sorry	""""	3.772718906402588	3.322478771209717	0.02298947051167488	0.21482306718826294	10
+282	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" looked at Penny. ""I'm sorry"	"."""		9.764557838439941	5.3275556564331055	5.7452169130556285e-05	0.10756591707468033	10
+283	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" at Penny. ""I'm sorry."""	" """	D	6.75791072845459	4.876184463500977	0.0011616540141403675	0.11040323227643967	10
+284	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Penny. ""I'm sorry."" """	G	""""	9.250640869140625	5.210606098175049	9.605006198398769e-05	0.1973716914653778	10
+285	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"enny. ""I'm sorry."" ""G"	ive	""""	11.786796569824219	2.6613852977752686	7.604300662933383e-06	0.43601396679878235	10
+286	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ny. ""I'm sorry."" ""Give"	 him	""""	10.070838928222656	3.4593682289123535	4.229510159348138e-05	0.39572691917419434	10
+287	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""I'm sorry."" ""Give him"	 a	""""	5.004453659057617	4.856568336486816	0.00670800544321537	0.3469266891479492	10
+288	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""I'm sorry."" ""Give him a"	 ha	""""	2.5722131729125977	3.949453592300415	0.0763663500547409	0.22216005623340607	10
+289	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"I'm sorry."" ""Give him a ha"	mb	ur	11.273125648498535	0.2743358910083771	1.2709949260170106e-05	0.9701026678085327	10
+290	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"'m sorry."" ""Give him a hamb"	ur	ger	3.6041622161865234	0.42607754468917847	0.027210233733057976	0.9350495338439941	10
+291	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" sorry."" ""Give him a hambur"	ger	.	10.778421401977539	4.9812445640563965	2.0844474420300685e-05	0.09247352182865143	10
+292	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Give him a hamburger"	"."""	</s>	6.030915260314941	3.919135808944702	0.002403292804956436	0.4259191155433655	10
+293	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Give him a hamburger."""	" """	""""	5.553511142730713	4.492172718048096	0.003873831359669566	0.22349803149700165	10
+294	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"Give him a hamburger."" """	U	n	7.354203701019287	3.712829113006592	0.0006398967816494405	0.2387077957391739	10
+295	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ive him a hamburger."" ""U"	h	m	6.171611785888672	4.770129680633545	0.0020878685172647238	0.20720019936561584	10
+296	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" him a hamburger."" ""Uh"	,	you	6.860228061676025	5.534061431884766	0.0010486746905371547	0.08404216170310974	10
+297	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" a hamburger."" ""Uh,"	 which	""""	8.513269424438477	5.343212604522705	0.00020078620582353324	0.11634364724159241	10
+298	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" hamburger."" ""Uh, which"	 one	"?"""	6.517399311065674	2.943814516067505	0.001477506710216403	0.394461989402771	10
+299	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"mburger."" ""Uh, which one"	,	""""	6.775463104248047	5.730166435241699	0.001141441403888166	0.10483890771865845	10
+300	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"urger."" ""Uh, which one,"	 the	""""	6.447046279907227	6.198644638061523	0.0015851978678256273	0.06339029222726822	10
+301	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ger."" ""Uh, which one, the"	 Class	ic	9.174589157104492	2.1894850730895996	0.00010363983165007085	0.3483355939388275	10
+302	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Uh, which one, the Class"	ic	""""	12.492874145507812	3.580868721008301	3.7533050090132747e-06	0.27806270122528076	10
+303	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Uh, which one, the Classic"	 Bur	ger	4.2661285400390625	3.202486515045166	0.014036022126674652	0.3527382016181946	10
+304	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	Uh, which one, the Classic Bur	ger	?	12.964207649230957	2.4503517150878906	2.3426964617101476e-06	0.35846954584121704	10
+305	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	h, which one, the Classic Burger	,	etc	5.179094314575195	5.0168304443359375	0.005633105058223009	0.22226202487945557	10
+306	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, which one, the Classic Burger,	 the	S	7.176990032196045	4.908147811889648	0.0007639637915417552	0.13514883816242218	10
+307	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 which one, the Classic Burger, the	 R	EE	7.681408405303955	4.358232498168945	0.000461324758362025	0.06973852217197418	10
+308	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 one, the Classic Burger, the R	anch	,	13.767178535461426	4.201534748077393	1.0495191418158356e-06	0.2629173696041107	10
+309	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, the Classic Burger, the Ranch	 House	,	11.371328353881836	2.432335138320923	1.1521120541146956e-05	0.6185244917869568	10
+310	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the Classic Burger, the Ranch House	 Bur	Bur	1.569579839706421	3.1611526012420654	0.20813262462615967	0.20813262462615967	10
+311	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Classic Burger, the Ranch House Bur	ger	.	9.75206184387207	5.163905143737793	5.817455894430168e-05	0.10096891224384308	10
+312	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ic Burger, the Ranch House Burger	,	or	5.723295211791992	6.260238170623779	0.003268922446295619	0.07665348798036575	10
+313	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Burger, the Ranch House Burger,	 the	to	5.291107177734375	6.410635471343994	0.005036182701587677	0.044894538819789886	10
+314	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ger, the Ranch House Burger, the	 B	or	5.203296184539795	5.853155136108398	0.005498409736901522	0.04767635092139244	10
+315	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, the Ranch House Burger, the B	arb	ec	4.282209396362305	3.809166669845581	0.013812114484608173	0.24281321465969086	10
+316	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the Ranch House Burger, the Barb	ec	ue	9.20211410522461	0.5017750263214111	0.00010082602966576815	0.9022167921066284	10
+317	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Ranch House Burger, the Barbec	ue	R	9.448958396911621	4.684512138366699	7.877159077906981e-05	0.14881576597690582	10
+318	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	anch House Burger, the Barbecue	 Bur	Bur	0.8219040036201477	3.1833715438842773	0.4395938813686371	0.4395938813686371	10
+319	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 House Burger, the Barbecue Bur	ger	.	11.514440536499023	5.747891426086426	9.984861208067741e-06	0.05331713706254959	10
+320	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Burger, the Barbecue Burger	 or	I	6.376771926879883	5.511598587036133	0.00170060433447361	0.0713401734828949	10
+321	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ger, the Barbecue Burger or	 the	to	6.434148788452148	6.5709452629089355	0.001605774974450469	0.026928845793008804	10
+322	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, the Barbecue Burger or the	 Ko	be	5.498464584350586	3.904019832611084	0.004093052353709936	0.4682162404060364	10
+323	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the Barbecue Burger or the Ko	be	for	4.796453475952148	5.864991664886475	0.008258987218141556	0.04696938395500183	10
+324	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Barbecue Burger or the Kobe	 bur	ger	2.1242685317993164	3.7423601150512695	0.11952035129070282	0.20394521951675415	10
+325	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	arbecue Burger or the Kobe bur	ger	.	10.758445739746094	4.172264099121094	2.1265059331199154e-05	0.16844700276851654	10
+326	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ecue Burger or the Kobe burger	"?"""	</s>	7.111304759979248	3.6090617179870605	0.000815829960629344	0.4962046146392822	10
+327	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ue Burger or the Kobe burger?"""	" """	""""	6.091669082641602	4.424895286560059	0.0022616302594542503	0.289194256067276	10
+328	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Burger or the Kobe burger?"" """	C	h	10.70901870727539	4.807313919067383	2.2342537704389542e-05	0.1401565968990326	10
+329	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ger or the Kobe burger?"" ""C"	an	""""	7.568251609802246	4.314064025878906	0.0005165947368368506	0.24470923840999603	10
+330	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" or the Kobe burger?"" ""Can"	’	s	11.537731170654297	0.9069932699203491	9.754993698152248e-06	0.8134137392044067	10
+331	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the Kobe burger?"" ""Can’"	t	""""	10.537487030029297	5.5760817527771	2.6523312044446357e-05	0.1476498246192932	10
+332	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Kobe burger?"" ""Can’t"	 we	""""	5.564101219177246	5.066442489624023	0.0038330238312482834	0.08996523916721344	10
+333	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"be burger?"" ""Can’t we"	 just	""""	8.372331619262695	6.204330921173096	0.00023117595992516726	0.05426052212715149	10
+334	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" burger?"" ""Can’t we just"	 go	""""	4.599313735961914	4.994314193725586	0.010058734565973282	0.23222237825393677	10
+335	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ger?"" ""Can’t we just go"	 to	""""	4.896684646606445	4.023221015930176	0.0074713099747896194	0.4363895058631897	10
+336	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""Can’t we just go to"	 Big	S	7.278904914855957	4.198853015899658	0.0006899406434968114	0.1085449680685997	10
+337	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Can’t we just go to Big"	 Boy	s	6.485198020935059	3.8509328365325928	0.0015258585335686803	0.265245646238327	10
+338	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	Can’t we just go to Big Boy	"?"""	</s>	6.825444221496582	5.15281867980957	0.0010857934830710292	0.12998712062835693	10
+339	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"an’t we just go to Big Boy?"""	 asked	about	10.94272232055664	4.973285675048828	1.768625406839419e-05	0.14071804285049438	10
+340	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’t we just go to Big Boy?"" asked"	 She	to	6.2197675704956055	5.423471450805664	0.0019897078163921833	0.10646341741085052	10
+341	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"t we just go to Big Boy?"" asked She"	ld	es	12.951190948486328	3.7847251892089844	2.3733900889055803e-06	0.1556149125099182	10
+342	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" we just go to Big Boy?"" asked Sheld"	on	's	11.072664260864258	2.313053846359253	1.5531131793977693e-05	0.6840113997459412	10
+343	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" just go to Big Boy?"" asked Sheldon"	,	but	6.8342204093933105	5.6258544921875	0.0010763061000034213	0.06833400577306747	10
+344	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" go to Big Boy?"" asked Sheldon,"	 ex	-	5.584288597106934	4.533867359161377	0.003756421385332942	0.2999221682548523	10
+345	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" to Big Boy?"" asked Sheldon, ex"	as	ue	7.1182708740234375	5.326508045196533	0.0008101662970148027	0.1458146572113037	10
+346	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Big Boy?"" asked Sheldon, exas"	per	t	7.574613571166992	4.7851104736328125	0.0005133187514729798	0.13019324839115143	10
+347	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Boy?"" asked Sheldon, exasper"	ated	,	12.904004096984863	3.3486127853393555	2.4880685032258043e-06	0.4405655264854431	10
+348	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" asked Sheldon, exasperated"	.	I	6.32492733001709	4.324151992797852	0.0017910967580974102	0.1638825237751007	10
+349	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 asked Sheldon, exasperated.	" """	E	9.509007453918457	5.048309326171875	7.418062159558758e-05	0.09152396023273468	10
+350	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Sheldon, exasperated. """	The	""""	11.680559158325195	4.619106292724609	8.456634532194585e-06	0.253510057926178	10
+351	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ldon, exasperated. ""The"	y	are	7.613980293273926	4.445357322692871	0.0004935037577524781	0.19940991699695587	10
+352	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"on, exasperated. ""They"	 only	""""	7.885822296142578	5.302702903747559	0.00037603729288093746	0.1700596809387207	10
+353	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", exasperated. ""They only"	 have	to	6.209197998046875	4.389700412750244	0.0020108495373278856	0.2856982350349426	10
+354	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" exasperated. ""They only have"	 one	""""	5.124482154846191	5.465502738952637	0.005949296988546848	0.16208165884017944	10
+355	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"asperated. ""They only have one"	 bur	nt	3.57456111907959	4.164978504180908	0.028027726337313652	0.12205298244953156	10
+356	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"perated. ""They only have one bur"	ger	.	10.033658981323242	2.5491549968719482	4.3897256546188146e-05	0.35348379611968994	10
+357	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ated. ""They only have one burger"	"."""	</s>	7.585636138916016	4.899557113647461	0.0005076918168924749	0.06626234203577042	10
+358	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""They only have one burger."""	" """	H	6.898536205291748	4.584805965423584	0.0010092618176713586	0.1531006544828415	10
+359	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""They only have one burger."" """	The	y	14.195054054260254	3.9420247077941895	6.841739264018543e-07	0.42046114802360535	10
+360	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"They only have one burger."" ""The"	 Big	gest	5.187835216522217	4.580183029174805	0.005584082566201687	0.1528015434741974	10
+361	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"y only have one burger."" ""The Big"	 Boy	""""	7.715151786804199	2.192873001098633	0.0004460177442524582	0.4373958110809326	10
+362	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" only have one burger."" ""The Big Boy"	"."""	</s>	6.2490339279174805	4.83699369430542	0.0019323204178363085	0.15276563167572021	10
+363	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" have one burger."" ""The Big Boy."""	" """	H	7.591072082519531	5.037227630615234	0.0005049395258538425	0.06652257591485977	10
+364	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" one burger."" ""The Big Boy."" """	The	""""	12.405364036560059	6.225467681884766	4.09655467592529e-06	0.06162514537572861	10
+365	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" burger."" ""The Big Boy."" ""The"	 B	B	2.139613389968872	5.456747055053711	0.11770033091306686	0.11770033091306686	10
+366	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ger."" ""The Big Boy."" ""The B"	arb	ad	4.928092002868652	3.44480562210083	0.007240305654704571	0.18182894587516785	10
+367	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""The Big Boy."" ""The Barb"	ec	ue	7.59763765335083	0.4610659182071686	0.000501635018736124	0.9257554411888123	10
+368	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""The Big Boy."" ""The Barbec"	ue	""""	12.415874481201172	2.9637038707733154	4.053723387187347e-06	0.40472593903541565	10
+369	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"The Big Boy."" ""The Barbecue"	 Bur	ger	1.8946306705474854	3.0150880813598633	0.15037386119365692	0.315206915140152	10
+370	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Big Boy."" ""The Barbecue Bur"	ger	""""	13.36751937866211	2.149904251098633	1.565165462125151e-06	0.5554184913635254	10
+371	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Boy."" ""The Barbecue Burger"	 is	""""	7.317020416259766	4.847314834594727	0.000664138060528785	0.10909312963485718	10
+372	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""The Barbecue Burger is"	 like	,	8.383308410644531	5.5018696784973145	0.00022865214850753546	0.07114703208208084	10
+373	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""The Barbecue Burger is like"	 the	scene	8.132315635681152	6.354284763336182	0.00029388690018095076	0.07625522464513779	10
+374	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	The Barbecue Burger is like the	 Big	B	5.556631565093994	4.873643398284912	0.003861763048917055	0.07217768579721451	10
+375	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Barbecue Burger is like the Big	 Boy	s	5.229885578155518	4.635477066040039	0.005354138556867838	0.20256994664669037	10
+376	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	arbecue Burger is like the Big Boy	","""	""""	5.354372024536133	3.197697162628174	0.0047274366952478886	0.5044510960578918	10
+377	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ecue Burger is like the Big Boy,"""	 suggested	by	11.155716896057129	3.3838415145874023	1.4293340427684598e-05	0.233157217502594	10
+378	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ue Burger is like the Big Boy,"" suggested"	 P	OW	8.246260643005371	4.347812652587891	0.000262237386777997	0.19415001571178436	10
+379	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Burger is like the Big Boy,"" suggested P"	en	cil	8.178557395935059	5.569149971008301	0.0002806065313052386	0.07562344521284103	10
+380	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ger is like the Big Boy,"" suggested Pen"	ny	""""	10.22303581237793	2.53257155418396	3.632385050877929e-05	0.36850157380104065	10
+381	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" is like the Big Boy,"" suggested Penny"	.	</s>	7.652582168579102	4.559866428375244	0.0004748164501506835	0.12027690559625626	10
+382	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" like the Big Boy,"" suggested Penny."	" """	R	9.222740173339844	3.789926290512085	9.87676830845885e-05	0.11606527119874954	10
+383	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the Big Boy,"" suggested Penny. """	E	""""	7.45526647567749	5.167996883392334	0.0005783875240013003	0.12541703879833221	10
+384	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Big Boy,"" suggested Penny. ""E"	x	""""	6.534100532531738	5.726412773132324	0.0014530351618304849	0.07878321409225464	10
+385	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Boy,"" suggested Penny. ""Ex"	c	""""	9.68017578125	5.6324782371521	6.251054583117366e-05	0.08444669097661972	10
+386	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	","" suggested Penny. ""Exc"	use	""""	7.991576671600342	3.6693825721740723	0.000338300276780501	0.1748996078968048	10
+387	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" suggested Penny. ""Excuse"	 me	""""	5.337706565856934	5.705674171447754	0.004806882236152887	0.13055524230003357	10
+388	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Penny. ""Excuse me"	,	I	8.253279685974121	4.4411211013793945	0.0002604032342787832	0.2788093686103821	10
+389	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"enny. ""Excuse me,"	 in	a	6.688290596008301	5.806521415710449	0.001245409483090043	0.07184317708015442	10
+390	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ny. ""Excuse me, in"	 a	H	5.90742301940918	5.56991720199585	0.002719186246395111	0.09244310855865479	10
+391	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""Excuse me, in a"	 world	.	8.278108596801758	4.693698406219482	0.0002540172717999667	0.10297133028507233	10
+392	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Excuse me, in a world"	 that	I	6.5344343185424805	4.988882064819336	0.0014525501755997539	0.1587880700826645	10
+393	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	Excuse me, in a world that	 already	exists	12.930237770080566	5.524550914764404	2.4236462650151225e-06	0.07472009211778641	10
+394	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	xcuse me, in a world that already	 includes	stuff	12.983611106872559	5.40107536315918	2.2976789750828175e-06	0.14074723422527313	10
+395	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	cuse me, in a world that already includes	 the	second	8.747604370117188	5.390773773193359	0.00015884143067523837	0.12449772655963898	10
+396	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	use me, in a world that already includes the	 Big	D	8.114473342895508	4.123199462890625	0.0002991776564158499	0.15597820281982422	10
+397	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 me, in a world that already includes the Big	 Boy	s	7.229593276977539	2.0690019130706787	0.0007248154142871499	0.7141640782356262	10
+398	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, in a world that already includes the Big Boy	,		3.6593708992004395	5.190428733825684	0.025748707354068756	0.1153525859117508	10
+399	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 in a world that already includes the Big Boy,	 why	do	8.47121810913086	4.198507308959961	0.00020940956892445683	0.19184231758117676	10
+400	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 a world that already includes the Big Boy, why	 would	anyone	5.816709041595459	3.644108295440674	0.002977387746796012	0.20969048142433167	10
+401	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 world that already includes the Big Boy, why would	 I	ever	5.859638690948486	4.493662357330322	0.002852274337783456	0.20313714444637299	10
+402	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 that already includes the Big Boy, why would I	 settle	down	8.209980010986328	2.443943738937378	0.00027192625566385686	0.43924298882484436	10
+403	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 already includes the Big Boy, why would I settle	 for	a	5.241589546203613	3.9965200424194336	0.005291837267577648	0.33881503343582153	10
+404	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 includes the Big Boy, why would I settle for	 something	like	8.162932395935059	4.397181034088135	0.0002850253658834845	0.18316014111042023	10
+405	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the Big Boy, why would I settle for something	 like	a	8.07151985168457	3.9658401012420654	0.0003123081405647099	0.24125365912914276	10
+406	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Big Boy, why would I settle for something like	 a	g	5.024565696716309	6.2046709060668945	0.006574440281838179	0.05033180117607117	10
+407	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Boy, why would I settle for something like a	 Big	O	7.760341644287109	5.372102737426758	0.00042631084215827286	0.08028311282396317	10
+408	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, why would I settle for something like a Big	 Boy	,	7.665394306182861	4.931000232696533	0.00046877190470695496	0.21864748001098633	10
+409	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 why would I settle for something like a Big Boy	"?"""	I	6.284187316894531	5.817032337188721	0.0018655728781595826	0.06747366487979889	10
+410	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" would I settle for something like a Big Boy?"""	" """	N	7.448511123657227	4.846694469451904	0.0005823078099638224	0.06565780192613602	10
+411	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" I settle for something like a Big Boy?"" """	B	ad	7.223405838012695	5.230154991149902	0.0007293142843991518	0.0745825320482254	10
+412	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" settle for something like a Big Boy?"" ""B"	ecause	of	11.44194507598877	3.397038459777832	1.0735602700151503e-05	0.4722346365451813	10
+413	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" for something like a Big Boy?"" ""Because"	 you	""""	4.598311901092529	3.7431771755218506	0.010068818926811218	0.30849379301071167	10
+414	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" something like a Big Boy?"" ""Because you"	 are	""""	6.022394180297852	4.249960899353027	0.002423859667032957	0.32589349150657654	10
+415	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" like a Big Boy?"" ""Because you are"	 not	""""	6.302832126617432	5.157411575317383	0.0018311116145923734	0.179188072681427	10
+416	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" a Big Boy?"" ""Because you are not"	 at	""""	4.716697692871094	3.177617311477661	0.00894466694444418	0.5016034841537476	10
+417	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Big Boy?"" ""Because you are not at"	 Big	Time	7.42908239364624	3.9107494354248047	0.0005937320529483259	0.2846294641494751	10
+418	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Boy?"" ""Because you are not at Big"	 Boy	""""	6.95355749130249	2.681708335876465	0.0009552307892590761	0.4481504261493683	10
+419	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""Because you are not at Big Boy"	"!"""	</s>	6.251120567321777	3.3865349292755127	0.0019282917492091656	0.3969711363315582	10
+420	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Because you are not at Big Boy!"""	 said	by	9.313685417175293	4.134622097015381	9.01815656106919e-05	0.30047470331192017	10
+421	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"Because you are not at Big Boy!"" said"	 P	H	6.684338569641113	3.7571210861206055	0.0012503417674452066	0.1854701191186905	10
+422	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ecause you are not at Big Boy!"" said P"	en	ny	9.415308952331543	5.852410316467285	8.146731852320954e-05	0.06704627722501755	10
+423	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" you are not at Big Boy!"" said Pen"	ny	!	11.246623039245605	5.155397891998291	1.3051297173660714e-05	0.04708690196275711	10
+424	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" are not at Big Boy!"" said Penny"	 with	O	6.786308288574219	5.295555114746094	0.0011291296686977148	0.055302172899246216	10
+425	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" not at Big Boy!"" said Penny with"	 a	C	4.725567817687988	5.070468902587891	0.008865680545568466	0.0881837010383606	10
+426	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" at Big Boy!"" said Penny with a"	 gr	ill	3.0458412170410156	4.313470363616943	0.04755628481507301	0.20554280281066895	10
+427	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Big Boy!"" said Penny with a gr"	im	line	8.053308486938477	6.13596248626709	0.00031804805621504784	0.05845655873417854	10
+428	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Boy!"" said Penny with a grim"	ace	then	7.8033037185668945	5.729977607727051	0.0004083836392965168	0.05625937134027481	10
+429	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"!"" said Penny with a grimace"	,	I	5.010933876037598	4.809664249420166	0.006664675660431385	0.12845905125141144	10
+430	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 said Penny with a grimace,	 her	.	5.423309326171875	5.8104658126831055	0.004412520211189985	0.050162725150585175	10
+431	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Penny with a grimace, her	 pat	ients	7.510188102722168	4.535087585449219	0.000547477975487709	0.10810713469982147	10
+432	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	enny with a grimace, her pat	ience	.	10.860515594482422	3.1457507610321045	1.9201623217668384e-05	0.422926127910614	10
+433	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ny with a grimace, her patience	 wearing	.	10.279540061950684	4.039341926574707	3.4328302717767656e-05	0.31953346729278564	10
+434	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 with a grimace, her patience wearing	 thin	ner	7.076106071472168	2.682840347290039	0.000845057365950197	0.4835614860057831	10
+435	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 a grimace, her patience wearing thin	.	</s>	6.716782569885254	4.795943260192871	0.0012104264460504055	0.16989439725875854	10
+436	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 grimace, her patience wearing thin.	 She	d	9.030241966247559	5.898569107055664	0.00011973349319305271	0.09966100007295609	10
+437	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	imace, her patience wearing thin. She	ld	ing	9.291618347167969	5.499652862548828	9.219378989655524e-05	0.09012450277805328	10
+438	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ace, her patience wearing thin. Sheld	on	.	9.99219036102295	3.2943532466888428	4.575587445287965e-05	0.4188956320285797	10
+439	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, her patience wearing thin. Sheldon	 threw	me	10.452667236328125	3.7028255462646484	2.8871168979094364e-05	0.3396393358707428	10
+440	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 her patience wearing thin. Sheldon threw	 up	.	7.686845302581787	4.057072162628174	0.0004588233132380992	0.14961203932762146	10
+441	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 patience wearing thin. Sheldon threw up	 his	.	7.708542823791504	5.7751922607421875	0.00044897530460730195	0.11566677689552307	10
+442	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ience wearing thin. Sheldon threw up his	 hands	.	12.014737129211426	2.3173182010650635	6.0543288782355376e-06	0.6082180738449097	10
+443	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 wearing thin. Sheldon threw up his hands	 in	to	7.328452110290527	5.9861249923706055	0.0006565889343619347	0.08859578520059586	10
+444	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 thin. Sheldon threw up his hands in	 defe	at	8.98630428314209	4.435521125793457	0.00012511163367889822	0.298666775226593	10
+445	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	. Sheldon threw up his hands in defe	at	</s>	8.758813858032227	4.775920391082764	0.00015707076818216592	0.20010946691036224	10
+446	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Sheldon threw up his hands in defeat	.		7.325401782989502	5.256345748901367	0.0006585950031876564	0.1308947205543518	10
+447	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ldon threw up his hands in defeat.	" """	more	8.804999351501465	5.333455562591553	0.00014998136612121016	0.0713735893368721	10
+448	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"on threw up his hands in defeat. """	F	ake	11.26835823059082	4.343938827514648	1.2770688954333309e-05	0.2168809175491333	10
+449	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" threw up his hands in defeat. ""F"	ine	""""	10.434650421142578	5.797187805175781	2.9396036552498117e-05	0.11381912976503372	10
+450	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" up his hands in defeat. ""Fine"	,	there	9.865410804748535	4.6583638191223145	5.194052937440574e-05	0.1302787959575653	10
+451	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" his hands in defeat. ""Fine,"	 I	'm	4.434837818145752	4.249052047729492	0.01185698714107275	0.2404799461364746	10
+452	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" hands in defeat. ""Fine, I"	’	d	16.46294403076172	1.070534586906433	7.083282582698303e-08	0.7220478057861328	10
+453	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" in defeat. ""Fine, I’"	ll	be	8.199627876281738	3.7635717391967773	0.00027475590468384326	0.36276915669441223	10
+454	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" defeat. ""Fine, I’ll"	 have	to	6.064359188079834	1.8488609790802002	0.0023242472670972347	0.762294590473175	10
+455	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"at. ""Fine, I’ll have"	 the	""""	7.151120185852051	6.128759860992432	0.0007839854224584997	0.10361269116401672	10
+456	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""Fine, I’ll have the"	 B	IG	4.574792385101318	4.749727249145508	0.010308437049388885	0.0808984711766243	10
+457	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Fine, I’ll have the B"	arb	ec	4.5997443199157715	4.343433380126953	0.010054405778646469	0.17725598812103271	10
+458	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	Fine, I’ll have the Barb	ec	ue	10.299246788024902	0.21148724853992462	3.365842712810263e-05	0.9715547561645508	10
+459	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ine, I’ll have the Barbec	ue	to	9.84589958190918	5.634237766265869	5.296394374454394e-05	0.08901434391736984	10
+460	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, I’ll have the Barbecue	 Bur	Bur	1.587525725364685	4.1058030128479	0.20443080365657806	0.20443080365657806	10
+461	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 I’ll have the Barbecue Bur	ger	?	12.019280433654785	4.81874942779541	6.026886239851592e-06	0.18228057026863098	10
+462	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	’ll have the Barbecue Burger	"."""	</s>	4.075565338134766	4.360872745513916	0.016982613131403923	0.2219984382390976	10
+463	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ll have the Barbecue Burger."""	" """	""""	4.980026721954346	4.522368907928467	0.006873878184705973	0.23371799290180206	10
+464	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" have the Barbecue Burger."" """	M	""""	6.777736663818359	5.3350653648376465	0.0011388494167476892	0.14909185469150543	10
+465	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the Barbecue Burger."" ""M"	ake	""""	7.144071578979492	5.405406951904297	0.0007895309827290475	0.18220040202140808	10
+466	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Barbecue Burger."" ""Make"	 it	""""	5.8818559646606445	4.2091240882873535	0.0027896035462617874	0.372670978307724	10
+467	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"arbecue Burger."" ""Make it"	 two	""""	8.655694007873535	3.653409004211426	0.00017413252498954535	0.5208326578140259	10
+468	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ecue Burger."" ""Make it two"	","""	""""	3.6585440635681152	4.030900478363037	0.025770006701350212	0.40646862983703613	10
+469	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ue Burger."" ""Make it two,"""	 said	""""	8.559444427490234	4.166250228881836	0.00019172583415638655	0.3060673475265503	10
+470	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Burger."" ""Make it two,"" said"	 Le	v	4.739019393920898	5.930331230163574	0.00874722097069025	0.06199462711811066	10
+471	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ger."" ""Make it two,"" said Le"	on	""""	4.451372146606445	4.538763523101807	0.011662551201879978	0.16495953500270844	10
+472	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Make it two,"" said Leon"	ard	o	3.823843479156494	3.649013042449951	0.0218436811119318	0.48965030908584595	10
+473	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Make it two,"" said Leonard"	,	I	6.880171298980713	4.483427047729492	0.0010279681300744414	0.22579343616962433	10
+474	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"Make it two,"" said Leonard,"	 hand	,	8.440561294555664	4.446838855743408	0.0002159289870178327	0.15427033603191376	10
+475	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ake it two,"" said Leonard, hand"	ing	,	11.027612686157227	3.1481900215148926	1.624682772671804e-05	0.48361629247665405	10
+476	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" it two,"" said Leonard, handing"	 her	s	8.001130104064941	4.762858867645264	0.0003350838669575751	0.2933526039123535	10
+477	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" two,"" said Leonard, handing her"	 the	to	5.264429569244385	6.452646255493164	0.00517234206199646	0.020622018724679947	10
+478	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	","" said Leonard, handing her the"	 men	,	9.185640335083008	5.232232570648193	0.00010250080958940089	0.14452430605888367	10
+479	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 said Leonard, handing her the men	us	.	11.714523315429688	4.305106163024902	8.174235517799389e-06	0.16512520611286163	10
+480	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Leonard, handing her the menus	.	</s>	6.485541343688965	5.216968059539795	0.00152533536311239	0.18403391540050507	10
+481	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	onard, handing her the menus.	 P	he	5.5143232345581055	5.471163749694824	0.004028653725981712	0.12449833005666733	10
+482	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ard, handing her the menus. P	en	ny	10.409811019897461	5.50126314163208	3.013537025253754e-05	0.08014803379774094	10
+483	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, handing her the menus. Pen	ny	.	10.971627235412598	4.73784875869751	1.7182364899781533e-05	0.2558007836341858	10
+484	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 handing her the menus. Penny	 sm	ack	4.645517349243164	4.502819538116455	0.009604557417333126	0.13127005100250244	10
+485	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ing her the menus. Penny sm	iled	j	13.52177906036377	5.384117126464844	1.341423512712936e-06	0.11223636567592621	10
+486	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 her the menus. Penny smiled	 at	.	5.088589668273926	5.389484882354736	0.006166711915284395	0.08561329543590546	10
+487	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the menus. Penny smiled at	 him	.	8.028968811035156	3.9249355792999268	0.00032588414615020156	0.426361620426178	10
+488	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 menus. Penny smiled at him	.		8.2603120803833	3.634795665740967	0.0002585782203823328	0.25401729345321655	10
+489	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	us. Penny smiled at him.	" """	""""	8.135700225830078	5.3378448486328125	0.0002928937319666147	0.0776151567697525	10
+490	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". Penny smiled at him. """	T	""""	8.641871452331543	5.247632026672363	0.00017655620467849076	0.14700275659561157	10
+491	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Penny smiled at him. ""T"	han	ks	10.163110733032227	1.4550912380218506	3.856712282868102e-05	0.5864459276199341	10
+492	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"enny smiled at him. ""Than"	k	you	8.8079252243042	2.173536777496338	0.0001495431934017688	0.6426923274993896	10
+493	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ny smiled at him. ""Thank"	 you	.	5.555377960205078	4.035266399383545	0.003866607788950205	0.2563368082046509	10
+494	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" smiled at him. ""Thank you"	 Le	""""	4.908232688903809	5.749270915985107	0.007385526783764362	0.04890843480825424	10
+495	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"iled at him. ""Thank you Le"	on	ard	9.079447746276855	4.213315010070801	0.00011398449714761227	0.17425797879695892	10
+496	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" at him. ""Thank you Leon"	ard	""""	7.719399452209473	4.003596305847168	0.0004441272176336497	0.3108077943325043	10
+497	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" him. ""Thank you Leonard"	"."""	</s>	8.696367263793945	3.9567534923553467	0.00016719216364435852	0.24895791709423065	10
+498	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""Thank you Leonard."""	" """	""""	6.811898231506348	4.8097052574157715	0.0011006015120074153	0.21752522885799408	10
+499	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Thank you Leonard."" """	B	""""	5.5490312576293945	5.844179153442383	0.00389122380875051	0.09066178649663925	10
+500	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"Thank you Leonard."" ""B"	y	""""	7.61079216003418	4.040640830993652	0.0004950795555487275	0.40879276394844055	10
+501	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"hank you Leonard."" ""By"	 the	""""	6.041908264160156	6.082362174987793	0.0023770183324813843	0.13942913711071014	10
+502	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"k you Leonard."" ""By the"	 way	""""	6.3534698486328125	4.446386337280273	0.0017406971892341971	0.24501878023147583	10
+503	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" you Leonard."" ""By the way"	,	you	8.465314865112305	5.231843948364258	0.0002106495521729812	0.09285978972911835	10
+504	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Leonard."" ""By the way,"	 I	""""	4.745157241821289	4.636504173278809	0.008693695068359375	0.26494622230529785	10
+505	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"onard."" ""By the way, I"	 saw	""""	10.026335716247559	3.8107476234436035	4.421987978275865e-05	0.41157248616218567	10
+506	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ard."" ""By the way, I saw"	 you	,	6.924070835113525	4.672192096710205	0.0009838169207796454	0.15489478409290314	10
+507	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""By the way, I saw you"	 come	"."""	6.848572731018066	3.3048512935638428	0.0010609690798446536	0.344454824924469	10
+508	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""By the way, I saw you come"	 home	.	9.868061065673828	3.1195309162139893	5.180305743124336e-05	0.48372504115104675	10
+509	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	By the way, I saw you come home	 with	a	8.873353958129883	5.355461597442627	0.000140072064823471	0.1555641144514084	10
+510	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	y the way, I saw you come home with	 your	next	8.765811920166016	5.132784843444824	0.00015597550373058766	0.20945946872234344	10
+511	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the way, I saw you come home with your	 date	I	10.242292404174805	4.739982604980469	3.563107748050243e-05	0.09116450697183609	10
+512	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 way, I saw you come home with your date	 last	thing	6.710000038146973	2.74379825592041	0.0012186643434688449	0.5550673604011536	10
+513	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, I saw you come home with your date last	 night	.	8.404511451721191	1.5896574258804321	0.0002238550951005891	0.6863126158714294	10
+514	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 I saw you come home with your date last night	"!"""	</s>	5.531351089477539	4.4041056632995605	0.003960633184760809	0.3323509991168976	10
+515	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" saw you come home with your date last night!"""	" """	""""	6.122194766998291	2.5648996829986572	0.0021936355624347925	0.6728179454803467	10
+516	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" you come home with your date last night!"" """	I	""""	10.899169921875	4.014011383056641	1.8473570889909752e-05	0.25096064805984497	10
+517	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" come home with your date last night!"" ""I"	’	d	13.768342971801758	0.8811004757881165	1.0482980314918677e-06	0.8049862384796143	10
+518	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" home with your date last night!"" ""I’"	m	""""	9.374312400817871	4.190424919128418	8.487657032674178e-05	0.3266328275203705	10
+519	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" with your date last night!"" ""I’m"	 so	""""	3.201672077178955	5.437878608703613	0.04069410264492035	0.10999879240989685	10
+520	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" your date last night!"" ""I’m so"	 happy	""""	5.65831184387207	5.141190052032471	0.0034884014166891575	0.13243813812732697	10
+521	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" date last night!"" ""I’m so happy"	 for	a	5.980281829833984	4.083238124847412	0.0025281135458499193	0.3369103670120239	10
+522	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" last night!"" ""I’m so happy for"	 you	""""	6.9614105224609375	2.749619483947754	0.0009477587882429361	0.5745713114738464	10
+523	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" night!"" ""I’m so happy for you"	"."""		6.9471869468688965	5.101151466369629	0.0009613357251510024	0.1372479647397995	10
+524	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"!"" ""I’m so happy for you."""	 Le	v	4.841000556945801	5.568523406982422	0.007899144664406776	0.07467172294855118	10
+525	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""I’m so happy for you."" Le"	on	ard	5.911927223205566	3.974411725997925	0.0027069642674177885	0.4458484351634979	10
+526	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"I’m so happy for you."" Leon"	ard	o	5.428967475891113	6.197970390319824	0.004387622699141502	0.06668737530708313	10
+527	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’m so happy for you."" Leonard"	 turned	into	6.814555644989014	3.3164961338043213	0.001097681000828743	0.5539047718048096	10
+528	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"m so happy for you."" Leonard turned"	 to	be	4.895893096923828	5.556973457336426	0.007477227598428726	0.19153764843940735	10
+529	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" so happy for you."" Leonard turned to"	 She	's	2.881734848022461	5.042912006378174	0.056037455797195435	0.14376553893089294	10
+530	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" happy for you."" Leonard turned to She"	ld	or	8.477510452270508	5.378066539764404	0.00020809618581552058	0.1154017448425293	10
+531	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" for you."" Leonard turned to Sheld"	on	""""	7.804412841796875	4.894561290740967	0.00040793081279844046	0.07615172117948532	10
+532	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" you."" Leonard turned to Sheldon"	 as	a	5.53923225402832	4.612051486968994	0.003929543308913708	0.13048182427883148	10
+533	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" Leonard turned to Sheldon as"	 P	I	2.623323440551758	4.310939311981201	0.07256131619215012	0.21583722531795502	10
+534	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Leonard turned to Sheldon as P	en	ny	7.434654712677002	5.72208309173584	0.0005904328427277505	0.08157723397016525	10
+535	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	onard turned to Sheldon as Pen	ny	.	8.622625350952148	4.612896919250488	0.00017998713883571327	0.14288553595542908	10
+536	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ard turned to Sheldon as Penny	 walked	.	9.668200492858887	3.9871740341186523	6.326360016828403e-05	0.32119470834732056	10
+537	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 turned to Sheldon as Penny walked	 away	.	9.247602462768555	3.5606160163879395	9.634233720134944e-05	0.26532480120658875	10
+538	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 to Sheldon as Penny walked away	.	</s>	6.192763328552246	3.634385108947754	0.002044170629233122	0.36355075240135193	10
+539	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Sheldon as Penny walked away.	" """	""""	8.000679969787598	5.388673782348633	0.0003352346830070019	0.07666382938623428	10
+540	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ldon as Penny walked away. """	What	s	10.899205207824707	4.682860851287842	1.847290877776686e-05	0.1567803919315338	10
+541	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"on as Penny walked away. ""What"	 did	you	7.4997663497924805	2.8878867626190186	0.0005532135255634785	0.4861654043197632	10
+542	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" as Penny walked away. ""What did"	 she	do	7.043830871582031	4.961892127990723	0.0008727764943614602	0.13588950037956238	10
+543	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Penny walked away. ""What did she"	 mean	""""	9.13455867767334	3.604053258895874	0.0001078726927516982	0.3204224407672882	10
+544	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"enny walked away. ""What did she mean"	,	I	9.390674591064453	5.770125865936279	8.349910785909742e-05	0.04710695892572403	10
+545	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ny walked away. ""What did she mean,"	 she	d	6.1922607421875	4.847336769104004	0.0020451981108635664	0.13888466358184814	10
+546	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" walked away. ""What did she mean, she"	’	s	14.363594055175781	0.7830144166946411	5.78056528866e-07	0.525169849395752	10
+547	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" away. ""What did she mean, she’"	s	a	9.158207893371582	5.244255542755127	0.00010535152250668034	0.09995060414075851	10
+548	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""What did she mean, she’s"	 happy	,	6.035787582397461	4.622981071472168	0.002391611924394965	0.11963734775781631	10
+549	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""What did she mean, she’s happy"	 for	me	8.202576637268066	3.56339693069458	0.0002739468473009765	0.28376305103302	10
+550	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	What did she mean, she’s happy for	 me	,	5.707277774810791	3.5089449882507324	0.0033217023592442274	0.2489328235387802	10
+551	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 did she mean, she’s happy for me	"?"""	</s>	6.14569616317749	4.8898162841796875	0.0021426838357001543	0.28752660751342773	10
+552	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" she mean, she’s happy for me?"""	" """	""""	7.680899620056152	5.1244611740112305	0.0004615595389623195	0.1558278501033783	10
+553	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" mean, she’s happy for me?"" """	I	""""	6.697575569152832	4.914645195007324	0.001233899500221014	0.2630179822444916	10
+554	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", she’s happy for me?"" ""I"	s	there	7.8980584144592285	4.600764274597168	0.00037146409158594906	0.15840627253055573	10
+555	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" she’s happy for me?"" ""Is"	 she	's	3.431952476501465	5.267871379852295	0.03232376277446747	0.09123429656028748	10
+556	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’s happy for me?"" ""Is she"	 happy	""""	5.280200958251953	5.271924018859863	0.005091406870633364	0.1503525823354721	10
+557	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"s happy for me?"" ""Is she happy"	 because	of	9.060091972351074	1.5444403886795044	0.0001162122716777958	0.7690046429634094	10
+558	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" happy for me?"" ""Is she happy because"	 I	""""	4.409256458282471	4.970763206481934	0.012164222076535225	0.1422680765390396	10
+559	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" for me?"" ""Is she happy because I"	’	d	14.155315399169922	1.1684247255325317	7.119091378626763e-07	0.6816180944442749	10
+560	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" me?"" ""Is she happy because I’"	m	a	11.191689491271973	4.748497009277344	1.3788303476758301e-05	0.17837047576904297	10
+561	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""Is she happy because I’m"	 seeing	a	10.079732894897461	5.454972267150879	4.192063715890981e-05	0.07397802919149399	10
+562	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Is she happy because I’m seeing"	 someone	and	7.751204013824463	4.504443168640137	0.00043022428872063756	0.20653170347213745	10
+563	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	Is she happy because I’m seeing someone	,	and	5.496774673461914	4.209550380706787	0.004099973943084478	0.16699792444705963	10
+564	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	s she happy because I’m seeing someone,	 or	that	5.708972930908203	5.108138084411621	0.0033160760067403316	0.09406468272209167	10
+565	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 she happy because I’m seeing someone, or	 is	it	7.0545878410339355	2.6133413314819336	0.0008634385885670781	0.5087374448776245	10
+566	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 happy because I’m seeing someone, or is	 she	to	4.274955749511719	5.127208709716797	0.013912664726376534	0.16832005977630615	10
+567	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 because I’m seeing someone, or is she	 happy	to	6.407772541046143	3.8600118160247803	0.0016486929962411523	0.18383364379405975	10
+568	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 I’m seeing someone, or is she happy	 because	of	7.632819175720215	1.401033639907837	0.0004842936177738011	0.8221144676208496	10
+569	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	’m seeing someone, or is she happy because	 she	's	5.308651924133301	4.5233635902404785	0.004948592744767666	0.25153157114982605	10
+570	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	m seeing someone, or is she happy because she	 thinks	about	5.593749046325684	2.7289347648620605	0.0037210520822554827	0.5947679877281189	10
+571	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 seeing someone, or is she happy because she thinks	 that	she	6.806758880615234	4.80027961730957	0.001106272335164249	0.12792111933231354	10
+572	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 someone, or is she happy because she thinks that	 I	have	5.21885871887207	5.2277936935424805	0.005413503851741552	0.06752388179302216	10
+573	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, or is she happy because she thinks that I	’	ve	11.707459449768066	1.0404709577560425	8.232182153733447e-06	0.6347833275794983	10
+574	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 or is she happy because she thinks that I’	m	a	9.439407348632812	4.970954418182373	7.95275263953954e-05	0.21969369053840637	10
+575	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 is she happy because she thinks that I’m	 happy	to	5.612274169921875	3.4737491607666016	0.0036527521442621946	0.3238683342933655	10
+576	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 she happy because she thinks that I’m happy	,	I	8.410514831542969	4.593225002288818	0.00022251525660976768	0.14780795574188232	10
+577	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 happy because she thinks that I’m happy,	 because	of	5.164522647857666	3.422606945037842	0.0057157897390425205	0.4241993725299835	10
+578	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 because she thinks that I’m happy, because	 anyone	who	7.520077228546143	4.662149429321289	0.0005420906818471849	0.09424365311861038	10
+579	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 she thinks that I’m happy, because anyone	 who	wants	5.160426139831543	5.476396560668945	0.00573925394564867	0.057038143277168274	10
+580	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 thinks that I’m happy, because anyone who	 care	d	7.74960994720459	2.396162986755371	0.00043091055704280734	0.5338502526283264	10
+581	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 that I’m happy, because anyone who care	d	about	7.8213653564453125	3.9711272716522217	0.0004010737466160208	0.2699682116508484	10
+582	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 I’m happy, because anyone who cared	 for	a	5.515666484832764	4.146627426147461	0.00402324553579092	0.3152647316455841	10
+583	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	’m happy, because anyone who cared for	 someone	's	8.470090866088867	3.357926607131958	0.00020964580471627414	0.43645402789115906	10
+584	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	m happy, because anyone who cared for someone	 would	be	9.321743965148926	3.507622718811035	8.945773879531771e-05	0.22078076004981995	10
+585	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 happy, because anyone who cared for someone would	 want	to	8.050291061401367	0.9061442613601685	0.0003190091229043901	0.8638148307800293	10
+586	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, because anyone who cared for someone would want	 them	,	7.75945520401001	2.3777365684509277	0.00042668895912356675	0.35963690280914307	10
+587	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 because anyone who cared for someone would want them	 to	be	3.740257501602173	3.6354258060455322	0.023747988045215607	0.45105427503585815	10
+588	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 anyone who cared for someone would want them to	 be	a	7.470577239990234	5.784321308135986	0.0005695993895642459	0.06307284533977509	10
+589	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 who cared for someone would want them to be	 happy	with	6.634778022766113	4.066303253173828	0.001313870190642774	0.19227463006973267	10
+590	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 cared for someone would want them to be happy	,		4.431074142456055	5.8265299797058105	0.011901695281267166	0.04767727479338646	10
+591	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	d for someone would want them to be happy,	 even	if	9.120463371276855	3.5776944160461426	0.00010940396168734878	0.46309584379196167	10
+592	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 for someone would want them to be happy, even	 if	it	5.987032890319824	2.3215808868408203	0.0025111038703471422	0.45640742778778076	10
+593	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 someone would want them to be happy, even if	 the	are	6.7344865798950195	5.782595157623291	0.0011891855392605066	0.07660596072673798	10
+594	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 would want them to be happy, even if the	 reason	for	9.1689453125	2.436368465423584	0.00010422640480101109	0.375337153673172	10
+595	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 want them to be happy, even if the reason	 for	a	5.604381561279297	5.551741600036621	0.003681695554405451	0.07825267314910889	10
+596	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 them to be happy, even if the reason for	 their	s	6.0938191413879395	4.164028644561768	0.0022567734122276306	0.4194744825363159	10
+597	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 to be happy, even if the reason for their	 happ	iness	12.396269798278809	0.1682865172624588	4.1339790186611935e-06	0.9791132807731628	10
+598	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 be happy, even if the reason for their happ	iness	.	9.147672653198242	4.328125476837158	0.0001064673051587306	0.16983802616596222	10
+599	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 happy, even if the reason for their happiness	 made	to	8.515098571777344	4.065734386444092	0.00020041943935211748	0.2017802745103836	10
+600	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, even if the reason for their happiness made	 the	to	6.927428245544434	5.889524459838867	0.0009805192239582539	0.07819845527410507	10
+601	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 even if the reason for their happiness made the	 first	to	5.978675365447998	5.3908185958862305	0.0025321783032268286	0.11949193477630615	10
+602	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 if the reason for their happiness made the first	 person	in	6.777128219604492	4.7180585861206055	0.001139543135650456	0.12018924206495285	10
+603	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the reason for their happiness made the first person	 un	ha	5.661434173583984	3.7688379287719727	0.0034775251988321543	0.2853776514530182	10
+604	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 reason for their happiness made the first person un	ha	ppy	3.9911983013153076	3.7702627182006836	0.018477559089660645	0.37648501992225647	10
+605	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 for their happiness made the first person unha	ppy	and	12.547920227050781	5.218994140625	3.552282350938185e-06	0.06405876576900482	10
+606	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 their happiness made the first person unhappy	"."""	</s>	5.528964519500732	5.048083305358887	0.003970097750425339	0.11491820961236954	10
+607	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" happiness made the first person unhappy."""	" """	""""	5.270199775695801	5.260025501251221	0.005142583046108484	0.12947429716587067	10
+608	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"iness made the first person unhappy."" """	You	are	11.545215606689453	3.735247850418091	9.682255949883256e-06	0.2742626965045929	10
+609	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" made the first person unhappy."" ""You"	 know	how	7.431014060974121	4.374630451202393	0.0005925863515585661	0.13168668746948242	10
+610	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the first person unhappy."" ""You know"	,	for	8.535688400268555	4.99942684173584	0.00019633496413007379	0.07792312651872635	10
+611	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" first person unhappy."" ""You know,"	 because	of	8.641644477844238	1.3090085983276367	0.00017659620789345354	0.842710018157959	10
+612	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" person unhappy."" ""You know, because"	 the	""""	7.382877826690674	6.1664204597473145	0.0006218089256435633	0.05204547569155693	10
+613	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" unhappy."" ""You know, because the"	 second	ary	5.466263294219971	5.7359299659729	0.004226997960358858	0.08695088326931	10
+614	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"happy."" ""You know, because the second"	 person	""""	7.615809440612793	4.33200216293335	0.0004926018300466239	0.14348046481609344	10
+615	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ppy."" ""You know, because the second person"	,	I	8.127113342285156	5.125161170959473	0.00029541991534642875	0.12676309049129486	10
+616	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""You know, because the second person,"	 though	,	10.583386421203613	3.8461790084838867	2.5333411031169817e-05	0.20808254182338715	10
+617	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""You know, because the second person, though"	 happy	to	6.691768169403076	5.188595294952393	0.001241086283698678	0.12718228995800018	10
+618	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	You know, because the second person, though happy	,	I	8.496533393859863	4.81964635848999	0.00020417502673808485	0.17213982343673706	10
+619	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 know, because the second person, though happy,	 is	a	6.779738426208496	5.557214736938477	0.0011365721002221107	0.09821982681751251	10
+620	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, because the second person, though happy, is	 now	,	7.300304889678955	2.9652750492095947	0.0006753329071216285	0.3780450224876404	10
+621	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 because the second person, though happy, is now	 rom	antic	6.680688858032227	2.027829647064209	0.0012549135135486722	0.4403623640537262	10
+622	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the second person, though happy, is now rom	ant	ically	9.699146270751953	1.679471492767334	6.133583519840613e-05	0.6941359043121338	10
+623	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 second person, though happy, is now romant	ically	a	9.928155899047852	6.182466983795166	4.878165782429278e-05	0.04243720695376396	10
+624	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 person, though happy, is now romantically	 un	for	5.887547492980957	4.790805339813232	0.0027737717609852552	0.14462333917617798	10
+625	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, though happy, is now romantically un	av	al	6.930800914764404	5.2729034423828125	0.0009772179182618856	0.058959927409887314	10
+626	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 though happy, is now romantically unav	ail	able	14.30770492553711	0.653531551361084	6.11283269336127e-07	0.8239322900772095	10
+627	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 happy, is now romantically unavail	able	to	9.517346382141113	3.261911630630493	7.35646317480132e-05	0.30203914642333984	10
+628	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, is now romantically unavailable	 to	,	5.489212512969971	5.638478755950928	0.004131096415221691	0.12343866378068924	10
+629	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 is now romantically unavailable to	 the	back	7.741524696350098	6.1192498207092285	0.0004344088665675372	0.0447416752576828	10
+630	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 now romantically unavailable to the	 first	thing	5.810077667236328	5.486751079559326	0.002997196512296796	0.09746953845024109	10
+631	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 romantically unavailable to the first	 person	I	7.9179582595825195	5.805214881896973	0.0003641449729911983	0.07260891050100327	10
+632	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	antically unavailable to the first person	"."""		5.086016654968262	4.516013145446777	0.006182598881423473	0.18184523284435272	10
+633	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ically unavailable to the first person."""	 She	's	6.421573162078857	5.068542003631592	0.0016260960837826133	0.13316819071769714	10
+634	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" unavailable to the first person."" She"	ld	s	11.207181930541992	4.9952473640441895	1.3576342098531313e-05	0.1307407170534134	10
+635	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"available to the first person."" Sheld"	on	.	6.729320526123047	4.600520610809326	0.0011953444918617606	0.17716079950332642	10
+636	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ailable to the first person."" Sheldon"	 sat	at	8.598733901977539	4.807205677032471	0.0001843389472924173	0.12391994148492813	10
+637	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"able to the first person."" Sheldon sat"	 back	s	7.0528669357299805	2.21711802482605	0.0008649257360957563	0.6280449032783508	10
+638	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" to the first person."" Sheldon sat back"	 in	me	7.991962432861328	6.066120147705078	0.0003381697169970721	0.04409012943506241	10
+639	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" the first person."" Sheldon sat back in"	 his	to	6.516943454742432	6.628880023956299	0.0014781804056838155	0.04034657031297684	10
+640	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" first person."" Sheldon sat back in his"	 chair	s	11.911303520202637	0.6545251607894897	6.714079972880427e-06	0.9110408425331116	10
+641	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" person."" Sheldon sat back in his chair"	.	</s>	6.887786865234375	4.3397908210754395	0.001020168885588646	0.28261634707450867	10
+642	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" Sheldon sat back in his chair."	" """	""""	8.843069076538086	5.258879661560059	0.00014437899517361075	0.10170987248420715	10
+643	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Sheldon sat back in his chair. """	You	""""	9.487323760986328	4.710892677307129	7.580669625895098e-05	0.21567051112651825	10
+644	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ldon sat back in his chair. ""You"	’	d	14.50577449798584	2.0808334350585938	5.014436510464293e-07	0.3065620958805084	10
+645	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"on sat back in his chair. ""You’"	re	a	11.055095672607422	5.192651271820068	1.580639036546927e-05	0.11884503066539764	10
+646	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" sat back in his chair. ""You’re"	 a	part	4.756325721740723	6.5667524337768555	0.008597138337790966	0.023201629519462585	10
+647	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" back in his chair. ""You’re a"	 lucky	one	7.843696117401123	2.9813919067382812	0.00039221669430844486	0.5319879055023193	10
+648	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" in his chair. ""You’re a lucky"	 man	""""	8.987861633300781	1.2690850496292114	0.00012491691450122744	0.8011214733123779	10
+649	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" his chair. ""You’re a lucky man"	,	a	8.8477783203125	5.003763198852539	0.00014370071585290134	0.10064388066530228	10
+650	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" chair. ""You’re a lucky man,"	 Le	ake	5.836548328399658	5.350165367126465	0.002918899990618229	0.08453402668237686	10
+651	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""You’re a lucky man, Le"	on	ard	6.691837787628174	3.898747205734253	0.0012409997871145606	0.3420698940753937	10
+652	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""You’re a lucky man, Leon"	ard	o	4.367080211639404	4.071444988250732	0.012688235379755497	0.38979241251945496	10
+653	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	You’re a lucky man, Leonard	"."""	</s>	4.664516925811768	4.817525863647461	0.009423800744116306	0.15268363058567047	10
+654	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"’re a lucky man, Leonard."""	" """	""""	5.340600967407227	4.774489879608154	0.004792988765984774	0.28169718384742737	10
+655	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"re a lucky man, Leonard."" """	H	""""	5.939114093780518	4.734312057495117	0.002634362317621708	0.19623960554599762	10
+656	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" a lucky man, Leonard."" ""H"	ow	""""	9.583555221557617	4.239084720611572	6.885170296300203e-05	0.3481476902961731	10
+657	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" lucky man, Leonard."" ""How"	 so	""""	5.1085662841796875	5.463550567626953	0.006044743116945028	0.12635007500648499	10
+658	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" man, Leonard."" ""How so"	"?"""	</s>	8.38513469696045	4.598130702972412	0.00022823501785751432	0.277047723531723	10
+659	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", Leonard."" ""How so?"""	" """	D	6.461596488952637	3.222249746322632	0.001562299788929522	0.26299527287483215	10
+660	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" Leonard."" ""How so?"" """	You	""""	10.337418556213379	3.6897621154785156	3.239784564357251e-05	0.3632901906967163	10
+661	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"onard."" ""How so?"" ""You"	’	d	9.373187065124512	2.607999801635742	8.497211820213124e-05	0.28411760926246643	10
+662	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ard."" ""How so?"" ""You’"	re	a	9.646711349487305	5.450300216674805	6.46377811790444e-05	0.18068060278892517	10
+663	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""How so?"" ""You’re"	 talking	to	9.098970413208008	2.9528722763061523	0.00011178079876117408	0.5074222087860107	10
+664	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""How so?"" ""You’re talking"	 to	""""	10.950154304504395	3.2605206966400146	1.7555301383254118e-05	0.24161046743392944	10
+665	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"How so?"" ""You’re talking to"	 one	""""	12.071928977966309	2.647142171859741	5.717787644243799e-06	0.5520035624504089	10
+666	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ow so?"" ""You’re talking to one"	 of	""""	9.362005233764648	3.317786455154419	8.592758240411058e-05	0.26937273144721985	10
+667	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" so?"" ""You’re talking to one of"	 the	D	8.995284080505371	4.465181350708008	0.00012399317347444594	0.20086972415447235	10
+668	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""You’re talking to one of the"	 three	"."""	8.712340354919434	2.9088330268859863	0.00016454275464639068	0.4433375597000122	10
+669	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""You’re talking to one of the three"	 men	is	8.419232368469238	5.164236068725586	0.00022058385366108268	0.17483191192150116	10
+670	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	You’re talking to one of the three men	 in	ner	7.235578536987305	6.2548508644104	0.0007204904686659575	0.03079877980053425	10
+671	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	’re talking to one of the three men in	 the	line	7.76664924621582	5.945331573486328	0.0004236304957885295	0.11103053390979767	10
+672	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	re talking to one of the three men in the	 W	OR	8.87862777709961	4.551107406616211	0.0001393353013554588	0.10451613366603851	10
+673	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 talking to one of the three men in the W	estern	half	11.812288284301758	5.917389869689941	7.412899776682025e-06	0.09647972881793976	10
+674	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 to one of the three men in the Western	 he	n	5.669893264770508	4.153079032897949	0.00344823207706213	0.12720857560634613	10
+675	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 one of the three men in the Western he	m	is	5.977983474731445	5.976892471313477	0.002533931517973542	0.04470863938331604	10
+676	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 of the three men in the Western hem	is	p	6.455101490020752	4.783344268798828	0.0015724797267466784	0.29604122042655945	10
+677	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the three men in the Western hemis	p	here	6.532650470733643	4.2460737228393555	0.0014551440253853798	0.24055133759975433	10
+678	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 three men in the Western hemisp	here	.	9.967781066894531	4.416262149810791	4.688650733442046e-05	0.19617551565170288	10
+679	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 men in the Western hemisphere	 capable	of	14.879695892333984	1.1731593608856201	3.4500871493037266e-07	0.8616673946380615	10
+680	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 in the Western hemisphere capable	 of	being	8.00051498413086	5.097581386566162	0.0003352900384925306	0.24027971923351288	10
+681	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 the Western hemisphere capable of	 following	down	9.694920539855957	5.697737693786621	6.159555778140202e-05	0.05406656116247177	10
+682	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Western hemisphere capable of following	 that	is	6.432767868041992	6.234698295593262	0.0016079937340691686	0.0514717735350132	10
+683	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	estern hemisphere capable of following that	 train	ner	8.545024871826172	5.955063343048096	0.00019451035768724978	0.05360942333936691	10
+684	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 hemisphere capable of following that train	 of	I	5.922307968139648	6.552609443664551	0.0026790094561874866	0.03909898176789284	10
+685	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	misphere capable of following that train of	 thought	.	9.172266006469727	5.071569442749023	0.0001038808113662526	0.12373320013284683	10
+686	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	isphere capable of following that train of thought	"."""	""""	4.827942848205566	5.591262340545654	0.00800296664237976	0.11672160774469376	10
+687	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"phere capable of following that train of thought."""	" """	""""	5.928136348724365	5.435305118560791	0.002663441002368927	0.16079777479171753	10
+688	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"here capable of following that train of thought."" """	W	ake	7.88231897354126	4.161573886871338	0.0003773569187615067	0.15813198685646057	10
+689	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" capable of following that train of thought."" ""W"	ell	""""	11.384389877319336	4.916380882263184	1.1371620530553628e-05	0.11604524403810501	10
+690	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" of following that train of thought."" ""Well"	,	that	7.219049453735352	5.082113742828369	0.000732498592697084	0.07874353975057602	10
+691	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" following that train of thought."" ""Well,"	 what	are	5.294463157653809	4.589818477630615	0.005019308999180794	0.10928865522146225	10
+692	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" that train of thought."" ""Well, what"	 do	you	6.429839134216309	1.5065494775772095	0.0016127104172483087	0.787830114364624	10
+693	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" train of thought."" ""Well, what do"	 you	do	6.310909748077393	3.3576464653015137	0.0018163801869377494	0.41659775376319885	10
+694	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" of thought."" ""Well, what do you"	 think	of	8.142021179199219	2.122391939163208	0.0002910482289735228	0.46214911341667175	10
+695	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" thought."" ""Well, what do you think"	"?"""	</s>	7.397119522094727	3.8772287368774414	0.0006130159599706531	0.38321614265441895	10
+696	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Well, what do you think?"""	" """	D	8.16093635559082	3.998616933822632	0.00028559492784552276	0.14444173872470856	10
+697	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""Well, what do you think?"" """	I	""""	8.696064949035645	4.372883319854736	0.0001672426296863705	0.14740340411663055	10
+698	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"Well, what do you think?"" ""I"	 said	H	12.27169418334961	3.5884318351745605	4.682428425439866e-06	0.3350224494934082	10
+699	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ell, what do you think?"" ""I said"	 I	""""	4.59138822555542	4.057548999786377	0.010138774290680885	0.3465072214603424	10
+700	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", what do you think?"" ""I said I"	 could	""""	8.89061450958252	4.938299179077148	0.0001376750587951392	0.13962624967098236	10
+701	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" what do you think?"" ""I said I could"	 follow	""""	6.972279071807861	4.000195026397705	0.0009375138324685395	0.3531433641910553	10
+702	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" do you think?"" ""I said I could follow"	 it	""""	6.715822219848633	4.212855815887451	0.001211589202284813	0.24036654829978943	10
+703	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" you think?"" ""I said I could follow it"	,	I	8.873427391052246	5.201396942138672	0.00014006166020408273	0.16849826276302338	10
+704	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" think?"" ""I said I could follow it,"	 not	at	7.630387306213379	4.503852844238281	0.0004854727303609252	0.2500098943710327	10
+705	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""I said I could follow it, not"	 that	,	5.77197265625	4.442086219787598	0.0031136097386479378	0.24612119793891907	10
+706	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""I said I could follow it, not that"	 I	'm	5.449949264526367	3.0898637771606445	0.00429652351886034	0.24875633418560028	10
+707	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	I said I could follow it, not that I	 care	about	7.43929386138916	3.389357805252075	0.0005876999930478632	0.1913718432188034	10
+708	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 said I could follow it, not that I care	d	to	8.754050254821777	3.790076494216919	0.00015782078844495118	0.227134108543396	10
+709	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 I could follow it, not that I cared	"."""	</s>	4.174718379974365	4.85953426361084	0.015379520133137703	0.17928378283977509	10
+710	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" could follow it, not that I cared."""	 P	</s>	7.4380364418029785	6.092564105987549	0.0005884395213797688	0.029797695577144623	10
+711	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" follow it, not that I cared."" P"	en	cil	7.165826797485352	6.111597061157227	0.0007725398172624409	0.0517171248793602	10
+712	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" it, not that I cared."" Pen"	ny	s	12.786846160888672	5.242237091064453	2.797325578285381e-06	0.08961453288793564	10
+713	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", not that I cared."" Penny"	 return	s	10.905634880065918	0.8133702874183655	1.8354516214458272e-05	0.8274288177490234	10
+714	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" not that I cared."" Penny return"	ed	to	8.388340950012207	2.522279739379883	0.0002275043079862371	0.5957050919532776	10
+715	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" that I cared."" Penny returned"	 with	you	7.086589336395264	5.367567539215088	0.0008362446678802371	0.06725922971963882	10
+716	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" I cared."" Penny returned with"	 their	s	8.607694625854492	5.225975036621094	0.00018269453721586615	0.26212960481643677	10
+717	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" cared."" Penny returned with their"	 bur	gers	4.31648588180542	4.290353298187256	0.013346703723073006	0.1209813803434372	10
+718	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"d."" Penny returned with their bur"	gers	.	11.725672721862793	4.5539021492004395	8.083604370767716e-06	0.35352784395217896	10
+719	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" Penny returned with their burgers"	,	I	4.998377799987793	5.308134078979492	0.006748887710273266	0.16507039964199066	10
+720	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Penny returned with their burgers,	 and	by	8.87515640258789	3.8191277980804443	0.00013981979282107204	0.24531616270542145	10
+721	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	enny returned with their burgers, and	 She	's	5.9403076171875	4.180459976196289	0.002631220268085599	0.36591005325317383	10
+722	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ny returned with their burgers, and She	ld	ards	10.198594093322754	2.902996301651001	3.722259862115607e-05	0.4632887542247772	10
+723	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 returned with their burgers, and Sheld	on	's	8.265216827392578	4.799276828765869	0.00025731316418386996	0.3125978410243988	10
+724	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ed with their burgers, and Sheldon	 c	ooks	3.958299398422241	4.539610385894775	0.019095560535788536	0.16545124351978302	10
+725	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 with their burgers, and Sheldon c	aut	ions	8.482470512390137	2.302619695663452	0.00020706650684587657	0.39398524165153503	10
+726	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 their burgers, and Sheldon caut	iously	</s>	11.480073928833008	5.5118608474731445	1.033397620631149e-05	0.08809428662061691	10
+727	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 burgers, and Sheldon cautiously	 took	a	9.692733764648438	6.240753173828125	6.173039582790807e-05	0.03813759610056877	10
+728	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	gers, and Sheldon cautiously took	 a	c	4.257558822631836	6.039088726043701	0.014156822115182877	0.06300943344831467	10
+729	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, and Sheldon cautiously took a	 bite	of	10.788507461547852	2.8027570247650146	2.063530519080814e-05	0.4080491065979004	10
+730	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 and Sheldon cautiously took a bite	.	</s>	7.948383808135986	2.892472267150879	0.00035323266638442874	0.5661031007766724	10
+731	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 Sheldon cautiously took a bite.	 His	do	9.391975402832031	6.528064250946045	8.339054329553619e-05	0.03882355988025665	10
+732	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ldon cautiously took a bite. His	 eyes	are	5.898065567016602	4.478396415710449	0.0027447498869150877	0.2432056963443756	10
+733	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	on cautiously took a bite. His eyes	 w	i	3.8775875568389893	4.827307224273682	0.02070070244371891	0.07121451199054718	10
+734	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 cautiously took a bite. His eyes w	id	th	7.001744747161865	3.2844200134277344	0.0009102924959734082	0.3053225576877594	10
+735	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	autiously took a bite. His eyes wid	ened	.	12.520367622375488	2.86047625541687	3.651518682090682e-06	0.5376384258270264	10
+736	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	iously took a bite. His eyes widened	 in	a	7.921963214874268	3.854681968688965	0.0003626895777415484	0.5117336511611938	10
+737	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 took a bite. His eyes widened in	 surprise	.	7.610499382019043	2.8697586059570312	0.0004952246090397239	0.6059468388557434	10
+738	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 a bite. His eyes widened in surprise	,	and	7.139374732971191	4.335472106933594	0.0007932481239549816	0.2628272771835327	10
+739	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 bite. His eyes widened in surprise,	 and	a	5.466699600219727	5.481738567352295	0.004225153010338545	0.06743814796209335	10
+740	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	. His eyes widened in surprise, and	 he	was	5.991384506225586	5.460870742797852	0.002500199479982257	0.07520876079797745	10
+741	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 His eyes widened in surprise, and he	 bit	me	7.37626314163208	4.626721382141113	0.0006259355577640235	0.23109306395053864	10
+742	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 eyes widened in surprise, and he bit	 off	a	6.731359481811523	3.725040912628174	0.001192909781821072	0.3522028625011444	10
+743	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 widened in surprise, and he bit off	 a	thing	6.157053470611572	6.03194522857666	0.002118486212566495	0.07248546928167343	10
+744	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	idened in surprise, and he bit off a	 larger	one	8.611079216003418	5.052389621734619	0.0001820772886276245	0.2570878267288208	10
+745	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	ened in surprise, and he bit off a larger	 piece	of	10.371171951293945	2.581979990005493	3.1322575523518026e-05	0.44582685828208923	10
+746	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 in surprise, and he bit off a larger piece	.	</s>	8.583683013916016	4.203335762023926	0.00018713445751927793	0.3330007493495941	10
+747	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 surprise, and he bit off a larger piece.	" """	d	13.065135955810547	4.226405143737793	2.1177932012506062e-06	0.29206812381744385	10
+748	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	", and he bit off a larger piece. """	You	are	9.415388107299805	4.80940055847168	8.146087930072099e-05	0.14195288717746735	10
+749	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" and he bit off a larger piece. ""You"	 know	what	5.136422157287598	4.048064231872559	0.005878685973584652	0.24604880809783936	10
+750	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" he bit off a larger piece. ""You know"	,	I	8.101252555847168	5.16941499710083	0.0003031591768376529	0.07105795294046402	10
+751	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" bit off a larger piece. ""You know,"	 I	""""	6.404555320739746	4.646303653717041	0.0016540053766220808	0.21050281822681427	10
+752	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" off a larger piece. ""You know, I"	 think	.	6.275842189788818	5.1339898109436035	0.0018812059424817562	0.07772596180438995	10
+753	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" a larger piece. ""You know, I think"	 I	""""	5.168805122375488	4.561913013458252	0.005691366735845804	0.1716252714395523	10
+754	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" larger piece. ""You know, I think I"	 may	be	8.945266723632812	3.340134382247925	0.00013035272422712296	0.38509857654571533	10
+755	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" piece. ""You know, I think I may"	 have	to	6.06179141998291	3.676180839538574	0.002330222399905324	0.43809622526168823	10
+756	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	". ""You know, I think I may have"	 mis	chie	7.43776798248291	4.2714104652404785	0.0005885976715944707	0.2881534993648529	10
+757	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""You know, I think I may have mis"	j	ind	5.564351558685303	5.479407787322998	0.0038320650346577168	0.03700323402881622	10
+758	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	You know, I think I may have misj	ud	ged	4.036017894744873	3.9114415645599365	0.01766768842935562	0.1713290810585022	10
+759	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 know, I think I may have misjud	ged	a	13.863327026367188	3.8525798320770264	9.533087563795561e-07	0.2927666902542114	10
+760	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, I think I may have misjudged	 this	,	6.584673881530762	3.0169260501861572	0.0013813774567097425	0.3078238368034363	10
+761	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 I think I may have misjudged this	 restaurant	.	11.342363357543945	5.296024799346924	1.185971086670179e-05	0.10011692345142365	10
+762	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 think I may have misjudged this restaurant	"."""		5.731564998626709	5.531003952026367	0.0032420000061392784	0.07412481307983398	10
+763	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" I may have misjudged this restaurant."""	" """	""""	5.745494842529297	5.236460208892822	0.0031971526332199574	0.18020930886268616	10
+764	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" may have misjudged this restaurant."" """	I	s	9.264864921569824	2.8341522216796875	9.469352517044172e-05	0.5666992664337158	10
+765	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" have misjudged this restaurant."" ""I"	 won	't	8.096935272216797	1.3824703693389893	0.00030447065364569426	0.792019248008728	10
+766	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" misjudged this restaurant."" ""I won"	’	t	11.673587799072266	3.778184175491333	8.515798981534317e-06	0.3526894450187683	10
+767	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"judged this restaurant."" ""I won’"	t	""""	10.110147476196289	5.32215690612793	4.066479959874414e-05	0.15874256193637848	10
+768	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"udged this restaurant."" ""I won’t"	 go	to	6.699985027313232	4.858676433563232	0.0012309302110224962	0.1467602550983429	10
+769	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"ged this restaurant."" ""I won’t go"	 out	of	10.70966911315918	1.3356081247329712	2.2328005798044614e-05	0.8311461806297302	10
+770	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" this restaurant."" ""I won’t go out"	 on	here	5.742739677429199	6.106847763061523	0.003205973422154784	0.07819835841655731	10
+771	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" restaurant."" ""I won’t go out on"	 a	game	5.669755935668945	6.488098621368408	0.003448707517236471	0.024349821731448174	10
+772	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""I won’t go out on a"	 lim	p	10.85473346710205	2.468867301940918	1.9312969016027637e-05	0.529513418674469	10
+773	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" ""I won’t go out on a lim"	b	</s>	8.440507888793945	4.86394739151001	0.0002159404248232022	0.15315529704093933	10
+774	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	I won’t go out on a limb	,	I	7.33522891998291	5.382877349853516	0.0006521545583382249	0.07459796220064163	10
+775	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 won’t go out on a limb,	 but	a	5.087264537811279	5.239382266998291	0.0061748879961669445	0.07322204113006592	10
+776	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	’t go out on a limb, but	 I	'm	5.1613078117370605	4.402792930603027	0.0057341959327459335	0.21831077337265015	10
+777	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	t go out on a limb, but I	 think	they	5.453742027282715	4.869734287261963	0.004280256573110819	0.09808137267827988	10
+778	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 go out on a limb, but I think	 we	just	4.169755935668945	4.204984664916992	0.015456028282642365	0.13697272539138794	10
+779	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 out on a limb, but I think we	 may	be	9.046758651733398	2.9949393272399902	0.00011777214240282774	0.29162776470184326	10
+780	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 on a limb, but I think we may	 be	a	6.04856538772583	4.850464820861816	0.0023612468503415585	0.19877465069293976	10
+781	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 a limb, but I think we may be	 looking	for	8.693258285522461	2.8207221031188965	0.0001677127438597381	0.3166024386882782	10
+782	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 limb, but I think we may be looking	 at	some	3.8980185985565186	5.22639274597168	0.020282061770558357	0.09071801602840424	10
+783	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	b, but I think we may be looking at	 my	thing	7.66518497467041	5.134061813354492	0.0004688699555117637	0.23566924035549164	10
+784	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	, but I think we may be looking at my	 new	est	11.05574893951416	4.089866638183594	1.5796073057572357e-05	0.3145075738430023	10
+785	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 but I think we may be looking at my new	 T	right	4.482288360595703	3.885125160217285	0.011307509616017342	0.2107660174369812	10
+786	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 I think we may be looking at my new T	ues	day	10.343964576721191	0.5066755414009094	3.2186471798922867e-05	0.9384273886680603	10
+787	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 think we may be looking at my new Tues	day	s	14.080695152282715	2.8702280521392822	7.670641934964806e-07	0.6376165747642517	10
+788	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 we may be looking at my new Tuesday	 ha	v	3.3250300884246826	5.304563522338867	0.03597143664956093	0.09197680652141571	10
+789	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 may be looking at my new Tuesday ha	mb	ur	8.130852699279785	0.6803052425384521	0.0002943170547951013	0.9245477914810181	10
+790	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 be looking at my new Tuesday hamb	ur	ger	2.5103232860565186	1.1747055053710938	0.08124197274446487	0.7540620565414429	10
+791	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 looking at my new Tuesday hambur	ger	with	8.739870071411133	4.413181304931641	0.00016007469093892723	0.3653418719768524	10
+792	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	 at my new Tuesday hamburger	"."""	I	4.7203264236450195	4.951706886291504	0.008912267163395882	0.12996409833431244	10
+793	bigbang_transcript	transcript	facebook/blenderbot-400M-distill	" my new Tuesday hamburger."""	</s>		3.9122798442840576	5.432732582092285	0.019994864240288734	0.05348958820104599	10

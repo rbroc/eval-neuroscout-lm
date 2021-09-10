@@ -1,0 +1,510 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	shame_align	aligned	gpt2	brandon spotted marianne at a table as soon as he entered the	 restaurant	.	2.433708667755127	2.5601394176483154	0.0004131645546294749	0.5107887387275696	15
+1	shame_align	aligned	gpt2	andon spotted marianne at a table as soon as he entered the restaurant	 though	he	8.851302146911621	3.9875125885009766	0.00013744270836468786	0.21876439452171326	15
+2	shame_align	aligned	gpt2	 spotted marianne at a table as soon as he entered the restaurant though	 he	was	1.352201223373413	4.829799175262451	8.031722973100841e-05	0.16003569960594177	15
+3	shame_align	aligned	gpt2	 marianne at a table as soon as he entered the restaurant though he	 was	not	1.773398995399475	6.108921527862549	3.9958220440894365e-05	0.06975889205932617	15
+4	shame_align	aligned	gpt2	ianne at a table as soon as he entered the restaurant though he was	 already	in	3.547231912612915	6.104424476623535	0.0031112469732761383	0.04973107948899269	15
+5	shame_align	aligned	gpt2	ne at a table as soon as he entered the restaurant though he was already	 running	out	5.854135513305664	4.12493371963501	0.00019796211563516408	0.1341838389635086	15
+6	shame_align	aligned	gpt2	 at a table as soon as he entered the restaurant though he was already running	 late	.	2.732603073120117	2.758432626724243	0.00043850528891198337	0.445691853761673	15
+7	shame_align	aligned	gpt2	 a table as soon as he entered the restaurant though he was already running late	 he	was	6.9992356300354	5.2128777503967285	0.00014224453479982913	0.086983323097229	15
+8	shame_align	aligned	gpt2	 table as soon as he entered the restaurant though he was already running late he	 stood	up	6.10977840423584	3.1505374908447266	1.1099928997282404e-05	0.32455506920814514	15
+9	shame_align	aligned	gpt2	 as soon as he entered the restaurant though he was already running late he stood	 and	waited	3.217313528060913	5.508927345275879	0.0005257370066829026	0.05331658571958542	15
+10	shame_align	aligned	gpt2	 soon as he entered the restaurant though he was already running late he stood and	 watched	as	2.9970078468322754	3.4802749156951904	1.2636098290386144e-05	0.3274137079715729	15
+11	shame_align	aligned	gpt2	 as he entered the restaurant though he was already running late he stood and watched	 her	go	4.438935279846191	6.012731075286865	0.00022612475731875747	0.057896990329027176	15
+12	shame_align	aligned	gpt2	 he entered the restaurant though he was already running late he stood and watched her	 for	a	3.949180841445923	1.9598674774169922	0.00016495396266691387	0.6644803285598755	15
+13	shame_align	aligned	gpt2	 entered the restaurant though he was already running late he stood and watched her for	 a	while	0.40981924533843994	2.4969491958618164	6.1808132159058e-05	0.24956795573234558	15
+14	shame_align	aligned	gpt2	 the restaurant though he was already running late he stood and watched her for a	 moment	.	1.6682413816452026	3.158405065536499	8.221201278502122e-05	0.2745162546634674	15
+15	shame_align	aligned	gpt2	 restaurant though he was already running late he stood and watched her for a moment	 until	she	4.569631099700928	2.375162124633789	7.255514447024325e-06	0.3771839737892151	15
+16	shame_align	aligned	gpt2	 though he was already running late he stood and watched her for a moment until	 he	saw	1.055824637413025	4.404921531677246	6.49684589006938e-05	0.08820896595716476	15
+17	shame_align	aligned	gpt2	 he was already running late he stood and watched her for a moment until he	 was	sure	3.2644476890563965	5.349791049957275	3.300831303931773e-05	0.06805015355348587	15
+18	shame_align	aligned	gpt2	 was already running late he stood and watched her for a moment until he was	 interrupted	by	5.412102222442627	1.543729305267334	8.16750070953276e-06	0.6115394234657288	15
+19	shame_align	aligned	gpt2	 already running late he stood and watched her for a moment until he was interrupted	 by	a	0.5159520506858826	4.4132466316223145	1.3966955521027558e-05	0.25197723507881165	15
+20	shame_align	aligned	gpt2	 running late he stood and watched her for a moment until he was interrupted by	 the	sound	1.6196420192718506	6.7275238037109375	0.0003496393619570881	0.1265399158000946	15
+21	shame_align	aligned	gpt2	 late he stood and watched her for a moment until he was interrupted by the	 host	ess	9.609012603759766	3.205030918121338	0.0001856501621659845	0.3517802357673645	15
+22	shame_align	aligned	gpt2	 he stood and watched her for a moment until he was interrupted by the host	 are	wolf	11.023824691772461	3.791090250015259	0.00020229611254762858	0.5536811947822571	15
+23	shame_align	aligned	gpt2	 stood and watched her for a moment until he was interrupted by the host are	 you	?	5.34193754196167	5.843564987182617	0.0001642488787183538	0.049551304429769516	15
+24	shame_align	aligned	gpt2	 and watched her for a moment until he was interrupted by the host are you	 waiting	for	6.28207540512085	2.2762949466705322	0.0005080290138721466	0.5828924179077148	15
+25	shame_align	aligned	gpt2	 watched her for a moment until he was interrupted by the host are you waiting	 for	me	0.5567334294319153	2.9405388832092285	0.0003125491493847221	0.2918321490287781	15
+26	shame_align	aligned	gpt2	 her for a moment until he was interrupted by the host are you waiting for	 someone	to	4.439019680023193	2.550293445587158	9.07314388314262e-05	0.48565876483917236	15
+27	shame_align	aligned	gpt2	 for a moment until he was interrupted by the host are you waiting for someone	 sir	?	9.919650077819824	2.947964906692505	0.007159140892326832	0.40646830201148987	15
+28	shame_align	aligned	gpt2	 a moment until he was interrupted by the host are you waiting for someone sir	 oh	my	9.818585395812988	4.858786106109619	0.007018291857093573	0.1516447812318802	15
+29	shame_align	aligned	gpt2	 moment until he was interrupted by the host are you waiting for someone sir oh	 no	no	3.363006591796875	4.531481742858887	0.14459840953350067	0.14459840953350067	15
+30	shame_align	aligned	gpt2	 until he was interrupted by the host are you waiting for someone sir oh no	 my	god	4.308672904968262	5.225101947784424	0.007482664193958044	0.1700216382741928	15
+31	shame_align	aligned	gpt2	 he was interrupted by the host are you waiting for someone sir oh no my	 date	is	10.192671775817871	5.421499729156494	0.0010173035552725196	0.2227734923362732	15
+32	shame_align	aligned	gpt2	 was interrupted by the host are you waiting for someone sir oh no my date	's	not	4.055379867553711	5.967959403991699	4.971656744601205e-05	0.07446601986885071	15
+33	shame_align	aligned	gpt2	 interrupted by the host are you waiting for someone sir oh no my date's	 here	I	4.438039779663086	5.686995506286621	0.0012962260516360402	0.06053641811013222	15
+34	shame_align	aligned	gpt2	 by the host are you waiting for someone sir oh no my date's here	 thank	you	6.94888973236084	0.6323115229606628	5.2340539696160704e-05	0.9089444279670715	15
+35	shame_align	aligned	gpt2	 the host are you waiting for someone sir oh no my date's here thank	 you	for	0.10514821857213974	5.000120162963867	0.009515226818621159	0.11805948615074158	15
+36	shame_align	aligned	gpt2	 host are you waiting for someone sir oh no my date's here thank you	 said	thank	8.77966022491455	5.778676986694336	0.0007042140932753682	0.06278151273727417	15
+37	shame_align	aligned	gpt2	 are you waiting for someone sir oh no my date's here thank you said	 brand	new	11.250051498413086	3.289093255996704	0.0009298919467255473	0.5297139883041382	15
+38	shame_align	aligned	gpt2	 you waiting for someone sir oh no my date's here thank you said brand	on	"
+"	3.049959659576416	7.321331024169922	0.0001930023863678798	0.022693078964948654	15
+39	shame_align	aligned	gpt2	 waiting for someone sir oh no my date's here thank you said brandon	 and	i	4.65164852142334	5.836169719696045	0.0005632220418192446	0.09118739515542984	15
+40	shame_align	aligned	gpt2	 for someone sir oh no my date's here thank you said brandon and	 walked	away	8.20232105255127	2.984135150909424	1.5359446479124017e-05	0.20980305969715118	15
+41	shame_align	aligned	gpt2	 someone sir oh no my date's here thank you said brandon and walked	 quickly	to	7.395292282104492	4.180177688598633	0.00048634957056492567	0.170668363571167	15
+42	shame_align	aligned	gpt2	 sir oh no my date's here thank you said brandon and walked quickly	 over	to	3.147064208984375	2.5355358123779297	0.0006067063077352941	0.60350102186203	15
+43	shame_align	aligned	gpt2	 oh no my date's here thank you said brandon and walked quickly over	 to	the	0.5298711061477661	4.130197048187256	0.0003157343016937375	0.23721981048583984	15
+44	shame_align	aligned	gpt2	 no my date's here thank you said brandon and walked quickly over to	 table	.	7.57257604598999	4.372586727142334	0.0008810211438685656	0.2147923707962036	15
+45	shame_align	aligned	gpt2	 my date's here thank you said brandon and walked quickly over to table	 they	were	7.0321431159973145	4.847745895385742	0.000126314684166573	0.18277257680892944	15
+46	shame_align	aligned	gpt2	 date's here thank you said brandon and walked quickly over to table they	 greeted	me	7.469753265380859	3.090367317199707	5.363411037251353e-05	0.34707939624786377	15
+47	shame_align	aligned	gpt2	's here thank you said brandon and walked quickly over to table they greeted	 each	other	4.6114606857299805	0.581344723701477	9.365995356347412e-05	0.9227493405342102	15
+48	shame_align	aligned	gpt2	 here thank you said brandon and walked quickly over to table they greeted each	 other	with	0.08067966997623444	4.231553077697754	3.836904215859249e-05	0.1683027297258377	15
+49	shame_align	aligned	gpt2	 thank you said brandon and walked quickly over to table they greeted each other	 with	a	1.7516591548919678	4.606947422027588	9.540959581499919e-05	0.34043553471565247	15
+50	shame_align	aligned	gpt2	 you said brandon and walked quickly over to table they greeted each other with	 awkward	looks	7.390375137329102	4.21204137802124	0.0019391438690945506	0.14929325878620148	15
+51	shame_align	aligned	gpt2	 said brandon and walked quickly over to table they greeted each other with awkward	 <	b	11.329204559326172	6.2863383293151855	0.00026474776677787304	0.04239126667380333	15
+52	shame_align	aligned	gpt2	 brandon and walked quickly over to table they greeted each other with awkward <	unk	now	13.532212257385254	4.6048407554626465	5.357131522032432e-05	0.2644895315170288	15
+53	shame_align	aligned	gpt2	on and walked quickly over to table they greeted each other with awkward <unk	>	s	2.1550636291503906	6.058012008666992	0.001168709248304367	0.1235506683588028	15
+54	shame_align	aligned	gpt2	 and walked quickly over to table they greeted each other with awkward <unk>	 as	they	6.562479019165039	4.392618656158447	0.0006398759433068335	0.3179909288883209	15
+55	shame_align	aligned	gpt2	 walked quickly over to table they greeted each other with awkward <unk> as	 brand	new	11.135589599609375	3.589282512664795	0.00020075158681720495	0.26298198103904724	15
+56	shame_align	aligned	gpt2	 quickly over to table they greeted each other with awkward <unk> as brand	on	.	6.436596870422363	6.727695465087891	4.9560749175725505e-05	0.12256552278995514	15
+57	shame_align	aligned	gpt2	 over to table they greeted each other with awkward <unk> as brandon	 took	a	7.851127624511719	3.5237417221069336	7.336345333897043e-06	0.21109271049499512	15
+58	shame_align	aligned	gpt2	 to table they greeted each other with awkward <unk> as brandon took	 his	hand	2.8322997093200684	5.096827030181885	7.796604768373072e-05	0.16133487224578857	15
+59	shame_align	aligned	gpt2	 table they greeted each other with awkward <unk> as brandon took his	 seat	.	2.727229595184326	2.8565175533294678	0.00025692759663797915	0.40277454257011414	15
+60	shame_align	aligned	gpt2	 they greeted each other with awkward <unk> as brandon took his seat	 did	he	12.421085357666016	4.740983009338379	4.3068823288194835e-05	0.15687796473503113	15
+61	shame_align	aligned	gpt2	 greeted each other with awkward <unk> as brandon took his seat did	 you	?	2.3797805309295654	5.145466327667236	0.00035434000892564654	0.1044655442237854	15
+62	shame_align	aligned	gpt2	 each other with awkward <unk> as brandon took his seat did you	 find	yourself	4.935150146484375	3.9829530715942383	1.438117578800302e-05	0.1239614486694336	15
+63	shame_align	aligned	gpt2	 other with awkward <unk> as brandon took his seat did you find	 it	funny	2.103356122970581	5.1260504722595215	0.0002613652031868696	0.0771714523434639	15
+64	shame_align	aligned	gpt2	 with awkward <unk> as brandon took his seat did you find it	 ok	to	7.044404029846191	2.9422080516815186	0.0003187816764693707	0.3233048617839813	15
+65	shame_align	aligned	gpt2	 awkward <unk> as brandon took his seat did you find it ok	 he	was	7.482128620147705	5.352816581726074	0.00044509992585517466	0.12188210338354111	15
+66	shame_align	aligned	gpt2	 <unk> as brandon took his seat did you find it ok he	 asked	if	4.3500776290893555	3.7056469917297363	0.0002221841277787462	0.24654540419578552	15
+67	shame_align	aligned	gpt2	unk> as brandon took his seat did you find it ok he asked	 yes	and	8.422314643859863	5.809112548828125	0.013587619177997112	0.055307816714048386	15
+68	shame_align	aligned	gpt2	> as brandon took his seat did you find it ok he asked yes	 replied	yes	9.025866508483887	3.888153553009033	9.564944048179314e-05	0.3011334240436554	15
+69	shame_align	aligned	gpt2	 as brandon took his seat did you find it ok he asked yes replied	 mar	i	10.66880989074707	5.64816951751709	3.1205381674226373e-05	0.053736019879579544	15
+70	shame_align	aligned	gpt2	 brandon took his seat did you find it ok he asked yes replied mar	ian	"
+"	5.61654806137085	7.284194469451904	0.00032847930560819805	0.028751885518431664	15
+71	shame_align	aligned	gpt2	on took his seat did you find it ok he asked yes replied marian	ne	"
+"	4.451726913452148	6.437042713165283	3.349557300680317e-05	0.03713728487491608	15
+72	shame_align	aligned	gpt2	 took his seat did you find it ok he asked yes replied marianne	 with	a	5.3948073387146	3.8121297359466553	0.00013179672532714903	0.4281761050224304	15
+73	shame_align	aligned	gpt2	 his seat did you find it ok he asked yes replied marianne with	 a	smile	0.8027518391609192	4.9947123527526855	0.0003944787895306945	0.27392521500587463	15
+74	shame_align	aligned	gpt2	 seat did you find it ok he asked yes replied marianne with a	 smile	and	1.4049441814422607	4.871218204498291	0.0013208448654040694	0.18324987590312958	15
+75	shame_align	aligned	gpt2	 did you find it ok he asked yes replied marianne with a smile	 you	can	6.797104835510254	5.300276756286621	0.0001268360356334597	0.08227142691612244	15
+76	shame_align	aligned	gpt2	 you find it ok he asked yes replied marianne with a smile you	 look	at	5.254001617431641	4.524332523345947	0.00018242973601445556	0.1962144672870636	15
+77	shame_align	aligned	gpt2	 find it ok he asked yes replied marianne with a smile you look	 handsome	and	7.769204616546631	5.6665754318237305	0.0005154521204531193	0.095201276242733	15
+78	shame_align	aligned	gpt2	 it ok he asked yes replied marianne with a smile you look handsome	 you	look	3.5522408485412598	4.994330406188965	0.0005431546596810222	0.11564049869775772	15
+79	shame_align	aligned	gpt2	 ok he asked yes replied marianne with a smile you look handsome you	 look	like	2.0628647804260254	5.00923490524292	0.00018844095757231116	0.1494273990392685	15
+80	shame_align	aligned	gpt2	 he asked yes replied marianne with a smile you look handsome you look	 amazing	you	4.572592735290527	4.996259689331055	0.00013503797526936978	0.1930050253868103	15
+81	shame_align	aligned	gpt2	 asked yes replied marianne with a smile you look handsome you look amazing	 a	lot	5.888620376586914	6.107487678527832	0.0005940700066275895	0.07467135041952133	15
+82	shame_align	aligned	gpt2	 yes replied marianne with a smile you look handsome you look amazing a	 waiter	at	9.485895156860352	5.630555152893066	0.0003847059269901365	0.05163141340017319	15
+83	shame_align	aligned	gpt2	 replied marianne with a smile you look handsome you look amazing a waiter	 approached	me	10.204414367675781	3.6030070781707764	9.668624443293083e-06	0.2354779988527298	15
+84	shame_align	aligned	gpt2	 marianne with a smile you look handsome you look amazing a waiter approached	 their	table	8.028873443603516	3.0506908893585205	2.8144169846200384e-05	0.6064069271087646	15
+85	shame_align	aligned	gpt2	ianne with a smile you look handsome you look amazing a waiter approached their	 tables	and	4.034129619598389	4.577033042907715	0.00013749414938502014	0.19179344177246094	15
+86	shame_align	aligned	gpt2	ne with a smile you look handsome you look amazing a waiter approached their tables	 with	a	2.0764248371124268	3.1750965118408203	5.3034364100312814e-05	0.5424660444259644	15
+87	shame_align	aligned	gpt2	 with a smile you look handsome you look amazing a waiter approached their tables with	 menus	and	12.281610488891602	4.636293888092041	7.770258525852114e-05	0.17045211791992188	15
+88	shame_align	aligned	gpt2	 a smile you look handsome you look amazing a waiter approached their tables with menus	 welcome	to	11.030073165893555	5.20937442779541	0.0019045680528506637	0.12305743992328644	15
+89	shame_align	aligned	gpt2	 smile you look handsome you look amazing a waiter approached their tables with menus welcome	 i	was	7.9153547286987305	5.338933944702148	0.0008534250664524734	0.08513189107179642	15
+90	shame_align	aligned	gpt2	 you look handsome you look amazing a waiter approached their tables with menus welcome i	 have	a	3.9195950031280518	4.8079514503479	0.0004890896379947662	0.11285257339477539	15
+91	shame_align	aligned	gpt2	 look handsome you look amazing a waiter approached their tables with menus welcome i have	 a	friend	2.2190513610839844	6.758383274078369	0.0002633385010994971	0.0326387919485569	15
+92	shame_align	aligned	gpt2	 handsome you look amazing a waiter approached their tables with menus welcome i have a	 few	questions	3.62787127494812	5.7836761474609375	0.0007876526215113699	0.14639045298099518	15
+93	shame_align	aligned	gpt2	 you look amazing a waiter approached their tables with menus welcome i have a few	 specials	on	7.658463478088379	4.285266876220703	0.0002009761519730091	0.10216627269983292	15
+94	shame_align	aligned	gpt2	 look amazing a waiter approached their tables with menus welcome i have a few specials	 on	the	2.1968576908111572	5.05272102355957	0.0008874232298694551	0.1519334316253662	15
+95	shame_align	aligned	gpt2	 amazing a waiter approached their tables with menus welcome i have a few specials on	 the	menu	1.9100074768066406	4.413345813751221	0.0002978001139126718	0.23988261818885803	15
+96	shame_align	aligned	gpt2	 a waiter approached their tables with menus welcome i have a few specials on the	 menu	and	1.1772148609161377	4.2502827644348145	0.00016635512292850763	0.11917533725500107	15
+97	shame_align	aligned	gpt2	 waiter approached their tables with menus welcome i have a few specials on the menu	 if	you	5.797131538391113	1.8763771057128906	0.0003294661291874945	0.7118427157402039	15
+98	shame_align	aligned	gpt2	 approached their tables with menus welcome i have a few specials on the menu if	 you	want	0.31163203716278076	3.8345234394073486	0.00030199025059118867	0.15106528997421265	15
+99	shame_align	aligned	gpt2	 their tables with menus welcome i have a few specials on the menu if you	'd	like	3.829697847366333	0.423768550157547	1.0258658221573569e-05	0.9281286597251892	15
+100	shame_align	aligned	gpt2	 tables with menus welcome i have a few specials on the menu if you'd	 like	to	0.062213748693466187	3.9340879917144775	0.0007993757026270032	0.3223312795162201	15
+101	shame_align	aligned	gpt2	 with menus welcome i have a few specials on the menu if you'd like	 to	try	1.0110985040664673	4.452535629272461	0.00032155492226593196	0.18675129115581512	15
+102	shame_align	aligned	gpt2	 menus welcome i have a few specials on the menu if you'd like to	 hear	more	6.968794822692871	2.857001543045044	2.7320316803525202e-05	0.34223270416259766	15
+103	shame_align	aligned	gpt2	 welcome i have a few specials on the menu if you'd like to hear	 them	.	2.5565390586853027	3.90832781791687	3.8270842196652666e-05	0.37380096316337585	15
+104	shame_align	aligned	gpt2	 i have a few specials on the menu if you'd like to hear them	 they	are	9.172830581665039	3.4090757369995117	2.6009263820014894e-05	0.20806321501731873	15
+105	shame_align	aligned	gpt2	 have a few specials on the menu if you'd like to hear them they	 didn	't	9.547040939331055	0.011337952688336372	4.0488835395535716e-08	0.9990012049674988	15
+106	shame_align	aligned	gpt2	 a few specials on the menu if you'd like to hear them they didn	't	disappoint	0.0011155341053381562	5.025876998901367	1.1146725228172727e-05	0.10211364924907684	15
+107	shame_align	aligned	gpt2	 few specials on the menu if you'd like to hear them they didn't	 even	have	4.366643905639648	4.696050643920898	0.0015455458778887987	0.13600441813468933	15
+108	shame_align	aligned	gpt2	 specials on the menu if you'd like to hear them they didn't even	 have	to	2.197449207305908	3.825855255126953	1.756625897542108e-05	0.3962704837322235	15
+109	shame_align	aligned	gpt2	 on the menu if you'd like to hear them they didn't even have	 time	to	4.267124176025391	1.0209927558898926	2.1480745999724604e-05	0.7998575568199158	15
+110	shame_align	aligned	gpt2	 the menu if you'd like to hear them they didn't even have time	 to	explain	0.20715703070163727	5.29974889755249	0.00017629591457080096	0.0708131417632103	15
+111	shame_align	aligned	gpt2	 menu if you'd like to hear them they didn't even have time to	 respond	to	3.811631679534912	2.9068424701690674	5.553390565182781e-06	0.3347929120063782	15
+112	shame_align	aligned	gpt2	 if you'd like to hear them they didn't even have time to respond	 before	the	3.8558526039123535	5.273499965667725	0.00015953740512486547	0.20180454850196838	15
+113	shame_align	aligned	gpt2	 you'd like to hear them they didn't even have time to respond before	 he	started	3.447004795074463	5.6770710945129395	8.540311682736501e-05	0.056895382702350616	15
+114	shame_align	aligned	gpt2	'd like to hear them they didn't even have time to respond before he	 launched	into	6.394989013671875	2.380474090576172	6.81743904351606e-06	0.48314428329467773	15
+115	shame_align	aligned	gpt2	 like to hear them they didn't even have time to respond before he launched	 into	a	0.5862517952919006	3.8313822746276855	6.313562334980816e-05	0.3093302249908447	15
+116	shame_align	aligned	gpt2	 to hear them they didn't even have time to respond before he launched into	 his	tir	2.095183849334717	6.63216495513916	0.00010313638631487265	0.06103578582406044	15
+117	shame_align	aligned	gpt2	 hear them they didn't even have time to respond before he launched into his	 speech	.	4.825517654418945	2.322395086288452	0.00026743364287540317	0.5588985085487366	15
+118	shame_align	aligned	gpt2	 them they didn't even have time to respond before he launched into his speech	 he	was	7.980616569519043	5.1732869148254395	0.00010907361138379201	0.1450786590576172	15
+119	shame_align	aligned	gpt2	 they didn't even have time to respond before he launched into his speech he	 finally	got	6.418865203857422	5.479170799255371	0.0015686897095292807	0.07609983533620834	15
+120	shame_align	aligned	gpt2	 didn't even have time to respond before he launched into his speech he finally	 finished	.	4.390610694885254	3.557610034942627	3.9136230043368414e-05	0.1853809505701065	15
+121	shame_align	aligned	gpt2	't even have time to respond before he launched into his speech he finally finished	 asking	the	7.673967361450195	4.4664764404296875	2.966028478113003e-05	0.1338733732700348	15
+122	shame_align	aligned	gpt2	 even have time to respond before he launched into his speech he finally finished asking	 if	he	3.791714906692505	4.434525966644287	0.0005671635153703392	0.22327961027622223	15
+123	shame_align	aligned	gpt2	 have time to respond before he launched into his speech he finally finished asking if	 they	could	3.6057815551757812	3.579777956008911	5.600250733550638e-05	0.1348397135734558	15
+124	shame_align	aligned	gpt2	 time to respond before he launched into his speech he finally finished asking if they	 would	be	2.1563425064086914	5.025533676147461	4.096361226402223e-05	0.13531289994716644	15
+125	shame_align	aligned	gpt2	 to respond before he launched into his speech he finally finished asking if they would	 like	to	3.0575902462005615	1.6675665378570557	2.6744719434645958e-05	0.745534360408783	15
+126	shame_align	aligned	gpt2	 respond before he launched into his speech he finally finished asking if they would like	 to	see	0.31645527482032776	4.718148708343506	0.0001641368871787563	0.1839827001094818	15
+127	shame_align	aligned	gpt2	 before he launched into his speech he finally finished asking if they would like to	 start	a	4.37595272064209	4.965223789215088	8.6094105427037e-06	0.25804588198661804	15
+128	shame_align	aligned	gpt2	 he launched into his speech he finally finished asking if they would like to start	 with	the	5.040393352508545	5.337413311004639	0.0003483742184471339	0.1788244992494583	15
+129	shame_align	aligned	gpt2	 launched into his speech he finally finished asking if they would like to start with	 some	of	3.7500548362731934	7.349640369415283	0.00019130291184410453	0.0612812414765358	15
+130	shame_align	aligned	gpt2	 into his speech he finally finished asking if they would like to start with some	 wine	.	6.4063191413879395	2.709327220916748	0.0009698793292045593	0.4357459843158722	15
+131	shame_align	aligned	gpt2	 his speech he finally finished asking if they would like to start with some wine	 brand	y	9.943045616149902	0.6370208263397217	7.105907570803538e-05	0.8634649515151978	15
+132	shame_align	aligned	gpt2	 speech he finally finished asking if they would like to start with some wine brand	on	.	9.383177757263184	3.3505678176879883	1.1872857612615917e-06	0.4033728241920471	15
+133	shame_align	aligned	gpt2	 he finally finished asking if they would like to start with some wine brandon	 looked	at	13.061264038085938	2.957954168319702	1.1379180250514764e-05	0.46498414874076843	15
+134	shame_align	aligned	gpt2	 finally finished asking if they would like to start with some wine brandon looked	 at	me	0.7997629642486572	3.020345687866211	0.00042935111559927464	0.32975220680236816	15
+135	shame_align	aligned	gpt2	 finished asking if they would like to start with some wine brandon looked at	 mar	inated	11.453826904296875	3.9358677864074707	3.892954282491701e-06	0.15930379927158356	15
+136	shame_align	aligned	gpt2	 asking if they would like to start with some wine brandon looked at mar	ian	and	9.205103874206543	5.649616241455078	4.189379615127109e-05	0.07700847089290619	15
+137	shame_align	aligned	gpt2	 if they would like to start with some wine brandon looked at marian	ne	wine	4.895125389099121	4.274595737457275	6.625301011808915e-06	0.16128689050674438	15
+138	shame_align	aligned	gpt2	 they would like to start with some wine brandon looked at marianne	 you	can	8.266173362731934	4.239171504974365	0.00014849368017166853	0.13887326419353485	15
+139	shame_align	aligned	gpt2	 would like to start with some wine brandon looked at marianne you	 want	to	4.336616516113281	2.165287733078003	7.842067134333774e-06	0.6657447814941406	15
+140	shame_align	aligned	gpt2	 like to start with some wine brandon looked at marianne you want	 some	wine	4.8880720138549805	6.465080738067627	0.0019506722455844283	0.060061823576688766	15
+141	shame_align	aligned	gpt2	 to start with some wine brandon looked at marianne you want some	 wine	brand	2.865773916244507	3.9996776580810547	0.002010588301345706	0.2678966224193573	15
+142	shame_align	aligned	gpt2	 start with some wine brandon looked at marianne you want some wine	 white	.	7.794406414031982	4.9031758308410645	0.002180189359933138	0.0934867113828659	15
+143	shame_align	aligned	gpt2	 with some wine brandon looked at marianne you want some wine white	 red	?	7.518322467803955	5.043691158294678	0.00777910090982914	0.09938891232013702	15
+144	shame_align	aligned	gpt2	 some wine brandon looked at marianne you want some wine white red	 red	wine	4.791693687438965	5.713979721069336	0.04014264792203903	0.11848916113376617	15
+145	shame_align	aligned	gpt2	 wine brandon looked at marianne you want some wine white red red	 she	wanted	6.524420261383057	5.257212162017822	0.00012219331983942538	0.08768393099308014	15
+146	shame_align	aligned	gpt2	 brandon looked at marianne you want some wine white red red she	 nodded	and	8.307589530944824	3.8647196292877197	0.0004064032982569188	0.20681598782539368	15
+147	shame_align	aligned	gpt2	on looked at marianne you want some wine white red red she nodded	 maybe	a	7.797625541687012	5.4441680908203125	0.02929781749844551	0.07035316526889801	15
+148	shame_align	aligned	gpt2	 looked at marianne you want some wine white red red she nodded maybe	 <	s	9.775464057922363	6.146304130554199	0.0002525220043025911	0.06730112433433533	15
+149	shame_align	aligned	gpt2	 at marianne you want some wine white red red she nodded maybe <	unk	now	13.534000396728516	3.5640931129455566	6.161956844152883e-05	0.45043766498565674	15
+150	shame_align	aligned	gpt2	 marianne you want some wine white red red she nodded maybe <unk	>	I	3.3418447971343994	6.164454460144043	0.0006355771329253912	0.03654664754867554	15
+151	shame_align	aligned	gpt2	ianne you want some wine white red red she nodded maybe <unk>	 no	,	4.683698654174805	5.440064430236816	0.0666288286447525	0.08536338061094284	15
+152	shame_align	aligned	gpt2	ne you want some wine white red red she nodded maybe <unk> no	ir	,	10.235588073730469	7.073794364929199	0.0005258877063170075	0.03576164320111275	15
+153	shame_align	aligned	gpt2	 you want some wine white red red she nodded maybe <unk> noir	 is	a	4.637589931488037	5.435474872589111	0.00030215003062039614	0.16833318769931793	15
+154	shame_align	aligned	gpt2	 want some wine white red red she nodded maybe <unk> noir is	 um	...	9.139519691467285	5.369486331939697	0.007258989382535219	0.19744864106178284	15
+155	shame_align	aligned	gpt2	 some wine white red red she nodded maybe <unk> noir is um	 light	and	9.134578704833984	5.368691921234131	0.0025680565740913153	0.10343411564826965	15
+156	shame_align	aligned	gpt2	 wine white red red she nodded maybe <unk> noir is um light	 the	red	6.3025078773498535	7.398468017578125	0.0008241321775130928	0.022768836468458176	15
+157	shame_align	aligned	gpt2	 white red red she nodded maybe <unk> noir is um light the	 waiter	was	12.611673355102539	5.918170928955078	0.00011684395576594397	0.0860401839017868	15
+158	shame_align	aligned	gpt2	 red red she nodded maybe <unk> noir is um light the waiter	 interrupted	her	8.390207290649414	5.32523250579834	0.00010593535989755765	0.12591148912906647	15
+159	shame_align	aligned	gpt2	 red she nodded maybe <unk> noir is um light the waiter interrupted	 if	she	5.424446105957031	4.457808971405029	0.0011302742641419172	0.14994178712368011	15
+160	shame_align	aligned	gpt2	 she nodded maybe <unk> noir is um light the waiter interrupted if	 you	're	2.360901117324829	5.513747692108154	0.0005356069887056947	0.06564053148031235	15
+161	shame_align	aligned	gpt2	 nodded maybe <unk> noir is um light the waiter interrupted if you	 like	<	4.555991172790527	4.962009429931641	0.0016358558787032962	0.21108928322792053	15
+162	shame_align	aligned	gpt2	 maybe <unk> noir is um light the waiter interrupted if you like	 it	<	4.075698375701904	3.826852321624756	0.0017779165646061301	0.48747655749320984	15
+163	shame_align	aligned	gpt2	 <unk> noir is um light the waiter interrupted if you like it	 like	that	5.834033012390137	5.6871747970581055	0.000681835925206542	0.13581165671348572	15
+164	shame_align	aligned	gpt2	unk> noir is um light the waiter interrupted if you like it like	 light	the	5.293292999267578	6.702722549438477	0.006509970407932997	0.09315115958452225	15
+165	shame_align	aligned	gpt2	> noir is um light the waiter interrupted if you like it like light	 he	was	4.844992637634277	6.472282886505127	0.0014265694189816713	0.049773767590522766	15
+166	shame_align	aligned	gpt2	 noir is um light the waiter interrupted if you like it like light he	 trailed	off	9.36462116241455	3.519017219543457	9.245189175999258e-06	0.4496879279613495	15
+167	shame_align	aligned	gpt2	ir is um light the waiter interrupted if you like it like light he trailed	 off	.	0.817253053188324	4.792436122894287	0.0006317378138191998	0.1805334985256195	15
+168	shame_align	aligned	gpt2	 is um light the waiter interrupted if you like it like light he trailed off	 <	laugh	10.017250061035156	6.060065269470215	0.0006448460626415908	0.08473764359951019	15
+169	shame_align	aligned	gpt2	 um light the waiter interrupted if you like it like light he trailed off <	unk	now	13.195840835571289	4.481208324432373	5.821920422022231e-05	0.25610554218292236	15
+170	shame_align	aligned	gpt2	 light the waiter interrupted if you like it like light he trailed off <unk	>	<	3.5690970420837402	6.360507011413574	0.0006531458348035812	0.04237380996346474	15
+171	shame_align	aligned	gpt2	 the waiter interrupted if you like it like light he trailed off <unk>	 great	<	8.671133995056152	4.718934535980225	0.0021426824387162924	0.2506275475025177	15
+172	shame_align	aligned	gpt2	 waiter interrupted if you like it like light he trailed off <unk> great	 said	.	9.508149147033691	4.569344520568848	0.00011785625974880531	0.17075489461421967	15
+173	shame_align	aligned	gpt2	 interrupted if you like it like light he trailed off <unk> great said	 brand	new	11.262683868408203	4.2516398429870605	0.00014837404887657613	0.22304141521453857	15
+174	shame_align	aligned	gpt2	 if you like it like light he trailed off <unk> great said brand	on	<	1.865295171737671	6.7632832527160645	0.00011228054063394666	0.07548558712005615	15
+175	shame_align	aligned	gpt2	 you like it like light he trailed off <unk> great said brandon	 amused	<	11.064720153808594	4.97427225112915	0.00022859819000586867	0.25442835688591003	15
+176	shame_align	aligned	gpt2	 like it like light he trailed off <unk> great said brandon amused	 brand	on	4.638862609863281	0.017836393788456917	6.684343079044197e-10	0.9982166886329651	15
+177	shame_align	aligned	gpt2	 it like light he trailed off <unk> great said brandon amused brand	on	said	0.0015338810626417398	6.400623321533203	4.400510078994557e-06	0.11778826266527176	15
+178	shame_align	aligned	gpt2	 like light he trailed off <unk> great said brandon amused brandon	 and	he	4.396032333374023	6.535555362701416	0.000849359028507024	0.06380806118249893	15
+179	shame_align	aligned	gpt2	 light he trailed off <unk> great said brandon amused brandon and	 mar	ion	8.650182723999023	5.587441444396973	1.1522934983076993e-05	0.09698566794395447	15
+180	shame_align	aligned	gpt2	 he trailed off <unk> great said brandon amused brandon and mar	ian	said	5.997814178466797	6.77806282043457	0.0002548888442106545	0.1329839825630188	15
+181	shame_align	aligned	gpt2	 trailed off <unk> great said brandon amused brandon and marian	ne	said	4.995964050292969	5.249850273132324	3.291806933702901e-05	0.35553911328315735	15
+182	shame_align	aligned	gpt2	 off <unk> great said brandon amused brandon and marianne	 made	a	5.6092023849487305	5.086230278015137	0.00014279138122219592	0.1503440886735916	15
+183	shame_align	aligned	gpt2	 <unk> great said brandon amused brandon and marianne made	 small	talk	7.714234828948975	5.234666347503662	0.0003822733124252409	0.3706440329551697	15
+184	shame_align	aligned	gpt2	unk> great said brandon amused brandon and marianne made small	 talk	about	1.0720722675323486	4.853238105773926	0.000864272064063698	0.25136539340019226	15
+185	shame_align	aligned	gpt2	> great said brandon amused brandon and marianne made small talk	 about	the	1.4654639959335327	6.113317489624023	0.0006386491004377604	0.10232959687709808	15
+186	shame_align	aligned	gpt2	 great said brandon amused brandon and marianne made small talk about	 where	they	5.961127281188965	3.742985486984253	0.0001856910967035219	0.23962785303592682	15
+187	shame_align	aligned	gpt2	 said brandon amused brandon and marianne made small talk about where	 they	were	1.4936803579330444	3.857055902481079	0.00010313455277355388	0.24681250751018524	15
+188	shame_align	aligned	gpt2	 brandon amused brandon and marianne made small talk about where they	 grew	up	4.912981033325195	0.5960575938224792	1.0400776773167308e-06	0.9124152660369873	15
+189	shame_align	aligned	gpt2	on amused brandon and marianne made small talk about where they grew	 up	.	0.05068794637918472	2.154383659362793	0.00016425011563114822	0.32943016290664673	15
+190	shame_align	aligned	gpt2	 amused brandon and marianne made small talk about where they grew up	 bro	oding	12.929723739624023	4.223576545715332	6.323133857222274e-05	0.305433988571167	15
+191	shame_align	aligned	gpt2	 brandon and marianne made small talk about where they grew up bro	ok	lyn	3.739171028137207	4.165136814117432	7.303194706764771e-06	0.30830228328704834	15
+192	shame_align	aligned	gpt2	on and marianne made small talk about where they grew up brook	lyn	and	1.317821979522705	4.1849775314331055	0.0002916349039878696	0.2335493564605713	15
+193	shame_align	aligned	gpt2	 and marianne made small talk about where they grew up brooklyn	 for	the	5.800802230834961	5.090698719024658	0.00014357293548528105	0.16343800723552704	15
+194	shame_align	aligned	gpt2	 marianne made small talk about where they grew up brooklyn for	 her	.	3.448230743408203	5.701207160949707	0.00015084410551935434	0.11916711926460266	15
+195	shame_align	aligned	gpt2	ianne made small talk about where they grew up brooklyn for her	 ire	.	12.576521873474121	3.9075088500976562	7.626841579622123e-06	0.2888861894607544	15
+196	shame_align	aligned	gpt2	ne made small talk about where they grew up brooklyn for her ire	land	.	8.363219261169434	6.002171516418457	0.000402752571972087	0.15260975062847137	15
+197	shame_align	aligned	gpt2	 made small talk about where they grew up brooklyn for her ireland	 for	her	4.1969757080078125	5.659914493560791	0.0003823443839792162	0.17168349027633667	15
+198	shame_align	aligned	gpt2	 small talk about where they grew up brooklyn for her ireland for	 him	to	5.55488395690918	4.229058265686035	1.9193867046851665e-05	0.22996824979782104	15
+199	shame_align	aligned	gpt2	 talk about where they grew up brooklyn for her ireland for him	 and	her	3.0198044776916504	5.353636264801025	0.0009407293400727212	0.10837490856647491	15
+200	shame_align	aligned	gpt2	 about where they grew up brooklyn for her ireland for him and	 their	family	4.349458694458008	7.485353946685791	0.0004707663902081549	0.02954266406595707	15
+201	shame_align	aligned	gpt2	 where they grew up brooklyn for her ireland for him and their	 families	.	4.562207221984863	3.3214545249938965	3.0095734473434277e-05	0.455734521150589	15
+202	shame_align	aligned	gpt2	 they grew up brooklyn for her ireland for him and their families	 a	few	7.062373161315918	7.073318958282471	0.00044447396066971123	0.05320149287581444	15
+203	shame_align	aligned	gpt2	 grew up brooklyn for her ireland for him and their families a	 sister	and	8.785869598388672	5.277035236358643	0.0009033955284394324	0.10257305204868317	15
+204	shame_align	aligned	gpt2	 up brooklyn for her ireland for him and their families a sister	 each	.	9.862215995788574	5.607626914978027	0.0002499643014743924	0.09967023134231567	15
+205	shame_align	aligned	gpt2	 brooklyn for her ireland for him and their families a sister each	 and	a	3.5981991291046143	4.724815845489502	0.0009018795099109411	0.29235923290252686	15
+206	shame_align	aligned	gpt2	oklyn for her ireland for him and their families a sister each and	 then	a	5.127003192901611	6.166424751281738	0.000926505250390619	0.09197379648685455	15
+207	shame_align	aligned	gpt2	lyn for her ireland for him and their families a sister each and then	 looked	at	8.463261604309082	3.6383299827575684	1.3857937119610142e-05	0.24314622581005096	15
+208	shame_align	aligned	gpt2	 for her ireland for him and their families a sister each and then looked	 over	at	3.2925240993499756	2.9592716693878174	0.0006498462171293795	0.26783761382102966	15
+209	shame_align	aligned	gpt2	 her ireland for him and their families a sister each and then looked over	 their	shoulder	2.803138256072998	3.527343273162842	6.409859634004533e-05	0.3952866196632385	15
+210	shame_align	aligned	gpt2	 ireland for him and their families a sister each and then looked over their	 menus	.	11.17297649383545	3.0263566970825195	1.164781042461982e-05	0.23380747437477112	15
+211	shame_align	aligned	gpt2	land for him and their families a sister each and then looked over their menus	 in	the	3.54655122756958	5.040897369384766	8.171239460352808e-05	0.15544986724853516	15
+212	shame_align	aligned	gpt2	 for him and their families a sister each and then looked over their menus in	 uncomfortable	silence	9.806558609008789	4.408214569091797	2.1440588170662522e-05	0.17584854364395142	15
+213	shame_align	aligned	gpt2	 him and their families a sister each and then looked over their menus in uncomfortable	 silence	.	1.7414166927337646	2.026549816131592	2.3651673473068513e-06	0.5643729567527771	15
+214	shame_align	aligned	gpt2	 and their families a sister each and then looked over their menus in uncomfortable silence	 mar	ve	15.105500221252441	2.165973663330078	9.029978173202835e-06	0.43696555495262146	15
+215	shame_align	aligned	gpt2	 their families a sister each and then looked over their menus in uncomfortable silence mar	ian	ne	10.664573669433594	5.527513027191162	3.382487193448469e-05	0.11689230799674988	15
+216	shame_align	aligned	gpt2	 families a sister each and then looked over their menus in uncomfortable silence marian	ne	.	2.0552191734313965	5.288018703460693	1.4566952813765965e-05	0.2262021154165268	15
+217	shame_align	aligned	gpt2	 a sister each and then looked over their menus in uncomfortable silence marianne	 tried	to	9.872830390930176	1.7613781690597534	6.582347396033583e-06	0.7539753913879395	15
+218	shame_align	aligned	gpt2	 sister each and then looked over their menus in uncomfortable silence marianne tried	 to	explain	0.27115604281425476	5.975188732147217	0.00012977264123037457	0.07819554954767227	15
+219	shame_align	aligned	gpt2	 each and then looked over their menus in uncomfortable silence marianne tried to	 start	a	6.331388473510742	4.757181644439697	2.3937907371873735e-06	0.1260158270597458	15
+220	shame_align	aligned	gpt2	 and then looked over their menus in uncomfortable silence marianne tried to start	 the	conversation	2.4917378425598145	5.921964168548584	0.00027378773665986955	0.15706685185432434	15
+221	shame_align	aligned	gpt2	 then looked over their menus in uncomfortable silence marianne tried to start the	 conversation	.	2.062086820602417	2.921168088912964	2.014308120124042e-05	0.2350141406059265	15
+222	shame_align	aligned	gpt2	 looked over their menus in uncomfortable silence marianne tried to start the conversation	 again	.	4.237539768218994	2.3203983306884766	0.00021289980213623494	0.40161481499671936	15
+223	shame_align	aligned	gpt2	 over their menus in uncomfortable silence marianne tried to start the conversation again	 saying	""""	6.45619010925293	3.530303478240967	3.762737469514832e-05	0.1906866431236267	15
+224	shame_align	aligned	gpt2	 their menus in uncomfortable silence marianne tried to start the conversation again saying	 it	was	3.5325205326080322	2.6456170082092285	0.00016712385695427656	0.4869643747806549	15
+225	shame_align	aligned	gpt2	 menus in uncomfortable silence marianne tried to start the conversation again saying it	 took	her	5.824005603790283	4.044419765472412	4.833036200579954e-06	0.21580374240875244	15
+226	shame_align	aligned	gpt2	 in uncomfortable silence marianne tried to start the conversation again saying it took	 me	a	3.2784066200256348	3.8346734046936035	6.625412061112002e-05	0.28790172934532166	15
+227	shame_align	aligned	gpt2	 uncomfortable silence marianne tried to start the conversation again saying it took me	 an	hour	3.7562780380249023	1.4870086908340454	0.00022903375793248415	0.7289553284645081	15
+228	shame_align	aligned	gpt2	 silence marianne tried to start the conversation again saying it took me an	 hour	to	0.26260408759117126	2.5473530292510986	2.242055234091822e-05	0.438207745552063	15
+229	shame_align	aligned	gpt2	 marianne tried to start the conversation again saying it took me an hour	 to	get	0.8646028637886047	3.8712899684906006	0.00010327691416023299	0.33062782883644104	15
+230	shame_align	aligned	gpt2	ianne tried to start the conversation again saying it took me an hour to	 figure	out	3.1690754890441895	1.2542507648468018	1.9188737496733665e-06	0.6663116812705994	15
+231	shame_align	aligned	gpt2	ne tried to start the conversation again saying it took me an hour to figure	 out	what	0.40151092410087585	2.9443507194519043	8.143257582560182e-05	0.3290080428123474	15
+232	shame_align	aligned	gpt2	 tried to start the conversation again saying it took me an hour to figure out	 what	I	1.0928758382797241	3.6836910247802734	0.0005847705178894103	0.16269952058792114	15
+233	shame_align	aligned	gpt2	 to start the conversation again saying it took me an hour to figure out what	 to	do	1.957629680633545	1.7989953756332397	4.168964733253233e-05	0.5110817551612854	15
+234	shame_align	aligned	gpt2	 start the conversation again saying it took me an hour to figure out what to	 wear	.	6.75339412689209	2.864349365234375	1.608396451047156e-05	0.3867575228214264	15
+235	shame_align	aligned	gpt2	 the conversation again saying it took me an hour to figure out what to wear	 you	know	9.06015396118164	4.503542900085449	9.685980330687016e-05	0.31154265999794006	15
+236	shame_align	aligned	gpt2	 conversation again saying it took me an hour to figure out what to wear you	 chose	to	7.998520374298096	4.510651588439941	0.00023188962950371206	0.18292786180973053	15
+237	shame_align	aligned	gpt2	 again saying it took me an hour to figure out what to wear you chose	 wisely	.	5.700676441192627	3.2200770378112793	4.5475520892068744e-05	0.44814664125442505	15
+238	shame_align	aligned	gpt2	 saying it took me an hour to figure out what to wear you chose wisely	 said	that	9.335963249206543	5.318899154663086	0.0004791701212525368	0.11843762546777725	15
+239	shame_align	aligned	gpt2	 it took me an hour to figure out what to wear you chose wisely said	 brand	.	9.890047073364258	5.232623100280762	0.005655783228576183	0.12625837326049805	15
+240	shame_align	aligned	gpt2	 took me an hour to figure out what to wear you chose wisely said brand	on	.	8.152929306030273	6.681089401245117	0.00021618581376969814	0.16817529499530792	15
+241	shame_align	aligned	gpt2	 me an hour to figure out what to wear you chose wisely said brandon	 nodding	to	11.63884162902832	5.0188069343566895	0.00019794836407527328	0.08047090470790863	15
+242	shame_align	aligned	gpt2	 an hour to figure out what to wear you chose wisely said brandon nodding	 the	finger	4.784966945648193	6.228888034820557	0.0006299794185906649	0.1041327491402626	15
+243	shame_align	aligned	gpt2	 hour to figure out what to wear you chose wisely said brandon nodding the	 waiter	.	7.633118152618408	4.326404571533203	2.237445005448535e-05	0.1574867069721222	15
+244	shame_align	aligned	gpt2	 to figure out what to wear you chose wisely said brandon nodding the waiter	 rushed	over	11.365805625915527	3.269007444381714	8.111525858112145e-06	0.17675520479679108	15
+245	shame_align	aligned	gpt2	 figure out what to wear you chose wisely said brandon nodding the waiter rushed	 over	to	1.6970058679580688	2.41532564163208	0.0003351226623635739	0.46498677134513855	15
+246	shame_align	aligned	gpt2	 out what to wear you chose wisely said brandon nodding the waiter rushed over	 to	the	0.7910793423652649	5.301140308380127	0.0002747135004028678	0.11765240132808685	15
+247	shame_align	aligned	gpt2	 what to wear you chose wisely said brandon nodding the waiter rushed over to	 the	table	2.1285789012908936	6.603048324584961	0.0003765508299693465	0.09006568789482117	15
+248	shame_align	aligned	gpt2	 to wear you chose wisely said brandon nodding the waiter rushed over to the	 table	and	2.3415074348449707	3.5311481952667236	0.0002669281093403697	0.2649553716182709	15
+249	shame_align	aligned	gpt2	 wear you chose wisely said brandon nodding the waiter rushed over to the table	 and	said	1.3622581958770752	6.014463901519775	0.0010039914632216096	0.05213017761707306	15
+250	shame_align	aligned	gpt2	 you chose wisely said brandon nodding the waiter rushed over to the table and	 poured	a	5.976354598999023	4.102946758270264	5.8305460697738454e-05	0.17430409789085388	15
+251	shame_align	aligned	gpt2	 chose wisely said brandon nodding the waiter rushed over to the table and poured	 their	drink	5.621169090270996	5.187758922576904	0.00018423104484099895	0.10583026707172394	15
+252	shame_align	aligned	gpt2	 wisely said brandon nodding the waiter rushed over to the table and poured their	 wine	.	2.6032350063323975	2.9544284343719482	0.00041774671990424395	0.36112356185913086	15
+253	shame_align	aligned	gpt2	 said brandon nodding the waiter rushed over to the table and poured their wine	 he	had	8.003194808959961	5.4883503913879395	0.00045442787813954055	0.11270658671855927	15
+254	shame_align	aligned	gpt2	 brandon nodding the waiter rushed over to the table and poured their wine he	 then	turned	4.599715232849121	5.694735050201416	0.0003002412850037217	0.051603928208351135	15
+255	shame_align	aligned	gpt2	on nodding the waiter rushed over to the table and poured their wine he then	 stood	up	4.588754653930664	2.534694194793701	1.3247173228592146e-05	0.5018587112426758	15
+256	shame_align	aligned	gpt2	 nodding the waiter rushed over to the table and poured their wine he then stood	 there	and	2.41344952583313	4.707362651824951	0.0007874353905208409	0.14768372476100922	15
+257	shame_align	aligned	gpt2	 the waiter rushed over to the table and poured their wine he then stood there	 <	3	14.183929443359375	6.399108409881592	0.0014140147250145674	0.13110078871250153	15
+258	shame_align	aligned	gpt2	 waiter rushed over to the table and poured their wine he then stood there <	unk	now	13.773371696472168	4.123692512512207	7.154756167437881e-05	0.28304344415664673	15
+259	shame_align	aligned	gpt2	 rushed over to the table and poured their wine he then stood there <unk	>	and	1.9457956552505493	4.958446979522705	0.0002343871456105262	0.33129802346229553	15
+260	shame_align	aligned	gpt2	 over to the table and poured their wine he then stood there <unk>	 and	said	1.214743971824646	5.6186981201171875	0.0010525640100240707	0.06987190246582031	15
+261	shame_align	aligned	gpt2	 to the table and poured their wine he then stood there <unk> and	 they	were	6.163745880126953	5.174071311950684	0.00011811855074483901	0.07476843148469925	15
+262	shame_align	aligned	gpt2	 the table and poured their wine he then stood there <unk> and they	 realized	that	7.304948329925537	3.1990456581115723	4.382151018944569e-06	0.27752792835235596	15
+263	shame_align	aligned	gpt2	 table and poured their wine he then stood there <unk> and they realized	 he	was	2.1876935958862305	2.101898431777954	9.051369124790654e-05	0.5954915285110474	15
+264	shame_align	aligned	gpt2	 and poured their wine he then stood there <unk> and they realized he	 was	drunk	0.47611069679260254	5.47158670425415	7.511943840654567e-05	0.1158377081155777	15
+265	shame_align	aligned	gpt2	 poured their wine he then stood there <unk> and they realized he was	 waiting	for	6.13957405090332	1.7128201723098755	0.00027609625249169767	0.7139500379562378	15
+266	shame_align	aligned	gpt2	 their wine he then stood there <unk> and they realized he was waiting	 for	them	0.31328824162483215	2.261608600616455	0.0001035581881296821	0.6333586573600769	15
+267	shame_align	aligned	gpt2	 wine he then stood there <unk> and they realized he was waiting for	 their	turn	3.7885043621063232	7.125657081604004	0.00015468537458218634	0.0385664738714695	15
+268	shame_align	aligned	gpt2	 he then stood there <unk> and they realized he was waiting for their	 order	<	4.6487603187561035	2.6889235973358154	0.00019917014287784696	0.37215477228164673	15
+269	shame_align	aligned	gpt2	 then stood there <unk> and they realized he was waiting for their order	 they	were	6.428330898284912	5.558962821960449	0.00021536267013289034	0.06839051097631454	15
+270	shame_align	aligned	gpt2	 stood there <unk> and they realized he was waiting for their order they	 both	started	5.8435516357421875	5.569953441619873	0.00024036124523263425	0.05318959802389145	15
+271	shame_align	aligned	gpt2	 there <unk> and they realized he was waiting for their order they both	 ordered	the	4.98675537109375	4.8416266441345215	3.0451261409325525e-05	0.14157506823539734	15
+272	shame_align	aligned	gpt2	 <unk> and they realized he was waiting for their order they both ordered	 the	same	2.1139867305755615	7.7755842208862305	0.000578146253246814	0.05036380887031555	15
+273	shame_align	aligned	gpt2	unk> and they realized he was waiting for their order they both ordered the	 lamb	.	9.050593376159668	5.156193733215332	0.0022555645555257797	0.1047256737947464	15
+274	shame_align	aligned	gpt2	> and they realized he was waiting for their order they both ordered the lamb	 then	they	7.955094814300537	5.674769401550293	0.000880700012203306	0.1057000383734703	15
+275	shame_align	aligned	gpt2	 and they realized he was waiting for their order they both ordered the lamb then	 turned	around	4.445348739624023	2.1283555030822754	1.1647181963780895e-05	0.5025500059127808	15
+276	shame_align	aligned	gpt2	 they realized he was waiting for their order they both ordered the lamb then turned	 to	the	2.061506509780884	4.722987651824951	0.00024322906392626464	0.19953162968158722	15
+277	shame_align	aligned	gpt2	 realized he was waiting for their order they both ordered the lamb then turned to	 one	of	4.719199180603027	1.9148814678192139	0.0021422631107270718	0.6146551966667175	15
+278	shame_align	aligned	gpt2	 he was waiting for their order they both ordered the lamb then turned to one	 another	and	1.4899119138717651	3.133756399154663	7.375168934231624e-05	0.3410756289958954	15
+279	shame_align	aligned	gpt2	 was waiting for their order they both ordered the lamb then turned to one another	 as	they	3.8553972244262695	3.426708221435547	0.0007348026847466826	0.3122115135192871	15
+280	shame_align	aligned	gpt2	 waiting for their order they both ordered the lamb then turned to one another as	 the	other	2.569636344909668	6.669654369354248	0.00045193987898528576	0.059756454080343246	15
+281	shame_align	aligned	gpt2	 for their order they both ordered the lamb then turned to one another as the	 waiter	ordered	4.849357604980469	5.583226680755615	3.078363442909904e-05	0.0413799062371254	15
+282	shame_align	aligned	gpt2	 their order they both ordered the lamb then turned to one another as the waiter	 nodded	.	7.461514472961426	3.249499797821045	5.326390601112507e-05	0.1826918125152588	15
+283	shame_align	aligned	gpt2	 order they both ordered the lamb then turned to one another as the waiter nodded	 and	ordered	1.8335403203964233	5.194633483886719	0.0005721831694245338	0.10255994647741318	15
+284	shame_align	aligned	gpt2	 they both ordered the lamb then turned to one another as the waiter nodded and	 backed	away	8.671896934509277	1.9070054292678833	5.515401539923914e-07	0.3919410705566406	15
+285	shame_align	aligned	gpt2	 both ordered the lamb then turned to one another as the waiter nodded and backed	 away	.	1.2197017669677734	1.9317818880081177	0.0005378829082474113	0.559965968132019	15
+286	shame_align	aligned	gpt2	 ordered the lamb then turned to one another as the waiter nodded and backed away	 so	that	5.8040361404418945	3.4667935371398926	0.00029154992080293596	0.2693449854850769	15
+287	shame_align	aligned	gpt2	 the lamb then turned to one another as the waiter nodded and backed away so	 you	could	5.121581554412842	1.9870765209197998	1.0913391633948777e-05	0.6298373937606812	15
+288	shame_align	aligned	gpt2	 lamb then turned to one another as the waiter nodded and backed away so you	 seeing	the	13.404263496398926	4.612293720245361	9.976284491131082e-05	0.17536157369613647	15
+289	shame_align	aligned	gpt2	 then turned to one another as the waiter nodded and backed away so you seeing	 anyone	else	8.409675598144531	5.084383487701416	8.040288958000019e-05	0.2179194986820221	15
+290	shame_align	aligned	gpt2	 turned to one another as the waiter nodded and backed away so you seeing anyone	 at	all	4.806361675262451	2.2247650623321533	4.983548933523707e-05	0.3950870931148529	15
+291	shame_align	aligned	gpt2	 to one another as the waiter nodded and backed away so you seeing anyone at	 the	table	0.9764289855957031	3.5818560123443604	0.00015238022024277598	0.31419119238853455	15
+292	shame_align	aligned	gpt2	 one another as the waiter nodded and backed away so you seeing anyone at the	 moment	was	7.37141227722168	4.9842023849487305	4.452892426343169e-06	0.14552903175354004	15
+293	shame_align	aligned	gpt2	 another as the waiter nodded and backed away so you seeing anyone at the moment	 asked	you	6.564137935638428	3.7370200157165527	0.0006155432783998549	0.163885697722435	15
+294	shame_align	aligned	gpt2	 as the waiter nodded and backed away so you seeing anyone at the moment asked	 brand	new	12.74044132232666	2.9718077182769775	0.0003168880066368729	0.4729105830192566	15
+295	shame_align	aligned	gpt2	 the waiter nodded and backed away so you seeing anyone at the moment asked brand	on	if	5.126413345336914	4.034762382507324	1.0089872375829145e-05	0.15150882303714752	15
+296	shame_align	aligned	gpt2	 waiter nodded and backed away so you seeing anyone at the moment asked brandon	 no	more	8.211143493652344	5.188493251800537	0.00663263164460659	0.11542429029941559	15
+297	shame_align	aligned	gpt2	 nodded and backed away so you seeing anyone at the moment asked brandon no	 actually	.	7.948526382446289	5.754044055938721	0.001435660058632493	0.08122565597295761	15
+298	shame_align	aligned	gpt2	 and backed away so you seeing anyone at the moment asked brandon no actually	 i	think	7.221156597137451	4.539142608642578	0.0002625102933961898	0.10956732928752899	15
+299	shame_align	aligned	gpt2	 backed away so you seeing anyone at the moment asked brandon no actually i	'm	not	2.7473738193511963	4.599288463592529	1.3753673556493595e-05	0.2202972173690796	15
+300	shame_align	aligned	gpt2	 away so you seeing anyone at the moment asked brandon no actually i'm	 separated	from	12.642943382263184	3.253568649291992	1.2059520486218389e-05	0.5007244944572449	15
+301	shame_align	aligned	gpt2	 so you seeing anyone at the moment asked brandon no actually i'm separated	 kind	of	9.85804271697998	0.7107246518135071	2.1753194232587703e-05	0.9164326190948486	15
+302	shame_align	aligned	gpt2	 you seeing anyone at the moment asked brandon no actually i'm separated kind	 of	like	0.08012042939662933	6.579422473907471	0.0015485621988773346	0.09165702015161514	15
+303	shame_align	aligned	gpt2	 seeing anyone at the moment asked brandon no actually i'm separated kind of	 a	thing	3.8902885913848877	6.9456353187561035	0.0016236291266977787	0.030681245028972626	15
+304	shame_align	aligned	gpt2	 anyone at the moment asked brandon no actually i'm separated kind of a	 recent	thing	9.657052993774414	7.458127021789551	0.0005290517583489418	0.014570473693311214	15
+305	shame_align	aligned	gpt2	 at the moment asked brandon no actually i'm separated kind of a recent	 thing	i	4.055644989013672	4.853172302246094	0.00042515204404480755	0.09488140046596527	15
+306	shame_align	aligned	gpt2	 the moment asked brandon no actually i'm separated kind of a recent thing	 oh	well	8.625028610229492	5.040527820587158	0.004424377344548702	0.09211811423301697	15
+307	shame_align	aligned	gpt2	 moment asked brandon no actually i'm separated kind of a recent thing oh	 you	're	4.107672214508057	5.053556442260742	0.0010656553786247969	0.11468818783760071	15
+308	shame_align	aligned	gpt2	 asked brandon no actually i'm separated kind of a recent thing oh you	 were	just	3.8666067123413086	5.932487487792969	9.302808030042797e-05	0.05295556038618088	15
+309	shame_align	aligned	gpt2	 brandon no actually i'm separated kind of a recent thing oh you were	 married	and	6.8771514892578125	5.168359279632568	0.0005134277744218707	0.0928252711892128	15
+310	shame_align	aligned	gpt2	on no actually i'm separated kind of a recent thing oh you were married	 for	a	3.289532423019409	4.483098030090332	0.0005700297770090401	0.19555450975894928	15
+311	shame_align	aligned	gpt2	 no actually i'm separated kind of a recent thing oh you were married for	 long	time	6.174234390258789	3.5811610221862793	0.003533437382429838	0.2783795893192291	15
+312	shame_align	aligned	gpt2	 actually i'm separated kind of a recent thing oh you were married for long	 no	you	7.939903736114502	5.358304977416992	0.061030685901641846	0.09123914688825607	15
+313	shame_align	aligned	gpt2	 i'm separated kind of a recent thing oh you were married for long no	 gave	me	10.772110939025879	2.9579274654388428	5.672231054631993e-06	0.39509180188179016	15
+314	shame_align	aligned	gpt2	'm separated kind of a recent thing oh you were married for long no gave	 it	up	2.7929635047912598	3.512810230255127	0.0010861367918550968	0.19569529592990875	15
+315	shame_align	aligned	gpt2	 separated kind of a recent thing oh you were married for long no gave it	 a	chance	1.8212212324142456	3.809391736984253	0.00011217059363843873	0.2673453390598297	15
+316	shame_align	aligned	gpt2	 kind of a recent thing oh you were married for long no gave it a	 didn	't	12.812604904174805	0.0641988217830658	1.907529258460272e-05	0.9947441816329956	15
+317	shame_align	aligned	gpt2	 of a recent thing oh you were married for long no gave it a didn	't	give	0.008532732725143433	5.164519786834717	0.00011830508447019383	0.1920394003391266	15
+318	shame_align	aligned	gpt2	 a recent thing oh you were married for long no gave it a didn't	 really	mean	4.4442853927612305	5.688370704650879	0.004959524143487215	0.04273732379078865	15
+319	shame_align	aligned	gpt2	 recent thing oh you were married for long no gave it a didn't really	 work	out	4.922817230224609	4.267634868621826	5.788443741039373e-05	0.31962987780570984	15
+320	shame_align	aligned	gpt2	 thing oh you were married for long no gave it a didn't really work	 out	.	0.9981718063354492	5.149593353271484	0.0004202788113616407	0.08818512409925461	15
+321	shame_align	aligned	gpt2	 oh you were married for long no gave it a didn't really work out	 she	was	5.726593971252441	4.7958598136901855	0.0006431755609810352	0.14710772037506104	15
+322	shame_align	aligned	gpt2	 you were married for long no gave it a didn't really work out she	 paused	for	10.683318138122559	3.8199729919433594	2.9671415177290328e-05	0.21073640882968903	15
+323	shame_align	aligned	gpt2	 were married for long no gave it a didn't really work out she paused	 fing	ering	10.970582008361816	0.28993651270866394	7.113035280781332e-07	0.9345479607582092	15
+324	shame_align	aligned	gpt2	 married for long no gave it a didn't really work out she paused fing	ering	her	0.04165199398994446	3.073887825012207	3.4345075050623564e-07	0.31712037324905396	15
+325	shame_align	aligned	gpt2	 for long no gave it a didn't really work out she paused fingering	 her	lips	1.2013310194015503	5.784707069396973	0.00013674524961970747	0.046989940106868744	15
+326	shame_align	aligned	gpt2	 long no gave it a didn't really work out she paused fingering her	 nap	kin	10.046041488647461	0.4765791893005371	2.112584661517758e-05	0.9142425656318665	15
+327	shame_align	aligned	gpt2	 no gave it a didn't really work out she paused fingering her nap	kin	.	0.09053750336170197	4.143141269683838	3.927182206098223e-07	0.16785824298858643	15
+328	shame_align	aligned	gpt2	 gave it a didn't really work out she paused fingering her napkin	 what	she	9.73872184753418	4.784116268157959	0.0005344529636204243	0.12542618811130524	15
+329	shame_align	aligned	gpt2	 it a didn't really work out she paused fingering her napkin what	 about	you	5.840383529663086	5.61575174331665	0.00047602193080820143	0.06910883635282516	15
+330	shame_align	aligned	gpt2	 a didn't really work out she paused fingering her napkin what about	 you	?	2.5660812854766846	5.0672101974487305	0.0022769058123230934	0.23226489126682281	15
+331	shame_align	aligned	gpt2	 didn't really work out she paused fingering her napkin what about you	 no	one	7.771966457366943	4.948685646057129	0.004039960913360119	0.15196898579597473	15
+332	shame_align	aligned	gpt2	't really work out she paused fingering her napkin what about you no	 i	'm	5.7943501472473145	4.705041408538818	0.0005584678729064763	0.11207079887390137	15
+333	shame_align	aligned	gpt2	 really work out she paused fingering her napkin what about you no i	'm	not	2.305271625518799	4.773737907409668	2.8147749617346562e-05	0.19572234153747559	15
+334	shame_align	aligned	gpt2	 work out she paused fingering her napkin what about you no i'm	 not	going	1.7049415111541748	5.355597019195557	0.0009591808193363249	0.12384262681007385	15
+335	shame_align	aligned	gpt2	 out she paused fingering her napkin what about you no i'm not	 seeing	you	6.030101776123047	3.8208179473876953	6.596707680728287e-05	0.2068209946155548	15
+336	shame_align	aligned	gpt2	 she paused fingering her napkin what about you no i'm not seeing	 anyone	else	4.6144118309021	5.390195369720459	0.0004559317894745618	0.11804438382387161	15
+337	shame_align	aligned	gpt2	 paused fingering her napkin what about you no i'm not seeing anyone	 to	do	4.762261390686035	5.853304862976074	0.0003736134385690093	0.0445016473531723	15
+338	shame_align	aligned	gpt2	 fingering her napkin what about you no i'm not seeing anyone to	 be	a	4.040189266204834	6.613801002502441	0.0002506794407963753	0.028748903423547745	15
+339	shame_align	aligned	gpt2	ering her napkin what about you no i'm not seeing anyone to be	 honest	.	4.020026206970215	4.990915298461914	3.47186069120653e-05	0.10722818225622177	15
+340	shame_align	aligned	gpt2	 her napkin what about you no i'm not seeing anyone to be honest	 i	'm	2.4910192489624023	3.9851343631744385	0.0003635807370301336	0.25912415981292725	15
+341	shame_align	aligned	gpt2	 napkin what about you no i'm not seeing anyone to be honest i	 can	't	3.680650234222412	4.2471022605896	0.0001405674556735903	0.21922308206558228	15
+342	shame_align	aligned	gpt2	kin what about you no i'm not seeing anyone to be honest i can	't	see	1.6123148202896118	4.642510414123535	0.00020669310470111668	0.10891187936067581	15
+343	shame_align	aligned	gpt2	 what about you no i'm not seeing anyone to be honest i can't	 understand	why	3.9574313163757324	3.319746255874634	4.4936205085832626e-05	0.344620019197464	15
+344	shame_align	aligned	gpt2	 about you no i'm not seeing anyone to be honest i can't understand	 how	you	2.119398355484009	3.852910280227661	0.0005920799449086189	0.30176112055778503	15
+345	shame_align	aligned	gpt2	 you no i'm not seeing anyone to be honest i can't understand how	 people	would	3.1787567138671875	4.600773334503174	0.00042917198152281344	0.1233532503247261	15
+346	shame_align	aligned	gpt2	 no i'm not seeing anyone to be honest i can't understand how people	 can	be	2.0497047901153564	5.094226837158203	0.00010035198647528887	0.09269910305738449	15
+347	shame_align	aligned	gpt2	 i'm not seeing anyone to be honest i can't understand how people can	 stay	in	6.194677352905273	5.0935959815979	6.082442996557802e-05	0.108754962682724	15
+348	shame_align	aligned	gpt2	'm not seeing anyone to be honest i can't understand how people can stay	 with	me	4.030439853668213	4.959766387939453	0.00015169847756624222	0.08469530940055847	15
+349	shame_align	aligned	gpt2	 not seeing anyone to be honest i can't understand how people can stay with	 one	person	3.8460474014282227	5.592204570770264	0.005290355067700148	0.20414838194847107	15
+350	shame_align	aligned	gpt2	 seeing anyone to be honest i can't understand how people can stay with one	 person	for	1.8667322397232056	3.6845085620880127	0.00011278370948275551	0.23638993501663208	15
+351	shame_align	aligned	gpt2	 anyone to be honest i can't understand how people can stay with one person	 for	so	1.4813523292541504	3.947078227996826	0.0004828822857234627	0.2817889153957367	15
+352	shame_align	aligned	gpt2	 to be honest i can't understand how people can stay with one person for	 the	rest	3.2125296592712402	3.380647897720337	7.65717268222943e-05	0.2667313516139984	15
+353	shame_align	aligned	gpt2	 be honest i can't understand how people can stay with one person for the	 rest	of	1.255122184753418	0.04051699489355087	2.786034656310221e-07	0.9963284134864807	15
+354	shame_align	aligned	gpt2	 honest i can't understand how people can stay with one person for the rest	 of	their	0.0056941211223602295	0.7156624794006348	9.314092494605575e-06	0.8706750869750977	15
+355	shame_align	aligned	gpt2	 i can't understand how people can stay with one person for the rest of	 their	lives	0.11060328036546707	0.756066083908081	2.6807374524651095e-05	0.7976399064064026	15
+356	shame_align	aligned	gpt2	 can't understand how people can stay with one person for the rest of their	 lives	.	0.149820014834404	2.8239524364471436	1.524248091300251e-05	0.3687613606452942	15
+357	shame_align	aligned	gpt2	't understand how people can stay with one person for the rest of their lives	 my	friend	11.52994155883789	5.590858459472656	0.0012770568719133735	0.1512846201658249	15
+358	shame_align	aligned	gpt2	 understand how people can stay with one person for the rest of their lives my	 longest	.	9.662216186523438	6.1490702629089355	0.00015902947052381933	0.05860361084342003	15
+359	shame_align	aligned	gpt2	 how people can stay with one person for the rest of their lives my longest	 relationship	with	5.223610877990723	4.016878128051758	0.0004615737998392433	0.16075778007507324	15
+360	shame_align	aligned	gpt2	 people can stay with one person for the rest of their lives my longest relationship	 was	with	2.2886455059051514	3.479161024093628	0.00022197823273018003	0.46641573309898376	15
+361	shame_align	aligned	gpt2	 can stay with one person for the rest of their lives my longest relationship was	 four	years	5.854605197906494	1.7176551818847656	0.00014681094035040587	0.7044456601142883	15
+362	shame_align	aligned	gpt2	 stay with one person for the rest of their lives my longest relationship was four	 months	.	2.774372100830078	3.1148619651794434	2.4407374439761043e-05	0.34633615612983704	15
+363	shame_align	aligned	gpt2	 with one person for the rest of their lives my longest relationship was four months	 mar	red	11.820823669433594	3.698685884475708	0.0001392223930452019	0.3095523715019226	15
+364	shame_align	aligned	gpt2	 one person for the rest of their lives my longest relationship was four months mar	ian	.	8.711819648742676	5.937496662139893	9.112367843044922e-05	0.11762242019176483	15
+365	shame_align	aligned	gpt2	 person for the rest of their lives my longest relationship was four months marian	ne	.	2.669142007827759	5.1833672523498535	1.072536178980954e-05	0.21690678596496582	15
+366	shame_align	aligned	gpt2	 for the rest of their lives my longest relationship was four months marianne	 raised	in	10.694897651672363	3.284275531768799	9.71101617324166e-05	0.2411796748638153	15
+367	shame_align	aligned	gpt2	 the rest of their lives my longest relationship was four months marianne raised	 her	own	3.72442364692688	5.6128363609313965	0.00028048543026670814	0.054198019206523895	15
+368	shame_align	aligned	gpt2	 rest of their lives my longest relationship was four months marianne raised her	 eyebrows	and	5.884816646575928	3.4439024925231934	0.00014453068433795124	0.2026420533657074	15
+369	shame_align	aligned	gpt2	 of their lives my longest relationship was four months marianne raised her eyebrows	 four	times	8.150745391845703	2.688647747039795	0.00020220641454216093	0.5454647541046143	15
+370	shame_align	aligned	gpt2	 their lives my longest relationship was four months marianne raised her eyebrows four	 months	ago	2.8082900047302246	2.3905296325683594	2.83539902738994e-05	0.42813944816589355	15
+371	shame_align	aligned	gpt2	 lives my longest relationship was four months marianne raised her eyebrows four months	 you	know	9.012333869934082	4.671892166137695	0.0003569491964299232	0.28052061796188354	15
+372	shame_align	aligned	gpt2	 my longest relationship was four months marianne raised her eyebrows four months you	 have	to	4.488805770874023	5.067955017089844	0.00031892533297650516	0.17116840183734894	15
+373	shame_align	aligned	gpt2	 longest relationship was four months marianne raised her eyebrows four months you have	 to	be	2.1952872276306152	5.305387496948242	0.0003854898386634886	0.0847369134426117	15
+374	shame_align	aligned	gpt2	 relationship was four months marianne raised her eyebrows four months you have to	 commit	to	7.89064884185791	4.3283538818359375	0.0001752985845087096	0.1984919160604477	15
+375	shame_align	aligned	gpt2	 was four months marianne raised her eyebrows four months you have to commit	 you	're	5.78100061416626	5.335445880889893	0.0002973173977807164	0.1060163825750351	15
+376	shame_align	aligned	gpt2	 four months marianne raised her eyebrows four months you have to commit you	 have	to	2.7853660583496094	1.6417492628097534	0.000521755893714726	0.7895883321762085	15
+377	shame_align	aligned	gpt2	 months marianne raised her eyebrows four months you have to commit you have	 to	commit	0.3153087794780731	5.282327651977539	0.0008022974361665547	0.09168756753206253	15
+378	shame_align	aligned	gpt2	 marianne raised her eyebrows four months you have to commit you have to	 actually	do	6.289400100708008	5.316789150238037	0.002683514030650258	0.10423124581575394	15
+379	shame_align	aligned	gpt2	ianne raised her eyebrows four months you have to commit you have to actually	 give	it	4.597850322723389	4.1143364906311035	5.672271436196752e-05	0.15354350209236145	15
+380	shame_align	aligned	gpt2	ne raised her eyebrows four months you have to commit you have to actually give	 it	to	1.7523409128189087	2.7760183811187744	0.0006729793385602534	0.45844805240631104	15
+381	shame_align	aligned	gpt2	 raised her eyebrows four months you have to commit you have to actually give it	 a	shot	2.215221405029297	4.126501560211182	0.00014768471010029316	0.16841652989387512	15
+382	shame_align	aligned	gpt2	 her eyebrows four months you have to commit you have to actually give it a	 shot	.	1.8912163972854614	3.461146116256714	0.00025097091565839946	0.33660879731178284	15
+383	shame_align	aligned	gpt2	 eyebrows four months you have to commit you have to actually give it a shot	 i	think	8.960599899291992	4.095617294311523	0.00033115592668764293	0.1641577184200287	15
+384	shame_align	aligned	gpt2	 four months you have to commit you have to actually give it a shot i	 did	.	5.343939781188965	4.774819850921631	0.0005958828842267394	0.10548953711986542	15
+385	shame_align	aligned	gpt2	 months you have to commit you have to actually give it a shot i did	 he	said	7.834560394287109	5.883084774017334	0.002732551656663418	0.09967277944087982	15
+386	shame_align	aligned	gpt2	 you have to commit you have to actually give it a shot i did he	 laughed	at	7.838690757751465	4.345181465148926	5.831497037434019e-05	0.1492932289838791	15
+387	shame_align	aligned	gpt2	 have to commit you have to actually give it a shot i did he laughed	 for	a	4.954322814941406	2.906876802444458	0.0002801855735015124	0.5358513593673706	15
+388	shame_align	aligned	gpt2	 to commit you have to actually give it a shot i did he laughed for	 four	minutes	6.6215739250183105	3.452601194381714	0.00011816991172963753	0.2174616903066635	15
+389	shame_align	aligned	gpt2	 commit you have to actually give it a shot i did he laughed for four	 months	and	4.138514518737793	4.42793083190918	8.402574894716963e-05	0.17278717458248138	15
+390	shame_align	aligned	gpt2	 you have to actually give it a shot i did he laughed for four months	 soon	after	9.308571815490723	3.210331916809082	0.00035129065508954227	0.5116426348686218	15
+391	shame_align	aligned	gpt2	 have to actually give it a shot i did he laughed for four months soon	 the	next	5.02698278427124	7.233526706695557	0.0006020570290274918	0.039874423295259476	15
+392	shame_align	aligned	gpt2	 to actually give it a shot i did he laughed for four months soon the	 waiter	came	9.118549346923828	5.0771684646606445	2.4011114874156192e-05	0.10761748999357224	15
+393	shame_align	aligned	gpt2	 actually give it a shot i did he laughed for four months soon the waiter	 returned	and	6.755887031555176	3.974393844604492	2.7180185497854836e-05	0.2065051943063736	15
+394	shame_align	aligned	gpt2	 give it a shot i did he laughed for four months soon the waiter returned	 with	a	2.2713444232940674	4.360157012939453	0.0002378508070250973	0.3055759072303772	15
+395	shame_align	aligned	gpt2	 it a shot i did he laughed for four months soon the waiter returned with	 their	order	6.16965389251709	6.846452713012695	0.000265763170318678	0.043883223086595535	15
+396	shame_align	aligned	gpt2	 a shot i did he laughed for four months soon the waiter returned with their	 lamb	and	8.133649826049805	5.471720218658447	0.005382035858929157	0.12752297520637512	15
+397	shame_align	aligned	gpt2	 shot i did he laughed for four months soon the waiter returned with their lamb	 <	3	10.755729675292969	5.590635776519775	0.0015680569922551513	0.22842460870742798	15
+398	shame_align	aligned	gpt2	 i did he laughed for four months soon the waiter returned with their lamb <	unk	now	12.722732543945312	5.35916805267334	8.181898738257587e-05	0.1165277510881424	15
+399	shame_align	aligned	gpt2	 did he laughed for four months soon the waiter returned with their lamb <unk	>	and	2.151972770690918	6.032955169677734	0.0008740508928894997	0.20101799070835114	15
+400	shame_align	aligned	gpt2	 he laughed for four months soon the waiter returned with their lamb <unk>	 arranged	for	10.320378303527832	3.9628849029541016	1.2465712643461302e-05	0.2061094045639038	15
+401	shame_align	aligned	gpt2	 laughed for four months soon the waiter returned with their lamb <unk> arranged	 on	the	3.4579687118530273	3.563002109527588	7.01806420693174e-05	0.3356998860836029	15
+402	shame_align	aligned	gpt2	 for four months soon the waiter returned with their lamb <unk> arranged on	 the	table	1.061366319656372	4.0291924476623535	0.00021706712141167372	0.4372338652610779	15
+403	shame_align	aligned	gpt2	 four months soon the waiter returned with their lamb <unk> arranged on the	 plate	.	4.739572525024414	3.2691001892089844	0.00014796899631619453	0.2970951795578003	15
+404	shame_align	aligned	gpt2	 months soon the waiter returned with their lamb <unk> arranged on the plate	 as	a	3.9415245056152344	4.482036590576172	0.0007048252737149596	0.21031463146209717	15
+405	shame_align	aligned	gpt2	 soon the waiter returned with their lamb <unk> arranged on the plate as	 they	were	2.7731828689575195	4.97158145904541	4.1651102947071195e-05	0.13059115409851074	15
+406	shame_align	aligned	gpt2	 the waiter returned with their lamb <unk> arranged on the plate as they	 began	to	5.171246528625488	2.9135379791259766	2.794458850985393e-06	0.4855944812297821	15
+407	shame_align	aligned	gpt2	 waiter returned with their lamb <unk> arranged on the plate as they began	 to	eat	0.78448885679245	5.974647045135498	0.0002588222560007125	0.11525080353021622	15
+408	shame_align	aligned	gpt2	 returned with their lamb <unk> arranged on the plate as they began to	 cut	the	5.629473686218262	4.207422733306885	0.00027273973682895303	0.19622191786766052	15
+409	shame_align	aligned	gpt2	 with their lamb <unk> arranged on the plate as they began to cut	 into	the	3.4072771072387695	3.9318673610687256	6.498222501249984e-05	0.4018931984901428	15
+410	shame_align	aligned	gpt2	 their lamb <unk> arranged on the plate as they began to cut into	 the	meat	0.8954262733459473	5.813562870025635	0.0004167736042290926	0.20254774391651154	15
+411	shame_align	aligned	gpt2	 lamb <unk> arranged on the plate as they began to cut into the	 meat	.	2.73722767829895	3.0715391635894775	0.00028666568687185645	0.43776944279670715	15
+412	shame_align	aligned	gpt2	 <unk> arranged on the plate as they began to cut into the meat	 brand	y	12.351522445678711	2.163581609725952	0.00011215451377211139	0.5910544991493225	15
+413	shame_align	aligned	gpt2	unk> arranged on the plate as they began to cut into the meat brand	on	.	5.735021114349365	4.43210506439209	6.105515694798669e-06	0.26460975408554077	15
+414	shame_align	aligned	gpt2	> arranged on the plate as they began to cut into the meat brandon	 leaned	forward	13.00871753692627	3.4376792907714844	4.629133400158025e-06	0.1634787768125534	15
+415	shame_align	aligned	gpt2	 arranged on the plate as they began to cut into the meat brandon leaned	 over	the	2.184504985809326	2.9038188457489014	0.0003432092780712992	0.3063478171825409	15
+416	shame_align	aligned	gpt2	 on the plate as they began to cut into the meat brandon leaned over	 to	look	1.6035338640213013	5.397809982299805	0.00022379470465239137	0.0848209410905838	15
+417	shame_align	aligned	gpt2	 the plate as they began to cut into the meat brandon leaned over to	 mar	inate	11.654467582702637	1.005812168121338	3.5768173347605625e-06	0.840234100818634	15
+418	shame_align	aligned	gpt2	 plate as they began to cut into the meat brandon leaned over to mar	ian	.	11.583569526672363	5.786087989807129	1.645653355808463e-05	0.09008859097957611	15
+419	shame_align	aligned	gpt2	 as they began to cut into the meat brandon leaned over to marian	ne	and	4.67921257019043	4.294448375701904	3.7210778828011826e-05	0.15345001220703125	15
+420	shame_align	aligned	gpt2	 they began to cut into the meat brandon leaned over to marianne	 if	she	8.493315696716309	3.433319330215454	0.00022891427215654403	0.24930192530155182	15
+421	shame_align	aligned	gpt2	 began to cut into the meat brandon leaned over to marianne if	 you	were	3.5232648849487305	4.717967510223389	9.528534428682178e-05	0.09502450376749039	15
+422	shame_align	aligned	gpt2	 to cut into the meat brandon leaned over to marianne if you	 had	a	3.685173511505127	4.412972450256348	0.0019222090486437082	0.15619002282619476	15
+423	shame_align	aligned	gpt2	 cut into the meat brandon leaned over to marianne if you had	 a	little	1.8854115009307861	7.047699928283691	0.00020391451835166663	0.020572582259774208	15
+424	shame_align	aligned	gpt2	 into the meat brandon leaned over to marianne if you had a	 choice	.	4.932942867279053	2.399167537689209	3.6215875297784805e-05	0.46085435152053833	15
+425	shame_align	aligned	gpt2	 the meat brandon leaned over to marianne if you had a choice	 to	make	4.077846527099609	5.0633864402771	0.00030453759245574474	0.11178611218929291	15
+426	shame_align	aligned	gpt2	 meat brandon leaned over to marianne if you had a choice to	 live	in	6.871739387512207	3.6525721549987793	0.00011152306979056448	0.19128212332725525	15
+427	shame_align	aligned	gpt2	 brandon leaned over to marianne if you had a choice to live	 in	.	2.0458407402038574	4.887020111083984	0.002313728677108884	0.17038920521736145	15
+428	shame_align	aligned	gpt2	on leaned over to marianne if you had a choice to live in	 the	city	2.261565685272217	6.750790596008301	0.0004622635315172374	0.07698468863964081	15
+429	shame_align	aligned	gpt2	 leaned over to marianne if you had a choice to live in the	 past	.	5.1618523597717285	3.094270944595337	0.0002039353275904432	0.36650803685188293	15
+430	shame_align	aligned	gpt2	 over to marianne if you had a choice to live in the past	 or	not	2.0789926052093506	4.2499237060546875	8.279400935862213e-05	0.27765601873397827	15
+431	shame_align	aligned	gpt2	 to marianne if you had a choice to live in the past or	 the	future	2.1326355934143066	0.9341339468955994	3.0325290936161764e-05	0.5246951580047607	15
+432	shame_align	aligned	gpt2	 marianne if you had a choice to live in the past or the	 future	.	0.6240469813346863	2.569876194000244	8.276776497950777e-05	0.5121407508850098	15
+433	shame_align	aligned	gpt2	ianne if you had a choice to live in the past or the future	 and	you	3.724062442779541	5.652949810028076	0.0007962070521898568	0.12618862092494965	15
+434	shame_align	aligned	gpt2	ne if you had a choice to live in the past or the future and	 you	wanted	1.9698928594589233	4.5764265060424805	6.82721656630747e-05	0.06997906416654587	15
+435	shame_align	aligned	gpt2	 if you had a choice to live in the past or the future and you	 could	have	3.6964356899261475	4.752523899078369	1.881084608612582e-05	0.14799341559410095	15
+436	shame_align	aligned	gpt2	 you had a choice to live in the past or the future and you could	 be	a	3.110997200012207	6.217689514160156	5.1912553317379206e-05	0.09265907853841782	15
+437	shame_align	aligned	gpt2	 had a choice to live in the past or the future and you could be	 anything	you	5.7875165939331055	2.018911600112915	0.0001312002568738535	0.6454637050628662	15
+438	shame_align	aligned	gpt2	 a choice to live in the past or the future and you could be anything	 you	want	0.8350224494934082	1.4845155477523804	4.5932298235129565e-05	0.579922616481781	15
+439	shame_align	aligned	gpt2	 choice to live in the past or the future and you could be anything you	 wanted	to	1.4135596752166748	1.6293686628341675	2.0606035832315683e-05	0.6829964518547058	15
+440	shame_align	aligned	gpt2	 to live in the past or the future and you could be anything you wanted	 what	you	9.237080574035645	3.8384604454040527	0.0011073373025283217	0.33673521876335144	15
+441	shame_align	aligned	gpt2	 live in the past or the future and you could be anything you wanted what	 would	you	3.214384078979492	3.088982343673706	9.424666495760903e-05	0.4327298402786255	15
+442	shame_align	aligned	gpt2	 in the past or the future and you could be anything you wanted what would	 you	want	0.9438838958740234	3.177258014678955	0.000444672565208748	0.2402944415807724	15
+443	shame_align	aligned	gpt2	 the past or the future and you could be anything you wanted what would you	 be	?	3.9295859336853027	4.293261528015137	0.0005453715566545725	0.19745223224163055	15
+444	shame_align	aligned	gpt2	 past or the future and you could be anything you wanted what would you be	 well	suited	9.171724319458008	4.83143424987793	0.0010731726652011275	0.10958274453878403	15
+445	shame_align	aligned	gpt2	 or the future and you could be anything you wanted what would you be well	 what	would	6.294577598571777	2.760054588317871	0.004207119345664978	0.550381064414978	15
+446	shame_align	aligned	gpt2	 the future and you could be anything you wanted what would you be well what	 would	you	0.6586138010025024	1.0711151361465454	0.00019666491425596178	0.8479339480400085	15
+447	shame_align	aligned	gpt2	 future and you could be anything you wanted what would you be well what would	 you	be	0.1581922471523285	2.9596517086029053	0.00021836927044205368	0.4564305245876312	15
+448	shame_align	aligned	gpt2	 and you could be anything you wanted what would you be well what would you	 be	well	0.8578323125839233	5.836961269378662	0.002076134318485856	0.10655689239501953	15
+449	shame_align	aligned	gpt2	 you could be anything you wanted what would you be well what would you be	 i	think	9.235005378723145	4.555607318878174	0.0004343301698099822	0.0898253545165062	15
+450	shame_align	aligned	gpt2	 could be anything you wanted what would you be well what would you be i	 always	wanted	5.690708160400391	4.61667013168335	0.002557787811383605	0.1764000952243805	15
+451	shame_align	aligned	gpt2	 be anything you wanted what would you be well what would you be i always	 wanted	to	1.6630017757415771	4.17557430267334	8.324502414325252e-05	0.3222784996032715	15
+452	shame_align	aligned	gpt2	 anything you wanted what would you be well what would you be i always wanted	 to	be	1.2680612802505493	3.840421676635742	0.00024117737484630197	0.23120781779289246	15
+453	shame_align	aligned	gpt2	 you wanted what would you be well what would you be i always wanted to	 be	a	1.4051240682601929	5.651686191558838	0.000974581460468471	0.08933042734861374	15
+454	shame_align	aligned	gpt2	 wanted what would you be well what would you be i always wanted to be	 a	girl	2.4164042472839355	6.7471842765808105	0.00044456732575781643	0.04404758661985397	15
+455	shame_align	aligned	gpt2	 what would you be well what would you be i always wanted to be a	 musician	but	3.869260549545288	4.317596912384033	8.822083327686414e-05	0.13911493122577667	15
+456	shame_align	aligned	gpt2	 would you be well what would you be i always wanted to be a musician	 in	my	3.857862949371338	4.238257884979248	0.00022203999105840921	0.28224751353263855	15
+457	shame_align	aligned	gpt2	 you be well what would you be i always wanted to be a musician in	 the	first	1.8599426746368408	5.730386734008789	0.00044476165203377604	0.05394529551267624	15
+458	shame_align	aligned	gpt2	 be well what would you be i always wanted to be a musician in the	 s	ixties	6.115310192108154	1.9519912004470825	0.00034177699126303196	0.7812241315841675	15
+459	shame_align	aligned	gpt2	 well what would you be i always wanted to be a musician in the s	ixties	and	0.21132539212703705	3.842264413833618	4.14702753914753e-06	0.18883448839187622	15
+460	shame_align	aligned	gpt2	 what would you be i always wanted to be a musician in the sixties	 mar	i	11.422883033752441	4.87091588973999	0.0001347967190667987	0.12463207542896271	15
+461	shame_align	aligned	gpt2	 would you be i always wanted to be a musician in the sixties mar	ian	.	5.368671417236328	6.532549858093262	0.0001690415811026469	0.06475337594747543	15
+462	shame_align	aligned	gpt2	 you be i always wanted to be a musician in the sixties marian	ne	.	3.7529261112213135	6.492505073547363	1.4161110811983235e-05	0.07136821001768112	15
+463	shame_align	aligned	gpt2	 be i always wanted to be a musician in the sixties marianne	 shook	my	11.3524169921875	3.827915668487549	8.415830234298483e-05	0.22349853813648224	15
+464	shame_align	aligned	gpt2	 i always wanted to be a musician in the sixties marianne shook	 her	head	2.182404041290283	1.6091301441192627	5.969520498183556e-05	0.7927132248878479	15
+465	shame_align	aligned	gpt2	 always wanted to be a musician in the sixties marianne shook her	 head	.	0.3902601897716522	3.3338098526000977	0.00013038169709034264	0.23521286249160767	15
+466	shame_align	aligned	gpt2	 wanted to be a musician in the sixties marianne shook her head	 i	was	10.266729354858398	6.061931610107422	0.0013669212348759174	0.057791341096162796	15
+467	shame_align	aligned	gpt2	 to be a musician in the sixties marianne shook her head i	 saw	her	4.9839277267456055	4.873386383056641	2.25658714043675e-05	0.1995176374912262	15
+468	shame_align	aligned	gpt2	 be a musician in the sixties marianne shook her head i saw	 that	she	3.1479203701019287	5.899573802947998	0.0022411998361349106	0.1387692391872406	15
+469	shame_align	aligned	gpt2	 a musician in the sixties marianne shook her head i saw that	 rolling	around	12.300074577331543	6.397750377655029	0.00031768420012667775	0.047409310936927795	15
+470	shame_align	aligned	gpt2	 musician in the sixties marianne shook her head i saw that rolling	 stones	were	6.4703755378723145	4.605809211730957	5.218665683059953e-05	0.2301102876663208	15
+471	shame_align	aligned	gpt2	 in the sixties marianne shook her head i saw that rolling stones	 documentary	was	15.613992691040039	6.0172271728515625	0.0021490338258445263	0.08440631628036499	15
+472	shame_align	aligned	gpt2	 the sixties marianne shook her head i saw that rolling stones documentary	 recently	.	8.373351097106934	5.332790851593018	0.00048457246157340705	0.09448686987161636	15
+473	shame_align	aligned	gpt2	 sixties marianne shook her head i saw that rolling stones documentary recently	 the	film	5.9398064613342285	8.143866539001465	0.0021368293091654778	0.015341597609221935	15
+474	shame_align	aligned	gpt2	ixties marianne shook her head i saw that rolling stones documentary recently the	 s	anta	6.941382884979248	6.717902660369873	0.0006196791073307395	0.04389530047774315	15
+475	shame_align	aligned	gpt2	 marianne shook her head i saw that rolling stones documentary recently the s	ixties	.	5.673766136169434	6.111157417297363	2.262559974042233e-06	0.07155228406190872	15
+476	shame_align	aligned	gpt2	ianne shook her head i saw that rolling stones documentary recently the sixties	 seemed	to	6.40008020401001	3.0445573329925537	1.448339389753528e-05	0.5189167261123657	15
+477	shame_align	aligned	gpt2	ne shook her head i saw that rolling stones documentary recently the sixties seemed	 like	a	1.9052751064300537	3.9010117053985596	0.006332425866276026	0.3478872776031494	15
+478	shame_align	aligned	gpt2	 shook her head i saw that rolling stones documentary recently the sixties seemed like	 chaos	.	9.901771545410156	4.941868782043457	0.00015149427053984255	0.15459978580474854	15
+479	shame_align	aligned	gpt2	 her head i saw that rolling stones documentary recently the sixties seemed like chaos	 the	way	5.63303804397583	6.224133491516113	0.000910953909624368	0.07358137518167496	15
+480	shame_align	aligned	gpt2	 head i saw that rolling stones documentary recently the sixties seemed like chaos the	 last	time	4.393633842468262	3.6150403022766113	0.00014026604185346514	0.3020769953727722	15
+481	shame_align	aligned	gpt2	 i saw that rolling stones documentary recently the sixties seemed like chaos the last	 place	I	6.750588417053223	2.999176502227783	8.914801583159715e-05	0.35240358114242554	15
+482	shame_align	aligned	gpt2	 saw that rolling stones documentary recently the sixties seemed like chaos the last place	 i	thought	6.1861090660095215	4.099076271057129	1.3798287000099663e-05	0.09821267426013947	15
+483	shame_align	aligned	gpt2	 that rolling stones documentary recently the sixties seemed like chaos the last place i	'd	seen	2.531641960144043	4.1394429206848145	0.0002550402423366904	0.1691196858882904	15
+484	shame_align	aligned	gpt2	 rolling stones documentary recently the sixties seemed like chaos the last place i'd	 want	to	3.2070560455322266	0.8470176458358765	1.9175445231667254e-06	0.8792256712913513	15
+485	shame_align	aligned	gpt2	 stones documentary recently the sixties seemed like chaos the last place i'd want	 to	be	0.13323912024497986	2.531475305557251	6.104609929025173e-05	0.5453060269355774	15
+486	shame_align	aligned	gpt2	 documentary recently the sixties seemed like chaos the last place i'd want to	 be	.	0.6164629459381104	3.1177926063537598	0.00018669108976610005	0.4992138743400574	15
+487	shame_align	aligned	gpt2	 recently the sixties seemed like chaos the last place i'd want to be	 so	i	5.695340156555176	5.926388740539551	0.0015690198633819818	0.12425625324249268	15
+488	shame_align	aligned	gpt2	 the sixties seemed like chaos the last place i'd want to be so	 where	i	6.655330657958984	3.7935492992401123	0.001043363707140088	0.12094935774803162	15
+489	shame_align	aligned	gpt2	 sixties seemed like chaos the last place i'd want to be so where	 would	i	2.733610153198242	0.8649582266807556	2.1157033188501373e-05	0.8775990009307861	15
+490	shame_align	aligned	gpt2	ixties seemed like chaos the last place i'd want to be so where would	 you	go	3.534245014190674	3.4482805728912354	0.00019967829575762153	0.36850714683532715	15
+491	shame_align	aligned	gpt2	 seemed like chaos the last place i'd want to be so where would you	 wanna	go	5.7006731033325195	2.511221170425415	0.00011220251326449215	0.5266987681388855	15
+492	shame_align	aligned	gpt2	 like chaos the last place i'd want to be so where would you wanna	 be	?	1.7317538261413574	4.424339294433594	0.0009639978525228798	0.18671803176403046	15
+493	shame_align	aligned	gpt2	 chaos the last place i'd want to be so where would you wanna be	 you	know	7.053472995758057	5.428040027618408	0.00026248142239637673	0.1269206404685974	15
+494	shame_align	aligned	gpt2	 the last place i'd want to be so where would you wanna be you	 know	?	1.8348625898361206	4.497400283813477	0.00025207348517142236	0.19375082850456238	15
+495	shame_align	aligned	gpt2	 last place i'd want to be so where would you wanna be you know	 here	in	7.212216377258301	5.150381565093994	0.005002227146178484	0.07892551273107529	15
+496	shame_align	aligned	gpt2	 place i'd want to be so where would you wanna be you know here	 now	?	5.822178840637207	5.032577037811279	0.0016244621947407722	0.1270589381456375	15
+497	shame_align	aligned	gpt2	 i'd want to be so where would you wanna be you know here now	 don	't	7.201239585876465	0.20056165754795074	5.742522989748977e-05	0.9817467927932739	15
+498	shame_align	aligned	gpt2	'd want to be so where would you wanna be you know here now don	't	you	0.016088193282485008	4.345333099365234	4.441347482497804e-05	0.2220410257577896	15
+499	shame_align	aligned	gpt2	 want to be so where would you wanna be you know here now don't	 be	afraid	2.789741277694702	5.209784030914307	0.0006176432361826301	0.11654657125473022	15
+500	shame_align	aligned	gpt2	 to be so where would you wanna be you know here now don't be	 so	shy	2.9809446334838867	6.557302474975586	0.011947212740778923	0.03586124628782272	15
+501	shame_align	aligned	gpt2	 be so where would you wanna be you know here now don't be so	 boring	.	5.2917022705078125	5.529264450073242	0.0005327144754119217	0.07631780207157135	15
+502	shame_align	aligned	gpt2	 so where would you wanna be you know here now don't be so boring	 he	he	7.171584129333496	4.702120780944824	0.0019737626425921917	0.1776561737060547	15
+503	shame_align	aligned	gpt2	 where would you wanna be you know here now don't be so boring he	 said	.	3.3429341316223145	5.50720739364624	0.0005329702980816364	0.09558015316724777	15
+504	shame_align	aligned	gpt2	 would you wanna be you know here now don't be so boring he said	 play	with	8.437505722045898	5.870726108551025	0.0005576913245022297	0.06275275349617004	15
+505	shame_align	aligned	gpt2	 you wanna be you know here now don't be so boring he said play	fully	.	6.8013529777526855	5.720921516418457	1.1584418189158896e-06	0.10046827793121338	15

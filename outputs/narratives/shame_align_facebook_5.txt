@@ -1,0 +1,575 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon spotted mar	ian	ge	6.755441665649414	6.552302360534668	0.0011645256308838725	0.03733929619193077	5
+1	shame_align	aligned	facebook/blenderbot-400M-distill	on spotted marian	ne		11.957611083984375	6.321976184844971	6.410254627553513e-06	0.06465122848749161	5
+2	shame_align	aligned	facebook/blenderbot-400M-distill	 spotted marianne	 at		6.913031578063965	6.410980701446533	0.0009947378421202302	0.06582438945770264	5
+3	shame_align	aligned	facebook/blenderbot-400M-distill	ted marianne at	 a	pre	6.101958274841309	6.562127113342285	0.002238479210063815	0.067951999604702	5
+4	shame_align	aligned	facebook/blenderbot-400M-distill	 marianne at a	 table	</s>	8.398479461669922	4.924578666687012	0.00022520941274706274	0.11747581511735916	5
+5	shame_align	aligned	facebook/blenderbot-400M-distill	ianne at a table	 as	a	6.617522239685059	5.9168901443481445	0.0013367393985390663	0.09336423128843307	5
+6	shame_align	aligned	facebook/blenderbot-400M-distill	ne at a table as	 soon	as	10.457000732421875	0.40210583806037903	2.8746333555318415e-05	0.9546476006507874	5
+7	shame_align	aligned	facebook/blenderbot-400M-distill	 at a table as soon	 as	possible	6.389745235443115	4.376764297485352	0.0016786836786195636	0.1461677998304367	5
+8	shame_align	aligned	facebook/blenderbot-400M-distill	 a table as soon as	 he	tells	4.4480133056640625	4.938718318939209	0.011701793409883976	0.06798485666513443	5
+9	shame_align	aligned	facebook/blenderbot-400M-distill	 table as soon as he	 ent	r	5.08024787902832	4.4973344802856445	0.00621836818754673	0.15806138515472412	5
+10	shame_align	aligned	facebook/blenderbot-400M-distill	 as soon as he ent	ered	a	12.67943000793457	5.204992294311523	3.114537548754015e-06	0.09583896398544312	5
+11	shame_align	aligned	facebook/blenderbot-400M-distill	 soon as he entered	 the	long	5.552999019622803	6.048556327819824	0.0038758160080760717	0.05221226066350937	5
+12	shame_align	aligned	facebook/blenderbot-400M-distill	 as he entered the	 restaurant	.	8.488449096679688	4.694523334503174	0.00020583224250003695	0.18200048804283142	5
+13	shame_align	aligned	facebook/blenderbot-400M-distill	 he entered the restaurant	 though	I	8.950739860534668	4.728363990783691	0.00012964119378011674	0.12547755241394043	5
+14	shame_align	aligned	facebook/blenderbot-400M-distill	 entered the restaurant though	 he	just	4.410579681396484	5.49827766418457	0.012148131616413593	0.06155584380030632	5
+15	shame_align	aligned	facebook/blenderbot-400M-distill	ered the restaurant though he	 was	?	7.270203590393066	4.367630958557129	0.0006959702004678547	0.17186500132083893	5
+16	shame_align	aligned	facebook/blenderbot-400M-distill	 the restaurant though he was	 already	a	12.101337432861328	5.291247844696045	5.552084076043684e-06	0.22780615091323853	5
+17	shame_align	aligned	facebook/blenderbot-400M-distill	 restaurant though he was already	 running	a	5.613643169403076	5.703814506530762	0.0036477555986493826	0.07401648163795471	5
+18	shame_align	aligned	facebook/blenderbot-400M-distill	 though he was already running	 late	for	8.693219184875488	4.588532447814941	0.00016771929222159088	0.14214910566806793	5
+19	shame_align	aligned	facebook/blenderbot-400M-distill	 he was already running late	 he	he	2.3486602306365967	5.36249303817749	0.0954970121383667	0.0954970121383667	5
+20	shame_align	aligned	facebook/blenderbot-400M-distill	 was already running late he	 st	st	1.9050439596176147	4.710283279418945	0.1488160938024521	0.1488160938024521	5
+21	shame_align	aligned	facebook/blenderbot-400M-distill	 already running late he st	ood	to	11.565088272094727	5.202858924865723	9.491740456724074e-06	0.13640592992305756	5
+22	shame_align	aligned	facebook/blenderbot-400M-distill	 running late he stood	 and	I	5.6332526206970215	4.982542991638184	0.003576922230422497	0.1366334855556488	5
+23	shame_align	aligned	facebook/blenderbot-400M-distill	 late he stood and	 watched	</s>	10.978111267089844	5.184071063995361	1.7071304682758637e-05	0.19376321136951447	5
+24	shame_align	aligned	facebook/blenderbot-400M-distill	 he stood and watched	 her	</s>	5.847726821899414	5.199195861816406	0.002886452479287982	0.11256210505962372	5
+25	shame_align	aligned	facebook/blenderbot-400M-distill	 stood and watched her	 for	a	7.127391815185547	5.66143798828125	0.0008028106531128287	0.13038860261440277	5
+26	shame_align	aligned	facebook/blenderbot-400M-distill	ood and watched her for	 a	second	5.487443923950195	5.889980316162109	0.00413840776309371	0.10755708068609238	5
+27	shame_align	aligned	facebook/blenderbot-400M-distill	 and watched her for a	 moment	.	10.383392333984375	2.8453824520111084	3.0942101147957146e-05	0.4762791097164154	5
+28	shame_align	aligned	facebook/blenderbot-400M-distill	 watched her for a moment	 until	I	9.740415573120117	4.8772053718566895	5.88560760661494e-05	0.14785923063755035	5
+29	shame_align	aligned	facebook/blenderbot-400M-distill	 her for a moment until	 he	has	3.908367156982422	5.725050926208496	0.02007324993610382	0.05395038053393364	5
+30	shame_align	aligned	facebook/blenderbot-400M-distill	 for a moment until he	 was	able	8.354581832885742	5.03908109664917	0.0002353158051846549	0.10243210196495056	5
+31	shame_align	aligned	facebook/blenderbot-400M-distill	 a moment until he was	 inter	s	5.476319313049316	4.8731842041015625	0.004184702876955271	0.12735266983509064	5
+32	shame_align	aligned	facebook/blenderbot-400M-distill	 moment until he was inter	rupt	ed	14.218498229980469	0.5234180688858032	6.683204674118315e-07	0.8438829779624939	5
+33	shame_align	aligned	facebook/blenderbot-400M-distill	 until he was interrupt	ed	with	9.114986419677734	2.5668365955352783	0.00011000483209500089	0.3960827887058258	5
+34	shame_align	aligned	facebook/blenderbot-400M-distill	 he was interrupted	 by	I	6.259511947631836	5.863624572753906	0.0019121780060231686	0.07821402698755264	5
+35	shame_align	aligned	facebook/blenderbot-400M-distill	 was interrupted by	 the	we	6.514501094818115	6.122791290283203	0.0014817951014265418	0.026798522099852562	5
+36	shame_align	aligned	facebook/blenderbot-400M-distill	 interrupted by the	 host	s	7.261805534362793	3.2133285999298096	0.0007018396281637251	0.4971134066581726	5
+37	shame_align	aligned	facebook/blenderbot-400M-distill	rupted by the host	 are	the	4.791439056396484	5.96815824508667	0.008300501853227615	0.04633256793022156	5
+38	shame_align	aligned	facebook/blenderbot-400M-distill	ed by the host are	 you	?	5.160027980804443	5.0134148597717285	0.005741538945585489	0.10699451714754105	5
+39	shame_align	aligned	facebook/blenderbot-400M-distill	 by the host are you	 waiting	for	7.904289245605469	2.485322952270508	0.00036915665259584785	0.5347579717636108	5
+40	shame_align	aligned	facebook/blenderbot-400M-distill	 the host are you waiting	 for	a	6.851019859313965	5.5081562995910645	0.0010583758121356368	0.07427354902029037	5
+41	shame_align	aligned	facebook/blenderbot-400M-distill	 host are you waiting for	 someone	's	8.955077171325684	5.492405414581299	0.00012908014468848705	0.1005294919013977	5
+42	shame_align	aligned	facebook/blenderbot-400M-distill	 are you waiting for someone	 sir	</s>	7.824731826782227	5.470077991485596	0.0003997258609160781	0.07221457362174988	5
+43	shame_align	aligned	facebook/blenderbot-400M-distill	 you waiting for someone sir	 oh	you	4.558320045471191	4.954444885253906	0.010479653254151344	0.10349968075752258	5
+44	shame_align	aligned	facebook/blenderbot-400M-distill	 waiting for someone sir oh	 no	</s>	4.2445478439331055	4.7892656326293945	0.01434221863746643	0.20703831315040588	5
+45	shame_align	aligned	facebook/blenderbot-400M-distill	 for someone sir oh no	 my	</s>	5.025388717651367	5.666962623596191	0.006569030229002237	0.10213029384613037	5
+46	shame_align	aligned	facebook/blenderbot-400M-distill	 someone sir oh no my	 date	I	8.995587348937988	5.632894515991211	0.00012395561498124152	0.09277240186929703	5
+47	shame_align	aligned	facebook/blenderbot-400M-distill	 sir oh no my date	's	a	6.7513651847839355	6.084381580352783	0.0011692822445183992	0.03426716849207878	5
+48	shame_align	aligned	facebook/blenderbot-400M-distill	 oh no my date's	 here	I	6.633368492126465	5.337286472320557	0.0013157232897356153	0.08460183441638947	5
+49	shame_align	aligned	facebook/blenderbot-400M-distill	 no my date's here	 thank	you	5.728546619415283	0.9489490389823914	0.003251800313591957	0.8552406430244446	5
+50	shame_align	aligned	facebook/blenderbot-400M-distill	 my date's here thank	 you	for	4.48391056060791	3.984971046447754	0.011289180256426334	0.32295316457748413	5
+51	shame_align	aligned	facebook/blenderbot-400M-distill	 date's here thank you	 said	I	7.376246452331543	5.2361040115356445	0.0006259461515583098	0.07602251321077347	5
+52	shame_align	aligned	facebook/blenderbot-400M-distill	's here thank you said	 brand	s	11.063127517700195	0.7733972072601318	1.56799542310182e-05	0.9093406796455383	5
+53	shame_align	aligned	facebook/blenderbot-400M-distill	 here thank you said brand	on	for	10.277297973632812	4.844836235046387	3.440538057475351e-05	0.16372765600681305	5
+54	shame_align	aligned	facebook/blenderbot-400M-distill	 thank you said brandon	 and	together	6.025320053100586	5.432531356811523	0.002416777890175581	0.09826226532459259	5
+55	shame_align	aligned	facebook/blenderbot-400M-distill	 you said brandon and	 walked	together	9.986550331115723	5.364391326904297	4.6014683903194964e-05	0.09500259906053543	5
+56	shame_align	aligned	facebook/blenderbot-400M-distill	 said brandon and walked	 quickly	together	9.681269645690918	4.7287983894348145	6.244217365747318e-05	0.17411267757415771	5
+57	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon and walked quickly	 over	again	6.701916694641113	5.397303581237793	0.0012285548727959394	0.10711795091629028	5
+58	shame_align	aligned	facebook/blenderbot-400M-distill	on and walked quickly over	 to	is	4.95060920715332	5.804200172424316	0.007079094648361206	0.058620043098926544	5
+59	shame_align	aligned	facebook/blenderbot-400M-distill	 and walked quickly over to	 table	with	6.799543380737305	5.144862651824951	0.0011142836883664131	0.10607326030731201	5
+60	shame_align	aligned	facebook/blenderbot-400M-distill	 walked quickly over to table	 they	do	7.016330718994141	5.160101413726807	0.0008971114875748754	0.06990623474121094	5
+61	shame_align	aligned	facebook/blenderbot-400M-distill	 quickly over to table they	 g	fast	4.729489326477051	5.819059371948242	0.008830981329083443	0.04020398110151291	5
+62	shame_align	aligned	facebook/blenderbot-400M-distill	 over to table they g	reet	you	13.040241241455078	4.541463375091553	2.1711778117605718e-06	0.14078165590763092	5
+63	shame_align	aligned	facebook/blenderbot-400M-distill	 to table they greet	ed	a	9.220879554748535	5.013550281524658	9.895162656903267e-05	0.11626413464546204	5
+64	shame_align	aligned	facebook/blenderbot-400M-distill	 table they greeted	 each	other	5.374061584472656	4.503514289855957	0.0046352664940059185	0.29151907563209534	5
+65	shame_align	aligned	facebook/blenderbot-400M-distill	 they greeted each	 other	I	8.016443252563477	4.706090927124023	0.0003299915115348995	0.1522398740053177	5
+66	shame_align	aligned	facebook/blenderbot-400M-distill	 greeted each other	 with	a	8.057297706604004	5.8005523681640625	0.00031678160303272307	0.04404892399907112	5
+67	shame_align	aligned	facebook/blenderbot-400M-distill	reeted each other with	 awkward	ness	8.290792465209961	4.225614070892334	0.0002508155594114214	0.44946375489234924	5
+68	shame_align	aligned	facebook/blenderbot-400M-distill	ed each other with awkward	 		0.6986988186836243	3.2207605838775635	0.4972318708896637	0.4972318708896637	5
+69	shame_align	aligned	facebook/blenderbot-400M-distill	 each other with awkward 	<unk>		17.972820281982422	4.131999492645264	1.5649597173705843e-08	0.3206791281700134	5
+70	shame_align	aligned	facebook/blenderbot-400M-distill	 other with awkward <unk>	 as		5.695254325866699	5.5455708503723145	0.0033618828747421503	0.08602616935968399	5
+71	shame_align	aligned	facebook/blenderbot-400M-distill	 with awkward <unk> as	 brand	s	13.119489669799805	2.282987594604492	2.0057548226759536e-06	0.6752778887748718	5
+72	shame_align	aligned	facebook/blenderbot-400M-distill	 awkward <unk> as brand	on	ce	7.533206462860107	5.973452091217041	0.0005350199062377214	0.08754926919937134	5
+73	shame_align	aligned	facebook/blenderbot-400M-distill	 <unk> as brandon	 took	</s>	7.839280605316162	5.242160320281982	0.0003939523594453931	0.10159531235694885	5
+74	shame_align	aligned	facebook/blenderbot-400M-distill	<unk> as brandon took	 his	w	8.054742813110352	6.424771308898926	0.00031759217381477356	0.03374055027961731	5
+75	shame_align	aligned	facebook/blenderbot-400M-distill	 as brandon took his	 seat	to	9.227724075317383	3.923377752304077	9.827663598116487e-05	0.2888777256011963	5
+76	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon took his seat	 did	so	6.572148323059082	5.577920436859131	0.0013987887650728226	0.09825751185417175	5
+77	shame_align	aligned	facebook/blenderbot-400M-distill	on took his seat did	 you	have	4.261316299438477	5.18312931060791	0.014103722758591175	0.12049417942762375	5
+78	shame_align	aligned	facebook/blenderbot-400M-distill	 took his seat did you	 find	a	7.22194766998291	5.329800128936768	0.0007303784950636327	0.09398543834686279	5
+79	shame_align	aligned	facebook/blenderbot-400M-distill	 his seat did you find	 it	's	4.893551349639893	5.644656181335449	0.007494757883250713	0.08436622470617294	5
+80	shame_align	aligned	facebook/blenderbot-400M-distill	 seat did you find it	 ok	to	6.311760902404785	5.320089340209961	0.0018148352392017841	0.0758855864405632	5
+81	shame_align	aligned	facebook/blenderbot-400M-distill	 did you find it ok	 he	would	3.383847951889038	4.016409873962402	0.033916693180799484	0.14578300714492798	5
+82	shame_align	aligned	facebook/blenderbot-400M-distill	 you find it ok he	 asked	for	6.390544891357422	4.40230655670166	0.0016773416427895427	0.13548749685287476	5
+83	shame_align	aligned	facebook/blenderbot-400M-distill	 find it ok he asked	 yes	</s>	3.0073673725128174	4.781504154205322	0.04942161589860916	0.09371449053287506	5
+84	shame_align	aligned	facebook/blenderbot-400M-distill	 it ok he asked yes	 rep	et	5.1165971755981445	5.711571216583252	0.00599639443680644	0.14630760252475739	5
+85	shame_align	aligned	facebook/blenderbot-400M-distill	 ok he asked yes rep	lied	to	14.71605396270752	3.7990975379943848	4.0634887454871205e-07	0.31602907180786133	5
+86	shame_align	aligned	facebook/blenderbot-400M-distill	 he asked yes replied	 mar	ath	2.277240037918091	4.769932746887207	0.10256688296794891	0.12445463985204697	5
+87	shame_align	aligned	facebook/blenderbot-400M-distill	 asked yes replied mar	ian	e	10.160772323608398	2.8699169158935547	3.865740654873662e-05	0.3009149730205536	5
+88	shame_align	aligned	facebook/blenderbot-400M-distill	 yes replied marian	ne		11.434794425964355	5.879500865936279	1.0812643267854583e-05	0.0827777236700058	5
+89	shame_align	aligned	facebook/blenderbot-400M-distill	 replied marianne	 with	</s>	7.236685752868652	5.573082447052002	0.0007196927908807993	0.09711930900812149	5
+90	shame_align	aligned	facebook/blenderbot-400M-distill	lied marianne with	 a		5.72314453125	6.838595867156982	0.0032694146502763033	0.033634621649980545	5
+91	shame_align	aligned	facebook/blenderbot-400M-distill	 marianne with a	 smile	</s>	5.508607387542725	4.882627487182617	0.004051746800541878	0.1800857037305832	5
+92	shame_align	aligned	facebook/blenderbot-400M-distill	ianne with a smile	 you	are	5.061857223510742	5.106924057006836	0.0063337828032672405	0.12968668341636658	5
+93	shame_align	aligned	facebook/blenderbot-400M-distill	ne with a smile you	 look	like	8.868285179138184	4.60016393661499	0.00014078376989345998	0.18336458504199982	5
+94	shame_align	aligned	facebook/blenderbot-400M-distill	 with a smile you look	 hands	a	8.46114730834961	5.511004447937012	0.00021152931731194258	0.0501728318631649	5
+95	shame_align	aligned	facebook/blenderbot-400M-distill	 a smile you look hands	ome	you	11.217120170593262	4.429849624633789	1.3442087038129102e-05	0.12322420626878738	5
+96	shame_align	aligned	facebook/blenderbot-400M-distill	 smile you look handsome	 you	you	2.6281027793884277	5.391389846801758	0.07221534103155136	0.07221534103155136	5
+97	shame_align	aligned	facebook/blenderbot-400M-distill	 you look handsome you	 look	like	8.007848739624023	5.496823310852051	0.00033283999073319137	0.08150915801525116	5
+98	shame_align	aligned	facebook/blenderbot-400M-distill	 look handsome you look	 amazing	you	6.072914123535156	5.028256416320801	0.0023044487461447716	0.11945110559463501	5
+99	shame_align	aligned	facebook/blenderbot-400M-distill	 handsome you look amazing	 a	a	3.6838598251342773	6.54164981842041	0.025125807151198387	0.025125807151198387	5
+100	shame_align	aligned	facebook/blenderbot-400M-distill	ome you look amazing a	 wait	a	6.1328444480896	5.036895751953125	0.0021703988313674927	0.08579710870981216	5
+101	shame_align	aligned	facebook/blenderbot-400M-distill	 you look amazing a wait	er	and	10.03291130065918	4.983123779296875	4.393008566694334e-05	0.08186209201812744	5
+102	shame_align	aligned	facebook/blenderbot-400M-distill	 look amazing a waiter	 appro	ving	4.848462104797363	5.090939044952393	0.00784042477607727	0.19049853086471558	5
+103	shame_align	aligned	facebook/blenderbot-400M-distill	 amazing a waiter appro	ached	to	16.015748977661133	4.95634126663208	1.1077674599846432e-07	0.10632815212011337	5
+104	shame_align	aligned	facebook/blenderbot-400M-distill	 a waiter approached	 their	I	5.704702377319336	6.237348556518555	0.0033302688971161842	0.0321945920586586	5
+105	shame_align	aligned	facebook/blenderbot-400M-distill	 waiter approached their	 t	ang	3.1229517459869385	5.342771530151367	0.044027019292116165	0.05418623983860016	5
+106	shame_align	aligned	facebook/blenderbot-400M-distill	er approached their t	ables	.	12.931497573852539	4.317627906799316	2.4205930913012708e-06	0.22138479351997375	5
+107	shame_align	aligned	facebook/blenderbot-400M-distill	 approached their tables	 with	or	7.781834602355957	5.71077823638916	0.0004172460176050663	0.07830779254436493	5
+108	shame_align	aligned	facebook/blenderbot-400M-distill	ached their tables with	 men	's	8.658622741699219	5.243247985839844	0.00017362329526804388	0.2052873969078064	5
+109	shame_align	aligned	facebook/blenderbot-400M-distill	 their tables with men	us	on	10.199125289916992	4.877840042114258	3.720285167219117e-05	0.1176881492137909	5
+110	shame_align	aligned	facebook/blenderbot-400M-distill	 tables with menus	 welcome	to	5.972500324249268	4.788932800292969	0.002547862706705928	0.2716379463672638	5
+111	shame_align	aligned	facebook/blenderbot-400M-distill	ables with menus welcome	 i	to	3.3179776668548584	5.691992282867432	0.036226022988557816	0.10361671447753906	5
+112	shame_align	aligned	facebook/blenderbot-400M-distill	 with menus welcome i	 have	been	7.518515586853027	5.161438941955566	0.0005429380689747632	0.08648327738046646	5
+113	shame_align	aligned	facebook/blenderbot-400M-distill	 menus welcome i have	 a	thing	5.2197651863098145	6.213865280151367	0.005408598110079765	0.04455919563770294	5
+114	shame_align	aligned	facebook/blenderbot-400M-distill	us welcome i have a	 few	more	7.413877487182617	4.892913818359375	0.0006028288044035435	0.17435912787914276	5
+115	shame_align	aligned	facebook/blenderbot-400M-distill	 welcome i have a few	 special	ty	4.74541711807251	5.584559440612793	0.008691436611115932	0.09753745049238205	5
+116	shame_align	aligned	facebook/blenderbot-400M-distill	 i have a few special	s	I	9.060224533081055	5.209921836853027	0.00011619689757935703	0.09633930772542953	5
+117	shame_align	aligned	facebook/blenderbot-400M-distill	 have a few specials	 on	we	6.411129951477051	5.036801815032959	0.0016431666444987059	0.08918202668428421	5
+118	shame_align	aligned	facebook/blenderbot-400M-distill	 a few specials on	 the	I	6.908831596374512	5.891929626464844	0.0009989241370931268	0.05716612935066223	5
+119	shame_align	aligned	facebook/blenderbot-400M-distill	 few specials on the	 menu	for	8.884151458740234	4.777985095977783	0.00013856777513865381	0.09837815910577774	5
+120	shame_align	aligned	facebook/blenderbot-400M-distill	 specials on the menu	 if	you	10.086345672607422	2.038815498352051	4.164430356468074e-05	0.6547540426254272	5
+121	shame_align	aligned	facebook/blenderbot-400M-distill	s on the menu if	 you	do	4.474403381347656	5.086130619049072	0.011397023685276508	0.07063078135251999	5
+122	shame_align	aligned	facebook/blenderbot-400M-distill	 on the menu if you	'd	be	8.040191650390625	4.762150764465332	0.0003222471277695149	0.15016551315784454	5
+123	shame_align	aligned	facebook/blenderbot-400M-distill	 the menu if you'd	 like	to	7.675764560699463	2.444085121154785	0.00046393563388846815	0.6158910989761353	5
+124	shame_align	aligned	facebook/blenderbot-400M-distill	 menu if you'd like	 to	go	3.6855058670043945	5.072267532348633	0.0250844843685627	0.19663144648075104	5
+125	shame_align	aligned	facebook/blenderbot-400M-distill	 if you'd like to	 hear	about	4.705007553100586	4.667452812194824	0.009049848653376102	0.12420186400413513	5
+126	shame_align	aligned	facebook/blenderbot-400M-distill	 you'd like to hear	 them	again	7.261151313781738	5.372653961181641	0.0007022988284006715	0.09079369902610779	5
+127	shame_align	aligned	facebook/blenderbot-400M-distill	'd like to hear them	 they	're	5.287151336669922	4.425957679748535	0.005056142807006836	0.20992057025432587	5
+128	shame_align	aligned	facebook/blenderbot-400M-distill	 like to hear them they	 didn	't	10.05148696899414	0.2209842950105667	4.3121563066961244e-05	0.9609246850013733	5
+129	shame_align	aligned	facebook/blenderbot-400M-distill	 to hear them they didn	't	have	7.16519832611084	4.76222038269043	0.000773025443777442	0.12273045629262924	5
+130	shame_align	aligned	facebook/blenderbot-400M-distill	 hear them they didn't	 even	have	8.898767471313477	4.709598064422607	0.00013655719521921128	0.27595868706703186	5
+131	shame_align	aligned	facebook/blenderbot-400M-distill	 them they didn't even	 have	to	6.422323226928711	4.680044174194336	0.0016248765168711543	0.08559877425432205	5
+132	shame_align	aligned	facebook/blenderbot-400M-distill	 they didn't even have	 time	to	7.451653957366943	1.9777852296829224	0.0005804807296954095	0.737533450126648	5
+133	shame_align	aligned	facebook/blenderbot-400M-distill	 didn't even have time	 to	prep	4.254894733428955	5.7116546630859375	0.014194582588970661	0.06731966882944107	5
+134	shame_align	aligned	facebook/blenderbot-400M-distill	't even have time to	 respond	to	11.071187973022461	4.73238468170166	1.5554069250356406e-05	0.08381082862615585	5
+135	shame_align	aligned	facebook/blenderbot-400M-distill	 even have time to respond	 before	I	5.1796417236328125	4.787825107574463	0.005630021449178457	0.07146621495485306	5
+136	shame_align	aligned	facebook/blenderbot-400M-distill	 have time to respond before	 he	's	4.186893463134766	4.189525604248047	0.015193414874374866	0.1957971602678299	5
+137	shame_align	aligned	facebook/blenderbot-400M-distill	 time to respond before he	 laun	ces	9.788787841796875	3.1833319664001465	5.60768494324293e-05	0.2275039553642273	5
+138	shame_align	aligned	facebook/blenderbot-400M-distill	 to respond before he laun	ched	.	12.143248558044434	4.891780853271484	5.324197445588652e-06	0.12792347371578217	5
+139	shame_align	aligned	facebook/blenderbot-400M-distill	 respond before he launched	 into	a	5.5482025146484375	5.881634712219238	0.0038944503758102655	0.0698762759566307	5
+140	shame_align	aligned	facebook/blenderbot-400M-distill	 before he launched into	 his	self	6.710609436035156	5.903446674346924	0.0012179220793768764	0.055881328880786896	5
+141	shame_align	aligned	facebook/blenderbot-400M-distill	 he launched into his	 speech	I	9.317105293273926	5.8887786865234375	8.98737198440358e-05	0.06380417943000793	5
+142	shame_align	aligned	facebook/blenderbot-400M-distill	 launched into his speech	 he	's	4.005769729614258	5.0781073570251465	0.018210265785455704	0.13976755738258362	5
+143	shame_align	aligned	facebook/blenderbot-400M-distill	ched into his speech he	 finally	got	10.866795539855957	4.962166786193848	1.9081420759903267e-05	0.2568979263305664	5
+144	shame_align	aligned	facebook/blenderbot-400M-distill	 into his speech he finally	 finished	with	12.328621864318848	4.726233005523682	4.423313384904759e-06	0.304216593503952	5
+145	shame_align	aligned	facebook/blenderbot-400M-distill	 his speech he finally finished	 asking	for	5.951972961425781	4.96727991104126	0.002600704086944461	0.15644291043281555	5
+146	shame_align	aligned	facebook/blenderbot-400M-distill	 speech he finally finished asking	 if	I	8.828519821166992	5.215533256530762	0.00014649491640739143	0.13441728055477142	5
+147	shame_align	aligned	facebook/blenderbot-400M-distill	 he finally finished asking if	 they	would	5.330876350402832	3.158557891845703	0.004839827306568623	0.296031653881073	5
+148	shame_align	aligned	facebook/blenderbot-400M-distill	 finally finished asking if they	 would	still	5.6388139724731445	5.029819965362549	0.0035570841282606125	0.07248643040657043	5
+149	shame_align	aligned	facebook/blenderbot-400M-distill	 finished asking if they would	 like	to	6.576645374298096	2.44631290435791	0.001392513164319098	0.6808254718780518	5
+150	shame_align	aligned	facebook/blenderbot-400M-distill	 asking if they would like	 to	be	4.119828224182129	4.8846755027771	0.016247306019067764	0.17894268035888672	5
+151	shame_align	aligned	facebook/blenderbot-400M-distill	 if they would like to	 start	a	8.937117576599121	3.3726086616516113	0.00013141929230187088	0.22215957939624786	5
+152	shame_align	aligned	facebook/blenderbot-400M-distill	 they would like to start	 with	a	6.38894510269165	4.778256416320801	0.0016800276935100555	0.1512192338705063	5
+153	shame_align	aligned	facebook/blenderbot-400M-distill	 would like to start with	 some	of	5.994115829467773	5.031794548034668	0.0024933815002441406	0.13291035592556	5
+154	shame_align	aligned	facebook/blenderbot-400M-distill	 like to start with some	 wine	is	13.026704788208008	5.683154582977295	2.2007664028933505e-06	0.046494223177433014	5
+155	shame_align	aligned	facebook/blenderbot-400M-distill	 to start with some wine	 brand	s	11.921185493469238	0.5438747406005859	6.648062480962835e-06	0.9405966997146606	5
+156	shame_align	aligned	facebook/blenderbot-400M-distill	 start with some wine brand	on	to	7.239764213562012	5.231132507324219	0.0007174809579737484	0.06346546858549118	5
+157	shame_align	aligned	facebook/blenderbot-400M-distill	 with some wine brandon	 looked	like	16.76837921142578	2.2671337127685547	5.218976539822506e-08	0.4071633815765381	5
+158	shame_align	aligned	facebook/blenderbot-400M-distill	 some wine brandon looked	 at	to	4.339502334594727	5.225128650665283	0.013043020851910114	0.10808636993169785	5
+159	shame_align	aligned	facebook/blenderbot-400M-distill	 wine brandon looked at	 mar	ks	1.5077018737792969	3.828852653503418	0.22141823172569275	0.24070459604263306	5
+160	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon looked at mar	ian	ge	5.920261859893799	4.003359317779541	0.0026844972744584084	0.31260108947753906	5
+161	shame_align	aligned	facebook/blenderbot-400M-distill	on looked at marian	ne		10.237820625305176	6.292728900909424	3.579077383619733e-05	0.03278109431266785	5
+162	shame_align	aligned	facebook/blenderbot-400M-distill	 looked at marianne	 you	have	4.561375141143799	5.1714887619018555	0.010447682812809944	0.12181634455919266	5
+163	shame_align	aligned	facebook/blenderbot-400M-distill	 at marianne you	 want	to	5.454737186431885	3.959589958190918	0.004275999963283539	0.4367411732673645	5
+164	shame_align	aligned	facebook/blenderbot-400M-distill	 marianne you want	 some	you	6.579896926879883	5.720818996429443	0.0013879925245419145	0.10518676042556763	5
+165	shame_align	aligned	facebook/blenderbot-400M-distill	ianne you want some	 wine	</s>	9.13939380645752	5.1374921798706055	0.0001073524181265384	0.1757580190896988	5
+166	shame_align	aligned	facebook/blenderbot-400M-distill	ne you want some wine	 white	I	8.392487525939941	5.521866321563721	0.00022656295914202929	0.07558396458625793	5
+167	shame_align	aligned	facebook/blenderbot-400M-distill	 you want some wine white	 red	you	9.118311882019043	5.693572521209717	0.00010963960812659934	0.0675654336810112	5
+168	shame_align	aligned	facebook/blenderbot-400M-distill	 want some wine white red	 red	stuff	10.009538650512695	5.989321708679199	4.496895780903287e-05	0.048600323498249054	5
+169	shame_align	aligned	facebook/blenderbot-400M-distill	 some wine white red red	 she	goes	3.880889892578125	5.82005500793457	0.020632455125451088	0.06414499878883362	5
+170	shame_align	aligned	facebook/blenderbot-400M-distill	 wine white red red she	 no	I	6.082616329193115	5.296914100646973	0.0022821978200227022	0.08176076412200928	5
+171	shame_align	aligned	facebook/blenderbot-400M-distill	 white red red she no	dd	e	8.98613452911377	2.6313064098358154	0.00012513282126747072	0.32120853662490845	5
+172	shame_align	aligned	facebook/blenderbot-400M-distill	 red red she nodd	ed	</s>	9.80862045288086	5.526613235473633	5.497563324752264e-05	0.05877140536904335	5
+173	shame_align	aligned	facebook/blenderbot-400M-distill	 red she nodded	 maybe	a	8.75089168548584	4.751619338989258	0.00015832012286409736	0.07976479828357697	5
+174	shame_align	aligned	facebook/blenderbot-400M-distill	 she nodded maybe	 		1.0922638177871704	4.825713157653809	0.3354562222957611	0.3354562222957611	5
+175	shame_align	aligned	facebook/blenderbot-400M-distill	 nodded maybe 	<unk>		17.42971420288086	5.33561897277832	2.693836087530599e-08	0.11810005456209183	5
+176	shame_align	aligned	facebook/blenderbot-400M-distill	dded maybe <unk>	 no		5.408565521240234	6.153076171875	0.004478058312088251	0.04638203978538513	5
+177	shame_align	aligned	facebook/blenderbot-400M-distill	ed maybe <unk> no	ir	s	11.680041313171387	2.2889187335968018	8.461013749183621e-06	0.701021134853363	5
+178	shame_align	aligned	facebook/blenderbot-400M-distill	 maybe <unk> noir	 is		6.781174659729004	5.661416530609131	0.0011349410051479936	0.13088220357894897	5
+179	shame_align	aligned	facebook/blenderbot-400M-distill	 <unk> noir is	 u	h	7.155827045440674	3.6135432720184326	0.0007803039043210447	0.3336890637874603	5
+180	shame_align	aligned	facebook/blenderbot-400M-distill	<unk> noir is u	m	m	2.885802984237671	6.148294448852539	0.055809956043958664	0.055809956043958664	5
+181	shame_align	aligned	facebook/blenderbot-400M-distill	 noir is um	 light	ly	7.768263816833496	4.983916759490967	0.00042294684681110084	0.22625666856765747	5
+182	shame_align	aligned	facebook/blenderbot-400M-distill	ir is um light	 the	o	6.1262593269348145	6.347681045532227	0.0021847381722182035	0.033936504274606705	5
+183	shame_align	aligned	facebook/blenderbot-400M-distill	 is um light the	 wait	to	6.07680606842041	5.050403118133545	0.002295497339218855	0.06562578678131104	5
+184	shame_align	aligned	facebook/blenderbot-400M-distill	 um light the wait	er	</s>	10.920319557189941	4.682523727416992	1.8086951968143694e-05	0.191485196352005	5
+185	shame_align	aligned	facebook/blenderbot-400M-distill	m light the waiter	 inter	rupt	6.416609287261963	4.0001678466796875	0.0016341878799721599	0.1460087150335312	5
+186	shame_align	aligned	facebook/blenderbot-400M-distill	 light the waiter inter	rupt	s	10.474677085876465	2.481093168258667	2.824265175149776e-05	0.31972309947013855	5
+187	shame_align	aligned	facebook/blenderbot-400M-distill	 the waiter interrupt	ed	with	10.553585052490234	3.1338093280792236	2.6099749447894283e-05	0.540976345539093	5
+188	shame_align	aligned	facebook/blenderbot-400M-distill	 waiter interrupted	 if	plan	8.144441604614258	5.93419075012207	0.0002903446729760617	0.10528572648763657	5
+189	shame_align	aligned	facebook/blenderbot-400M-distill	er interrupted if	 you	are	7.0137038230896	4.563556671142578	0.0008994708769023418	0.1956385374069214	5
+190	shame_align	aligned	facebook/blenderbot-400M-distill	 interrupted if you	 like	to	5.379514217376709	5.0181660652160645	0.004610060714185238	0.19705425202846527	5
+191	shame_align	aligned	facebook/blenderbot-400M-distill	rupted if you like	 it	to	4.832386016845703	5.778841018676758	0.007967486046254635	0.06373132020235062	5
+192	shame_align	aligned	facebook/blenderbot-400M-distill	ed if you like it	 like	a	6.3718156814575195	5.654640197753906	0.0017090530600398779	0.06363648921251297	5
+193	shame_align	aligned	facebook/blenderbot-400M-distill	 if you like it like	 light	ly	8.63005256652832	5.1346235275268555	0.00017865530389826745	0.07360433042049408	5
+194	shame_align	aligned	facebook/blenderbot-400M-distill	 you like it like light	 he	he	2.63723087310791	5.501795768737793	0.07155914604663849	0.07155914604663849	5
+195	shame_align	aligned	facebook/blenderbot-400M-distill	 like it like light he	 trail	s	11.078751564025879	3.9628326892852783	1.543687358207535e-05	0.3942703604698181	5
+196	shame_align	aligned	facebook/blenderbot-400M-distill	 it like light he trail	ed	I	10.231095314025879	4.775829792022705	3.6032281059306115e-05	0.21465463936328888	5
+197	shame_align	aligned	facebook/blenderbot-400M-distill	 like light he trailed	 off	to	8.006022453308105	4.634444236755371	0.0003334484645165503	0.15194369852542877	5
+198	shame_align	aligned	facebook/blenderbot-400M-distill	 light he trailed off	 		0.46285638213157654	2.6790575981140137	0.6294830441474915	0.6294830441474915	5
+199	shame_align	aligned	facebook/blenderbot-400M-distill	 he trailed off 	<unk>		17.102266311645508	4.4570841789245605	3.73749280413449e-08	0.2064710408449173	5
+200	shame_align	aligned	facebook/blenderbot-400M-distill	 trailed off <unk>	 great	to	3.6816108226776123	5.79768705368042	0.02518237940967083	0.11294589191675186	5
+201	shame_align	aligned	facebook/blenderbot-400M-distill	ed off <unk> great	 said		7.8864545822143555	5.273890018463135	0.00037579963100142777	0.1549651175737381	5
+202	shame_align	aligned	facebook/blenderbot-400M-distill	 off <unk> great said	 brand	s	11.183073043823242	4.679281234741211	1.39076246341574e-05	0.26098567247390747	5
+203	shame_align	aligned	facebook/blenderbot-400M-distill	 <unk> great said brand	on	</s>	9.995706558227539	5.131678581237793	4.559528679237701e-05	0.1589585393667221	5
+204	shame_align	aligned	facebook/blenderbot-400M-distill	<unk> great said brandon	 am	I	5.998365879058838	6.444666385650635	0.0024828065652400255	0.047946497797966	5
+205	shame_align	aligned	facebook/blenderbot-400M-distill	 great said brandon am	used	by	10.548666000366211	5.795326232910156	2.6228448405163363e-05	0.11030986160039902	5
+206	shame_align	aligned	facebook/blenderbot-400M-distill	 said brandon amused	 brand	s	12.163930892944336	1.5561171770095825	5.215210421738448e-06	0.8136828541755676	5
+207	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon amused brand	on	</s>	6.356756210327148	6.214212417602539	0.0017349855042994022	0.06627128273248672	5
+208	shame_align	aligned	facebook/blenderbot-400M-distill	on amused brandon	 and		5.309210777282715	5.808517932891846	0.0049458276480436325	0.06419054418802261	5
+209	shame_align	aligned	facebook/blenderbot-400M-distill	 amused brandon and	 mar	ks	4.277073383331299	6.3684000968933105	0.013883233070373535	0.028737608343362808	5
+210	shame_align	aligned	facebook/blenderbot-400M-distill	used brandon and mar	ian	ese	4.309350967407227	5.484033584594727	0.013442270457744598	0.19774194061756134	5
+211	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon and marian	ne		13.415727615356445	6.448306083679199	1.4915001429471886e-06	0.025669438764452934	5
+212	shame_align	aligned	facebook/blenderbot-400M-distill	on and marianne	 made	by	10.43258285522461	5.072977066040039	2.9456901756930165e-05	0.19664829969406128	5
+213	shame_align	aligned	facebook/blenderbot-400M-distill	 and marianne made	 small	</s>	6.7328901290893555	6.101836681365967	0.0011910857865586877	0.04945209249854088	5
+214	shame_align	aligned	facebook/blenderbot-400M-distill	 marianne made small	 talk	by	8.250988960266113	4.9097700119018555	0.00026100027025677264	0.19342021644115448	5
+215	shame_align	aligned	facebook/blenderbot-400M-distill	ianne made small talk	 about	.	5.954941749572754	5.370937347412109	0.0025929948315024376	0.07537217438220978	5
+216	shame_align	aligned	facebook/blenderbot-400M-distill	ne made small talk about	 where	to	5.8747968673706055	4.6463212966918945	0.0028093652799725533	0.15176621079444885	5
+217	shame_align	aligned	facebook/blenderbot-400M-distill	 made small talk about where	 they	go	3.850430727005005	5.282506465911865	0.021270571276545525	0.10900424420833588	5
+218	shame_align	aligned	facebook/blenderbot-400M-distill	 small talk about where they	 grew	up	9.307694435119629	2.3346505165100098	9.072350803762674e-05	0.6557155847549438	5
+219	shame_align	aligned	facebook/blenderbot-400M-distill	 talk about where they grew	 up	.	8.38625717163086	4.649850845336914	0.00022797903511673212	0.18566881120204926	5
+220	shame_align	aligned	facebook/blenderbot-400M-distill	 about where they grew up	 bro	s	7.324130058288574	4.903273582458496	0.0006594329024665058	0.2152899205684662	5
+221	shame_align	aligned	facebook/blenderbot-400M-distill	 where they grew up bro	ok	ly	8.043206214904785	0.5322856903076172	0.000321277097100392	0.9479564428329468	5
+222	shame_align	aligned	facebook/blenderbot-400M-distill	 they grew up brook	ly	n	5.697114944458008	1.2572298049926758	0.0033556330017745495	0.8420355319976807	5
+223	shame_align	aligned	facebook/blenderbot-400M-distill	 grew up brookly	n	</s>	8.731602668762207	5.306450843811035	0.00016140355728566647	0.2142181098461151	5
+224	shame_align	aligned	facebook/blenderbot-400M-distill	 up brooklyn	 for	a	7.502895832061768	5.981550693511963	0.0005514849908649921	0.06803316622972488	5
+225	shame_align	aligned	facebook/blenderbot-400M-distill	 brooklyn for	 her	to	8.028670310974121	5.783952713012695	0.0003259812656324357	0.07216984033584595	5
+226	shame_align	aligned	facebook/blenderbot-400M-distill	oklyn for her	 		1.030297875404358	4.20741605758667	0.3569006323814392	0.3569006323814392	5
+227	shame_align	aligned	facebook/blenderbot-400M-distill	lyn for her 	ire		7.1923370361328125	5.181333541870117	0.0007523287204094231	0.13292467594146729	5
+228	shame_align	aligned	facebook/blenderbot-400M-distill	n for her ire	land		14.958420753479004	2.221513271331787	3.188896471328917e-07	0.6677419543266296	5
+229	shame_align	aligned	facebook/blenderbot-400M-distill	 for her ireland	 for		6.25749397277832	6.128242015838623	0.001916040782816708	0.12274056673049927	5
+230	shame_align	aligned	facebook/blenderbot-400M-distill	 her ireland for	 him	to	7.68587589263916	4.822508811950684	0.0004592683108057827	0.266570121049881	5
+231	shame_align	aligned	facebook/blenderbot-400M-distill	 ireland for him	 and	for	5.426095962524414	5.600902557373047	0.0044002411887049675	0.07402835041284561	5
+232	shame_align	aligned	facebook/blenderbot-400M-distill	ireland for him and	 their	s	6.224660873413086	6.344241142272949	0.0019799957517534494	0.0978674590587616	5
+233	shame_align	aligned	facebook/blenderbot-400M-distill	land for him and their	 families	.	6.210413455963135	5.254400730133057	0.002008406911045313	0.15920349955558777	5
+234	shame_align	aligned	facebook/blenderbot-400M-distill	 for him and their families	 a	lot	4.390514373779297	5.92558479309082	0.012394355610013008	0.055568814277648926	5
+235	shame_align	aligned	facebook/blenderbot-400M-distill	 him and their families a	 sister	together	7.463400840759277	4.214731216430664	0.000573701923713088	0.2689039707183838	5
+236	shame_align	aligned	facebook/blenderbot-400M-distill	 and their families a sister	 each	one	7.226327896118164	4.5471601486206055	0.0007271860959008336	0.19588878750801086	5
+237	shame_align	aligned	facebook/blenderbot-400M-distill	 their families a sister each	 and	I	3.739967107772827	5.276313304901123	0.02375488355755806	0.10121507197618484	5
+238	shame_align	aligned	facebook/blenderbot-400M-distill	 families a sister each and	 then	I	10.653247833251953	5.030632019042969	2.3623993911314756e-05	0.08455097675323486	5
+239	shame_align	aligned	facebook/blenderbot-400M-distill	 a sister each and then	 looked	at	11.437762260437012	3.4238712787628174	1.0780602679005824e-05	0.24662767350673676	5
+240	shame_align	aligned	facebook/blenderbot-400M-distill	 sister each and then looked	 over	again	5.045334339141846	4.053852081298828	0.0064393081702291965	0.23044417798519135	5
+241	shame_align	aligned	facebook/blenderbot-400M-distill	 each and then looked over	 their	s	8.710461616516113	4.6329193115234375	0.00016485217201989144	0.21149714291095734	5
+242	shame_align	aligned	facebook/blenderbot-400M-distill	 and then looked over their	 men	and	9.562813758850098	5.195796489715576	7.029474363662302e-05	0.07926439493894577	5
+243	shame_align	aligned	facebook/blenderbot-400M-distill	 then looked over their men	us	.	10.52122688293457	2.9819023609161377	2.6958092348650098e-05	0.4410218596458435	5
+244	shame_align	aligned	facebook/blenderbot-400M-distill	 looked over their menus	 in	their	6.701530456542969	5.1841959953308105	0.0012290294980630279	0.13580039143562317	5
+245	shame_align	aligned	facebook/blenderbot-400M-distill	 over their menus in	 uncomfortable	just	8.374505996704102	6.208043098449707	0.00023067388974595815	0.05733637511730194	5
+246	shame_align	aligned	facebook/blenderbot-400M-distill	 their menus in uncomfortable	 sil	ence	9.436654090881348	4.808927536010742	7.974678737809882e-05	0.18296295404434204	5
+247	shame_align	aligned	facebook/blenderbot-400M-distill	 menus in uncomfortable sil	ence	</s>	11.295543670654297	5.449223518371582	1.2428189620550256e-05	0.06787607073783875	5
+248	shame_align	aligned	facebook/blenderbot-400M-distill	us in uncomfortable silence	 mar	ks	3.585381031036377	5.731842517852783	0.027726100757718086	0.10622577369213104	5
+249	shame_align	aligned	facebook/blenderbot-400M-distill	 in uncomfortable silence mar	ian	</s>	9.362165451049805	5.084183216094971	8.591382356826216e-05	0.1951814442873001	5
+250	shame_align	aligned	facebook/blenderbot-400M-distill	 uncomfortable silence marian	ne	</s>	13.929413795471191	4.8849196434021	8.923441896513395e-07	0.21542181074619293	5
+251	shame_align	aligned	facebook/blenderbot-400M-distill	 silence marianne	 tried	to	11.906840324401855	3.969036340713501	6.74411739964853e-06	0.3782878518104553	5
+252	shame_align	aligned	facebook/blenderbot-400M-distill	ence marianne tried	 to		4.388360977172852	6.2558674812316895	0.012421075254678726	0.04053071141242981	5
+253	shame_align	aligned	facebook/blenderbot-400M-distill	 marianne tried to	 start	a	10.36840534210205	4.166957378387451	3.140933404210955e-05	0.372762531042099	5
+254	shame_align	aligned	facebook/blenderbot-400M-distill	ianne tried to start	 the	as	6.732854843139648	6.4187517166137695	0.0011911275796592236	0.03649144247174263	5
+255	shame_align	aligned	facebook/blenderbot-400M-distill	ne tried to start the	 conversation	.	11.801675796508789	4.848462104797363	7.491991254937602e-06	0.1389496773481369	5
+256	shame_align	aligned	facebook/blenderbot-400M-distill	 tried to start the conversation	 again	.	7.1494221687316895	4.22290563583374	0.0007853177958168089	0.2269054502248764	5
+257	shame_align	aligned	facebook/blenderbot-400M-distill	 to start the conversation again	 saying	things	11.214446067810059	5.109341621398926	1.347807756246766e-05	0.10250169038772583	5
+258	shame_align	aligned	facebook/blenderbot-400M-distill	 start the conversation again saying	 it	's	5.065642356872559	4.313445091247559	0.006309855729341507	0.2106613665819168	5
+259	shame_align	aligned	facebook/blenderbot-400M-distill	 the conversation again saying it	 took	place	9.313632011413574	4.7102556228637695	9.018636046675965e-05	0.13589370250701904	5
+260	shame_align	aligned	facebook/blenderbot-400M-distill	 conversation again saying it took	 me	to	5.032395362854004	5.165422439575195	0.006523168180137873	0.13134391605854034	5
+261	shame_align	aligned	facebook/blenderbot-400M-distill	 again saying it took me	 an	th	5.99240779876709	4.858787536621094	0.0024976434651762247	0.1256173849105835	5
+262	shame_align	aligned	facebook/blenderbot-400M-distill	 saying it took me an	 hour	to	8.615836143493652	4.633674144744873	0.00018121326866094023	0.15099984407424927	5
+263	shame_align	aligned	facebook/blenderbot-400M-distill	 it took me an hour	 to	get	5.261485576629639	5.114783763885498	0.005187592934817076	0.1356964409351349	5
+264	shame_align	aligned	facebook/blenderbot-400M-distill	 took me an hour to	 figure	out	7.195217132568359	1.1545026302337646	0.0007501653162762523	0.8021407127380371	5
+265	shame_align	aligned	facebook/blenderbot-400M-distill	 me an hour to figure	 out	I	8.561938285827637	4.890862941741943	0.0001912482111947611	0.12441554665565491	5
+266	shame_align	aligned	facebook/blenderbot-400M-distill	 an hour to figure out	 what	is	8.627883911132812	4.328363418579102	0.00017904321430251002	0.07901124656200409	5
+267	shame_align	aligned	facebook/blenderbot-400M-distill	 hour to figure out what	 to	do	5.776752948760986	1.3723349571228027	0.003098760498687625	0.8244029879570007	5
+268	shame_align	aligned	facebook/blenderbot-400M-distill	 to figure out what to	 wear	next	9.249217987060547	4.711922645568848	9.618688636692241e-05	0.09081511199474335	5
+269	shame_align	aligned	facebook/blenderbot-400M-distill	 figure out what to wear	 you	have	4.8374176025390625	4.64400577545166	0.007927498780190945	0.17239932715892792	5
+270	shame_align	aligned	facebook/blenderbot-400M-distill	 out what to wear you	 chose	to	9.737895965576172	5.527091026306152	5.9004563809139654e-05	0.09411142021417618	5
+271	shame_align	aligned	facebook/blenderbot-400M-distill	 what to wear you chose	 w	w	2.510340690612793	5.19441032409668	0.08124056458473206	0.08124056458473206	5
+272	shame_align	aligned	facebook/blenderbot-400M-distill	 to wear you chose w	is	dom	6.746419906616211	4.548702716827393	0.001175078796222806	0.18550020456314087	5
+273	shame_align	aligned	facebook/blenderbot-400M-distill	 wear you chose wis	ely	I	11.881081581115723	4.680556774139404	6.920091436768416e-06	0.18991048634052277	5
+274	shame_align	aligned	facebook/blenderbot-400M-distill	 you chose wisely	 said	you	8.491836547851562	4.6718854904174805	0.00020513628260232508	0.25731682777404785	5
+275	shame_align	aligned	facebook/blenderbot-400M-distill	 chose wisely said	 brand	s	9.176957130432129	3.8783347606658936	0.00010339469736209139	0.43756240606307983	5
+276	shame_align	aligned	facebook/blenderbot-400M-distill	 wisely said brand	on	I	7.275823593139648	5.6041059494018555	0.0006920697633177042	0.05820252373814583	5
+277	shame_align	aligned	facebook/blenderbot-400M-distill	isely said brandon	 no	.	7.62462043762207	5.857388496398926	0.0004882805806118995	0.10908544808626175	5
+278	shame_align	aligned	facebook/blenderbot-400M-distill	ely said brandon no	dd	es	7.162696838378906	3.1714541912078857	0.0007749619544483721	0.2922561466693878	5
+279	shame_align	aligned	facebook/blenderbot-400M-distill	 said brandon nodd	ing	to	8.644920349121094	5.385459899902344	0.00017601865692995489	0.061889830976724625	5
+280	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon nodding	 the	to	5.592216968536377	6.563002586364746	0.003726756200194359	0.08289246261119843	5
+281	shame_align	aligned	facebook/blenderbot-400M-distill	on nodding the	 wait	ress	6.949863433837891	4.81184720993042	0.000958765740506351	0.12062229216098785	5
+282	shame_align	aligned	facebook/blenderbot-400M-distill	 nodding the wait	er	's	9.293844223022461	5.46022367477417	9.198873158311471e-05	0.14521914720535278	5
+283	shame_align	aligned	facebook/blenderbot-400M-distill	dding the waiter	 r	h	4.346092700958252	5.4453935623168945	0.01295734103769064	0.08772234618663788	5
+284	shame_align	aligned	facebook/blenderbot-400M-distill	ing the waiter r	ushed	.	13.356006622314453	4.072292804718018	1.5832883946131915e-06	0.21232347190380096	5
+285	shame_align	aligned	facebook/blenderbot-400M-distill	 the waiter rushed	 over	a	9.536626815795898	6.045085906982422	7.215984805952758e-05	0.0602947436273098	5
+286	shame_align	aligned	facebook/blenderbot-400M-distill	 waiter rushed over	 to	fast	4.702712059020996	5.642045497894287	0.00907064601778984	0.0928587019443512	5
+287	shame_align	aligned	facebook/blenderbot-400M-distill	er rushed over to	 the	pres	6.584292888641357	6.588181495666504	0.0013819043524563313	0.04439988732337952	5
+288	shame_align	aligned	facebook/blenderbot-400M-distill	 rushed over to the	 table	and	9.03176212310791	5.652829647064209	0.0001195516306324862	0.0805198922753334	5
+289	shame_align	aligned	facebook/blenderbot-400M-distill	ushed over to the table	 and	is	4.355019569396973	5.808067798614502	0.01284218579530716	0.0393126979470253	5
+290	shame_align	aligned	facebook/blenderbot-400M-distill	 over to the table and	 p	ec	3.617265224456787	6.0397186279296875	0.026856020092964172	0.029382985085248947	5
+291	shame_align	aligned	facebook/blenderbot-400M-distill	 to the table and p	ou	th	4.837026596069336	6.075227737426758	0.007930598221719265	0.05724673718214035	5
+292	shame_align	aligned	facebook/blenderbot-400M-distill	 the table and pou	red	but	14.694047927856445	5.408647060394287	4.153901329573273e-07	0.04659762606024742	5
+293	shame_align	aligned	facebook/blenderbot-400M-distill	 table and poured	 their	are	4.807760238647461	5.765222549438477	0.00816612970083952	0.10016298294067383	5
+294	shame_align	aligned	facebook/blenderbot-400M-distill	 and poured their	 wine	</s>	10.082429885864258	4.457512855529785	4.180771065875888e-05	0.16798090934753418	5
+295	shame_align	aligned	facebook/blenderbot-400M-distill	 poured their wine	 he	is	4.228931903839111	6.324210166931152	0.01456794049590826	0.04801439121365547	5
+296	shame_align	aligned	facebook/blenderbot-400M-distill	oured their wine he	 then	again	11.2898530960083	5.517580032348633	1.249911201739451e-05	0.06480831652879715	5
+297	shame_align	aligned	facebook/blenderbot-400M-distill	red their wine he then	 st	ub	3.3585586547851562	5.565327167510986	0.03478536009788513	0.05194498598575592	5
+298	shame_align	aligned	facebook/blenderbot-400M-distill	 their wine he then st	ood	still	10.874239921569824	5.0741071701049805	1.8939892470370978e-05	0.1260698288679123	5
+299	shame_align	aligned	facebook/blenderbot-400M-distill	 wine he then stood	 there	is	6.695691108703613	4.156562805175781	0.0012362272245809436	0.22375793755054474	5
+300	shame_align	aligned	facebook/blenderbot-400M-distill	 he then stood there	 		0.9784665107727051	3.9011354446411133	0.37588706612586975	0.37588706612586975	5
+301	shame_align	aligned	facebook/blenderbot-400M-distill	 then stood there 	<unk>		19.156484603881836	4.966916561126709	4.791203433995861e-09	0.13640743494033813	5
+302	shame_align	aligned	facebook/blenderbot-400M-distill	 stood there <unk>	 and	of	5.783295631408691	5.055241584777832	0.0030785524286329746	0.10123599320650101	5
+303	shame_align	aligned	facebook/blenderbot-400M-distill	ood there <unk> and	 they	they	2.991812229156494	5.7398176193237305	0.050196390599012375	0.050196390599012375	5
+304	shame_align	aligned	facebook/blenderbot-400M-distill	 there <unk> and they	 realized	there	11.671030044555664	4.24589204788208	8.537605026504025e-06	0.19713057577610016	5
+305	shame_align	aligned	facebook/blenderbot-400M-distill	 <unk> and they realized	 he	was	6.010048866271973	5.093846321105957	0.0024539681617170572	0.10416948795318604	5
+306	shame_align	aligned	facebook/blenderbot-400M-distill	<unk> and they realized he	 was	a	7.982675552368164	4.674136161804199	0.0003413250087760389	0.21969778835773468	5
+307	shame_align	aligned	facebook/blenderbot-400M-distill	 and they realized he was	 waiting	for	7.123475074768066	3.506096124649048	0.0008059610263444483	0.22574234008789062	5
+308	shame_align	aligned	facebook/blenderbot-400M-distill	 they realized he was waiting	 for	a	5.488873481750488	4.545495510101318	0.004132497124373913	0.20860125124454498	5
+309	shame_align	aligned	facebook/blenderbot-400M-distill	 realized he was waiting for	 their	was	6.913536071777344	6.168121337890625	0.0009942358592525125	0.03963557630777359	5
+310	shame_align	aligned	facebook/blenderbot-400M-distill	 he was waiting for their	 order	to	3.9332776069641113	4.81601095199585	0.019579393789172173	0.16947220265865326	5
+311	shame_align	aligned	facebook/blenderbot-400M-distill	 was waiting for their order	 they	have	5.362026214599609	5.014461994171143	0.004691390320658684	0.10872182250022888	5
+312	shame_align	aligned	facebook/blenderbot-400M-distill	 waiting for their order they	 both	have	11.738012313842773	5.475470542907715	7.98446581029566e-06	0.12599362432956696	5
+313	shame_align	aligned	facebook/blenderbot-400M-distill	 for their order they both	 ordered	from	8.563484191894531	4.876276016235352	0.00019095279276371002	0.08108153194189072	5
+314	shame_align	aligned	facebook/blenderbot-400M-distill	 their order they both ordered	 the	to	6.251339912414551	6.498669624328613	0.001927869045175612	0.03262743353843689	5
+315	shame_align	aligned	facebook/blenderbot-400M-distill	 order they both ordered the	 l	ord	4.515984058380127	3.4376718997955322	0.010932841338217258	0.31336504220962524	5
+316	shame_align	aligned	facebook/blenderbot-400M-distill	 they both ordered the l	amb	I	7.195476055145264	5.974637031555176	0.0007499710191041231	0.06680581718683243	5
+317	shame_align	aligned	facebook/blenderbot-400M-distill	 both ordered the lamb	 then	again	13.860625267028809	4.448163032531738	9.558874580761767e-07	0.1553841382265091	5
+318	shame_align	aligned	facebook/blenderbot-400M-distill	 ordered the lamb then	 turned	into	6.631789207458496	4.070152282714844	0.001317803282290697	0.2604769170284271	5
+319	shame_align	aligned	facebook/blenderbot-400M-distill	 the lamb then turned	 to	be	5.8796539306640625	4.549417495727539	0.0027957535348832607	0.2559642791748047	5
+320	shame_align	aligned	facebook/blenderbot-400M-distill	 lamb then turned to	 one	of	6.108397483825684	4.4828081130981445	0.002224111696705222	0.2513197362422943	5
+321	shame_align	aligned	facebook/blenderbot-400M-distill	amb then turned to one	 another	.	6.74965238571167	3.91827654838562	0.0011712866835296154	0.23750698566436768	5
+322	shame_align	aligned	facebook/blenderbot-400M-distill	 then turned to one another	 as	well	6.353744029998779	2.9393951892852783	0.0017402191879227757	0.2722475230693817	5
+323	shame_align	aligned	facebook/blenderbot-400M-distill	 turned to one another as	 the	one	7.42311954498291	4.126084327697754	0.0005972831277176738	0.3555464446544647	5
+324	shame_align	aligned	facebook/blenderbot-400M-distill	 to one another as the	 wait	er	8.315058708190918	3.5225071907043457	0.00024480256251990795	0.34404850006103516	5
+325	shame_align	aligned	facebook/blenderbot-400M-distill	 one another as the wait	er	we	9.646892547607422	5.055001258850098	6.46260887151584e-05	0.08872247487306595	5
+326	shame_align	aligned	facebook/blenderbot-400M-distill	 another as the waiter	 no	one	6.485159397125244	5.033377647399902	0.0015259177889674902	0.1826827973127365	5
+327	shame_align	aligned	facebook/blenderbot-400M-distill	 as the waiter no	dd	ey	6.965572834014893	2.8548526763916016	0.0009438220877200365	0.2665800452232361	5
+328	shame_align	aligned	facebook/blenderbot-400M-distill	 the waiter nodd	ed	I	9.88051986694336	5.484388828277588	5.116167085361667e-05	0.1055188998579979	5
+329	shame_align	aligned	facebook/blenderbot-400M-distill	 waiter nodded	 and	again	6.274808883666992	5.506270408630371	0.0018831505440175533	0.09976136684417725	5
+330	shame_align	aligned	facebook/blenderbot-400M-distill	er nodded and	 back	</s>	7.080414772033691	5.211024761199951	0.0008414238109253347	0.07035889476537704	5
+331	shame_align	aligned	facebook/blenderbot-400M-distill	 nodded and back	ed	by	9.319268226623535	3.4497532844543457	8.967950998339802e-05	0.48972979187965393	5
+332	shame_align	aligned	facebook/blenderbot-400M-distill	dded and backed	 away	by	10.041321754455566	4.1343207359313965	4.356214412837289e-05	0.21638992428779602	5
+333	shame_align	aligned	facebook/blenderbot-400M-distill	ed and backed away	 so	</s>	6.6293840408325195	5.686258316040039	0.0013209766475483775	0.07543283700942993	5
+334	shame_align	aligned	facebook/blenderbot-400M-distill	 and backed away so	 you	have	5.7903242111206055	4.588020324707031	0.003056991845369339	0.09546160697937012	5
+335	shame_align	aligned	facebook/blenderbot-400M-distill	 backed away so you	 seeing	then	8.288995742797852	5.52016544342041	0.00025126669788733125	0.043999455869197845	5
+336	shame_align	aligned	facebook/blenderbot-400M-distill	ed away so you seeing	 anyone	else	7.8465256690979	5.026163578033447	0.00039110847865231335	0.15616635978221893	5
+337	shame_align	aligned	facebook/blenderbot-400M-distill	 away so you seeing anyone	 at	least	4.540356636047363	5.387074947357178	0.010669601149857044	0.057099584490060806	5
+338	shame_align	aligned	facebook/blenderbot-400M-distill	 so you seeing anyone at	 the	end	7.55552864074707	4.719830513000488	0.0005232096300460398	0.21810613572597504	5
+339	shame_align	aligned	facebook/blenderbot-400M-distill	 you seeing anyone at the	 moment	you	9.381978988647461	4.165803909301758	8.422839891863987e-05	0.16882316768169403	5
+340	shame_align	aligned	facebook/blenderbot-400M-distill	 seeing anyone at the moment	 asked	for	6.060766696929932	4.039553165435791	0.0023326119408011436	0.15776146948337555	5
+341	shame_align	aligned	facebook/blenderbot-400M-distill	 anyone at the moment asked	 brand	s	9.211811065673828	5.477170467376709	9.985298675019294e-05	0.12909694015979767	5
+342	shame_align	aligned	facebook/blenderbot-400M-distill	 at the moment asked brand	on	about	9.11827278137207	5.213259220123291	0.00010964386456180364	0.07942235469818115	5
+343	shame_align	aligned	facebook/blenderbot-400M-distill	 the moment asked brandon	 no	you	7.073643684387207	6.043340682983398	0.0008471410255879164	0.034529559314250946	5
+344	shame_align	aligned	facebook/blenderbot-400M-distill	 moment asked brandon no	 actually	.	10.68370246887207	5.439268112182617	2.2915384761290625e-05	0.10650336742401123	5
+345	shame_align	aligned	facebook/blenderbot-400M-distill	 asked brandon no actually	 i	'm	5.011502742767334	5.082991600036621	0.006660885643213987	0.07960424572229385	5
+346	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon no actually i	'm	a	8.429028511047363	5.161508083343506	0.00021843363356310874	0.15483254194259644	5
+347	shame_align	aligned	facebook/blenderbot-400M-distill	on no actually i'm	 separ	ated	8.26021671295166	1.401679277420044	0.0002586029877420515	0.7357913255691528	5
+348	shame_align	aligned	facebook/blenderbot-400M-distill	 no actually i'm separ	ated	right	11.551093101501465	4.319155216217041	9.62551621341845e-06	0.11702489107847214	5
+349	shame_align	aligned	facebook/blenderbot-400M-distill	 actually i'm separated	 kind	of	6.052292823791504	1.3376095294952393	0.0023524626158177853	0.8315829634666443	5
+350	shame_align	aligned	facebook/blenderbot-400M-distill	 i'm separated kind	 of	thing	6.771817207336426	5.875012397766113	0.0011456104693934321	0.05948556587100029	5
+351	shame_align	aligned	facebook/blenderbot-400M-distill	'm separated kind of	 a	a	2.8754289150238037	5.846787929534912	0.056391939520835876	0.056391939520835876	5
+352	shame_align	aligned	facebook/blenderbot-400M-distill	 separated kind of a	 recent		11.461759567260742	5.329352378845215	1.0524978279136121e-05	0.05564340204000473	5
+353	shame_align	aligned	facebook/blenderbot-400M-distill	ated kind of a recent	 thing	.	5.194622993469238	5.15089225769043	0.005546306725591421	0.0924195870757103	5
+354	shame_align	aligned	facebook/blenderbot-400M-distill	 kind of a recent thing	 oh	yeah	4.88098669052124	4.119808673858643	0.007589522749185562	0.2873115837574005	5
+355	shame_align	aligned	facebook/blenderbot-400M-distill	 of a recent thing oh	 you	again	5.550993919372559	5.1458635330200195	0.0038835948798805475	0.12872423231601715	5
+356	shame_align	aligned	facebook/blenderbot-400M-distill	 a recent thing oh you	 were	again	6.6176838874816895	4.891502380371094	0.0013365230988711119	0.2116052508354187	5
+357	shame_align	aligned	facebook/blenderbot-400M-distill	 recent thing oh you were	 married	to	11.312159538269043	3.856196880340576	1.2223389603605028e-05	0.3099026381969452	5
+358	shame_align	aligned	facebook/blenderbot-400M-distill	 thing oh you were married	 for	I	6.704925537109375	6.012734413146973	0.0012248634593561292	0.07143373787403107	5
+359	shame_align	aligned	facebook/blenderbot-400M-distill	 oh you were married for	 long	time	6.381175994873047	4.773022651672363	0.001693130237981677	0.174237459897995	5
+360	shame_align	aligned	facebook/blenderbot-400M-distill	 you were married for long	 no	I	6.114914894104004	5.2478108406066895	0.002209664089605212	0.1841048002243042	5
+361	shame_align	aligned	facebook/blenderbot-400M-distill	 were married for long no	 gave	us	6.3382158279418945	5.025235176086426	0.001767452689819038	0.09161138534545898	5
+362	shame_align	aligned	facebook/blenderbot-400M-distill	 married for long no gave	 it	is	5.402214050292969	5.604310989379883	0.00450659217312932	0.06196810305118561	5
+363	shame_align	aligned	facebook/blenderbot-400M-distill	 for long no gave it	 a	lot	4.435243129730225	6.6772780418396	0.011852183379232883	0.01607397384941578	5
+364	shame_align	aligned	facebook/blenderbot-400M-distill	 long no gave it a	 didn	't	9.436410903930664	0.15560148656368256	7.976621418492869e-05	0.9796584844589233	5
+365	shame_align	aligned	facebook/blenderbot-400M-distill	 no gave it a didn	't	.	6.51833963394165	5.193740367889404	0.0014761179918423295	0.11541585624217987	5
+366	shame_align	aligned	facebook/blenderbot-400M-distill	 gave it a didn't	 really	have	5.551130771636963	4.562871932983398	0.0038830640260130167	0.1815810352563858	5
+367	shame_align	aligned	facebook/blenderbot-400M-distill	 it a didn't really	 work	I	8.376160621643066	4.728316783905029	0.00023029238218441606	0.1158302053809166	5
+368	shame_align	aligned	facebook/blenderbot-400M-distill	 a didn't really work	 out	</s>	11.728342056274414	5.360175609588623	8.06206026027212e-06	0.06683319807052612	5
+369	shame_align	aligned	facebook/blenderbot-400M-distill	 didn't really work out	 she	was	3.4575936794281006	4.09566068649292	0.03150548040866852	0.20037002861499786	5
+370	shame_align	aligned	facebook/blenderbot-400M-distill	't really work out she	 p	</s>	5.519157409667969	5.895536422729492	0.004009224008768797	0.04354553669691086	5
+371	shame_align	aligned	facebook/blenderbot-400M-distill	 really work out she p	au	ses	7.328556060791016	2.6132314205169678	0.000656520773191005	0.576088011264801	5
+372	shame_align	aligned	facebook/blenderbot-400M-distill	 work out she pau	sed	a	13.120119094848633	4.8566813468933105	2.0044942630192963e-06	0.1447570025920868	5
+373	shame_align	aligned	facebook/blenderbot-400M-distill	 out she paused	 fing	ere	11.851469039916992	6.25730037689209	7.128078323148657e-06	0.02779914066195488	5
+374	shame_align	aligned	facebook/blenderbot-400M-distill	 she paused fing	ering	I	12.449118614196777	6.1965837478637695	3.9211768125824165e-06	0.058586735278367996	5
+375	shame_align	aligned	facebook/blenderbot-400M-distill	 paused fingering	 her	I	7.572267532348633	6.325001239776611	0.0005145243485458195	0.03502920642495155	5
+376	shame_align	aligned	facebook/blenderbot-400M-distill	aused fingering her	 n	ess	4.173194408416748	4.88368034362793	0.015402975492179394	0.13909174501895905	5
+377	shame_align	aligned	facebook/blenderbot-400M-distill	sed fingering her n	ap	.	4.440671920776367	5.795352458953857	0.011788016185164452	0.09486012905836105	5
+378	shame_align	aligned	facebook/blenderbot-400M-distill	 fingering her nap	kin	is	10.838115692138672	5.799589157104492	1.9636594515759498e-05	0.0695541724562645	5
+379	shame_align	aligned	facebook/blenderbot-400M-distill	ering her napkin	 what	</s>	5.8645501136779785	4.674738883972168	0.002838299609720707	0.10832254588603973	5
+380	shame_align	aligned	facebook/blenderbot-400M-distill	 her napkin what	 about	they	8.202816009521484	6.01842737197876	0.00027388124726712704	0.041952237486839294	5
+381	shame_align	aligned	facebook/blenderbot-400M-distill	 napkin what about	 you	?	3.9694061279296875	4.9729533195495605	0.01888464391231537	0.19609150290489197	5
+382	shame_align	aligned	facebook/blenderbot-400M-distill	apkin what about you	 no	one	5.935276985168457	6.118130683898926	0.0026444890536367893	0.07587265223264694	5
+383	shame_align	aligned	facebook/blenderbot-400M-distill	kin what about you no	 i	am	5.106595993041992	5.162408351898193	0.0060566626489162445	0.10039906203746796	5
+384	shame_align	aligned	facebook/blenderbot-400M-distill	 what about you no i	'm	a	7.359539031982422	5.049961090087891	0.0006364918663166463	0.1908840388059616	5
+385	shame_align	aligned	facebook/blenderbot-400M-distill	 about you no i'm	 not	right	6.262564659118652	4.975630760192871	0.0019063507206737995	0.12287906557321548	5
+386	shame_align	aligned	facebook/blenderbot-400M-distill	 you no i'm not	 seeing	I	11.181396484375	5.692275047302246	1.393096044921549e-05	0.05646967887878418	5
+387	shame_align	aligned	facebook/blenderbot-400M-distill	 no i'm not seeing	 anyone	but	9.248300552368164	4.9658894538879395	9.627515828469768e-05	0.06485631316900253	5
+388	shame_align	aligned	facebook/blenderbot-400M-distill	 i'm not seeing anyone	 to	have	5.486848831176758	6.176786422729492	0.004140872973948717	0.04759731888771057	5
+389	shame_align	aligned	facebook/blenderbot-400M-distill	'm not seeing anyone to	 be	I	6.026468276977539	5.911815166473389	0.002414003713056445	0.05990835279226303	5
+390	shame_align	aligned	facebook/blenderbot-400M-distill	 not seeing anyone to be	 honest	with	8.413335800170898	3.4641146659851074	0.00022188840375747532	0.40079912543296814	5
+391	shame_align	aligned	facebook/blenderbot-400M-distill	 seeing anyone to be honest	 i	used	3.982969045639038	5.161625862121582	0.018630241975188255	0.13173435628414154	5
+392	shame_align	aligned	facebook/blenderbot-400M-distill	 anyone to be honest i	 can	just	8.068008422851562	5.070624828338623	0.0003134068101644516	0.15690739452838898	5
+393	shame_align	aligned	facebook/blenderbot-400M-distill	 to be honest i can	't	imagine	8.26807689666748	4.696155071258545	0.00025657820515334606	0.2229739874601364	5
+394	shame_align	aligned	facebook/blenderbot-400M-distill	 be honest i can't	 understand	how	6.48996639251709	4.971704483032227	0.0015186003874987364	0.10289352387189865	5
+395	shame_align	aligned	facebook/blenderbot-400M-distill	 honest i can't understand	 how	you	4.667677402496338	5.0886993408203125	0.009394063614308834	0.09218575060367584	5
+396	shame_align	aligned	facebook/blenderbot-400M-distill	 i can't understand how	 people	are	6.845423698425293	4.771371364593506	0.0010643154382705688	0.12916742265224457	5
+397	shame_align	aligned	facebook/blenderbot-400M-distill	 can't understand how people	 can	be	7.949527263641357	3.913201332092285	0.00035282893804833293	0.43776994943618774	5
+398	shame_align	aligned	facebook/blenderbot-400M-distill	't understand how people can	 stay	alive	7.365958213806152	5.011893272399902	0.0006324189598672092	0.09439142048358917	5
+399	shame_align	aligned	facebook/blenderbot-400M-distill	 understand how people can stay	 with	a	5.696342468261719	5.12527322769165	0.0033582246396690607	0.1290261447429657	5
+400	shame_align	aligned	facebook/blenderbot-400M-distill	 how people can stay with	 one	thing	5.327589988708496	3.645031690597534	0.00485575757920742	0.2825131416320801	5
+401	shame_align	aligned	facebook/blenderbot-400M-distill	 people can stay with one	 person	but	7.330909729003906	5.199620246887207	0.0006549775716848671	0.05343806743621826	5
+402	shame_align	aligned	facebook/blenderbot-400M-distill	 can stay with one person	 for	a	4.9301347732543945	4.955297946929932	0.007225531153380871	0.25216469168663025	5
+403	shame_align	aligned	facebook/blenderbot-400M-distill	 stay with one person for	 the	so	6.223140239715576	5.916396617889404	0.001983008813112974	0.05480562150478363	5
+404	shame_align	aligned	facebook/blenderbot-400M-distill	 with one person for the	 rest	of	12.403791427612305	0.16932538151741028	4.10300299336086e-06	0.9832128882408142	5
+405	shame_align	aligned	facebook/blenderbot-400M-distill	 one person for the rest	 of		3.1986632347106934	5.815629959106445	0.04081672802567482	0.05148069187998772	5
+406	shame_align	aligned	facebook/blenderbot-400M-distill	 person for the rest of	 their	I	6.188124656677246	6.312819004058838	0.0020536743104457855	0.05077740177512169	5
+407	shame_align	aligned	facebook/blenderbot-400M-distill	 for the rest of their	 lives	</s>	6.474730014801025	4.647279262542725	0.001541915233246982	0.15364336967468262	5
+408	shame_align	aligned	facebook/blenderbot-400M-distill	 the rest of their lives	 my	I	6.722649574279785	5.985702037811279	0.0012033459497615695	0.09140858799219131	5
+409	shame_align	aligned	facebook/blenderbot-400M-distill	 rest of their lives my	 long	I	5.595859527587891	5.998080253601074	0.003713207086548209	0.08764640241861343	5
+410	shame_align	aligned	facebook/blenderbot-400M-distill	 of their lives my long	est	is	9.869521141052246	5.218947410583496	5.172748205950484e-05	0.1680949628353119	5
+411	shame_align	aligned	facebook/blenderbot-400M-distill	 their lives my longest	 relationship	to	11.241070747375488	5.581212043762207	1.3123966709827073e-05	0.07920046895742416	5
+412	shame_align	aligned	facebook/blenderbot-400M-distill	 lives my longest relationship	 was	a	5.470337867736816	5.5869550704956055	0.0042098104022443295	0.06590814888477325	5
+413	shame_align	aligned	facebook/blenderbot-400M-distill	 my longest relationship was	 four	I	6.981067180633545	6.003357410430908	0.0009293108596466482	0.0954824686050415	5
+414	shame_align	aligned	facebook/blenderbot-400M-distill	 longest relationship was four	 months	long	8.224193572998047	5.405584335327148	0.0002680885372683406	0.06488383561372757	5
+415	shame_align	aligned	facebook/blenderbot-400M-distill	est relationship was four months	 mar	ks	3.8188083171844482	4.807439804077148	0.021953947842121124	0.17560796439647675	5
+416	shame_align	aligned	facebook/blenderbot-400M-distill	 relationship was four months mar	ian	es	6.61698055267334	5.974679470062256	0.0013374636182561517	0.06678671389818192	5
+417	shame_align	aligned	facebook/blenderbot-400M-distill	 was four months marian	ne	and	12.119172096252441	5.535602569580078	5.453940957522718e-06	0.08115143328905106	5
+418	shame_align	aligned	facebook/blenderbot-400M-distill	 four months marianne	 raised	in	10.732357025146484	5.093249320983887	2.1827134332852438e-05	0.13835656642913818	5
+419	shame_align	aligned	facebook/blenderbot-400M-distill	 months marianne raised	 her	I	5.505734920501709	6.15587043762207	0.004063401371240616	0.050707582384347916	5
+420	shame_align	aligned	facebook/blenderbot-400M-distill	 marianne raised her	 eye	is	6.84726619720459	6.318503379821777	0.001062355819158256	0.045470673590898514	5
+421	shame_align	aligned	facebook/blenderbot-400M-distill	ianne raised her eye	br	ow	7.42884635925293	4.1975507736206055	0.0005938722169958055	0.26856639981269836	5
+422	shame_align	aligned	facebook/blenderbot-400M-distill	ne raised her eyebr	ows	to	10.841165542602539	4.66208553314209	1.957680615305435e-05	0.15940122306346893	5
+423	shame_align	aligned	facebook/blenderbot-400M-distill	 raised her eyebrows	 four	again	6.257436752319336	6.215297222137451	0.001916151843033731	0.04013644531369209	5
+424	shame_align	aligned	facebook/blenderbot-400M-distill	 her eyebrows four	 months	to	9.94866943359375	6.1268229484558105	4.779117807629518e-05	0.047733355313539505	5
+425	shame_align	aligned	facebook/blenderbot-400M-distill	 eyebrows four months	 you	have	3.5371670722961426	5.010271072387695	0.029095636680722237	0.10309147089719772	5
+426	shame_align	aligned	facebook/blenderbot-400M-distill	brows four months you	 have	to	5.990949630737305	5.032177925109863	0.0025012872647494078	0.09582938998937607	5
+427	shame_align	aligned	facebook/blenderbot-400M-distill	ows four months you have	 to	again	4.1289520263671875	5.8970208168029785	0.01609974354505539	0.1246417760848999	5
+428	shame_align	aligned	facebook/blenderbot-400M-distill	 four months you have to	 commit	to	6.624139308929443	4.184903621673584	0.0013279230333864689	0.3047134578227997	5
+429	shame_align	aligned	facebook/blenderbot-400M-distill	 months you have to commit	 you	to	3.0657670497894287	4.521115303039551	0.04661806672811508	0.164907306432724	5
+430	shame_align	aligned	facebook/blenderbot-400M-distill	 you have to commit you	 have	a	6.219281196594238	5.394057750701904	0.0019906761590391397	0.061889179050922394	5
+431	shame_align	aligned	facebook/blenderbot-400M-distill	 have to commit you have	 to	you	3.1675257682800293	5.266438961029053	0.04210764914751053	0.12414456158876419	5
+432	shame_align	aligned	facebook/blenderbot-400M-distill	 to commit you have to	 actually	I	8.66550350189209	5.198135852813721	0.0001724326575640589	0.11543436348438263	5
+433	shame_align	aligned	facebook/blenderbot-400M-distill	 commit you have to actually	 give	you	3.1820068359375	4.987003326416016	0.04150228574872017	0.12983541190624237	5
+434	shame_align	aligned	facebook/blenderbot-400M-distill	 you have to actually give	 it	to	6.607100486755371	3.721311092376709	0.0013507434632629156	0.252783864736557	5
+435	shame_align	aligned	facebook/blenderbot-400M-distill	 have to actually give it	 a	bit	5.105135917663574	5.980035781860352	0.006065512541681528	0.06740040332078934	5
+436	shame_align	aligned	facebook/blenderbot-400M-distill	 to actually give it a	 shot	is	10.502236366271973	4.169057846069336	2.7474932721816003e-05	0.16625548899173737	5
+437	shame_align	aligned	facebook/blenderbot-400M-distill	 actually give it a shot	 i	have	4.831965446472168	4.805601119995117	0.00797083880752325	0.09651413559913635	5
+438	shame_align	aligned	facebook/blenderbot-400M-distill	 give it a shot i	 did	not	5.639676094055176	4.875586986541748	0.0035540203098207712	0.06754039227962494	5
+439	shame_align	aligned	facebook/blenderbot-400M-distill	 it a shot i did	 he	I	4.347132205963135	5.292459487915039	0.012943880632519722	0.11039368063211441	5
+440	shame_align	aligned	facebook/blenderbot-400M-distill	 a shot i did he	 laughed	at	10.128113746643066	4.13261604309082	3.994073995272629e-05	0.14555098116397858	5
+441	shame_align	aligned	facebook/blenderbot-400M-distill	 shot i did he laughed	 for	a	6.402538299560547	4.091459274291992	0.0016573453322052956	0.44112080335617065	5
+442	shame_align	aligned	facebook/blenderbot-400M-distill	 i did he laughed for	 four	th	4.9969987869262695	6.167649745941162	0.006758198142051697	0.07344852387905121	5
+443	shame_align	aligned	facebook/blenderbot-400M-distill	 did he laughed for four	 months	.	11.187211990356445	5.530611038208008	1.385018003929872e-05	0.04038907214999199	5
+444	shame_align	aligned	facebook/blenderbot-400M-distill	 he laughed for four months	 soon	I	7.841492176055908	5.14862585067749	0.0003930820676032454	0.09943066537380219	5
+445	shame_align	aligned	facebook/blenderbot-400M-distill	 laughed for four months soon	 the	so	6.755692481994629	6.022671222686768	0.0011642331955954432	0.06681320816278458	5
+446	shame_align	aligned	facebook/blenderbot-400M-distill	 for four months soon the	 wait	for	7.132989406585693	4.864529609680176	0.0007983292452991009	0.1419086903333664	5
+447	shame_align	aligned	facebook/blenderbot-400M-distill	 four months soon the wait	er	is	8.844237327575684	5.136866569519043	0.0001442103530280292	0.10757353156805038	5
+448	shame_align	aligned	facebook/blenderbot-400M-distill	 months soon the waiter	 return	ed	11.045429229736328	1.210037350654602	1.5959936717990786e-05	0.5552151203155518	5
+449	shame_align	aligned	facebook/blenderbot-400M-distill	 soon the waiter return	ed	to	8.955435752868652	2.3759970664978027	0.00012903382594231516	0.6729129552841187	5
+450	shame_align	aligned	facebook/blenderbot-400M-distill	 the waiter returned	 with	the	7.3605170249938965	5.573721885681152	0.0006358696846291423	0.10695616900920868	5
+451	shame_align	aligned	facebook/blenderbot-400M-distill	 waiter returned with	 their	s	5.511206150054932	6.495007514953613	0.0040412298403680325	0.0467924140393734	5
+452	shame_align	aligned	facebook/blenderbot-400M-distill	er returned with their	 l	ect	3.9038383960723877	4.550383567810059	0.020164363086223602	0.09625165164470673	5
+453	shame_align	aligned	facebook/blenderbot-400M-distill	 returned with their l	amb		7.178961753845215	6.579164505004883	0.0007624588324688375	0.029647057875990868	5
+454	shame_align	aligned	facebook/blenderbot-400M-distill	ed with their lamb	 	</s>	1.7199736833572388	4.64351749420166	0.1790708750486374	0.2476160228252411	5
+455	shame_align	aligned	facebook/blenderbot-400M-distill	 with their lamb 	<unk>	we	18.155475616455078	5.227024555206299	1.3036978607772198e-08	0.07599035650491714	5
+456	shame_align	aligned	facebook/blenderbot-400M-distill	 their lamb <unk>	 ar	b	5.539125442504883	5.637304782867432	0.003929962869733572	0.0858163833618164	5
+457	shame_align	aligned	facebook/blenderbot-400M-distill	 lamb <unk> ar	r	r	3.0472421646118164	5.895661354064941	0.0474897101521492	0.0474897101521492	5
+458	shame_align	aligned	facebook/blenderbot-400M-distill	amb <unk> arr	ang	es	9.551593780517578	2.1734650135040283	7.10878666723147e-05	0.5307172536849976	5
+459	shame_align	aligned	facebook/blenderbot-400M-distill	 <unk> arrang	ed	</s>	9.094829559326172	5.0236382484436035	0.00011224472837056965	0.15893414616584778	5
+460	shame_align	aligned	facebook/blenderbot-400M-distill	<unk> arranged	 on	to	5.920088768005371	6.430935382843018	0.0026849613059312105	0.04093839228153229	5
+461	shame_align	aligned	facebook/blenderbot-400M-distill	 arranged on	 the		7.069118499755859	6.1932573318481445	0.0008509829640388489	0.03343000262975693	5
+462	shame_align	aligned	facebook/blenderbot-400M-distill	ranged on the	 plate	.	8.041621208190918	5.33469820022583	0.0003217868506908417	0.08258643746376038	5
+463	shame_align	aligned	facebook/blenderbot-400M-distill	anged on the plate	 as	we	6.409172058105469	4.8786444664001465	0.0016463873907923698	0.20961833000183105	5
+464	shame_align	aligned	facebook/blenderbot-400M-distill	ed on the plate as	 they	are	4.894224166870117	5.849641799926758	0.00748971663415432	0.09735236316919327	5
+465	shame_align	aligned	facebook/blenderbot-400M-distill	 on the plate as they	 began	to	11.431950569152832	4.302584171295166	1.0843440577446017e-05	0.22885465621948242	5
+466	shame_align	aligned	facebook/blenderbot-400M-distill	 the plate as they began	 to	a	5.872030735015869	6.223735809326172	0.0028171464800834656	0.037283383309841156	5
+467	shame_align	aligned	facebook/blenderbot-400M-distill	 plate as they began to	 cut	down	6.155431747436523	5.11490535736084	0.002121924888342619	0.14330755174160004	5
+468	shame_align	aligned	facebook/blenderbot-400M-distill	 as they began to cut	 into	.	6.829240798950195	6.380361080169678	0.0010816787835210562	0.047653477638959885	5
+469	shame_align	aligned	facebook/blenderbot-400M-distill	 they began to cut into	 the	I	5.481730937957764	5.5293354988098145	0.004162118770182133	0.13872386515140533	5
+470	shame_align	aligned	facebook/blenderbot-400M-distill	 began to cut into the	 meat	I	7.932305335998535	5.586267948150635	0.000358957884600386	0.060916028916835785	5
+471	shame_align	aligned	facebook/blenderbot-400M-distill	 to cut into the meat	 brand	s	11.935774803161621	1.5934975147247314	6.5517738221387845e-06	0.7972163558006287	5
+472	shame_align	aligned	facebook/blenderbot-400M-distill	 cut into the meat brand	on	special	7.20899772644043	6.264654636383057	0.0007398984162136912	0.03554768115282059	5
+473	shame_align	aligned	facebook/blenderbot-400M-distill	 into the meat brandon	 lean	</s>	9.871696472167969	5.719944477081299	5.161508306628093e-05	0.13550430536270142	5
+474	shame_align	aligned	facebook/blenderbot-400M-distill	 the meat brandon lean	ed	I	9.416476249694824	4.399693012237549	8.137226541293785e-05	0.330143004655838	5
+475	shame_align	aligned	facebook/blenderbot-400M-distill	 meat brandon leaned	 over	I	8.192811965942383	5.615767955780029	0.0002766349643934518	0.08952833712100983	5
+476	shame_align	aligned	facebook/blenderbot-400M-distill	 brandon leaned over	 to		4.389132022857666	6.183228969573975	0.01241149753332138	0.03558233380317688	5
+477	shame_align	aligned	facebook/blenderbot-400M-distill	on leaned over to	 mar	ks	4.081549644470215	5.853225231170654	0.016881288960576057	0.07984143495559692	5
+478	shame_align	aligned	facebook/blenderbot-400M-distill	 leaned over to mar	ian	a	5.376967430114746	5.004680633544922	0.0046218158677220345	0.2697947025299072	5
+479	shame_align	aligned	facebook/blenderbot-400M-distill	ed over to marian	ne	</s>	12.773591041564941	6.027668476104736	2.8346523777145194e-06	0.039261236786842346	5
+480	shame_align	aligned	facebook/blenderbot-400M-distill	 over to marianne	 if	you	5.756197929382324	5.473514556884766	0.003163115354254842	0.1168060302734375	5
+481	shame_align	aligned	facebook/blenderbot-400M-distill	 to marianne if	 you	please	5.386090278625488	5.589587211608887	0.004579845815896988	0.04567421227693558	5
+482	shame_align	aligned	facebook/blenderbot-400M-distill	 marianne if you	 had	to	9.853206634521484	2.669318675994873	5.257834345684387e-05	0.6544866561889648	5
+483	shame_align	aligned	facebook/blenderbot-400M-distill	ianne if you had	 a	note	5.117095947265625	6.41926908493042	0.005993400700390339	0.04020725563168526	5
+484	shame_align	aligned	facebook/blenderbot-400M-distill	ne if you had a	 choice	to	9.87993335723877	3.9604601860046387	5.1191684178775176e-05	0.2252555787563324	5
+485	shame_align	aligned	facebook/blenderbot-400M-distill	 if you had a choice	 to	go	4.485337257385254	5.146168231964111	0.011273084208369255	0.07451487332582474	5
+486	shame_align	aligned	facebook/blenderbot-400M-distill	 you had a choice to	 live	a	8.167013168334961	4.191413402557373	0.00028386461781337857	0.26874396204948425	5
+487	shame_align	aligned	facebook/blenderbot-400M-distill	 had a choice to live	 in	a	6.903328895568848	5.080836296081543	0.0010044364025816321	0.23371116816997528	5
+488	shame_align	aligned	facebook/blenderbot-400M-distill	 a choice to live in	 the	I	7.472174167633057	6.263525485992432	0.0005686905351467431	0.04558762162923813	5
+489	shame_align	aligned	facebook/blenderbot-400M-distill	 choice to live in the	 past	you	8.736991882324219	5.1450514793396	0.00016053608851507306	0.08775993436574936	5
+490	shame_align	aligned	facebook/blenderbot-400M-distill	 to live in the past	 or	at	7.107097148895264	5.186565399169922	0.0008192698005586863	0.07134423404932022	5
+491	shame_align	aligned	facebook/blenderbot-400M-distill	 live in the past or	 the		5.166513442993164	5.705440044403076	0.005704422947019339	0.04315910488367081	5
+492	shame_align	aligned	facebook/blenderbot-400M-distill	 in the past or the	 future	</s>	10.334847450256348	4.712446212768555	3.248124630772509e-05	0.12557150423526764	5
+493	shame_align	aligned	facebook/blenderbot-400M-distill	 the past or the future	 and	I	4.981145858764648	5.1014204025268555	0.0068661924451589584	0.1205688863992691	5
+494	shame_align	aligned	facebook/blenderbot-400M-distill	 past or the future and	 you	are	5.630884647369385	5.264362335205078	0.003585402388125658	0.057863034307956696	5
+495	shame_align	aligned	facebook/blenderbot-400M-distill	 or the future and you	 could	be	5.598047256469727	4.465570449829102	0.00370509154163301	0.19883114099502563	5
+496	shame_align	aligned	facebook/blenderbot-400M-distill	 the future and you could	 be	a	6.170065879821777	4.853445529937744	0.0020910990424454212	0.1684325933456421	5
+497	shame_align	aligned	facebook/blenderbot-400M-distill	 future and you could be	 anything	but	7.475313186645508	4.905278205871582	0.0005669083329848945	0.09402629733085632	5
+498	shame_align	aligned	facebook/blenderbot-400M-distill	 and you could be anything	 you	are	6.02741813659668	4.043973922729492	0.0024117128923535347	0.12003863602876663	5
+499	shame_align	aligned	facebook/blenderbot-400M-distill	 you could be anything you	 wanted	to	9.558038711547852	2.390184164047241	7.063116208883002e-05	0.5822941660881042	5
+500	shame_align	aligned	facebook/blenderbot-400M-distill	 could be anything you wanted	 what	would	6.220372676849365	4.54256534576416	0.001988503849133849	0.10059162974357605	5
+501	shame_align	aligned	facebook/blenderbot-400M-distill	 be anything you wanted what	 would	be	8.555448532104492	2.8717315196990967	0.000192493389477022	0.530548632144928	5
+502	shame_align	aligned	facebook/blenderbot-400M-distill	 anything you wanted what would	 you	like	4.85048770904541	3.787100076675415	0.007824559696018696	0.4024050831794739	5
+503	shame_align	aligned	facebook/blenderbot-400M-distill	 you wanted what would you	 be	able	5.544984817504883	4.641603469848633	0.003907002508640289	0.12028488516807556	5
+504	shame_align	aligned	facebook/blenderbot-400M-distill	 wanted what would you be	 well	enough	7.323185920715332	3.6277337074279785	0.0006600559572689235	0.44044730067253113	5
+505	shame_align	aligned	facebook/blenderbot-400M-distill	 what would you be well	 what	would	5.34480619430542	4.192972183227539	0.004772875923663378	0.1690530627965927	5
+506	shame_align	aligned	facebook/blenderbot-400M-distill	 would you be well what	 would	be	3.172686815261841	2.2977285385131836	0.041890889406204224	0.5987962484359741	5
+507	shame_align	aligned	facebook/blenderbot-400M-distill	 you be well what would	 you	be	5.149355411529541	2.567636728286743	0.005803144536912441	0.3564906120300293	5
+508	shame_align	aligned	facebook/blenderbot-400M-distill	 be well what would you	 be	?	5.827985763549805	4.575981140136719	0.0029440000653266907	0.1168920174241066	5
+509	shame_align	aligned	facebook/blenderbot-400M-distill	 well what would you be	 i	</s>	5.005463600158691	5.100085735321045	0.006701232399791479	0.0744934007525444	5
+510	shame_align	aligned	facebook/blenderbot-400M-distill	 what would you be i	 always	have	9.473814964294434	4.05999231338501	7.683774310862646e-05	0.3375517725944519	5
+511	shame_align	aligned	facebook/blenderbot-400M-distill	 would you be i always	 wanted	to	10.001359939575195	1.494319200515747	4.533824903774075e-05	0.7705187797546387	5
+512	shame_align	aligned	facebook/blenderbot-400M-distill	 you be i always wanted	 to	I	5.283336639404297	5.370692253112793	0.005075467750430107	0.0657769963145256	5
+513	shame_align	aligned	facebook/blenderbot-400M-distill	 be i always wanted to	 be	a	4.789533615112305	5.376494884490967	0.008316335268318653	0.10056531429290771	5
+514	shame_align	aligned	facebook/blenderbot-400M-distill	 i always wanted to be	 a	bit	5.23586893081665	4.6897196769714355	0.005322197452187538	0.23964761197566986	5
+515	shame_align	aligned	facebook/blenderbot-400M-distill	 always wanted to be a	 music	ian	6.492743968963623	5.945091724395752	0.0015143875498324633	0.08066381514072418	5
+516	shame_align	aligned	facebook/blenderbot-400M-distill	 wanted to be a music	ian	and	11.162348747253418	4.808979034423828	1.4198861208569724e-05	0.09120497852563858	5
+517	shame_align	aligned	facebook/blenderbot-400M-distill	 to be a musician	 in	line	6.875941276550293	5.708008766174316	0.0010323256719857454	0.04106418788433075	5
+518	shame_align	aligned	facebook/blenderbot-400M-distill	 be a musician in	 the	I	8.244852066040039	6.361093521118164	0.0002626070927362889	0.026310469955205917	5
+519	shame_align	aligned	facebook/blenderbot-400M-distill	 a musician in the	 si	xt	2.937135934829712	5.9225568771362305	0.053017351776361465	0.05586370825767517	5
+520	shame_align	aligned	facebook/blenderbot-400M-distill	 musician in the si	xt	e	7.423039436340332	2.8068318367004395	0.0005973308579996228	0.32371923327445984	5
+521	shame_align	aligned	facebook/blenderbot-400M-distill	ian in the sixt	ies	.	9.489437103271484	4.623805046081543	7.564667612314224e-05	0.17692962288856506	5
+522	shame_align	aligned	facebook/blenderbot-400M-distill	 in the sixties	 mar	ks	3.684318780899048	4.135416030883789	0.0251142755150795	0.39732542634010315	5
+523	shame_align	aligned	facebook/blenderbot-400M-distill	 the sixties mar	ian	</s>	6.483656406402588	5.471236228942871	0.0015282125677913427	0.1344309002161026	5
+524	shame_align	aligned	facebook/blenderbot-400M-distill	 sixties marian	ne	</s>	10.062650680541992	5.603901386260986	4.2642877815524116e-05	0.08734594285488129	5
+525	shame_align	aligned	facebook/blenderbot-400M-distill	xties marianne	 sh	*	4.644667625427246	5.589541435241699	0.009612723253667355	0.1153905913233757	5
+526	shame_align	aligned	facebook/blenderbot-400M-distill	ies marianne sh	ook	</s>	9.016945838928223	4.5768938064575195	0.00012133616110077128	0.23007231950759888	5
+527	shame_align	aligned	facebook/blenderbot-400M-distill	 marianne shook	 her	</s>	6.224053859710693	5.329144477844238	0.0019811971578747034	0.0896662175655365	5
+528	shame_align	aligned	facebook/blenderbot-400M-distill	ianne shook her	 head	</s>	7.527956485748291	5.025853633880615	0.0005378362839110196	0.17402446269989014	5
+529	shame_align	aligned	facebook/blenderbot-400M-distill	ne shook her head	 i	love	5.495703220367432	5.54057502746582	0.004104368854314089	0.07973014563322067	5
+530	shame_align	aligned	facebook/blenderbot-400M-distill	 shook her head i	 saw	a	9.383633613586426	5.932182312011719	8.408912253798917e-05	0.04783807694911957	5
+531	shame_align	aligned	facebook/blenderbot-400M-distill	ook her head i saw	 that	</s>	4.890460968017578	5.566304683685303	0.007517955731600523	0.05520496889948845	5
+532	shame_align	aligned	facebook/blenderbot-400M-distill	 her head i saw that	 rolling	.	8.96626091003418	5.12023401260376	0.00012764464190695435	0.10242108255624771	5
+533	shame_align	aligned	facebook/blenderbot-400M-distill	 head i saw that rolling	 st	ead	5.688358306884766	4.880196571350098	0.0033851468469947577	0.13741561770439148	5
+534	shame_align	aligned	facebook/blenderbot-400M-distill	 i saw that rolling st	ones	</s>	13.366843223571777	5.948668479919434	1.566224000271177e-06	0.07101786881685257	5
+535	shame_align	aligned	facebook/blenderbot-400M-distill	 saw that rolling stones	 document	ary	7.425004482269287	3.7712132930755615	0.000596158264670521	0.21203632652759552	5
+536	shame_align	aligned	facebook/blenderbot-400M-distill	 that rolling stones document	ary	</s>	11.565224647521973	4.567325115203857	9.490452612226363e-06	0.19487284123897552	5
+537	shame_align	aligned	facebook/blenderbot-400M-distill	 rolling stones documentary	 recently	.	9.832962989807129	5.568296432495117	5.365356264519505e-05	0.10353818535804749	5
+538	shame_align	aligned	facebook/blenderbot-400M-distill	 stones documentary recently	 the	so	6.736370086669922	5.764943599700928	0.0011869481531903148	0.08318165689706802	5
+539	shame_align	aligned	facebook/blenderbot-400M-distill	ones documentary recently the	 si	ames	4.274476051330566	5.930365562438965	0.013919343240559101	0.10101237893104553	5
+540	shame_align	aligned	facebook/blenderbot-400M-distill	 documentary recently the si	xt	e	9.854747772216797	2.0667366981506348	5.249733294476755e-05	0.5636268854141235	5
+541	shame_align	aligned	facebook/blenderbot-400M-distill	ary recently the sixt	ies	.	9.007621765136719	5.112844467163086	0.00012247276026755571	0.08597232401371002	5
+542	shame_align	aligned	facebook/blenderbot-400M-distill	 recently the sixties	 seemed	to	9.21026611328125	3.821861743927002	0.00010000743350246921	0.37417054176330566	5
+543	shame_align	aligned	facebook/blenderbot-400M-distill	 the sixties seemed	 like	a	10.415460586547852	4.059270858764648	2.996560579049401e-05	0.355146586894989	5
+544	shame_align	aligned	facebook/blenderbot-400M-distill	 sixties seemed like	 cha	cha	1.1293152570724487	4.465681552886963	0.3232545256614685	0.3232545256614685	5
+545	shame_align	aligned	facebook/blenderbot-400M-distill	xties seemed like cha	os	.	11.590744018554688	3.9365406036376953	9.251327355741523e-06	0.2291163057088852	5
+546	shame_align	aligned	facebook/blenderbot-400M-distill	ies seemed like chaos	 the	off	6.678711414337158	6.261951446533203	0.001257397118024528	0.062428273260593414	5
+547	shame_align	aligned	facebook/blenderbot-400M-distill	 seemed like chaos the	 last	thing	7.552207946777344	2.7763583660125732	0.000524949689861387	0.612334668636322	5
+548	shame_align	aligned	facebook/blenderbot-400M-distill	 like chaos the last	 place	I	6.392509460449219	4.456248760223389	0.0016740496503189206	0.1754116415977478	5
+549	shame_align	aligned	facebook/blenderbot-400M-distill	 chaos the last place	 i	am	3.4973790645599365	5.532198905944824	0.03027663566172123	0.0605376772582531	5
+550	shame_align	aligned	facebook/blenderbot-400M-distill	os the last place i	'd	be	9.16353702545166	5.869753837585449	0.00010479159391252324	0.0784735307097435	5
+551	shame_align	aligned	facebook/blenderbot-400M-distill	 the last place i'd	 want	to	8.383387565612793	0.8575202226638794	0.00022863423509988934	0.8966467976570129	5
+552	shame_align	aligned	facebook/blenderbot-400M-distill	 last place i'd want	 to	but	3.9376583099365234	5.545441627502441	0.01949380896985531	0.04402578994631767	5
+553	shame_align	aligned	facebook/blenderbot-400M-distill	 place i'd want to	 be	so	7.908164024353027	4.889458656311035	0.00036772910971194506	0.07582037895917892	5
+554	shame_align	aligned	facebook/blenderbot-400M-distill	 i'd want to be	 so	long	4.321847915649414	5.986245632171631	0.013275327160954475	0.05333486944437027	5
+555	shame_align	aligned	facebook/blenderbot-400M-distill	'd want to be so	 where	's	4.503561496734619	4.557063579559326	0.011069503612816334	0.1406322717666626	5
+556	shame_align	aligned	facebook/blenderbot-400M-distill	 want to be so where	 would	you	7.815006256103516	4.223446369171143	0.0004036321770399809	0.25343289971351624	5
+557	shame_align	aligned	facebook/blenderbot-400M-distill	 to be so where would	 you	be	5.7013020515441895	3.703770399093628	0.00334161170758307	0.4326355755329132	5
+558	shame_align	aligned	facebook/blenderbot-400M-distill	 be so where would you	 wanna	go	8.738414764404297	2.3711776733398438	0.00016030787082854658	0.433888703584671	5
+559	shame_align	aligned	facebook/blenderbot-400M-distill	 so where would you wanna	 be	?	6.2611188888549805	5.062894344329834	0.001909109065309167	0.18885435163974762	5
+560	shame_align	aligned	facebook/blenderbot-400M-distill	 where would you wanna be	 you	had	5.561840534210205	4.411086559295654	0.0038416993338614702	0.18847870826721191	5
+561	shame_align	aligned	facebook/blenderbot-400M-distill	 would you wanna be you	 know	to	5.4970703125	4.4477858543396	0.004098761361092329	0.08449935913085938	5
+562	shame_align	aligned	facebook/blenderbot-400M-distill	 you wanna be you know	 here	and	5.6781206130981445	4.335378646850586	0.003419978776946664	0.13313309848308563	5
+563	shame_align	aligned	facebook/blenderbot-400M-distill	 wanna be you know here	 now	.	9.055901527404785	4.239072799682617	0.00011670032836264	0.23330797255039215	5
+564	shame_align	aligned	facebook/blenderbot-400M-distill	 be you know here now	 don	't	7.4046549797058105	0.9844847917556763	0.0006084138876758516	0.877398669719696	5
+565	shame_align	aligned	facebook/blenderbot-400M-distill	 you know here now don	't	you	6.404855728149414	4.968929767608643	0.001653508166782558	0.08760374784469604	5
+566	shame_align	aligned	facebook/blenderbot-400M-distill	 know here now don't	 be	we	4.587675094604492	5.64726448059082	0.010176491923630238	0.10926693677902222	5
+567	shame_align	aligned	facebook/blenderbot-400M-distill	 here now don't be	 so	we	3.7950422763824463	6.295044898986816	0.022481955587863922	0.04335571080446243	5
+568	shame_align	aligned	facebook/blenderbot-400M-distill	 now don't be so	 boring	a	12.967528343200684	5.019772052764893	2.334930059078033e-06	0.05465848743915558	5
+569	shame_align	aligned	facebook/blenderbot-400M-distill	 don't be so boring	 he	's	2.415661096572876	4.564154624938965	0.08930827677249908	0.12549176812171936	5
+570	shame_align	aligned	facebook/blenderbot-400M-distill	't be so boring he	 said	I	8.9364013671875	4.990391254425049	0.00013151339953765273	0.0872470960021019	5
+571	shame_align	aligned	facebook/blenderbot-400M-distill	 be so boring he said	 play	I	6.886053085327148	5.469935417175293	0.0010219396790489554	0.08026090264320374	5
+572	shame_align	aligned	facebook/blenderbot-400M-distill	 so boring he said play	fully	I	13.41668701171875	4.71978759765625	1.490070189902326e-06	0.11953400820493698	5
+573	shame_align	aligned	facebook/blenderbot-400M-distill	 boring he said playfully	</s>	I	4.500885963439941	4.758913040161133	0.01109915878623724	0.15151283144950867	5

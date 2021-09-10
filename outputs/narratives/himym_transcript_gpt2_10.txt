@@ -1,0 +1,666 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	himym_transcript	transcript	gpt2	Barney and Quinn walked into the airport pulling their	 matching	jackets	8.674213409423828	6.886491775512695	0.0013686885358765721	0.032294660806655884	10
+1	himym_transcript	transcript	gpt2	ney and Quinn walked into the airport pulling their matching	 pink	and	5.3912200927734375	6.394513130187988	0.0008124091546051204	0.049821775406599045	10
+2	himym_transcript	transcript	gpt2	 and Quinn walked into the airport pulling their matching pink	 tiger	suit	9.603324890136719	5.5269083976745605	0.004782459698617458	0.09585109353065491	10
+3	himym_transcript	transcript	gpt2	 Quinn walked into the airport pulling their matching pink tiger	-	strip	3.30002760887146	4.892849922180176	0.0006046354537829757	0.11345059424638748	10
+4	himym_transcript	transcript	gpt2	 walked into the airport pulling their matching pink tiger-	stri	pe	5.559145927429199	0.15175899863243103	1.2688828121554252e-07	0.9800378084182739	10
+5	himym_transcript	transcript	gpt2	 into the airport pulling their matching pink tiger-stri	pe	t	0.019838370382785797	5.976377487182617	1.6585182720518787e-06	0.03890754282474518	10
+6	himym_transcript	transcript	gpt2	 the airport pulling their matching pink tiger-stripe	 suit	and	3.6302390098571777	4.221506595611572	0.0025575992185622454	0.1117333471775055	10
+7	himym_transcript	transcript	gpt2	 airport pulling their matching pink tiger-stripe suit	cases	from	3.4538116455078125	3.548102855682373	5.325050267401821e-08	0.17351990938186646	10
+8	himym_transcript	transcript	gpt2	 pulling their matching pink tiger-stripe suitcases	.	"
+"	2.529804229736328	4.135369777679443	1.3929230590292718e-05	0.3424795866012573	10
+9	himym_transcript	transcript	gpt2	 their matching pink tiger-stripe suitcases.	 Barney	's	11.504287719726562	5.777743339538574	0.00021064502652734518	0.12746931612491608	10
+10	himym_transcript	transcript	gpt2	 matching pink tiger-stripe suitcases. Barney	 leaned	forward	8.582817077636719	2.831242561340332	3.408237716939766e-06	0.21513505280017853	10
+11	himym_transcript	transcript	gpt2	 pink tiger-stripe suitcases. Barney leaned	 over	and	1.7848836183547974	2.5397708415985107	0.00025125849060714245	0.2660136818885803	10
+12	himym_transcript	transcript	gpt2	 tiger-stripe suitcases. Barney leaned over	 and	took	1.302504301071167	5.580868721008301	0.0002541332214605063	0.04816575348377228	10
+13	himym_transcript	transcript	gpt2	-stripe suitcases. Barney leaned over and	 kissed	her	3.6635992527008057	3.816113233566284	4.330566298449412e-06	0.21913588047027588	10
+14	himym_transcript	transcript	gpt2	stripe suitcases. Barney leaned over and kissed	 her	on	1.5252958536148071	3.8291778564453125	0.0001231627829838544	0.2339782863855362	10
+15	himym_transcript	transcript	gpt2	pe suitcases. Barney leaned over and kissed her	 on	the	1.4040467739105225	0.3451824486255646	4.3228660615568515e-06	0.9427257776260376	10
+16	himym_transcript	transcript	gpt2	 suitcases. Barney leaned over and kissed her on	 the	lips	0.06148603558540344	1.674601674079895	2.6511313990340568e-05	0.4537760615348816	10
+17	himym_transcript	transcript	gpt2	cases. Barney leaned over and kissed her on the	 cheek	.	1.0966684818267822	1.8446305990219116	0.0002635666460264474	0.5431655645370483	10
+18	himym_transcript	transcript	gpt2	. Barney leaned over and kissed her on the cheek	.	""""	0.5577041506767273	3.3050248622894287	8.578721462981775e-06	0.29801440238952637	10
+19	himym_transcript	transcript	gpt2	 Barney leaned over and kissed her on the cheek.	" """	I	1.3448306322097778	4.619369983673096	4.6711141976629733e-07	0.17840735614299774	10
+20	himym_transcript	transcript	gpt2	" leaned over and kissed her on the cheek. """	This	is	5.167872905731201	3.1642844676971436	2.0314978144142515e-07	0.5372100472450256	10
+21	himym_transcript	transcript	gpt2	" over and kissed her on the cheek. ""This"	 is	my	0.5806296467781067	5.4317121505737305	0.0001551194000057876	0.06405926495790482	10
+22	himym_transcript	transcript	gpt2	" and kissed her on the cheek. ""This is"	 going	to	4.354090213775635	0.7416967153549194	6.919685347384075e-06	0.9011955261230469	10
+23	himym_transcript	transcript	gpt2	" kissed her on the cheek. ""This is going"	 to	be	0.08751427382230759	2.5195417404174805	5.725353184971027e-05	0.5758088231086731	10
+24	himym_transcript	transcript	gpt2	" her on the cheek. ""This is going to"	 be	a	0.522674560546875	4.404447078704834	7.683293370064348e-05	0.23963400721549988	10
+25	himym_transcript	transcript	gpt2	" on the cheek. ""This is going to be"	 an	interesting	3.2550039291381836	5.135157108306885	0.0004350363160483539	0.08816929161548615	10
+26	himym_transcript	transcript	gpt2	" the cheek. ""This is going to be an"	 amazing	experience	2.669434070587158	5.487431526184082	3.717250001500361e-05	0.0910710021853447	10
+27	himym_transcript	transcript	gpt2	" cheek. ""This is going to be an amazing"	 week	for	3.772123336791992	2.8142385482788086	2.344218228245154e-05	0.2773742079734802	10
+28	himym_transcript	transcript	gpt2	". ""This is going to be an amazing week"	,	and	3.034015655517578	4.362936973571777	3.952018960262649e-05	0.2459060549736023	10
+29	himym_transcript	transcript	gpt2	" ""This is going to be an amazing week,"	 I	'm	2.4563913345336914	3.273379325866699	1.1636710041784681e-05	0.27501168847084045	10
+30	himym_transcript	transcript	gpt2	This is going to be an amazing week, I	�	�	17.607852935791016	2.3770639896392822	1.2114172776023224e-08	0.3686407506465912	10
+31	himym_transcript	transcript	gpt2	 is going to be an amazing week, I�	�	️	9.108657836914062	2.6628353595733643	6.873864549561404e-06	0.5548851490020752	10
+32	himym_transcript	transcript	gpt2	 going to be an amazing week, I’	m	going	1.6688494682312012	4.706747531890869	1.0789251064124983e-05	0.16437751054763794	10
+33	himym_transcript	transcript	gpt2	 to be an amazing week, I’m	 so	excited	3.464430809020996	2.9548776149749756	0.0018040137365460396	0.21422071754932404	10
+34	himym_transcript	transcript	gpt2	 be an amazing week, I’m so	 glad	I	1.8796629905700684	2.879319190979004	6.44930196358473e-06	0.22424614429473877	10
+35	himym_transcript	transcript	gpt2	 an amazing week, I’m so glad	 we	got	3.1938018798828125	3.9731509685516357	9.544497152091935e-05	0.12724795937538147	10
+36	himym_transcript	transcript	gpt2	 amazing week, I’m so glad we	 were	able	2.927192211151123	1.9977443218231201	4.343085947766667e-06	0.7070953249931335	10
+37	himym_transcript	transcript	gpt2	 week, I’m so glad we were	 able	to	0.3855206072330475	0.03200467303395271	2.630252708968328e-07	0.997326135635376	10
+38	himym_transcript	transcript	gpt2	, I’m so glad we were able	 to	get	0.004301462322473526	5.030256748199463	0.0001365448406431824	0.1158246174454689	10
+39	himym_transcript	transcript	gpt2	 I’m so glad we were able to	 put	this	4.868275165557861	3.791818380355835	9.268878056900576e-05	0.1873532384634018	10
+40	himym_transcript	transcript	gpt2	’m so glad we were able to put	 everything	together	5.836707592010498	1.3285307884216309	5.1768540288321674e-05	0.7585175037384033	10
+41	himym_transcript	transcript	gpt2	�m so glad we were able to put everything	 that	we	5.289377689361572	3.1975831985473633	0.0003592349821701646	0.3898378908634186	10
+42	himym_transcript	transcript	gpt2	m so glad we were able to put everything that	 happened	in	3.895169734954834	3.082764148712158	4.602897024597041e-05	0.18469880521297455	10
+43	himym_transcript	transcript	gpt2	 so glad we were able to put everything that happened	 behind	us	3.7825748920440674	0.9311980605125427	2.58510608546203e-05	0.8596968650817871	10
+44	himym_transcript	transcript	gpt2	 glad we were able to put everything that happened behind	 us	.	0.1333664059638977	2.850557804107666	1.1609388820943423e-05	0.33223116397857666	10
+45	himym_transcript	transcript	gpt2	 we were able to put everything that happened behind us	"."""	"
+"	2.7271618843078613	1.6433645486831665	6.2275912569020875e-06	0.7728475332260132	10
+46	himym_transcript	transcript	gpt2	" were able to put everything that happened behind us."""	 He	said	4.580355167388916	4.691822528839111	3.004054462962813e-07	0.14830629527568817	10
+47	himym_transcript	transcript	gpt2	" able to put everything that happened behind us."" He"	 looked	at	5.067775726318359	3.382783889770508	2.3707345462753437e-05	0.32206007838249207	10
+48	himym_transcript	transcript	gpt2	" to put everything that happened behind us."" He looked"	 back	at	3.185336112976074	2.104766368865967	0.0003535502473823726	0.534246563911438	10
+49	himym_transcript	transcript	gpt2	" put everything that happened behind us."" He looked back"	 at	the	0.6540047526359558	4.1055402755737305	6.0963211581110954e-05	0.32944008708000183	10
+50	himym_transcript	transcript	gpt2	" everything that happened behind us."" He looked back at"	 his	wife	2.3282761573791504	6.3335981369018555	9.083845361601561e-05	0.05656779929995537	10
+51	himym_transcript	transcript	gpt2	" that happened behind us."" He looked back at his"	 neon	-	13.005125999450684	4.996154308319092	0.0013150506420060992	0.1904360055923462	10
+52	himym_transcript	transcript	gpt2	" happened behind us."" He looked back at his neon"	-	lit	1.5766206979751587	3.4428398609161377	0.00028336781542748213	0.23771053552627563	10
+53	himym_transcript	transcript	gpt2	" behind us."" He looked back at his neon-"	colored	car	2.14096736907959	7.327345371246338	4.967462441385351e-09	0.01975693367421627	10
+54	himym_transcript	transcript	gpt2	" us."" He looked back at his neon-colored"	 suitcase	,	7.471752166748047	2.268311023712158	1.2776546100212727e-05	0.28008556365966797	10
+55	himym_transcript	transcript	gpt2	"."" He looked back at his neon-colored suitcase"	 and	said	1.4276844263076782	5.463167667388916	0.00036777168861590326	0.06024342030286789	10
+56	himym_transcript	transcript	gpt2	 He looked back at his neon-colored suitcase and	 frowned	.	4.258088111877441	1.8932747840881348	4.833970251638675e-06	0.6361595988273621	10
+57	himym_transcript	transcript	gpt2	 looked back at his neon-colored suitcase and frowned	.	""""	0.6429513692855835	3.013481378555298	7.841025762900244e-06	0.3919915556907654	10
+58	himym_transcript	transcript	gpt2	 back at his neon-colored suitcase and frowned.	" """	I	1.0712134838104248	4.8153276443481445	5.208165134718001e-07	0.153705894947052	10
+59	himym_transcript	transcript	gpt2	" at his neon-colored suitcase and frowned. """	Well	,	4.084681987762451	2.0300376415252686	4.344322235283471e-07	0.6646113395690918	10
+60	himym_transcript	transcript	gpt2	" his neon-colored suitcase and frowned. ""Well"	,	I	0.41886621713638306	4.462151050567627	0.00011973136861342937	0.21486030519008636	10
+61	himym_transcript	transcript	gpt2	" neon-colored suitcase and frowned. ""Well,"	 almost	.	8.321839332580566	4.749228477478027	0.00015104503836482763	0.12135391682386398	10
+62	himym_transcript	transcript	gpt2	"-colored suitcase and frowned. ""Well, almost"	 everything	is	3.9655680656433105	3.989227533340454	2.0415563994902186e-05	0.14656199514865875	10
+63	himym_transcript	transcript	gpt2	"colored suitcase and frowned. ""Well, almost everything"	"."""	"
+"	4.079798698425293	2.501732349395752	1.6850814063218422e-05	0.5804227590560913	10
+64	himym_transcript	transcript	gpt2	" suitcase and frowned. ""Well, almost everything."""	 Quinn	said	10.825740814208984	5.201866626739502	3.22360428981483e-05	0.11290670931339264	10
+65	himym_transcript	transcript	gpt2	" and frowned. ""Well, almost everything."" Quinn"	 rolled	her	4.649623870849609	0.7248090505599976	1.2426997955117258e-06	0.862616777420044	10
+66	himym_transcript	transcript	gpt2	" frowned. ""Well, almost everything."" Quinn rolled"	 her	eyes	0.15345200896263123	0.09992898255586624	1.925479864439694e-06	0.9889042973518372	10
+67	himym_transcript	transcript	gpt2	". ""Well, almost everything."" Quinn rolled her"	 eyes	.	0.01538410410284996	2.071767807006836	5.139835593581665e-06	0.4201732575893402	10
+68	himym_transcript	transcript	gpt2	" ""Well, almost everything."" Quinn rolled her eyes"	.	""""	0.9744616150856018	1.673359990119934	6.218641374289291e-06	0.6975492835044861	10
+69	himym_transcript	transcript	gpt2	"Well, almost everything."" Quinn rolled her eyes."	" """	I	0.3745233118534088	4.271763801574707	2.3576342300657416e-07	0.21152633428573608	10
+70	himym_transcript	transcript	gpt2	", almost everything."" Quinn rolled her eyes. """	Hey	,	5.9610700607299805	2.3768794536590576	9.021138794196304e-06	0.6542842984199524	10
+71	himym_transcript	transcript	gpt2	" almost everything."" Quinn rolled her eyes. ""Hey"	,	I	0.4348365366458893	5.4331841468811035	8.237133442889899e-05	0.12727656960487366	10
+72	himym_transcript	transcript	gpt2	" everything."" Quinn rolled her eyes. ""Hey,"	 you	're	2.363797187805176	4.2698750495910645	0.0001410875702276826	0.2228284329175949	10
+73	himym_transcript	transcript	gpt2	"."" Quinn rolled her eyes. ""Hey, you"	�	�	14.618634223937988	2.0220677852630615	4.8352322146172355e-11	0.3546980917453766	10
+74	himym_transcript	transcript	gpt2	" Quinn rolled her eyes. ""Hey, you�"	�	""""	8.305179595947266	5.241436958312988	3.915383331332123e-06	0.21685387194156647	10
+75	himym_transcript	transcript	gpt2	" rolled her eyes. ""Hey, you’"	re	not	7.898999214172363	5.650328636169434	5.462907211040147e-06	0.06970725953578949	10
+76	himym_transcript	transcript	gpt2	" her eyes. ""Hey, you’re"	 lucky	to	6.854909896850586	3.679821252822876	1.9253269783803262e-05	0.16552117466926575	10
+77	himym_transcript	transcript	gpt2	" eyes. ""Hey, you’re lucky"	 I	'm	2.8943474292755127	3.8274123668670654	3.3880205592140555e-05	0.2039230763912201	10
+78	himym_transcript	transcript	gpt2	". ""Hey, you’re lucky I"	 only	have	6.14039421081543	4.472359657287598	0.0004792826948687434	0.24677515029907227	10
+79	himym_transcript	transcript	gpt2	" ""Hey, you’re lucky I only"	 threw	a	6.994087219238281	4.440197467803955	2.7460391720524058e-05	0.11864055693149567	10
+80	himym_transcript	transcript	gpt2	Hey, you’re lucky I only threw	 out	a	3.189140796661377	4.98751163482666	0.00046995168668217957	0.10833743959665298	10
+81	himym_transcript	transcript	gpt2	, you’re lucky I only threw out	 your	name	5.105042457580566	7.879652976989746	6.795566878281534e-05	0.04024050384759903	10
+82	himym_transcript	transcript	gpt2	 you’re lucky I only threw out your	 luggage	.	8.6375150680542	4.725863456726074	4.405664367368445e-05	0.10876680165529251	10
+83	himym_transcript	transcript	gpt2	’re lucky I only threw out your luggage	"."""	"
+"	3.8438968658447266	3.342247724533081	9.3527851277031e-05	0.5577043890953064	10
+84	himym_transcript	transcript	gpt2	"�re lucky I only threw out your luggage."""	" """	I	2.702531099319458	5.254951477050781	2.0031260646646842e-05	0.0825212299823761	10
+85	himym_transcript	transcript	gpt2	"re lucky I only threw out your luggage."" """	Next	time	8.447021484375	3.4396326541900635	1.3046080766798696e-06	0.46630725264549255	10
+86	himym_transcript	transcript	gpt2	" lucky I only threw out your luggage."" ""Next"	 time	,	0.7787265777587891	3.222989797592163	0.00016374577535316348	0.22017379105091095	10
+87	himym_transcript	transcript	gpt2	" I only threw out your luggage."" ""Next time"	 you	're	1.8659394979476929	4.470076560974121	4.2468276660656556e-05	0.1653747409582138	10
+88	himym_transcript	transcript	gpt2	" only threw out your luggage."" ""Next time you"	 storm	the	11.216543197631836	3.7829394340515137	8.515676745446399e-05	0.272938996553421	10
+89	himym_transcript	transcript	gpt2	" threw out your luggage."" ""Next time you storm"	 off	,	3.111937999725342	3.4638254642486572	0.0004695725510828197	0.3214462399482727	10
+90	himym_transcript	transcript	gpt2	" out your luggage."" ""Next time you storm off"	 to	the	2.3352255821228027	5.910249710083008	0.00027365999994799495	0.0877736285328865	10
+91	himym_transcript	transcript	gpt2	" your luggage."" ""Next time you storm off to"	 Atlantic	City	8.784235000610352	0.7508500814437866	4.59192342532333e-05	0.9055898189544678	10
+92	himym_transcript	transcript	gpt2	" luggage."" ""Next time you storm off to Atlantic"	 City	,	0.11028294265270233	2.381471872329712	0.00010432155249873176	0.5793371200561523	10
+93	himym_transcript	transcript	gpt2	"."" ""Next time you storm off to Atlantic City"	 after	a	6.230520248413086	4.804753303527832	4.980565427104011e-05	0.23504327237606049	10
+94	himym_transcript	transcript	gpt2	" ""Next time you storm off to Atlantic City after"	 a	long	1.339673399925232	5.980360507965088	0.00018374944920651615	0.12202467769384384	10
+95	himym_transcript	transcript	gpt2	Next time you storm off to Atlantic City after a	 fight	,	6.311705112457275	2.4441466331481934	0.00014351530990097672	0.4661296308040619	10
+96	himym_transcript	transcript	gpt2	 time you storm off to Atlantic City after a fight	,	you	1.326163649559021	4.8793110847473145	7.938162161735818e-05	0.2440870851278305	10
+97	himym_transcript	transcript	gpt2	 you storm off to Atlantic City after a fight,	 you	'll	2.7866430282592773	4.1151509284973145	2.8311649657553062e-05	0.18747763335704803	10
+98	himym_transcript	transcript	gpt2	 storm off to Atlantic City after a fight, you	�	�	16.855064392089844	2.9147839546203613	2.6138831543676133e-08	0.16576862335205078	10
+99	himym_transcript	transcript	gpt2	 off to Atlantic City after a fight, you�	�	ll	8.921109199523926	5.166817665100098	6.540942649735371e-06	0.11689553409814835	10
+100	himym_transcript	transcript	gpt2	 to Atlantic City after a fight, you’	ll	have	2.7827258110046387	4.0152974128723145	3.649533027783036e-05	0.16365021467208862	10
+101	himym_transcript	transcript	gpt2	 Atlantic City after a fight, you’ll	 be	able	1.8037071228027344	5.7388596534729	0.00031894593848846853	0.08092301338911057	10
+102	himym_transcript	transcript	gpt2	 City after a fight, you’ll be	 wearing	a	7.051984786987305	4.864351749420166	5.0975806516362354e-05	0.18743976950645447	10
+103	himym_transcript	transcript	gpt2	 after a fight, you’ll be wearing	 hot	pants	7.721812725067139	4.66799783706665	0.0016653700731694698	0.22908933460712433	10
+104	himym_transcript	transcript	gpt2	 a fight, you’ll be wearing hot	 pink	panties	2.5000193119049072	5.616940498352051	0.002364350249990821	0.11873302608728409	10
+105	himym_transcript	transcript	gpt2	 fight, you’ll be wearing hot pink	 st	ile	6.909066200256348	1.3620446920394897	4.6589767066507193e-07	0.8104614019393921	10
+106	himym_transcript	transcript	gpt2	, you’ll be wearing hot pink st	ile	tt	0.26087814569473267	0.5830355882644653	7.077379793329897e-10	0.7648917436599731	10
+107	himym_transcript	transcript	gpt2	 you’ll be wearing hot pink stile	tt	os	0.27999699115753174	0.013789431191980839	3.2863683996353643e-10	0.9982537627220154	10
+108	himym_transcript	transcript	gpt2	’ll be wearing hot pink stilett	os	and	0.0023217645939439535	4.839960098266602	0.0001504358951933682	0.08238409459590912	10
+109	himym_transcript	transcript	gpt2	�ll be wearing hot pink stilettos	"."""	"
+"	4.99350643157959	4.156635761260986	8.68997594807297e-05	0.42853817343711853	10
+110	himym_transcript	transcript	gpt2	"ll be wearing hot pink stilettos."""	 Barney	's	12.24578857421875	6.201458930969238	0.0001100061199394986	0.059163786470890045	10
+111	himym_transcript	transcript	gpt2	" be wearing hot pink stilettos."" Barney"	 ho	isted	10.2957763671875	1.746605634689331	3.515264324960299e-05	0.505348265171051	10
+112	himym_transcript	transcript	gpt2	" wearing hot pink stilettos."" Barney ho"	isted	his	0.7084599137306213	2.9943573474884033	1.9036919596260304e-08	0.20479175448417664	10
+113	himym_transcript	transcript	gpt2	" hot pink stilettos."" Barney hoisted"	 the	st	1.6123902797698975	7.039934158325195	0.00028487684903666377	0.08761119842529297	10
+114	himym_transcript	transcript	gpt2	" pink stilettos."" Barney hoisted the"	 bags	of	8.510257720947266	3.3936927318573	2.4928018319769762e-05	0.13904441893100739	10
+115	himym_transcript	transcript	gpt2	" stilettos."" Barney hoisted the bags"	 onto	the	3.4087460041046143	2.301499128341675	5.8886971601168625e-06	0.42927053570747375	10
+116	himym_transcript	transcript	gpt2	"ilettos."" Barney hoisted the bags onto"	 the	ground	0.8111664056777954	6.191756725311279	0.0002925922744907439	0.09651002287864685	10
+117	himym_transcript	transcript	gpt2	"ttos."" Barney hoisted the bags onto the"	 security	fence	8.540492057800293	5.140618324279785	0.0008146407781168818	0.14426811039447784	10
+118	himym_transcript	transcript	gpt2	"os."" Barney hoisted the bags onto the security"	 convey	or	5.725042343139648	0.6935781836509705	1.305164119003166e-07	0.8095665574073792	10
+119	himym_transcript	transcript	gpt2	"."" Barney hoisted the bags onto the security convey"	or	belt	0.24575647711753845	2.4401423931121826	1.1546254427230451e-05	0.5088008642196655	10
+120	himym_transcript	transcript	gpt2	 Barney hoisted the bags onto the security conveyor	 belt	.	0.40907159447669983	2.7841832637786865	0.0005263044149614871	0.31023916602134705	10
+121	himym_transcript	transcript	gpt2	 hoisted the bags onto the security conveyor belt	 and	pulled	1.8365380764007568	6.0914812088012695	0.0010141389211639762	0.03054889664053917	10
+122	himym_transcript	transcript	gpt2	isted the bags onto the security conveyor belt and	 they	were	5.19474983215332	5.397855758666992	7.736201223451644e-05	0.20179279148578644	10
+123	himym_transcript	transcript	gpt2	 the bags onto the security conveyor belt and they	 stepped	out	6.046780586242676	3.0187277793884277	7.198148637144186e-07	0.23054350912570953	10
+124	himym_transcript	transcript	gpt2	 bags onto the security conveyor belt and they stepped	 through	the	3.937018871307373	2.8711085319519043	0.005901087541133165	0.45589327812194824	10
+125	himym_transcript	transcript	gpt2	 onto the security conveyor belt and they stepped through	 the	door	0.8650308847427368	5.821933269500732	0.00039430923061445355	0.11417042464017868	10
+126	himym_transcript	transcript	gpt2	 the security conveyor belt and they stepped through the	 body	of	6.636199474334717	4.060887336730957	0.0003166160895489156	0.35244011878967285	10
+127	himym_transcript	transcript	gpt2	 security conveyor belt and they stepped through the body	 scanner	.	5.77180290222168	3.920727491378784	0.011090616695582867	0.21856243908405304	10
+128	himym_transcript	transcript	gpt2	 conveyor belt and they stepped through the body scanner	.	"
+"	1.582329273223877	4.016632080078125	1.4919342902430799e-05	0.3396499454975128	10
+129	himym_transcript	transcript	gpt2	or belt and they stepped through the body scanner.	 One	of	5.016448020935059	4.08416223526001	3.7343991152738454e-06	0.4545830190181732	10
+130	himym_transcript	transcript	gpt2	 belt and they stepped through the body scanner. One	 of	the	0.7468396425247192	1.4874227046966553	2.9644923415617086e-05	0.5962067246437073	10
+131	himym_transcript	transcript	gpt2	 and they stepped through the body scanner. One of	 the	officers	0.5598868131637573	5.825934886932373	0.00038279424188658595	0.10746066272258759	10
+132	himym_transcript	transcript	gpt2	 they stepped through the body scanner. One of the	 security	guards	5.022106170654297	3.2197134494781494	0.0005392151069827378	0.3234146535396576	10
+133	himym_transcript	transcript	gpt2	 stepped through the body scanner. One of the security	 guards	was	1.3165456056594849	5.481236457824707	9.264703840017319e-05	0.05785362422466278	10
+134	himym_transcript	transcript	gpt2	 through the body scanner. One of the security guards	 waved	at	7.784231185913086	3.4345850944519043	1.0336060768167954e-05	0.2088041454553604	10
+135	himym_transcript	transcript	gpt2	 the body scanner. One of the security guards waved	 them	off	4.424764156341553	2.663249969482422	1.7076628864742815e-05	0.323371559381485	10
+136	himym_transcript	transcript	gpt2	 body scanner. One of the security guards waved them	 over	and	1.816546082496643	2.6298484802246094	0.00027559479349292815	0.20294389128684998	10
+137	himym_transcript	transcript	gpt2	 scanner. One of the security guards waved them over	 and	told	1.5943162441253662	5.34979248046875	0.0007867766544222832	0.0784057006239891	10
+138	himym_transcript	transcript	gpt2	. One of the security guards waved them over and	 held	them	5.479596138000488	2.703641653060913	2.0349387341411784e-05	0.45948851108551025	10
+139	himym_transcript	transcript	gpt2	 One of the security guards waved them over and held	 up	a	3.0154669284820557	2.5151407718658447	8.761997742112726e-05	0.3491303622722626	10
+140	himym_transcript	transcript	gpt2	 of the security guards waved them over and held up	 Barney	's	13.11878776550293	3.6249945163726807	0.0003049220540560782	0.22244450449943542	10
+141	himym_transcript	transcript	gpt2	 the security guards waved them over and held up Barney	�	�	13.428140640258789	1.7636115550994873	2.425206563350102e-11	0.5353680849075317	10
+142	himym_transcript	transcript	gpt2	 security guards waved them over and held up Barney�	�	.	9.544730186462402	5.068861484527588	1.565762886457378e-06	0.17219100892543793	10
+143	himym_transcript	transcript	gpt2	 guards waved them over and held up Barney’	s	hand	4.7827911376953125	6.003795623779297	1.8902530428022146e-05	0.08662351220846176	10
+144	himym_transcript	transcript	gpt2	 waved them over and held up Barney’s	 suitcase	.	10.467636108398438	2.9319331645965576	2.339844968446414e-06	0.43283241987228394	10
+145	himym_transcript	transcript	gpt2	 them over and held up Barney’s suitcase	.	"
+"	1.1725412607192993	4.885798931121826	9.869158384390175e-05	0.21007242798805237	10
+146	himym_transcript	transcript	gpt2	 over and held up Barney’s suitcase.	" """	I	3.482468605041504	4.961500644683838	1.0313891834812239e-05	0.1270550787448883	10
+147	himym_transcript	transcript	gpt2	" and held up Barney’s suitcase. """	Sir	,	7.9185404777526855	2.8558316230773926	1.2735233212879393e-05	0.5583547353744507	10
+148	himym_transcript	transcript	gpt2	" held up Barney’s suitcase. ""Sir"	,	I	0.586769700050354	4.533614635467529	8.864262053975835e-05	0.2142036259174347	10
+149	himym_transcript	transcript	gpt2	" up Barney’s suitcase. ""Sir,"	 is	it	5.01188325881958	3.2014291286468506	0.00016888120444491506	0.22142808139324188	10
+150	himym_transcript	transcript	gpt2	" Barney’s suitcase. ""Sir, is"	 this	the	2.0229010581970215	5.042325019836426	0.002286565490067005	0.11370920389890671	10
+151	himym_transcript	transcript	gpt2	"’s suitcase. ""Sir, is this"	...	"?"""	7.216631889343262	6.69182825088501	0.0007235487573780119	0.09797974675893784	10
+152	himym_transcript	transcript	gpt2	"�s suitcase. ""Sir, is this..."	 is	this	4.010250091552734	2.460313081741333	0.0002917350793723017	0.3937113285064697	10
+153	himym_transcript	transcript	gpt2	"s suitcase. ""Sir, is this... is"	 this	the	0.91624915599823	5.190604209899902	0.004657536745071411	0.10532143712043762	10
+154	himym_transcript	transcript	gpt2	" suitcase. ""Sir, is this... is this"	 yours	"?"""	6.486686706542969	1.4689692258834839	6.386391760315746e-05	0.6917505264282227	10
+155	himym_transcript	transcript	gpt2	". ""Sir, is this... is this yours"	"?"""	"
+"	0.581172525882721	3.1243011951446533	7.303303573280573e-05	0.5292709469795227	10
+156	himym_transcript	transcript	gpt2	" ""Sir, is this... is this yours?"""	 she	asked	4.407199859619141	2.699819803237915	1.3174049854569603e-05	0.5423592329025269	10
+157	himym_transcript	transcript	gpt2	"Sir, is this... is this yours?"" she"	 asked	.	0.5866854190826416	3.511319160461426	0.0001258068368770182	0.34845927357673645	10
+158	himym_transcript	transcript	gpt2	", is this... is this yours?"" she asked"	 incred	ulously	5.580148220062256	0.029992351308465004	4.205301037951692e-12	0.99562668800354	10
+159	himym_transcript	transcript	gpt2	" is this... is this yours?"" she asked incred"	ulously	.	0.004907586146146059	0.8410658240318298	1.9719449684263424e-10	0.820964515209198	10
+160	himym_transcript	transcript	gpt2	" this... is this yours?"" she asked incredulously"	.	"
+"	0.20965665578842163	2.8838553428649902	5.216969293542206e-05	0.43536657094955444	10
+161	himym_transcript	transcript	gpt2	"... is this yours?"" she asked incredulously."	" """	I	1.3032612800598145	4.5051140785217285	1.5160596831265138e-06	0.14150632917881012	10
+162	himym_transcript	transcript	gpt2	" is this yours?"" she asked incredulously. """	Yes	,	3.02313232421875	2.3847944736480713	4.3255736272840295e-06	0.40976470708847046	10
+163	himym_transcript	transcript	gpt2	" this yours?"" she asked incredulously. ""Yes"	,	I	0.7565431594848633	4.2389397621154785	7.719030691077933e-05	0.1907808482646942	10
+164	himym_transcript	transcript	gpt2	" yours?"" she asked incredulously. ""Yes,"	 it	is	3.097702980041504	2.075913667678833	2.4866538296919316e-05	0.37792253494262695	10
+165	himym_transcript	transcript	gpt2	"?"" she asked incredulously. ""Yes, it"	 is	.	0.9612017869949341	3.9223203659057617	0.00012003134906990454	0.2048475444316864	10
+166	himym_transcript	transcript	gpt2	" she asked incredulously. ""Yes, it is"	","""	she	2.102248191833496	4.658258438110352	9.956216672435403e-06	0.23655365407466888	10
+167	himym_transcript	transcript	gpt2	" asked incredulously. ""Yes, it is,"""	 he	said	1.4014027118682861	2.7061667442321777	0.00011632395762717351	0.4736928641796112	10
+168	himym_transcript	transcript	gpt2	" incredulously. ""Yes, it is,"" he"	 said	.	0.8205999135971069	2.3229925632476807	1.854175206972286e-05	0.4911607503890991	10
+169	himym_transcript	transcript	gpt2	"ulously. ""Yes, it is,"" he said"	 with	a	3.8609328269958496	2.320172071456909	1.9174172848579474e-05	0.6952951550483704	10
+170	himym_transcript	transcript	gpt2	". ""Yes, it is,"" he said with"	 a	smile	0.28537148237228394	3.5795626640319824	7.774538244120777e-05	0.2769523561000824	10
+171	himym_transcript	transcript	gpt2	" ""Yes, it is,"" he said with a"	 sigh	.	3.525482654571533	1.0714397430419922	7.705008101765998e-06	0.7490108013153076	10
+172	himym_transcript	transcript	gpt2	"Yes, it is,"" he said with a sigh"	.	""""	0.36858806014060974	1.7307236194610596	7.91797174315434e-06	0.6230998039245605	10
+173	himym_transcript	transcript	gpt2	", it is,"" he said with a sigh."	 The	man	4.460882186889648	8.41236400604248	4.1679486457724124e-05	0.014283852651715279	10
+174	himym_transcript	transcript	gpt2	" it is,"" he said with a sigh. The"	 guard	was	7.6205620765686035	5.823592185974121	0.0003770662297029048	0.06629398465156555	10
+175	himym_transcript	transcript	gpt2	" is,"" he said with a sigh. The guard"	 placed	his	6.134422302246094	2.239851951599121	3.9007613850117195e-06	0.4458203911781311	10
+176	himym_transcript	transcript	gpt2	","" he said with a sigh. The guard placed"	 the	sword	2.018585443496704	7.463611602783203	0.00038501014932990074	0.014285728335380554	10
+177	himym_transcript	transcript	gpt2	 he said with a sigh. The guard placed the	 suitcase	on	7.2215046882629395	3.2091305255889893	5.450589014799334e-05	0.2954883277416229	10
+178	himym_transcript	transcript	gpt2	 said with a sigh. The guard placed the suitcase	 on	the	1.2390031814575195	1.6046607494354248	2.235341162304394e-05	0.6386663317680359	10
+179	himym_transcript	transcript	gpt2	 with a sigh. The guard placed the suitcase on	 a	table	2.4597959518432617	4.158993721008301	0.00011173734674230218	0.21026605367660522	10
+180	himym_transcript	transcript	gpt2	 a sigh. The guard placed the suitcase on a	 table	and	1.5764412879943848	3.204091787338257	8.856936619849876e-05	0.20849525928497314	10
+181	himym_transcript	transcript	gpt2	 sigh. The guard placed the suitcase on a table	 and	sat	1.549755573272705	5.605020523071289	0.0008344382513314486	0.04559320956468582	10
+182	himym_transcript	transcript	gpt2	. The guard placed the suitcase on a table and	 opened	it	4.498144149780273	1.2331660985946655	2.1048479538876563e-05	0.5416505932807922	10
+183	himym_transcript	transcript	gpt2	 The guard placed the suitcase on a table and opened	 it	.	0.6130045056343079	2.6133229732513428	5.780950596090406e-05	0.3143917918205261	10
+184	himym_transcript	transcript	gpt2	 guard placed the suitcase on a table and opened it	 up	.	2.180814266204834	2.3716325759887695	0.0001681599096627906	0.44109195470809937	10
+185	himym_transcript	transcript	gpt2	 placed the suitcase on a table and opened it up	,	and	2.001608371734619	6.084493637084961	3.307745646452531e-05	0.05701975151896477	10
+186	himym_transcript	transcript	gpt2	 the suitcase on a table and opened it up,	 revealing	a	3.2009568214416504	3.4349069595336914	3.988241223851219e-05	0.3771938681602478	10
+187	himym_transcript	transcript	gpt2	 suitcase on a table and opened it up, revealing	 a	large	0.9028330445289612	7.079820156097412	0.0002283742360305041	0.05722005292773247	10
+188	himym_transcript	transcript	gpt2	 on a table and opened it up, revealing a	 silver	-	6.356758117675781	6.473701000213623	0.002314023207873106	0.040207747370004654	10
+189	himym_transcript	transcript	gpt2	 a table and opened it up, revealing a silver	 metal	plate	5.742437839508057	5.866128921508789	0.0011227648938074708	0.08483298122882843	10
+190	himym_transcript	transcript	gpt2	 table and opened it up, revealing a silver metal	 cube	.	5.071773529052734	3.818471908569336	0.00010480699711479247	0.26169511675834656	10
+191	himym_transcript	transcript	gpt2	 and opened it up, revealing a silver metal cube	 about	the	5.524593353271484	4.008366584777832	0.0013068255502730608	0.15863719582557678	10
+192	himym_transcript	transcript	gpt2	 opened it up, revealing a silver metal cube about	 a	foot	2.961942195892334	2.528449535369873	6.261238013394177e-05	0.4824533760547638	10
+193	himym_transcript	transcript	gpt2	 it up, revealing a silver metal cube about a	 foot	in	1.0309277772903442	2.8538708686828613	0.00010154338815482333	0.2472781389951706	10
+194	himym_transcript	transcript	gpt2	 up, revealing a silver metal cube about a foot	 long	.	1.7713357210159302	2.440599203109741	0.0006671644514426589	0.3380243480205536	10
+195	himym_transcript	transcript	gpt2	, revealing a silver metal cube about a foot long	 on	the	5.680793762207031	2.66697096824646	1.4999962331785355e-05	0.4097175598144531	10
+196	himym_transcript	transcript	gpt2	 revealing a silver metal cube about a foot long on	 each	side	4.245309829711914	0.8238013982772827	2.8743816073983908e-06	0.853286623954773	10
+197	himym_transcript	transcript	gpt2	 a silver metal cube about a foot long on each	 side	.	0.16822344064712524	2.196634292602539	9.470515215070918e-05	0.40637436509132385	10
+198	himym_transcript	transcript	gpt2	 silver metal cube about a foot long on each side	.	The	0.9118198156356812	4.509133815765381	1.683976370259188e-05	0.16779009997844696	10
+199	himym_transcript	transcript	gpt2	 metal cube about a foot long on each side.	" """	I	4.660625457763672	5.2826361656188965	7.481956708943471e-05	0.0957750752568245	10
+200	himym_transcript	transcript	gpt2	" cube about a foot long on each side. """	What	's	4.440325736999512	4.163581371307373	1.4623817605752265e-06	0.14406746625900269	10
+201	himym_transcript	transcript	gpt2	" about a foot long on each side. ""What"	 is	it	2.7091803550720215	3.4171340465545654	0.00028104096418246627	0.21722082793712616	10
+202	himym_transcript	transcript	gpt2	" a foot long on each side. ""What is"	 that	"?"""	2.4038503170013428	3.5274295806884766	0.00205058790743351	0.4908837378025055	10
+203	himym_transcript	transcript	gpt2	" foot long on each side. ""What is that"	"?"""	"
+"	0.7399672865867615	4.205336570739746	4.6120196202537045e-05	0.16452601552009583	10
+204	himym_transcript	transcript	gpt2	" long on each side. ""What is that?"""	 Quinn	asked	9.703667640686035	2.408494472503662	1.2020878784824163e-05	0.6060863137245178	10
+205	himym_transcript	transcript	gpt2	" on each side. ""What is that?"" Quinn"	 looked	at	5.324832439422607	3.3602347373962402	1.5858835467952304e-05	0.24316200613975525	10
+206	himym_transcript	transcript	gpt2	" each side. ""What is that?"" Quinn looked"	 equally	confused	10.615851402282715	4.114847660064697	1.7420492440578528e-05	0.1948016881942749	10
+207	himym_transcript	transcript	gpt2	" side. ""What is that?"" Quinn looked equally"	 confused	.	1.5708492994308472	1.575229525566101	2.7034789127355907e-06	0.6027097105979919	10
+208	himym_transcript	transcript	gpt2	". ""What is that?"" Quinn looked equally confused"	.	""""	0.44695255160331726	2.456894636154175	1.4925795767339878e-05	0.5384395122528076	10
+209	himym_transcript	transcript	gpt2	" ""What is that?"" Quinn looked equally confused."	" """	I	0.7796686887741089	4.611016750335693	1.2340013881839695e-06	0.10783357918262482	10
+210	himym_transcript	transcript	gpt2	"What is that?"" Quinn looked equally confused. """	Yeah	,	5.053671836853027	1.996411681175232	1.6182073068193858e-06	0.5391790270805359	10
+211	himym_transcript	transcript	gpt2	" is that?"" Quinn looked equally confused. ""Yeah"	,	I	0.6852511763572693	3.9847044944763184	7.475175516447052e-05	0.23085089027881622	10
+212	himym_transcript	transcript	gpt2	" that?"" Quinn looked equally confused. ""Yeah,"	 what	do	4.704974174499512	3.498497247695923	0.0008515145163983107	0.15533600747585297	10
+213	himym_transcript	transcript	gpt2	"?"" Quinn looked equally confused. ""Yeah, what"	 is	it	3.2196545600891113	2.788360357284546	0.00016716195386834443	0.3827972114086151	10
+214	himym_transcript	transcript	gpt2	" Quinn looked equally confused. ""Yeah, what is"	 that	"?"""	1.9345157146453857	2.8242523670196533	0.001312600215896964	0.5775496959686279	10
+215	himym_transcript	transcript	gpt2	" looked equally confused. ""Yeah, what is that"	"?"""	"
+"	0.6158232092857361	3.4606711864471436	5.218054502620362e-05	0.39228326082229614	10
+216	himym_transcript	transcript	gpt2	" equally confused. ""Yeah, what is that?"""	 Barney	asked	11.097244262695312	3.8546736240386963	3.64375614481105e-06	0.26312723755836487	10
+217	himym_transcript	transcript	gpt2	" confused. ""Yeah, what is that?"" Barney"	 pointed	out	5.7991838455200195	1.8814241886138916	0.00012907445488963276	0.4794406294822693	10
+218	himym_transcript	transcript	gpt2	". ""Yeah, what is that?"" Barney pointed"	 to	the	1.7452384233474731	3.9155237674713135	0.00015678534691687673	0.2838760316371918	10
+219	himym_transcript	transcript	gpt2	" ""Yeah, what is that?"" Barney pointed to"	 it	.	4.760721206665039	2.7001678943634033	7.915162859717384e-05	0.3956146240234375	10
+220	himym_transcript	transcript	gpt2	"Yeah, what is that?"" Barney pointed to it"	 non	chal	10.428765296936035	0.7447274327278137	2.742177912296029e-06	0.8472405076026917	10
+221	himym_transcript	transcript	gpt2	", what is that?"" Barney pointed to it non"	chal	antly	0.21743682026863098	0.003439231077209115	2.302877940424386e-12	0.9996473789215088	10
+222	himym_transcript	transcript	gpt2	" what is that?"" Barney pointed to it nonchal"	antly	.	0.00029595286468975246	1.3539854288101196	2.0822749746685076e-08	0.6793274879455566	10
+223	himym_transcript	transcript	gpt2	" is that?"" Barney pointed to it nonchalantly"	.	""""	0.4183095693588257	2.605447292327881	2.1632988136843778e-05	0.44683024287223816	10
+224	himym_transcript	transcript	gpt2	" that?"" Barney pointed to it nonchalantly."	" """	I	0.8228932023048401	4.702770233154297	9.5448865522485e-07	0.10916733741760254	10
+225	himym_transcript	transcript	gpt2	"?"" Barney pointed to it nonchalantly. """	It	's	3.096799373626709	2.4263880252838135	3.878336585216857e-08	0.5992007255554199	10
+226	himym_transcript	transcript	gpt2	" Barney pointed to it nonchalantly. ""It"	�	�	14.707797050476074	2.058992862701416	3.2501763502779113e-09	0.47602009773254395	10
+227	himym_transcript	transcript	gpt2	" pointed to it nonchalantly. ""It�"	�	s	9.35982608795166	4.862094879150391	1.2125416333219619e-06	0.12801405787467957	10
+228	himym_transcript	transcript	gpt2	" to it nonchalantly. ""It’"	s	not	2.34934139251709	5.357510566711426	1.625485674594529e-05	0.11584186553955078	10
+229	himym_transcript	transcript	gpt2	" it nonchalantly. ""It’s"	 a	good	2.4727821350097656	7.008558750152588	0.0002440127864247188	0.04611022770404816	10
+230	himym_transcript	transcript	gpt2	" nonchalantly. ""It’s a"	 magic	spell	7.738168239593506	6.1134352684021	0.0037861184682697058	0.07149224728345871	10
+231	himym_transcript	transcript	gpt2	"chalantly. ""It’s a magic"	 trick	.	3.0882818698883057	3.4705922603607178	8.026137220440432e-05	0.1651608794927597	10
+232	himym_transcript	transcript	gpt2	"antly. ""It’s a magic trick"	,	but	1.9479260444641113	5.254246234893799	6.867557385703549e-05	0.07513399422168732	10
+233	himym_transcript	transcript	gpt2	". ""It’s a magic trick,"	 you	know	3.2285850048065186	3.0202155113220215	0.00017929852765519172	0.4759982228279114	10
+234	himym_transcript	transcript	gpt2	" ""It’s a magic trick, you"	 see	.	2.4055590629577637	2.5613796710968018	1.1684274795698002e-05	0.36617928743362427	10
+235	himym_transcript	transcript	gpt2	It’s a magic trick, you see	,	but	1.8961668014526367	4.7829999923706055	5.591462831944227e-05	0.11743728071451187	10
+236	himym_transcript	transcript	gpt2	’s a magic trick, you see,	 I	'm	3.814209222793579	4.557958126068115	5.2757288358407095e-05	0.16787312924861908	10
+237	himym_transcript	transcript	gpt2	�s a magic trick, you see, I	�	�	15.281378746032715	2.7988858222961426	2.71808775487159e-09	0.23219086229801178	10
+238	himym_transcript	transcript	gpt2	s a magic trick, you see, I�	�	�	8.572164535522461	6.398672580718994	4.889734191237949e-05	0.06893300265073776	10
+239	himym_transcript	transcript	gpt2	 a magic trick, you see, I’	m	not	3.317162036895752	5.907166957855225	2.0367666365928017e-05	0.14527852833271027	10
+240	himym_transcript	transcript	gpt2	 magic trick, you see, I’m	 something	that	7.80460262298584	4.748504638671875	0.000860382744576782	0.09434481710195541	10
+241	himym_transcript	transcript	gpt2	 trick, you see, I’m something	 of	a	3.5145773887634277	1.6757241487503052	2.9848473786842078e-05	0.71321040391922	10
+242	himym_transcript	transcript	gpt2	, you see, I’m something of	 a	mystery	0.2994808256626129	7.734209060668945	0.0005897398223169148	0.01205134391784668	10
+243	himym_transcript	transcript	gpt2	 you see, I’m something of a	 magician	.	6.8748250007629395	3.310183048248291	6.917506107129157e-05	0.32411375641822815	10
+244	himym_transcript	transcript	gpt2	 see, I’m something of a magician	"."""	"
+"	3.9131388664245605	3.374579668045044	3.890357038471848e-05	0.5332733988761902	10
+245	himym_transcript	transcript	gpt2	", I’m something of a magician."""	 The	man	3.9756886959075928	7.728838920593262	8.805295510683209e-05	0.029760019853711128	10
+246	himym_transcript	transcript	gpt2	" I’m something of a magician."" The"	 guard	said	7.215828895568848	5.837968826293945	8.87907444848679e-05	0.04873456433415413	10
+247	himym_transcript	transcript	gpt2	"’m something of a magician."" The guard"	 motion	ed	8.03950309753418	0.06373711675405502	3.716998207892175e-06	0.9936647415161133	10
+248	himym_transcript	transcript	gpt2	"�m something of a magician."" The guard motion"	ed	to	0.0077259535901248455	3.269961357116699	1.4827735867584124e-05	0.3157195746898651	10
+249	himym_transcript	transcript	gpt2	"m something of a magician."" The guard motioned"	 to	the	1.1061981916427612	5.126716613769531	0.0002069418114842847	0.26991474628448486	10
+250	himym_transcript	transcript	gpt2	" something of a magician."" The guard motioned to"	 several	of	7.3187737464904785	6.076189994812012	0.00012565194629132748	0.17255978286266327	10
+251	himym_transcript	transcript	gpt2	" of a magician."" The guard motioned to several"	 others	,	3.751558542251587	3.184323310852051	2.028121343755629e-05	0.22446732223033905	10
+252	himym_transcript	transcript	gpt2	" a magician."" The guard motioned to several others"	 for	help	5.185946464538574	4.784690856933594	5.3971700253896415e-05	0.1468869149684906	10
+253	himym_transcript	transcript	gpt2	" magician."" The guard motioned to several others for"	 backup	.	5.5560455322265625	2.495544910430908	0.0010865345830097795	0.4193175137042999	10
+254	himym_transcript	transcript	gpt2	"."" The guard motioned to several others for backup"	.	"
+"	1.0591344833374023	4.332335948944092	1.6903242794796824e-05	0.28011828660964966	10
+255	himym_transcript	transcript	gpt2	 The guard motioned to several others for backup.	" """	I	2.349424123764038	5.379611968994141	1.389135491081106e-06	0.08906053006649017	10
+256	himym_transcript	transcript	gpt2	" guard motioned to several others for backup. """	Sir	,	6.543107986450195	2.7040443420410156	4.969511792296544e-05	0.5427638292312622	10
+257	himym_transcript	transcript	gpt2	" motioned to several others for backup. ""Sir"	,	I	0.5645106434822083	4.593891143798828	7.46101068216376e-05	0.1970680207014084	10
+258	himym_transcript	transcript	gpt2	"ed to several others for backup. ""Sir,"	 you	're	2.6083693504333496	4.253933906555176	8.249608072219416e-05	0.1591302752494812	10
+259	himym_transcript	transcript	gpt2	" to several others for backup. ""Sir, you"	 need	to	3.4594743251800537	2.351440668106079	6.354304332489846e-06	0.6403608322143555	10
+260	himym_transcript	transcript	gpt2	" several others for backup. ""Sir, you need"	 to	get	0.44651681184768677	5.036677837371826	0.0001287491322727874	0.10024292767047882	10
+261	himym_transcript	transcript	gpt2	" others for backup. ""Sir, you need to"	 open	up	5.831110000610352	3.2499372959136963	0.00020791876886505634	0.2644707262516022	10
+262	himym_transcript	transcript	gpt2	" for backup. ""Sir, you need to open"	 this	up	2.671553611755371	6.088657855987549	8.56896149343811e-05	0.07704567909240723	10
+263	himym_transcript	transcript	gpt2	" backup. ""Sir, you need to open this"	 box	.	3.734963893890381	3.6835904121398926	6.68312277412042e-05	0.15503756701946259	10
+264	himym_transcript	transcript	gpt2	". ""Sir, you need to open this box"	"."""	"
+"	2.0247840881347656	3.1941652297973633	3.697185456985608e-05	0.5015552639961243	10
+265	himym_transcript	transcript	gpt2	" ""Sir, you need to open this box."""	" """	I	2.4049835205078125	4.779909133911133	4.674564479500987e-06	0.1283072531223297	10
+266	himym_transcript	transcript	gpt2	"Sir, you need to open this box."" """	Oh	,	3.2124674320220947	3.108227252960205	4.2968713387381285e-05	0.44565752148628235	10
+267	himym_transcript	transcript	gpt2	", you need to open this box."" ""Oh"	,	I	0.8706978559494019	5.068308353424072	0.00012024012539768592	0.0935443565249443	10
+268	himym_transcript	transcript	gpt2	" you need to open this box."" ""Oh,"	 I	see	2.282672882080078	3.5563366413116455	3.013210152857937e-05	0.19854244589805603	10
+269	himym_transcript	transcript	gpt2	" need to open this box."" ""Oh, I"	 can	't	3.391901731491089	2.3363707065582275	2.111800313286949e-05	0.6220496892929077	10
+270	himym_transcript	transcript	gpt2	" to open this box."" ""Oh, I can"	�	�	15.437834739685059	2.560245990753174	1.4354098465396703e-10	0.2539680600166321	10
+271	himym_transcript	transcript	gpt2	" open this box."" ""Oh, I can�"	�	�	7.285921096801758	3.494227409362793	1.5189335726972786e-06	0.31844502687454224	10
+272	himym_transcript	transcript	gpt2	" this box."" ""Oh, I can’"	t	believe	2.6572275161743164	4.372228145599365	3.2996308618749026e-06	0.14772161841392517	10
+273	himym_transcript	transcript	gpt2	" box."" ""Oh, I can’t"	 do	that	3.5275001525878906	2.0880298614501953	4.488317063078284e-05	0.49893197417259216	10
+274	himym_transcript	transcript	gpt2	"."" ""Oh, I can’t do"	 that	.	0.8980481624603271	3.320510149002075	0.0005272426060400903	0.2253684103488922	10
+275	himym_transcript	transcript	gpt2	" ""Oh, I can’t do that"	"."""	"
+"	2.272507667541504	3.7118561267852783	0.0001414197904523462	0.4335933029651642	10
+276	himym_transcript	transcript	gpt2	"Oh, I can’t do that."""	" """	I	3.226438045501709	4.718360900878906	1.0569086953182705e-05	0.11743559688329697	10
+277	himym_transcript	transcript	gpt2	", I can’t do that."" """	Mag	ical	11.617484092712402	4.321672439575195	1.8690619981498457e-05	0.1839064210653305	10
+278	himym_transcript	transcript	gpt2	" I can’t do that."" ""Mag"	ician	,	2.7948689460754395	5.55460262298584	7.307975010917289e-06	0.16160504519939423	10
+279	himym_transcript	transcript	gpt2	" can’t do that."" ""Magician"	�	�	2.8624460697174072	0.40018075704574585	1.3226239548025376e-10	0.9405297040939331	10
+280	himym_transcript	transcript	gpt2	"’t do that."" ""Magician�"	�	t	0.6463004350662231	5.452765464782715	3.2312314033333678e-06	0.27827945351600647	10
+281	himym_transcript	transcript	gpt2	"�t do that."" ""Magician’"	s	are	3.573004722595215	7.399394512176514	4.967846689396538e-05	0.04818812757730484	10
+282	himym_transcript	transcript	gpt2	"t do that."" ""Magician’s"	 code	is	8.114553451538086	4.6078338623046875	0.0016085337847471237	0.15055440366268158	10
+283	himym_transcript	transcript	gpt2	" do that."" ""Magician’s code"	:	'	4.594034194946289	7.7408976554870605	0.0003113146813120693	0.02987680584192276	10
+284	himym_transcript	transcript	gpt2	" that."" ""Magician’s code:"	 a	.	6.148852348327637	8.179914474487305	0.0003018399002030492	0.013658772222697735	10
+285	himym_transcript	transcript	gpt2	"."" ""Magician’s code: a"	 magician	's	6.699357986450195	4.684077262878418	4.838830136577599e-05	0.13262203335762024	10
+286	himym_transcript	transcript	gpt2	" ""Magician’s code: a magician"	 never	fails	7.500925540924072	6.128915786743164	0.00011176873522344977	0.02968265488743782	10
+287	himym_transcript	transcript	gpt2	Magician’s code: a magician never	 reveals	his	5.718691349029541	3.319969654083252	1.1007134162355214e-05	0.36285170912742615	10
+288	himym_transcript	transcript	gpt2	ician’s code: a magician never reveals	 his	or	1.0337507724761963	4.5970025062561035	3.762128471862525e-05	0.1368754804134369	10
+289	himym_transcript	transcript	gpt2	’s code: a magician never reveals his	 tricks	to	4.069825172424316	3.7160115242004395	2.307871363882441e-05	0.17091506719589233	10
+290	himym_transcript	transcript	gpt2	�s code: a magician never reveals his tricks	"."""	"
+"	6.639926910400391	4.222145080566406	6.123179628048092e-05	0.42334580421447754	10
+291	himym_transcript	transcript	gpt2	"s code: a magician never reveals his tricks."""	" """	I	4.134632587432861	5.701287269592285	0.0004253743391018361	0.07078125327825546	10
+292	himym_transcript	transcript	gpt2	" code: a magician never reveals his tricks."" """	The	magician	2.6424083709716797	7.999981880187988	3.855442628264427e-06	0.03345024958252907	10
+293	himym_transcript	transcript	gpt2	": a magician never reveals his tricks."" ""The"	 only	way	4.464876651763916	4.958337306976318	0.0003628758422564715	0.17460818588733673	10
+294	himym_transcript	transcript	gpt2	" a magician never reveals his tricks."" ""The only"	 person	who	3.429865837097168	2.410247325897217	1.7033857147907838e-05	0.5951448082923889	10
+295	himym_transcript	transcript	gpt2	" magician never reveals his tricks."" ""The only person"	 I	know	2.7731032371520996	3.6784868240356445	2.794953979901038e-05	0.25636252760887146	10
+296	himym_transcript	transcript	gpt2	" never reveals his tricks."" ""The only person I"	 could	find	3.4337737560272217	4.660585880279541	1.581784090376459e-05	0.08029942214488983	10
+297	himym_transcript	transcript	gpt2	" reveals his tricks."" ""The only person I could"	 possibly	trust	4.039339065551758	4.8144354820251465	0.004285698756575584	0.20275916159152985	10
+298	himym_transcript	transcript	gpt2	" his tricks."" ""The only person I could possibly"	 reveal	to	8.587909698486328	3.706102132797241	1.1394454304536339e-05	0.23351071774959564	10
+299	himym_transcript	transcript	gpt2	" tricks."" ""The only person I could possibly reveal"	 the	truth	3.042445659637451	3.8946242332458496	9.822114952839911e-05	0.3447025716304779	10
+300	himym_transcript	transcript	gpt2	"."" ""The only person I could possibly reveal the"	 trick	was	9.832308769226074	2.9860706329345703	0.0001160049723694101	0.272609144449234	10
+301	himym_transcript	transcript	gpt2	" ""The only person I could possibly reveal the trick"	 to	was	1.807096242904663	3.928429126739502	0.015123571269214153	0.3315652906894684	10
+302	himym_transcript	transcript	gpt2	The only person I could possibly reveal the trick to	 is	the	2.2367348670959473	6.55891752243042	0.0001399835164193064	0.09196866303682327	10
+303	himym_transcript	transcript	gpt2	 only person I could possibly reveal the trick to is	 another	person	6.593756675720215	7.216810703277588	9.313405462307855e-05	0.09689190983772278	10
+304	himym_transcript	transcript	gpt2	 person I could possibly reveal the trick to is another	 magician	.	5.478745460510254	3.469860076904297	0.00022883260680828243	0.2596946954727173	10
+305	himym_transcript	transcript	gpt2	 I could possibly reveal the trick to is another magician	"."""	"
+"	5.6134796142578125	3.106076717376709	4.587256262311712e-05	0.5876520276069641	10
+306	himym_transcript	transcript	gpt2	" could possibly reveal the trick to is another magician."""	 On	the	7.535015106201172	4.999773979187012	4.978423748980276e-05	0.2610074579715729	10
+307	himym_transcript	transcript	gpt2	" possibly reveal the trick to is another magician."" On"	 cue	,	6.9108171463012695	1.8621052503585815	0.00033897627145051956	0.7746516466140747	10
+308	himym_transcript	transcript	gpt2	" reveal the trick to is another magician."" On cue"	,	the	0.24258828163146973	6.018545627593994	0.00016902449715416878	0.1692822128534317	10
+309	himym_transcript	transcript	gpt2	" the trick to is another magician."" On cue,"	 one	of	5.123111248016357	4.245071887969971	0.0002966383472084999	0.5140202641487122	10
+310	himym_transcript	transcript	gpt2	" trick to is another magician."" On cue, one"	 of	the	0.6014564633369446	3.142244338989258	3.3853750210255384e-05	0.5374917387962341	10
+311	himym_transcript	transcript	gpt2	" to is another magician."" On cue, one of"	 the	other	0.623679518699646	7.538265705108643	0.0007127310382202268	0.023846762254834175	10
+312	himym_transcript	transcript	gpt2	" is another magician."" On cue, one of the"	 security	guards	7.781846046447754	3.051398277282715	0.0007618687232024968	0.48872607946395874	10
+313	himym_transcript	transcript	gpt2	" another magician."" On cue, one of the security"	 guards	,	0.6744621396064758	6.3440022468566895	0.0002113839000230655	0.034010011702775955	10
+314	himym_transcript	transcript	gpt2	" magician."" On cue, one of the security guards"	 stepped	forward	4.062934875488281	2.250699758529663	1.045112526298908e-06	0.38280531764030457	10
+315	himym_transcript	transcript	gpt2	"."" On cue, one of the security guards stepped"	 forward	and	1.2311331033706665	1.878819465637207	2.857472463801969e-05	0.4596717059612274	10
+316	himym_transcript	transcript	gpt2	 On cue, one of the security guards stepped forward	.	""""	2.4375829696655273	2.9933252334594727	6.572506208613049e-06	0.32195213437080383	10
+317	himym_transcript	transcript	gpt2	 cue, one of the security guards stepped forward.	" """	You	1.353416919708252	5.238925933837891	1.3261109188533737e-06	0.08493819087743759	10
+318	himym_transcript	transcript	gpt2	", one of the security guards stepped forward. """	I	'm	2.2776360511779785	4.11320161819458	3.069141882861004e-07	0.18124420940876007	10
+319	himym_transcript	transcript	gpt2	" one of the security guards stepped forward. ""I"	�	�	15.541543006896973	1.9360944032669067	1.877057398402826e-09	0.502689003944397	10
+320	himym_transcript	transcript	gpt2	" of the security guards stepped forward. ""I�"	�	m	11.0371675491333	3.6934115886688232	2.5982710667449282e-06	0.3427365720272064	10
+321	himym_transcript	transcript	gpt2	" the security guards stepped forward. ""I’"	m	sorry	1.0050017833709717	4.563064098358154	4.965475909557426e-06	0.2544078826904297	10
+322	himym_transcript	transcript	gpt2	" security guards stepped forward. ""I’m"	 a	member	3.6408495903015137	6.740236282348633	0.00020472629694268107	0.03435960412025452	10
+323	himym_transcript	transcript	gpt2	" guards stepped forward. ""I’m a"	 magician	,	7.221118450164795	3.1317336559295654	4.791336687048897e-05	0.23390385508537292	10
+324	himym_transcript	transcript	gpt2	" stepped forward. ""I’m a magician"	","""	he	3.1217241287231445	3.552716016769409	5.758054612670094e-06	0.34193211793899536	10
+325	himym_transcript	transcript	gpt2	" forward. ""I’m a magician,"""	 he	said	1.095625400543213	3.3403689861297607	0.0002470155886840075	0.34663963317871094	10
+326	himym_transcript	transcript	gpt2	". ""I’m a magician,"" he"	 said	.	1.0336209535598755	2.4148054122924805	3.421127985347994e-05	0.5228102207183838	10
+327	himym_transcript	transcript	gpt2	" ""I’m a magician,"" he said"	,	""""	1.892326831817627	5.1214470863342285	4.1583392885513604e-05	0.18741856515407562	10
+328	himym_transcript	transcript	gpt2	"I’m a magician,"" he said,"	 pulling	out	5.76642370223999	3.034236431121826	1.0359159205108881e-05	0.33964887261390686	10
+329	himym_transcript	transcript	gpt2	"’m a magician,"" he said, pulling"	 out	a	1.0778534412384033	2.2658345699310303	0.0001433314464520663	0.5079959630966187	10
+330	himym_transcript	transcript	gpt2	"�m a magician,"" he said, pulling out"	 a	book	0.6990789175033569	6.676115036010742	0.00022222171537578106	0.03700029104948044	10
+331	himym_transcript	transcript	gpt2	"m a magician,"" he said, pulling out a"	 deck	of	6.531851291656494	1.6043362617492676	0.0008267488447017968	0.7638113498687744	10
+332	himym_transcript	transcript	gpt2	" a magician,"" he said, pulling out a deck"	 of	cards	0.25390511751174927	2.4272756576538086	1.8492570234229788e-05	0.7408769726753235	10
+333	himym_transcript	transcript	gpt2	" magician,"" he said, pulling out a deck of"	 cards	.	0.4059382677078247	2.7451488971710205	1.2642238289117813e-05	0.2687744200229645	10
+334	himym_transcript	transcript	gpt2	","" he said, pulling out a deck of cards"	 from	his	1.8586270809173584	2.039186477661133	0.00014259743329603225	0.5395515561103821	10
+335	himym_transcript	transcript	gpt2	 he said, pulling out a deck of cards from	 his	pocket	0.7418381571769714	4.888718605041504	0.00012311367026995867	0.22215531766414642	10
+336	himym_transcript	transcript	gpt2	 said, pulling out a deck of cards from his	 breast	pocket	7.940382957458496	0.5894917845726013	7.013263530097902e-05	0.9139713048934937	10
+337	himym_transcript	transcript	gpt2	, pulling out a deck of cards from his breast	 pocket	.	0.24128614366054535	2.0972490310668945	0.00010059625492431223	0.3092506229877472	10
+338	himym_transcript	transcript	gpt2	 pulling out a deck of cards from his breast pocket	.	"
+"	1.3378864526748657	3.898540496826172	1.3397278962656856e-05	0.2651212513446808	10
+339	himym_transcript	transcript	gpt2	 out a deck of cards from his breast pocket.	 Barney	's	11.897198677062988	6.247169017791748	0.00016710937779862434	0.0639600157737732	10
+340	himym_transcript	transcript	gpt2	 a deck of cards from his breast pocket. Barney	 shrugged	.	6.9310503005981445	2.6125123500823975	5.111480732011842e-06	0.3188883662223816	10
+341	himym_transcript	transcript	gpt2	 deck of cards from his breast pocket. Barney shrugged	.	""""	1.1659741401672363	2.3433501720428467	6.44642886982183e-06	0.5634348392486572	10
+342	himym_transcript	transcript	gpt2	 of cards from his breast pocket. Barney shrugged.	" """	I	0.5572916269302368	4.408175945281982	3.6624581412070256e-07	0.1999974101781845	10
+343	himym_transcript	transcript	gpt2	" cards from his breast pocket. Barney shrugged. """	Fair	enough	6.996425151824951	1.012137770652771	1.3779770142718917e-06	0.8539841771125793	10
+344	himym_transcript	transcript	gpt2	" from his breast pocket. Barney shrugged. ""Fair"	 enough	.	0.1531011164188385	1.786165475845337	5.2187304390827194e-05	0.39645636081695557	10
+345	himym_transcript	transcript	gpt2	" his breast pocket. Barney shrugged. ""Fair enough"	"."""	"
+"	1.445369005203247	2.2927842140197754	3.1216011393553345e-06	0.5923479795455933	10
+346	himym_transcript	transcript	gpt2	" breast pocket. Barney shrugged. ""Fair enough."""	 He	turned	2.0740528106689453	5.478311061859131	4.873716079600854e-07	0.053751491010189056	10
+347	himym_transcript	transcript	gpt2	" pocket. Barney shrugged. ""Fair enough."" He"	 leaned	back	4.3851423263549805	2.6498756408691406	1.0970478570015985e-06	0.21866698563098907	10
+348	himym_transcript	transcript	gpt2	". Barney shrugged. ""Fair enough."" He leaned"	 over	and	2.179091453552246	2.3300068378448486	0.00032307763467542827	0.35887348651885986	10
+349	himym_transcript	transcript	gpt2	" Barney shrugged. ""Fair enough."" He leaned over"	 and	kissed	0.9697786569595337	5.236135959625244	0.00023111717018764466	0.06103271618485451	10
+350	himym_transcript	transcript	gpt2	" shrugged. ""Fair enough."" He leaned over and"	 whispered	,	3.6859424114227295	3.024916887283325	0.00011607464693952352	0.2431076318025589	10
+351	himym_transcript	transcript	gpt2	". ""Fair enough."" He leaned over and whispered"	 in	my	2.2664036750793457	2.890141248703003	3.547115557012148e-05	0.30918261408805847	10
+352	himym_transcript	transcript	gpt2	" ""Fair enough."" He leaned over and whispered in"	 the	ear	3.0788400173187256	5.818678855895996	0.0004666208988055587	0.19169774651527405	10
+353	himym_transcript	transcript	gpt2	"Fair enough."" He leaned over and whispered in the"	 guard	's	8.115915298461914	1.0797785520553589	0.0003366165910847485	0.8504656553268433	10
+354	himym_transcript	transcript	gpt2	" enough."" He leaned over and whispered in the guard"	�	�	13.86580753326416	2.3383028507232666	1.0364029946752229e-11	0.304234117269516	10
+355	himym_transcript	transcript	gpt2	"."" He leaned over and whispered in the guard�"	�	�	8.635391235351562	4.110661506652832	1.1413879974497831e-06	0.2034834623336792	10
+356	himym_transcript	transcript	gpt2	 He leaned over and whispered in the guard’	s	ear	7.017227649688721	1.5230377912521362	1.1635884220595472e-05	0.8146979212760925	10
+357	himym_transcript	transcript	gpt2	 leaned over and whispered in the guard’s	 ear	�	0.54192715883255	2.4285638332366943	6.405854946933687e-05	0.356639564037323	10
+358	himym_transcript	transcript	gpt2	 over and whispered in the guard’s ear	.	"
+"	1.1945133209228516	4.425682067871094	0.00011008932051481679	0.23214109241962433	10
+359	himym_transcript	transcript	gpt2	 and whispered in the guard’s ear.	 The	guard	3.0218710899353027	7.023539066314697	6.33240124443546e-05	0.11240486800670624	10
+360	himym_transcript	transcript	gpt2	 whispered in the guard’s ear. The	 guard	was	2.176105260848999	5.799016952514648	0.00010149477748200297	0.07977711409330368	10
+361	himym_transcript	transcript	gpt2	 in the guard’s ear. The guard	 raised	his	6.257692337036133	1.6814864873886108	7.423261558869854e-05	0.6331132054328918	10
+362	himym_transcript	transcript	gpt2	 the guard’s ear. The guard raised	 his	head	0.39923709630966187	4.165945053100586	0.00016121352382469922	0.20412084460258484	10
+363	himym_transcript	transcript	gpt2	 guard’s ear. The guard raised his	 eyebrows	and	3.18751859664917	2.9512007236480713	5.1649578381329775e-05	0.23087364435195923	10
+364	himym_transcript	transcript	gpt2	’s ear. The guard raised his eyebrows	 and	said	1.5871672630310059	5.470624923706055	0.000379059900296852	0.1241459921002388	10
+365	himym_transcript	transcript	gpt2	�s ear. The guard raised his eyebrows and	 smiled	.	3.849477767944336	3.356858968734741	2.8829719667555764e-05	0.390405535697937	10
+366	himym_transcript	transcript	gpt2	s ear. The guard raised his eyebrows and smiled	.	""""	0.9170888662338257	2.3913989067077637	1.0203691090282518e-05	0.4613777995109558	10
+367	himym_transcript	transcript	gpt2	 ear. The guard raised his eyebrows and smiled.	" """	I	0.8291411399841309	4.936100959777832	2.848452993475803e-07	0.12643927335739136	10
+368	himym_transcript	transcript	gpt2	". The guard raised his eyebrows and smiled. """	Oh	,	4.577364921569824	2.6423349380493164	1.5194638763205148e-05	0.5464634895324707	10
+369	himym_transcript	transcript	gpt2	" The guard raised his eyebrows and smiled. ""Oh"	,	I	0.6116985082626343	4.9790873527526855	0.00012388514005579054	0.1174924448132515	10
+370	himym_transcript	transcript	gpt2	" guard raised his eyebrows and smiled. ""Oh,"	 I	see	2.1190357208251953	3.8143200874328613	5.725178561988287e-05	0.17737707495689392	10
+371	himym_transcript	transcript	gpt2	" raised his eyebrows and smiled. ""Oh, I"	 see	.	2.1003384590148926	2.299326181411743	6.153669346531387e-06	0.4406825006008148	10
+372	himym_transcript	transcript	gpt2	" his eyebrows and smiled. ""Oh, I see"	"."""	"
+"	1.7380671501159668	2.869995594024658	9.06562854652293e-06	0.5114083290100098	10
+373	himym_transcript	transcript	gpt2	" eyebrows and smiled. ""Oh, I see."""	" """	I	3.4424896240234375	4.6332688331604	9.333036814496154e-07	0.13102762401103973	10
+374	himym_transcript	transcript	gpt2	" and smiled. ""Oh, I see."" """	Alright	,	6.609036445617676	2.1912596225738525	4.249952326063067e-06	0.3745974898338318	10
+375	himym_transcript	transcript	gpt2	" smiled. ""Oh, I see."" ""Alright"	,	I	0.998076856136322	4.779272556304932	4.2601986933732405e-05	0.12073441594839096	10
+376	himym_transcript	transcript	gpt2	". ""Oh, I see."" ""Alright,"	 you	're	3.057882308959961	4.021478652954102	0.00012050106306560338	0.24559147655963898	10
+377	himym_transcript	transcript	gpt2	" ""Oh, I see."" ""Alright, you"	�	�	16.430511474609375	2.257336378097534	8.950389734918573e-11	0.3425963222980499	10
+378	himym_transcript	transcript	gpt2	"Oh, I see."" ""Alright, you�"	�	""""	7.883974075317383	5.399701118469238	2.808648787322454e-06	0.14990416169166565	10
+379	himym_transcript	transcript	gpt2	", I see."" ""Alright, you’"	re	going	7.687036514282227	4.664089679718018	2.008139972531353e-06	0.09026971459388733	10
+380	himym_transcript	transcript	gpt2	" I see."" ""Alright, you’re"	 free	to	3.7482235431671143	2.334679126739502	0.00014849606668576598	0.49177446961402893	10
+381	himym_transcript	transcript	gpt2	" see."" ""Alright, you’re free"	 to	go	0.6402329206466675	4.823225498199463	0.0001053684318321757	0.16788148880004883	10
+382	himym_transcript	transcript	gpt2	"."" ""Alright, you’re free to"	 go	"."""	1.8341351747512817	3.9981110095977783	0.0035715808626264334	0.1771843433380127	10
+383	himym_transcript	transcript	gpt2	" ""Alright, you’re free to go"	"."""	"
+"	2.2751030921936035	3.7743303775787354	0.00019048209651373327	0.468982070684433	10
+384	himym_transcript	transcript	gpt2	"Alright, you’re free to go."""	 He	said	4.256439208984375	5.631679058074951	2.9156806249375222e-06	0.1066473126411438	10
+385	himym_transcript	transcript	gpt2	", you’re free to go."" He"	 z	ipped	9.05821704864502	2.0994644165039062	1.1977151189057622e-05	0.542390763759613	10
+386	himym_transcript	transcript	gpt2	" you’re free to go."" He z"	ipped	his	0.5733985304832458	3.472869873046875	5.449162898685245e-09	0.12178457528352737	10
+387	himym_transcript	transcript	gpt2	"’re free to go."" He zipped"	 up	his	2.1836278438568115	2.827512741088867	0.00020865620172116905	0.29093676805496216	10
+388	himym_transcript	transcript	gpt2	"�re free to go."" He zipped up"	 Barney	's	13.816129684448242	2.287905693054199	8.440999226877466e-05	0.6849839687347412	10
+389	himym_transcript	transcript	gpt2	"re free to go."" He zipped up Barney"	�	�	14.035062789916992	1.7899229526519775	1.9291752917371952e-10	0.524864912033081	10
+390	himym_transcript	transcript	gpt2	" free to go."" He zipped up Barney�"	�	and	8.964123725891113	5.006381988525391	2.356569439143641e-06	0.12013687193393707	10
+391	himym_transcript	transcript	gpt2	" to go."" He zipped up Barney’"	s	shirt	3.7929306030273438	5.800081253051758	7.71415579947643e-06	0.05011977255344391	10
+392	himym_transcript	transcript	gpt2	" go."" He zipped up Barney’s"	 bag	and	6.852019309997559	2.7103846073150635	0.0002102496800944209	0.33682677149772644	10
+393	himym_transcript	transcript	gpt2	"."" He zipped up Barney’s bag"	 and	headed	1.165770411491394	5.772974491119385	0.0007403787458315492	0.03919905051589012	10
+394	himym_transcript	transcript	gpt2	 He zipped up Barney’s bag and	 handed	it	4.388932228088379	1.9864765405654907	8.433990501544031e-07	0.5405879020690918	10
+395	himym_transcript	transcript	gpt2	 zipped up Barney’s bag and handed	 it	to	0.5894317626953125	1.5067921876907349	0.0002898896927945316	0.5415964126586914	10
+396	himym_transcript	transcript	gpt2	ipped up Barney’s bag and handed it	 back	to	2.8412344455718994	1.2020134925842285	0.0005119152483530343	0.7526910901069641	10
+397	himym_transcript	transcript	gpt2	 up Barney’s bag and handed it back	 to	him	0.2937062382698059	4.11297607421875	0.00010870047117350623	0.3319106698036194	10
+398	himym_transcript	transcript	gpt2	 Barney’s bag and handed it back to	 him	.	1.6263984441757202	2.2202000617980957	1.6502406651852652e-05	0.5839920043945312	10
+399	himym_transcript	transcript	gpt2	’s bag and handed it back to him	.	"
+"	0.5693931579589844	4.049550533294678	3.8724283513147384e-05	0.34122544527053833	10
+400	himym_transcript	transcript	gpt2	�s bag and handed it back to him.	 Quinn	was	10.929197311401367	5.763303279876709	0.00040941653423942626	0.050367601215839386	10
+401	himym_transcript	transcript	gpt2	s bag and handed it back to him. Quinn	 followed	him	6.119931221008301	3.742198944091797	9.910606604535133e-05	0.2041073739528656	10
+402	himym_transcript	transcript	gpt2	 bag and handed it back to him. Quinn followed	 Barney	to	10.906819343566895	3.732069969177246	4.0771858039079234e-05	0.182987242937088	10
+403	himym_transcript	transcript	gpt2	 and handed it back to him. Quinn followed Barney	 down	the	3.2240262031555176	1.9389344453811646	0.0002567007904872298	0.5672138929367065	10
+404	himym_transcript	transcript	gpt2	 handed it back to him. Quinn followed Barney down	 the	hallway	0.5970468521118164	3.1109983921051025	0.0001262770383618772	0.23576489090919495	10
+405	himym_transcript	transcript	gpt2	 it back to him. Quinn followed Barney down the	 conc	ourse	8.540501594543457	0.12647397816181183	1.8485479813534766e-07	0.9793099164962769	10
+406	himym_transcript	transcript	gpt2	 back to him. Quinn followed Barney down the conc	ourse	and	0.022470153868198395	2.7788078784942627	1.4832699513078751e-08	0.22080257534980774	10
+407	himym_transcript	transcript	gpt2	 to him. Quinn followed Barney down the concourse	 in	a	4.3079328536987305	3.874591112136841	0.00010602614202070981	0.21529224514961243	10
+408	himym_transcript	transcript	gpt2	 him. Quinn followed Barney down the concourse in	 total	darkness	8.499829292297363	3.9219863414764404	7.169543096097186e-05	0.24709556996822357	10
+409	himym_transcript	transcript	gpt2	. Quinn followed Barney down the concourse in total	 confusion	.	5.254161357879639	2.055084228515625	1.869541250698603e-07	0.4180366098880768	10
+410	himym_transcript	transcript	gpt2	 Quinn followed Barney down the concourse in total confusion	.	"
+"	0.7520135045051575	4.170408725738525	2.27527543756878e-05	0.265198677778244	10
+411	himym_transcript	transcript	gpt2	 followed Barney down the concourse in total confusion.	 Magic	Johnson	10.776122093200684	5.822530746459961	0.0005906257429160178	0.16594377160072327	10
+412	himym_transcript	transcript	gpt2	 Barney down the concourse in total confusion. Magic	 trick	led	8.344863891601562	5.2666497230529785	0.0014292310224846005	0.06830120086669922	10
+413	himym_transcript	transcript	gpt2	 down the concourse in total confusion. Magic trick	?	"
+"	4.28803825378418	5.701265335083008	0.00010475688031874597	0.14297576248645782	10
+414	himym_transcript	transcript	gpt2	 the concourse in total confusion. Magic trick?	 Why	not	5.117254257202148	3.908555746078491	8.859691661200486e-06	0.20696799457073212	10
+415	himym_transcript	transcript	gpt2	 concourse in total confusion. Magic trick? Why	 wouldn	't	4.817821025848389	0.008244735188782215	1.4186604779808931e-08	0.9992688298225403	10
+416	himym_transcript	transcript	gpt2	ourse in total confusion. Magic trick? Why wouldn	�	�	15.841997146606445	3.182316541671753	2.3992801079231185e-09	0.09501288086175919	10
+417	himym_transcript	transcript	gpt2	 in total confusion. Magic trick? Why wouldn�	�	�	8.873421669006348	5.926356315612793	1.2681995258390089e-06	0.12080381065607071	10
+418	himym_transcript	transcript	gpt2	 total confusion. Magic trick? Why wouldn’	t	you	4.047341346740723	3.719311475753784	6.1328014453465585e-06	0.2390485405921936	10
+419	himym_transcript	transcript	gpt2	 confusion. Magic trick? Why wouldn’t	 he	?	2.520451545715332	4.612850189208984	0.00011506472219480202	0.19081242382526398	10
+420	himym_transcript	transcript	gpt2	. Magic trick? Why wouldn’t he	 tell	me	5.393052577972412	4.009458065032959	4.8348061682190746e-05	0.18064458668231964	10
+421	himym_transcript	transcript	gpt2	 Magic trick? Why wouldn’t he tell	 her	?	2.6851186752319336	3.5864367485046387	0.002164737321436405	0.21914434432983398	10
+422	himym_transcript	transcript	gpt2	 trick? Why wouldn’t he tell her	 what	he	2.6602659225463867	3.2162883281707764	0.0004855584993492812	0.2572821378707886	10
+423	himym_transcript	transcript	gpt2	? Why wouldn’t he tell her what	 was	going	3.1940762996673584	3.095752477645874	6.481882883235812e-05	0.30331167578697205	10
+424	himym_transcript	transcript	gpt2	 Why wouldn’t he tell her what was	 in	his	2.4266867637634277	2.8240511417388916	0.00014883739640936255	0.27363941073417664	10
+425	himym_transcript	transcript	gpt2	 wouldn’t he tell her what was in	 the	bag	1.9011503458023071	6.168877601623535	0.0002550039498601109	0.06932315230369568	10
+426	himym_transcript	transcript	gpt2	’t he tell her what was in the	 box	?	3.430619478225708	3.9993979930877686	0.0009304909617640078	0.1757122278213501	10
+427	himym_transcript	transcript	gpt2	�t he tell her what was in the box	?	"
+"	2.4665324687957764	5.244146823883057	0.0003095335850957781	0.23404374718666077	10
+428	himym_transcript	transcript	gpt2	t he tell her what was in the box?	 She	was	3.0726938247680664	5.563858985900879	2.506672842628177e-07	0.06288895010948181	10
+429	himym_transcript	transcript	gpt2	 he tell her what was in the box? She	 tried	to	5.157299995422363	2.0073158740997314	4.012713816337055e-06	0.719546377658844	10
+430	himym_transcript	transcript	gpt2	 tell her what was in the box? She tried	 to	explain	0.34930744767189026	5.586987495422363	6.670527363894507e-05	0.08458670973777771	10
+431	himym_transcript	transcript	gpt2	 her what was in the box? She tried to	 interrog	ate	8.57199764251709	0.008462978526949883	3.506756343640838e-11	0.9991624355316162	10
+432	himym_transcript	transcript	gpt2	 what was in the box? She tried to interrog	ate	him	0.0009297577198594809	3.442349672317505	1.1642542858680827e-06	0.409654438495636	10
+433	himym_transcript	transcript	gpt2	 was in the box? She tried to interrogate	 him	,	0.5468745827674866	3.264863967895508	1.542655809316784e-05	0.27185243368148804	10
+434	himym_transcript	transcript	gpt2	 in the box? She tried to interrogate him	 as	she	4.180427074432373	3.5037169456481934	0.0002636212157085538	0.2025463581085205	10
+435	himym_transcript	transcript	gpt2	 the box? She tried to interrogate him as	 they	were	4.313416004180908	4.952989101409912	4.596298822434619e-05	0.13426527380943298	10
+436	himym_transcript	transcript	gpt2	 box? She tried to interrogate him as they	 sat	in	3.8819973468780518	3.3311376571655273	5.000620149075985e-05	0.18775448203086853	10
+437	himym_transcript	transcript	gpt2	? She tried to interrogate him as they sat	 in	the	1.6121158599853516	2.3931524753570557	0.00011172147787874565	0.4705398380756378	10
+438	himym_transcript	transcript	gpt2	 She tried to interrogate him as they sat in	 front	of	3.588016986846924	0.043617695569992065	1.0002394219554844e-06	0.995712161064148	10
+439	himym_transcript	transcript	gpt2	 tried to interrogate him as they sat in front	 of	him	0.004445195198059082	2.354964256286621	3.8637255784124136e-05	0.3893442749977112	10
+440	himym_transcript	transcript	gpt2	 to interrogate him as they sat in front of	 the	door	1.2481926679611206	6.82383918762207	0.0002923382562585175	0.051281969994306564	10
+441	himym_transcript	transcript	gpt2	 interrogate him as they sat in front of the	 gate	.	5.780279159545898	2.9863345623016357	0.0017889299197122455	0.37112268805503845	10
+442	himym_transcript	transcript	gpt2	ate him as they sat in front of the gate	,	and	1.7457053661346436	5.720034122467041	7.184224523371086e-05	0.18051178753376007	10
+443	himym_transcript	transcript	gpt2	 him as they sat in front of the gate,	 but	the	3.679199695587158	5.532866954803467	0.00016019803297240287	0.09691381454467773	10
+444	himym_transcript	transcript	gpt2	 as they sat in front of the gate, but	 he	was	3.2827963829040527	5.229617595672607	0.00013781007146462798	0.09918418526649475	10
+445	himym_transcript	transcript	gpt2	 they sat in front of the gate, but he	 refused	to	5.026042461395264	1.2733118534088135	2.614990762594971e-06	0.7948265075683594	10
+446	himym_transcript	transcript	gpt2	 sat in front of the gate, but he refused	 to	let	0.18980224430561066	4.491595268249512	0.00011899216042365879	0.15639159083366394	10
+447	himym_transcript	transcript	gpt2	 in front of the gate, but he refused to	 spill	the	8.691947937011719	3.107912302017212	0.000140035233926028	0.22933191061019897	10
+448	himym_transcript	transcript	gpt2	 front of the gate, but he refused to spill	 the	beans	1.4495912790298462	4.360336780548096	0.0001099525106837973	0.24287936091423035	10
+449	himym_transcript	transcript	gpt2	 of the gate, but he refused to spill the	 beans	.	1.4522671699523926	2.764998435974121	4.1826106667031127e-07	0.34504425525665283	10
+450	himym_transcript	transcript	gpt2	 the gate, but he refused to spill the beans	.	"
+"	0.9917253255844116	4.252182960510254	1.7853923054644838e-05	0.2820482552051544	10
+451	himym_transcript	transcript	gpt2	 gate, but he refused to spill the beans.	" """	I	2.628830909729004	4.2567644119262695	5.26171925230301e-06	0.22530768811702728	10
+452	himym_transcript	transcript	gpt2	", but he refused to spill the beans. """	I	'm	1.2705109119415283	3.994852304458618	1.4479024912361638e-07	0.18073877692222595	10
+453	himym_transcript	transcript	gpt2	" but he refused to spill the beans. ""I"	 told	him	3.564054012298584	2.254952907562256	3.2931397981883492e-06	0.5677973031997681	10
+454	himym_transcript	transcript	gpt2	" he refused to spill the beans. ""I told"	 you	I	2.714127540588379	3.7336502075195312	0.007788266520947218	0.16354280710220337	10
+455	himym_transcript	transcript	gpt2	" refused to spill the beans. ""I told you"	,	I	1.9473096132278442	4.896147727966309	3.561665289453231e-05	0.1376240998506546	10
+456	himym_transcript	transcript	gpt2	" to spill the beans. ""I told you,"	 magician	,	14.190452575683594	4.343573570251465	0.0005791346775367856	0.3842819631099701	10
+457	himym_transcript	transcript	gpt2	" spill the beans. ""I told you, magician"	�	�	14.272476196289062	2.7842278480529785	5.494454335952526e-10	0.2669544219970703	10
+458	himym_transcript	transcript	gpt2	" the beans. ""I told you, magician�"	�	""""	7.355185508728027	5.0449090003967285	6.223631771717919e-06	0.18890398740768433	10
+459	himym_transcript	transcript	gpt2	" beans. ""I told you, magician’"	s	,	5.784848213195801	4.550344467163086	2.0201030565658584e-05	0.19397559762001038	10
+460	himym_transcript	transcript	gpt2	". ""I told you, magician’s"	 code	is	10.531641960144043	4.232292175292969	0.000521624053362757	0.1749458611011505	10
+461	himym_transcript	transcript	gpt2	" ""I told you, magician’s code"	"."""	"
+"	3.3123831748962402	3.8012094497680664	6.107729132054374e-05	0.4518778920173645	10
+462	himym_transcript	transcript	gpt2	"I told you, magician’s code."""	 As	I	5.441004276275635	4.632185459136963	0.0002588106144685298	0.1383219212293625	10
+463	himym_transcript	transcript	gpt2	" told you, magician’s code."" As"	 they	were	3.5978384017944336	5.5846686363220215	3.838131306110881e-05	0.07151053100824356	10
+464	himym_transcript	transcript	gpt2	" you, magician’s code."" As they"	 boarded	the	7.937799453735352	1.9413007497787476	2.394553848716896e-05	0.6413649916648865	10
+465	himym_transcript	transcript	gpt2	", magician’s code."" As they boarded"	 the	ship	0.47064009308815	5.204637050628662	0.000278615509159863	0.16159474849700928	10
+466	himym_transcript	transcript	gpt2	" magician’s code."" As they boarded the"	 plane	,	2.8537168502807617	1.4653748273849487	1.2585006516019348e-05	0.7873023152351379	10
+467	himym_transcript	transcript	gpt2	"’s code."" As they boarded the plane"	 and	headed	4.0536112785339355	5.471966743469238	0.00039067832403816283	0.07752817124128342	10
+468	himym_transcript	transcript	gpt2	"�s code."" As they boarded the plane and"	 found	themselves	5.930303573608398	4.034530162811279	1.2306406460993458e-05	0.2494003027677536	10
+469	himym_transcript	transcript	gpt2	"s code."" As they boarded the plane and found"	 their	way	2.4834542274475098	5.112033843994141	7.019758777460083e-05	0.337790310382843	10
+470	himym_transcript	transcript	gpt2	" code."" As they boarded the plane and found their"	 seats	,	4.1670966148376465	3.363342523574829	5.9171321481699124e-05	0.48591843247413635	10
+471	himym_transcript	transcript	gpt2	"."" As they boarded the plane and found their seats"	,	they	0.8955785036087036	5.725298881530762	8.806753612589091e-05	0.2418278008699417	10
+472	himym_transcript	transcript	gpt2	 As they boarded the plane and found their seats,	 Barney	and	9.984691619873047	5.939934253692627	6.25079483143054e-05	0.09438388049602509	10
+473	himym_transcript	transcript	gpt2	 they boarded the plane and found their seats, Barney	 placed	his	8.282330513000488	2.876610279083252	5.2785749176109675e-06	0.25970813632011414	10
+474	himym_transcript	transcript	gpt2	 boarded the plane and found their seats, Barney placed	 the	keys	2.1172215938568115	6.890451431274414	0.0003409853088669479	0.05067973583936691	10
+475	himym_transcript	transcript	gpt2	 the plane and found their seats, Barney placed the	 bag	on	3.580972909927368	3.0050323009490967	0.0005878533702343702	0.24490927159786224	10
+476	himym_transcript	transcript	gpt2	 plane and found their seats, Barney placed the bag	 on	the	1.4320390224456787	1.969815731048584	5.3018200560472906e-05	0.5135006904602051	10
+477	himym_transcript	transcript	gpt2	 and found their seats, Barney placed the bag on	 his	lap	1.7906869649887085	3.6301937103271484	3.619238123064861e-05	0.3325161337852478	10
+478	himym_transcript	transcript	gpt2	 found their seats, Barney placed the bag on his	 seat	and	3.700047731399536	3.069366216659546	0.0039596292190253735	0.24919235706329346	10
+479	himym_transcript	transcript	gpt2	 their seats, Barney placed the bag on his seat	,	and	1.985761046409607	5.235304355621338	6.125018262537196e-05	0.25232958793640137	10
+480	himym_transcript	transcript	gpt2	 seats, Barney placed the bag on his seat,	 pulled	out	4.538950443267822	2.5260965824127197	1.3733080777456053e-05	0.2955561578273773	10
+481	himym_transcript	transcript	gpt2	, Barney placed the bag on his seat, pulled	 out	his	1.2713840007781982	1.9844436645507812	4.6541510528186336e-05	0.32922714948654175	10
+482	himym_transcript	transcript	gpt2	 Barney placed the bag on his seat, pulled out	 the	bag	1.2632739543914795	7.007574081420898	0.0004261554277036339	0.07113610208034515	10
+483	himym_transcript	transcript	gpt2	 placed the bag on his seat, pulled out the	 box	and	5.220126628875732	2.549805164337158	0.0003341444826219231	0.31230565905570984	10
+484	himym_transcript	transcript	gpt2	 the bag on his seat, pulled out the box	,	and	1.8089298009872437	3.825490951538086	4.748352148453705e-05	0.4704800844192505	10
+485	himym_transcript	transcript	gpt2	 bag on his seat, pulled out the box,	 and	started	0.7196227312088013	5.905129432678223	0.0009650379070080817	0.03729366138577461	10
+486	himym_transcript	transcript	gpt2	 on his seat, pulled out the box, and	 handed	it	4.023499965667725	1.9664146900177002	4.323012490203837e-06	0.6308921575546265	10
+487	himym_transcript	transcript	gpt2	 his seat, pulled out the box, and handed	 it	to	0.5558425188064575	1.345046877861023	0.0002351603179704398	0.6269241571426392	10
+488	himym_transcript	transcript	gpt2	 seat, pulled out the box, and handed it	 to	me	0.498399555683136	4.600642681121826	8.163020538631827e-05	0.2942369878292084	10
+489	himym_transcript	transcript	gpt2	, pulled out the box, and handed it to	 Quinn	.	8.841477394104004	2.213560104370117	0.0024913582019507885	0.586722195148468	10
+490	himym_transcript	transcript	gpt2	 pulled out the box, and handed it to Quinn	.	"
+"	0.6824713349342346	2.9434587955474854	1.0952827324217651e-05	0.29943323135375977	10
+491	himym_transcript	transcript	gpt2	 out the box, and handed it to Quinn.	 He	was	2.4773216247558594	5.4871625900268555	4.3789225401269505e-07	0.07032383978366852	10
+492	himym_transcript	transcript	gpt2	 the box, and handed it to Quinn. He	 took	it	3.446577548980713	2.314039468765259	1.939743469847599e-06	0.42539504170417786	10
+493	himym_transcript	transcript	gpt2	 box, and handed it to Quinn. He took	 a	deep	2.03143310546875	4.811665058135986	8.487855666317046e-05	0.12537223100662231	10
+494	himym_transcript	transcript	gpt2	, and handed it to Quinn. He took a	 key	from	7.631728172302246	3.2994165420532227	0.002304964931681752	0.23230277001857758	10
+495	himym_transcript	transcript	gpt2	 and handed it to Quinn. He took a key	 from	the	1.4060823917388916	3.5106959342956543	8.537236135452986e-05	0.2604370713233948	10
+496	himym_transcript	transcript	gpt2	 handed it to Quinn. He took a key from	 his	pocket	1.739821434020996	4.444350242614746	4.4229211198398843e-05	0.31535547971725464	10
+497	himym_transcript	transcript	gpt2	 it to Quinn. He took a key from his	 pocket	and	1.5107860565185547	1.9065912961959839	0.00014801326324231923	0.5240532159805298	10
+498	himym_transcript	transcript	gpt2	 to Quinn. He took a key from his pocket	 and	took	0.706762433052063	5.932602882385254	0.0007453232537955046	0.030664442107081413	10
+499	himym_transcript	transcript	gpt2	 Quinn. He took a key from his pocket and	 handed	it	5.1480302810668945	0.9637723565101624	1.167135678770137e-06	0.8609195351600647	10
+500	himym_transcript	transcript	gpt2	. He took a key from his pocket and handed	 it	to	0.10314173996448517	1.2295591831207275	8.497486123815179e-05	0.6994177103042603	10
+501	himym_transcript	transcript	gpt2	 He took a key from his pocket and handed it	 to	the	0.3984852731227875	5.860151767730713	0.00010160246165469289	0.1104237288236618	10
+502	himym_transcript	transcript	gpt2	 took a key from his pocket and handed it to	 her	.	3.462246894836426	1.9198460578918457	9.54995266511105e-05	0.6528186202049255	10
+503	himym_transcript	transcript	gpt2	 a key from his pocket and handed it to her	,	but	1.9361352920532227	5.623979568481445	4.109284418518655e-05	0.07214203476905823	10
+504	himym_transcript	transcript	gpt2	 key from his pocket and handed it to her,	 pointing	to	6.267727375030518	2.7236409187316895	7.203069981187582e-05	0.2776464521884918	10
+505	himym_transcript	transcript	gpt2	 from his pocket and handed it to her, pointing	 to	the	1.3914995193481445	3.087590456008911	0.00019098763004876673	0.29733291268348694	10
+506	himym_transcript	transcript	gpt2	 his pocket and handed it to her, pointing to	 a	small	2.0341615676879883	6.69810152053833	0.0001628026075195521	0.0715579092502594	10
+507	himym_transcript	transcript	gpt2	 pocket and handed it to her, pointing to a	 small	,	2.724111795425415	6.48838472366333	0.0019589446019381285	0.04266294836997986	10
+508	himym_transcript	transcript	gpt2	 and handed it to her, pointing to a small	 key	.	7.297246932983398	3.982070207595825	0.0009145100484602153	0.13405710458755493	10
+509	himym_transcript	transcript	gpt2	 handed it to her, pointing to a small key	hole	in	2.544870138168335	3.1070590019226074	2.5216639187419787e-05	0.29033756256103516	10
+510	himym_transcript	transcript	gpt2	 it to her, pointing to a small keyhole	 in	the	1.154600739479065	1.428310751914978	5.860923192813061e-05	0.6539368629455566	10
+511	himym_transcript	transcript	gpt2	 to her, pointing to a small keyhole in	 the	wall	0.4825458526611328	4.816707611083984	0.00019300577696412802	0.23406803607940674	10
+512	himym_transcript	transcript	gpt2	 her, pointing to a small keyhole in the	 side	of	3.9551918506622314	0.9189715385437012	4.763484685099684e-05	0.8662868142127991	10
+513	himym_transcript	transcript	gpt2	, pointing to a small keyhole in the side	 of	the	0.26707327365875244	1.436888337135315	2.500375012459699e-05	0.7495287656784058	10
+514	himym_transcript	transcript	gpt2	 pointing to a small keyhole in the side of	 the	car	0.3604026734828949	7.211123466491699	0.0004039103805553168	0.0360005684196949	10
+515	himym_transcript	transcript	gpt2	 to a small keyhole in the side of the	 cube	.	6.355330467224121	3.356579542160034	0.0005011996836401522	0.39848214387893677	10
+516	himym_transcript	transcript	gpt2	 a small keyhole in the side of the cube	.	"
+"	1.1241573095321655	4.691007614135742	2.1883566660108045e-05	0.1962367594242096	10
+517	himym_transcript	transcript	gpt2	 small keyhole in the side of the cube.	 As	you	4.697545051574707	3.710965633392334	3.130928598693572e-05	0.23921792209148407	10
+518	himym_transcript	transcript	gpt2	 keyhole in the side of the cube. As	 she	was	5.128305435180664	6.107710838317871	8.534490916645154e-05	0.03363608941435814	10
+519	himym_transcript	transcript	gpt2	hole in the side of the cube. As she	 turned	around	4.90833854675293	2.796924352645874	6.82253303239122e-05	0.26628753542900085	10
+520	himym_transcript	transcript	gpt2	 in the side of the cube. As she turned	 the	cube	2.7527809143066406	2.930142641067505	9.359874820802361e-05	0.4691608250141144	10
+521	himym_transcript	transcript	gpt2	 the side of the cube. As she turned the	 key	,	6.475264549255371	2.6180410385131836	0.0009713481413200498	0.5403550267219543	10
+522	himym_transcript	transcript	gpt2	 side of the cube. As she turned the key	,	she	0.5778524279594421	3.5835790634155273	7.18379596946761e-05	0.339388370513916	10
+523	himym_transcript	transcript	gpt2	 of the cube. As she turned the key,	 the	cube	1.7415235042572021	7.311580657958984	0.00034309239708818495	0.059407882392406464	10
+524	himym_transcript	transcript	gpt2	 the cube. As she turned the key, the	 lid	opened	6.033450126647949	4.800928115844727	0.00016559356299694628	0.07860714942216873	10
+525	himym_transcript	transcript	gpt2	 cube. As she turned the key, the lid	 of	the	2.946138620376587	1.5766680240631104	2.1571569959633052e-05	0.6846859455108643	10
+526	himym_transcript	transcript	gpt2	. As she turned the key, the lid of	 the	box	0.5852031707763672	6.584367275238037	0.0004269359924364835	0.052476827055215836	10
+527	himym_transcript	transcript	gpt2	 As she turned the key, the lid of the	 cube	was	6.604605197906494	5.014011383056641	4.914504643238615e-06	0.08193674683570862	10
+528	himym_transcript	transcript	gpt2	 she turned the key, the lid of the cube	 opened	and	2.8156867027282715	2.2948806285858154	6.324828427750617e-05	0.34361863136291504	10
+529	himym_transcript	transcript	gpt2	 turned the key, the lid of the cube opened	,	and	1.516485333442688	2.9964680671691895	1.9489743863232434e-05	0.5741185545921326	10
+530	himym_transcript	transcript	gpt2	 the key, the lid of the cube opened,	 revealing	a	2.886845111846924	3.3778274059295654	3.466322232270613e-05	0.35104554891586304	10
+531	himym_transcript	transcript	gpt2	 key, the lid of the cube opened, revealing	 a	large	1.0131430625915527	7.175419330596924	0.00020934174244757742	0.053271278738975525	10
+532	himym_transcript	transcript	gpt2	, the lid of the cube opened, revealing a	 small	,	3.2378838062286377	6.719489574432373	0.0020516698714345694	0.09820999205112457	10
+533	himym_transcript	transcript	gpt2	 the lid of the cube opened, revealing a small	 flower	.	7.105349540710449	4.60443639755249	0.003906983882188797	0.21150073409080505	10
+534	himym_transcript	transcript	gpt2	 lid of the cube opened, revealing a small flower	 pot	.	4.198853969573975	3.590289831161499	0.00015969463856890798	0.33250147104263306	10
+535	himym_transcript	transcript	gpt2	 of the cube opened, revealing a small flower pot	 filled	with	3.6412243843078613	0.13768184185028076	6.77620992064476e-05	0.984150767326355	10
+536	himym_transcript	transcript	gpt2	 the cube opened, revealing a small flower pot filled	 with	a	0.016048425808548927	6.530542373657227	4.528017598204315e-05	0.05931372940540314	10
+537	himym_transcript	transcript	gpt2	 cube opened, revealing a small flower pot filled with	 dirt	.	7.150366306304932	2.103174924850464	3.956305590691045e-05	0.4318852424621582	10
+538	himym_transcript	transcript	gpt2	 opened, revealing a small flower pot filled with dirt	.	"
+"	1.1361526250839233	4.280100345611572	1.087988948711427e-05	0.2561075687408447	10
+539	himym_transcript	transcript	gpt2	, revealing a small flower pot filled with dirt.	 As	the	4.422659397125244	3.911975145339966	0.00013243043213151395	0.17841236293315887	10
+540	himym_transcript	transcript	gpt2	 revealing a small flower pot filled with dirt. As	 she	was	1.9443347454071045	6.088582992553711	0.00017663433391135186	0.042121969163417816	10
+541	himym_transcript	transcript	gpt2	 a small flower pot filled with dirt. As she	 looked	at	3.5893173217773438	2.482971668243408	4.708632786787348e-06	0.3818489909172058	10
+542	himym_transcript	transcript	gpt2	 small flower pot filled with dirt. As she looked	 to	the	4.337568759918213	3.0662219524383545	0.00013270899944473058	0.49547478556632996	10
+543	himym_transcript	transcript	gpt2	 flower pot filled with dirt. As she looked to	 Barney	,	11.064657211303711	2.277663230895996	8.735402661841363e-05	0.5880814790725708	10
+544	himym_transcript	transcript	gpt2	 pot filled with dirt. As she looked to Barney	 in	the	4.5982747077941895	2.3330276012420654	2.418238000245765e-05	0.6493859887123108	10
+545	himym_transcript	transcript	gpt2	 filled with dirt. As she looked to Barney in	 confusion	,	5.13890266418457	1.0472235679626465	2.0971515368728433e-06	0.8292961120605469	10
+546	himym_transcript	transcript	gpt2	 with dirt. As she looked to Barney in confusion	,	she	0.19413051009178162	4.397627353668213	4.8666341172065586e-05	0.29245778918266296	10
+547	himym_transcript	transcript	gpt2	 dirt. As she looked to Barney in confusion,	 a	voice	4.36398458480835	6.890766143798828	0.0001382736227242276	0.039576996117830276	10
+548	himym_transcript	transcript	gpt2	. As she looked to Barney in confusion, a	 green	light	6.064165115356445	6.1044087409973145	0.0010027842363342643	0.09426838159561157	10
+549	himym_transcript	transcript	gpt2	 As she looked to Barney in confusion, a green	 stalk	of	10.307476997375488	4.054838180541992	0.0014945492148399353	0.40149423480033875	10
+550	himym_transcript	transcript	gpt2	 she looked to Barney in confusion, a green stalk	 pushed	up	7.544523239135742	3.747217893600464	1.6559750292799436e-05	0.15006129443645477	10
+551	himym_transcript	transcript	gpt2	 looked to Barney in confusion, a green stalk pushed	 its	way	3.885780096054077	1.5929360389709473	1.651815910008736e-05	0.8174139857292175	10
+552	himym_transcript	transcript	gpt2	 to Barney in confusion, a green stalk pushed its	 way	into	0.22042378783226013	3.0939197540283203	0.00016156570927705616	0.2004433274269104	10
+553	himym_transcript	transcript	gpt2	 Barney in confusion, a green stalk pushed its way	 out	of	2.311290740966797	1.8974511623382568	0.0006458729621954262	0.5759771466255188	10
+554	himym_transcript	transcript	gpt2	 in confusion, a green stalk pushed its way out	 of	the	0.7423006296157837	2.4078197479248047	4.054589953739196e-05	0.5884773135185242	10
+555	himym_transcript	transcript	gpt2	 confusion, a green stalk pushed its way out of	 the	way	0.6547582149505615	6.1843461990356445	0.00034491566475480795	0.15398502349853516	10
+556	himym_transcript	transcript	gpt2	, a green stalk pushed its way out of the	 dirt	.	5.487112998962402	2.9648115634918213	0.0001977994543267414	0.26208704710006714	10
+557	himym_transcript	transcript	gpt2	 a green stalk pushed its way out of the dirt	 and	into	1.6197195053100586	4.644760608673096	0.0010418236488476396	0.279413640499115	10
+558	himym_transcript	transcript	gpt2	 green stalk pushed its way out of the dirt and	 climbed	up	6.183562278747559	3.283658742904663	9.617091563995928e-06	0.16827766597270966	10
+559	himym_transcript	transcript	gpt2	 stalk pushed its way out of the dirt and climbed	 several	steps	7.614671230316162	4.285455226898193	0.00029812424327246845	0.2363845854997635	10
+560	himym_transcript	transcript	gpt2	 pushed its way out of the dirt and climbed several	 inches	into	6.533217430114746	3.5634303092956543	1.0203937563346699e-05	0.1449069231748581	10
+561	himym_transcript	transcript	gpt2	 its way out of the dirt and climbed several inches	 out	of	3.4965322017669678	1.3893448114395142	0.0003679338260553777	0.7406355738639832	10
+562	himym_transcript	transcript	gpt2	 way out of the dirt and climbed several inches out	 of	the	0.363247275352478	1.6230891942977905	1.9349799913470633e-05	0.7205756306648254	10
+563	himym_transcript	transcript	gpt2	 out of the dirt and climbed several inches out of	 the	ground	0.29311397671699524	4.957126617431641	0.00021533240214921534	0.2733621597290039	10
+564	himym_transcript	transcript	gpt2	 of the dirt and climbed several inches out of the	 box	.	7.150452136993408	2.798621416091919	0.0006657516933046281	0.48788028955459595	10
+565	himym_transcript	transcript	gpt2	 the dirt and climbed several inches out of the box	.	"
+"	0.7234665155410767	4.217569351196289	1.2595888620126061e-05	0.24903616309165955	10
+566	himym_transcript	transcript	gpt2	 dirt and climbed several inches out of the box.	 On	the	5.487586498260498	3.592769145965576	6.378482339641778e-06	0.3797329068183899	10
+567	himym_transcript	transcript	gpt2	 and climbed several inches out of the box. On	 its	way	3.936108112335205	4.223065376281738	5.210138624534011e-05	0.2382270246744156	10
+568	himym_transcript	transcript	gpt2	 climbed several inches out of the box. On its	 end	,	5.188539505004883	2.4792861938476562	0.00010765669139800593	0.5830802321434021	10
+569	himym_transcript	transcript	gpt2	 several inches out of the box. On its end	 was	a	3.746692180633545	2.4156341552734375	3.464193650870584e-05	0.6245589256286621	10
+570	himym_transcript	transcript	gpt2	 inches out of the box. On its end was	 a	small	0.5413091778755188	7.564849853515625	0.000504151510540396	0.018092080950737	10
+571	himym_transcript	transcript	gpt2	 out of the box. On its end was a	 red	plastic	5.670065879821777	7.070799350738525	0.001281760516576469	0.040956318378448486	10
+572	himym_transcript	transcript	gpt2	 of the box. On its end was a red	 rose	pet	6.447365760803223	4.7989068031311035	0.0014428880531340837	0.1039900854229927	10
+573	himym_transcript	transcript	gpt2	 the box. On its end was a red rose	b	ud	7.726690292358398	0.054005689918994904	4.565109179566207e-09	0.9927585124969482	10
+574	himym_transcript	transcript	gpt2	 box. On its end was a red roseb	ud	.	0.005882451310753822	5.303339004516602	2.1266579608436587e-07	0.1160648837685585	10
+575	himym_transcript	transcript	gpt2	. On its end was a red rosebud	.	"
+"	2.381197929382324	4.654277801513672	1.7220105291926302e-05	0.23020513355731964	10
+576	himym_transcript	transcript	gpt2	 On its end was a red rosebud.	 Pass	engers	10.023579597473145	4.689587593078613	2.0594750822056085e-05	0.09420426934957504	10
+577	himym_transcript	transcript	gpt2	 its end was a red rosebud. Pass	engers	were	2.9516921043395996	5.502955436706543	2.0506400133513125e-08	0.13601447641849518	10
+578	himym_transcript	transcript	gpt2	 end was a red rosebud. Passengers	 and	passengers	3.907238006591797	5.49177885055542	0.0003842543519567698	0.13629667460918427	10
+579	himym_transcript	transcript	gpt2	 was a red rosebud. Passengers and	 flight	attendants	6.176033020019531	0.9516867399215698	1.7724400095175952e-05	0.867985725402832	10
+580	himym_transcript	transcript	gpt2	 a red rosebud. Passengers and flight	 attendants	were	0.12756383419036865	5.752241611480713	2.9332779831747757e-06	0.12037214636802673	10
+581	himym_transcript	transcript	gpt2	 red rosebud. Passengers and flight attendants	 were	told	2.0409324169158936	6.301336765289307	3.567503881640732e-05	0.033414460718631744	10
+582	himym_transcript	transcript	gpt2	 rosebud. Passengers and flight attendants were	 gathered	around	7.233297824859619	3.0625948905944824	0.0002925300505012274	0.2401127815246582	10
+583	himym_transcript	transcript	gpt2	bud. Passengers and flight attendants were gathered	 around	the	1.7336628437042236	3.547473907470703	0.00022392602113541216	0.450994610786438	10
+584	himym_transcript	transcript	gpt2	ud. Passengers and flight attendants were gathered around	 their	seats	4.857126712799072	6.038851261138916	3.4440257877577096e-05	0.1374485343694687	10
+585	himym_transcript	transcript	gpt2	. Passengers and flight attendants were gathered around their	 seats	,	1.8613545894622803	2.7396912574768066	2.6616284230840392e-05	0.21332237124443054	10
+586	himym_transcript	transcript	gpt2	 Passengers and flight attendants were gathered around their seats	,	and	1.6335557699203491	6.192175388336182	6.168586696730927e-05	0.1112799346446991	10
+587	himym_transcript	transcript	gpt2	engers and flight attendants were gathered around their seats,	 staring	at	6.502223014831543	3.0192911624908447	4.68051184725482e-05	0.5122616291046143	10
+588	himym_transcript	transcript	gpt2	 and flight attendants were gathered around their seats, staring	 with	wide	4.696694850921631	6.007040023803711	3.7919813621556386e-05	0.04073845595121384	10
+589	himym_transcript	transcript	gpt2	 flight attendants were gathered around their seats, staring with	 Quinn	's	14.79295539855957	3.926347494125366	0.0003953710838686675	0.31930962204933167	10
+590	himym_transcript	transcript	gpt2	 attendants were gathered around their seats, staring with Quinn	 as	she	2.8229641914367676	2.749537467956543	0.00033021639683283865	0.29631975293159485	10
+591	himym_transcript	transcript	gpt2	 were gathered around their seats, staring with Quinn as	 the	two	2.545259714126587	7.692431926727295	0.0003640398208517581	0.02718164585530758	10
+592	himym_transcript	transcript	gpt2	 gathered around their seats, staring with Quinn as the	 rose	pet	9.91810417175293	5.471165657043457	0.0377456359565258	0.17421077191829681	10
+593	himym_transcript	transcript	gpt2	 around their seats, staring with Quinn as the rose	b	ud	5.158630847930908	0.6341224908828735	1.954029329453988e-07	0.777834415435791	10
+594	himym_transcript	transcript	gpt2	 their seats, staring with Quinn as the roseb	ud	and	0.29309549927711487	7.250972270965576	4.0298900216839684e-07	0.01779811643064022	10
+595	himym_transcript	transcript	gpt2	 seats, staring with Quinn as the rosebud	 began	to	6.0963454246521	2.5704543590545654	3.100927870036685e-06	0.6554346680641174	10
+596	himym_transcript	transcript	gpt2	, staring with Quinn as the rosebud began	 to	fall	0.3770197331905365	6.129367828369141	0.00012573158892337233	0.05064098909497261	10
+597	himym_transcript	transcript	gpt2	 staring with Quinn as the rosebud began to	 open	.	5.8025970458984375	2.799555778503418	0.00035699893487617373	0.2880534827709198	10
+598	himym_transcript	transcript	gpt2	 with Quinn as the rosebud began to open	.	"
+"	1.6286505460739136	4.434747219085693	1.6559384675929323e-05	0.2248893678188324	10
+599	himym_transcript	transcript	gpt2	 Quinn as the rosebud began to open.	 In	the	4.339448928833008	4.527883052825928	3.499381273286417e-05	0.25164031982421875	10
+600	himym_transcript	transcript	gpt2	 as the rosebud began to open. In	 its	place	4.060297012329102	6.45817756652832	4.284393071429804e-05	0.14449827373027802	10
+601	himym_transcript	transcript	gpt2	 the rosebud began to open. In its	 center	was	5.286828517913818	3.0630552768707275	0.000105133221950382	0.31675949692726135	10
+602	himym_transcript	transcript	gpt2	 rosebud began to open. In its center	 was	a	1.112212896347046	2.2678537368774414	3.309703242848627e-05	0.60495924949646	10
+603	himym_transcript	transcript	gpt2	bud began to open. In its center was	 a	large	0.4535400867462158	6.876587867736816	0.0002119975833920762	0.0872161015868187	10
+604	himym_transcript	transcript	gpt2	ud began to open. In its center was a	 diamond	-	7.735544204711914	5.1265034675598145	0.0028847467619925737	0.17237591743469238	10
+605	himym_transcript	transcript	gpt2	 began to open. In its center was a diamond	 ring	,	2.6588025093078613	3.9797487258911133	0.0004925973480567336	0.20217804610729218	10
+606	himym_transcript	transcript	gpt2	 to open. In its center was a diamond ring	,	which	1.6726493835449219	5.127235412597656	7.476181053789333e-05	0.14474260807037354	10
+607	himym_transcript	transcript	gpt2	 open. In its center was a diamond ring,	 which	was	1.9900788068771362	5.434727668762207	0.00014609655772801489	0.14594249427318573	10
+608	himym_transcript	transcript	gpt2	. In its center was a diamond ring, which	 Barney	had	13.087648391723633	6.080378532409668	0.0005492697237059474	0.13166561722755432	10
+609	himym_transcript	transcript	gpt2	 In its center was a diamond ring, which Barney	 pl	ucked	10.180459976196289	1.784982442855835	4.274192999531579e-09	0.5919774174690247	10
+610	himym_transcript	transcript	gpt2	 its center was a diamond ring, which Barney pl	ucked	from	0.6125359535217285	2.131014347076416	1.8740044183118698e-08	0.4035279154777527	10
+611	himym_transcript	transcript	gpt2	 center was a diamond ring, which Barney plucked	 from	the	0.9357637166976929	2.7124733924865723	0.0002495011140126735	0.41408684849739075	10
+612	himym_transcript	transcript	gpt2	 was a diamond ring, which Barney plucked from	 the	ground	1.0217509269714355	6.328276634216309	0.00019970882567577064	0.12999336421489716	10
+613	himym_transcript	transcript	gpt2	 a diamond ring, which Barney plucked from the	 flower	bed	6.870853900909424	4.664524555206299	0.000617701152805239	0.12202359735965729	10
+614	himym_transcript	transcript	gpt2	 diamond ring, which Barney plucked from the flower	 and	placed	3.612239360809326	6.086029052734375	0.0008789760759100318	0.09727457910776138	10
+615	himym_transcript	transcript	gpt2	 ring, which Barney plucked from the flower and	 held	in	3.907878875732422	3.8144187927246094	0.00042669533286243677	0.2199452668428421	10
+616	himym_transcript	transcript	gpt2	, which Barney plucked from the flower and held	 out	to	4.041199684143066	2.9658241271972656	0.0005382041563279927	0.2716224491596222	10
+617	himym_transcript	transcript	gpt2	 which Barney plucked from the flower and held out	 to	the	2.4077441692352295	5.2988176345825195	0.0002673999115359038	0.19055567681789398	10
+618	himym_transcript	transcript	gpt2	 Barney plucked from the flower and held out to	 Quinn	.	10.711827278137207	3.212846279144287	0.00036599027225747705	0.2706100344657898	10
+619	himym_transcript	transcript	gpt2	 plucked from the flower and held out to Quinn	.	"
+"	1.1784486770629883	3.5991263389587402	1.3393975677900016e-05	0.29515478014945984	10
+620	himym_transcript	transcript	gpt2	ucked from the flower and held out to Quinn.	" """	I	1.5507324934005737	4.9858269691467285	1.3753760867984965e-06	0.13881723582744598	10
+621	himym_transcript	transcript	gpt2	" from the flower and held out to Quinn. """	Qu	inn	5.531319618225098	0.14092716574668884	7.402441610793176e-07	0.9811536073684692	10
+622	himym_transcript	transcript	gpt2	" the flower and held out to Quinn. ""Qu"	inn	,	0.013443654403090477	3.153536319732666	7.417890628858004e-06	0.445748895406723	10
+623	himym_transcript	transcript	gpt2	" flower and held out to Quinn. ""Quinn"	,	I	0.8727666139602661	4.641420841217041	0.00010240275150863454	0.12880757451057434	10
+624	himym_transcript	transcript	gpt2	" and held out to Quinn. ""Quinn,"	 will	you	5.713761329650879	1.1874728202819824	4.057922706124373e-05	0.8258512616157532	10
+625	himym_transcript	transcript	gpt2	" held out to Quinn. ""Quinn, will"	 you	be	0.1906985193490982	4.787164211273193	0.0006029231008142233	0.12465079873800278	10
+626	himym_transcript	transcript	gpt2	" out to Quinn. ""Quinn, will you"	 marry	me	4.692944526672363	2.552272081375122	2.4336143269465538e-06	0.5943769812583923	10
+627	himym_transcript	transcript	gpt2	" to Quinn. ""Quinn, will you marry"	 me	"?"""	0.6686763167381287	2.134279489517212	6.725353159708902e-05	0.5767056345939636	10
+628	himym_transcript	transcript	gpt2	" Quinn. ""Quinn, will you marry me"	"?"""	"
+"	0.6016509532928467	2.8504831790924072	3.3813746995292604e-05	0.5589520931243896	10

@@ -1,0 +1,584 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	friends_align	aligned	facebook/blenderbot-400M-distill	 chandler and monica walked into the air	port	where	13.344414710998535	4.5412373542785645	1.6017485222619143e-06	0.18795232474803925	10
+1	friends_align	aligned	facebook/blenderbot-400M-distill	ndler and monica walked into the airport	 hand	ic	8.651632308959961	4.087305068969727	0.00017484118870925158	0.3782537281513214	10
+2	friends_align	aligned	facebook/blenderbot-400M-distill	ler and monica walked into the airport hand	 in	a	7.139482498168945	6.397362232208252	0.0007931622094474733	0.054591331630945206	10
+3	friends_align	aligned	facebook/blenderbot-400M-distill	 and monica walked into the airport hand in	 hand	.	7.972437381744385	3.7898218631744385	0.0003448375209700316	0.3257506787776947	10
+4	friends_align	aligned	facebook/blenderbot-400M-distill	 monica walked into the airport hand in hand	 pulling	.	11.362114906311035	4.711765766143799	1.1627766980382148e-05	0.11183701455593109	10
+5	friends_align	aligned	facebook/blenderbot-400M-distill	ica walked into the airport hand in hand pulling	 their	s	8.325384140014648	3.603039264678955	0.00024228788970503956	0.5471006631851196	10
+6	friends_align	aligned	facebook/blenderbot-400M-distill	 walked into the airport hand in hand pulling their	 suit	.	9.26641845703125	4.536746501922607	9.454648534301668e-05	0.30874162912368774	10
+7	friends_align	aligned	facebook/blenderbot-400M-distill	 into the airport hand in hand pulling their suit	c	ase	5.007019996643066	4.308212757110596	0.0066908118315041065	0.21555764973163605	10
+8	friends_align	aligned	facebook/blenderbot-400M-distill	 the airport hand in hand pulling their suitc	ases	.	13.43423080444336	5.054806232452393	1.4641576626672759e-06	0.15184877812862396	10
+9	friends_align	aligned	facebook/blenderbot-400M-distill	 airport hand in hand pulling their suitcases	 behind	I	6.513007164001465	6.3097124099731445	0.001484010135754943	0.043396834284067154	10
+10	friends_align	aligned	facebook/blenderbot-400M-distill	port hand in hand pulling their suitcases behind	 them	so	7.809946060180664	6.5050458908081055	0.0004056798934470862	0.023236529901623726	10
+11	friends_align	aligned	facebook/blenderbot-400M-distill	 hand in hand pulling their suitcases behind them	 see	how	6.229994773864746	4.918921947479248	0.001969462726265192	0.17763164639472961	10
+12	friends_align	aligned	facebook/blenderbot-400M-distill	 in hand pulling their suitcases behind them see	 h	oo	3.9952008724212646	5.173068046569824	0.01840374991297722	0.10121146589517593	10
+13	friends_align	aligned	facebook/blenderbot-400M-distill	 hand pulling their suitcases behind them see h	oney	do	7.273488998413086	5.8743896484375	0.0006936875870451331	0.04834612086415291	10
+14	friends_align	aligned	facebook/blenderbot-400M-distill	 pulling their suitcases behind them see honey	 no	.	5.371829986572266	4.774268627166748	0.004645622335374355	0.16708242893218994	10
+15	friends_align	aligned	facebook/blenderbot-400M-distill	 their suitcases behind them see honey no	 problem	</s>	9.771937370300293	4.949451923370361	5.702973794541322e-05	0.17391033470630646	10
+16	friends_align	aligned	facebook/blenderbot-400M-distill	 suitcases behind them see honey no problem	 getting	a	10.064682960510254	5.1215949058532715	4.255630119587295e-05	0.12332920730113983	10
+17	friends_align	aligned	facebook/blenderbot-400M-distill	cases behind them see honey no problem getting	 a	to	4.654371738433838	5.967881679534912	0.009519892744719982	0.10092867910861969	10
+18	friends_align	aligned	facebook/blenderbot-400M-distill	ases behind them see honey no problem getting a	 cab	b	12.012428283691406	4.399920463562012	6.068320089980261e-06	0.15772123634815216	10
+19	friends_align	aligned	facebook/blenderbot-400M-distill	 behind them see honey no problem getting a cab	 no	to	5.7502241134643555	5.241164207458496	0.003182066837325692	0.10883954912424088	10
+20	friends_align	aligned	facebook/blenderbot-400M-distill	 them see honey no problem getting a cab no	 traffic	to	7.879136085510254	4.985235691070557	0.00037855992559343576	0.1589965969324112	10
+21	friends_align	aligned	facebook/blenderbot-400M-distill	 see honey no problem getting a cab no traffic	 my	one	6.138871192932129	6.368809700012207	0.002157356822863221	0.04356983304023743	10
+22	friends_align	aligned	facebook/blenderbot-400M-distill	 honey no problem getting a cab no traffic my	 way	so	6.765303611755371	4.498322010040283	0.0011530970223248005	0.13636626303195953	10
+23	friends_align	aligned	facebook/blenderbot-400M-distill	oney no problem getting a cab no traffic my way	 totally	different	7.770255088806152	6.3787946701049805	0.0004221055132802576	0.021773170679807663	10
+24	friends_align	aligned	facebook/blenderbot-400M-distill	 no problem getting a cab no traffic my way totally	 works	so	9.154233932495117	4.812674045562744	0.00010577096691122279	0.09701542556285858	10
+25	friends_align	aligned	facebook/blenderbot-400M-distill	 problem getting a cab no traffic my way totally works	 sm	ack	6.086162567138672	4.068960189819336	0.0022741195280104876	0.21685360372066498	10
+26	friends_align	aligned	facebook/blenderbot-400M-distill	 getting a cab no traffic my way totally works sm	iled	then	13.20373249053955	5.262016296386719	1.8437067410559393e-06	0.11672896146774292	10
+27	friends_align	aligned	facebook/blenderbot-400M-distill	 a cab no traffic my way totally works smiled	 cha	os	3.2791805267333984	4.530570983886719	0.037659112364053726	0.15480750799179077	10
+28	friends_align	aligned	facebook/blenderbot-400M-distill	 cab no traffic my way totally works smiled cha	nd	ry	6.571530342102051	4.848512649536133	0.0013996539637446404	0.177735835313797	10
+29	friends_align	aligned	facebook/blenderbot-400M-distill	 no traffic my way totally works smiled chand	ler	is	14.02863597869873	5.227175712585449	8.080545512711979e-07	0.1327940970659256	10
+30	friends_align	aligned	facebook/blenderbot-400M-distill	 traffic my way totally works smiled chandler	 mon	key	7.494570255279541	3.691014289855957	0.0005560957361012697	0.49999529123306274	10
+31	friends_align	aligned	facebook/blenderbot-400M-distill	 my way totally works smiled chandler mon	ica	</s>	9.566838264465332	5.0392255783081055	7.00124292052351e-05	0.1949748992919922	10
+32	friends_align	aligned	facebook/blenderbot-400M-distill	 way totally works smiled chandler monica	 took	I	10.177045822143555	5.515008926391602	3.8033384043956175e-05	0.06356314569711685	10
+33	friends_align	aligned	facebook/blenderbot-400M-distill	 totally works smiled chandler monica took	 a	bus	5.407777786254883	6.225126266479492	0.004481587093323469	0.06415116041898727	10
+34	friends_align	aligned	facebook/blenderbot-400M-distill	 works smiled chandler monica took a	 deep	to	7.578571796417236	6.205416679382324	0.0005112909129820764	0.06629466265439987	10
+35	friends_align	aligned	facebook/blenderbot-400M-distill	 smiled chandler monica took a deep	 breath	and	8.136650085449219	4.108089447021484	0.00029261576128192246	0.21995675563812256	10
+36	friends_align	aligned	facebook/blenderbot-400M-distill	iled chandler monica took a deep breath	 i	v	4.370102882385254	5.74243688583374	0.012649939395487309	0.08325795829296112	10
+37	friends_align	aligned	facebook/blenderbot-400M-distill	 chandler monica took a deep breath i	 know	but	6.796192169189453	4.713677883148193	0.0011180245783179998	0.11103025078773499	10
+38	friends_align	aligned	facebook/blenderbot-400M-distill	ndler monica took a deep breath i know	 i	want	3.7339258193969727	5.236849784851074	0.023898828774690628	0.06186936795711517	10
+39	friends_align	aligned	facebook/blenderbot-400M-distill	ler monica took a deep breath i know i	 know	more	7.17319393157959	4.968442916870117	0.0007668692851439118	0.08551330119371414	10
+40	friends_align	aligned	facebook/blenderbot-400M-distill	 monica took a deep breath i know i know	 we	have	4.727693557739258	4.899813175201416	0.008846849203109741	0.13231472671031952	10
+41	friends_align	aligned	facebook/blenderbot-400M-distill	ica took a deep breath i know i know we	 have	to	6.604761123657227	4.396606922149658	0.0013539063511416316	0.26430729031562805	10
+42	friends_align	aligned	facebook/blenderbot-400M-distill	 took a deep breath i know i know we have	 plenty	of	9.608719825744629	1.2469950914382935	6.714070332236588e-05	0.8249892592430115	10
+43	friends_align	aligned	facebook/blenderbot-400M-distill	 a deep breath i know i know we have plenty	 of	time	7.060403347015381	4.302279472351074	0.0008584316819906235	0.37624192237854004	10
+44	friends_align	aligned	facebook/blenderbot-400M-distill	 deep breath i know i know we have plenty of	 time	to	6.573958873748779	3.1082100868225098	0.0013962590601295233	0.48975855112075806	10
+45	friends_align	aligned	facebook/blenderbot-400M-distill	 breath i know i know we have plenty of time	 i	was	4.971721649169922	5.337627410888672	0.006931204814463854	0.06920046359300613	10
+46	friends_align	aligned	facebook/blenderbot-400M-distill	 i know i know we have plenty of time i	 am	a	6.618181228637695	4.971796035766602	0.0013358588330447674	0.11455584317445755	10
+47	friends_align	aligned	facebook/blenderbot-400M-distill	 know i know we have plenty of time i am	 totally	sure	9.349865913391113	6.286243915557861	8.697705197846517e-05	0.0350492000579834	10
+48	friends_align	aligned	facebook/blenderbot-400M-distill	 i know we have plenty of time i am totally	 relax	ed	11.090415000915527	0.5684617757797241	1.5257871382345911e-05	0.8786414861679077	10
+49	friends_align	aligned	facebook/blenderbot-400M-distill	 know we have plenty of time i am totally relax	ed	and	8.71550178527832	4.859335899353027	0.00016402323672082275	0.07860519737005234	10
+50	friends_align	aligned	facebook/blenderbot-400M-distill	 we have plenty of time i am totally relaxed	 totally	and	8.436172485351562	5.945273399353027	0.00021687867410946637	0.037546075880527496	10
+51	friends_align	aligned	facebook/blenderbot-400M-distill	 have plenty of time i am totally relaxed totally	 calm	and	10.744403839111328	5.250545024871826	2.156575101253111e-05	0.06806576251983643	10
+52	friends_align	aligned	facebook/blenderbot-400M-distill	 plenty of time i am totally relaxed totally calm	 suddenly	so	9.056943893432617	4.435763835906982	0.00011657877621473745	0.09569688886404037	10
+53	friends_align	aligned	facebook/blenderbot-400M-distill	 of time i am totally relaxed totally calm suddenly	 her	just	5.8696064949035645	5.4466047286987305	0.002823984483256936	0.09966006875038147	10
+54	friends_align	aligned	facebook/blenderbot-400M-distill	 time i am totally relaxed totally calm suddenly her	 eyes	are	7.5180463790893555	4.822965145111084	0.0005431927274912596	0.23511344194412231	10
+55	friends_align	aligned	facebook/blenderbot-400M-distill	 i am totally relaxed totally calm suddenly her eyes	 grew	a	9.915771484375	5.259004592895508	4.938955316902138e-05	0.1386045217514038	10
+56	friends_align	aligned	facebook/blenderbot-400M-distill	 am totally relaxed totally calm suddenly her eyes grew	 wide	and	8.65604305267334	4.680908203125	0.000174071712535806	0.10586673021316528	10
+57	friends_align	aligned	facebook/blenderbot-400M-distill	 totally relaxed totally calm suddenly her eyes grew wide	 as	we	6.324416160583496	5.2574968338012695	0.001792012364603579	0.08360350877046585	10
+58	friends_align	aligned	facebook/blenderbot-400M-distill	 relaxed totally calm suddenly her eyes grew wide as	 she	to	4.065202713012695	5.3947601318359375	0.017159508541226387	0.059885114431381226	10
+59	friends_align	aligned	facebook/blenderbot-400M-distill	ed totally calm suddenly her eyes grew wide as she	 saw	and	10.792440414428711	5.50673770904541	2.0554296497721225e-05	0.0598604716360569	10
+60	friends_align	aligned	facebook/blenderbot-400M-distill	 totally calm suddenly her eyes grew wide as she saw	 the	things	7.477056503295898	6.211116790771484	0.0005659207236021757	0.06049209460616112	10
+61	friends_align	aligned	facebook/blenderbot-400M-distill	 calm suddenly her eyes grew wide as she saw the	 line	of	5.429605007171631	5.1196794509887695	0.004384827334433794	0.17338524758815765	10
+62	friends_align	aligned	facebook/blenderbot-400M-distill	 suddenly her eyes grew wide as she saw the line	 for	instance	5.756147384643555	4.611537933349609	0.0031632750760763884	0.19931502640247345	10
+63	friends_align	aligned	facebook/blenderbot-400M-distill	 her eyes grew wide as she saw the line for	 air	craft	8.133658409118652	5.375058174133301	0.000293492543278262	0.09286992251873016	10
+64	friends_align	aligned	facebook/blenderbot-400M-distill	 eyes grew wide as she saw the line for air	port	life	10.845263481140137	5.869322776794434	1.9496730601531453e-05	0.03726474940776825	10
+65	friends_align	aligned	facebook/blenderbot-400M-distill	 grew wide as she saw the line for airport	 security	and	7.845991134643555	5.18804931640625	0.0003913174441549927	0.06429965794086456	10
+66	friends_align	aligned	facebook/blenderbot-400M-distill	 wide as she saw the line for airport security	 wind	s	7.9519734382629395	1.4639787673950195	0.000351966853486374	0.8335347771644592	10
+67	friends_align	aligned	facebook/blenderbot-400M-distill	 as she saw the line for airport security wind	ing	to	10.785825729370117	6.117460250854492	2.0690704332082532e-05	0.051893748342990875	10
+68	friends_align	aligned	facebook/blenderbot-400M-distill	 she saw the line for airport security winding	 in	I	6.580452919006348	6.493589401245117	0.0013872209237888455	0.04097869247198105	10
+69	friends_align	aligned	facebook/blenderbot-400M-distill	 saw the line for airport security winding in	 a	special	4.924347877502441	6.109903335571289	0.007267464883625507	0.12659932672977448	10
+70	friends_align	aligned	facebook/blenderbot-400M-distill	 the line for airport security winding in a	 length	that	9.997856140136719	5.202174186706543	4.5497359678847715e-05	0.09262462705373764	10
+71	friends_align	aligned	facebook/blenderbot-400M-distill	 line for airport security winding in a length	y	time	9.328906059265137	5.977383136749268	8.881937537807971e-05	0.04469244182109833	10
+72	friends_align	aligned	facebook/blenderbot-400M-distill	 for airport security winding in a lengthy	 t	ha	4.73325777053833	5.17199182510376	0.008797762915492058	0.13830485939979553	10
+73	friends_align	aligned	facebook/blenderbot-400M-distill	 airport security winding in a lengthy t	ang	y	6.6214399337768555	4.221804141998291	0.0013315122341737151	0.28274431824684143	10
+74	friends_align	aligned	facebook/blenderbot-400M-distill	port security winding in a lengthy tang	le	</s>	11.964256286621094	4.1579132080078125	6.36780305285356e-06	0.20391805469989777	10
+75	friends_align	aligned	facebook/blenderbot-400M-distill	 security winding in a lengthy tangle	 that	's	6.089523792266846	4.80546760559082	0.002266487805172801	0.17240558564662933	10
+76	friends_align	aligned	facebook/blenderbot-400M-distill	 winding in a lengthy tangle that	 stre	tc	5.806211948394775	1.8840091228485107	0.0030088056810200214	0.7563534379005432	10
+77	friends_align	aligned	facebook/blenderbot-400M-distill	ing in a lengthy tangle that stre	tc	hes	9.89655876159668	1.27475905418396	5.0347651267657056e-05	0.4346299171447754	10
+78	friends_align	aligned	facebook/blenderbot-400M-distill	 in a lengthy tangle that stretc	hed	out	12.00857162475586	4.591979026794434	6.091771410865476e-06	0.19591590762138367	10
+79	friends_align	aligned	facebook/blenderbot-400M-distill	 a lengthy tangle that stretched	 all	of	10.660303115844727	3.9305598735809326	2.3457911083824e-05	0.4205128848552704	10
+80	friends_align	aligned	facebook/blenderbot-400M-distill	 lengthy tangle that stretched all	 the	time	7.879648208618164	4.350496292114258	0.0003783660940825939	0.3920726776123047	10
+81	friends_align	aligned	facebook/blenderbot-400M-distill	y tangle that stretched all the	 way	to	6.298434734344482	4.3132643699646	0.0018391815247014165	0.16651789844036102	10
+82	friends_align	aligned	facebook/blenderbot-400M-distill	 tangle that stretched all the way	 around	.	8.50898265838623	5.419314861297607	0.00020164885791018605	0.08961880952119827	10
+83	friends_align	aligned	facebook/blenderbot-400M-distill	angle that stretched all the way around	 the	last	8.276334762573242	6.370604515075684	0.00025446832296438515	0.06236059218645096	10
+84	friends_align	aligned	facebook/blenderbot-400M-distill	le that stretched all the way around the	 corner	of	8.835161209106445	3.9139678478240967	0.00014552516222465783	0.2921490967273712	10
+85	friends_align	aligned	facebook/blenderbot-400M-distill	 that stretched all the way around the corner	 mon	ument	6.350977897644043	5.14583158493042	0.0017450402956455946	0.09218554943799973	10
+86	friends_align	aligned	facebook/blenderbot-400M-distill	 stretched all the way around the corner mon	ica	</s>	9.926244735717773	5.057342052459717	4.887500836048275e-05	0.20581379532814026	10
+87	friends_align	aligned	facebook/blenderbot-400M-distill	tched all the way around the corner monica	 sc	ott	4.273743629455566	4.767168998718262	0.013929538428783417	0.11604767292737961	10
+88	friends_align	aligned	facebook/blenderbot-400M-distill	hed all the way around the corner monica sc	ur	ry	5.287909030914307	4.773568630218506	0.005052314605563879	0.24742135405540466	10
+89	friends_align	aligned	facebook/blenderbot-400M-distill	 all the way around the corner monica scur	ried	</s>	12.554105758666992	5.162139892578125	3.530376488924958e-06	0.10343849658966064	10
+90	friends_align	aligned	facebook/blenderbot-400M-distill	 the way around the corner monica scurried	 toward	I	11.692120552062988	5.456932067871094	8.359426828974392e-06	0.1325855702161789	10
+91	friends_align	aligned	facebook/blenderbot-400M-distill	 way around the corner monica scurried toward	 the	cause	7.3364458084106445	6.462228775024414	0.0006513616535812616	0.028315935283899307	10
+92	friends_align	aligned	facebook/blenderbot-400M-distill	 around the corner monica scurried toward the	 end	of	6.327005386352539	1.4363641738891602	0.0017873779870569706	0.8298010230064392	10
+93	friends_align	aligned	facebook/blenderbot-400M-distill	 the corner monica scurried toward the end	 of	I	5.111407279968262	5.92313814163208	0.006027593277394772	0.07766377925872803	10
+94	friends_align	aligned	facebook/blenderbot-400M-distill	 corner monica scurried toward the end of	 the	for	7.4139909744262695	6.33000373840332	0.0006027602939866483	0.03690258041024208	10
+95	friends_align	aligned	facebook/blenderbot-400M-distill	 monica scurried toward the end of the	 line	.	7.316566467285156	5.105626106262207	0.0006644394597969949	0.10151299834251404	10
+96	friends_align	aligned	facebook/blenderbot-400M-distill	ica scurried toward the end of the line	 with	a	6.346113204956055	6.380383491516113	0.0017535501392558217	0.06908494234085083	10
+97	friends_align	aligned	facebook/blenderbot-400M-distill	 scurried toward the end of the line with	 cha	ins	2.1378679275512695	4.399482727050781	0.11790594458580017	0.19458749890327454	10
+98	friends_align	aligned	facebook/blenderbot-400M-distill	urried toward the end of the line with cha	nd	el	5.788961410522461	4.184871673583984	0.0030611599795520306	0.1832333654165268	10
+99	friends_align	aligned	facebook/blenderbot-400M-distill	ried toward the end of the line with chand	ler	's	9.482746124267578	5.268364429473877	7.615449430886656e-05	0.24787750840187073	10
+100	friends_align	aligned	facebook/blenderbot-400M-distill	 toward the end of the line with chandler	 following	</s>	10.991724014282227	5.642593860626221	1.68404912983533e-05	0.1359139233827591	10
+101	friends_align	aligned	facebook/blenderbot-400M-distill	 the end of the line with chandler following	 behind	a	5.495338439941406	5.539051532745361	0.0041058664210140705	0.07169583439826965	10
+102	friends_align	aligned	facebook/blenderbot-400M-distill	 end of the line with chandler following behind	 we	have	6.142723083496094	4.833954811096191	0.0021490640938282013	0.23835454881191254	10
+103	friends_align	aligned	facebook/blenderbot-400M-distill	 of the line with chandler following behind we	'll	be	8.684982299804688	4.391597747802734	0.00016910643898881972	0.22034920752048492	10
+104	friends_align	aligned	facebook/blenderbot-400M-distill	 the line with chandler following behind we'll	 be	so	7.782383441925049	5.059128761291504	0.00041701708687469363	0.1708545982837677	10
+105	friends_align	aligned	facebook/blenderbot-400M-distill	 line with chandler following behind we'll be	 fine	to	7.0904541015625	4.2245097160339355	0.0008330190903507173	0.2180282175540924	10
+106	friends_align	aligned	facebook/blenderbot-400M-distill	 with chandler following behind we'll be fine	 he	's	4.588877201080322	3.7070443630218506	0.010164264589548111	0.3768630027770996	10
+107	friends_align	aligned	facebook/blenderbot-400M-distill	 chandler following behind we'll be fine he	 said	it	9.900651931762695	4.574243545532227	5.01419635838829e-05	0.1466764658689499	10
+108	friends_align	aligned	facebook/blenderbot-400M-distill	ndler following behind we'll be fine he said	 as	long	5.062432289123535	3.978511095046997	0.006330144591629505	0.36518388986587524	10
+109	friends_align	aligned	facebook/blenderbot-400M-distill	ler following behind we'll be fine he said as	 he	's	6.028503894805908	3.704207181930542	0.002409095410257578	0.2689211964607239	10
+110	friends_align	aligned	facebook/blenderbot-400M-distill	 following behind we'll be fine he said as he	 caught	up	5.884505748748779	4.488835334777832	0.002782221185043454	0.127286896109581	10
+111	friends_align	aligned	facebook/blenderbot-400M-distill	 behind we'll be fine he said as he caught	 up	to	9.383477210998535	2.1275670528411865	8.410222653765231e-05	0.4686926603317261	10
+112	friends_align	aligned	facebook/blenderbot-400M-distill	 we'll be fine he said as he caught up	 to	be	4.330191135406494	5.721830368041992	0.013165031559765339	0.057544462382793427	10
+113	friends_align	aligned	facebook/blenderbot-400M-distill	'll be fine he said as he caught up to	 her	.	7.105268478393555	4.62689208984375	0.0008207692881114781	0.14421650767326355	10
+114	friends_align	aligned	facebook/blenderbot-400M-distill	 be fine he said as he caught up to her	 we	all	4.978107929229736	4.923780918121338	0.006887080147862434	0.13622324168682098	10
+115	friends_align	aligned	facebook/blenderbot-400M-distill	 fine he said as he caught up to her we	've	got	8.28722095489502	3.3354053497314453	0.00025171288871206343	0.5022759437561035	10
+116	friends_align	aligned	facebook/blenderbot-400M-distill	 he said as he caught up to her we've	 still	got	9.508923530578613	3.3186111450195312	7.418684253934771e-05	0.5674331188201904	10
+117	friends_align	aligned	facebook/blenderbot-400M-distill	 said as he caught up to her we've still	 got	a	5.85634708404541	4.342731475830078	0.002861677436158061	0.2885522246360779	10
+118	friends_align	aligned	facebook/blenderbot-400M-distill	 as he caught up to her we've still got	 time	to	7.987706184387207	3.4509975910186768	0.00033961227745749056	0.2634917199611664	10
+119	friends_align	aligned	facebook/blenderbot-400M-distill	 he caught up to her we've still got time	 to	our	5.360673904418945	5.267281532287598	0.004697740077972412	0.10553648322820663	10
+120	friends_align	aligned	facebook/blenderbot-400M-distill	 caught up to her we've still got time to	 make	a	6.154287338256836	4.356381416320801	0.0021243547089397907	0.21885235607624054	10
+121	friends_align	aligned	facebook/blenderbot-400M-distill	 up to her we've still got time to make	 our	s	5.799431800842285	6.054766654968262	0.003029275219887495	0.08898434042930603	10
+122	friends_align	aligned	facebook/blenderbot-400M-distill	 to her we've still got time to make our	 flight	's	8.235246658325195	6.087790489196777	0.0002651417162269354	0.05588661506772041	10
+123	friends_align	aligned	facebook/blenderbot-400M-distill	 her we've still got time to make our flight	 just	a	9.36897087097168	5.283000946044922	8.533112850273028e-05	0.09404802322387695	10
+124	friends_align	aligned	facebook/blenderbot-400M-distill	 we've still got time to make our flight just	 think	about	7.757172584533691	2.9170429706573486	0.00042766411206685007	0.3886493444442749	10
+125	friends_align	aligned	facebook/blenderbot-400M-distill	've still got time to make our flight just think	 about	how	7.696662902832031	4.134771347045898	0.00045434091589413583	0.14714086055755615	10
+126	friends_align	aligned	facebook/blenderbot-400M-distill	 still got time to make our flight just think about	 how	we	7.018486499786377	3.8582894802093506	0.000895179167855531	0.37073710560798645	10
+127	friends_align	aligned	facebook/blenderbot-400M-distill	 got time to make our flight just think about how	 relax	ed	9.17697525024414	0.5903645753860474	0.00010339284199289978	0.8350217938423157	10
+128	friends_align	aligned	facebook/blenderbot-400M-distill	 time to make our flight just think about how relax	ing	it	12.850327491760254	1.0060198307037354	2.6252682800986804e-06	0.8390703201293945	10
+129	friends_align	aligned	facebook/blenderbot-400M-distill	 to make our flight just think about how relaxing	 it	is	6.479996681213379	1.601123332977295	0.0015338155208155513	0.6781220436096191	10
+130	friends_align	aligned	facebook/blenderbot-400M-distill	 make our flight just think about how relaxing it	's	going	7.774134159088135	4.840856075286865	0.00042047142051160336	0.1114010438323021	10
+131	friends_align	aligned	facebook/blenderbot-400M-distill	 our flight just think about how relaxing it's	 going	to	8.228421211242676	0.4564927816390991	0.0002669575624167919	0.9479639530181885	10
+132	friends_align	aligned	facebook/blenderbot-400M-distill	 flight just think about how relaxing it's going	 to	go	6.126533031463623	3.077160596847534	0.002184139797464013	0.3597562611103058	10
+133	friends_align	aligned	facebook/blenderbot-400M-distill	 just think about how relaxing it's going to	 be	.	5.5297346115112305	4.104650497436523	0.0039670406840741634	0.1700764000415802	10
+134	friends_align	aligned	facebook/blenderbot-400M-distill	 think about how relaxing it's going to be	 once	again	6.838125228881836	4.41217565536499	0.001072111539542675	0.15009330213069916	10
+135	friends_align	aligned	facebook/blenderbot-400M-distill	 about how relaxing it's going to be once	 we	got	4.342924118041992	5.1503705978393555	0.012998467311263084	0.12560343742370605	10
+136	friends_align	aligned	facebook/blenderbot-400M-distill	 how relaxing it's going to be once we	're	a	6.113396644592285	5.676416873931885	0.0022130219731479883	0.09848427027463913	10
+137	friends_align	aligned	facebook/blenderbot-400M-distill	 relaxing it's going to be once we're	 on	to	7.652853012084961	4.242199897766113	0.0004746877821162343	0.24873143434524536	10
+138	friends_align	aligned	facebook/blenderbot-400M-distill	ing it's going to be once we're on	 the	right	6.2747087478637695	5.791337490081787	0.001883339718915522	0.06095303222537041	10
+139	friends_align	aligned	facebook/blenderbot-400M-distill	 it's going to be once we're on the	 way	to	6.744692325592041	3.3688981533050537	0.0011771108256652951	0.31546473503112793	10
+140	friends_align	aligned	facebook/blenderbot-400M-distill	's going to be once we're on the way	 to	a	5.322904109954834	5.3283891677856445	0.004878564737737179	0.13416041433811188	10
+141	friends_align	aligned	facebook/blenderbot-400M-distill	 going to be once we're on the way to	 our	selves	5.9820733070373535	6.263754367828369	0.0025235891807824373	0.048704374581575394	10
+142	friends_align	aligned	facebook/blenderbot-400M-distill	 to be once we're on the way to our	 h	oney	4.118473052978516	4.083270072937012	0.01626933179795742	0.13279244303703308	10
+143	friends_align	aligned	facebook/blenderbot-400M-distill	 be once we're on the way to our h	oney	s	6.519643306732178	4.384295463562012	0.0014741950435563922	0.3482433259487152	10
+144	friends_align	aligned	facebook/blenderbot-400M-distill	 once we're on the way to our honey	mo	on	7.433424472808838	1.9566518068313599	0.0005911596235819161	0.6907692551612854	10
+145	friends_align	aligned	facebook/blenderbot-400M-distill	 we're on the way to our honeymo	on	to	10.092533111572266	4.2528462409973145	4.138745498494245e-05	0.18455451726913452	10
+146	friends_align	aligned	facebook/blenderbot-400M-distill	're on the way to our honeymoon	 		0.44884371757507324	2.6809628009796143	0.6383658647537231	0.6383658647537231	10
+147	friends_align	aligned	facebook/blenderbot-400M-distill	 on the way to our honeymoon 	<unk>		17.838735580444336	4.542157173156738	1.7895166237735793e-08	0.12882237136363983	10
+148	friends_align	aligned	facebook/blenderbot-400M-distill	 the way to our honeymoon <unk>	 		0.9718255996704102	4.229739189147949	0.3783916234970093	0.3783916234970093	10
+149	friends_align	aligned	facebook/blenderbot-400M-distill	 way to our honeymoon <unk> 	<unk>		17.132770538330078	4.240091323852539	3.625201117074539e-08	0.31233420968055725	10
+150	friends_align	aligned	facebook/blenderbot-400M-distill	 to our honeymoon <unk> <unk>	 he	we	4.487069129943848	5.657859802246094	0.011253581382334232	0.11676790565252304	10
+151	friends_align	aligned	facebook/blenderbot-400M-distill	 our honeymoon <unk> <unk> he	 started	to	10.968363761901855	4.572240829467773	1.7238529835594818e-05	0.25367629528045654	10
+152	friends_align	aligned	facebook/blenderbot-400M-distill	 honeymoon <unk> <unk> he started	 to	a	3.650279998779297	6.444670677185059	0.02598385326564312	0.027712976559996605	10
+153	friends_align	aligned	facebook/blenderbot-400M-distill	oneymoon <unk> <unk> he started to	 s	s	1.89577317237854	5.451898574829102	0.15020215511322021	0.15020215511322021	10
+154	friends_align	aligned	facebook/blenderbot-400M-distill	moon <unk> <unk> he started to s	way	</s>	7.104366302490234	5.101800441741943	0.0008215101552195847	0.1354081630706787	10
+155	friends_align	aligned	facebook/blenderbot-400M-distill	on <unk> <unk> he started to sway	 his		7.651407241821289	5.934121131896973	0.00047537469072267413	0.08008339256048203	10
+156	friends_align	aligned	facebook/blenderbot-400M-distill	 <unk> <unk> he started to sway his	 h	ors	2.3776299953460693	4.835078716278076	0.09277018904685974	0.12763018906116486	10
+157	friends_align	aligned	facebook/blenderbot-400M-distill	<unk> <unk> he started to sway his h	ips		9.827482223510742	6.184375762939453	5.394844993134029e-05	0.04782241955399513	10
+158	friends_align	aligned	facebook/blenderbot-400M-distill	 <unk> he started to sway his hips	 from	to	6.722682476043701	5.22629451751709	0.001203305902890861	0.049902886152267456	10
+159	friends_align	aligned	facebook/blenderbot-400M-distill	<unk> he started to sway his hips from	 side	stud	8.837045669555664	6.281122207641602	0.00014525123697239906	0.07115180790424347	10
+160	friends_align	aligned	facebook/blenderbot-400M-distill	 he started to sway his hips from side	 to	to	3.088306427001953	6.063381195068359	0.04557907581329346	0.04557907581329346	10
+161	friends_align	aligned	facebook/blenderbot-400M-distill	 started to sway his hips from side to	 side	.	9.045476913452148	5.594468593597412	0.00011792324221460149	0.08429945260286331	10
+162	friends_align	aligned	facebook/blenderbot-400M-distill	 to sway his hips from side to side	 b	iz	3.289384603500366	4.991215705871582	0.03727677837014198	0.2170754224061966	10
+163	friends_align	aligned	facebook/blenderbot-400M-distill	 sway his hips from side to side b	erm	acy	8.25731372833252	6.16628885269165	0.0002593548269942403	0.04494746774435043	10
+164	friends_align	aligned	facebook/blenderbot-400M-distill	way his hips from side to side berm	ud	a	9.258506774902344	0.10614176839590073	9.529751696391031e-05	0.9887446165084839	10
+165	friends_align	aligned	facebook/blenderbot-400M-distill	 his hips from side to side bermud	a	is	8.546674728393555	5.446112632751465	0.00019418986630626023	0.08120175451040268	10
+166	friends_align	aligned	facebook/blenderbot-400M-distill	 hips from side to side bermuda	 b	ay	4.810935020446777	5.962066650390625	0.008140245452523232	0.06512358039617538	10
+167	friends_align	aligned	facebook/blenderbot-400M-distill	ips from side to side bermuda b	a	</s>	6.43226432800293	6.09201717376709	0.0016088037518784404	0.05311841145157814	10
+168	friends_align	aligned	facebook/blenderbot-400M-distill	 from side to side bermuda ba	ha	h	4.758841514587402	3.6066672801971436	0.008575539104640484	0.5022634863853455	10
+169	friends_align	aligned	facebook/blenderbot-400M-distill	 side to side bermuda baha	ma	</s>	10.950759887695312	5.120450496673584	1.7544674847158603e-05	0.05121424421668053	10
+170	friends_align	aligned	facebook/blenderbot-400M-distill	 to side bermuda bahama	 come	to	6.845968246459961	5.35547399520874	0.0010637356899678707	0.09343428909778595	10
+171	friends_align	aligned	facebook/blenderbot-400M-distill	 side bermuda bahama come	 on	a	7.696809768676758	5.9680585861206055	0.00045427397708408535	0.06973320990800858	10
+172	friends_align	aligned	facebook/blenderbot-400M-distill	 bermuda bahama come on	 pretty	soon	5.929258346557617	6.2696123123168945	0.002660454250872135	0.04232901707291603	10
+173	friends_align	aligned	facebook/blenderbot-400M-distill	ermuda bahama come on pretty	 mon	st	8.092048645019531	5.020660400390625	0.00030596222495660186	0.08030446618795395	10
+174	friends_align	aligned	facebook/blenderbot-400M-distill	uda bahama come on pretty mon	ica	</s>	8.61169719696045	5.852479934692383	0.00018196484597865492	0.09994400292634964	10
+175	friends_align	aligned	facebook/blenderbot-400M-distill	a bahama come on pretty monica	 		0.5318253040313721	2.535867214202881	0.587531566619873	0.587531566619873	10
+176	friends_align	aligned	facebook/blenderbot-400M-distill	 bahama come on pretty monica 	<unk>		18.07747459411621	5.65707540512085	1.409458327827906e-08	0.045879703015089035	10
+177	friends_align	aligned	facebook/blenderbot-400M-distill	ahama come on pretty monica <unk>	 her	d	6.373887062072754	5.6537933349609375	0.0017055172938853502	0.13538353145122528	10
+178	friends_align	aligned	facebook/blenderbot-400M-distill	hama come on pretty monica <unk> her	 li	z	3.2157375812530518	4.986916542053223	0.04012572765350342	0.08977263420820236	10
+179	friends_align	aligned	facebook/blenderbot-400M-distill	ma come on pretty monica <unk> her li	ps	to	6.5494842529296875	5.86917781829834	0.001430853852070868	0.09064432978630066	10
+180	friends_align	aligned	facebook/blenderbot-400M-distill	 come on pretty monica <unk> her lips	 but	you	4.309432029724121	5.32138204574585	0.013441186398267746	0.06016474589705467	10
+181	friends_align	aligned	facebook/blenderbot-400M-distill	 on pretty monica <unk> her lips but	 the	things	5.913109302520752	5.574772357940674	0.0027037672698497772	0.0770181342959404	10
+182	friends_align	aligned	facebook/blenderbot-400M-distill	 pretty monica <unk> her lips but the	 cor	cor	0.9142597913742065	3.8152146339416504	0.40081319212913513	0.40081319212913513	10
+183	friends_align	aligned	facebook/blenderbot-400M-distill	 monica <unk> her lips but the cor	ners	of	11.45850658416748	1.5764882564544678	1.0559273505350575e-05	0.7953371405601501	10
+184	friends_align	aligned	facebook/blenderbot-400M-distill	ica <unk> her lips but the corners	 of	a	6.835328578948975	6.001984596252441	0.0010751141235232353	0.07850897312164307	10
+185	friends_align	aligned	facebook/blenderbot-400M-distill	 <unk> her lips but the corners of	 her	s	5.921388626098633	5.23058557510376	0.0026814730372279882	0.14220745861530304	10
+186	friends_align	aligned	facebook/blenderbot-400M-distill	<unk> her lips but the corners of her	 mouth	s	10.048978805541992	3.61265230178833	4.322985478211194e-05	0.47478577494621277	10
+187	friends_align	aligned	facebook/blenderbot-400M-distill	 her lips but the corners of her mouth	 turned	out	8.091021537780762	1.7814581394195557	0.0003062767500523478	0.6402781009674072	10
+188	friends_align	aligned	facebook/blenderbot-400M-distill	 lips but the corners of her mouth turned	 up	for	13.43722915649414	4.101200103759766	1.4597737845178926e-06	0.1607327163219452	10
+189	friends_align	aligned	facebook/blenderbot-400M-distill	ps but the corners of her mouth turned up	 in	a	8.267281532287598	5.03189754486084	0.0002567823976278305	0.1912032961845398	10
+190	friends_align	aligned	facebook/blenderbot-400M-distill	 but the corners of her mouth turned up in	 a	certain	5.049619674682617	4.994121551513672	0.0064117698930203915	0.10896989703178406	10
+191	friends_align	aligned	facebook/blenderbot-400M-distill	 the corners of her mouth turned up in a	 smile	y	7.406363487243652	4.6871562004089355	0.0006073756376281381	0.12029094994068146	10
+192	friends_align	aligned	facebook/blenderbot-400M-distill	 corners of her mouth turned up in a smile	 they	have	6.795208930969238	4.3400421142578125	0.0011191241210326552	0.24706372618675232	10
+193	friends_align	aligned	facebook/blenderbot-400M-distill	ners of her mouth turned up in a smile they	 eventually	died	8.210278511047363	5.585514545440674	0.0002718449686653912	0.06164928898215294	10
+194	friends_align	aligned	facebook/blenderbot-400M-distill	 of her mouth turned up in a smile they eventually	 made	a	8.727802276611328	5.250853061676025	0.00016201811376959085	0.11140627413988113	10
+195	friends_align	aligned	facebook/blenderbot-400M-distill	 her mouth turned up in a smile they eventually made	 it	so	5.063770294189453	5.503241539001465	0.006321681197732687	0.051549240946769714	10
+196	friends_align	aligned	facebook/blenderbot-400M-distill	 mouth turned up in a smile they eventually made it	 to	be	4.7719407081604	5.231149673461914	0.008463937789201736	0.14552639424800873	10
+197	friends_align	aligned	facebook/blenderbot-400M-distill	 turned up in a smile they eventually made it to	 the	right	6.693919658660889	5.393172264099121	0.0012384190922603011	0.11522454768419266	10
+198	friends_align	aligned	facebook/blenderbot-400M-distill	 up in a smile they eventually made it to the	 front	of	14.008829116821289	1.1862789392471313	8.242196827268344e-07	0.8559209108352661	10
+199	friends_align	aligned	facebook/blenderbot-400M-distill	 in a smile they eventually made it to the front	 of	a	5.0551934242248535	4.7584452629089355	0.00637613283470273	0.24492046236991882	10
+200	friends_align	aligned	facebook/blenderbot-400M-distill	 a smile they eventually made it to the front of	 the	right	7.679172992706299	6.167539596557617	0.0004623570421244949	0.07817981392145157	10
+201	friends_align	aligned	facebook/blenderbot-400M-distill	 smile they eventually made it to the front of the	 line	of	6.883479595184326	4.113794326782227	0.0010245728772133589	0.18362390995025635	10
+202	friends_align	aligned	facebook/blenderbot-400M-distill	 they eventually made it to the front of the line	 to	I	3.4013478755950928	4.8564772605896	0.03332832083106041	0.141887828707695	10
+203	friends_align	aligned	facebook/blenderbot-400M-distill	 eventually made it to the front of the line to	 go	by	4.883374214172363	4.920777320861816	0.007571422029286623	0.13550418615341187	10
+204	friends_align	aligned	facebook/blenderbot-400M-distill	 made it to the front of the line to go	 through	a	8.965084075927734	4.617295742034912	0.00012779493408743292	0.0749039575457573	10
+205	friends_align	aligned	facebook/blenderbot-400M-distill	 it to the front of the line to go through	 the	to	7.897330284118652	6.129955768585205	0.0003717346990015358	0.08152424544095993	10
+206	friends_align	aligned	facebook/blenderbot-400M-distill	 to the front of the line to go through the	 metal	I	8.408726692199707	5.955689430236816	0.00022291351342573762	0.03684930503368378	10
+207	friends_align	aligned	facebook/blenderbot-400M-distill	 the front of the line to go through the metal	 det	ect	6.848259449005127	0.454598069190979	0.0010613012127578259	0.9515217542648315	10
+208	friends_align	aligned	facebook/blenderbot-400M-distill	 front of the line to go through the metal det	ect	or	7.957338809967041	0.5201715230941772	0.0003500836028251797	0.9031935334205627	10
+209	friends_align	aligned	facebook/blenderbot-400M-distill	 of the line to go through the metal detect	or	.	8.398672103881836	5.6227898597717285	0.00022516612079925835	0.08559323102235794	10
+210	friends_align	aligned	facebook/blenderbot-400M-distill	 the line to go through the metal detector	 mon	ument	7.1230363845825195	5.024835586547852	0.0008063144632615149	0.10550086200237274	10
+211	friends_align	aligned	facebook/blenderbot-400M-distill	 line to go through the metal detector mon	ica	for	11.572502136230469	5.675989627838135	9.421632057637908e-06	0.06761257350444794	10
+212	friends_align	aligned	facebook/blenderbot-400M-distill	 to go through the metal detector monica	 began	to	11.37866497039795	4.3596343994140625	1.1436908607720397e-05	0.24803370237350464	10
+213	friends_align	aligned	facebook/blenderbot-400M-distill	 go through the metal detector monica began	 method	s	11.158098220825195	0.4205663502216339	1.4259336239774711e-05	0.9513050317764282	10
+214	friends_align	aligned	facebook/blenderbot-400M-distill	 through the metal detector monica began method	ically	.	11.417251586914062	5.393856525421143	1.100400277209701e-05	0.11812926828861237	10
+215	friends_align	aligned	facebook/blenderbot-400M-distill	 the metal detector monica began methodically	 removing	I	10.521528244018555	6.412697792053223	2.69499887508573e-05	0.049759991466999054	10
+216	friends_align	aligned	facebook/blenderbot-400M-distill	 metal detector monica began methodically removing	 her	I	5.72027587890625	5.917547225952148	0.003278807271271944	0.09869182109832764	10
+217	friends_align	aligned	facebook/blenderbot-400M-distill	 detector monica began methodically removing her	 watch	it	8.557674407958984	6.523854732513428	0.00019206534489057958	0.03345739468932152	10
+218	friends_align	aligned	facebook/blenderbot-400M-distill	ector monica began methodically removing her watch	 and	that	6.5982208251953125	5.603893756866455	0.0013627908192574978	0.0940987691283226	10
+219	friends_align	aligned	facebook/blenderbot-400M-distill	or monica began methodically removing her watch and	 belt	I	11.693254470825195	5.327371120452881	8.34995080367662e-06	0.10818508267402649	10
+220	friends_align	aligned	facebook/blenderbot-400M-distill	 monica began methodically removing her watch and belt	 and	again	5.4505438804626465	4.259065628051758	0.004293969366699457	0.1824159175157547	10
+221	friends_align	aligned	facebook/blenderbot-400M-distill	ica began methodically removing her watch and belt and	 started	again	11.372428894042969	2.390592336654663	1.1508445822983049e-05	0.6082199811935425	10
+222	friends_align	aligned	facebook/blenderbot-400M-distill	 began methodically removing her watch and belt and started	 to	again	5.908699989318848	4.193414211273193	0.002715715439990163	0.43654724955558777	10
+223	friends_align	aligned	facebook/blenderbot-400M-distill	 methodically removing her watch and belt and started to	 search	for	11.490678787231445	4.5198493003845215	1.0224965080851689e-05	0.10664210468530655	10
+224	friends_align	aligned	facebook/blenderbot-400M-distill	ically removing her watch and belt and started to search	 through	.	10.483514785766602	5.076266288757324	2.7994141419185326e-05	0.0788276344537735	10
+225	friends_align	aligned	facebook/blenderbot-400M-distill	 removing her watch and belt and started to search through	 her	.	6.602792739868164	4.826533794403076	0.0013565742410719395	0.11687449365854263	10
+226	friends_align	aligned	facebook/blenderbot-400M-distill	 her watch and belt and started to search through her	 pock	ets	9.206743240356445	1.020468831062317	0.00010036040475824848	0.863674521446228	10
+227	friends_align	aligned	facebook/blenderbot-400M-distill	 watch and belt and started to search through her pock	ets	so	8.371237754821777	3.544469118118286	0.00023142894497141242	0.1811922788619995	10
+228	friends_align	aligned	facebook/blenderbot-400M-distill	 and belt and started to search through her pockets	 to	find	4.901174545288086	5.530954360961914	0.007437839638441801	0.08498326689004898	10
+229	friends_align	aligned	facebook/blenderbot-400M-distill	 belt and started to search through her pockets to	 check	out	8.798404693603516	4.086603164672852	0.0001509737630840391	0.2704795300960541	10
+230	friends_align	aligned	facebook/blenderbot-400M-distill	 and started to search through her pockets to check	 for	a	6.5139641761779785	4.976420879364014	0.001482590683735907	0.17444773018360138	10
+231	friends_align	aligned	facebook/blenderbot-400M-distill	 started to search through her pockets to check for	 change	.	10.799825668334961	4.298109531402588	2.0403056623763405e-05	0.18793722987174988	10
+232	friends_align	aligned	facebook/blenderbot-400M-distill	 to search through her pockets to check for change	 could	be	8.440450668334961	3.9960505962371826	0.000215952837606892	0.40307503938674927	10
+233	friends_align	aligned	facebook/blenderbot-400M-distill	 search through her pockets to check for change could	 you	she	3.961364269256592	5.361602783203125	0.019037123769521713	0.07958420366048813	10
+234	friends_align	aligned	facebook/blenderbot-400M-distill	 through her pockets to check for change could you	 hur	ry	3.8603615760803223	3.858116626739502	0.021060381084680557	0.37245163321495056	10
+235	friends_align	aligned	facebook/blenderbot-400M-distill	 her pockets to check for change could you hur	ry	up	9.759056091308594	3.867567777633667	5.7769149861996993e-05	0.18000565469264984	10
+236	friends_align	aligned	facebook/blenderbot-400M-distill	 pockets to check for change could you hurry	 up	a	8.658732414245605	4.573625087738037	0.00017360423225909472	0.1595384031534195	10
+237	friends_align	aligned	facebook/blenderbot-400M-distill	ets to check for change could you hurry up	 man	ners	9.700156211853027	4.056856155395508	6.127394590293989e-05	0.3997635245323181	10
+238	friends_align	aligned	facebook/blenderbot-400M-distill	 to check for change could you hurry up man	 behind	a	7.3741302490234375	5.566125392913818	0.0006272721220739186	0.11250130087137222	10
+239	friends_align	aligned	facebook/blenderbot-400M-distill	 check for change could you hurry up man behind	 them	you	10.295135498046875	5.683984756469727	3.379711415618658e-05	0.07184476405382156	10
+240	friends_align	aligned	facebook/blenderbot-400M-distill	 for change could you hurry up man behind them	 shout	ing	7.221959590911865	5.116032123565674	0.0007303698803298175	0.1372237503528595	10
+241	friends_align	aligned	facebook/blenderbot-400M-distill	 change could you hurry up man behind them shout	ed	a	8.07091999053955	5.313257694244385	0.000312495743855834	0.06337064504623413	10
+242	friends_align	aligned	facebook/blenderbot-400M-distill	 could you hurry up man behind them shouted	 gl	or	8.083714485168457	3.7317092418670654	0.0003085228381678462	0.19412733614444733	10
+243	friends_align	aligned	facebook/blenderbot-400M-distill	 you hurry up man behind them shouted gl	ar	ities	7.69175910949707	6.087226867675781	0.0004565742565318942	0.036708999425172806	10
+244	friends_align	aligned	facebook/blenderbot-400M-distill	 hurry up man behind them shouted glar	ing	I	10.701269149780273	5.375704765319824	2.2516349417855963e-05	0.0648500919342041	10
+245	friends_align	aligned	facebook/blenderbot-400M-distill	ry up man behind them shouted glaring	 her	to	7.754805088043213	4.979156970977783	0.00042867776937782764	0.18272146582603455	10
+246	friends_align	aligned	facebook/blenderbot-400M-distill	 up man behind them shouted glaring her	 she	's	3.5023105144500732	5.74758768081665	0.030127696692943573	0.04934518411755562	10
+247	friends_align	aligned	facebook/blenderbot-400M-distill	 man behind them shouted glaring her she	 turned	into	6.776644706726074	5.365540027618408	0.0011400936637073755	0.12568053603172302	10
+248	friends_align	aligned	facebook/blenderbot-400M-distill	 behind them shouted glaring her she turned	 around	.	9.284667015075684	4.091648101806641	9.283686085836962e-05	0.13729903101921082	10
+249	friends_align	aligned	facebook/blenderbot-400M-distill	 them shouted glaring her she turned around	 in	ner	8.619390487670898	5.6752166748046875	0.00018057024863082916	0.09391208738088608	10
+250	friends_align	aligned	facebook/blenderbot-400M-distill	 shouted glaring her she turned around in	 shock	she	7.398032188415527	4.647707462310791	0.0006124567589722574	0.12580612301826477	10
+251	friends_align	aligned	facebook/blenderbot-400M-distill	ed glaring her she turned around in shock	 hey	</s>	3.4072232246398926	5.427532196044922	0.03313307464122772	0.08257697522640228	10
+252	friends_align	aligned	facebook/blenderbot-400M-distill	 glaring her she turned around in shock hey	 i	have	5.254685401916504	4.460145473480225	0.005222989246249199	0.10860203206539154	10
+253	friends_align	aligned	facebook/blenderbot-400M-distill	aring her she turned around in shock hey i	 have	to	7.666149616241455	4.708582401275635	0.00046841788571327925	0.18124884366989136	10
+254	friends_align	aligned	facebook/blenderbot-400M-distill	ing her she turned around in shock hey i have	 never	been	8.680574417114258	4.465163230895996	0.00016985347610898316	0.20012134313583374	10
+255	friends_align	aligned	facebook/blenderbot-400M-distill	 her she turned around in shock hey i have never	 set	t	8.53365421295166	3.4601964950561523	0.00019673477800097317	0.4563739597797394	10
+256	friends_align	aligned	facebook/blenderbot-400M-distill	 she turned around in shock hey i have never set	 one	of	6.540366172790527	4.189752578735352	0.0014439600054174662	0.30518779158592224	10
+257	friends_align	aligned	facebook/blenderbot-400M-distill	 turned around in shock hey i have never set one	 of	those	6.036565780639648	3.4349043369293213	0.0023897518403828144	0.39275500178337097	10
+258	friends_align	aligned	facebook/blenderbot-400M-distill	 around in shock hey i have never set one of	 these	things	6.994417667388916	5.655035018920898	0.0009169866680167615	0.13920602202415466	10
+259	friends_align	aligned	facebook/blenderbot-400M-distill	 in shock hey i have never set one of these	 off	</s>	9.47165584564209	4.205073833465576	7.70037731854245e-05	0.2240377813577652	10
+260	friends_align	aligned	facebook/blenderbot-400M-distill	 shock hey i have never set one of these off	 before	so	7.245224952697754	4.102839469909668	0.000713573768734932	0.21320930123329163	10
+261	friends_align	aligned	facebook/blenderbot-400M-distill	 hey i have never set one of these off before	 and	so	6.018472671508789	4.36433744430542	0.002433384070172906	0.21932843327522278	10
+262	friends_align	aligned	facebook/blenderbot-400M-distill	 i have never set one of these off before and	 i	just	4.982335090637207	5.4418559074401855	0.006858030334115028	0.043780528008937836	10
+263	friends_align	aligned	facebook/blenderbot-400M-distill	 have never set one of these off before and i	 am	so	8.527105331420898	4.642565727233887	0.000198027424630709	0.10331433266401291	10
+264	friends_align	aligned	facebook/blenderbot-400M-distill	 never set one of these off before and i am	 not	to	6.740070343017578	4.9690752029418945	0.001182564185000956	0.0707935020327568	10
+265	friends_align	aligned	facebook/blenderbot-400M-distill	 set one of these off before and i am not	 about	one	7.94833517074585	4.847082614898682	0.0003532497794367373	0.12237653881311417	10
+266	friends_align	aligned	facebook/blenderbot-400M-distill	 one of these off before and i am not about	 to	be	6.547580718994141	3.4151344299316406	0.0014335799496620893	0.500207781791687	10
+267	friends_align	aligned	facebook/blenderbot-400M-distill	 of these off before and i am not about to	 start	</s>	7.834934234619141	5.032829284667969	0.000395668379496783	0.10017988830804825	10
+268	friends_align	aligned	facebook/blenderbot-400M-distill	 these off before and i am not about to start	 now	</s>	7.8003926277160645	4.762482166290283	0.0004095741605851799	0.12060370296239853	10
+269	friends_align	aligned	facebook/blenderbot-400M-distill	 off before and i am not about to start now	 she	is	5.067386150360107	3.588860511779785	0.006298862397670746	0.40005967020988464	10
+270	friends_align	aligned	facebook/blenderbot-400M-distill	 before and i am not about to start now she	 sc	sc	1.6777960062026978	4.99683952331543	0.18678520619869232	0.18678520619869232	10
+271	friends_align	aligned	facebook/blenderbot-400M-distill	 and i am not about to start now she sc	old	s	13.243175506591797	1.4217643737792969	1.7724004237607005e-06	0.5213631987571716	10
+272	friends_align	aligned	facebook/blenderbot-400M-distill	 i am not about to start now she scold	ed	me	10.069514274597168	4.564669609069824	4.235117376083508e-05	0.31151866912841797	10
+273	friends_align	aligned	facebook/blenderbot-400M-distill	 am not about to start now she scolded	 holding	to	10.509759902954102	5.305163860321045	2.7268999474472366e-05	0.13454358279705048	10
+274	friends_align	aligned	facebook/blenderbot-400M-distill	 not about to start now she scolded holding	 up	to	9.7660551071167	4.77020263671875	5.73662000533659e-05	0.15286964178085327	10
+275	friends_align	aligned	facebook/blenderbot-400M-distill	 about to start now she scolded holding up	 her	right	7.5448808670043945	5.2859320640563965	0.0005288101965561509	0.14961475133895874	10
+276	friends_align	aligned	facebook/blenderbot-400M-distill	 to start now she scolded holding up her	 finger	to	11.692794799804688	5.908748626708984	8.353795237781014e-06	0.05280816927552223	10
+277	friends_align	aligned	facebook/blenderbot-400M-distill	 start now she scolded holding up her finger	 she	d	4.159936904907227	5.2532219886779785	0.015608548186719418	0.06479865312576294	10
+278	friends_align	aligned	facebook/blenderbot-400M-distill	 now she scolded holding up her finger she	 started	to	10.082889556884766	3.7363662719726562	4.178849121672101e-05	0.3761684000492096	10
+279	friends_align	aligned	facebook/blenderbot-400M-distill	 she scolded holding up her finger she started	 to	do	4.898088455200195	6.203651428222656	0.0074608298018574715	0.07385711371898651	10
+280	friends_align	aligned	facebook/blenderbot-400M-distill	 scolded holding up her finger she started to	 walk	so	5.267665863037109	5.236116409301758	0.0051556299440562725	0.08955435454845428	10
+281	friends_align	aligned	facebook/blenderbot-400M-distill	olded holding up her finger she started to walk	 through	her	10.436214447021484	5.664880275726318	2.9350117983995005e-05	0.0634152740240097	10
+282	friends_align	aligned	facebook/blenderbot-400M-distill	ed holding up her finger she started to walk through	 then	again	11.283529281616211	4.41301155090332	1.2578403584484477e-05	0.16645732522010803	10
+283	friends_align	aligned	facebook/blenderbot-400M-distill	 holding up her finger she started to walk through then	 jump	again	9.980484008789062	3.660214900970459	4.629465183825232e-05	0.37625664472579956	10
+284	friends_align	aligned	facebook/blenderbot-400M-distill	 up her finger she started to walk through then jump	ed	again	11.528277397155762	2.0030171871185303	9.847657565842383e-06	0.6859726905822754	10
+285	friends_align	aligned	facebook/blenderbot-400M-distill	 her finger she started to walk through then jumped	 back	again	9.258532524108887	4.439620018005371	9.52951013459824e-05	0.20155386626720428	10
+286	friends_align	aligned	facebook/blenderbot-400M-distill	 finger she started to walk through then jumped back	 and	again	6.3737335205078125	4.1295905113220215	0.0017057786462828517	0.2523374557495117	10
+287	friends_align	aligned	facebook/blenderbot-400M-distill	 she started to walk through then jumped back and	 b	b	3.1535873413085938	5.846986770629883	0.04269867762923241	0.04269867762923241	10
+288	friends_align	aligned	facebook/blenderbot-400M-distill	 started to walk through then jumped back and b	ent	again	8.705035209655762	4.858100891113281	0.00016574909386690706	0.20655673742294312	10
+289	friends_align	aligned	facebook/blenderbot-400M-distill	 to walk through then jumped back and bent	 down	again	10.523067474365234	4.136905670166016	2.6908526706392877e-05	0.21030278503894806	10
+290	friends_align	aligned	facebook/blenderbot-400M-distill	 walk through then jumped back and bent down	 she	's	3.953399658203125	4.3932719230651855	0.01918935775756836	0.1701098084449768	10
+291	friends_align	aligned	facebook/blenderbot-400M-distill	 through then jumped back and bent down she	 took	to	9.736513137817383	5.083119869232178	5.9086207329528406e-05	0.12986502051353455	10
+292	friends_align	aligned	facebook/blenderbot-400M-distill	 then jumped back and bent down she took	 off	to	6.227445602416992	4.504275798797607	0.0019744890742003918	0.15880505740642548	10
+293	friends_align	aligned	facebook/blenderbot-400M-distill	 jumped back and bent down she took off	 her	s	6.457465171813965	5.5898966789245605	0.0015687671257182956	0.15127032995224	10
+294	friends_align	aligned	facebook/blenderbot-400M-distill	ed back and bent down she took off her	 		1.4806472063064575	5.2602643966674805	0.2274904102087021	0.2274904102087021	10
+295	friends_align	aligned	facebook/blenderbot-400M-distill	 back and bent down she took off her 	<unk>		16.539281845092773	5.339515686035156	6.562680709976121e-08	0.10443480312824249	10
+296	friends_align	aligned	facebook/blenderbot-400M-distill	 and bent down she took off her <unk>	 and		5.242886543273926	5.7274250984191895	0.0052849785424768925	0.06900175660848618	10
+297	friends_align	aligned	facebook/blenderbot-400M-distill	 bent down she took off her <unk> and	 put	on	7.573139667510986	5.1573686599731445	0.0005140758585184813	0.11697312444448471	10
+298	friends_align	aligned	facebook/blenderbot-400M-distill	ent down she took off her <unk> and put	 it	on	5.815848350524902	4.592872142791748	0.00297995051369071	0.12642857432365417	10
+299	friends_align	aligned	facebook/blenderbot-400M-distill	 down she took off her <unk> and put it	 in	to	8.084782600402832	5.926701068878174	0.0003081935574300587	0.06061313673853874	10
+300	friends_align	aligned	facebook/blenderbot-400M-distill	 she took off her <unk> and put it in	 her	to	4.019200325012207	5.682583332061768	0.01796732284128666	0.15403319895267487	10
+301	friends_align	aligned	facebook/blenderbot-400M-distill	 took off her <unk> and put it in her	 box	to	9.068944931030273	4.821913719177246	0.0001151879841927439	0.12862402200698853	10
+302	friends_align	aligned	facebook/blenderbot-400M-distill	 off her <unk> and put it in her box	 on	a	6.735064506530762	5.485927104949951	0.0011884986888617277	0.08962377905845642	10
+303	friends_align	aligned	facebook/blenderbot-400M-distill	 her <unk> and put it in her box on	 the	thing	7.02884578704834	6.338816165924072	0.0008859539520926774	0.04037564620375633	10
+304	friends_align	aligned	facebook/blenderbot-400M-distill	 <unk> and put it in her box on the	 con	do	2.8573930263519287	4.763870716094971	0.057418256998062134	0.20747506618499756	10
+305	friends_align	aligned	facebook/blenderbot-400M-distill	<unk> and put it in her box on the con	vey	or	11.740384101867676	2.0059993267059326	7.965556505951099e-06	0.6446483731269836	10
+306	friends_align	aligned	facebook/blenderbot-400M-distill	 and put it in her box on the convey	or	.	10.644781112670898	3.9338858127593994	2.3824850359233096e-05	0.220781609416008	10
+307	friends_align	aligned	facebook/blenderbot-400M-distill	 put it in her box on the conveyor	 belt	to	9.024959564208984	5.188253879547119	0.00012036770931445062	0.04725966975092888	10
+308	friends_align	aligned	facebook/blenderbot-400M-distill	 it in her box on the conveyor belt	 she	's	4.788713455200195	5.617402076721191	0.008323156274855137	0.10999242216348648	10
+309	friends_align	aligned	facebook/blenderbot-400M-distill	 in her box on the conveyor belt she	 sm	iles	3.6985223293304443	5.3845295906066895	0.024760086089372635	0.08945690095424652	10
+310	friends_align	aligned	facebook/blenderbot-400M-distill	 her box on the conveyor belt she sm	iled	to	13.950773239135742	5.353251934051514	8.734866128179419e-07	0.18743166327476501	10
+311	friends_align	aligned	facebook/blenderbot-400M-distill	 box on the conveyor belt she smiled	 at	to	5.898345947265625	5.726114273071289	0.0027439789846539497	0.11424238234758377	10
+312	friends_align	aligned	facebook/blenderbot-400M-distill	 on the conveyor belt she smiled at	 the	right	8.845195770263672	5.29225492477417	0.00014407231356017292	0.11908591538667679	10
+313	friends_align	aligned	facebook/blenderbot-400M-distill	 the conveyor belt she smiled at the	 security	she	6.845333099365234	5.757442951202393	0.0010644117137417197	0.0922674611210823	10
+314	friends_align	aligned	facebook/blenderbot-400M-distill	 conveyor belt she smiled at the security	 guard	she	10.898072242736816	4.4910197257995605	1.8493850802769884e-05	0.15720771253108978	10
+315	friends_align	aligned	facebook/blenderbot-400M-distill	veyor belt she smiled at the security guard	 that	she	7.24204683303833	5.240732192993164	0.0007158450316637754	0.10517941415309906	10
+316	friends_align	aligned	facebook/blenderbot-400M-distill	or belt she smiled at the security guard that	 was	a	5.126601219177246	5.717442035675049	0.005936704576015472	0.09560120105743408	10
+317	friends_align	aligned	facebook/blenderbot-400M-distill	 belt she smiled at the security guard that was	 a	thing	5.85856819152832	6.328542709350586	0.0028553286101669073	0.04995428025722504	10
+318	friends_align	aligned	facebook/blenderbot-400M-distill	 she smiled at the security guard that was a	 close	to	4.29783296585083	5.37047004699707	0.013597995974123478	0.216685488820076	10
+319	friends_align	aligned	facebook/blenderbot-400M-distill	 smiled at the security guard that was a close	 one	to	6.343724250793457	4.499030113220215	0.0017577436519786716	0.14880365133285522	10
+320	friends_align	aligned	facebook/blenderbot-400M-distill	iled at the security guard that was a close one	 her	to	7.760753631591797	5.019783020019531	0.0004261353169567883	0.10353179275989532	10
+321	friends_align	aligned	facebook/blenderbot-400M-distill	 at the security guard that was a close one her	 joy	is	6.205761909484863	4.253252983093262	0.0020177706610411406	0.3233059346675873	10
+322	friends_align	aligned	facebook/blenderbot-400M-distill	 the security guard that was a close one her joy	 was	a	4.882779121398926	3.983157157897949	0.0075759319588541985	0.31066328287124634	10
+323	friends_align	aligned	facebook/blenderbot-400M-distill	 security guard that was a close one her joy was	 cut	and	9.158628463745117	4.07432746887207	0.0001053071828209795	0.23159077763557434	10
+324	friends_align	aligned	facebook/blenderbot-400M-distill	 guard that was a close one her joy was cut	 short	and	5.958986759185791	5.011664867401123	0.0025825274642556906	0.08720286935567856	10
+325	friends_align	aligned	facebook/blenderbot-400M-distill	 that was a close one her joy was cut short	 as	a	7.344306945800781	4.333152770996094	0.000646261207293719	0.20080749690532684	10
+326	friends_align	aligned	facebook/blenderbot-400M-distill	 was a close one her joy was cut short as	 they	were	3.7264342308044434	5.4025421142578125	0.024078544229269028	0.10986806452274323	10
+327	friends_align	aligned	facebook/blenderbot-400M-distill	 a close one her joy was cut short as they	 heard	from	6.745702266693115	5.176849365234375	0.0011759226908907294	0.07692592591047287	10
+328	friends_align	aligned	facebook/blenderbot-400M-distill	 close one her joy was cut short as they heard	 the	song	7.385919570922852	5.811066150665283	0.0006199203198775649	0.13822028040885925	10
+329	friends_align	aligned	facebook/blenderbot-400M-distill	 one her joy was cut short as they heard the	 final	thing	8.939876556396484	6.178083419799805	0.00013105716789141297	0.07172238081693649	10
+330	friends_align	aligned	facebook/blenderbot-400M-distill	 her joy was cut short as they heard the final	 call	to	10.991632461547852	4.407147407531738	1.6842037439346313e-05	0.24197784066200256	10
+331	friends_align	aligned	facebook/blenderbot-400M-distill	 joy was cut short as they heard the final call	 for	us	4.006716728210449	5.671064853668213	0.01819302700459957	0.04371703416109085	10
+332	friends_align	aligned	facebook/blenderbot-400M-distill	 was cut short as they heard the final call for	 their	second	5.094654560089111	6.340599060058594	0.006129423622041941	0.045161906629800797	10
+333	friends_align	aligned	facebook/blenderbot-400M-distill	 cut short as they heard the final call for their	 flight	and	10.619732856750488	5.660447120666504	2.4429156837868504e-05	0.08596214652061462	10
+334	friends_align	aligned	facebook/blenderbot-400M-distill	 short as they heard the final call for their flight	 come	to	5.759971618652344	5.2244648933410645	0.003151200246065855	0.0837615355849266	10
+335	friends_align	aligned	facebook/blenderbot-400M-distill	 as they heard the final call for their flight come	 over	.	7.307011604309082	5.858464241027832	0.0006708189030177891	0.1273152083158493	10
+336	friends_align	aligned	facebook/blenderbot-400M-distill	 they heard the final call for their flight come over	 the	I	5.267580032348633	6.133169174194336	0.005156074184924364	0.06772349774837494	10
+337	friends_align	aligned	facebook/blenderbot-400M-distill	 heard the final call for their flight come over the	 pa	har	8.200309753417969	5.25277853012085	0.000274568417808041	0.1518230438232422	10
+338	friends_align	aligned	facebook/blenderbot-400M-distill	 the final call for their flight come over the pa	 system	for	8.175939559936523	4.075475692749023	0.00028134186868555844	0.2394609898328781	10
+339	friends_align	aligned	facebook/blenderbot-400M-distill	 final call for their flight come over the pa system	 gate	to	9.91626262664795	6.022266864776611	4.9365295126335695e-05	0.04221254214644432	10
+340	friends_align	aligned	facebook/blenderbot-400M-distill	 call for their flight come over the pa system gate	 is	for	6.47257137298584	4.073824405670166	0.001545247039757669	0.40591657161712646	10
+341	friends_align	aligned	facebook/blenderbot-400M-distill	 for their flight come over the pa system gate is	 on	a	11.051356315612793	5.851510524749756	1.586561484145932e-05	0.04998498037457466	10
+342	friends_align	aligned	facebook/blenderbot-400M-distill	 their flight come over the pa system gate is on	 the	second	8.036782264709473	5.460890769958496	0.0003233476891182363	0.17300336062908173	10
+343	friends_align	aligned	facebook/blenderbot-400M-distill	 flight come over the pa system gate is on the	 other	side	9.027194023132324	1.5730085372924805	0.00012009903002763167	0.5820063948631287	10
+344	friends_align	aligned	facebook/blenderbot-400M-distill	 come over the pa system gate is on the other	 side	of	10.32260799407959	0.697358250617981	3.288125299150124e-05	0.9161677956581116	10
+345	friends_align	aligned	facebook/blenderbot-400M-distill	 over the pa system gate is on the other side	 of	w	6.588743209838867	5.658660888671875	0.0013757679844275117	0.08813076466321945	10
+346	friends_align	aligned	facebook/blenderbot-400M-distill	 the pa system gate is on the other side of	 the	I	7.214410781860352	5.785141944885254	0.0007359042065218091	0.05387421324849129	10
+347	friends_align	aligned	facebook/blenderbot-400M-distill	 pa system gate is on the other side of the	 term	in	10.027942657470703	4.340222358703613	4.414889917825349e-05	0.2733423113822937	10
+348	friends_align	aligned	facebook/blenderbot-400M-distill	 system gate is on the other side of the term	inal	game	16.91958999633789	6.125748634338379	4.486578930595897e-08	0.042697202414274216	10
+349	friends_align	aligned	facebook/blenderbot-400M-distill	 gate is on the other side of the terminal	 mon	key	7.738640785217285	4.500278472900391	0.0004356632416602224	0.10753215104341507	10
+350	friends_align	aligned	facebook/blenderbot-400M-distill	 is on the other side of the terminal mon	ica	.	11.102273941040039	4.802976131439209	1.5077994248713367e-05	0.13500717282295227	10
+351	friends_align	aligned	facebook/blenderbot-400M-distill	 on the other side of the terminal monica	 shout	ing	6.819828033447266	5.3461503982543945	0.0010919083142653108	0.12458491325378418	10
+352	friends_align	aligned	facebook/blenderbot-400M-distill	 the other side of the terminal monica shout	ed	by	10.787910461425781	2.941863775253296	2.064762156805955e-05	0.5615160465240479	10
+353	friends_align	aligned	facebook/blenderbot-400M-distill	 other side of the terminal monica shouted	 holding	.	11.407780647277832	4.313594341278076	1.1108711987617426e-05	0.2696187496185303	10
+354	friends_align	aligned	facebook/blenderbot-400M-distill	 side of the terminal monica shouted holding	 her	is	6.4187116622924805	6.016721248626709	0.0016307561891153455	0.0617656484246254	10
+355	friends_align	aligned	facebook/blenderbot-400M-distill	 of the terminal monica shouted holding her	 hands	is	11.023716926574707	3.9081952571868896	1.6310243154293858e-05	0.26828140020370483	10
+356	friends_align	aligned	facebook/blenderbot-400M-distill	 the terminal monica shouted holding her hands	 to	I	6.417771816253662	5.390990257263184	0.001632289495319128	0.09039125591516495	10
+357	friends_align	aligned	facebook/blenderbot-400M-distill	 terminal monica shouted holding her hands to	 her	is	5.950213432312012	5.845658779144287	0.002605284098535776	0.05715225636959076	10
+358	friends_align	aligned	facebook/blenderbot-400M-distill	inal monica shouted holding her hands to her	 head	and	7.842925071716309	5.5824689865112305	0.000392519315937534	0.0993509292602539	10
+359	friends_align	aligned	facebook/blenderbot-400M-distill	 monica shouted holding her hands to her head	 cha	ins	1.9995604753494263	3.7702560424804688	0.13539478182792664	0.19490954279899597	10
+360	friends_align	aligned	facebook/blenderbot-400M-distill	ica shouted holding her hands to her head cha	nd	s	7.5844926834106445	4.838006973266602	0.0005082724383100867	0.13714663684368134	10
+361	friends_align	aligned	facebook/blenderbot-400M-distill	 shouted holding her hands to her head chand	ler	is	13.055143356323242	5.057857036590576	2.139060597983189e-06	0.17109182476997375	10
+362	friends_align	aligned	facebook/blenderbot-400M-distill	ed holding her hands to her head chandler	 looked	at	12.10926342010498	3.710826873779297	5.50825234313379e-06	0.41426587104797363	10
+363	friends_align	aligned	facebook/blenderbot-400M-distill	 holding her hands to her head chandler looked	 around	.	9.61855411529541	4.598047256469727	6.648366979788989e-05	0.14608174562454224	10
+364	friends_align	aligned	facebook/blenderbot-400M-distill	 her hands to her head chandler looked around	 in	a	7.206265449523926	5.905587673187256	0.0007419227040372789	0.11679433286190033	10
+365	friends_align	aligned	facebook/blenderbot-400M-distill	 hands to her head chandler looked around in	 shock	.	9.378847122192383	5.50961971282959	8.449254528386518e-05	0.09608965367078781	10
+366	friends_align	aligned	facebook/blenderbot-400M-distill	 to her head chandler looked around in shock	 and	still	6.350605010986328	5.363427639007568	0.001745690475217998	0.09288957715034485	10
+367	friends_align	aligned	facebook/blenderbot-400M-distill	 her head chandler looked around in shock and	 then	again	12.410104751586914	2.711948871612549	4.077182893524878e-06	0.5983314514160156	10
+368	friends_align	aligned	facebook/blenderbot-400M-distill	 head chandler looked around in shock and then	 ran	again	9.702686309814453	2.0753746032714844	6.111909897299483e-05	0.6973899602890015	10
+369	friends_align	aligned	facebook/blenderbot-400M-distill	 chandler looked around in shock and then ran	 over	by	7.8391313552856445	4.048213958740234	0.0003940110909752548	0.18519026041030884	10
+370	friends_align	aligned	facebook/blenderbot-400M-distill	ndler looked around in shock and then ran over	 to	be	6.490168571472168	4.602619171142578	0.001518293283879757	0.3428795039653778	10
+371	friends_align	aligned	facebook/blenderbot-400M-distill	ler looked around in shock and then ran over to	 an	old	7.671840667724609	5.261350154876709	0.000465759658254683	0.07735476642847061	10
+372	friends_align	aligned	facebook/blenderbot-400M-distill	 looked around in shock and then ran over to an	 e	ag	4.6255903244018555	5.02826452255249	0.009797866456210613	0.16619236767292023	10
+373	friends_align	aligned	facebook/blenderbot-400M-distill	 around in shock and then ran over to an e	lder	ly	15.441709518432617	0.09977409988641739	1.9667572814796586e-07	0.9909620881080627	10
+374	friends_align	aligned	facebook/blenderbot-400M-distill	 in shock and then ran over to an elder	ly	one	8.489012718200684	3.0102620124816895	0.0002057161764241755	0.6090254187583923	10
+375	friends_align	aligned	facebook/blenderbot-400M-distill	 shock and then ran over to an elderly	 man	's	10.472784042358398	1.2985013723373413	2.8296157324803062e-05	0.540138840675354	10
+376	friends_align	aligned	facebook/blenderbot-400M-distill	 and then ran over to an elderly man	 an	e	6.879904270172119	5.598814964294434	0.0010282425209879875	0.041428159922361374	10
+377	friends_align	aligned	facebook/blenderbot-400M-distill	 then ran over to an elderly man an	 electric	one	5.136114597320557	5.652987480163574	0.005880493670701981	0.12534493207931519	10
+378	friends_align	aligned	facebook/blenderbot-400M-distill	 ran over to an elderly man an electric	 sc	or	2.2652316093444824	4.786085605621338	0.10380600392818451	0.1658487766981125	10
+379	friends_align	aligned	facebook/blenderbot-400M-distill	 over to an elderly man an electric sc	oot	er	8.078306198120117	1.0344127416610718	0.00031019607558846474	0.864354133605957	10
+380	friends_align	aligned	facebook/blenderbot-400M-distill	 to an elderly man an electric scoot	er	.	9.8167085647583	4.5799880027771	5.4532803915208206e-05	0.1520262062549591	10
+381	friends_align	aligned	facebook/blenderbot-400M-distill	 an elderly man an electric scooter	 i	like	4.8706512451171875	5.885753154754639	0.007668372243642807	0.049460045993328094	10
+382	friends_align	aligned	facebook/blenderbot-400M-distill	 elderly man an electric scooter i	 will	be	7.435247421264648	5.164198398590088	0.0005900831311009824	0.1686747521162033	10
+383	friends_align	aligned	facebook/blenderbot-400M-distill	lderly man an electric scooter i will	 give	you	5.0958356857299805	4.062733173370361	0.006122189573943615	0.3410268723964691	10
+384	friends_align	aligned	facebook/blenderbot-400M-distill	ly man an electric scooter i will give	 you	a	4.237199306488037	4.935779571533203	0.01444800104945898	0.1901637762784958	10
+385	friends_align	aligned	facebook/blenderbot-400M-distill	 man an electric scooter i will give you	 six	like	8.130311012268066	5.795855522155762	0.00029447657288983464	0.06037268042564392	10
+386	friends_align	aligned	facebook/blenderbot-400M-distill	 an electric scooter i will give you six	ty	for	8.246687889099121	5.443445682525635	0.0002621253952383995	0.07865352183580399	10
+387	friends_align	aligned	facebook/blenderbot-400M-distill	 electric scooter i will give you sixty	 dollars	.	9.422187805175781	4.008092880249023	8.090880874078721e-05	0.18896958231925964	10
+388	friends_align	aligned	facebook/blenderbot-400M-distill	 scooter i will give you sixty dollars	 he	is	2.525434732437134	3.8341586589813232	0.08002352714538574	0.20615173876285553	10
+389	friends_align	aligned	facebook/blenderbot-400M-distill	ooter i will give you sixty dollars he	 said	</s>	9.00082778930664	4.09006929397583	0.00012330766185186803	0.2575744390487671	10
+390	friends_align	aligned	facebook/blenderbot-400M-distill	er i will give you sixty dollars he said	 sh	rim	3.4197795391082764	5.0566864013671875	0.032719649374485016	0.08854235708713531	10
+391	friends_align	aligned	facebook/blenderbot-400M-distill	 i will give you sixty dollars he said sh	o	el	8.100093841552734	5.153401851654053	0.00030351054738275707	0.08929148316383362	10
+392	friends_align	aligned	facebook/blenderbot-400M-distill	 will give you sixty dollars he said sho	ving	he	12.238243103027344	5.802989959716797	4.841705049329903e-06	0.044270534068346024	10
+393	friends_align	aligned	facebook/blenderbot-400M-distill	 give you sixty dollars he said shoving	 a	thing	4.930924415588379	6.126291275024414	0.007219824939966202	0.10666246712207794	10
+394	friends_align	aligned	facebook/blenderbot-400M-distill	 you sixty dollars he said shoving a	 w	id	3.3725197315216064	4.653562545776367	0.03430309146642685	0.17638809978961945	10
+395	friends_align	aligned	facebook/blenderbot-400M-distill	 sixty dollars he said shoving a w	ad	d	7.352862358093262	4.414512634277344	0.0006407554028555751	0.12996290624141693	10
+396	friends_align	aligned	facebook/blenderbot-400M-distill	ty dollars he said shoving a wad	 of	*	5.78884220123291	6.151839256286621	0.003061524825170636	0.04846198484301567	10
+397	friends_align	aligned	facebook/blenderbot-400M-distill	 dollars he said shoving a wad of	 cash	I	8.927255630493164	5.780055522918701	0.00013272168871480972	0.0962836742401123	10
+398	friends_align	aligned	facebook/blenderbot-400M-distill	 he said shoving a wad of cash	 into	I	7.241641998291016	5.6527910232543945	0.0007161349058151245	0.14345590770244598	10
+399	friends_align	aligned	facebook/blenderbot-400M-distill	 said shoving a wad of cash into	 the	I	6.119768142700195	6.274040222167969	0.0021989657543599606	0.0782337486743927	10
+400	friends_align	aligned	facebook/blenderbot-400M-distill	 shoving a wad of cash into the	 man	s	7.2264909744262695	5.670627117156982	0.0007270675851032138	0.10754174739122391	10
+401	friends_align	aligned	facebook/blenderbot-400M-distill	oving a wad of cash into the man	's	place	6.7311506271362305	6.486697196960449	0.0011931596091017127	0.02958611398935318	10
+402	friends_align	aligned	facebook/blenderbot-400M-distill	ving a wad of cash into the man's	 hand	.	7.9496750831604	5.162667274475098	0.00035277678398415446	0.10359598696231842	10
+403	friends_align	aligned	facebook/blenderbot-400M-distill	 a wad of cash into the man's hand	 if	I	6.590913772583008	5.050934791564941	0.0013727847253903747	0.23230765759944916	10
+404	friends_align	aligned	facebook/blenderbot-400M-distill	 wad of cash into the man's hand if	 you	'll	5.277731895446777	5.286014556884766	0.005103992763906717	0.0528494268655777	10
+405	friends_align	aligned	facebook/blenderbot-400M-distill	ad of cash into the man's hand if you	 let	me	6.457397937774658	3.9181315898895264	0.0015688725979998708	0.2818903923034668	10
+406	friends_align	aligned	facebook/blenderbot-400M-distill	 of cash into the man's hand if you let	 us	just	5.556393146514893	5.220287322998047	0.0038626829627901316	0.07678157091140747	10
+407	friends_align	aligned	facebook/blenderbot-400M-distill	 cash into the man's hand if you let us	 b	iz	3.539411783218384	5.145275592803955	0.029030393809080124	0.08762533962726593	10
+408	friends_align	aligned	facebook/blenderbot-400M-distill	 into the man's hand if you let us b	orrow	this	11.414729118347168	5.46586275100708	1.1031792382709682e-05	0.06429844349622726	10
+409	friends_align	aligned	facebook/blenderbot-400M-distill	 the man's hand if you let us borrow	 your	friend	6.575533866882324	5.830878734588623	0.001394061604514718	0.09076905250549316	10
+410	friends_align	aligned	facebook/blenderbot-400M-distill	 man's hand if you let us borrow your	 sc	or	2.9722142219543457	5.265893936157227	0.0511898472905159	0.06430339068174362	10
+411	friends_align	aligned	facebook/blenderbot-400M-distill	's hand if you let us borrow your sc	oot	er	9.170503616333008	0.6153951287269592	0.00010406410729046911	0.9239850640296936	10
+412	friends_align	aligned	facebook/blenderbot-400M-distill	 hand if you let us borrow your scoot	er	</s>	11.189455032348633	4.954535484313965	1.3819151718053035e-05	0.08843684196472168	10
+413	friends_align	aligned	facebook/blenderbot-400M-distill	 if you let us borrow your scooter	 to	a	4.620697975158691	4.907665252685547	0.009845918975770473	0.2644585371017456	10
+414	friends_align	aligned	facebook/blenderbot-400M-distill	 you let us borrow your scooter to	 get	back	7.692083358764648	3.7327880859375	0.00045642632176168263	0.315034955739975	10
+415	friends_align	aligned	facebook/blenderbot-400M-distill	 let us borrow your scooter to get	 to	.	6.366398334503174	4.292087554931641	0.0017183368327096105	0.28510963916778564	10
+416	friends_align	aligned	facebook/blenderbot-400M-distill	 us borrow your scooter to get to	 gate	.	8.6368408203125	5.472558498382568	0.00017744670913089067	0.11453461647033691	10
+417	friends_align	aligned	facebook/blenderbot-400M-distill	 borrow your scooter to get to gate	 		0.35556501150131226	2.324522018432617	0.7007774114608765	0.7007774114608765	10
+418	friends_align	aligned	facebook/blenderbot-400M-distill	orrow your scooter to get to gate 	<unk>		17.341522216796875	4.308139801025391	2.942203103373231e-08	0.3399902880191803	10
+419	friends_align	aligned	facebook/blenderbot-400M-distill	 your scooter to get to gate <unk>	 the		5.599421501159668	6.104068756103516	0.003700004890561104	0.08921869099140167	10
+420	friends_align	aligned	facebook/blenderbot-400M-distill	 scooter to get to gate <unk> the	 old	school	8.299867630004883	6.131343841552734	0.0002485496224835515	0.043939851224422455	10
+421	friends_align	aligned	facebook/blenderbot-400M-distill	ooter to get to gate <unk> the old	 man	s	7.570367336273193	5.614479064941406	0.0005155029939487576	0.06289435178041458	10
+422	friends_align	aligned	facebook/blenderbot-400M-distill	er to get to gate <unk> the old man	 looked		10.972478866577148	5.263122081756592	1.7167742043966427e-05	0.10719781368970871	10
+423	friends_align	aligned	facebook/blenderbot-400M-distill	 to get to gate <unk> the old man looked	 back	we	7.996091365814209	5.018148899078369	0.0003367763420101255	0.08866599202156067	10
+424	friends_align	aligned	facebook/blenderbot-400M-distill	 get to gate <unk> the old man looked back	 at		4.577384948730469	4.570303916931152	0.010281747207045555	0.18099647760391235	10
+425	friends_align	aligned	facebook/blenderbot-400M-distill	 to gate <unk> the old man looked back at	 him	we	7.736690044403076	5.315507411956787	0.00043651406303979456	0.06398272514343262	10
+426	friends_align	aligned	facebook/blenderbot-400M-distill	 gate <unk> the old man looked back at him	 in	I	5.624959945678711	5.654869079589844	0.003606706392019987	0.11586090922355652	10
+427	friends_align	aligned	facebook/blenderbot-400M-distill	 <unk> the old man looked back at him in	 surprise	</s>	6.5984649658203125	4.519721508026123	0.0013624581042677164	0.20911376178264618	10
+428	friends_align	aligned	facebook/blenderbot-400M-distill	<unk> the old man looked back at him in surprise	 then	we	7.060800075531006	5.539736747741699	0.0008580911671742797	0.13186591863632202	10
+429	friends_align	aligned	facebook/blenderbot-400M-distill	 the old man looked back at him in surprise then	 slowly	by	10.573261260986328	3.9561634063720703	2.559121094236616e-05	0.2834053933620453	10
+430	friends_align	aligned	facebook/blenderbot-400M-distill	 old man looked back at him in surprise then slowly	 ste	als	4.8253889083862305	4.635989189147949	0.00802343524992466	0.12057732790708542	10
+431	friends_align	aligned	facebook/blenderbot-400M-distill	 man looked back at him in surprise then slowly ste	pped	by	11.880274772644043	3.6349751949310303	6.925677553226706e-06	0.3924955129623413	10
+432	friends_align	aligned	facebook/blenderbot-400M-distill	 looked back at him in surprise then slowly stepped	 back	we	10.565753936767578	4.930658340454102	2.578405474196188e-05	0.0754510760307312	10
+433	friends_align	aligned	facebook/blenderbot-400M-distill	 back at him in surprise then slowly stepped back	 off	of	9.42606258392334	4.6197052001953125	8.059592801146209e-05	0.18683086335659027	10
+434	friends_align	aligned	facebook/blenderbot-400M-distill	 at him in surprise then slowly stepped back off	 the	thing	7.079217910766602	5.617894649505615	0.000842431967612356	0.08871453255414963	10
+435	friends_align	aligned	facebook/blenderbot-400M-distill	 him in surprise then slowly stepped back off the	 sc	sc	1.7633651494979858	4.706002235412598	0.1714668869972229	0.1714668869972229	10
+436	friends_align	aligned	facebook/blenderbot-400M-distill	 in surprise then slowly stepped back off the sc	oot	er	10.796294212341309	0.2595767378807068	2.0475234123296104e-05	0.9673289656639099	10
+437	friends_align	aligned	facebook/blenderbot-400M-distill	 surprise then slowly stepped back off the scoot	er	thing	7.9366583824157715	4.710202217102051	0.0003573987924028188	0.11404495686292648	10
+438	friends_align	aligned	facebook/blenderbot-400M-distill	 then slowly stepped back off the scooter	 cha	ins	3.6245152950286865	4.1749186515808105	0.02666201815009117	0.2564781606197357	10
+439	friends_align	aligned	facebook/blenderbot-400M-distill	 slowly stepped back off the scooter cha	nd	el	7.439640522003174	4.954611301422119	0.0005874963826499879	0.1760047972202301	10
+440	friends_align	aligned	facebook/blenderbot-400M-distill	 stepped back off the scooter chand	ler	I	13.651962280273438	5.570982933044434	1.1776827477660845e-06	0.08231331408023834	10
+441	friends_align	aligned	facebook/blenderbot-400M-distill	pped back off the scooter chandler	 		0.437516450881958	2.7692859172821045	0.6456379294395447	0.6456379294395447	10
+442	friends_align	aligned	facebook/blenderbot-400M-distill	 back off the scooter chandler 	<unk>	of	16.694196701049805	5.150142192840576	5.620856668997476e-08	0.1075836643576622	10
+443	friends_align	aligned	facebook/blenderbot-400M-distill	 off the scooter chandler <unk>	 wild	things	4.745950222015381	6.343739032745361	0.008686804212629795	0.02511455863714218	10
+444	friends_align	aligned	facebook/blenderbot-400M-distill	 the scooter chandler <unk> wild	ly	to	7.291540622711182	5.910273551940918	0.0006812777137383819	0.05989003926515579	10
+445	friends_align	aligned	facebook/blenderbot-400M-distill	 scooter chandler <unk> wildly	 to	to	2.5844321250915527	6.161264419555664	0.07543891668319702	0.07543891668319702	10
+446	friends_align	aligned	facebook/blenderbot-400M-distill	ooter chandler <unk> wildly to	 mon	st	6.875633239746094	5.754641532897949	0.0010326438350602984	0.05804435908794403	10
+447	friends_align	aligned	facebook/blenderbot-400M-distill	er chandler <unk> wildly to mon	ica	</s>	10.29056453704834	5.135380268096924	3.39519428962376e-05	0.19979868829250336	10
+448	friends_align	aligned	facebook/blenderbot-400M-distill	 chandler <unk> wildly to monica	 who	to	7.870218276977539	5.7701849937438965	0.00038195098750293255	0.05562593415379524	10
+449	friends_align	aligned	facebook/blenderbot-400M-distill	ndler <unk> wildly to monica who	 hop	s	7.100196838378906	5.394119739532471	0.0008249427773989737	0.12914106249809265	10
+450	friends_align	aligned	facebook/blenderbot-400M-distill	ler <unk> wildly to monica who hop	ped		11.281551361083984	5.658908843994141	1.260331100638723e-05	0.07256963849067688	10
+451	friends_align	aligned	facebook/blenderbot-400M-distill	 <unk> wildly to monica who hopped	 on	is	6.282597541809082	4.717963218688965	0.0018685403047129512	0.1681172400712967	10
+452	friends_align	aligned	facebook/blenderbot-400M-distill	<unk> wildly to monica who hopped on	 the	last	5.577637195587158	6.574666500091553	0.003781490260735154	0.021109197288751602	10
+453	friends_align	aligned	facebook/blenderbot-400M-distill	 wildly to monica who hopped on the	 back	s	7.79039192199707	2.8925065994262695	0.000413690839195624	0.35255154967308044	10
+454	friends_align	aligned	facebook/blenderbot-400M-distill	ly to monica who hopped on the back	 of	the	6.496004104614258	6.1382975578308105	0.001509458408690989	0.041222915053367615	10
+455	friends_align	aligned	facebook/blenderbot-400M-distill	 to monica who hopped on the back of	 the	day	5.856191158294678	6.254945755004883	0.002862124005332589	0.0573076456785202	10
+456	friends_align	aligned	facebook/blenderbot-400M-distill	 monica who hopped on the back of the	 sc	ares	3.1483469009399414	4.7554731369018555	0.04292302206158638	0.15964195132255554	10
+457	friends_align	aligned	facebook/blenderbot-400M-distill	ica who hopped on the back of the sc	oot	er	9.09920883178711	1.0456959009170532	0.0001117541833082214	0.8077051639556885	10
+458	friends_align	aligned	facebook/blenderbot-400M-distill	 who hopped on the back of the scoot	er	.	10.830631256103516	5.471199989318848	1.978410546144005e-05	0.05545035004615784	10
+459	friends_align	aligned	facebook/blenderbot-400M-distill	 hopped on the back of the scooter	 while	I	8.303169250488281	5.387781143188477	0.0002477303787600249	0.08331045508384705	10
+460	friends_align	aligned	facebook/blenderbot-400M-distill	ped on the back of the scooter while	 cha	cha	0.463102251291275	2.5432991981506348	0.6293282508850098	0.6293282508850098	10
+461	friends_align	aligned	facebook/blenderbot-400M-distill	 on the back of the scooter while cha	nd	lers	4.381204605102539	4.889837265014648	0.012510277330875397	0.10563911497592926	10
+462	friends_align	aligned	facebook/blenderbot-400M-distill	 the back of the scooter while chand	ler	is	13.218116760253906	5.823384761810303	1.8173772105001262e-06	0.11828534305095673	10
+463	friends_align	aligned	facebook/blenderbot-400M-distill	 back of the scooter while chandler	 took	a	9.78343391418457	5.941310405731201	5.637788126477972e-05	0.06769473105669022	10
+464	friends_align	aligned	facebook/blenderbot-400M-distill	 of the scooter while chandler took	 the	to	6.812453746795654	6.209577560424805	0.0010999905643984675	0.03856108337640762	10
+465	friends_align	aligned	facebook/blenderbot-400M-distill	 the scooter while chandler took the	 wheel	and	8.519447326660156	4.122433185577393	0.000199549671378918	0.27467474341392517	10
+466	friends_align	aligned	facebook/blenderbot-400M-distill	 scooter while chandler took the wheel	 and	so	5.592297554016113	5.748597621917725	0.0037264551501721144	0.07630345970392227	10
+467	friends_align	aligned	facebook/blenderbot-400M-distill	ooter while chandler took the wheel and	 acce	ler	8.786148071289062	0.7407845854759216	0.00015283552056644112	0.8968849778175354	10
+468	friends_align	aligned	facebook/blenderbot-400M-distill	er while chandler took the wheel and acce	ler	ate	9.514460563659668	2.5318000316619873	7.377722067758441e-05	0.3381967544555664	10
+469	friends_align	aligned	facebook/blenderbot-400M-distill	 while chandler took the wheel and acceler	ated	was	12.989873886108398	4.36198091506958	2.283334424646455e-06	0.11578579992055893	10
+470	friends_align	aligned	facebook/blenderbot-400M-distill	 chandler took the wheel and accelerated	 down	by	9.573338508605957	4.467852592468262	6.955878779990599e-05	0.14877063035964966	10
+471	friends_align	aligned	facebook/blenderbot-400M-distill	ndler took the wheel and accelerated down	 the	.	6.391345977783203	5.501168727874756	0.0016759983263909817	0.09820032864809036	10
+472	friends_align	aligned	facebook/blenderbot-400M-distill	ler took the wheel and accelerated down the	 conc	ert	4.229800701141357	0.9835078716278076	0.014555291272699833	0.8426390886306763	10
+473	friends_align	aligned	facebook/blenderbot-400M-distill	 took the wheel and accelerated down the conc	our	se	10.255928039550781	1.8128472566604614	3.514851050567813e-05	0.6822163462638855	10
+474	friends_align	aligned	facebook/blenderbot-400M-distill	 the wheel and accelerated down the concour	se	of	11.210877418518066	4.687821865081787	1.3526260772778187e-05	0.17342905700206757	10
+475	friends_align	aligned	facebook/blenderbot-400M-distill	 wheel and accelerated down the concourse	 we	are	4.566985130310059	5.4447784423828125	0.0103892358019948	0.12723879516124725	10
+476	friends_align	aligned	facebook/blenderbot-400M-distill	 and accelerated down the concourse we	a	ve	8.798569679260254	2.0058672428131104	0.0001509488938609138	0.5798734426498413	10
+477	friends_align	aligned	facebook/blenderbot-400M-distill	 accelerated down the concourse wea	ving	here	9.632965087890625	5.951498031616211	6.553247658303007e-05	0.04563400521874428	10
+478	friends_align	aligned	facebook/blenderbot-400M-distill	lerated down the concourse weaving	 between	.	9.43461799621582	5.066097736358643	7.990936865098774e-05	0.1605655699968338	10
+479	friends_align	aligned	facebook/blenderbot-400M-distill	ated down the concourse weaving between	 pass	en	7.494058132171631	5.000957012176514	0.0005563805461861193	0.21894991397857666	10
+480	friends_align	aligned	facebook/blenderbot-400M-distill	 down the concourse weaving between pass	eng	ers	4.727370738983154	3.6064369678497314	0.008849709294736385	0.4205324053764343	10
+481	friends_align	aligned	facebook/blenderbot-400M-distill	 the concourse weaving between passeng	ers	.	12.625265121459961	5.3630290031433105	3.2878886031539878e-06	0.07128690928220749	10
+482	friends_align	aligned	facebook/blenderbot-400M-distill	 concourse weaving between passengers	 and	that	5.629775047302246	4.1418538093566895	0.003589383792132139	0.19170884788036346	10
+483	friends_align	aligned	facebook/blenderbot-400M-distill	ourse weaving between passengers and	 l	es	5.73973274230957	4.359720230102539	0.003215628443285823	0.28223320841789246	10
+484	friends_align	aligned	facebook/blenderbot-400M-distill	se weaving between passengers and l	ugg	ish	8.385931015014648	2.935084581375122	0.00022805332264397293	0.28780239820480347	10
+485	friends_align	aligned	facebook/blenderbot-400M-distill	 weaving between passengers and lugg	age	I	12.096708297729492	5.111977577209473	5.577841875492595e-06	0.12145785242319107	10
+486	friends_align	aligned	facebook/blenderbot-400M-distill	aving between passengers and luggage	 they	have	6.790217399597168	5.999186992645264	0.0011247241636738181	0.04415334016084671	10
+487	friends_align	aligned	facebook/blenderbot-400M-distill	ving between passengers and luggage they	 sc	sc	0.6705455780029297	3.0579662322998047	0.511429488658905	0.511429488658905	10
+488	friends_align	aligned	facebook/blenderbot-400M-distill	 between passengers and luggage they sc	re	pe	5.439049243927002	4.804364204406738	0.004343611188232899	0.11123558133840561	10
+489	friends_align	aligned	facebook/blenderbot-400M-distill	 passengers and luggage they scre	ec	e	7.315391540527344	2.4425690174102783	0.0006652206648141146	0.5116462111473083	10
+490	friends_align	aligned	facebook/blenderbot-400M-distill	engers and luggage they screec	hed	but	11.64314079284668	5.242002487182617	8.779065865383018e-06	0.058102115988731384	10
+491	friends_align	aligned	facebook/blenderbot-400M-distill	ers and luggage they screeched	 to	but	5.028181076049805	5.540882587432861	0.006550713442265987	0.08201947808265686	10
+492	friends_align	aligned	facebook/blenderbot-400M-distill	 and luggage they screeched to	 the	so	5.394540786743164	6.125577926635742	0.004541305359452963	0.036151476204395294	10
+493	friends_align	aligned	facebook/blenderbot-400M-distill	 luggage they screeched to the	 gate	I	9.121570587158203	5.164495468139648	0.00010928286792477593	0.07031593471765518	10
+494	friends_align	aligned	facebook/blenderbot-400M-distill	uggage they screeched to the gate	 just	about	10.420905113220215	5.354241847991943	2.9802902645315044e-05	0.10477618873119354	10
+495	friends_align	aligned	facebook/blenderbot-400M-distill	age they screeched to the gate just	 before	to	7.757544040679932	4.574711799621582	0.0004275052051525563	0.32055097818374634	10
+496	friends_align	aligned	facebook/blenderbot-400M-distill	 they screeched to the gate just before	 it	's	5.399214744567871	4.1112141609191895	0.004520129412412643	0.3504234254360199	10
+497	friends_align	aligned	facebook/blenderbot-400M-distill	 screeched to the gate just before it	 closed	again	7.6903581619262695	3.069030523300171	0.00045721433707512915	0.5089203119277954	10
+498	friends_align	aligned	facebook/blenderbot-400M-distill	reeched to the gate just before it closed	 and	again	6.957944869995117	3.0960171222686768	0.0009510491508990526	0.5030634999275208	10
+499	friends_align	aligned	facebook/blenderbot-400M-distill	eched to the gate just before it closed and	 hur	ry	5.346124172210693	4.027973651885986	0.004766589030623436	0.22382502257823944	10
+500	friends_align	aligned	facebook/blenderbot-400M-distill	hed to the gate just before it closed and hur	ried	again	11.508567810058594	3.185680389404297	1.0043670954473782e-05	0.41500043869018555	10
+501	friends_align	aligned	facebook/blenderbot-400M-distill	 to the gate just before it closed and hurried	 down	again	11.586222648620605	3.7544617652893066	9.293245057051536e-06	0.2631940245628357	10
+502	friends_align	aligned	facebook/blenderbot-400M-distill	 the gate just before it closed and hurried down	 the	that	7.465198993682861	5.813040256500244	0.0005726710660383105	0.0410430021584034	10
+503	friends_align	aligned	facebook/blenderbot-400M-distill	 gate just before it closed and hurried down the	 		1.6389365196228027	4.768431186676025	0.19418643414974213	0.19418643414974213	10
+504	friends_align	aligned	facebook/blenderbot-400M-distill	 just before it closed and hurried down the 	<unk>		17.86512565612793	3.0518336296081543	1.742907684842976e-08	0.5462005734443665	10
+505	friends_align	aligned	facebook/blenderbot-400M-distill	 before it closed and hurried down the <unk>	 they		3.691086530685425	4.646148681640625	0.024944882839918137	0.19220750033855438	10
+506	friends_align	aligned	facebook/blenderbot-400M-distill	 it closed and hurried down the <unk> they	 finally		9.579811096191406	5.420926094055176	6.91099776304327e-05	0.12650229036808014	10
+507	friends_align	aligned	facebook/blenderbot-400M-distill	 closed and hurried down the <unk> they finally	 collap	se	11.179866790771484	2.0458154678344727	1.3952292647445574e-05	0.6123695373535156	10
+508	friends_align	aligned	facebook/blenderbot-400M-distill	 and hurried down the <unk> they finally collap	sed	and	12.446050643920898	4.9601569175720215	3.9332248888968024e-06	0.10889675468206406	10
+509	friends_align	aligned	facebook/blenderbot-400M-distill	 hurried down the <unk> they finally collapsed	 into	so	7.024407386779785	5.117650985717773	0.0008898945525288582	0.08949807286262512	10
+510	friends_align	aligned	facebook/blenderbot-400M-distill	ried down the <unk> they finally collapsed into	 their	to	4.591702938079834	5.970411777496338	0.010135582648217678	0.08874349296092987	10
+511	friends_align	aligned	facebook/blenderbot-400M-distill	 down the <unk> they finally collapsed into their	 seats	.	12.516504287719727	4.50169563293457	3.6656529118772596e-06	0.14515024423599243	10
+512	friends_align	aligned	facebook/blenderbot-400M-distill	 the <unk> they finally collapsed into their seats	 on	we	6.290927886962891	5.666704177856445	0.0018530397210270166	0.06261971592903137	10
+513	friends_align	aligned	facebook/blenderbot-400M-distill	 <unk> they finally collapsed into their seats on	 the	thing	5.902753829956055	5.318294048309326	0.0027319113723933697	0.08438381552696228	10
+514	friends_align	aligned	facebook/blenderbot-400M-distill	<unk> they finally collapsed into their seats on the	 plane	themselves	5.57423210144043	6.020262718200684	0.0037943883799016476	0.05991380289196968	10
+515	friends_align	aligned	facebook/blenderbot-400M-distill	 they finally collapsed into their seats on the plane	 next	to	6.994815349578857	3.5859813690185547	0.0009166219970211387	0.38854625821113586	10
+516	friends_align	aligned	facebook/blenderbot-400M-distill	 finally collapsed into their seats on the plane next	 time	around	7.386594772338867	4.410727024078369	0.000619501865003258	0.10746607929468155	10
+517	friends_align	aligned	facebook/blenderbot-400M-distill	 collapsed into their seats on the plane next time	 we	're	4.757890701293945	5.547110557556152	0.008583695627748966	0.06511975824832916	10
+518	friends_align	aligned	facebook/blenderbot-400M-distill	sed into their seats on the plane next time we	're	a	6.419308662414551	5.601611137390137	0.001629783189855516	0.1014026626944542	10
+519	friends_align	aligned	facebook/blenderbot-400M-distill	 into their seats on the plane next time we're	 going	to	6.7375993728637695	3.392612934112549	0.001185489702038467	0.3786602020263672	10
+520	friends_align	aligned	facebook/blenderbot-400M-distill	 their seats on the plane next time we're going	 to	be	4.423247337341309	4.2011613845825195	0.011995217762887478	0.28814107179641724	10
+521	friends_align	aligned	facebook/blenderbot-400M-distill	 seats on the plane next time we're going to	 the	second	6.301633834838867	5.330582618713379	0.001833306741900742	0.11110500246286392	10
+522	friends_align	aligned	facebook/blenderbot-400M-distill	 on the plane next time we're going to the	 air	pl	7.301823616027832	4.584296703338623	0.0006743079866282642	0.1753668487071991	10
+523	friends_align	aligned	facebook/blenderbot-400M-distill	 the plane next time we're going to the air	port	.	15.831380844116211	3.4649693965911865	1.3320440928055177e-07	0.2944767475128174	10
+524	friends_align	aligned	facebook/blenderbot-400M-distill	 plane next time we're going to the airport	 my	way	7.874190330505371	5.779469013214111	0.0003804367734119296	0.07551932334899902	10
+525	friends_align	aligned	facebook/blenderbot-400M-distill	 next time we're going to the airport my	 way	to	4.328004837036133	4.359214782714844	0.013193842023611069	0.1735260784626007	10
+526	friends_align	aligned	facebook/blenderbot-400M-distill	 time we're going to the airport my way	 said	because	7.90407657623291	4.525467872619629	0.0003692351747304201	0.1549684852361679	10
+527	friends_align	aligned	facebook/blenderbot-400M-distill	 we're going to the airport my way said	 mon	key	5.30816650390625	4.734619140625	0.004950996953994036	0.11908251792192459	10
+528	friends_align	aligned	facebook/blenderbot-400M-distill	're going to the airport my way said mon	ica	</s>	10.67723560333252	4.925506114959717	2.3064054403221235e-05	0.14745983481407166	10
+529	friends_align	aligned	facebook/blenderbot-400M-distill	 going to the airport my way said monica	 w	w	1.704120397567749	4.993595123291016	0.18193233013153076	0.18193233013153076	10
+530	friends_align	aligned	facebook/blenderbot-400M-distill	 to the airport my way said monica w	ip	ip	1.8999767303466797	4.926672458648682	0.14957210421562195	0.14957210421562195	10
+531	friends_align	aligned	facebook/blenderbot-400M-distill	 the airport my way said monica wip	ing	I	10.513912200927734	5.238385200500488	2.7156011128681712e-05	0.11828077584505081	10
+532	friends_align	aligned	facebook/blenderbot-400M-distill	 airport my way said monica wiping	 her	I	7.001843452453613	5.475121021270752	0.0009102024487219751	0.1112106442451477	10
+533	friends_align	aligned	facebook/blenderbot-400M-distill	port my way said monica wiping her	 fore	st	6.262184143066406	4.352927207946777	0.001907076220959425	0.29981985688209534	10
+534	friends_align	aligned	facebook/blenderbot-400M-distill	 my way said monica wiping her fore	head	s	7.761809349060059	2.9170608520507812	0.00042568566277623177	0.5962170362472534	10
+535	friends_align	aligned	facebook/blenderbot-400M-distill	 way said monica wiping her forehead	 four	by	6.115645408630371	5.812466621398926	0.00220804987475276	0.06968110054731369	10
+536	friends_align	aligned	facebook/blenderbot-400M-distill	 said monica wiping her forehead four	 hours	and	9.909209251403809	5.067494869232178	4.9714733904693276e-05	0.0856616348028183	10
+537	friends_align	aligned	facebook/blenderbot-400M-distill	 monica wiping her forehead four hours	 early	I	11.89246654510498	5.505780220031738	6.841751655883854e-06	0.15317733585834503	10
+538	friends_align	aligned	facebook/blenderbot-400M-distill	ica wiping her forehead four hours early	 cha	ins	2.293874979019165	3.8306071758270264	0.10087482631206512	0.25528132915496826	10
+539	friends_align	aligned	facebook/blenderbot-400M-distill	 wiping her forehead four hours early cha	nd	ing	7.438256740570068	5.414621353149414	0.0005883097765035927	0.13717438280582428	10
+540	friends_align	aligned	facebook/blenderbot-400M-distill	iping her forehead four hours early chand	ler	</s>	12.202920913696289	5.881337642669678	5.01578142575454e-06	0.08615993708372116	10
+541	friends_align	aligned	facebook/blenderbot-400M-distill	ing her forehead four hours early chandler	 closed	.	7.018502235412598	5.498049259185791	0.0008951651980169117	0.0789109319448471	10
+542	friends_align	aligned	facebook/blenderbot-400M-distill	 her forehead four hours early chandler closed	 his	I	8.087974548339844	6.576074123382568	0.0003072113322559744	0.05348511040210724	10
+543	friends_align	aligned	facebook/blenderbot-400M-distill	 forehead four hours early chandler closed his	 eyes	on	8.51200008392334	4.6740403175354	0.00020104133000131696	0.10910427570343018	10
+544	friends_align	aligned	facebook/blenderbot-400M-distill	head four hours early chandler closed his eyes	 and	that	5.328980922698975	4.323665618896484	0.004849008750170469	0.22971543669700623	10
+545	friends_align	aligned	facebook/blenderbot-400M-distill	 four hours early chandler closed his eyes and	 lean	back	8.06102180480957	4.9240570068359375	0.00031560432398691773	0.10755155980587006	10
+546	friends_align	aligned	facebook/blenderbot-400M-distill	 hours early chandler closed his eyes and lean	ed	again	10.383966445922852	5.273016929626465	3.092434781137854e-05	0.06901729106903076	10
+547	friends_align	aligned	facebook/blenderbot-400M-distill	 early chandler closed his eyes and leaned	 his	second	6.792933940887451	5.866713047027588	0.001121673034504056	0.12317559868097305	10
+548	friends_align	aligned	facebook/blenderbot-400M-distill	 chandler closed his eyes and leaned his	 head	.	6.450222492218018	5.102840423583984	0.0015801708213984966	0.10321657359600067	10
+549	friends_align	aligned	facebook/blenderbot-400M-distill	ndler closed his eyes and leaned his head	 back	.	5.828179836273193	3.8911685943603516	0.002943429397419095	0.3515445590019226	10
+550	friends_align	aligned	facebook/blenderbot-400M-distill	ler closed his eyes and leaned his head back	 on	.	6.6260576248168945	4.9465508460998535	0.001325378310866654	0.09298235923051834	10
+551	friends_align	aligned	facebook/blenderbot-400M-distill	 closed his eyes and leaned his head back on	 the	that	6.80504035949707	6.302292823791504	0.0011081758420914412	0.02569451555609703	10
+552	friends_align	aligned	facebook/blenderbot-400M-distill	 his eyes and leaned his head back on the	 seat	and	9.067842483520508	5.321603775024414	0.00011531504424056038	0.09658996015787125	10
+553	friends_align	aligned	facebook/blenderbot-400M-distill	 eyes and leaned his head back on the seat	 and	that	5.635671138763428	5.805979251861572	0.0035682818852365017	0.052913419902324677	10
+554	friends_align	aligned	facebook/blenderbot-400M-distill	 and leaned his head back on the seat and	 sm	ack	3.5604355335235596	3.9905192852020264	0.028426438570022583	0.18427740037441254	10
+555	friends_align	aligned	facebook/blenderbot-400M-distill	 leaned his head back on the seat and sm	iled	.	14.492057800292969	4.967739105224609	5.083690552964981e-07	0.11466073989868164	10
+556	friends_align	aligned	facebook/blenderbot-400M-distill	ed his head back on the seat and smiled	 whatever	.	9.40467357635498	4.690781116485596	8.233837434090674e-05	0.11837757378816605	10
+557	friends_align	aligned	facebook/blenderbot-400M-distill	 his head back on the seat and smiled whatever	 you	do	5.0868940353393555	3.8398642539978027	0.006177176255732775	0.3165057301521301	10
+558	friends_align	aligned	facebook/blenderbot-400M-distill	 head back on the seat and smiled whatever you	 want	to	7.396542549133301	3.1445653438568115	0.0006133697461336851	0.4212493896484375	10
+559	friends_align	aligned	facebook/blenderbot-400M-distill	 back on the seat and smiled whatever you want	 right	now	5.076242923736572	3.154776096343994	0.00624332157894969	0.4958653748035431	10
+560	friends_align	aligned	facebook/blenderbot-400M-distill	 on the seat and smiled whatever you want right	 now	.	7.885621070861816	3.844196319580078	0.0003761128755286336	0.23878996074199677	10
+561	friends_align	aligned	facebook/blenderbot-400M-distill	 the seat and smiled whatever you want right now	 all	of	10.959650039672852	5.124155521392822	1.7389402273693122e-05	0.23431667685508728	10
+562	friends_align	aligned	facebook/blenderbot-400M-distill	 seat and smiled whatever you want right now all	 i	do	5.178311347961426	5.2032952308654785	0.005637516733258963	0.14934857189655304	10
+563	friends_align	aligned	facebook/blenderbot-400M-distill	 and smiled whatever you want right now all i	 can	think	7.487959861755371	3.5285990238189697	0.0005597840063273907	0.21507394313812256	10
+564	friends_align	aligned	facebook/blenderbot-400M-distill	 smiled whatever you want right now all i can	 think	of	7.853653907775879	1.2219799757003784	0.00038833043072372675	0.4974323809146881	10
+565	friends_align	aligned	facebook/blenderbot-400M-distill	iled whatever you want right now all i can think	 is	a	5.210785865783691	6.244016170501709	0.005457382183521986	0.08438170701265335	10
+566	friends_align	aligned	facebook/blenderbot-400M-distill	 whatever you want right now all i can think is	 b	iz	3.758791446685791	5.03380012512207	0.02331189624965191	0.12637650966644287	10
+567	friends_align	aligned	facebook/blenderbot-400M-distill	 you want right now all i can think is b	erm	es	7.857209205627441	5.95081090927124	0.00038695227704010904	0.06471887975931168	10
+568	friends_align	aligned	facebook/blenderbot-400M-distill	 want right now all i can think is berm	ud	a	9.528697967529297	0.23546023666858673	7.27342558093369e-05	0.9728484153747559	10
+569	friends_align	aligned	facebook/blenderbot-400M-distill	 right now all i can think is bermud	a	thank	10.228370666503906	6.093409538269043	3.6130601074546576e-05	0.028437912464141846	10
+570	friends_align	aligned	facebook/blenderbot-400M-distill	 now all i can think is bermuda	 b	iz	3.167658805847168	5.620034694671631	0.04210205003619194	0.06611313670873642	10
+571	friends_align	aligned	facebook/blenderbot-400M-distill	 all i can think is bermuda b	a	?	8.659687995910645	5.875495910644531	0.00017343845684081316	0.08723051846027374	10
+572	friends_align	aligned	facebook/blenderbot-400M-distill	 i can think is bermuda ba	ha	h	6.0551066398620605	4.9487152099609375	0.0023458516225218773	0.2560561001300812	10
+573	friends_align	aligned	facebook/blenderbot-400M-distill	 can think is bermuda baha	ma	we	13.777240753173828	5.353086948394775	1.0390119768999284e-06	0.09842231869697571	10
+574	friends_align	aligned	facebook/blenderbot-400M-distill	 think is bermuda bahama	 come	back	2.5783679485321045	5.1573262214660645	0.07589776813983917	0.09619773924350739	10
+575	friends_align	aligned	facebook/blenderbot-400M-distill	 is bermuda bahama come	 on	we	9.321270942687988	5.216593265533447	8.950006304075941e-05	0.0857374519109726	10
+576	friends_align	aligned	facebook/blenderbot-400M-distill	 bermuda bahama come on	 pretty	soon	5.929258346557617	6.2696123123168945	0.002660454250872135	0.04232901707291603	10
+577	friends_align	aligned	facebook/blenderbot-400M-distill	ermuda bahama come on pretty	 m	use	4.480047225952148	5.08571195602417	0.011332880705595016	0.10600403696298599	10
+578	friends_align	aligned	facebook/blenderbot-400M-distill	uda bahama come on pretty m	ama	's	8.41405200958252	5.795050621032715	0.00022172958415467292	0.08805485814809799	10
+579	friends_align	aligned	facebook/blenderbot-400M-distill	a bahama come on pretty mama	 mon	t	7.170746326446533	5.016426086425781	0.0007687486940994859	0.1360965073108673	10
+580	friends_align	aligned	facebook/blenderbot-400M-distill	 bahama come on pretty mama mon	ica	</s>	8.944339752197266	5.681362152099609	0.0001304736506426707	0.14387473464012146	10
+581	friends_align	aligned	facebook/blenderbot-400M-distill	ahama come on pretty mama monica	 laughed	.	10.299898147583008	3.9546680450439453	3.363653377164155e-05	0.16924582421779633	10
+582	friends_align	aligned	facebook/blenderbot-400M-distill	hama come on pretty mama monica laughed	</s>	and	6.091265678405762	4.907930850982666	0.0022625429555773735	0.10636331886053085	10

@@ -1,0 +1,748 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Denny's, It's always open"	","""		3.41475248336792	4.770473480224609	0.032884545624256134	0.11314736306667328	10
+1	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Denny's, It's always open,"""	 pro	""""	8.635988235473633	5.857149124145508	0.00017759800539352	0.07388726621866226	10
+2	santa_transcript	transcript	facebook/blenderbot-400M-distill	"enny's, It's always open,"" pro"	cl	ess	9.935972213745117	5.0904741287231445	4.840184556087479e-05	0.16093787550926208	10
+3	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ny's, It's always open,"" procl"	aim	es	13.316913604736328	1.5739669799804688	1.646410055400338e-06	0.5036932229995728	10
+4	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'s, It's always open,"" proclaim"	ed	""""	9.090977668762207	2.4102272987365723	0.00011267785157542676	0.3596595823764801	10
+5	santa_transcript	transcript	facebook/blenderbot-400M-distill	", It's always open,"" proclaimed"	 Scott	"."""	12.316367149353027	4.03233003616333	4.477852598938625e-06	0.1763436198234558	10
+6	santa_transcript	transcript	facebook/blenderbot-400M-distill	" It's always open,"" proclaimed Scott"	 as	I	6.582364082336426	5.0840888023376465	0.001384572358801961	0.1721155047416687	10
+7	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'s always open,"" proclaimed Scott as"	 he	's	4.947711944580078	5.292460918426514	0.007099634036421776	0.14900074899196625	10
+8	santa_transcript	transcript	facebook/blenderbot-400M-distill	" always open,"" proclaimed Scott as he"	 opened	up	8.241857528686523	4.665874481201172	0.00026339440955780447	0.11088505387306213	10
+9	santa_transcript	transcript	facebook/blenderbot-400M-distill	" open,"" proclaimed Scott as he opened"	 the		6.625085353851318	6.270567893981934	0.0013266672613099217	0.03253593295812607	10
+10	santa_transcript	transcript	facebook/blenderbot-400M-distill	","" proclaimed Scott as he opened the"	 door	.	4.281851291656494	3.6845295429229736	0.013817057013511658	0.36466893553733826	10
+11	santa_transcript	transcript	facebook/blenderbot-400M-distill	 proclaimed Scott as he opened the door	 to	but	4.908188819885254	6.16099739074707	0.007385855074971914	0.05271671712398529	10
+12	santa_transcript	transcript	facebook/blenderbot-400M-distill	claimed Scott as he opened the door to	 the	next	6.522080421447754	6.440369129180908	0.0014706060755997896	0.05833561345934868	10
+13	santa_transcript	transcript	facebook/blenderbot-400M-distill	aimed Scott as he opened the door to the	 restaurant	.	9.49692153930664	4.3524603843688965	7.508264388889074e-05	0.21109576523303986	10
+14	santa_transcript	transcript	facebook/blenderbot-400M-distill	ed Scott as he opened the door to the restaurant	.		6.1211347579956055	5.8106465339660645	0.0021959622390568256	0.11411821097135544	10
+15	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Scott as he opened the door to the restaurant.	 His	own	10.992225646972656	5.987033843994141	1.6832056644489057e-05	0.08095929026603699	10
+16	santa_transcript	transcript	facebook/blenderbot-400M-distill	 as he opened the door to the restaurant. His	 son	.	6.854215621948242	5.249744415283203	0.0010549990693107247	0.13058710098266602	10
+17	santa_transcript	transcript	facebook/blenderbot-400M-distill	 he opened the door to the restaurant. His son	 Char	ity	5.083359241485596	4.152802467346191	0.0061990502290427685	0.08217347413301468	10
+18	santa_transcript	transcript	facebook/blenderbot-400M-distill	 opened the door to the restaurant. His son Char	l	est	7.729780197143555	2.0785562992095947	0.0004395406285766512	0.44594329595565796	10
+19	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the door to the restaurant. His son Charl	ie	.	7.727417469024658	5.200697898864746	0.00044058053754270077	0.17619886994361877	10
+20	santa_transcript	transcript	facebook/blenderbot-400M-distill	 door to the restaurant. His son Charlie	 gr	ant	1.8126274347305298	3.3615458011627197	0.1632247120141983	0.1687236726284027	10
+21	santa_transcript	transcript	facebook/blenderbot-400M-distill	 to the restaurant. His son Charlie gr	im	s	6.725279331207275	3.482529401779175	0.0012001855066046119	0.48557454347610474	10
+22	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the restaurant. His son Charlie grim	ly	.	9.466952323913574	4.195823669433594	7.736683619441465e-05	0.35288581252098083	10
+23	santa_transcript	transcript	facebook/blenderbot-400M-distill	 restaurant. His son Charlie grimly	 sh	od	7.308324813842773	4.2080078125	0.0006699381629005075	0.11322120577096939	10
+24	santa_transcript	transcript	facebook/blenderbot-400M-distill	. His son Charlie grimly sh	uff	le	12.005075454711914	3.4819517135620117	6.113106337579666e-06	0.27128469944000244	10
+25	santa_transcript	transcript	facebook/blenderbot-400M-distill	 His son Charlie grimly shuff	led	I	12.367411613464355	4.844552993774414	4.255016392562538e-06	0.19680514931678772	10
+26	santa_transcript	transcript	facebook/blenderbot-400M-distill	 son Charlie grimly shuffled	 through	I	8.516408920288086	5.631288528442383	0.0002001569519052282	0.09367784857749939	10
+27	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Charlie grimly shuffled through	 the	I	7.389578342437744	6.104238986968994	0.0006176564493216574	0.08796825259923935	10
+28	santa_transcript	transcript	facebook/blenderbot-400M-distill	lie grimly shuffled through the	 door	of	7.061708450317383	4.032686233520508	0.000857311999425292	0.23930926620960236	10
+29	santa_transcript	transcript	facebook/blenderbot-400M-distill	ie grimly shuffled through the door	,	I	5.355167388916016	5.1809539794921875	0.004723679274320602	0.14431992173194885	10
+30	santa_transcript	transcript	facebook/blenderbot-400M-distill	 grimly shuffled through the door,	 k	k	2.1775436401367188	5.733492851257324	0.11331955343484879	0.11331955343484879	10
+31	santa_transcript	transcript	facebook/blenderbot-400M-distill	imly shuffled through the door, k	icking	,	11.675081253051758	5.599831581115723	8.503084245603532e-06	0.07123909145593643	10
+32	santa_transcript	transcript	facebook/blenderbot-400M-distill	ly shuffled through the door, kicking	 snow	.	4.322125434875488	4.228344440460205	0.013271644711494446	0.19138015806674957	10
+33	santa_transcript	transcript	facebook/blenderbot-400M-distill	 shuffled through the door, kicking snow	 onto	to	8.015673637390137	5.883747577667236	0.0003302457043901086	0.06180402636528015	10
+34	santa_transcript	transcript	facebook/blenderbot-400M-distill	uffled through the door, kicking snow onto	 the	to	7.42996883392334	6.634764671325684	0.000593205913901329	0.03156154230237007	10
+35	santa_transcript	transcript	facebook/blenderbot-400M-distill	led through the door, kicking snow onto the	 entry	of	6.945425033569336	1.984938144683838	0.0009630309650674462	0.7487004995346069	10
+36	santa_transcript	transcript	facebook/blenderbot-400M-distill	 through the door, kicking snow onto the entry	way	to	11.41383171081543	3.793134927749634	1.1041694051527884e-05	0.2672048509120941	10
+37	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the door, kicking snow onto the entryway	 car	.	5.338434219360352	5.0743513107299805	0.004803386516869068	0.22052432596683502	10
+38	santa_transcript	transcript	facebook/blenderbot-400M-distill	 door, kicking snow onto the entryway car	pet	.	12.568231582641602	4.260111331939697	3.48085859513958e-06	0.21697291731834412	10
+39	santa_transcript	transcript	facebook/blenderbot-400M-distill	, kicking snow onto the entryway carpet	.	</s>	6.316829681396484	3.8265058994293213	0.0018056591507047415	0.2738834023475647	10
+40	santa_transcript	transcript	facebook/blenderbot-400M-distill	 kicking snow onto the entryway carpet.	" """	""""	7.315681457519531	5.476416110992432	0.0006650281138718128	0.07871703803539276	10
+41	santa_transcript	transcript	facebook/blenderbot-400M-distill	"icking snow onto the entryway carpet. """	I	s	10.820013046264648	2.233262538909912	1.9995295588159934e-05	0.6499337553977966	10
+42	santa_transcript	transcript	facebook/blenderbot-400M-distill	" snow onto the entryway carpet. ""I"	 don	't	8.754497528076172	0.154161736369133	0.0001577502116560936	0.984307587146759	10
+43	santa_transcript	transcript	facebook/blenderbot-400M-distill	" onto the entryway carpet. ""I don"	't	""""	5.773841857910156	4.467879772186279	0.0031077954918146133	0.24514240026474	10
+44	santa_transcript	transcript	facebook/blenderbot-400M-distill	" the entryway carpet. ""I don't"	 want	to	6.365684986114502	1.3898887634277344	0.001719563384540379	0.8150352239608765	10
+45	santa_transcript	transcript	facebook/blenderbot-400M-distill	" entryway carpet. ""I don't want"	 to	do	4.839051246643066	4.680037498474121	0.007914560846984386	0.14665542542934418	10
+46	santa_transcript	transcript	facebook/blenderbot-400M-distill	"way carpet. ""I don't want to"	 eat	at	6.828635215759277	4.93440055847168	0.0010823344346135855	0.1592484712600708	10
+47	santa_transcript	transcript	facebook/blenderbot-400M-distill	" carpet. ""I don't want to eat"	 here	.	8.288917541503906	2.7295923233032227	0.00025128625566139817	0.4266262650489807	10
+48	santa_transcript	transcript	facebook/blenderbot-400M-distill	"pet. ""I don't want to eat here"	","""		11.1610107421875	4.721392631530762	1.4217875104804989e-05	0.10427755862474442	10
+49	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""I don't want to eat here,"""	 he	,	4.123393535614014	5.539247035980225	0.01618948206305504	0.09560717642307281	10
+50	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""I don't want to eat here,"" he"	 m	ens	4.601291656494141	5.752877235412598	0.010038858279585838	0.06481196731328964	10
+51	santa_transcript	transcript	facebook/blenderbot-400M-distill	"I don't want to eat here,"" he m"	umb	les	15.733960151672363	0.0889771357178688	1.4683443794183404e-07	0.9897673726081848	10
+52	santa_transcript	transcript	facebook/blenderbot-400M-distill	" don't want to eat here,"" he mumb"	led	a	11.406867980957031	4.960120677947998	1.1118859220005106e-05	0.08865624666213989	10
+53	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'t want to eat here,"" he mumbled"	 as	we	5.944702625274658	4.217831611633301	0.0026196816470474005	0.2241605520248413	10
+54	santa_transcript	transcript	facebook/blenderbot-400M-distill	" want to eat here,"" he mumbled as"	 Scott	ish	10.453963279724121	0.6041969656944275	2.8833761462010443e-05	0.9388207197189331	10
+55	santa_transcript	transcript	facebook/blenderbot-400M-distill	" to eat here,"" he mumbled as Scott"	 ent	h	6.760810375213623	4.082128047943115	0.0011582899605855346	0.3191540539264679	10
+56	santa_transcript	transcript	facebook/blenderbot-400M-distill	" eat here,"" he mumbled as Scott ent"	ered	me	14.200927734375	5.324268341064453	6.801672043366125e-07	0.1466570943593979	10
+57	santa_transcript	transcript	facebook/blenderbot-400M-distill	" here,"" he mumbled as Scott entered"	 behind	""""	10.762463569641113	5.134443283081055	2.117977783200331e-05	0.06697964668273926	10
+58	santa_transcript	transcript	facebook/blenderbot-400M-distill	","" he mumbled as Scott entered behind"	 him	.	7.644700050354004	5.026894569396973	0.0004785737837664783	0.13817651569843292	10
+59	santa_transcript	transcript	facebook/blenderbot-400M-distill	 he mumbled as Scott entered behind him	.		6.774704933166504	3.8905375003814697	0.0011423075338825583	0.2333166003227234	10
+60	santa_transcript	transcript	facebook/blenderbot-400M-distill	 mumbled as Scott entered behind him.	 This	.	10.624464988708496	3.842054843902588	2.4313832909683697e-05	0.4341115653514862	10
+61	santa_transcript	transcript	facebook/blenderbot-400M-distill	umbled as Scott entered behind him. This	 wasn	't	14.689643859863281	0.10395289957523346	4.1722353216755437e-07	0.9881725907325745	10
+62	santa_transcript	transcript	facebook/blenderbot-400M-distill	led as Scott entered behind him. This wasn	't	a	7.733165740966797	5.095181941986084	0.0004380551108624786	0.08769048005342484	10
+63	santa_transcript	transcript	facebook/blenderbot-400M-distill	 as Scott entered behind him. This wasn't	 how	I	7.006170272827148	2.60562801361084	0.0009062726749107242	0.35896584391593933	10
+64	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Scott entered behind him. This wasn't how	 he	's	5.316219329833984	4.697848320007324	0.004911287687718868	0.14927342534065247	10
+65	santa_transcript	transcript	facebook/blenderbot-400M-distill	 entered behind him. This wasn't how he	 had	to	5.219930648803711	4.657240867614746	0.005407704506069422	0.12159314751625061	10
+66	santa_transcript	transcript	facebook/blenderbot-400M-distill	ered behind him. This wasn't how he had	 picture	.	11.253523826599121	3.3437414169311523	1.2961543689016253e-05	0.517319917678833	10
+67	santa_transcript	transcript	facebook/blenderbot-400M-distill	 behind him. This wasn't how he had picture	d	.	8.442648887634277	2.715508460998535	0.00021547866344917566	0.5122801661491394	10
+68	santa_transcript	transcript	facebook/blenderbot-400M-distill	 him. This wasn't how he had pictured	 spending	time	7.250898838043213	4.939475059509277	0.000709536368958652	0.196609765291214	10
+69	santa_transcript	transcript	facebook/blenderbot-400M-distill	. This wasn't how he had pictured spending	 his	time	6.64902400970459	6.088436603546143	0.0012952854158356786	0.09231073409318924	10
+70	santa_transcript	transcript	facebook/blenderbot-400M-distill	 This wasn't how he had pictured spending his	 Christmas	.	7.515162944793701	5.7882490158081055	0.000544761132914573	0.06713943928480148	10
+71	santa_transcript	transcript	facebook/blenderbot-400M-distill	 wasn't how he had pictured spending his Christmas	 E	ur	3.948914051055908	4.543530464172363	0.019275624305009842	0.21279193460941315	10
+72	santa_transcript	transcript	facebook/blenderbot-400M-distill	't how he had pictured spending his Christmas E	ve	.	7.04450798034668	5.082411766052246	0.0008721859776414931	0.17283576726913452	10
+73	santa_transcript	transcript	facebook/blenderbot-400M-distill	 how he had pictured spending his Christmas Eve	.	R	8.76513671875	5.262356758117676	0.00015608087414875627	0.05155271664261818	10
+74	santa_transcript	transcript	facebook/blenderbot-400M-distill	 he had pictured spending his Christmas Eve.	" """	""""	8.52099609375	5.174659729003906	0.0001992409524973482	0.1735580563545227	10
+75	santa_transcript	transcript	facebook/blenderbot-400M-distill	" had pictured spending his Christmas Eve. """	What	do	10.494531631469727	5.231861591339111	2.7687425244948827e-05	0.06686362624168396	10
+76	santa_transcript	transcript	facebook/blenderbot-400M-distill	" pictured spending his Christmas Eve. ""What"	 are	you	5.2893452644348145	2.9505903720855713	0.005045062862336636	0.4479577839374542	10
+77	santa_transcript	transcript	facebook/blenderbot-400M-distill	"d spending his Christmas Eve. ""What are"	 you	doing	5.282460689544678	4.128321647644043	0.005079915281385183	0.3732590079307556	10
+78	santa_transcript	transcript	facebook/blenderbot-400M-distill	" spending his Christmas Eve. ""What are you"	 talking	about	11.225825309753418	0.31280291080474854	1.332558076683199e-05	0.9622395634651184	10
+79	santa_transcript	transcript	facebook/blenderbot-400M-distill	" his Christmas Eve. ""What are you talking"	 about	.	7.129482269287109	3.4708399772644043	0.0008011338068172336	0.29358598589897156	10
+80	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Christmas Eve. ""What are you talking about"	"?"""	</s>	10.742124557495117	3.5340158939361572	2.1614969227812253e-05	0.4488034248352051	10
+81	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Eve. ""What are you talking about?"""	" """	N	6.447201728820801	4.305394649505615	0.0015849508345127106	0.11226393282413483	10
+82	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ve. ""What are you talking about?"" """	E	""""	6.881375312805176	3.752131938934326	0.0010267309844493866	0.32667338848114014	10
+83	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""What are you talking about?"" ""E"	very	""""	9.576515197753906	2.3209002017974854	6.933816621312872e-05	0.6763803958892822	10
+84	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""What are you talking about?"" ""Every"	body	""""	11.324552536010742	1.7706630229949951	1.2072835488652345e-05	0.7460396885871887	10
+85	santa_transcript	transcript	facebook/blenderbot-400M-distill	"What are you talking about?"" ""Everybody"	 likes	""""	8.516728401184082	4.139987945556641	0.00020009302534162998	0.3158254325389862	10
+86	santa_transcript	transcript	facebook/blenderbot-400M-distill	" are you talking about?"" ""Everybody likes"	 Den	ies	6.316375255584717	4.442417144775391	0.0018064798787236214	0.18774041533470154	10
+87	santa_transcript	transcript	facebook/blenderbot-400M-distill	" you talking about?"" ""Everybody likes Den"	ny	's	10.241015434265137	4.037371635437012	3.5676614061230794e-05	0.2676487863063812	10
+88	santa_transcript	transcript	facebook/blenderbot-400M-distill	" talking about?"" ""Everybody likes Denny"	's	""""	4.256278038024902	5.072564125061035	0.014174959622323513	0.21014715731143951	10
+89	santa_transcript	transcript	facebook/blenderbot-400M-distill	" about?"" ""Everybody likes Denny's"	"."""	R	8.246061325073242	4.94734001159668	0.00026228968636132777	0.11429945379495621	10
+90	santa_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""Everybody likes Denny's."""	" """	H	10.867635726928711	3.210458755493164	1.906539728224743e-05	0.14914537966251373	10
+91	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Everybody likes Denny's."" """	It	's	15.678028106689453	2.749758243560791	1.5528122787600296e-07	0.44355612993240356	10
+92	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Everybody likes Denny's."" ""It"	's	""""	5.4840192794799805	5.222995281219482	0.004152604378759861	0.08580571413040161	10
+93	santa_transcript	transcript	facebook/blenderbot-400M-distill	"verybody likes Denny's."" ""It's"	 an	""""	6.994800567626953	4.606655120849609	0.0009166354429908097	0.24433010816574097	10
+94	santa_transcript	transcript	facebook/blenderbot-400M-distill	"body likes Denny's."" ""It's an"	 American	""""	8.278312683105469	5.709639549255371	0.0002539654087740928	0.14060069620609283	10
+95	santa_transcript	transcript	facebook/blenderbot-400M-distill	" likes Denny's."" ""It's an American"	 inst	a	6.510996341705322	4.278339385986328	0.0014869975857436657	0.17706231772899628	10
+96	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Denny's."" ""It's an American inst"	itution	"."""	12.483171463012695	1.6867963075637817	3.789897164097056e-06	0.6149895191192627	10
+97	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ny's."" ""It's an American institution"	"!"""	</s>	5.6340742111206055	3.59177303314209	0.0035739848390221596	0.2959139943122864	10
+98	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'s."" ""It's an American institution!"""	 As	in	7.489263534545898	5.01851749420166	0.0005590543150901794	0.12574154138565063	10
+99	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""It's an American institution!"" As"	 they	say	6.434393405914307	5.102710723876953	0.0016053823055699468	0.1801391839981079	10
+100	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""It's an American institution!"" As they"	 appro	ve	9.994027137756348	1.862090826034546	4.5671909902011976e-05	0.6626202464103699	10
+101	santa_transcript	transcript	facebook/blenderbot-400M-distill	"It's an American institution!"" As they appro"	ached	.	14.981107711791992	4.565393924713135	3.1173641446002875e-07	0.15833662450313568	10
+102	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'s an American institution!"" As they approached"	 the	same	7.063760757446289	6.528006553649902	0.0008555545355193317	0.04996424913406372	10
+103	santa_transcript	transcript	facebook/blenderbot-400M-distill	" an American institution!"" As they approached the"	 host	s	7.704427242279053	3.6778197288513184	0.0004508268611971289	0.3825354278087616	10
+104	santa_transcript	transcript	facebook/blenderbot-400M-distill	" American institution!"" As they approached the host"	ess	es	3.942148208618164	1.3588634729385376	0.019406484439969063	0.8231096863746643	10
+105	santa_transcript	transcript	facebook/blenderbot-400M-distill	" institution!"" As they approached the hostess"	 stand	.	6.562417030334473	5.7775421142578125	0.001412467798218131	0.0884731337428093	10
+106	santa_transcript	transcript	facebook/blenderbot-400M-distill	"itution!"" As they approached the hostess stand"	,	I	5.423969745635986	5.747413635253906	0.004409607034176588	0.0762770026922226	10
+107	santa_transcript	transcript	facebook/blenderbot-400M-distill	"!"" As they approached the hostess stand,"	 they	do	6.653181552886963	5.186835289001465	0.001289911917410791	0.07054419815540314	10
+108	santa_transcript	transcript	facebook/blenderbot-400M-distill	 As they approached the hostess stand, they	 heard	about	7.884919166564941	4.142602920532227	0.0003763770218938589	0.12441752851009369	10
+109	santa_transcript	transcript	facebook/blenderbot-400M-distill	 they approached the hostess stand, they heard	 a	bit	4.373994827270508	6.396416664123535	0.01260080374777317	0.02951705828309059	10
+110	santa_transcript	transcript	facebook/blenderbot-400M-distill	 approached the hostess stand, they heard a	 loud	one	8.86140251159668	6.071533679962158	0.0001417561579728499	0.060537997633218765	10
+111	santa_transcript	transcript	facebook/blenderbot-400M-distill	ached the hostess stand, they heard a loud	 comm	end	4.5746965408325195	3.73777437210083	0.010309428907930851	0.18950976431369781	10
+112	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the hostess stand, they heard a loud comm	ot	ion	8.773451805114746	0.3290466070175171	0.0001547883148305118	0.9618939757347107	10
+113	santa_transcript	transcript	facebook/blenderbot-400M-distill	 hostess stand, they heard a loud commot	ion	and	10.030352592468262	5.2690558433532715	4.4042626541340724e-05	0.07244393974542618	10
+114	santa_transcript	transcript	facebook/blenderbot-400M-distill	ess stand, they heard a loud commotion	 from	a	7.988714218139648	4.749364852905273	0.0003392701328266412	0.21861112117767334	10
+115	santa_transcript	transcript	facebook/blenderbot-400M-distill	 stand, they heard a loud commotion from	 inside	a	11.023327827453613	4.022340297698975	1.6316593246301636e-05	0.3003125488758087	10
+116	santa_transcript	transcript	facebook/blenderbot-400M-distill	, they heard a loud commotion from inside	 the	last	6.725337028503418	6.291843891143799	0.0012001158902421594	0.030400337651371956	10
+117	santa_transcript	transcript	facebook/blenderbot-400M-distill	 they heard a loud commotion from inside the	 restaurant	I	9.22578239440918	4.687487602233887	9.846765169641003e-05	0.09602302312850952	10
+118	santa_transcript	transcript	facebook/blenderbot-400M-distill	 heard a loud commotion from inside the restaurant	.		7.77336311340332	5.3930182456970215	0.00042079572449438274	0.11239255219697952	10
+119	santa_transcript	transcript	facebook/blenderbot-400M-distill	 a loud commotion from inside the restaurant.	 A	lot	6.2424116134643555	5.936850547790527	0.0019451595144346356	0.13655118644237518	10
+120	santa_transcript	transcript	facebook/blenderbot-400M-distill	 loud commotion from inside the restaurant. A	 huge	one	6.659373760223389	5.828326225280762	0.0012819489929825068	0.08941115438938141	10
+121	santa_transcript	transcript	facebook/blenderbot-400M-distill	 commotion from inside the restaurant. A huge	 table	.	8.682065963745117	3.7466089725494385	0.00016960040375124663	0.3668999969959259	10
+122	santa_transcript	transcript	facebook/blenderbot-400M-distill	otion from inside the restaurant. A huge table	 of	things	8.393187522888184	5.480222702026367	0.00022640447423327714	0.09204677492380142	10
+123	santa_transcript	transcript	facebook/blenderbot-400M-distill	ion from inside the restaurant. A huge table of	 Japanese	people	8.427033424377441	5.453878402709961	0.0002188698126701638	0.19368290901184082	10
+124	santa_transcript	transcript	facebook/blenderbot-400M-distill	 from inside the restaurant. A huge table of Japanese	 business	.	9.351421356201172	4.196730613708496	8.684185741003603e-05	0.24471454322338104	10
+125	santa_transcript	transcript	facebook/blenderbot-400M-distill	 inside the restaurant. A huge table of Japanese business	men	.	8.478952407836914	4.958541393280029	0.00020779631449840963	0.2425621896982193	10
+126	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the restaurant. A huge table of Japanese businessmen	 were	a	7.411106109619141	5.560617923736572	0.0006045016925781965	0.12585951387882233	10
+127	santa_transcript	transcript	facebook/blenderbot-400M-distill	 restaurant. A huge table of Japanese businessmen were	 excited	about	5.660358428955078	3.165210485458374	0.003481269348412752	0.22276544570922852	10
+128	santa_transcript	transcript	facebook/blenderbot-400M-distill	. A huge table of Japanese businessmen were excited	ly	and	6.775875091552734	4.512623310089111	0.001140971900895238	0.25501111149787903	10
+129	santa_transcript	transcript	facebook/blenderbot-400M-distill	 A huge table of Japanese businessmen were excitedly	 g	orge	5.33662748336792	5.513282299041748	0.004812072496861219	0.0777151808142662	10
+130	santa_transcript	transcript	facebook/blenderbot-400M-distill	 huge table of Japanese businessmen were excitedly g	est	ures	5.14292049407959	1.8746904134750366	0.005840606056153774	0.5354359149932861	10
+131	santa_transcript	transcript	facebook/blenderbot-400M-distill	 table of Japanese businessmen were excitedly gest	uring	a	11.955145835876465	5.383176803588867	6.426082109101117e-06	0.09772728383541107	10
+132	santa_transcript	transcript	facebook/blenderbot-400M-distill	 of Japanese businessmen were excitedly gesturing	 to	a	4.963718891143799	5.354587078094482	0.006986895110458136	0.09577466547489166	10
+133	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Japanese businessmen were excitedly gesturing to	 one	of	6.789346694946289	5.410017967224121	0.0011257039150223136	0.08637811243534088	10
+134	santa_transcript	transcript	facebook/blenderbot-400M-distill	 businessmen were excitedly gesturing to one	 another	's	8.093385696411133	5.1041460037231445	0.0003055535489693284	0.14859777688980103	10
+135	santa_transcript	transcript	facebook/blenderbot-400M-distill	men were excitedly gesturing to one another	 and	were	6.007785797119141	5.167353630065918	0.002459527226164937	0.09829551726579666	10
+136	santa_transcript	transcript	facebook/blenderbot-400M-distill	 were excitedly gesturing to one another and	 er	r	7.620490074157715	5.597684860229492	0.0004903015797026455	0.09132371842861176	10
+137	santa_transcript	transcript	facebook/blenderbot-400M-distill	 excitedly gesturing to one another and er	up	el	8.606790542602539	2.745652675628662	0.00018285989062860608	0.6219384074211121	10
+138	santa_transcript	transcript	facebook/blenderbot-400M-distill	ly gesturing to one another and erup	ting	again	12.018474578857422	5.293799877166748	6.031744305801112e-06	0.10857533663511276	10
+139	santa_transcript	transcript	facebook/blenderbot-400M-distill	 gesturing to one another and erupting	 in	the	6.8406267166137695	5.5967559814453125	0.001069432939402759	0.091689832508564	10
+140	santa_transcript	transcript	facebook/blenderbot-400M-distill	esturing to one another and erupting in	 up	st	7.203368186950684	4.930610656738281	0.0007440756307914853	0.23625396192073822	10
+141	santa_transcript	transcript	facebook/blenderbot-400M-distill	uring to one another and erupting in up	ro	ad	3.2334530353546143	5.4477434158325195	0.03942113742232323	0.06519667059183121	10
+142	santa_transcript	transcript	facebook/blenderbot-400M-distill	 to one another and erupting in upro	ars	.	11.100761413574219	4.829541206359863	1.5100817108759657e-05	0.1270882934331894	10
+143	santa_transcript	transcript	facebook/blenderbot-400M-distill	 one another and erupting in uproars	 of	a	5.30174446105957	5.832973480224609	0.004982894752174616	0.035241689532995224	10
+144	santa_transcript	transcript	facebook/blenderbot-400M-distill	 another and erupting in uproars of	 laugh	s	11.920079231262207	0.7697833776473999	6.655415745626669e-06	0.9138906002044678	10
+145	santa_transcript	transcript	facebook/blenderbot-400M-distill	 and erupting in uproars of laugh	ter	</s>	11.696758270263672	3.9842770099639893	8.320749657286797e-06	0.21023039519786835	10
+146	santa_transcript	transcript	facebook/blenderbot-400M-distill	 erupting in uproars of laughter	.		6.95278263092041	5.109647274017334	0.0009559710160829127	0.19696946442127228	10
+147	santa_transcript	transcript	facebook/blenderbot-400M-distill	upting in uproars of laughter.	 Har	ry	5.915614128112793	5.271923065185547	0.0026970035396516323	0.13029326498508453	10
+148	santa_transcript	transcript	facebook/blenderbot-400M-distill	ting in uproars of laughter. Har	ried	.	9.740384101867676	4.156340599060059	5.885793507331982e-05	0.35013169050216675	10
+149	santa_transcript	transcript	facebook/blenderbot-400M-distill	 in uproars of laughter. Harried	 wait	.	7.125875473022461	3.3271074295043945	0.0008040288230404258	0.4831634759902954	10
+150	santa_transcript	transcript	facebook/blenderbot-400M-distill	 uproars of laughter. Harried wait	ress	es	10.750822067260742	0.3740411102771759	2.1427778847282752e-05	0.9457194209098816	10
+151	santa_transcript	transcript	facebook/blenderbot-400M-distill	roars of laughter. Harried waitress	es	.	8.375726699829102	2.5803427696228027	0.0002303924411535263	0.6643974781036377	10
+152	santa_transcript	transcript	facebook/blenderbot-400M-distill	ars of laughter. Harried waitresses	 we	all	6.333744525909424	5.01396369934082	0.0017753735883161426	0.15120409429073334	10
+153	santa_transcript	transcript	facebook/blenderbot-400M-distill	 of laughter. Harried waitresses we	a	ve	6.503547191619873	4.252050399780273	0.0014981155982241035	0.2333713322877884	10
+154	santa_transcript	transcript	facebook/blenderbot-400M-distill	 laughter. Harried waitresses wea	ved	.	11.906508445739746	4.850047588348389	6.746355211362243e-06	0.1940612643957138	10
+155	santa_transcript	transcript	facebook/blenderbot-400M-distill	ter. Harried waitresses weaved	 between	.	12.668230056762695	3.3964269161224365	3.1496151677856687e-06	0.5755311250686646	10
+156	santa_transcript	transcript	facebook/blenderbot-400M-distill	. Harried waitresses weaved between	 them	and	9.75477409362793	5.753199577331543	5.801701627206057e-05	0.062247540801763535	10
+157	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Harried waitresses weaved between them	 to	a	4.4528303146362305	4.8086466789245605	0.011645556427538395	0.15611234307289124	10
+158	santa_transcript	transcript	facebook/blenderbot-400M-distill	ried waitresses weaved between them to	 p	ec	5.4397873878479	5.1170854568481445	0.004340405575931072	0.12258537113666534	10
+159	santa_transcript	transcript	facebook/blenderbot-400M-distill	 waitresses weaved between them to p	our	.	8.292057037353516	5.309185028076172	0.00025049876421689987	0.11714665591716766	10
+160	santa_transcript	transcript	facebook/blenderbot-400M-distill	resses weaved between them to pour	 ref	lex	2.4646105766296387	4.8848958015441895	0.08504194021224976	0.13956797122955322	10
+161	santa_transcript	transcript	facebook/blenderbot-400M-distill	es weaved between them to pour ref	ills	.	12.332698822021484	4.23225212097168	4.405316303746076e-06	0.2987179458141327	10
+162	santa_transcript	transcript	facebook/blenderbot-400M-distill	 weaved between them to pour refills	 of	I	5.468783378601074	5.612543106079102	0.004216358065605164	0.11863552778959274	10
+163	santa_transcript	transcript	facebook/blenderbot-400M-distill	aved between them to pour refills of	 coffee	.	7.5179524421691895	5.318908214569092	0.0005432437756098807	0.132438063621521	10
+164	santa_transcript	transcript	facebook/blenderbot-400M-distill	ved between them to pour refills of coffee	.		6.7122931480407715	4.780355930328369	0.0012158725876361132	0.12481214106082916	10
+165	santa_transcript	transcript	facebook/blenderbot-400M-distill	 between them to pour refills of coffee.	 A	lot	7.014345169067383	6.021492958068848	0.0008988941553980112	0.10523916780948639	10
+166	santa_transcript	transcript	facebook/blenderbot-400M-distill	 them to pour refills of coffee. A	 host	ess	9.129212379455566	3.4087977409362793	0.00010845094220712781	0.4815494120121002	10
+167	santa_transcript	transcript	facebook/blenderbot-400M-distill	 to pour refills of coffee. A host	ess	.	3.7756972312927246	4.638955116271973	0.022921103984117508	0.2576850652694702	10
+168	santa_transcript	transcript	facebook/blenderbot-400M-distill	 pour refills of coffee. A hostess	 hur	ry	6.875334739685059	2.216651439666748	0.001032951520755887	0.6781702637672424	10
+169	santa_transcript	transcript	facebook/blenderbot-400M-distill	our refills of coffee. A hostess hur	ried	.	11.153483390808105	4.1194586753845215	1.4325304618978407e-05	0.44312286376953125	10
+170	santa_transcript	transcript	facebook/blenderbot-400M-distill	 refills of coffee. A hostess hurried	 up	.	9.566350936889648	2.984369993209839	7.004653889453039e-05	0.5462003350257874	10
+171	santa_transcript	transcript	facebook/blenderbot-400M-distill	ills of coffee. A hostess hurried up	 to	.	4.36476993560791	5.333761215209961	0.012717582285404205	0.20020584762096405	10
+172	santa_transcript	transcript	facebook/blenderbot-400M-distill	 of coffee. A hostess hurried up to	 meet	.	7.765495777130127	4.3289079666137695	0.00042411929462105036	0.2831264138221741	10
+173	santa_transcript	transcript	facebook/blenderbot-400M-distill	 coffee. A hostess hurried up to meet	 them	.	9.688178062438965	2.465878963470459	6.20123028056696e-05	0.6434573531150818	10
+174	santa_transcript	transcript	facebook/blenderbot-400M-distill	. A hostess hurried up to meet them	.		7.231569290161133	5.111433506011963	0.0007233847863972187	0.18628259003162384	10
+175	santa_transcript	transcript	facebook/blenderbot-400M-distill	 A hostess hurried up to meet them.	" """		6.798885345458984	6.1251044273376465	0.0011150175705552101	0.05432147532701492	10
+176	santa_transcript	transcript	facebook/blenderbot-400M-distill	" hostess hurried up to meet them. """	A	s	10.644451141357422	5.732651710510254	2.3832722945371643e-05	0.077778659760952	10
+177	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ess hurried up to meet them. ""A"	re	you	11.176985740661621	2.7692768573760986	1.3992550520924851e-05	0.3311293125152588	10
+178	santa_transcript	transcript	facebook/blenderbot-400M-distill	" hurried up to meet them. ""Are"	 you	""""	5.446809768676758	5.206879615783691	0.0043100337497889996	0.09814593195915222	10
+179	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ried up to meet them. ""Are you"	 with	""""	7.442356586456299	4.705730438232422	0.0005859027151018381	0.2432820349931717	10
+180	santa_transcript	transcript	facebook/blenderbot-400M-distill	" up to meet them. ""Are you with"	 H	ob	2.7735190391540527	4.890214443206787	0.062441885471343994	0.08670619130134583	10
+181	santa_transcript	transcript	facebook/blenderbot-400M-distill	" to meet them. ""Are you with H"	ats	""""	12.879666328430176	3.4754586219787598	2.54936594501487e-06	0.2585296928882599	10
+182	santa_transcript	transcript	facebook/blenderbot-400M-distill	" meet them. ""Are you with Hats"	ut	's	4.1570048332214355	5.351755619049072	0.01565437577664852	0.1105140745639801	10
+183	santa_transcript	transcript	facebook/blenderbot-400M-distill	" them. ""Are you with Hatsut"	ash	""""	7.903943061828613	5.680454254150391	0.0003692845057230443	0.04938793554902077	10
+184	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Are you with Hatsutash"	i	h	4.335981369018555	4.551646709442139	0.013089022599160671	0.13224104046821594	10
+185	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Are you with Hatsutashi"	"?"""	</s>	8.149812698364258	3.2395341396331787	0.00028878942248411477	0.4520626664161682	10
+186	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Are you with Hatsutashi?"""	" """	""""	6.608321189880371	3.8031132221221924	0.0013490954879671335	0.2457721084356308	10
+187	santa_transcript	transcript	facebook/blenderbot-400M-distill	"re you with Hatsutashi?"" """	No	""""	12.449600219726562	2.388305187225342	3.919289611076238e-06	0.6478726863861084	10
+188	santa_transcript	transcript	facebook/blenderbot-400M-distill	" you with Hatsutashi?"" ""No"	","""	""""	4.840978622436523	3.335864782333374	0.007899317890405655	0.5208675265312195	10
+189	santa_transcript	transcript	facebook/blenderbot-400M-distill	" with Hatsutashi?"" ""No,"""	 said	"."""	10.20703411102295	2.823136568069458	3.690977973747067e-05	0.20905782282352448	10
+190	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Hatsutashi?"" ""No,"" said"	 Char	ter	3.792424201965332	4.0047760009765625	0.02254088968038559	0.31570184230804443	10
+191	santa_transcript	transcript	facebook/blenderbot-400M-distill	"atsutashi?"" ""No,"" said Char"	l	ot	4.751214027404785	3.1709067821502686	0.008641201071441174	0.33465641736984253	10
+192	santa_transcript	transcript	facebook/blenderbot-400M-distill	"utashi?"" ""No,"" said Charl"	ie	""""	7.052983283996582	4.2893877029418945	0.0008648248622193933	0.17205512523651123	10
+193	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ashi?"" ""No,"" said Charlie"	.	</s>	6.504723072052002	4.489765167236328	0.0014963551657274365	0.09323954582214355	10
+194	santa_transcript	transcript	facebook/blenderbot-400M-distill	"i?"" ""No,"" said Charlie."	" """	W	10.343461990356445	3.1491990089416504	3.2202660804614425e-05	0.2127692848443985	10
+195	santa_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""No,"" said Charlie. """	D	H	4.959508895874023	4.500048637390137	0.007016374263912439	0.06196616217494011	10
+196	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""No,"" said Charlie. ""D"	ad	""""	4.951019287109375	3.9741415977478027	0.007076190784573555	0.35470500588417053	10
+197	santa_transcript	transcript	facebook/blenderbot-400M-distill	"No,"" said Charlie. ""Dad"	 bur	bur	3.3392562866210938	4.194486618041992	0.03546331822872162	0.14959090948104858	10
+198	santa_transcript	transcript	facebook/blenderbot-400M-distill	","" said Charlie. ""Dad bur"	nt	""""	12.145173072814941	3.731215715408325	5.313960627972847e-06	0.32154279947280884	10
+199	santa_transcript	transcript	facebook/blenderbot-400M-distill	" said Charlie. ""Dad burnt"	 the	""""	5.965735912322998	6.436165809631348	0.002565156202763319	0.04516371339559555	10
+200	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Charlie. ""Dad burnt the"	 tur	tle	5.651816368103027	3.5558416843414307	0.0035111336037516594	0.19732938706874847	10
+201	santa_transcript	transcript	facebook/blenderbot-400M-distill	"lie. ""Dad burnt the tur"	key	""""	12.959351539611816	2.2457168102264404	2.354100388402003e-06	0.5539591908454895	10
+202	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ie. ""Dad burnt the turkey"	"."""		9.886883735656738	3.7691121101379395	5.0837104936363176e-05	0.29187339544296265	10
+203	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Dad burnt the turkey."""	" """	s	7.655718803405762	4.882476806640625	0.00047332941903732717	0.12467199563980103	10
+204	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Dad burnt the turkey."" """	Oh	,	9.54450798034668	4.906012058258057	7.15933638275601e-05	0.09135817736387253	10
+205	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Dad burnt the turkey."" ""Oh"	,	I	6.746407508850098	4.921077728271484	0.0011750933481380343	0.1517229825258255	10
+206	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ad burnt the turkey."" ""Oh,"	 yeah	,	6.452717304229736	3.617831230163574	0.0015762329567223787	0.22033202648162842	10
+207	santa_transcript	transcript	facebook/blenderbot-400M-distill	" burnt the turkey."" ""Oh, yeah"	,	I	7.129054069519043	5.565643787384033	0.0008014771738089621	0.09453364461660385	10
+208	santa_transcript	transcript	facebook/blenderbot-400M-distill	"nt the turkey."" ""Oh, yeah,"	 this	""""	7.656836986541748	3.6412856578826904	0.0004728006024379283	0.2509654462337494	10
+209	santa_transcript	transcript	facebook/blenderbot-400M-distill	" the turkey."" ""Oh, yeah, this"	 way	"."""	7.1375627517700195	3.216378688812256	0.0007946867845021188	0.17892248928546906	10
+210	santa_transcript	transcript	facebook/blenderbot-400M-distill	" turkey."" ""Oh, yeah, this way"	,	I	5.660093307495117	5.652026653289795	0.0034821925219148397	0.06683457642793655	10
+211	santa_transcript	transcript	facebook/blenderbot-400M-distill	"key."" ""Oh, yeah, this way,"	 come	on	2.924708843231201	4.585956573486328	0.05368032306432724	0.19140610098838806	10
+212	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Oh, yeah, this way, come"	 on	,	8.821233749389648	2.884289264678955	0.0001475662284065038	0.36218440532684326	10
+213	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Oh, yeah, this way, come on"	","""	at	5.675736427307129	5.254347324371338	0.003428144147619605	0.08647988736629486	10
+214	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Oh, yeah, this way, come on,"""	 said	,	9.41172981262207	4.433347702026367	8.175939728971571e-05	0.2173859179019928	10
+215	santa_transcript	transcript	facebook/blenderbot-400M-distill	", yeah, this way, come on,"" said"	 the	,	6.846036911010742	4.982629776000977	0.0010636629303917289	0.12119016796350479	10
+216	santa_transcript	transcript	facebook/blenderbot-400M-distill	" yeah, this way, come on,"" said the"	 host	ess	11.214311599731445	3.102672576904297	1.3479885637934785e-05	0.4347798228263855	10
+217	santa_transcript	transcript	facebook/blenderbot-400M-distill	", this way, come on,"" said the host"	ess	es	3.282883882522583	2.521028757095337	0.037519898265600204	0.5025333166122437	10
+218	santa_transcript	transcript	facebook/blenderbot-400M-distill	" this way, come on,"" said the hostess"	,	at	6.700107574462891	4.505375862121582	0.0012307794531807303	0.18278062343597412	10
+219	santa_transcript	transcript	facebook/blenderbot-400M-distill	" way, come on,"" said the hostess,"	 motion	at	10.46703815460205	5.203760147094727	2.845921517291572e-05	0.1486874371767044	10
+220	santa_transcript	transcript	facebook/blenderbot-400M-distill	", come on,"" said the hostess, motion"	ing	,	11.388984680175781	3.9904634952545166	1.1319489203742705e-05	0.4343108534812927	10
+221	santa_transcript	transcript	facebook/blenderbot-400M-distill	" come on,"" said the hostess, motioning"	 them	es	8.134892463684082	4.072371006011963	0.0002931305789388716	0.24323418736457825	10
+222	santa_transcript	transcript	facebook/blenderbot-400M-distill	" on,"" said the hostess, motioning them"	 toward	,	9.192026138305664	3.9641971588134766	0.00010184827260673046	0.18874765932559967	10
+223	santa_transcript	transcript	facebook/blenderbot-400M-distill	","" said the hostess, motioning them toward"	 a	C	3.7682945728302	6.584187984466553	0.023091411218047142	0.023266306146979332	10
+224	santa_transcript	transcript	facebook/blenderbot-400M-distill	 said the hostess, motioning them toward a	 back	pack	6.836226463317871	5.125644207000732	0.0010741492733359337	0.08714161068201065	10
+225	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the hostess, motioning them toward a back	 room	in	7.3193583488464355	5.360604286193848	0.0006625872338190675	0.06547998636960983	10
+226	santa_transcript	transcript	facebook/blenderbot-400M-distill	 hostess, motioning them toward a back room	.	</s>	5.718781471252441	4.110318660736084	0.00328370975330472	0.2588616609573364	10
+227	santa_transcript	transcript	facebook/blenderbot-400M-distill	ess, motioning them toward a back room.	 S	end	5.467856407165527	5.536879062652588	0.004220268223434687	0.05346819385886192	10
+228	santa_transcript	transcript	facebook/blenderbot-400M-distill	, motioning them toward a back room. S	ever	al	9.160412788391113	1.0072094202041626	0.00010511945583857596	0.8603222966194153	10
+229	santa_transcript	transcript	facebook/blenderbot-400M-distill	 motioning them toward a back room. Sever	al	.	9.750381469726562	5.4733710289001465	5.8272435126127675e-05	0.1056525930762291	10
+230	santa_transcript	transcript	facebook/blenderbot-400M-distill	ing them toward a back room. Several	 other	people	11.154680252075195	5.789093017578125	1.4308157915365882e-05	0.07951639592647552	10
+231	santa_transcript	transcript	facebook/blenderbot-400M-distill	 them toward a back room. Several other	 families	that	11.616514205932617	3.5970253944396973	9.015959221869707e-06	0.36981794238090515	10
+232	santa_transcript	transcript	facebook/blenderbot-400M-distill	 toward a back room. Several other families	 sat	here	9.822725296020508	5.536011219024658	5.420568777481094e-05	0.07195431739091873	10
+233	santa_transcript	transcript	facebook/blenderbot-400M-distill	 a back room. Several other families sat	 quiet	ly	9.30296516418457	2.036936044692993	9.115355351241305e-05	0.6980140209197998	10
+234	santa_transcript	transcript	facebook/blenderbot-400M-distill	 back room. Several other families sat quiet	ly	.	10.414274215698242	1.740128755569458	3.0001174309290946e-05	0.7545396089553833	10
+235	santa_transcript	transcript	facebook/blenderbot-400M-distill	 room. Several other families sat quietly	 in	a	6.07496452331543	5.567758083343506	0.0022997274063527584	0.13403476774692535	10
+236	santa_transcript	transcript	facebook/blenderbot-400M-distill	. Several other families sat quietly in	 their	s	6.335362911224365	5.315537929534912	0.0017725026700645685	0.24522526562213898	10
+237	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Several other families sat quietly in their	 bo	ards	3.419848918914795	4.301778793334961	0.03271738067269325	0.2398548275232315	10
+238	santa_transcript	transcript	facebook/blenderbot-400M-distill	everal other families sat quietly in their bo	oth	s	13.461199760437012	0.1950681358575821	1.4251980928747798e-06	0.9827254414558411	10
+239	santa_transcript	transcript	facebook/blenderbot-400M-distill	al other families sat quietly in their booth	s	.	8.859053611755371	4.7682623863220215	0.00014208952779881656	0.1578783243894577	10
+240	santa_transcript	transcript	facebook/blenderbot-400M-distill	 other families sat quietly in their booths	,	they	4.122322082519531	5.539522647857666	0.016206834465265274	0.06044574826955795	10
+241	santa_transcript	transcript	facebook/blenderbot-400M-distill	 families sat quietly in their booths,	 and	again	6.029878616333008	5.48881721496582	0.0024057868868112564	0.05123253911733627	10
+242	santa_transcript	transcript	facebook/blenderbot-400M-distill	 sat quietly in their booths, and	 one	of	6.645320892333984	4.719027996063232	0.0013000911567360163	0.11355933547019958	10
+243	santa_transcript	transcript	facebook/blenderbot-400M-distill	 quietly in their booths, and one	 of	their	4.257332801818848	4.996490955352783	0.014160016551613808	0.0680159404873848	10
+244	santa_transcript	transcript	facebook/blenderbot-400M-distill	ly in their booths, and one of	 the	by	7.145129680633545	6.482670307159424	0.0007886960520409048	0.02680637501180172	10
+245	santa_transcript	transcript	facebook/blenderbot-400M-distill	 in their booths, and one of the	 father	s	8.526946067810059	0.7319848537445068	0.00019805881311185658	0.9187466502189636	10
+246	santa_transcript	transcript	facebook/blenderbot-400M-distill	 their booths, and one of the father	s	.	9.619251251220703	5.018764495849609	6.6437351051718e-05	0.13116095960140228	10
+247	santa_transcript	transcript	facebook/blenderbot-400M-distill	 booths, and one of the fathers	 sport	ing	11.505900382995605	2.849247932434082	1.0070501048176084e-05	0.6095333099365234	10
+248	santa_transcript	transcript	facebook/blenderbot-400M-distill	oths, and one of the fathers sport	ed	by	8.77585506439209	5.9903645515441895	0.00015441683353856206	0.12391848117113113	10
+249	santa_transcript	transcript	facebook/blenderbot-400M-distill	s, and one of the fathers sported	 a	thing	3.285945415496826	6.334073066711426	0.037405211478471756	0.04736892879009247	10
+250	santa_transcript	transcript	facebook/blenderbot-400M-distill	, and one of the fathers sported a	 fresh	one	5.02195405960083	5.652096271514893	0.006591632962226868	0.1442233771085739	10
+251	santa_transcript	transcript	facebook/blenderbot-400M-distill	 and one of the fathers sported a fresh	 band	a	9.988052368164062	4.455482482910156	4.59456023236271e-05	0.15147684514522552	10
+252	santa_transcript	transcript	facebook/blenderbot-400M-distill	 one of the fathers sported a fresh band	age	I	12.545085906982422	5.6260271072387695	3.5623643270810135e-06	0.04453236609697342	10
+253	santa_transcript	transcript	facebook/blenderbot-400M-distill	 of the fathers sported a fresh bandage	 on	a	8.077851295471191	5.80772590637207	0.0003103370836470276	0.06062725931406021	10
+254	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the fathers sported a fresh bandage on	 his	I	6.776946067810059	5.214776515960693	0.0011397500056773424	0.18987637758255005	10
+255	santa_transcript	transcript	facebook/blenderbot-400M-distill	 fathers sported a fresh bandage on his	 hand	.	9.35658073425293	4.960188388824463	8.639496809337288e-05	0.11403223127126694	10
+256	santa_transcript	transcript	facebook/blenderbot-400M-distill	s sported a fresh bandage on his hand	.		6.562923431396484	4.760747909545898	0.001411752076819539	0.1506340056657791	10
+257	santa_transcript	transcript	facebook/blenderbot-400M-distill	 sported a fresh bandage on his hand.	 He	d	9.199711799621582	5.495577812194824	0.00010106851550517604	0.10631855577230453	10
+258	santa_transcript	transcript	facebook/blenderbot-400M-distill	ed a fresh bandage on his hand. He	 and	I	6.029521942138672	5.4482502937316895	0.0024066446349024773	0.1993529498577118	10
+259	santa_transcript	transcript	facebook/blenderbot-400M-distill	 a fresh bandage on his hand. He and	 Scott	ish	6.773221015930176	5.400711536407471	0.0011440040543675423	0.18723496794700623	10
+260	santa_transcript	transcript	facebook/blenderbot-400M-distill	 fresh bandage on his hand. He and Scott	 no	.	6.013385772705078	4.141259670257568	0.0024457937106490135	0.3981183171272278	10
+261	santa_transcript	transcript	facebook/blenderbot-400M-distill	 bandage on his hand. He and Scott no	dd	es	6.802204608917236	1.5156183242797852	0.0011113221989944577	0.753564178943634	10
+262	santa_transcript	transcript	facebook/blenderbot-400M-distill	age on his hand. He and Scott nodd	ed	.	9.078912734985352	5.475130081176758	0.00011404552788008004	0.12200722843408585	10
+263	santa_transcript	transcript	facebook/blenderbot-400M-distill	 on his hand. He and Scott nodded	 to	be	4.843229293823242	3.5945026874542236	0.007881559431552887	0.4794600307941437	10
+264	santa_transcript	transcript	facebook/blenderbot-400M-distill	 his hand. He and Scott nodded to	 each	other	8.428831100463867	2.04770827293396	0.00021847673633601516	0.6542125344276428	10
+265	santa_transcript	transcript	facebook/blenderbot-400M-distill	 hand. He and Scott nodded to each	 other	.	8.488399505615234	3.0779571533203125	0.0002058425307041034	0.5125795602798462	10
+266	santa_transcript	transcript	facebook/blenderbot-400M-distill	. He and Scott nodded to each other	 in	with	8.920112609863281	5.807873725891113	0.00013367316569201648	0.07908850163221359	10
+267	santa_transcript	transcript	facebook/blenderbot-400M-distill	 He and Scott nodded to each other in	 a	few	5.752676486968994	6.358449935913086	0.003174273297190666	0.035896942019462585	10
+268	santa_transcript	transcript	facebook/blenderbot-400M-distill	 and Scott nodded to each other in a	 g	het	3.878178358078003	5.212747573852539	0.020688476040959358	0.07739449292421341	10
+269	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Scott nodded to each other in a g	est	ure	6.705730438232422	1.4338940382003784	0.0012238785857334733	0.7591329216957092	10
+270	santa_transcript	transcript	facebook/blenderbot-400M-distill	 nodded to each other in a gest	ure	.	6.972322463989258	5.286081314086914	0.0009374732035212219	0.06597684323787689	10
+271	santa_transcript	transcript	facebook/blenderbot-400M-distill	dded to each other in a gesture	 of	sorts	6.143945693969727	6.22756290435791	0.0021464377641677856	0.06001826003193855	10
+272	santa_transcript	transcript	facebook/blenderbot-400M-distill	ed to each other in a gesture of	 solid	s	10.98067855834961	0.7585490345954895	1.702753252175171e-05	0.9097357392311096	10
+273	santa_transcript	transcript	facebook/blenderbot-400M-distill	 to each other in a gesture of solid	ar	is	8.496967315673828	5.454946994781494	0.00020408631826285273	0.07949487864971161	10
+274	santa_transcript	transcript	facebook/blenderbot-400M-distill	 each other in a gesture of solidar	ity	.	11.449670791625977	4.400472640991211	1.0652976015990134e-05	0.18229903280735016	10
+275	santa_transcript	transcript	facebook/blenderbot-400M-distill	 other in a gesture of solidarity	 as	well	8.630218505859375	3.1720197200775146	0.00017862555978354067	0.3772485852241516	10
+276	santa_transcript	transcript	facebook/blenderbot-400M-distill	 in a gesture of solidarity as	 Scott	ish	6.667999744415283	3.1668593883514404	0.0012709381990134716	0.5978962182998657	10
+277	santa_transcript	transcript	facebook/blenderbot-400M-distill	 a gesture of solidarity as Scott	 and	by	6.384050369262695	5.015782356262207	0.0016882714116945863	0.12292051315307617	10
+278	santa_transcript	transcript	facebook/blenderbot-400M-distill	 gesture of solidarity as Scott and	 Char	ter	3.5844202041625977	5.275848388671875	0.02775275520980358	0.09935583174228668	10
+279	santa_transcript	transcript	facebook/blenderbot-400M-distill	esture of solidarity as Scott and Char	l	ie	5.702569007873535	2.969442844390869	0.003337381174787879	0.3806225657463074	10
+280	santa_transcript	transcript	facebook/blenderbot-400M-distill	ure of solidarity as Scott and Charl	ie	</s>	6.094205379486084	6.181990623474121	0.0022559016942977905	0.06077047809958458	10
+281	santa_transcript	transcript	facebook/blenderbot-400M-distill	 of solidarity as Scott and Charlie	 took	to	10.877908706665039	5.583845138549805	1.8870543499360792e-05	0.09490172564983368	10
+282	santa_transcript	transcript	facebook/blenderbot-400M-distill	 solidarity as Scott and Charlie took	 their	to	5.910513877868652	6.115031719207764	0.002710794098675251	0.10796279460191727	10
+283	santa_transcript	transcript	facebook/blenderbot-400M-distill	arity as Scott and Charlie took their	 seats	.	12.376147270202637	3.293210029602051	4.2180099626421e-06	0.38956186175346375	10
+284	santa_transcript	transcript	facebook/blenderbot-400M-distill	ity as Scott and Charlie took their seats	.		7.298907279968262	5.141407489776611	0.0006762775592505932	0.13121052086353302	10
+285	santa_transcript	transcript	facebook/blenderbot-400M-distill	 as Scott and Charlie took their seats.	 The	more	10.561798095703125	5.996480941772461	2.5886271032504737e-05	0.07023046165704727	10
+286	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Scott and Charlie took their seats. The	 host	of	8.54353141784668	2.8173892498016357	0.00019480104674585164	0.3312687277793884	10
+287	santa_transcript	transcript	facebook/blenderbot-400M-distill	 and Charlie took their seats. The host	ess	.	6.416657447814941	2.1838808059692383	0.0016341092996299267	0.5094183683395386	10
+288	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Charlie took their seats. The hostess	 handed	.	9.903764724731445	4.160072326660156	4.998613439965993e-05	0.3917500972747803	10
+289	santa_transcript	transcript	facebook/blenderbot-400M-distill	lie took their seats. The hostess handed	 them	.	6.751426696777344	4.379298686981201	0.0011692101834341884	0.37912917137145996	10
+290	santa_transcript	transcript	facebook/blenderbot-400M-distill	ie took their seats. The hostess handed them	 men	's	8.377445220947266	5.086186408996582	0.0002299968764418736	0.10964065045118332	10
+291	santa_transcript	transcript	facebook/blenderbot-400M-distill	 took their seats. The hostess handed them men	us	.	11.174909591674805	2.214657783508301	1.4021630704519339e-05	0.6891666054725647	10
+292	santa_transcript	transcript	facebook/blenderbot-400M-distill	 their seats. The hostess handed them menus	,	to	7.199039459228516	5.428905010223389	0.0007473031873814762	0.07959148287773132	10
+293	santa_transcript	transcript	facebook/blenderbot-400M-distill	 seats. The hostess handed them menus,	 which	one	6.615481376647949	4.280294418334961	0.0013394695706665516	0.28889819979667664	10
+294	santa_transcript	transcript	facebook/blenderbot-400M-distill	. The hostess handed them menus, which	 Char	l	3.5933308601379395	3.7581377029418945	0.02750656008720398	0.29029080271720886	10
+295	santa_transcript	transcript	facebook/blenderbot-400M-distill	 The hostess handed them menus, which Char	l	ie	5.028794765472412	1.8397908210754395	0.006546697113662958	0.5272704362869263	10
+296	santa_transcript	transcript	facebook/blenderbot-400M-distill	 hostess handed them menus, which Charl	ie	but	5.917781352996826	5.461026191711426	0.002691164379939437	0.09011431038379669	10
+297	santa_transcript	transcript	facebook/blenderbot-400M-distill	ess handed them menus, which Charlie	 rel	ay	6.941683769226074	2.8643367290496826	0.0009666408877819777	0.327836811542511	10
+298	santa_transcript	transcript	facebook/blenderbot-400M-distill	 handed them menus, which Charlie rel	uct	ant	13.152985572814941	1.1981744766235352	1.939684352691984e-06	0.6810914278030396	10
+299	santa_transcript	transcript	facebook/blenderbot-400M-distill	 them menus, which Charlie reluct	antly	do	14.127547264099121	6.046802043914795	7.319546853068459e-07	0.049061913043260574	10
+300	santa_transcript	transcript	facebook/blenderbot-400M-distill	 menus, which Charlie reluctantly	 opened	is	9.787698745727539	4.880922794342041	5.613796747638844e-05	0.06583394855260849	10
+301	santa_transcript	transcript	facebook/blenderbot-400M-distill	us, which Charlie reluctantly opened	.	</s>	5.449717998504639	2.990442991256714	0.0042975167743861675	0.46920067071914673	10
+302	santa_transcript	transcript	facebook/blenderbot-400M-distill	, which Charlie reluctantly opened.	" """	D	5.57503604888916	4.357827663421631	0.003791338996961713	0.16589361429214478	10
+303	santa_transcript	transcript	facebook/blenderbot-400M-distill	" which Charlie reluctantly opened. """	You	""""	9.494283676147461	4.56045389175415	7.528095738962293e-05	0.14500071108341217	10
+304	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Charlie reluctantly opened. ""You"	 know	what	6.609421730041504	4.771915912628174	0.00134761119261384	0.11147988587617874	10
+305	santa_transcript	transcript	facebook/blenderbot-400M-distill	"lie reluctantly opened. ""You know"	,		8.520161628723145	5.696566581726074	0.00019940714992117137	0.05676509067416191	10
+306	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ie reluctantly opened. ""You know,"	 Ne	""""	3.8730340003967285	5.414583206176758	0.020795179530978203	0.0994265228509903	10
+307	santa_transcript	transcript	facebook/blenderbot-400M-distill	" reluctantly opened. ""You know, Ne"	al	""""	5.5168962478637695	5.341667175292969	0.004018301609903574	0.16292928159236908	10
+308	santa_transcript	transcript	facebook/blenderbot-400M-distill	"uctantly opened. ""You know, Neal"	's	""""	6.230274677276611	3.716742515563965	0.0019689106848090887	0.39705467224121094	10
+309	santa_transcript	transcript	facebook/blenderbot-400M-distill	"antly opened. ""You know, Neal's"	 a	special	4.548866271972656	6.066418647766113	0.010579194873571396	0.044768139719963074	10
+310	santa_transcript	transcript	facebook/blenderbot-400M-distill	" opened. ""You know, Neal's a"	 real	.	5.322444915771484	5.709754943847656	0.004880807362496853	0.060915153473615646	10
+311	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""You know, Neal's a real"	 good		7.644073963165283	4.554483890533447	0.0004788735241163522	0.19853973388671875	10
+312	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""You know, Neal's a real good"	 cook	.	8.090739250183105	5.258764266967773	0.0003063633048441261	0.05220174789428711	10
+313	santa_transcript	transcript	facebook/blenderbot-400M-distill	You know, Neal's a real good cook	","""	""""	5.635738372802734	4.859057426452637	0.0035680411383509636	0.18201956152915955	10
+314	santa_transcript	transcript	facebook/blenderbot-400M-distill	" know, Neal's a real good cook,"""	 he	's	4.260489463806152	4.618195056915283	0.014115395024418831	0.22124645113945007	10
+315	santa_transcript	transcript	facebook/blenderbot-400M-distill	", Neal's a real good cook,"" he"	 said	,	9.478790283203125	4.917967319488525	7.645640289410949e-05	0.1520928293466568	10
+316	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Neal's a real good cook,"" he said"	,	I	7.388850212097168	5.118912696838379	0.0006181063363328576	0.12991060316562653	10
+317	santa_transcript	transcript	facebook/blenderbot-400M-distill	"al's a real good cook,"" he said,"	 e	ww	3.0640156269073486	5.22514009475708	0.04669979214668274	0.05047636479139328	10
+318	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'s a real good cook,"" he said, e"	ying	,	13.102384567260742	5.067166328430176	2.0403581402206328e-06	0.13434261083602905	10
+319	santa_transcript	transcript	facebook/blenderbot-400M-distill	" a real good cook,"" he said, eying"	 his	I	7.977691173553467	6.041110038757324	0.0003430304932408035	0.04023592174053192	10
+320	santa_transcript	transcript	facebook/blenderbot-400M-distill	" real good cook,"" he said, eying his"	 father	s	9.107216835021973	2.9412477016448975	0.00011086282756878063	0.45106208324432373	10
+321	santa_transcript	transcript	facebook/blenderbot-400M-distill	" good cook,"" he said, eying his father"	 above	,	9.92465591430664	2.9627392292022705	4.895269012195058e-05	0.42376989126205444	10
+322	santa_transcript	transcript	facebook/blenderbot-400M-distill	" cook,"" he said, eying his father above"	 the	life	5.685978889465332	6.384684085845947	0.003393210005015135	0.03300519287586212	10
+323	santa_transcript	transcript	facebook/blenderbot-400M-distill	","" he said, eying his father above the"	 menu	.	10.000075340270996	4.245881080627441	4.539649307844229e-05	0.18928878009319305	10
+324	santa_transcript	transcript	facebook/blenderbot-400M-distill	 he said, eying his father above the menu	.	I	8.077448844909668	4.771045207977295	0.0003104621428065002	0.20726947486400604	10
+325	santa_transcript	transcript	facebook/blenderbot-400M-distill	 said, eying his father above the menu.	 Scott	ish	10.198923110961914	1.594207763671875	3.721038228832185e-05	0.8246561884880066	10
+326	santa_transcript	transcript	facebook/blenderbot-400M-distill	, eying his father above the menu. Scott	 gave	me	8.600915908813477	2.844087600708008	0.00018393716891296208	0.5643740296363831	10
+327	santa_transcript	transcript	facebook/blenderbot-400M-distill	 eying his father above the menu. Scott gave	 a	to	4.304651260375977	6.451188564300537	0.013505592942237854	0.02362746000289917	10
+328	santa_transcript	transcript	facebook/blenderbot-400M-distill	ying his father above the menu. Scott gave a	 sn	ack	5.502055644989014	2.8339638710021973	0.004078378435224295	0.49750110507011414	10
+329	santa_transcript	transcript	facebook/blenderbot-400M-distill	 his father above the menu. Scott gave a sn	ort	y	6.988322734832764	4.631413459777832	0.0009225925896316767	0.20863951742649078	10
+330	santa_transcript	transcript	facebook/blenderbot-400M-distill	 father above the menu. Scott gave a snort	 at	to	3.5728888511657715	5.87209939956665	0.028074635192751884	0.07806672155857086	10
+331	santa_transcript	transcript	facebook/blenderbot-400M-distill	 above the menu. Scott gave a snort at	 the	time	8.232633590698242	5.396072864532471	0.0002658352314028889	0.15865673124790192	10
+332	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the menu. Scott gave a snort at the	 mention	of	12.089729309082031	1.7234021425247192	5.616909675154602e-06	0.5568834543228149	10
+333	santa_transcript	transcript	facebook/blenderbot-400M-distill	 menu. Scott gave a snort at the mention	 of	.	7.171112060546875	5.558250904083252	0.0007684679003432393	0.08014296740293503	10
+334	santa_transcript	transcript	facebook/blenderbot-400M-distill	. Scott gave a snort at the mention of	 his	.	7.891547679901123	6.039279937744141	0.00037389041972346604	0.10306870937347412	10
+335	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Scott gave a snort at the mention of his	 ex	es	5.093626976013184	4.331645965576172	0.006135724484920502	0.26119524240493774	10
+336	santa_transcript	transcript	facebook/blenderbot-400M-distill	 gave a snort at the mention of his ex	-	the	5.834712028503418	5.191271781921387	0.0029242653399705887	0.04973624274134636	10
+337	santa_transcript	transcript	facebook/blenderbot-400M-distill	 a snort at the mention of his ex-	w	ich	4.793911457061768	4.645069122314453	0.008280007168650627	0.15399424731731415	10
+338	santa_transcript	transcript	facebook/blenderbot-400M-distill	 snort at the mention of his ex-w	ife	is	12.187357902526855	4.8300862312316895	5.094456355436705e-06	0.16890928149223328	10
+339	santa_transcript	transcript	facebook/blenderbot-400M-distill	ort at the mention of his ex-wife	's	I	7.395851135253906	6.261520862579346	0.0006137940799817443	0.07104583084583282	10
+340	santa_transcript	transcript	facebook/blenderbot-400M-distill	 at the mention of his ex-wife's	 new	ly	9.129587173461914	4.578362464904785	0.00010841028415597975	0.34876811504364014	10
+341	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the mention of his ex-wife's new	 boyfriend	s	8.516645431518555	2.5908451080322266	0.00020010962907690555	0.4283660352230072	10
+342	santa_transcript	transcript	facebook/blenderbot-400M-distill	 mention of his ex-wife's new boyfriend	.		6.462576866149902	4.900801658630371	0.0015607684617862105	0.17270837724208832	10
+343	santa_transcript	transcript	facebook/blenderbot-400M-distill	 of his ex-wife's new boyfriend.	" """	s	6.876898765563965	5.956607341766357	0.0010313375387340784	0.036055076867341995	10
+344	santa_transcript	transcript	facebook/blenderbot-400M-distill	" his ex-wife's new boyfriend. """	Y	es	6.9340314865112305	4.279540061950684	0.0009740659152157605	0.20021438598632812	10
+345	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ex-wife's new boyfriend. ""Y"	eah	""""	7.087671279907227	4.5253520011901855	0.0008353401790373027	0.14871416985988617	10
+346	santa_transcript	transcript	facebook/blenderbot-400M-distill	"-wife's new boyfriend. ""Yeah"	,	I	9.369868278503418	5.044106483459473	8.525462908437476e-05	0.0937490239739418	10
+347	santa_transcript	transcript	facebook/blenderbot-400M-distill	"wife's new boyfriend. ""Yeah,"	 and	""""	6.518610954284668	5.53261661529541	0.0014757171738892794	0.05481158569455147	10
+348	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ife's new boyfriend. ""Yeah, and"	 you	""""	5.918046951293945	4.032505035400391	0.0026904491242021322	0.17845813930034637	10
+349	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'s new boyfriend. ""Yeah, and you"	 should	be	9.609891891479492	3.357668876647949	6.70620720484294e-05	0.4430047571659088	10
+350	santa_transcript	transcript	facebook/blenderbot-400M-distill	" new boyfriend. ""Yeah, and you should"	 see	.	5.12673282623291	2.425666332244873	0.005935924127697945	0.6092930436134338	10
+351	santa_transcript	transcript	facebook/blenderbot-400M-distill	" boyfriend. ""Yeah, and you should see"	 him	.	9.47193717956543	2.572032928466797	7.698209810769185e-05	0.5879322290420532	10
+352	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Yeah, and you should see him"	 walk	around	6.427042007446289	5.3056640625	0.001617227215319872	0.13015174865722656	10
+353	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Yeah, and you should see him walk"	 on	top	6.753290176391602	5.637347221374512	0.0011670332169160247	0.07096215337514877	10
+354	santa_transcript	transcript	facebook/blenderbot-400M-distill	Yeah, and you should see him walk on	 water	.	8.902405738830566	2.410963773727417	0.00013606117863673717	0.6125323176383972	10
+355	santa_transcript	transcript	facebook/blenderbot-400M-distill	eah, and you should see him walk on water	"."""	</s>	4.468507289886475	4.667172431945801	0.011464416980743408	0.24512365460395813	10
+356	santa_transcript	transcript	facebook/blenderbot-400M-distill	", and you should see him walk on water."""	" """	""""	4.608133316040039	5.652274131774902	0.009970409795641899	0.08164457231760025	10
+357	santa_transcript	transcript	facebook/blenderbot-400M-distill	" and you should see him walk on water."" """	You	are	10.71115779876709	4.467728137969971	2.2294791051535867e-05	0.1709645688533783	10
+358	santa_transcript	transcript	facebook/blenderbot-400M-distill	" you should see him walk on water."" ""You"	 don	't	7.954516887664795	0.18026159703731537	0.00035107278381474316	0.9815741181373596	10
+359	santa_transcript	transcript	facebook/blenderbot-400M-distill	" should see him walk on water."" ""You don"	't	have	6.093152046203613	4.000514984130859	0.002258280059322715	0.3323039412498474	10
+360	santa_transcript	transcript	facebook/blenderbot-400M-distill	" see him walk on water."" ""You don't"	 like	to	4.715120315551758	5.116469383239746	0.00895878579467535	0.12148521095514297	10
+361	santa_transcript	transcript	facebook/blenderbot-400M-distill	" him walk on water."" ""You don't like"	 him	""""	7.879388332366943	5.115466117858887	0.0003784644650295377	0.13439668715000153	10
+362	santa_transcript	transcript	facebook/blenderbot-400M-distill	" walk on water."" ""You don't like him"	 very	much	2.6390061378479004	3.5300426483154297	0.07143222540616989	0.44217386841773987	10
+363	santa_transcript	transcript	facebook/blenderbot-400M-distill	" on water."" ""You don't like him very"	 much	.	10.174539566040039	3.136960506439209	3.812884460785426e-05	0.3305540680885315	10
+364	santa_transcript	transcript	facebook/blenderbot-400M-distill	" water."" ""You don't like him very much"	,	I	7.055624961853027	5.010415077209473	0.0008625437621958554	0.16442300379276276	10
+365	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""You don't like him very much,"	 do	you	7.108218193054199	4.582673072814941	0.0008183516329154372	0.2047152817249298	10
+366	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""You don't like him very much, do"	 you	at	6.348135948181152	4.262514591217041	0.0017500061076134443	0.12261004000902176	10
+367	santa_transcript	transcript	facebook/blenderbot-400M-distill	You don't like him very much, do you	 Dad	dy	9.230233192443848	2.1570208072662354	9.803033753996715e-05	0.6833226084709167	10
+368	santa_transcript	transcript	facebook/blenderbot-400M-distill	 don't like him very much, do you Dad	"?"""	</s>	7.855515003204346	2.9220616817474365	0.0003876083646900952	0.5020973682403564	10
+369	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'t like him very much, do you Dad?"""	 A	GA	6.472782135009766	5.873276710510254	0.0015449218917638063	0.034793462604284286	10
+370	santa_transcript	transcript	facebook/blenderbot-400M-distill	" like him very much, do you Dad?"" A"	 tall	one	8.910388946533203	6.117488384246826	0.00013497925829142332	0.07287751138210297	10
+371	santa_transcript	transcript	facebook/blenderbot-400M-distill	" him very much, do you Dad?"" A tall"	 wait	ress	7.627477645874023	3.824589252471924	0.00048688743845559657	0.30623045563697815	10
+372	santa_transcript	transcript	facebook/blenderbot-400M-distill	" very much, do you Dad?"" A tall wait"	ress	.	10.519779205322266	3.131708860397339	2.6997146051144227e-05	0.45421794056892395	10
+373	santa_transcript	transcript	facebook/blenderbot-400M-distill	" much, do you Dad?"" A tall waitress"	 with	D	8.592244148254395	5.144713878631592	0.00018553927657194436	0.053116317838430405	10
+374	santa_transcript	transcript	facebook/blenderbot-400M-distill	", do you Dad?"" A tall waitress with"	 f	*	5.466946601867676	5.2350568771362305	0.00422411086037755	0.07339858263731003	10
+375	santa_transcript	transcript	facebook/blenderbot-400M-distill	" do you Dad?"" A tall waitress with f"	ri	v	5.857298851013184	4.756148338317871	0.0028589556459337473	0.16711238026618958	10
+376	santa_transcript	transcript	facebook/blenderbot-400M-distill	" you Dad?"" A tall waitress with fri"	z	zy	2.097050905227661	5.04947566986084	0.12281811237335205	0.16945600509643555	10
+377	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Dad?"" A tall waitress with friz"	zy	.	11.206147193908691	6.053101539611816	1.3590395610663109e-05	0.10499060899019241	10
+378	santa_transcript	transcript	facebook/blenderbot-400M-distill	"?"" A tall waitress with frizzy"	 hair	.	6.001347541809082	4.267748832702637	0.002475414192304015	0.22502294182777405	10
+379	santa_transcript	transcript	facebook/blenderbot-400M-distill	 A tall waitress with frizzy hair	 appro	x	4.788599014282227	5.683042526245117	0.008324109017848969	0.05282655730843544	10
+380	santa_transcript	transcript	facebook/blenderbot-400M-distill	 tall waitress with frizzy hair appro	ached	</s>	13.2092866897583	5.334729194641113	1.8334948208575952e-06	0.09585714340209961	10
+381	santa_transcript	transcript	facebook/blenderbot-400M-distill	 waitress with frizzy hair approached	 the	from	7.284045219421387	6.28176212310791	0.0006864031893201172	0.03747806325554848	10
+382	santa_transcript	transcript	facebook/blenderbot-400M-distill	ress with frizzy hair approached the	 table	.	7.647499084472656	5.360084056854248	0.000477236055303365	0.10352781414985657	10
+383	santa_transcript	transcript	facebook/blenderbot-400M-distill	 with frizzy hair approached the table	 with	to	7.76003885269165	5.846256732940674	0.00042644006316550076	0.03580661490559578	10
+384	santa_transcript	transcript	facebook/blenderbot-400M-distill	 frizzy hair approached the table with	 an	I	7.330343246459961	5.492307662963867	0.0006553486455231905	0.07791324704885483	10
+385	santa_transcript	transcript	facebook/blenderbot-400M-distill	rizzy hair approached the table with an	 order	of	5.6762542724609375	4.93778657913208	0.0034263685811311007	0.14191187918186188	10
+386	santa_transcript	transcript	facebook/blenderbot-400M-distill	zzy hair approached the table with an order	 pad	ding	8.492218017578125	2.4536426067352295	0.00020505799329839647	0.5856248736381531	10
+387	santa_transcript	transcript	facebook/blenderbot-400M-distill	zy hair approached the table with an order pad	.		7.189661026000977	4.49265193939209	0.0007543449173681438	0.264251172542572	10
+388	santa_transcript	transcript	facebook/blenderbot-400M-distill	 hair approached the table with an order pad.	" """	""""	7.194607734680176	5.6736040115356445	0.000750622246414423	0.11381587386131287	10
+389	santa_transcript	transcript	facebook/blenderbot-400M-distill	" approached the table with an order pad. """	C	h	11.134681701660156	4.996003150939941	1.4597194422094617e-05	0.0724494680762291	10
+390	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ached the table with an order pad. ""C"	off	ee	7.923620223999023	1.6290620565414429	0.0003620891075115651	0.7383124828338623	10
+391	santa_transcript	transcript	facebook/blenderbot-400M-distill	" the table with an order pad. ""Coff"	ee	""""	9.993168830871582	2.7592990398406982	4.5711112761637196e-05	0.3473004698753357	10
+392	santa_transcript	transcript	facebook/blenderbot-400M-distill	" table with an order pad. ""Coffee"	"?"""	</s>	9.403421401977539	3.578462600708008	8.244154741987586e-05	0.44828295707702637	10
+393	santa_transcript	transcript	facebook/blenderbot-400M-distill	" with an order pad. ""Coffee?"""	 The	one	11.080531120300293	5.997181415557861	1.540942866995465e-05	0.0672573447227478	10
+394	santa_transcript	transcript	facebook/blenderbot-400M-distill	" an order pad. ""Coffee?"" The"	 smile	of	9.865978240966797	2.4879629611968994	5.19110617460683e-05	0.4311252236366272	10
+395	santa_transcript	transcript	facebook/blenderbot-400M-distill	" order pad. ""Coffee?"" The smile"	 return	s	8.347892761230469	1.8962315320968628	0.00023689506633672863	0.39534568786621094	10
+396	santa_transcript	transcript	facebook/blenderbot-400M-distill	" pad. ""Coffee?"" The smile return"	ed	.	9.858916282653809	1.3373183012008667	5.227896690485068e-05	0.8063173294067383	10
+397	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Coffee?"" The smile returned"	 to	.	5.015319347381592	6.2491631507873535	0.006635513622313738	0.04104821756482124	10
+398	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Coffee?"" The smile returned to"	 Scott	ish	11.408774375915527	2.2653796672821045	1.1097680726379622e-05	0.4490285813808441	10
+399	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Coffee?"" The smile returned to Scott"	's	O	7.256392002105713	3.9816396236419678	0.0007056494941934943	0.3421745300292969	10
+400	santa_transcript	transcript	facebook/blenderbot-400M-distill	"offee?"" The smile returned to Scott's"	 face	.	9.41447925567627	3.7388744354248047	8.153489034157246e-05	0.33736974000930786	10
+401	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ee?"" The smile returned to Scott's face"	.	B	7.671994209289551	5.040222644805908	0.0004656882956624031	0.06250137835741043	10
+402	santa_transcript	transcript	facebook/blenderbot-400M-distill	"?"" The smile returned to Scott's face."	" """	D	9.184039115905762	4.269998550415039	0.00010266497702104971	0.17410248517990112	10
+403	santa_transcript	transcript	facebook/blenderbot-400M-distill	" The smile returned to Scott's face. """	No	.	12.631217002868652	3.858567476272583	3.2683763038221514e-06	0.3191211521625519	10
+404	santa_transcript	transcript	facebook/blenderbot-400M-distill	" smile returned to Scott's face. ""No"	,	I	6.945518493652344	5.595102310180664	0.0009629407431930304	0.07256437093019485	10
+405	santa_transcript	transcript	facebook/blenderbot-400M-distill	" returned to Scott's face. ""No,"	 thank	you	7.639926910400391	0.7009099125862122	0.0004808635276276618	0.9089667797088623	10
+406	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ed to Scott's face. ""No, thank"	 you	.	6.341129302978516	2.339317798614502	0.0017623113235458732	0.35165566205978394	10
+407	santa_transcript	transcript	facebook/blenderbot-400M-distill	" to Scott's face. ""No, thank you"	�	""""	4.789851665496826	3.4676527976989746	0.008313690312206745	0.2923129200935364	10
+408	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Scott's face. ""No, thank you�"	�	nder	9.650819778442383	4.010364055633545	6.437278352677822e-05	0.14236003160476685	10
+409	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'s face. ""No, thank you…"	""""	</s>	5.110859394073486	3.7397749423980713	0.006030897609889507	0.29941505193710327	10
+410	santa_transcript	transcript	facebook/blenderbot-400M-distill	" face. ""No, thank you…"""	 -	I	6.009852409362793	5.107580661773682	0.0024544503539800644	0.10714388638734818	10
+411	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""No, thank you…"" -"	 Scott	ish	12.809456825256348	4.05103874206543	2.7347882678441238e-06	0.32597824931144714	10
+412	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""No, thank you…"" - Scott"	 p	ear	4.998990058898926	5.521193027496338	0.006744753569364548	0.09382420778274536	10
+413	santa_transcript	transcript	facebook/blenderbot-400M-distill	"No, thank you…"" - Scott p"	au	se	5.997098445892334	3.8637428283691406	0.0024859546683728695	0.21527250111103058	10
+414	santa_transcript	transcript	facebook/blenderbot-400M-distill	", thank you…"" - Scott pau"	sed	,	15.64867877960205	3.976421356201172	1.5990612212135602e-07	0.25257784128189087	10
+415	santa_transcript	transcript	facebook/blenderbot-400M-distill	" thank you…"" - Scott paused"	 for	the	4.966954231262207	5.889828205108643	0.006964326836168766	0.07665539532899857	10
+416	santa_transcript	transcript	facebook/blenderbot-400M-distill	" you…"" - Scott paused for"	 a	I	5.327315807342529	6.473026752471924	0.004857090301811695	0.04094447195529938	10
+417	santa_transcript	transcript	facebook/blenderbot-400M-distill	"…"" - Scott paused for a"	 minute	.	9.430536270141602	4.5978875160217285	8.023613190744072e-05	0.21659743785858154	10
+418	santa_transcript	transcript	facebook/blenderbot-400M-distill	"�"" - Scott paused for a minute"	 as	a	6.716381549835205	3.600294351577759	0.0012109116651117802	0.45988979935646057	10
+419	santa_transcript	transcript	facebook/blenderbot-400M-distill	""" - Scott paused for a minute as"	 he	was	4.145756721496582	5.62539005279541	0.01583145186305046	0.08935507386922836	10
+420	santa_transcript	transcript	facebook/blenderbot-400M-distill	 - Scott paused for a minute as he	 read	s	8.850268363952637	0.7231979966163635	0.00014334326260723174	0.9234166741371155	10
+421	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Scott paused for a minute as he read	 her	and	8.032343864440918	5.979426860809326	0.00032478594221174717	0.06256534159183502	10
+422	santa_transcript	transcript	facebook/blenderbot-400M-distill	 paused for a minute as he read her	 name	.	7.147963523864746	5.62019157409668	0.0007864643121138215	0.04512360692024231	10
+423	santa_transcript	transcript	facebook/blenderbot-400M-distill	aused for a minute as he read her name	 tag	s	7.275491714477539	5.942984580993652	0.0006922997417859733	0.08723998814821243	10
+424	santa_transcript	transcript	facebook/blenderbot-400M-distill	sed for a minute as he read her name tag	 -	I	5.0107741355896	5.433840751647949	0.006665741093456745	0.13711567223072052	10
+425	santa_transcript	transcript	facebook/blenderbot-400M-distill	 for a minute as he read her name tag -	" """	""""	6.191337585449219	4.826055526733398	0.0020470868330448866	0.27614283561706543	10
+426	santa_transcript	transcript	facebook/blenderbot-400M-distill	" a minute as he read her name tag - """	J	""""	7.862478256225586	3.967639684677124	0.0003849187633022666	0.37282535433769226	10
+427	santa_transcript	transcript	facebook/blenderbot-400M-distill	" minute as he read her name tag - ""J"	ud	""""	7.051662445068359	3.995107650756836	0.0008659682353027165	0.15317951142787933	10
+428	santa_transcript	transcript	facebook/blenderbot-400M-distill	" as he read her name tag - ""Jud"	y	""""	10.407034873962402	0.9435640573501587	3.0219149266486056e-05	0.8952649235725403	10
+429	santa_transcript	transcript	facebook/blenderbot-400M-distill	" he read her name tag - ""Judy"	"."""		9.182082176208496	4.852292537689209	0.00010286610631737858	0.14771802723407745	10
+430	santa_transcript	transcript	facebook/blenderbot-400M-distill	" read her name tag - ""Judy."""	" """	""""	7.584950923919678	5.595968246459961	0.0005080396658740938	0.06134633719921112	10
+431	santa_transcript	transcript	facebook/blenderbot-400M-distill	" her name tag - ""Judy."" """	What	""""	11.546165466308594	4.166031360626221	9.673062777437735e-06	0.21147428452968597	10
+432	santa_transcript	transcript	facebook/blenderbot-400M-distill	" name tag - ""Judy."" ""What"	 do	you	7.002478122711182	1.0051473379135132	0.0009096249705180526	0.8587048649787903	10
+433	santa_transcript	transcript	facebook/blenderbot-400M-distill	" tag - ""Judy."" ""What do"	 you	do	6.168051719665527	2.7551026344299316	0.0020953139755874872	0.4911428987979889	10
+434	santa_transcript	transcript	facebook/blenderbot-400M-distill	" - ""Judy."" ""What do you"	 say	?	10.27185344696045	2.881247043609619	3.459318759269081e-05	0.25868120789527893	10
+435	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Judy."" ""What do you say"	 we	""""	5.2465972900390625	5.218945026397705	0.005265405867248774	0.08780834078788757	10
+436	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Judy."" ""What do you say we"	 start	on	9.785587310791016	4.344677925109863	5.625658741337247e-05	0.15482600033283234	10
+437	santa_transcript	transcript	facebook/blenderbot-400M-distill	"udy."" ""What do you say we start"	 out	with	7.934635639190674	1.8286802768707275	0.0003581225173547864	0.4591725766658783	10
+438	santa_transcript	transcript	facebook/blenderbot-400M-distill	"y."" ""What do you say we start out"	 with	a	8.000794410705566	4.885066986083984	0.00033519629505462945	0.12410078942775726	10
+439	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""What do you say we start out with"	 cold	"."""	7.595067501068115	5.535830020904541	0.0005029260646551847	0.07588809728622437	10
+440	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""What do you say we start out with cold"	 glass	es	11.229705810546875	0.9843907356262207	1.3273972399474587e-05	0.882340669631958	10
+441	santa_transcript	transcript	facebook/blenderbot-400M-distill	What do you say we start out with cold glass	es	then	9.442787170410156	5.106180667877197	7.925924001028761e-05	0.09712069481611252	10
+442	santa_transcript	transcript	facebook/blenderbot-400M-distill	 do you say we start out with cold glasses	 of	things	5.544963836669922	5.8514556884765625	0.003907083999365568	0.04984036087989807	10
+443	santa_transcript	transcript	facebook/blenderbot-400M-distill	 you say we start out with cold glasses of	 that	's	5.906439781188965	5.294256210327148	0.0027218605391681194	0.12765635550022125	10
+444	santa_transcript	transcript	facebook/blenderbot-400M-distill	 say we start out with cold glasses of that	 delicious	ness	10.93642807006836	5.632023334503174	1.7797943655750714e-05	0.08624082058668137	10
+445	santa_transcript	transcript	facebook/blenderbot-400M-distill	 we start out with cold glasses of that delicious	 season	al	8.304586410522461	4.60936164855957	0.00024737956118769944	0.17412476241588593	10
+446	santa_transcript	transcript	facebook/blenderbot-400M-distill	 start out with cold glasses of that delicious season	al	I	8.463154792785645	6.277863502502441	0.00021110507077537477	0.04135549068450928	10
+447	santa_transcript	transcript	facebook/blenderbot-400M-distill	 out with cold glasses of that delicious seasonal	 favorite	I	8.079133987426758	4.896234035491943	0.000309939292492345	0.13245008885860443	10
+448	santa_transcript	transcript	facebook/blenderbot-400M-distill	 with cold glasses of that delicious seasonal favorite	:	</s>	9.962855339050293	4.868542194366455	4.711799920187332e-05	0.2437952160835266	10
+449	santa_transcript	transcript	facebook/blenderbot-400M-distill	 cold glasses of that delicious seasonal favorite:	 egg	y	3.910255193710327	5.7737555503845215	0.020035386085510254	0.06015341356396675	10
+450	santa_transcript	transcript	facebook/blenderbot-400M-distill	 glasses of that delicious seasonal favorite: egg	n	oc	5.669985771179199	5.670064449310303	0.0034479147288948298	0.08379176259040833	10
+451	santa_transcript	transcript	facebook/blenderbot-400M-distill	es of that delicious seasonal favorite: eggn	og	</s>	6.487865447998047	5.996880531311035	0.001521793776191771	0.05688411742448807	10
+452	santa_transcript	transcript	facebook/blenderbot-400M-distill	 of that delicious seasonal favorite: eggnog	"!"""	</s>	4.740206718444824	4.366078853607178	0.008736841380596161	0.2548989951610565	10
+453	santa_transcript	transcript	facebook/blenderbot-400M-distill	" that delicious seasonal favorite: eggnog!"""	 Char	t	4.6199469566345215	5.432766437530518	0.009853316470980644	0.08560523390769958	10
+454	santa_transcript	transcript	facebook/blenderbot-400M-distill	" delicious seasonal favorite: eggnog!"" Char"	l	est	8.203353881835938	3.189114809036255	0.00027373386546969414	0.4001232385635376	10
+455	santa_transcript	transcript	facebook/blenderbot-400M-distill	" seasonal favorite: eggnog!"" Charl"	ie	you	7.906410217285156	6.266651153564453	0.0003683745744638145	0.028415009379386902	10
+456	santa_transcript	transcript	facebook/blenderbot-400M-distill	"al favorite: eggnog!"" Charlie"	 had	a	7.822338581085205	5.088210582733154	0.0004006836097687483	0.19114454090595245	10
+457	santa_transcript	transcript	facebook/blenderbot-400M-distill	" favorite: eggnog!"" Charlie had"	 just	come	10.763492584228516	5.519739151000977	2.115799543389585e-05	0.0759507492184639	10
+458	santa_transcript	transcript	facebook/blenderbot-400M-distill	": eggnog!"" Charlie had just"	 be	be	2.0090696811676025	5.856501579284668	0.1341133862733841	0.1341133862733841	10
+459	santa_transcript	transcript	facebook/blenderbot-400M-distill	" eggnog!"" Charlie had just be"	gun	to	11.189537048339844	2.9239840507507324	1.3818015759170521e-05	0.5387920141220093	10
+460	santa_transcript	transcript	facebook/blenderbot-400M-distill	"nog!"" Charlie had just begun"	 to	be	5.493276119232178	6.071368217468262	0.004114342853426933	0.07993359863758087	10
+461	santa_transcript	transcript	facebook/blenderbot-400M-distill	"og!"" Charlie had just begun to"	 protest	.	10.871063232421875	3.609527111053467	1.9000161046278663e-05	0.3488720655441284	10
+462	santa_transcript	transcript	facebook/blenderbot-400M-distill	"!"" Charlie had just begun to protest"	 that	's	6.957200050354004	4.8239521980285645	0.0009517580037936568	0.1949772983789444	10
+463	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Charlie had just begun to protest that	 he	would	6.142201900482178	5.637323379516602	0.0021501840092241764	0.0413534939289093	10
+464	santa_transcript	transcript	facebook/blenderbot-400M-distill	lie had just begun to protest that he	 didn	't	8.944231986999512	0.4215865731239319	0.00013048769324086607	0.9443672895431519	10
+465	santa_transcript	transcript	facebook/blenderbot-400M-distill	ie had just begun to protest that he didn	't	have	6.881289005279541	4.1918044090271	0.001026819460093975	0.3380904793739319	10
+466	santa_transcript	transcript	facebook/blenderbot-400M-distill	 had just begun to protest that he didn't	 like	.	5.3255486488342285	4.32390832901001	0.004865680821239948	0.11132796108722687	10
+467	santa_transcript	transcript	facebook/blenderbot-400M-distill	 just begun to protest that he didn't like	 egg	-	4.904136657714844	5.940385818481445	0.007415842730551958	0.03694954141974449	10
+468	santa_transcript	transcript	facebook/blenderbot-400M-distill	 begun to protest that he didn't like egg	n	og	5.259510040283203	4.312551975250244	0.005197849124670029	0.28514209389686584	10
+469	santa_transcript	transcript	facebook/blenderbot-400M-distill	gun to protest that he didn't like eggn	og	at	5.989166259765625	5.145953178405762	0.002505752258002758	0.10678064823150635	10
+470	santa_transcript	transcript	facebook/blenderbot-400M-distill	 to protest that he didn't like eggnog	,	I	5.890994071960449	4.665332794189453	0.002764228032901883	0.183026522397995	10
+471	santa_transcript	transcript	facebook/blenderbot-400M-distill	 protest that he didn't like eggnog,	 when	we	9.634625434875488	1.894264817237854	6.54237373964861e-05	0.44372105598449707	10
+472	santa_transcript	transcript	facebook/blenderbot-400M-distill	 that he didn't like eggnog, when	 Jud	y	5.781781196594238	3.1403579711914062	0.003083218354731798	0.4638946056365967	10
+473	santa_transcript	transcript	facebook/blenderbot-400M-distill	 he didn't like eggnog, when Jud	y	's	7.639731407165527	6.090784072875977	0.0004809574456885457	0.09786161035299301	10
+474	santa_transcript	transcript	facebook/blenderbot-400M-distill	 didn't like eggnog, when Judy	 inter	se	4.770810604095459	4.727743148803711	0.008473509922623634	0.11541669070720673	10
+475	santa_transcript	transcript	facebook/blenderbot-400M-distill	't like eggnog, when Judy inter	rupt	s	14.055007934570312	1.0377061367034912	7.870231115703064e-07	0.7264752984046936	10
+476	santa_transcript	transcript	facebook/blenderbot-400M-distill	 like eggnog, when Judy interrupt	ed	,	9.494158744812012	4.667765140533447	7.529034337494522e-05	0.12089285254478455	10
+477	santa_transcript	transcript	facebook/blenderbot-400M-distill	 eggnog, when Judy interrupted	 him	to	8.612909317016602	4.970864772796631	0.0001817443553591147	0.14580462872982025	10
+478	santa_transcript	transcript	facebook/blenderbot-400M-distill	nog, when Judy interrupted him	,		4.757083892822266	5.224842548370361	0.008590621873736382	0.11295515298843384	10
+479	santa_transcript	transcript	facebook/blenderbot-400M-distill	og, when Judy interrupted him,	" """	""""	9.263803482055664	4.69551944732666	9.479408618062735e-05	0.1850622147321701	10
+480	santa_transcript	transcript	facebook/blenderbot-400M-distill	", when Judy interrupted him, """	we	""""	9.182613372802734	4.297567844390869	0.00010281149297952652	0.19620123505592346	10
+481	santa_transcript	transcript	facebook/blenderbot-400M-distill	" when Judy interrupted him, ""we"	're	""""	6.520942211151123	4.25224494934082	0.001472281408496201	0.3372778594493866	10
+482	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Judy interrupted him, ""we're"	 out	of	6.781131744384766	4.672451019287109	0.0011349900159984827	0.11709112673997879	10
+483	santa_transcript	transcript	facebook/blenderbot-400M-distill	"y interrupted him, ""we're out"	"."""	</s>	7.811352729797363	5.0038371086120605	0.00040510977851226926	0.16464464366436005	10
+484	santa_transcript	transcript	facebook/blenderbot-400M-distill	" interrupted him, ""we're out."""	 Scott	ish	11.01426887512207	3.3357105255126953	1.6465082808281295e-05	0.5722662210464478	10
+485	santa_transcript	transcript	facebook/blenderbot-400M-distill	"rupted him, ""we're out."" Scott"	 sh	*	6.048907279968262	3.6207170486450195	0.0023604403249919415	0.4557037353515625	10
+486	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ed him, ""we're out."" Scott sh"	ru	�	8.289613723754883	4.986467361450195	0.00025111157447099686	0.11503488570451736	10
+487	santa_transcript	transcript	facebook/blenderbot-400M-distill	" him, ""we're out."" Scott shru"	gged	.	13.563287734985352	4.234518051147461	1.2868832754975301e-06	0.3063722550868988	10
+488	santa_transcript	transcript	facebook/blenderbot-400M-distill	", ""we're out."" Scott shrugged"	.	</s>	6.58302116394043	4.264364242553711	0.001383662223815918	0.1782568097114563	10
+489	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""we're out."" Scott shrugged."	" """	""""	7.200909614562988	5.662577152252197	0.0007459070766344666	0.09168560057878494	10
+490	santa_transcript	transcript	facebook/blenderbot-400M-distill	"we're out."" Scott shrugged. """	T	ake	7.502025127410889	4.80315637588501	0.0005519654951058328	0.16650313138961792	10
+491	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'re out."" Scott shrugged. ""T"	hen	.	10.694694519042969	5.267459392547607	2.2664877178613096e-05	0.10603392124176025	10
+492	santa_transcript	transcript	facebook/blenderbot-400M-distill	" out."" Scott shrugged. ""Then"	 I	""""	4.820545196533203	4.9367289543151855	0.008062387816607952	0.18655970692634583	10
+493	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" Scott shrugged. ""Then I"	'll	be	8.735685348510742	2.7477426528930664	0.00016074595623649657	0.6361863613128662	10
+494	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Scott shrugged. ""Then I'll"	 take	a	4.505441188812256	5.099792003631592	0.011048713698983192	0.11247086524963379	10
+495	santa_transcript	transcript	facebook/blenderbot-400M-distill	" shrugged. ""Then I'll take"	 a	h	5.6920976638793945	6.092520236968994	0.0033725101966410875	0.044752493500709534	10
+496	santa_transcript	transcript	facebook/blenderbot-400M-distill	"rugged. ""Then I'll take a"	 dec	e	4.151277542114258	2.729879856109619	0.01574428752064705	0.4957289397716522	10
+497	santa_transcript	transcript	facebook/blenderbot-400M-distill	"gged. ""Then I'll take a dec"	af	""""	8.36339282989502	4.763853549957275	0.00023325155780185014	0.21080796420574188	10
+498	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Then I'll take a decaf"	 coffee	.	7.674170970916748	5.061818599700928	0.0004646756569854915	0.14321108162403107	10
+499	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Then I'll take a decaf coffee"	 and	I	6.428790092468262	5.464646816253662	0.0016144030960276723	0.17717455327510834	10
+500	santa_transcript	transcript	facebook/blenderbot-400M-distill	Then I'll take a decaf coffee and	 tur	b	5.63341760635376	3.5049266815185547	0.0035763324704021215	0.3166760206222534	10
+501	santa_transcript	transcript	facebook/blenderbot-400M-distill	hen I'll take a decaf coffee and tur	key	I	11.922815322875977	5.05216646194458	6.6372313085594214e-06	0.2254457175731659	10
+502	santa_transcript	transcript	facebook/blenderbot-400M-distill	 I'll take a decaf coffee and turkey	 club	and	8.867087364196777	4.908559322357178	0.0001409524993505329	0.09953010827302933	10
+503	santa_transcript	transcript	facebook/blenderbot-400M-distill	'll take a decaf coffee and turkey club	"."""	""""	4.220819473266602	4.833852291107178	0.014686607755720615	0.198495015501976	10
+504	santa_transcript	transcript	facebook/blenderbot-400M-distill	" take a decaf coffee and turkey club."""	 She	d	6.146960258483887	4.783482074737549	0.0021399776451289654	0.17302067577838898	10
+505	santa_transcript	transcript	facebook/blenderbot-400M-distill	" a decaf coffee and turkey club."" She"	 turned	to	7.007171154022217	4.794344425201416	0.0009053659741766751	0.1494542956352234	10
+506	santa_transcript	transcript	facebook/blenderbot-400M-distill	" decaf coffee and turkey club."" She turned"	 to	be	3.85649037361145	5.915057182312012	0.02114207111299038	0.08560778945684433	10
+507	santa_transcript	transcript	facebook/blenderbot-400M-distill	"af coffee and turkey club."" She turned to"	 Char	les	4.587791442871094	4.425592422485352	0.01017531007528305	0.13506050407886505	10
+508	santa_transcript	transcript	facebook/blenderbot-400M-distill	" coffee and turkey club."" She turned to Char"	l	est	6.330885887145996	2.1353936195373535	0.0017804560484364629	0.5736179351806641	10
+509	santa_transcript	transcript	facebook/blenderbot-400M-distill	" and turkey club."" She turned to Charl"	ie	de	7.097416400909424	5.851030349731445	0.0008272394188679755	0.06609400361776352	10
+510	santa_transcript	transcript	facebook/blenderbot-400M-distill	" turkey club."" She turned to Charlie"	.	I	6.889127254486084	4.160919666290283	0.0010188024025410414	0.19007080793380737	10
+511	santa_transcript	transcript	facebook/blenderbot-400M-distill	"key club."" She turned to Charlie."	" """	O	8.949706077575684	4.338236331939697	0.00012977526057511568	0.11277060210704803	10
+512	santa_transcript	transcript	facebook/blenderbot-400M-distill	" club."" She turned to Charlie. """	I	.	9.605758666992188	4.079387187957764	6.733983900630847e-05	0.19737543165683746	10
+513	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" She turned to Charlie. ""I"	'll	be	7.534642219543457	2.369164228439331	0.0005342524382285774	0.673453688621521	10
+514	santa_transcript	transcript	facebook/blenderbot-400M-distill	" She turned to Charlie. ""I'll"	 have	to	7.8622660636901855	1.3178503513336182	0.0003850004868581891	0.795210599899292	10
+515	santa_transcript	transcript	facebook/blenderbot-400M-distill	" turned to Charlie. ""I'll have"	 a	lot	5.620731353759766	5.816342353820801	0.0036219910252839327	0.105850949883461	10
+516	santa_transcript	transcript	facebook/blenderbot-400M-distill	" to Charlie. ""I'll have a"	 chocolate	""""	9.144865036010742	5.462399005889893	0.00010676670353859663	0.1179378479719162	10
+517	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Charlie. ""I'll have a chocolate"	 milk	""""	13.457688331604004	2.4259331226348877	1.43021134135779e-06	0.6355823874473572	10
+518	santa_transcript	transcript	facebook/blenderbot-400M-distill	"lie. ""I'll have a chocolate milk"	,	I	7.542637825012207	4.932795524597168	0.0005299976328387856	0.1556394100189209	10
+519	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ie. ""I'll have a chocolate milk,"	 and	I	6.209193706512451	4.4723920822143555	0.0020108583848923445	0.17734326422214508	10
+520	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""I'll have a chocolate milk, and"	-	""""	8.144822120666504	5.041545391082764	0.00029023431125096977	0.1054813414812088	10
+521	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""I'll have a chocolate milk, and-"	""""	""""	1.6541903018951416	5.107456207275391	0.1912468522787094	0.1912468522787094	10
+522	santa_transcript	transcript	facebook/blenderbot-400M-distill	"I'll have a chocolate milk, and-"""	" """	""""	8.842806816101074	4.549991130828857	0.00014441684470511973	0.22425077855587006	10
+523	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'ll have a chocolate milk, and-"" """	We	're	9.128904342651367	4.13148832321167	0.00010848438978428021	0.25376203656196594	10
+524	santa_transcript	transcript	facebook/blenderbot-400M-distill	" have a chocolate milk, and-"" ""We"	're	""""	6.603081703186035	3.609212875366211	0.0013561822706833482	0.4461056888103485	10
+525	santa_transcript	transcript	facebook/blenderbot-400M-distill	" a chocolate milk, and-"" ""We're"	 out	of	8.251994132995605	1.6264283657073975	0.00026073804474435747	0.6849728226661682	10
+526	santa_transcript	transcript	facebook/blenderbot-400M-distill	" chocolate milk, and-"" ""We're out"	"."""	</s>	7.7928876876831055	4.680688858032227	0.0004126594867557287	0.2148086130619049	10
+527	santa_transcript	transcript	facebook/blenderbot-400M-distill	" milk, and-"" ""We're out."""	 Jud	ge	6.375916004180908	2.9874696731567383	0.0017020602244883776	0.29795610904693604	10
+528	santa_transcript	transcript	facebook/blenderbot-400M-distill	", and-"" ""We're out."" Jud"	y	,	9.672708511352539	4.826302528381348	6.297904474195093e-05	0.24364322423934937	10
+529	santa_transcript	transcript	facebook/blenderbot-400M-distill	" and-"" ""We're out."" Judy"	 inter	ior	5.332013130187988	4.661340713500977	0.00483432924374938	0.16023701429367065	10
+530	santa_transcript	transcript	facebook/blenderbot-400M-distill	"-"" ""We're out."" Judy inter"	rupt	s	14.650559425354004	0.858354389667511	4.338534154157969e-07	0.7810353636741638	10
+531	santa_transcript	transcript	facebook/blenderbot-400M-distill	""" ""We're out."" Judy interrupt"	ed	.	10.380335807800293	2.4542622566223145	3.1036834116093814e-05	0.46119630336761475	10
+532	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""We're out."" Judy interrupted"	 again	.	10.165708541870117	1.5138031244277954	3.8467034755740315e-05	0.6966285109519958	10
+533	santa_transcript	transcript	facebook/blenderbot-400M-distill	"We're out."" Judy interrupted again"	,	I	6.720670700073242	5.082182884216309	0.0012057289713993669	0.14318419992923737	10
+534	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'re out."" Judy interrupted again,"	 and	again	8.044598579406738	5.575994491577148	0.0003208301495760679	0.08325579017400742	10
+535	santa_transcript	transcript	facebook/blenderbot-400M-distill	" out."" Judy interrupted again, and"	 Char	t	3.7467896938323975	4.383234024047852	0.023593366146087646	0.1108221709728241	10
+536	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" Judy interrupted again, and Char"	l	ot	5.24137020111084	3.0135977268218994	0.005293000023812056	0.3774963319301605	10
+537	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Judy interrupted again, and Charl	ie	.	6.016840934753418	5.719766139984131	0.0024373577907681465	0.057869888842105865	10
+538	santa_transcript	transcript	facebook/blenderbot-400M-distill	y interrupted again, and Charlie	 s	s	2.3997886180877686	5.419906139373779	0.09073714166879654	0.09073714166879654	10
+539	santa_transcript	transcript	facebook/blenderbot-400M-distill	 interrupted again, and Charlie s	ig	</s>	4.880622863769531	5.791474342346191	0.007592282723635435	0.08153455704450607	10
+540	santa_transcript	transcript	facebook/blenderbot-400M-distill	rupted again, and Charlie sig	hed	too	8.687171936035156	4.992053508758545	0.00016873658751137555	0.15651841461658478	10
+541	santa_transcript	transcript	facebook/blenderbot-400M-distill	ed again, and Charlie sighed	.	</s>	6.8807830810546875	4.081943511962891	0.001027339487336576	0.3725009560585022	10
+542	santa_transcript	transcript	facebook/blenderbot-400M-distill	 again, and Charlie sighed.	" """	be	11.706703186035156	5.011240005493164	8.238407644967083e-06	0.05795266851782799	10
+543	santa_transcript	transcript	facebook/blenderbot-400M-distill	", and Charlie sighed. """	P	""""	7.740095615386963	4.782034397125244	0.0004350300005171448	0.21479378640651703	10
+544	santa_transcript	transcript	facebook/blenderbot-400M-distill	" and Charlie sighed. ""P"	lain	""""	4.684149742126465	5.5209856033325195	0.009240586310625076	0.16520313918590546	10
+545	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Charlie sighed. ""Plain"	 milk	""""	12.7714204788208	2.6707801818847656	2.840811703208601e-06	0.6424948573112488	10
+546	santa_transcript	transcript	facebook/blenderbot-400M-distill	"lie sighed. ""Plain milk"	's	""""	6.332006454467773	4.245037078857422	0.0017784618539735675	0.3746052086353302	10
+547	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ie sighed. ""Plain milk's"	 fine	""""	8.489096641540527	3.982516288757324	0.00020569894695654511	0.3746356666088104	10
+548	santa_transcript	transcript	facebook/blenderbot-400M-distill	" sighed. ""Plain milk's fine"	,	""""	8.157687187194824	5.5939788818359375	0.00028652430046349764	0.07884187996387482	10
+549	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ighed. ""Plain milk's fine,"	 and	""""	6.965381622314453	5.175350189208984	0.0009440024150535464	0.1266661435365677	10
+550	santa_transcript	transcript	facebook/blenderbot-400M-distill	"hed. ""Plain milk's fine, and"	 chicken	"."""	12.007974624633789	3.5770909786224365	6.0954116634093225e-06	0.190932959318161	10
+551	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Plain milk's fine, and chicken"	 fingers	.	7.854825019836426	4.607251167297363	0.00038787597441114485	0.22107812762260437	10
+552	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Plain milk's fine, and chicken fingers"	"."""	</s>	5.273686408996582	5.527831554412842	0.0051246825605630875	0.11821358650922775	10
+553	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Plain milk's fine, and chicken fingers."""	 Jud	y	9.978151321411133	3.1630451679229736	4.640278348233551e-05	0.24450848996639252	10
+554	santa_transcript	transcript	facebook/blenderbot-400M-distill	"lain milk's fine, and chicken fingers."" Jud"	y	's	7.952404022216797	5.749018669128418	0.0003518154553603381	0.1729375272989273	10
+555	santa_transcript	transcript	facebook/blenderbot-400M-distill	" milk's fine, and chicken fingers."" Judy"	 coll	e	6.334995269775391	5.096640586853027	0.0017731537809595466	0.06773273646831512	10
+556	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'s fine, and chicken fingers."" Judy coll"	ected	.	14.236249923706055	4.604180812835693	6.565610419784207e-07	0.17726585268974304	10
+557	santa_transcript	transcript	facebook/blenderbot-400M-distill	" fine, and chicken fingers."" Judy collected"	 their	s	8.206405639648438	3.2186975479125977	0.00027289989520795643	0.6018887162208557	10
+558	santa_transcript	transcript	facebook/blenderbot-400M-distill	", and chicken fingers."" Judy collected their"	 men	.	7.396432399749756	5.132263660430908	0.0006134373252280056	0.14492399990558624	10
+559	santa_transcript	transcript	facebook/blenderbot-400M-distill	" and chicken fingers."" Judy collected their men"	us	.	11.683127403259277	3.772488832473755	8.4349430835573e-06	0.2659355700016022	10
+560	santa_transcript	transcript	facebook/blenderbot-400M-distill	" chicken fingers."" Judy collected their menus"	 and	how	7.5031657218933105	6.276389122009277	0.0005513362120836973	0.03612111881375313	10
+561	santa_transcript	transcript	facebook/blenderbot-400M-distill	" fingers."" Judy collected their menus and"	 st	st	2.8653347492218018	5.69491720199585	0.05696406215429306	0.05696406215429306	10
+562	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" Judy collected their menus and st"	ro	kes	7.097914695739746	3.821662425994873	0.000826827366836369	0.23910893499851227	10
+563	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Judy collected their menus and stro	de	I	12.246601104736328	5.814387798309326	4.801409886567853e-06	0.0517413429915905	10
+564	santa_transcript	transcript	facebook/blenderbot-400M-distill	y collected their menus and strode	 off	of	8.685585021972656	6.083361625671387	0.00016900453192647547	0.04987793415784836	10
+565	santa_transcript	transcript	facebook/blenderbot-400M-distill	 collected their menus and strode off	 toward	I	12.700385093688965	5.822262763977051	3.0499506920023123e-06	0.09164257347583771	10
+566	santa_transcript	transcript	facebook/blenderbot-400M-distill	ected their menus and strode off toward	 the	I	6.473917484283447	5.95073127746582	0.0015431685606017709	0.12438496947288513	10
+567	santa_transcript	transcript	facebook/blenderbot-400M-distill	 their menus and strode off toward the	 kitchen	s	10.229243278503418	4.8292012214660645	3.6099067074246705e-05	0.22751358151435852	10
+568	santa_transcript	transcript	facebook/blenderbot-400M-distill	 menus and strode off toward the kitchen	.		6.729844093322754	4.659939765930176	0.0011947191087529063	0.23376357555389404	10
+569	santa_transcript	transcript	facebook/blenderbot-400M-distill	us and strode off toward the kitchen.	 The	not	10.353691101074219	6.320106506347656	3.1874911655904725e-05	0.0272600669413805	10
+570	santa_transcript	transcript	facebook/blenderbot-400M-distill	 and strode off toward the kitchen. The	 two	.	8.465380668640137	4.881309509277344	0.00021063564054202288	0.13366521894931793	10
+571	santa_transcript	transcript	facebook/blenderbot-400M-distill	 strode off toward the kitchen. The two	 sat	.	9.453082084655762	5.920779228210449	7.844743231544271e-05	0.03935834765434265	10
+572	santa_transcript	transcript	facebook/blenderbot-400M-distill	rode off toward the kitchen. The two sat	 in	to	4.334650993347168	6.002312660217285	0.013106445781886578	0.04669017717242241	10
+573	santa_transcript	transcript	facebook/blenderbot-400M-distill	de off toward the kitchen. The two sat in	 sil	ence	9.124974250793457	1.960734248161316	0.00010891159763559699	0.7204455733299255	10
+574	santa_transcript	transcript	facebook/blenderbot-400M-distill	 off toward the kitchen. The two sat in sil	ence	.	12.163817405700684	3.202765703201294	5.2158034122840036e-06	0.38156235218048096	10
+575	santa_transcript	transcript	facebook/blenderbot-400M-distill	 toward the kitchen. The two sat in silence	 for	a	4.561638355255127	6.117284297943115	0.01044493354856968	0.06331560760736465	10
+576	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the kitchen. The two sat in silence for	 a	reason	4.250724792480469	5.926708221435547	0.014253899455070496	0.08172977715730667	10
+577	santa_transcript	transcript	facebook/blenderbot-400M-distill	 kitchen. The two sat in silence for a	 minute	.	9.452751159667969	1.595381259918213	7.847335655242205e-05	0.7961015701293945	10
+578	santa_transcript	transcript	facebook/blenderbot-400M-distill	. The two sat in silence for a minute	.	</s>	7.794925212860107	3.5410971641540527	0.00041181963752023876	0.39872944355010986	10
+579	santa_transcript	transcript	facebook/blenderbot-400M-distill	 The two sat in silence for a minute.	 Scott	ish	10.152881622314453	2.650895357131958	3.896365888067521e-05	0.6687294244766235	10
+580	santa_transcript	transcript	facebook/blenderbot-400M-distill	 two sat in silence for a minute. Scott	 put	on	8.210567474365234	4.52699613571167	0.0002717664174269885	0.13350838422775269	10
+581	santa_transcript	transcript	facebook/blenderbot-400M-distill	 sat in silence for a minute. Scott put	 his	to	6.895849227905273	6.088982105255127	0.00101197708863765	0.08580298721790314	10
+582	santa_transcript	transcript	facebook/blenderbot-400M-distill	 in silence for a minute. Scott put his	 pal	m	8.18610668182373	4.9074859619140625	0.00027849595062434673	0.1141834557056427	10
+583	santa_transcript	transcript	facebook/blenderbot-400M-distill	 silence for a minute. Scott put his pal	ms	on	13.22387409210205	2.2580630779266357	1.8069437146550626e-06	0.5196693539619446	10
+584	santa_transcript	transcript	facebook/blenderbot-400M-distill	ence for a minute. Scott put his palms	 down	.	4.697157382965088	3.906726121902466	0.009121167473495007	0.12921234965324402	10
+585	santa_transcript	transcript	facebook/blenderbot-400M-distill	 for a minute. Scott put his palms down	 on	a	6.896849155426025	5.3691205978393555	0.0010109659051522613	0.0862588882446289	10
+586	santa_transcript	transcript	facebook/blenderbot-400M-distill	 a minute. Scott put his palms down on	 the	right	7.730168342590332	5.868746757507324	0.0004393699928186834	0.05539856106042862	10
+587	santa_transcript	transcript	facebook/blenderbot-400M-distill	 minute. Scott put his palms down on the	 table	.	7.833576679229736	3.4536325931549072	0.00039620581082999706	0.42314544320106506	10
+588	santa_transcript	transcript	facebook/blenderbot-400M-distill	. Scott put his palms down on the table	.		7.728311061859131	4.1227874755859375	0.0004401869955472648	0.2668222486972809	10
+589	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Scott put his palms down on the table.	" """	a	6.596477031707764	5.33380126953125	0.0013651690678671002	0.13966085016727448	10
+590	santa_transcript	transcript	facebook/blenderbot-400M-distill	" put his palms down on the table. """	L	e	9.512093544006348	5.175393581390381	7.395208376692608e-05	0.1370571404695511	10
+591	santa_transcript	transcript	facebook/blenderbot-400M-distill	" his palms down on the table. ""L"	ook	""""	10.58656120300293	5.124975204467773	2.5253115381929092e-05	0.18695572018623352	10
+592	santa_transcript	transcript	facebook/blenderbot-400M-distill	" palms down on the table. ""Look"	,	I	8.164505004882812	5.843311309814453	0.0002845774870365858	0.05448794737458229	10
+593	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ms down on the table. ""Look,"	 I	""""	4.147695064544678	4.51917839050293	0.01580079272389412	0.21236100792884827	10
+594	santa_transcript	transcript	facebook/blenderbot-400M-distill	" down on the table. ""Look, I"	-	D	8.653634071350098	3.30637264251709	0.00017449160804972053	0.2900998592376709	10
+595	santa_transcript	transcript	facebook/blenderbot-400M-distill	" on the table. ""Look, I-"	I	s	9.41805648803711	2.725365400314331	8.124375017359853e-05	0.5070324540138245	10
+596	santa_transcript	transcript	facebook/blenderbot-400M-distill	" the table. ""Look, I-I"	'm	a	6.840137958526611	4.970212459564209	0.0010699557606130838	0.15193621814250946	10
+597	santa_transcript	transcript	facebook/blenderbot-400M-distill	" table. ""Look, I-I'm"	 sorry	.	4.864304065704346	2.83984637260437	0.007717197760939598	0.31522637605667114	10
+598	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Look, I-I'm sorry"	,	I	7.050197601318359	3.110729455947876	0.0008672374533489347	0.49564898014068604	10
+599	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Look, I-I'm sorry,"	 I	have	4.624411582946777	5.164610385894775	0.009809422306716442	0.0920618399977684	10
+600	santa_transcript	transcript	facebook/blenderbot-400M-distill	Look, I-I'm sorry, I	 was	just	8.267936706542969	5.647459983825684	0.0002566140901762992	0.07044439017772675	10
+601	santa_transcript	transcript	facebook/blenderbot-400M-distill	ook, I-I'm sorry, I was	 just	thinking	9.812299728393555	5.058740139007568	5.477372542372905e-05	0.15037545561790466	10
+602	santa_transcript	transcript	facebook/blenderbot-400M-distill	, I-I'm sorry, I was just	 kidding	.	8.964832305908203	2.30621600151062	0.00012782710837200284	0.3327809274196625	10
+603	santa_transcript	transcript	facebook/blenderbot-400M-distill	 I-I'm sorry, I was just kidding	 about	being	10.13491439819336	4.384832859039307	3.9670048863627017e-05	0.37013885378837585	10
+604	santa_transcript	transcript	facebook/blenderbot-400M-distill	-I'm sorry, I was just kidding about	 Ne	W	4.836987495422363	4.474105358123779	0.007930908352136612	0.2603325843811035	10
+605	santa_transcript	transcript	facebook/blenderbot-400M-distill	I'm sorry, I was just kidding about Ne	al	being	5.536935806274414	3.9627718925476074	0.003938576206564903	0.4057696461677551	10
+606	santa_transcript	transcript	facebook/blenderbot-400M-distill	'm sorry, I was just kidding about Neal	"."""	</s>	4.377989292144775	4.456351280212402	0.012550569139420986	0.20753873884677887	10
+607	santa_transcript	transcript	facebook/blenderbot-400M-distill	" sorry, I was just kidding about Neal."""	" """	""""	6.601190090179443	5.040853023529053	0.0013587500434368849	0.20532046258449554	10
+608	santa_transcript	transcript	facebook/blenderbot-400M-distill	", I was just kidding about Neal."" """	I	s	8.547123908996582	4.600698947906494	0.00019410262757446617	0.22623880207538605	10
+609	santa_transcript	transcript	facebook/blenderbot-400M-distill	" I was just kidding about Neal."" ""I"	 like	to	5.397787094116211	4.7249369621276855	0.00452658673748374	0.19410543143749237	10
+610	santa_transcript	transcript	facebook/blenderbot-400M-distill	" was just kidding about Neal."" ""I like"	 him	a	10.571806907653809	4.1450676918029785	2.5628462026361376e-05	0.17312005162239075	10
+611	santa_transcript	transcript	facebook/blenderbot-400M-distill	" just kidding about Neal."" ""I like him"	,	you	8.515059471130371	4.130356788635254	0.00020042723917867988	0.1739903837442398	10
+612	santa_transcript	transcript	facebook/blenderbot-400M-distill	" kidding about Neal."" ""I like him,"	 I	'm	4.929198265075684	5.002439975738525	0.007232298143208027	0.10509894788265228	10
+613	santa_transcript	transcript	facebook/blenderbot-400M-distill	" about Neal."" ""I like him, I"	'm	just	6.799344062805176	5.382471084594727	0.0011145061580464244	0.0883442610502243	10
+614	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Neal."" ""I like him, I'm"	 sure	.	8.482985496520996	3.0389349460601807	0.00020695995772257447	0.2914721965789795	10
+615	santa_transcript	transcript	facebook/blenderbot-400M-distill	"al."" ""I like him, I'm sure"	 he	's	6.580266952514648	3.499258518218994	0.0013874786673113704	0.502297580242157	10
+616	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""I like him, I'm sure he"	's	got	7.326907157897949	5.265239238739014	0.000657604425214231	0.11584284901618958	10
+617	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""I like him, I'm sure he's"	 a	thing	7.675869464874268	4.686896324157715	0.0004638870304916054	0.33252856135368347	10
+618	santa_transcript	transcript	facebook/blenderbot-400M-distill	I like him, I'm sure he's a	 good	thing	6.914482593536377	4.783575534820557	0.0009932952234521508	0.1888851523399353	10
+619	santa_transcript	transcript	facebook/blenderbot-400M-distill	 like him, I'm sure he's a good	 psych	olog	8.981712341308594	3.0164031982421875	0.00012568742386065423	0.2535289227962494	10
+620	santa_transcript	transcript	facebook/blenderbot-400M-distill	 him, I'm sure he's a good psych	iat	ry	7.0025787353515625	2.5327937602996826	0.0009095334680750966	0.4317009747028351	10
+621	santa_transcript	transcript	facebook/blenderbot-400M-distill	, I'm sure he's a good psychiat	rist	,	14.734685897827148	2.5905961990356445	3.9884801594780583e-07	0.40933847427368164	10
+622	santa_transcript	transcript	facebook/blenderbot-400M-distill	 I'm sure he's a good psychiatrist	,	you	5.963070392608643	4.846990585327148	0.0025720030535012484	0.1356745809316635	10
+623	santa_transcript	transcript	facebook/blenderbot-400M-distill	'm sure he's a good psychiatrist,	 you	know	5.475100517272949	3.228480339050293	0.004189807455986738	0.48701661825180054	10
+624	santa_transcript	transcript	facebook/blenderbot-400M-distill	 sure he's a good psychiatrist, you	 know	,	4.265099048614502	4.29919958114624	0.014050474390387535	0.15980371832847595	10
+625	santa_transcript	transcript	facebook/blenderbot-400M-distill	 he's a good psychiatrist, you know	,	to	7.103364944458008	5.4637932777404785	0.0008223329205065966	0.05875726789236069	10
+626	santa_transcript	transcript	facebook/blenderbot-400M-distill	's a good psychiatrist, you know,	 there	's	9.185933113098145	1.5086896419525146	0.00010247075988445431	0.7694558501243591	10
+627	santa_transcript	transcript	facebook/blenderbot-400M-distill	 a good psychiatrist, you know, there	's	a	7.83101749420166	4.739363193511963	0.00039722115616314113	0.16436105966567993	10
+628	santa_transcript	transcript	facebook/blenderbot-400M-distill	 good psychiatrist, you know, there's	 just	one	10.560476303100586	4.276460647583008	2.5920497137121856e-05	0.24743351340293884	10
+629	santa_transcript	transcript	facebook/blenderbot-400M-distill	 psychiatrist, you know, there's just	 something	.	9.639978408813477	3.9413721561431885	6.507448415504768e-05	0.13546498119831085	10
+630	santa_transcript	transcript	facebook/blenderbot-400M-distill	iatrist, you know, there's just something	 about	,	8.456907272338867	4.780708312988281	0.00021242813090793788	0.19676421582698822	10
+631	santa_transcript	transcript	facebook/blenderbot-400M-distill	rist, you know, there's just something about	 him	,	8.786864280700684	3.1251473426818848	0.00015272607561200857	0.4391331672668457	10
+632	santa_transcript	transcript	facebook/blenderbot-400M-distill	, you know, there's just something about him	,	you	3.158651828765869	4.699113368988037	0.042482972145080566	0.1426842361688614	10
+633	santa_transcript	transcript	facebook/blenderbot-400M-distill	 you know, there's just something about him,	 that	's	7.163606643676758	3.654942035675049	0.0007742570014670491	0.38888242840766907	10
+634	santa_transcript	transcript	facebook/blenderbot-400M-distill	 know, there's just something about him, that	 makes	sense	6.8319196701049805	3.389488697052002	0.0010787851642817259	0.49331358075141907	10
+635	santa_transcript	transcript	facebook/blenderbot-400M-distill	, there's just something about him, that makes	 me	a	8.532206535339355	4.691926956176758	0.00019701983546838164	0.11266570538282394	10
+636	santa_transcript	transcript	facebook/blenderbot-400M-distill	 there's just something about him, that makes me	 want	to	5.128465175628662	0.7616770267486572	0.005925648845732212	0.9112457633018494	10
+637	santa_transcript	transcript	facebook/blenderbot-400M-distill	's just something about him, that makes me want	 to	just	5.221714973449707	4.744043350219727	0.005398062523454428	0.19866225123405457	10
+638	santa_transcript	transcript	facebook/blenderbot-400M-distill	 just something about him, that makes me want to	,	you	7.3708720207214355	4.641369342803955	0.0006293191690929234	0.14490245282649994	10
+639	santa_transcript	transcript	facebook/blenderbot-400M-distill	 something about him, that makes me want to,	 I	'm	9.502992630004883	3.4216530323028564	7.4628165748436e-05	0.26421409845352173	10
+640	santa_transcript	transcript	facebook/blenderbot-400M-distill	 about him, that makes me want to, I	 don	't	10.495644569396973	0.0962643027305603	2.765664248727262e-05	0.9882977604866028	10
+641	santa_transcript	transcript	facebook/blenderbot-400M-distill	 him, that makes me want to, I don	't	know	7.6494855880737305	3.3564515113830566	0.0004762890166603029	0.21700280904769897	10
+642	santa_transcript	transcript	facebook/blenderbot-400M-distill	, that makes me want to, I don't	 know	,	8.426560401916504	1.9750272035598755	0.00021897340775467455	0.6372472643852234	10
+643	santa_transcript	transcript	facebook/blenderbot-400M-distill	 that makes me want to, I don't know	�	�	3.705810070037842	1.6715601682662964	0.024580299854278564	0.6868395209312439	10
+644	santa_transcript	transcript	facebook/blenderbot-400M-distill	 makes me want to, I don't know�	�	�	4.4877777099609375	5.0013508796691895	0.011245605535805225	0.10454857349395752	10
+645	santa_transcript	transcript	facebook/blenderbot-400M-distill	 me want to, I don't know…	""""	but	6.721296787261963	5.299075126647949	0.0012049746001139283	0.13343483209609985	10
+646	santa_transcript	transcript	facebook/blenderbot-400M-distill	" want to, I don't know…"""	" """	I	11.943708419799805	5.059622287750244	6.500002200482413e-06	0.06569521129131317	10
+647	santa_transcript	transcript	facebook/blenderbot-400M-distill	" to, I don't know…"" """	L	ES	6.768628120422363	4.6269211769104	0.001149270567111671	0.08648299425840378	10
+648	santa_transcript	transcript	facebook/blenderbot-400M-distill	", I don't know…"" ""L"	ash	","""	11.354522705078125	3.0448718070983887	1.1716373592207674e-05	0.22288715839385986	10
+649	santa_transcript	transcript	facebook/blenderbot-400M-distill	" I don't know…"" ""Lash"	 out	""""	9.932680130004883	5.020055770874023	4.856148370890878e-05	0.20898687839508057	10
+650	santa_transcript	transcript	facebook/blenderbot-400M-distill	" don't know…"" ""Lash out"	 ir	a	7.530043601989746	5.306657791137695	0.0005367148551158607	0.11017217487096786	10
+651	santa_transcript	transcript	facebook/blenderbot-400M-distill	"'t know…"" ""Lash out ir"	ration	to	11.000524520874023	5.701622009277344	1.6692938515916467e-05	0.06365663558244705	10
+652	santa_transcript	transcript	facebook/blenderbot-400M-distill	" know…"" ""Lash out irration"	ally	well	11.831531524658203	6.030797004699707	7.271616595971864e-06	0.05653880909085274	10
+653	santa_transcript	transcript	facebook/blenderbot-400M-distill	"…"" ""Lash out irrationally"	"?"""	</s>	9.810970306396484	3.6420061588287354	5.4846579587319866e-05	0.33562201261520386	10
+654	santa_transcript	transcript	facebook/blenderbot-400M-distill	"�"" ""Lash out irrationally?"""	 suggested	by	11.208661079406738	4.309115886688232	1.3556269550463185e-05	0.36402639746665955	10
+655	santa_transcript	transcript	facebook/blenderbot-400M-distill	""" ""Lash out irrationally?"" suggested"	 Char	AC	6.016458988189697	4.33748197555542	0.0024382888805121183	0.1903730034828186	10
+656	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Lash out irrationally?"" suggested Char"	l	ot	8.024152755737305	3.05779767036438	0.00032745732460170984	0.4061436951160431	10
+657	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Lash out irrationally?"" suggested Charl"	ie	by	7.47968864440918	4.727015972137451	0.0005644329939968884	0.28534531593322754	10
+658	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ash out irrationally?"" suggested Charlie"	.		6.923540115356445	4.081266403198242	0.000984339276328683	0.1700044870376587	10
+659	santa_transcript	transcript	facebook/blenderbot-400M-distill	" out irrationally?"" suggested Charlie."	" """	""""	7.932449817657471	5.0298171043396	0.0003589061088860035	0.08788833022117615	10
+660	santa_transcript	transcript	facebook/blenderbot-400M-distill	" irrationally?"" suggested Charlie. """	W	or	4.199026107788086	5.0435638427734375	0.015010192058980465	0.08902264386415482	10
+661	santa_transcript	transcript	facebook/blenderbot-400M-distill	"rationally?"" suggested Charlie. ""W"	here	""""	7.992260932922363	3.841273784637451	0.0003380689595360309	0.2571488618850708	10
+662	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ally?"" suggested Charlie. ""Where"	 did	you	8.438372611999512	3.9653944969177246	0.00021640199702233076	0.24151717126369476	10
+663	santa_transcript	transcript	facebook/blenderbot-400M-distill	"?"" suggested Charlie. ""Where did"	 you	go	6.289628028869629	5.2184271812438965	0.0018554501002654433	0.15013425052165985	10
+664	santa_transcript	transcript	facebook/blenderbot-400M-distill	" suggested Charlie. ""Where did you"	 hear	about	6.005002021789551	1.7927401065826416	0.002466384321451187	0.7375720739364624	10
+665	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Charlie. ""Where did you hear"	 that	""""	5.443521022796631	4.588712215423584	0.004324231296777725	0.1730366349220276	10
+666	santa_transcript	transcript	facebook/blenderbot-400M-distill	"lie. ""Where did you hear that"	"?"""	</s>	9.611248016357422	4.257984161376953	6.697121716570109e-05	0.2466987818479538	10
+667	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ie. ""Where did you hear that?"""	" """	D	11.110422134399414	4.362763404846191	1.4955644473957364e-05	0.13038165867328644	10
+668	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Where did you hear that?"" """	F	""""	9.994935035705566	3.199355363845825	4.563046604744159e-05	0.5042622089385986	10
+669	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Where did you hear that?"" ""F"	rom	""""	16.267026901245117	2.397866725921631	8.616278535100719e-08	0.6573798656463623	10
+670	santa_transcript	transcript	facebook/blenderbot-400M-distill	"Where did you hear that?"" ""From"	 Ne	""""	4.158141136169434	4.515169143676758	0.01563660055398941	0.32220888137817383	10
+671	santa_transcript	transcript	facebook/blenderbot-400M-distill	"here did you hear that?"" ""From Ne"	al	""""	7.757469654083252	2.3301520347595215	0.0004275371029507369	0.7122969627380371	10
+672	santa_transcript	transcript	facebook/blenderbot-400M-distill	" did you hear that?"" ""From Neal"	"."""	""""	4.877993106842041	4.916891574859619	0.007612275891005993	0.1360621303319931	10
+673	santa_transcript	transcript	facebook/blenderbot-400M-distill	" you hear that?"" ""From Neal."""	" """	N	9.584254264831543	4.984125137329102	6.880360888317227e-05	0.09182628989219666	10
+674	santa_transcript	transcript	facebook/blenderbot-400M-distill	" hear that?"" ""From Neal."" """	I	""""	9.687355041503906	3.928541421890259	6.206336547620595e-05	0.4270596504211426	10
+675	santa_transcript	transcript	facebook/blenderbot-400M-distill	" that?"" ""From Neal."" ""I"	 learn	""""	9.317671775817871	3.8583388328552246	8.982282452052459e-05	0.2724398374557495	10
+676	santa_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""From Neal."" ""I learn"	 a	ST	7.574702739715576	3.765538215637207	0.0005132729420438409	0.18873868882656097	10
+677	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""From Neal."" ""I learn a"	 lot	""""	8.112093925476074	2.3875317573547363	0.00029989026370458305	0.32506975531578064	10
+678	santa_transcript	transcript	facebook/blenderbot-400M-distill	"From Neal."" ""I learn a lot"	 from	a	7.669955730438232	4.915441513061523	0.00046663853572681546	0.17994080483913422	10
+679	santa_transcript	transcript	facebook/blenderbot-400M-distill	"rom Neal."" ""I learn a lot from"	 him	""""	9.37064266204834	3.635836362838745	8.518861432094127e-05	0.3439549505710602	10
+680	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Neal."" ""I learn a lot from him"	"."""		5.918403625488281	4.203220367431641	0.002689490094780922	0.2857515215873718	10
+681	santa_transcript	transcript	facebook/blenderbot-400M-distill	"al."" ""I learn a lot from him."""	" """	D	6.089797019958496	4.751632213592529	0.0022658691741526127	0.13876062631607056	10
+682	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""I learn a lot from him."" """	He	""""	11.314584732055664	4.5016303062438965	1.2193780094094109e-05	0.1878722459077835	10
+683	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""I learn a lot from him."" ""He"	 list	s	9.318889617919922	2.900517225265503	8.971351780928671e-05	0.4588468074798584	10
+684	santa_transcript	transcript	facebook/blenderbot-400M-distill	"I learn a lot from him."" ""He list"	ens	to	13.08209228515625	1.187890887260437	2.0821855741814943e-06	0.8405942916870117	10
+685	santa_transcript	transcript	facebook/blenderbot-400M-distill	" learn a lot from him."" ""He listens"	 to	me	3.5069448947906494	5.735733985900879	0.029988395050168037	0.0679810494184494	10
+686	santa_transcript	transcript	facebook/blenderbot-400M-distill	" a lot from him."" ""He listens to"	 me	""""	7.926552772521973	3.2094154357910156	0.0003610288258641958	0.5477825999259949	10
+687	santa_transcript	transcript	facebook/blenderbot-400M-distill	" lot from him."" ""He listens to me"	"."""	</s>	8.450908660888672	4.478216648101807	0.00021370608010329306	0.1637500375509262	10
+688	santa_transcript	transcript	facebook/blenderbot-400M-distill	" from him."" ""He listens to me."""	 Scott	ish	8.688660621643066	2.68758487701416	0.00016848547966219485	0.6767452359199524	10
+689	santa_transcript	transcript	facebook/blenderbot-400M-distill	" him."" ""He listens to me."" Scott"	 sh	*	4.221199989318848	5.0401930809021	0.014681019820272923	0.19347886741161346	10
+690	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""He listens to me."" Scott sh"	ook	.	8.960613250732422	5.732924461364746	0.00012836753739975393	0.08403265476226807	10
+691	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""He listens to me."" Scott shook"	 his	O	7.283102989196777	6.281968116760254	0.0006870501092635095	0.03485491871833801	10
+692	santa_transcript	transcript	facebook/blenderbot-400M-distill	"He listens to me."" Scott shook his"	 head	.	6.842994689941406	4.832473278045654	0.0010669033508747816	0.19436055421829224	10
+693	santa_transcript	transcript	facebook/blenderbot-400M-distill	" listens to me."" Scott shook his head"	.	</s>	6.538463592529297	4.11866569519043	0.0014467098517343402	0.2973974645137787	10
+694	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ens to me."" Scott shook his head."	" """	""""	7.500831604003906	5.472180366516113	0.0005526245222426951	0.08816433697938919	10
+695	santa_transcript	transcript	facebook/blenderbot-400M-distill	" to me."" Scott shook his head. """	Y	es	7.643448352813721	2.744016170501709	0.0004791732062585652	0.5158113837242126	10
+696	santa_transcript	transcript	facebook/blenderbot-400M-distill	" me."" Scott shook his head. ""Y"	eah	""""	7.560002326965332	3.63967227935791	0.0005208739312365651	0.2077673375606537	10
+697	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" Scott shook his head. ""Yeah"	,	I	7.746411323547363	5.344414710998535	0.0004322911845520139	0.14066821336746216	10
+698	santa_transcript	transcript	facebook/blenderbot-400M-distill	" Scott shook his head. ""Yeah,"	 and	I	5.964485168457031	5.719997882843018	0.002568367403000593	0.08920060843229294	10
+699	santa_transcript	transcript	facebook/blenderbot-400M-distill	" shook his head. ""Yeah, and"	 then	.	11.066129684448242	3.4796855449676514	1.5632949725841172e-05	0.3092937171459198	10
+700	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ook his head. ""Yeah, and then"	 he	's	4.003645420074463	4.254899501800537	0.018248995766043663	0.19156572222709656	10
+701	santa_transcript	transcript	facebook/blenderbot-400M-distill	" his head. ""Yeah, and then he"	 charges	.	7.729037761688232	3.9349279403686523	0.0004398671444505453	0.16789352893829346	10
+702	santa_transcript	transcript	facebook/blenderbot-400M-distill	" head. ""Yeah, and then he charges"	 you	.	6.714775562286377	3.8063039779663086	0.0012128581292927265	0.31432071328163147	10
+703	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Yeah, and then he charges you"	 for	WH	9.190296173095703	6.046833038330078	0.00010202463454334065	0.029898058623075485	10
+704	santa_transcript	transcript	facebook/blenderbot-400M-distill	" ""Yeah, and then he charges you for"	 it	.	6.106168746948242	4.375938892364502	0.0022290744818747044	0.1864621639251709	10
+705	santa_transcript	transcript	facebook/blenderbot-400M-distill	Yeah, and then he charges you for it	"."""	""""	4.176916599273682	4.862981796264648	0.015345749445259571	0.16704416275024414	10
+706	santa_transcript	transcript	facebook/blenderbot-400M-distill	"eah, and then he charges you for it."""	 Jud	y	10.63402271270752	2.162086009979248	2.408256841590628e-05	0.5580664277076721	10
+707	santa_transcript	transcript	facebook/blenderbot-400M-distill	", and then he charges you for it."" Jud"	y	.	7.328157424926758	5.667984962463379	0.0006567828240804374	0.06581133604049683	10
+708	santa_transcript	transcript	facebook/blenderbot-400M-distill	" and then he charges you for it."" Judy"	 re	ec	5.230669021606445	4.452056884765625	0.005349944811314344	0.2689553201198578	10
+709	santa_transcript	transcript	facebook/blenderbot-400M-distill	" then he charges you for it."" Judy re"	app	ears	10.933844566345215	2.724648952484131	1.784397136361804e-05	0.3082083463668823	10
+710	santa_transcript	transcript	facebook/blenderbot-400M-distill	" he charges you for it."" Judy reapp"	eared	""""	13.865352630615234	4.644045829772949	9.513793202131637e-07	0.22146420180797577	10
+711	santa_transcript	transcript	facebook/blenderbot-400M-distill	" charges you for it."" Judy reappeared"	 with	a	6.460984230041504	5.529946327209473	0.0015632562572136521	0.1611003279685974	10
+712	santa_transcript	transcript	facebook/blenderbot-400M-distill	" you for it."" Judy reappeared with"	 their	s	7.848750591278076	5.533747673034668	0.00039023926365189254	0.17212910950183868	10
+713	santa_transcript	transcript	facebook/blenderbot-400M-distill	" for it."" Judy reappeared with their"	 drinks	.	12.533980369567871	3.1737186908721924	3.6021472169522895e-06	0.4555659294128418	10
+714	santa_transcript	transcript	facebook/blenderbot-400M-distill	" it."" Judy reappeared with their drinks"	,	I	5.667044639587402	5.246960639953613	0.0034580708015710115	0.13507208228111267	10
+715	santa_transcript	transcript	facebook/blenderbot-400M-distill	"."" Judy reappeared with their drinks,"	 the	game	7.028256416320801	6.262066841125488	0.0008864759001880884	0.04163523390889168	10
+716	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Judy reappeared with their drinks, the	 sandw	ich	9.464958190917969	0.5490381121635437	7.752123929094523e-05	0.815310001373291	10
+717	santa_transcript	transcript	facebook/blenderbot-400M-distill	y reappeared with their drinks, the sandw	ich	.	11.529601097106934	5.334957122802734	9.834624506765977e-06	0.09640222787857056	10
+718	santa_transcript	transcript	facebook/blenderbot-400M-distill	 reappeared with their drinks, the sandwich	,	to	5.018191337585449	5.024387836456299	0.0066164820455014706	0.09756534546613693	10
+719	santa_transcript	transcript	facebook/blenderbot-400M-distill	appeared with their drinks, the sandwich,	 and	with	8.2238187789917	3.9485552310943604	0.00026818900369107723	0.3599260449409485	10
+720	santa_transcript	transcript	facebook/blenderbot-400M-distill	eared with their drinks, the sandwich, and	 chicken	.	8.52009391784668	4.634479522705078	0.0001994207123061642	0.19940179586410522	10
+721	santa_transcript	transcript	facebook/blenderbot-400M-distill	 with their drinks, the sandwich, and chicken	 fingers	.	10.11733627319336	4.428558349609375	4.037352846353315e-05	0.19097697734832764	10
+722	santa_transcript	transcript	facebook/blenderbot-400M-distill	 their drinks, the sandwich, and chicken fingers	.	</s>	5.731860637664795	4.856837749481201	0.003241041675209999	0.2866782546043396	10
+723	santa_transcript	transcript	facebook/blenderbot-400M-distill	 drinks, the sandwich, and chicken fingers.	 Char	t	5.850937843322754	3.7587051391601562	0.0028771988581866026	0.24962137639522552	10
+724	santa_transcript	transcript	facebook/blenderbot-400M-distill	, the sandwich, and chicken fingers. Char	l	ot	5.408536911010742	2.075817584991455	0.00447818823158741	0.3724398612976074	10
+725	santa_transcript	transcript	facebook/blenderbot-400M-distill	 the sandwich, and chicken fingers. Charl	ie	.	7.591916084289551	5.489542007446289	0.000504513387568295	0.1511882096529007	10
+726	santa_transcript	transcript	facebook/blenderbot-400M-distill	 sandwich, and chicken fingers. Charlie	 do	.	7.096098899841309	4.683594226837158	0.0008283303468488157	0.20347611606121063	10
+727	santa_transcript	transcript	facebook/blenderbot-400M-distill	ich, and chicken fingers. Charlie do	ve	.	10.505908966064453	1.4921919107437134	2.7374211640562862e-05	0.7961629629135132	10
+728	santa_transcript	transcript	facebook/blenderbot-400M-distill	, and chicken fingers. Charlie dove	 into	be	8.99869155883789	5.840583801269531	0.00012357134255580604	0.08149582892656326	10
+729	santa_transcript	transcript	facebook/blenderbot-400M-distill	 and chicken fingers. Charlie dove into	 the	be	6.853830337524414	6.162379741668701	0.0010554054751992226	0.06308235973119736	10
+730	santa_transcript	transcript	facebook/blenderbot-400M-distill	 chicken fingers. Charlie dove into the	 French	to	6.067375183105469	6.319804668426514	0.002317247912287712	0.061285797506570816	10
+731	santa_transcript	transcript	facebook/blenderbot-400M-distill	 fingers. Charlie dove into the French	 f	f	0.736504316329956	3.1223573684692383	0.4787846505641937	0.4787846505641937	10
+732	santa_transcript	transcript	facebook/blenderbot-400M-distill	. Charlie dove into the French f	ries	.	10.666144371032715	4.18815803527832	2.332127587578725e-05	0.15904685854911804	10
+733	santa_transcript	transcript	facebook/blenderbot-400M-distill	 Charlie dove into the French fries	 on	a	8.268491744995117	5.5707011222839355	0.00025647185975685716	0.11064733564853668	10
+734	santa_transcript	transcript	facebook/blenderbot-400M-distill	lie dove into the French fries on	 his	to	7.263506889343262	6.1265740394592285	0.0007006468367762864	0.05314875394105911	10
+735	santa_transcript	transcript	facebook/blenderbot-400M-distill	ie dove into the French fries on his	 plate	to	8.61634635925293	5.01392126083374	0.00018112079123966396	0.13915210962295532	10
+736	santa_transcript	transcript	facebook/blenderbot-400M-distill	 dove into the French fries on his plate	.		7.279130935668945	5.413496017456055	0.0006897845887579024	0.17872653901576996	10
+737	santa_transcript	transcript	facebook/blenderbot-400M-distill	ve into the French fries on his plate.	" """	a	8.677116394042969	5.296043395996094	0.00017044194100890309	0.06462707370519638	10
+738	santa_transcript	transcript	facebook/blenderbot-400M-distill	" into the French fries on his plate. """	M	e	7.286141872406006	4.970675945281982	0.0006849656347185373	0.12382909655570984	10
+739	santa_transcript	transcript	facebook/blenderbot-400M-distill	" the French fries on his plate. ""M"	er	ry	6.581519603729248	5.596099853515625	0.0013857418671250343	0.10460099577903748	10
+740	santa_transcript	transcript	facebook/blenderbot-400M-distill	" French fries on his plate. ""Mer"	ry	""""	9.508042335510254	3.6338045597076416	7.425226795021445e-05	0.44309231638908386	10
+741	santa_transcript	transcript	facebook/blenderbot-400M-distill	" fries on his plate. ""Merry"	 Christmas	""""	8.615153312683105	3.2423081398010254	0.00018133707635570318	0.5222443342208862	10
+742	santa_transcript	transcript	facebook/blenderbot-400M-distill	"ries on his plate. ""Merry Christmas"	,	I	7.096685409545898	5.729955196380615	0.0008278443710878491	0.09682941436767578	10
+743	santa_transcript	transcript	facebook/blenderbot-400M-distill	" on his plate. ""Merry Christmas,"	 you	are	4.659912109375	4.388589382171631	0.0094672916457057	0.19583898782730103	10
+744	santa_transcript	transcript	facebook/blenderbot-400M-distill	" his plate. ""Merry Christmas, you"	 two	""""	9.255311965942383	3.465430736541748	9.560246689943597e-05	0.4247686266899109	10
+745	santa_transcript	transcript	facebook/blenderbot-400M-distill	" plate. ""Merry Christmas, you two"	"."""	</s>	7.648766994476318	4.030881881713867	0.00047663142322562635	0.27288371324539185	10
+746	santa_transcript	transcript	facebook/blenderbot-400M-distill	". ""Merry Christmas, you two."""	</s>	</s>	2.1914470195770264	5.453958511352539	0.11175492405891418	0.11175492405891418	10

@@ -1,0 +1,725 @@
+	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 Jerry and George st	roll	s	11.894061088562012	2.377312421798706	6.830854545114562e-06	0.6742706298828125	5
+1	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ry and George stroll	ed	together	11.72675895690918	5.510646343231201	8.0748241089168e-06	0.07507818192243576	5
+2	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and George strolled	 through	the	9.150056838989258	4.984621524810791	0.00010621376713970676	0.11527823656797409	5
+3	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 George strolled through	 the	I	6.5081787109375	5.315218925476074	0.0014911929611116648	0.22268180549144745	5
+4	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 strolled through the	 air	I	7.942562580108643	5.500166416168213	0.0003552948182914406	0.10223370790481567	5
+5	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	rolled through the air	port	.	10.067798614501953	5.428646087646484	4.242391514708288e-05	0.15824609994888306	5
+6	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ed through the airport	 with	respect	8.816136360168457	6.370186805725098	0.000148320323205553	0.06670326739549637	5
+7	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 through the airport with	 their	are	6.097622871398926	6.117438316345215	0.002248205244541168	0.03310287371277809	5
+8	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the airport with their	 suit	c	4.033364295959473	5.7270917892456055	0.01771463453769684	0.07931394875049591	5
+9	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 airport with their suit	c	ase	5.979742050170898	3.5082309246063232	0.0025294788647443056	0.462994784116745	5
+10	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	port with their suitc	ases	.	11.851302146911621	4.30494499206543	7.129266123229172e-06	0.15811903774738312	5
+11	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 with their suitcases	.	</s>	6.9983367919921875	4.175626277923584	0.0009133998537436128	0.24996638298034668	5
+12	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 their suitcases.	 George	.	5.837156295776367	5.355624198913574	0.0029171265196055174	0.1640487164258957	5
+13	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 suitcases. George	 walked	on	6.035087585449219	5.206226348876953	0.0023932866752147675	0.10784951597452164	5
+14	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	cases. George walked	 quickly	.	11.901387214660645	1.2442519664764404	6.780994681321317e-06	0.8242497444152832	5
+15	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ases. George walked quickly	,	and	6.6397857666015625	4.997897148132324	0.0013073076261207461	0.09885789453983307	5
+16	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	. George walked quickly,	 gr	ay	3.1251001358032227	4.352845191955566	0.043932534754276276	0.11471579223871231	5
+17	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 George walked quickly, gr	im	.	9.367202758789062	5.962182521820068	8.548215555492789e-05	0.0785854384303093	5
+18	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 walked quickly, grim	acing	.	15.644035339355469	5.256045818328857	1.6065031616108172e-07	0.07935760170221329	5
+19	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 quickly, grimacing	 as	you	5.962871551513672	5.326102256774902	0.0025725136511027813	0.10011151432991028	5
+20	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, grimacing as	 he	,	6.588883876800537	4.711234092712402	0.0013755742693319917	0.22041843831539154	5
+21	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 grimacing as he	 scan	ner	9.001472473144531	6.4367899894714355	0.00012322829570621252	0.04462799057364464	5
+22	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	imacing as he scan	ned	.	11.95803165435791	5.113847255706787	6.4075620684889145e-06	0.11876431852579117	5
+23	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	acing as he scanned	 the	a	5.3903021812438965	6.479211330413818	0.004560595378279686	0.04584730416536331	5
+24	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 as he scanned the	 signs	.	9.828924179077148	3.9734060764312744	5.387065903050825e-05	0.18050092458724976	5
+25	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 he scanned the signs	 to	I	3.247515916824341	6.3771796226501465	0.03887064754962921	0.06675701588392258	5
+26	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 scanned the signs to	 figure	out	7.452685832977295	1.2165887355804443	0.0005798821221105754	0.8460844159126282	5
+27	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ned the signs to figure	 out	.	8.816770553588867	4.6601362228393555	0.0001482262887293473	0.21464543044567108	5
+28	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the signs to figure out	 which	is	7.188164710998535	4.576420307159424	0.0007554745534434915	0.18312658369541168	5
+29	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 signs to figure out which	 way	to	7.6286516189575195	4.028021812438965	0.0004863161302637309	0.19327041506767273	5
+30	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to figure out which way	 to	take	3.8513782024383545	4.844870567321777	0.02125042863190174	0.1502142697572708	5
+31	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 figure out which way to	 go	to	7.695908546447754	5.238656044006348	0.00045468364260159433	0.08154633641242981	5
+32	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 out which way to go	.		6.62654447555542	3.574355125427246	0.0013247330207377672	0.43200334906578064	5
+33	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 which way to go.	 A	.	5.746601104736328	5.439871788024902	0.003193616634234786	0.18961791694164276	5
+34	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 way to go. A	 man	.	6.4222636222839355	5.0917463302612305	0.0016249733744189143	0.15161912143230438	5
+35	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to go. A man	 passing	.	10.325072288513184	4.076395511627197	3.280031887697987e-05	0.2578507363796234	5
+36	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 go. A man passing	 by	.	5.521100997924805	2.9582808017730713	0.004001440014690161	0.552122950553894	5
+37	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	. A man passing by	 sne	e	6.373872756958008	3.382882595062256	0.0017055412754416466	0.301225870847702	5
+38	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 A man passing by sne	e	ze	7.360446453094482	3.7108263969421387	0.0006359143881127238	0.23671495914459229	5
+39	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 man passing by snee	z	ing	7.726613521575928	1.968268632888794	0.0004409348766785115	0.6105298399925232	5
+40	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 passing by sneez	ed	to	9.929795265197754	5.514973163604736	4.8701756895752624e-05	0.06100942939519882	5
+41	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 by sneezed	 in	.	8.391470909118652	5.25194787979126	0.0002267935051349923	0.07849391549825668	5
+42	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 sneezed in	 his	he	5.590353012084961	6.200540065765381	0.0037337085232138634	0.03714809939265251	5
+43	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ezed in his	 direction	.	9.094286918640137	4.144532680511475	0.00011230556992813945	0.2993433475494385	5
+44	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	zed in his direction	,	as	6.297220230102539	5.317302227020264	0.0018414168152958155	0.08657859265804291	5
+45	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ed in his direction,	 causing	,	9.829195022583008	5.898384094238281	5.385608892538585e-05	0.06369678676128387	5
+46	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 in his direction, causing	 him	to	8.792035102844238	3.2865612506866455	0.00015193836588878185	0.5529141426086426	5
+47	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 his direction, causing him	 to	like	5.113480567932129	6.183383464813232	0.006015109363943338	0.047951970249414444	5
+48	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 direction, causing him to	 rec	y	2.4261856079101562	3.920238494873047	0.08837330341339111	0.20907697081565857	5
+49	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, causing him to rec	oil	,	11.912062644958496	4.042808532714844	6.708985438308446e-06	0.25765159726142883	5
+50	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 causing him to recoil	 backwards	but	7.859800815582275	5.309011459350586	0.0003859507560264319	0.04220156371593475	5
+51	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 him to recoil backwards	 and	I	5.347543239593506	5.415966987609863	0.0047598304226994514	0.07652578502893448	5
+52	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to recoil backwards and	 then	again	13.64314079284668	2.9311254024505615	1.1881173804795253e-06	0.5489434599876404	5
+53	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 recoil backwards and then	 fr	y	4.695455074310303	4.6023664474487305	0.00913670752197504	0.30039262771606445	5
+54	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	oil backwards and then fr	ant	ics	6.622228622436523	5.817741870880127	0.0013304624008014798	0.05605670064687729	5
+55	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 backwards and then frant	ically	.	8.70527458190918	4.977658748626709	0.00016570938169024885	0.09116273373365402	5
+56	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and then frantically	 squ	ir	5.210657119750977	4.384642124176025	0.005458084400743246	0.15886501967906952	5
+57	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 then frantically squ	irt	</s>	12.363821029663086	5.221468448638916	4.270321824151324e-06	0.09897258132696152	5
+58	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 frantically squirt	 P	</s>	4.57473611831665	4.437971115112305	0.01030901912599802	0.19971971213817596	5
+59	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	antically squirt P	ure	I	6.690410614013672	5.344915390014648	0.0012427722103893757	0.0786394327878952	5
+60	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ically squirt Pure	ll	E	7.7480244636535645	4.306812286376953	0.0004315942933317274	0.13555556535720825	5
+61	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 squirt Purell	 onto		9.187742233276367	5.832310199737549	0.00010228549945168197	0.09327259659767151	5
+62	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	irt Purell onto	 his	I	6.939399719238281	5.963812351226807	0.0009688512654975057	0.06845773011445999	5
+63	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 Purell onto his	 hands	and	9.779679298400879	4.971837997436523	5.658994632540271e-05	0.10562675446271896	5
+64	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	urell onto his hands	.		6.267157554626465	4.909087657928467	0.0018976141000166535	0.25102174282073975	5
+65	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ll onto his hands.	 Jer	ry	4.483177185058594	3.760460376739502	0.011297465302050114	0.42600682377815247	5
+66	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 onto his hands. Jer	ry	.	6.871819496154785	4.646987438201904	0.0010365891503170133	0.22480501234531403	5
+67	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 his hands. Jerry	 sa	v	5.6348042488098145	5.616591453552246	0.003571375971660018	0.07307349145412445	5
+68	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 hands. Jerry sa	unt	.	13.200859069824219	4.057406902313232	1.8490128468329203e-06	0.3667488098144531	5
+69	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	. Jerry saunt	ered	.	14.268147468566895	5.348743438720703	6.359489361784654e-07	0.08686976134777069	5
+70	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 Jerry sauntered	 up	I	6.14481258392334	4.163396835327148	0.0021445779129862785	0.41630440950393677	5
+71	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ry sauntered up	 behind	a	9.738554000854492	5.6333394050598145	5.896577567909844e-05	0.059999432414770126	5
+72	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 sauntered up behind	 him	.	6.5320892333984375	5.501984119415283	0.0014559612609446049	0.11108937114477158	5
+73	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	untered up behind him	,	I	5.263867378234863	6.230758190155029	0.005175252910703421	0.05912971496582031	5
+74	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ered up behind him,	 sm	ud	3.1435978412628174	5.084712982177734	0.043127357959747314	0.07338778674602509	5
+75	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 up behind him, sm	iling	.	14.309444427490234	4.637016773223877	6.102212068981316e-07	0.1935485154390335	5
+76	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 behind him, smiling	.		6.130893707275391	3.651201009750366	0.002174636349081993	0.28542983531951904	5
+77	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 him, smiling.	" """	E	7.654206275939941	5.131608009338379	0.0004740461299661547	0.09816976636648178	5
+78	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	", smiling. """	J	ob	6.268829345703125	4.847478866577148	0.0018944451585412025	0.11416133493185043	5
+79	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" smiling. ""J"	ust	a	12.077926635742188	5.750999927520752	5.683593371941242e-06	0.05687470734119415	5
+80	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"iling. ""Just"	 relax	ed	4.610815048217773	3.4943134784698486	0.009943707846105099	0.2198149710893631	5
+81	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""Just relax"	"!"""		7.627519130706787	3.8092470169067383	0.00048686721129342914	0.2866227328777313	5
+82	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Just relax!"""	" """	""""	4.7256388664245605	5.414861679077148	0.008865049108862877	0.14524024724960327	5
+83	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"Just relax!"" """	L	""""	7.616056442260742	4.878830909729004	0.0004924802342429757	0.16961784660816193	5
+84	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ust relax!"" ""L"	ear	n	6.419565200805664	1.9358023405075073	0.0016293642111122608	0.47835591435432434	5
+85	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" relax!"" ""Lear"	n	""""	6.8551812171936035	4.821126461029053	0.0010539805516600609	0.3509942889213562	5
+86	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"!"" ""Learn"	 to	""""	6.015378952026367	4.116525650024414	0.0024409235920757055	0.27905139327049255	5
+87	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Learn to"	 love	I	6.887351989746094	5.0017924308776855	0.0010206131264567375	0.143295556306839	5
+88	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Learn to love	 the	D	9.32084846496582	4.662113189697266	8.953794167609885e-05	0.10004615038633347	5
+89	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	earn to love the	 air	b	6.44471549987793	5.263051509857178	0.001588896382600069	0.16187596321105957	5
+90	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	n to love the air	port		11.485064506530762	5.645594596862793	1.0282528819516301e-05	0.058365240693092346	5
+91	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to love the airport	"."""		5.221651077270508	5.21038293838501	0.005398410372436047	0.11956526339054108	5
+92	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" love the airport."""	" """	""""	4.998439788818359	5.575530529022217	0.006748469080775976	0.09645329415798187	5
+93	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" the airport."" """	We	are	12.652722358703613	5.171438217163086	3.1988406590244267e-06	0.15379203855991364	5
+94	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" airport."" ""We"	're	""""	4.217161655426025	5.664336204528809	0.014740427024662495	0.14297528564929962	5
+95	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"port."" ""We're"	 all	""""	8.384465217590332	5.670044898986816	0.00022838781296741217	0.12623248994350433	5
+96	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""We're all"	 out	"."""	9.693184852600098	3.9888036251068115	6.170258711790666e-05	0.20803794264793396	5
+97	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""We're all out"	 here	.	5.8397345542907715	5.622832298278809	0.0029096149373799562	0.05643002688884735	5
+98	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	We're all out here	,	just	6.933601379394531	4.942205429077148	0.0009744851849973202	0.08295483887195587	5
+99	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	're all out here,	 moving	,	9.897886276245117	4.972120761871338	5.028082523494959e-05	0.1826745718717575	5
+100	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 all out here, moving	 around	,	7.884584426879883	3.7717885971069336	0.000376503070583567	0.25230464339256287	5
+101	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 out here, moving around	,	to	4.8349103927612305	5.431751728057861	0.007947402074933052	0.07224246114492416	5
+102	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 here, moving around,	 seeing	what	8.486757278442383	4.215149879455566	0.0002061806881101802	0.18706369400024414	5
+103	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, moving around, seeing	 the	,	7.311807155609131	5.875638961791992	0.0006676093908026814	0.10464558750391006	5
+104	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 moving around, seeing the	 world	one	9.893856048583984	5.311496734619141	5.048391903983429e-05	0.06848042458295822	5
+105	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 around, seeing the world	"."""	""""	4.775602340698242	5.4239959716796875	0.008433005772531033	0.11730220168828964	5
+106	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	", seeing the world."""	 George	,	6.51930046081543	5.193780899047852	0.0014747007517144084	0.12542884051799774	5
+107	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" seeing the world."" George"	 just	don	9.30785846710205	5.868326187133789	9.07086068764329e-05	0.04422486573457718	5
+108	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" the world."" George just"	 looked	at	12.308021545410156	4.268680572509766	4.5153774408390746e-06	0.2806282341480255	5
+109	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" world."" George just looked"	 at	.	6.1225175857543945	5.9592084884643555	0.002192927524447441	0.048251841217279434	5
+110	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" George just looked at"	 him	.	8.90552806854248	2.87515926361084	0.00013563701941166073	0.5200538039207458	5
+111	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 George just looked at him	 like	you	8.093790054321289	4.91515588760376	0.0003054297703783959	0.0884566605091095	5
+112	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 just looked at him like	 he	had	6.237321853637695	3.259427070617676	0.0019550847355276346	0.22713050246238708	5
+113	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 looked at him like he	 had	to	4.032696723937988	5.063083171844482	0.017726456746459007	0.14784789085388184	5
+114	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 at him like he had	 gone	I	10.122831344604492	4.884904384613037	4.015228114440106e-05	0.13499987125396729	5
+115	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 him like he had gone	 insane	and	9.741329193115234	5.431816577911377	5.880235767108388e-05	0.0702839121222496	5
+116	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 like he had gone insane	.	I	7.149106979370117	5.018837928771973	0.0007855651783756912	0.12440784275531769	5
+117	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 he had gone insane.	 They	are	8.324724197387695	4.987085819244385	0.0002424476551823318	0.15258288383483887	5
+118	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 had gone insane. They	 roll	one	6.404576301574707	4.409634113311768	0.0016539704520255327	0.13975155353546143	5
+119	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 gone insane. They roll	ed	.	8.986567497253418	4.196819305419922	0.00012507873179856688	0.27357110381126404	5
+120	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 insane. They rolled	 up	to	8.78941535949707	5.039217948913574	0.0001523370447102934	0.09744541347026825	5
+121	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	. They rolled up	 to	.	4.849777698516846	5.5672287940979	0.007830117829144001	0.13618169724941254	5
+122	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 They rolled up to	 the	I	7.060754776000977	5.902590751647949	0.0008581303409300745	0.16467085480690002	5
+123	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 rolled up to the	 end	of	6.603835582733154	1.0676045417785645	0.0013551600277423859	0.8655180931091309	5
+124	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ed up to the end	 of	e	7.9120588302612305	6.0275139808654785	0.00036629970418289304	0.04246467724442482	5
+125	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 up to the end of	 the	last	6.903679847717285	6.305849075317383	0.0010040841298177838	0.04504277557134628	5
+126	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to the end of the	 security	.	6.756175994873047	5.571582794189453	0.0011636707931756973	0.06746932119131088	5
+127	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the end of the security	 line	</s>	5.596022605895996	5.433859825134277	0.00371259986422956	0.1290311962366104	5
+128	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 end of the security line	,	there	7.379230976104736	5.1471266746521	0.0006240805960260332	0.07975313812494278	5
+129	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 of the security line,	 and	to	6.9572319984436035	5.00428581237793	0.0009517274447716773	0.13627302646636963	5
+130	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the security line, and	 Jer	ry	6.122574329376221	1.3968613147735596	0.002192803891375661	0.7977582216262817	5
+131	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 security line, and Jer	ry	's	5.454970836639404	5.382997035980225	0.004275001585483551	0.1451168805360794	5
+132	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 line, and Jerry	 pointed	by	7.445472240447998	4.24415922164917	0.0005840801168233156	0.22645412385463715	5
+133	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, and Jerry pointed	 to	,	5.854123115539551	3.6497976779937744	0.0028680500108748674	0.35283321142196655	5
+134	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and Jerry pointed to	 the	thing	7.318960189819336	6.5476579666137695	0.0006628510309383273	0.02647903747856617	5
+135	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 Jerry pointed to the	 security	depos	7.401003837585449	5.8313751220703125	0.0006106395740061998	0.06178087368607521	5
+136	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ry pointed to the security	 gu	ards	5.097036361694336	2.272657871246338	0.006114841904491186	0.5686876773834229	5
+137	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 pointed to the security gu	ards	we	10.7471923828125	5.089625358581543	2.1505698896362446e-05	0.07560400664806366	5
+138	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to the security guards	 checking	.	13.465846061706543	5.167181015014648	1.4185917507347767e-06	0.0793236792087555	5
+139	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the security guards checking	 board	</s>	8.738250732421875	5.877457618713379	0.00016033407882787287	0.1001259982585907	5
+140	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 security guards checking board	ing	</s>	9.23460865020752	5.703365325927734	9.760240936884657e-05	0.09152570366859436	5
+141	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 guards checking boarding	 passes	</s>	9.189665794372559	5.926257133483887	0.00010208896856056526	0.06601780652999878	5
+142	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ards checking boarding passes	.		7.24176025390625	5.319671630859375	0.0007160503882914782	0.20741236209869385	5
+143	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 checking boarding passes.	" """		6.947244644165039	5.912435054779053	0.0009612804278731346	0.06213958188891411	5
+144	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" boarding passes. """	C	al	8.7504243850708	5.322752475738525	0.00015839404659345746	0.06819499284029007	5
+145	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ing passes. ""C"	he	e	4.370304107666016	4.219990253448486	0.01264739129692316	0.13314740359783173	5
+146	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" passes. ""Che"	ck	""""	10.892999649047852	4.591498851776123	1.858789437392261e-05	0.16717615723609924	5
+147	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""Check"	 out	.	10.062363624572754	3.215635299682617	4.2655112338252366e-05	0.34069108963012695	5
+148	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Check out"	 these	I	6.870561599731445	6.569149971008301	0.0010378940496593714	0.02867913991212845	5
+149	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Check out these	 high	s	6.795748710632324	5.977503299713135	0.001118520274758339	0.08496341109275818	5
+150	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	heck out these high	 cal	or	5.780200004577637	5.760549545288086	0.0030880970880389214	0.045415814965963364	5
+151	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ck out these high cal	iber	I	13.35788345336914	6.667732238769531	1.5803195765329292e-06	0.02475384622812271	5
+152	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 out these high caliber	 individuals	.	7.855741500854492	5.887012481689453	0.0003875207039527595	0.06657617539167404	5
+153	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 these high caliber individuals	 they	to	4.516873359680176	6.266783237457275	0.010923121124505997	0.03529229387640953	5
+154	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 high caliber individuals they	 have	been	7.183110237121582	5.663918972015381	0.0007593024056404829	0.07047787308692932	5
+155	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 caliber individuals they have	 working	you	8.441994667053223	6.034117221832275	0.0002156195987481624	0.03807693347334862	5
+156	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	iber individuals they have working	 at	a	4.902117729187012	5.722832679748535	0.007430829107761383	0.07326439768075943	5
+157	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 individuals they have working at	 X	y	6.908994674682617	6.1377716064453125	0.0009987613884732127	0.06983058899641037	5
+158	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 they have working at X	-	men	7.211021900177002	4.766660690307617	0.0007384021882899106	0.09696797281503677	5
+159	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 have working at X-	ray	just	8.443944931030273	5.552507400512695	0.0002151996159227565	0.04650355875492096	5
+160	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 working at X-ray	 security	.	8.32949447631836	5.530696392059326	0.00024129386292770505	0.08707842230796814	5
+161	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 at X-ray security	"."""		5.707123279571533	5.01892614364624	0.003322215983644128	0.1359797716140747	5
+162	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" X-ray security."""	" """	""""	4.6663384437561035	5.558837890625	0.009406650438904762	0.08840692043304443	5
+163	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"-ray security."" """	H	im	6.1975016593933105	4.3265533447265625	0.0020345072261989117	0.16615381836891174	5
+164	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ray security."" ""H"	ow	ever	7.777929306030273	4.906991481781006	0.0004188786551821977	0.101279117166996	5
+165	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" security."" ""How"	 '	m	12.884537696838379	4.4257307052612305	2.5369761260662926e-06	0.2098522186279297	5
+166	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""How '"	b	oo	4.259031295776367	5.5347490310668945	0.014135991223156452	0.06621495634317398	5
+167	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""How 'b"	out	'	11.364492416381836	3.9980831146240234	1.160014835477341e-05	0.30188146233558655	5
+168	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	How 'bout	 this	S	8.780472755432129	4.000254154205322	0.0001537053904030472	0.15567289292812347	5
+169	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ow 'bout this	 crack	""""	8.671944618225098	5.293717384338379	0.00017132560606114566	0.09392145276069641	5
+170	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 'bout this crack	 squad	</s>	11.170424461364746	4.436943054199219	1.4084659596846905e-05	0.2473691999912262	5
+171	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	bout this crack squad	 of	thing	7.009998321533203	6.568977355957031	0.0009028101922012866	0.04228116199374199	5
+172	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	out this crack squad of	 sa	ves	8.166665077209473	4.510774612426758	0.00028396351262927055	0.17231974005699158	5
+173	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 this crack squad of sa	v	ory	4.85045051574707	5.112104892730713	0.007824850268661976	0.15825261175632477	5
+174	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 crack squad of sav	vy	ness	10.936748504638672	6.1767354011535645	1.7792239304981194e-05	0.06579728424549103	5
+175	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 squad of savvy	 motiv	ation	5.373411655426025	4.217407703399658	0.004638279788196087	0.31261059641838074	5
+176	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 of savvy motiv	ated	by	13.485458374023438	3.446188449859619	1.3910403140471317e-06	0.49888691306114197	5
+177	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 savvy motivated	 person	s	9.927107810974121	3.1065289974212646	4.883282235823572e-05	0.5753397941589355	5
+178	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	vvy motivated person	nel	.	11.567217826843262	4.661861419677734	9.471554221818224e-06	0.1745097041130066	5
+179	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	vy motivated personnel	"?"""	</s>	9.614190101623535	3.7416675090789795	6.677441706415266e-05	0.3355260491371155	5
+180	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" motivated personnel?"""	" """	""""	4.912188529968262	6.070173263549805	0.007356372661888599	0.05092758685350418	5
+181	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ated personnel?"" """	The	S	12.20179271697998	3.486480712890625	5.021445304009831e-06	0.2816726565361023	5
+182	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" personnel?"" ""The"	y	ARE	11.683341026306152	3.956536293029785	8.433145012531895e-06	0.1860211342573166	5
+183	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"nel?"" ""They"	've	S	12.353965759277344	3.5581703186035156	4.312616965762572e-06	0.11804672330617905	5
+184	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""They've"	 ch	or	2.172893524169922	4.461418628692627	0.11384773999452591	0.20292824506759644	5
+185	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""They've ch"	osen	to	11.701277732849121	4.533914566040039	8.283227543870453e-06	0.20613780617713928	5
+186	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	They've chosen	 to	a	3.7395150661468506	5.678647041320801	0.023765625432133675	0.07609549164772034	5
+187	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	y've chosen to	 stand	in	7.881328582763672	5.445924758911133	0.0003777309902943671	0.10762576758861542	5
+188	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	've chosen to stand	 in	a	4.999564170837402	5.617000102996826	0.006740884855389595	0.11900105327367783	5
+189	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 chosen to stand in	 front	of	12.40218448638916	1.5606107711791992	4.109602286916925e-06	0.8076984286308289	5
+190	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	osen to stand in front	 of	.	6.238255500793457	5.871579170227051	0.0019532600417733192	0.06845951080322266	5
+191	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to stand in front of	 x	men	8.211441993713379	6.234871864318848	0.00027152898837812245	0.03391653299331665	5
+192	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 stand in front of x	-	man	6.542054176330566	4.83190393447876	0.0014415248297154903	0.1126539409160614	5
+193	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 in front of x-	r	ather	4.431628227233887	5.9385151863098145	0.011895108968019485	0.052965883165597916	5
+194	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 front of x-r	ays		8.113615036010742	4.986933708190918	0.0002994342939928174	0.11796843260526657	5
+195	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 of x-rays	 four	</s>	7.42498779296875	6.346253395080566	0.0005961682181805372	0.031834278255701065	5
+196	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 x-rays four	te	</s>	8.809162139892578	6.214476108551025	0.0001493583549745381	0.058589424937963486	5
+197	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	-rays fourte	en	</s>	9.979918479919434	4.745666980743408	4.63208561995998e-05	0.2356852889060974	5
+198	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	rays fourteen	 hours	of	10.859456062316895	4.983868598937988	1.9221984985051677e-05	0.20953905582427979	5
+199	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ays fourteen hours	 a	ha	4.526222229003906	6.566320419311523	0.010821480304002762	0.029890235513448715	5
+200	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 fourteen hours a	 day	.	7.727029800415039	4.7110066413879395	0.0004407512897159904	0.18790501356124878	5
+201	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	teen hours a day	,	I	4.296024799346924	5.132162570953369	0.013622602447867393	0.11433608084917068	5
+202	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	en hours a day,	 as	you	6.447619438171387	5.225214958190918	0.00158428936265409	0.1534615010023117	5
+203	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 hours a day, as	 a	second	5.146478176116943	5.712520599365234	0.0058198650367558	0.0869564339518547	5
+204	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a day, as a	 profess	ion	11.294976234436035	1.242023229598999	1.2435238204488996e-05	0.7301114201545715	5
+205	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 day, as a profess	ion	als	9.564183235168457	4.812095642089844	7.01985482010059e-05	0.1291203796863556	5
+206	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, as a profession	"."""	</s>	4.263244152069092	2.9958977699279785	0.014076564460992813	0.5337374210357666	5
+207	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" as a profession."""	 They	're	8.873388290405273	4.6519551277160645	0.00014006716082803905	0.18234844505786896	5
+208	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" a profession."" They"	 put	in	9.927942276000977	3.0589427947998047	4.87920806335751e-05	0.3074488639831543	5
+209	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" profession."" They put"	 their	in	5.1094841957092285	6.076972007751465	0.0060391975566744804	0.04378954693675041	5
+210	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ion."" They put their"	 bags	on	8.989007949829102	2.7210142612457275	0.0001247738255187869	0.4601288437843323	5
+211	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" They put their bags"	 on	.	6.72512149810791	5.097760200500488	0.0012003747979179025	0.1274200826883316	5
+212	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 They put their bags on	 the	I	6.809880256652832	6.316922187805176	0.001102824811823666	0.07305169850587845	5
+213	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 put their bags on the	 con	con	2.0438003540039062	5.029749393463135	0.129535511136055	0.129535511136055	5
+214	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 their bags on the con	vey	or	10.709559440612793	2.6228809356689453	2.2330454157781787e-05	0.6274269223213196	5
+215	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 bags on the convey	or	.	7.471969127655029	5.3540120124816895	0.0005688071832992136	0.0953323021531105	5
+216	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 on the conveyor	 belt	is	9.59768295288086	4.334963798522949	6.788581231376156e-05	0.2806530296802521	5
+217	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the conveyor belt	 and	still	4.368188858032227	5.625511646270752	0.012674177065491676	0.049073901027441025	5
+218	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 conveyor belt and	 ste	ste	1.162691593170166	4.584081649780273	0.31264355778694153	0.31264355778694153	5
+219	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	veyor belt and ste	pped	to	14.477954864501953	6.269959449768066	5.155891926733602e-07	0.031630728393793106	5
+220	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	or belt and stepped	 through	but	9.229778289794922	5.438788414001465	9.807492460822687e-05	0.08090661466121674	5
+221	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 belt and stepped through	 the	thing	5.694038391113281	6.202542304992676	0.003365972777828574	0.06076423078775406	5
+222	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and stepped through the	 scan	ner	8.923432350158691	3.139742374420166	0.0001332301617367193	0.4669024646282196	5
+223	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 stepped through the scan	ners	.	11.543618202209473	5.053408622741699	9.69773464021273e-06	0.07285336405038834	5
+224	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	pped through the scanners	.		6.49155330657959	5.060366153717041	0.0015161921037361026	0.2533312439918518	5
+225	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 through the scanners.	 As	we	9.54633903503418	4.3801493644714355	7.146243297029287e-05	0.14427310228347778	5
+226	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the scanners. As	 they	come	4.2717084884643555	4.3936543464660645	0.013957913964986801	0.1930963099002838	5
+227	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 scanners. As they	 ret	ain	5.722522735595703	3.827246904373169	0.0032714479602873325	0.3694748878479004	5
+228	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ners. As they ret	rie	ve	10.983718872070312	1.1108179092407227	1.6975856851786375e-05	0.788661003112793	5
+229	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	. As they retrie	ved	.	13.755363464355469	2.1604018211364746	1.061992975337489e-06	0.6922783255577087	5
+230	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 As they retrieved	 their	F	8.275127410888672	5.404428482055664	0.00025477565941400826	0.09504618495702744	5
+231	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 they retrieved their	 shoes	I	9.470443725585938	4.458661079406738	7.709721830906346e-05	0.11968658864498138	5
+232	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 retrieved their shoes	,	they	5.970223426818848	5.61757755279541	0.0025536702014505863	0.06515023857355118	5
+233	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	rieved their shoes,	 Jer	ry	4.656246185302734	2.372751474380493	0.009502063505351543	0.6499173045158386	5
+234	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ved their shoes, Jer	ry	s	5.869960308074951	5.070474624633789	0.0028229854069650173	0.1834300458431244	5
+235	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 their shoes, Jerry	 pe	pp	2.203094720840454	3.696876049041748	0.1104607880115509	0.2545005679130554	5
+236	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 shoes, Jerry pe	ered	to	13.965845108032227	6.01242208480835	8.60420016124408e-07	0.09364714473485947	5
+237	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, Jerry peered	 over	.	11.768847465515137	4.884934425354004	7.74202180764405e-06	0.13594478368759155	5
+238	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 Jerry peered over	 at	I	7.157784461975098	6.108006477355957	0.0007787782815285027	0.09797999262809753	5
+239	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ry peered over at	 the	end	5.843504428863525	6.205920219421387	0.0028986665420234203	0.09614305943250656	5
+240	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 peered over at the	 X	I	6.508713722229004	5.661972999572754	0.001490395748987794	0.09898094087839127	5
+241	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ered over at the X	-	Y	7.830084800720215	3.746910333633423	0.0003975916770286858	0.1154264509677887	5
+242	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 over at the X-	ray	in	12.749330520629883	4.967350482940674	2.9042632831988158e-06	0.08645527809858322	5
+243	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 at the X-ray	 TV		10.657604217529297	5.986508846282959	2.3521286493632942e-05	0.04763292893767357	5
+244	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the X-ray TV	 screen	I	12.999727249145508	5.26115608215332	2.260945620946586e-06	0.11391395330429077	5
+245	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 X-ray TV screen	.		6.685946464538574	3.534722328186035	0.0012483324389904737	0.32439354062080383	5
+246	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	-ray TV screen.	" """		5.044584274291992	5.792049407958984	0.006444137077778578	0.09240767359733582	5
+247	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ray TV screen. """	What	kind	9.665969848632812	4.395543575286865	6.340489926515147e-05	0.13172584772109985	5
+248	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" TV screen. ""What"	 do	you	5.639267921447754	1.0175129175186157	0.003555469447746873	0.8470207452774048	5
+249	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" screen. ""What do"	 you	do	4.370224952697754	3.5693013668060303	0.012648391537368298	0.3974880278110504	5
+250	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""What do you"	 think	of	10.694964408874512	1.9440149068832397	2.2658759917248972e-05	0.37034931778907776	5
+251	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""What do you think"	 they	?	4.827869415283203	4.889572620391846	0.008003558963537216	0.11500595510005951	5
+252	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	What do you think they	're	a	7.5844502449035645	5.832736015319824	0.0005082941497676075	0.07782336324453354	5
+253	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 do you think they're	 looking	at	8.52843189239502	3.4834797382354736	0.00019776484987232834	0.27944666147232056	5
+254	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 you think they're looking	 for	a	7.01594352722168	5.3294243812561035	0.0008974587544798851	0.14682146906852722	5
+255	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 think they're looking for	 on	I	7.143320083618164	6.008838176727295	0.0007901244680397213	0.06728003919124603	5
+256	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 they're looking for on	 that	's	3.7293295860290527	4.675079345703125	0.024008922278881073	0.18302270770072937	5
+257	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	're looking for on that	 thing	.	5.622476577758789	4.862821578979492	0.003615676425397396	0.13273654878139496	5
+258	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 looking for on that thing	"?"""	</s>	7.307006359100342	4.631877422332764	0.0006708222790621221	0.30670320987701416	5
+259	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" for on that thing?"""	" """	""""	5.8299407958984375	4.687737464904785	0.0029382510110735893	0.18884602189064026	5
+260	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" on that thing?"" """	I	""""	7.329030513763428	4.019531726837158	0.0006562095368281007	0.348070353269577	5
+261	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" that thing?"" ""I"	 can	't	6.49228572845459	3.7920806407928467	0.0015150817343965173	0.40700870752334595	5
+262	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" thing?"" ""I can"	't	get	7.169869422912598	5.2377777099609375	0.0007694230298511684	0.10608777403831482	5
+263	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""I can't"	 make	I	6.246984004974365	5.2629313468933105	0.0019362851744517684	0.0694805458188057	5
+264	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""I can't make"	 out	?	8.74311637878418	5.030058860778809	0.0001595559442648664	0.12990568578243256	5
+265	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	I can't make out	 one	of	7.4896955490112305	5.036342144012451	0.0005588130443356931	0.09885622560977936	5
+266	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 can't make out one	 object	s	9.434723854064941	3.0894792079925537	7.990085578057915e-05	0.5513067245483398	5
+267	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	't make out one object	"."""		3.7993016242980957	5.513166904449463	0.022386400029063225	0.07348037511110306	5
+268	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" make out one object."""	" """	im	5.943084239959717	5.257490634918213	0.002623924519866705	0.08465590327978134	5
+269	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" out one object."" """	What	's	9.12513542175293	4.07602071762085	0.00010889402619795874	0.20773151516914368	5
+270	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" one object."" ""What"	's	your	5.319073677062988	4.2008957862854	0.0048972866497933865	0.1865578293800354	5
+271	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" object."" ""What's"	 that	?	4.764997959136963	5.269505023956299	0.00852290540933609	0.17583028972148895	5
+272	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""What's that"	"?"""	</s>	8.139262199401855	2.764657735824585	0.0002918523096013814	0.49093928933143616	5
+273	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""What's that?"""	" """	D	7.406765937805176	3.1266345977783203	0.0006071311654523015	0.2615974545478821	5
+274	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"What's that?"" """	A	""""	10.821110725402832	3.550990343093872	1.9973371308878995e-05	0.25320664048194885	5
+275	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"'s that?"" ""A"	 ha	""""	3.183175802230835	4.108891010284424	0.04145379364490509	0.1988205909729004	5
+276	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" that?"" ""A ha"	ird	""""	8.690936088562012	4.347690582275391	0.0001681025605648756	0.27087852358818054	5
+277	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""A haird"	ry	"."""	9.567061424255371	4.494668006896973	6.999676406849176e-05	0.08998376876115799	5
+278	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""A hairdry"	er	I	10.23465347290039	5.915914535522461	3.590430424083024e-05	0.06891194730997086	5
+279	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	A hairdryer	 with	respect	7.844330787658691	5.976241111755371	0.00039196774014271796	0.06934968382120132	5
+280	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 hairdryer with	 a	dead	4.064883708953857	6.3381171226501465	0.017164984717965126	0.038295745849609375	5
+281	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	irdryer with a	 sc	oo	2.812293529510498	4.6473612785339355	0.060067068785429	0.11843874305486679	5
+282	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ryer with a sc	ope	to	9.863699913024902	4.741670608520508	5.202948159421794e-05	0.2134903073310852	5
+283	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	er with a scope	 on	r	5.328115463256836	6.205326080322266	0.004853205755352974	0.02867152914404869	5
+284	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 with a scope on	 it	's	5.271329879760742	3.659445285797119	0.00513677392154932	0.4149335026741028	5
+285	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a scope on it	"?"""	</s>	7.391383171081543	3.722897529602051	0.0006165425293147564	0.3950149714946747	5
+286	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" scope on it?"""	" """	""""	4.63046932220459	4.515069961547852	0.00975018460303545	0.2762542963027954	5
+287	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ope on it?"" """	L	""""	6.054629325866699	4.7824835777282715	0.0023469715379178524	0.12998221814632416	5
+288	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" on it?"" ""L"	ook	""""	12.308146476745605	3.74453067779541	4.514813554123975e-06	0.49547553062438965	5
+289	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" it?"" ""Look"	,	I	6.583209037780762	4.553674221038818	0.0013834030833095312	0.19116415083408356	5
+290	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""Look,"	 there	"."""	8.439555168151855	4.036448955535889	0.00021614630531985313	0.1483432650566101	5
+291	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Look, there"	's	...	5.9914045333862305	4.839667320251465	0.0025001505855470896	0.08371929079294205	5
+292	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Look, there's	 some	...	7.239582061767578	5.5240888595581055	0.0007176114013418555	0.12434597313404083	5
+293	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ook, there's some	 sort	of	9.189894676208496	0.4179314970970154	0.00010206563456449658	0.9313802123069763	5
+294	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, there's some sort	 of	,	7.898340225219727	4.784027576446533	0.0003713594051077962	0.3436458110809326	5
+295	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 there's some sort of	 bow	to	8.125146865844727	5.929539203643799	0.00029600117704831064	0.04170883819460869	5
+296	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's some sort of bow	ling	as	13.275110244750977	5.6634697914123535	1.7166930774692446e-06	0.03835184872150421	5
+297	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 some sort of bowling	 ball	I	10.629219055175781	5.1101531982421875	2.4198518076445907e-05	0.05424058809876442	5
+298	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 sort of bowling ball	 cand	I	6.199117660522461	5.785462379455566	0.0020312226843088865	0.06909316033124924	5
+299	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 of bowling ball cand	le	</s>	10.651848793029785	5.314548015594482	2.3657061319681816e-05	0.1501058042049408	5
+300	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 bowling ball candle	"."""		5.673129081726074	5.090991497039795	0.003437093459069729	0.1362217515707016	5
+301	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ling ball candle."""	" """	""""	5.135319709777832	5.173989295959473	0.005885170307010412	0.16845859587192535	5
+302	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ball candle."" """	W	ake	4.80265474319458	5.413104057312012	0.008207927457988262	0.05379926785826683	5
+303	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" candle."" ""W"	ould	you	11.731087684631348	3.7052624225616455	8.039951353566721e-06	0.3885403871536255	5
+304	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"le."" ""Would"	 you	""""	4.632713794708252	5.767013072967529	0.009728322736918926	0.08491690456867218	5
+305	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Would you"	 stop	"."""	6.785622596740723	4.6274518966674805	0.001129903830587864	0.12710176408290863	5
+306	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Would you stop"	 it	's	4.358287811279297	5.447596549987793	0.012800289317965508	0.06306462734937668	5
+307	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Would you stop it	"!"""	</s>	5.413565635681152	5.221291542053223	0.004455724731087685	0.1025504544377327	5
+308	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ould you stop it!"""	 sna	ke	5.0779547691345215	2.1194136142730713	0.006232644431293011	0.7366222143173218	5
+309	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" you stop it!"" sna"	pped	.	15.772359848022461	4.66248893737793	1.4130284853308694e-07	0.09887757152318954	5
+310	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" stop it!"" snapped"	 George	""""	6.223910331726074	5.427103042602539	0.001981481211259961	0.04675925895571709	5
+311	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" it!"" snapped George"	.		5.011851787567139	3.890408992767334	0.006658561527729034	0.20771029591560364	5
+312	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"!"" snapped George."	" """	""""	6.830676078796387	4.620245933532715	0.0010801278986036777	0.1653163880109787	5
+313	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" snapped George. """	L	""""	8.04195499420166	5.215606212615967	0.0003216793411411345	0.14069423079490662	5
+314	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"pped George. ""L"	et	's	9.106183052062988	3.1570351123809814	0.00011097752576461062	0.42454957962036133	5
+315	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" George. ""Let"	's	be	7.0946197509765625	4.950069904327393	0.0008295562001876533	0.10969578474760056	5
+316	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""Let's"	 turn	.	8.697412490844727	2.971263885498047	0.0001670173805905506	0.2210545688867569	5
+317	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Let's turn"	 off	I	10.007190704345703	5.1609625816345215	4.507467019720934e-05	0.08193468302488327	5
+318	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Let's turn off	 the	I	7.717347145080566	6.224437713623047	0.00044503959361463785	0.05794250965118408	5
+319	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	et's turn off the	 comed	y	8.143153190612793	1.295029878616333	0.0002907191519625485	0.5886642336845398	5
+320	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's turn off the comed	y	of	10.059195518493652	5.8449811935424805	4.279044151189737e-05	0.10410481691360474	5
+321	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 turn off the comedy	 routine	</s>	11.573452949523926	4.934919834136963	9.41267626330955e-06	0.07063128054141998	5
+322	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 off the comedy routine	 for	again	7.040809154510498	5.870792388916016	0.0008754180744290352	0.06383334845304489	5
+323	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the comedy routine for	 a	list	4.481446266174316	6.071905136108398	0.011317034251987934	0.09295295923948288	5
+324	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 comedy routine for a	 minute	I	7.208026885986328	5.400486469268799	0.0007406169315800071	0.08864126354455948	5
+325	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	y routine for a minute	,	I	5.877520561218262	5.136717319488525	0.0028017242439091206	0.1613483726978302	5
+326	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 routine for a minute,	 can	't	7.634024143218994	3.1837902069091797	0.0004837104061152786	0.3283071219921112	5
+327	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 for a minute, can	 we	?	5.033407211303711	4.111473083496094	0.006516567897051573	0.171553835272789	5
+328	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a minute, can we	"?"""	</s>	8.129467010498047	4.829361915588379	0.00029472511960193515	0.279825359582901	5
+329	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" minute, can we?"""	 They	're	6.8016157150268555	3.815319061279297	0.0011119772680103779	0.2635573148727417	5
+330	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	", can we?"" They"	 walked	,	7.1102166175842285	4.974538803100586	0.0008167180931195617	0.11324857175350189	5
+331	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" can we?"" They walked"	 past	me	9.314205169677734	5.006004810333252	9.013471571961418e-05	0.16936960816383362	5
+332	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" we?"" They walked past"	 the	time	7.215599536895752	6.508707046508789	0.000735029811039567	0.03185942769050598	5
+333	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"?"" They walked past the"	 gift	cards	9.843223571777344	5.17234468460083	5.31058685737662e-05	0.07348272949457169	5
+334	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 They walked past the gift	 shop	s	10.262409210205078	4.447535514831543	3.492147152428515e-05	0.21174927055835724	5
+335	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 walked past the gift shop	s	.	10.084819793701172	5.222906112670898	4.170792090008035e-05	0.12960930168628693	5
+336	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 past the gift shops	,	to	6.01765775680542	5.1411967277526855	0.0024353673215955496	0.08175157755613327	5
+337	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the gift shops,	 looking	at	8.64267349243164	4.43098258972168	0.0001764145854394883	0.267106294631958	5
+338	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 gift shops, looking	 for	I	5.828006267547607	5.50390100479126	0.0029439404606819153	0.09819389134645462	5
+339	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 shops, looking for	 some	of	5.847470283508301	5.793788909912109	0.0028871926479041576	0.08743034303188324	5
+340	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	s, looking for some	 sn	ob	4.44661808013916	5.0991315841674805	0.01171813253313303	0.09857401251792908	5
+341	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, looking for some sn	acks	,	10.779531478881836	1.4081213474273682	2.08213459700346e-05	0.7239757180213928	5
+342	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 looking for some snacks	 to	with	4.388473033905029	5.7563557624816895	0.012419678270816803	0.03875915706157684	5
+343	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 for some snacks to	 take	care	5.780391216278076	3.8609256744384766	0.003087506862357259	0.38846877217292786	5
+344	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 some snacks to take	 on	a	5.282347202301025	4.779597759246826	0.005080491304397583	0.19771429896354675	5
+345	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 snacks to take on	 the	we	7.103784084320068	6.198481559753418	0.0008219885057769716	0.03314107656478882	5
+346	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	acks to take on the	 plane	and	8.877431869506836	4.710657596588135	0.00013950199354439974	0.10682264715433121	5
+347	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to take on the plane	.		8.347721099853516	4.487279891967773	0.00023693594266660511	0.25895771384239197	5
+348	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 take on the plane.	 George	is	4.263578414916992	5.6821136474609375	0.014071853831410408	0.056479863822460175	5
+349	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 on the plane. George	 pe	pp	2.532574415206909	4.523090839385986	0.0794542133808136	0.23521465063095093	5
+350	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the plane. George pe	ered		15.765620231628418	5.404181480407715	1.4225842903670127e-07	0.08134938776493073	5
+351	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 plane. George peered	 in	.	7.574954032897949	6.052701950073242	0.0005131441284902394	0.059546370059251785	5
+352	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	. George peered in	 to		3.938880205154419	5.644051551818848	0.019470004364848137	0.05849968641996384	5
+353	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 George peered in to	 look	at	7.752677917480469	4.6157379150390625	0.00042959049460478127	0.1773940622806549	5
+354	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 peered in to look	 at	</s>	5.435068607330322	5.682889938354492	0.004360936116427183	0.0649067759513855	5
+355	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ered in to look at	 the		5.857647895812988	6.4832048416137695	0.002857957733795047	0.03622503951191902	5
+356	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 in to look at the	 price	of	10.155742645263672	3.847897529602051	3.885234036715701e-05	0.43847396969795227	5
+357	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to look at the price	 tag	s	11.498550415039062	2.807178497314453	1.0144789484911598e-05	0.4927463233470917	5
+358	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 look at the price tag	s	to	9.410881042480469	4.934542179107666	8.182886085705832e-05	0.14300492405891418	5
+359	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 at the price tags	,		5.6107072830200195	4.830371856689453	0.003658480476588011	0.07817970216274261	5
+360	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the price tags,	 and	to	6.249042987823486	5.372740745544434	0.001932302606292069	0.1132560670375824	5
+361	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 price tags, and	 sh	rim	3.07151460647583	5.829980373382568	0.04635089635848999	0.049771375954151154	5
+362	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tags, and sh	ook	up	6.452004432678223	5.608372688293457	0.0015773577615618706	0.11433520168066025	5
+363	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	s, and shook	 his	</s>	6.517620086669922	6.138927459716797	0.0014771806308999658	0.08595463633537292	5
+364	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, and shook his	 head	,	6.844759941101074	2.685790538787842	0.0010650219628587365	0.4593500792980194	5
+365	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and shook his head	.	</s>	7.606084823608398	3.667288064956665	0.0004974155453965068	0.39903131127357483	5
+366	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 shook his head.	" """	""""	4.845693588256836	5.684807777404785	0.00786216277629137	0.16580480337142944	5
+367	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ook his head. """	D	""""	8.489845275878906	5.10361909866333	0.00020554506045300514	0.09016567468643188	5
+368	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" his head. ""D"	o	""""	8.088231086730957	4.928172588348389	0.0003071326354984194	0.12435291707515717	5
+369	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" head. ""Do"	 the	be	5.559675216674805	6.336315631866455	0.00385002582333982	0.04690748080611229	5
+370	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""Do the"	 people	.	8.008983612060547	3.868595838546753	0.00033246251405216753	0.2307930886745453	5
+371	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Do the people"	 that	still	7.5193281173706055	5.780520439147949	0.0005424969131127	0.0808720588684082	5
+372	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Do the people that	 work	with	7.3696699142456055	4.657703399658203	0.0006300760433077812	0.2618156373500824	5
+373	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	o the people that work	 in	I	4.957507610321045	5.80128288269043	0.007030428387224674	0.05017295852303505	5
+374	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the people that work in	 these	places	8.934186935424805	6.2290825843811035	0.00013180507812649012	0.04762360081076622	5
+375	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 people that work in these	 shop	s	11.295040130615234	1.0016496181488037	1.2434443306119647e-05	0.8912361860275269	5
+376	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 that work in these shop	s	to	9.175699234008789	5.410142421722412	0.00010352476965636015	0.06485901027917862	5
+377	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 work in these shops	 have	been	6.770641803741455	5.3374528884887695	0.0011469582095742226	0.13001786172389984	5
+378	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 in these shops have	 any	of	8.149279594421387	5.742033958435059	0.00028894346905872226	0.07138525694608688	5
+379	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 these shops have any	 idea	of	8.11716365814209	4.3524346351623535	0.000298373750410974	0.22519010305404663	5
+380	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 shops have any idea	 what	to	7.285139083862305	3.635838270187378	0.0006856528925709426	0.46350812911987305	5
+381	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	s have any idea what	 the	hell	6.4429850578308105	6.1143903732299805	0.0015916484408080578	0.07937800139188766	5
+382	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 have any idea what the	 prices	of	14.442131042480469	2.741272449493408	5.343947577785002e-07	0.3671262860298157	5
+383	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 any idea what the prices	 are	?	6.02207612991333	4.199254989624023	0.0024246303364634514	0.17028002440929413	5
+384	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 idea what the prices are	 every	thing	6.849291801452637	6.013694763183594	0.0010602065594866872	0.07210397720336914	5
+385	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 what the prices are every	 place	I	6.978831768035889	4.513484001159668	0.0009313907939940691	0.1454755663871765	5
+386	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the prices are every place	 else	you	10.924156188964844	5.332452297210693	1.8017688489635475e-05	0.07901664078235626	5
+387	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 prices are every place else	 in	a	7.420628547668457	5.938931465148926	0.0005987728363834321	0.047288522124290466	5
+388	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 are every place else in	 the	place	7.26318359375	6.232844352722168	0.0007008732063695788	0.055662550032138824	5
+389	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 every place else in the	 world	for	6.99089241027832	4.823594570159912	0.000920225284062326	0.10069403052330017	5
+390	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 place else in the world	"?"""	""""	5.821453094482422	4.812538146972656	0.002963295439258218	0.1784917265176773	5
+391	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" else in the world?"""	" """	""""	7.04336404800415	5.283443450927734	0.000873184239026159	0.051294296979904175	5
+392	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" in the world?"" """	Y	""""	5.008800029754639	3.887455701828003	0.0066789137199521065	0.4035051763057709	5
+393	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" the world?"" ""Y"	eah	""""	7.339602470397949	4.056971549987793	0.0006493086693808436	0.3847934901714325	5
+394	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" world?"" ""Yeah"	,	I	6.704718589782715	5.582175254821777	0.0012251168955117464	0.0628703236579895	5
+395	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""Yeah,"	 e	e	2.442793607711792	5.375019550323486	0.0869177058339119	0.0869177058339119	5
+396	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Yeah, e"	ight	h	8.2135591506958	3.4304730892181396	0.0002709545660763979	0.27159708738327026	5
+397	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Yeah, eight	 dollars	,	10.444048881530762	3.407339334487915	2.91210653813323e-05	0.2892540991306305	5
+398	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	eah, eight dollars	 for	,	7.178615570068359	4.823605537414551	0.0007627230370417237	0.1104879304766655	5
+399	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, eight dollars for	 a	,	4.435396671295166	5.454028606414795	0.01185036264359951	0.14003899693489075	5
+400	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 eight dollars for a	 candy	cor	6.641861438751221	6.404510498046875	0.0013045965461060405	0.037240494042634964	5
+401	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ight dollars for a candy	 bar	</s>	8.508817672729492	4.719871997833252	0.00020168209448456764	0.18466006219387054	5
+402	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 dollars for a candy bar	"."""		5.736865997314453	5.057982444763184	0.0032248583156615496	0.14790810644626617	5
+403	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" for a candy bar."""	" """	""""	4.477822303771973	4.574151039123535	0.011358117684721947	0.254638671875	5
+404	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" a candy bar."" """	T	ry	7.442159175872803	5.380035400390625	0.000586018490139395	0.08218278735876083	5
+405	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" candy bar."" ""T"	hat	s	12.031488418579102	3.4085659980773926	5.95375831835554e-06	0.38727423548698425	5
+406	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" bar."" ""That"	's	a	6.07863712310791	5.846730709075928	0.00229129777289927	0.09442640095949173	5
+407	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""That's"	 fair	.	7.791200637817383	3.6022632122039795	0.0004133562615606934	0.24408464133739471	5
+408	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""That's fair"	,	I	5.317999839782715	5.023711204528809	0.004902550019323826	0.21840746700763702	5
+409	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	That's fair,	 that	's	6.507859230041504	2.371988296508789	0.001491669681854546	0.6582506895065308	5
+410	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	hat's fair, that	's	a	6.890821933746338	4.491795539855957	0.0010170775931328535	0.15372690558433533	5
+411	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's fair, that's	 what	I	7.815380573272705	3.7215142250061035	0.0004034812154714018	0.38236740231513977	5
+412	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 fair, that's what	 we	do	4.701957702636719	4.064570426940918	0.00907748844474554	0.28856754302978516	5
+413	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, that's what we	 charge	,	11.985629081726074	2.156418561935425	6.233147360035218e-06	0.6127188205718994	5
+414	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 that's what we charge	 in	to	7.988341331481934	6.140567779541016	0.0003393964725546539	0.050978075712919235	5
+415	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's what we charge in	 our	s	5.354270935058594	5.50274658203125	0.004727914929389954	0.26625216007232666	5
+416	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 what we charge in our	 country	.	9.721049308776855	4.501646518707275	6.000699067953974e-05	0.21316561102867126	5
+417	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 we charge in our country	"."""	""""	4.425052165985107	5.435524940490723	0.011973587796092033	0.08458911627531052	5
+418	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" charge in our country."""	 After	we	9.446233749389648	5.485200881958008	7.898650801507756e-05	0.11945214122533798	5
+419	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" in our country."" After"	 waiting	for	9.13547134399414	3.0332655906677246	0.00010777432908071205	0.4485904276371002	5
+420	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" our country."" After waiting"	 for	a	4.847597122192383	5.213093280792236	0.007847210392355919	0.21232324838638306	5
+421	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" country."" After waiting for"	 their	s	6.405958652496338	5.502409934997559	0.0016516862669959664	0.26529794931411743	5
+422	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" After waiting for their"	 turn	to	6.532032489776611	2.3555548191070557	0.0014560433337464929	0.5522924661636353	5
+423	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 After waiting for their turn	 to	be	5.545011520385742	4.7910661697387695	0.003906899131834507	0.27261433005332947	5
+424	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 waiting for their turn to	 board	.	6.744704723358154	5.615482330322266	0.001177096157334745	0.06352772563695908	5
+425	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 for their turn to board	,	they	4.175709247589111	4.997553825378418	0.015364289283752441	0.10319194942712784	5
+426	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 their turn to board,	 they	do	3.2661855220794678	4.923226356506348	0.038151685148477554	0.10414131730794907	5
+427	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 turn to board, they	 mar	inate	2.4362032413482666	4.313144683837891	0.08749241381883621	0.20935003459453583	5
+428	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to board, they mar	ched	to	13.707130432128906	4.827383041381836	1.1144705922561116e-06	0.12521223723888397	5
+429	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 board, they marched	 down	.	7.334599494934082	4.70098352432251	0.0006525653880089521	0.13134735822677612	5
+430	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, they marched down	 the	""""	6.790569305419922	5.729690074920654	0.0011243289336562157	0.055920325219631195	5
+431	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 they marched down the	 j	am	2.4034674167633057	4.994624137878418	0.09040394425392151	0.09917735308408737	5
+432	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 marched down the j	et	at	6.1838698387146	6.42451286315918	0.002062431303784251	0.045992717146873474	5
+433	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ched down the jet	way	's	8.176382064819336	6.212083339691162	0.000281217391602695	0.04332030192017555	5
+434	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 down the jetway	 and	yeah	6.101681709289551	4.832260608673096	0.0022390999365597963	0.09563227742910385	5
+435	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the jetway and	 onto	</s>	6.432347297668457	5.303659439086914	0.0016086703399196267	0.08063197880983353	5
+436	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 jetway and onto	 the	a	6.791460037231445	6.228218078613281	0.0011233276454731822	0.026632357388734818	5
+437	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	etway and onto the	 plane	thing	6.439328193664551	5.903587341308594	0.001597479684278369	0.04263320937752724	5
+438	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	way and onto the plane	.	</s>	6.668493270874023	3.4117279052734375	0.0012703115353360772	0.2997094988822937	5
+439	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and onto the plane.	 George	is	6.769792556762695	5.678633213043213	0.0011479327222332358	0.0606808066368103	5
+440	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 onto the plane. George	 strugg	les	8.98935317993164	0.7804130911827087	0.00012473079550545663	0.8968837261199951	5
+441	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the plane. George strugg	led	.	12.74879264831543	2.7606241703033447	2.905826931964839e-06	0.5237419605255127	5
+442	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 plane. George struggled	 to	.	3.0071563720703125	5.28501558303833	0.04943203553557396	0.15570028126239777	5
+443	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	. George struggled to	 get		7.413064002990723	5.570436954498291	0.0006033192039467394	0.04931538179516792	5
+444	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 George struggled to get	 into	I	7.21349573135376	5.679391860961914	0.0007365777273662388	0.1436251550912857	5
+445	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 struggled to get into	 his	I	5.65315055847168	5.8305511474609375	0.0035064530093222857	0.10448835790157318	5
+446	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	led to get into his	 window	's	8.542745590209961	5.5046796798706055	0.0001949543657246977	0.10328608006238937	5
+447	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to get into his window	 seat	.	10.481802940368652	4.291022300720215	2.804212817864027e-05	0.2507539391517639	5
+448	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 get into his window seat	 and	that	6.4756011962890625	4.9382452964782715	0.0015405723825097084	0.10737220197916031	5
+449	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 into his window seat and	 fit	you	5.830076217651367	4.927501678466797	0.002937852870672941	0.098859041929245	5
+450	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 his window seat and fit	 his	a	7.414444923400879	6.36014461517334	0.000602486717980355	0.025327660143375397	5
+451	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 window seat and fit his	 bag	.	9.306190490722656	5.363341331481934	9.085998317459598e-05	0.10981971770524979	5
+452	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 seat and fit his bag	 down	to	8.526803970336914	4.460520267486572	0.00019808710203506052	0.12516799569129944	5
+453	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and fit his bag down	 by	a	7.283124923706055	4.959062576293945	0.0006870352663099766	0.23174245655536652	5
+454	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 fit his bag down by	 his	a	6.047922611236572	6.104119777679443	0.0023627651389688253	0.05568545684218407	5
+455	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 his bag down by his	 feet	is	10.348233222961426	5.026866912841797	3.2049363653641194e-05	0.10683748871088028	5
+456	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 bag down by his feet	.		7.278570652008057	5.564846992492676	0.0006901714368723333	0.1437031328678131	5
+457	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 down by his feet.	" """	ad	6.739232063293457	5.685547828674316	0.0011835553450509906	0.061746034771203995	5
+458	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" by his feet. """	I	s	10.632646560668945	1.5821943283081055	2.4115714040817693e-05	0.7832853198051453	5
+459	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" his feet. ""I"	 feel	like	7.482987880706787	3.1669650077819824	0.0005625739577226341	0.43117886781692505	5
+460	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" feet. ""I feel"	 like	I	6.263622283935547	3.172261953353882	0.0019043354550376534	0.4281677305698395	5
+461	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""I feel like"	 I	'm	4.047022819519043	4.860497951507568	0.017474323511123657	0.12416726350784302	5
+462	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""I feel like I"	 can	't	8.480389595031738	4.84079647064209	0.00020749791292473674	0.16399002075195312	5
+463	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	I feel like I can	't	enough	6.849733352661133	5.298731327056885	0.0010597383370622993	0.06477624922990799	5
+464	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 feel like I can't	 breat	he	10.66845989227295	0.20034080743789673	2.32673337450251e-05	0.9684650301933289	5
+465	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 like I can't breat	he	so	7.604307174682617	4.910568714141846	0.0004983004182577133	0.13791252672672272	5
+466	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 I can't breathe	 in	I	6.221250057220459	6.027054786682129	0.001986759714782238	0.08803007751703262	5
+467	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 can't breathe in	 here	I	4.974658966064453	5.004101276397705	0.0069108763709664345	0.08426983654499054	5
+468	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	't breathe in here	"!"""	</s>	4.741957664489746	5.536550998687744	0.008721553720533848	0.12977206707000732	5
+469	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" breathe in here!"""	 Jer	ry	6.323800563812256	1.7992758750915527	0.0017931157490238547	0.7668358683586121	5
+470	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"he in here!"" Jer"	ry	s	4.027873516082764	5.299421310424805	0.01781216822564602	0.21136349439620972	5
+471	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" in here!"" Jerry"	 sh	ire	5.296618461608887	4.410403251647949	0.005008502397686243	0.1703421175479889	5
+472	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" here!"" Jerry sh"	ru	ze	8.581071853637695	5.019596099853516	0.00018762372201308608	0.11176787316799164	5
+473	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"!"" Jerry shru"	gged	.	15.718257904052734	3.9034059047698975	1.4915829638084688e-07	0.18509791791439056	5
+474	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 Jerry shrugged	 and	I	4.46317720413208	5.0777268409729	0.011525684967637062	0.08055000752210617	5
+475	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ry shrugged and	 st	st	1.933194875717163	5.145308971405029	0.14468520879745483	0.14468520879745483	5
+476	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 shrugged and st	ow	by	11.092893600463867	5.218708038330078	1.5220096429402474e-05	0.17311802506446838	5
+477	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	rugged and stow	ed	by	12.294361114501953	3.7375669479370117	4.577483650791692e-06	0.46515312790870667	5
+478	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	gged and stowed	 his	are	4.951019763946533	5.952817916870117	0.007076188921928406	0.06897687166929245	5
+479	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and stowed his	 l	ite	3.6938416957855225	5.680778980255127	0.024876249954104424	0.04272742196917534	5
+480	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 stowed his l	ugg	a	5.018634796142578	4.416314125061035	0.006613551173359156	0.2911493480205536	5
+481	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	owed his lugg	age	.	11.159117698669434	5.584247589111328	1.4244815247366205e-05	0.050707150250673294	5
+482	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ed his luggage	 in	a	6.5731096267700195	5.870005130767822	0.0013974455650895834	0.10519349575042725	5
+483	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 his luggage in	 the	I	6.495022773742676	6.312895774841309	0.0015109407249838114	0.10819322615861893	5
+484	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 luggage in the	 over	I	9.376409530639648	5.34653902053833	8.469876047456637e-05	0.057177700102329254	5
+485	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	uggage in the over	head	of	8.485020637512207	5.635493755340576	0.00020653920364566147	0.08495981991291046	5
+486	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	age in the overhead	 comp	act	3.8440768718719482	5.346060752868652	0.021406151354312897	0.07918290793895721	5
+487	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 in the overhead comp	art	s	7.519511699676514	5.311643123626709	0.000542397319804877	0.06326764076948166	5
+488	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the overhead compart	ment	I	11.47164535522461	5.094329833984375	1.0421436854812782e-05	0.1292039453983307	5
+489	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 overhead compartment	.		6.753500938415527	4.184999465942383	0.0011667872313410044	0.3239348828792572	5
+490	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	head compartment.	" """	b	6.506449222564697	5.446359157562256	0.001493774470873177	0.07892084866762161	5
+491	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" compartment. """	W	or	6.320084571838379	4.1786723136901855	0.001799791119992733	0.24529889225959778	5
+492	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"artment. ""W"	ell	.	11.725957870483398	3.2860584259033203	8.081301530182827e-06	0.46090710163116455	5
+493	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ment. ""Well"	,	you	6.646071434020996	5.3300957679748535	0.0012991161784157157	0.05323417857289314	5
+494	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""Well,"	 it	's	7.055473804473877	4.118259906768799	0.0008626740891486406	0.27244383096694946	5
+495	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Well, it"	's	time	8.156237602233887	3.164140224456787	0.0002869399031624198	0.5733509063720703	5
+496	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Well, it's	 all	,	12.02462100982666	4.381993293762207	5.994783350615762e-06	0.18135562539100647	5
+497	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ell, it's all	 a	a	2.7183680534362793	5.939578056335449	0.06598234921693802	0.06598234921693802	5
+498	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, it's all a	 tiny	,	9.90852165222168	2.6542129516601562	4.9748919991543517e-05	0.6189063191413879	5
+499	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 it's all a tiny	 world	</s>	8.017645835876465	4.681211471557617	0.00032959491363726556	0.21049953997135162	5
+500	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's all a tiny world	 on	a	8.597363471984863	5.225634574890137	0.00018459178681951016	0.21741321682929993	5
+501	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 all a tiny world on	 the	very	7.639790058135986	5.861852645874023	0.00048092941869981587	0.058775898069143295	5
+502	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a tiny world on the	 air	b	7.397943496704102	5.799335479736328	0.0006125110667198896	0.07087809592485428	5
+503	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny world on the air	pl	ane	5.904350280761719	1.9123964309692383	0.002727553714066744	0.6061606407165527	5
+504	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 world on the airpl	ane	.	14.750810623168945	5.606091499328613	3.924680811451253e-07	0.08255722373723984	5
+505	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 on the airplane	,	are	3.626765251159668	4.962137222290039	0.02660209871828556	0.06456629931926727	5
+506	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the airplane,	 isn	't	12.092589378356934	0.09464147686958313	5.6008670981100295e-06	0.9911050200462341	5
+507	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 airplane, isn	't	a	6.5022993087768555	5.417820930480957	0.0014999863924458623	0.05167681351304054	5
+508	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	plane, isn't	 it	?	5.930397033691406	2.8610410690307617	0.0026574262883514166	0.5387696623802185	5
+509	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ane, isn't it	"?"""	</s>	7.193656921386719	2.440615177154541	0.0007513363379985094	0.6330749988555908	5
+510	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	", isn't it?"""	" """	H	8.477924346923828	4.21517276763916	0.00020800999482162297	0.10783953219652176	5
+511	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" isn't it?"" """	T	IM	7.986917972564697	3.602231025695801	0.00033988006180152297	0.2835996448993683	5
+512	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"'t it?"" ""T"	here	's	11.315853118896484	4.618714809417725	1.2178316865174565e-05	0.16572339832782745	5
+513	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" it?"" ""There"	's	A	8.112939834594727	4.357710361480713	0.0002996365656144917	0.10115513205528259	5
+514	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"?"" ""There's"	 that	"."""	7.4566650390625	4.360286712646484	0.0005775792524218559	0.06873827427625656	5
+515	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""There's that"	 little	I	11.26730728149414	5.986876010894775	1.278411400562618e-05	0.06961249560117722	5
+516	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	There's that little	 tiny	I	8.464587211608887	5.81402063369751	0.00021080284204799682	0.06393758207559586	5
+517	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	here's that little tiny	 table	to	9.564915657043457	5.772892475128174	7.014710718067363e-05	0.06797335296869278	5
+518	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's that little tiny table	 there	's	9.509408950805664	1.3035447597503662	7.415089203277603e-05	0.8353953957557678	5
+519	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 that little tiny table there	,	I	6.019936561584473	4.630948543548584	0.0024298245552927256	0.09996426850557327	5
+520	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 little tiny table there,	 tiny		4.607664108276367	4.9777727127075195	0.009975094348192215	0.11632836610078812	5
+521	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny table there, tiny	 computer		9.128758430480957	4.6313796043396	0.00010850022226804867	0.24920354783535004	5
+522	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 table there, tiny computer	,		6.806127548217773	5.3386712074279785	0.001106971176341176	0.14217528700828552	5
+523	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 there, tiny computer,	 little	to	7.303770065307617	5.281137943267822	0.0006729969754815102	0.14327389001846313	5
+524	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, tiny computer, little	 cr	cr	1.8333474397659302	5.099448204040527	0.1598774790763855	0.1598774790763855	5
+525	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny computer, little cr	amp		10.534968376159668	5.483842849731445	2.6590183551888913e-05	0.07529374957084656	5
+526	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 computer, little cramp	ed	and	10.044829368591309	4.85228157043457	4.3409618228906766e-05	0.11622391641139984	5
+527	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, little cramped	 seats	,	12.131889343261719	2.479527473449707	5.385019903769717e-06	0.5312118530273438	5
+528	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 little cramped seats	,	more	5.751864910125732	5.118223667144775	0.003176850499585271	0.09618106484413147	5
+529	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 cramped seats,	 tiny	to	7.517618179321289	6.198967933654785	0.0005434254417195916	0.04591637849807739	5
+530	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	amped seats, tiny	 food	.	8.575021743774414	6.003593921661377	0.00018876245303545147	0.0763702467083931	5
+531	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ed seats, tiny food	,		5.1482038497924805	5.879122734069824	0.005809830967336893	0.07272209972143173	5
+532	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 seats, tiny food,	 tiny	</s>	8.251896858215332	5.572714328765869	0.00026076342328451574	0.15993817150592804	5
+533	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, tiny food, tiny	 ut	ilities	6.515102386474609	5.424158573150635	0.0014809046406298876	0.09987550973892212	5
+534	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny food, tiny ut	ens	to	5.264260768890381	6.3812055587768555	0.005173216573894024	0.0210126880556345	5
+535	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 food, tiny utens	ils	.	13.186819076538086	5.224179267883301	1.8751549077933305e-06	0.07389744371175766	5
+536	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, tiny utensils	,	,	2.5008127689361572	5.370906829833984	0.08201830834150314	0.08201830834150314	5
+537	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny utensils,	 tiny	by	4.912397384643555	5.482321262359619	0.00735483318567276	0.1846168041229248	5
+538	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 utensils, tiny	 liqu	or	9.854842185974121	0.9796855449676514	5.249242531135678e-05	0.8715124726295471	5
+539	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ensils, tiny liqu	or	.	6.694459438323975	6.162090301513672	0.0012377507518976927	0.047467369586229324	5
+540	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ils, tiny liquor	 bott	les	8.92422103881836	0.6452354192733765	0.00013312508235685527	0.9057329893112183	5
+541	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, tiny liquor bott	les	.	14.254875183105469	4.033135890960693	6.444454356824281e-07	0.2734633982181549	5
+542	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny liquor bottles	,	I	5.748282432556152	5.231829643249512	0.0031882517505437136	0.10090946406126022	5
+543	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 liquor bottles,	 tiny		7.772655487060547	6.486791133880615	0.0004210936604067683	0.03505708649754524	5
+544	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	or bottles, tiny	 bathroom	s	9.970281600952148	2.5802958011627197	4.676937169278972e-05	0.6918331384658813	5
+545	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 bottles, tiny bathroom	,		6.153234481811523	5.481201648712158	0.0021265915129333735	0.20059984922409058	5
+546	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	les, tiny bathroom,	 tiny	.	10.168848037719727	4.982203483581543	3.834649396594614e-05	0.14788135886192322	5
+547	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, tiny bathroom, tiny	 s	s	1.8053736686706543	5.435378551483154	0.16441300511360168	0.16441300511360168	5
+548	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny bathroom, tiny s	ink		9.960968971252441	4.543345928192139	4.7206980525515974e-05	0.13530053198337555	5
+549	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 bathroom, tiny sink	,		5.72292947769165	5.409218788146973	0.003270117100328207	0.06770870089530945	5
+550	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, tiny sink,	 tiny	,	5.814563751220703	4.3598856925964355	0.0029837817419320345	0.26204633712768555	5
+551	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny sink, tiny	 mirror	</s>	9.63526439666748	4.655666828155518	6.538191519211978e-05	0.16060525178909302	5
+552	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 sink, tiny mirror	,		6.039616584777832	5.614058971405029	0.0023824728559702635	0.0812101736664772	5
+553	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ink, tiny mirror,	 tiny	,	6.745196342468262	5.841503620147705	0.0011765173403546214	0.11004183441400528	5
+554	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, tiny mirror, tiny	 fa	aa	3.688400983810425	4.139265537261963	0.02501196227967739	0.3230491280555725	5
+555	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 tiny mirror, tiny fa	uc	ha	7.703094482421875	5.8047099113464355	0.0004514282336458564	0.06608003377914429	5
+556	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 mirror, tiny fauc	et	by	6.869503021240234	4.810854911804199	0.0010389932431280613	0.1490691900253296	5
+557	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, tiny faucet	"."""	</s>	5.230747699737549	3.957930326461792	0.005349524784833193	0.33482587337493896	5
+558	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" tiny faucet."""	" """	""""	5.144252777099609	5.32900333404541	0.005832829978317022	0.17307522892951965	5
+559	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" faucet."" """	S	""""	7.208605766296387	5.315023899078369	0.0007401883485727012	0.1851891279220581	5
+560	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ucet."" ""S"	o	""""	8.615968704223633	4.661355495452881	0.0001811893016565591	0.15481412410736084	5
+561	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"et."" ""So"	,	how	6.386703968048096	5.283607006072998	0.0016837967559695244	0.08231852948665619	5
+562	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""So,"	 there	"."""	8.543496131896973	2.8813235759735107	0.00019480798800941557	0.26093238592147827	5
+563	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""So, there"	's	,	6.17423152923584	4.354277610778809	0.0020824051462113857	0.174604594707489	5
+564	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	So, there's	 a	*	4.832871437072754	6.4310407638549805	0.007963623851537704	0.048298340290784836	5
+565	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	o, there's a	 small	*	10.11697769165039	5.867048263549805	4.038800034322776e-05	0.0817742869257927	5
+566	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, there's a small	 problem	,	9.159642219543457	2.4721267223358154	0.00010520055366214365	0.48355233669281006	5
+567	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 there's a small problem	,	there	6.548622131347656	5.001956462860107	0.0014320873888209462	0.0824585035443306	5
+568	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's a small problem,	 there	's	7.622796058654785	1.544280767440796	0.0004891722346656024	0.7829973697662354	5
+569	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a small problem, there	's	</s>	5.85862922668457	5.128301620483398	0.002855155384168029	0.0755910649895668	5
+570	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 small problem, there's	 gonna	be	12.53125286102295	0.25141823291778564	3.6119868127570953e-06	0.9744385480880737	5
+571	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 problem, there's gonna	 be	stuff	6.297718048095703	5.292082786560059	0.0018404993461444974	0.0749586895108223	5
+572	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, there's gonna be	 a	,	4.997307777404785	6.024405002593994	0.0067561110481619835	0.07342444360256195	5
+573	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 there's gonna be a	 slight	thing	10.34242057800293	5.483527660369873	3.2236184779321775e-05	0.14334683120250702	5
+574	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's gonna be a slight	 delay	to	13.382962226867676	4.602383613586426	1.5411796994158067e-06	0.10207616537809372	5
+575	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 gonna be a slight delay	,	a	4.715327739715576	4.627518177032471	0.008956929668784142	0.15243779122829437	5
+576	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 be a slight delay,	 we	have	5.217137336730957	4.885140895843506	0.005422829184681177	0.11556930094957352	5
+577	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a slight delay, we	're	a	6.7566118240356445	5.622749328613281	0.0011631633387878537	0.07399339228868484	5
+578	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 slight delay, we're	 gonna	be	10.513569831848145	3.9151628017425537	2.7165302526555024e-05	0.4098464250564575	5
+579	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 delay, we're gonna	 be	like	7.022281646728516	5.363523006439209	0.0008917885716073215	0.10609691590070724	5
+580	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, we're gonna be	 a	,	5.381415367126465	5.826680660247803	0.0046013034880161285	0.10651430487632751	5
+581	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 we're gonna be a	 little	bit	8.747702598571777	5.304465293884277	0.0001588258019182831	0.1252666711807251	5
+582	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	're gonna be a little	 late	to	9.935277938842773	4.082969665527344	4.843546776100993e-05	0.1819254606962204	5
+583	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 gonna be a little late	"."""	</s>	4.491397857666016	5.235809326171875	0.011204970069229603	0.11423435807228088	5
+584	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" be a little late."""	" """	""""	5.12945556640625	5.231070041656494	0.0059197829104959965	0.20842833817005157	5
+585	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" a little late."" """	It	""""	13.42540168762207	3.3196752071380615	1.477142063777137e-06	0.45628783106803894	5
+586	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" little late."" ""It"	's	a	6.557026386260986	5.301767349243164	0.0014201020821928978	0.08886069059371948	5
+587	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" late."" ""It's"	 life	""""	7.995462417602539	4.76967716217041	0.000336988246999681	0.1305152177810669	5
+588	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""It's life"	 in	""""	5.979929447174072	5.9414496421813965	0.0025290048215538263	0.11919841170310974	5
+589	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""It's life in"	 mini	</s>	11.313151359558105	5.068469047546387	1.2211271496198606e-05	0.1544751077890396	5
+590	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	It's life in mini	ature		8.873809814453125	5.009688377380371	0.00014000815281178802	0.1477731317281723	5
+591	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's life in miniature	"."""	</s>	4.352761268615723	5.230979919433594	0.01287122257053852	0.1349547654390335	5
+592	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" life in miniature."""	 The	to	10.612804412841797	6.267590522766113	2.4599019525339827e-05	0.04904720187187195	5
+593	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" in miniature."" The"	 pilot	ing	10.641576766967773	4.961759567260742	2.3901311578811146e-05	0.10081285983324051	5
+594	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" miniature."" The pilot"	 came	back	7.604710102081299	4.2255473136901855	0.0004980998346582055	0.1335163712501526	5
+595	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"ature."" The pilot came"	 over	.	8.291582107543945	3.4122087955474854	0.00025061765336431563	0.39602380990982056	5
+596	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" The pilot came over"	 the	last	5.998233795166016	6.034943580627441	0.00248313439078629	0.1088474839925766	5
+597	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 The pilot came over the	 PA	I	9.394874572753906	5.4256510734558105	8.314911974593997e-05	0.06468448042869568	5
+598	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 pilot came over the PA	 system	.	8.822132110595703	4.747438907623291	0.00014743368956260383	0.20876462757587433	5
+599	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 came over the PA system	 and	again	6.183794975280762	5.083520889282227	0.0020625849720090628	0.08343091607093811	5
+600	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 over the PA system and	 started	again	10.433765411376953	4.798157215118408	2.9422068109852262e-05	0.1647937297821045	5
+601	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the PA system and started	 describ	ing	12.802371978759766	0.7513216733932495	2.7542330371943535e-06	0.8750969767570496	5
+602	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 PA system and started describ	ing	things	11.329849243164062	5.835042953491211	1.2009062629658729e-05	0.04941650852560997	5
+603	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 system and started describing	 their	own	4.997417449951172	5.431987285614014	0.0067553711123764515	0.09767042100429535	5
+604	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and started describing their	 route	.	8.562792778015137	3.806171178817749	0.00019108493870589882	0.31928157806396484	5
+605	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 started describing their route	 for	a	5.064795970916748	5.562386512756348	0.006315198726952076	0.09981148689985275	5
+606	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 describing their route for	 the	you	7.286764621734619	6.46364688873291	0.0006845393218100071	0.021284226328134537	5
+607	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ing their route for the	 day	.	8.733699798583984	5.052722930908203	0.0001610655162949115	0.13224361836910248	5
+608	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 their route for the day	:	</s>	8.527873992919922	4.408796787261963	0.00019787519704550505	0.26365891098976135	5
+609	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 route for the day:	" """	""""	5.267057418823242	5.3220930099487305	0.005158768035471439	0.16676704585552216	5
+610	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" for the day: """	We	""""	8.791358947753906	4.054417610168457	0.00015204121882561594	0.20047339797019958	5
+611	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" the day: ""We"	're	""""	6.831114768981934	4.5338215827941895	0.0010796539718285203	0.3064241409301758	5
+612	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" day: ""We're"	 head	ed	6.925154685974121	4.019439220428467	0.0009827509056776762	0.31549233198165894	5
+613	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	": ""We're head"	ed	to	7.8663835525512695	3.8068056106567383	0.0003834183735307306	0.2847278416156769	5
+614	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""We're headed"	 up	a	9.463016510009766	4.702024459838867	7.767198258079588e-05	0.10802682489156723	5
+615	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	We're headed up	 to	a	4.872819900512695	5.906574249267578	0.0076517583802342415	0.08731289207935333	5
+616	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	're headed up to	 th	e	4.465956687927246	6.209155559539795	0.011493696831166744	0.03253232315182686	5
+617	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 headed up to th	irty	for	11.877205848693848	5.640969276428223	6.946963367226999e-06	0.0782845988869667	5
+618	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ed up to thirty	-	more	8.633797645568848	5.181187629699707	0.00017798740009311587	0.05593227595090866	5
+619	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 up to thirty-	th	our	3.5439999103546143	5.224342346191406	0.02889750897884369	0.11851593106985092	5
+620	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to thirty-th	ous	and	8.332706451416016	4.500619888305664	0.00024052031221799552	0.22403913736343384	5
+621	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 thirty-thous	and	</s>	8.331876754760742	5.857478141784668	0.0002407198480796069	0.05300275608897209	5
+622	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	irty-thousand	 feet	on	10.226232528686523	5.7863874435424805	3.6207919038133696e-05	0.05239854007959366	5
+623	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	-thousand feet	,	I	6.27435827255249	5.214378356933594	0.001883999677374959	0.141285702586174	5
+624	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	thousand feet,	 then	again	12.791425704956055	5.015374183654785	2.7845446766150417e-06	0.15519514679908752	5
+625	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ousand feet, then	 I	'd	6.4121551513671875	3.365753173828125	0.001641482813283801	0.27618637681007385	5
+626	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	and feet, then I	'll	be	9.731571197509766	2.368342161178589	5.9378908190410584e-05	0.6711094975471497	5
+627	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 feet, then I'll	 make	me	7.5091400146484375	3.963101625442505	0.0005480523104779422	0.23552608489990234	5
+628	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, then I'll make	 a	mistake	5.7948808670043945	5.729444980621338	0.003043093252927065	0.07579836994409561	5
+629	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 then I'll make a	 left	thing	6.177145004272461	5.205748558044434	0.0020763480570167303	0.05928086116909981	5
+630	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 I'll make a left	 by	a	5.959028720855713	5.598576545715332	0.002582418965175748	0.09951811283826828	5
+631	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	'll make a left by	 P	G	6.427855491638184	5.764122486114502	0.001615912769921124	0.04445710405707359	5
+632	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 make a left by P	it	ts	7.0607218742370605	4.7531938552856445	0.0008581583388149738	0.2965822219848633	5
+633	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a left by Pit	ts	bur	5.179837226867676	5.699709415435791	0.005628923885524273	0.11178813129663467	5
+634	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 left by Pitts	bur	g	3.460629940032959	1.8978585004806519	0.031409963965415955	0.513588547706604	5
+635	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 by Pittsbur	gh	is	14.394844055175781	4.725051403045654	5.602714736596681e-07	0.21240884065628052	5
+636	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 Pittsburgh	,	I	4.337321758270264	5.681036472320557	0.013071492314338684	0.096490278840065	5
+637	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ittsburgh,	 and	are	8.554676055908203	5.958475589752197	0.00019264219736214727	0.05909576639533043	5
+638	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	tsburgh, and	 a	d	6.289518356323242	6.684926986694336	0.0018556539434939623	0.020213700830936432	5
+639	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	burgh, and a	 right	to	7.269620895385742	4.801833629608154	0.0006963759660720825	0.254668265581131	5
+640	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	gh, and a right	 by	by	2.3342742919921875	5.243506908416748	0.09688076376914978	0.09688076376914978	5
+641	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, and a right by	 Chicago	,	8.245011329650879	2.788085699081421	0.0002625650377012789	0.3808658719062805	5
+642	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 and a right by Chicago	�	�	3.164226770401001	4.184251308441162	0.042246799916028976	0.26679977774620056	5
+643	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a right by Chicago�	�	I	11.138331413269043	5.010745048522949	1.4544005352945533e-05	0.15914256870746613	5
+644	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 right by Chicago…	""""		5.3339738845825195	5.174594402313232	0.004824858158826828	0.17608124017715454	5
+645	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" by Chicago…"""	 Jer	ry	6.661555290222168	2.0529897212982178	0.0012791554909199476	0.7356136441230774	5
+646	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" Chicago…"" Jer"	ry	S	7.242286205291748	5.4086689949035645	0.000715673784725368	0.11555606871843338	5
+647	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"…"" Jerry"	 laughed	at	10.587900161743164	3.5406010150909424	2.521931855881121e-05	0.28590619564056396	5
+648	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"�"" Jerry laughed"	 as	a	5.3468170166015625	4.975125312805176	0.004763289820402861	0.15299054980278015	5
+649	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	""" Jerry laughed as"	 he	was	3.9860081672668457	4.81587553024292	0.018573706969618797	0.11202116310596466	5
+650	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 Jerry laughed as he	 sat	.	6.142491340637207	5.069012641906738	0.002149561420083046	0.13052989542484283	5
+651	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ry laughed as he sat	 down	to	7.830951690673828	2.9618031978607178	0.0003972473496105522	0.5377148389816284	5
+652	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 laughed as he sat down	.		6.6148552894592285	4.5944437980651855	0.0013403085758909583	0.2091745287179947	5
+653	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 as he sat down.	" """	""""	5.446366310119629	5.269250392913818	0.004311944358050823	0.22575752437114716	5
+654	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" he sat down. """	L	e	8.839423179626465	4.6178412437438965	0.00014490634202957153	0.26270511746406555	5
+655	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" sat down. ""L"	ist	en	13.125951766967773	0.9421660900115967	1.9928365873056464e-06	0.7580326795578003	5
+656	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" down. ""List"	en	to	8.873905181884766	2.035663366317749	0.0001399948087055236	0.7355185747146606	5
+657	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""Listen"	 to	""""	5.504611968994141	3.959317684173584	0.004067966248840094	0.2926945090293884	5
+658	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Listen to"	 this	I	4.40589714050293	5.0911993980407715	0.012205149047076702	0.1297205239534378	5
+659	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Listen to this	 guy	.	6.869630813598633	5.670673370361328	0.001038860296830535	0.06998861581087112	5
+660	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	isten to this guy	,	this	6.029747009277344	5.8608856201171875	0.0024061016738414764	0.049172770231962204	5
+661	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	en to this guy,	 he	is	4.422597885131836	5.315826892852783	0.012003009207546711	0.12475995719432831	5
+662	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 to this guy, he	's	this	7.020704746246338	5.372922897338867	0.0008931959164328873	0.1060861274600029	5
+663	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 this guy, he's	 so	this	4.582533836364746	6.025333404541016	0.010228944011032581	0.0726870745420456	5
+664	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 guy, he's so	 excited	to	8.118877410888672	3.972015380859375	0.0002978630072902888	0.164362370967865	5
+665	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, he's so excited	 about	,	8.68189811706543	3.3715455532073975	0.0001696288527455181	0.43160751461982727	5
+666	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 he's so excited about	 being	I	8.910614013671875	5.948956489562988	0.00013494890299625695	0.10397013276815414	5
+667	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	's so excited about being	 a	person	4.621654510498047	6.084878921508789	0.00983650702983141	0.060757990926504135	5
+668	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 so excited about being a	 pilot	a	10.529995918273926	4.948278427124023	2.6722735128714703e-05	0.11499852687120438	5
+669	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 excited about being a pilot	,	there	5.637537956237793	4.71385383605957	0.003561625489965081	0.11626369506120682	5
+670	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 about being a pilot,	 he	's	2.1298305988311768	4.167920112609863	0.11885742843151093	0.21572934091091156	5
+671	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 being a pilot, he	 can	't	8.09136962890625	2.8240139484405518	0.0003061701136175543	0.39920613169670105	5
+672	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 a pilot, he can	't	do	7.095175266265869	5.050958633422852	0.0008290954283438623	0.06599244475364685	5
+673	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 pilot, he can't	 even	be	10.825397491455078	4.448385238647461	1.9887926100636832e-05	0.2402099221944809	5
+674	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, he can't even	 stand	,	8.516552925109863	4.777070999145508	0.0002001281245611608	0.1213945597410202	5
+675	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 he can't even stand	 himself	.	8.735845565795898	4.8329081535339355	0.0001607202138984576	0.11596105992794037	5
+676	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 can't even stand himself	"."""	""""	3.783112049102783	5.159026622772217	0.02275177650153637	0.0987163633108139	5
+677	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"'t even stand himself."""	" """	""""	4.165376663208008	5.3280534744262695	0.01552386861294508	0.2100493460893631	5
+678	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" even stand himself."" """	D	et	7.25290060043335	5.496617317199707	0.0007081174990162253	0.08373531699180603	5
+679	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" stand himself."" ""D"	o	you	8.194537162780762	5.325449466705322	0.0002761581272352487	0.13021129369735718	5
+680	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" himself."" ""Do"	 we	just	4.3374738693237305	5.484556198120117	0.013069504871964455	0.10405588895082474	5
+681	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Do we"	 really	""""	7.81979513168335	4.151423454284668	0.00040170390275307	0.1372959017753601	5
+682	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Do we really"	 need	I	9.141865730285645	5.520874977111816	0.00010708736954256892	0.07318826764822006	5
+683	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Do we really need	 this	</s>	3.7211363315582275	5.408670902252197	0.02420644834637642	0.08647375553846359	5
+684	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	o we really need this	 information	.	9.459062576293945	5.177130222320557	7.79796828282997e-05	0.0977175384759903	5
+685	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 we really need this information	"?"""	</s>	8.245879173278809	5.027213096618652	0.00026233744574710727	0.14881078898906708	5
+686	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" really need this information?"""	 asked	I	9.974127769470215	5.489796161651611	4.6589873818447813e-05	0.0640614777803421	5
+687	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" need this information?"" asked"	 George	H	4.211480140686035	5.246569633483887	0.01482441183179617	0.10367541015148163	5
+688	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" this information?"" asked George"	.		7.241607666015625	4.582210540771484	0.0007161595858633518	0.08377180248498917	5
+689	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" information?"" asked George."	" """	D	8.26950740814209	3.8169777393341064	0.0002562114386819303	0.24726973474025726	5
+690	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"?"" asked George. """	I	.	7.556308269500732	3.8866639137268066	0.0005228017689660192	0.16355961561203003	5
+691	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" asked George. ""I"	 mean	.	8.876922607421875	3.909142255783081	0.0001395730796502903	0.2598171830177307	5
+692	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" George. ""I mean"	,	I	8.149210929870605	5.131863594055176	0.00028896337607875466	0.15288664400577545	5
+693	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	". ""I mean,"	 just	to	10.3209810256958	5.70142126083374	3.2934785849647596e-05	0.0440702885389328	5
+694	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""I mean, just"	 do	,	8.598132133483887	4.371435165405273	0.00018444994930177927	0.2108791023492813	5
+695	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	I mean, just do	 whatever	,	8.003815650939941	2.951380729675293	0.00033418499515391886	0.3616539239883423	5
+696	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 mean, just do whatever	 the	,	7.51143741607666	5.714694023132324	0.0005467947339639068	0.044306110590696335	5
+697	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	, just do whatever the	 hell	,	7.998203277587891	2.9376633167266846	0.00033606597571633756	0.4666709005832672	5
+698	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 just do whatever the hell	 you	'd	4.780304431915283	4.308343887329102	0.008393443189561367	0.08437833935022354	5
+699	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 do whatever the hell you	 gotta	do	9.045035362243652	3.5928213596343994	0.00011797533079516143	0.477363646030426	5
+700	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 whatever the hell you gotta	 do	.	6.388728141784668	4.377345085144043	0.0016803918406367302	0.11515433341264725	5
+701	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 the hell you gotta do	"."""		7.031083583831787	4.295799255371094	0.0008839733200147748	0.2605624794960022	5
+702	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" hell you gotta do."""	" """	""""	6.807694435119629	5.63809871673584	0.001105238334275782	0.09215341508388519	5
+703	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" you gotta do."" """	I	s	9.66794204711914	4.566697120666504	6.327993469312787e-05	0.2325476109981537	5
+704	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" gotta do."" ""I"	 don	't	8.648598670959473	0.19333544373512268	0.00017537236271891743	0.9797893762588501	5
+705	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" do."" ""I don"	't	'	5.519198417663574	5.350005149841309	0.004009060095995665	0.09039663523435593	5
+706	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""I don't"	 know	</s>	7.24733304977417	3.889207601547241	0.000712070963345468	0.12223493307828903	5
+707	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""I don't know"	"."""		6.695066928863525	3.2391767501831055	0.001236999174579978	0.36352261900901794	5
+708	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"I don't know."""	" """	""""	6.645742416381836	4.276517868041992	0.001299543073400855	0.15590985119342804	5
+709	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" don't know."" """	J	""""	5.149560928344727	4.914162635803223	0.005801952909678221	0.1645643562078476	5
+710	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"'t know."" ""J"	ust	a	9.937277793884277	5.39432430267334	4.8338730266550556e-05	0.1738840788602829	5
+711	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" know."" ""Just"	 end	or	5.97874641418457	5.5891313552856445	0.002531997626647353	0.051315516233444214	5
+712	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	"."" ""Just end"	-	I	6.68925142288208	4.988870620727539	0.0012442137813195586	0.0830434039235115	5
+713	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" ""Just end-"	up	with	13.897047996520996	4.281422138214111	9.216983016813174e-07	0.30754753947257996	5
+714	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	Just end-up	 where	I	4.9025444984436035	4.955165863037109	0.007427658420056105	0.11313148587942123	5
+715	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	ust end-up where	 it	's	7.041889667510986	4.463186264038086	0.0008744723745621741	0.22438326478004456	5
+716	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 end-up where it	 says	</s>	8.958749771118164	5.450467109680176	0.00012860700371675193	0.05550304800271988	5
+717	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	-up where it says	 on	</s>	5.434912204742432	5.459143161773682	0.004361617844551802	0.07532697170972824	5
+718	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	up where it says on	 the	go	8.236660957336426	6.086852073669434	0.00026476680068299174	0.0758368968963623	5
+719	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 where it says on the	 ticket	to	7.531589984893799	4.33820104598999	0.0005358855123631656	0.3020778000354767	5
+720	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 it says on the ticket	,	I	6.329232215881348	4.691157817840576	0.001783402869477868	0.20758302509784698	5
+721	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 says on the ticket,	 really	anything	4.407346248626709	5.356403827667236	0.012187479063868523	0.07245790213346481	5
+722	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	 on the ticket, really	"."""	</s>	5.371840476989746	3.637239456176758	0.004645572509616613	0.40676459670066833	5
+723	seinfeld_transcript	transcript	facebook/blenderbot-400M-distill	" the ticket, really."""	</s>		1.756955623626709	3.96000337600708	0.1725694090127945	0.32725849747657776	5
