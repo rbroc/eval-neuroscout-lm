@@ -78,7 +78,7 @@ def _validate(datafile,
     log_path = f'outputs/narratives/{log_id}'
     if log_path not in files:
         tokenizer = tokenizer_class.from_pretrained(model_id)
-        model = model_class.from_pretrained(model_id).to(device='cuda:0')
+        model = model_class.from_pretrained(model_id).to(device='cuda:1')
         data = NarrativesDataset(datafile, dataset_name)
         engine = StridingLM(context_length=ctx_length)
         result = engine.run(data, tokenizer, model, model_id)
