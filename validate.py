@@ -71,7 +71,7 @@ def _validate(datafile,
     n_files = len(files)
     dataset_name = _make_dataset_id(datafile)
     if '/' in model_id:
-        model_id_log = model_id.split('/')[0]
+        model_id_log = model_id.split('/')[1]
     else:
         model_id_log = model_id
     log_id = f'{dataset_name}_{model_id_log}_{ctx_length}.txt'    
@@ -82,9 +82,7 @@ def _validate(datafile,
         data = NarrativesDataset(datafile, dataset_name)
         engine = StridingLM(context_length=ctx_length)
         result = engine.run(data, tokenizer, model, model_id)
-        # Log the data
         result.to_csv(log_path, sep='\t')
-        # How many left?
         print(f'{n_files+1} out of {len(parameters)}')
         return result
 
