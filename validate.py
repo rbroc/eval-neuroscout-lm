@@ -69,6 +69,7 @@ def _validate(datafile,
     ''' Main functon to run the validation'''
     files = glob.glob('outputs/narratives/*')
     n_files = len(files)
+    print(n_files)
     dataset_name = _make_dataset_id(datafile)
     if '/' in model_id:
         model_id_log = model_id.split('/')[0]
@@ -78,11 +79,13 @@ def _validate(datafile,
     log_path = f'outputs/narratives/{log_id}'
     if log_path not in files:
         tokenizer = tokenizer_class.from_pretrained(model_id)
-        model = model_class.from_pretrained(model_id).to(device='cuda:1')
+        model = model_class.from_pretrained(model_id).to(device='cuda:0')
         data = NarrativesDataset(datafile, dataset_name)
         engine = StridingLM(context_length=ctx_length)
         result = engine.run(data, tokenizer, model, model_id)
+        # Log the data
         result.to_csv(log_path, sep='\t')
+        # How many left?
         print(f'{n_files+1} out of {len(parameters)}')
         return result
 
