@@ -4,6 +4,11 @@ import pandas as pd
 import time
 from scipy.stats import entropy
 
+# TO DOS:
+# - Check why all input ids / target ids are masked for bert-like model in final log
+# - Check whether logging the correct word (n? or n+1?) for both models
+# - Maybe add "is_top_5" measure
+
 class StridingLM:
     ''' Runs striding forward LM over a dataset'''
     def __init__(self, 
