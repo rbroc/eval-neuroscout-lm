@@ -8,6 +8,8 @@ from scipy.stats import entropy
 # - Check why all input ids / target ids are masked for bert-like model in final log
 # - Check whether logging the correct word (n? or n+1?) for both models
 # - Maybe add "is_top_5" measure
+# - Also, potentially look up literature for other LM metrics
+# - Set up same comparison for reading brain project (scrambled vs. not scrambled)
 
 class StridingLM:
     ''' Runs striding forward LM over a dataset'''
