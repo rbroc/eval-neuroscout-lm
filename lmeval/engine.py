@@ -5,10 +5,11 @@ import time
 from scipy.stats import entropy
 
 # TO DOS:
-# - Check why all input ids / target ids are masked for bert-like model in final log
-# - Check whether logging the correct word (n? or n+1?) for both models
-# - Maybe add "is_top_5" measure
-# - Also, potentially look up literature for other LM metrics
+# If LM:
+    # Make lists with n+1 words
+    # Trim input ids and targets
+    # Save last word to look at true word
+# - Add "is_top_5" measure
 # - Set up same comparison for reading brain project (scrambled vs. not scrambled)
 
 class StridingLM:
@@ -17,7 +18,7 @@ class StridingLM:
                  context_length=20):
         self.context_length = context_length
         
-    def _split(self, tokenized):
+    def _split(self, tokenized, model_name):
         n_tokens = tokenized['input_ids'].shape[-1]
         i_start = range(0, n_tokens-self.context_length)
         i_end = range(self.context_length, 
@@ -26,9 +27,9 @@ class StridingLM:
                      for i_s, i_e in zip(i_start,i_end)]
         return split_tks
     
-    def _preprocess(self, text, tokenizer):
-        tokenized = tokenizer(text, return_tensors='pt').to(device='cuda:0')
-        tokenized_lst = self._split(tokenized)
+    def _preprocess(self, text, tokenizer, model_name):
+        tokenized = tokenizer(text, return_tensors='pt')#.to(device='cuda:0')
+        tokenized_lst = self._split(tokenized, model_name)
         return tokenized_lst
     
     def run(self, dataset, tokenizer, model,
@@ -37,13 +38,14 @@ class StridingLM:
         results = []
         softmax_fn = torch.nn.Softmax(dim=-1)
         tokenized_lst = self._preprocess(dataset.text, 
-                                         tokenizer)
+                                         tokenizer, 
+                                         model_name)
         print(f'Running {model_name}, '
               f'{dataset.name}, {self.context_length}, '
               f'{len(tokenized_lst)}')
         for i in tqdm(range(len(tokenized_lst))): # tqdm
             # Inference
-            input_ids = tokenized_lst[i]
+            input_ids = tokenized_lst[i].clone()
             target_ids = input_ids.clone()
             if any([mid in model_name
                     for mid in ['bert', 'bigbird', 'electra']]):
