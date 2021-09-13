@@ -22,15 +22,15 @@ class StridingMLM:
         
     def _split(self, tokenized, model_name):
         n_tokens = tokenized['input_ids'].shape[-1]
-        i_start = range(0, n_tokens-self.context_length)
-        i_end = range(self.context_length, 
-                      n_tokens)
-        split_tks = [tokenized['input_ids'][:,i_s:i_e+1]
+        i_start = list(range(0, 
+                             n_tokens-(self.context_length+1)))
+        i_end = [i+(self.context_length+1) for i in i_start]
+        split_tks = [tokenized['input_ids'][:,i_s:i_e]
                      for i_s, i_e in zip(i_start,i_end)]
         return split_tks
     
     def _preprocess(self, text, tokenizer, model_name):
-        tokenized = tokenizer(text, return_tensors='pt')#.to(device='cuda:0')
+        tokenized = tokenizer(text, return_tensors='pt').to(device='cuda:0')
         tokenized_lst = self._split(tokenized, model_name)
         return tokenized_lst
     

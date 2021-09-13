@@ -11,7 +11,7 @@ import pandas as pd
 import glob
 from itertools import product
 from lmeval.datasets import NarrativesDataset
-from lmeval.engine import StridingLM
+from lmeval.engine import StridingMLM, StridingForwardLM
 import transformers
 
 transformers.logging.set_verbosity(50)
@@ -44,7 +44,7 @@ tokenizer_classes = [GPT2TokenizerFast,
 model_parameters = list(zip(model_classes, 
                             model_ids, 
                             tokenizer_classes))
-ctx_lengths = [5, 10, 15, 20]
+ctx_lengths = [5, 10, 15, 20, 25, 30]
 parameters = list(product(dataset_files, 
                           model_parameters, 
                           ctx_lengths))
@@ -80,14 +80,18 @@ def _validate(datafile,
         tokenizer = tokenizer_class.from_pretrained(model_id)
         model = model_class.from_pretrained(model_id).to(device='cuda:0')
         data = NarrativesDataset(datafile, dataset_name)
-        engine = StridingLM(context_length=ctx_length)
+        if any([b in model_id 
+                for b in ['bert','electra', 'bigbird']]):
+            engine = StridingMLM(context_length=ctx_length)
+        else:
+            engine = StridingForwardLM(context_length=ctx_length)
         result = engine.run(data, tokenizer, model, model_id)
         result.to_csv(log_path, sep='\t')
         print(f'{n_files+1} out of {len(parameters)}')
         return result
+    
 
-  
-# Run
+    # Rtun
 if __name__=='__main__':
     for p in parameters:
         _validate(*p)
