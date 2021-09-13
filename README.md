@@ -15,3 +15,4 @@ Notes:
 - Unrelated
     - Sentiment metrics?
     - Next turn perplexity
+- Set up same comparison for reading brain project (scrambled vs. not scrambled)
