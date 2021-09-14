@@ -20,7 +20,7 @@ class StridingMLM:
         self.context_length = context_length
         self.softmax_fn = torch.nn.Softmax(dim=-1)
         
-    def _split(self, tokenized, model_name):
+    def _split(self, tokenized):
         n_tokens = tokenized['input_ids'].shape[-1]
         i_start = list(range(0, 
                              n_tokens-(self.context_length+1)))
@@ -29,9 +29,9 @@ class StridingMLM:
                      for i_s, i_e in zip(i_start,i_end)]
         return split_tks
     
-    def _preprocess(self, text, tokenizer, model_name):
-        tokenized = tokenizer(text, return_tensors='pt').to(device='cuda:0')
-        tokenized_lst = self._split(tokenized, model_name)
+    def _preprocess(self, text, tokenizer, gpu=0):
+        tokenized = tokenizer(text, return_tensors='pt').to(device=f'cuda:{str(gpu)}')
+        tokenized_lst = self._split(tokenized)
         return tokenized_lst
     
     def _mask(self, list_item, tokenizer):
@@ -61,8 +61,7 @@ class StridingMLM:
         time.sleep(.5)
         results = []
         tokenized_lst = self._preprocess(dataset.text, 
-                                         tokenizer, 
-                                         model_name)
+                                         tokenizer)
         print(f'Running {model_name}, '
               f'{dataset.name}, {self.context_length}, '
               f'{len(tokenized_lst)}')

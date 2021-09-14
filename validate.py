@@ -13,6 +13,15 @@ from itertools import product
 from lmeval.datasets import NarrativesDataset
 from lmeval.engine import StridingMLM, StridingForwardLM
 import transformers
+import argparse
+
+
+# Initialize parser
+parser = argparse.ArgumentParser()
+parser.add_argument('--gpu', type=int, default=0,
+                    help='Which gpu to use')
+parser.add_argument('--ctx-length', nargs='+', default=None,
+                    help='Context sizes')
 
 transformers.logging.set_verbosity(50)
 
@@ -44,13 +53,14 @@ tokenizer_classes = [GPT2TokenizerFast,
 model_parameters = list(zip(model_classes, 
                             model_ids, 
                             tokenizer_classes))
-ctx_lengths = [5, 10, 15, 20, 25, 30]
 parameters = list(product(dataset_files, 
-                          model_parameters, 
-                          ctx_lengths))
+                          model_parameters))
 parameters = [(i[0], *i[1], i[2]) for i in parameters]
     
     
+
+
+
 # Define functions
 def _make_dataset_id(datafile):
     ''' Extracts compact id'''
@@ -65,7 +75,8 @@ def _validate(datafile,
               model_class, 
               model_id, 
               tokenizer_class, 
-              ctx_length):
+              ctx_length, 
+              gpu=0):
     ''' Main functon to run the validation'''
     files = glob.glob('outputs/narratives/*')
     n_files = len(files)
@@ -78,7 +89,7 @@ def _validate(datafile,
     log_path = f'outputs/narratives/{log_id}'
     if log_path not in files:
         tokenizer = tokenizer_class.from_pretrained(model_id)
-        model = model_class.from_pretrained(model_id).to(device='cuda:0')
+        model = model_class.from_pretrained(model_id).to(device=f'cuda:{str(gpu)}')
         data = NarrativesDataset(datafile, dataset_name)
         if any([b in model_id 
                 for b in ['bert','electra', 'bigbird']]):
@@ -91,7 +102,10 @@ def _validate(datafile,
         return result
     
 
-    # Rtun
+    # Run
 if __name__=='__main__':
-    for p in parameters:
-        _validate(*p)
+    args = parser.parse_args()
+    pars = product(parameters, args.ctx_length)
+    pars = [(*p[0], p[1]) for p in pars]
+    for p in pars:
+        _validate(*p, args.gpu)
