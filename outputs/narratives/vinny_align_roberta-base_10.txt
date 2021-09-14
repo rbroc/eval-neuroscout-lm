@@ -1,536 +1,535 @@
 	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
 0	vinny_align	aligned	roberta-base	<s>vinny and mona stumbled bleary eyed	 into	</s>	16.935222625732422	0.028445938602089882	4.4169865986987134e-08	0.9958900809288025	10
-1	vinny_align	aligned	roberta-base	vinny and mona stumbled bleary eyed<mask>	 a	</s>	14.240967750549316	0.04203910008072853	6.534709768857283e-07	0.99366295337677	10
-2	vinny_align	aligned	roberta-base	ny and mona stumbled bleary eyed<mask><mask>	 ding	</s>	26.84259605407715	0.0008172053494490683	2.199930558902108e-12	0.9999511241912842	10
-3	vinny_align	aligned	roberta-base	 and mona stumbled bleary eyed<mask><mask><mask>	y	</s>	12.565080642700195	0.018924927338957787	3.4918436995212687e-06	0.9986781477928162	10
-4	vinny_align	aligned	roberta-base	 mona stumbled bleary eyed<mask><mask><mask><mask>	 looking	</s>	15.333649635314941	0.35254791378974915	2.1911934311447112e-07	0.9270241260528564	10
-5	vinny_align	aligned	roberta-base	a stumbled bleary eyed<mask><mask><mask><mask><mask>	 diner	</s>	19.49440574645996	0.3560416102409363	3.417331084776265e-09	0.9456744194030762	10
-6	vinny_align	aligned	roberta-base	 stumbled bleary eyed<mask><mask><mask><mask><mask><mask>	 the	</s>	9.333526611328125	0.3183366060256958	8.840992813929915e-05	0.9489553570747375	10
-7	vinny_align	aligned	roberta-base	 bleary eyed<mask><mask><mask><mask><mask><mask><mask>	 place	</s>	14.099977493286133	0.21628336608409882	7.524153602389561e-07	0.9713913202285767	10
-8	vinny_align	aligned	roberta-base	ary eyed<mask><mask><mask><mask><mask><mask><mask><mask>	 was	</s>	12.301681518554688	0.29902753233909607	4.544095190794906e-06	0.9627675414085388	10
-9	vinny_align	aligned	roberta-base	 eyed<mask><mask><mask><mask><mask><mask><mask><mask><mask>	 deserted	</s>	19.69601058959961	0.5790138244628906	2.7933895196952108e-09	0.932186484336853	10
-10	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 save	</s>	13.972647666931152	0.5422558784484863	8.545870286980062e-07	0.9379039406776428	10
-11	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-12	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-13	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 few	</s>	12.723490715026855	0.5422558784484863	2.9802881726936903e-06	0.9379039406776428	10
-14	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 flies	</s>	18.905275344848633	0.5422558784484863	6.159469378985705e-09	0.9379039406776428	10
-15	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 laz	</s>	17.001081466674805	0.5422558784484863	4.1354638824486756e-08	0.9379039406776428	10
-16	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ily	</s>	13.339640617370605	0.5422558784484863	1.609413970982132e-06	0.9379039406776428	10
-17	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 circling	</s>	19.684782028198242	0.5422558784484863	2.8249309558248115e-09	0.9379039406776428	10
-18	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 around	</s>	13.890534400939941	0.5422558784484863	9.277214303438086e-07	0.9379039406776428	10
-19	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-20	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 lamps	</s>	19.839153289794922	0.5422558784484863	2.4208355320354258e-09	0.9379039406776428	10
-21	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-22	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 host	</s>	13.562113761901855	0.5422558784484863	1.2883946283182013e-06	0.9379039406776428	10
-23	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ess	</s>	12.903299331665039	0.5422558784484863	2.4898224637581734e-06	0.9379039406776428	10
-24	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 who	</s>	11.423067092895508	0.5422558784484863	1.0940195352304727e-05	0.9379039406776428	10
-25	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 was	</s>	11.671733856201172	0.5422558784484863	8.531598723493516e-06	0.9379039406776428	10
-26	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 loudly	</s>	18.025482177734375	0.5422558784484863	1.4846793128242552e-08	0.9379039406776428	10
-27	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 chewing	</s>	19.47087860107422	0.5422558784484863	3.4986855634855374e-09	0.9379039406776428	10
-28	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-29	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-30	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 gum	</s>	19.373380661010742	0.5422558784484863	3.856983177286111e-09	0.9379039406776428	10
-31	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pointed	</s>	13.758524894714355	0.5422558784484863	1.0586408052404295e-06	0.9379039406776428	10
-32	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 toward	</s>	13.878785133361816	0.5422558784484863	9.386858437210321e-07	0.9379039406776428	10
-33	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-34	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 counter	</s>	14.8745756149292	0.5422558784484863	3.467798990186566e-07	0.9379039406776428	10
-35	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 there	</s>	11.348464965820312	0.5422558784484863	1.1787572475441266e-05	0.9379039406776428	10
-36	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-37	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 seats	</s>	17.244003295898438	0.5422558784484863	3.2435796271101935e-08	0.9379039406776428	10
-38	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-39	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-40	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 counter	</s>	14.8745756149292	0.5422558784484863	3.467798990186566e-07	0.9379039406776428	10
-41	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 if	</s>	11.385839462280273	0.5422558784484863	1.1355147762515116e-05	0.9379039406776428	10
-42	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-43	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 want	</s>	13.929447174072266	0.5422558784484863	8.923146310735319e-07	0.9379039406776428	10
-44	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 breakfast	</s>	16.4838924407959	0.5422558784484863	6.936438268212441e-08	0.9379039406776428	10
-45	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 thanks	</s>	13.975873947143555	0.5422558784484863	8.518343292962527e-07	0.9379039406776428	10
-46	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 said	</s>	10.154407501220703	0.5422558784484863	3.890423977281898e-05	0.9379039406776428	10
-47	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 v	</s>	13.461405754089355	0.5422558784484863	1.4249046671466203e-06	0.9379039406776428	10
-48	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	in	</s>	10.028366088867188	0.5422558784484863	4.413021088112146e-05	0.9379039406776428	10
-49	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ny	</s>	14.856082916259766	0.5422558784484863	3.532524885940802e-07	0.9379039406776428	10
-50	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-51	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 they	</s>	11.10830020904541	0.5422558784484863	1.4987409485911485e-05	0.9379039406776428	10
-52	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 took	</s>	13.218570709228516	0.5422558784484863	1.8165516166845919e-06	0.9379039406776428	10
-53	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 their	</s>	12.204792022705078	0.5422558784484863	5.006407718610717e-06	0.9379039406776428	10
-54	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 seats	</s>	17.244003295898438	0.5422558784484863	3.2435796271101935e-08	0.9379039406776428	10
-55	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-56	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-57	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 yawn	</s>	16.689634323120117	0.5422558784484863	5.64656019719223e-08	0.9379039406776428	10
-58	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-59	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-60	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 wearing	</s>	16.12321662902832	0.5422558784484863	9.94892275230086e-08	0.9379039406776428	10
-61	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-62	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 white	</s>	14.943354606628418	0.5422558784484863	3.2373048952649697e-07	0.9379039406776428	10
-63	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-64	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	pron	</s>	18.043872833251953	0.5422558784484863	1.4576244211639278e-08	0.9379039406776428	10
-65	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 emerged	</s>	15.309452056884766	0.5422558784484863	2.244861150302313e-07	0.9379039406776428	10
-66	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 from	</s>	9.948819160461426	0.5422558784484863	4.7784033085918054e-05	0.9379039406776428	10
-67	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-68	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-69	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 room	</s>	14.579362869262695	0.5422558784484863	4.6586833946093975e-07	0.9379039406776428	10
-70	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-71	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 slapped	</s>	17.60799217224121	0.5422558784484863	2.2539602184679097e-08	0.9379039406776428	10
-72	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-73	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 single	</s>	12.877647399902344	0.5422558784484863	2.554517550379387e-06	0.9379039406776428	10
-74	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 menu	</s>	16.212749481201172	0.5422558784484863	9.09687969397055e-08	0.9379039406776428	10
-75	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 down	</s>	12.632719039916992	0.5422558784484863	3.263471853642841e-06	0.9379039406776428	10
-76	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-77	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 front	</s>	14.84919261932373	0.5422558784484863	3.5569490819398197e-07	0.9379039406776428	10
-78	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-79	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 them	</s>	10.198320388793945	0.5422558784484863	3.7232806789688766e-05	0.9379039406776428	10
-80	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 before	</s>	10.924022674560547	0.5422558784484863	1.8020104107563384e-05	0.9379039406776428	10
-81	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 silently	</s>	17.485315322875977	0.5422558784484863	2.5481448062691925e-08	0.9379039406776428	10
-82	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 returning	</s>	17.075321197509766	0.5422558784484863	3.839567241925579e-08	0.9379039406776428	10
-83	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 through	</s>	12.318552017211914	0.5422558784484863	4.468079168873373e-06	0.9379039406776428	10
-84	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-85	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 swinging	</s>	17.898561477661133	0.5422558784484863	1.6855963735906698e-08	0.9379039406776428	10
-86	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 doors	</s>	16.33278465270996	0.5422558784484863	8.067924994747955e-08	0.9379039406776428	10
-87	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 mon	</s>	16.066110610961914	0.5422558784484863	1.0533601368933887e-07	0.9379039406776428	10
-88	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	a	</s>	11.582916259765625	0.5422558784484863	9.324025086243637e-06	0.9379039406776428	10
-89	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 picked	</s>	15.669538497924805	0.5422558784484863	1.566051253121259e-07	0.9379039406776428	10
-90	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-91	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 up	</s>	10.955738067626953	0.5422558784484863	1.745755798765458e-05	0.9379039406776428	10
-92	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-93	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 v	</s>	13.461405754089355	0.5422558784484863	1.4249046671466203e-06	0.9379039406776428	10
-94	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	in	</s>	10.028366088867188	0.5422558784484863	4.413021088112146e-05	0.9379039406776428	10
-95	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ny	</s>	14.856082916259766	0.5422558784484863	3.532524885940802e-07	0.9379039406776428	10
-96	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 looked	</s>	13.99695110321045	0.5422558784484863	8.340678618878883e-07	0.9379039406776428	10
-97	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 over	</s>	11.304963111877441	0.5422558784484863	1.2311669706832618e-05	0.9379039406776428	10
-98	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-99	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 shoulder	</s>	15.999560356140137	0.5422558784484863	1.1258467935704175e-07	0.9379039406776428	10
-100	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-101	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-102	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 menu	</s>	16.212749481201172	0.5422558784484863	9.09687969397055e-08	0.9379039406776428	10
-103	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 were	</s>	12.041485786437988	0.5422558784484863	5.894530204386683e-06	0.9379039406776428	10
-104	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 exactly	</s>	14.701225280761719	0.5422558784484863	4.124193537791143e-07	0.9379039406776428	10
-105	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 three	</s>	11.835261344909668	0.5422558784484863	7.2445491241524e-06	0.9379039406776428	10
-106	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 choices	</s>	17.097881317138672	0.5422558784484863	3.753916288928849e-08	0.9379039406776428	10
-107	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 breakfast	</s>	16.4838924407959	0.5422558784484863	6.936438268212441e-08	0.9379039406776428	10
-108	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-109	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 one	</s>	10.9601411819458	0.5422558784484863	1.7380858480464667e-05	0.9379039406776428	10
-110	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ninety	</s>	17.579030990600586	0.5422558784484863	2.320191860860632e-08	0.9379039406776428	10
-111	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 nine	</s>	14.645584106445312	0.5422558784484863	4.3601724541986187e-07	0.9379039406776428	10
-112	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 lunch	</s>	15.739490509033203	0.5422558784484863	1.4602466080759768e-07	0.9379039406776428	10
-113	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-114	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 two	</s>	10.599908828735352	0.5422558784484863	2.4918286726460792e-05	0.9379039406776428	10
-115	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 forty	</s>	16.068321228027344	0.5422558784484863	1.051034175247878e-07	0.9379039406776428	10
-116	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 nine	</s>	14.645584106445312	0.5422558784484863	4.3601724541986187e-07	0.9379039406776428	10
-117	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 or	</s>	10.105382919311523	0.5422558784484863	4.0859031287254766e-05	0.9379039406776428	10
-118	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 dinner	</s>	14.966837882995605	0.5422558784484863	3.1621681273463764e-07	0.9379039406776428	10
-119	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-120	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 three	</s>	11.835261344909668	0.5422558784484863	7.2445491241524e-06	0.9379039406776428	10
-121	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 forty	</s>	16.068321228027344	0.5422558784484863	1.051034175247878e-07	0.9379039406776428	10
-122	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 nine	</s>	14.645584106445312	0.5422558784484863	4.3601724541986187e-07	0.9379039406776428	10
-123	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 mon	</s>	16.066110610961914	0.5422558784484863	1.0533601368933887e-07	0.9379039406776428	10
-124	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	a	</s>	11.582916259765625	0.5422558784484863	9.324025086243637e-06	0.9379039406776428	10
-125	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 tilted	</s>	19.10131072998047	0.5422558784484863	5.062979813175161e-09	0.9379039406776428	10
-126	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-127	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 head	</s>	13.69675350189209	0.5422558784484863	1.1260964356551995e-06	0.9379039406776428	10
-128	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-129	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-130	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 forth	</s>	13.621801376342773	0.5422558784484863	1.213743416883517e-06	0.9379039406776428	10
-131	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-132	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sarcastic	</s>	18.339801788330078	0.5422558784484863	1.0842398090460392e-08	0.9379039406776428	10
-133	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-134	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-135	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 so	</s>	11.77468204498291	0.5422558784484863	7.696984539506957e-06	0.9379039406776428	10
-136	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 breakfast	</s>	16.4838924407959	0.5422558784484863	6.936438268212441e-08	0.9379039406776428	10
-137	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-138	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 think	</s>	11.854228973388672	0.5422558784484863	7.10843232809566e-06	0.9379039406776428	10
-139	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 replied	</s>	13.582295417785645	0.5422558784484863	1.2626533134607598e-06	0.9379039406776428	10
-140	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 v	</s>	13.461405754089355	0.5422558784484863	1.4249046671466203e-06	0.9379039406776428	10
-141	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	in	</s>	10.028366088867188	0.5422558784484863	4.413021088112146e-05	0.9379039406776428	10
-142	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ny	</s>	14.856082916259766	0.5422558784484863	3.532524885940802e-07	0.9379039406776428	10
-143	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 stro	</s>	16.943220138549805	0.5422558784484863	4.381804785680288e-08	0.9379039406776428	10
-144	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	king	</s>	13.280776977539062	0.5422558784484863	1.7069937712221872e-06	0.9379039406776428	10
-145	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-146	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 chin	</s>	17.2141170501709	0.5422558784484863	3.341981624771506e-08	0.9379039406776428	10
-147	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-148	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-149	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 circled	</s>	19.04818344116211	0.5422558784484863	5.339236164303429e-09	0.9379039406776428	10
-150	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-151	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-152	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-153	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 counter	</s>	14.8745756149292	0.5422558784484863	3.467798990186566e-07	0.9379039406776428	10
-154	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-155	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 two	</s>	10.599908828735352	0.5422558784484863	2.4918286726460792e-05	0.9379039406776428	10
-156	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 want	</s>	13.929447174072266	0.5422558784484863	8.923146310735319e-07	0.9379039406776428	10
-157	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 something	</s>	13.32184886932373	0.5422558784484863	1.6383044112444622e-06	0.9379039406776428	10
-158	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-159	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 eat	</s>	14.56123161315918	0.5422558784484863	4.743921806493745e-07	0.9379039406776428	10
-160	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 two	</s>	10.599908828735352	0.5422558784484863	2.4918286726460792e-05	0.9379039406776428	10
-161	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 break	</s>	13.83413314819336	0.5422558784484863	9.815497605814016e-07	0.9379039406776428	10
-162	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	f	</s>	10.656018257141113	0.5422558784484863	2.355863580305595e-05	0.9379039406776428	10
-163	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	asts	</s>	15.71690559387207	0.5422558784484863	1.493601331503669e-07	0.9379039406776428	10
-164	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 please	</s>	14.306511878967285	0.5422558784484863	6.120133662079752e-07	0.9379039406776428	10
-165	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-166	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 rubbed	</s>	17.60723304748535	0.5422558784484863	2.255671738282672e-08	0.9379039406776428	10
-167	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-168	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 eyes	</s>	14.699602127075195	0.5422558784484863	4.130893103138078e-07	0.9379039406776428	10
-169	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-170	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-171	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 passed	</s>	13.136658668518066	0.5422558784484863	1.9716128463187488e-06	0.9379039406776428	10
-172	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-173	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 menu	</s>	16.212749481201172	0.5422558784484863	9.09687969397055e-08	0.9379039406776428	10
-174	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-175	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-176	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-177	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 can	</s>	13.649560928344727	0.5422558784484863	1.1805137773990282e-06	0.9379039406776428	10
-178	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-179	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ask	</s>	13.087932586669922	0.5422558784484863	2.0700611003121594e-06	0.9379039406776428	10
-180	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-181	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 something	</s>	13.32184886932373	0.5422558784484863	1.6383044112444622e-06	0.9379039406776428	10
-182	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-183	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-184	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-185	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 story	</s>	13.677523612976074	0.5422558784484863	1.1479606882858207e-06	0.9379039406776428	10
-186	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-187	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-188	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 incredibly	</s>	17.172927856445312	0.5422558784484863	3.482508859065092e-08	0.9379039406776428	10
-189	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 remarkably	</s>	17.77977752685547	0.5422558784484863	1.8981948457508224e-08	0.9379039406776428	10
-190	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 loud	</s>	15.931608200073242	0.5422558784484863	1.205009567684101e-07	0.9379039406776428	10
-191	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 whistle	</s>	16.834688186645508	0.5422558784484863	4.8841375388519737e-08	0.9379039406776428	10
-192	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-193	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 five	</s>	12.939336776733398	0.5422558784484863	2.4016928819037275e-06	0.9379039406776428	10
-194	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 thirty	</s>	15.473844528198242	0.5422558784484863	1.9045603494305396e-07	0.9379039406776428	10
-195	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-196	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-197	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 morning	</s>	15.071101188659668	0.5422558784484863	2.849075713129423e-07	0.9379039406776428	10
-198	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-199	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-200	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-201	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 eyes	</s>	14.699602127075195	0.5422558784484863	4.130893103138078e-07	0.9379039406776428	10
-202	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 narrowed	</s>	17.752973556518555	0.5422558784484863	1.9497621295272438e-08	0.9379039406776428	10
-203	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 clearly	</s>	15.126049995422363	0.5422558784484863	2.6967455823978526e-07	0.9379039406776428	10
-204	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 these	</s>	12.792412757873535	0.5422558784484863	2.7817991394840647e-06	0.9379039406776428	10
-205	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 two	</s>	10.599908828735352	0.5422558784484863	2.4918286726460792e-05	0.9379039406776428	10
-206	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 were	</s>	12.041485786437988	0.5422558784484863	5.894530204386683e-06	0.9379039406776428	10
-207	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 from	</s>	9.948819160461426	0.5422558784484863	4.7784033085918054e-05	0.9379039406776428	10
-208	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-209	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-210	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 town	</s>	14.370318412780762	0.5422558784484863	5.741827067140548e-07	0.9379039406776428	10
-211	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-212	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-213	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-214	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 steam	</s>	16.067092895507812	0.5422558784484863	1.0523259419414899e-07	0.9379039406776428	10
-215	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 whistle	</s>	16.834688186645508	0.5422558784484863	4.8841375388519737e-08	0.9379039406776428	10
-216	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 over	</s>	11.304963111877441	0.5422558784484863	1.2311669706832618e-05	0.9379039406776428	10
-217	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 by	</s>	9.527957916259766	0.5422558784484863	7.27881197235547e-05	0.9379039406776428	10
-218	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-219	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 saw	</s>	13.94217586517334	0.5422558784484863	8.810286544758128e-07	0.9379039406776428	10
-220	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 mill	</s>	16.584138870239258	0.5422558784484863	6.274802188954709e-08	0.9379039406776428	10
-221	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 tells	</s>	15.41173267364502	0.5422558784484863	2.0266072908725619e-07	0.9379039406776428	10
-222	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 folks	</s>	15.051713943481445	0.5422558784484863	2.9048501914985536e-07	0.9379039406776428	10
-223	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-224	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-225	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 time	</s>	11.58255672454834	0.5422558784484863	9.327378393209074e-06	0.9379039406776428	10
-226	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-227	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 get	</s>	12.073097229003906	0.5422558784484863	5.711110588890733e-06	0.9379039406776428	10
-228	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 up	</s>	10.955738067626953	0.5422558784484863	1.745755798765458e-05	0.9379039406776428	10
-229	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-230	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 can	</s>	13.649560928344727	0.5422558784484863	1.1805137773990282e-06	0.9379039406776428	10
-231	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 hear	</s>	14.263432502746582	0.5422558784484863	6.389546456375683e-07	0.9379039406776428	10
-232	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-233	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-234	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 miles	</s>	14.548140525817871	0.5422558784484863	4.806433366866258e-07	0.9379039406776428	10
-235	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-236	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 turned	</s>	12.906332015991211	0.5422558784484863	2.482282752680476e-06	0.9379039406776428	10
-237	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-238	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-239	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 toward	</s>	13.878785133361816	0.5422558784484863	9.386858437210321e-07	0.9379039406776428	10
-240	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-241	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 couple	</s>	12.339677810668945	0.5422558784484863	4.374678155727452e-06	0.9379039406776428	10
-242	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-243	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 face	</s>	14.733619689941406	0.5422558784484863	3.9927337525114126e-07	0.9379039406776428	10
-244	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-245	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-246	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-247	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 where	</s>	11.334001541137695	0.5422558784484863	1.1959299627051223e-05	0.9379039406776428	10
-248	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 several	</s>	13.847719192504883	0.5422558784484863	9.683046755526448e-07	0.9379039406776428	10
-249	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 strips	</s>	17.896404266357422	0.5422558784484863	1.689236306390285e-08	0.9379039406776428	10
-250	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-251	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bacon	</s>	17.464902877807617	0.5422558784484863	2.6006931719280146e-08	0.9379039406776428	10
-252	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 were	</s>	12.041485786437988	0.5422558784484863	5.894530204386683e-06	0.9379039406776428	10
-253	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 already	</s>	14.00015926361084	0.5422558784484863	8.313964485751058e-07	0.9379039406776428	10
-254	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 s	</s>	12.742696762084961	0.5422558784484863	2.923594820458675e-06	0.9379039406776428	10
-255	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	izz	</s>	14.590301513671875	0.5422558784484863	4.608001518136007e-07	0.9379039406776428	10
-256	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ling	</s>	13.189352989196777	0.5422558784484863	1.8704101876210188e-06	0.9379039406776428	10
-257	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 mon	</s>	16.066110610961914	0.5422558784484863	1.0533601368933887e-07	0.9379039406776428	10
-258	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	a	</s>	11.582916259765625	0.5422558784484863	9.324025086243637e-06	0.9379039406776428	10
-259	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 watched	</s>	15.248165130615234	0.5422558784484863	2.386745450166927e-07	0.9379039406776428	10
-260	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-261	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 horror	</s>	16.86553382873535	0.5422558784484863	4.7357829657812545e-08	0.9379039406776428	10
-262	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-263	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-264	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-265	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-266	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-267	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 massive	</s>	16.14609146118164	0.5422558784484863	9.723925131766009e-08	0.9379039406776428	10
-268	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 scoop	</s>	16.903291702270508	0.5422558784484863	4.5603034237728934e-08	0.9379039406776428	10
-269	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-270	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 l	</s>	13.10558795928955	0.5422558784484863	2.03383410735114e-06	0.9379039406776428	10
-271	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ard	</s>	12.996439933776855	0.5422558784484863	2.26839119932265e-06	0.9379039406776428	10
-272	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 onto	</s>	14.169696807861328	0.5422558784484863	7.017443408585677e-07	0.9379039406776428	10
-273	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-274	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-275	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-276	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-277	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pushed	</s>	15.051597595214844	0.5422558784484863	2.905188125623681e-07	0.9379039406776428	10
-278	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-279	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 around	</s>	13.890534400939941	0.5422558784484863	9.277214303438086e-07	0.9379039406776428	10
-280	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-281	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 coat	</s>	16.31964874267578	0.5422558784484863	8.174603038924033e-08	0.9379039406776428	10
-282	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-283	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 surface	</s>	16.056236267089844	0.5422558784484863	1.063812860024882e-07	0.9379039406776428	10
-284	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 excuse	</s>	16.77668571472168	0.5422558784484863	5.175806450097298e-08	0.9379039406776428	10
-285	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 me	</s>	10.40571403503418	0.5422558784484863	3.0259088816819713e-05	0.9379039406776428	10
-286	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 said	</s>	10.154407501220703	0.5422558784484863	3.890423977281898e-05	0.9379039406776428	10
-287	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 v	</s>	13.461405754089355	0.5422558784484863	1.4249046671466203e-06	0.9379039406776428	10
-288	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	in	</s>	10.028366088867188	0.5422558784484863	4.413021088112146e-05	0.9379039406776428	10
-289	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ny	</s>	14.856082916259766	0.5422558784484863	3.532524885940802e-07	0.9379039406776428	10
-290	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-291	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-292	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-293	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 turned	</s>	12.906332015991211	0.5422558784484863	2.482282752680476e-06	0.9379039406776428	10
-294	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-295	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-296	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 suspicious	</s>	18.21281623840332	0.5422558784484863	1.231046553584747e-08	0.9379039406776428	10
-297	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ly	</s>	11.044754028320312	0.5422558784484863	1.597071241121739e-05	0.9379039406776428	10
-298	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 have	</s>	11.152629852294922	0.5422558784484863	1.4337533684738446e-05	0.9379039406776428	10
-299	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-300	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 guys	</s>	14.027117729187012	0.5422558784484863	8.092826533356856e-07	0.9379039406776428	10
-301	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 around	</s>	13.890534400939941	0.5422558784484863	9.277214303438086e-07	0.9379039406776428	10
-302	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 here	</s>	11.974620819091797	0.5422558784484863	6.302143901848467e-06	0.9379039406776428	10
-303	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 not	</s>	10.045196533203125	0.5422558784484863	4.3393694795668125e-05	0.9379039406776428	10
-304	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 heard	</s>	13.963188171386719	0.5422558784484863	8.62709384819027e-07	0.9379039406776428	10
-305	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 about	</s>	11.886305809020996	0.5422558784484863	6.8840345193166286e-06	0.9379039406776428	10
-306	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-307	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ongoing	</s>	17.03642463684082	0.5422558784484863	3.991856090124202e-08	0.9379039406776428	10
-308	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cholesterol	</s>	18.58028221130371	0.5422558784484863	8.524835948264808e-09	0.9379039406776428	10
-309	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 problem	</s>	15.707794189453125	0.5422558784484863	1.5072723158482404e-07	0.9379039406776428	10
-310	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-311	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-312	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 country	</s>	14.145617485046387	0.5422558784484863	7.188469908214756e-07	0.9379039406776428	10
-313	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-314	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-315	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 looked	</s>	13.99695110321045	0.5422558784484863	8.340678618878883e-07	0.9379039406776428	10
-316	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-317	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-318	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 forth	</s>	13.621801376342773	0.5422558784484863	1.213743416883517e-06	0.9379039406776428	10
-319	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-320	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 both	</s>	12.5267915725708	0.5422558784484863	3.628136028055451e-06	0.9379039406776428	10
-321	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-322	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 them	</s>	10.198320388793945	0.5422558784484863	3.7232806789688766e-05	0.9379039406776428	10
-323	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-324	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-325	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-326	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 lips	</s>	17.466888427734375	0.5422558784484863	2.5955344540307124e-08	0.9379039406776428	10
-327	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-328	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 then	</s>	10.366637229919434	0.5422558784484863	3.146492599626072e-05	0.9379039406776428	10
-329	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 turned	</s>	12.906332015991211	0.5422558784484863	2.482282752680476e-06	0.9379039406776428	10
-330	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-331	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-332	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-333	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-334	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-335	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 shaking	</s>	18.19260597229004	0.5422558784484863	1.2561794271448434e-08	0.9379039406776428	10
-336	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-337	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 head	</s>	13.69675350189209	0.5422558784484863	1.1260964356551995e-06	0.9379039406776428	10
-338	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-339	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 disbelief	</s>	17.49320411682129	0.5422558784484863	2.5281220672468407e-08	0.9379039406776428	10
-340	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 mon	</s>	16.066110610961914	0.5422558784484863	1.0533601368933887e-07	0.9379039406776428	10
-341	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	a	</s>	11.582916259765625	0.5422558784484863	9.324025086243637e-06	0.9379039406776428	10
-342	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 picked	</s>	15.669538497924805	0.5422558784484863	1.566051253121259e-07	0.9379039406776428	10
-343	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-344	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-345	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 nails	</s>	19.318347930908203	0.5422558784484863	4.075193071884087e-09	0.9379039406776428	10
-346	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-347	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 then	</s>	10.366637229919434	0.5422558784484863	3.146492599626072e-05	0.9379039406776428	10
-348	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 looked	</s>	13.99695110321045	0.5422558784484863	8.340678618878883e-07	0.9379039406776428	10
-349	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 over	</s>	11.304963111877441	0.5422558784484863	1.2311669706832618e-05	0.9379039406776428	10
-350	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-351	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 v	</s>	13.461405754089355	0.5422558784484863	1.4249046671466203e-06	0.9379039406776428	10
-352	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	in	</s>	10.028366088867188	0.5422558784484863	4.413021088112146e-05	0.9379039406776428	10
-353	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ny	</s>	14.856082916259766	0.5422558784484863	3.532524885940802e-07	0.9379039406776428	10
-354	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-355	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	've	</s>	12.171427726745605	0.5422558784484863	5.176260856387671e-06	0.9379039406776428	10
-356	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 got	</s>	12.806964874267578	0.5422558784484863	2.7416112970968243e-06	0.9379039406776428	10
-357	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 one	</s>	10.9601411819458	0.5422558784484863	1.7380858480464667e-05	0.9379039406776428	10
-358	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 huge	</s>	16.09130096435547	0.5422558784484863	1.027157026101122e-07	0.9379039406776428	10
-359	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 responsibility	</s>	16.236331939697266	0.5422558784484863	8.884862268132565e-08	0.9379039406776428	10
-360	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 taking	</s>	14.707653045654297	0.5422558784484863	4.0977690218824137e-07	0.9379039406776428	10
-361	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-362	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-363	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 murder	</s>	16.48380470275879	0.5422558784484863	6.937047203336988e-08	0.9379039406776428	10
-364	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 case	</s>	14.452506065368652	0.5422558784484863	5.288791271595983e-07	0.9379039406776428	10
-365	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-366	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 screw	</s>	16.148649215698242	0.5422558784484863	9.699086689352043e-08	0.9379039406776428	10
-367	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 up	</s>	10.955738067626953	0.5422558784484863	1.745755798765458e-05	0.9379039406776428	10
-368	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-369	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 those	</s>	12.600913047790527	0.5422558784484863	3.3689384508761577e-06	0.9379039406776428	10
-370	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 boys	</s>	14.147777557373047	0.5422558784484863	7.172958476076019e-07	0.9379039406776428	10
-371	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 get	</s>	12.073097229003906	0.5422558784484863	5.711110588890733e-06	0.9379039406776428	10
-372	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fried	</s>	17.86612319946289	0.5422558784484863	1.7411705854897264e-08	0.9379039406776428	10
-373	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 v	</s>	13.461405754089355	0.5422558784484863	1.4249046671466203e-06	0.9379039406776428	10
-374	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	in	</s>	10.028366088867188	0.5422558784484863	4.413021088112146e-05	0.9379039406776428	10
-375	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ny	</s>	14.856082916259766	0.5422558784484863	3.532524885940802e-07	0.9379039406776428	10
-376	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 turned	</s>	12.906332015991211	0.5422558784484863	2.482282752680476e-06	0.9379039406776428	10
-377	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-378	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-379	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 annoyed	</s>	18.20089340209961	0.5422558784484863	1.2458119869052098e-08	0.9379039406776428	10
-380	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-381	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 know	</s>	13.24267292022705	0.5422558784484863	1.7732921833157889e-06	0.9379039406776428	10
-382	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 so	</s>	11.77468204498291	0.5422558784484863	7.696984539506957e-06	0.9379039406776428	10
-383	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-384	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 think	</s>	11.854228973388672	0.5422558784484863	7.10843232809566e-06	0.9379039406776428	10
-385	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-386	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 know	</s>	13.24267292022705	0.5422558784484863	1.7732921833157889e-06	0.9379039406776428	10
-387	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-388	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-389	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	're	</s>	11.711982727050781	0.5422558784484863	8.195031114155427e-06	0.9379039406776428	10
-390	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 doing	</s>	15.081550598144531	0.5422558784484863	2.819459439251659e-07	0.9379039406776428	10
-391	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 yeah	</s>	14.955608367919922	0.5422558784484863	3.197878015726019e-07	0.9379039406776428	10
-392	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-393	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 think	</s>	11.854228973388672	0.5422558784484863	7.10843232809566e-06	0.9379039406776428	10
-394	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-395	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 know	</s>	13.24267292022705	0.5422558784484863	1.7732921833157889e-06	0.9379039406776428	10
-396	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-397	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-398	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'm	</s>	12.84322738647461	0.5422558784484863	2.6439745397510706e-06	0.9379039406776428	10
-399	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 doing	</s>	15.081550598144531	0.5422558784484863	2.819459439251659e-07	0.9379039406776428	10
-400	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 she	</s>	11.707077026367188	0.5422558784484863	8.235331733885687e-06	0.9379039406776428	10
-401	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 held	</s>	14.156402587890625	0.5422558784484863	7.11135783149075e-07	0.9379039406776428	10
-402	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 up	</s>	10.955738067626953	0.5422558784484863	1.745755798765458e-05	0.9379039406776428	10
-403	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-404	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 hands	</s>	14.638772964477539	0.5422558784484863	4.3899717638851143e-07	0.9379039406776428	10
-405	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 because	</s>	12.126173973083496	0.5422558784484863	5.415887244453188e-06	0.9379039406776428	10
-406	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-407	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 didn	</s>	14.328253746032715	0.5422558784484863	5.988506472931476e-07	0.9379039406776428	10
-408	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-409	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 look	</s>	13.43813705444336	0.5422558784484863	1.458449219171598e-06	0.9379039406776428	10
-410	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 like	</s>	11.257299423217773	0.5422558784484863	1.2912699276057538e-05	0.9379039406776428	10
-411	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-412	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 knew	</s>	15.000311851501465	0.5422558784484863	3.058069921735296e-07	0.9379039406776428	10
-413	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-414	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-415	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 were	</s>	12.041485786437988	0.5422558784484863	5.894530204386683e-06	0.9379039406776428	10
-416	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 doing	</s>	15.081550598144531	0.5422558784484863	2.819459439251659e-07	0.9379039406776428	10
-417	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 today	</s>	14.396597862243652	0.5422558784484863	5.592900151896174e-07	0.9379039406776428	10
-418	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-419	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-420	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 courtroom	</s>	20.909393310546875	0.5422558784484863	8.3016787888468e-10	0.9379039406776428	10
-421	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 why	</s>	12.7289400100708	0.5422558784484863	2.9640921184181934e-06	0.9379039406776428	10
-422	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-423	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-424	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 v	</s>	13.461405754089355	0.5422558784484863	1.4249046671466203e-06	0.9379039406776428	10
-425	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	in	</s>	10.028366088867188	0.5422558784484863	4.413021088112146e-05	0.9379039406776428	10
-426	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ny	</s>	14.856082916259766	0.5422558784484863	3.532524885940802e-07	0.9379039406776428	10
-427	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 shrugged	</s>	17.49590301513672	0.5422558784484863	2.5213081400465853e-08	0.9379039406776428	10
-428	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 well	</s>	11.603858947753906	0.5422558784484863	9.130785656452645e-06	0.9379039406776428	10
-429	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-430	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-431	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-432	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 lot	</s>	13.673487663269043	0.5422558784484863	1.1526033176778583e-06	0.9379039406776428	10
-433	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-434	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 procedure	</s>	16.634750366210938	0.5422558784484863	5.965127769513856e-08	0.9379039406776428	10
-435	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-436	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 all	</s>	11.372123718261719	0.5422558784484863	1.1511966476973612e-05	0.9379039406776428	10
-437	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-438	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-439	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 my	</s>	12.264917373657227	0.5422558784484863	4.71426665171748e-06	0.9379039406776428	10
-440	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 first	</s>	11.019835472106934	0.5422558784484863	1.637368040974252e-05	0.9379039406776428	10
-441	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 trial	</s>	16.864070892333984	0.5422558784484863	4.7427164417968015e-08	0.9379039406776428	10
-442	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 case	</s>	14.452506065368652	0.5422558784484863	5.288791271595983e-07	0.9379039406776428	10
-443	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-444	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'll	</s>	14.424439430236816	0.5422558784484863	5.439332539936004e-07	0.9379039406776428	10
-445	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 learn	</s>	15.01302433013916	0.5422558784484863	3.019440271145868e-07	0.9379039406776428	10
-446	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-447	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-448	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 go	</s>	11.759358406066895	0.5422558784484863	7.815839126124047e-06	0.9379039406776428	10
-449	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-450	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-451	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 placed	</s>	14.325461387634277	0.5422558784484863	6.005251975693682e-07	0.9379039406776428	10
-452	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 two	</s>	10.599908828735352	0.5422558784484863	2.4918286726460792e-05	0.9379039406776428	10
-453	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 plates	</s>	17.88283348083496	0.5422558784484863	1.712317043711664e-08	0.9379039406776428	10
-454	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-455	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 front	</s>	14.84919261932373	0.5422558784484863	3.5569490819398197e-07	0.9379039406776428	10
-456	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-457	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 them	</s>	10.198320388793945	0.5422558784484863	3.7232806789688766e-05	0.9379039406776428	10
-458	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 covered	</s>	16.985998153686523	0.5422558784484863	4.198312808512128e-08	0.9379039406776428	10
-459	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-460	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bacon	</s>	17.464902877807617	0.5422558784484863	2.6006931719280146e-08	0.9379039406776428	10
-461	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 eggs	</s>	16.785640716552734	0.5422558784484863	5.129664160108405e-08	0.9379039406776428	10
-462	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-463	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-464	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pile	</s>	15.641026496887207	0.5422558784484863	1.611345226137928e-07	0.9379039406776428	10
-465	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-466	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 some	</s>	12.400293350219727	0.5422558784484863	4.117381649848539e-06	0.9379039406776428	10
-467	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 kind	</s>	11.72648811340332	0.5422558784484863	8.077016900642775e-06	0.9379039406776428	10
-468	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-469	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 white	</s>	14.943354606628418	0.5422558784484863	3.2373048952649697e-07	0.9379039406776428	10
-470	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 por	</s>	17.197023391723633	0.5422558784484863	3.399599179942925e-08	0.9379039406776428	10
-471	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ridge	</s>	14.960997581481934	0.5422558784484863	3.180689986947982e-07	0.9379039406776428	10
-472	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 v	</s>	13.461405754089355	0.5422558784484863	1.4249046671466203e-06	0.9379039406776428	10
-473	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	in	</s>	10.028366088867188	0.5422558784484863	4.413021088112146e-05	0.9379039406776428	10
-474	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ny	</s>	14.856082916259766	0.5422558784484863	3.532524885940802e-07	0.9379039406776428	10
-475	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 poked	</s>	17.55063247680664	0.5422558784484863	2.3870262211289628e-08	0.9379039406776428	10
-476	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-477	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-478	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-479	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-480	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fork	</s>	16.203920364379883	0.5422558784484863	9.177552584560544e-08	0.9379039406776428	10
-481	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-482	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-483	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-484	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 over	</s>	11.304963111877441	0.5422558784484863	1.2311669706832618e-05	0.9379039406776428	10
-485	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 here	</s>	11.974620819091797	0.5422558784484863	6.302143901848467e-06	0.9379039406776428	10
-486	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-487	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-488	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 looked	</s>	13.99695110321045	0.5422558784484863	8.340678618878883e-07	0.9379039406776428	10
-489	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-490	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-491	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-492	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 disbelief	</s>	17.49320411682129	0.5422558784484863	2.5281220672468407e-08	0.9379039406776428	10
-493	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-494	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	've	</s>	12.171427726745605	0.5422558784484863	5.176260856387671e-06	0.9379039406776428	10
-495	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 never	</s>	12.5134916305542	0.5422558784484863	3.676712594824494e-06	0.9379039406776428	10
-496	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 heard	</s>	13.963188171386719	0.5422558784484863	8.62709384819027e-07	0.9379039406776428	10
-497	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-498	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 grit	</s>	17.671932220458984	0.5422558784484863	2.1143524264743974e-08	0.9379039406776428	10
-499	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	s	</s>	9.413790702819824	0.5422558784484863	8.15910825622268e-05	0.9379039406776428	10
-500	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sure	</s>	13.567389488220215	0.5422558784484863	1.2816152548111859e-06	0.9379039406776428	10
-501	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sure	</s>	13.567389488220215	0.5422558784484863	1.2816152548111859e-06	0.9379039406776428	10
-502	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-503	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	've	</s>	12.171427726745605	0.5422558784484863	5.176260856387671e-06	0.9379039406776428	10
-504	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 heard	</s>	13.963188171386719	0.5422558784484863	8.62709384819027e-07	0.9379039406776428	10
-505	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-506	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 grit	</s>	17.671932220458984	0.5422558784484863	2.1143524264743974e-08	0.9379039406776428	10
-507	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	s	</s>	9.413790702819824	0.5422558784484863	8.15910825622268e-05	0.9379039406776428	10
-508	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-509	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	've	</s>	12.171427726745605	0.5422558784484863	5.176260856387671e-06	0.9379039406776428	10
-510	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 just	</s>	12.5930814743042	0.5422558784484863	3.395425892449566e-06	0.9379039406776428	10
-511	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 never	</s>	12.5134916305542	0.5422558784484863	3.676712594824494e-06	0.9379039406776428	10
-512	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 actually	</s>	14.509037017822266	0.5422558784484863	4.998104259357206e-07	0.9379039406776428	10
-513	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 seen	</s>	13.459064483642578	0.5422558784484863	1.4282447864388814e-06	0.9379039406776428	10
-514	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-515	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 grit	</s>	17.671932220458984	0.5422558784484863	2.1143524264743974e-08	0.9379039406776428	10
-516	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 before	</s>	10.924022674560547	0.5422558784484863	1.8020104107563384e-05	0.9379039406776428	10
-517	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 go	</s>	11.759358406066895	0.5422558784484863	7.815839126124047e-06	0.9379039406776428	10
-518	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ahead	</s>	15.090887069702148	0.5422558784484863	2.7932580337619584e-07	0.9379039406776428	10
-519	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 honey	</s>	15.494406700134277	0.5422558784484863	1.8657985378922604e-07	0.9379039406776428	10
-520	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 aren	</s>	14.53581428527832	0.5422558784484863	4.866045628659776e-07	0.9379039406776428	10
-521	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-522	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-523	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 going	</s>	13.97113037109375	0.5422558784484863	8.558847071071796e-07	0.9379039406776428	10
-524	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-525	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 try	</s>	15.312929153442383	0.5422558784484863	2.2370693386619678e-07	0.9379039406776428	10
-526	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-527	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-528	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 first	</s>	11.019835472106934	0.5422558784484863	1.637368040974252e-05	0.9379039406776428	10
-529	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 she	</s>	11.707077026367188	0.5422558784484863	8.235331733885687e-06	0.9379039406776428	10
-530	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 said	</s>	10.154407501220703	0.5422558784484863	3.890423977281898e-05	0.9379039406776428	10
-531	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-532	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-533	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 smile	</s>	15.703845977783203	0.5422558784484863	1.513235048378192e-07	0.9379039406776428	10
-534	vinny_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	</s>	</s>	0.06410776078701019	0.5422558784484863	0.9379039406776428	0.9379039406776428	10
+1	vinny_align	aligned	roberta-base	vinny and mona stumbled bleary eyed into	 a	</s>	6.219074726104736	0.39512890577316284	0.0019910866394639015	0.9602466225624084	10
+2	vinny_align	aligned	roberta-base	ny and mona stumbled bleary eyed into a	 ding	</s>	18.15962028503418	0.03389493376016617	1.2983064401339561e-08	0.9974076151847839	10
+3	vinny_align	aligned	roberta-base	 and mona stumbled bleary eyed into a ding	y	</s>	16.287940979003906	0.00034002240863628685	8.437950071993328e-08	0.9999805688858032	10
+4	vinny_align	aligned	roberta-base	 mona stumbled bleary eyed into a dingy	 looking	</s>	21.542585372924805	0.04589901119470596	4.407318399124449e-10	0.9928511381149292	10
+5	vinny_align	aligned	roberta-base	a stumbled bleary eyed into a dingy looking	 diner	</s>	13.0030517578125	0.12411660701036453	2.253441607535933e-06	0.9896360039710999	10
+6	vinny_align	aligned	roberta-base	 stumbled bleary eyed into a dingy looking diner	 the	</s>	15.162075996398926	0.01763729564845562	2.6013219667220255e-07	0.9975616931915283	10
+7	vinny_align	aligned	roberta-base	 bleary eyed into a dingy looking diner the	 place	</s>	19.58548355102539	0.003645602846518159	3.1198403860344115e-09	0.9997668862342834	10
+8	vinny_align	aligned	roberta-base	ary eyed into a dingy looking diner the place	 was	</s>	10.516797065734863	0.003485487075522542	2.707778003241401e-05	0.9997673630714417	10
+9	vinny_align	aligned	roberta-base	 eyed into a dingy looking diner the place was	 deserted	</s>	21.02483367919922	0.002865813672542572	7.3965811253629e-10	0.9998194575309753	10
+10	vinny_align	aligned	roberta-base	 into a dingy looking diner the place was deserted	 save	</s>	19.060426712036133	0.0006016187835484743	5.2742672451699946e-09	0.9999643564224243	10
+11	vinny_align	aligned	roberta-base	 a dingy looking diner the place was deserted save	 for	</s>	11.702811241149902	0.031505733728408813	8.270537364296615e-06	0.995850682258606	10
+12	vinny_align	aligned	roberta-base	 dingy looking diner the place was deserted save for	 a	</s>	5.1442461013793945	0.2949991524219513	0.0058328695595264435	0.9687618613243103	10
+13	vinny_align	aligned	roberta-base	y looking diner the place was deserted save for a	 few	</s>	7.363388538360596	0.17496433854103088	0.0006340463878586888	0.9852568507194519	10
+14	vinny_align	aligned	roberta-base	 looking diner the place was deserted save for a few	 flies	</s>	28.682615280151367	0.024369580671191216	3.4938062642639323e-13	0.9966210126876831	10
+15	vinny_align	aligned	roberta-base	 diner the place was deserted save for a few flies	 laz	</s>	26.476701736450195	0.05067403241991997	3.1718631627458693e-12	0.9913381338119507	10
+16	vinny_align	aligned	roberta-base	 the place was deserted save for a few flies laz	ily	</s>	16.117170333862305	0.00228804349899292	1.0009261330878871e-07	0.999843955039978	10
+17	vinny_align	aligned	roberta-base	 place was deserted save for a few flies lazily	 circling	</s>	25.473833084106445	0.018496543169021606	8.64678727924284e-12	0.9976089000701904	10
+18	vinny_align	aligned	roberta-base	 was deserted save for a few flies lazily circling	 around	</s>	16.24699592590332	0.002597986487671733	8.790610195319459e-08	0.9998162388801575	10
+19	vinny_align	aligned	roberta-base	 deserted save for a few flies lazily circling around	 the	</s>	12.5555419921875	0.001192564144730568	3.5253099213150563e-06	0.9999206066131592	10
+20	vinny_align	aligned	roberta-base	 save for a few flies lazily circling around the	 lamps	</s>	21.45439910888672	0.002061492530629039	4.813628939892567e-10	0.9998774528503418	10
+21	vinny_align	aligned	roberta-base	 for a few flies lazily circling around the lamps	 the	</s>	22.2308349609375	4.29707733928808e-06	2.2144761024911475e-10	0.9999998807907104	10
+22	vinny_align	aligned	roberta-base	 a few flies lazily circling around the lamps the	 host	</s>	21.4886531829834	0.00021713785827159882	4.6515372109645625e-10	0.9999885559082031	10
+23	vinny_align	aligned	roberta-base	 few flies lazily circling around the lamps the host	ess	</s>	15.774057388305664	0.0037641064263880253	1.4106332457686221e-07	0.999760091304779	10
+24	vinny_align	aligned	roberta-base	 flies lazily circling around the lamps the hostess	 who	</s>	20.088436126708984	0.007364761549979448	1.8867005735501152e-09	0.9991229176521301	10
+25	vinny_align	aligned	roberta-base	 lazily circling around the lamps the hostess who	 was	</s>	6.675203800201416	0.867729663848877	0.0012618154287338257	0.9064716100692749	10
+26	vinny_align	aligned	roberta-base	ily circling around the lamps the hostess who was	 loudly	</s>	22.096332550048828	0.0022450999822467566	2.5332883013540197e-10	0.999862551689148	10
+27	vinny_align	aligned	roberta-base	 circling around the lamps the hostess who was loudly	 chewing	</s>	16.928592681884766	0.005183839239180088	4.446371093536072e-08	0.9996703863143921	10
+28	vinny_align	aligned	roberta-base	 around the lamps the hostess who was loudly chewing	 a	</s>	15.388407707214355	0.0008031278848648071	2.0744325013311027e-07	0.9999510049819946	10
+29	vinny_align	aligned	roberta-base	 the lamps the hostess who was loudly chewing a	 of	</s>	18.715890884399414	0.00078327622031793	7.443747396251865e-09	0.9999555349349976	10
+30	vinny_align	aligned	roberta-base	 lamps the hostess who was loudly chewing a of	 gum	</s>	23.80391502380371	0.00020369849517010152	4.5929461622851164e-11	0.9999892711639404	10
+31	vinny_align	aligned	roberta-base	 the hostess who was loudly chewing a of gum	 pointed	</s>	18.57583999633789	0.03747778385877609	8.562793141209113e-09	0.9947748184204102	10
+32	vinny_align	aligned	roberta-base	 hostess who was loudly chewing a of gum pointed	 toward	</s>	17.3724422454834	0.05492440238595009	2.8526201845124888e-08	0.9924331903457642	10
+33	vinny_align	aligned	roberta-base	ess who was loudly chewing a of gum pointed toward	 the	</s>	9.082597732543945	0.0074696955271065235	0.00011362603981979191	0.9994316697120667	10
+34	vinny_align	aligned	roberta-base	 who was loudly chewing a of gum pointed toward the	 counter	</s>	16.43965721130371	0.0077706798911094666	7.250166333960806e-08	0.9994822144508362	10
+35	vinny_align	aligned	roberta-base	 was loudly chewing a of gum pointed toward the counter	 there	</s>	14.226158142089844	0.051672715693712234	6.632205895584775e-07	0.992380678653717	10
+36	vinny_align	aligned	roberta-base	 loudly chewing a of gum pointed toward the counter there	's	</s>	9.107929229736328	0.2557937502861023	0.0001107839125324972	0.9726595282554626	10
+37	vinny_align	aligned	roberta-base	 chewing a of gum pointed toward the counter there's	 seats	</s>	20.836986541748047	0.004688602406531572	8.925068462062313e-10	0.9996125102043152	10
+38	vinny_align	aligned	roberta-base	 a of gum pointed toward the counter there's seats	 at	</s>	11.820530891418457	0.002878936706110835	7.3520564001228195e-06	0.9998049139976501	10
+39	vinny_align	aligned	roberta-base	 of gum pointed toward the counter there's seats at	 the	</s>	8.757563591003418	0.02284826524555683	0.0001572672772454098	0.9982360601425171	10
+40	vinny_align	aligned	roberta-base	 gum pointed toward the counter there's seats at the	 counter	</s>	18.227632522583008	0.0012505847262218595	1.212940858863476e-08	0.9999271631240845	10
+41	vinny_align	aligned	roberta-base	 pointed toward the counter there's seats at the counter	 if	</s>	14.843064308166504	0.049788977950811386	3.578812481919158e-07	0.9929882884025574	10
+42	vinny_align	aligned	roberta-base	 toward the counter there's seats at the counter if	 you	</s>	6.571506977081299	0.043495062738657	0.0013996863272041082	0.9959477782249451	10
+43	vinny_align	aligned	roberta-base	 the counter there's seats at the counter if you	 want	</s>	16.051006317138672	0.0005444647977128625	1.0693903362835044e-07	0.9999650716781616	10
+44	vinny_align	aligned	roberta-base	 counter there's seats at the counter if you want	 breakfast	</s>	20.887420654296875	0.0002939816622529179	8.486102376359383e-10	0.9999823570251465	10
+45	vinny_align	aligned	roberta-base	 there's seats at the counter if you want breakfast	 thanks	</s>	19.4575138092041	0.026839708909392357	3.5457570213281997e-09	0.9963271021842957	10
+46	vinny_align	aligned	roberta-base	's seats at the counter if you want breakfast thanks	 said	</s>	16.05120849609375	0.015111736953258514	1.0691751839431163e-07	0.998090922832489	10
+47	vinny_align	aligned	roberta-base	 seats at the counter if you want breakfast thanks said	 v	</s>	22.00418472290039	0.0241836067289114	2.7778201960870774e-10	0.9967668056488037	10
+48	vinny_align	aligned	roberta-base	 at the counter if you want breakfast thanks said v	in	</s>	14.479995727539062	0.0575404055416584	5.145383852322993e-07	0.9907958507537842	10
+49	vinny_align	aligned	roberta-base	 the counter if you want breakfast thanks said vin	ny	</s>	18.27359390258789	0.06914310157299042	1.1584534220787646e-08	0.9879001379013062	10
+50	vinny_align	aligned	roberta-base	 counter if you want breakfast thanks said vinny	 and	</s>	13.685310363769531	0.02651081420481205	1.1390560530344374e-06	0.9963461756706238	10
+51	vinny_align	aligned	roberta-base	 if you want breakfast thanks said vinny and	 they	</s>	16.978633880615234	0.013850565999746323	4.229340078154564e-08	0.9983810186386108	10
+52	vinny_align	aligned	roberta-base	 you want breakfast thanks said vinny and they	 took	</s>	18.139915466308594	0.020527111366391182	1.3241435503630328e-08	0.9973965883255005	10
+53	vinny_align	aligned	roberta-base	 want breakfast thanks said vinny and they took	 their	</s>	13.49848747253418	0.05541637912392616	1.3730340242545935e-06	0.9918449521064758	10
+54	vinny_align	aligned	roberta-base	 breakfast thanks said vinny and they took their	 seats	</s>	19.36404037475586	0.0005417800857685506	3.893176447888891e-09	0.999969482421875	10
+55	vinny_align	aligned	roberta-base	 thanks said vinny and they took their seats	 with	</s>	14.260930061340332	0.025662479922175407	6.405554131561075e-07	0.996677041053772	10
+56	vinny_align	aligned	roberta-base	 said vinny and they took their seats with	 a	</s>	14.544510841369629	0.026397358626127243	4.823912149731768e-07	0.9967432618141174	10
+57	vinny_align	aligned	roberta-base	 vinny and they took their seats with a	 yawn	</s>	17.339860916137695	0.019580380991101265	2.9470950124732553e-08	0.9986258745193481	10
+58	vinny_align	aligned	roberta-base	inny and they took their seats with a yawn	 a	</s>	16.95043182373047	0.0010382396867498755	4.350317084345079e-08	0.9999350309371948	10
+59	vinny_align	aligned	roberta-base	ny and they took their seats with a yawn a	 cook	</s>	23.658798217773438	0.0003330273611936718	5.3102442582053655e-11	0.9999790191650391	10
+60	vinny_align	aligned	roberta-base	 and they took their seats with a yawn a cook	 wearing	</s>	19.32986068725586	0.1311652958393097	4.028543276746177e-09	0.9752858281135559	10
+61	vinny_align	aligned	roberta-base	 they took their seats with a yawn a cook wearing	 a	</s>	10.656519889831543	0.12481554597616196	2.354682146687992e-05	0.9790352582931519	10
+62	vinny_align	aligned	roberta-base	 took their seats with a yawn a cook wearing a	 white	</s>	13.758149147033691	0.014546009711921215	1.0590381407382665e-06	0.9989845156669617	10
+63	vinny_align	aligned	roberta-base	 their seats with a yawn a cook wearing a white	 a	</s>	15.126029014587402	0.003948862664401531	2.696802141599619e-07	0.9997454285621643	10
+64	vinny_align	aligned	roberta-base	 seats with a yawn a cook wearing a white a	pron	</s>	15.292496681213379	0.0049407463520765305	2.2832485058188468e-07	0.9996827840805054	10
+65	vinny_align	aligned	roberta-base	 with a yawn a cook wearing a white apron	 emerged	</s>	20.36244010925293	0.07388906180858612	1.434512508780017e-09	0.9873540997505188	10
+66	vinny_align	aligned	roberta-base	 a yawn a cook wearing a white apron emerged	 from	</s>	18.024404525756836	0.0003130100085400045	1.4862801656079228e-08	0.999981164932251	10
+67	vinny_align	aligned	roberta-base	 yawn a cook wearing a white apron emerged from	 the	</s>	6.189579010009766	0.04573405906558037	0.002050689421594143	0.995227575302124	10
+68	vinny_align	aligned	roberta-base	 a cook wearing a white apron emerged from the	 back	</s>	16.005809783935547	0.01475080382078886	1.1188328841171824e-07	0.9989840388298035	10
+69	vinny_align	aligned	roberta-base	 cook wearing a white apron emerged from the back	 room	</s>	19.78792381286621	0.05561701953411102	2.548084188092048e-09	0.9905499815940857	10
+70	vinny_align	aligned	roberta-base	 wearing a white apron emerged from the back room	 and	</s>	11.976888656616211	0.000965584593359381	6.287866199272685e-06	0.9999359846115112	10
+71	vinny_align	aligned	roberta-base	 a white apron emerged from the back room and	 slapped	</s>	19.744077682495117	0.0013269681949168444	2.662294829036682e-09	0.9999145269393921	10
+72	vinny_align	aligned	roberta-base	 white apron emerged from the back room and slapped	 a	</s>	9.905702590942383	0.022191744297742844	4.988938962924294e-05	0.9981861710548401	10
+73	vinny_align	aligned	roberta-base	 apron emerged from the back room and slapped a	 single	</s>	15.35472297668457	0.020679082721471786	2.1455007015447336e-07	0.9985736608505249	10
+74	vinny_align	aligned	roberta-base	pron emerged from the back room and slapped a single	 menu	</s>	23.339244842529297	0.0009272741735912859	7.309611943506766e-11	0.9999456405639648	10
+75	vinny_align	aligned	roberta-base	 emerged from the back room and slapped a single menu	 down	</s>	17.28343391418457	0.016840875148773193	3.118174163319054e-08	0.9979602098464966	10
+76	vinny_align	aligned	roberta-base	 from the back room and slapped a single menu down	 in	</s>	12.042896270751953	0.08628810942173004	5.88622333452804e-06	0.9839786887168884	10
+77	vinny_align	aligned	roberta-base	 the back room and slapped a single menu down in	 front	</s>	13.880850791931152	0.1255398690700531	9.367488473799312e-07	0.9857564568519592	10
+78	vinny_align	aligned	roberta-base	 back room and slapped a single menu down in front	 of	</s>	10.802196502685547	0.0660456120967865	2.0354747903184034e-05	0.9888928532600403	10
+79	vinny_align	aligned	roberta-base	 room and slapped a single menu down in front of	 them	</s>	10.616488456726074	0.005519028753042221	2.4508552087354474e-05	0.9996213912963867	10
+80	vinny_align	aligned	roberta-base	 and slapped a single menu down in front of them	 before	</s>	16.475570678710938	0.05526784062385559	6.994405765681222e-08	0.9907283782958984	10
+81	vinny_align	aligned	roberta-base	 slapped a single menu down in front of them before	 silently	</s>	22.997404098510742	0.04546378552913666	1.0288560975402206e-10	0.9934096932411194	10
+82	vinny_align	aligned	roberta-base	 a single menu down in front of them before silently	 returning	</s>	22.833925247192383	0.033496759831905365	1.2115797254352856e-10	0.9955518841743469	10
+83	vinny_align	aligned	roberta-base	 single menu down in front of them before silently returning	 through	</s>	18.38042449951172	0.02916845865547657	1.0410781570158179e-08	0.9961571097373962	10
+84	vinny_align	aligned	roberta-base	 menu down in front of them before silently returning through	 the	</s>	11.751487731933594	0.05340948700904846	7.87759472586913e-06	0.9917635917663574	10
+85	vinny_align	aligned	roberta-base	 down in front of them before silently returning through the	 swinging	</s>	19.74612045288086	0.010440438985824585	2.656863618000216e-09	0.9993315935134888	10
+86	vinny_align	aligned	roberta-base	 in front of them before silently returning through the swinging	 doors	</s>	19.187122344970703	0.042217593640089035	4.646632412175222e-09	0.9939237236976624	10
+87	vinny_align	aligned	roberta-base	 front of them before silently returning through the swinging doors	 mon	</s>	23.607507705688477	0.0232768002897501	5.589711332687486e-11	0.9968857169151306	10
+88	vinny_align	aligned	roberta-base	 of them before silently returning through the swinging doors mon	a	</s>	17.836994171142578	0.08665529638528824	1.792633241848307e-08	0.9848129153251648	10
+89	vinny_align	aligned	roberta-base	 them before silently returning through the swinging doors mona	 picked	</s>	20.221078872680664	0.11900027841329575	1.652331604873325e-09	0.9788311123847961	10
+90	vinny_align	aligned	roberta-base	 before silently returning through the swinging doors mona picked	 it	</s>	13.73578929901123	0.051379576325416565	1.0829853636096232e-06	0.9931620359420776	10
+91	vinny_align	aligned	roberta-base	 silently returning through the swinging doors mona picked it	 up	</s>	14.982789039611816	0.02900233492255211	3.1121263077693584e-07	0.9960989952087402	10
+92	vinny_align	aligned	roberta-base	 returning through the swinging doors mona picked it up	 and	</s>	13.221648216247559	0.03807797655463219	1.810969365578785e-06	0.9943577647209167	10
+93	vinny_align	aligned	roberta-base	 through the swinging doors mona picked it up and	 v	</s>	15.729541778564453	0.003196512581780553	1.4748459875590925e-07	0.9997918009757996	10
+94	vinny_align	aligned	roberta-base	 the swinging doors mona picked it up and v	in	</s>	16.538259506225586	0.035919126123189926	6.569394628286318e-08	0.9968146681785583	10
+95	vinny_align	aligned	roberta-base	 swinging doors mona picked it up and vin	ny	</s>	18.133487701416016	0.09627789258956909	1.3326808101510323e-08	0.9824756383895874	10
+96	vinny_align	aligned	roberta-base	 doors mona picked it up and vinny	 looked	</s>	15.396077156066895	0.05742945894598961	2.058584129827068e-07	0.9913467764854431	10
+97	vinny_align	aligned	roberta-base	 mona picked it up and vinny looked	 over	</s>	15.672449111938477	0.047942865639925	1.561499800573074e-07	0.9924755692481995	10
+98	vinny_align	aligned	roberta-base	a picked it up and vinny looked over	 her	</s>	14.394767761230469	0.062339287251234055	5.603145041277457e-07	0.9891853332519531	10
+99	vinny_align	aligned	roberta-base	 picked it up and vinny looked over her	 shoulder	</s>	21.6331844329834	0.0243777334690094	4.025571820331919e-10	0.996605396270752	10
+100	vinny_align	aligned	roberta-base	 it up and vinny looked over her shoulder	 on	</s>	14.31249713897705	0.04049200192093849	6.083612333895871e-07	0.9937549829483032	10
+101	vinny_align	aligned	roberta-base	 up and vinny looked over her shoulder on	 the	</s>	12.930977821350098	0.05037466064095497	2.4218520593422e-06	0.9919386506080627	10
+102	vinny_align	aligned	roberta-base	 and vinny looked over her shoulder on the	 menu	</s>	16.712026596069336	0.02715812623500824	5.521520307638639e-08	0.9980916380882263	10
+103	vinny_align	aligned	roberta-base	 vinny looked over her shoulder on the menu	 were	</s>	19.639419555664062	0.03358419984579086	2.956025868527945e-09	0.9950166344642639	10
+104	vinny_align	aligned	roberta-base	inny looked over her shoulder on the menu were	 exactly	</s>	21.74994659423828	0.0016639402601867914	3.581941410146783e-10	0.999886155128479	10
+105	vinny_align	aligned	roberta-base	ny looked over her shoulder on the menu were exactly	 three	</s>	16.39838409423828	0.00022799104044679552	7.555652814517089e-08	0.9999878406524658	10
+106	vinny_align	aligned	roberta-base	 looked over her shoulder on the menu were exactly three	 choices	</s>	22.803312301635742	0.053842537105083466	1.2492443191014502e-10	0.9907901287078857	10
+107	vinny_align	aligned	roberta-base	 over her shoulder on the menu were exactly three choices	 breakfast	</s>	24.366531372070312	0.0013036481104791164	2.6166761465939992e-11	0.9999029636383057	10
+108	vinny_align	aligned	roberta-base	 her shoulder on the menu were exactly three choices breakfast	 for	</s>	12.657039642333984	0.09835201501846313	3.1850595405558124e-06	0.9809427261352539	10
+109	vinny_align	aligned	roberta-base	 shoulder on the menu were exactly three choices breakfast for	 one	</s>	13.606088638305664	0.145778626203537	1.232965587405488e-06	0.9700936079025269	10
+110	vinny_align	aligned	roberta-base	 on the menu were exactly three choices breakfast for one	 ninety	</s>	22.315876007080078	0.07255594432353973	2.0339400996771673e-10	0.9875167012214661	10
+111	vinny_align	aligned	roberta-base	 the menu were exactly three choices breakfast for one ninety	 nine	</s>	17.39858055114746	0.05911746993660927	2.7790251877490846e-08	0.9907901287078857	10
+112	vinny_align	aligned	roberta-base	 menu were exactly three choices breakfast for one ninety nine	 lunch	</s>	16.650970458984375	0.04513568803668022	5.869155828008843e-08	0.9934701919555664	10
+113	vinny_align	aligned	roberta-base	 were exactly three choices breakfast for one ninety nine lunch	 for	</s>	12.542515754699707	0.018101153895258904	3.5715320336748846e-06	0.997844934463501	10
+114	vinny_align	aligned	roberta-base	 exactly three choices breakfast for one ninety nine lunch for	 two	</s>	10.722314834594727	0.010511348024010658	2.2047435777494684e-05	0.9992063641548157	10
+115	vinny_align	aligned	roberta-base	 three choices breakfast for one ninety nine lunch for two	 forty	</s>	20.55265235900879	0.006947476416826248	1.1860319393264263e-09	0.9992467164993286	10
+116	vinny_align	aligned	roberta-base	 choices breakfast for one ninety nine lunch for two forty	 nine	</s>	16.058818817138672	0.009749011136591434	1.061069667684933e-07	0.9989122152328491	10
+117	vinny_align	aligned	roberta-base	 breakfast for one ninety nine lunch for two forty nine	 or	</s>	15.59136962890625	0.013899912126362324	1.6933795166096388e-07	0.9983564019203186	10
+118	vinny_align	aligned	roberta-base	 for one ninety nine lunch for two forty nine or	 dinner	</s>	22.485811233520508	2.7343459805706516e-05	1.7160757537215687e-10	0.9999985694885254	10
+119	vinny_align	aligned	roberta-base	 one ninety nine lunch for two forty nine or dinner	 for	</s>	12.119632720947266	0.013978405855596066	5.451430297398474e-06	0.9983868598937988	10
+120	vinny_align	aligned	roberta-base	 ninety nine lunch for two forty nine or dinner for	 three	</s>	16.308671951293945	0.07595808058977127	8.264829887139058e-08	0.9859285950660706	10
+121	vinny_align	aligned	roberta-base	 nine lunch for two forty nine or dinner for three	 forty	</s>	21.527442932128906	0.01541140303015709	4.4745571137205786e-10	0.9980195760726929	10
+122	vinny_align	aligned	roberta-base	 lunch for two forty nine or dinner for three forty	 nine	</s>	17.91554832458496	0.010001437738537788	1.6572046845908517e-08	0.998863697052002	10
+123	vinny_align	aligned	roberta-base	 for two forty nine or dinner for three forty nine	 mon	</s>	23.55580711364746	0.013850593008100986	5.886301862600973e-11	0.9983506202697754	10
+124	vinny_align	aligned	roberta-base	 two forty nine or dinner for three forty nine mon	a	</s>	7.5658278465271	0.18932190537452698	0.0005178484716452658	0.9793146848678589	10
+125	vinny_align	aligned	roberta-base	 forty nine or dinner for three forty nine mona	 tilted	</s>	27.51494598388672	0.03680893033742905	1.1230807950290966e-12	0.9943591952323914	10
+126	vinny_align	aligned	roberta-base	 nine or dinner for three forty nine mona tilted	 her	</s>	14.399175643920898	0.05559004470705986	5.578501145464543e-07	0.9910207390785217	10
+127	vinny_align	aligned	roberta-base	 or dinner for three forty nine mona tilted her	 head	</s>	18.260753631591797	0.05506928637623787	1.1734257121531755e-08	0.9918209314346313	10
+128	vinny_align	aligned	roberta-base	 dinner for three forty nine mona tilted her head	 back	</s>	17.81784439086914	0.024966400116682053	1.8272942270414205e-08	0.9964624047279358	10
+129	vinny_align	aligned	roberta-base	 for three forty nine mona tilted her head back	 and	</s>	13.75120735168457	0.030742064118385315	1.0664155070116976e-06	0.995487630367279	10
+130	vinny_align	aligned	roberta-base	 three forty nine mona tilted her head back and	 forth	</s>	18.424598693847656	0.006920221261680126	9.960900548833251e-09	0.9995312690734863	10
+131	vinny_align	aligned	roberta-base	 forty nine mona tilted her head back and forth	 in	</s>	14.310276985168457	0.03635029494762421	6.097131404203537e-07	0.9943453073501587	10
+132	vinny_align	aligned	roberta-base	 nine mona tilted her head back and forth in	 sarcastic	</s>	12.97964859008789	0.23814472556114197	2.3068012069416e-06	0.9766373634338379	10
+133	vinny_align	aligned	roberta-base	 mona tilted her head back and forth in sarcastic	 	</s>	14.372986793518066	0.016210952773690224	5.726523681914841e-07	0.9988530874252319	10
+134	vinny_align	aligned	roberta-base	a tilted her head back and forth in sarcastic 	<unk>	</s>	26.837556838989258	0.008206835947930813	2.211042546967912e-12	0.9993744492530823	10
+135	vinny_align	aligned	roberta-base	 tilted her head back and forth in sarcastic <unk>	 so	</s>	15.729073524475098	0.6822913289070129	1.4755374877495342e-07	0.6858227252960205	10
+136	vinny_align	aligned	roberta-base	 her head back and forth in sarcastic <unk> so	 breakfast	</s>	20.881685256958008	0.27008089423179626	8.534910556079467e-10	0.9397796988487244	10
+137	vinny_align	aligned	roberta-base	 head back and forth in sarcastic <unk> so breakfast	 you	</s>	12.564641952514648	0.21798622608184814	3.4933759707200807e-06	0.9588553309440613	10
+138	vinny_align	aligned	roberta-base	 back and forth in sarcastic <unk> so breakfast you	 think	</s>	13.168424606323242	0.12346281111240387	1.9099670680589043e-06	0.9786356091499329	10
+139	vinny_align	aligned	roberta-base	 and forth in sarcastic <unk> so breakfast you think	 replied	</s>	16.037109375	0.12382205575704575	1.084356568981093e-07	0.9815176129341125	10
+140	vinny_align	aligned	roberta-base	 forth in sarcastic <unk> so breakfast you think replied	 v	</s>	15.938344955444336	0.07219541817903519	1.1969184754434536e-07	0.9905677437782288	10
+141	vinny_align	aligned	roberta-base	 in sarcastic <unk> so breakfast you think replied v	in	</s>	12.657422065734863	0.14514349400997162	3.1838401355344104e-06	0.9779372811317444	10
+142	vinny_align	aligned	roberta-base	 sarcastic <unk> so breakfast you think replied vin	ny	</s>	16.05967140197754	0.14199542999267578	1.0601651467823103e-07	0.9761611819267273	10
+143	vinny_align	aligned	roberta-base	 <unk> so breakfast you think replied vinny	 stro	</s>	21.047624588012695	0.09867484122514725	7.229908893791048e-10	0.9860224723815918	10
+144	vinny_align	aligned	roberta-base	<unk> so breakfast you think replied vinny stro	king	</s>	18.34515953063965	0.03548211604356766	1.0784465764857032e-08	0.9955660700798035	10
+145	vinny_align	aligned	roberta-base	 so breakfast you think replied vinny stroking	 his	</s>	16.496309280395508	0.026866978034377098	6.850842027006365e-08	0.9967988729476929	10
+146	vinny_align	aligned	roberta-base	 breakfast you think replied vinny stroking his	 chin	</s>	16.138599395751953	0.0032856648322194815	9.797052769044967e-08	0.9997962117195129	10
+147	vinny_align	aligned	roberta-base	 you think replied vinny stroking his chin	 the	</s>	12.17586612701416	0.06529618799686432	5.153337951924186e-06	0.9893711805343628	10
+148	vinny_align	aligned	roberta-base	 think replied vinny stroking his chin the	 cook	</s>	19.216909408569336	0.0059209284372627735	4.510268158952613e-09	0.9996340274810791	10
+149	vinny_align	aligned	roberta-base	 replied vinny stroking his chin the cook	 circled	</s>	23.836111068725586	0.046384286135435104	4.4474226384982884e-11	0.9932857155799866	10
+150	vinny_align	aligned	roberta-base	 vinny stroking his chin the cook circled	 back	</s>	14.762567520141602	0.04204460233449936	3.878809025081864e-07	0.9940270185470581	10
+151	vinny_align	aligned	roberta-base	inny stroking his chin the cook circled back	 to	</s>	11.902093887329102	0.024294499307870865	6.776201189495623e-06	0.9967436790466309	10
+152	vinny_align	aligned	roberta-base	ny stroking his chin the cook circled back to	 the	</s>	9.628267288208008	0.011282660067081451	6.584102084161714e-05	0.9992181062698364	10
+153	vinny_align	aligned	roberta-base	 stroking his chin the cook circled back to the	 counter	</s>	18.574918746948242	0.0010024125222116709	8.57067927739763e-09	0.9999445676803589	10
+154	vinny_align	aligned	roberta-base	king his chin the cook circled back to the counter	 you	</s>	18.862714767456055	0.0024463539011776447	6.427279153342624e-09	0.9998400211334229	10
+155	vinny_align	aligned	roberta-base	 his chin the cook circled back to the counter you	 two	</s>	11.425915718078613	0.05061179772019386	1.0909071534115355e-05	0.9957221746444702	10
+156	vinny_align	aligned	roberta-base	 chin the cook circled back to the counter you two	 want	</s>	16.752044677734375	0.013124707154929638	5.3049284076678305e-08	0.9990793466567993	10
+157	vinny_align	aligned	roberta-base	 the cook circled back to the counter you two want	 something	</s>	11.821152687072754	0.03320307284593582	7.347485279751709e-06	0.9974429607391357	10
+158	vinny_align	aligned	roberta-base	 cook circled back to the counter you two want something	 to	</s>	12.923798561096191	0.007286577019840479	2.4393023068114417e-06	0.9994938373565674	10
+159	vinny_align	aligned	roberta-base	 circled back to the counter you two want something to	 eat	</s>	10.762649536132812	0.00946712400764227	2.117583790095523e-05	0.9992848038673401	10
+160	vinny_align	aligned	roberta-base	 back to the counter you two want something to eat	 two	</s>	12.482370376586914	0.05345671996474266	3.792935785895679e-06	0.991048276424408	10
+161	vinny_align	aligned	roberta-base	 to the counter you two want something to eat two	 break	</s>	16.190385818481445	0.048397693783044815	9.302607395511586e-08	0.9926019310951233	10
+162	vinny_align	aligned	roberta-base	 the counter you two want something to eat two break	f	</s>	16.507387161254883	0.04445492476224899	6.77537101978487e-08	0.9933034777641296	10
+163	vinny_align	aligned	roberta-base	 counter you two want something to eat two breakf	asts	</s>	16.486793518066406	0.08317358046770096	6.91633843530326e-08	0.9857941269874573	10
+164	vinny_align	aligned	roberta-base	 you two want something to eat two breakfasts	 please	</s>	19.366382598876953	0.0416681282222271	3.884071730908545e-09	0.9942514896392822	10
+165	vinny_align	aligned	roberta-base	 two want something to eat two breakfasts please	 he	</s>	14.581704139709473	0.027921052649617195	4.6477865112137806e-07	0.996563732624054	10
+166	vinny_align	aligned	roberta-base	 want something to eat two breakfasts please he	 rubbed	</s>	26.07651138305664	0.011959611438214779	4.732766695908497e-12	0.9986125230789185	10
+167	vinny_align	aligned	roberta-base	 something to eat two breakfasts please he rubbed	 his	</s>	15.676077842712402	0.026130927726626396	1.555843169853688e-07	0.996508777141571	10
+168	vinny_align	aligned	roberta-base	 to eat two breakfasts please he rubbed his	 eyes	</s>	11.461615562438965	0.006648926995694637	1.0526489859330468e-05	0.9995346069335938	10
+169	vinny_align	aligned	roberta-base	 eat two breakfasts please he rubbed his eyes	 as	</s>	15.713406562805176	0.023283883929252625	1.4988358998380136e-07	0.9968641400337219	10
+170	vinny_align	aligned	roberta-base	 two breakfasts please he rubbed his eyes as	 he	</s>	9.773003578186035	0.002460966119542718	5.696898733731359e-05	0.9998188614845276	10
+171	vinny_align	aligned	roberta-base	 breakfasts please he rubbed his eyes as he	 passed	</s>	15.591078758239746	0.0009905810002237558	1.6938722069426149e-07	0.9999392032623291	10
+172	vinny_align	aligned	roberta-base	fasts please he rubbed his eyes as he passed	 the	</s>	13.232162475585938	0.03199814632534981	1.7920277741723112e-06	0.9953746199607849	10
+173	vinny_align	aligned	roberta-base	asts please he rubbed his eyes as he passed the	 menu	</s>	19.444168090820312	0.0057119159027934074	3.5933982456270996e-09	0.999642014503479	10
+174	vinny_align	aligned	roberta-base	 please he rubbed his eyes as he passed the menu	 to	</s>	21.4960994720459	3.172887227265164e-05	4.617031756914969e-10	0.9999986886978149	10
+175	vinny_align	aligned	roberta-base	 he rubbed his eyes as he passed the menu to	 the	</s>	12.466889381408691	0.0023573185317218304	3.852110694424482e-06	0.9998502731323242	10
+176	vinny_align	aligned	roberta-base	 rubbed his eyes as he passed the menu to the	 cook	</s>	19.332565307617188	0.0005949983606114984	4.01766575564011e-09	0.9999681711196899	10
+177	vinny_align	aligned	roberta-base	 his eyes as he passed the menu to the cook	 can	</s>	20.120437622070312	0.04026763141155243	1.8272803270491522e-09	0.993720293045044	10
+178	vinny_align	aligned	roberta-base	 eyes as he passed the menu to the cook can	 i	</s>	12.711118698120117	0.005865301005542278	3.0173882805684116e-06	0.9996163845062256	10
+179	vinny_align	aligned	roberta-base	 as he passed the menu to the cook can i	 ask	</s>	15.199146270751953	0.0030014824587851763	2.5066546527341416e-07	0.9998051524162292	10
+180	vinny_align	aligned	roberta-base	 he passed the menu to the cook can i ask	 you	</s>	12.902714729309082	0.00134782784152776	2.491278564775712e-06	0.9999115467071533	10
+181	vinny_align	aligned	roberta-base	 passed the menu to the cook can i ask you	 something	</s>	21.337064743041992	2.5926774469553493e-05	5.412911230351369e-10	0.999998927116394	10
+182	vinny_align	aligned	roberta-base	 the menu to the cook can i ask you something	 what	</s>	19.3271484375	0.024003293365240097	4.039485634876883e-09	0.9967038035392761	10
+183	vinny_align	aligned	roberta-base	 menu to the cook can i ask you something what	's	</s>	19.21881103515625	0.00043959400500170887	4.501698569470136e-09	0.9999752044677734	10
+184	vinny_align	aligned	roberta-base	 to the cook can i ask you something what's	 the	</s>	13.676680564880371	0.004999592900276184	1.1489287317090202e-06	0.9996520280838013	10
+185	vinny_align	aligned	roberta-base	 the cook can i ask you something what's the	 story	</s>	17.040985107421875	0.000701567973010242	3.973693196712702e-08	0.99996018409729	10
+186	vinny_align	aligned	roberta-base	 cook can i ask you something what's the story	 with	</s>	17.962993621826172	0.006292764563113451	1.5804147324161022e-08	0.9993327260017395	10
+187	vinny_align	aligned	roberta-base	 can i ask you something what's the story with	 this	</s>	16.270795822143555	0.02417737990617752	8.583873523093644e-08	0.9969627261161804	10
+188	vinny_align	aligned	roberta-base	 i ask you something what's the story with this	 incredibly	</s>	26.984378814697266	0.010455837473273277	1.909119346985011e-12	0.998812198638916	10
+189	vinny_align	aligned	roberta-base	 ask you something what's the story with this incredibly	 remarkably	</s>	26.318267822265625	0.025840671733021736	3.7163952470997685e-12	0.9966514706611633	10
+190	vinny_align	aligned	roberta-base	 you something what's the story with this incredibly remarkably	 loud	</s>	21.57068634033203	0.02837560512125492	4.2851910908581203e-10	0.9963394403457642	10
+191	vinny_align	aligned	roberta-base	 something what's the story with this incredibly remarkably loud	 whistle	</s>	15.95684814453125	0.00452248053625226	1.1749752815148895e-07	0.9997058510780334	10
+192	vinny_align	aligned	roberta-base	 what's the story with this incredibly remarkably loud whistle	 at	</s>	14.664435386657715	0.007446681149303913	4.2787485199369257e-07	0.999187171459198	10
+193	vinny_align	aligned	roberta-base	's the story with this incredibly remarkably loud whistle at	 five	</s>	16.64024543762207	0.007450620643794537	5.9324420931261557e-08	0.9994857311248779	10
+194	vinny_align	aligned	roberta-base	 the story with this incredibly remarkably loud whistle at five	 thirty	</s>	20.587656021118164	0.03638309985399246	1.1452354620189453e-09	0.9951409101486206	10
+195	vinny_align	aligned	roberta-base	 story with this incredibly remarkably loud whistle at five thirty	 in	</s>	14.005805015563965	0.02563207969069481	8.267157909358502e-07	0.9966040849685669	10
+196	vinny_align	aligned	roberta-base	 with this incredibly remarkably loud whistle at five thirty in	 the	</s>	7.900135040283203	0.11075684428215027	0.00037069342215545475	0.9903044104576111	10
+197	vinny_align	aligned	roberta-base	 this incredibly remarkably loud whistle at five thirty in the	 morning	</s>	10.072299003601074	0.018669232726097107	4.223339419695549e-05	0.9986987113952637	10
+198	vinny_align	aligned	roberta-base	 incredibly remarkably loud whistle at five thirty in the morning	 the	</s>	14.054163932800293	0.020362233743071556	7.87688122727559e-07	0.9973564147949219	10
+199	vinny_align	aligned	roberta-base	 remarkably loud whistle at five thirty in the morning the	 cook	</s>	15.172026634216309	0.12070745974779129	2.575564792550722e-07	0.9906520843505859	10
+200	vinny_align	aligned	roberta-base	 loud whistle at five thirty in the morning the cook	's	</s>	14.718002319335938	0.0024708483833819628	4.055578131101356e-07	0.9998358488082886	10
+201	vinny_align	aligned	roberta-base	 whistle at five thirty in the morning the cook's	 eyes	</s>	18.732969284057617	0.05597968399524689	7.317704664444591e-09	0.9921196699142456	10
+202	vinny_align	aligned	roberta-base	 at five thirty in the morning the cook's eyes	 narrowed	</s>	23.783096313476562	0.0005803582025691867	4.689564361837206e-11	0.9999637603759766	10
+203	vinny_align	aligned	roberta-base	 five thirty in the morning the cook's eyes narrowed	 clearly	</s>	27.05563735961914	0.00010125063272425905	1.7778119471359433e-12	0.9999939203262329	10
+204	vinny_align	aligned	roberta-base	 thirty in the morning the cook's eyes narrowed clearly	 these	</s>	21.180461883544922	0.00015520981105510145	6.330564961132268e-10	0.9999909400939941	10
+205	vinny_align	aligned	roberta-base	 in the morning the cook's eyes narrowed clearly these	 two	</s>	15.610960006713867	0.0016050477279350162	1.6605287100901478e-07	0.9998973608016968	10
+206	vinny_align	aligned	roberta-base	 the morning the cook's eyes narrowed clearly these two	 were	</s>	11.53760814666748	0.17206686735153198	9.756190593179781e-06	0.9686737656593323	10
+207	vinny_align	aligned	roberta-base	 morning the cook's eyes narrowed clearly these two were	 from	</s>	16.006858825683594	0.002909780014306307	1.1176595648976217e-07	0.999815046787262	10
+208	vinny_align	aligned	roberta-base	 the cook's eyes narrowed clearly these two were from	 out	</s>	14.829920768737793	0.03827816992998123	3.6261613445276453e-07	0.9971541166305542	10
+209	vinny_align	aligned	roberta-base	 cook's eyes narrowed clearly these two were from out	 of	</s>	11.131134986877441	0.11509266495704651	1.4649047443526797e-05	0.9794345498085022	10
+210	vinny_align	aligned	roberta-base	's eyes narrowed clearly these two were from out of	 town	</s>	5.790754318237305	0.4068102538585663	0.0030556765850633383	0.9594380855560303	10
+211	vinny_align	aligned	roberta-base	 eyes narrowed clearly these two were from out of town	 it	</s>	15.751646041870117	0.000898027908988297	1.442603405621412e-07	0.9999417066574097	10
+212	vinny_align	aligned	roberta-base	 narrowed clearly these two were from out of town it	's	</s>	8.896221160888672	0.029111512005329132	0.0001369052624795586	0.9972997307777405	10
+213	vinny_align	aligned	roberta-base	 clearly these two were from out of town it's	 the	</s>	10.424368858337402	0.013928907923400402	2.9699855076614767e-05	0.9989804625511169	10
+214	vinny_align	aligned	roberta-base	 these two were from out of town it's the	 steam	</s>	20.09980583190918	0.006849076598882675	1.865369636533387e-09	0.999560534954071	10
+215	vinny_align	aligned	roberta-base	 two were from out of town it's the steam	 whistle	</s>	17.97297477722168	0.0011970417108386755	1.5647199091972652e-08	0.9999264478683472	10
+216	vinny_align	aligned	roberta-base	 were from out of town it's the steam whistle	 over	</s>	18.28095054626465	0.006559256464242935	1.1499625252042733e-08	0.999288022518158	10
+217	vinny_align	aligned	roberta-base	 from out of town it's the steam whistle over	 by	</s>	16.16754722595215	0.006699743214994669	9.517508914314021e-08	0.9992770552635193	10
+218	vinny_align	aligned	roberta-base	 out of town it's the steam whistle over by	 the	</s>	9.816092491149902	0.023922907188534737	5.4566404287470505e-05	0.9983470439910889	10
+219	vinny_align	aligned	roberta-base	 of town it's the steam whistle over by the	 saw	</s>	18.669082641601562	0.0006453858222812414	7.800467827223656e-09	0.9999624490737915	10
+220	vinny_align	aligned	roberta-base	 town it's the steam whistle over by the saw	 mill	</s>	21.718860626220703	0.0014670867240056396	3.6950328907714436e-10	0.9999018907546997	10
+221	vinny_align	aligned	roberta-base	 it's the steam whistle over by the saw mill	 tells	</s>	19.763818740844727	0.03486794978380203	2.610252458623563e-09	0.9950681924819946	10
+222	vinny_align	aligned	roberta-base	's the steam whistle over by the saw mill tells	 folks	</s>	22.395313262939453	0.040791694074869156	1.8786189270869613e-10	0.9937512278556824	10
+223	vinny_align	aligned	roberta-base	 the steam whistle over by the saw mill tells folks	 it	</s>	15.16331958770752	0.03683480992913246	2.598087291971751e-07	0.9947348833084106	10
+224	vinny_align	aligned	roberta-base	 steam whistle over by the saw mill tells folks it	's	</s>	15.142267227172852	0.01720583438873291	2.6533632535574725e-07	0.9978390336036682	10
+225	vinny_align	aligned	roberta-base	 whistle over by the saw mill tells folks it's	 time	</s>	14.818037033081055	0.027735792100429535	3.669513262138935e-07	0.9965331554412842	10
+226	vinny_align	aligned	roberta-base	 over by the saw mill tells folks it's time	 to	</s>	14.727498054504395	0.014746474102139473	4.0172480453293247e-07	0.9981435537338257	10
+227	vinny_align	aligned	roberta-base	 by the saw mill tells folks it's time to	 get	</s>	16.379323959350586	0.0004841015033889562	7.70105259562115e-08	0.9999716281890869	10
+228	vinny_align	aligned	roberta-base	 the saw mill tells folks it's time to get	 up	</s>	7.526539325714111	0.8812417387962341	0.0005385988624766469	0.8970538377761841	10
+229	vinny_align	aligned	roberta-base	 saw mill tells folks it's time to get up	 you	</s>	17.323999404907227	0.020693697035312653	2.9942111012815076e-08	0.9972546696662903	10
+230	vinny_align	aligned	roberta-base	 mill tells folks it's time to get up you	 can	</s>	19.22200584411621	0.031088948249816895	4.487339388958844e-09	0.9954081177711487	10
+231	vinny_align	aligned	roberta-base	 tells folks it's time to get up you can	 hear	</s>	15.23084545135498	0.0017474511405453086	2.4284418032038957e-07	0.9998852014541626	10
+232	vinny_align	aligned	roberta-base	 folks it's time to get up you can hear	 it	</s>	14.963165283203125	0.017322054132819176	3.1738028383188066e-07	0.9977948665618896	10
+233	vinny_align	aligned	roberta-base	 it's time to get up you can hear it	 for	</s>	15.593661308288574	0.013573212549090385	1.6895029375518789e-07	0.9982410669326782	10
+234	vinny_align	aligned	roberta-base	's time to get up you can hear it for	 miles	</s>	22.45831298828125	0.12461225688457489	1.763919427189009e-10	0.9730380773544312	10
+235	vinny_align	aligned	roberta-base	 time to get up you can hear it for miles	 he	</s>	16.067707061767578	0.02722206339240074	1.0516791348891275e-07	0.9960399866104126	10
+236	vinny_align	aligned	roberta-base	 to get up you can hear it for miles he	 turned	</s>	14.369450569152832	0.031775373965501785	5.74681280340883e-07	0.9974601864814758	10
+237	vinny_align	aligned	roberta-base	 get up you can hear it for miles he turned	 his	</s>	15.595613479614258	0.016598083078861237	1.686207866669065e-07	0.9980021119117737	10
+238	vinny_align	aligned	roberta-base	 up you can hear it for miles he turned his	 back	</s>	16.862674713134766	0.0013289829948917031	4.7493422528077645e-08	0.9999161958694458	10
+239	vinny_align	aligned	roberta-base	 you can hear it for miles he turned his back	 toward	</s>	24.223047256469727	0.003983606118708849	3.020397126851648e-11	0.999683141708374	10
+240	vinny_align	aligned	roberta-base	 can hear it for miles he turned his back toward	 the	</s>	9.399540901184082	0.01332408282905817	8.276207518065348e-05	0.998955488204956	10
+241	vinny_align	aligned	roberta-base	 hear it for miles he turned his back toward the	 couple	</s>	17.5400447845459	0.002242371439933777	2.4124313213746973e-08	0.9998674392700195	10
+242	vinny_align	aligned	roberta-base	 it for miles he turned his back toward the couple	 to	</s>	12.442935943603516	0.0439639538526535	3.9454971556551754e-06	0.993159294128418	10
+243	vinny_align	aligned	roberta-base	 for miles he turned his back toward the couple to	 face	</s>	14.49264907836914	0.009368166327476501	5.080686946712376e-07	0.9993591904640198	10
+244	vinny_align	aligned	roberta-base	 miles he turned his back toward the couple to face	 the	</s>	9.20764446258545	0.005804263520985842	0.00010026996460510418	0.9995843768119812	10
+245	vinny_align	aligned	roberta-base	 he turned his back toward the couple to face the	 	</s>	18.460731506347656	0.0016400461317971349	9.607406425971021e-09	0.9999045133590698	10
+246	vinny_align	aligned	roberta-base	 turned his back toward the couple to face the 	<unk>	</s>	27.694074630737305	0.0027064175810664892	9.388931689405244e-13	0.9998149275779724	10
+247	vinny_align	aligned	roberta-base	 his back toward the couple to face the <unk>	 where	</s>	12.301642417907715	0.4141514003276825	4.544272542261751e-06	0.8861829042434692	10
+248	vinny_align	aligned	roberta-base	 back toward the couple to face the <unk> where	 several	</s>	16.322376251220703	0.212857186794281	8.152330366328897e-08	0.9674558043479919	10
+249	vinny_align	aligned	roberta-base	 toward the couple to face the <unk> where several	 strips	</s>	16.85597038269043	0.4544532597064972	4.781293583278057e-08	0.9259243607521057	10
+250	vinny_align	aligned	roberta-base	 the couple to face the <unk> where several strips	 of	</s>	8.035201072692871	0.4146178960800171	0.00032385942176915705	0.9276079535484314	10
+251	vinny_align	aligned	roberta-base	 couple to face the <unk> where several strips of	 bacon	</s>	17.525156021118164	0.3788800537586212	2.4486190852712753e-08	0.9250759482383728	10
+252	vinny_align	aligned	roberta-base	 to face the <unk> where several strips of bacon	 were	</s>	12.337557792663574	0.29945892095565796	4.383959549159044e-06	0.9414116740226746	10
+253	vinny_align	aligned	roberta-base	 face the <unk> where several strips of bacon were	 already	</s>	16.920269012451172	0.1750221699476242	4.483530702259486e-08	0.9646052122116089	10
+254	vinny_align	aligned	roberta-base	 the <unk> where several strips of bacon were already	 s	</s>	15.75291919708252	0.06887407600879669	1.4407675053007551e-07	0.989170491695404	10
+255	vinny_align	aligned	roberta-base	 <unk> where several strips of bacon were already s	izz	</s>	20.688980102539062	0.0801919475197792	1.0348796264381122e-09	0.9867892861366272	10
+256	vinny_align	aligned	roberta-base	<unk> where several strips of bacon were already sizz	ling	</s>	4.794040679931641	0.04931090772151947	0.008278935216367245	0.9916179776191711	10
+257	vinny_align	aligned	roberta-base	 where several strips of bacon were already sizzling	 mon	</s>	26.77647590637207	0.017314309254288673	2.350307448661937e-12	0.9977375268936157	10
+258	vinny_align	aligned	roberta-base	 several strips of bacon were already sizzling mon	a	</s>	11.108006477355957	0.006614520214498043	1.4991805073805153e-05	0.9995447993278503	10
+259	vinny_align	aligned	roberta-base	 strips of bacon were already sizzling mona	 watched	</s>	18.01181983947754	0.08569461107254028	1.5051025314960498e-08	0.9870122075080872	10
+260	vinny_align	aligned	roberta-base	 of bacon were already sizzling mona watched	 in	</s>	12.404261589050293	0.06929581612348557	4.101073500351049e-06	0.9897340536117554	10
+261	vinny_align	aligned	roberta-base	 bacon were already sizzling mona watched in	 horror	</s>	21.87510871887207	0.04181289300322533	3.160539330249179e-10	0.9940880537033081	10
+262	vinny_align	aligned	roberta-base	 were already sizzling mona watched in horror	 as	</s>	14.958257675170898	0.01462029479444027	3.1894177254798706e-07	0.9982243180274963	10
+263	vinny_align	aligned	roberta-base	 already sizzling mona watched in horror as	 he	</s>	18.644346237182617	6.226298864930868e-05	7.995829776064056e-09	0.9999966621398926	10
+264	vinny_align	aligned	roberta-base	 sizzling mona watched in horror as he	 	</s>	21.172855377197266	0.00024905279860831797	6.378897965397812e-10	0.9999864101409912	10
+265	vinny_align	aligned	roberta-base	izzling mona watched in horror as he 	<unk>	</s>	29.547637939453125	0.00039877608651295304	1.4710372405867672e-13	0.999976634979248	10
+266	vinny_align	aligned	roberta-base	ling mona watched in horror as he <unk>	 a	</s>	14.855611801147461	0.8032447099685669	3.5341881243766693e-07	0.7044873833656311	10
+267	vinny_align	aligned	roberta-base	 mona watched in horror as he <unk> a	 massive	</s>	16.49854278564453	0.3860911428928375	6.835556831674694e-08	0.9236906170845032	10
+268	vinny_align	aligned	roberta-base	a watched in horror as he <unk> a massive	 scoop	</s>	20.449234008789062	0.14016090333461761	1.3152570144114861e-09	0.9760475158691406	10
+269	vinny_align	aligned	roberta-base	 watched in horror as he <unk> a massive scoop	 of	</s>	10.842029571533203	0.06547414511442184	1.955988773261197e-05	0.9913221597671509	10
+270	vinny_align	aligned	roberta-base	 in horror as he <unk> a massive scoop of	 l	</s>	13.151741981506348	0.14748424291610718	1.9420972421357874e-06	0.9784310460090637	10
+271	vinny_align	aligned	roberta-base	 horror as he <unk> a massive scoop of l	ard	</s>	14.014264106750488	0.021142644807696342	8.197518468477938e-07	0.9983333945274353	10
+272	vinny_align	aligned	roberta-base	 as he <unk> a massive scoop of lard	 onto	</s>	18.21165657043457	0.058904729783535004	1.232474389212257e-08	0.9915043711662292	10
+273	vinny_align	aligned	roberta-base	 he <unk> a massive scoop of lard onto	 the	</s>	11.31772518157959	0.05441088229417801	1.2155540389358066e-05	0.9925024509429932	10
+274	vinny_align	aligned	roberta-base	 <unk> a massive scoop of lard onto the	 	</s>	14.808940887451172	0.09807398915290833	3.7030406474514166e-07	0.9811040163040161	10
+275	vinny_align	aligned	roberta-base	<unk> a massive scoop of lard onto the 	<unk>	</s>	26.333826065063477	0.11277148872613907	3.659020135493574e-12	0.9780974984169006	10
+276	vinny_align	aligned	roberta-base	 a massive scoop of lard onto the <unk>	 and	</s>	11.513367652893066	0.8181334733963013	9.995578693633433e-06	0.529343843460083	10
+277	vinny_align	aligned	roberta-base	 massive scoop of lard onto the <unk> and	 pushed	</s>	17.38702964782715	0.16259260475635529	2.8113115391192878e-08	0.9752563238143921	10
+278	vinny_align	aligned	roberta-base	 scoop of lard onto the <unk> and pushed	 it	</s>	11.249519348144531	0.1549738198518753	1.301354950555833e-05	0.969048261642456	10
+279	vinny_align	aligned	roberta-base	 of lard onto the <unk> and pushed it	 around	</s>	17.768404006958008	0.139164999127388	1.9199076106701796e-08	0.9731940627098083	10
+280	vinny_align	aligned	roberta-base	 lard onto the <unk> and pushed it around	 to	</s>	10.966195106506348	0.14009888470172882	1.727595372358337e-05	0.9718481302261353	10
+281	vinny_align	aligned	roberta-base	ard onto the <unk> and pushed it around to	 coat	</s>	21.648143768310547	0.03724171221256256	3.9658007433551745e-10	0.9949323534965515	10
+282	vinny_align	aligned	roberta-base	 onto the <unk> and pushed it around to coat	 the	</s>	9.165002822875977	0.0945182740688324	0.00010463805665494874	0.9852793216705322	10
+283	vinny_align	aligned	roberta-base	 the <unk> and pushed it around to coat the	 surface	</s>	18.08824920654297	0.11854752898216248	1.3943542320760116e-08	0.9823335409164429	10
+284	vinny_align	aligned	roberta-base	 <unk> and pushed it around to coat the surface	 excuse	</s>	24.452735900878906	0.01564905419945717	2.400555448867081e-11	0.9980144500732422	10
+285	vinny_align	aligned	roberta-base	<unk> and pushed it around to coat the surface excuse	 me	</s>	14.770689010620117	0.054106324911117554	3.847433163173264e-07	0.9912868142127991	10
+286	vinny_align	aligned	roberta-base	 and pushed it around to coat the surface excuse me	 said	</s>	16.59259033203125	0.011937358416616917	6.221991810662075e-08	0.9985130429267883	10
+287	vinny_align	aligned	roberta-base	 pushed it around to coat the surface excuse me said	 v	</s>	21.59782600402832	0.028098059818148613	4.1704570352685266e-10	0.9957658052444458	10
+288	vinny_align	aligned	roberta-base	 it around to coat the surface excuse me said v	in	</s>	17.43707275390625	0.029039276763796806	2.674085841647411e-08	0.9975612163543701	10
+289	vinny_align	aligned	roberta-base	 around to coat the surface excuse me said vin	ny	</s>	17.448766708374023	0.055275097489356995	2.6429997745935907e-08	0.991756796836853	10
+290	vinny_align	aligned	roberta-base	 to coat the surface excuse me said vinny	 and	</s>	12.924110412597656	0.032954972237348557	2.4385419692407595e-06	0.9958051443099976	10
+291	vinny_align	aligned	roberta-base	 coat the surface excuse me said vinny and	 the	</s>	9.630963325500488	0.034179188311100006	6.566374213434756e-05	0.9974338412284851	10
+292	vinny_align	aligned	roberta-base	 the surface excuse me said vinny and the	 cook	</s>	15.075779914855957	0.06656903773546219	2.8357757742014655e-07	0.9950881600379944	10
+293	vinny_align	aligned	roberta-base	 surface excuse me said vinny and the cook	 turned	</s>	15.798510551452637	0.06903586536645889	1.3765564688128507e-07	0.9897342920303345	10
+294	vinny_align	aligned	roberta-base	 excuse me said vinny and the cook turned	 to	</s>	10.39338493347168	0.06701145321130753	3.0634470022050664e-05	0.9891674518585205	10
+295	vinny_align	aligned	roberta-base	 me said vinny and the cook turned to	 him	</s>	14.049238204956055	0.026681998744606972	7.915777473499475e-07	0.9963564872741699	10
+296	vinny_align	aligned	roberta-base	 said vinny and the cook turned to him	 suspicious	</s>	23.47793197631836	0.028614593669772148	6.36302191492355e-11	0.99616539478302	10
+297	vinny_align	aligned	roberta-base	 vinny and the cook turned to him suspicious	ly	</s>	16.763328552246094	0.03261055424809456	5.2454041110649996e-08	0.9955810904502869	10
+298	vinny_align	aligned	roberta-base	inny and the cook turned to him suspiciously	 have	</s>	19.194549560546875	0.010113969445228577	4.612249249191791e-09	0.999210000038147	10
+299	vinny_align	aligned	roberta-base	ny and the cook turned to him suspiciously have	 you	</s>	21.15569496154785	9.278121433453634e-05	6.489312420754345e-10	0.9999949932098389	10
+300	vinny_align	aligned	roberta-base	 and the cook turned to him suspiciously have you	 guys	</s>	23.718305587768555	0.0009672633023001254	5.003465350372771e-11	0.9999393224716187	10
+301	vinny_align	aligned	roberta-base	 the cook turned to him suspiciously have you guys	 around	</s>	22.76473617553711	0.00011086796439485624	1.29837626761109e-10	0.9999940395355225	10
+302	vinny_align	aligned	roberta-base	 cook turned to him suspiciously have you guys around	 here	</s>	12.350617408752441	0.014203299768269062	4.32708202424692e-06	0.998893678188324	10
+303	vinny_align	aligned	roberta-base	 turned to him suspiciously have you guys around here	 not	</s>	18.273761749267578	0.0009120075264945626	1.1582593550940601e-08	0.9999401569366455	10
+304	vinny_align	aligned	roberta-base	 to him suspiciously have you guys around here not	 heard	</s>	17.08144187927246	0.0006160691264085472	3.81613531885705e-08	0.9999631643295288	10
+305	vinny_align	aligned	roberta-base	 him suspiciously have you guys around here not heard	 about	</s>	19.45830726623535	0.019957836717367172	3.542948157075898e-09	0.9975013136863708	10
+306	vinny_align	aligned	roberta-base	 suspiciously have you guys around here not heard about	 the	</s>	13.286200523376465	0.030620595440268517	1.697760353636113e-06	0.9959017634391785	10
+307	vinny_align	aligned	roberta-base	ly have you guys around here not heard about the	 ongoing	</s>	23.031288146972656	0.0006234204629436135	9.945777534881017e-11	0.9999659061431885	10
+308	vinny_align	aligned	roberta-base	 have you guys around here not heard about the ongoing	 cholesterol	</s>	23.993749618530273	0.05280904471874237	3.7988008572131804e-11	0.9917572140693665	10
+309	vinny_align	aligned	roberta-base	 you guys around here not heard about the ongoing cholesterol	 problem	</s>	19.90751838684082	0.08162441104650497	2.2608648286848165e-09	0.9853361248970032	10
+310	vinny_align	aligned	roberta-base	 guys around here not heard about the ongoing cholesterol problem	 in	</s>	13.29268741607666	0.0499187670648098	1.6867836620804155e-06	0.9922268390655518	10
+311	vinny_align	aligned	roberta-base	 around here not heard about the ongoing cholesterol problem in	 the	</s>	6.686487197875977	0.1225089430809021	0.0012476580450311303	0.9895871877670288	10
+312	vinny_align	aligned	roberta-base	 here not heard about the ongoing cholesterol problem in the	 country	</s>	10.105058670043945	0.01892954297363758	4.0872280806070194e-05	0.998698353767395	10
+313	vinny_align	aligned	roberta-base	 not heard about the ongoing cholesterol problem in the country	 the	</s>	12.751274108886719	0.052000198513269424	2.8986237339267973e-06	0.9913190007209778	10
+314	vinny_align	aligned	roberta-base	 heard about the ongoing cholesterol problem in the country the	 cook	</s>	19.613231658935547	0.002790684113278985	3.0344600165932434e-09	0.9998181462287903	10
+315	vinny_align	aligned	roberta-base	 about the ongoing cholesterol problem in the country the cook	 looked	</s>	15.853041648864746	0.18303626775741577	1.3035014490014873e-07	0.966222882270813	10
+316	vinny_align	aligned	roberta-base	 the ongoing cholesterol problem in the country the cook looked	 back	</s>	15.706378936767578	0.003372558392584324	1.509406928335011e-07	0.9997655749320984	10
+317	vinny_align	aligned	roberta-base	 ongoing cholesterol problem in the country the cook looked back	 and	</s>	9.811027526855469	0.14826729893684387	5.484348366735503e-05	0.9760624766349792	10
+318	vinny_align	aligned	roberta-base	 cholesterol problem in the country the cook looked back and	 forth	</s>	17.86945915222168	0.016726816073060036	1.7353729120372918e-08	0.9986760020256042	10
+319	vinny_align	aligned	roberta-base	 problem in the country the cook looked back and forth	 at	</s>	11.67957592010498	0.106955885887146	8.464956408715807e-06	0.9802910089492798	10
+320	vinny_align	aligned	roberta-base	 in the country the cook looked back and forth at	 both	</s>	17.60891342163086	0.0011030440218746662	2.251883479686967e-08	0.9999290704727173	10
+321	vinny_align	aligned	roberta-base	 the country the cook looked back and forth at both	 of	</s>	11.51255989074707	0.01755397580564022	1.0003653187595773e-05	0.9987093210220337	10
+322	vinny_align	aligned	roberta-base	 country the cook looked back and forth at both of	 them	</s>	7.7960734367370605	0.040732868015766144	0.00041134690400213003	0.995941162109375	10
+323	vinny_align	aligned	roberta-base	 the cook looked back and forth at both of them	 	</s>	15.82519245147705	0.04175432026386261	1.3403133891642938e-07	0.9935239553451538	10
+324	vinny_align	aligned	roberta-base	 cook looked back and forth at both of them 	<unk>	</s>	25.262311935424805	0.11044973880052567	1.0683585092985393e-11	0.9795732498168945	10
+325	vinny_align	aligned	roberta-base	 looked back and forth at both of them <unk>	 his	</s>	14.281455039978027	0.1354427933692932	6.275422492763028e-07	0.9743705987930298	10
+326	vinny_align	aligned	roberta-base	 back and forth at both of them <unk> his	 lips	</s>	19.097341537475586	0.12483102828264236	5.083113485682134e-09	0.9803212285041809	10
+327	vinny_align	aligned	roberta-base	 and forth at both of them <unk> his lips	 and	</s>	11.140387535095215	0.08357078582048416	1.4514129361486994e-05	0.986099123954773	10
+328	vinny_align	aligned	roberta-base	 forth at both of them <unk> his lips and	 then	</s>	14.58325481414795	0.007009218912571669	4.6405884290834365e-07	0.999509334564209	10
+329	vinny_align	aligned	roberta-base	 at both of them <unk> his lips and then	 turned	</s>	14.084083557128906	0.22583258152008057	7.644694619557413e-07	0.956811785697937	10
+330	vinny_align	aligned	roberta-base	 both of them <unk> his lips and then turned	 back	</s>	14.390029907226562	0.10506585985422134	5.629753445646202e-07	0.9822830557823181	10
+331	vinny_align	aligned	roberta-base	 of them <unk> his lips and then turned back	 to	</s>	10.42226505279541	0.1631089448928833	2.9762402846245095e-05	0.9666664600372314	10
+332	vinny_align	aligned	roberta-base	 them <unk> his lips and then turned back to	 the	</s>	11.325709342956543	0.08256922662258148	1.2058877473464236e-05	0.9858887791633606	10
+333	vinny_align	aligned	roberta-base	 <unk> his lips and then turned back to the	 	</s>	15.660844802856445	0.005246282555162907	1.5797243690940377e-07	0.9996820688247681	10
+334	vinny_align	aligned	roberta-base	<unk> his lips and then turned back to the 	<unk>	</s>	29.93302345275879	0.00027292247978039086	1.0005830121699241e-13	0.999984860420227	10
+335	vinny_align	aligned	roberta-base	 his lips and then turned back to the <unk>	 shaking	</s>	21.714115142822266	0.29334402084350586	3.71261493770092e-10	0.9245036840438843	10
+336	vinny_align	aligned	roberta-base	 lips and then turned back to the <unk> shaking	 his	</s>	13.236699104309082	0.1746472716331482	1.7839162183008739e-06	0.9658353924751282	10
+337	vinny_align	aligned	roberta-base	 and then turned back to the <unk> shaking his	 head	</s>	12.345170021057129	0.006379497703164816	4.350714334577788e-06	0.9995743632316589	10
+338	vinny_align	aligned	roberta-base	 then turned back to the <unk> shaking his head	 in	</s>	11.52926254272461	0.30740129947662354	9.837953257374465e-06	0.9211989641189575	10
+339	vinny_align	aligned	roberta-base	 turned back to the <unk> shaking his head in	 disbelief	</s>	19.06725311279297	0.10183793306350708	5.23838217247885e-09	0.9821200966835022	10
+340	vinny_align	aligned	roberta-base	 back to the <unk> shaking his head in disbelief	 mon	</s>	18.01835823059082	0.22062085568904877	1.4952929561218298e-08	0.9495258331298828	10
+341	vinny_align	aligned	roberta-base	 to the <unk> shaking his head in disbelief mon	a	</s>	14.271231651306152	0.0006920960731804371	6.339903961816162e-07	0.9999567270278931	10
+342	vinny_align	aligned	roberta-base	 the <unk> shaking his head in disbelief mona	 picked	</s>	19.607084274291992	0.12809166312217712	3.053174379985535e-09	0.9778661131858826	10
+343	vinny_align	aligned	roberta-base	 <unk> shaking his head in disbelief mona picked	 at	</s>	12.455479621887207	0.0409134104847908	3.896313046425348e-06	0.994515061378479	10
+344	vinny_align	aligned	roberta-base	<unk> shaking his head in disbelief mona picked at	 her	</s>	10.555971145629883	0.01361605804413557	2.6037530915345997e-05	0.9990482926368713	10
+345	vinny_align	aligned	roberta-base	 shaking his head in disbelief mona picked at her	 nails	</s>	28.160953521728516	0.012212878093123436	5.886443676245134e-13	0.9985393285751343	10
+346	vinny_align	aligned	roberta-base	 his head in disbelief mona picked at her nails	 and	</s>	14.694985389709473	0.014843015931546688	4.150008692249685e-07	0.9981327652931213	10
+347	vinny_align	aligned	roberta-base	 head in disbelief mona picked at her nails and	 then	</s>	16.690540313720703	0.0026302055921405554	5.641444289494757e-08	0.999829888343811	10
+348	vinny_align	aligned	roberta-base	 in disbelief mona picked at her nails and then	 looked	</s>	16.264183044433594	0.0011076772352680564	8.640814996851987e-08	0.9999285936355591	10
+349	vinny_align	aligned	roberta-base	 disbelief mona picked at her nails and then looked	 over	</s>	15.274421691894531	0.0031505536753684282	2.3248928471275576e-07	0.9997749924659729	10
+350	vinny_align	aligned	roberta-base	 mona picked at her nails and then looked over	 at	</s>	11.739770889282227	0.053567178547382355	7.970437764015514e-06	0.9916954636573792	10
+351	vinny_align	aligned	roberta-base	a picked at her nails and then looked over at	 v	</s>	14.477438926696777	0.017800169065594673	5.158557314643986e-07	0.9985278844833374	10
+352	vinny_align	aligned	roberta-base	 picked at her nails and then looked over at v	in	</s>	15.29386043548584	0.06311026960611343	2.2801360444191232e-07	0.9892839789390564	10
+353	vinny_align	aligned	roberta-base	 at her nails and then looked over at vin	ny	</s>	19.20997428894043	0.10391293466091156	4.541653719769556e-09	0.979956865310669	10
+354	vinny_align	aligned	roberta-base	 her nails and then looked over at vinny	 you	</s>	15.023848533630371	0.10375850647687912	2.986933793636126e-07	0.9810242652893066	10
+355	vinny_align	aligned	roberta-base	 nails and then looked over at vinny you	've	</s>	15.970500946044922	0.12900154292583466	1.1590431370223087e-07	0.9744689464569092	10
+356	vinny_align	aligned	roberta-base	 and then looked over at vinny you've	 got	</s>	13.826833724975586	0.07263912260532379	9.887402256936184e-07	0.9885151982307434	10
+357	vinny_align	aligned	roberta-base	 then looked over at vinny you've got	 one	</s>	15.35090446472168	0.06395424902439117	2.1537074701427628e-07	0.9895526766777039	10
+358	vinny_align	aligned	roberta-base	 looked over at vinny you've got one	 huge	</s>	21.89625358581543	0.03717036917805672	3.0944122264564555e-10	0.9944068193435669	10
+359	vinny_align	aligned	roberta-base	 over at vinny you've got one huge	 responsibility	</s>	20.133651733398438	0.020349904894828796	1.8032910720222617e-09	0.9985792636871338	10
+360	vinny_align	aligned	roberta-base	 at vinny you've got one huge responsibility	 taking	</s>	24.428524017333984	0.02026054821908474	2.4593863404143157e-11	0.9971029162406921	10
+361	vinny_align	aligned	roberta-base	 vinny you've got one huge responsibility taking	 on	</s>	14.840677261352539	0.046938568353652954	3.587364858503861e-07	0.9922232031822205	10
+362	vinny_align	aligned	roberta-base	inny you've got one huge responsibility taking on	 this	</s>	18.942096710205078	0.014726826921105385	5.936789282401378e-09	0.9980747699737549	10
+363	vinny_align	aligned	roberta-base	ny you've got one huge responsibility taking on this	 murder	</s>	22.885459899902344	0.10256390273571014	1.1507228503404576e-10	0.979274332523346	10
+364	vinny_align	aligned	roberta-base	 you've got one huge responsibility taking on this murder	 case	</s>	20.725893020629883	0.03713159263134003	9.973766257331818e-10	0.9941089153289795	10
+365	vinny_align	aligned	roberta-base	've got one huge responsibility taking on this murder case	 you	</s>	14.789810180664062	0.05195191875100136	3.7745658687526884e-07	0.9914072155952454	10
+366	vinny_align	aligned	roberta-base	 got one huge responsibility taking on this murder case you	 screw	</s>	20.610288619995117	0.11001824587583542	1.1196056304285662e-09	0.9779528975486755	10
+367	vinny_align	aligned	roberta-base	 one huge responsibility taking on this murder case you screw	 up	</s>	12.691108703613281	0.09382882714271545	3.07837422042212e-06	0.9833364486694336	10
+368	vinny_align	aligned	roberta-base	 huge responsibility taking on this murder case you screw up	 and	</s>	13.25991153717041	0.035704899579286575	1.7429850913686096e-06	0.9948834776878357	10
+369	vinny_align	aligned	roberta-base	 responsibility taking on this murder case you screw up and	 those	</s>	16.263769149780273	0.04130041226744652	8.644403948210311e-08	0.9949759244918823	10
+370	vinny_align	aligned	roberta-base	 taking on this murder case you screw up and those	 boys	</s>	14.171834945678711	0.02235335297882557	7.002453799032082e-07	0.9984161853790283	10
+371	vinny_align	aligned	roberta-base	 on this murder case you screw up and those boys	 get	</s>	14.644145011901855	0.02116043120622635	4.3664502413776063e-07	0.9975090026855469	10
+372	vinny_align	aligned	roberta-base	 this murder case you screw up and those boys get	 fried	</s>	10.278904914855957	0.5847312211990356	3.435013786656782e-05	0.9266324639320374	10
+373	vinny_align	aligned	roberta-base	 murder case you screw up and those boys get fried	 v	</s>	23.969751358032227	0.00993080623447895	3.891072880568558e-11	0.998814582824707	10
+374	vinny_align	aligned	roberta-base	 case you screw up and those boys get fried v	in	</s>	14.335702896118164	0.036225326359272	5.944064582763531e-07	0.9947821497917175	10
+375	vinny_align	aligned	roberta-base	 you screw up and those boys get fried vin	ny	</s>	16.10487174987793	0.12460049241781235	1.0133107508636385e-07	0.9758732318878174	10
+376	vinny_align	aligned	roberta-base	 screw up and those boys get fried vinny	 turned	</s>	17.90568733215332	0.04417920485138893	1.6736265706640552e-08	0.9935752749443054	10
+377	vinny_align	aligned	roberta-base	 up and those boys get fried vinny turned	 to	</s>	9.55102252960205	0.09597084671258926	7.112846651580185e-05	0.9848378896713257	10
+378	vinny_align	aligned	roberta-base	 and those boys get fried vinny turned to	 her	</s>	14.186365127563477	0.057601116597652435	6.901446454321558e-07	0.9919903874397278	10
+379	vinny_align	aligned	roberta-base	 those boys get fried vinny turned to her	 annoyed	</s>	23.095582962036133	0.0577850416302681	9.326431293921189e-11	0.9916459918022156	10
+380	vinny_align	aligned	roberta-base	 boys get fried vinny turned to her annoyed	 i	</s>	17.333528518676758	0.045417241752147675	2.965814438482539e-08	0.9938708543777466	10
+381	vinny_align	aligned	roberta-base	 get fried vinny turned to her annoyed i	 know	</s>	15.37118148803711	0.07815717160701752	2.1104776237734768e-07	0.9886853694915771	10
+382	vinny_align	aligned	roberta-base	 fried vinny turned to her annoyed i know	 so	</s>	15.663576126098633	0.05605245754122734	1.5754163484871242e-07	0.9912286996841431	10
+383	vinny_align	aligned	roberta-base	 vinny turned to her annoyed i know so	 you	</s>	11.67270278930664	0.015443201176822186	8.52333596412791e-06	0.9988144636154175	10
+384	vinny_align	aligned	roberta-base	inny turned to her annoyed i know so you	 think	</s>	11.412659645080566	0.04023796319961548	1.1054648894059937e-05	0.9965851306915283	10
+385	vinny_align	aligned	roberta-base	ny turned to her annoyed i know so you think	 you	</s>	8.7108154296875	0.046576984226703644	0.00016479380428791046	0.9956074357032776	10
+386	vinny_align	aligned	roberta-base	 turned to her annoyed i know so you think you	 know	</s>	14.0094633102417	0.0475076362490654	8.236966095864773e-07	0.993669331073761	10
+387	vinny_align	aligned	roberta-base	 to her annoyed i know so you think you know	 what	</s>	15.705353736877441	0.028967734426259995	1.5109546325220435e-07	0.9960203766822815	10
+388	vinny_align	aligned	roberta-base	 her annoyed i know so you think you know what	 you	</s>	11.489123344421387	0.0026974515058100224	1.02408730526804e-05	0.9998204112052917	10
+389	vinny_align	aligned	roberta-base	 annoyed i know so you think you know what you	're	</s>	13.555713653564453	0.007149035576730967	1.2966662552571506e-06	0.9994819760322571	10
+390	vinny_align	aligned	roberta-base	 i know so you think you know what you're	 doing	</s>	7.964210510253906	0.012365886010229588	0.0003476860874798149	0.9989343285560608	10
+391	vinny_align	aligned	roberta-base	 know so you think you know what you're doing	 yeah	</s>	24.899044036865234	0.017025165259838104	1.5363241928634253e-11	0.9976383447647095	10
+392	vinny_align	aligned	roberta-base	 so you think you know what you're doing yeah	 i	</s>	19.72089958190918	0.03086172044277191	2.7247211153991202e-09	0.9953091740608215	10
+393	vinny_align	aligned	roberta-base	 you think you know what you're doing yeah i	 think	</s>	13.17355728149414	0.05720493942499161	1.9001892042069812e-06	0.9903878569602966	10
+394	vinny_align	aligned	roberta-base	 think you know what you're doing yeah i think	 i	</s>	14.652162551879883	0.11907272785902023	4.3315850462022354e-07	0.9750707745552063	10
+395	vinny_align	aligned	roberta-base	 you know what you're doing yeah i think i	 know	</s>	14.178122520446777	0.0008767314720898867	6.958564995329652e-07	0.9999401569366455	10
+396	vinny_align	aligned	roberta-base	 know what you're doing yeah i think i know	 what	</s>	16.061588287353516	0.16857174038887024	1.0581340603721401e-07	0.9607662558555603	10
+397	vinny_align	aligned	roberta-base	 what you're doing yeah i think i know what	 i	</s>	15.304276466369629	0.0003180998901370913	2.256508793152534e-07	0.9999815225601196	10
+398	vinny_align	aligned	roberta-base	 you're doing yeah i think i know what i	'm	</s>	7.835116863250732	0.09010345488786697	0.0003955960273742676	0.9908074736595154	10
+399	vinny_align	aligned	roberta-base	're doing yeah i think i know what i'm	 doing	</s>	4.082784652709961	0.3062865138053894	0.016860447824001312	0.9544232487678528	10
+400	vinny_align	aligned	roberta-base	 doing yeah i think i know what i'm doing	 she	</s>	19.867809295654297	0.02719343639910221	2.352449790521405e-09	0.9962806105613708	10
+401	vinny_align	aligned	roberta-base	 yeah i think i know what i'm doing she	 held	</s>	20.412267684936523	0.0009446413605473936	1.3647862839860636e-09	0.9999366998672485	10
+402	vinny_align	aligned	roberta-base	 i think i know what i'm doing she held	 up	</s>	16.51889419555664	0.08381129801273346	6.697846544057029e-08	0.9839797019958496	10
+403	vinny_align	aligned	roberta-base	 think i know what i'm doing she held up	 her	</s>	14.788070678710938	0.032844118773937225	3.781138957492658e-07	0.9948845505714417	10
+404	vinny_align	aligned	roberta-base	 i know what i'm doing she held up her	 hands	</s>	18.849470138549805	0.04450392350554466	6.512975048167391e-09	0.9931482672691345	10
+405	vinny_align	aligned	roberta-base	 know what i'm doing she held up her hands	 because	</s>	17.26659393310547	0.049942631274461746	3.171129492329783e-08	0.9917325973510742	10
+406	vinny_align	aligned	roberta-base	 what i'm doing she held up her hands because	 you	</s>	12.790367126464844	0.004875268321484327	2.7874941679328913e-06	0.9996334314346313	10
+407	vinny_align	aligned	roberta-base	 i'm doing she held up her hands because you	 didn	</s>	9.308683395385742	0.16728854179382324	9.063381003215909e-05	0.9833095669746399	10
+408	vinny_align	aligned	roberta-base	'm doing she held up her hands because you didn	't	't	0.6917446851730347	1.3051179647445679	0.5007017850875854	0.5007017850875854	10
+409	vinny_align	aligned	roberta-base	 doing she held up her hands because you didn't	 look	</s>	23.57974624633789	2.2318423361866735e-05	5.7470635889123045e-11	0.9999992847442627	10
+410	vinny_align	aligned	roberta-base	 she held up her hands because you didn't look	 like	</s>	10.954596519470215	0.007983810268342495	1.7477488654549234e-05	0.9994008541107178	10
+411	vinny_align	aligned	roberta-base	 held up her hands because you didn't look like	 you	</s>	14.513822555541992	0.045658133924007416	4.974244234290381e-07	0.9928476810455322	10
+412	vinny_align	aligned	roberta-base	 up her hands because you didn't look like you	 knew	</s>	17.46906852722168	0.031679667532444	2.5898824418391087e-08	0.9956780076026917	10
+413	vinny_align	aligned	roberta-base	 her hands because you didn't look like you knew	 what	</s>	16.39301300048828	0.029642730951309204	7.59635554459237e-08	0.995754599571228	10
+414	vinny_align	aligned	roberta-base	 hands because you didn't look like you knew what	 you	</s>	14.83349323272705	0.0005929815233685076	3.6132306036051887e-07	0.9999655485153198	10
+415	vinny_align	aligned	roberta-base	 because you didn't look like you knew what you	 were	</s>	8.522397994995117	0.007072928361594677	0.00019896180310752243	0.9994072914123535	10
+416	vinny_align	aligned	roberta-base	 you didn't look like you knew what you were	 doing	</s>	18.92190933227539	0.03874814510345459	6.057855994612282e-09	0.993980884552002	10
+417	vinny_align	aligned	roberta-base	 didn't look like you knew what you were doing	 today	</s>	21.384212493896484	0.09127305448055267	5.163618421732963e-10	0.9823873043060303	10
+418	vinny_align	aligned	roberta-base	't look like you knew what you were doing today	 in	</s>	15.121825218200684	0.04350636154413223	2.70816286729314e-07	0.9929895401000977	10
+419	vinny_align	aligned	roberta-base	 look like you knew what you were doing today in	 that	</s>	15.448500633239746	0.033401984721422195	1.9534468265192118e-07	0.9953638315200806	10
+420	vinny_align	aligned	roberta-base	 like you knew what you were doing today in that	 courtroom	</s>	24.80202293395996	0.07867825031280518	1.6928495064072457e-11	0.9867110848426819	10
+421	vinny_align	aligned	roberta-base	 you knew what you were doing today in that courtroom	 why	</s>	17.751827239990234	0.054002098739147186	1.951998029880997e-08	0.9917542934417725	10
+422	vinny_align	aligned	roberta-base	 knew what you were doing today in that courtroom why	 is	</s>	15.854166984558105	0.0358877032995224	1.3020347466863313e-07	0.9949777722358704	10
+423	vinny_align	aligned	roberta-base	 what you were doing today in that courtroom why is	 that	</s>	8.353676795959473	0.024301830679178238	0.0002355288597755134	0.9977496266365051	10
+424	vinny_align	aligned	roberta-base	 you were doing today in that courtroom why is that	 v	</s>	16.36211395263672	0.05839468911290169	7.83472984267064e-08	0.9915441274642944	10
+425	vinny_align	aligned	roberta-base	 were doing today in that courtroom why is that v	in	</s>	12.910550117492676	0.049815867096185684	2.4718335680518067e-06	0.9933377504348755	10
+426	vinny_align	aligned	roberta-base	 doing today in that courtroom why is that vin	ny	</s>	17.557174682617188	0.07206326723098755	2.3714624930448736e-08	0.9890840649604797	10
+427	vinny_align	aligned	roberta-base	 today in that courtroom why is that vinny	 shrugged	</s>	23.333602905273438	0.04031725600361824	7.350971220621005e-11	0.9947981834411621	10
+428	vinny_align	aligned	roberta-base	 in that courtroom why is that vinny shrugged	 well	</s>	15.106562614440918	0.04794012010097504	2.7498134613779257e-07	0.9940904974937439	10
+429	vinny_align	aligned	roberta-base	 that courtroom why is that vinny shrugged well	 it	</s>	13.333148956298828	0.0180592592805624	1.6198960111069027e-06	0.9979358911514282	10
+430	vinny_align	aligned	roberta-base	 courtroom why is that vinny shrugged well it	's	</s>	11.168883323669434	0.04366941377520561	1.410638742527226e-05	0.9946560859680176	10
+431	vinny_align	aligned	roberta-base	 why is that vinny shrugged well it's	 a	</s>	14.356046676635742	0.04280362278223038	5.824356890116178e-07	0.993772566318512	10
+432	vinny_align	aligned	roberta-base	 is that vinny shrugged well it's a	 lot	</s>	16.46486473083496	0.0015620461199432611	7.069682084193118e-08	0.9998965263366699	10
+433	vinny_align	aligned	roberta-base	 that vinny shrugged well it's a lot	 of	</s>	13.799416542053223	0.01769156940281391	1.01622447346017e-06	0.9976636171340942	10
+434	vinny_align	aligned	roberta-base	 vinny shrugged well it's a lot of	 procedure	</s>	25.116500854492188	0.02544279955327511	1.2360680187728512e-11	0.9963371753692627	10
+435	vinny_align	aligned	roberta-base	inny shrugged well it's a lot of procedure	 is	</s>	16.657512664794922	0.013810144737362862	5.8308810224616536e-08	0.9983038902282715	10
+436	vinny_align	aligned	roberta-base	ny shrugged well it's a lot of procedure is	 all	</s>	12.425830841064453	0.003891916247084737	4.013564193883212e-06	0.9997395873069763	10
+437	vinny_align	aligned	roberta-base	 shrugged well it's a lot of procedure is all	 it	</s>	13.1580228805542	0.0009084671619348228	1.9299368432257324e-06	0.999942421913147	10
+438	vinny_align	aligned	roberta-base	 well it's a lot of procedure is all it	's	</s>	17.264562606811523	0.0001408554962836206	3.177574470214495e-08	0.9999923706054688	10
+439	vinny_align	aligned	roberta-base	 it's a lot of procedure is all it's	 my	</s>	16.85541534423828	0.0019932487048208714	4.783944618225178e-08	0.9998722076416016	10
+440	vinny_align	aligned	roberta-base	's a lot of procedure is all it's my	 first	</s>	13.873717308044434	0.039718061685562134	9.434550634068728e-07	0.997138500213623	10
+441	vinny_align	aligned	roberta-base	 a lot of procedure is all it's my first	 trial	</s>	20.613758087158203	0.0530153289437294	1.1157285095819702e-09	0.9921591281890869	10
+442	vinny_align	aligned	roberta-base	 lot of procedure is all it's my first trial	 case	</s>	16.875885009765625	0.05295272916555405	4.687015575655096e-08	0.9916260242462158	10
+443	vinny_align	aligned	roberta-base	 of procedure is all it's my first trial case	 i	</s>	15.971061706542969	0.046959731727838516	1.1583931325276353e-07	0.992698609828949	10
+444	vinny_align	aligned	roberta-base	 procedure is all it's my first trial case i	'll	</s>	16.372514724731445	0.09600561857223511	7.753673969546071e-08	0.9832249879837036	10
+445	vinny_align	aligned	roberta-base	 is all it's my first trial case i'll	 learn	</s>	15.147873878479004	0.005067992489784956	2.638530247622839e-07	0.9996330738067627	10
+446	vinny_align	aligned	roberta-base	 all it's my first trial case i'll learn	 as	</s>	15.588495254516602	0.07355242222547531	1.6982532713427645e-07	0.9868924021720886	10
+447	vinny_align	aligned	roberta-base	 it's my first trial case i'll learn as	 i	</s>	10.71033763885498	0.004340645391494036	2.2313066438073292e-05	0.9997087121009827	10
+448	vinny_align	aligned	roberta-base	's my first trial case i'll learn as i	 go	</s>	14.392845153808594	0.052602700889110565	5.613927100966976e-07	0.9918489456176758	10
+449	vinny_align	aligned	roberta-base	 my first trial case i'll learn as i go	 the	</s>	13.516314506530762	0.07007724791765213	1.348774731013691e-06	0.9875539541244507	10
+450	vinny_align	aligned	roberta-base	 first trial case i'll learn as i go the	 cook	</s>	21.5279598236084	0.000774042506236583	4.472249237608139e-10	0.999956488609314	10
+451	vinny_align	aligned	roberta-base	 trial case i'll learn as i go the cook	 placed	</s>	21.65327262878418	0.060129810124635696	3.9455094746898567e-10	0.989922821521759	10
+452	vinny_align	aligned	roberta-base	 case i'll learn as i go the cook placed	 two	</s>	16.397918701171875	0.045658186078071594	7.559170001059101e-08	0.9928003549575806	10
+453	vinny_align	aligned	roberta-base	 i'll learn as i go the cook placed two	 plates	</s>	22.99051284790039	0.026983534917235374	1.0359691576811159e-10	0.9961860775947571	10
+454	vinny_align	aligned	roberta-base	'll learn as i go the cook placed two plates	 in	</s>	12.976093292236328	0.10644079744815826	2.315017809451092e-06	0.9793368577957153	10
+455	vinny_align	aligned	roberta-base	 learn as i go the cook placed two plates in	 front	</s>	20.212120056152344	0.20158439874649048	1.6672014879759445e-09	0.9523672461509705	10
+456	vinny_align	aligned	roberta-base	 as i go the cook placed two plates in front	 of	</s>	10.03239917755127	0.19153763353824615	4.395257928990759e-05	0.9572252631187439	10
+457	vinny_align	aligned	roberta-base	 i go the cook placed two plates in front of	 them	</s>	6.844027996063232	0.11459961533546448	0.0010658018290996552	0.9880693554878235	10
+458	vinny_align	aligned	roberta-base	 go the cook placed two plates in front of them	 covered	</s>	23.734657287597656	0.06349274516105652	4.922315333111271e-11	0.9891476631164551	10
+459	vinny_align	aligned	roberta-base	 the cook placed two plates in front of them covered	 in	</s>	13.368298530578613	0.046537090092897415	1.563946398164262e-06	0.9932378530502319	10
+460	vinny_align	aligned	roberta-base	 cook placed two plates in front of them covered in	 bacon	</s>	22.94066619873047	0.017958680167794228	1.0889189550056244e-10	0.9978076815605164	10
+461	vinny_align	aligned	roberta-base	 placed two plates in front of them covered in bacon	 eggs	</s>	22.3939266204834	0.023193426430225372	1.881225453193025e-10	0.9969956874847412	10
+462	vinny_align	aligned	roberta-base	 two plates in front of them covered in bacon eggs	 and	</s>	14.155208587646484	0.021970344707369804	7.119854785742064e-07	0.9970910549163818	10
+463	vinny_align	aligned	roberta-base	 plates in front of them covered in bacon eggs and	 a	</s>	13.912114143371582	0.001139193307608366	9.079154210667184e-07	0.9999346733093262	10
+464	vinny_align	aligned	roberta-base	 in front of them covered in bacon eggs and a	 pile	</s>	20.160560607910156	0.0018838639371097088	1.7554133702191166e-09	0.9998847246170044	10
+465	vinny_align	aligned	roberta-base	 front of them covered in bacon eggs and a pile	 of	</s>	9.97718334197998	0.062433015555143356	4.644773434847593e-05	0.990925669670105	10
+466	vinny_align	aligned	roberta-base	 of them covered in bacon eggs and a pile of	 some	</s>	13.985705375671387	0.009037134237587452	8.435007430307451e-07	0.9994015693664551	10
+467	vinny_align	aligned	roberta-base	 them covered in bacon eggs and a pile of some	 kind	</s>	14.763506889343262	0.03928113728761673	3.8751673514525464e-07	0.994252622127533	10
+468	vinny_align	aligned	roberta-base	 covered in bacon eggs and a pile of some kind	 of	</s>	10.319853782653809	0.06744367629289627	3.297193688922562e-05	0.9897833466529846	10
+469	vinny_align	aligned	roberta-base	 in bacon eggs and a pile of some kind of	 white	</s>	19.89029312133789	8.674054697621614e-05	2.3001447413406595e-09	0.9999955892562866	10
+470	vinny_align	aligned	roberta-base	 bacon eggs and a pile of some kind of white	 por	</s>	21.833511352539062	0.0009733219631016254	3.294777228823875e-10	0.9999418258666992	10
+471	vinny_align	aligned	roberta-base	 eggs and a pile of some kind of white por	ridge	</s>	20.3475341796875	0.029252901673316956	1.4560573857735903e-09	0.9961876273155212	10
+472	vinny_align	aligned	roberta-base	 and a pile of some kind of white porridge	 v	</s>	21.017162322998047	0.026210715994238853	7.453536676749195e-10	0.996411144733429	10
+473	vinny_align	aligned	roberta-base	 a pile of some kind of white porridge v	in	</s>	14.06943416595459	0.049998145550489426	7.757508910799515e-07	0.9928699135780334	10
+474	vinny_align	aligned	roberta-base	 pile of some kind of white porridge vin	ny	</s>	17.837661743164062	0.09214136004447937	1.7914381089667586e-08	0.9841131567955017	10
+475	vinny_align	aligned	roberta-base	 of some kind of white porridge vinny	 poked	</s>	21.839282989501953	0.03927244991064072	3.275818505343864e-10	0.9942334294319153	10
+476	vinny_align	aligned	roberta-base	 some kind of white porridge vinny poked	 at	</s>	12.4617338180542	0.04569769278168678	3.872020442940993e-06	0.9934836030006409	10
+477	vinny_align	aligned	roberta-base	 kind of white porridge vinny poked at	 it	</s>	13.201211929321289	0.022128058597445488	1.848359943323885e-06	0.9972629547119141	10
+478	vinny_align	aligned	roberta-base	 of white porridge vinny poked at it	 with	</s>	11.735554695129395	0.06498643755912781	8.004115443327464e-06	0.9900410771369934	10
+479	vinny_align	aligned	roberta-base	 white porridge vinny poked at it with	 his	</s>	13.276905059814453	0.004331466741859913	1.7136151200247696e-06	0.9997251629829407	10
+480	vinny_align	aligned	roberta-base	 porridge vinny poked at it with his	 fork	</s>	20.467222213745117	0.00041419354965910316	1.2918093261760077e-09	0.9999773502349854	10
+481	vinny_align	aligned	roberta-base	ridge vinny poked at it with his fork	 what	</s>	24.39338493347168	3.090842074016109e-05	2.547344973846677e-11	0.9999985694885254	10
+482	vinny_align	aligned	roberta-base	 vinny poked at it with his fork what	's	</s>	18.208494186401367	0.00016744241293054074	1.2363790879987846e-08	0.9999909400939941	10
+483	vinny_align	aligned	roberta-base	inny poked at it with his fork what's	 this	</s>	13.911320686340332	0.003777036676183343	9.086368777388998e-07	0.9997410178184509	10
+484	vinny_align	aligned	roberta-base	ny poked at it with his fork what's this	 over	</s>	20.06856346130371	0.012089701369404793	1.9245705029646842e-09	0.998624324798584	10
+485	vinny_align	aligned	roberta-base	 poked at it with his fork what's this over	 here	</s>	16.809473037719727	0.028019297868013382	5.008859460531312e-08	0.9966777563095093	10
+486	vinny_align	aligned	roberta-base	 at it with his fork what's this over here	 the	</s>	14.055254936218262	0.031301349401474	7.868287639212213e-07	0.9957326054573059	10
+487	vinny_align	aligned	roberta-base	 it with his fork what's this over here the	 cook	</s>	16.06899070739746	0.00890829972922802	1.0503304537223812e-07	0.9994164705276489	10
+488	vinny_align	aligned	roberta-base	 with his fork what's this over here the cook	 looked	</s>	20.736745834350586	0.014613738283514977	9.866105710187867e-10	0.9982563853263855	10
+489	vinny_align	aligned	roberta-base	 his fork what's this over here the cook looked	 at	</s>	12.637022972106934	0.014849873259663582	3.2494572224095464e-06	0.9983299374580383	10
+490	vinny_align	aligned	roberta-base	 fork what's this over here the cook looked at	 him	</s>	14.577621459960938	0.02520018443465233	4.666800919039815e-07	0.9967737793922424	10
+491	vinny_align	aligned	roberta-base	 what's this over here the cook looked at him	 in	</s>	12.276126861572266	0.046178605407476425	4.661717412091093e-06	0.99393230676651	10
+492	vinny_align	aligned	roberta-base	's this over here the cook looked at him in	 disbelief	</s>	20.465341567993164	0.05330372229218483	1.2942410476668442e-09	0.9924660921096802	10
+493	vinny_align	aligned	roberta-base	 this over here the cook looked at him in disbelief	 you	</s>	16.291540145874023	0.034179557114839554	8.407640450514009e-08	0.9949907660484314	10
+494	vinny_align	aligned	roberta-base	 over here the cook looked at him in disbelief you	've	</s>	18.12226676940918	0.07874339073896408	1.3477195359712368e-08	0.9858587384223938	10
+495	vinny_align	aligned	roberta-base	 here the cook looked at him in disbelief you've	 never	</s>	16.785940170288086	0.005419393070042133	5.128122992914541e-08	0.9996291399002075	10
+496	vinny_align	aligned	roberta-base	 the cook looked at him in disbelief you've never	 heard	</s>	13.935371398925781	0.0012549669481813908	8.870437113728258e-07	0.9999178647994995	10
+497	vinny_align	aligned	roberta-base	 cook looked at him in disbelief you've never heard	 of	</s>	12.137956619262695	0.023530421778559685	5.352449534257175e-06	0.9966927766799927	10
+498	vinny_align	aligned	roberta-base	 looked at him in disbelief you've never heard of	 grit	</s>	23.830562591552734	0.02327480912208557	4.472169509717183e-11	0.9967800974845886	10
+499	vinny_align	aligned	roberta-base	 at him in disbelief you've never heard of grit	s	</s>	15.126524925231934	0.015825437381863594	2.69546433173673e-07	0.9980113506317139	10
+500	vinny_align	aligned	roberta-base	 him in disbelief you've never heard of grits	 sure	</s>	17.72582244873047	0.021328231319785118	2.003426757823945e-08	0.9971514344215393	10
+501	vinny_align	aligned	roberta-base	 in disbelief you've never heard of grits sure	 sure	</s>	15.517646789550781	0.03191255405545235	1.822937463202834e-07	0.9958071708679199	10
+502	vinny_align	aligned	roberta-base	 disbelief you've never heard of grits sure sure	 i	</s>	17.653186798095703	0.03636816889047623	2.154361489203893e-08	0.9948638081550598	10
+503	vinny_align	aligned	roberta-base	 you've never heard of grits sure sure i	've	</s>	11.179365158081055	0.03841816633939743	1.395928757119691e-05	0.9966340661048889	10
+504	vinny_align	aligned	roberta-base	've never heard of grits sure sure i've	 heard	</s>	14.498384475708008	0.003278313670307398	5.051629727859108e-07	0.9997861981391907	10
+505	vinny_align	aligned	roberta-base	 never heard of grits sure sure i've heard	 of	</s>	10.039106369018555	0.06565476953983307	4.3658772483468056e-05	0.9903717041015625	10
+506	vinny_align	aligned	roberta-base	 heard of grits sure sure i've heard of	 grit	</s>	15.135972023010254	0.20475025475025177	2.670120977654733e-07	0.9799787402153015	10
+507	vinny_align	aligned	roberta-base	 of grits sure sure i've heard of grit	s	</s>	11.435322761535645	0.10135554522275925	1.0806928003148641e-05	0.9827971458435059	10
+508	vinny_align	aligned	roberta-base	 grits sure sure i've heard of grits	 i	</s>	12.707263946533203	0.1626621037721634	3.029042090929579e-06	0.9685455560684204	10
+509	vinny_align	aligned	roberta-base	s sure sure i've heard of grits i	've	</s>	11.649336814880371	0.04293694347143173	8.724840881768614e-06	0.996040940284729	10
+510	vinny_align	aligned	roberta-base	 sure sure i've heard of grits i've	 just	</s>	15.145211219787598	0.010268903337419033	2.645565473358147e-07	0.99925297498703	10
+511	vinny_align	aligned	roberta-base	 sure i've heard of grits i've just	 never	</s>	15.762720108032227	0.002084979321807623	1.426716380592552e-07	0.9998655319213867	10
+512	vinny_align	aligned	roberta-base	 i've heard of grits i've just never	 actually	</s>	19.558900833129883	0.0012790870387107134	3.2038884878460294e-09	0.9999182224273682	10
+513	vinny_align	aligned	roberta-base	've heard of grits i've just never actually	 seen	</s>	16.28895378112793	0.001652889302931726	8.429406506138548e-08	0.9998944997787476	10
+514	vinny_align	aligned	roberta-base	 heard of grits i've just never actually seen	 a	</s>	13.339500427246094	0.09442699700593948	1.6096395256681717e-06	0.983233630657196	10
+515	vinny_align	aligned	roberta-base	 of grits i've just never actually seen a	 grit	</s>	21.727632522583008	0.0017619975842535496	3.6627625932261765e-10	0.999894380569458	10
+516	vinny_align	aligned	roberta-base	 grits i've just never actually seen a grit	 before	</s>	13.478357315063477	0.11355257034301758	1.4009533515491057e-06	0.9778283834457397	10
+517	vinny_align	aligned	roberta-base	s i've just never actually seen a grit before	 go	</s>	18.16745376586914	0.0715121477842331	1.2881765876215923e-08	0.9870203733444214	10
+518	vinny_align	aligned	roberta-base	 i've just never actually seen a grit before go	 ahead	</s>	21.33025360107422	0.04262098670005798	5.449897755305244e-10	0.9932625889778137	10
+519	vinny_align	aligned	roberta-base	've just never actually seen a grit before go ahead	 honey	</s>	24.958166122436523	0.03180814906954765	1.4481265145360744e-11	0.9953253269195557	10
+520	vinny_align	aligned	roberta-base	 just never actually seen a grit before go ahead honey	 aren	</s>	22.233736038208008	0.018319780007004738	2.2080604011875948e-10	0.9976410865783691	10
+521	vinny_align	aligned	roberta-base	 never actually seen a grit before go ahead honey aren	't	</s>	3.761946439743042	0.17427903413772583	0.023238463327288628	0.9712172150611877	10
+522	vinny_align	aligned	roberta-base	 actually seen a grit before go ahead honey aren't	 you	</s>	11.800161361694336	0.04095152020454407	7.503349479520693e-06	0.9945165514945984	10
+523	vinny_align	aligned	roberta-base	 seen a grit before go ahead honey aren't you	 going	</s>	19.194568634033203	0.03402523323893547	4.612159987260611e-09	0.995591402053833	10
+524	vinny_align	aligned	roberta-base	 a grit before go ahead honey aren't you going	 to	</s>	4.243020534515381	0.156937375664711	0.01436414010822773	0.9774617552757263	10
+525	vinny_align	aligned	roberta-base	 grit before go ahead honey aren't you going to	 try	</s>	17.796537399291992	0.00026085233548656106	1.866647103554442e-08	0.9999833106994629	10
+526	vinny_align	aligned	roberta-base	 before go ahead honey aren't you going to try	 it	</s>	17.527387619018555	0.006188480649143457	2.4431630052390574e-08	0.9993101358413696	10
+527	vinny_align	aligned	roberta-base	 go ahead honey aren't you going to try it	 you	</s>	15.518613815307617	0.007812066003680229	1.8211751751096017e-07	0.9991279244422913	10
+528	vinny_align	aligned	roberta-base	 ahead honey aren't you going to try it you	 first	</s>	16.35613441467285	0.03230798617005348	7.881718744329191e-08	0.9953261613845825	10
+529	vinny_align	aligned	roberta-base	 honey aren't you going to try it you first	 she	</s>	16.045692443847656	0.029067248106002808	1.0750883916443854e-07	0.9959681034088135	10
+530	vinny_align	aligned	roberta-base	 aren't you going to try it you first she	 said	</s>	7.9503021240234375	0.03622300550341606	0.0003525556530803442	0.9969757795333862	10
+531	vinny_align	aligned	roberta-base	't you going to try it you first she said	 with	</s>	14.565449714660645	0.03934455290436745	4.723953566099226e-07	0.9941417574882507	10
+532	vinny_align	aligned	roberta-base	 you going to try it you first she said with	 a	</s>	12.75683879852295	0.007095517124980688	2.882540229620645e-06	0.9994576573371887	10
+533	vinny_align	aligned	roberta-base	 going to try it you first she said with a	 smile	</s>	6.499181747436523	0.12063319981098175	0.0015046698972582817	0.9887012243270874	10

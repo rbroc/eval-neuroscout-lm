@@ -29,7 +29,7 @@ class StridingMLM:
                      for i_s, i_e in zip(i_start,i_end)]
         return split_tks
     
-    def _preprocess(self, text, tokenizer, gpu=0):
+    def _preprocess(self, text, tokenizer, gpu):
         tokenized = tokenizer(text, return_tensors='pt').to(device=f'cuda:{str(gpu)}')
         tokenized_lst = self._split(tokenized)
         return tokenized_lst
@@ -57,11 +57,11 @@ class StridingMLM:
         return top_token, loss, entr, prob_true, prob_predicted
         
     def run(self, dataset, tokenizer, model,
-            model_name):
+            model_name, gpu=0):
         time.sleep(.5)
         results = []
         tokenized_lst = self._preprocess(dataset.text, 
-                                         tokenizer)
+                                         tokenizer, gpu)
         print(f'Running {model_name}, '
               f'{dataset.name}, {self.context_length}, '
               f'{len(tokenized_lst)}')
@@ -91,7 +91,7 @@ class StridingForwardLM(StridingMLM):
         input_ids = list_item[:,:-1].clone()
         target_ids = input_ids.clone()
         target_ids[:,:-1] = -100
-        ctx = tokenizer.decode(input_ids[0][:-1])
+        ctx = tokenizer.decode(input_ids[0])
         wd_id = list_item[0,-1]
         wd = tokenizer.decode(wd_id)
         return input_ids, target_ids, ctx, wd, wd_id

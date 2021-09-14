@@ -1,517 +1,516 @@
 	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
 0	himym_align	aligned	roberta-base	<s>barney and quinn walked into the airport	 pulling	</s>	24.5606632232666	0.04028826579451561	2.1549593706704506e-11	0.9936886429786682	10
-1	himym_align	aligned	roberta-base	barney and quinn walked into the airport<mask>	 their	</s>	14.485254287719727	0.08350985497236252	5.118399144521391e-07	0.9849945902824402	10
-2	himym_align	aligned	roberta-base	ney and quinn walked into the airport<mask><mask>	 matching	</s>	24.141756057739258	0.0017939837416633964	3.276188695333637e-11	0.9998921155929565	10
-3	himym_align	aligned	roberta-base	 and quinn walked into the airport<mask><mask><mask>	 pink	</s>	20.619489669799805	0.014347631484270096	1.1093521656846406e-09	0.9990334510803223	10
-4	himym_align	aligned	roberta-base	 quinn walked into the airport<mask><mask><mask><mask>	 tiger	</s>	19.765972137451172	0.2647283375263214	2.6046382828326387e-09	0.9552210569381714	10
-5	himym_align	aligned	roberta-base	inn walked into the airport<mask><mask><mask><mask><mask>	 stripe	</s>	20.103822708129883	0.2843019366264343	1.8578946159308884e-09	0.9534559845924377	10
-6	himym_align	aligned	roberta-base	 walked into the airport<mask><mask><mask><mask><mask><mask>	 suit	</s>	15.283743858337402	0.38281357288360596	2.303319917018598e-07	0.9480600357055664	10
-7	himym_align	aligned	roberta-base	 into the airport<mask><mask><mask><mask><mask><mask><mask>	cases	</s>	18.51773452758789	0.42608460783958435	9.075066031982715e-09	0.9385044574737549	10
-8	himym_align	aligned	roberta-base	 the airport<mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.478468894958496	0.2861897051334381	1.8957733516344888e-07	0.9607932567596436	10
-9	himym_align	aligned	roberta-base	 airport<mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.296467781066895	0.5315200686454773	1.6804187907837331e-06	0.9384050369262695	10
-10	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 leaned	</s>	16.284326553344727	0.5422558784484863	8.468507672887426e-08	0.9379039406776428	10
-11	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 over	</s>	11.304963111877441	0.5422558784484863	1.2311669706832618e-05	0.9379039406776428	10
-12	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-13	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 kissed	</s>	16.660829544067383	0.5422558784484863	5.8115734447028444e-08	0.9379039406776428	10
-14	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-15	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-16	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-17	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cheek	</s>	15.439187049865723	0.5422558784484863	1.9717248278539046e-07	0.9379039406776428	10
-18	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-19	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-20	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 going	</s>	13.97113037109375	0.5422558784484863	8.558847071071796e-07	0.9379039406776428	10
-21	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-22	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 be	</s>	11.171234130859375	0.5422558784484863	1.4073259080760181e-05	0.9379039406776428	10
-23	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 an	</s>	11.706930160522461	0.5422558784484863	8.236541361839045e-06	0.9379039406776428	10
-24	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 amazing	</s>	15.8433837890625	0.5422558784484863	1.3161515255433187e-07	0.9379039406776428	10
-25	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 week	</s>	12.894577026367188	0.5422558784484863	2.5116344204434427e-06	0.9379039406776428	10
-26	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-27	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'm	</s>	12.84322738647461	0.5422558784484863	2.6439745397510706e-06	0.9379039406776428	10
-28	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 so	</s>	11.77468204498291	0.5422558784484863	7.696984539506957e-06	0.9379039406776428	10
-29	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 glad	</s>	16.8576717376709	0.5422558784484863	4.773162842752754e-08	0.9379039406776428	10
-30	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 we	</s>	11.202885627746582	0.5422558784484863	1.363479532301426e-05	0.9379039406776428	10
-31	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 were	</s>	12.041485786437988	0.5422558784484863	5.894530204386683e-06	0.9379039406776428	10
-32	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 able	</s>	14.99938678741455	0.5422558784484863	3.060899871343281e-07	0.9379039406776428	10
-33	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-34	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 put	</s>	11.192718505859375	0.5422558784484863	1.3774129911325872e-05	0.9379039406776428	10
-35	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 everything	</s>	13.238869667053223	0.5422558784484863	1.7800492742026108e-06	0.9379039406776428	10
-36	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-37	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 happened	</s>	14.651779174804688	0.5422558784484863	4.3332445898158767e-07	0.9379039406776428	10
-38	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 behind	</s>	14.149131774902344	0.5422558784484863	7.163251893871347e-07	0.9379039406776428	10
-39	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 us	</s>	10.704572677612305	0.5422558784484863	2.2442085537477396e-05	0.9379039406776428	10
-40	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-41	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 looked	</s>	13.99695110321045	0.5422558784484863	8.340678618878883e-07	0.9379039406776428	10
-42	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-43	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-44	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-45	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 neon	</s>	18.77796745300293	0.5422558784484863	6.995720003288852e-09	0.9379039406776428	10
-46	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 colored	</s>	16.566713333129883	0.5422558784484863	6.385102579997692e-08	0.9379039406776428	10
-47	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 suitcase	</s>	20.087602615356445	0.5422558784484863	1.888274203665219e-09	0.9379039406776428	10
-48	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-49	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 frowned	</s>	18.04881477355957	0.5422558784484863	1.4504387912950278e-08	0.9379039406776428	10
-50	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 well	</s>	11.603858947753906	0.5422558784484863	9.130785656452645e-06	0.9379039406776428	10
-51	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 almost	</s>	13.587712287902832	0.5422558784484863	1.2558322168843006e-06	0.9379039406776428	10
-52	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 everything	</s>	13.238869667053223	0.5422558784484863	1.7800492742026108e-06	0.9379039406776428	10
-53	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 qu	</s>	14.577610969543457	0.5422558784484863	4.666852362333884e-07	0.9379039406776428	10
-54	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	inn	</s>	13.887395858764648	0.5422558784484863	9.306377819484624e-07	0.9379039406776428	10
-55	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 rolled	</s>	14.897771835327148	0.5422558784484863	3.3882852790156903e-07	0.9379039406776428	10
-56	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-57	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 eyes	</s>	14.699602127075195	0.5422558784484863	4.130893103138078e-07	0.9379039406776428	10
-58	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 hey	</s>	15.436821937561035	0.5422558784484863	1.976393662062037e-07	0.9379039406776428	10
-59	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-60	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	're	</s>	11.711982727050781	0.5422558784484863	8.195031114155427e-06	0.9379039406776428	10
-61	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 lucky	</s>	18.1823787689209	0.5422558784484863	1.2690925643710216e-08	0.9379039406776428	10
-62	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-63	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 only	</s>	11.967242240905762	0.5422558784484863	6.348816896206699e-06	0.9379039406776428	10
-64	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 threw	</s>	14.756505966186523	0.5422558784484863	3.9023925069159304e-07	0.9379039406776428	10
-65	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-66	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 your	</s>	11.537542343139648	0.5422558784484863	9.756837243912742e-06	0.9379039406776428	10
-67	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 luggage	</s>	18.62685775756836	0.5422558784484863	8.13689116085925e-09	0.9379039406776428	10
-68	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 next	</s>	10.81621265411377	0.5422558784484863	2.007144212257117e-05	0.9379039406776428	10
-69	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 time	</s>	11.58255672454834	0.5422558784484863	9.327378393209074e-06	0.9379039406776428	10
-70	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-71	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 storm	</s>	16.29454231262207	0.5422558784484863	8.382435368048391e-08	0.9379039406776428	10
-72	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 off	</s>	11.247734069824219	0.5422558784484863	1.3036807104072068e-05	0.9379039406776428	10
-73	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-74	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-75	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	l	</s>	11.838479042053223	0.5422558784484863	7.221276064228732e-06	0.9379039406776428	10
-76	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	antic	</s>	17.249563217163086	0.5422558784484863	3.2255957904681054e-08	0.9379039406776428	10
-77	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 city	</s>	14.53830337524414	0.5422558784484863	4.853948212257819e-07	0.9379039406776428	10
-78	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 after	</s>	9.93051815032959	0.5422558784484863	4.866657764068805e-05	0.9379039406776428	10
-79	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-80	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fight	</s>	14.658737182617188	0.5422558784484863	4.303198579691525e-07	0.9379039406776428	10
-81	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-82	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'll	</s>	14.424439430236816	0.5422558784484863	5.439332539936004e-07	0.9379039406776428	10
-83	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 be	</s>	11.171234130859375	0.5422558784484863	1.4073259080760181e-05	0.9379039406776428	10
-84	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 wearing	</s>	16.12321662902832	0.5422558784484863	9.94892275230086e-08	0.9379039406776428	10
-85	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 hot	</s>	14.94041633605957	0.5422558784484863	3.246830999614758e-07	0.9379039406776428	10
-86	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pink	</s>	16.884944915771484	0.5422558784484863	4.644742901405152e-08	0.9379039406776428	10
-87	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-88	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-89	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-90	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-91	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-92	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-93	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-94	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bags	</s>	16.716257095336914	0.5422558784484863	5.498216282262547e-08	0.9379039406776428	10
-95	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 onto	</s>	14.169696807861328	0.5422558784484863	7.017443408585677e-07	0.9379039406776428	10
-96	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-97	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 security	</s>	15.220446586608887	0.5422558784484863	2.453827505632944e-07	0.9379039406776428	10
-98	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 convey	</s>	15.846589088439941	0.5422558784484863	1.31193957031428e-07	0.9379039406776428	10
-99	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	or	</s>	11.345937728881836	0.5422558784484863	1.1817399354185909e-05	0.9379039406776428	10
-100	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 belt	</s>	16.769916534423828	0.5422558784484863	5.2109612624917645e-08	0.9379039406776428	10
-101	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-102	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 they	</s>	11.10830020904541	0.5422558784484863	1.4987409485911485e-05	0.9379039406776428	10
-103	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 stepped	</s>	14.814340591430664	0.5422558784484863	3.683101681417611e-07	0.9379039406776428	10
-104	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 through	</s>	12.318552017211914	0.5422558784484863	4.468079168873373e-06	0.9379039406776428	10
-105	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-106	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 body	</s>	13.945362091064453	0.5422558784484863	8.782259328654618e-07	0.9379039406776428	10
-107	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 scanner	</s>	17.775976181030273	0.5422558784484863	1.9054242628158136e-08	0.9379039406776428	10
-108	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 one	</s>	10.9601411819458	0.5422558784484863	1.7380858480464667e-05	0.9379039406776428	10
-109	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-110	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-111	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 security	</s>	15.220446586608887	0.5422558784484863	2.453827505632944e-07	0.9379039406776428	10
-112	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 guards	</s>	16.79237937927246	0.5422558784484863	5.095213495565076e-08	0.9379039406776428	10
-113	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 waved	</s>	18.23208999633789	0.5422558784484863	1.2075467736849532e-08	0.9379039406776428	10
-114	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 them	</s>	10.198320388793945	0.5422558784484863	3.7232806789688766e-05	0.9379039406776428	10
-115	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 over	</s>	11.304963111877441	0.5422558784484863	1.2311669706832618e-05	0.9379039406776428	10
-116	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-117	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 held	</s>	14.156402587890625	0.5422558784484863	7.11135783149075e-07	0.9379039406776428	10
-118	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 up	</s>	10.955738067626953	0.5422558784484863	1.745755798765458e-05	0.9379039406776428	10
-119	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-120	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-121	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-122	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 suitcase	</s>	20.087602615356445	0.5422558784484863	1.888274203665219e-09	0.9379039406776428	10
-123	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sir	</s>	15.247625350952148	0.5422558784484863	2.3880340904725017e-07	0.9379039406776428	10
-124	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-125	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-126	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-127	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-128	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 yours	</s>	14.893389701843262	0.5422558784484863	3.4031657492050726e-07	0.9379039406776428	10
-129	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 she	</s>	11.707077026367188	0.5422558784484863	8.235331733885687e-06	0.9379039406776428	10
-130	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 asked	</s>	12.517946243286133	0.5422558784484863	3.660370794023038e-06	0.9379039406776428	10
-131	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-132	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-133	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 yes	</s>	14.017799377441406	0.5422558784484863	8.168590284185484e-07	0.9379039406776428	10
-134	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-135	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-136	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-137	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 said	</s>	10.154407501220703	0.5422558784484863	3.890423977281898e-05	0.9379039406776428	10
-138	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-139	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-140	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sigh	</s>	15.277290344238281	0.5422558784484863	2.3182333563909197e-07	0.9379039406776428	10
-141	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-142	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 guard	</s>	14.207906723022461	0.5422558784484863	6.754365813321783e-07	0.9379039406776428	10
-143	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 placed	</s>	14.325461387634277	0.5422558784484863	6.005251975693682e-07	0.9379039406776428	10
-144	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-145	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 suitcase	</s>	20.087602615356445	0.5422558784484863	1.888274203665219e-09	0.9379039406776428	10
-146	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-147	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-148	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 table	</s>	15.358696937561035	0.5422558784484863	2.1369912417412706e-07	0.9379039406776428	10
-149	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-150	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 opened	</s>	13.742538452148438	0.5422558784484863	1.0757006521089352e-06	0.9379039406776428	10
-151	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-152	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 up	</s>	10.955738067626953	0.5422558784484863	1.745755798765458e-05	0.9379039406776428	10
-153	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 revealing	</s>	17.24821662902832	0.5422558784484863	3.229942535654118e-08	0.9379039406776428	10
-154	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-155	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 silver	</s>	16.411407470703125	0.5422558784484863	7.45789705547395e-08	0.9379039406776428	10
-156	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 metal	</s>	16.758163452148438	0.5422558784484863	5.2725674493103725e-08	0.9379039406776428	10
-157	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cube	</s>	18.709104537963867	0.5422558784484863	7.49444062364546e-09	0.9379039406776428	10
-158	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 about	</s>	11.886305809020996	0.5422558784484863	6.8840345193166286e-06	0.9379039406776428	10
-159	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-160	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 foot	</s>	14.983254432678223	0.5422558784484863	3.110679926976445e-07	0.9379039406776428	10
-161	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 long	</s>	13.052279472351074	0.5422558784484863	2.1451967313623754e-06	0.9379039406776428	10
-162	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-163	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 each	</s>	12.846474647521973	0.5422558784484863	2.635402779560536e-06	0.9379039406776428	10
-164	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 side	</s>	13.890340805053711	0.5422558784484863	9.279011123908276e-07	0.9379039406776428	10
-165	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-166	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-167	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-168	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 qu	</s>	14.577610969543457	0.5422558784484863	4.666852362333884e-07	0.9379039406776428	10
-169	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	inn	</s>	13.887395858764648	0.5422558784484863	9.306377819484624e-07	0.9379039406776428	10
-170	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 looked	</s>	13.99695110321045	0.5422558784484863	8.340678618878883e-07	0.9379039406776428	10
-171	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 equally	</s>	15.955131530761719	0.5422558784484863	1.1769945729156461e-07	0.9379039406776428	10
-172	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 confused	</s>	16.014001846313477	0.5422558784484863	1.1097046836994195e-07	0.9379039406776428	10
-173	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 yeah	</s>	14.955608367919922	0.5422558784484863	3.197878015726019e-07	0.9379039406776428	10
-174	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-175	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-176	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-177	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-178	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-179	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pointed	</s>	13.758524894714355	0.5422558784484863	1.0586408052404295e-06	0.9379039406776428	10
-180	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-181	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-182	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 non	</s>	13.685873985290527	0.5422558784484863	1.1384147455828497e-06	0.9379039406776428	10
-183	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	chal	</s>	17.645689010620117	0.5422558784484863	2.1705744757127832e-08	0.9379039406776428	10
-184	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	antly	</s>	14.741539001464844	0.5422558784484863	3.9612385194232047e-07	0.9379039406776428	10
-185	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-186	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-187	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-188	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 magic	</s>	15.06230354309082	0.5422558784484863	2.8742513791257807e-07	0.9379039406776428	10
-189	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 trick	</s>	14.935258865356445	0.5422558784484863	3.2636194191582035e-07	0.9379039406776428	10
-190	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-191	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 see	</s>	12.731642723083496	0.5422558784484863	2.9560915209003724e-06	0.9379039406776428	10
-192	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-193	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'm	</s>	12.84322738647461	0.5422558784484863	2.6439745397510706e-06	0.9379039406776428	10
-194	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 something	</s>	13.32184886932373	0.5422558784484863	1.6383044112444622e-06	0.9379039406776428	10
-195	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-196	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-197	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 magician	</s>	20.082456588745117	0.5422558784484863	1.8980164107063047e-09	0.9379039406776428	10
-198	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-199	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 guard	</s>	14.207906723022461	0.5422558784484863	6.754365813321783e-07	0.9379039406776428	10
-200	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-201	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-202	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-203	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 several	</s>	13.847719192504883	0.5422558784484863	9.683046755526448e-07	0.9379039406776428	10
-204	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 others	</s>	12.546611785888672	0.5422558784484863	3.5569339615904028e-06	0.9379039406776428	10
-205	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-206	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 backup	</s>	15.92744255065918	0.5422558784484863	1.2100399260361883e-07	0.9379039406776428	10
-207	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sir	</s>	15.247625350952148	0.5422558784484863	2.3880340904725017e-07	0.9379039406776428	10
-208	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-209	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 need	</s>	14.173226356506348	0.5422558784484863	6.992717658249603e-07	0.9379039406776428	10
-210	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-211	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 open	</s>	12.351768493652344	0.5422558784484863	4.322103450249415e-06	0.9379039406776428	10
-212	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-213	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 box	</s>	15.070059776306152	0.5422558784484863	2.8520440764623345e-07	0.9379039406776428	10
-214	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 oh	</s>	16.259647369384766	0.5422558784484863	8.680104457425841e-08	0.9379039406776428	10
-215	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-216	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 can	</s>	13.649560928344727	0.5422558784484863	1.1805137773990282e-06	0.9379039406776428	10
-217	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-218	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 do	</s>	12.24652099609375	0.5422558784484863	4.8017941480793525e-06	0.9379039406776428	10
-219	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-220	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-221	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-222	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 code	</s>	14.296243667602539	0.5422558784484863	6.183300342854636e-07	0.9379039406776428	10
-223	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-224	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 magician	</s>	20.082456588745117	0.5422558784484863	1.8980164107063047e-09	0.9379039406776428	10
-225	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 never	</s>	12.5134916305542	0.5422558784484863	3.676712594824494e-06	0.9379039406776428	10
-226	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 reveals	</s>	16.020544052124023	0.5422558784484863	1.1024685164784387e-07	0.9379039406776428	10
-227	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-228	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 tricks	</s>	17.80262565612793	0.5422558784484863	1.8553164338186434e-08	0.9379039406776428	10
-229	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-230	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 only	</s>	11.967242240905762	0.5422558784484863	6.348816896206699e-06	0.9379039406776428	10
-231	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 person	</s>	13.639013290405273	0.5422558784484863	1.1930313803532044e-06	0.9379039406776428	10
-232	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-233	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 could	</s>	14.516562461853027	0.5422558784484863	4.960633077644161e-07	0.9379039406776428	10
-234	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 possibly	</s>	14.946244239807129	0.5422558784484863	3.227963816243573e-07	0.9379039406776428	10
-235	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 reveal	</s>	14.881414413452148	0.5422558784484863	3.444164633492619e-07	0.9379039406776428	10
-236	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-237	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 trick	</s>	14.935258865356445	0.5422558784484863	3.2636194191582035e-07	0.9379039406776428	10
-238	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-239	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 is	</s>	10.810728073120117	0.5422558784484863	2.0181829313514754e-05	0.9379039406776428	10
-240	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 another	</s>	11.930874824523926	0.5422558784484863	6.5839562921610195e-06	0.9379039406776428	10
-241	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 magician	</s>	20.082456588745117	0.5422558784484863	1.8980164107063047e-09	0.9379039406776428	10
-242	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-243	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cue	</s>	17.628965377807617	0.5422558784484863	2.2071795058309363e-08	0.9379039406776428	10
-244	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 one	</s>	10.9601411819458	0.5422558784484863	1.7380858480464667e-05	0.9379039406776428	10
-245	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-246	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-247	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 security	</s>	15.220446586608887	0.5422558784484863	2.453827505632944e-07	0.9379039406776428	10
-248	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 guards	</s>	16.79237937927246	0.5422558784484863	5.095213495565076e-08	0.9379039406776428	10
-249	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 stepped	</s>	14.814340591430664	0.5422558784484863	3.683101681417611e-07	0.9379039406776428	10
-250	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 forward	</s>	12.789746284484863	0.5422558784484863	2.7892267553397687e-06	0.9379039406776428	10
-251	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-252	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'm	</s>	12.84322738647461	0.5422558784484863	2.6439745397510706e-06	0.9379039406776428	10
-253	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-254	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 magician	</s>	20.082456588745117	0.5422558784484863	1.8980164107063047e-09	0.9379039406776428	10
-255	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-256	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 said	</s>	10.154407501220703	0.5422558784484863	3.890423977281898e-05	0.9379039406776428	10
-257	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pulling	</s>	16.829936981201172	0.5422558784484863	4.907398221121184e-08	0.9379039406776428	10
-258	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-259	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-260	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 deck	</s>	15.438881874084473	0.5422558784484863	1.9723265154425462e-07	0.9379039406776428	10
-261	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-262	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cards	</s>	15.67274284362793	0.5422558784484863	1.5610409320743202e-07	0.9379039406776428	10
-263	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 from	</s>	9.948819160461426	0.5422558784484863	4.7784033085918054e-05	0.9379039406776428	10
-264	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-265	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 breast	</s>	17.379154205322266	0.5422558784484863	2.833539269886387e-08	0.9379039406776428	10
-266	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pocket	</s>	16.970439910888672	0.5422558784484863	4.264142106080726e-08	0.9379039406776428	10
-267	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-268	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-269	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 shrugged	</s>	17.49590301513672	0.5422558784484863	2.5213081400465853e-08	0.9379039406776428	10
-270	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fair	</s>	16.407541275024414	0.5422558784484863	7.486785591481748e-08	0.9379039406776428	10
-271	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 enough	</s>	15.046573638916016	0.5422558784484863	2.919820474289736e-07	0.9379039406776428	10
-272	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-273	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 leaned	</s>	16.284326553344727	0.5422558784484863	8.468507672887426e-08	0.9379039406776428	10
-274	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 over	</s>	11.304963111877441	0.5422558784484863	1.2311669706832618e-05	0.9379039406776428	10
-275	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-276	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 whispered	</s>	15.982017517089844	0.5422558784484863	1.1457715487495079e-07	0.9379039406776428	10
-277	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-278	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-279	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 guard	</s>	14.207906723022461	0.5422558784484863	6.754365813321783e-07	0.9379039406776428	10
-280	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-281	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ear	</s>	15.751739501953125	0.5422558784484863	1.4424692551529006e-07	0.9379039406776428	10
-282	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-283	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 guard	</s>	14.207906723022461	0.5422558784484863	6.754365813321783e-07	0.9379039406776428	10
-284	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 raised	</s>	15.151822090148926	0.5422558784484863	2.628132733661914e-07	0.9379039406776428	10
-285	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-286	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 eyebrows	</s>	18.210172653198242	0.5422558784484863	1.2343051913887848e-08	0.9379039406776428	10
-287	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-288	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 smiled	</s>	16.458324432373047	0.5422558784484863	7.116075551039103e-08	0.9379039406776428	10
-289	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 oh	</s>	16.259647369384766	0.5422558784484863	8.680104457425841e-08	0.9379039406776428	10
-290	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-291	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 see	</s>	12.731642723083496	0.5422558784484863	2.9560915209003724e-06	0.9379039406776428	10
-292	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 alright	</s>	17.89691162109375	0.5422558784484863	1.688379569486642e-08	0.9379039406776428	10
-293	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-294	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	're	</s>	11.711982727050781	0.5422558784484863	8.195031114155427e-06	0.9379039406776428	10
-295	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 free	</s>	13.853744506835938	0.5422558784484863	9.624878885006183e-07	0.9379039406776428	10
-296	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-297	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 go	</s>	11.759358406066895	0.5422558784484863	7.815839126124047e-06	0.9379039406776428	10
-298	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-299	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 z	</s>	14.056007385253906	0.5422558784484863	7.862371944611368e-07	0.9379039406776428	10
-300	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ipped	</s>	14.874372482299805	0.5422558784484863	3.46850384858044e-07	0.9379039406776428	10
-301	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 up	</s>	10.955738067626953	0.5422558784484863	1.745755798765458e-05	0.9379039406776428	10
-302	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-303	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-304	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-305	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bag	</s>	14.900166511535645	0.5422558784484863	3.380181112788705e-07	0.9379039406776428	10
-306	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-307	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 handed	</s>	14.434837341308594	0.5422558784484863	5.38306721864501e-07	0.9379039406776428	10
-308	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-309	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-310	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-311	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-312	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 qu	</s>	14.577610969543457	0.5422558784484863	4.666852362333884e-07	0.9379039406776428	10
-313	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	inn	</s>	13.887395858764648	0.5422558784484863	9.306377819484624e-07	0.9379039406776428	10
-314	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 followed	</s>	13.074501037597656	0.5422558784484863	2.098052618748625e-06	0.9379039406776428	10
-315	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-316	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-317	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 down	</s>	12.632719039916992	0.5422558784484863	3.263471853642841e-06	0.9379039406776428	10
-318	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-319	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 conc	</s>	15.536932945251465	0.5422558784484863	1.7881166058941744e-07	0.9379039406776428	10
-320	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ourse	</s>	17.250612258911133	0.5422558784484863	3.222213607045887e-08	0.9379039406776428	10
-321	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-322	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 total	</s>	12.724431037902832	0.5422558784484863	2.9774869290122297e-06	0.9379039406776428	10
-323	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 confusion	</s>	16.885011672973633	0.5422558784484863	4.644432749500993e-08	0.9379039406776428	10
-324	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 magic	</s>	15.06230354309082	0.5422558784484863	2.8742513791257807e-07	0.9379039406776428	10
-325	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 trick	</s>	14.935258865356445	0.5422558784484863	3.2636194191582035e-07	0.9379039406776428	10
-326	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 why	</s>	12.7289400100708	0.5422558784484863	2.9640921184181934e-06	0.9379039406776428	10
-327	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 wouldn	</s>	15.335287094116211	0.5422558784484863	2.1876080325000657e-07	0.9379039406776428	10
-328	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-329	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-330	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 tell	</s>	13.196941375732422	0.5422558784484863	1.8562705008662306e-06	0.9379039406776428	10
-331	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-332	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-333	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 was	</s>	11.671733856201172	0.5422558784484863	8.531598723493516e-06	0.9379039406776428	10
-334	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-335	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-336	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 box	</s>	15.070059776306152	0.5422558784484863	2.8520440764623345e-07	0.9379039406776428	10
-337	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 she	</s>	11.707077026367188	0.5422558784484863	8.235331733885687e-06	0.9379039406776428	10
-338	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 tried	</s>	14.953133583068848	0.5422558784484863	3.2058019883152156e-07	0.9379039406776428	10
-339	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-340	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 interrog	</s>	17.536531448364258	0.5422558784484863	2.4209244386952378e-08	0.9379039406776428	10
-341	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ate	</s>	12.762589454650879	0.5422558784484863	2.866011300284299e-06	0.9379039406776428	10
-342	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-343	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-344	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 they	</s>	11.10830020904541	0.5422558784484863	1.4987409485911485e-05	0.9379039406776428	10
-345	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sat	</s>	15.593993186950684	0.5422558784484863	1.6889426035504584e-07	0.9379039406776428	10
-346	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-347	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 front	</s>	14.84919261932373	0.5422558784484863	3.5569490819398197e-07	0.9379039406776428	10
-348	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-349	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-350	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 gate	</s>	15.653207778930664	0.5422558784484863	1.59183599635071e-07	0.9379039406776428	10
-351	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 but	</s>	9.709238052368164	0.5422558784484863	6.071996904211119e-05	0.9379039406776428	10
-352	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-353	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 refused	</s>	16.045061111450195	0.5422558784484863	1.0757668889027627e-07	0.9379039406776428	10
-354	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-355	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 spill	</s>	17.915197372436523	0.5422558784484863	1.657786974362807e-08	0.9379039406776428	10
-356	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-357	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 beans	</s>	18.973854064941406	0.5422558784484863	5.751219500638172e-09	0.9379039406776428	10
-358	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-359	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 told	</s>	12.695040702819824	0.5422558784484863	3.0662952212878736e-06	0.9379039406776428	10
-360	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-361	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-362	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-363	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 code	</s>	14.296243667602539	0.5422558784484863	6.183300342854636e-07	0.9379039406776428	10
-364	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-365	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 they	</s>	11.10830020904541	0.5422558784484863	1.4987409485911485e-05	0.9379039406776428	10
-366	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 boarded	</s>	19.54617691040039	0.5422558784484863	3.2449147813196078e-09	0.9379039406776428	10
-367	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-368	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 plane	</s>	16.465957641601562	0.5422558784484863	7.061964168997292e-08	0.9379039406776428	10
-369	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-370	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 found	</s>	12.579089164733887	0.5422558784484863	3.443269861236331e-06	0.9379039406776428	10
-371	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 their	</s>	12.204792022705078	0.5422558784484863	5.006407718610717e-06	0.9379039406776428	10
-372	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 seats	</s>	17.244003295898438	0.5422558784484863	3.2435796271101935e-08	0.9379039406776428	10
-373	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-374	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-375	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 placed	</s>	14.325461387634277	0.5422558784484863	6.005251975693682e-07	0.9379039406776428	10
-376	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-377	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bag	</s>	14.900166511535645	0.5422558784484863	3.380181112788705e-07	0.9379039406776428	10
-378	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-379	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-380	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 seat	</s>	15.05376148223877	0.5422558784484863	2.8989086331421277e-07	0.9379039406776428	10
-381	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pulled	</s>	13.662463188171387	0.5422558784484863	1.1653803539957153e-06	0.9379039406776428	10
-382	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-383	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-384	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 box	</s>	15.070059776306152	0.5422558784484863	2.8520440764623345e-07	0.9379039406776428	10
-385	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-386	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 handed	</s>	14.434837341308594	0.5422558784484863	5.38306721864501e-07	0.9379039406776428	10
-387	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-388	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-389	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 qu	</s>	14.577610969543457	0.5422558784484863	4.666852362333884e-07	0.9379039406776428	10
-390	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	inn	</s>	13.887395858764648	0.5422558784484863	9.306377819484624e-07	0.9379039406776428	10
-391	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-392	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 took	</s>	13.218570709228516	0.5422558784484863	1.8165516166845919e-06	0.9379039406776428	10
-393	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-394	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 key	</s>	12.964216232299805	0.5422558784484863	2.3426775896950858e-06	0.9379039406776428	10
-395	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 from	</s>	9.948819160461426	0.5422558784484863	4.7784033085918054e-05	0.9379039406776428	10
-396	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-397	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pocket	</s>	16.970439910888672	0.5422558784484863	4.264142106080726e-08	0.9379039406776428	10
-398	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-399	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 handed	</s>	14.434837341308594	0.5422558784484863	5.38306721864501e-07	0.9379039406776428	10
-400	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-401	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-402	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-403	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pointing	</s>	16.006305694580078	0.5422558784484863	1.1182770265349973e-07	0.9379039406776428	10
-404	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-405	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-406	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 small	</s>	14.62441635131836	0.5422558784484863	4.4534516518979217e-07	0.9379039406776428	10
-407	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 key	</s>	12.964216232299805	0.5422558784484863	2.3426775896950858e-06	0.9379039406776428	10
-408	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	hole	</s>	15.360390663146973	0.5422558784484863	2.133374721324799e-07	0.9379039406776428	10
-409	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-410	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-411	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 side	</s>	13.890340805053711	0.5422558784484863	9.279011123908276e-07	0.9379039406776428	10
-412	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-413	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-414	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cube	</s>	18.709104537963867	0.5422558784484863	7.49444062364546e-09	0.9379039406776428	10
-415	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-416	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 she	</s>	11.707077026367188	0.5422558784484863	8.235331733885687e-06	0.9379039406776428	10
-417	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 turned	</s>	12.906332015991211	0.5422558784484863	2.482282752680476e-06	0.9379039406776428	10
-418	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-419	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 key	</s>	12.964216232299805	0.5422558784484863	2.3426775896950858e-06	0.9379039406776428	10
-420	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-421	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 lid	</s>	16.883853912353516	0.5422558784484863	4.6498129790961684e-08	0.9379039406776428	10
-422	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-423	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-424	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cube	</s>	18.709104537963867	0.5422558784484863	7.49444062364546e-09	0.9379039406776428	10
-425	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 opened	</s>	13.742538452148438	0.5422558784484863	1.0757006521089352e-06	0.9379039406776428	10
-426	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 revealing	</s>	17.24821662902832	0.5422558784484863	3.229942535654118e-08	0.9379039406776428	10
-427	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-428	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 small	</s>	14.62441635131836	0.5422558784484863	4.4534516518979217e-07	0.9379039406776428	10
-429	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 flower	</s>	17.030439376831055	0.5422558784484863	4.015819854430447e-08	0.9379039406776428	10
-430	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pot	</s>	15.741662979125977	0.5422558784484863	1.457077729583034e-07	0.9379039406776428	10
-431	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 filled	</s>	16.76633644104004	0.5422558784484863	5.2296503127990945e-08	0.9379039406776428	10
-432	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-433	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 dirt	</s>	16.832843780517578	0.5422558784484863	4.893154681440137e-08	0.9379039406776428	10
-434	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-435	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 she	</s>	11.707077026367188	0.5422558784484863	8.235331733885687e-06	0.9379039406776428	10
-436	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 looked	</s>	13.99695110321045	0.5422558784484863	8.340678618878883e-07	0.9379039406776428	10
-437	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-438	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-439	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-440	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-441	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 confusion	</s>	16.885011672973633	0.5422558784484863	4.644432749500993e-08	0.9379039406776428	10
-442	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-443	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 green	</s>	15.216048240661621	0.5422558784484863	2.464644239807967e-07	0.9379039406776428	10
-444	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 stalk	</s>	17.452045440673828	0.5422558784484863	2.634347318064556e-08	0.9379039406776428	10
-445	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pushed	</s>	15.051597595214844	0.5422558784484863	2.905188125623681e-07	0.9379039406776428	10
-446	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 its	</s>	12.320577621459961	0.5422558784484863	4.4590383367904e-06	0.9379039406776428	10
-447	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 way	</s>	11.153897285461426	0.5422558784484863	1.4319372894533444e-05	0.9379039406776428	10
-448	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-449	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-450	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-451	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 dirt	</s>	16.832843780517578	0.5422558784484863	4.893154681440137e-08	0.9379039406776428	10
-452	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-453	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 climbed	</s>	16.047609329223633	0.5422558784484863	1.073030020393162e-07	0.9379039406776428	10
-454	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 several	</s>	13.847719192504883	0.5422558784484863	9.683046755526448e-07	0.9379039406776428	10
-455	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 inches	</s>	15.77091121673584	0.5422558784484863	1.415077974797896e-07	0.9379039406776428	10
-456	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-457	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-458	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-459	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 box	</s>	15.070059776306152	0.5422558784484863	2.8520440764623345e-07	0.9379039406776428	10
-460	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-461	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 its	</s>	12.320577621459961	0.5422558784484863	4.4590383367904e-06	0.9379039406776428	10
-462	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 end	</s>	11.964044570922852	0.5422558784484863	6.369150469254237e-06	0.9379039406776428	10
-463	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 was	</s>	11.671733856201172	0.5422558784484863	8.531598723493516e-06	0.9379039406776428	10
-464	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-465	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 red	</s>	14.833330154418945	0.5422558784484863	3.613820638292964e-07	0.9379039406776428	10
-466	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-467	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-468	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 passengers	</s>	17.047643661499023	0.5422558784484863	3.947321047803598e-08	0.9379039406776428	10
-469	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-470	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 flight	</s>	14.102396011352539	0.5422558784484863	7.505977919208817e-07	0.9379039406776428	10
-471	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 attendants	</s>	19.104196548461914	0.5422558784484863	5.048390150363957e-09	0.9379039406776428	10
-472	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 were	</s>	12.041485786437988	0.5422558784484863	5.894530204386683e-06	0.9379039406776428	10
-473	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 gathered	</s>	15.594671249389648	0.5422558784484863	1.6877977770946018e-07	0.9379039406776428	10
-474	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 around	</s>	13.890534400939941	0.5422558784484863	9.277214303438086e-07	0.9379039406776428	10
-475	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 their	</s>	12.204792022705078	0.5422558784484863	5.006407718610717e-06	0.9379039406776428	10
-476	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 seats	</s>	17.244003295898438	0.5422558784484863	3.2435796271101935e-08	0.9379039406776428	10
-477	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 staring	</s>	17.733572006225586	0.5422558784484863	1.987959841187603e-08	0.9379039406776428	10
-478	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-479	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 qu	</s>	14.577610969543457	0.5422558784484863	4.666852362333884e-07	0.9379039406776428	10
-480	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	inn	</s>	13.887395858764648	0.5422558784484863	9.306377819484624e-07	0.9379039406776428	10
-481	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-482	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-483	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-484	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-485	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 began	</s>	14.326237678527832	0.5422558784484863	6.000591952215473e-07	0.9379039406776428	10
-486	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-487	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 open	</s>	12.351768493652344	0.5422558784484863	4.322103450249415e-06	0.9379039406776428	10
-488	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-489	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 its	</s>	12.320577621459961	0.5422558784484863	4.4590383367904e-06	0.9379039406776428	10
-490	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 center	</s>	14.162734985351562	0.5422558784484863	7.066468015182181e-07	0.9379039406776428	10
-491	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 was	</s>	11.671733856201172	0.5422558784484863	8.531598723493516e-06	0.9379039406776428	10
-492	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-493	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 diamond	</s>	16.94935417175293	0.5422558784484863	4.3550095085720386e-08	0.9379039406776428	10
-494	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ring	</s>	16.054319381713867	0.5422558784484863	1.0658529703277964e-07	0.9379039406776428	10
-495	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 which	</s>	11.8621187210083	0.5422558784484863	7.052569344523363e-06	0.9379039406776428	10
-496	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 bar	</s>	15.380599021911621	0.5422558784484863	2.0906954034671799e-07	0.9379039406776428	10
-497	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ney	</s>	13.305891036987305	0.5422558784484863	1.6646579297230346e-06	0.9379039406776428	10
-498	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pl	</s>	14.250911712646484	0.5422558784484863	6.470051516771491e-07	0.9379039406776428	10
-499	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ucked	</s>	15.172943115234375	0.5422558784484863	2.5732060748850927e-07	0.9379039406776428	10
-500	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 from	</s>	9.948819160461426	0.5422558784484863	4.7784033085918054e-05	0.9379039406776428	10
-501	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-502	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 flower	</s>	17.030439376831055	0.5422558784484863	4.015819854430447e-08	0.9379039406776428	10
-503	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-504	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 held	</s>	14.156402587890625	0.5422558784484863	7.11135783149075e-07	0.9379039406776428	10
-505	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-506	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-507	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 qu	</s>	14.577610969543457	0.5422558784484863	4.666852362333884e-07	0.9379039406776428	10
-508	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	inn	</s>	13.887395858764648	0.5422558784484863	9.306377819484624e-07	0.9379039406776428	10
-509	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 qu	</s>	14.577610969543457	0.5422558784484863	4.666852362333884e-07	0.9379039406776428	10
-510	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	inn	</s>	13.887395858764648	0.5422558784484863	9.306377819484624e-07	0.9379039406776428	10
-511	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 will	</s>	14.221968650817871	0.5422558784484863	6.660050644313742e-07	0.9379039406776428	10
-512	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-513	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 marry	</s>	16.315135955810547	0.5422558784484863	8.211576840722046e-08	0.9379039406776428	10
-514	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 me	</s>	10.40571403503418	0.5422558784484863	3.0259088816819713e-05	0.9379039406776428	10
-515	himym_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	</s>	</s>	0.06410776078701019	0.5422558784484863	0.9379039406776428	0.9379039406776428	10
+1	himym_align	aligned	roberta-base	barney and quinn walked into the airport pulling	 their	</s>	14.186333656311035	0.30728986859321594	6.901662459313229e-07	0.9680308699607849	10
+2	himym_align	aligned	roberta-base	ney and quinn walked into the airport pulling their	 matching	</s>	19.299516677856445	0.03259308263659477	4.152662658185591e-09	0.9975773692131042	10
+3	himym_align	aligned	roberta-base	 and quinn walked into the airport pulling their matching	 pink	</s>	11.905210494995117	0.08723811060190201	6.755118192813825e-06	0.9929169416427612	10
+4	himym_align	aligned	roberta-base	 quinn walked into the airport pulling their matching pink	 tiger	</s>	16.999658584594727	0.11099028587341309	4.1413525053712874e-08	0.9897533655166626	10
+5	himym_align	aligned	roberta-base	inn walked into the airport pulling their matching pink tiger	 stripe	</s>	20.10901641845703	0.000856292259413749	1.8482679831066662e-09	0.9999480247497559	10
+6	himym_align	aligned	roberta-base	 walked into the airport pulling their matching pink tiger stripe	 suit	</s>	20.940805435180664	0.03095216676592827	8.044961363751213e-10	0.9954598546028137	10
+7	himym_align	aligned	roberta-base	 into the airport pulling their matching pink tiger stripe suit	cases	</s>	24.81130027770996	0.02419002167880535	1.6772170458034807e-11	0.9967191815376282	10
+8	himym_align	aligned	roberta-base	 the airport pulling their matching pink tiger stripe suitcases	 bar	</s>	23.25620460510254	0.033065322786569595	7.942520252601781e-11	0.9949878454208374	10
+9	himym_align	aligned	roberta-base	 airport pulling their matching pink tiger stripe suitcases bar	ney	</s>	17.682781219482422	0.05257854983210564	2.091538853221664e-08	0.9921125173568726	10
+10	himym_align	aligned	roberta-base	 pulling their matching pink tiger stripe suitcases barney	 leaned	</s>	23.237653732299805	0.0043407827615737915	8.091247116759348e-11	0.999731719493866	10
+11	himym_align	aligned	roberta-base	 their matching pink tiger stripe suitcases barney leaned	 over	</s>	13.81766414642334	0.014827089384198189	9.978490425055497e-07	0.9989776611328125	10
+12	himym_align	aligned	roberta-base	 matching pink tiger stripe suitcases barney leaned over	 and	</s>	11.779886245727539	0.005844913423061371	7.657033165742178e-06	0.999624490737915	10
+13	himym_align	aligned	roberta-base	 pink tiger stripe suitcases barney leaned over and	 kissed	</s>	18.88557243347168	0.00028242880944162607	6.2820304513877545e-09	0.999984622001648	10
+14	himym_align	aligned	roberta-base	 tiger stripe suitcases barney leaned over and kissed	 her	</s>	12.494468688964844	0.003359578549861908	3.7473223528650124e-06	0.9997908473014832	10
+15	himym_align	aligned	roberta-base	 stripe suitcases barney leaned over and kissed her	 on	</s>	17.876819610595703	0.00018947140779346228	1.7226447823759372e-08	0.9999901056289673	10
+16	himym_align	aligned	roberta-base	 suitcases barney leaned over and kissed her on	 the	</s>	15.619945526123047	0.037184737622737885	1.64567495630763e-07	0.9940074682235718	10
+17	himym_align	aligned	roberta-base	cases barney leaned over and kissed her on the	 cheek	</s>	21.035322189331055	6.035714613972232e-05	7.319408967809693e-10	0.9999970197677612	10
+18	himym_align	aligned	roberta-base	 barney leaned over and kissed her on the cheek	 this	</s>	20.70325469970703	0.008936780504882336	1.0202118039259744e-09	0.9989354014396667	10
+19	himym_align	aligned	roberta-base	ney leaned over and kissed her on the cheek this	 is	</s>	16.899280548095703	0.018442081287503242	4.578629742013618e-08	0.997568666934967	10
+20	himym_align	aligned	roberta-base	 leaned over and kissed her on the cheek this is	 going	</s>	19.83648109436035	0.029377451166510582	2.427312129071879e-09	0.9960745573043823	10
+21	himym_align	aligned	roberta-base	 over and kissed her on the cheek this is going	 to	</s>	6.794999599456787	0.019777938723564148	0.001119358348660171	0.9980339407920837	10
+22	himym_align	aligned	roberta-base	 and kissed her on the cheek this is going to	 be	</s>	9.561922073364258	0.007750865537673235	7.035740418359637e-05	0.9994398951530457	10
+23	himym_align	aligned	roberta-base	 kissed her on the cheek this is going to be	 an	</s>	10.022540092468262	0.01566660962998867	4.438806718098931e-05	0.9987554550170898	10
+24	himym_align	aligned	roberta-base	 her on the cheek this is going to be an	 amazing	</s>	11.325523376464844	0.03355580195784569	1.2061123015882913e-05	0.9973447918891907	10
+25	himym_align	aligned	roberta-base	 on the cheek this is going to be an amazing	 week	</s>	12.921631813049316	0.11570560932159424	2.4445937469863566e-06	0.9905305504798889	10
+26	himym_align	aligned	roberta-base	 the cheek this is going to be an amazing week	 i	</s>	20.159011840820312	0.03147345781326294	1.7581349709416827e-09	0.9952502250671387	10
+27	himym_align	aligned	roberta-base	 cheek this is going to be an amazing week i	'm	</s>	12.948829650878906	0.001938479021191597	2.3790007617208175e-06	0.9998699426651001	10
+28	himym_align	aligned	roberta-base	 this is going to be an amazing week i'm	 so	</s>	13.4229736328125	0.008391170762479305	1.4807332036070875e-06	0.9993359446525574	10
+29	himym_align	aligned	roberta-base	 is going to be an amazing week i'm so	 glad	</s>	9.231791496276855	0.02107798308134079	9.787770977709442e-05	0.9980960488319397	10
+30	himym_align	aligned	roberta-base	 going to be an amazing week i'm so glad	 we	</s>	16.456945419311523	0.0014856726629659534	7.125893830561836e-08	0.9998968839645386	10
+31	himym_align	aligned	roberta-base	 to be an amazing week i'm so glad we	 were	</s>	9.61152172088623	0.014426909387111664	6.695289630442858e-05	0.998760461807251	10
+32	himym_align	aligned	roberta-base	 be an amazing week i'm so glad we were	 able	</s>	16.402774810791016	0.0038881266955286264	7.522562128770005e-08	0.9997090697288513	10
+33	himym_align	aligned	roberta-base	 an amazing week i'm so glad we were able	 to	</s>	10.321903228759766	0.0032171644270420074	3.290443419246003e-05	0.9997377991676331	10
+34	himym_align	aligned	roberta-base	 amazing week i'm so glad we were able to	 put	</s>	18.94307518005371	0.00018223293591290712	5.930985036428638e-09	0.9999901056289673	10
+35	himym_align	aligned	roberta-base	 week i'm so glad we were able to put	 everything	</s>	21.140268325805664	0.0006306925206445158	6.590189505217836e-10	0.9999594688415527	10
+36	himym_align	aligned	roberta-base	 i'm so glad we were able to put everything	 that	</s>	17.29453468322754	4.405661456985399e-05	3.0837476572287414e-08	0.9999977350234985	10
+37	himym_align	aligned	roberta-base	'm so glad we were able to put everything that	 happened	</s>	13.472036361694336	0.012242940254509449	1.4098369547355105e-06	0.9990314245223999	10
+38	himym_align	aligned	roberta-base	 so glad we were able to put everything that happened	 behind	</s>	19.42856788635254	0.03009611926972866	3.649896607171854e-09	0.9960015416145325	10
+39	himym_align	aligned	roberta-base	 glad we were able to put everything that happened behind	 us	</s>	13.851998329162598	0.05980747565627098	9.641697715778719e-07	0.9896313548088074	10
+40	himym_align	aligned	roberta-base	 we were able to put everything that happened behind us	 he	</s>	15.786859512329102	0.033432602882385254	1.3926883468684537e-07	0.9948765635490417	10
+41	himym_align	aligned	roberta-base	 were able to put everything that happened behind us he	 looked	</s>	13.997390747070312	0.026391493156552315	8.337008807757229e-07	0.997946560382843	10
+42	himym_align	aligned	roberta-base	 able to put everything that happened behind us he looked	 back	</s>	9.625738143920898	0.03853175416588783	6.600777123821899e-05	0.9966239929199219	10
+43	himym_align	aligned	roberta-base	 to put everything that happened behind us he looked back	 at	</s>	13.492650985717773	0.021689441055059433	1.3810716836815118e-06	0.9971280694007874	10
+44	himym_align	aligned	roberta-base	 put everything that happened behind us he looked back at	 his	</s>	9.534219741821289	0.01773364655673504	7.233373617054895e-05	0.9985169768333435	10
+45	himym_align	aligned	roberta-base	 everything that happened behind us he looked back at his	 neon	</s>	20.123567581176758	0.00915613118559122	1.8215688957212706e-09	0.9993840456008911	10
+46	himym_align	aligned	roberta-base	 that happened behind us he looked back at his neon	 colored	</s>	21.632808685302734	0.029132535681128502	4.027086164537508e-10	0.9961307048797607	10
+47	himym_align	aligned	roberta-base	 happened behind us he looked back at his neon colored	 suitcase	</s>	16.061731338500977	0.05009237676858902	1.0579822173895082e-07	0.9961137771606445	10
+48	himym_align	aligned	roberta-base	 behind us he looked back at his neon colored suitcase	 and	</s>	12.816033363342285	0.001563096302561462	2.716860308282776e-06	0.9998890161514282	10
+49	himym_align	aligned	roberta-base	 us he looked back at his neon colored suitcase and	 frowned	</s>	18.383026123046875	0.0026228432543575764	1.0383722326423594e-08	0.9998224377632141	10
+50	himym_align	aligned	roberta-base	 he looked back at his neon colored suitcase and frowned	 well	</s>	17.82532501220703	0.02676994539797306	1.813677741324682e-08	0.9960756897926331	10
+51	himym_align	aligned	roberta-base	 looked back at his neon colored suitcase and frowned well	 almost	</s>	18.629798889160156	0.04736710339784622	8.112985838693021e-09	0.9924365878105164	10
+52	himym_align	aligned	roberta-base	 back at his neon colored suitcase and frowned well almost	 everything	</s>	14.27776050567627	0.00897003710269928	6.298651555880497e-07	0.9993597865104675	10
+53	himym_align	aligned	roberta-base	 at his neon colored suitcase and frowned well almost everything	 qu	</s>	21.141746520996094	0.0006198554183356464	6.580461175964558e-10	0.999962329864502	10
+54	himym_align	aligned	roberta-base	 his neon colored suitcase and frowned well almost everything qu	inn	</s>	10.456415176391602	0.17058312892913818	2.8763173759216443e-05	0.9837037920951843	10
+55	himym_align	aligned	roberta-base	 neon colored suitcase and frowned well almost everything quinn	 rolled	</s>	17.77999496459961	0.0440940335392952	1.897780954607242e-08	0.993992269039154	10
+56	himym_align	aligned	roberta-base	 colored suitcase and frowned well almost everything quinn rolled	 her	</s>	13.061530113220215	0.07485347986221313	2.125442733813543e-06	0.9885916113853455	10
+57	himym_align	aligned	roberta-base	 suitcase and frowned well almost everything quinn rolled her	 eyes	</s>	18.672269821166992	0.02707352489233017	7.775642352214618e-09	0.9966277480125427	10
+58	himym_align	aligned	roberta-base	 and frowned well almost everything quinn rolled her eyes	 hey	</s>	25.01302719116211	0.02357988804578781	1.3708184760929942e-11	0.99669349193573	10
+59	himym_align	aligned	roberta-base	 frowned well almost everything quinn rolled her eyes hey	 you	</s>	13.478702545166016	0.04024605453014374	1.4004708646098152e-06	0.9949473142623901	10
+60	himym_align	aligned	roberta-base	 well almost everything quinn rolled her eyes hey you	're	</s>	17.932279586791992	0.03258041664958	1.6297081018024073e-08	0.9954648613929749	10
+61	himym_align	aligned	roberta-base	 almost everything quinn rolled her eyes hey you're	 lucky	</s>	12.835406303405762	0.08995291590690613	2.664734893187415e-06	0.9925163388252258	10
+62	himym_align	aligned	roberta-base	 everything quinn rolled her eyes hey you're lucky	 i	</s>	19.81869888305664	0.01972797140479088	2.4708624035696403e-09	0.9973203539848328	10
+63	himym_align	aligned	roberta-base	 quinn rolled her eyes hey you're lucky i	 only	</s>	12.63637638092041	0.04516759142279625	3.2515583825443173e-06	0.9962108135223389	10
+64	himym_align	aligned	roberta-base	inn rolled her eyes hey you're lucky i only	 threw	</s>	13.719488143920898	0.04015455022454262	1.1007832654286176e-06	0.9964467883110046	10
+65	himym_align	aligned	roberta-base	 rolled her eyes hey you're lucky i only threw	 out	</s>	15.585417747497559	0.017730839550495148	1.703488692328392e-07	0.9978387951850891	10
+66	himym_align	aligned	roberta-base	 her eyes hey you're lucky i only threw out	 your	</s>	16.576892852783203	0.04139973223209381	6.320433953987958e-08	0.9936800003051758	10
+67	himym_align	aligned	roberta-base	 eyes hey you're lucky i only threw out your	 luggage	</s>	16.747325897216797	0.007118220906704664	5.3300212243811984e-08	0.9995274543762207	10
+68	himym_align	aligned	roberta-base	 hey you're lucky i only threw out your luggage	 next	</s>	18.449371337890625	0.025318380445241928	9.71717728504018e-09	0.9962084293365479	10
+69	himym_align	aligned	roberta-base	 you're lucky i only threw out your luggage next	 time	</s>	17.335643768310547	0.03364464268088341	2.9595486950029226e-08	0.9947474598884583	10
+70	himym_align	aligned	roberta-base	're lucky i only threw out your luggage next time	 you	</s>	13.558175086975098	0.039122190326452255	1.2934784763274365e-06	0.9937119483947754	10
+71	himym_align	aligned	roberta-base	 lucky i only threw out your luggage next time you	 storm	</s>	19.917407989501953	0.10622761398553848	2.2386157372267235e-09	0.979215145111084	10
+72	himym_align	aligned	roberta-base	 i only threw out your luggage next time you storm	 off	</s>	15.569018363952637	0.04950840398669243	1.7316537537226395e-07	0.9920576214790344	10
+73	himym_align	aligned	roberta-base	 only threw out your luggage next time you storm off	 to	</s>	13.928077697753906	0.03460368141531944	8.935373330132279e-07	0.9945862293243408	10
+74	himym_align	aligned	roberta-base	 threw out your luggage next time you storm off to	 at	</s>	12.827188491821289	0.06126180663704872	2.6867219276027754e-06	0.9954240918159485	10
+75	himym_align	aligned	roberta-base	 out your luggage next time you storm off to at	l	</s>	17.33599853515625	0.0005590463988482952	2.9585001115606246e-08	0.9999678134918213	10
+76	himym_align	aligned	roberta-base	 your luggage next time you storm off to atl	antic	</s>	25.32404899597168	0.023645533248782158	1.0043961322370176e-11	0.9968553781509399	10
+77	himym_align	aligned	roberta-base	 luggage next time you storm off to atlantic	 city	</s>	19.233415603637695	0.024097865447402	4.4364334428337315e-09	0.9966739416122437	10
+78	himym_align	aligned	roberta-base	 next time you storm off to atlantic city	 after	</s>	15.704643249511719	0.023257654160261154	1.5120285468128714e-07	0.9968013763427734	10
+79	himym_align	aligned	roberta-base	 time you storm off to atlantic city after	 a	</s>	10.936738014221191	0.01645825244486332	1.7792417565942742e-05	0.998848557472229	10
+80	himym_align	aligned	roberta-base	 you storm off to atlantic city after a	 fight	</s>	18.08026123046875	0.002969498047605157	1.4055365760157201e-08	0.9998108744621277	10
+81	himym_align	aligned	roberta-base	 storm off to atlantic city after a fight	 you	</s>	16.625688552856445	0.015915201976895332	6.019428866466114e-08	0.9980794191360474	10
+82	himym_align	aligned	roberta-base	 off to atlantic city after a fight you	'll	</s>	19.251535415649414	0.023196805268526077	4.35676561494347e-09	0.996990442276001	10
+83	himym_align	aligned	roberta-base	 to atlantic city after a fight you'll	 be	</s>	10.049834251403809	0.03813665360212326	4.319290383136831e-05	0.9965316653251648	10
+84	himym_align	aligned	roberta-base	 atlantic city after a fight you'll be	 wearing	</s>	18.803260803222656	0.03733871132135391	6.820990439138086e-09	0.9952882528305054	10
+85	himym_align	aligned	roberta-base	lantic city after a fight you'll be wearing	 hot	</s>	21.211027145385742	0.016980905085802078	6.139994623843847e-10	0.9978908896446228	10
+86	himym_align	aligned	roberta-base	antic city after a fight you'll be wearing hot	 pink	</s>	22.643545150756836	0.011888899840414524	1.46566023206951e-10	0.9985952973365784	10
+87	himym_align	aligned	roberta-base	 city after a fight you'll be wearing hot pink	 	</s>	17.621950149536133	0.014034765772521496	2.2227167661981184e-08	0.9982158541679382	10
+88	himym_align	aligned	roberta-base	 after a fight you'll be wearing hot pink 	<unk>	</s>	26.782188415527344	0.02545943856239319	2.336918852874348e-12	0.9966835379600525	10
+89	himym_align	aligned	roberta-base	 a fight you'll be wearing hot pink <unk>	 bar	</s>	20.878976821899414	0.10094594955444336	8.558064257258025e-10	0.9807162284851074	10
+90	himym_align	aligned	roberta-base	 fight you'll be wearing hot pink <unk> bar	ney	</s>	18.620946884155273	0.04997949302196503	8.185126354476324e-09	0.9918883442878723	10
+91	himym_align	aligned	roberta-base	 you'll be wearing hot pink <unk> barney	 	</s>	12.808107376098633	0.02696172147989273	2.73847990683862e-06	0.9964336156845093	10
+92	himym_align	aligned	roberta-base	'll be wearing hot pink <unk> barney 	<unk>	</s>	23.877288818359375	0.06329423189163208	4.268006434382521e-11	0.9925962090492249	10
+93	himym_align	aligned	roberta-base	 be wearing hot pink <unk> barney <unk>	 the	</s>	10.692971229553223	0.06715641170740128	2.27039690798847e-05	0.9909115433692932	10
+94	himym_align	aligned	roberta-base	 wearing hot pink <unk> barney <unk> the	 bags	</s>	17.817235946655273	0.14072968065738678	1.8284046277017296e-08	0.9828238487243652	10
+95	himym_align	aligned	roberta-base	 hot pink <unk> barney <unk> the bags	 onto	</s>	17.342180252075195	0.046595215797424316	2.94026936131786e-08	0.9946534633636475	10
+96	himym_align	aligned	roberta-base	 pink <unk> barney <unk> the bags onto	 the	</s>	9.960099220275879	0.1106490045785904	4.724806058220565e-05	0.9835582375526428	10
+97	himym_align	aligned	roberta-base	 <unk> barney <unk> the bags onto the	 security	</s>	18.160898208618164	0.14784888923168182	1.2966492768384796e-08	0.9729515314102173	10
+98	himym_align	aligned	roberta-base	<unk> barney <unk> the bags onto the security	 convey	</s>	20.045063018798828	0.05630302056670189	1.9703332299059184e-09	0.9911623001098633	10
+99	himym_align	aligned	roberta-base	 barney <unk> the bags onto the security convey	or	</s>	16.66378402709961	0.068028025329113	5.794429469574425e-08	0.9894627928733826	10
+100	himym_align	aligned	roberta-base	ney <unk> the bags onto the security conveyor	 belt	</s>	19.89198112487793	0.0588819719851017	2.2962682866278783e-09	0.9905904531478882	10
+101	himym_align	aligned	roberta-base	 <unk> the bags onto the security conveyor belt	 and	</s>	13.630159378051758	0.04441272094845772	1.2036410907967365e-06	0.9929203391075134	10
+102	himym_align	aligned	roberta-base	<unk> the bags onto the security conveyor belt and	 they	</s>	17.1657657623291	5.973673614789732e-05	3.507537016389506e-08	0.9999971389770508	10
+103	himym_align	aligned	roberta-base	 the bags onto the security conveyor belt and they	 stepped	</s>	19.015235900878906	0.0010771146044135094	5.518078882715827e-09	0.9999310970306396	10
+104	himym_align	aligned	roberta-base	 bags onto the security conveyor belt and they stepped	 through	</s>	17.517751693725586	0.00027208286337554455	2.4668160847340914e-08	0.9999840259552002	10
+105	himym_align	aligned	roberta-base	 onto the security conveyor belt and they stepped through	 the	</s>	12.402214050292969	0.03529425337910652	4.109480414626887e-06	0.9948092699050903	10
+106	himym_align	aligned	roberta-base	 the security conveyor belt and they stepped through the	 body	</s>	15.27499008178711	0.0014254720881581306	2.323572374507421e-07	0.9999182224273682	10
+107	himym_align	aligned	roberta-base	 security conveyor belt and they stepped through the body	 scanner	</s>	23.939407348632812	0.0589684322476387	4.0109516402653256e-11	0.9901628494262695	10
+108	himym_align	aligned	roberta-base	 conveyor belt and they stepped through the body scanner	 one	</s>	15.609126091003418	0.08023357391357422	1.6635756594496343e-07	0.985994815826416	10
+109	himym_align	aligned	roberta-base	or belt and they stepped through the body scanner one	 of	</s>	15.53092098236084	0.0011912110494449735	1.7988988076922396e-07	0.9999284744262695	10
+110	himym_align	aligned	roberta-base	 belt and they stepped through the body scanner one of	 the	</s>	12.869807243347168	0.0005402289680205286	2.5746239771251567e-06	0.9999667406082153	10
+111	himym_align	aligned	roberta-base	 and they stepped through the body scanner one of the	 security	</s>	18.527544021606445	0.0005548200570046902	8.986487110007602e-09	0.9999697208404541	10
+112	himym_align	aligned	roberta-base	 they stepped through the body scanner one of the security	 guards	</s>	8.69113826751709	0.01299173105508089	0.00016806864005047828	0.9989973902702332	10
+113	himym_align	aligned	roberta-base	 stepped through the body scanner one of the security guards	 waved	</s>	24.611127853393555	0.00014496360381599516	2.0489101734688653e-11	0.9999922513961792	10
+114	himym_align	aligned	roberta-base	 through the body scanner one of the security guards waved	 them	</s>	11.791885375976562	0.005002119578421116	7.565705800516298e-06	0.9996352195739746	10
+115	himym_align	aligned	roberta-base	 the body scanner one of the security guards waved them	 over	</s>	16.850257873535156	0.0008558384142816067	4.808681808299298e-08	0.9999467134475708	10
+116	himym_align	aligned	roberta-base	 body scanner one of the security guards waved them over	 and	</s>	12.65344524383545	0.0019317163387313485	3.1965280413714936e-06	0.9998663663864136	10
+117	himym_align	aligned	roberta-base	 scanner one of the security guards waved them over and	 held	</s>	18.330289840698242	0.00046035629929974675	1.0946028972114163e-08	0.9999701976776123	10
+118	himym_align	aligned	roberta-base	 one of the security guards waved them over and held	 up	</s>	8.903743743896484	0.05069617182016373	0.0001358793379040435	0.9957836866378784	10
+119	himym_align	aligned	roberta-base	 of the security guards waved them over and held up	 bar	</s>	16.19131851196289	0.019678933545947075	9.293928115994277e-08	0.9984514713287354	10
+120	himym_align	aligned	roberta-base	 the security guards waved them over and held up bar	ney	</s>	19.751121520996094	0.018035484477877617	2.6436075550861915e-09	0.9976606369018555	10
+121	himym_align	aligned	roberta-base	 security guards waved them over and held up barney	's	</s>	14.47610855102539	0.0284353569149971	5.165425704944937e-07	0.9959992170333862	10
+122	himym_align	aligned	roberta-base	 guards waved them over and held up barney's	 suitcase	</s>	24.2578125	0.04502318054437637	2.9171977333763977e-11	0.9933122992515564	10
+123	himym_align	aligned	roberta-base	 waved them over and held up barney's suitcase	 sir	</s>	23.0736141204834	0.02569126896560192	9.533598216426853e-11	0.9963201284408569	10
+124	himym_align	aligned	roberta-base	 them over and held up barney's suitcase sir	 is	</s>	15.581034660339355	0.046581000089645386	1.7109711336615874e-07	0.9930197596549988	10
+125	himym_align	aligned	roberta-base	 over and held up barney's suitcase sir is	 this	</s>	10.773469924926758	0.07488084584474564	2.0947949451510794e-05	0.9940061569213867	10
+126	himym_align	aligned	roberta-base	 and held up barney's suitcase sir is this	 is	</s>	13.938674926757812	0.020866788923740387	8.841180942908977e-07	0.997570812702179	10
+127	himym_align	aligned	roberta-base	 held up barney's suitcase sir is this is	 this	</s>	10.171035766601562	0.08623715490102768	3.826265674433671e-05	0.9931301474571228	10
+128	himym_align	aligned	roberta-base	 up barney's suitcase sir is this is this	 yours	</s>	19.73743438720703	0.01804971508681774	2.6800417440853153e-09	0.9977889060974121	10
+129	himym_align	aligned	roberta-base	 barney's suitcase sir is this is this yours	 she	</s>	14.154901504516602	0.038552943617105484	7.12204098363145e-07	0.9950951337814331	10
+130	himym_align	aligned	roberta-base	ney's suitcase sir is this is this yours she	 asked	</s>	16.466703414916992	0.028666038066148758	7.056704731667196e-08	0.9965830445289612	10
+131	himym_align	aligned	roberta-base	's suitcase sir is this is this yours she asked	 	</s>	15.729727745056152	0.021478945389389992	1.4745728549314663e-07	0.9972642660140991	10
+132	himym_align	aligned	roberta-base	 suitcase sir is this is this yours she asked 	<unk>	</s>	24.44432258605957	0.06110211834311485	2.420838182692897e-11	0.99196857213974	10
+133	himym_align	aligned	roberta-base	 sir is this is this yours she asked <unk>	 yes	</s>	16.219696044921875	0.06056082621216774	9.033909265099282e-08	0.9910212159156799	10
+134	himym_align	aligned	roberta-base	 is this is this yours she asked <unk> yes	 it	</s>	12.879011154174805	0.03819183260202408	2.551036914155702e-06	0.9945744872093201	10
+135	himym_align	aligned	roberta-base	 this is this yours she asked <unk> yes it	 is	</s>	14.845437049865723	0.022690806537866592	3.5703334333447856e-07	0.9970493316650391	10
+136	himym_align	aligned	roberta-base	 is this yours she asked <unk> yes it is	 he	</s>	14.132416725158691	0.04966115951538086	7.283990157702647e-07	0.9924213290214539	10
+137	himym_align	aligned	roberta-base	 this yours she asked <unk> yes it is he	 said	</s>	12.567225456237793	0.06536725163459778	3.48436242347816e-06	0.9896672964096069	10
+138	himym_align	aligned	roberta-base	 yours she asked <unk> yes it is he said	 with	</s>	14.871466636657715	0.04121781885623932	3.4785975344675535e-07	0.9938820600509644	10
+139	himym_align	aligned	roberta-base	 she asked <unk> yes it is he said with	 a	</s>	12.070643424987793	0.1321633905172348	5.725143182644388e-06	0.973892331123352	10
+140	himym_align	aligned	roberta-base	 asked <unk> yes it is he said with a	 sigh	</s>	17.466552734375	0.10832283645868301	2.59640628996749e-08	0.9800769686698914	10
+141	himym_align	aligned	roberta-base	 <unk> yes it is he said with a sigh	 the	</s>	12.998518943786621	0.06336726248264313	2.26367933464644e-06	0.988843560218811	10
+142	himym_align	aligned	roberta-base	<unk> yes it is he said with a sigh the	 guard	</s>	19.460105895996094	0.0005113920196890831	3.5365790296282285e-09	0.9999656677246094	10
+143	himym_align	aligned	roberta-base	 yes it is he said with a sigh the guard	 placed	</s>	22.90027618408203	0.0010136443888768554	1.133800761610182e-10	0.9999301433563232	10
+144	himym_align	aligned	roberta-base	 it is he said with a sigh the guard placed	 the	</s>	10.529855728149414	0.10145159065723419	2.6726482246886007e-05	0.9824986457824707	10
+145	himym_align	aligned	roberta-base	 is he said with a sigh the guard placed the	 suitcase	</s>	26.274169921875	0.00011540811829036102	3.8839426466652505e-12	0.9999939203262329	10
+146	himym_align	aligned	roberta-base	 he said with a sigh the guard placed the suitcase	 on	</s>	21.38164710998535	0.00012369125033728778	5.17688725221177e-10	0.9999924898147583	10
+147	himym_align	aligned	roberta-base	 said with a sigh the guard placed the suitcase on	 a	</s>	15.972718238830566	0.030871689319610596	1.1564754487380924e-07	0.99535071849823	10
+148	himym_align	aligned	roberta-base	 with a sigh the guard placed the suitcase on a	 table	</s>	7.548673152923584	0.3313915729522705	0.0005268084933049977	0.9668221473693848	10
+149	himym_align	aligned	roberta-base	 a sigh the guard placed the suitcase on a table	 and	</s>	13.50184154510498	0.053559742867946625	1.3684364148502937e-06	0.9911310076713562	10
+150	himym_align	aligned	roberta-base	 sigh the guard placed the suitcase on a table and	 opened	</s>	17.093244552612305	0.00021765990823041648	3.7713636658054384e-08	0.9999871253967285	10
+151	himym_align	aligned	roberta-base	 the guard placed the suitcase on a table and opened	 it	</s>	13.482536315917969	0.04560258612036705	1.3951108712717541e-06	0.992569625377655	10
+152	himym_align	aligned	roberta-base	 guard placed the suitcase on a table and opened it	 up	</s>	15.489511489868164	0.06297527253627777	1.8749544494767179e-07	0.9889277219772339	10
+153	himym_align	aligned	roberta-base	 placed the suitcase on a table and opened it up	 revealing	</s>	26.784366607666016	0.037003424018621445	2.3318324268023494e-12	0.994256317615509	10
+154	himym_align	aligned	roberta-base	 the suitcase on a table and opened it up revealing	 a	</s>	13.52276611328125	0.027688447386026382	1.3400997431745054e-06	0.9963365793228149	10
+155	himym_align	aligned	roberta-base	 suitcase on a table and opened it up revealing a	 silver	</s>	17.028514862060547	0.0336555540561676	4.023558020094242e-08	0.9975470900535583	10
+156	himym_align	aligned	roberta-base	 on a table and opened it up revealing a silver	 metal	</s>	20.23243522644043	0.058920975774526596	1.6336714203646352e-09	0.9901037216186523	10
+157	himym_align	aligned	roberta-base	 a table and opened it up revealing a silver metal	 cube	</s>	24.986587524414062	0.02669653855264187	1.4075481231945464e-11	0.996189534664154	10
+158	himym_align	aligned	roberta-base	 table and opened it up revealing a silver metal cube	 about	</s>	20.042654037475586	0.028479406610131264	1.9750867608081535e-09	0.9958055019378662	10
+159	himym_align	aligned	roberta-base	 and opened it up revealing a silver metal cube about	 a	</s>	14.039464950561523	0.04095006734132767	7.993518238436081e-07	0.9939305782318115	10
+160	himym_align	aligned	roberta-base	 opened it up revealing a silver metal cube about a	 foot	</s>	12.565600395202637	0.03377636522054672	3.490030394459609e-06	0.9974894523620605	10
+161	himym_align	aligned	roberta-base	 it up revealing a silver metal cube about a foot	 long	</s>	18.31109619140625	0.035493552684783936	1.115813486052275e-08	0.9948662519454956	10
+162	himym_align	aligned	roberta-base	 up revealing a silver metal cube about a foot long	 on	</s>	16.84477424621582	0.0009354110807180405	4.835126787838817e-08	0.9999397993087769	10
+163	himym_align	aligned	roberta-base	 revealing a silver metal cube about a foot long on	 each	</s>	17.284156799316406	0.028213657438755035	3.115915347962073e-08	0.9961536526679993	10
+164	himym_align	aligned	roberta-base	 a silver metal cube about a foot long on each	 side	</s>	18.93084716796875	0.0205216184258461	6.00395866356962e-09	0.9973850846290588	10
+165	himym_align	aligned	roberta-base	 silver metal cube about a foot long on each side	 what	</s>	19.519193649291992	0.017509719356894493	3.3336646776405132e-09	0.9976871013641357	10
+166	himym_align	aligned	roberta-base	 metal cube about a foot long on each side what	 is	</s>	15.544654846191406	0.00041680276626721025	1.7743612090725946e-07	0.9999748468399048	10
+167	himym_align	aligned	roberta-base	 cube about a foot long on each side what is	 that	</s>	14.522931098937988	0.0011326876701787114	4.929137844555953e-07	0.9999309778213501	10
+168	himym_align	aligned	roberta-base	 about a foot long on each side what is that	 qu	</s>	20.407880783081055	0.02143264003098011	1.3707872614787675e-09	0.9971926808357239	10
+169	himym_align	aligned	roberta-base	 a foot long on each side what is that qu	inn	</s>	13.7434663772583	0.009203585796058178	1.0747023679869017e-06	0.9992817044258118	10
+170	himym_align	aligned	roberta-base	 foot long on each side what is that quinn	 looked	</s>	18.72138214111328	0.03834476321935654	7.402995105820764e-09	0.9951338171958923	10
+171	himym_align	aligned	roberta-base	 long on each side what is that quinn looked	 equally	</s>	19.06719398498535	0.06294451653957367	5.238694367193375e-09	0.9921086430549622	10
+172	himym_align	aligned	roberta-base	 on each side what is that quinn looked equally	 confused	</s>	19.5892391204834	0.061474334448575974	3.1081446305591953e-09	0.991740345954895	10
+173	himym_align	aligned	roberta-base	 each side what is that quinn looked equally confused	 yeah	</s>	19.246171951293945	0.03044178895652294	4.380194873476739e-09	0.9962355494499207	10
+174	himym_align	aligned	roberta-base	 side what is that quinn looked equally confused yeah	 what	</s>	14.139148712158203	0.03582027554512024	7.23512187050801e-07	0.9955204725265503	10
+175	himym_align	aligned	roberta-base	 what is that quinn looked equally confused yeah what	 is	</s>	15.652947425842285	0.001786922919563949	1.5922505269827525e-07	0.9998894929885864	10
+176	himym_align	aligned	roberta-base	 is that quinn looked equally confused yeah what is	 that	</s>	12.104660987854004	0.0021307007409632206	5.533662260859273e-06	0.999863862991333	10
+177	himym_align	aligned	roberta-base	 that quinn looked equally confused yeah what is that	 bar	</s>	24.11684799194336	0.020696105435490608	3.358816350051974e-11	0.9973300695419312	10
+178	himym_align	aligned	roberta-base	 quinn looked equally confused yeah what is that bar	ney	</s>	20.124902725219727	0.034748297184705734	1.8191387285426686e-09	0.9952468276023865	10
+179	himym_align	aligned	roberta-base	inn looked equally confused yeah what is that barney	 pointed	</s>	19.171045303344727	0.024066397920250893	4.721943724916855e-09	0.997065007686615	10
+180	himym_align	aligned	roberta-base	 looked equally confused yeah what is that barney pointed	 to	</s>	11.595266342163086	0.03471304103732109	9.209580639435444e-06	0.9955326318740845	10
+181	himym_align	aligned	roberta-base	 equally confused yeah what is that barney pointed to	 it	</s>	13.966898918151855	0.02194715477526188	8.595137046540913e-07	0.9972960352897644	10
+182	himym_align	aligned	roberta-base	 confused yeah what is that barney pointed to it	 non	</s>	17.994962692260742	0.04052194207906723	1.530689530682139e-08	0.9951444268226624	10
+183	himym_align	aligned	roberta-base	 yeah what is that barney pointed to it non	chal	</s>	22.96478271484375	0.07151703536510468	1.062972140863927e-10	0.9900068044662476	10
+184	himym_align	aligned	roberta-base	 what is that barney pointed to it nonchal	antly	</s>	21.024385452270508	0.030292663723230362	7.399890145087795e-10	0.9958541393280029	10
+185	himym_align	aligned	roberta-base	 is that barney pointed to it nonchalantly	 it	</s>	13.504714012145996	0.02270636521279812	1.3645111494042794e-06	0.9969544410705566	10
+186	himym_align	aligned	roberta-base	 that barney pointed to it nonchalantly it	's	</s>	9.792584419250488	0.025614703074097633	5.5864336900413036e-05	0.997858464717865	10
+187	himym_align	aligned	roberta-base	 barney pointed to it nonchalantly it's	 a	</s>	9.131011009216309	0.03723533824086189	0.00010825612844200805	0.9969912767410278	10
+188	himym_align	aligned	roberta-base	ney pointed to it nonchalantly it's a	 magic	</s>	18.470504760742188	0.007625647820532322	9.513973608932247e-09	0.9994627833366394	10
+189	himym_align	aligned	roberta-base	 pointed to it nonchalantly it's a magic	 trick	</s>	20.92870330810547	0.015436602756381035	8.142905238983644e-10	0.998101532459259	10
+190	himym_align	aligned	roberta-base	 to it nonchalantly it's a magic trick	 you	</s>	16.667814254760742	0.006484622601419687	5.771119049313711e-08	0.9993016719818115	10
+191	himym_align	aligned	roberta-base	 it nonchalantly it's a magic trick you	 see	</s>	17.18191909790039	0.014239677228033543	3.4513341518049856e-08	0.9982383251190186	10
+192	himym_align	aligned	roberta-base	 nonchalantly it's a magic trick you see	 i	</s>	17.94392204284668	0.0283970944583416	1.6108446132534482e-08	0.9963445067405701	10
+193	himym_align	aligned	roberta-base	chalantly it's a magic trick you see i	'm	</s>	14.400184631347656	0.05850385129451752	5.572872510128946e-07	0.9908814430236816	10
+194	himym_align	aligned	roberta-base	antly it's a magic trick you see i'm	 something	</s>	16.91373062133789	0.04389932006597519	4.512942552992172e-08	0.9933400750160217	10
+195	himym_align	aligned	roberta-base	 it's a magic trick you see i'm something	 of	</s>	13.189179420471191	0.033499717712402344	1.8707345361690386e-06	0.9949867725372314	10
+196	himym_align	aligned	roberta-base	's a magic trick you see i'm something of	 a	</s>	13.79631519317627	0.05488176643848419	1.0193811021963484e-06	0.991787850856781	10
+197	himym_align	aligned	roberta-base	 a magic trick you see i'm something of a	 magician	</s>	16.58916664123535	0.06646844744682312	6.243336514444309e-08	0.994598388671875	10
+198	himym_align	aligned	roberta-base	 magic trick you see i'm something of a magician	 the	</s>	12.918142318725586	0.08484284579753876	2.453137312841136e-06	0.9840791821479797	10
+199	himym_align	aligned	roberta-base	 trick you see i'm something of a magician the	 guard	</s>	17.28281593322754	0.002620198531076312	3.1200983130474924e-08	0.9998242259025574	10
+200	himym_align	aligned	roberta-base	 you see i'm something of a magician the guard	 	</s>	14.708871841430664	0.12147796899080276	4.0927753275354917e-07	0.9750271439552307	10
+201	himym_align	aligned	roberta-base	 see i'm something of a magician the guard 	<unk>	</s>	26.401962280273438	0.0954231470823288	3.4180087146035154e-12	0.9819677472114563	10
+202	himym_align	aligned	roberta-base	 i'm something of a magician the guard <unk>	 to	</s>	12.621969223022461	0.1294156163930893	3.2987427402986214e-06	0.9736672639846802	10
+203	himym_align	aligned	roberta-base	'm something of a magician the guard <unk> to	 several	</s>	17.682579040527344	0.12110046297311783	2.0919598497926017e-08	0.9782050251960754	10
+204	himym_align	aligned	roberta-base	 something of a magician the guard <unk> to several	 others	</s>	14.179527282714844	0.16633710265159607	6.948795316930045e-07	0.9693589210510254	10
+205	himym_align	aligned	roberta-base	 of a magician the guard <unk> to several others	 for	</s>	9.472550392150879	0.33861663937568665	7.693491352256387e-05	0.9201461672782898	10
+206	himym_align	aligned	roberta-base	 a magician the guard <unk> to several others for	 backup	</s>	18.19220542907715	0.12418751418590546	1.2566832907623393e-08	0.9790740013122559	10
+207	himym_align	aligned	roberta-base	 magician the guard <unk> to several others for backup	 sir	</s>	18.3323974609375	0.0839938372373581	1.0922981630301365e-08	0.9860436916351318	10
+208	himym_align	aligned	roberta-base	 the guard <unk> to several others for backup sir	 you	</s>	12.994508743286133	0.12854790687561035	2.2727747364115203e-06	0.9771755933761597	10
+209	himym_align	aligned	roberta-base	 guard <unk> to several others for backup sir you	 need	</s>	15.021681785583496	0.08715904504060745	2.993411953866598e-07	0.9854912757873535	10
+210	himym_align	aligned	roberta-base	 <unk> to several others for backup sir you need	 to	</s>	10.064088821411133	0.0976358950138092	4.258155604475178e-05	0.9818106889724731	10
+211	himym_align	aligned	roberta-base	<unk> to several others for backup sir you need to	 open	</s>	15.589454650878906	0.0018773652845993638	1.6966245652838552e-07	0.9998756647109985	10
+212	himym_align	aligned	roberta-base	 to several others for backup sir you need to open	 this	</s>	12.802474975585938	0.11844703555107117	2.7539492748474004e-06	0.9813181757926941	10
+213	himym_align	aligned	roberta-base	 several others for backup sir you need to open this	 box	</s>	18.33226776123047	0.06516426056623459	1.0924399163059206e-08	0.9890103936195374	10
+214	himym_align	aligned	roberta-base	 others for backup sir you need to open this box	 oh	</s>	24.292160034179688	0.041546329855918884	2.8187013487168677e-11	0.9933486580848694	10
+215	himym_align	aligned	roberta-base	 for backup sir you need to open this box oh	 i	</s>	13.09787368774414	0.004412921145558357	2.049584281849093e-06	0.999702513217926	10
+216	himym_align	aligned	roberta-base	 backup sir you need to open this box oh i	 can	</s>	9.937125205993652	0.0179971344769001	4.8346086259698495e-05	0.9985989928245544	10
+217	himym_align	aligned	roberta-base	 sir you need to open this box oh i can	't	</s>	15.722494125366211	0.0015064515173435211	1.485277891788428e-07	0.9999040365219116	10
+218	himym_align	aligned	roberta-base	 you need to open this box oh i can't	 do	</s>	15.41525936126709	0.0002585013280622661	2.0194727312627947e-07	0.999984860420227	10
+219	himym_align	aligned	roberta-base	 need to open this box oh i can't do	 that	</s>	15.733674049377441	0.04392135143280029	1.4687638838495332e-07	0.9928223490715027	10
+220	himym_align	aligned	roberta-base	 to open this box oh i can't do that	 	</s>	16.977848052978516	0.020327111706137657	4.2326711024998076e-08	0.9971112012863159	10
+221	himym_align	aligned	roberta-base	 open this box oh i can't do that 	<unk>	</s>	26.659469604492188	0.016798533499240875	2.64204088294695e-12	0.9985878467559814	10
+222	himym_align	aligned	roberta-base	 this box oh i can't do that <unk>	 code	</s>	20.459579467773438	0.06397620588541031	1.3017190658715094e-09	0.9886847138404846	10
+223	himym_align	aligned	roberta-base	 box oh i can't do that <unk> code	 a	</s>	15.91653060913086	0.027084531262516975	1.2233159907282243e-07	0.9961090683937073	10
+224	himym_align	aligned	roberta-base	 oh i can't do that <unk> code a	 magician	</s>	26.3148136138916	0.03187558799982071	3.729253884865447e-12	0.9955568909645081	10
+225	himym_align	aligned	roberta-base	 i can't do that <unk> code a magician	 never	</s>	18.634817123413086	0.04062003642320633	8.072377433165911e-09	0.9938083291053772	10
+226	himym_align	aligned	roberta-base	 can't do that <unk> code a magician never	 reveals	</s>	20.283885955810547	0.04374285414814949	1.551743289418539e-09	0.9934176206588745	10
+227	himym_align	aligned	roberta-base	't do that <unk> code a magician never reveals	 his	</s>	16.992517471313477	0.029039522632956505	4.171031520172619e-08	0.995812714099884	10
+228	himym_align	aligned	roberta-base	 do that <unk> code a magician never reveals his	 tricks	</s>	17.27398109436035	0.06323963403701782	3.147786387103224e-08	0.9905348420143127	10
+229	himym_align	aligned	roberta-base	 that <unk> code a magician never reveals his tricks	 the	</s>	12.357536315917969	0.04604586213827133	4.297246960049961e-06	0.9929471015930176	10
+230	himym_align	aligned	roberta-base	 <unk> code a magician never reveals his tricks the	 only	</s>	14.843019485473633	0.06782157719135284	3.5789747698800056e-07	0.9902708530426025	10
+231	himym_align	aligned	roberta-base	<unk> code a magician never reveals his tricks the only	 person	</s>	15.638479232788086	0.0023265948984771967	1.6154538684531872e-07	0.9998583793640137	10
+232	himym_align	aligned	roberta-base	 code a magician never reveals his tricks the only person	 i	</s>	13.103196144104004	0.02075415849685669	2.038704906226485e-06	0.9983842372894287	10
+233	himym_align	aligned	roberta-base	 a magician never reveals his tricks the only person i	 could	</s>	11.446781158447266	0.03679974749684334	1.0683806067390833e-05	0.9971218705177307	10
+234	himym_align	aligned	roberta-base	 magician never reveals his tricks the only person i could	 possibly	</s>	18.615745544433594	0.0017763909418135881	8.22781842657605e-09	0.999886155128479	10
+235	himym_align	aligned	roberta-base	 never reveals his tricks the only person i could possibly	 reveal	</s>	15.956464767456055	0.0022527643013745546	1.1754266893149179e-07	0.9998496770858765	10
+236	himym_align	aligned	roberta-base	 reveals his tricks the only person i could possibly reveal	 the	</s>	11.73853588104248	0.07803408056497574	7.980291229614522e-06	0.9867402911186218	10
+237	himym_align	aligned	roberta-base	 his tricks the only person i could possibly reveal the	 trick	</s>	18.412460327148438	0.00484892725944519	1.008254901790906e-08	0.9996936321258545	10
+238	himym_align	aligned	roberta-base	 tricks the only person i could possibly reveal the trick	 to	</s>	10.333871841430664	0.12216503173112869	3.251296220696531e-05	0.9761683344841003	10
+239	himym_align	aligned	roberta-base	 the only person i could possibly reveal the trick to	 is	</s>	19.235179901123047	2.3474191038985737e-05	4.428607258688544e-09	0.9999991655349731	10
+240	himym_align	aligned	roberta-base	 only person i could possibly reveal the trick to is	 another	</s>	15.759178161621094	0.000394728354876861	1.4317788554762956e-07	0.999975323677063	10
+241	himym_align	aligned	roberta-base	 person i could possibly reveal the trick to is another	 magician	</s>	22.05628204345703	0.0015475698746740818	2.636806328837338e-10	0.9999061822891235	10
+242	himym_align	aligned	roberta-base	 i could possibly reveal the trick to is another magician	 on	</s>	14.82028865814209	0.029186712577939034	3.6612587450690626e-07	0.9959731698036194	10
+243	himym_align	aligned	roberta-base	 could possibly reveal the trick to is another magician on	 cue	</s>	20.302427291870117	0.07505324482917786	1.5232382022389857e-09	0.989000141620636	10
+244	himym_align	aligned	roberta-base	 possibly reveal the trick to is another magician on cue	 one	</s>	16.093297958374023	0.02050967328250408	1.0251070392541806e-07	0.9972051978111267	10
+245	himym_align	aligned	roberta-base	 reveal the trick to is another magician on cue one	 of	</s>	12.063547134399414	0.0282721109688282	5.765914465882815e-06	0.9962061643600464	10
+246	himym_align	aligned	roberta-base	 the trick to is another magician on cue one of	 the	</s>	8.075501441955566	0.030920151621103287	0.00031106718233786523	0.9976621866226196	10
+247	himym_align	aligned	roberta-base	 trick to is another magician on cue one of the	 security	</s>	19.188711166381836	0.001825345796532929	4.639259199024082e-09	0.9998874664306641	10
+248	himym_align	aligned	roberta-base	 to is another magician on cue one of the security	 guards	</s>	11.338326454162598	0.007692435290664434	1.190768580272561e-05	0.9994737505912781	10
+249	himym_align	aligned	roberta-base	 is another magician on cue one of the security guards	 stepped	</s>	23.10112190246582	0.00022331782383844256	9.274927353919438e-11	0.9999872446060181	10
+250	himym_align	aligned	roberta-base	 another magician on cue one of the security guards stepped	 forward	</s>	15.283982276916504	0.003630218328908086	2.3027708095924027e-07	0.9997202754020691	10
+251	himym_align	aligned	roberta-base	 magician on cue one of the security guards stepped forward	 i	</s>	21.397056579589844	0.015757936984300613	5.097722244329361e-10	0.9979360103607178	10
+252	himym_align	aligned	roberta-base	 on cue one of the security guards stepped forward i	'm	</s>	12.760841369628906	0.015357381664216518	2.871025799322524e-06	0.9988659620285034	10
+253	himym_align	aligned	roberta-base	 cue one of the security guards stepped forward i'm	 a	</s>	11.013282775878906	0.027102552354335785	1.6481322745676152e-05	0.9978402853012085	10
+254	himym_align	aligned	roberta-base	 one of the security guards stepped forward i'm a	 magician	</s>	19.799596786499023	0.015180590562522411	2.5185122876081323e-09	0.998948872089386	10
+255	himym_align	aligned	roberta-base	 of the security guards stepped forward i'm a magician	 he	</s>	15.158763885498047	0.0671977698802948	2.609950797705096e-07	0.9879392385482788	10
+256	himym_align	aligned	roberta-base	 the security guards stepped forward i'm a magician he	 said	</s>	9.845831871032715	0.002381054451689124	5.296749441185966e-05	0.9998317956924438	10
+257	himym_align	aligned	roberta-base	 security guards stepped forward i'm a magician he said	 pulling	</s>	25.760581970214844	0.001387756085023284	6.491144427522855e-12	0.9999042749404907	10
+258	himym_align	aligned	roberta-base	 guards stepped forward i'm a magician he said pulling	 out	</s>	23.397436141967773	6.389366899384186e-05	6.896404974865433e-11	0.999996542930603	10
+259	himym_align	aligned	roberta-base	 stepped forward i'm a magician he said pulling out	 a	</s>	12.484465599060059	0.09868558496236801	3.7849963518965524e-06	0.9817371368408203	10
+260	himym_align	aligned	roberta-base	 forward i'm a magician he said pulling out a	 deck	</s>	14.361931800842285	0.025746773928403854	5.790183763565437e-07	0.9980632662773132	10
+261	himym_align	aligned	roberta-base	 i'm a magician he said pulling out a deck	 of	</s>	12.43742847442627	0.03676987439393997	3.9672859202255495e-06	0.9944897890090942	10
+262	himym_align	aligned	roberta-base	'm a magician he said pulling out a deck of	 cards	</s>	16.635221481323242	0.001656073029153049	5.962316151908453e-08	0.9998929500579834	10
+263	himym_align	aligned	roberta-base	 a magician he said pulling out a deck of cards	 from	</s>	21.01592254638672	0.00045541097642853856	7.462789275436421e-10	0.9999703168869019	10
+264	himym_align	aligned	roberta-base	 magician he said pulling out a deck of cards from	 his	</s>	11.579577445983887	0.008024817332625389	9.355202564620413e-06	0.9994266033172607	10
+265	himym_align	aligned	roberta-base	 he said pulling out a deck of cards from his	 breast	</s>	21.278892517089844	0.0008859341032803059	5.737126884675092e-10	0.9999486207962036	10
+266	himym_align	aligned	roberta-base	 said pulling out a deck of cards from his breast	 pocket	</s>	21.513572692871094	0.030373074114322662	4.5370526779997533e-10	0.9956715106964111	10
+267	himym_align	aligned	roberta-base	 pulling out a deck of cards from his breast pocket	 bar	</s>	26.512861251831055	0.042094580829143524	3.059221279078095e-12	0.9931045174598694	10
+268	himym_align	aligned	roberta-base	 out a deck of cards from his breast pocket bar	ney	</s>	19.43474578857422	0.04928433522582054	3.627416367280034e-09	0.9921239018440247	10
+269	himym_align	aligned	roberta-base	 a deck of cards from his breast pocket barney	 shrugged	</s>	26.768152236938477	0.039316900074481964	2.3699505899421602e-12	0.9937883019447327	10
+270	himym_align	aligned	roberta-base	 deck of cards from his breast pocket barney shrugged	 fair	</s>	24.047395706176758	0.0012431725626811385	3.6003835329756484e-11	0.9999161958694458	10
+271	himym_align	aligned	roberta-base	 of cards from his breast pocket barney shrugged fair	 enough	</s>	18.090938568115234	0.1287168264389038	1.390609494222872e-08	0.9774611592292786	10
+272	himym_align	aligned	roberta-base	 cards from his breast pocket barney shrugged fair enough	 he	</s>	12.7845458984375	0.046620093286037445	2.803768666126416e-06	0.9926389455795288	10
+273	himym_align	aligned	roberta-base	 from his breast pocket barney shrugged fair enough he	 leaned	</s>	16.080781936645508	0.03276607766747475	1.0380195902826017e-07	0.9974159002304077	10
+274	himym_align	aligned	roberta-base	 his breast pocket barney shrugged fair enough he leaned	 over	</s>	9.794265747070312	0.07968723028898239	5.5770469771232456e-05	0.9923917651176453	10
+275	himym_align	aligned	roberta-base	 breast pocket barney shrugged fair enough he leaned over	 and	</s>	11.52159595489502	0.0033177107106894255	9.913668691297062e-06	0.9997805953025818	10
+276	himym_align	aligned	roberta-base	 pocket barney shrugged fair enough he leaned over and	 whispered	</s>	14.455328941345215	0.0031935961451381445	5.273881242828793e-07	0.9997891783714294	10
+277	himym_align	aligned	roberta-base	 barney shrugged fair enough he leaned over and whispered	 in	</s>	16.00617790222168	0.0005960198468528688	1.118421195656083e-07	0.9999639987945557	10
+278	himym_align	aligned	roberta-base	ney shrugged fair enough he leaned over and whispered in	 the	</s>	9.399083137512207	0.03536549583077431	8.279997564386576e-05	0.9969636797904968	10
+279	himym_align	aligned	roberta-base	 shrugged fair enough he leaned over and whispered in the	 guard	</s>	16.78931999206543	0.0062180268578231335	5.110822698384254e-08	0.9995781779289246	10
+280	himym_align	aligned	roberta-base	 fair enough he leaned over and whispered in the guard	's	</s>	13.953615188598633	0.05302929878234863	8.710073871043278e-07	0.9921667575836182	10
+281	himym_align	aligned	roberta-base	 enough he leaned over and whispered in the guard's	 ear	</s>	14.369036674499512	0.003077876754105091	5.749191700488154e-07	0.9997685551643372	10
+282	himym_align	aligned	roberta-base	 he leaned over and whispered in the guard's ear	 the	</s>	15.034088134765625	0.001501171849668026	2.9565035220002756e-07	0.9998881816864014	10
+283	himym_align	aligned	roberta-base	 leaned over and whispered in the guard's ear the	 guard	</s>	15.127964973449707	0.006464144680649042	2.6915853368336684e-07	0.9995554089546204	10
+284	himym_align	aligned	roberta-base	 over and whispered in the guard's ear the guard	 raised	</s>	19.187755584716797	0.001615407527424395	4.643690321159966e-09	0.9998904466629028	10
+285	himym_align	aligned	roberta-base	 and whispered in the guard's ear the guard raised	 his	</s>	14.661416053771973	0.05446074157953262	4.291687218938023e-07	0.9913311004638672	10
+286	himym_align	aligned	roberta-base	 whispered in the guard's ear the guard raised his	 eyebrows	</s>	20.37891387939453	0.00017481989925727248	1.4110758117524824e-09	0.9999909400939941	10
+287	himym_align	aligned	roberta-base	 in the guard's ear the guard raised his eyebrows	 and	</s>	13.660005569458008	0.0006190611748024821	1.1682482181640808e-06	0.9999622106552124	10
+288	himym_align	aligned	roberta-base	 the guard's ear the guard raised his eyebrows and	 smiled	</s>	18.029001235961914	0.0031367610208690166	1.4794621527869367e-08	0.9997627139091492	10
+289	himym_align	aligned	roberta-base	 guard's ear the guard raised his eyebrows and smiled	 oh	</s>	20.079036712646484	0.03719267621636391	1.904519431050744e-09	0.9957505464553833	10
+290	himym_align	aligned	roberta-base	's ear the guard raised his eyebrows and smiled oh	 i	</s>	12.813668251037598	0.00796195212751627	2.723294755924144e-06	0.9993842840194702	10
+291	himym_align	aligned	roberta-base	 ear the guard raised his eyebrows and smiled oh i	 see	</s>	9.982620239257812	0.07629915326833725	4.619585888576694e-05	0.9933661818504333	10
+292	himym_align	aligned	roberta-base	 the guard raised his eyebrows and smiled oh i see	 alright	</s>	21.773508071899414	0.08849578350782394	3.498532574752744e-10	0.9842550754547119	10
+293	himym_align	aligned	roberta-base	 guard raised his eyebrows and smiled oh i see alright	 you	</s>	14.089810371398926	0.053385235369205475	7.60104398978001e-07	0.9910994172096252	10
+294	himym_align	aligned	roberta-base	 raised his eyebrows and smiled oh i see alright you	're	</s>	14.403249740600586	0.12635555863380432	5.555818916036515e-07	0.9790359139442444	10
+295	himym_align	aligned	roberta-base	 his eyebrows and smiled oh i see alright you're	 free	</s>	20.371437072753906	0.014877185225486755	1.4216656740728695e-09	0.9981139898300171	10
+296	himym_align	aligned	roberta-base	 eyebrows and smiled oh i see alright you're free	 to	</s>	14.62952709197998	0.02783309295773506	4.430749527273292e-07	0.9958488941192627	10
+297	himym_align	aligned	roberta-base	 and smiled oh i see alright you're free to	 go	</s>	13.851055145263672	0.0037329066544771194	9.650798347138334e-07	0.9997474551200867	10
+298	himym_align	aligned	roberta-base	 smiled oh i see alright you're free to go	 he	</s>	17.132556915283203	0.0304810032248497	3.625979516641564e-08	0.9954125285148621	10
+299	himym_align	aligned	roberta-base	 oh i see alright you're free to go he	 z	</s>	14.735257148742676	0.0023272456601262093	3.986201875250117e-07	0.999843955039978	10
+300	himym_align	aligned	roberta-base	 i see alright you're free to go he z	ipped	</s>	18.5434627532959	0.00381375546567142	8.844569521215817e-09	0.9997411370277405	10
+301	himym_align	aligned	roberta-base	 see alright you're free to go he zipped	 up	</s>	15.216781616210938	0.030738497152924538	2.4628366190881934e-07	0.9953472018241882	10
+302	himym_align	aligned	roberta-base	 alright you're free to go he zipped up	 bar	</s>	23.89906120300293	0.030744338408112526	4.176091070173804e-11	0.9952855706214905	10
+303	himym_align	aligned	roberta-base	 you're free to go he zipped up bar	ney	</s>	18.068126678466797	0.04981435090303421	1.4226972488984302e-08	0.9923811554908752	10
+304	himym_align	aligned	roberta-base	're free to go he zipped up barney	's	</s>	14.579785346984863	0.017393801361322403	4.6567146227971534e-07	0.9977174997329712	10
+305	himym_align	aligned	roberta-base	 free to go he zipped up barney's	 bag	</s>	17.12444496154785	0.0711376816034317	3.6555139359961686e-08	0.9879434704780579	10
+306	himym_align	aligned	roberta-base	 to go he zipped up barney's bag	 and	</s>	14.598820686340332	0.01302068866789341	4.568910014768335e-07	0.9983882904052734	10
+307	himym_align	aligned	roberta-base	 go he zipped up barney's bag and	 handed	</s>	18.6295223236084	0.002125187311321497	8.115231153738023e-09	0.9998617172241211	10
+308	himym_align	aligned	roberta-base	 he zipped up barney's bag and handed	 it	</s>	7.587901592254639	0.10256928950548172	0.0005065427394583821	0.9907034635543823	10
+309	himym_align	aligned	roberta-base	 zipped up barney's bag and handed it	 back	</s>	15.391396522521973	0.022029992192983627	2.0682428214513493e-07	0.9971233010292053	10
+310	himym_align	aligned	roberta-base	ipped up barney's bag and handed it back	 to	</s>	11.934443473815918	0.022102264687418938	6.560502242791699e-06	0.9970622658729553	10
+311	himym_align	aligned	roberta-base	 up barney's bag and handed it back to	 him	</s>	7.156291961669922	0.040485989302396774	0.0007799412705935538	0.9962343573570251	10
+312	himym_align	aligned	roberta-base	 barney's bag and handed it back to him	 qu	</s>	19.468502044677734	0.03820520266890526	3.5070115700364113e-09	0.9945375323295593	10
+313	himym_align	aligned	roberta-base	ney's bag and handed it back to him qu	inn	</s>	16.225284576416016	0.00284970854409039	8.983556654129643e-08	0.9998146891593933	10
+314	himym_align	aligned	roberta-base	's bag and handed it back to him quinn	 followed	</s>	14.75712776184082	0.13128337264060974	3.8999667140160454e-07	0.9761636853218079	10
+315	himym_align	aligned	roberta-base	 bag and handed it back to him quinn followed	 bar	</s>	21.022785186767578	0.029734184965491295	7.411750657659866e-10	0.9956653714179993	10
+316	himym_align	aligned	roberta-base	 and handed it back to him quinn followed bar	ney	</s>	18.3758544921875	0.031089266762137413	1.0458454546835583e-08	0.9955347776412964	10
+317	himym_align	aligned	roberta-base	 handed it back to him quinn followed barney	 down	</s>	18.113662719726562	0.03607729822397232	1.3593661307709226e-08	0.9947006702423096	10
+318	himym_align	aligned	roberta-base	 it back to him quinn followed barney down	 the	</s>	13.118925094604492	0.021658997982740402	2.0068889625690645e-06	0.99720698595047	10
+319	himym_align	aligned	roberta-base	 back to him quinn followed barney down the	 conc	</s>	13.34687614440918	0.09356463700532913	1.5978115470716148e-06	0.9925079941749573	10
+320	himym_align	aligned	roberta-base	 to him quinn followed barney down the conc	ourse	</s>	23.036693572998047	0.04360107332468033	9.89215029334467e-11	0.9933872818946838	10
+321	himym_align	aligned	roberta-base	 him quinn followed barney down the concourse	 in	</s>	15.152558326721191	0.016748741269111633	2.626199488986458e-07	0.9978883862495422	10
+322	himym_align	aligned	roberta-base	 quinn followed barney down the concourse in	 total	</s>	19.330041885375977	0.021826473996043205	4.027814082263603e-09	0.9972514510154724	10
+323	himym_align	aligned	roberta-base	inn followed barney down the concourse in total	 confusion	</s>	21.86973762512207	0.050212252885103226	3.177557938993658e-10	0.9929370284080505	10
+324	himym_align	aligned	roberta-base	 followed barney down the concourse in total confusion	 magic	</s>	22.584434509277344	0.030325185507535934	1.5549082854615648e-10	0.9954842329025269	10
+325	himym_align	aligned	roberta-base	 barney down the concourse in total confusion magic	 trick	</s>	19.337078094482422	0.12816016376018524	3.999574893498448e-09	0.9756473302841187	10
+326	himym_align	aligned	roberta-base	ney down the concourse in total confusion magic trick	 why	</s>	17.276994705200195	0.06891879439353943	3.138314852435542e-08	0.9889510273933411	10
+327	himym_align	aligned	roberta-base	 down the concourse in total confusion magic trick why	 wouldn	</s>	23.97140884399414	6.558707536896691e-05	3.884630464523475e-11	0.9999969005584717	10
+328	himym_align	aligned	roberta-base	 the concourse in total confusion magic trick why wouldn	't	</s>	5.268247604370117	0.03656287491321564	0.00515263294801116	0.9945371747016907	10
+329	himym_align	aligned	roberta-base	 concourse in total confusion magic trick why wouldn't	 he	</s>	12.830388069152832	0.0005588655476458371	2.6781392534758197e-06	0.9999662637710571	10
+330	himym_align	aligned	roberta-base	ourse in total confusion magic trick why wouldn't he	 tell	</s>	21.05022430419922	0.0001250377099495381	7.211131136664051e-10	0.9999934434890747	10
+331	himym_align	aligned	roberta-base	 in total confusion magic trick why wouldn't he tell	 her	</s>	8.182616233825684	0.1071588471531868	0.00027946982299908996	0.9876165986061096	10
+332	himym_align	aligned	roberta-base	 total confusion magic trick why wouldn't he tell her	 what	</s>	19.5806827545166	0.00557054253295064	3.134852821773393e-09	0.9994175434112549	10
+333	himym_align	aligned	roberta-base	 confusion magic trick why wouldn't he tell her what	 was	</s>	15.296304702758789	0.00016852504631970078	2.2745695105186314e-07	0.9999912977218628	10
+334	himym_align	aligned	roberta-base	 magic trick why wouldn't he tell her what was	 in	</s>	16.264373779296875	0.000992329209111631	8.639179327474267e-08	0.9999395608901978	10
+335	himym_align	aligned	roberta-base	 trick why wouldn't he tell her what was in	 the	</s>	7.564990997314453	0.051909636706113815	0.0005182819440960884	0.9954308271408081	10
+336	himym_align	aligned	roberta-base	 why wouldn't he tell her what was in the	 box	</s>	13.808732032775879	0.0017109306063503027	1.0068016536024516e-06	0.9998942613601685	10
+337	himym_align	aligned	roberta-base	 wouldn't he tell her what was in the box	 she	</s>	14.556203842163086	0.022167103365063667	4.7678310011178837e-07	0.9969620108604431	10
+338	himym_align	aligned	roberta-base	't he tell her what was in the box she	 tried	</s>	20.842195510864258	0.041607607156038284	8.878707769000016e-10	0.9933603405952454	10
+339	himym_align	aligned	roberta-base	 he tell her what was in the box she tried	 to	</s>	13.080947875976562	0.01834181882441044	2.0845704966632184e-06	0.9976170063018799	10
+340	himym_align	aligned	roberta-base	 tell her what was in the box she tried to	 interrog	</s>	17.10369873046875	0.014181328006088734	3.7321395751632735e-08	0.9989607334136963	10
+341	himym_align	aligned	roberta-base	 her what was in the box she tried to interrog	ate	</s>	8.764683723449707	0.017269443720579147	0.00015615146548952907	0.9979988932609558	10
+342	himym_align	aligned	roberta-base	 what was in the box she tried to interrogate	 him	</s>	13.690982818603516	0.025076327845454216	1.1326128515065648e-06	0.9967660903930664	10
+343	himym_align	aligned	roberta-base	 was in the box she tried to interrogate him	 as	</s>	15.193155288696289	0.02587941847741604	2.521717590298067e-07	0.996337890625	10
+344	himym_align	aligned	roberta-base	 in the box she tried to interrogate him as	 they	</s>	20.305713653564453	0.00010743133316282183	1.5182398671598207e-09	0.9999938011169434	10
+345	himym_align	aligned	roberta-base	 the box she tried to interrogate him as they	 sat	</s>	16.024255752563477	0.006446565501391888	1.0983847431589311e-07	0.999537467956543	10
+346	himym_align	aligned	roberta-base	 box she tried to interrogate him as they sat	 in	</s>	13.707205772399902	0.0006388433394022286	1.1143873734908993e-06	0.9999608993530273	10
+347	himym_align	aligned	roberta-base	 she tried to interrogate him as they sat in	 front	</s>	19.532962799072266	0.047968145459890366	3.2880789202494043e-09	0.9928695559501648	10
+348	himym_align	aligned	roberta-base	 tried to interrogate him as they sat in front	 of	</s>	13.884658813476562	0.049138233065605164	9.331884598395845e-07	0.9916183352470398	10
+349	himym_align	aligned	roberta-base	 to interrogate him as they sat in front of	 the	</s>	6.668423175811768	0.08715878427028656	0.0012704002438113093	0.9922239780426025	10
+350	himym_align	aligned	roberta-base	 interrogate him as they sat in front of the	 gate	</s>	18.37225341796875	0.012186435051262379	1.049619680060232e-08	0.9992074370384216	10
+351	himym_align	aligned	roberta-base	ate him as they sat in front of the gate	 but	</s>	15.271756172180176	0.041756317019462585	2.3310970220791205e-07	0.993530809879303	10
+352	himym_align	aligned	roberta-base	 him as they sat in front of the gate but	 he	</s>	13.866971969604492	0.002443757839500904	9.498406825514394e-07	0.9998401403427124	10
+353	himym_align	aligned	roberta-base	 as they sat in front of the gate but he	 refused	</s>	13.254049301147461	0.007596489507704973	1.7532322544866474e-06	0.9994182586669922	10
+354	himym_align	aligned	roberta-base	 they sat in front of the gate but he refused	 to	</s>	13.668539047241211	0.01335288118571043	1.1583215382415801e-06	0.998394787311554	10
+355	himym_align	aligned	roberta-base	 sat in front of the gate but he refused to	 spill	</s>	25.663883209228516	2.910822513513267e-05	7.1501849580046795e-12	0.9999984502792358	10
+356	himym_align	aligned	roberta-base	 in front of the gate but he refused to spill	 the	</s>	12.964311599731445	0.01651766523718834	2.3424547634931514e-06	0.9978265166282654	10
+357	himym_align	aligned	roberta-base	 front of the gate but he refused to spill the	 beans	</s>	19.139909744262695	0.003915860317647457	4.8712807121376045e-09	0.9997566342353821	10
+358	himym_align	aligned	roberta-base	 of the gate but he refused to spill the beans	 i	</s>	17.87071990966797	0.00019894035358447582	1.7331847956825186e-08	0.9999884366989136	10
+359	himym_align	aligned	roberta-base	 the gate but he refused to spill the beans i	 told	</s>	20.810544967651367	7.876965537434444e-05	9.164219938462281e-10	0.9999951124191284	10
+360	himym_align	aligned	roberta-base	 gate but he refused to spill the beans i told	 you	</s>	12.664640426635742	0.011624261736869812	3.1609433790436015e-06	0.9990377426147461	10
+361	himym_align	aligned	roberta-base	 but he refused to spill the beans i told you	 	</s>	15.616780281066895	0.062058769166469574	1.6508919031821279e-07	0.989120364189148	10
+362	himym_align	aligned	roberta-base	 he refused to spill the beans i told you 	<unk>	</s>	27.78818702697754	0.003446754300966859	8.545617555602569e-13	0.9997591376304626	10
+363	himym_align	aligned	roberta-base	 refused to spill the beans i told you <unk>	 code	</s>	20.87335968017578	0.3114445209503174	8.60628013299447e-10	0.9161169528961182	10
+364	himym_align	aligned	roberta-base	 to spill the beans i told you <unk> code	 as	</s>	17.213003158569336	0.041123222559690475	3.345704868706889e-08	0.9938390851020813	10
+365	himym_align	aligned	roberta-base	 spill the beans i told you <unk> code as	 they	</s>	16.05309295654297	0.004101804457604885	1.0671615768842457e-07	0.9997288584709167	10
+366	himym_align	aligned	roberta-base	 the beans i told you <unk> code as they	 boarded	</s>	29.373199462890625	0.006282344926148653	1.7513854949635643e-13	0.9992873072624207	10
+367	himym_align	aligned	roberta-base	 beans i told you <unk> code as they boarded	 the	</s>	11.845138549804688	0.07518807053565979	7.1733429649611935e-06	0.9875655770301819	10
+368	himym_align	aligned	roberta-base	 i told you <unk> code as they boarded the	 plane	</s>	18.09268569946289	0.05652882903814316	1.3881817473304636e-08	0.9917163252830505	10
+369	himym_align	aligned	roberta-base	 told you <unk> code as they boarded the plane	 and	</s>	11.497586250305176	0.08947261422872543	1.0154577466892079e-05	0.9863414168357849	10
+370	himym_align	aligned	roberta-base	 you <unk> code as they boarded the plane and	 found	</s>	12.38243293762207	0.08208956569433212	4.191577318124473e-06	0.9893073439598083	10
+371	himym_align	aligned	roberta-base	 <unk> code as they boarded the plane and found	 their	</s>	12.149718284606934	0.05067214369773865	5.289864020596724e-06	0.9931678175926208	10
+372	himym_align	aligned	roberta-base	<unk> code as they boarded the plane and found their	 seats	</s>	16.047483444213867	0.0029109492897987366	1.0731650235129564e-07	0.9998226761817932	10
+373	himym_align	aligned	roberta-base	 code as they boarded the plane and found their seats	 bar	</s>	30.170564651489258	3.2567859307164326e-05	7.890245396066295e-14	0.9999986886978149	10
+374	himym_align	aligned	roberta-base	 as they boarded the plane and found their seats bar	ney	</s>	20.44439697265625	0.015620884485542774	1.3216333583088158e-09	0.9980692267417908	10
+375	himym_align	aligned	roberta-base	 they boarded the plane and found their seats barney	 placed	</s>	20.06626319885254	0.020696960389614105	1.9290014030559632e-09	0.997295081615448	10
+376	himym_align	aligned	roberta-base	 boarded the plane and found their seats barney placed	 the	</s>	10.056129455566406	0.081881582736969	4.2921841668430716e-05	0.9859628081321716	10
+377	himym_align	aligned	roberta-base	 the plane and found their seats barney placed the	 bag	</s>	15.72927188873291	0.009728019125759602	1.475244602033854e-07	0.9993775486946106	10
+378	himym_align	aligned	roberta-base	 plane and found their seats barney placed the bag	 on	</s>	13.791753768920898	0.06826268881559372	1.0240412393613951e-06	0.9881319403648376	10
+379	himym_align	aligned	roberta-base	 and found their seats barney placed the bag on	 his	</s>	16.59084129333496	0.041140951216220856	6.232884430801278e-08	0.9937953948974609	10
+380	himym_align	aligned	roberta-base	 found their seats barney placed the bag on his	 seat	</s>	10.73586368560791	0.0074358065612614155	2.1750716769020073e-05	0.9994925260543823	10
+381	himym_align	aligned	roberta-base	 their seats barney placed the bag on his seat	 pulled	</s>	18.423828125	0.044400300830602646	9.96857796309314e-09	0.9929906129837036	10
+382	himym_align	aligned	roberta-base	 seats barney placed the bag on his seat pulled	 out	</s>	18.402585983276367	0.0007396168657578528	1.0182588106033563e-08	0.9999574422836304	10
+383	himym_align	aligned	roberta-base	 barney placed the bag on his seat pulled out	 the	</s>	11.572335243225098	0.07834447920322418	9.423210030945484e-06	0.9863472580909729	10
+384	himym_align	aligned	roberta-base	ney placed the bag on his seat pulled out the	 box	</s>	13.52151870727539	0.002040807856246829	1.3417732134257676e-06	0.9998753070831299	10
+385	himym_align	aligned	roberta-base	 placed the bag on his seat pulled out the box	 and	</s>	11.548802375793457	0.09778561443090439	9.64759510679869e-06	0.9821580648422241	10
+386	himym_align	aligned	roberta-base	 the bag on his seat pulled out the box and	 handed	</s>	18.871898651123047	0.0014023255789652467	6.368515048649215e-09	0.9999076128005981	10
+387	himym_align	aligned	roberta-base	 bag on his seat pulled out the box and handed	 it	</s>	6.6811933517456055	0.10575063526630402	0.0012542803306132555	0.9894587993621826	10
+388	himym_align	aligned	roberta-base	 on his seat pulled out the box and handed it	 to	</s>	8.368581771850586	0.004890695214271545	0.00023204449098557234	0.9995779395103455	10
+389	himym_align	aligned	roberta-base	 his seat pulled out the box and handed it to	 qu	</s>	21.44384002685547	0.0005428190343081951	4.864723623931866e-10	0.9999666213989258	10
+390	himym_align	aligned	roberta-base	 seat pulled out the box and handed it to qu	inn	</s>	15.993987083435059	0.0006296801730059087	1.1321382942242053e-07	0.9999614953994751	10
+391	himym_align	aligned	roberta-base	 pulled out the box and handed it to quinn	 he	</s>	12.511556625366211	0.06215027719736099	3.6838332562183496e-06	0.9893416166305542	10
+392	himym_align	aligned	roberta-base	 out the box and handed it to quinn he	 took	</s>	13.393684387207031	0.0050822594203054905	1.5247430837916909e-06	0.9996564388275146	10
+393	himym_align	aligned	roberta-base	 the box and handed it to quinn he took	 a	</s>	12.258964538574219	0.06454779207706451	4.742413239000598e-06	0.989672064781189	10
+394	himym_align	aligned	roberta-base	 box and handed it to quinn he took a	 key	</s>	13.065710067749023	0.13209490478038788	2.116577206834336e-06	0.9883701801300049	10
+395	himym_align	aligned	roberta-base	 and handed it to quinn he took a key	 from	</s>	17.162010192871094	0.027305753901600838	3.520741032048136e-08	0.9959654808044434	10
+396	himym_align	aligned	roberta-base	 handed it to quinn he took a key from	 his	</s>	10.938282012939453	0.018392665311694145	1.776496173988562e-05	0.9985100626945496	10
+397	himym_align	aligned	roberta-base	 it to quinn he took a key from his	 pocket	</s>	16.951309204101562	0.012536405585706234	4.346499693497208e-08	0.9991604089736938	10
+398	himym_align	aligned	roberta-base	 to quinn he took a key from his pocket	 and	</s>	12.632186889648438	0.000934551702812314	3.2652076242811745e-06	0.9999406337738037	10
+399	himym_align	aligned	roberta-base	 quinn he took a key from his pocket and	 handed	</s>	16.655466079711914	0.007448997348546982	5.8428295091061955e-08	0.9994456171989441	10
+400	himym_align	aligned	roberta-base	inn he took a key from his pocket and handed	 it	</s>	9.57341480255127	0.03384152427315712	6.95534617989324e-05	0.9971649050712585	10
+401	himym_align	aligned	roberta-base	 he took a key from his pocket and handed it	 to	</s>	15.004348754882812	0.00020468779257498682	3.045748542263027e-07	0.9999873638153076	10
+402	himym_align	aligned	roberta-base	 took a key from his pocket and handed it to	 her	</s>	6.9269561767578125	0.1885717511177063	0.0009809824405238032	0.9816980361938477	10
+403	himym_align	aligned	roberta-base	 a key from his pocket and handed it to her	 pointing	</s>	24.535335540771484	0.03337384760379791	2.2102372015941896e-11	0.9950146079063416	10
+404	himym_align	aligned	roberta-base	 key from his pocket and handed it to her pointing	 to	</s>	12.201955795288086	0.015936000272631645	5.020627213525586e-06	0.9979518055915833	10
+405	himym_align	aligned	roberta-base	 from his pocket and handed it to her pointing to	 a	</s>	10.311955451965332	0.013433462008833885	3.3233376598218456e-05	0.9989407658576965	10
+406	himym_align	aligned	roberta-base	 his pocket and handed it to her pointing to a	 small	</s>	12.628994941711426	0.00203303387388587	3.2756474865891505e-06	0.9998797178268433	10
+407	himym_align	aligned	roberta-base	 pocket and handed it to her pointing to a small	 key	</s>	14.825704574584961	0.023830978199839592	3.6414846249499533e-07	0.9982433319091797	10
+408	himym_align	aligned	roberta-base	 and handed it to her pointing to a small key	hole	</s>	24.294109344482422	0.022646594792604446	2.813214071417658e-11	0.9970431923866272	10
+409	himym_align	aligned	roberta-base	 handed it to her pointing to a small keyhole	 in	</s>	14.97065258026123	0.027668746188282967	3.150127270146186e-07	0.9962056875228882	10
+410	himym_align	aligned	roberta-base	 it to her pointing to a small keyhole in	 the	</s>	8.742046356201172	0.017378445714712143	0.0001597267109900713	0.9987154006958008	10
+411	himym_align	aligned	roberta-base	 to her pointing to a small keyhole in the	 side	</s>	15.385579109191895	0.01964334212243557	2.0803085476472916e-07	0.9986358284950256	10
+412	himym_align	aligned	roberta-base	 her pointing to a small keyhole in the side	 of	</s>	13.997791290283203	0.0002719465410336852	8.333673804372665e-07	0.9999837875366211	10
+413	himym_align	aligned	roberta-base	 pointing to a small keyhole in the side of	 the	</s>	6.61292839050293	0.09502828866243362	0.001342893810942769	0.9920749664306641	10
+414	himym_align	aligned	roberta-base	 to a small keyhole in the side of the	 cube	</s>	17.924776077270508	0.0038021430373191833	1.6419836157410828e-08	0.9997658133506775	10
+415	himym_align	aligned	roberta-base	 a small keyhole in the side of the cube	 as	</s>	17.663291931152344	0.014671147800981998	2.132699528090143e-08	0.9980694651603699	10
+416	himym_align	aligned	roberta-base	 small keyhole in the side of the cube as	 she	</s>	16.218873977661133	0.0021095487754791975	9.041335857773447e-08	0.9998494386672974	10
+417	himym_align	aligned	roberta-base	 keyhole in the side of the cube as she	 turned	</s>	16.820892333984375	0.002425757935270667	4.951982646161923e-08	0.9998432397842407	10
+418	himym_align	aligned	roberta-base	hole in the side of the cube as she turned	 the	</s>	15.068859100341797	0.0003339889517519623	2.8554711661854526e-07	0.9999803304672241	10
+419	himym_align	aligned	roberta-base	 in the side of the cube as she turned the	 key	</s>	15.836058616638184	0.004559949040412903	1.3258274123018055e-07	0.9997145533561707	10
+420	himym_align	aligned	roberta-base	 the side of the cube as she turned the key	 the	</s>	12.359197616577148	0.024726947769522667	4.290112883609254e-06	0.9966297745704651	10
+421	himym_align	aligned	roberta-base	 side of the cube as she turned the key the	 lid	</s>	20.256303787231445	0.044552817940711975	1.5951421294957413e-09	0.9937604069709778	10
+422	himym_align	aligned	roberta-base	 of the cube as she turned the key the lid	 of	</s>	11.292252540588379	0.05289682745933533	1.246915871888632e-05	0.9919940233230591	10
+423	himym_align	aligned	roberta-base	 the cube as she turned the key the lid of	 the	</s>	7.313225269317627	0.05846349149942398	0.0006666635163128376	0.9953517913818359	10
+424	himym_align	aligned	roberta-base	 cube as she turned the key the lid of the	 cube	</s>	18.025272369384766	0.023914067074656487	1.4849901752711503e-08	0.9982865452766418	10
+425	himym_align	aligned	roberta-base	 as she turned the key the lid of the cube	 opened	</s>	15.536717414855957	0.20688721537590027	1.788501293731315e-07	0.9511592388153076	10
+426	himym_align	aligned	roberta-base	 she turned the key the lid of the cube opened	 revealing	</s>	25.284217834472656	0.02467183768749237	1.0452097520818882e-11	0.996476948261261	10
+427	himym_align	aligned	roberta-base	 turned the key the lid of the cube opened revealing	 a	</s>	13.971060752868652	0.03403729945421219	8.559438811062137e-07	0.9950690269470215	10
+428	himym_align	aligned	roberta-base	 the key the lid of the cube opened revealing a	 small	</s>	10.396854400634766	0.06674674153327942	3.0528353818226606e-05	0.9947625994682312	10
+429	himym_align	aligned	roberta-base	 key the lid of the cube opened revealing a small	 flower	</s>	17.71138572692871	0.021017996594309807	2.0325579441760055e-08	0.998450517654419	10
+430	himym_align	aligned	roberta-base	 the lid of the cube opened revealing a small flower	 pot	</s>	22.92398452758789	0.02057618275284767	1.1072347899654389e-10	0.9971119165420532	10
+431	himym_align	aligned	roberta-base	 lid of the cube opened revealing a small flower pot	 filled	</s>	22.613893508911133	0.028821421787142754	1.5097691152821113e-10	0.9957132339477539	10
+432	himym_align	aligned	roberta-base	 of the cube opened revealing a small flower pot filled	 with	</s>	10.798116683959961	0.0009063194738700986	2.0437953935470432e-05	0.9999387264251709	10
+433	himym_align	aligned	roberta-base	 the cube opened revealing a small flower pot filled with	 dirt	</s>	17.076244354248047	0.004768967628479004	3.836026962744654e-08	0.9996765851974487	10
+434	himym_align	aligned	roberta-base	 cube opened revealing a small flower pot filled with dirt	 as	</s>	22.157371520996094	0.006688513793051243	2.3832819051605725e-10	0.9991869330406189	10
+435	himym_align	aligned	roberta-base	 opened revealing a small flower pot filled with dirt as	 she	</s>	13.356581687927246	0.000807315984275192	1.5823782177903922e-06	0.9999485015869141	10
+436	himym_align	aligned	roberta-base	 revealing a small flower pot filled with dirt as she	 looked	</s>	16.958284378051758	0.0003704140253830701	4.3162931007145744e-08	0.999977707862854	10
+437	himym_align	aligned	roberta-base	 a small flower pot filled with dirt as she looked	 to	</s>	17.675565719604492	5.029555904911831e-05	2.106682650548919e-08	0.999997615814209	10
+438	himym_align	aligned	roberta-base	 small flower pot filled with dirt as she looked to	 bar	</s>	20.313003540039062	0.0018926121992990375	1.507213465146151e-09	0.9998800754547119	10
+439	himym_align	aligned	roberta-base	 flower pot filled with dirt as she looked to bar	ney	</s>	14.816596984863281	0.004194010980427265	3.6747991316588013e-07	0.9997004270553589	10
+440	himym_align	aligned	roberta-base	 pot filled with dirt as she looked to barney	 in	</s>	17.15286636352539	0.00046142892097122967	3.5530796083094174e-08	0.9999736547470093	10
+441	himym_align	aligned	roberta-base	 filled with dirt as she looked to barney in	 confusion	</s>	14.80470085144043	0.1540374606847763	3.7187768953117484e-07	0.9875281453132629	10
+442	himym_align	aligned	roberta-base	 with dirt as she looked to barney in confusion	 a	</s>	15.841303825378418	0.017651420086622238	1.3188912362238625e-07	0.9978075623512268	10
+443	himym_align	aligned	roberta-base	 dirt as she looked to barney in confusion a	 green	</s>	20.424779891967773	0.0007293194066733122	1.3478168581215755e-09	0.9999562501907349	10
+444	himym_align	aligned	roberta-base	 as she looked to barney in confusion a green	 stalk	</s>	18.444849014282227	0.005131308455020189	9.761205177483134e-09	0.9996634721755981	10
+445	himym_align	aligned	roberta-base	 she looked to barney in confusion a green stalk	 pushed	</s>	19.855436325073242	0.02383483573794365	2.3817370298218066e-09	0.9968754053115845	10
+446	himym_align	aligned	roberta-base	 looked to barney in confusion a green stalk pushed	 its	</s>	16.33783531188965	0.0006145081133581698	8.027275555377855e-08	0.9999634027481079	10
+447	himym_align	aligned	roberta-base	 to barney in confusion a green stalk pushed its	 way	</s>	8.542224884033203	0.1115465760231018	0.00019505582167766988	0.9907307028770447	10
+448	himym_align	aligned	roberta-base	 barney in confusion a green stalk pushed its way	 out	</s>	20.0568790435791	3.433856545598246e-05	1.9471899648237923e-09	0.9999985694885254	10
+449	himym_align	aligned	roberta-base	ney in confusion a green stalk pushed its way out	 of	</s>	12.577116966247559	0.040727004408836365	3.4500656056479784e-06	0.9935640692710876	10
+450	himym_align	aligned	roberta-base	 in confusion a green stalk pushed its way out of	 the	</s>	7.599985599517822	0.03712911903858185	0.0005004587001167238	0.9969088435173035	10
+451	himym_align	aligned	roberta-base	 confusion a green stalk pushed its way out of the	 dirt	</s>	16.546382904052734	0.005807357840240002	6.516247452736934e-08	0.99962317943573	10
+452	himym_align	aligned	roberta-base	 a green stalk pushed its way out of the dirt	 and	</s>	14.966014862060547	0.01884416863322258	3.1647726927985786e-07	0.997485876083374	10
+453	himym_align	aligned	roberta-base	 green stalk pushed its way out of the dirt and	 climbed	</s>	18.900760650634766	0.0011829414870589972	6.187336865082216e-09	0.9999289512634277	10
+454	himym_align	aligned	roberta-base	 stalk pushed its way out of the dirt and climbed	 several	</s>	16.910579681396484	0.0015074764378368855	4.5271843163163794e-08	0.9998941421508789	10
+455	himym_align	aligned	roberta-base	 pushed its way out of the dirt and climbed several	 inches	</s>	22.84771156311035	0.01986938714981079	1.1949911893349707e-10	0.9974468946456909	10
+456	himym_align	aligned	roberta-base	 its way out of the dirt and climbed several inches	 out	</s>	16.464704513549805	0.035274799913167953	7.070812557685713e-08	0.9945799112319946	10
+457	himym_align	aligned	roberta-base	 way out of the dirt and climbed several inches out	 of	</s>	11.486737251281738	0.0573442317545414	1.0265345736115705e-05	0.9906932711601257	10
+458	himym_align	aligned	roberta-base	 out of the dirt and climbed several inches out of	 the	</s>	7.960968494415283	0.017951807007193565	0.00034881519968621433	0.9985187649726868	10
+459	himym_align	aligned	roberta-base	 of the dirt and climbed several inches out of the	 box	</s>	12.192682266235352	0.011766008101403713	5.067401616543066e-06	0.9991866946220398	10
+460	himym_align	aligned	roberta-base	 the dirt and climbed several inches out of the box	 on	</s>	14.85057544708252	0.045894671231508255	3.5520346841622086e-07	0.9925239682197571	10
+461	himym_align	aligned	roberta-base	 dirt and climbed several inches out of the box on	 its	</s>	17.5440616607666	0.028265085071325302	2.4027642098189972e-08	0.995989978313446	10
+462	himym_align	aligned	roberta-base	 and climbed several inches out of the box on its	 end	</s>	9.804625511169434	0.20961637794971466	5.519569094758481e-05	0.9787119626998901	10
+463	himym_align	aligned	roberta-base	 climbed several inches out of the box on its end	 was	</s>	17.015663146972656	0.051788873970508575	4.0755992358754156e-08	0.9916069507598877	10
+464	himym_align	aligned	roberta-base	 several inches out of the box on its end was	 a	</s>	12.012871742248535	0.005189590621739626	6.065631623641821e-06	0.9995927214622498	10
+465	himym_align	aligned	roberta-base	 inches out of the box on its end was a	 red	</s>	15.659032821655273	0.009218867868185043	1.5825895616217167e-07	0.9993884563446045	10
+466	himym_align	aligned	roberta-base	 out of the box on its end was a red	 	</s>	14.75252628326416	0.15357260406017303	3.9179533928290766e-07	0.9670699834823608	10
+467	himym_align	aligned	roberta-base	 of the box on its end was a red 	<unk>	</s>	24.7578125	0.19584982097148895	1.7693700671284063e-11	0.9565026760101318	10
+468	himym_align	aligned	roberta-base	 the box on its end was a red <unk>	 passengers	</s>	20.36907958984375	0.4345357120037079	1.4250214341871015e-09	0.862044632434845	10
+469	himym_align	aligned	roberta-base	 box on its end was a red <unk> passengers	 and	</s>	10.719444274902344	0.22234943509101868	2.2110811187303625e-05	0.9483446478843689	10
+470	himym_align	aligned	roberta-base	 on its end was a red <unk> passengers and	 flight	</s>	15.987298011779785	0.21942396461963654	1.1397366250776031e-07	0.9536395072937012	10
+471	himym_align	aligned	roberta-base	 its end was a red <unk> passengers and flight	 attendants	</s>	21.13901138305664	0.14942190051078796	6.598477320096663e-10	0.9743539690971375	10
+472	himym_align	aligned	roberta-base	 end was a red <unk> passengers and flight attendants	 were	</s>	14.6605224609375	0.14159925282001495	4.295522160191467e-07	0.9746472835540771	10
+473	himym_align	aligned	roberta-base	 was a red <unk> passengers and flight attendants were	 gathered	</s>	17.614505767822266	0.12132369726896286	2.239327834274718e-08	0.9802120923995972	10
+474	himym_align	aligned	roberta-base	 a red <unk> passengers and flight attendants were gathered	 around	</s>	16.979736328125	0.07334303110837936	4.2246803388934495e-08	0.9890087246894836	10
+475	himym_align	aligned	roberta-base	 red <unk> passengers and flight attendants were gathered around	 their	</s>	14.98201847076416	0.04620665684342384	3.1145268053478503e-07	0.9935142993927002	10
+476	himym_align	aligned	roberta-base	 <unk> passengers and flight attendants were gathered around their	 seats	</s>	20.364160537719727	0.03553912788629532	1.432048257754559e-09	0.9951105713844299	10
+477	himym_align	aligned	roberta-base	<unk> passengers and flight attendants were gathered around their seats	 staring	</s>	33.287818908691406	6.521071190945804e-05	3.4936873408381378e-15	0.9999964237213135	10
+478	himym_align	aligned	roberta-base	 passengers and flight attendants were gathered around their seats staring	 with	</s>	17.67509651184082	0.000616647710558027	2.1076706602229933e-08	0.9999629259109497	10
+479	himym_align	aligned	roberta-base	 and flight attendants were gathered around their seats staring with	 qu	</s>	18.33403968811035	0.0009300615056417882	1.0905055525256557e-08	0.9999431371688843	10
+480	himym_align	aligned	roberta-base	 flight attendants were gathered around their seats staring with qu	inn	</s>	12.301780700683594	0.024395033717155457	4.5436472646542825e-06	0.9980289340019226	10
+481	himym_align	aligned	roberta-base	 attendants were gathered around their seats staring with quinn	 as	</s>	12.708937644958496	0.09219478070735931	3.02397688756173e-06	0.983919084072113	10
+482	himym_align	aligned	roberta-base	 were gathered around their seats staring with quinn as	 the	</s>	13.596035957336426	0.001082107424736023	1.2454221405278076e-06	0.9999321699142456	10
+483	himym_align	aligned	roberta-base	 gathered around their seats staring with quinn as the	 	</s>	17.709075927734375	0.001197949517518282	2.0372562303805353e-08	0.9999303817749023	10
+484	himym_align	aligned	roberta-base	 around their seats staring with quinn as the 	<unk>	</s>	32.89281463623047	2.956765820272267e-05	5.1859880186846605e-15	0.9999986886978149	10
+485	himym_align	aligned	roberta-base	 their seats staring with quinn as the <unk>	 began	</s>	14.621689796447754	0.35956454277038574	4.4656113118435314e-07	0.9189882278442383	10
+486	himym_align	aligned	roberta-base	 seats staring with quinn as the <unk> began	 to	</s>	10.871929168701172	0.1332727074623108	1.8983711925102398e-05	0.9754246473312378	10
+487	himym_align	aligned	roberta-base	 staring with quinn as the <unk> began to	 open	</s>	12.87636947631836	0.018197882920503616	2.5577840006008046e-06	0.9986754059791565	10
+488	himym_align	aligned	roberta-base	 with quinn as the <unk> began to open	 in	</s>	12.873727798461914	0.049444619566202164	2.5645497316872934e-06	0.9928039908409119	10
+489	himym_align	aligned	roberta-base	 quinn as the <unk> began to open in	 its	</s>	14.933771133422852	0.11866743117570877	3.268477257734048e-07	0.9811453223228455	10
+490	himym_align	aligned	roberta-base	inn as the <unk> began to open in its	 center	</s>	14.701107025146484	0.23978176712989807	4.124682106976252e-07	0.9567583799362183	10
+491	himym_align	aligned	roberta-base	 as the <unk> began to open in its center	 was	</s>	11.789811134338379	0.2949022352695465	7.581411409773864e-06	0.9417057037353516	10
+492	himym_align	aligned	roberta-base	 the <unk> began to open in its center was	 a	</s>	9.748778343200684	0.3492671847343445	5.836590571561828e-05	0.940844714641571	10
+493	himym_align	aligned	roberta-base	 <unk> began to open in its center was a	 diamond	</s>	19.57898712158203	0.0938233882188797	3.14017811753331e-09	0.9832737445831299	10
+494	himym_align	aligned	roberta-base	<unk> began to open in its center was a diamond	 ring	</s>	21.53018569946289	0.053484924137592316	4.462301916863254e-10	0.9909824728965759	10
+495	himym_align	aligned	roberta-base	 began to open in its center was a diamond ring	 which	</s>	18.295133590698242	0.026429397985339165	1.1337676575351452e-08	0.996425449848175	10
+496	himym_align	aligned	roberta-base	 to open in its center was a diamond ring which	 bar	</s>	25.554811477661133	0.0004017356550320983	7.974187282711043e-12	0.999975323677063	10
+497	himym_align	aligned	roberta-base	 open in its center was a diamond ring which bar	ney	</s>	17.317798614501953	0.16862009465694427	3.0128379790994586e-08	0.9637585282325745	10
+498	himym_align	aligned	roberta-base	 in its center was a diamond ring which barney	 pl	</s>	16.793075561523438	0.08683028072118759	5.091668597856369e-08	0.9866020679473877	10
+499	himym_align	aligned	roberta-base	 its center was a diamond ring which barney pl	ucked	</s>	13.937278747558594	0.13584363460540771	8.853534154695808e-07	0.9859864711761475	10
+500	himym_align	aligned	roberta-base	 center was a diamond ring which barney plucked	 from	</s>	13.603736877441406	0.044895607978105545	1.2358684671198716e-06	0.9937911629676819	10
+501	himym_align	aligned	roberta-base	 was a diamond ring which barney plucked from	 the	</s>	11.19897174835205	0.0076899719424545765	1.3688266335520893e-05	0.9994729161262512	10
+502	himym_align	aligned	roberta-base	 a diamond ring which barney plucked from the	 flower	</s>	20.35262107849121	0.003204558277502656	1.448667186210173e-09	0.9998084902763367	10
+503	himym_align	aligned	roberta-base	 diamond ring which barney plucked from the flower	 and	</s>	12.769933700561523	0.0037747081369161606	2.8450399440771434e-06	0.9997246861457825	10
+504	himym_align	aligned	roberta-base	 ring which barney plucked from the flower and	 held	</s>	17.47301483154297	0.0005116874817758799	2.5796827785029564e-08	0.9999699592590332	10
+505	himym_align	aligned	roberta-base	 which barney plucked from the flower and held	 out	</s>	16.86503028869629	0.002030302071943879	4.738166481388362e-08	0.9998643398284912	10
+506	himym_align	aligned	roberta-base	 barney plucked from the flower and held out	 to	</s>	12.535320281982422	0.027971139177680016	3.5973237118014367e-06	0.9961991906166077	10
+507	himym_align	aligned	roberta-base	ney plucked from the flower and held out to	 qu	</s>	14.772846221923828	0.007945265620946884	3.839144255834981e-07	0.9994394183158875	10
+508	himym_align	aligned	roberta-base	 plucked from the flower and held out to qu	inn	</s>	10.809967994689941	0.026698580011725426	2.0197163394186646e-05	0.9978561997413635	10
+509	himym_align	aligned	roberta-base	ucked from the flower and held out to quinn	 qu	</s>	15.72130012512207	0.08734130859375	1.4870518327825266e-07	0.9862857460975647	10
+510	himym_align	aligned	roberta-base	 from the flower and held out to quinn qu	inn	</s>	14.842902183532715	0.00039742927765473723	3.579392853225727e-07	0.9999759197235107	10
+511	himym_align	aligned	roberta-base	 the flower and held out to quinn quinn	 will	</s>	16.769912719726562	0.04890201985836029	5.2109786707887906e-08	0.9929596781730652	10
+512	himym_align	aligned	roberta-base	 flower and held out to quinn quinn will	 you	</s>	14.816064834594727	0.0008472497574985027	3.676755113701802e-07	0.999948263168335	10
+513	himym_align	aligned	roberta-base	 and held out to quinn quinn will you	 marry	</s>	21.511722564697266	0.026597386226058006	4.5454548458501165e-10	0.9962205290794373	10
+514	himym_align	aligned	roberta-base	 held out to quinn quinn will you marry	 me	</s>	14.874932289123535	0.017306454479694366	3.4665609405237774e-07	0.997886598110199	10

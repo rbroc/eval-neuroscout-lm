@@ -1,515 +1,514 @@
 	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
-0	friends_align	aligned	google/electra-base-discriminator	[CLS] chandler and monica walked	into	contemplated	14.880123138427734	8.802139282226562	3.448612346801383e-07	0.015242920257151127	5
-1	friends_align	aligned	google/electra-base-discriminator	chandler and monica walked [MASK]	the	##pressive	11.904685974121094	8.628482818603516	6.758661584171932e-06	0.019176708534359932	5
-2	friends_align	aligned	google/electra-base-discriminator	and monica walked [MASK] [MASK]	airport	dialed	10.401386260986328	9.038524627685547	3.0390332540264353e-05	0.0076380460523068905	5
-3	friends_align	aligned	google/electra-base-discriminator	monica walked [MASK] [MASK] [MASK]	hand	liechtenstein	11.263904571533203	8.819721221923828	1.282768243981991e-05	0.0067678289487957954	5
-4	friends_align	aligned	google/electra-base-discriminator	walked [MASK] [MASK] [MASK] [MASK]	in	##ius	12.417648315429688	8.826927185058594	4.046540198032744e-06	0.01131734810769558	5
-5	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hand	baku	10.818183898925781	8.785576820373535	2.00319063878851e-05	0.01564142480492592	5
-6	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	pulling	baku	11.958915710449219	8.785576820373535	6.401904556696536e-06	0.01564142480492592	5
-7	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	their	baku	12.593515396118164	8.785576820373535	3.3939547847694485e-06	0.01564142480492592	5
-8	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	suitcase	baku	9.870514869689941	8.785576820373535	5.167612471268512e-05	0.01564142480492592	5
-9	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##s	baku	11.704935073852539	8.785576820373535	8.25299048301531e-06	0.01564142480492592	5
-10	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	behind	baku	11.534250259399414	8.785576820373535	9.78901152848266e-06	0.01564142480492592	5
-11	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	them	baku	11.913519859313965	8.785576820373535	6.699218374706106e-06	0.01564142480492592	5
-12	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	see	baku	9.776164054870605	8.785576820373535	5.678922389051877e-05	0.01564142480492592	5
-13	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	honey	baku	10.988065719604492	8.785576820373535	1.6902211427805014e-05	0.01564142480492592	5
-14	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	no	baku	9.403886795043945	8.785576820373535	8.240316674346104e-05	0.01564142480492592	5
-15	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	problem	baku	11.438474655151367	8.785576820373535	1.0772930181701668e-05	0.01564142480492592	5
-16	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	getting	baku	11.773782730102539	8.785576820373535	7.703913979639765e-06	0.01564142480492592	5
-17	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	a	baku	10.667547225952148	8.785576820373535	2.3288601369131356e-05	0.01564142480492592	5
-18	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	cab	baku	10.019010543823242	8.785576820373535	4.454502777662128e-05	0.01564142480492592	5
-19	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	no	baku	9.403886795043945	8.785576820373535	8.240316674346104e-05	0.01564142480492592	5
-20	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	traffic	baku	12.413654327392578	8.785576820373535	4.062736934429267e-06	0.01564142480492592	5
-21	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	my	baku	12.459569931030273	8.785576820373535	3.88041144105955e-06	0.01564142480492592	5
-22	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	way	baku	11.763916015625	8.785576820373535	7.780298801662866e-06	0.01564142480492592	5
-23	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	totally	baku	12.72410774230957	8.785576820373535	2.9784512207697844e-06	0.01564142480492592	5
-24	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	works	baku	14.277820587158203	8.785576820373535	6.29827468401345e-07	0.01564142480492592	5
-25	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	smiled	baku	10.176584243774414	8.785576820373535	3.805098094744608e-05	0.01564142480492592	5
-26	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	chandler	baku	8.621509552001953	8.785576820373535	0.00018018817354459316	0.01564142480492592	5
-27	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	monica	baku	12.198715209960938	8.785576820373535	5.036921265855199e-06	0.01564142480492592	5
-28	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	took	baku	11.582592010498047	8.785576820373535	9.327054613095243e-06	0.01564142480492592	5
-29	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	a	baku	10.667547225952148	8.785576820373535	2.3288601369131356e-05	0.01564142480492592	5
-30	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	deep	baku	12.80113410949707	8.785576820373535	2.7576450065680547e-06	0.01564142480492592	5
-31	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	breath	baku	12.582967758178711	8.785576820373535	3.4299421258765506e-06	0.01564142480492592	5
-32	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	i	baku	11.814789772033691	8.785576820373535	7.394385193038033e-06	0.01564142480492592	5
-33	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	know	baku	11.064471244812012	8.785576820373535	1.5658899428672157e-05	0.01564142480492592	5
-34	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	i	baku	11.814789772033691	8.785576820373535	7.394385193038033e-06	0.01564142480492592	5
-35	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	know	baku	11.064471244812012	8.785576820373535	1.5658899428672157e-05	0.01564142480492592	5
-36	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	we	baku	12.64495849609375	8.785576820373535	3.223773774152505e-06	0.01564142480492592	5
-37	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	have	baku	11.656120300292969	8.785576820373535	8.665849236422218e-06	0.01564142480492592	5
-38	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	plenty	baku	11.052343368530273	8.785576820373535	1.5849966075620614e-05	0.01564142480492592	5
-39	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	of	baku	11.585958480834961	8.785576820373535	9.295702511735726e-06	0.01564142480492592	5
-40	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	time	baku	11.226180076599121	8.785576820373535	1.3320853213372175e-05	0.01564142480492592	5
-41	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	i	baku	11.814789772033691	8.785576820373535	7.394385193038033e-06	0.01564142480492592	5
-42	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	am	baku	9.714948654174805	8.785576820373535	6.0374237364158034e-05	0.01564142480492592	5
-43	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	totally	baku	12.72410774230957	8.785576820373535	2.9784512207697844e-06	0.01564142480492592	5
-44	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	relaxed	baku	9.339832305908203	8.785576820373535	8.785421960055828e-05	0.01564142480492592	5
-45	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	totally	baku	12.72410774230957	8.785576820373535	2.9784512207697844e-06	0.01564142480492592	5
-46	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	calm	baku	10.544376373291016	8.785576820373535	2.6341189368395135e-05	0.01564142480492592	5
-47	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	suddenly	baku	9.9395751953125	8.785576820373535	4.822777191293426e-05	0.01564142480492592	5
-48	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-49	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	eyes	baku	10.885603904724121	8.785576820373535	1.8725886548054405e-05	0.01564142480492592	5
-50	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	grew	baku	12.326253890991211	8.785576820373535	4.4338012230582535e-06	0.01564142480492592	5
-51	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	wide	baku	11.588996887207031	8.785576820373535	9.267497262044344e-06	0.01564142480492592	5
-52	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	as	baku	11.947834014892578	8.785576820373535	6.473242592619499e-06	0.01564142480492592	5
-53	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	she	baku	11.120534896850586	8.785576820373535	1.4805160390096717e-05	0.01564142480492592	5
-54	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	saw	baku	9.228643417358398	8.785576820373535	9.818640683079138e-05	0.01564142480492592	5
-55	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-56	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	line	baku	11.305549621582031	8.785576820373535	1.2304445590416435e-05	0.01564142480492592	5
-57	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	for	baku	9.854570388793945	8.785576820373535	5.250670074019581e-05	0.01564142480492592	5
-58	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	airport	baku	9.758316040039062	8.785576820373535	5.7811928854789585e-05	0.01564142480492592	5
-59	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	security	baku	12.10468864440918	8.785576820373535	5.533510829991428e-06	0.01564142480492592	5
-60	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	winding	baku	12.104118347167969	8.785576820373535	5.536664957617177e-06	0.01564142480492592	5
-61	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	in	baku	10.829697608947754	8.785576820373535	1.9802597307716496e-05	0.01564142480492592	5
-62	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	a	baku	10.667547225952148	8.785576820373535	2.3288601369131356e-05	0.01564142480492592	5
-63	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	lengthy	baku	12.362306594848633	8.785576820373535	4.276794243196491e-06	0.01564142480492592	5
-64	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	tangle	baku	11.152090072631836	8.785576820373535	1.4345268027682323e-05	0.01564142480492592	5
-65	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	that	baku	9.539268493652344	8.785576820373535	7.196945807663724e-05	0.01564142480492592	5
-66	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	stretched	baku	10.571638107299805	8.785576820373535	2.56327839451842e-05	0.01564142480492592	5
-67	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	all	baku	10.053646087646484	8.785576820373535	4.302856177673675e-05	0.01564142480492592	5
-68	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-69	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	way	baku	11.763916015625	8.785576820373535	7.780298801662866e-06	0.01564142480492592	5
-70	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	around	baku	11.353511810302734	8.785576820373535	1.1728237950592302e-05	0.01564142480492592	5
-71	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-72	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	corner	baku	12.43852424621582	8.785576820373535	3.962938990298426e-06	0.01564142480492592	5
-73	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	monica	baku	12.198715209960938	8.785576820373535	5.036921265855199e-06	0.01564142480492592	5
-74	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sc	baku	10.109334945678711	8.785576820373535	4.069785063620657e-05	0.01564142480492592	5
-75	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##ur	baku	9.366987228393555	8.785576820373535	8.550056372769177e-05	0.01564142480492592	5
-76	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##ried	baku	8.988693237304688	8.785576820373535	0.00012481315934564918	0.01564142480492592	5
-77	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	toward	baku	11.735942840576172	8.785576820373535	8.001011337910313e-06	0.01564142480492592	5
-78	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-79	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	end	baku	11.003089904785156	8.785576820373535	1.6650184988975525e-05	0.01564142480492592	5
-80	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	of	baku	11.585958480834961	8.785576820373535	9.295702511735726e-06	0.01564142480492592	5
-81	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-82	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	line	baku	11.305549621582031	8.785576820373535	1.2304445590416435e-05	0.01564142480492592	5
-83	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	with	baku	11.535539627075195	8.785576820373535	9.77640229393728e-06	0.01564142480492592	5
-84	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	chandler	baku	8.621509552001953	8.785576820373535	0.00018018817354459316	0.01564142480492592	5
-85	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	following	baku	12.0965576171875	8.785576820373535	5.578687705565244e-06	0.01564142480492592	5
-86	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	behind	baku	11.534250259399414	8.785576820373535	9.78901152848266e-06	0.01564142480492592	5
-87	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	we	baku	12.64495849609375	8.785576820373535	3.223773774152505e-06	0.01564142480492592	5
-88	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	'	baku	11.34703254699707	8.785576820373535	1.1804463611042593e-05	0.01564142480492592	5
-89	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	ll	baku	10.385710716247559	8.785576820373535	3.087046934524551e-05	0.01564142480492592	5
-90	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	be	baku	10.47555923461914	8.785576820373535	2.8217742510605603e-05	0.01564142480492592	5
-91	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	fine	baku	10.519245147705078	8.785576820373535	2.7011590645997785e-05	0.01564142480492592	5
-92	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	he	baku	11.663764953613281	8.785576820373535	8.59985902934568e-06	0.01564142480492592	5
-93	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	said	baku	11.315042495727539	8.785576820373535	1.218819943460403e-05	0.01564142480492592	5
-94	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	as	baku	11.947834014892578	8.785576820373535	6.473242592619499e-06	0.01564142480492592	5
-95	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	he	baku	11.663764953613281	8.785576820373535	8.59985902934568e-06	0.01564142480492592	5
-96	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	caught	baku	10.412088394165039	8.785576820373535	3.0066807084949687e-05	0.01564142480492592	5
-97	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	up	baku	10.476314544677734	8.785576820373535	2.8196465791552328e-05	0.01564142480492592	5
-98	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-99	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-100	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	we	baku	12.64495849609375	8.785576820373535	3.223773774152505e-06	0.01564142480492592	5
-101	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	'	baku	11.34703254699707	8.785576820373535	1.1804463611042593e-05	0.01564142480492592	5
-102	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	ve	baku	13.31618881225586	8.785576820373535	1.6476044493174413e-06	0.01564142480492592	5
-103	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	still	baku	8.780097961425781	8.785576820373535	0.00015376303053926677	0.01564142480492592	5
-104	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	got	baku	11.40439224243164	8.785576820373535	1.1146415090479422e-05	0.01564142480492592	5
-105	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	time	baku	11.226180076599121	8.785576820373535	1.3320853213372175e-05	0.01564142480492592	5
-106	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-107	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	make	baku	11.203557968139648	8.785576820373535	1.3625626706925686e-05	0.01564142480492592	5
-108	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	our	baku	13.227500915527344	8.785576820373535	1.800400923457346e-06	0.01564142480492592	5
-109	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	flight	baku	8.055709838867188	8.785576820373535	0.0003172852157149464	0.01564142480492592	5
-110	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	just	baku	11.890491485595703	8.785576820373535	6.85527720634127e-06	0.01564142480492592	5
-111	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	think	baku	10.885028839111328	8.785576820373535	1.87366567843128e-05	0.01564142480492592	5
-112	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	about	baku	11.328815460205078	8.785576820373535	1.202148814627435e-05	0.01564142480492592	5
-113	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	how	baku	13.023931503295898	8.785576820373535	2.2068797989049926e-06	0.01564142480492592	5
-114	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	relaxing	baku	9.860187530517578	8.785576820373535	5.221256287768483e-05	0.01564142480492592	5
-115	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	it	baku	10.340949058532715	8.785576820373535	3.228367131669074e-05	0.01564142480492592	5
-116	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	'	baku	11.34703254699707	8.785576820373535	1.1804463611042593e-05	0.01564142480492592	5
-117	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	s	baku	11.973684310913086	8.785576820373535	6.308045612968272e-06	0.01564142480492592	5
-118	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	going	baku	13.16571044921875	8.785576820373535	1.915159373311326e-06	0.01564142480492592	5
-119	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-120	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	be	baku	10.47555923461914	8.785576820373535	2.8217742510605603e-05	0.01564142480492592	5
-121	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	once	baku	13.474782943725586	8.785576820373535	1.405969783263572e-06	0.01564142480492592	5
-122	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	we	baku	12.64495849609375	8.785576820373535	3.223773774152505e-06	0.01564142480492592	5
-123	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	'	baku	11.34703254699707	8.785576820373535	1.1804463611042593e-05	0.01564142480492592	5
-124	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	re	baku	10.442972183227539	8.785576820373535	2.9152452043490484e-05	0.01564142480492592	5
-125	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	on	baku	9.176458358764648	8.785576820373535	0.00010344631300540641	0.01564142480492592	5
-126	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-127	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	way	baku	11.763916015625	8.785576820373535	7.780298801662866e-06	0.01564142480492592	5
-128	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-129	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	our	baku	13.227500915527344	8.785576820373535	1.800400923457346e-06	0.01564142480492592	5
-130	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	honeymoon	baku	9.966670989990234	8.785576820373535	4.693857044912875e-05	0.01564142480492592	5
-131	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	<	baku	12.372459411621094	8.785576820373535	4.233595973346382e-06	0.01564142480492592	5
-132	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	un	baku	12.370870590209961	8.785576820373535	4.240327598381555e-06	0.01564142480492592	5
-133	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##k	baku	12.464094161987305	8.785576820373535	3.862891844619298e-06	0.01564142480492592	5
-134	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	>	baku	13.405540466308594	8.785576820373535	1.5067736285345745e-06	0.01564142480492592	5
-135	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	<	baku	12.372459411621094	8.785576820373535	4.233595973346382e-06	0.01564142480492592	5
-136	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	un	baku	12.370870590209961	8.785576820373535	4.240327598381555e-06	0.01564142480492592	5
-137	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##k	baku	12.464094161987305	8.785576820373535	3.862891844619298e-06	0.01564142480492592	5
-138	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	>	baku	13.405540466308594	8.785576820373535	1.5067736285345745e-06	0.01564142480492592	5
-139	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	he	baku	11.663764953613281	8.785576820373535	8.59985902934568e-06	0.01564142480492592	5
-140	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	started	baku	11.439689636230469	8.785576820373535	1.075983982445905e-05	0.01564142480492592	5
-141	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-142	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sway	baku	9.56047248840332	8.785576820373535	7.045954407658428e-05	0.01564142480492592	5
-143	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	his	baku	11.523332595825195	8.785576820373535	9.896465599013027e-06	0.01564142480492592	5
-144	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hips	baku	11.726107597351074	8.785576820373535	8.080090992734767e-06	0.01564142480492592	5
-145	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	from	baku	11.305030822753906	8.785576820373535	1.2310842066654004e-05	0.01564142480492592	5
-146	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	side	baku	13.198722839355469	8.785576820373535	1.852967329796229e-06	0.01564142480492592	5
-147	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-148	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	side	baku	13.198722839355469	8.785576820373535	1.852967329796229e-06	0.01564142480492592	5
-149	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	bermuda	baku	9.805359840393066	8.785576820373535	5.515519296750426e-05	0.01564142480492592	5
-150	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	baha	baku	8.605838775634766	8.785576820373535	0.00018303391698282212	0.01564142480492592	5
-151	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##ma	baku	12.937776565551758	8.785576820373535	2.4054418190644355e-06	0.01564142480492592	5
-152	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	come	baku	10.286733627319336	8.785576820373535	3.4082277124980465e-05	0.01564142480492592	5
-153	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	on	baku	9.176458358764648	8.785576820373535	0.00010344631300540641	0.01564142480492592	5
-154	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	pretty	baku	9.922338485717773	8.785576820373535	4.906626418232918e-05	0.01564142480492592	5
-155	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	monica	baku	12.198715209960938	8.785576820373535	5.036921265855199e-06	0.01564142480492592	5
-156	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	<	baku	12.372459411621094	8.785576820373535	4.233595973346382e-06	0.01564142480492592	5
-157	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	un	baku	12.370870590209961	8.785576820373535	4.240327598381555e-06	0.01564142480492592	5
-158	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##k	baku	12.464094161987305	8.785576820373535	3.862891844619298e-06	0.01564142480492592	5
-159	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	>	baku	13.405540466308594	8.785576820373535	1.5067736285345745e-06	0.01564142480492592	5
-160	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-161	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	lips	baku	10.624771118164062	8.785576820373535	2.4306396881002e-05	0.01564142480492592	5
-162	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	but	baku	12.460407257080078	8.785576820373535	3.877160452248063e-06	0.01564142480492592	5
-163	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-164	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	corners	baku	13.41070556640625	8.785576820373535	1.4990096133260522e-06	0.01564142480492592	5
-165	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	of	baku	11.585958480834961	8.785576820373535	9.295702511735726e-06	0.01564142480492592	5
-166	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-167	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	mouth	baku	13.694704055786133	8.785576820373535	1.128407234318729e-06	0.01564142480492592	5
-168	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	turned	baku	11.460222244262695	8.785576820373535	1.0541163646848872e-05	0.01564142480492592	5
-169	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	up	baku	10.476314544677734	8.785576820373535	2.8196465791552328e-05	0.01564142480492592	5
-170	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	in	baku	10.829697608947754	8.785576820373535	1.9802597307716496e-05	0.01564142480492592	5
-171	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	a	baku	10.667547225952148	8.785576820373535	2.3288601369131356e-05	0.01564142480492592	5
-172	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	smile	baku	10.604642868041992	8.785576820373535	2.4800589017104357e-05	0.01564142480492592	5
-173	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	they	baku	13.113651275634766	8.785576820373535	2.017501401496702e-06	0.01564142480492592	5
-174	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	eventually	baku	12.801481246948242	8.785576820373535	2.7566852622840088e-06	0.01564142480492592	5
-175	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	made	baku	11.689937591552734	8.785576820373535	8.377696758543607e-06	0.01564142480492592	5
-176	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	it	baku	10.340949058532715	8.785576820373535	3.228367131669074e-05	0.01564142480492592	5
-177	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-178	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-179	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	front	baku	12.628835678100586	8.785576820373535	3.276168399679591e-06	0.01564142480492592	5
-180	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	of	baku	11.585958480834961	8.785576820373535	9.295702511735726e-06	0.01564142480492592	5
-181	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-182	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	line	baku	11.305549621582031	8.785576820373535	1.2304445590416435e-05	0.01564142480492592	5
-183	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-184	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	go	baku	11.718660354614258	8.785576820373535	8.140494173858315e-06	0.01564142480492592	5
-185	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	through	baku	12.873966217041016	8.785576820373535	2.5639371870056493e-06	0.01564142480492592	5
-186	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-187	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	metal	baku	12.76435661315918	8.785576820373535	2.860949507521582e-06	0.01564142480492592	5
-188	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	detector	baku	12.067865371704102	8.785576820373535	5.741068434872432e-06	0.01564142480492592	5
-189	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	monica	baku	12.198715209960938	8.785576820373535	5.036921265855199e-06	0.01564142480492592	5
-190	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	began	baku	10.022710800170898	8.785576820373535	4.438048563315533e-05	0.01564142480492592	5
-191	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	method	baku	11.53738021850586	8.785576820373535	9.758419764693826e-06	0.01564142480492592	5
-192	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##ically	baku	12.170173645019531	8.785576820373535	5.182758741284488e-06	0.01564142480492592	5
-193	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	removing	baku	12.001432418823242	8.785576820373535	6.135415333119454e-06	0.01564142480492592	5
-194	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-195	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	watch	baku	10.34112548828125	8.785576820373535	3.2277963327942416e-05	0.01564142480492592	5
-196	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-197	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	belt	baku	12.066804885864258	8.785576820373535	5.747162504121661e-06	0.01564142480492592	5
-198	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-199	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	started	baku	11.439689636230469	8.785576820373535	1.075983982445905e-05	0.01564142480492592	5
-200	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-201	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	search	baku	13.743391036987305	8.785576820373535	1.0747844498837367e-06	0.01564142480492592	5
-202	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	through	baku	12.873966217041016	8.785576820373535	2.5639371870056493e-06	0.01564142480492592	5
-203	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-204	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	pockets	baku	12.774604797363281	8.785576820373535	2.8317826945567504e-06	0.01564142480492592	5
-205	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-206	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	check	baku	8.993267059326172	8.785576820373535	0.00012424346641637385	0.01564142480492592	5
-207	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	for	baku	9.854570388793945	8.785576820373535	5.250670074019581e-05	0.01564142480492592	5
-208	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	change	baku	11.600167274475098	8.785576820373535	9.164556104224175e-06	0.01564142480492592	5
-209	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	could	baku	9.867021560668945	8.785576820373535	5.185698682907969e-05	0.01564142480492592	5
-210	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	you	baku	12.44427490234375	8.785576820373535	3.940218448406085e-06	0.01564142480492592	5
-211	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hurry	baku	11.400117874145508	8.785576820373535	1.1194171747774817e-05	0.01564142480492592	5
-212	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	up	baku	10.476314544677734	8.785576820373535	2.8196465791552328e-05	0.01564142480492592	5
-213	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	man	baku	13.143257141113281	8.785576820373535	1.958647089850274e-06	0.01564142480492592	5
-214	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	behind	baku	11.534250259399414	8.785576820373535	9.78901152848266e-06	0.01564142480492592	5
-215	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	them	baku	11.913519859313965	8.785576820373535	6.699218374706106e-06	0.01564142480492592	5
-216	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	shouted	baku	12.700935363769531	8.785576820373535	3.0482749480142957e-06	0.01564142480492592	5
-217	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	glaring	baku	13.723691940307617	8.785576820373535	1.0961656471408787e-06	0.01564142480492592	5
-218	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-219	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	she	baku	11.120534896850586	8.785576820373535	1.4805160390096717e-05	0.01564142480492592	5
-220	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	turned	baku	11.460222244262695	8.785576820373535	1.0541163646848872e-05	0.01564142480492592	5
-221	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	around	baku	11.353511810302734	8.785576820373535	1.1728237950592302e-05	0.01564142480492592	5
-222	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	in	baku	10.829697608947754	8.785576820373535	1.9802597307716496e-05	0.01564142480492592	5
-223	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	shock	baku	11.795860290527344	8.785576820373535	7.535693839599844e-06	0.01564142480492592	5
-224	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hey	baku	7.286166667938232	8.785576820373535	0.0006849486962892115	0.01564142480492592	5
-225	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	i	baku	11.814789772033691	8.785576820373535	7.394385193038033e-06	0.01564142480492592	5
-226	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	have	baku	11.656120300292969	8.785576820373535	8.665849236422218e-06	0.01564142480492592	5
-227	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	never	baku	11.093789100646973	8.785576820373535	1.520647947472753e-05	0.01564142480492592	5
-228	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	set	baku	9.638121604919434	8.785576820373535	6.519541057059541e-05	0.01564142480492592	5
-229	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	one	baku	12.093257904052734	8.785576820373535	5.597123617917532e-06	0.01564142480492592	5
-230	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	of	baku	11.585958480834961	8.785576820373535	9.295702511735726e-06	0.01564142480492592	5
-231	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	these	baku	11.56661605834961	8.785576820373535	9.477259482082445e-06	0.01564142480492592	5
-232	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	off	baku	9.307344436645508	8.785576820373535	9.075520938495174e-05	0.01564142480492592	5
-233	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	before	baku	9.554855346679688	8.785576820373535	7.085636752890423e-05	0.01564142480492592	5
-234	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-235	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	i	baku	11.814789772033691	8.785576820373535	7.394385193038033e-06	0.01564142480492592	5
-236	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	am	baku	9.714948654174805	8.785576820373535	6.0374237364158034e-05	0.01564142480492592	5
-237	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	not	baku	12.076417922973633	8.785576820373535	5.69217445445247e-06	0.01564142480492592	5
-238	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	about	baku	11.328815460205078	8.785576820373535	1.202148814627435e-05	0.01564142480492592	5
-239	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-240	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	start	baku	10.515419006347656	8.785576820373535	2.7115112970932387e-05	0.01564142480492592	5
-241	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	now	baku	9.736482620239258	8.785576820373535	5.908798266318627e-05	0.01564142480492592	5
-242	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	she	baku	11.120534896850586	8.785576820373535	1.4805160390096717e-05	0.01564142480492592	5
-243	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sc	baku	10.109334945678711	8.785576820373535	4.069785063620657e-05	0.01564142480492592	5
-244	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##old	baku	9.908625602722168	8.785576820373535	4.974376497557387e-05	0.01564142480492592	5
-245	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##ed	baku	11.172119140625	8.785576820373535	1.4060804460314102e-05	0.01564142480492592	5
-246	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	holding	baku	12.325311660766602	8.785576820373535	4.437981260707602e-06	0.01564142480492592	5
-247	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	up	baku	10.476314544677734	8.785576820373535	2.8196465791552328e-05	0.01564142480492592	5
-248	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-249	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	finger	baku	14.34688949584961	8.785576820373535	5.877936359865998e-07	0.01564142480492592	5
-250	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	she	baku	11.120534896850586	8.785576820373535	1.4805160390096717e-05	0.01564142480492592	5
-251	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	started	baku	11.439689636230469	8.785576820373535	1.075983982445905e-05	0.01564142480492592	5
-252	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-253	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	walk	baku	12.80038833618164	8.785576820373535	2.7597000098467106e-06	0.01564142480492592	5
-254	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	through	baku	12.873966217041016	8.785576820373535	2.5639371870056493e-06	0.01564142480492592	5
-255	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	then	baku	11.505891799926758	8.785576820373535	1.0070581993204542e-05	0.01564142480492592	5
-256	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	jumped	baku	12.030823707580566	8.785576820373535	5.957714620308252e-06	0.01564142480492592	5
-257	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	back	baku	11.059000015258789	8.785576820373535	1.574480120325461e-05	0.01564142480492592	5
-258	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-259	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	bent	baku	10.589920043945312	8.785576820373535	2.5168435968225822e-05	0.01564142480492592	5
-260	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	down	baku	12.165700912475586	8.785576820373535	5.205992238188628e-06	0.01564142480492592	5
-261	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	she	baku	11.120534896850586	8.785576820373535	1.4805160390096717e-05	0.01564142480492592	5
-262	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	took	baku	11.582592010498047	8.785576820373535	9.327054613095243e-06	0.01564142480492592	5
-263	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	off	baku	9.307344436645508	8.785576820373535	9.075520938495174e-05	0.01564142480492592	5
-264	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-265	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	<	baku	12.372459411621094	8.785576820373535	4.233595973346382e-06	0.01564142480492592	5
-266	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	un	baku	12.370870590209961	8.785576820373535	4.240327598381555e-06	0.01564142480492592	5
-267	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##k	baku	12.464094161987305	8.785576820373535	3.862891844619298e-06	0.01564142480492592	5
-268	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	>	baku	13.405540466308594	8.785576820373535	1.5067736285345745e-06	0.01564142480492592	5
-269	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-270	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	put	baku	10.774733543395996	8.785576820373535	2.0921494069625624e-05	0.01564142480492592	5
-271	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	it	baku	10.340949058532715	8.785576820373535	3.228367131669074e-05	0.01564142480492592	5
-272	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	in	baku	10.829697608947754	8.785576820373535	1.9802597307716496e-05	0.01564142480492592	5
-273	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-274	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	box	baku	11.312132835388184	8.785576820373535	1.2223714293213561e-05	0.01564142480492592	5
-275	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	on	baku	9.176458358764648	8.785576820373535	0.00010344631300540641	0.01564142480492592	5
-276	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-277	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	convey	baku	10.821025848388672	8.785576820373535	1.9975075701950118e-05	0.01564142480492592	5
-278	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##or	baku	10.836328506469727	8.785576820373535	1.9671731934067793e-05	0.01564142480492592	5
-279	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	belt	baku	12.066804885864258	8.785576820373535	5.747162504121661e-06	0.01564142480492592	5
-280	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	she	baku	11.120534896850586	8.785576820373535	1.4805160390096717e-05	0.01564142480492592	5
-281	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	smiled	baku	10.176584243774414	8.785576820373535	3.805098094744608e-05	0.01564142480492592	5
-282	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	at	baku	10.5081205368042	8.785576820373535	2.7313748432788998e-05	0.01564142480492592	5
-283	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-284	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	security	baku	12.10468864440918	8.785576820373535	5.533510829991428e-06	0.01564142480492592	5
-285	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	guard	baku	11.408598899841309	8.785576820373535	1.1099630683020223e-05	0.01564142480492592	5
-286	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	that	baku	9.539268493652344	8.785576820373535	7.196945807663724e-05	0.01564142480492592	5
-287	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	was	baku	10.723359107971191	8.785576820373535	2.2024414647603408e-05	0.01564142480492592	5
-288	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	a	baku	10.667547225952148	8.785576820373535	2.3288601369131356e-05	0.01564142480492592	5
-289	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	close	baku	10.22320556640625	8.785576820373535	3.631768049672246e-05	0.01564142480492592	5
-290	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	one	baku	12.093257904052734	8.785576820373535	5.597123617917532e-06	0.01564142480492592	5
-291	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-292	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	joy	baku	9.373147964477539	8.785576820373535	8.497543603880331e-05	0.01564142480492592	5
-293	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	was	baku	10.723359107971191	8.785576820373535	2.2024414647603408e-05	0.01564142480492592	5
-294	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	cut	baku	10.303789138793945	8.785576820373535	3.350588303874247e-05	0.01564142480492592	5
-295	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	short	baku	10.75833511352539	8.785576820373535	2.1267413103487343e-05	0.01564142480492592	5
-296	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	as	baku	11.947834014892578	8.785576820373535	6.473242592619499e-06	0.01564142480492592	5
-297	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	they	baku	13.113651275634766	8.785576820373535	2.017501401496702e-06	0.01564142480492592	5
-298	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	heard	baku	10.28347396850586	8.785576820373535	3.4193555620731786e-05	0.01564142480492592	5
-299	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-300	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	final	baku	10.293067932128906	8.785576820373535	3.3867072488646954e-05	0.01564142480492592	5
-301	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	call	baku	11.218790054321289	8.785576820373535	1.3419665265246294e-05	0.01564142480492592	5
-302	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	for	baku	9.854570388793945	8.785576820373535	5.250670074019581e-05	0.01564142480492592	5
-303	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	their	baku	12.593515396118164	8.785576820373535	3.3939547847694485e-06	0.01564142480492592	5
-304	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	flight	baku	8.055709838867188	8.785576820373535	0.0003172852157149464	0.01564142480492592	5
-305	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	come	baku	10.286733627319336	8.785576820373535	3.4082277124980465e-05	0.01564142480492592	5
-306	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	over	baku	10.610708236694336	8.785576820373535	2.465061697876081e-05	0.01564142480492592	5
-307	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-308	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	pa	baku	12.49275016784668	8.785576820373535	3.7537677144428017e-06	0.01564142480492592	5
-309	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	system	baku	13.772865295410156	8.785576820373535	1.0435683179821353e-06	0.01564142480492592	5
-310	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	gate	baku	14.165447235107422	8.785576820373535	7.047324857012427e-07	0.01564142480492592	5
-311	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	is	baku	10.85926628112793	8.785576820373535	1.9225641153752804e-05	0.01564142480492592	5
-312	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	on	baku	9.176458358764648	8.785576820373535	0.00010344631300540641	0.01564142480492592	5
-313	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-314	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	other	baku	10.722783088684082	8.785576820373535	2.2037105736671947e-05	0.01564142480492592	5
-315	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	side	baku	13.198722839355469	8.785576820373535	1.852967329796229e-06	0.01564142480492592	5
-316	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	of	baku	11.585958480834961	8.785576820373535	9.295702511735726e-06	0.01564142480492592	5
-317	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-318	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	terminal	baku	8.718887329101562	8.785576820373535	0.0001634690852370113	0.01564142480492592	5
-319	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	monica	baku	12.198715209960938	8.785576820373535	5.036921265855199e-06	0.01564142480492592	5
-320	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	shouted	baku	12.700935363769531	8.785576820373535	3.0482749480142957e-06	0.01564142480492592	5
-321	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	holding	baku	12.325311660766602	8.785576820373535	4.437981260707602e-06	0.01564142480492592	5
-322	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-323	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hands	baku	10.525184631347656	8.785576820373535	2.6851605070987716e-05	0.01564142480492592	5
-324	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-325	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-326	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	head	baku	11.390789985656738	8.785576820373535	1.1299072866677307e-05	0.01564142480492592	5
-327	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	chandler	baku	8.621509552001953	8.785576820373535	0.00018018817354459316	0.01564142480492592	5
-328	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	looked	baku	11.681490898132324	8.785576820373535	8.448761036561336e-06	0.01564142480492592	5
-329	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	around	baku	11.353511810302734	8.785576820373535	1.1728237950592302e-05	0.01564142480492592	5
-330	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	in	baku	10.829697608947754	8.785576820373535	1.9802597307716496e-05	0.01564142480492592	5
-331	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	shock	baku	11.795860290527344	8.785576820373535	7.535693839599844e-06	0.01564142480492592	5
-332	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-333	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	then	baku	11.505891799926758	8.785576820373535	1.0070581993204542e-05	0.01564142480492592	5
-334	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	ran	baku	12.640344619750977	8.785576820373535	3.2386824386776425e-06	0.01564142480492592	5
-335	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	over	baku	10.610708236694336	8.785576820373535	2.465061697876081e-05	0.01564142480492592	5
-336	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-337	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	an	baku	11.092981338500977	8.785576820373535	1.5218774933600798e-05	0.01564142480492592	5
-338	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	elderly	baku	16.287038803100586	8.785576820373535	8.445574195548033e-08	0.01564142480492592	5
-339	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	man	baku	13.143257141113281	8.785576820373535	1.958647089850274e-06	0.01564142480492592	5
-340	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	an	baku	11.092981338500977	8.785576820373535	1.5218774933600798e-05	0.01564142480492592	5
-341	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	electric	baku	13.80998420715332	8.785576820373535	1.0055423445010092e-06	0.01564142480492592	5
-342	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sc	baku	10.109334945678711	8.785576820373535	4.069785063620657e-05	0.01564142480492592	5
-343	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##oot	baku	9.613143920898438	8.785576820373535	6.684435356874019e-05	0.01564142480492592	5
-344	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##er	baku	10.742124557495117	8.785576820373535	2.1614981960738078e-05	0.01564142480492592	5
-345	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	i	baku	11.814789772033691	8.785576820373535	7.394385193038033e-06	0.01564142480492592	5
-346	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	will	baku	10.253039360046387	8.785576820373535	3.5250206565251574e-05	0.01564142480492592	5
-347	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	give	baku	11.095617294311523	8.785576820373535	1.5178698049567174e-05	0.01564142480492592	5
-348	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	you	baku	12.44427490234375	8.785576820373535	3.940218448406085e-06	0.01564142480492592	5
-349	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sixty	baku	10.838912963867188	8.785576820373535	1.9620958482846618e-05	0.01564142480492592	5
-350	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	dollars	baku	12.685136795043945	8.785576820373535	3.0968128612585133e-06	0.01564142480492592	5
-351	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	he	baku	11.663764953613281	8.785576820373535	8.59985902934568e-06	0.01564142480492592	5
-352	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	said	baku	11.315042495727539	8.785576820373535	1.218819943460403e-05	0.01564142480492592	5
-353	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	shoving	baku	11.6654634475708	8.785576820373535	8.58526436786633e-06	0.01564142480492592	5
-354	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	a	baku	10.667547225952148	8.785576820373535	2.3288601369131356e-05	0.01564142480492592	5
-355	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	wa	baku	10.312211990356445	8.785576820373535	3.322488919366151e-05	0.01564142480492592	5
-356	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##d	baku	11.491437911987305	8.785576820373535	1.0217201634077355e-05	0.01564142480492592	5
-357	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	of	baku	11.585958480834961	8.785576820373535	9.295702511735726e-06	0.01564142480492592	5
-358	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	cash	baku	10.361287117004395	8.785576820373535	3.163371729897335e-05	0.01564142480492592	5
-359	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	into	baku	14.364185333251953	8.785576820373535	5.777152409791597e-07	0.01564142480492592	5
-360	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-361	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	man	baku	13.143257141113281	8.785576820373535	1.958647089850274e-06	0.01564142480492592	5
-362	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	'	baku	11.34703254699707	8.785576820373535	1.1804463611042593e-05	0.01564142480492592	5
-363	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	s	baku	11.973684310913086	8.785576820373535	6.308045612968272e-06	0.01564142480492592	5
-364	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hand	baku	10.818183898925781	8.785576820373535	2.00319063878851e-05	0.01564142480492592	5
-365	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	if	baku	10.275691032409668	8.785576820373535	3.446070331847295e-05	0.01564142480492592	5
-366	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	you	baku	12.44427490234375	8.785576820373535	3.940218448406085e-06	0.01564142480492592	5
-367	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	let	baku	9.404415130615234	8.785576820373535	8.235961286118254e-05	0.01564142480492592	5
-368	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	us	baku	12.966968536376953	8.785576820373535	2.3362374577118317e-06	0.01564142480492592	5
-369	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	borrow	baku	10.139978408813477	8.785576820373535	3.946963988710195e-05	0.01564142480492592	5
-370	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	your	baku	13.737449645996094	8.785576820373535	1.0811891115736216e-06	0.01564142480492592	5
-371	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sc	baku	10.109334945678711	8.785576820373535	4.069785063620657e-05	0.01564142480492592	5
-372	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##oot	baku	9.613143920898438	8.785576820373535	6.684435356874019e-05	0.01564142480492592	5
-373	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##er	baku	10.742124557495117	8.785576820373535	2.1614981960738078e-05	0.01564142480492592	5
-374	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-375	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	get	baku	11.287361145019531	8.785576820373535	1.2530298590718303e-05	0.01564142480492592	5
-376	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-377	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	gate	baku	14.165447235107422	8.785576820373535	7.047324857012427e-07	0.01564142480492592	5
-378	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	<	baku	12.372459411621094	8.785576820373535	4.233595973346382e-06	0.01564142480492592	5
-379	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	un	baku	12.370870590209961	8.785576820373535	4.240327598381555e-06	0.01564142480492592	5
-380	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##k	baku	12.464094161987305	8.785576820373535	3.862891844619298e-06	0.01564142480492592	5
-381	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	>	baku	13.405540466308594	8.785576820373535	1.5067736285345745e-06	0.01564142480492592	5
-382	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-383	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	old	baku	12.622875213623047	8.785576820373535	3.2957570965663763e-06	0.01564142480492592	5
-384	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	man	baku	13.143257141113281	8.785576820373535	1.958647089850274e-06	0.01564142480492592	5
-385	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	looked	baku	11.681490898132324	8.785576820373535	8.448761036561336e-06	0.01564142480492592	5
-386	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	back	baku	11.059000015258789	8.785576820373535	1.574480120325461e-05	0.01564142480492592	5
-387	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	at	baku	10.5081205368042	8.785576820373535	2.7313748432788998e-05	0.01564142480492592	5
-388	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	him	baku	10.475406646728516	8.785576820373535	2.8222051696502604e-05	0.01564142480492592	5
-389	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	in	baku	10.829697608947754	8.785576820373535	1.9802597307716496e-05	0.01564142480492592	5
-390	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	surprise	baku	9.975349426269531	8.785576820373535	4.6532957640010864e-05	0.01564142480492592	5
-391	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	then	baku	11.505891799926758	8.785576820373535	1.0070581993204542e-05	0.01564142480492592	5
-392	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	slowly	baku	10.576173782348633	8.785576820373535	2.5516808818792924e-05	0.01564142480492592	5
-393	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	stepped	baku	12.739748001098633	8.785576820373535	2.932227062046877e-06	0.01564142480492592	5
-394	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	back	baku	11.059000015258789	8.785576820373535	1.574480120325461e-05	0.01564142480492592	5
-395	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	off	baku	9.307344436645508	8.785576820373535	9.075520938495174e-05	0.01564142480492592	5
-396	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-397	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sc	baku	10.109334945678711	8.785576820373535	4.069785063620657e-05	0.01564142480492592	5
-398	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##oot	baku	9.613143920898438	8.785576820373535	6.684435356874019e-05	0.01564142480492592	5
-399	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##er	baku	10.742124557495117	8.785576820373535	2.1614981960738078e-05	0.01564142480492592	5
-400	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	chandler	baku	8.621509552001953	8.785576820373535	0.00018018817354459316	0.01564142480492592	5
-401	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	<	baku	12.372459411621094	8.785576820373535	4.233595973346382e-06	0.01564142480492592	5
-402	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	un	baku	12.370870590209961	8.785576820373535	4.240327598381555e-06	0.01564142480492592	5
-403	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##k	baku	12.464094161987305	8.785576820373535	3.862891844619298e-06	0.01564142480492592	5
-404	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	>	baku	13.405540466308594	8.785576820373535	1.5067736285345745e-06	0.01564142480492592	5
-405	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	wildly	baku	13.346778869628906	8.785576820373535	1.597967070665618e-06	0.01564142480492592	5
-406	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-407	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	monica	baku	12.198715209960938	8.785576820373535	5.036921265855199e-06	0.01564142480492592	5
-408	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	who	baku	11.500110626220703	8.785576820373535	1.0128978829015978e-05	0.01564142480492592	5
-409	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hopped	baku	9.546594619750977	8.785576820373535	7.144419214455411e-05	0.01564142480492592	5
-410	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	on	baku	9.176458358764648	8.785576820373535	0.00010344631300540641	0.01564142480492592	5
-411	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-412	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	back	baku	11.059000015258789	8.785576820373535	1.574480120325461e-05	0.01564142480492592	5
-413	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	of	baku	11.585958480834961	8.785576820373535	9.295702511735726e-06	0.01564142480492592	5
-414	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-415	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sc	baku	10.109334945678711	8.785576820373535	4.069785063620657e-05	0.01564142480492592	5
-416	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##oot	baku	9.613143920898438	8.785576820373535	6.684435356874019e-05	0.01564142480492592	5
-417	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##er	baku	10.742124557495117	8.785576820373535	2.1614981960738078e-05	0.01564142480492592	5
-418	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	while	baku	11.07986831665039	8.785576820373535	1.5419645933434367e-05	0.01564142480492592	5
-419	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	chandler	baku	8.621509552001953	8.785576820373535	0.00018018817354459316	0.01564142480492592	5
-420	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	took	baku	11.582592010498047	8.785576820373535	9.327054613095243e-06	0.01564142480492592	5
-421	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-422	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	wheel	baku	15.688879013061523	8.785576820373535	1.5360546967713162e-07	0.01564142480492592	5
-423	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-424	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	accelerated	baku	13.074117660522461	8.785576820373535	2.09885820368072e-06	0.01564142480492592	5
-425	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	down	baku	12.165700912475586	8.785576820373535	5.205992238188628e-06	0.01564142480492592	5
-426	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-427	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	concourse	baku	10.911661148071289	8.785576820373535	1.824424361984711e-05	0.01564142480492592	5
-428	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	weaving	baku	11.973670959472656	8.785576820373535	6.308136107691098e-06	0.01564142480492592	5
-429	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	between	baku	11.020674705505371	8.785576820373535	1.6359945220756344e-05	0.01564142480492592	5
-430	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	passengers	baku	13.0928955078125	8.785576820373535	2.0598120045178803e-06	0.01564142480492592	5
-431	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-432	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	luggage	baku	12.371377944946289	8.785576820373535	4.238176643411862e-06	0.01564142480492592	5
-433	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	they	baku	13.113651275634766	8.785576820373535	2.017501401496702e-06	0.01564142480492592	5
-434	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	sc	baku	10.109334945678711	8.785576820373535	4.069785063620657e-05	0.01564142480492592	5
-435	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##ree	baku	10.955957412719727	8.785576820373535	1.7453729014960118e-05	0.01564142480492592	5
-436	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##ched	baku	11.526918411254883	8.785576820373535	9.861051694315393e-06	0.01564142480492592	5
-437	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-438	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-439	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	gate	baku	14.165447235107422	8.785576820373535	7.047324857012427e-07	0.01564142480492592	5
-440	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	just	baku	11.890491485595703	8.785576820373535	6.85527720634127e-06	0.01564142480492592	5
-441	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	before	baku	9.554855346679688	8.785576820373535	7.085636752890423e-05	0.01564142480492592	5
-442	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	it	baku	10.340949058532715	8.785576820373535	3.228367131669074e-05	0.01564142480492592	5
-443	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	closed	baku	10.33544635772705	8.785576820373535	3.24618122249376e-05	0.01564142480492592	5
-444	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-445	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hurried	baku	12.453119277954102	8.785576820373535	3.9055239540175535e-06	0.01564142480492592	5
-446	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	down	baku	12.165700912475586	8.785576820373535	5.205992238188628e-06	0.01564142480492592	5
-447	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-448	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	<	baku	12.372459411621094	8.785576820373535	4.233595973346382e-06	0.01564142480492592	5
-449	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	un	baku	12.370870590209961	8.785576820373535	4.240327598381555e-06	0.01564142480492592	5
-450	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##k	baku	12.464094161987305	8.785576820373535	3.862891844619298e-06	0.01564142480492592	5
-451	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	>	baku	13.405540466308594	8.785576820373535	1.5067736285345745e-06	0.01564142480492592	5
-452	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	they	baku	13.113651275634766	8.785576820373535	2.017501401496702e-06	0.01564142480492592	5
-453	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	finally	baku	11.233320236206055	8.785576820373535	1.3226072042016312e-05	0.01564142480492592	5
-454	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	collapsed	baku	13.823421478271484	8.785576820373535	9.921209311869461e-07	0.01564142480492592	5
-455	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	into	baku	14.364185333251953	8.785576820373535	5.777152409791597e-07	0.01564142480492592	5
-456	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	their	baku	12.593515396118164	8.785576820373535	3.3939547847694485e-06	0.01564142480492592	5
-457	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	seats	baku	11.026391983032227	8.785576820373535	1.626668563403655e-05	0.01564142480492592	5
-458	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	on	baku	9.176458358764648	8.785576820373535	0.00010344631300540641	0.01564142480492592	5
-459	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-460	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	plane	baku	9.932353973388672	8.785576820373535	4.85772943648044e-05	0.01564142480492592	5
-461	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	next	baku	10.014355659484863	8.785576820373535	4.475284367799759e-05	0.01564142480492592	5
-462	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	time	baku	11.226180076599121	8.785576820373535	1.3320853213372175e-05	0.01564142480492592	5
-463	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	we	baku	12.64495849609375	8.785576820373535	3.223773774152505e-06	0.01564142480492592	5
-464	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	'	baku	11.34703254699707	8.785576820373535	1.1804463611042593e-05	0.01564142480492592	5
-465	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	re	baku	10.442972183227539	8.785576820373535	2.9152452043490484e-05	0.01564142480492592	5
-466	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	going	baku	13.16571044921875	8.785576820373535	1.915159373311326e-06	0.01564142480492592	5
-467	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	to	baku	8.647174835205078	8.785576820373535	0.00017562243738211691	0.01564142480492592	5
-468	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-469	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	airport	baku	9.758316040039062	8.785576820373535	5.7811928854789585e-05	0.01564142480492592	5
-470	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	my	baku	12.459569931030273	8.785576820373535	3.88041144105955e-06	0.01564142480492592	5
-471	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	way	baku	11.763916015625	8.785576820373535	7.780298801662866e-06	0.01564142480492592	5
-472	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	said	baku	11.315042495727539	8.785576820373535	1.218819943460403e-05	0.01564142480492592	5
-473	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	monica	baku	12.198715209960938	8.785576820373535	5.036921265855199e-06	0.01564142480492592	5
-474	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	wiping	baku	10.476154327392578	8.785576820373535	2.8200956876389682e-05	0.01564142480492592	5
-475	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	her	baku	10.533910751342773	8.785576820373535	2.6618341507855803e-05	0.01564142480492592	5
-476	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	forehead	baku	12.561582565307617	8.785576820373535	3.5040820876020007e-06	0.01564142480492592	5
-477	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	four	baku	13.075016021728516	8.785576820373535	2.0969735032849712e-06	0.01564142480492592	5
-478	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	hours	baku	10.921802520751953	8.785576820373535	1.8060147340293042e-05	0.01564142480492592	5
-479	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	early	baku	11.869627952575684	8.785576820373535	6.999808192631463e-06	0.01564142480492592	5
-480	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	chandler	baku	8.621509552001953	8.785576820373535	0.00018018817354459316	0.01564142480492592	5
-481	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	closed	baku	10.33544635772705	8.785576820373535	3.24618122249376e-05	0.01564142480492592	5
-482	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	his	baku	11.523332595825195	8.785576820373535	9.896465599013027e-06	0.01564142480492592	5
-483	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	eyes	baku	10.885603904724121	8.785576820373535	1.8725886548054405e-05	0.01564142480492592	5
-484	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-485	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	leaned	baku	11.859915733337402	8.785576820373535	7.0681230681657325e-06	0.01564142480492592	5
-486	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	his	baku	11.523332595825195	8.785576820373535	9.896465599013027e-06	0.01564142480492592	5
-487	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	head	baku	11.390789985656738	8.785576820373535	1.1299072866677307e-05	0.01564142480492592	5
-488	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	back	baku	11.059000015258789	8.785576820373535	1.574480120325461e-05	0.01564142480492592	5
-489	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	on	baku	9.176458358764648	8.785576820373535	0.00010344631300540641	0.01564142480492592	5
-490	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	the	baku	11.077760696411133	8.785576820373535	1.5452169463969767e-05	0.01564142480492592	5
-491	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	seat	baku	12.32719612121582	8.785576820373535	4.429625732882414e-06	0.01564142480492592	5
-492	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	and	baku	13.26431655883789	8.785576820373535	1.735324872242927e-06	0.01564142480492592	5
-493	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	smiled	baku	10.176584243774414	8.785576820373535	3.805098094744608e-05	0.01564142480492592	5
-494	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	whatever	baku	10.455392837524414	8.785576820373535	2.8792584998882376e-05	0.01564142480492592	5
-495	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	you	baku	12.44427490234375	8.785576820373535	3.940218448406085e-06	0.01564142480492592	5
-496	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	want	baku	11.513833999633789	8.785576820373535	9.990920261770952e-06	0.01564142480492592	5
-497	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	right	baku	12.340726852416992	8.785576820373535	4.370093392935814e-06	0.01564142480492592	5
-498	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	now	baku	9.736482620239258	8.785576820373535	5.908798266318627e-05	0.01564142480492592	5
-499	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	all	baku	10.053646087646484	8.785576820373535	4.302856177673675e-05	0.01564142480492592	5
-500	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	i	baku	11.814789772033691	8.785576820373535	7.394385193038033e-06	0.01564142480492592	5
-501	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	can	baku	11.409106254577637	8.785576820373535	1.1094000910816249e-05	0.01564142480492592	5
-502	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	think	baku	10.885028839111328	8.785576820373535	1.87366567843128e-05	0.01564142480492592	5
-503	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	is	baku	10.85926628112793	8.785576820373535	1.9225641153752804e-05	0.01564142480492592	5
-504	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	bermuda	baku	9.805359840393066	8.785576820373535	5.515519296750426e-05	0.01564142480492592	5
-505	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	baha	baku	8.605838775634766	8.785576820373535	0.00018303391698282212	0.01564142480492592	5
-506	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	##ma	baku	12.937776565551758	8.785576820373535	2.4054418190644355e-06	0.01564142480492592	5
-507	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	come	baku	10.286733627319336	8.785576820373535	3.4082277124980465e-05	0.01564142480492592	5
-508	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	on	baku	9.176458358764648	8.785576820373535	0.00010344631300540641	0.01564142480492592	5
-509	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	pretty	baku	9.922338485717773	8.785576820373535	4.906626418232918e-05	0.01564142480492592	5
-510	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	mama	baku	11.62424087524414	8.785576820373535	8.946570233092643e-06	0.01564142480492592	5
-511	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	monica	baku	12.198715209960938	8.785576820373535	5.036921265855199e-06	0.01564142480492592	5
-512	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	laughed	baku	12.8153076171875	8.785576820373535	2.718832774917246e-06	0.01564142480492592	5
-513	friends_align	aligned	google/electra-base-discriminator	[MASK] [MASK] [MASK] [MASK] [MASK]	[SEP]	baku	12.58449935913086	8.785576820373535	3.424689793973812e-06	0.01564142480492592	5
+0	friends_align	aligned	google/electra-base-discriminator	[CLS] chandler and monica walked	into	##oir	10.916901588439941	8.91806697845459	1.8148884919355623e-05	0.007237168028950691	5
+1	friends_align	aligned	google/electra-base-discriminator	chandler and monica walked into	the	##carriage	9.539329528808594	9.000048637390137	7.196510705398396e-05	0.005741548724472523	5
+2	friends_align	aligned	google/electra-base-discriminator	and monica walked into the	airport	civilization	10.33692741394043	8.949779510498047	3.241378362872638e-05	0.009038426913321018	5
+3	friends_align	aligned	google/electra-base-discriminator	monica walked into the airport	hand	##vity	9.119634628295898	9.01085090637207	0.00010949464194709435	0.005368776619434357	5
+4	friends_align	aligned	google/electra-base-discriminator	walked into the airport hand	in	##vot	10.596490859985352	8.908227920532227	2.5003584596561268e-05	0.008742453530430794	5
+5	friends_align	aligned	google/electra-base-discriminator	into the airport hand in	hand	##carriage	10.331153869628906	8.818821907043457	3.26014451275114e-05	0.015225769951939583	5
+6	friends_align	aligned	google/electra-base-discriminator	the airport hand in hand	pulling	noble	12.90275764465332	8.967939376831055	2.4911728360166308e-06	0.004365655593574047	5
+7	friends_align	aligned	google/electra-base-discriminator	airport hand in hand pulling	their	##top	12.583063125610352	9.0228853225708	3.4296110698051052e-06	0.00598136568441987	5
+8	friends_align	aligned	google/electra-base-discriminator	hand in hand pulling their	suitcase	##eres	10.505587577819824	8.952281951904297	2.738301918725483e-05	0.006619927007704973	5
+9	friends_align	aligned	google/electra-base-discriminator	in hand pulling their suitcase	##s	##top	11.834022521972656	8.993066787719727	7.253529929585056e-06	0.00972440093755722	5
+10	friends_align	aligned	google/electra-base-discriminator	hand pulling their suitcases	behind	##top	11.181295394897461	8.916963577270508	1.3932366528024431e-05	0.009081592783331871	5
+11	friends_align	aligned	google/electra-base-discriminator	pulling their suitcases behind	them	##carriage	13.096284866333008	8.965139389038086	2.0528425466181943e-06	0.007051998749375343	5
+12	friends_align	aligned	google/electra-base-discriminator	their suitcases behind them	see	atheist	10.95449447631836	8.999042510986328	1.7479273083154112e-05	0.0077021257020533085	5
+13	friends_align	aligned	google/electra-base-discriminator	suitcases behind them see	honey	{	15.43820571899414	8.833426475524902	1.9736597778319265e-07	0.014477642253041267	5
+14	friends_align	aligned	google/electra-base-discriminator	##s behind them see honey	no	halloween	9.842721939086914	8.89683723449707	5.313249857863411e-05	0.006319802720099688	5
+15	friends_align	aligned	google/electra-base-discriminator	behind them see honey no	problem	tires	12.786754608154297	9.026786804199219	2.797585011649062e-06	0.005643223412334919	5
+16	friends_align	aligned	google/electra-base-discriminator	them see honey no problem	getting	prequel	10.097677230834961	9.023317337036133	4.117510616197251e-05	0.004353968892246485	5
+17	friends_align	aligned	google/electra-base-discriminator	see honey no problem getting	a	##oons	12.10405445098877	8.999496459960938	5.537019205803517e-06	0.004499586299061775	5
+18	friends_align	aligned	google/electra-base-discriminator	honey no problem getting a	cab	##ision	8.739081382751465	8.873440742492676	0.00016020101611502469	0.009735099039971828	5
+19	friends_align	aligned	google/electra-base-discriminator	no problem getting a cab	no	preseason	11.653934478759766	9.034812927246094	8.684818567417096e-06	0.0058324020355939865	5
+20	friends_align	aligned	google/electra-base-discriminator	problem getting a cab no	traffic	elephant	11.754654884338379	8.946208000183105	7.852687303966377e-06	0.006073427386581898	5
+21	friends_align	aligned	google/electra-base-discriminator	getting a cab no traffic	my	##top	10.108549118041992	9.057443618774414	4.072984302183613e-05	0.004551297053694725	5
+22	friends_align	aligned	google/electra-base-discriminator	a cab no traffic my	way	mats	8.371358871459961	8.97285270690918	0.00023140083067119122	0.005189512390643358	5
+23	friends_align	aligned	google/electra-base-discriminator	cab no traffic my way	totally	##top	11.174858093261719	9.041609764099121	1.402234920533374e-05	0.005544403102248907	5
+24	friends_align	aligned	google/electra-base-discriminator	no traffic my way totally	works	sorority	12.763473510742188	8.807046890258789	2.863476993297809e-06	0.013406750746071339	5
+25	friends_align	aligned	google/electra-base-discriminator	traffic my way totally works	smiled	##xy	14.171039581298828	8.999067306518555	7.008022180343687e-07	0.005906594451516867	5
+26	friends_align	aligned	google/electra-base-discriminator	my way totally works smiled	chandler	nomadic	12.682999610900879	8.99245834350586	3.103438530160929e-06	0.007885698229074478	5
+27	friends_align	aligned	google/electra-base-discriminator	way totally works smiled chandler	monica	##ulsion	10.434036254882812	8.898297309875488	2.9414086384349503e-05	0.006256039720028639	5
+28	friends_align	aligned	google/electra-base-discriminator	totally works smiled chandler monica	took	##vot	11.753091812133789	8.956170082092285	7.86497457738733e-06	0.006813530810177326	5
+29	friends_align	aligned	google/electra-base-discriminator	works smiled chandler monica took	a	##vity	9.724390029907227	9.0142822265625	5.9806901845149696e-05	0.004335882142186165	5
+30	friends_align	aligned	google/electra-base-discriminator	smiled chandler monica took a	deep	avenue	11.431283950805664	8.897618293762207	1.0850671060325112e-05	0.007423799019306898	5
+31	friends_align	aligned	google/electra-base-discriminator	chandler monica took a deep	breath	sorority	12.915376663208008	8.916179656982422	2.459931920384406e-06	0.008050878532230854	5
+32	friends_align	aligned	google/electra-base-discriminator	monica took a deep breath	i	##lbert	11.295424461364746	9.025798797607422	1.2429665730451234e-05	0.005340633448213339	5
+33	friends_align	aligned	google/electra-base-discriminator	took a deep breath i	know	mughal	11.058438301086426	8.93812370300293	1.575365604367107e-05	0.006690832786262035	5
+34	friends_align	aligned	google/electra-base-discriminator	a deep breath i know	i	tobacco	12.079256057739258	8.981751441955566	5.676045020663878e-06	0.005639177747070789	5
+35	friends_align	aligned	google/electra-base-discriminator	deep breath i know i	know	##ood	10.71097183227539	8.838930130004883	2.2298923795460723e-05	0.011392355896532536	5
+36	friends_align	aligned	google/electra-base-discriminator	breath i know i know	we	{	12.645110130310059	8.887910842895508	3.2232828743872233e-06	0.014776729978621006	5
+37	friends_align	aligned	google/electra-base-discriminator	i know i know we	have	rumble	9.738449096679688	8.84053897857666	5.897192022530362e-05	0.01117300521582365	5
+38	friends_align	aligned	google/electra-base-discriminator	know i know we have	plenty	rejection	9.683625221252441	8.897577285766602	6.229527934920043e-05	0.006496676709502935	5
+39	friends_align	aligned	google/electra-base-discriminator	i know we have plenty	of	##top	9.815731048583984	8.96456241607666	5.4586093028774485e-05	0.006910391617566347	5
+40	friends_align	aligned	google/electra-base-discriminator	know we have plenty of	time	{	13.059493064880371	8.919011116027832	2.129777612935868e-06	0.010866652242839336	5
+41	friends_align	aligned	google/electra-base-discriminator	we have plenty of time	i	jewelry	11.0051851272583	8.968515396118164	1.6615325876045972e-05	0.005427648313343525	5
+42	friends_align	aligned	google/electra-base-discriminator	have plenty of time i	am	##olar	12.899250030517578	8.849905014038086	2.499926040400169e-06	0.010499542579054832	5
+43	friends_align	aligned	google/electra-base-discriminator	plenty of time i am	totally	##turing	10.899673461914062	8.898418426513672	1.846426494012121e-05	0.007083951495587826	5
+44	friends_align	aligned	google/electra-base-discriminator	of time i am totally	relaxed	goose	10.053345680236816	8.99626350402832	4.304149842937477e-05	0.004420360084623098	5
+45	friends_align	aligned	google/electra-base-discriminator	time i am totally relaxed	totally	crowns	10.689448356628418	8.930729866027832	2.2784081011195667e-05	0.0054199970327317715	5
+46	friends_align	aligned	google/electra-base-discriminator	i am totally relaxed totally	calm	##las	13.343114852905273	8.925519943237305	1.6038327430578647e-06	0.007037700153887272	5
+47	friends_align	aligned	google/electra-base-discriminator	am totally relaxed totally calm	suddenly	balloons	11.959953308105469	8.920534133911133	6.395262516889488e-06	0.008226373232901096	5
+48	friends_align	aligned	google/electra-base-discriminator	totally relaxed totally calm suddenly	her	##llar	9.785400390625	8.899603843688965	5.6267115724040195e-05	0.008426765911281109	5
+49	friends_align	aligned	google/electra-base-discriminator	relaxed totally calm suddenly her	eyes	##ood	13.266630172729492	8.847406387329102	1.7313141142949462e-06	0.00945041049271822	5
+50	friends_align	aligned	google/electra-base-discriminator	totally calm suddenly her eyes	grew	##ulsion	11.783882141113281	8.844354629516602	7.626499609614257e-06	0.007119158748537302	5
+51	friends_align	aligned	google/electra-base-discriminator	calm suddenly her eyes grew	wide	##ood	13.431257247924805	8.876288414001465	1.4685174392070621e-06	0.00993357878178358	5
+52	friends_align	aligned	google/electra-base-discriminator	suddenly her eyes grew wide	as	##top	9.258857727050781	9.019309997558594	9.526407666271552e-05	0.004182737786322832	5
+53	friends_align	aligned	google/electra-base-discriminator	her eyes grew wide as	she	axis	13.479059219360352	8.928285598754883	1.3999712109580287e-06	0.008980500511825085	5
+54	friends_align	aligned	google/electra-base-discriminator	eyes grew wide as she	saw	##ision	11.021173477172852	8.859071731567383	1.6351777958334424e-05	0.01971270889043808	5
+55	friends_align	aligned	google/electra-base-discriminator	grew wide as she saw	the	##vot	10.04289436340332	8.953568458557129	4.349372102296911e-05	0.011017052456736565	5
+56	friends_align	aligned	google/electra-base-discriminator	wide as she saw the	line	##nad	13.115293502807617	8.832322120666504	2.0141887944191694e-06	0.012719284743070602	5
+57	friends_align	aligned	google/electra-base-discriminator	as she saw the line	for	photon	11.606451034545898	8.929535865783691	9.10714970814297e-06	0.009339062497019768	5
+58	friends_align	aligned	google/electra-base-discriminator	she saw the line for	airport	##carriage	10.73514175415039	9.018798828125	2.1766440113424323e-05	0.0058701783418655396	5
+59	friends_align	aligned	google/electra-base-discriminator	saw the line for airport	security	##top	10.79842758178711	8.995026588439941	2.043160202447325e-05	0.007819661870598793	5
+60	friends_align	aligned	google/electra-base-discriminator	the line for airport security	winding	soloists	10.6484375	8.892106056213379	2.3737888113828376e-05	0.014474690891802311	5
+61	friends_align	aligned	google/electra-base-discriminator	line for airport security winding	in	##ood	11.127081871032715	8.93760871887207	1.4708542948937975e-05	0.012003304436802864	5
+62	friends_align	aligned	google/electra-base-discriminator	for airport security winding in	a	orlando	11.32461166381836	8.914997100830078	1.2072120625816751e-05	0.01095243263989687	5
+63	friends_align	aligned	google/electra-base-discriminator	airport security winding in a	lengthy	mammals	12.816974639892578	8.967066764831543	2.714306674533873e-06	0.0031848473008722067	5
+64	friends_align	aligned	google/electra-base-discriminator	security winding in a lengthy	tangle	performers	13.475194931030273	8.904389381408691	1.4053912309464067e-06	0.005138406530022621	5
+65	friends_align	aligned	google/electra-base-discriminator	winding in a lengthy tangle	that	{	11.11660385131836	8.867063522338867	1.4863467185932677e-05	0.014152939431369305	5
+66	friends_align	aligned	google/electra-base-discriminator	in a lengthy tangle that	stretched	tugging	12.493779182434082	8.804990768432617	3.749908046302153e-06	0.014756717719137669	5
+67	friends_align	aligned	google/electra-base-discriminator	a lengthy tangle that stretched	all	##xy	12.194406509399414	8.866722106933594	5.058670467406046e-06	0.013085299171507359	5
+68	friends_align	aligned	google/electra-base-discriminator	lengthy tangle that stretched all	the	##ella	9.92392349243164	8.900090217590332	4.8988607886713e-05	0.005325611215084791	5
+69	friends_align	aligned	google/electra-base-discriminator	tangle that stretched all the	way	##nad	10.112968444824219	8.759370803833008	4.0550272387918085e-05	0.022560911253094673	5
+70	friends_align	aligned	google/electra-base-discriminator	that stretched all the way	around	pristine	12.227224349975586	8.983729362487793	4.895348865829874e-06	0.0091599365696311	5
+71	friends_align	aligned	google/electra-base-discriminator	stretched all the way around	the	##top	9.802253723144531	9.030631065368652	5.53267564100679e-05	0.005803785286843777	5
+72	friends_align	aligned	google/electra-base-discriminator	all the way around the	corner	##eres	9.0889310836792	8.87777042388916	0.0001129087177105248	0.013250628486275673	5
+73	friends_align	aligned	google/electra-base-discriminator	the way around the corner	monica	vendors	11.02543830871582	8.856600761413574	1.6282197975669987e-05	0.007296587340533733	5
+74	friends_align	aligned	google/electra-base-discriminator	way around the corner monica	sc	##top	11.349340438842773	8.971412658691406	1.1777261534007266e-05	0.007020355202257633	5
+75	friends_align	aligned	google/electra-base-discriminator	around the corner monica sc	##ur	##vity	13.088634490966797	8.919088363647461	2.068608637273428e-06	0.006478789262473583	5
+76	friends_align	aligned	google/electra-base-discriminator	the corner monica scur	##ried	mats	9.696918487548828	8.878329277038574	6.147262320155278e-05	0.008356016129255295	5
+77	friends_align	aligned	google/electra-base-discriminator	corner monica scurried	toward	nolan	10.764391899108887	8.873260498046875	2.1138983356649987e-05	0.01348395086824894	5
+78	friends_align	aligned	google/electra-base-discriminator	monica scurried toward	the	##ision	10.323871612548828	8.945003509521484	3.283971454948187e-05	0.00926408264786005	5
+79	friends_align	aligned	google/electra-base-discriminator	scurried toward the	end	##gna	11.716156005859375	8.974886894226074	8.160905053955503e-06	0.007911289110779762	5
+80	friends_align	aligned	google/electra-base-discriminator	##urried toward the end	of	##rika	11.675535202026367	8.976713180541992	8.49923071655212e-06	0.005071044433861971	5
+81	friends_align	aligned	google/electra-base-discriminator	##ried toward the end of	the	##ood	10.060400009155273	8.989981651306152	4.2738960473798215e-05	0.005447653587907553	5
+82	friends_align	aligned	google/electra-base-discriminator	toward the end of the	line	##ision	12.559799194335938	8.868559837341309	3.5103328173136106e-06	0.010609921999275684	5
+83	friends_align	aligned	google/electra-base-discriminator	the end of the line	with	##xy	12.097075462341309	8.927011489868164	5.575794602918904e-06	0.010698321275413036	5
+84	friends_align	aligned	google/electra-base-discriminator	end of the line with	chandler	##ision	12.744880676269531	8.829153060913086	2.917215851994115e-06	0.011717356741428375	5
+85	friends_align	aligned	google/electra-base-discriminator	of the line with chandler	following	{	12.941818237304688	8.810579299926758	2.395741830696352e-06	0.01234882976859808	5
+86	friends_align	aligned	google/electra-base-discriminator	the line with chandler following	behind	atheist	10.309490203857422	9.010496139526367	3.331544212414883e-05	0.006505374796688557	5
+87	friends_align	aligned	google/electra-base-discriminator	line with chandler following behind	we	##top	12.440786361694336	8.924132347106934	3.9539841054647695e-06	0.006532809231430292	5
+88	friends_align	aligned	google/electra-base-discriminator	with chandler following behind we	'	mats	11.968952178955078	8.866560935974121	6.337972990877461e-06	0.012000378221273422	5
+89	friends_align	aligned	google/electra-base-discriminator	chandler following behind we '	ll	acre	10.152267456054688	8.848915100097656	3.898760405718349e-05	0.010244332253932953	5
+90	friends_align	aligned	google/electra-base-discriminator	following behind we'll	be	composer	12.43591594696045	8.878866195678711	3.9732899494993035e-06	0.006083529908210039	5
+91	friends_align	aligned	google/electra-base-discriminator	behind we'll be	fine	swan	11.821588516235352	8.898512840270996	7.34427976567531e-06	0.005483576096594334	5
+92	friends_align	aligned	google/electra-base-discriminator	we'll be fine	he	dismounted	13.77306079864502	8.854996681213379	1.0433637953610742e-06	0.021847447380423546	5
+93	friends_align	aligned	google/electra-base-discriminator	' ll be fine he	said	orlando	10.952396392822266	8.894859313964844	1.7516000298201106e-05	0.013083645142614841	5
+94	friends_align	aligned	google/electra-base-discriminator	ll be fine he said	as	`	9.521125793457031	8.942051887512207	7.328706851694733e-05	0.006552248261868954	5
+95	friends_align	aligned	google/electra-base-discriminator	be fine he said as	he	##top	11.489782333374023	8.885160446166992	1.023412278300384e-05	0.015298077836632729	5
+96	friends_align	aligned	google/electra-base-discriminator	fine he said as he	caught	##open	11.239290237426758	8.791549682617188	1.3147358913556673e-05	0.008186297491192818	5
+97	friends_align	aligned	google/electra-base-discriminator	he said as he caught	up	##vity	9.961650848388672	8.903247833251953	4.717480987892486e-05	0.007177299354225397	5
+98	friends_align	aligned	google/electra-base-discriminator	said as he caught up	to	{	11.132173538208008	8.951642990112305	1.4633847968070768e-05	0.00950042624026537	5
+99	friends_align	aligned	google/electra-base-discriminator	as he caught up to	her	##ingen	10.705605506896973	8.986974716186523	2.241890979348682e-05	0.0030668966937810183	5
+100	friends_align	aligned	google/electra-base-discriminator	he caught up to her	we	atheist	11.578191757202148	8.9901704788208	9.3681746875518e-06	0.005012132693082094	5
+101	friends_align	aligned	google/electra-base-discriminator	caught up to her we	'	##jali	11.916316986083984	8.932445526123047	6.6805046117224265e-06	0.016796141862869263	5
+102	friends_align	aligned	google/electra-base-discriminator	up to her we '	ve	lsu	11.376838684082031	8.825811386108398	1.1457805157988332e-05	0.012301374226808548	5
+103	friends_align	aligned	google/electra-base-discriminator	to her we've	still	swan	13.942216873168945	8.933815956115723	8.80992615748255e-07	0.015446429140865803	5
+104	friends_align	aligned	google/electra-base-discriminator	her we've still	got	nomadic	11.483123779296875	8.995492935180664	1.0302506780135445e-05	0.006336767226457596	5
+105	friends_align	aligned	google/electra-base-discriminator	we've still got	time	##lbert	13.25898551940918	9.018312454223633	1.7446000128984451e-06	0.006449372973293066	5
+106	friends_align	aligned	google/electra-base-discriminator	' ve still got time	to	##logy	11.974090576171875	8.865571975708008	6.305489023361588e-06	0.00635392963886261	5
+107	friends_align	aligned	google/electra-base-discriminator	ve still got time to	make	confederation	11.716297149658203	8.99401569366455	8.159746357705444e-06	0.00497682299464941	5
+108	friends_align	aligned	google/electra-base-discriminator	still got time to make	our	##top	10.867568969726562	8.950614929199219	1.9066661479882896e-05	0.007034333422780037	5
+109	friends_align	aligned	google/electra-base-discriminator	got time to make our	flight	katz	10.72132682800293	8.88013744354248	2.2069207261665724e-05	0.011876845732331276	5
+110	friends_align	aligned	google/electra-base-discriminator	time to make our flight	just	soloists	8.682525634765625	8.992310523986816	0.00016952230362221599	0.0043471865355968475	5
+111	friends_align	aligned	google/electra-base-discriminator	to make our flight just	think	{	10.771207809448242	8.939048767089844	2.0995390514144674e-05	0.008745811879634857	5
+112	friends_align	aligned	google/electra-base-discriminator	make our flight just think	about	##vity	11.691388130187988	8.801226615905762	8.365551366296131e-06	0.011498905718326569	5
+113	friends_align	aligned	google/electra-base-discriminator	our flight just think about	how	midway	11.149356842041016	8.921868324279785	1.4384533642441966e-05	0.00834597833454609	5
+114	friends_align	aligned	google/electra-base-discriminator	flight just think about how	relaxing	##vot	13.196245193481445	8.91880989074707	1.8575627791506122e-06	0.0073621743358671665	5
+115	friends_align	aligned	google/electra-base-discriminator	just think about how relaxing	it	##top	10.385953903198242	8.944476127624512	3.086294236709364e-05	0.012764490209519863	5
+116	friends_align	aligned	google/electra-base-discriminator	think about how relaxing it	'	##top	10.153101921081543	8.910323143005371	3.895505506079644e-05	0.01415664330124855	5
+117	friends_align	aligned	google/electra-base-discriminator	about how relaxing it '	s	rumble	9.24685287475586	8.852402687072754	9.641460928833112e-05	0.01266263797879219	5
+118	friends_align	aligned	google/electra-base-discriminator	how relaxing it's	going	vr	11.028108596801758	8.973548889160156	1.623878051759675e-05	0.006811219267547131	5
+119	friends_align	aligned	google/electra-base-discriminator	relaxing it's going	to	`	9.388592720031738	8.937499046325684	8.367313421331346e-05	0.00550814438611269	5
+120	friends_align	aligned	google/electra-base-discriminator	it's going to	be	wits	14.038421630859375	8.975168228149414	8.001860578588094e-07	0.006235779728740454	5
+121	friends_align	aligned	google/electra-base-discriminator	' s going to be	once	caste	13.478675842285156	8.971691131591797	1.4005086086399388e-06	0.006187410093843937	5
+122	friends_align	aligned	google/electra-base-discriminator	s going to be once	we	planets	9.329496383666992	8.999338150024414	8.876688661985099e-05	0.005382359027862549	5
+123	friends_align	aligned	google/electra-base-discriminator	going to be once we	'	tobacco	13.330059051513672	8.951215744018555	1.624908350095211e-06	0.011987918987870216	5
+124	friends_align	aligned	google/electra-base-discriminator	to be once we '	re	provinces	12.54507064819336	8.919696807861328	3.5624170777737163e-06	0.004919613711535931	5
+125	friends_align	aligned	google/electra-base-discriminator	be once we're	on	audition	10.701662063598633	8.852804183959961	2.250748912047129e-05	0.008367572911083698	5
+126	friends_align	aligned	google/electra-base-discriminator	once we're on	the	avila	11.66805648803711	8.9779634475708	8.563024493923876e-06	0.004050621297210455	5
+127	friends_align	aligned	google/electra-base-discriminator	we're on the	way	fuselage	12.104875564575195	8.931126594543457	5.532471732294653e-06	0.005866809748113155	5
+128	friends_align	aligned	google/electra-base-discriminator	' re on the way	to	dynasties	12.447086334228516	8.928008079528809	3.929156719095772e-06	0.005502618383616209	5
+129	friends_align	aligned	google/electra-base-discriminator	re on the way to	our	##carriage	10.53472900390625	8.92455005645752	2.659654273884371e-05	0.007723548449575901	5
+130	friends_align	aligned	google/electra-base-discriminator	on the way to our	honeymoon	{	11.430908203125	8.820317268371582	1.085474832507316e-05	0.022659223526716232	5
+131	friends_align	aligned	google/electra-base-discriminator	the way to our honeymoon	<	peugeot	15.23900032043457	9.050243377685547	2.408720547464327e-07	0.0035712842363864183	5
+132	friends_align	aligned	google/electra-base-discriminator	way to our honeymoon <	un	yd	12.0446138381958	8.933649063110352	5.876121576875448e-06	0.0055125197395682335	5
+133	friends_align	aligned	google/electra-base-discriminator	to our honeymoon < un	##k	rumble	10.010038375854492	8.791364669799805	4.494644235819578e-05	0.013786863535642624	5
+134	friends_align	aligned	google/electra-base-discriminator	our honeymoon < unk	>	sorority	10.567802429199219	8.950653076171875	2.573130404925905e-05	0.007698648609220982	5
+135	friends_align	aligned	google/electra-base-discriminator	honeymoon < unk >	<	conform	10.328784942626953	8.960204124450684	3.2678792194928974e-05	0.014513654634356499	5
+136	friends_align	aligned	google/electra-base-discriminator	< unk > <	un	phased	10.830615043640137	8.811641693115234	1.9784431060543284e-05	0.020700084045529366	5
+137	friends_align	aligned	google/electra-base-discriminator	unk > < un	##k	peck	9.968567848205566	8.918830871582031	4.6849621867295355e-05	0.0063630566000938416	5
+138	friends_align	aligned	google/electra-base-discriminator	##k > < unk	>	sorority	11.192333221435547	8.90390682220459	1.3779432265437208e-05	0.0065766372717916965	5
+139	friends_align	aligned	google/electra-base-discriminator	> < unk >	he	sorority	9.968149185180664	9.025620460510254	4.6869223297107965e-05	0.004394662566483021	5
+140	friends_align	aligned	google/electra-base-discriminator	< unk > he	started	##vity	12.857263565063477	8.85055160522461	2.607120450193179e-06	0.008455747738480568	5
+141	friends_align	aligned	google/electra-base-discriminator	unk > he started	to	{	10.994529724121094	8.947222709655762	1.679331217019353e-05	0.007593350484967232	5
+142	friends_align	aligned	google/electra-base-discriminator	##k > he started to	sway	caste	10.44009017944336	8.882425308227539	2.923658576037269e-05	0.008773034438490868	5
+143	friends_align	aligned	google/electra-base-discriminator	> he started to sway	his	##vity	11.503618240356445	8.928242683410645	1.009351217362564e-05	0.005959640722721815	5
+144	friends_align	aligned	google/electra-base-discriminator	he started to sway his	hips	orlando	9.629226684570312	8.886032104492188	6.577786552952603e-05	0.009444637224078178	5
+145	friends_align	aligned	google/electra-base-discriminator	started to sway his hips	from	fern	9.491029739379883	8.963208198547363	7.552629540441558e-05	0.003856021910905838	5
+146	friends_align	aligned	google/electra-base-discriminator	to sway his hips from	side	denomination	10.865522384643555	8.8978853225708	1.9105724277324043e-05	0.011053414084017277	5
+147	friends_align	aligned	google/electra-base-discriminator	sway his hips from side	to	##top	11.135316848754883	8.927964210510254	1.4587909390684217e-05	0.014326617121696472	5
+148	friends_align	aligned	google/electra-base-discriminator	his hips from side to	side	jedi	10.0438871383667	9.003680229187012	4.3450549128465354e-05	0.004403838887810707	5
+149	friends_align	aligned	google/electra-base-discriminator	hips from side to side	bermuda	##oma	10.31348705291748	9.03980827331543	3.3182528568431735e-05	0.005255544558167458	5
+150	friends_align	aligned	google/electra-base-discriminator	from side to side bermuda	baha	divers	11.133634567260742	8.988526344299316	1.4612470295105595e-05	0.006738514173775911	5
+151	friends_align	aligned	google/electra-base-discriminator	side to side bermuda baha	##ma	balloons	11.692008972167969	8.954216957092285	8.360359970538411e-06	0.009471746161580086	5
+152	friends_align	aligned	google/electra-base-discriminator	to side bermuda bahama	come	ambassador	12.0405855178833	8.931501388549805	5.899838924960932e-06	0.005131253972649574	5
+153	friends_align	aligned	google/electra-base-discriminator	side bermuda bahama come	on	##ood	10.292613983154297	8.928043365478516	3.388244294910692e-05	0.011004751548171043	5
+154	friends_align	aligned	google/electra-base-discriminator	bermuda bahama come on	pretty	sorority	11.629106521606445	8.939712524414062	8.903135494620074e-06	0.009595619514584541	5
+155	friends_align	aligned	google/electra-base-discriminator	bahama come on pretty	monica	competitors	11.36013412475586	9.000696182250977	1.1650812666630372e-05	0.0038116376381367445	5
+156	friends_align	aligned	google/electra-base-discriminator	##ma come on pretty monica	<	departing	12.426774024963379	9.03877067565918	4.009781605418539e-06	0.007912138476967812	5
+157	friends_align	aligned	google/electra-base-discriminator	come on pretty monica <	un	romano	11.303330421447754	8.891796112060547	1.2331785910646431e-05	0.010241434909403324	5
+158	friends_align	aligned	google/electra-base-discriminator	on pretty monica < un	##k	boots	9.067377090454102	8.944089889526367	0.0001153687117039226	0.006430750247091055	5
+159	friends_align	aligned	google/electra-base-discriminator	pretty monica < unk	>	{	10.614961624145508	8.972599983215332	2.454599416523706e-05	0.005550718400627375	5
+160	friends_align	aligned	google/electra-base-discriminator	monica < unk >	her	rumble	11.336648941040039	8.983606338500977	1.1927672858291771e-05	0.01030848827213049	5
+161	friends_align	aligned	google/electra-base-discriminator	< unk > her	lips	{	11.265117645263672	8.779601097106934	1.2812130989914294e-05	0.038279760628938675	5
+162	friends_align	aligned	google/electra-base-discriminator	unk > her lips	but	{	11.864057540893555	8.898712158203125	7.038906460365979e-06	0.0085454685613513	5
+163	friends_align	aligned	google/electra-base-discriminator	##k > her lips but	the	{	10.639649391174316	8.830121994018555	2.3947428417159244e-05	0.019953621551394463	5
+164	friends_align	aligned	google/electra-base-discriminator	> her lips but the	corners	##eres	10.444544792175293	8.922318458557129	2.9106620786478743e-05	0.011669904924929142	5
+165	friends_align	aligned	google/electra-base-discriminator	her lips but the corners	of	##top	9.367095947265625	8.837206840515137	8.54912941576913e-05	0.018022431060671806	5
+166	friends_align	aligned	google/electra-base-discriminator	lips but the corners of	her	avenue	10.748592376708984	8.934146881103516	2.147562372556422e-05	0.006697766948491335	5
+167	friends_align	aligned	google/electra-base-discriminator	but the corners of her	mouth	{	12.52998161315918	8.85356330871582	3.616581579990452e-06	0.00994019117206335	5
+168	friends_align	aligned	google/electra-base-discriminator	the corners of her mouth	turned	##xy	10.446493148803711	8.820201873779297	2.904998473240994e-05	0.024402262642979622	5
+169	friends_align	aligned	google/electra-base-discriminator	corners of her mouth turned	up	##ulsion	9.396984100341797	8.862889289855957	8.297390741063282e-05	0.007046505808830261	5
+170	friends_align	aligned	google/electra-base-discriminator	of her mouth turned up	in	orlando	11.49068832397461	8.760027885437012	1.0224865036434494e-05	0.03322945907711983	5
+171	friends_align	aligned	google/electra-base-discriminator	her mouth turned up in	a	atheist	10.985102653503418	8.933422088623047	1.6952375517576e-05	0.005396460648626089	5
+172	friends_align	aligned	google/electra-base-discriminator	mouth turned up in a	smile	##ision	12.603878021240234	8.914944648742676	3.3589626582397614e-06	0.007778240367770195	5
+173	friends_align	aligned	google/electra-base-discriminator	turned up in a smile	they	authors	12.408548355102539	8.999637603759766	4.083532985532656e-06	0.0062508899718523026	5
+174	friends_align	aligned	google/electra-base-discriminator	up in a smile they	eventually	skier	11.223554611206055	8.833075523376465	1.3355866940401029e-05	0.00961524248123169	5
+175	friends_align	aligned	google/electra-base-discriminator	in a smile they eventually	made	##top	10.446687698364258	8.870323181152344	2.904429675254505e-05	0.007419884204864502	5
+176	friends_align	aligned	google/electra-base-discriminator	a smile they eventually made	it	##vity	10.595930099487305	8.82794189453125	2.501761082385201e-05	0.026520494371652603	5
+177	friends_align	aligned	google/electra-base-discriminator	smile they eventually made it	to	##oma	11.10771369934082	8.96894359588623	1.4996198842709418e-05	0.004655236843973398	5
+178	friends_align	aligned	google/electra-base-discriminator	they eventually made it to	the	tires	10.293697357177734	8.956613540649414	3.384575029485859e-05	0.012021352536976337	5
+179	friends_align	aligned	google/electra-base-discriminator	eventually made it to the	front	##ision	10.583372116088867	8.763936042785645	2.5333774829050526e-05	0.020412541925907135	5
+180	friends_align	aligned	google/electra-base-discriminator	made it to the front	of	axis	11.89309310913086	8.958681106567383	6.8374661168491e-06	0.01037417259067297	5
+181	friends_align	aligned	google/electra-base-discriminator	it to the front of	the	civilization	10.795761108398438	8.929868698120117	2.0486166249611415e-05	0.0056677814573049545	5
+182	friends_align	aligned	google/electra-base-discriminator	to the front of the	line	##vot	11.537347793579102	8.744815826416016	9.758733540365938e-06	0.012203521095216274	5
+183	friends_align	aligned	google/electra-base-discriminator	the front of the line	to	atheist	10.918825149536133	8.941869735717773	1.8114013073500246e-05	0.012586287222802639	5
+184	friends_align	aligned	google/electra-base-discriminator	front of the line to	go	##vity	10.796367645263672	8.809483528137207	2.0473726181080565e-05	0.019417041912674904	5
+185	friends_align	aligned	google/electra-base-discriminator	of the line to go	through	##xy	11.821903228759766	8.973481178283691	7.341973741858965e-06	0.007775376085191965	5
+186	friends_align	aligned	google/electra-base-discriminator	the line to go through	the	yerevan	11.18294620513916	9.07655143737793	1.3909396329836454e-05	0.005287823732942343	5
+187	friends_align	aligned	google/electra-base-discriminator	line to go through the	metal	##gna	10.210721015930176	8.961692810058594	3.677394488477148e-05	0.0061373524367809296	5
+188	friends_align	aligned	google/electra-base-discriminator	to go through the metal	detector	octave	11.419713973999023	8.931512832641602	1.0976944395224564e-05	0.006320838816463947	5
+189	friends_align	aligned	google/electra-base-discriminator	go through the metal detector	monica	##lbert	10.475341796875	9.003419876098633	2.822388705681078e-05	0.006824923679232597	5
+190	friends_align	aligned	google/electra-base-discriminator	through the metal detector monica	began	jewelry	11.143163681030273	8.96605110168457	1.4473896044364665e-05	0.007402561139315367	5
+191	friends_align	aligned	google/electra-base-discriminator	the metal detector monica began	method	orlando	11.828605651855469	8.801036834716797	7.29292924006586e-06	0.039308466017246246	5
+192	friends_align	aligned	google/electra-base-discriminator	metal detector monica began method	##ically	midway	10.41403579711914	8.95281982421875	3.0008319299668074e-05	0.007731144316494465	5
+193	friends_align	aligned	google/electra-base-discriminator	detector monica began methodically	removing	##vot	13.337270736694336	8.985466003417969	1.613232370800688e-06	0.004260723479092121	5
+194	friends_align	aligned	google/electra-base-discriminator	monica began methodically removing	her	usc	11.453027725219727	8.94516658782959	1.061727471096674e-05	0.008029771037399769	5
+195	friends_align	aligned	google/electra-base-discriminator	began methodically removing her	watch	##gna	11.329248428344727	8.878641128540039	1.2016272194159683e-05	0.007999458350241184	5
+196	friends_align	aligned	google/electra-base-discriminator	methodically removing her watch	and	##rval	10.638209342956543	8.946800231933594	2.398194556008093e-05	0.00583077035844326	5
+197	friends_align	aligned	google/electra-base-discriminator	##ically removing her watch and	belt	##carriage	13.278257369995117	8.736214637756348	1.711298637019354e-06	0.01759626902639866	5
+198	friends_align	aligned	google/electra-base-discriminator	removing her watch and belt	and	##top	10.020483016967773	8.952214241027832	4.4479489588411525e-05	0.008535164408385754	5
+199	friends_align	aligned	google/electra-base-discriminator	her watch and belt and	started	##oir	13.654218673706055	8.919217109680176	1.1750273642974207e-06	0.009380482137203217	5
+200	friends_align	aligned	google/electra-base-discriminator	watch and belt and started	to	##xy	10.740078926086426	9.00731086730957	2.1659230696968734e-05	0.0047289663925766945	5
+201	friends_align	aligned	google/electra-base-discriminator	and belt and started to	search	magna	10.131021499633789	8.994074821472168	3.9824775740271434e-05	0.003814683761447668	5
+202	friends_align	aligned	google/electra-base-discriminator	belt and started to search	through	##top	13.89541244506836	9.02198314666748	9.232073239218153e-07	0.005699650850147009	5
+203	friends_align	aligned	google/electra-base-discriminator	and started to search through	her	orlando	10.512910842895508	8.91580581665039	2.7183230486116372e-05	0.01065998524427414	5
+204	friends_align	aligned	google/electra-base-discriminator	started to search through her	pockets	##gna	9.396831512451172	8.961726188659668	8.298660395666957e-05	0.006693368777632713	5
+205	friends_align	aligned	google/electra-base-discriminator	to search through her pockets	to	visas	12.7330904006958	9.001192092895508	2.9518146220652852e-06	0.005602286662906408	5
+206	friends_align	aligned	google/electra-base-discriminator	search through her pockets to	check	##ision	11.217742919921875	8.82861042022705	1.3433712410915177e-05	0.011448482982814312	5
+207	friends_align	aligned	google/electra-base-discriminator	through her pockets to check	for	orlando	12.054393768310547	8.973106384277344	5.818930276291212e-06	0.007722881156951189	5
+208	friends_align	aligned	google/electra-base-discriminator	her pockets to check for	change	orlando	10.672243118286133	8.93583869934082	2.3179476556833833e-05	0.004588606767356396	5
+209	friends_align	aligned	google/electra-base-discriminator	pockets to check for change	could	patriot	12.633275985717773	9.02275276184082	3.2616537737339968e-06	0.006710357964038849	5
+210	friends_align	aligned	google/electra-base-discriminator	to check for change could	you	orlando	11.136506080627441	8.952798843383789	1.4570578059647232e-05	0.004720005672425032	5
+211	friends_align	aligned	google/electra-base-discriminator	check for change could you	hurry	##ease	8.957769393920898	8.850227355957031	0.00012873311061412096	0.009582328610122204	5
+212	friends_align	aligned	google/electra-base-discriminator	for change could you hurry	up	magna	13.595497131347656	8.963675498962402	1.246093347617716e-06	0.007170830853283405	5
+213	friends_align	aligned	google/electra-base-discriminator	change could you hurry up	man	##top	11.875848770141602	8.996541023254395	6.956402103241999e-06	0.00858974363654852	5
+214	friends_align	aligned	google/electra-base-discriminator	could you hurry up man	behind	tobacco	11.541875839233398	8.925933837890625	9.714646694192197e-06	0.006792247761040926	5
+215	friends_align	aligned	google/electra-base-discriminator	you hurry up man behind	them	##icle	12.673558235168457	9.002093315124512	3.1328793284046696e-06	0.004454488400369883	5
+216	friends_align	aligned	google/electra-base-discriminator	hurry up man behind them	shouted	onboard	10.092239379882812	8.949787139892578	4.1399573092348874e-05	0.005510725546628237	5
+217	friends_align	aligned	google/electra-base-discriminator	up man behind them shouted	glaring	ye	13.842942237854004	8.941703796386719	9.729411658554454e-07	0.004505152814090252	5
+218	friends_align	aligned	google/electra-base-discriminator	man behind them shouted glaring	her	##top	10.611324310302734	8.96679973602295	2.4635457521071658e-05	0.010748306289315224	5
+219	friends_align	aligned	google/electra-base-discriminator	behind them shouted glaring her	she	live	11.603714942932129	8.91122817993164	9.132099876296706e-06	0.00809615757316351	5
+220	friends_align	aligned	google/electra-base-discriminator	them shouted glaring her she	turned	##top	11.287084579467773	8.91108512878418	1.2533771041489672e-05	0.007367722224444151	5
+221	friends_align	aligned	google/electra-base-discriminator	shouted glaring her she turned	around	##ood	11.802186965942383	8.860868453979492	7.488159553759033e-06	0.012585105374455452	5
+222	friends_align	aligned	google/electra-base-discriminator	glaring her she turned around	in	{	10.524346351623535	8.839458465576172	2.687413689272944e-05	0.008489230647683144	5
+223	friends_align	aligned	google/electra-base-discriminator	her she turned around in	shock	provinces	13.043570518493652	8.934843063354492	2.1639598344336264e-06	0.0052524167113006115	5
+224	friends_align	aligned	google/electra-base-discriminator	she turned around in shock	hey	orlando	12.733959197998047	8.928715705871582	2.949252575490391e-06	0.011528575792908669	5
+225	friends_align	aligned	google/electra-base-discriminator	turned around in shock hey	i	##top	10.946540832519531	9.01510238647461	1.761885687301401e-05	0.004946651868522167	5
+226	friends_align	aligned	google/electra-base-discriminator	around in shock hey i	have	##top	9.391915321350098	8.905380249023438	8.33955782582052e-05	0.007740868721157312	5
+227	friends_align	aligned	google/electra-base-discriminator	in shock hey i have	never	fuselage	10.475362777709961	9.000517845153809	2.822331225615926e-05	0.009843405336141586	5
+228	friends_align	aligned	google/electra-base-discriminator	shock hey i have never	set	##ood	10.642008781433105	8.8987398147583	2.389099790889304e-05	0.009545023553073406	5
+229	friends_align	aligned	google/electra-base-discriminator	hey i have never set	one	##tance	12.3019437789917	8.976611137390137	4.5429064812196884e-06	0.005222853273153305	5
+230	friends_align	aligned	google/electra-base-discriminator	i have never set one	of	##top	9.327531814575195	9.0067138671875	8.894146594684571e-05	0.007947246544063091	5
+231	friends_align	aligned	google/electra-base-discriminator	have never set one of	these	katz	10.218816757202148	8.929150581359863	3.6477438698057085e-05	0.010116338729858398	5
+232	friends_align	aligned	google/electra-base-discriminator	never set one of these	off	##top	12.34870433807373	8.957698822021484	4.335367520980071e-06	0.013100313022732735	5
+233	friends_align	aligned	google/electra-base-discriminator	set one of these off	before	##ood	15.514057159423828	9.000716209411621	1.829491367288938e-07	0.007387814112007618	5
+234	friends_align	aligned	google/electra-base-discriminator	one of these off before	and	##ision	10.481057167053223	8.587181091308594	2.8063039280823432e-05	0.04183598607778549	5
+235	friends_align	aligned	google/electra-base-discriminator	of these off before and	i	##vot	10.884256362915039	8.787243843078613	1.8751126845018007e-05	0.013700772076845169	5
+236	friends_align	aligned	google/electra-base-discriminator	these off before and i	am	nobles	13.699783325195312	8.865324974060059	1.1226889000681695e-06	0.00893882941454649	5
+237	friends_align	aligned	google/electra-base-discriminator	off before and i am	not	##ust	9.022233963012695	8.77000617980957	0.00012069620424881577	0.011396222747862339	5
+238	friends_align	aligned	google/electra-base-discriminator	before and i am not	about	##carriage	11.80830192565918	8.865646362304688	7.4425165621505585e-06	0.017465023323893547	5
+239	friends_align	aligned	google/electra-base-discriminator	and i am not about	to	torino	12.34598159790039	8.880245208740234	4.347185495134909e-06	0.008488343097269535	5
+240	friends_align	aligned	google/electra-base-discriminator	i am not about to	start	##olar	13.01540756225586	8.899738311767578	2.225768866992439e-06	0.014283459633588791	5
+241	friends_align	aligned	google/electra-base-discriminator	am not about to start	now	orlando	12.896665573120117	8.98754596710205	2.5063932298508007e-06	0.007672770880162716	5
+242	friends_align	aligned	google/electra-base-discriminator	not about to start now	she	midway	11.001546859741211	8.994638442993164	1.6675894585205242e-05	0.005889187101274729	5
+243	friends_align	aligned	google/electra-base-discriminator	about to start now she	sc	separate	11.414064407348633	8.923358917236328	1.1039132914447691e-05	0.00827998947352171	5
+244	friends_align	aligned	google/electra-base-discriminator	to start now she sc	##old	##xy	11.13315200805664	8.862944602966309	1.4619538887927774e-05	0.02338365837931633	5
+245	friends_align	aligned	google/electra-base-discriminator	start now she scold	##ed	deutschland	9.578625679016113	8.943107604980469	6.919199222465977e-05	0.014082190580666065	5
+246	friends_align	aligned	google/electra-base-discriminator	now she scolded	holding	##carriage	11.199300765991211	8.992399215698242	1.36837552418001e-05	0.005887027829885483	5
+247	friends_align	aligned	google/electra-base-discriminator	she scolded holding	up	pristine	14.705599784851074	8.965822219848633	4.1061906586037367e-07	0.0036945415195077658	5
+248	friends_align	aligned	google/electra-base-discriminator	scolded holding up	her	##cision	9.021474838256836	8.959492683410645	0.00012078792497050017	0.01066666655242443	5
+249	friends_align	aligned	google/electra-base-discriminator	##olded holding up her	finger	##carriage	13.066597938537598	8.834859848022461	2.11469932764885e-06	0.010869648307561874	5
+250	friends_align	aligned	google/electra-base-discriminator	##ed holding up her finger	she	prism	10.99223518371582	8.884817123413086	1.6831896573421545e-05	0.005946990102529526	5
+251	friends_align	aligned	google/electra-base-discriminator	holding up her finger she	started	##ood	12.868597984313965	8.835230827331543	2.5777392238524044e-06	0.01152737531810999	5
+252	friends_align	aligned	google/electra-base-discriminator	up her finger she started	to	##vity	10.86916446685791	9.004940032958984	1.9036269804928452e-05	0.0059840623289346695	5
+253	friends_align	aligned	google/electra-base-discriminator	her finger she started to	walk	midway	11.906095504760742	9.015478134155273	6.749140084139071e-06	0.004353740718215704	5
+254	friends_align	aligned	google/electra-base-discriminator	finger she started to walk	through	atheist	12.91189956665039	8.857093811035156	2.468499360475107e-06	0.020182790234684944	5
+255	friends_align	aligned	google/electra-base-discriminator	she started to walk through	then	orlando	10.466492652893066	9.010913848876953	2.8474762075347826e-05	0.007774213794618845	5
+256	friends_align	aligned	google/electra-base-discriminator	started to walk through then	jumped	crowns	9.443435668945312	9.055994987487793	7.92078353697434e-05	0.004533624276518822	5
+257	friends_align	aligned	google/electra-base-discriminator	to walk through then jumped	back	##vity	11.223529815673828	9.011028289794922	1.3356204362935387e-05	0.005188222508877516	5
+258	friends_align	aligned	google/electra-base-discriminator	walk through then jumped back	and	##rval	10.277159690856934	9.004096984863281	3.4410124499117956e-05	0.005403592716902494	5
+259	friends_align	aligned	google/electra-base-discriminator	through then jumped back and	bent	province	9.732038497924805	8.969619750976562	5.935116860200651e-05	0.005797771271318197	5
+260	friends_align	aligned	google/electra-base-discriminator	then jumped back and bent	down	##vity	12.552210807800293	9.025741577148438	3.5370737805351382e-06	0.006257475819438696	5
+261	friends_align	aligned	google/electra-base-discriminator	jumped back and bent down	she	##vot	9.720259666442871	8.909968376159668	6.005441537126899e-05	0.005961588583886623	5
+262	friends_align	aligned	google/electra-base-discriminator	back and bent down she	took	rumble	11.321623802185059	8.859724998474121	1.2108246664865874e-05	0.017018254846334457	5
+263	friends_align	aligned	google/electra-base-discriminator	and bent down she took	off	orlando	11.774282455444336	9.065707206726074	7.700064998061862e-06	0.0037210092414170504	5
+264	friends_align	aligned	google/electra-base-discriminator	bent down she took off	her	##oma	10.612653732299805	9.015332221984863	2.460270479787141e-05	0.005078481510281563	5
+265	friends_align	aligned	google/electra-base-discriminator	down she took off her	<	bunny	11.544398307800293	8.92640495300293	9.690174010756891e-06	0.005809166468679905	5
+266	friends_align	aligned	google/electra-base-discriminator	she took off her <	un	##ulent	12.563713073730469	8.958440780639648	3.49662286680541e-06	0.005270720925182104	5
+267	friends_align	aligned	google/electra-base-discriminator	took off her < un	##k	##tto	9.820293426513672	8.943653106689453	5.433760452433489e-05	0.009301021695137024	5
+268	friends_align	aligned	google/electra-base-discriminator	off her < unk	>	##vity	11.141841888427734	8.89309310913086	1.4493050912278704e-05	0.012313579209148884	5
+269	friends_align	aligned	google/electra-base-discriminator	her < unk >	and	rumble	9.586881637573242	8.997127532958984	6.86230487190187e-05	0.005486185662448406	5
+270	friends_align	aligned	google/electra-base-discriminator	< unk > and	put	{	13.10710334777832	8.828656196594238	2.030754558290937e-06	0.023064415901899338	5
+271	friends_align	aligned	google/electra-base-discriminator	unk > and put	it	##vity	11.077725410461426	8.897807121276855	1.5452722436748445e-05	0.011604811064898968	5
+272	friends_align	aligned	google/electra-base-discriminator	##k > and put it	in	{	10.571499824523926	8.954058647155762	2.5636340069468133e-05	0.006752351298928261	5
+273	friends_align	aligned	google/electra-base-discriminator	> and put it in	her	##oir	10.05964469909668	8.90634536743164	4.277125117368996e-05	0.006210573483258486	5
+274	friends_align	aligned	google/electra-base-discriminator	and put it in her	box	axis	11.980432510375977	8.904500961303711	6.2656217778567225e-06	0.009684485383331776	5
+275	friends_align	aligned	google/electra-base-discriminator	put it in her box	on	##top	10.722101211547852	9.037960052490234	2.205211785621941e-05	0.007207802496850491	5
+276	friends_align	aligned	google/electra-base-discriminator	it in her box on	the	magna	10.543130874633789	8.966717720031738	2.637403849803377e-05	0.01174855511635542	5
+277	friends_align	aligned	google/electra-base-discriminator	in her box on the	convey	##arable	11.98558235168457	8.854462623596191	6.233439307834487e-06	0.012989139184355736	5
+278	friends_align	aligned	google/electra-base-discriminator	her box on the convey	##or	tobacco	10.951911926269531	8.988476753234863	1.7524469512864016e-05	0.010011794045567513	5
+279	friends_align	aligned	google/electra-base-discriminator	box on the conveyor	belt	##vot	13.378931045532227	9.004044532775879	1.5474062138309819e-06	0.005269712768495083	5
+280	friends_align	aligned	google/electra-base-discriminator	on the conveyor belt	she	##ision	10.144468307495117	8.957056045532227	3.9292855944950134e-05	0.005925540812313557	5
+281	friends_align	aligned	google/electra-base-discriminator	the conveyor belt she	smiled	##grant	10.00558090209961	9.029191970825195	4.5147269702283666e-05	0.006995168048888445	5
+282	friends_align	aligned	google/electra-base-discriminator	conveyor belt she smiled	at	gig	10.896356582641602	8.913244247436523	1.85256121767452e-05	0.007079042494297028	5
+283	friends_align	aligned	google/electra-base-discriminator	##or belt she smiled at	the	##gna	10.097034454345703	8.961187362670898	4.120153607800603e-05	0.009503223933279514	5
+284	friends_align	aligned	google/electra-base-discriminator	belt she smiled at the	security	avenue	10.559478759765625	8.839961051940918	2.594635952846147e-05	0.018249331042170525	5
+285	friends_align	aligned	google/electra-base-discriminator	she smiled at the security	guard	solidarity	10.57502555847168	8.87298583984375	2.554609272920061e-05	0.005181971937417984	5
+286	friends_align	aligned	google/electra-base-discriminator	smiled at the security guard	that	##vot	11.501956939697266	8.86548137664795	1.0110284165421035e-05	0.007658521644771099	5
+287	friends_align	aligned	google/electra-base-discriminator	at the security guard that	was	##ntation	10.341675758361816	8.895057678222656	3.226021726732142e-05	0.00474986806511879	5
+288	friends_align	aligned	google/electra-base-discriminator	the security guard that was	a	imitation	12.13241195678711	9.020974159240723	5.38221047463594e-06	0.007541085593402386	5
+289	friends_align	aligned	google/electra-base-discriminator	security guard that was a	close	##sden	13.226844787597656	9.014583587646484	1.8015840623775148e-06	0.0042625670321285725	5
+290	friends_align	aligned	google/electra-base-discriminator	guard that was a close	one	##top	10.548218727111816	9.01022720336914	2.624017361085862e-05	0.005112489219754934	5
+291	friends_align	aligned	google/electra-base-discriminator	that was a close one	her	redding	10.052188873291016	9.031400680541992	4.309133146307431e-05	0.007356772664934397	5
+292	friends_align	aligned	google/electra-base-discriminator	was a close one her	joy	dinosaurs	6.879763603210449	8.973306655883789	0.0010283869924023747	0.005816139280796051	5
+293	friends_align	aligned	google/electra-base-discriminator	a close one her joy	was	##ption	12.07310676574707	8.990135192871094	5.71105238122982e-06	0.007466440089046955	5
+294	friends_align	aligned	google/electra-base-discriminator	close one her joy was	cut	{	12.116531372070312	8.878316879272461	5.468363724503433e-06	0.014196164906024933	5
+295	friends_align	aligned	google/electra-base-discriminator	one her joy was cut	short	##top	15.162747383117676	8.970602989196777	2.5995757368946215e-07	0.006044592708349228	5
+296	friends_align	aligned	google/electra-base-discriminator	her joy was cut short	as	katz	12.319402694702148	8.936688423156738	4.464282483240822e-06	0.00549006974324584	5
+297	friends_align	aligned	google/electra-base-discriminator	joy was cut short as	they	##vot	12.73793888092041	8.908244132995605	2.9375371468631784e-06	0.008799150586128235	5
+298	friends_align	aligned	google/electra-base-discriminator	was cut short as they	heard	##top	10.852383613586426	8.832167625427246	1.9358407371328212e-05	0.008367003872990608	5
+299	friends_align	aligned	google/electra-base-discriminator	cut short as they heard	the	denomination	11.024465560913086	8.961584091186523	1.6298052287311293e-05	0.011328238062560558	5
+300	friends_align	aligned	google/electra-base-discriminator	short as they heard the	final	##nad	9.454309463500977	8.795503616333008	7.835116412024945e-05	0.010552854277193546	5
+301	friends_align	aligned	google/electra-base-discriminator	as they heard the final	call	soloists	11.852415084838867	8.943379402160645	7.121335784177063e-06	0.008543366566300392	5
+302	friends_align	aligned	google/electra-base-discriminator	they heard the final call	for	##oma	11.020206451416016	8.983101844787598	1.6367594071198255e-05	0.0085831293836236	5
+303	friends_align	aligned	google/electra-base-discriminator	heard the final call for	their	`	11.664552688598633	8.932256698608398	8.593086931796279e-06	0.007612229790538549	5
+304	friends_align	aligned	google/electra-base-discriminator	the final call for their	flight	##olar	10.471246719360352	8.896139144897461	2.8339694836176932e-05	0.007133495528250933	5
+305	friends_align	aligned	google/electra-base-discriminator	final call for their flight	come	performers	8.770879745483398	8.904520034790039	0.00015518709551542997	0.012800268828868866	5
+306	friends_align	aligned	google/electra-base-discriminator	call for their flight come	over	##carriage	13.995132446289062	8.969650268554688	8.355864906661736e-07	0.007473824545741081	5
+307	friends_align	aligned	google/electra-base-discriminator	for their flight come over	the	##xy	9.15760326385498	8.955238342285156	0.0001054152671713382	0.013440902344882488	5
+308	friends_align	aligned	google/electra-base-discriminator	their flight come over the	pa	tires	11.821407318115234	8.997977256774902	7.3456158133922145e-06	0.00989450141787529	5
+309	friends_align	aligned	google/electra-base-discriminator	flight come over the pa	system	##oma	11.097681999206543	9.05987548828125	1.5147392332437448e-05	0.005638633389025927	5
+310	friends_align	aligned	google/electra-base-discriminator	come over the pa system	gate	##lbert	13.178194999694824	9.001566886901855	1.8913967778644292e-06	0.00840781256556511	5
+311	friends_align	aligned	google/electra-base-discriminator	over the pa system gate	is	##carriage	10.09536361694336	8.981209754943848	4.127048669033684e-05	0.01062675379216671	5
+312	friends_align	aligned	google/electra-base-discriminator	the pa system gate is	on	##gna	9.742815017700195	9.006169319152832	5.8715002523967996e-05	0.004818318877369165	5
+313	friends_align	aligned	google/electra-base-discriminator	pa system gate is on	the	alternating	11.260554313659668	8.939606666564941	1.2870737009507138e-05	0.014734710566699505	5
+314	friends_align	aligned	google/electra-base-discriminator	system gate is on the	other	##olar	10.198049545288086	8.981697082519531	3.724286943906918e-05	0.004845655057579279	5
+315	friends_align	aligned	google/electra-base-discriminator	gate is on the other	side	##vot	9.603766441345215	8.872408866882324	6.747412408003584e-05	0.012796007096767426	5
+316	friends_align	aligned	google/electra-base-discriminator	is on the other side	of	##vot	9.157773971557617	8.880107879638672	0.00010539727372815832	0.007070125546306372	5
+317	friends_align	aligned	google/electra-base-discriminator	on the other side of	the	##xy	9.403085708618164	8.949607849121094	8.246914512710646e-05	0.007435057312250137	5
+318	friends_align	aligned	google/electra-base-discriminator	the other side of the	terminal	atheist	11.71280288696289	9.02563190460205	8.188309948309325e-06	0.00597923481836915	5
+319	friends_align	aligned	google/electra-base-discriminator	other side of the terminal	monica	##top	12.220508575439453	8.971665382385254	4.928336238663178e-06	0.005590358749032021	5
+320	friends_align	aligned	google/electra-base-discriminator	side of the terminal monica	shouted	sorority	11.603011131286621	8.917240142822266	9.138528184848838e-06	0.007189035415649414	5
+321	friends_align	aligned	google/electra-base-discriminator	of the terminal monica shouted	holding	jewelry	10.706684112548828	8.857316970825195	2.2394737243303098e-05	0.0067315180785954	5
+322	friends_align	aligned	google/electra-base-discriminator	the terminal monica shouted holding	her	##xy	11.039173126220703	8.77752685546875	1.6060088455560617e-05	0.03362374007701874	5
+323	friends_align	aligned	google/electra-base-discriminator	terminal monica shouted holding her	hands	appetite	13.815420150756836	8.894824981689453	1.000090151137556e-06	0.011590622365474701	5
+324	friends_align	aligned	google/electra-base-discriminator	monica shouted holding her hands	to	##top	10.364763259887695	8.999048233032227	3.1523948564426973e-05	0.006566966418176889	5
+325	friends_align	aligned	google/electra-base-discriminator	shouted holding her hands to	her	civilization	9.86253547668457	8.90526008605957	5.2090108511038125e-05	0.017003662884235382	5
+326	friends_align	aligned	google/electra-base-discriminator	holding her hands to her	head	{	12.993062973022461	8.89264965057373	2.276063924000482e-06	0.009034702554345131	5
+327	friends_align	aligned	google/electra-base-discriminator	her hands to her head	chandler	orlando	13.299097061157227	8.960738182067871	1.676006718298595e-06	0.016480885446071625	5
+328	friends_align	aligned	google/electra-base-discriminator	hands to her head chandler	looked	axis	12.921855926513672	8.993136405944824	2.4440464585495647e-06	0.004128677304834127	5
+329	friends_align	aligned	google/electra-base-discriminator	to her head chandler looked	around	{	11.799968719482422	8.80879020690918	7.5047910286230035e-06	0.011241154745221138	5
+330	friends_align	aligned	google/electra-base-discriminator	her head chandler looked around	in	nomadic	11.571146965026855	8.961714744567871	9.434411367692519e-06	0.007559674791991711	5
+331	friends_align	aligned	google/electra-base-discriminator	head chandler looked around in	shock	##gna	13.410432815551758	8.961063385009766	1.4994195680628764e-06	0.005932099185883999	5
+332	friends_align	aligned	google/electra-base-discriminator	chandler looked around in shock	and	##oma	10.334711074829102	8.949410438537598	3.248570646974258e-05	0.009999753907322884	5
+333	friends_align	aligned	google/electra-base-discriminator	looked around in shock and	then	##wig	12.522380828857422	8.793933868408203	3.6441724660107866e-06	0.015998870134353638	5
+334	friends_align	aligned	google/electra-base-discriminator	around in shock and then	ran	##cision	11.576501846313477	8.899665832519531	9.38403081818251e-06	0.008688794448971748	5
+335	friends_align	aligned	google/electra-base-discriminator	in shock and then ran	over	##vity	13.86473560333252	8.941550254821777	9.519667969470902e-07	0.007679830305278301	5
+336	friends_align	aligned	google/electra-base-discriminator	shock and then ran over	to	##top	10.611503601074219	8.996039390563965	2.4631019186927006e-05	0.005716840270906687	5
+337	friends_align	aligned	google/electra-base-discriminator	and then ran over to	an	atheist	12.31177806854248	8.896554946899414	4.498448561207624e-06	0.01238370779901743	5
+338	friends_align	aligned	google/electra-base-discriminator	then ran over to an	elderly	##grant	11.782088279724121	8.988874435424805	7.640190233360045e-06	0.0048535973764956	5
+339	friends_align	aligned	google/electra-base-discriminator	ran over to an elderly	man	##olar	13.240036964416504	9.022529602050781	1.7779721019905992e-06	0.006421354133635759	5
+340	friends_align	aligned	google/electra-base-discriminator	over to an elderly man	an	orlando	13.772239685058594	8.974440574645996	1.0442212214911706e-06	0.005858037155121565	5
+341	friends_align	aligned	google/electra-base-discriminator	to an elderly man an	electric	coasts	11.51362133026123	8.963789939880371	9.993043931899592e-06	0.00642814626917243	5
+342	friends_align	aligned	google/electra-base-discriminator	an elderly man an electric	sc	atheist	10.839637756347656	8.87841510772705	1.9606732166721486e-05	0.03033958189189434	5
+343	friends_align	aligned	google/electra-base-discriminator	elderly man an electric sc	##oot	{	9.022773742675781	8.999908447265625	0.00012063101166859269	0.00659965118393302	5
+344	friends_align	aligned	google/electra-base-discriminator	man an electric scoot	##er	##top	12.339746475219727	8.996458053588867	4.374375293991761e-06	0.0067452029325068	5
+345	friends_align	aligned	google/electra-base-discriminator	an electric scooter	i	katz	9.390387535095215	8.92030143737793	8.352309669135138e-05	0.013251942582428455	5
+346	friends_align	aligned	google/electra-base-discriminator	electric scooter i	will	{	11.206050872802734	8.868610382080078	1.3591708921012469e-05	0.011626985855400562	5
+347	friends_align	aligned	google/electra-base-discriminator	scooter i will	give	sorority	12.286637306213379	8.900781631469727	4.612976226781029e-06	0.004945826251059771	5
+348	friends_align	aligned	google/electra-base-discriminator	##ooter i will give	you	nomadic	12.173227310180664	8.869836807250977	5.1669508138729725e-06	0.013846897520124912	5
+349	friends_align	aligned	google/electra-base-discriminator	##er i will give you	sixty	##cision	9.766500473022461	8.855161666870117	5.7340650528203696e-05	0.013969270512461662	5
+350	friends_align	aligned	google/electra-base-discriminator	i will give you sixty	dollars	droplets	13.096708297729492	8.89061164855957	2.0519737518043257e-06	0.014519041404128075	5
+351	friends_align	aligned	google/electra-base-discriminator	will give you sixty dollars	he	##top	10.657591819763184	9.013506889343262	2.3521586626884528e-05	0.006905702408403158	5
+352	friends_align	aligned	google/electra-base-discriminator	give you sixty dollars he	said	nomadic	10.132434844970703	9.029356956481934	3.9768547139829025e-05	0.005205923225730658	5
+353	friends_align	aligned	google/electra-base-discriminator	you sixty dollars he said	shoving	gymnasium	12.147353172302246	8.989582061767578	5.302388672134839e-06	0.004869287833571434	5
+354	friends_align	aligned	google/electra-base-discriminator	sixty dollars he said shoving	a	##top	9.299036026000977	9.014716148376465	9.151243284577504e-05	0.006508664693683386	5
+355	friends_align	aligned	google/electra-base-discriminator	dollars he said shoving a	wa	skirt	10.3801851272583	8.929338455200195	3.104150891886093e-05	0.006434864364564419	5
+356	friends_align	aligned	google/electra-base-discriminator	he said shoving a wa	##d	##top	9.227034568786621	9.020874977111816	9.834440425038338e-05	0.003989876247942448	5
+357	friends_align	aligned	google/electra-base-discriminator	said shoving a wad	of	##top	10.267263412475586	8.944428443908691	3.4752334613585845e-05	0.007433343678712845	5
+358	friends_align	aligned	google/electra-base-discriminator	shoving a wad of	cash	##top	14.249441146850586	8.940396308898926	6.479568810391356e-07	0.006795609835535288	5
+359	friends_align	aligned	google/electra-base-discriminator	a wad of cash	into	aerial	10.4229736328125	8.845088958740234	2.9741308026132174e-05	0.010510096326470375	5
+360	friends_align	aligned	google/electra-base-discriminator	wad of cash into	the	##vot	10.191990852355957	8.88868522644043	3.74692099285312e-05	0.007706392090767622	5
+361	friends_align	aligned	google/electra-base-discriminator	##d of cash into the	man	##ision	10.679954528808594	8.863130569458008	2.300142114108894e-05	0.00956793688237667	5
+362	friends_align	aligned	google/electra-base-discriminator	of cash into the man	'	atheist	11.837902069091797	8.868125915527344	7.2254401857207995e-06	0.009151630103588104	5
+363	friends_align	aligned	google/electra-base-discriminator	cash into the man '	s	rearview	9.957650184631348	8.823037147521973	4.736389382742345e-05	0.006661949213594198	5
+364	friends_align	aligned	google/electra-base-discriminator	into the man's	hand	##carriage	9.273963928222656	8.78183650970459	9.383584256283939e-05	0.02991306036710739	5
+365	friends_align	aligned	google/electra-base-discriminator	the man's hand	if	atheist	11.419008255004883	9.020377159118652	1.0984690561599564e-05	0.009412834420800209	5
+366	friends_align	aligned	google/electra-base-discriminator	man's hand if	you	{	13.642290115356445	8.941329002380371	1.1891279427800328e-06	0.01116507314145565	5
+367	friends_align	aligned	google/electra-base-discriminator	' s hand if you	let	swan	11.934399604797363	8.928568840026855	6.560791007359512e-06	0.008369154296815395	5
+368	friends_align	aligned	google/electra-base-discriminator	s hand if you let	us	##top	13.44686222076416	8.895103454589844	1.4457792758548749e-06	0.009082374162971973	5
+369	friends_align	aligned	google/electra-base-discriminator	hand if you let us	borrow	{	11.568495750427246	8.851158142089844	9.459455213800538e-06	0.011334245093166828	5
+370	friends_align	aligned	google/electra-base-discriminator	if you let us borrow	your	atheist	10.182405471801758	8.934814453125	3.783009378821589e-05	0.0061463541351258755	5
+371	friends_align	aligned	google/electra-base-discriminator	you let us borrow your	sc	##ision	11.43322467803955	8.942232131958008	1.0829629900399595e-05	0.007758084684610367	5
+372	friends_align	aligned	google/electra-base-discriminator	let us borrow your sc	##oot	##vity	10.130487442016602	8.856180191040039	3.984603245044127e-05	0.010990559123456478	5
+373	friends_align	aligned	google/electra-base-discriminator	us borrow your scoot	##er	##top	11.928043365478516	9.004359245300293	6.602619578188751e-06	0.006186123937368393	5
+374	friends_align	aligned	google/electra-base-discriminator	borrow your scooter	to	rejection	10.967788696289062	8.953121185302734	1.7248439689865336e-05	0.006502591073513031	5
+375	friends_align	aligned	google/electra-base-discriminator	your scooter to	get	orlando	10.828165054321289	8.942242622375488	1.9832959878840484e-05	0.004804806783795357	5
+376	friends_align	aligned	google/electra-base-discriminator	scooter to get	to	soloist	12.322540283203125	8.917142868041992	4.450294909474906e-06	0.006798128597438335	5
+377	friends_align	aligned	google/electra-base-discriminator	##ooter to get to	gate	imam	11.21853256225586	8.922471046447754	1.3423119526123628e-05	0.006175675429403782	5
+378	friends_align	aligned	google/electra-base-discriminator	##er to get to gate	<	confederation	11.282913208007812	8.953242301940918	1.2586147022375371e-05	0.00990601908415556	5
+379	friends_align	aligned	google/electra-base-discriminator	to get to gate <	un	sirius	12.199820518493652	8.883597373962402	5.031357432017103e-06	0.009301668964326382	5
+380	friends_align	aligned	google/electra-base-discriminator	get to gate < un	##k	mosques	13.01901626586914	8.809537887573242	2.2177539449330652e-06	0.007580632343888283	5
+381	friends_align	aligned	google/electra-base-discriminator	to gate < unk	>	trump	10.723976135253906	8.937371253967285	2.2010835891705938e-05	0.007265464402735233	5
+382	friends_align	aligned	google/electra-base-discriminator	gate < unk >	the	conform	9.754892349243164	8.997051239013672	5.801017687190324e-05	0.007828312925994396	5
+383	friends_align	aligned	google/electra-base-discriminator	< unk > the	old	{	12.485109329223633	8.863945960998535	3.782560497711529e-06	0.023007707670331	5
+384	friends_align	aligned	google/electra-base-discriminator	unk > the old	man	##ption	11.919743537902832	8.93581485748291	6.6576544668350834e-06	0.007258599624037743	5
+385	friends_align	aligned	google/electra-base-discriminator	##k > the old man	looked	{	10.397522926330566	8.84712028503418	3.0507952033076435e-05	0.024866323918104172	5
+386	friends_align	aligned	google/electra-base-discriminator	> the old man looked	back	##ision	10.434082984924316	8.956940650939941	2.9412734875222668e-05	0.006369926501065493	5
+387	friends_align	aligned	google/electra-base-discriminator	the old man looked back	at	rite	12.88527774810791	8.9625883102417	2.5350991563755088e-06	0.010886183939874172	5
+388	friends_align	aligned	google/electra-base-discriminator	old man looked back at	him	##azi	12.09007453918457	8.994746208190918	5.614971541945124e-06	0.006950417533516884	5
+389	friends_align	aligned	google/electra-base-discriminator	man looked back at him	in	##hab	11.382688522338867	9.049092292785645	1.1390984582249075e-05	0.005102880299091339	5
+390	friends_align	aligned	google/electra-base-discriminator	looked back at him in	surprise	arbor	8.387807846069336	9.0635986328125	0.00022762568551115692	0.00451279291883111	5
+391	friends_align	aligned	google/electra-base-discriminator	back at him in surprise	then	atheist	12.013949394226074	8.928679466247559	6.059098723198986e-06	0.016114095225930214	5
+392	friends_align	aligned	google/electra-base-discriminator	at him in surprise then	slowly	##xy	13.429717063903809	8.693499565124512	1.4707813988934504e-06	0.03150545805692673	5
+393	friends_align	aligned	google/electra-base-discriminator	him in surprise then slowly	stepped	brazil	11.161209106445312	8.960860252380371	1.4215061128197704e-05	0.004032872151583433	5
+394	friends_align	aligned	google/electra-base-discriminator	in surprise then slowly stepped	back	##top	10.446346282958984	8.925267219543457	2.9054250262561254e-05	0.0072918664664030075	5
+395	friends_align	aligned	google/electra-base-discriminator	surprise then slowly stepped back	off	##rval	12.413473129272461	9.035277366638184	4.0634695324115455e-06	0.007700818590819836	5
+396	friends_align	aligned	google/electra-base-discriminator	then slowly stepped back off	the	usc	10.254220008850098	9.018893241882324	3.520860627759248e-05	0.003966763615608215	5
+397	friends_align	aligned	google/electra-base-discriminator	slowly stepped back off the	sc	##ision	12.207368850708008	8.812952995300293	4.993523361918051e-06	0.017273951321840286	5
+398	friends_align	aligned	google/electra-base-discriminator	stepped back off the sc	##oot	##top	10.141006469726562	9.048736572265625	3.942909461329691e-05	0.006801464594900608	5
+399	friends_align	aligned	google/electra-base-discriminator	back off the scoot	##er	managerial	12.17251968383789	8.997950553894043	5.170614258531714e-06	0.010265686549246311	5
+400	friends_align	aligned	google/electra-base-discriminator	off the scooter	chandler	solidarity	13.666357040405273	8.867576599121094	1.160851070380886e-06	0.00666444655507803	5
+401	friends_align	aligned	google/electra-base-discriminator	the scooter chandler	<	nolan	12.886150360107422	8.954757690429688	2.5328874926344724e-06	0.006193909794092178	5
+402	friends_align	aligned	google/electra-base-discriminator	scooter chandler <	un	atheist	11.994909286499023	8.915682792663574	6.175566795718623e-06	0.009377175942063332	5
+403	friends_align	aligned	google/electra-base-discriminator	##ooter chandler < un	##k	duc	11.950275421142578	9.005352020263672	6.457454674091423e-06	0.00526556046679616	5
+404	friends_align	aligned	google/electra-base-discriminator	##er chandler < unk	>	##vity	10.062655448913574	8.851753234863281	4.26426631747745e-05	0.010915740393102169	5
+405	friends_align	aligned	google/electra-base-discriminator	chandler < unk >	wildly	rumble	10.64365005493164	9.014265060424805	2.385180414421484e-05	0.008105929009616375	5
+406	friends_align	aligned	google/electra-base-discriminator	< unk > wildly	to	{	10.912389755249023	8.929464340209961	1.8230952264275402e-05	0.01036400068551302	5
+407	friends_align	aligned	google/electra-base-discriminator	unk > wildly to	monica	##ption	12.412273406982422	9.00698471069336	4.068346697749803e-06	0.007956193760037422	5
+408	friends_align	aligned	google/electra-base-discriminator	##k > wildly to monica	who	##hab	11.068016052246094	8.878156661987305	1.5603483916493133e-05	0.012330683879554272	5
+409	friends_align	aligned	google/electra-base-discriminator	> wildly to monica who	hopped	##ood	12.311245918273926	8.892610549926758	4.50084189651534e-06	0.006245574448257685	5
+410	friends_align	aligned	google/electra-base-discriminator	wildly to monica who hopped	on	tobacco	11.785163879394531	8.84521770477295	7.616725270054303e-06	0.009451866149902344	5
+411	friends_align	aligned	google/electra-base-discriminator	to monica who hopped on	the	tugging	9.682317733764648	8.941505432128906	6.237681373022497e-05	0.014471244998276234	5
+412	friends_align	aligned	google/electra-base-discriminator	monica who hopped on the	back	##ision	10.387491226196289	8.941650390625	3.081552858930081e-05	0.012671997770667076	5
+413	friends_align	aligned	google/electra-base-discriminator	who hopped on the back	of	##phonic	12.96451187133789	8.911311149597168	2.341983645237633e-06	0.007289152126759291	5
+414	friends_align	aligned	google/electra-base-discriminator	hopped on the back of	the	##vot	10.639583587646484	8.984137535095215	2.394902185187675e-05	0.01042032241821289	5
+415	friends_align	aligned	google/electra-base-discriminator	on the back of the	sc	{	9.702804565429688	8.91033935546875	6.11118448432535e-05	0.014795267954468727	5
+416	friends_align	aligned	google/electra-base-discriminator	the back of the sc	##oot	genetically	12.454174041748047	8.94595718383789	3.9014025787764695e-06	0.003481202758848667	5
+417	friends_align	aligned	google/electra-base-discriminator	back of the scoot	##er	##carriage	13.309619903564453	8.819330215454102	1.658461769693531e-06	0.01521552074700594	5
+418	friends_align	aligned	google/electra-base-discriminator	of the scooter	while	rumble	12.754234313964844	8.842382431030273	2.890057658078149e-06	0.008749973960220814	5
+419	friends_align	aligned	google/electra-base-discriminator	the scooter while	chandler	##rling	11.485555648803711	8.871942520141602	1.0277479304932058e-05	0.004739727824926376	5
+420	friends_align	aligned	google/electra-base-discriminator	scooter while chandler	took	promoters	10.84412670135498	8.869385719299316	1.9518916815286502e-05	0.009901096113026142	5
+421	friends_align	aligned	google/electra-base-discriminator	##ooter while chandler took	the	##avs	10.717042922973633	8.864320755004883	2.2163951143738814e-05	0.006959789432585239	5
+422	friends_align	aligned	google/electra-base-discriminator	##er while chandler took the	wheel	##ision	12.711296081542969	8.693684577941895	3.0168532703100936e-06	0.02043551206588745	5
+423	friends_align	aligned	google/electra-base-discriminator	while chandler took the wheel	and	##top	10.110410690307617	8.964600563049316	4.065413668286055e-05	0.00868656113743782	5
+424	friends_align	aligned	google/electra-base-discriminator	chandler took the wheel and	accelerated	##ision	10.08220386505127	8.83261775970459	4.181715485174209e-05	0.013296596705913544	5
+425	friends_align	aligned	google/electra-base-discriminator	took the wheel and accelerated	down	##arns	12.606054306030273	8.830881118774414	3.3516607800265774e-06	0.0074236528016626835	5
+426	friends_align	aligned	google/electra-base-discriminator	the wheel and accelerated down	the	##top	9.59695053100586	8.944034576416016	6.79355944157578e-05	0.009499406442046165	5
+427	friends_align	aligned	google/electra-base-discriminator	wheel and accelerated down the	concourse	##nad	10.518975257873535	8.831700325012207	2.7018864784622565e-05	0.013485117815434933	5
+428	friends_align	aligned	google/electra-base-discriminator	and accelerated down the concourse	weaving	atheist	11.298654556274414	8.930831909179688	1.2389585208438803e-05	0.007051645778119564	5
+429	friends_align	aligned	google/electra-base-discriminator	accelerated down the concourse weaving	between	`	14.4307861328125	8.970555305480957	5.404920671026048e-07	0.007533618248999119	5
+430	friends_align	aligned	google/electra-base-discriminator	down the concourse weaving between	passengers	##carriage	10.606399536132812	9.00510311126709	2.4757076971582137e-05	0.0075773028656840324	5
+431	friends_align	aligned	google/electra-base-discriminator	the concourse weaving between passengers	and	##aster	10.92292308807373	9.04781436920166	1.8039931092062034e-05	0.003119590226560831	5
+432	friends_align	aligned	google/electra-base-discriminator	concourse weaving between passengers and	luggage	##ision	8.78843879699707	8.799124717712402	0.0001524857507320121	0.01333962008357048	5
+433	friends_align	aligned	google/electra-base-discriminator	weaving between passengers and luggage	they	magna	10.810701370239258	8.933366775512695	2.018237137235701e-05	0.012158180586993694	5
+434	friends_align	aligned	google/electra-base-discriminator	between passengers and luggage they	sc	orlando	12.768228530883789	9.027976989746094	2.84989368992683e-06	0.006308801006525755	5
+435	friends_align	aligned	google/electra-base-discriminator	passengers and luggage they sc	##ree	droplets	9.719633102416992	8.939316749572754	6.009206845192239e-05	0.004594347905367613	5
+436	friends_align	aligned	google/electra-base-discriminator	and luggage they scree	##ched	orlando	11.927925109863281	8.927502632141113	6.603404926863732e-06	0.009841842576861382	5
+437	friends_align	aligned	google/electra-base-discriminator	luggage they screeched	to	##llar	10.950775146484375	8.950589179992676	1.754440563672688e-05	0.006256089545786381	5
+438	friends_align	aligned	google/electra-base-discriminator	they screeched to	the	axis	10.379003524780273	8.995243072509766	3.107819065917283e-05	0.007687373086810112	5
+439	friends_align	aligned	google/electra-base-discriminator	screeched to the	gate	##olar	10.862857818603516	8.893841743469238	1.9156705093337223e-05	0.006212848704308271	5
+440	friends_align	aligned	google/electra-base-discriminator	##reeched to the gate	just	##rika	9.235252380371094	8.971321105957031	9.75395887508057e-05	0.010360503569245338	5
+441	friends_align	aligned	google/electra-base-discriminator	##ched to the gate just	before	tobacco	12.013900756835938	8.930632591247559	6.0593961279664654e-06	0.01388588733971119	5
+442	friends_align	aligned	google/electra-base-discriminator	to the gate just before	it	##top	10.63162612915039	8.859220504760742	2.4140357709256932e-05	0.00975885335355997	5
+443	friends_align	aligned	google/electra-base-discriminator	the gate just before it	closed	atheist	8.446195602416992	8.87600326538086	0.0002147157647414133	0.01378365233540535	5
+444	friends_align	aligned	google/electra-base-discriminator	gate just before it closed	and	##top	9.693243026733398	9.014459609985352	6.169902189867571e-05	0.0062996987253427505	5
+445	friends_align	aligned	google/electra-base-discriminator	just before it closed and	hurried	##ision	9.850574493408203	8.701595306396484	5.271690315566957e-05	0.016896620392799377	5
+446	friends_align	aligned	google/electra-base-discriminator	before it closed and hurried	down	atheist	14.151151657104492	8.922554016113281	7.148800591494364e-07	0.010618497617542744	5
+447	friends_align	aligned	google/electra-base-discriminator	it closed and hurried down	the	##top	10.121681213378906	9.025823593139648	4.019850166514516e-05	0.004639501217752695	5
+448	friends_align	aligned	google/electra-base-discriminator	closed and hurried down the	<	##ision	11.128459930419922	8.775012969970703	1.4688295777887106e-05	0.012823229655623436	5
+449	friends_align	aligned	google/electra-base-discriminator	and hurried down the <	un	swan	12.36385726928711	8.948319435119629	4.2701681195467245e-06	0.011308105662465096	5
+450	friends_align	aligned	google/electra-base-discriminator	hurried down the < un	##k	##son	10.249956130981445	8.94613265991211	3.535906216711737e-05	0.008793788962066174	5
+451	friends_align	aligned	google/electra-base-discriminator	down the < unk	>	##tto	10.865262985229492	9.019974708557129	1.911068284243811e-05	0.007685504853725433	5
+452	friends_align	aligned	google/electra-base-discriminator	the < unk >	they	barn	12.123743057250977	8.861618041992188	5.4290667321765795e-06	0.008125947788357735	5
+453	friends_align	aligned	google/electra-base-discriminator	< unk > they	finally	{	7.192919731140137	8.817375183105469	0.0007518906495533884	0.018478745594620705	5
+454	friends_align	aligned	google/electra-base-discriminator	unk > they finally	collapsed	##ood	12.10513687133789	8.79886531829834	5.531031092687044e-06	0.013459545560181141	5
+455	friends_align	aligned	google/electra-base-discriminator	##k > they finally collapsed	into	nomadic	13.325566291809082	8.903448104858398	1.6322252349709743e-06	0.009985447861254215	5
+456	friends_align	aligned	google/electra-base-discriminator	> they finally collapsed into	their	##vity	11.491203308105469	8.85152816772461	1.021959997160593e-05	0.014129240065813065	5
+457	friends_align	aligned	google/electra-base-discriminator	they finally collapsed into their	seats	shandong	9.318622589111328	8.889171600341797	8.97374702617526e-05	0.008440880104899406	5
+458	friends_align	aligned	google/electra-base-discriminator	finally collapsed into their seats	on	##lbert	11.586999893188477	8.99370288848877	9.286030035582371e-06	0.006875432096421719	5
+459	friends_align	aligned	google/electra-base-discriminator	collapsed into their seats on	the	khan	11.261213302612305	9.036316871643066	1.2862256880907807e-05	0.004383643623441458	5
+460	friends_align	aligned	google/electra-base-discriminator	into their seats on the	plane	kwan	9.392507553100586	8.766630172729492	8.334615267813206e-05	0.01196290273219347	5
+461	friends_align	aligned	google/electra-base-discriminator	their seats on the plane	next	atheist	14.626506805419922	8.881247520446777	4.4441537738748593e-07	0.013984345830976963	5
+462	friends_align	aligned	google/electra-base-discriminator	seats on the plane next	time	##top	13.101602554321289	8.955745697021484	2.0419543034222443e-06	0.01306391041725874	5
+463	friends_align	aligned	google/electra-base-discriminator	on the plane next time	we	{	12.41183853149414	8.931406021118164	4.0701183934288565e-06	0.016989998519420624	5
+464	friends_align	aligned	google/electra-base-discriminator	the plane next time we	'	axis	10.53041934967041	9.017570495605469	2.671142647159286e-05	0.009162329137325287	5
+465	friends_align	aligned	google/electra-base-discriminator	plane next time we '	re	managerial	11.392477989196777	8.860312461853027	1.1280014405201655e-05	0.011270584538578987	5
+466	friends_align	aligned	google/electra-base-discriminator	next time we're	going	##ntation	11.037405967712402	8.826521873474121	1.6088501070044003e-05	0.007584339007735252	5
+467	friends_align	aligned	google/electra-base-discriminator	time we're going	to	##top	11.170289039611816	8.87585735321045	1.4086563169257715e-05	0.010710510425269604	5
+468	friends_align	aligned	google/electra-base-discriminator	we're going to	the	bois	10.158609390258789	8.924842834472656	3.8741094613214955e-05	0.00754837179556489	5
+469	friends_align	aligned	google/electra-base-discriminator	' re going to the	airport	atheist	12.444031715393066	8.982563018798828	3.941174782085e-06	0.008623617701232433	5
+470	friends_align	aligned	google/electra-base-discriminator	re going to the airport	my	##aster	11.358434677124023	8.95512866973877	1.1670636922644917e-05	0.010790838859975338	5
+471	friends_align	aligned	google/electra-base-discriminator	going to the airport my	way	axis	7.428412437438965	8.867557525634766	0.0005941299605183303	0.006367416586726904	5
+472	friends_align	aligned	google/electra-base-discriminator	to the airport my way	said	`	11.699457168579102	8.833922386169434	8.298327884403989e-06	0.010886076837778091	5
+473	friends_align	aligned	google/electra-base-discriminator	the airport my way said	monica	robes	10.446737289428711	9.022747039794922	2.9042867026873864e-05	0.004287512041628361	5
+474	friends_align	aligned	google/electra-base-discriminator	airport my way said monica	wiping	##top	16.345287322998047	8.994161605834961	7.967688731014277e-08	0.005597895011305809	5
+475	friends_align	aligned	google/electra-base-discriminator	my way said monica wiping	her	##grants	10.180160522460938	9.030364990234375	3.791510607698001e-05	0.007510804571211338	5
+476	friends_align	aligned	google/electra-base-discriminator	way said monica wiping her	forehead	##ship	10.513469696044922	9.005318641662598	2.716804010560736e-05	0.004531092941761017	5
+477	friends_align	aligned	google/electra-base-discriminator	said monica wiping her forehead	four	##top	13.13018798828125	8.941061019897461	1.984412165256799e-06	0.008352930657565594	5
+478	friends_align	aligned	google/electra-base-discriminator	monica wiping her forehead four	hours	##ntation	13.583365440368652	8.823026657104492	1.2613028275154647e-06	0.015169594436883926	5
+479	friends_align	aligned	google/electra-base-discriminator	wiping her forehead four hours	early	dominion	9.888372421264648	8.983575820922852	5.0761474994942546e-05	0.004437788389623165	5
+480	friends_align	aligned	google/electra-base-discriminator	her forehead four hours early	chandler	orlando	13.571252822875977	8.958909034729004	1.2766739700964536e-06	0.004947717767208815	5
+481	friends_align	aligned	google/electra-base-discriminator	forehead four hours early chandler	closed	##grant	9.631648063659668	8.978752136230469	6.561882037203759e-05	0.00485299713909626	5
+482	friends_align	aligned	google/electra-base-discriminator	four hours early chandler closed	his	kiev	11.25404167175293	8.938417434692383	1.2954831618117169e-05	0.005152309779077768	5
+483	friends_align	aligned	google/electra-base-discriminator	hours early chandler closed his	eyes	##carriage	13.856542587280273	8.93906307220459	9.597979442332871e-07	0.005354168359190226	5
+484	friends_align	aligned	google/electra-base-discriminator	early chandler closed his eyes	and	##carriage	9.938848495483398	9.036467552185059	4.826286749448627e-05	0.00356532190926373	5
+485	friends_align	aligned	google/electra-base-discriminator	chandler closed his eyes and	leaned	##ision	9.519525527954102	8.786311149597168	7.340450974879786e-05	0.017634538933634758	5
+486	friends_align	aligned	google/electra-base-discriminator	closed his eyes and leaned	his	##ust	11.937772750854492	8.842414855957031	6.5386921050958335e-06	0.01179883349686861	5
+487	friends_align	aligned	google/electra-base-discriminator	his eyes and leaned his	head	##ision	12.247360229492188	8.839994430541992	4.797763722308446e-06	0.008252703584730625	5
+488	friends_align	aligned	google/electra-base-discriminator	eyes and leaned his head	back	##top	10.884014129638672	9.077655792236328	1.8755667042569257e-05	0.003608381375670433	5
+489	friends_align	aligned	google/electra-base-discriminator	and leaned his head back	on	orlando	12.370698928833008	8.764387130737305	4.241051556164166e-06	0.040457095950841904	5
+490	friends_align	aligned	google/electra-base-discriminator	leaned his head back on	the	##carriage	9.96401596069336	8.943811416625977	4.706332038040273e-05	0.006707408931106329	5
+491	friends_align	aligned	google/electra-base-discriminator	his head back on the	seat	civilization	10.913434982299805	8.905579566955566	1.8211912902188487e-05	0.007441264111548662	5
+492	friends_align	aligned	google/electra-base-discriminator	head back on the seat	and	##lbert	10.397258758544922	9.028985977172852	3.0516037440975197e-05	0.004719146993011236	5
+493	friends_align	aligned	google/electra-base-discriminator	back on the seat and	smiled	##carriage	15.260818481445312	8.768972396850586	2.3567355356135522e-07	0.014712234027683735	5
+494	friends_align	aligned	google/electra-base-discriminator	on the seat and smiled	whatever	##ision	8.489319801330566	8.834120750427246	0.00020565313752740622	0.008438646793365479	5
+495	friends_align	aligned	google/electra-base-discriminator	the seat and smiled whatever	you	sliced	11.335685729980469	8.963445663452148	1.193917341879569e-05	0.005167099647223949	5
+496	friends_align	aligned	google/electra-base-discriminator	seat and smiled whatever you	want	avenue	11.593046188354492	8.86607551574707	9.230044270225335e-06	0.006131749600172043	5
+497	friends_align	aligned	google/electra-base-discriminator	and smiled whatever you want	right	crab	10.68239974975586	8.972177505493164	2.2945252567296848e-05	0.008159230463206768	5
+498	friends_align	aligned	google/electra-base-discriminator	smiled whatever you want right	now	##top	11.412578582763672	8.921464920043945	1.105554292735178e-05	0.006310746539384127	5
+499	friends_align	aligned	google/electra-base-discriminator	whatever you want right now	all	axis	10.072746276855469	8.965005874633789	4.221449853503145e-05	0.005853912327438593	5
+500	friends_align	aligned	google/electra-base-discriminator	you want right now all	i	##vity	11.111381530761719	8.992919921875	1.4941288100089878e-05	0.007594549097120762	5
+501	friends_align	aligned	google/electra-base-discriminator	want right now all i	can	##ood	11.563762664794922	8.914664268493652	9.50433241087012e-06	0.010568727739155293	5
+502	friends_align	aligned	google/electra-base-discriminator	right now all i can	think	##olar	11.915804862976074	8.81333065032959	6.6839279497799e-06	0.012959413230419159	5
+503	friends_align	aligned	google/electra-base-discriminator	now all i can think	is	{	11.234619140625	8.967242240905762	1.3208905329520348e-05	0.007106712553650141	5
+504	friends_align	aligned	google/electra-base-discriminator	all i can think is	bermuda	##oons	14.26352596282959	8.829644203186035	6.388947895175079e-07	0.015148197300732136	5
+505	friends_align	aligned	google/electra-base-discriminator	i can think is bermuda	baha	solidarity	13.442723274230957	8.925289154052734	1.4517755744236638e-06	0.009363067336380482	5
+506	friends_align	aligned	google/electra-base-discriminator	can think is bermuda baha	##ma	##ood	11.260908126831055	8.962162971496582	1.2866183169535361e-05	0.007610877975821495	5
+507	friends_align	aligned	google/electra-base-discriminator	think is bermuda bahama	come	##top	13.486064910888672	8.933576583862305	1.3901975535191013e-06	0.01075788214802742	5
+508	friends_align	aligned	google/electra-base-discriminator	is bermuda bahama come	on	##ood	11.076078414916992	8.975138664245605	1.5478193745366298e-05	0.006184317171573639	5
+509	friends_align	aligned	google/electra-base-discriminator	bermuda bahama come on	pretty	sorority	11.629106521606445	8.939712524414062	8.903135494620074e-06	0.009595619514584541	5
+510	friends_align	aligned	google/electra-base-discriminator	bahama come on pretty	mama	competitors	10.64532470703125	9.000696182250977	2.381189915467985e-05	0.0038116376381367445	5
+511	friends_align	aligned	google/electra-base-discriminator	##ma come on pretty mama	monica	departing	12.521848678588867	8.974963188171387	3.646112872957019e-06	0.023784136399626732	5
+512	friends_align	aligned	google/electra-base-discriminator	come on pretty mama monica	laughed	columbus	14.418756484985352	8.934910774230957	5.470326982504048e-07	0.008384657092392445	5

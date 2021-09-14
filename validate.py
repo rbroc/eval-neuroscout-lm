@@ -21,7 +21,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--gpu', type=int, default=0,
                     help='Which gpu to use')
 parser.add_argument('--ctx-length', nargs='+', default=None,
-                    help='Context sizes')
+                    help='Context sizes', type=int)
 
 transformers.logging.set_verbosity(50)
 
@@ -55,7 +55,7 @@ model_parameters = list(zip(model_classes,
                             tokenizer_classes))
 parameters = list(product(dataset_files, 
                           model_parameters))
-parameters = [(i[0], *i[1], i[2]) for i in parameters]
+parameters = [(i[0], *i[1]) for i in parameters]
     
     
 
@@ -96,7 +96,7 @@ def _validate(datafile,
             engine = StridingMLM(context_length=ctx_length)
         else:
             engine = StridingForwardLM(context_length=ctx_length)
-        result = engine.run(data, tokenizer, model, model_id)
+        result = engine.run(data, tokenizer, model, model_id, gpu)
         result.to_csv(log_path, sep='\t')
         print(f'{n_files+1} out of {len(parameters)}')
         return result

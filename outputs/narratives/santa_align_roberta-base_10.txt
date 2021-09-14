@@ -1,533 +1,532 @@
 	dataset	type	model	context	target	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
 0	santa_align	aligned	roberta-base	<s>denny's it's always open proclaimed sc	ott	</s>	16.31423568725586	0.0025543076917529106	8.218972169515837e-08	0.999832272529602	10
-1	santa_align	aligned	roberta-base	denny's it's always open proclaimed sc<mask>	 as	</s>	12.37862491607666	0.06413065642118454	4.207573510939255e-06	0.9912376403808594	10
-2	santa_align	aligned	roberta-base	enny's it's always open proclaimed sc<mask><mask>	 he	</s>	12.780533790588379	0.05902484059333801	2.815041170833865e-06	0.9919388890266418	10
-3	santa_align	aligned	roberta-base	's it's always open proclaimed sc<mask><mask><mask>	 opened	</s>	18.827667236328125	0.006957980338484049	6.656535767035621e-09	0.9995276927947998	10
-4	santa_align	aligned	roberta-base	 it's always open proclaimed sc<mask><mask><mask><mask>	 the	</s>	13.678510665893555	0.014814120717346668	1.1468274578874116e-06	0.9990129470825195	10
-5	santa_align	aligned	roberta-base	's always open proclaimed sc<mask><mask><mask><mask><mask>	 door	</s>	15.426714897155762	0.17392224073410034	1.9964707576036744e-07	0.9707339406013489	10
-6	santa_align	aligned	roberta-base	 always open proclaimed sc<mask><mask><mask><mask><mask><mask>	 to	</s>	8.8126220703125	0.18339413404464722	0.00014884246047586203	0.9733404517173767	10
-7	santa_align	aligned	roberta-base	 open proclaimed sc<mask><mask><mask><mask><mask><mask><mask>	 the	</s>	9.051019668579102	0.2270326167345047	0.00011727136734407395	0.9732918739318848	10
-8	santa_align	aligned	roberta-base	 proclaimed sc<mask><mask><mask><mask><mask><mask><mask><mask>	 restaurant	</s>	17.718975067138672	0.23833385109901428	2.0171921022438255e-08	0.969518780708313	10
-9	santa_align	aligned	roberta-base	 sc<mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.816290855407715	0.5244138240814209	2.0069875972694717e-05	0.9393989443778992	10
-10	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 son	</s>	13.214884757995605	0.5422558784484863	1.8232597085443558e-06	0.9379039406776428	10
-11	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-12	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-13	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-14	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-15	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 shuff	</s>	17.306251525878906	0.5422558784484863	3.047828300850597e-08	0.9379039406776428	10
-16	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	led	</s>	12.89886474609375	0.5422558784484863	2.5008882857946446e-06	0.9379039406776428	10
-17	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 through	</s>	12.318552017211914	0.5422558784484863	4.468079168873373e-06	0.9379039406776428	10
-18	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-19	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 door	</s>	13.909178733825684	0.5422558784484863	9.105849585466785e-07	0.9379039406776428	10
-20	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 kicking	</s>	18.682737350463867	0.5422558784484863	7.694675119296335e-09	0.9379039406776428	10
-21	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 snow	</s>	15.46553897857666	0.5422558784484863	1.920444816505551e-07	0.9379039406776428	10
-22	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 onto	</s>	14.169696807861328	0.5422558784484863	7.017443408585677e-07	0.9379039406776428	10
-23	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-24	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-25	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-26	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 carpet	</s>	17.077926635742188	0.5422558784484863	3.829576655789424e-08	0.9379039406776428	10
-27	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-28	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 don	</s>	13.116007804870605	0.5422558784484863	2.012751792790368e-06	0.9379039406776428	10
-29	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-30	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 want	</s>	13.929447174072266	0.5422558784484863	8.923146310735319e-07	0.9379039406776428	10
-31	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-32	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 eat	</s>	14.56123161315918	0.5422558784484863	4.743921806493745e-07	0.9379039406776428	10
-33	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 here	</s>	11.974620819091797	0.5422558784484863	6.302143901848467e-06	0.9379039406776428	10
-34	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-35	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 m	</s>	14.030662536621094	0.5422558784484863	8.064189955803158e-07	0.9379039406776428	10
-36	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	umbled	</s>	15.258042335510254	0.5422558784484863	2.3632871659629018e-07	0.9379039406776428	10
-37	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-38	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-39	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-40	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 entered	</s>	15.491684913635254	0.5422558784484863	1.8708837501435482e-07	0.9379039406776428	10
-41	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 behind	</s>	14.149131774902344	0.5422558784484863	7.163251893871347e-07	0.9379039406776428	10
-42	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-43	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-44	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 wasn	</s>	14.654155731201172	0.5422558784484863	4.3229587731730135e-07	0.9379039406776428	10
-45	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-46	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 how	</s>	12.175817489624023	0.5422558784484863	5.153588517714525e-06	0.9379039406776428	10
-47	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-48	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 had	</s>	11.50749397277832	0.5422558784484863	1.0054463928099722e-05	0.9379039406776428	10
-49	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pictured	</s>	15.399730682373047	0.5422558784484863	2.0510772458237625e-07	0.9379039406776428	10
-50	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 spending	</s>	16.167871475219727	0.5422558784484863	9.514428001011765e-08	0.9379039406776428	10
-51	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-52	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 christ	</s>	15.122339248657227	0.5422558784484863	2.7067713403994276e-07	0.9379039406776428	10
-53	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	mas	</s>	15.856797218322754	0.5422558784484863	1.2986153308247594e-07	0.9379039406776428	10
-54	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 eve	</s>	16.381065368652344	0.5422558784484863	7.68765247016745e-08	0.9379039406776428	10
-55	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-56	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 are	</s>	11.257062911987305	0.5422558784484863	1.2915753359266091e-05	0.9379039406776428	10
-57	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-58	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 talking	</s>	15.424530982971191	0.5422558784484863	2.0008354795209016e-07	0.9379039406776428	10
-59	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 about	</s>	11.886305809020996	0.5422558784484863	6.8840345193166286e-06	0.9379039406776428	10
-60	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 everybody	</s>	15.098173141479492	0.5422558784484863	2.7729805651688366e-07	0.9379039406776428	10
-61	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 likes	</s>	15.9702787399292	0.5422558784484863	1.1593007087640217e-07	0.9379039406776428	10
-62	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 d	</s>	13.226523399353027	0.5422558784484863	1.8021625010078424e-06	0.9379039406776428	10
-63	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	enny	</s>	16.10175132751465	0.5422558784484863	1.0164788477595721e-07	0.9379039406776428	10
-64	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-65	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-66	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-67	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 an	</s>	11.706930160522461	0.5422558784484863	8.236541361839045e-06	0.9379039406776428	10
-68	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 americ	</s>	16.158369064331055	0.5422558784484863	9.605269468693223e-08	0.9379039406776428	10
-69	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	an	</s>	11.69753646850586	0.5422558784484863	8.31427769298898e-06	0.9379039406776428	10
-70	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 institution	</s>	16.51828384399414	0.5422558784484863	6.701939270215007e-08	0.9379039406776428	10
-71	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-72	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 they	</s>	11.10830020904541	0.5422558784484863	1.4987409485911485e-05	0.9379039406776428	10
-73	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 approached	</s>	14.900684356689453	0.5422558784484863	3.3784309039219806e-07	0.9379039406776428	10
-74	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-75	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 host	</s>	13.562113761901855	0.5422558784484863	1.2883946283182013e-06	0.9379039406776428	10
-76	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ess	</s>	12.903299331665039	0.5422558784484863	2.4898224637581734e-06	0.9379039406776428	10
-77	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 stand	</s>	14.450709342956543	0.5422558784484863	5.298302312439773e-07	0.9379039406776428	10
-78	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 they	</s>	11.10830020904541	0.5422558784484863	1.4987409485911485e-05	0.9379039406776428	10
-79	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 heard	</s>	13.963188171386719	0.5422558784484863	8.62709384819027e-07	0.9379039406776428	10
-80	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-81	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 loud	</s>	15.931608200073242	0.5422558784484863	1.205009567684101e-07	0.9379039406776428	10
-82	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 comm	</s>	15.48388671875	0.5422558784484863	1.8855303096643183e-07	0.9379039406776428	10
-83	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	otion	</s>	17.83852767944336	0.5422558784484863	1.789888237624382e-08	0.9379039406776428	10
-84	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 from	</s>	9.948819160461426	0.5422558784484863	4.7784033085918054e-05	0.9379039406776428	10
-85	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 inside	</s>	15.206411361694336	0.5422558784484863	2.48851080186796e-07	0.9379039406776428	10
-86	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-87	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 restaurant	</s>	16.946043014526367	0.5422558784484863	4.369453066033202e-08	0.9379039406776428	10
-88	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-89	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 huge	</s>	16.09130096435547	0.5422558784484863	1.027157026101122e-07	0.9379039406776428	10
-90	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 table	</s>	15.358696937561035	0.5422558784484863	2.1369912417412706e-07	0.9379039406776428	10
-91	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-92	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 j	</s>	14.940088272094727	0.5422558784484863	3.247896529501304e-07	0.9379039406776428	10
-93	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	apan	</s>	16.43187713623047	0.5422558784484863	7.306788063488057e-08	0.9379039406776428	10
-94	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ese	</s>	15.370933532714844	0.5422558784484863	2.1110011516611848e-07	0.9379039406776428	10
-95	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 businessmen	</s>	19.18771743774414	0.5422558784484863	4.643872397736004e-09	0.9379039406776428	10
-96	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 were	</s>	12.041485786437988	0.5422558784484863	5.894530204386683e-06	0.9379039406776428	10
-97	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-98	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-99	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-100	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-101	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-102	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 one	</s>	10.9601411819458	0.5422558784484863	1.7380858480464667e-05	0.9379039406776428	10
-103	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 another	</s>	11.930874824523926	0.5422558784484863	6.5839562921610195e-06	0.9379039406776428	10
-104	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-105	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 erupt	</s>	17.543134689331055	0.5422558784484863	2.4049908731171854e-08	0.9379039406776428	10
-106	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ing	</s>	10.450616836547852	0.5422558784484863	2.893042801588308e-05	0.9379039406776428	10
-107	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-108	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-109	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-110	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-111	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 laughter	</s>	17.180288314819336	0.5422558784484863	3.4569705320564026e-08	0.9379039406776428	10
-112	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 har	</s>	18.59321403503418	0.5422558784484863	8.41530400919055e-09	0.9379039406776428	10
-113	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ried	</s>	14.831849098205566	0.5422558784484863	3.619176993652218e-07	0.9379039406776428	10
-114	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 wait	</s>	13.676441192626953	0.5422558784484863	1.1492039675431442e-06	0.9379039406776428	10
-115	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	resses	</s>	15.974481582641602	0.5422558784484863	1.154438677986036e-07	0.9379039406776428	10
-116	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 we	</s>	11.202885627746582	0.5422558784484863	1.363479532301426e-05	0.9379039406776428	10
-117	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	aved	</s>	16.005611419677734	0.5422558784484863	1.1190547866135603e-07	0.9379039406776428	10
-118	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 between	</s>	11.404220581054688	0.5422558784484863	1.1148334124300163e-05	0.9379039406776428	10
-119	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 them	</s>	10.198320388793945	0.5422558784484863	3.7232806789688766e-05	0.9379039406776428	10
-120	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-121	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pour	</s>	15.10427188873291	0.5422558784484863	2.756119670266344e-07	0.9379039406776428	10
-122	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ref	</s>	15.570542335510254	0.5422558784484863	1.7290177822815167e-07	0.9379039406776428	10
-123	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ills	</s>	16.13054847717285	0.5422558784484863	9.876245599116373e-08	0.9379039406776428	10
-124	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-125	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 coffee	</s>	17.27861976623535	0.5422558784484863	3.133219905748774e-08	0.9379039406776428	10
-126	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-127	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 host	</s>	13.562113761901855	0.5422558784484863	1.2883946283182013e-06	0.9379039406776428	10
-128	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ess	</s>	12.903299331665039	0.5422558784484863	2.4898224637581734e-06	0.9379039406776428	10
-129	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 hurried	</s>	17.19427490234375	0.5422558784484863	3.408955251416046e-08	0.9379039406776428	10
-130	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 up	</s>	10.955738067626953	0.5422558784484863	1.745755798765458e-05	0.9379039406776428	10
-131	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-132	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 meet	</s>	15.497867584228516	0.5422558784484863	1.8593522099763504e-07	0.9379039406776428	10
-133	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 them	</s>	10.198320388793945	0.5422558784484863	3.7232806789688766e-05	0.9379039406776428	10
-134	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 are	</s>	11.257062911987305	0.5422558784484863	1.2915753359266091e-05	0.9379039406776428	10
-135	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-136	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-137	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-138	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-139	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 no	</s>	11.415931701660156	0.5422558784484863	1.1018536497431342e-05	0.9379039406776428	10
-140	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 said	</s>	10.154407501220703	0.5422558784484863	3.890423977281898e-05	0.9379039406776428	10
-141	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-142	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-143	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 dad	</s>	15.449982643127441	0.5422558784484863	1.9505534964991966e-07	0.9379039406776428	10
-144	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 burnt	</s>	17.492107391357422	0.5422558784484863	2.530896203722932e-08	0.9379039406776428	10
-145	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-146	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 turkey	</s>	17.63572120666504	0.5422558784484863	2.1923183268768298e-08	0.9379039406776428	10
-147	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 oh	</s>	16.259647369384766	0.5422558784484863	8.680104457425841e-08	0.9379039406776428	10
-148	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 yeah	</s>	14.955608367919922	0.5422558784484863	3.197878015726019e-07	0.9379039406776428	10
-149	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 this	</s>	11.304128646850586	0.5422558784484863	1.2321946996962652e-05	0.9379039406776428	10
-150	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 way	</s>	11.153897285461426	0.5422558784484863	1.4319372894533444e-05	0.9379039406776428	10
-151	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 come	</s>	12.084260940551758	0.5422558784484863	5.647707894240739e-06	0.9379039406776428	10
-152	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 said	</s>	10.154407501220703	0.5422558784484863	3.890423977281898e-05	0.9379039406776428	10
-153	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-154	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 host	</s>	13.562113761901855	0.5422558784484863	1.2883946283182013e-06	0.9379039406776428	10
-155	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ess	</s>	12.903299331665039	0.5422558784484863	2.4898224637581734e-06	0.9379039406776428	10
-156	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-157	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-158	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 them	</s>	10.198320388793945	0.5422558784484863	3.7232806789688766e-05	0.9379039406776428	10
-159	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 toward	</s>	13.878785133361816	0.5422558784484863	9.386858437210321e-07	0.9379039406776428	10
-160	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-161	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 back	</s>	11.665231704711914	0.5422558784484863	8.587254342273809e-06	0.9379039406776428	10
-162	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 room	</s>	14.579362869262695	0.5422558784484863	4.6586833946093975e-07	0.9379039406776428	10
-163	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 several	</s>	13.847719192504883	0.5422558784484863	9.683046755526448e-07	0.9379039406776428	10
-164	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 other	</s>	11.509927749633789	0.5422558784484863	1.0030023076978978e-05	0.9379039406776428	10
-165	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 families	</s>	16.87708854675293	0.5422558784484863	4.6813770637754715e-08	0.9379039406776428	10
-166	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sat	</s>	15.593993186950684	0.5422558784484863	1.6889426035504584e-07	0.9379039406776428	10
-167	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 quietly	</s>	16.159337997436523	0.5422558784484863	9.595966332653916e-08	0.9379039406776428	10
-168	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-169	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 their	</s>	12.204792022705078	0.5422558784484863	5.006407718610717e-06	0.9379039406776428	10
-170	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 booths	</s>	20.54682731628418	0.5422558784484863	1.1929612853123217e-09	0.9379039406776428	10
-171	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-172	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 one	</s>	10.9601411819458	0.5422558784484863	1.7380858480464667e-05	0.9379039406776428	10
-173	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-174	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-175	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fathers	</s>	18.421232223510742	0.5422558784484863	9.994488792131051e-09	0.9379039406776428	10
-176	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-177	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-178	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-179	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fresh	</s>	15.169827461242676	0.5422558784484863	2.5812357762333704e-07	0.9379039406776428	10
-180	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 band	</s>	14.592463493347168	0.5422558784484863	4.598049940796045e-07	0.9379039406776428	10
-181	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	age	</s>	13.801782608032227	0.5422558784484863	1.0138227253264631e-06	0.9379039406776428	10
-182	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-183	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-184	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 hand	</s>	14.22607707977295	0.5422558784484863	6.632744771195576e-07	0.9379039406776428	10
-185	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-186	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-187	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-188	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-189	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 nodded	</s>	17.017248153686523	0.5422558784484863	4.069144310392403e-08	0.9379039406776428	10
-190	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-191	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 each	</s>	12.846474647521973	0.5422558784484863	2.635402779560536e-06	0.9379039406776428	10
-192	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 other	</s>	11.509927749633789	0.5422558784484863	1.0030023076978978e-05	0.9379039406776428	10
-193	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-194	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-195	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 gesture	</s>	16.221887588500977	0.5422558784484863	9.014129176421193e-08	0.9379039406776428	10
-196	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-197	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 solidarity	</s>	18.499958038330078	0.5422558784484863	9.237838938247478e-09	0.9379039406776428	10
-198	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-199	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-200	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-201	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-202	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-203	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-204	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 took	</s>	13.218570709228516	0.5422558784484863	1.8165516166845919e-06	0.9379039406776428	10
-205	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 their	</s>	12.204792022705078	0.5422558784484863	5.006407718610717e-06	0.9379039406776428	10
-206	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 seats	</s>	17.244003295898438	0.5422558784484863	3.2435796271101935e-08	0.9379039406776428	10
-207	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-208	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 host	</s>	13.562113761901855	0.5422558784484863	1.2883946283182013e-06	0.9379039406776428	10
-209	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ess	</s>	12.903299331665039	0.5422558784484863	2.4898224637581734e-06	0.9379039406776428	10
-210	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 handed	</s>	14.434837341308594	0.5422558784484863	5.38306721864501e-07	0.9379039406776428	10
-211	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 them	</s>	10.198320388793945	0.5422558784484863	3.7232806789688766e-05	0.9379039406776428	10
-212	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 menus	</s>	20.392915725708008	0.5422558784484863	1.3914552843274919e-09	0.9379039406776428	10
-213	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 which	</s>	11.8621187210083	0.5422558784484863	7.052569344523363e-06	0.9379039406776428	10
-214	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-215	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-216	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-217	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-218	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 opened	</s>	13.742538452148438	0.5422558784484863	1.0757006521089352e-06	0.9379039406776428	10
-219	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-220	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 know	</s>	13.24267292022705	0.5422558784484863	1.7732921833157889e-06	0.9379039406776428	10
-221	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-222	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-223	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-224	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 real	</s>	14.674062728881836	0.5422558784484863	4.2377524778203224e-07	0.9379039406776428	10
-225	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 good	</s>	13.816163063049316	0.5422558784484863	9.993477760872338e-07	0.9379039406776428	10
-226	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cook	</s>	16.374786376953125	0.5422558784484863	7.736075247066765e-08	0.9379039406776428	10
-227	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-228	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 said	</s>	10.154407501220703	0.5422558784484863	3.890423977281898e-05	0.9379039406776428	10
-229	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-230	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-231	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-232	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 father	</s>	14.123997688293457	0.5422558784484863	7.345574886130635e-07	0.9379039406776428	10
-233	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 above	</s>	12.059310913085938	0.5422558784484863	5.7903907872969285e-06	0.9379039406776428	10
-234	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-235	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 menu	</s>	16.212749481201172	0.5422558784484863	9.09687969397055e-08	0.9379039406776428	10
-236	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-237	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-238	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 gave	</s>	13.767058372497559	0.5422558784484863	1.0496453342057066e-06	0.9379039406776428	10
-239	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-240	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sn	</s>	14.12063217163086	0.5422558784484863	7.370338153123157e-07	0.9379039406776428	10
-241	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ort	</s>	15.543498992919922	0.5422558784484863	1.7764141091447527e-07	0.9379039406776428	10
-242	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 at	</s>	8.660722732543945	0.5422558784484863	0.00017325906082987785	0.9379039406776428	10
-243	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-244	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 mention	</s>	14.738932609558105	0.5422558784484863	3.971576916228514e-07	0.9379039406776428	10
-245	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-246	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-247	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ex	</s>	14.804136276245117	0.5422558784484863	3.7208775438557495e-07	0.9379039406776428	10
-248	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 wife	</s>	14.341146469116211	0.5422558784484863	5.911794005442061e-07	0.9379039406776428	10
-249	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-250	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 new	</s>	13.255646705627441	0.5422558784484863	1.7504343077234807e-06	0.9379039406776428	10
-251	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 boyfriend	</s>	16.05270767211914	0.5422558784484863	1.0675722705855151e-07	0.9379039406776428	10
-252	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 yeah	</s>	14.955608367919922	0.5422558784484863	3.197878015726019e-07	0.9379039406776428	10
-253	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-254	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-255	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 should	</s>	14.728861808776855	0.5422558784484863	4.0117754451785004e-07	0.9379039406776428	10
-256	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 see	</s>	12.731642723083496	0.5422558784484863	2.9560915209003724e-06	0.9379039406776428	10
-257	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-258	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 walk	</s>	13.151872634887695	0.5422558784484863	1.941844175235019e-06	0.9379039406776428	10
-259	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-260	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 water	</s>	14.804741859436035	0.5422558784484863	3.7186248391662957e-07	0.9379039406776428	10
-261	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-262	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 don	</s>	13.116007804870605	0.5422558784484863	2.012751792790368e-06	0.9379039406776428	10
-263	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-264	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 like	</s>	11.257299423217773	0.5422558784484863	1.2912699276057538e-05	0.9379039406776428	10
-265	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-266	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 very	</s>	12.506587982177734	0.5422558784484863	3.70218322132132e-06	0.9379039406776428	10
-267	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 much	</s>	12.27164363861084	0.5422558784484863	4.6826635298202746e-06	0.9379039406776428	10
-268	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 do	</s>	12.24652099609375	0.5422558784484863	4.8017941480793525e-06	0.9379039406776428	10
-269	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-270	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 dad	</s>	15.449982643127441	0.5422558784484863	1.9505534964991966e-07	0.9379039406776428	10
-271	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-272	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 tall	</s>	16.32806396484375	0.5422558784484863	8.106100324312138e-08	0.9379039406776428	10
-273	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 waitress	</s>	19.198274612426758	0.5422558784484863	4.5951038529779e-09	0.9379039406776428	10
-274	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-275	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-276	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-277	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 hair	</s>	15.34888744354248	0.5422558784484863	2.1580571285539918e-07	0.9379039406776428	10
-278	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 approached	</s>	14.900684356689453	0.5422558784484863	3.3784309039219806e-07	0.9379039406776428	10
-279	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-280	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 table	</s>	15.358696937561035	0.5422558784484863	2.1369912417412706e-07	0.9379039406776428	10
-281	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-282	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 an	</s>	11.706930160522461	0.5422558784484863	8.236541361839045e-06	0.9379039406776428	10
-283	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 order	</s>	13.688627243041992	0.5422558784484863	1.1352846058798605e-06	0.9379039406776428	10
-284	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 pad	</s>	17.976600646972656	0.5422558784484863	1.5590554625077857e-08	0.9379039406776428	10
-285	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 coffee	</s>	17.27861976623535	0.5422558784484863	3.133219905748774e-08	0.9379039406776428	10
-286	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-287	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 smile	</s>	15.703845977783203	0.5422558784484863	1.513235048378192e-07	0.9379039406776428	10
-288	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 returned	</s>	15.044408798217773	0.5422558784484863	2.926148283677321e-07	0.9379039406776428	10
-289	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-290	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-291	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-292	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-293	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 face	</s>	14.733619689941406	0.5422558784484863	3.9927337525114126e-07	0.9379039406776428	10
-294	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 no	</s>	11.415931701660156	0.5422558784484863	1.1018536497431342e-05	0.9379039406776428	10
-295	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 thank	</s>	14.249811172485352	0.5422558784484863	6.477175702457316e-07	0.9379039406776428	10
-296	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-297	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-298	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-299	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 paused	</s>	16.871971130371094	0.5422558784484863	4.705395184601002e-08	0.9379039406776428	10
-300	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-301	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-302	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 minute	</s>	13.658194541931152	0.5422558784484863	1.1703655218298081e-06	0.9379039406776428	10
-303	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 as	</s>	9.895033836364746	0.5422558784484863	5.0424485380062833e-05	0.9379039406776428	10
-304	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-305	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 read	</s>	12.407271385192871	0.5422558784484863	4.088749847142026e-06	0.9379039406776428	10
-306	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 her	</s>	11.372121810913086	0.5422558784484863	1.1511987395351753e-05	0.9379039406776428	10
-307	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 name	</s>	12.582443237304688	0.5422558784484863	3.4317401969019556e-06	0.9379039406776428	10
-308	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 tag	</s>	14.631024360656738	0.5422558784484863	4.4241201635486505e-07	0.9379039406776428	10
-309	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 jud	</s>	17.546350479125977	0.5422558784484863	2.3972694052076804e-08	0.9379039406776428	10
-310	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	y	</s>	10.491800308227539	0.5422558784484863	2.7763171601691283e-05	0.9379039406776428	10
-311	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 what	</s>	11.925426483154297	0.5422558784484863	6.619925898121437e-06	0.9379039406776428	10
-312	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-313	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 say	</s>	11.25503158569336	0.5422558784484863	1.2942015928274486e-05	0.9379039406776428	10
-314	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 we	</s>	11.202885627746582	0.5422558784484863	1.363479532301426e-05	0.9379039406776428	10
-315	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 start	</s>	13.722136497497559	0.5422558784484863	1.097872541322431e-06	0.9379039406776428	10
-316	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-317	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-318	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 cold	</s>	15.58675765991211	0.5422558784484863	1.7012072817124135e-07	0.9379039406776428	10
-319	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 glasses	</s>	17.3010196685791	0.5422558784484863	3.063815867676567e-08	0.9379039406776428	10
-320	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 of	</s>	7.811400413513184	0.5422558784484863	0.0004050903953611851	0.9379039406776428	10
-321	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-322	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 delicious	</s>	17.679981231689453	0.5422558784484863	2.0974024295128402e-08	0.9379039406776428	10
-323	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 seasonal	</s>	18.62600326538086	0.5422558784484863	8.143847374242341e-09	0.9379039406776428	10
-324	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 favorite	</s>	15.09712028503418	0.5422558784484863	2.775901180029905e-07	0.9379039406776428	10
-325	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 egg	</s>	17.293289184570312	0.5422558784484863	3.087592759243307e-08	0.9379039406776428	10
-326	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	n	</s>	10.048250198364258	0.5422558784484863	4.326138514443301e-05	0.9379039406776428	10
-327	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	og	</s>	13.220521926879883	0.5422558784484863	1.813010499063239e-06	0.9379039406776428	10
-328	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-329	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-330	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 had	</s>	11.50749397277832	0.5422558784484863	1.0054463928099722e-05	0.9379039406776428	10
-331	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 just	</s>	12.5930814743042	0.5422558784484863	3.395425892449566e-06	0.9379039406776428	10
-332	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 begun	</s>	16.30536460876465	0.5422558784484863	8.292208519833366e-08	0.9379039406776428	10
-333	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-334	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 protest	</s>	15.632719039916992	0.5422558784484863	1.6247871315044904e-07	0.9379039406776428	10
-335	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-336	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-337	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 didn	</s>	14.328253746032715	0.5422558784484863	5.988506472931476e-07	0.9379039406776428	10
-338	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-339	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 like	</s>	11.257299423217773	0.5422558784484863	1.2912699276057538e-05	0.9379039406776428	10
-340	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 egg	</s>	17.293289184570312	0.5422558784484863	3.087592759243307e-08	0.9379039406776428	10
-341	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	n	</s>	10.048250198364258	0.5422558784484863	4.326138514443301e-05	0.9379039406776428	10
-342	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	og	</s>	13.220521926879883	0.5422558784484863	1.813010499063239e-06	0.9379039406776428	10
-343	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 when	</s>	12.339269638061523	0.5422558784484863	4.376463948574383e-06	0.9379039406776428	10
-344	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 jud	</s>	17.546350479125977	0.5422558784484863	2.3972694052076804e-08	0.9379039406776428	10
-345	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	y	</s>	10.491800308227539	0.5422558784484863	2.7763171601691283e-05	0.9379039406776428	10
-346	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 interrupted	</s>	18.107275009155273	0.5422558784484863	1.3680767629864476e-08	0.9379039406776428	10
-347	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-348	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 we	</s>	11.202885627746582	0.5422558784484863	1.363479532301426e-05	0.9379039406776428	10
-349	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	're	</s>	11.711982727050781	0.5422558784484863	8.195031114155427e-06	0.9379039406776428	10
-350	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-351	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-352	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-353	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 shrugged	</s>	17.49590301513672	0.5422558784484863	2.5213081400465853e-08	0.9379039406776428	10
-354	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 then	</s>	10.366637229919434	0.5422558784484863	3.146492599626072e-05	0.9379039406776428	10
-355	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-356	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'll	</s>	14.424439430236816	0.5422558784484863	5.439332539936004e-07	0.9379039406776428	10
-357	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 take	</s>	12.38685131072998	0.5422558784484863	4.173100933257956e-06	0.9379039406776428	10
-358	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-359	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 dec	</s>	14.18898868560791	0.5422558784484863	6.883361720610992e-07	0.9379039406776428	10
-360	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	af	</s>	14.593998908996582	0.5422558784484863	4.5909953882983245e-07	0.9379039406776428	10
-361	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 coffee	</s>	17.27861976623535	0.5422558784484863	3.133219905748774e-08	0.9379039406776428	10
-362	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-363	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 turkey	</s>	17.63572120666504	0.5422558784484863	2.1923183268768298e-08	0.9379039406776428	10
-364	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 club	</s>	14.299457550048828	0.5422558784484863	6.16345971593546e-07	0.9379039406776428	10
-365	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 she	</s>	11.707077026367188	0.5422558784484863	8.235331733885687e-06	0.9379039406776428	10
-366	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 turned	</s>	12.906332015991211	0.5422558784484863	2.482282752680476e-06	0.9379039406776428	10
-367	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-368	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-369	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-370	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-371	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'll	</s>	14.424439430236816	0.5422558784484863	5.439332539936004e-07	0.9379039406776428	10
-372	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 have	</s>	11.152629852294922	0.5422558784484863	1.4337533684738446e-05	0.9379039406776428	10
-373	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-374	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 chocolate	</s>	15.991585731506348	0.5422558784484863	1.1348608097705437e-07	0.9379039406776428	10
-375	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 milk	</s>	16.47308349609375	0.5422558784484863	7.011820457591966e-08	0.9379039406776428	10
-376	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-377	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 we	</s>	11.202885627746582	0.5422558784484863	1.363479532301426e-05	0.9379039406776428	10
-378	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	're	</s>	11.711982727050781	0.5422558784484863	8.195031114155427e-06	0.9379039406776428	10
-379	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-380	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 jud	</s>	17.546350479125977	0.5422558784484863	2.3972694052076804e-08	0.9379039406776428	10
-381	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	y	</s>	10.491800308227539	0.5422558784484863	2.7763171601691283e-05	0.9379039406776428	10
-382	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 interrupted	</s>	18.107275009155273	0.5422558784484863	1.3680767629864476e-08	0.9379039406776428	10
-383	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 again	</s>	11.842639923095703	0.5422558784484863	7.191291842900682e-06	0.9379039406776428	10
-384	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-385	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-386	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-387	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-388	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-389	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 plain	</s>	14.772339820861816	0.5422558784484863	3.8410894376283977e-07	0.9379039406776428	10
-390	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-391	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-392	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fine	</s>	14.365419387817383	0.5422558784484863	5.770025381934829e-07	0.9379039406776428	10
-393	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-394	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 chicken	</s>	15.999832153320312	0.5422558784484863	1.1255407628141256e-07	0.9379039406776428	10
-395	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fingers	</s>	17.001663208007812	0.5422558784484863	4.1330586952881276e-08	0.9379039406776428	10
-396	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 jud	</s>	17.546350479125977	0.5422558784484863	2.3972694052076804e-08	0.9379039406776428	10
-397	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	y	</s>	10.491800308227539	0.5422558784484863	2.7763171601691283e-05	0.9379039406776428	10
-398	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 collected	</s>	15.779090881347656	0.5422558784484863	1.4035502715614712e-07	0.9379039406776428	10
-399	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 their	</s>	12.204792022705078	0.5422558784484863	5.006407718610717e-06	0.9379039406776428	10
-400	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 menus	</s>	20.392915725708008	0.5422558784484863	1.3914552843274919e-09	0.9379039406776428	10
-401	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-402	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-403	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-404	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 off	</s>	11.247734069824219	0.5422558784484863	1.3036807104072068e-05	0.9379039406776428	10
-405	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 toward	</s>	13.878785133361816	0.5422558784484863	9.386858437210321e-07	0.9379039406776428	10
-406	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-407	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 kitchen	</s>	16.03077507019043	0.5422558784484863	1.0912466308354851e-07	0.9379039406776428	10
-408	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-409	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 two	</s>	10.599908828735352	0.5422558784484863	2.4918286726460792e-05	0.9379039406776428	10
-410	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sat	</s>	15.593993186950684	0.5422558784484863	1.6889426035504584e-07	0.9379039406776428	10
-411	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 in	</s>	8.758878707885742	0.5422558784484863	0.00015706064004916698	0.9379039406776428	10
-412	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 silence	</s>	16.761066436767578	0.5422558784484863	5.257283675064173e-08	0.9379039406776428	10
-413	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-414	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-415	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 minute	</s>	13.658194541931152	0.5422558784484863	1.1703655218298081e-06	0.9379039406776428	10
-416	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-417	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-418	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 put	</s>	11.192718505859375	0.5422558784484863	1.3774129911325872e-05	0.9379039406776428	10
-419	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-420	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 palms	</s>	18.802000045776367	0.5422558784484863	6.82959866438182e-09	0.9379039406776428	10
-421	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 down	</s>	12.632719039916992	0.5422558784484863	3.263471853642841e-06	0.9379039406776428	10
-422	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-423	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-424	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 table	</s>	15.358696937561035	0.5422558784484863	2.1369912417412706e-07	0.9379039406776428	10
-425	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 look	</s>	13.43813705444336	0.5422558784484863	1.458449219171598e-06	0.9379039406776428	10
-426	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-427	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-428	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'm	</s>	12.84322738647461	0.5422558784484863	2.6439745397510706e-06	0.9379039406776428	10
-429	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sorry	</s>	16.576053619384766	0.5422558784484863	6.325741708224086e-08	0.9379039406776428	10
-430	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-431	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 was	</s>	11.671733856201172	0.5422558784484863	8.531598723493516e-06	0.9379039406776428	10
-432	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 just	</s>	12.5930814743042	0.5422558784484863	3.395425892449566e-06	0.9379039406776428	10
-433	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 kidding	</s>	17.472278594970703	0.5422558784484863	2.5815817039642752e-08	0.9379039406776428	10
-434	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 about	</s>	11.886305809020996	0.5422558784484863	6.8840345193166286e-06	0.9379039406776428	10
-435	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ne	</s>	14.998106002807617	0.5422558784484863	3.0648226356788655e-07	0.9379039406776428	10
-436	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	al	</s>	11.479423522949219	0.5422558784484863	1.0340695553168189e-05	0.9379039406776428	10
-437	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-438	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 like	</s>	11.257299423217773	0.5422558784484863	1.2912699276057538e-05	0.9379039406776428	10
-439	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-440	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-441	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	'm	</s>	12.84322738647461	0.5422558784484863	2.6439745397510706e-06	0.9379039406776428	10
-442	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sure	</s>	13.567389488220215	0.5422558784484863	1.2816152548111859e-06	0.9379039406776428	10
-443	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-444	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-445	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-446	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 good	</s>	13.816163063049316	0.5422558784484863	9.993477760872338e-07	0.9379039406776428	10
-447	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 psychiatrist	</s>	19.11241340637207	0.5422558784484863	5.007078751617655e-09	0.9379039406776428	10
-448	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-449	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 know	</s>	13.24267292022705	0.5422558784484863	1.7732921833157889e-06	0.9379039406776428	10
-450	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 there	</s>	11.348464965820312	0.5422558784484863	1.1787572475441266e-05	0.9379039406776428	10
-451	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	's	</s>	8.688081741333008	0.5422558784484863	0.0001685831230133772	0.9379039406776428	10
-452	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 just	</s>	12.5930814743042	0.5422558784484863	3.395425892449566e-06	0.9379039406776428	10
-453	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 something	</s>	13.32184886932373	0.5422558784484863	1.6383044112444622e-06	0.9379039406776428	10
-454	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 about	</s>	11.886305809020996	0.5422558784484863	6.8840345193166286e-06	0.9379039406776428	10
-455	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-456	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-457	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 makes	</s>	14.763938903808594	0.5422558784484863	3.87349359698419e-07	0.9379039406776428	10
-458	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 me	</s>	10.40571403503418	0.5422558784484863	3.0259088816819713e-05	0.9379039406776428	10
-459	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 want	</s>	13.929447174072266	0.5422558784484863	8.923146310735319e-07	0.9379039406776428	10
-460	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-461	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-462	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 don	</s>	13.116007804870605	0.5422558784484863	2.012751792790368e-06	0.9379039406776428	10
-463	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	't	</s>	9.796188354492188	0.5422558784484863	5.566337131313048e-05	0.9379039406776428	10
-464	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 know	</s>	13.24267292022705	0.5422558784484863	1.7732921833157889e-06	0.9379039406776428	10
-465	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 lash	</s>	18.506832122802734	0.5422558784484863	9.174554449487005e-09	0.9379039406776428	10
-466	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 out	</s>	10.907428741455078	0.5422558784484863	1.8321623429073952e-05	0.9379039406776428	10
-467	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ir	</s>	16.00691032409668	0.5422558784484863	1.1176010872304687e-07	0.9379039406776428	10
-468	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ration	</s>	16.21075439453125	0.5422558784484863	9.115046850638464e-08	0.9379039406776428	10
-469	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ally	</s>	11.561169624328613	0.5422558784484863	9.52901245909743e-06	0.9379039406776428	10
-470	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 suggested	</s>	14.78726577758789	0.5422558784484863	3.784182922572654e-07	0.9379039406776428	10
-471	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-472	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-473	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 where	</s>	11.334001541137695	0.5422558784484863	1.1959299627051223e-05	0.9379039406776428	10
-474	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 did	</s>	13.322126388549805	0.5422558784484863	1.6378498912672512e-06	0.9379039406776428	10
-475	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-476	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 hear	</s>	14.263432502746582	0.5422558784484863	6.389546456375683e-07	0.9379039406776428	10
-477	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 that	</s>	9.66196346282959	0.5422558784484863	6.365941953845322e-05	0.9379039406776428	10
-478	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 from	</s>	9.948819160461426	0.5422558784484863	4.7784033085918054e-05	0.9379039406776428	10
-479	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 ne	</s>	14.998106002807617	0.5422558784484863	3.0648226356788655e-07	0.9379039406776428	10
-480	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	al	</s>	11.479423522949219	0.5422558784484863	1.0340695553168189e-05	0.9379039406776428	10
-481	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 i	</s>	12.478609085083008	0.5422558784484863	3.807229177255067e-06	0.9379039406776428	10
-482	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 learn	</s>	15.01302433013916	0.5422558784484863	3.019440271145868e-07	0.9379039406776428	10
-483	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 a	</s>	9.587018013000488	0.5422558784484863	6.861373549327254e-05	0.9379039406776428	10
-484	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 lot	</s>	13.673487663269043	0.5422558784484863	1.1526033176778583e-06	0.9379039406776428	10
-485	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 from	</s>	9.948819160461426	0.5422558784484863	4.7784033085918054e-05	0.9379039406776428	10
-486	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 him	</s>	9.738232612609863	0.5422558784484863	5.898470408283174e-05	0.9379039406776428	10
-487	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-488	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 listens	</s>	18.474985122680664	0.5422558784484863	9.471438744412808e-09	0.9379039406776428	10
-489	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 to	</s>	7.308874607086182	0.5422558784484863	0.0006695702322758734	0.9379039406776428	10
-490	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 me	</s>	10.40571403503418	0.5422558784484863	3.0259088816819713e-05	0.9379039406776428	10
-491	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sc	</s>	15.006092071533203	0.5422558784484863	3.040444198632031e-07	0.9379039406776428	10
-492	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	ott	</s>	13.833001136779785	0.5422558784484863	9.82661617854319e-07	0.9379039406776428	10
-493	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 shook	</s>	17.36379051208496	0.5422558784484863	2.8774094218420032e-08	0.9379039406776428	10
-494	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-495	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 head	</s>	13.69675350189209	0.5422558784484863	1.1260964356551995e-06	0.9379039406776428	10
-496	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 yeah	</s>	14.955608367919922	0.5422558784484863	3.197878015726019e-07	0.9379039406776428	10
-497	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-498	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 then	</s>	10.366637229919434	0.5422558784484863	3.146492599626072e-05	0.9379039406776428	10
-499	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 he	</s>	9.653066635131836	0.5422558784484863	6.4228312112391e-05	0.9379039406776428	10
-500	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 charges	</s>	16.533729553222656	0.5422558784484863	6.599218949077112e-08	0.9379039406776428	10
-501	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-502	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 for	</s>	8.418272018432617	0.5422558784484863	0.00022079587506596	0.9379039406776428	10
-503	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 it	</s>	9.501110076904297	0.5422558784484863	7.476879545720294e-05	0.9379039406776428	10
-504	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 jud	</s>	17.546350479125977	0.5422558784484863	2.3972694052076804e-08	0.9379039406776428	10
-505	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	y	</s>	10.491800308227539	0.5422558784484863	2.7763171601691283e-05	0.9379039406776428	10
-506	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 	</s>	11.127198219299316	0.5422558784484863	1.4706836736877449e-05	0.9379039406776428	10
-507	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	<unk>	</s>	19.577816009521484	0.5422558784484863	3.143855842324683e-09	0.9379039406776428	10
-508	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 with	</s>	9.533075332641602	0.5422558784484863	7.241658749990165e-05	0.9379039406776428	10
-509	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 their	</s>	12.204792022705078	0.5422558784484863	5.006407718610717e-06	0.9379039406776428	10
-510	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 drinks	</s>	17.479694366455078	0.5422558784484863	2.562508072401215e-08	0.9379039406776428	10
-511	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-512	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 sandwich	</s>	16.324844360351562	0.5422558784484863	8.132241191560752e-08	0.9379039406776428	10
-513	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 and	</s>	8.225299835205078	0.5422558784484863	0.0002677920856513083	0.9379039406776428	10
-514	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 chicken	</s>	15.999832153320312	0.5422558784484863	1.1255407628141256e-07	0.9379039406776428	10
-515	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fingers	</s>	17.001663208007812	0.5422558784484863	4.1330586952881276e-08	0.9379039406776428	10
-516	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 char	</s>	16.97038459777832	0.5422558784484863	4.2643780062689984e-08	0.9379039406776428	10
-517	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	lie	</s>	14.138920783996582	0.5422558784484863	7.236769761220785e-07	0.9379039406776428	10
-518	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 dove	</s>	17.62531852722168	0.5422558784484863	2.2152436329747616e-08	0.9379039406776428	10
-519	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 into	</s>	11.604779243469238	0.5422558784484863	9.122386472881772e-06	0.9379039406776428	10
-520	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 the	</s>	8.63486099243164	0.5422558784484863	0.000177798283402808	0.9379039406776428	10
-521	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 french	</s>	17.488412857055664	0.5422558784484863	2.5402639991511933e-08	0.9379039406776428	10
-522	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 fries	</s>	17.551877975463867	0.5422558784484863	2.384055086679382e-08	0.9379039406776428	10
-523	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 on	</s>	9.225770950317383	0.5422558784484863	9.846880129771307e-05	0.9379039406776428	10
-524	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 his	</s>	10.896047592163086	0.5422558784484863	1.8531334717408754e-05	0.9379039406776428	10
-525	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 plate	</s>	16.253787994384766	0.5422558784484863	8.731112899340587e-08	0.9379039406776428	10
-526	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 merry	</s>	17.759002685546875	0.5422558784484863	1.938042082372249e-08	0.9379039406776428	10
-527	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 christ	</s>	15.122339248657227	0.5422558784484863	2.7067713403994276e-07	0.9379039406776428	10
-528	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	mas	</s>	15.856797218322754	0.5422558784484863	1.2986153308247594e-07	0.9379039406776428	10
-529	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 you	</s>	9.953651428222656	0.5422558784484863	4.755368354381062e-05	0.9379039406776428	10
-530	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	 two	</s>	10.599908828735352	0.5422558784484863	2.4918286726460792e-05	0.9379039406776428	10
-531	santa_align	aligned	roberta-base	<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>	</s>	</s>	0.06410776078701019	0.5422558784484863	0.9379039406776428	0.9379039406776428	10
+1	santa_align	aligned	roberta-base	denny's it's always open proclaimed scott	 as	</s>	13.506834983825684	0.042167846113443375	1.3616208889288828e-06	0.9941703081130981	10
+2	santa_align	aligned	roberta-base	enny's it's always open proclaimed scott as	 he	</s>	9.170781135559082	0.027278507128357887	0.0001040352217387408	0.9979127049446106	10
+3	santa_align	aligned	roberta-base	's it's always open proclaimed scott as he	 opened	</s>	16.021129608154297	0.010349448770284653	1.1018223489145385e-07	0.999225378036499	10
+4	santa_align	aligned	roberta-base	 it's always open proclaimed scott as he opened	 the	</s>	10.567307472229004	0.08836054056882858	2.574404061306268e-05	0.9857187867164612	10
+5	santa_align	aligned	roberta-base	's always open proclaimed scott as he opened the	 door	</s>	10.092402458190918	0.08051604777574539	4.139283191761933e-05	0.9939677715301514	10
+6	santa_align	aligned	roberta-base	 always open proclaimed scott as he opened the door	 to	</s>	13.168170928955078	0.022697243839502335	1.9104518287349492e-06	0.9970985651016235	10
+7	santa_align	aligned	roberta-base	 open proclaimed scott as he opened the door to	 the	</s>	11.485013008117676	0.003834592644125223	1.0283053597959224e-05	0.999762237071991	10
+8	santa_align	aligned	roberta-base	 proclaimed scott as he opened the door to the	 restaurant	</s>	17.043466567993164	0.004880916327238083	3.9638468507519065e-08	0.9997032284736633	10
+9	santa_align	aligned	roberta-base	 scott as he opened the door to the restaurant	 his	</s>	14.537491798400879	0.002051888732239604	4.857885755882307e-07	0.9998602867126465	10
+10	santa_align	aligned	roberta-base	ott as he opened the door to the restaurant his	 son	</s>	17.540159225463867	0.0004082568339072168	2.412156696607326e-08	0.9999768733978271	10
+11	santa_align	aligned	roberta-base	 as he opened the door to the restaurant his son	 char	</s>	21.466636657714844	0.002462408971041441	4.755084104246521e-10	0.999832272529602	10
+12	santa_align	aligned	roberta-base	 he opened the door to the restaurant his son char	lie	</s>	16.07541847229004	0.019820353016257286	1.0436012587433652e-07	0.9983727335929871	10
+13	santa_align	aligned	roberta-base	 opened the door to the restaurant his son charlie	 	</s>	14.28787612915039	0.060195840895175934	6.235253522390849e-07	0.9906376600265503	10
+14	santa_align	aligned	roberta-base	 the door to the restaurant his son charlie 	<unk>	</s>	23.440229415893555	0.15346722304821014	6.607506208844427e-11	0.971817135810852	10
+15	santa_align	aligned	roberta-base	 door to the restaurant his son charlie <unk>	 shuff	</s>	19.555936813354492	0.21529529988765717	3.2133982141857587e-09	0.955372154712677	10
+16	santa_align	aligned	roberta-base	 to the restaurant his son charlie <unk> shuff	led	</s>	23.269567489624023	7.504699169658124e-05	7.837095555851548e-11	0.9999958276748657	10
+17	santa_align	aligned	roberta-base	 the restaurant his son charlie <unk> shuffled	 through	</s>	14.709253311157227	0.10026539117097855	4.0912181020758e-07	0.9840313196182251	10
+18	santa_align	aligned	roberta-base	 restaurant his son charlie <unk> shuffled through	 the	</s>	10.047030448913574	0.2726368010044098	4.33141685789451e-05	0.935351550579071	10
+19	santa_align	aligned	roberta-base	 his son charlie <unk> shuffled through the	 door	</s>	17.4814395904541	0.11478377133607864	2.558041600764227e-08	0.9777417778968811	10
+20	santa_align	aligned	roberta-base	 son charlie <unk> shuffled through the door	 kicking	</s>	27.621891021728516	0.055287159979343414	1.0091719127025556e-12	0.991030216217041	10
+21	santa_align	aligned	roberta-base	 charlie <unk> shuffled through the door kicking	 snow	</s>	19.085407257080078	0.07078920304775238	5.144146442148667e-09	0.988261878490448	10
+22	santa_align	aligned	roberta-base	lie <unk> shuffled through the door kicking snow	 onto	</s>	17.745731353759766	0.0947996973991394	1.9639328385778754e-08	0.9825150966644287	10
+23	santa_align	aligned	roberta-base	 <unk> shuffled through the door kicking snow onto	 the	</s>	9.553787231445312	0.005969885736703873	7.093211024766788e-05	0.9995775818824768	10
+24	santa_align	aligned	roberta-base	<unk> shuffled through the door kicking snow onto the	 	</s>	14.936088562011719	0.010567760095000267	3.260913672420429e-07	0.9992825388908386	10
+25	santa_align	aligned	roberta-base	 shuffled through the door kicking snow onto the 	<unk>	</s>	26.907840728759766	0.020286651328206062	2.0609770400720206e-12	0.9981018900871277	10
+26	santa_align	aligned	roberta-base	led through the door kicking snow onto the <unk>	 carpet	</s>	21.952892303466797	0.2477922886610031	2.924018249750304e-10	0.9374371767044067	10
+27	santa_align	aligned	roberta-base	 through the door kicking snow onto the <unk> carpet	 i	</s>	17.00342559814453	0.08921635895967484	4.1257816718598406e-08	0.9835846424102783	10
+28	santa_align	aligned	roberta-base	 the door kicking snow onto the <unk> carpet i	 don	</s>	15.031682968139648	0.14538908004760742	2.9636240128638747e-07	0.9737026691436768	10
+29	santa_align	aligned	roberta-base	 door kicking snow onto the <unk> carpet i don	't	</s>	15.404050827026367	0.00023122219135984778	2.042234541477228e-07	0.9999873638153076	10
+30	santa_align	aligned	roberta-base	 kicking snow onto the <unk> carpet i don't	 want	</s>	14.834644317626953	0.12588493525981903	3.609075633903558e-07	0.9765754342079163	10
+31	santa_align	aligned	roberta-base	 snow onto the <unk> carpet i don't want	 to	</s>	12.295358657836914	0.0819842591881752	4.572920261125546e-06	0.9853577613830566	10
+32	santa_align	aligned	roberta-base	 onto the <unk> carpet i don't want to	 eat	</s>	16.086021423339844	0.03131204470992088	1.0325943833322526e-07	0.9959438443183899	10
+33	santa_align	aligned	roberta-base	 the <unk> carpet i don't want to eat	 here	</s>	17.18877410888672	0.028269490227103233	3.4277611860034085e-08	0.995908260345459	10
+34	santa_align	aligned	roberta-base	 <unk> carpet i don't want to eat here	 he	</s>	14.851893424987793	0.07259070873260498	3.547356470789964e-07	0.9871932864189148	10
+35	santa_align	aligned	roberta-base	<unk> carpet i don't want to eat here he	 m	</s>	13.914012908935547	0.007822766900062561	9.061932928489114e-07	0.9994200468063354	10
+36	santa_align	aligned	roberta-base	 carpet i don't want to eat here he m	umbled	</s>	11.696263313293457	0.02935967594385147	8.32487057778053e-06	0.99779212474823	10
+37	santa_align	aligned	roberta-base	 i don't want to eat here he mumbled	 as	</s>	15.966017723083496	0.05404781177639961	1.1642510600040623e-07	0.9908478260040283	10
+38	santa_align	aligned	roberta-base	 don't want to eat here he mumbled as	 sc	</s>	12.20716381072998	0.05354158952832222	4.9945460887101945e-06	0.9948945045471191	10
+39	santa_align	aligned	roberta-base	't want to eat here he mumbled as sc	ott	</s>	12.552098274230957	0.007525215856730938	3.537471229719813e-06	0.9994220733642578	10
+40	santa_align	aligned	roberta-base	 want to eat here he mumbled as scott	 entered	</s>	18.486038208007812	0.10130392014980316	9.36732291734188e-09	0.9832913279533386	10
+41	santa_align	aligned	roberta-base	 to eat here he mumbled as scott entered	 behind	</s>	18.615846633911133	0.10429096966981888	8.226974657077335e-09	0.981291651725769	10
+42	santa_align	aligned	roberta-base	 eat here he mumbled as scott entered behind	 him	</s>	10.615986824035645	0.11629550158977509	2.4520859369658865e-05	0.9779828786849976	10
+43	santa_align	aligned	roberta-base	 here he mumbled as scott entered behind him	 this	</s>	17.150699615478516	0.06458854675292969	3.560784023193264e-08	0.9891696572303772	10
+44	santa_align	aligned	roberta-base	 he mumbled as scott entered behind him this	 wasn	</s>	17.976030349731445	0.06488755345344543	1.5599450620129574e-08	0.9900876879692078	10
+45	santa_align	aligned	roberta-base	 mumbled as scott entered behind him this wasn	't	't	0.038856908679008484	0.36681225895881653	0.961888313293457	0.961888313293457	10
+46	santa_align	aligned	roberta-base	umbled as scott entered behind him this wasn't	 how	</s>	11.414007186889648	0.021095557138323784	1.1039765013265423e-05	0.9984042048454285	10
+47	santa_align	aligned	roberta-base	 as scott entered behind him this wasn't how	 he	</s>	12.903983116149902	0.0009725732379592955	2.4881203444238054e-06	0.9999438524246216	10
+48	santa_align	aligned	roberta-base	 scott entered behind him this wasn't how he	 had	</s>	11.849865913391113	0.005733642727136612	7.139510671549942e-06	0.9996153116226196	10
+49	santa_align	aligned	roberta-base	ott entered behind him this wasn't how he had	 pictured	</s>	15.148107528686523	0.002118196804076433	2.637914064962388e-07	0.9998573064804077	10
+50	santa_align	aligned	roberta-base	 entered behind him this wasn't how he had pictured	 spending	</s>	21.883079528808594	0.09630222618579865	3.135444126556308e-10	0.9821177124977112	10
+51	santa_align	aligned	roberta-base	 behind him this wasn't how he had pictured spending	 his	</s>	18.13549041748047	0.011094683781266212	1.3300150314421444e-08	0.9985474944114685	10
+52	santa_align	aligned	roberta-base	 him this wasn't how he had pictured spending his	 christ	</s>	16.642757415771484	0.006527246441692114	5.917558354440189e-08	0.9995296001434326	10
+53	santa_align	aligned	roberta-base	 this wasn't how he had pictured spending his christ	mas	</s>	15.16488265991211	0.005320003256201744	2.5940303771676554e-07	0.999595582485199	10
+54	santa_align	aligned	roberta-base	 wasn't how he had pictured spending his christmas	 eve	</s>	21.0036678314209	0.0688195526599884	7.554804004605842e-10	0.988186240196228	10
+55	santa_align	aligned	roberta-base	't how he had pictured spending his christmas eve	 what	</s>	18.831462860107422	0.04432636871933937	6.631309279470088e-09	0.9929934144020081	10
+56	santa_align	aligned	roberta-base	 how he had pictured spending his christmas eve what	 are	</s>	24.62162208557129	2.67438681476051e-05	2.027522420788852e-11	0.9999988079071045	10
+57	santa_align	aligned	roberta-base	 he had pictured spending his christmas eve what are	 you	</s>	9.711482048034668	0.014436318539083004	6.058385770302266e-05	0.9988476037979126	10
+58	santa_align	aligned	roberta-base	 had pictured spending his christmas eve what are you	 talking	</s>	21.13013458251953	0.0175069198012352	6.657310813729111e-10	0.9978139400482178	10
+59	santa_align	aligned	roberta-base	 pictured spending his christmas eve what are you talking	 about	</s>	16.855266571044922	0.01256556250154972	4.784652318789995e-08	0.998548686504364	10
+60	santa_align	aligned	roberta-base	 spending his christmas eve what are you talking about	 everybody	</s>	21.9769229888916	0.009664403274655342	2.854589897793858e-10	0.9988946318626404	10
+61	santa_align	aligned	roberta-base	 his christmas eve what are you talking about everybody	 likes	</s>	24.52118492126465	0.01185927540063858	2.2417392595008856e-11	0.9985581040382385	10
+62	santa_align	aligned	roberta-base	 christmas eve what are you talking about everybody likes	 d	</s>	18.38943099975586	0.017923876643180847	1.0317424248285079e-08	0.9977436065673828	10
+63	santa_align	aligned	roberta-base	mas eve what are you talking about everybody likes d	enny	</s>	15.072064399719238	0.009276350028812885	2.8463324497352005e-07	0.9993394017219543	10
+64	santa_align	aligned	roberta-base	 eve what are you talking about everybody likes denny	's	</s>	15.710759162902832	0.028346985578536987	1.502810249576214e-07	0.9959184527397156	10
+65	santa_align	aligned	roberta-base	 what are you talking about everybody likes denny's	 it	</s>	14.20899772644043	0.047045622020959854	6.746997769369045e-07	0.9931368827819824	10
+66	santa_align	aligned	roberta-base	 are you talking about everybody likes denny's it	's	</s>	10.210543632507324	0.12218474596738815	3.678044959087856e-05	0.9777246713638306	10
+67	santa_align	aligned	roberta-base	 you talking about everybody likes denny's it's	 an	</s>	15.28261947631836	0.061441827565431595	2.305912119027198e-07	0.9902461767196655	10
+68	santa_align	aligned	roberta-base	 talking about everybody likes denny's it's an	 americ	</s>	13.690279006958008	0.11873747408390045	1.1334112741678837e-06	0.9899150133132935	10
+69	santa_align	aligned	roberta-base	 about everybody likes denny's it's an americ	an	</s>	17.14008331298828	0.06844130903482437	3.5987891777722325e-08	0.9883100986480713	10
+70	santa_align	aligned	roberta-base	 everybody likes denny's it's an american	 institution	</s>	22.12735939025879	0.06050732359290123	2.4558952094189124e-10	0.9895679354667664	10
+71	santa_align	aligned	roberta-base	 likes denny's it's an american institution	 as	</s>	16.22144317626953	0.04019545018672943	9.01813663745088e-08	0.9937029480934143	10
+72	santa_align	aligned	roberta-base	 denny's it's an american institution as	 they	</s>	10.718792915344238	0.034714475274086	2.2125219402369112e-05	0.9973080158233643	10
+73	santa_align	aligned	roberta-base	enny's it's an american institution as they	 approached	</s>	18.0825138092041	0.01818758249282837	1.402373595027484e-08	0.9986326098442078	10
+74	santa_align	aligned	roberta-base	's it's an american institution as they approached	 the	</s>	11.314699172973633	0.07921244949102402	1.2192376743769273e-05	0.9877386093139648	10
+75	santa_align	aligned	roberta-base	 it's an american institution as they approached the	 host	</s>	15.226997375488281	0.09362915903329849	2.4378064722441195e-07	0.9929357171058655	10
+76	santa_align	aligned	roberta-base	's an american institution as they approached the host	ess	</s>	17.49928092956543	0.07486975938081741	2.5128072067559515e-08	0.9870336055755615	10
+77	santa_align	aligned	roberta-base	 an american institution as they approached the hostess	 stand	</s>	17.44780731201172	0.054395031183958054	2.6455360568888864e-08	0.9917376637458801	10
+78	santa_align	aligned	roberta-base	 american institution as they approached the hostess stand	 they	</s>	12.53428840637207	0.06594537943601608	3.6010380881634774e-06	0.9893057942390442	10
+79	santa_align	aligned	roberta-base	an institution as they approached the hostess stand they	 heard	</s>	12.99406623840332	0.007403685711324215	2.2737824565410847e-06	0.9994445443153381	10
+80	santa_align	aligned	roberta-base	 institution as they approached the hostess stand they heard	 a	</s>	14.516128540039062	0.04007507488131523	4.962785169482231e-07	0.9943150877952576	10
+81	santa_align	aligned	roberta-base	 as they approached the hostess stand they heard a	 loud	</s>	12.18781852722168	0.008014658465981483	5.092107130622026e-06	0.9994400143623352	10
+82	santa_align	aligned	roberta-base	 they approached the hostess stand they heard a loud	 comm	</s>	13.81503963470459	0.008713043294847012	1.0004706609834102e-06	0.9993771910667419	10
+83	santa_align	aligned	roberta-base	 approached the hostess stand they heard a loud comm	otion	</s>	10.514949798583984	0.01671387441456318	2.71278422587784e-05	0.99835604429245	10
+84	santa_align	aligned	roberta-base	 the hostess stand they heard a loud commotion	 from	</s>	16.8754940032959	0.020817946642637253	4.688845578471046e-08	0.9972624778747559	10
+85	santa_align	aligned	roberta-base	 hostess stand they heard a loud commotion from	 inside	</s>	7.105751037597656	0.6577080488204956	0.0008203733013942838	0.9144086837768555	10
+86	santa_align	aligned	roberta-base	ess stand they heard a loud commotion from inside	 the	</s>	14.254627227783203	0.020680343732237816	6.446052793762647e-07	0.9972977042198181	10
+87	santa_align	aligned	roberta-base	 stand they heard a loud commotion from inside the	 restaurant	</s>	20.595226287841797	0.0002795140026137233	1.1365981489319665e-09	0.999984860420227	10
+88	santa_align	aligned	roberta-base	 they heard a loud commotion from inside the restaurant	 a	</s>	15.953722953796387	0.02605348639190197	1.1786537612579195e-07	0.9963125586509705	10
+89	santa_align	aligned	roberta-base	 heard a loud commotion from inside the restaurant a	 huge	</s>	19.48587417602539	0.013618959113955498	3.4466101084262846e-09	0.999055802822113	10
+90	santa_align	aligned	roberta-base	 a loud commotion from inside the restaurant a huge	 table	</s>	15.161362648010254	0.006798414513468742	2.6031784727820195e-07	0.9995606541633606	10
+91	santa_align	aligned	roberta-base	 loud commotion from inside the restaurant a huge table	 of	</s>	11.597957611083984	0.053464896976947784	9.184828741126694e-06	0.9922019243240356	10
+92	santa_align	aligned	roberta-base	 commotion from inside the restaurant a huge table of	 j	</s>	16.6375732421875	0.0014511956833302975	5.948316328385772e-08	0.9999129772186279	10
+93	santa_align	aligned	roberta-base	otion from inside the restaurant a huge table of j	apan	</s>	16.972787857055664	0.0020876345224678516	4.2541383749039596e-08	0.9998657703399658	10
+94	santa_align	aligned	roberta-base	 from inside the restaurant a huge table of japan	ese	</s>	22.882789611816406	0.14234013855457306	1.1537997640642672e-10	0.9692270755767822	10
+95	santa_align	aligned	roberta-base	 inside the restaurant a huge table of japanese	 businessmen	</s>	22.745548248291016	0.10375083237886429	1.3235294804569975e-10	0.9794443845748901	10
+96	santa_align	aligned	roberta-base	 the restaurant a huge table of japanese businessmen	 were	</s>	18.81239891052246	0.048106539994478226	6.7589476238083535e-09	0.9920857548713684	10
+97	santa_align	aligned	roberta-base	 restaurant a huge table of japanese businessmen were	 	</s>	17.27552604675293	0.0004344475455582142	3.142929827504304e-08	0.9999740123748779	10
+98	santa_align	aligned	roberta-base	 a huge table of japanese businessmen were 	<unk>	</s>	26.3624324798584	0.016430633142590523	3.5558305432059623e-12	0.9986315369606018	10
+99	santa_align	aligned	roberta-base	 huge table of japanese businessmen were <unk>	 	</s>	9.815152168273926	0.31997206807136536	5.461773616843857e-05	0.9215492010116577	10
+100	santa_align	aligned	roberta-base	 table of japanese businessmen were <unk> 	<unk>	</s>	23.2410945892334	0.23386088013648987	8.063444356665173e-11	0.9548359513282776	10
+101	santa_align	aligned	roberta-base	 of japanese businessmen were <unk> <unk>	 to	</s>	9.569649696350098	0.4622749090194702	6.98158546583727e-05	0.8727024793624878	10
+102	santa_align	aligned	roberta-base	 japanese businessmen were <unk> <unk> to	 one	</s>	17.205595016479492	0.02124408818781376	3.370584877870897e-08	0.9973281621932983	10
+103	santa_align	aligned	roberta-base	apanese businessmen were <unk> <unk> to one	 another	</s>	11.806708335876465	0.2780322730541229	7.454385013261344e-06	0.952386736869812	10
+104	santa_align	aligned	roberta-base	ese businessmen were <unk> <unk> to one another	 and	</s>	8.721872329711914	0.28663232922554016	0.00016298179980367422	0.9539239406585693	10
+105	santa_align	aligned	roberta-base	 businessmen were <unk> <unk> to one another and	 erupt	</s>	18.190763473510742	0.23252199590206146	1.2584971287310509e-08	0.9704420566558838	10
+106	santa_align	aligned	roberta-base	 were <unk> <unk> to one another and erupt	ing	</s>	12.929969787597656	0.16173848509788513	2.4242947347374866e-06	0.9784963130950928	10
+107	santa_align	aligned	roberta-base	 <unk> <unk> to one another and erupting	 in	</s>	10.69770336151123	0.12109354883432388	2.259677421534434e-05	0.9813224077224731	10
+108	santa_align	aligned	roberta-base	<unk> <unk> to one another and erupting in	 	</s>	10.581768989562988	0.12784036993980408	2.5374418328283355e-05	0.9826381802558899	10
+109	santa_align	aligned	roberta-base	 <unk> to one another and erupting in 	<unk>	</s>	23.8566951751709	0.1241636723279953	4.356811786343506e-11	0.9788135290145874	10
+110	santa_align	aligned	roberta-base	<unk> to one another and erupting in <unk>	 of	</s>	9.001309394836426	0.6290651559829712	0.0001232482900377363	0.7964113354682922	10
+111	santa_align	aligned	roberta-base	 to one another and erupting in <unk> of	 laughter	</s>	15.960198402404785	0.23242460191249847	1.171046335457504e-07	0.9635711908340454	10
+112	santa_align	aligned	roberta-base	 one another and erupting in <unk> of laughter	 har	</s>	21.60459327697754	0.07284446060657501	4.1423248164917936e-10	0.9896451234817505	10
+113	santa_align	aligned	roberta-base	 another and erupting in <unk> of laughter har	ried	</s>	16.906253814697266	0.15945740044116974	4.5468155462913273e-08	0.9733275771141052	10
+114	santa_align	aligned	roberta-base	 and erupting in <unk> of laughter harried	 wait	</s>	18.930458068847656	0.05665764957666397	6.0062985696163196e-09	0.9921128749847412	10
+115	santa_align	aligned	roberta-base	 erupting in <unk> of laughter harried wait	resses	</s>	20.05594253540039	0.08373905718326569	1.949012284896412e-09	0.9874069094657898	10
+116	santa_align	aligned	roberta-base	ing in <unk> of laughter harried waitresses	 we	</s>	15.971457481384277	0.029843106865882874	1.1579354719515322e-07	0.9961655139923096	10
+117	santa_align	aligned	roberta-base	 in <unk> of laughter harried waitresses we	aved	</s>	18.088241577148438	0.09100859612226486	1.394364890217048e-08	0.9870890974998474	10
+118	santa_align	aligned	roberta-base	 <unk> of laughter harried waitresses weaved	 between	</s>	15.465574264526367	0.022056251764297485	1.9203767465114652e-07	0.9971963167190552	10
+119	santa_align	aligned	roberta-base	<unk> of laughter harried waitresses weaved between	 them	</s>	15.207389831542969	0.02247658371925354	2.486075629803963e-07	0.9970476031303406	10
+120	santa_align	aligned	roberta-base	 of laughter harried waitresses weaved between them	 to	</s>	14.65419864654541	0.01769305393099785	4.3227728951933386e-07	0.9976358413696289	10
+121	santa_align	aligned	roberta-base	 laughter harried waitresses weaved between them to	 pour	</s>	19.730358123779297	0.002028112765401602	2.69907229899502e-09	0.999874472618103	10
+122	santa_align	aligned	roberta-base	 harried waitresses weaved between them to pour	 ref	</s>	22.911245346069336	0.001403813250362873	1.1214319056707112e-10	0.9999129772186279	10
+123	santa_align	aligned	roberta-base	ried waitresses weaved between them to pour ref	ills	</s>	20.108015060424805	0.0005602843011729419	1.8501205012455557e-09	0.9999656677246094	10
+124	santa_align	aligned	roberta-base	 waitresses weaved between them to pour refills	 of	</s>	13.967085838317871	0.0498785674571991	8.593534062129038e-07	0.9917556047439575	10
+125	santa_align	aligned	roberta-base	resses weaved between them to pour refills of	 coffee	</s>	17.97273063659668	0.001454185345210135	1.565099339018161e-08	0.9999057054519653	10
+126	santa_align	aligned	roberta-base	 weaved between them to pour refills of coffee	 a	</s>	16.251766204833984	0.03234591335058212	8.748776281208848e-08	0.9956465363502502	10
+127	santa_align	aligned	roberta-base	aved between them to pour refills of coffee a	 host	</s>	17.549318313598633	0.0868721455335617	2.3901666423853385e-08	0.9872179627418518	10
+128	santa_align	aligned	roberta-base	 between them to pour refills of coffee a host	ess	</s>	17.162202835083008	0.06255098432302475	3.520056424122231e-08	0.9908573031425476	10
+129	santa_align	aligned	roberta-base	 them to pour refills of coffee a hostess	 hurried	</s>	23.402305603027344	0.027784867212176323	6.862903301207979e-11	0.9962896108627319	10
+130	santa_align	aligned	roberta-base	 to pour refills of coffee a hostess hurried	 up	</s>	15.722277641296387	0.004852812737226486	1.4855983465622558e-07	0.9996629953384399	10
+131	santa_align	aligned	roberta-base	 pour refills of coffee a hostess hurried up	 to	</s>	13.024338722229004	0.019734228029847145	2.2059800812712638e-06	0.9974598288536072	10
+132	santa_align	aligned	roberta-base	 refills of coffee a hostess hurried up to	 meet	</s>	18.370859146118164	0.0026872996240854263	1.051082865188846e-08	0.999833345413208	10
+133	santa_align	aligned	roberta-base	ills of coffee a hostess hurried up to meet	 them	</s>	15.357626914978027	0.0200605820864439	2.1392777682649466e-07	0.9974803328514099	10
+134	santa_align	aligned	roberta-base	 of coffee a hostess hurried up to meet them	 are	</s>	21.968530654907227	0.012690644711256027	2.878646765402948e-10	0.9984543323516846	10
+135	santa_align	aligned	roberta-base	 coffee a hostess hurried up to meet them are	 you	</s>	18.54684066772461	0.00041162525303661823	8.81473560809809e-09	0.9999767541885376	10
+136	santa_align	aligned	roberta-base	 a hostess hurried up to meet them are you	 with	</s>	14.203590393066406	0.014398722909390926	6.783580488445295e-07	0.9984045624732971	10
+137	santa_align	aligned	roberta-base	 hostess hurried up to meet them are you with	 	</s>	10.079331398010254	0.11463406682014465	4.1937444620998576e-05	0.9901260137557983	10
+138	santa_align	aligned	roberta-base	ess hurried up to meet them are you with 	<unk>	</s>	25.580053329467773	0.015288532711565495	7.77541833002493e-12	0.9987624883651733	10
+139	santa_align	aligned	roberta-base	 hurried up to meet them are you with <unk>	 no	</s>	13.640089988708496	0.23586535453796387	1.191747628581652e-06	0.9560185670852661	10
+140	santa_align	aligned	roberta-base	 up to meet them are you with <unk> no	 said	</s>	12.70196533203125	0.20173659920692444	3.0451349175564246e-06	0.9637949466705322	10
+141	santa_align	aligned	roberta-base	 to meet them are you with <unk> no said	 char	</s>	18.130163192749023	0.1471535861492157	1.3371181495358542e-08	0.9787681698799133	10
+142	santa_align	aligned	roberta-base	 meet them are you with <unk> no said char	lie	</s>	19.249650955200195	0.06267115473747253	4.364987482574634e-09	0.9921199083328247	10
+143	santa_align	aligned	roberta-base	 them are you with <unk> no said charlie	 dad	</s>	19.658138275146484	0.04969553276896477	2.9012066082856336e-09	0.9931637644767761	10
+144	santa_align	aligned	roberta-base	 are you with <unk> no said charlie dad	 burnt	</s>	23.194393157958984	0.06114428490400314	8.448949873063327e-11	0.9904002547264099	10
+145	santa_align	aligned	roberta-base	 you with <unk> no said charlie dad burnt	 the	</s>	11.0391206741333	0.061884284019470215	1.606094156159088e-05	0.9915041327476501	10
+146	santa_align	aligned	roberta-base	 with <unk> no said charlie dad burnt the	 turkey	</s>	20.499162673950195	0.0513734444975853	1.2511998104258737e-09	0.9927231669425964	10
+147	santa_align	aligned	roberta-base	 <unk> no said charlie dad burnt the turkey	 oh	</s>	21.582658767700195	0.026701584458351135	4.23419327377772e-10	0.9964364767074585	10
+148	santa_align	aligned	roberta-base	<unk> no said charlie dad burnt the turkey oh	 yeah	</s>	20.17963218688965	0.01916372776031494	1.7222535619865198e-09	0.9976186156272888	10
+149	santa_align	aligned	roberta-base	 no said charlie dad burnt the turkey oh yeah	 this	</s>	18.441741943359375	0.015627099201083183	9.791590649399495e-09	0.9980353713035583	10
+150	santa_align	aligned	roberta-base	 said charlie dad burnt the turkey oh yeah this	 way	</s>	18.602920532226562	0.0005417565698735416	8.334014367505915e-09	0.9999675750732422	10
+151	santa_align	aligned	roberta-base	 charlie dad burnt the turkey oh yeah this way	 come	</s>	18.707487106323242	0.015637408941984177	7.506576693572242e-09	0.9980039000511169	10
+152	santa_align	aligned	roberta-base	lie dad burnt the turkey oh yeah this way come	 said	</s>	10.35250473022461	0.8549397587776184	3.1912764825392514e-05	0.8531865477561951	10
+153	santa_align	aligned	roberta-base	 dad burnt the turkey oh yeah this way come said	 the	</s>	9.740123748779297	0.034834735095500946	5.88732618780341e-05	0.997285008430481	10
+154	santa_align	aligned	roberta-base	 burnt the turkey oh yeah this way come said the	 host	</s>	16.95155143737793	0.006132094655185938	4.3454495113337543e-08	0.9996108412742615	10
+155	santa_align	aligned	roberta-base	 the turkey oh yeah this way come said the host	ess	</s>	19.610130310058594	0.03493994101881981	3.0438880305183602e-09	0.9948122501373291	10
+156	santa_align	aligned	roberta-base	 turkey oh yeah this way come said the hostess	 	</s>	14.737527847290039	0.04746481776237488	3.9771609294803056e-07	0.9925457835197449	10
+157	santa_align	aligned	roberta-base	 oh yeah this way come said the hostess 	<unk>	</s>	26.365381240844727	0.01659526489675045	3.5453588849432283e-12	0.9986081719398499	10
+158	santa_align	aligned	roberta-base	 yeah this way come said the hostess <unk>	 them	</s>	13.335467338562012	0.1581220179796219	1.6161445728357648e-06	0.9670369029045105	10
+159	santa_align	aligned	roberta-base	 this way come said the hostess <unk> them	 toward	</s>	17.534433364868164	0.06823824346065521	2.4260083719696013e-08	0.9909109473228455	10
+160	santa_align	aligned	roberta-base	 way come said the hostess <unk> them toward	 a	</s>	12.363750457763672	0.05948870629072189	4.2706246858870145e-06	0.9917506575584412	10
+161	santa_align	aligned	roberta-base	 come said the hostess <unk> them toward a	 back	</s>	15.221468925476074	0.05832913517951965	2.4513207108611823e-07	0.9916874766349792	10
+162	santa_align	aligned	roberta-base	 said the hostess <unk> them toward a back	 room	</s>	17.415000915527344	0.06360514461994171	2.7337648589309538e-08	0.9898229837417603	10
+163	santa_align	aligned	roberta-base	 the hostess <unk> them toward a back room	 several	</s>	19.072675704956055	0.03827614709734917	5.210055498139354e-09	0.9946416616439819	10
+164	santa_align	aligned	roberta-base	 hostess <unk> them toward a back room several	 other	</s>	13.351190567016602	0.13044753670692444	1.590931447026378e-06	0.9796202778816223	10
+165	santa_align	aligned	roberta-base	ess <unk> them toward a back room several other	 families	</s>	18.86495590209961	0.1569768786430359	6.412891551121902e-09	0.9749256372451782	10
+166	santa_align	aligned	roberta-base	 <unk> them toward a back room several other families	 sat	</s>	22.216064453125	0.03476296737790108	2.2474261340832413e-10	0.9946936964988708	10
+167	santa_align	aligned	roberta-base	<unk> them toward a back room several other families sat	 quietly	</s>	24.95148277282715	5.7760480558499694e-05	1.457834720997031e-11	0.9999971389770508	10
+168	santa_align	aligned	roberta-base	 them toward a back room several other families sat quietly	 in	</s>	22.17125701904297	8.291753147204872e-06	2.35041985874318e-10	1.0	10
+169	santa_align	aligned	roberta-base	 toward a back room several other families sat quietly in	 their	</s>	14.423905372619629	0.0022082070354372263	5.442234396468848e-07	0.9998517036437988	10
+170	santa_align	aligned	roberta-base	 a back room several other families sat quietly in their	 booths	</s>	21.867042541503906	0.0034780879504978657	3.186131913857082e-10	0.9997798800468445	10
+171	santa_align	aligned	roberta-base	 back room several other families sat quietly in their booths	 and	</s>	14.499298095703125	0.00040159979835152626	5.047019158155308e-07	0.9999735355377197	10
+172	santa_align	aligned	roberta-base	 room several other families sat quietly in their booths and	 one	</s>	21.760915756225586	6.144350481918082e-05	3.5428651679048073e-10	0.9999967813491821	10
+173	santa_align	aligned	roberta-base	 several other families sat quietly in their booths and one	 of	</s>	14.812605857849121	0.003239425364881754	3.6894954291710746e-07	0.9997929930686951	10
+174	santa_align	aligned	roberta-base	 other families sat quietly in their booths and one of	 the	</s>	8.657307624816895	0.0063340868800878525	0.00017385181854479015	0.9994750618934631	10
+175	santa_align	aligned	roberta-base	 families sat quietly in their booths and one of the	 fathers	</s>	23.81270980834961	0.00048011206672526896	4.552726598494594e-11	0.9999734163284302	10
+176	santa_align	aligned	roberta-base	 sat quietly in their booths and one of the fathers	 	</s>	15.318612098693848	0.046104852110147476	2.2243924036047247e-07	0.9933202266693115	10
+177	santa_align	aligned	roberta-base	 quietly in their booths and one of the fathers 	<unk>	</s>	25.260986328125	0.060994505882263184	1.0697758651145861e-11	0.991216778755188	10
+178	santa_align	aligned	roberta-base	 in their booths and one of the fathers <unk>	 a	</s>	16.07227325439453	0.008243594318628311	1.0468890110360007e-07	0.9993618130683899	10
+179	santa_align	aligned	roberta-base	 their booths and one of the fathers <unk> a	 fresh	</s>	15.756145477294922	0.2785133421421051	1.436127945453336e-07	0.9416917562484741	10
+180	santa_align	aligned	roberta-base	 booths and one of the fathers <unk> a fresh	 band	</s>	18.05949592590332	0.2184147834777832	1.4350285404418628e-08	0.9624465107917786	10
+181	santa_align	aligned	roberta-base	 and one of the fathers <unk> a fresh band	age	</s>	17.96742820739746	0.06887039542198181	1.573422103717803e-08	0.9898762106895447	10
+182	santa_align	aligned	roberta-base	 one of the fathers <unk> a fresh bandage	 on	</s>	14.18075180053711	0.04692908748984337	6.940293815205223e-07	0.9931138157844543	10
+183	santa_align	aligned	roberta-base	 of the fathers <unk> a fresh bandage on	 his	</s>	15.664430618286133	0.03886701166629791	1.574070864762689e-07	0.9944784641265869	10
+184	santa_align	aligned	roberta-base	 the fathers <unk> a fresh bandage on his	 hand	</s>	17.22593879699707	0.07703225314617157	3.302708151409206e-08	0.9886559247970581	10
+185	santa_align	aligned	roberta-base	 fathers <unk> a fresh bandage on his hand	 he	</s>	12.622138977050781	0.031957972794771194	3.298183855804382e-06	0.9958851933479309	10
+186	santa_align	aligned	roberta-base	 <unk> a fresh bandage on his hand he	 and	</s>	14.646632194519043	0.01600591093301773	4.355603380190587e-07	0.9979875087738037	10
+187	santa_align	aligned	roberta-base	<unk> a fresh bandage on his hand he and	 sc	</s>	19.988658905029297	5.0116825150325894e-05	2.084660888357348e-09	0.9999973773956299	10
+188	santa_align	aligned	roberta-base	 a fresh bandage on his hand he and sc	ott	abs	7.184823513031006	3.2476186752319336	0.000758002744987607	0.32719141244888306	10
+189	santa_align	aligned	roberta-base	 fresh bandage on his hand he and scott	 nodded	</s>	22.30276107788086	0.0006436599651351571	2.060789455748946e-10	0.9999630451202393	10
+190	santa_align	aligned	roberta-base	 bandage on his hand he and scott nodded	 to	</s>	16.355796813964844	0.000516136409714818	7.88437688470367e-08	0.9999687671661377	10
+191	santa_align	aligned	roberta-base	age on his hand he and scott nodded to	 each	</s>	12.43143367767334	0.026994256302714348	3.99114014726365e-06	0.9978224039077759	10
+192	santa_align	aligned	roberta-base	 on his hand he and scott nodded to each	 other	</s>	4.701359272003174	0.07777788490056992	0.009082919918000698	0.9888590574264526	10
+193	santa_align	aligned	roberta-base	 his hand he and scott nodded to each other	 in	</s>	15.817598342895508	0.00029072794131934643	1.3505295726190525e-07	0.9999833106994629	10
+194	santa_align	aligned	roberta-base	 hand he and scott nodded to each other in	 a	</s>	6.79764461517334	0.213107168674469	0.0011164017487317324	0.9793359637260437	10
+195	santa_align	aligned	roberta-base	 he and scott nodded to each other in a	 gesture	</s>	15.697275161743164	0.022023120895028114	1.5232107841711695e-07	0.9983115196228027	10
+196	santa_align	aligned	roberta-base	 and scott nodded to each other in a gesture	 of	</s>	16.089712142944336	0.0002057405363302678	1.0287899243621723e-07	0.999988317489624	10
+197	santa_align	aligned	roberta-base	 scott nodded to each other in a gesture of	 solidarity	</s>	10.6512451171875	0.050830572843551636	2.3671344024478458e-05	0.9958987832069397	10
+198	santa_align	aligned	roberta-base	ott nodded to each other in a gesture of solidarity	 as	</s>	15.921307563781738	0.016807585954666138	1.2174857033642184e-07	0.9978809952735901	10
+199	santa_align	aligned	roberta-base	 nodded to each other in a gesture of solidarity as	 sc	</s>	16.927316665649414	0.005633821710944176	4.4520508168943707e-08	0.9995906949043274	10
+200	santa_align	aligned	roberta-base	 to each other in a gesture of solidarity as sc	ott	</s>	16.139942169189453	0.0009348267340101302	9.783911281147084e-08	0.9999415874481201	10
+201	santa_align	aligned	roberta-base	 each other in a gesture of solidarity as scott	 and	</s>	11.794767379760742	0.0377778485417366	7.543927949882345e-06	0.9949894547462463	10
+202	santa_align	aligned	roberta-base	 other in a gesture of solidarity as scott and	 char	</s>	20.9627742767334	0.003409668803215027	7.870150642297347e-10	0.999771773815155	10
+203	santa_align	aligned	roberta-base	 in a gesture of solidarity as scott and char	lie	</s>	14.1192626953125	0.001787144341506064	7.380439228654723e-07	0.9998867511749268	10
+204	santa_align	aligned	roberta-base	 a gesture of solidarity as scott and charlie	 took	</s>	20.898365020751953	0.01632554642856121	8.39373404115662e-10	0.9978979825973511	10
+205	santa_align	aligned	roberta-base	 gesture of solidarity as scott and charlie took	 their	</s>	14.117630004882812	0.02767529897391796	7.392494580926723e-07	0.9967785477638245	10
+206	santa_align	aligned	roberta-base	 of solidarity as scott and charlie took their	 seats	</s>	14.713366508483887	0.011853396892547607	4.074422577104997e-07	0.9991915822029114	10
+207	santa_align	aligned	roberta-base	 solidarity as scott and charlie took their seats	 the	</s>	15.062331199645996	0.01068555936217308	2.874172366773564e-07	0.9987213015556335	10
+208	santa_align	aligned	roberta-base	 as scott and charlie took their seats the	 host	</s>	22.9842586517334	7.519356586271897e-05	1.0424690971566619e-10	0.9999959468841553	10
+209	santa_align	aligned	roberta-base	 scott and charlie took their seats the host	ess	</s>	19.07857322692871	0.040169607847929	5.179417339462589e-09	0.994123637676239	10
+210	santa_align	aligned	roberta-base	ott and charlie took their seats the hostess	 handed	</s>	20.841876983642578	0.020158877596259117	8.881531066151638e-10	0.9973770380020142	10
+211	santa_align	aligned	roberta-base	 and charlie took their seats the hostess handed	 them	</s>	7.569361686706543	0.08338171988725662	0.0005160216824151576	0.9930480122566223	10
+212	santa_align	aligned	roberta-base	 charlie took their seats the hostess handed them	 menus	</s>	27.578113555908203	0.033875737339258194	1.0543318605324425e-12	0.9945899248123169	10
+213	santa_align	aligned	roberta-base	lie took their seats the hostess handed them menus	 which	</s>	17.91109275817871	0.02371061034500599	1.6646037437340055e-08	0.9968018531799316	10
+214	santa_align	aligned	roberta-base	 took their seats the hostess handed them menus which	 char	</s>	23.840709686279297	0.0009017327683977783	4.427018474029154e-11	0.9999427795410156	10
+215	santa_align	aligned	roberta-base	 their seats the hostess handed them menus which char	lie	</s>	18.230873107910156	0.0031811408698558807	1.2090167977873989e-08	0.9997861981391907	10
+216	santa_align	aligned	roberta-base	 seats the hostess handed them menus which charlie	 	</s>	13.041455268859863	0.08830858021974564	2.1685430056095356e-06	0.9865314364433289	10
+217	santa_align	aligned	roberta-base	 the hostess handed them menus which charlie 	<unk>	</s>	24.23701286315918	0.10670676827430725	2.978511534634798e-11	0.982667863368988	10
+218	santa_align	aligned	roberta-base	 hostess handed them menus which charlie <unk>	 opened	</s>	14.412386894226074	0.18941675126552582	5.505286253537633e-07	0.9627780318260193	10
+219	santa_align	aligned	roberta-base	ess handed them menus which charlie <unk> opened	 you	</s>	16.95987319946289	0.037818603217601776	4.309440626570904e-08	0.9948563575744629	10
+220	santa_align	aligned	roberta-base	 handed them menus which charlie <unk> opened you	 know	</s>	13.44821834564209	0.058149367570877075	1.4438193147725542e-06	0.9919725656509399	10
+221	santa_align	aligned	roberta-base	 them menus which charlie <unk> opened you know	 	</s>	12.479362487792969	0.07151046395301819	3.8043601762183243e-06	0.9901285767555237	10
+222	santa_align	aligned	roberta-base	 menus which charlie <unk> opened you know 	<unk>	</s>	23.86089515686035	0.07670294493436813	4.3385503523118985e-11	0.9903889298439026	10
+223	santa_align	aligned	roberta-base	 which charlie <unk> opened you know <unk>	 a	</s>	12.932744026184082	0.051427967846393585	2.417579480606946e-06	0.9929130673408508	10
+224	santa_align	aligned	roberta-base	 charlie <unk> opened you know <unk> a	 real	</s>	16.696273803710938	0.0880296528339386	5.609189202004927e-08	0.9884356260299683	10
+225	santa_align	aligned	roberta-base	lie <unk> opened you know <unk> a real	 good	</s>	15.188138008117676	0.14076651632785797	2.534401914999762e-07	0.9773624539375305	10
+226	santa_align	aligned	roberta-base	 <unk> opened you know <unk> a real good	 cook	</s>	16.86112403869629	0.15430596470832825	4.756713067877172e-08	0.9717100858688354	10
+227	santa_align	aligned	roberta-base	<unk> opened you know <unk> a real good cook	 he	</s>	14.161046981811523	0.04742923751473427	7.078403427840385e-07	0.9931833148002625	10
+228	santa_align	aligned	roberta-base	 opened you know <unk> a real good cook he	 said	</s>	12.768315315246582	0.09109342843294144	2.8496460799942724e-06	0.9838324189186096	10
+229	santa_align	aligned	roberta-base	 you know <unk> a real good cook he said	 	</s>	10.429304122924805	0.11146094650030136	2.955363925138954e-05	0.9797210693359375	10
+230	santa_align	aligned	roberta-base	 know <unk> a real good cook he said 	<unk>	</s>	25.29030418395996	0.07058678567409515	1.0388685571516287e-11	0.98967045545578	10
+231	santa_align	aligned	roberta-base	 <unk> a real good cook he said <unk>	 his	</s>	13.647093772888184	0.177161306142807	1.1834295037260745e-06	0.9604979753494263	10
+232	santa_align	aligned	roberta-base	<unk> a real good cook he said <unk> his	 father	</s>	16.733423233032227	0.11965399235486984	5.404637093420206e-08	0.9776436686515808	10
+233	santa_align	aligned	roberta-base	 a real good cook he said <unk> his father	 above	</s>	16.815099716186523	0.07840004563331604	4.980748968819171e-08	0.9872034192085266	10
+234	santa_align	aligned	roberta-base	 real good cook he said <unk> his father above	 the	</s>	10.739853858947754	0.09571613371372223	2.166410195059143e-05	0.9857711791992188	10
+235	santa_align	aligned	roberta-base	 good cook he said <unk> his father above the	 menu	</s>	20.01814842224121	0.10568460077047348	2.0240846776431454e-09	0.9850432872772217	10
+236	santa_align	aligned	roberta-base	 cook he said <unk> his father above the menu	 sc	</s>	16.59244155883789	0.10302545130252838	6.222924042731393e-08	0.9844426512718201	10
+237	santa_align	aligned	roberta-base	 he said <unk> his father above the menu sc	ott	</s>	14.440279006958008	0.01712861843407154	5.353850838218932e-07	0.9987834095954895	10
+238	santa_align	aligned	roberta-base	 said <unk> his father above the menu scott	 gave	</s>	16.450407028198242	0.12870773673057556	7.172646121489379e-08	0.979901909828186	10
+239	santa_align	aligned	roberta-base	 <unk> his father above the menu scott gave	 a	</s>	13.448158264160156	0.04616012051701546	1.4439069673244376e-06	0.9936215281486511	10
+240	santa_align	aligned	roberta-base	<unk> his father above the menu scott gave a	 sn	</s>	14.460433959960938	0.01883932203054428	5.247025001153816e-07	0.9986881613731384	10
+241	santa_align	aligned	roberta-base	 his father above the menu scott gave a sn	ort	</s>	6.226111888885498	0.38817325234413147	0.0019771242514252663	0.9514356255531311	10
+242	santa_align	aligned	roberta-base	 father above the menu scott gave a snort	 at	</s>	12.610773086547852	0.042100660502910614	3.335882638566545e-06	0.9935973882675171	10
+243	santa_align	aligned	roberta-base	 above the menu scott gave a snort at	 the	</s>	11.781573295593262	0.0029676449485123158	7.644121069461107e-06	0.9998145699501038	10
+244	santa_align	aligned	roberta-base	 the menu scott gave a snort at the	 mention	</s>	14.498689651489258	0.015748102217912674	5.050091544944735e-07	0.99895179271698	10
+245	santa_align	aligned	roberta-base	 menu scott gave a snort at the mention	 of	</s>	12.212748527526855	0.02744871750473976	4.966733285982627e-06	0.9963286519050598	10
+246	santa_align	aligned	roberta-base	 scott gave a snort at the mention of	 his	</s>	11.44890022277832	0.010814792476594448	1.066119148163125e-05	0.9991695880889893	10
+247	santa_align	aligned	roberta-base	ott gave a snort at the mention of his	 ex	</s>	23.113378524780273	0.00025034553254954517	9.161928854473089e-11	0.9999839067459106	10
+248	santa_align	aligned	roberta-base	 gave a snort at the mention of his ex	 wife	</s>	18.452796936035156	0.07585320621728897	9.683933654969223e-09	0.9871713519096375	10
+249	santa_align	aligned	roberta-base	 a snort at the mention of his ex wife	's	</s>	15.313090324401855	0.026422172784805298	2.2367073881923716e-07	0.99641352891922	10
+250	santa_align	aligned	roberta-base	 snort at the mention of his ex wife's	 new	</s>	18.4256591796875	0.001238612923771143	9.95033122563882e-09	0.9999228715896606	10
+251	santa_align	aligned	roberta-base	ort at the mention of his ex wife's new	 boyfriend	</s>	11.107720375061035	0.019785232841968536	1.4996098798292223e-05	0.998620867729187	10
+252	santa_align	aligned	roberta-base	 at the mention of his ex wife's new boyfriend	 yeah	</s>	21.8814754486084	0.02701847441494465	3.140478155305715e-10	0.9964715242385864	10
+253	santa_align	aligned	roberta-base	 the mention of his ex wife's new boyfriend yeah	 and	</s>	12.641439437866211	0.039256080985069275	3.235135864088079e-06	0.9948044419288635	10
+254	santa_align	aligned	roberta-base	 mention of his ex wife's new boyfriend yeah and	 you	</s>	11.576958656311035	0.03458007797598839	9.379741641168948e-06	0.9971766471862793	10
+255	santa_align	aligned	roberta-base	 of his ex wife's new boyfriend yeah and you	 should	</s>	12.428187370300293	0.02437814325094223	4.0041186366579495e-06	0.9980870485305786	10
+256	santa_align	aligned	roberta-base	 his ex wife's new boyfriend yeah and you should	 see	</s>	13.95221996307373	0.000689125619828701	8.722234383640171e-07	0.999957799911499	10
+257	santa_align	aligned	roberta-base	 ex wife's new boyfriend yeah and you should see	 him	</s>	12.999337196350098	0.023463398218154907	2.2618287403020076e-06	0.9968846440315247	10
+258	santa_align	aligned	roberta-base	 wife's new boyfriend yeah and you should see him	 walk	</s>	18.470407485961914	0.027514301240444183	9.514894649953476e-09	0.9960501790046692	10
+259	santa_align	aligned	roberta-base	's new boyfriend yeah and you should see him walk	 on	</s>	14.163309097290039	0.04054054245352745	7.062409963509708e-07	0.9937688708305359	10
+260	santa_align	aligned	roberta-base	 new boyfriend yeah and you should see him walk on	 water	</s>	20.02991485595703	0.04590874910354614	2.0004080614199893e-09	0.9929621815681458	10
+261	santa_align	aligned	roberta-base	 boyfriend yeah and you should see him walk on water	 you	</s>	14.563594818115234	0.03128981962800026	4.7327225161097886e-07	0.9954003691673279	10
+262	santa_align	aligned	roberta-base	 yeah and you should see him walk on water you	 don	</s>	16.240386962890625	0.1120615005493164	8.848900279190275e-08	0.9777907729148865	10
+263	santa_align	aligned	roberta-base	 and you should see him walk on water you don	't	</s>	12.13676929473877	0.0002580127620603889	5.358804173738463e-06	0.9999842643737793	10
+264	santa_align	aligned	roberta-base	 you should see him walk on water you don't	 like	</s>	15.271450996398926	0.0007092600571922958	2.3318087016832578e-07	0.9999566078186035	10
+265	santa_align	aligned	roberta-base	 should see him walk on water you don't like	 him	</s>	14.04105281829834	0.013545851223170757	7.980834766385669e-07	0.9982240796089172	10
+266	santa_align	aligned	roberta-base	 see him walk on water you don't like him	 very	</s>	16.732973098754883	0.03712448105216026	5.407071057561552e-08	0.994388997554779	10
+267	santa_align	aligned	roberta-base	 him walk on water you don't like him very	 much	</s>	17.34202003479004	0.033507589250802994	2.9407384971591455e-08	0.9950513243675232	10
+268	santa_align	aligned	roberta-base	 walk on water you don't like him very much	 do	</s>	16.664220809936523	0.027023987844586372	5.7919002927064867e-08	0.996166467666626	10
+269	santa_align	aligned	roberta-base	 on water you don't like him very much do	 you	</s>	10.618435859680176	0.028815165162086487	2.4460880013066344e-05	0.9961435794830322	10
+270	santa_align	aligned	roberta-base	 water you don't like him very much do you	 dad	</s>	23.462739944458008	0.006550400052219629	6.460435658661723e-11	0.9992438554763794	10
+271	santa_align	aligned	roberta-base	 you don't like him very much do you dad	 a	</s>	17.61595916748047	0.004025608766824007	2.2360723050951492e-08	0.999572217464447	10
+272	santa_align	aligned	roberta-base	 don't like him very much do you dad a	 tall	</s>	21.857694625854492	0.027713175863027573	3.2160582530416093e-10	0.996325671672821	10
+273	santa_align	aligned	roberta-base	't like him very much do you dad a tall	 waitress	</s>	23.314023971557617	0.10966946929693222	7.496313986221637e-11	0.9838107824325562	10
+274	santa_align	aligned	roberta-base	 like him very much do you dad a tall waitress	 with	</s>	14.058741569519043	0.037064120173454285	7.84090275374183e-07	0.9946868419647217	10
+275	santa_align	aligned	roberta-base	 him very much do you dad a tall waitress with	 	</s>	15.163320541381836	0.010531260631978512	2.5980855866691854e-07	0.999183714389801	10
+276	santa_align	aligned	roberta-base	 very much do you dad a tall waitress with 	<unk>	</s>	25.87685203552246	0.03534561023116112	5.778649260490543e-12	0.9956102967262268	10
+277	santa_align	aligned	roberta-base	 much do you dad a tall waitress with <unk>	 hair	</s>	17.029022216796875	0.1369551122188568	4.021514143914828e-08	0.9769635796546936	10
+278	santa_align	aligned	roberta-base	 do you dad a tall waitress with <unk> hair	 approached	</s>	18.27908706665039	0.07134121656417847	1.1521086307197947e-08	0.9881707429885864	10
+279	santa_align	aligned	roberta-base	 you dad a tall waitress with <unk> hair approached	 the	</s>	11.64380168914795	0.07921997457742691	8.773266927164514e-06	0.9875670671463013	10
+280	santa_align	aligned	roberta-base	 dad a tall waitress with <unk> hair approached the	 table	</s>	14.1644287109375	0.00908536184579134	7.054505886117113e-07	0.999377965927124	10
+281	santa_align	aligned	roberta-base	 a tall waitress with <unk> hair approached the table	 with	</s>	13.682476997375488	0.05032946169376373	1.1422888519518892e-06	0.9925525188446045	10
+282	santa_align	aligned	roberta-base	 tall waitress with <unk> hair approached the table with	 an	</s>	14.404642105102539	0.10150714218616486	5.548087642637256e-07	0.9836983680725098	10
+283	santa_align	aligned	roberta-base	 waitress with <unk> hair approached the table with an	 order	</s>	13.170378684997559	0.33258530497550964	1.9062391629631747e-06	0.9683106541633606	10
+284	santa_align	aligned	roberta-base	 with <unk> hair approached the table with an order	 pad	</s>	20.70742416381836	0.11407730728387833	1.015968753570462e-09	0.9826925992965698	10
+285	santa_align	aligned	roberta-base	 <unk> hair approached the table with an order pad	 coffee	</s>	20.764202117919922	0.062416110187768936	9.59891055529738e-10	0.9903242588043213	10
+286	santa_align	aligned	roberta-base	<unk> hair approached the table with an order pad coffee	 the	</s>	13.06402587890625	0.04028728976845741	2.1201453819230665e-06	0.9939805269241333	10
+287	santa_align	aligned	roberta-base	 hair approached the table with an order pad coffee the	 smile	</s>	18.547813415527344	0.14602766931056976	8.806171791775341e-09	0.9718846082687378	10
+288	santa_align	aligned	roberta-base	 approached the table with an order pad coffee the smile	 returned	</s>	18.122278213500977	0.13131387531757355	1.3477049698451538e-08	0.9774543642997742	10
+289	santa_align	aligned	roberta-base	 the table with an order pad coffee the smile returned	 to	</s>	12.242944717407227	0.02794598788022995	4.818996330868686e-06	0.9961932897567749	10
+290	santa_align	aligned	roberta-base	 table with an order pad coffee the smile returned to	 sc	</s>	20.067886352539062	0.02119959518313408	1.925874126840199e-09	0.9971644282341003	10
+291	santa_align	aligned	roberta-base	 with an order pad coffee the smile returned to sc	ott	</s>	12.514657974243164	0.013375001028180122	3.6724254641740117e-06	0.9989816546440125	10
+292	santa_align	aligned	roberta-base	 an order pad coffee the smile returned to scott	's	</s>	12.55482292175293	0.06308214366436005	3.5278453651699238e-06	0.990628182888031	10
+293	santa_align	aligned	roberta-base	 order pad coffee the smile returned to scott's	 face	</s>	18.31740951538086	0.03087819181382656	1.1087931461872813e-08	0.9957945346832275	10
+294	santa_align	aligned	roberta-base	 pad coffee the smile returned to scott's face	 no	</s>	18.845064163208008	0.00024231243878602982	6.541726271791504e-09	0.9999860525131226	10
+295	santa_align	aligned	roberta-base	 coffee the smile returned to scott's face no	 thank	</s>	21.229690551757812	0.0010978676145896316	6.026466548014753e-10	0.999931812286377	10
+296	santa_align	aligned	roberta-base	 the smile returned to scott's face no thank	 you	</s>	13.964883804321289	0.07974404841661453	8.612475426161836e-07	0.9867955446243286	10
+297	santa_align	aligned	roberta-base	 smile returned to scott's face no thank you	 sc	</s>	20.692729949951172	0.024558262899518013	1.0310078346620344e-09	0.9966306090354919	10
+298	santa_align	aligned	roberta-base	 returned to scott's face no thank you sc	ott	</s>	2.9215893745422363	0.2492666244506836	0.053848035633563995	0.942947268486023	10
+299	santa_align	aligned	roberta-base	 to scott's face no thank you scott	 paused	</s>	26.871339797973633	0.010346212424337864	2.1375937044737503e-12	0.998760461807251	10
+300	santa_align	aligned	roberta-base	 scott's face no thank you scott paused	 for	</s>	15.244730949401855	0.01611952669918537	2.3949553451529937e-07	0.9978972673416138	10
+301	santa_align	aligned	roberta-base	ott's face no thank you scott paused for	 a	</s>	11.714167594909668	0.01218753308057785	8.177145900845062e-06	0.9991183876991272	10
+302	santa_align	aligned	roberta-base	's face no thank you scott paused for a	 minute	</s>	6.768967628479004	0.3584500253200531	0.0011488799937069416	0.9518036246299744	10
+303	santa_align	aligned	roberta-base	 face no thank you scott paused for a minute	 as	</s>	17.82657814025879	0.024740232154726982	1.8114040045702495e-08	0.9965550899505615	10
+304	santa_align	aligned	roberta-base	 no thank you scott paused for a minute as	 he	</s>	12.827372550964355	0.0002910212497226894	2.6862269351113355e-06	0.9999823570251465	10
+305	santa_align	aligned	roberta-base	 thank you scott paused for a minute as he	 read	</s>	9.420856475830078	0.034557703882455826	8.10166384326294e-05	0.9972890615463257	10
+306	santa_align	aligned	roberta-base	 you scott paused for a minute as he read	 her	</s>	14.983572959899902	0.00015201848873402923	3.1096877251002297e-07	0.9999910593032837	10
+307	santa_align	aligned	roberta-base	 scott paused for a minute as he read her	 name	</s>	19.14499282836914	0.028338460251688957	4.846574253036806e-09	0.9960662722587585	10
+308	santa_align	aligned	roberta-base	ott paused for a minute as he read her name	 tag	</s>	23.241268157958984	0.025895152240991592	8.062051026769268e-11	0.9964054822921753	10
+309	santa_align	aligned	roberta-base	 paused for a minute as he read her name tag	 jud	</s>	25.08949851989746	0.03353388234972954	1.2698993766269151e-11	0.9951386451721191	10
+310	santa_align	aligned	roberta-base	 for a minute as he read her name tag jud	y	</s>	14.996928215026855	0.05427955836057663	3.068434466513281e-07	0.9916778802871704	10
+311	santa_align	aligned	roberta-base	 a minute as he read her name tag judy	 what	</s>	15.811691284179688	0.04994264245033264	1.3585315628006356e-07	0.9927858710289001	10
+312	santa_align	aligned	roberta-base	 minute as he read her name tag judy what	 you	</s>	13.185705184936523	0.01526972558349371	1.8772449266180047e-06	0.9989123344421387	10
+313	santa_align	aligned	roberta-base	 as he read her name tag judy what you	 say	</s>	6.22387170791626	0.2749052345752716	0.0019815582782030106	0.96690434217453	10
+314	santa_align	aligned	roberta-base	 he read her name tag judy what you say	 we	</s>	17.26559829711914	0.022354932501912117	3.174286433704765e-08	0.9971302151679993	10
+315	santa_align	aligned	roberta-base	 read her name tag judy what you say we	 start	</s>	16.14086151123047	0.011520969681441784	9.774918652283304e-08	0.9991559982299805	10
+316	santa_align	aligned	roberta-base	 her name tag judy what you say we start	 out	</s>	14.698470115661621	0.02558513730764389	4.1355713165103225e-07	0.9966932535171509	10
+317	santa_align	aligned	roberta-base	 name tag judy what you say we start out	 with	</s>	11.784258842468262	0.06397590041160583	7.623621513630496e-06	0.9911651015281677	10
+318	santa_align	aligned	roberta-base	 tag judy what you say we start out with	 cold	</s>	17.39706039428711	0.09897301346063614	2.783253805205277e-08	0.9847108721733093	10
+319	santa_align	aligned	roberta-base	 judy what you say we start out with cold	 glasses	</s>	24.38332748413086	0.02657175622880459	2.5730945152346862e-11	0.9965715408325195	10
+320	santa_align	aligned	roberta-base	y what you say we start out with cold glasses	 of	</s>	13.549657821655273	0.03171280026435852	1.3045431614955305e-06	0.9951748251914978	10
+321	santa_align	aligned	roberta-base	 what you say we start out with cold glasses of	 that	</s>	10.0179443359375	0.04551412910223007	4.459254341782071e-05	0.9963032007217407	10
+322	santa_align	aligned	roberta-base	 you say we start out with cold glasses of that	 delicious	</s>	22.268394470214844	0.07126082479953766	2.1328443178258993e-10	0.9869913458824158	10
+323	santa_align	aligned	roberta-base	 say we start out with cold glasses of that delicious	 seasonal	</s>	23.970815658569336	0.11534120887517929	3.886929667018535e-11	0.9762251377105713	10
+324	santa_align	aligned	roberta-base	 we start out with cold glasses of that delicious seasonal	 favorite	</s>	19.75428009033203	0.11886965483427048	2.635272000617306e-09	0.9748218059539795	10
+325	santa_align	aligned	roberta-base	 start out with cold glasses of that delicious seasonal favorite	 egg	</s>	26.0178165435791	0.03488782048225403	5.018867266226579e-12	0.9945045113563538	10
+326	santa_align	aligned	roberta-base	 out with cold glasses of that delicious seasonal favorite egg	n	</s>	16.2043514251709	0.029068494215607643	9.173588466637739e-08	0.9956978559494019	10
+327	santa_align	aligned	roberta-base	 with cold glasses of that delicious seasonal favorite eggn	og	</s>	22.267292022705078	0.019234415143728256	2.1351959089699335e-10	0.9973422884941101	10
+328	santa_align	aligned	roberta-base	 cold glasses of that delicious seasonal favorite eggnog	 char	</s>	26.312240600585938	0.023291772231459618	3.738862084518013e-12	0.9966645836830139	10
+329	santa_align	aligned	roberta-base	 glasses of that delicious seasonal favorite eggnog char	lie	</s>	22.174509048461914	0.03263593837618828	2.3427876305603945e-10	0.995276927947998	10
+330	santa_align	aligned	roberta-base	 of that delicious seasonal favorite eggnog charlie	 had	</s>	17.597654342651367	0.024508541449904442	2.277381661031086e-08	0.9966049194335938	10
+331	santa_align	aligned	roberta-base	 that delicious seasonal favorite eggnog charlie had	 just	</s>	17.588035583496094	0.048604078590869904	2.2993926762637784e-08	0.9924241304397583	10
+332	santa_align	aligned	roberta-base	 delicious seasonal favorite eggnog charlie had just	 begun	</s>	20.012542724609375	0.00037276532384566963	2.035461799110294e-09	0.9999786615371704	10
+333	santa_align	aligned	roberta-base	 seasonal favorite eggnog charlie had just begun	 to	</s>	14.211804389953613	0.01617751270532608	6.728087100782432e-07	0.9978932738304138	10
+334	santa_align	aligned	roberta-base	 favorite eggnog charlie had just begun to	 protest	</s>	17.261486053466797	0.00046944626956246793	3.187366104384637e-08	0.9999716281890869	10
+335	santa_align	aligned	roberta-base	 eggnog charlie had just begun to protest	 that	</s>	15.00339126586914	0.03755867853760719	3.0486665991702466e-07	0.9945530891418457	10
+336	santa_align	aligned	roberta-base	nog charlie had just begun to protest that	 he	</s>	12.134919166564941	0.004144124686717987	5.368729944166262e-06	0.9996881484985352	10
+337	santa_align	aligned	roberta-base	og charlie had just begun to protest that he	 didn	</s>	13.990461349487305	0.008440619334578514	8.394980000048236e-07	0.9992761015892029	10
+338	santa_align	aligned	roberta-base	 charlie had just begun to protest that he didn	't	</s>	1.0960693359375	2.0781540870666504	0.3341820538043976	0.41092121601104736	10
+339	santa_align	aligned	roberta-base	lie had just begun to protest that he didn't	 like	</s>	20.099557876586914	0.00013188614684622735	1.8658339318022854e-09	0.9999924898147583	10
+340	santa_align	aligned	roberta-base	 had just begun to protest that he didn't like	 egg	</s>	24.145429611206055	0.03996562212705612	3.2641719188708507e-11	0.9945613741874695	10
+341	santa_align	aligned	roberta-base	 just begun to protest that he didn't like egg	n	</s>	15.00523567199707	0.022834258154034615	3.043047627215856e-07	0.9969077706336975	10
+342	santa_align	aligned	roberta-base	 begun to protest that he didn't like eggn	og	</s>	19.94384002685547	0.027679257094860077	2.180218672265255e-09	0.9961007833480835	10
+343	santa_align	aligned	roberta-base	 to protest that he didn't like eggnog	 when	</s>	18.621309280395508	0.02595706284046173	8.182164279446624e-09	0.9963352680206299	10
+344	santa_align	aligned	roberta-base	 protest that he didn't like eggnog when	 jud	</s>	28.360578536987305	0.013192669488489628	4.82121883648573e-13	0.998432457447052	10
+345	santa_align	aligned	roberta-base	 that he didn't like eggnog when jud	y	</s>	15.416624069213867	0.021685095503926277	2.0167185255104414e-07	0.997126042842865	10
+346	santa_align	aligned	roberta-base	 he didn't like eggnog when judy	 interrupted	</s>	24.942825317382812	0.022396935150027275	1.4705108658530364e-11	0.9970548152923584	10
+347	santa_align	aligned	roberta-base	 didn't like eggnog when judy interrupted	 him	</s>	12.74910831451416	0.05580420047044754	2.9049090244370745e-06	0.9922499656677246	10
+348	santa_align	aligned	roberta-base	't like eggnog when judy interrupted him	 we	</s>	17.909029006958008	0.021264586597681046	1.6680434811178202e-08	0.9972301125526428	10
+349	santa_align	aligned	roberta-base	 like eggnog when judy interrupted him we	're	</s>	22.760311126708984	6.884895992698148e-05	1.3041344393283083e-10	0.9999959468841553	10
+350	santa_align	aligned	roberta-base	 eggnog when judy interrupted him we're	 out	</s>	10.162532806396484	0.14920230209827423	3.858941636281088e-05	0.9870123267173767	10
+351	santa_align	aligned	roberta-base	nog when judy interrupted him we're out	 sc	</s>	20.675973892211914	0.030023673549294472	1.0484277890299154e-09	0.9957269430160522	10
+352	santa_align	aligned	roberta-base	og when judy interrupted him we're out sc	ott	</s>	11.561448097229004	0.02505950815975666	9.526354006084148e-06	0.9979560375213623	10
+353	santa_align	aligned	roberta-base	 when judy interrupted him we're out scott	 shrugged	</s>	26.230022430419922	0.025239113718271255	4.059249030657908e-12	0.996476948261261	10
+354	santa_align	aligned	roberta-base	 judy interrupted him we're out scott shrugged	 then	</s>	16.71006202697754	0.00023569707991555333	5.5323848613397786e-08	0.9999868869781494	10
+355	santa_align	aligned	roberta-base	y interrupted him we're out scott shrugged then	 i	</s>	20.373607635498047	0.011666652746498585	1.4185828067780903e-09	0.9986258745193481	10
+356	santa_align	aligned	roberta-base	 interrupted him we're out scott shrugged then i	'll	</s>	18.144123077392578	0.05307826027274132	1.3185825764594483e-08	0.9912661910057068	10
+357	santa_align	aligned	roberta-base	 him we're out scott shrugged then i'll	 take	</s>	13.910252571105957	0.0033333071041852236	9.096073654291104e-07	0.9997623562812805	10
+358	santa_align	aligned	roberta-base	 we're out scott shrugged then i'll take	 a	</s>	14.529221534729004	0.04747087135910988	4.898229803984577e-07	0.9924969673156738	10
+359	santa_align	aligned	roberta-base	're out scott shrugged then i'll take a	 dec	</s>	12.486461639404297	0.16577568650245667	3.777450046982267e-06	0.9859587550163269	10
+360	santa_align	aligned	roberta-base	 out scott shrugged then i'll take a dec	af	</s>	19.86742401123047	0.00022783719759900123	2.353355288420289e-09	0.999987006187439	10
+361	santa_align	aligned	roberta-base	 scott shrugged then i'll take a decaf	 coffee	</s>	22.108497619628906	0.08376245200634003	2.502657525660368e-10	0.9844569563865662	10
+362	santa_align	aligned	roberta-base	ott shrugged then i'll take a decaf coffee	 and	</s>	13.999088287353516	0.07793805748224258	8.322869575749792e-07	0.9854778051376343	10
+363	santa_align	aligned	roberta-base	 shrugged then i'll take a decaf coffee and	 turkey	</s>	25.081573486328125	0.0004695176612585783	1.2800027530956992e-11	0.9999710321426392	10
+364	santa_align	aligned	roberta-base	 then i'll take a decaf coffee and turkey	 club	</s>	21.502721786499023	0.020871413871645927	4.5865547471102275e-10	0.9971145391464233	10
+365	santa_align	aligned	roberta-base	 i'll take a decaf coffee and turkey club	 she	</s>	16.62981605529785	0.026459231972694397	5.994631635530823e-08	0.9963138699531555	10
+366	santa_align	aligned	roberta-base	'll take a decaf coffee and turkey club she	 turned	</s>	15.649022102355957	0.009881535544991493	1.598512255895912e-07	0.999270498752594	10
+367	santa_align	aligned	roberta-base	 take a decaf coffee and turkey club she turned	 to	</s>	9.939772605895996	0.0032545896247029305	4.8218258598353714e-05	0.9997633099555969	10
+368	santa_align	aligned	roberta-base	 a decaf coffee and turkey club she turned to	 char	</s>	22.668109893798828	0.0012607905082404613	1.4300964579216924e-10	0.9999245405197144	10
+369	santa_align	aligned	roberta-base	 decaf coffee and turkey club she turned to char	lie	</s>	17.243227005004883	0.0011994946980848908	3.246095303666152e-08	0.9999208450317383	10
+370	santa_align	aligned	roberta-base	af coffee and turkey club she turned to charlie	 i	</s>	16.303447723388672	0.030927365645766258	8.308114729516092e-08	0.9963709115982056	10
+371	santa_align	aligned	roberta-base	 coffee and turkey club she turned to charlie i	'll	</s>	20.837066650390625	0.023765962570905685	8.924353478434455e-10	0.996840238571167	10
+372	santa_align	aligned	roberta-base	 and turkey club she turned to charlie i'll	 have	</s>	11.547245025634766	0.04720880091190338	9.66262541624019e-06	0.9960185885429382	10
+373	santa_align	aligned	roberta-base	 turkey club she turned to charlie i'll have	 a	</s>	8.196702003479004	0.07189971953630447	0.0002755609748419374	0.9933422207832336	10
+374	santa_align	aligned	roberta-base	 club she turned to charlie i'll have a	 chocolate	</s>	16.215307235717773	0.032197076827287674	9.073644235968459e-08	0.9976229071617126	10
+375	santa_align	aligned	roberta-base	 she turned to charlie i'll have a chocolate	 milk	</s>	21.471349716186523	0.0002323576045455411	4.732721992084521e-10	0.999985933303833	10
+376	santa_align	aligned	roberta-base	 turned to charlie i'll have a chocolate milk	 and	</s>	15.792966842651367	0.012757567688822746	1.384209014076987e-07	0.9984362721443176	10
+377	santa_align	aligned	roberta-base	 to charlie i'll have a chocolate milk and	 we	</s>	16.064191818237305	0.0009250734001398087	1.0553836915505599e-07	0.9999433755874634	10
+378	santa_align	aligned	roberta-base	 charlie i'll have a chocolate milk and we	're	</s>	17.284345626831055	0.019883206114172935	3.115327373848231e-08	0.9973114728927612	10
+379	santa_align	aligned	roberta-base	lie i'll have a chocolate milk and we're	 out	</s>	13.206878662109375	0.005621084477752447	1.8379145103608607e-06	0.9995858073234558	10
+380	santa_align	aligned	roberta-base	 i'll have a chocolate milk and we're out	 jud	</s>	28.607606887817383	0.013991974294185638	3.765945346366484e-13	0.9981568455696106	10
+381	santa_align	aligned	roberta-base	'll have a chocolate milk and we're out jud	y	</s>	17.725759506225586	0.011904523707926273	2.0035528791595425e-08	0.9984760880470276	10
+382	santa_align	aligned	roberta-base	 have a chocolate milk and we're out judy	 interrupted	</s>	25.495723724365234	0.02104351669549942	8.459562043927615e-12	0.997230589389801	10
+383	santa_align	aligned	roberta-base	 a chocolate milk and we're out judy interrupted	 again	</s>	16.420114517211914	0.036808453500270844	7.393238377062517e-08	0.9947928786277771	10
+384	santa_align	aligned	roberta-base	 chocolate milk and we're out judy interrupted again	 and	</s>	11.735234260559082	0.08609141409397125	8.006679308891762e-06	0.9853472709655762	10
+385	santa_align	aligned	roberta-base	 milk and we're out judy interrupted again and	 char	</s>	22.556209564208984	0.0018622432835400105	1.5994212898551297e-10	0.9998822212219238	10
+386	santa_align	aligned	roberta-base	 and we're out judy interrupted again and char	lie	</s>	19.40384864807129	0.035808123648166656	3.741243759236568e-09	0.9956008195877075	10
+387	santa_align	aligned	roberta-base	 we're out judy interrupted again and charlie	 	</s>	14.624403953552246	0.028179211542010307	4.453504516277462e-07	0.9963575005531311	10
+388	santa_align	aligned	roberta-base	're out judy interrupted again and charlie 	<unk>	</s>	25.5209903717041	0.03524988889694214	8.248502575414207e-12	0.9954355359077454	10
+389	santa_align	aligned	roberta-base	 out judy interrupted again and charlie <unk>	 plain	</s>	17.90001678466797	0.06206744909286499	1.6831458893307172e-08	0.990667998790741	10
+390	santa_align	aligned	roberta-base	 judy interrupted again and charlie <unk> plain	 	</s>	11.91306209564209	0.04352981969714165	6.702282007609028e-06	0.9944854378700256	10
+391	santa_align	aligned	roberta-base	y interrupted again and charlie <unk> plain 	<unk>	</s>	23.29241943359375	0.14413601160049438	7.66004204511006e-11	0.9772160053253174	10
+392	santa_align	aligned	roberta-base	 interrupted again and charlie <unk> plain <unk>	 fine	</s>	15.675871849060059	0.08500298112630844	1.55616390884461e-07	0.9882882833480835	10
+393	santa_align	aligned	roberta-base	 again and charlie <unk> plain <unk> fine	 and	</s>	10.17158031463623	0.06811428815126419	3.8241858419496566e-05	0.9919903874397278	10
+394	santa_align	aligned	roberta-base	 and charlie <unk> plain <unk> fine and	 chicken	</s>	15.781378746032715	0.1771695762872696	1.4003430237607972e-07	0.973207950592041	10
+395	santa_align	aligned	roberta-base	 charlie <unk> plain <unk> fine and chicken	 fingers	</s>	20.13682746887207	0.08933980762958527	1.7975734234454421e-09	0.9899583458900452	10
+396	santa_align	aligned	roberta-base	lie <unk> plain <unk> fine and chicken fingers	 jud	</s>	17.628164291381836	0.13740412890911102	2.208948224335927e-08	0.9827685952186584	10
+397	santa_align	aligned	roberta-base	 <unk> plain <unk> fine and chicken fingers jud	y	</s>	10.772151947021484	0.20724041759967804	2.0975572624593042e-05	0.9670725464820862	10
+398	santa_align	aligned	roberta-base	<unk> plain <unk> fine and chicken fingers judy	 collected	</s>	18.707416534423828	0.09117505699396133	7.507101607018285e-09	0.9885703921318054	10
+399	santa_align	aligned	roberta-base	 plain <unk> fine and chicken fingers judy collected	 their	</s>	13.860281944274902	0.10453186929225922	9.562158993503544e-07	0.9880516529083252	10
+400	santa_align	aligned	roberta-base	 <unk> fine and chicken fingers judy collected their	 menus	</s>	22.05664825439453	0.09296468645334244	2.6358396021386454e-10	0.9877796173095703	10
+401	santa_align	aligned	roberta-base	<unk> fine and chicken fingers judy collected their menus	 and	</s>	10.584173202514648	0.06704128533601761	2.5313489459222183e-05	0.9898239970207214	10
+402	santa_align	aligned	roberta-base	 fine and chicken fingers judy collected their menus and	 	</s>	18.57427978515625	0.001056871609762311	8.57616111460402e-09	0.9999372959136963	10
+403	santa_align	aligned	roberta-base	 and chicken fingers judy collected their menus and 	<unk>	</s>	24.879072189331055	0.05301009863615036	1.567315027761751e-11	0.9929393529891968	10
+404	santa_align	aligned	roberta-base	 chicken fingers judy collected their menus and <unk>	 off	</s>	14.442346572875977	0.09175263345241547	5.342794793250505e-07	0.9860127568244934	10
+405	santa_align	aligned	roberta-base	 fingers judy collected their menus and <unk> off	 toward	</s>	18.644977569580078	0.06655970960855484	7.990773376320703e-09	0.9893825054168701	10
+406	santa_align	aligned	roberta-base	 judy collected their menus and <unk> off toward	 the	</s>	12.053522109985352	0.04717566817998886	5.824004347232403e-06	0.9932637214660645	10
+407	santa_align	aligned	roberta-base	y collected their menus and <unk> off toward the	 kitchen	</s>	15.21987533569336	0.00448465533554554	2.4552309696446173e-07	0.9997143149375916	10
+408	santa_align	aligned	roberta-base	 collected their menus and <unk> off toward the kitchen	 the	</s>	10.109049797058105	0.09713984280824661	4.070945942658e-05	0.9840183854103088	10
+409	santa_align	aligned	roberta-base	 their menus and <unk> off toward the kitchen the	 two	</s>	10.976712226867676	0.3827136754989624	1.7095209841500036e-05	0.930800199508667	10
+410	santa_align	aligned	roberta-base	 menus and <unk> off toward the kitchen the two	 sat	</s>	17.294157028198242	0.20839324593544006	3.0849111709585486e-08	0.9589148163795471	10
+411	santa_align	aligned	roberta-base	 and <unk> off toward the kitchen the two sat	 in	</s>	10.825116157531738	0.1703316867351532	1.9893523131031543e-05	0.9686398506164551	10
+412	santa_align	aligned	roberta-base	 <unk> off toward the kitchen the two sat in	 silence	</s>	18.83409309387207	0.17374998331069946	6.613892544748978e-09	0.9670373201370239	10
+413	santa_align	aligned	roberta-base	<unk> off toward the kitchen the two sat in silence	 for	</s>	13.844742774963379	0.060139644891023636	9.71190615928208e-07	0.9897972345352173	10
+414	santa_align	aligned	roberta-base	 off toward the kitchen the two sat in silence for	 a	</s>	12.27736759185791	0.0005911969929002225	4.65593439002987e-06	0.9999653100967407	10
+415	santa_align	aligned	roberta-base	 toward the kitchen the two sat in silence for a	 minute	</s>	13.803878784179688	0.004401335958391428	1.0116993962583365e-06	0.9997097849845886	10
+416	santa_align	aligned	roberta-base	 the kitchen the two sat in silence for a minute	 sc	</s>	21.702037811279297	0.032720889896154404	3.7577263523047577e-10	0.9952837824821472	10
+417	santa_align	aligned	roberta-base	 kitchen the two sat in silence for a minute sc	ott	</s>	15.685003280639648	0.009496576152741909	1.5420182819525508e-07	0.9992665648460388	10
+418	santa_align	aligned	roberta-base	 the two sat in silence for a minute scott	 put	</s>	16.662273406982422	0.03194434568285942	5.803192948405922e-08	0.9955229759216309	10
+419	santa_align	aligned	roberta-base	 two sat in silence for a minute scott put	 his	</s>	13.257312774658203	0.006938525475561619	1.7475197182648117e-06	0.9994866847991943	10
+420	santa_align	aligned	roberta-base	 sat in silence for a minute scott put his	 palms	</s>	21.935686111450195	0.006308307871222496	2.97476293598109e-10	0.9995627999305725	10
+421	santa_align	aligned	roberta-base	 in silence for a minute scott put his palms	 down	</s>	13.081485748291016	0.0005007792497053742	2.0834495444432832e-06	0.9999686479568481	10
+422	santa_align	aligned	roberta-base	 silence for a minute scott put his palms down	 on	</s>	14.933907508850098	0.027183203026652336	3.268033026415651e-07	0.9963266253471375	10
+423	santa_align	aligned	roberta-base	 for a minute scott put his palms down on	 the	</s>	9.872244834899902	0.08005910366773605	5.158681597094983e-05	0.9884490370750427	10
+424	santa_align	aligned	roberta-base	 a minute scott put his palms down on the	 table	</s>	11.512811660766602	0.009810972958803177	1.0001136615755968e-05	0.9993734955787659	10
+425	santa_align	aligned	roberta-base	 minute scott put his palms down on the table	 look	</s>	20.66436004638672	0.022035060450434685	1.0606758804598826e-09	0.9971530437469482	10
+426	santa_align	aligned	roberta-base	 scott put his palms down on the table look	 i	</s>	15.818323135375977	0.002085950458422303	1.3495514394890051e-07	0.9998643398284912	10
+427	santa_align	aligned	roberta-base	ott put his palms down on the table look i	 i	</s>	11.33495044708252	0.05924683436751366	1.1947954590141308e-05	0.9947827458381653	10
+428	santa_align	aligned	roberta-base	 put his palms down on the table look i i	'm	</s>	11.299198150634766	0.07442078739404678	1.2382844943203963e-05	0.9934390187263489	10
+429	santa_align	aligned	roberta-base	 his palms down on the table look i i'm	 sorry	</s>	21.26282501220703	0.022523745894432068	5.830048110944119e-10	0.9971081614494324	10
+430	santa_align	aligned	roberta-base	 palms down on the table look i i'm sorry	 i	</s>	15.139548301696777	0.032648634165525436	2.660588904745964e-07	0.9951121211051941	10
+431	santa_align	aligned	roberta-base	 down on the table look i i'm sorry i	 was	</s>	9.528676986694336	0.025746233761310577	7.273575465660542e-05	0.9978085160255432	10
+432	santa_align	aligned	roberta-base	 on the table look i i'm sorry i was	 just	</s>	15.283307075500488	0.037219591438770294	2.304326613966623e-07	0.9970269799232483	10
+433	santa_align	aligned	roberta-base	 the table look i i'm sorry i was just	 kidding	</s>	10.659292221069336	0.043199941515922546	2.348162161069922e-05	0.9963841438293457	10
+434	santa_align	aligned	roberta-base	 table look i i'm sorry i was just kidding	 about	</s>	19.416484832763672	0.10881314426660538	3.694265116038764e-09	0.9775607585906982	10
+435	santa_align	aligned	roberta-base	 look i i'm sorry i was just kidding about	 ne	</s>	21.361719131469727	0.23295149207115173	5.281082793295866e-10	0.9386530518531799	10
+436	santa_align	aligned	roberta-base	 i i'm sorry i was just kidding about ne	al	</s>	15.872920989990234	0.30760112404823303	1.2778448876815673e-07	0.9091430902481079	10
+437	santa_align	aligned	roberta-base	 i'm sorry i was just kidding about neal	 i	</s>	15.481480598449707	0.11804310977458954	1.890073093591127e-07	0.9753785729408264	10
+438	santa_align	aligned	roberta-base	'm sorry i was just kidding about neal i	 like	</s>	14.473053932189941	0.10205559432506561	5.181225901651487e-07	0.9800635576248169	10
+439	santa_align	aligned	roberta-base	 sorry i was just kidding about neal i like	 him	</s>	13.207061767578125	0.2686714231967926	1.8375779973212047e-06	0.9273912310600281	10
+440	santa_align	aligned	roberta-base	 i was just kidding about neal i like him	 i	</s>	13.232965469360352	0.1545809954404831	1.790590317796159e-06	0.9662893414497375	10
+441	santa_align	aligned	roberta-base	 was just kidding about neal i like him i	'm	</s>	14.866987228393555	0.11349894106388092	3.4942135584969947e-07	0.9771312475204468	10
+442	santa_align	aligned	roberta-base	 just kidding about neal i like him i'm	 sure	</s>	16.355682373046875	0.11468690633773804	7.885282826691764e-08	0.9766932129859924	10
+443	santa_align	aligned	roberta-base	 kidding about neal i like him i'm sure	 he	</s>	11.285310745239258	0.0937323123216629	1.2556010915432125e-05	0.9830194115638733	10
+444	santa_align	aligned	roberta-base	 about neal i like him i'm sure he	's	</s>	11.230037689208984	0.02542025037109852	1.32695668071392e-05	0.9979948997497559	10
+445	santa_align	aligned	roberta-base	 neal i like him i'm sure he's	 a	</s>	8.238408088684082	0.10442705452442169	0.00026430460275150836	0.9908503890037537	10
+446	santa_align	aligned	roberta-base	al i like him i'm sure he's a	 good	</s>	11.614232063293457	0.039023030549287796	9.036560186359566e-06	0.997105062007904	10
+447	santa_align	aligned	roberta-base	 i like him i'm sure he's a good	 psychiatrist	</s>	27.32352638244629	0.14508678019046783	1.3600145315484369e-12	0.968496561050415	10
+448	santa_align	aligned	roberta-base	 like him i'm sure he's a good psychiatrist	 you	</s>	15.544244766235352	0.08360884338617325	1.7750892311596544e-07	0.9842559695243835	10
+449	santa_align	aligned	roberta-base	 him i'm sure he's a good psychiatrist you	 know	</s>	14.998566627502441	0.1374175101518631	3.063410645154363e-07	0.9711206555366516	10
+450	santa_align	aligned	roberta-base	 i'm sure he's a good psychiatrist you know	 there	</s>	17.35460662841797	0.029170257970690727	2.903953699728845e-08	0.9956977367401123	10
+451	santa_align	aligned	roberta-base	'm sure he's a good psychiatrist you know there	's	</s>	12.05992317199707	0.048041295260190964	5.786844667454716e-06	0.9925394654273987	10
+452	santa_align	aligned	roberta-base	 sure he's a good psychiatrist you know there's	 just	</s>	17.226533889770508	0.005088770762085915	3.300740658573886e-08	0.9996128678321838	10
+453	santa_align	aligned	roberta-base	 he's a good psychiatrist you know there's just	 something	</s>	15.476974487304688	0.003398690139874816	1.8986081329330773e-07	0.9997586607933044	10
+454	santa_align	aligned	roberta-base	's a good psychiatrist you know there's just something	 about	</s>	19.624479293823242	0.012545586563646793	3.000524717577946e-09	0.9983750581741333	10
+455	santa_align	aligned	roberta-base	 a good psychiatrist you know there's just something about	 him	</s>	14.438340187072754	0.041970349848270416	5.364243520489254e-07	0.9935605525970459	10
+456	santa_align	aligned	roberta-base	 good psychiatrist you know there's just something about him	 that	</s>	15.436368942260742	0.03333089500665665	1.977289230126189e-07	0.9949091076850891	10
+457	santa_align	aligned	roberta-base	 psychiatrist you know there's just something about him that	 makes	</s>	17.607994079589844	0.03674566373229027	2.253956488118547e-08	0.994412362575531	10
+458	santa_align	aligned	roberta-base	 you know there's just something about him that makes	 me	</s>	6.824888706207275	0.1965407133102417	0.00108639698009938	0.9801830053329468	10
+459	santa_align	aligned	roberta-base	 know there's just something about him that makes me	 want	</s>	20.28937530517578	0.027989450842142105	1.5432509714585763e-09	0.9958817958831787	10
+460	santa_align	aligned	roberta-base	 there's just something about him that makes me want	 to	</s>	15.021700859069824	0.024397850036621094	2.993354826230643e-07	0.9964082837104797	10
+461	santa_align	aligned	roberta-base	's just something about him that makes me want to	 i	</s>	18.78518295288086	0.023074258118867874	6.945425568005703e-09	0.9968847632408142	10
+462	santa_align	aligned	roberta-base	 just something about him that makes me want to i	 don	</s>	16.809728622436523	0.05912119522690773	5.007576220350529e-08	0.9902987480163574	10
+463	santa_align	aligned	roberta-base	 something about him that makes me want to i don	't	</s>	11.660298347473145	0.000721997581422329	8.629724106867798e-06	0.9999545812606812	10
+464	santa_align	aligned	roberta-base	 about him that makes me want to i don't	 know	</s>	13.656993865966797	0.00016701022104825824	1.1717719416992622e-06	0.9999908208847046	10
+465	santa_align	aligned	roberta-base	 him that makes me want to i don't know	 lash	</s>	24.651025772094727	0.13381418585777283	1.9687711530491647e-11	0.9718519449234009	10
+466	santa_align	aligned	roberta-base	 that makes me want to i don't know lash	 out	</s>	16.85940933227539	0.04992102086544037	4.7648800460819984e-08	0.9923721551895142	10
+467	santa_align	aligned	roberta-base	 makes me want to i don't know lash out	 ir	</s>	20.561803817749023	0.10969118028879166	1.1752273598730767e-09	0.9786807894706726	10
+468	santa_align	aligned	roberta-base	 me want to i don't know lash out ir	ration	</s>	18.999996185302734	0.0005618967697955668	5.602815544847317e-09	0.9999672174453735	10
+469	santa_align	aligned	roberta-base	 want to i don't know lash out irration	ally	</s>	16.70684814453125	0.05395229160785675	5.550196746639813e-08	0.9911026954650879	10
+470	santa_align	aligned	roberta-base	 to i don't know lash out irrationally	 suggested	</s>	19.6762638092041	0.07222916930913925	2.849098068580247e-09	0.9872629046440125	10
+471	santa_align	aligned	roberta-base	 i don't know lash out irrationally suggested	 char	</s>	20.88375473022461	0.054793696850538254	8.517266336660612e-10	0.9926922917366028	10
+472	santa_align	aligned	roberta-base	 don't know lash out irrationally suggested char	lie	</s>	18.144805908203125	0.07510464638471603	1.3176825852667662e-08	0.9910922646522522	10
+473	santa_align	aligned	roberta-base	't know lash out irrationally suggested charlie	 where	</s>	14.398679733276367	0.04053736478090286	5.581266577792121e-07	0.9947758913040161	10
+474	santa_align	aligned	roberta-base	 know lash out irrationally suggested charlie where	 did	</s>	15.678199768066406	0.06531429290771484	1.5525461094512139e-07	0.9915239810943604	10
+475	santa_align	aligned	roberta-base	 lash out irrationally suggested charlie where did	 you	</s>	6.041927814483643	0.1465376764535904	0.002376972697675228	0.9847975373268127	10
+476	santa_align	aligned	roberta-base	 out irrationally suggested charlie where did you	 hear	</s>	19.953338623046875	0.007539449259638786	2.1596111565713727e-09	0.9991810917854309	10
+477	santa_align	aligned	roberta-base	 irrationally suggested charlie where did you hear	 that	</s>	16.115447998046875	0.011318759992718697	1.0026515440131334e-07	0.998681366443634	10
+478	santa_align	aligned	roberta-base	rationally suggested charlie where did you hear that	 from	</s>	16.594234466552734	0.012839122675359249	6.211773495579109e-08	0.9984601736068726	10
+479	santa_align	aligned	roberta-base	ally suggested charlie where did you hear that from	 ne	</s>	24.700517654418945	0.00991574302315712	1.873706918786855e-11	0.9988166093826294	10
+480	santa_align	aligned	roberta-base	 suggested charlie where did you hear that from ne	al	</s>	20.0693302154541	0.009665415622293949	1.923095682698772e-09	0.9989006519317627	10
+481	santa_align	aligned	roberta-base	 charlie where did you hear that from neal	 i	</s>	18.001724243164062	0.019470926374197006	1.5203742265157416e-08	0.9976072311401367	10
+482	santa_align	aligned	roberta-base	lie where did you hear that from neal i	 learn	</s>	20.459108352661133	0.03608502075076103	1.3023321310257074e-09	0.994847297668457	10
+483	santa_align	aligned	roberta-base	 where did you hear that from neal i learn	 a	</s>	12.651885986328125	0.06467361003160477	3.2015152555686655e-06	0.9901964664459229	10
+484	santa_align	aligned	roberta-base	 did you hear that from neal i learn a	 lot	</s>	13.751141548156738	0.09961625933647156	1.0664854244168964e-06	0.9850502610206604	10
+485	santa_align	aligned	roberta-base	 you hear that from neal i learn a lot	 from	</s>	13.310563087463379	0.1254086196422577	1.6568980072406703e-06	0.9752197265625	10
+486	santa_align	aligned	roberta-base	 hear that from neal i learn a lot from	 him	</s>	13.080357551574707	0.11295650154352188	2.0858005882473662e-06	0.979931652545929	10
+487	santa_align	aligned	roberta-base	 that from neal i learn a lot from him	 he	</s>	11.914664268493652	0.10225667804479599	6.69155633659102e-06	0.981667160987854	10
+488	santa_align	aligned	roberta-base	 from neal i learn a lot from him he	 listens	</s>	17.456403732299805	0.01165984570980072	2.62289141517158e-08	0.9990832805633545	10
+489	santa_align	aligned	roberta-base	 neal i learn a lot from him he listens	 to	</s>	11.91506576538086	0.06757814437150955	6.688869234494632e-06	0.988690972328186	10
+490	santa_align	aligned	roberta-base	al i learn a lot from him he listens to	 me	</s>	6.300615310668945	0.0703159049153328	0.0018351749749854207	0.9929760694503784	10
+491	santa_align	aligned	roberta-base	 i learn a lot from him he listens to me	 sc	</s>	21.158802032470703	0.03159523382782936	6.469180746648817e-10	0.9954106211662292	10
+492	santa_align	aligned	roberta-base	 learn a lot from him he listens to me sc	ott	</s>	11.078502655029297	0.0186453890055418	1.5440711649716832e-05	0.9985036849975586	10
+493	santa_align	aligned	roberta-base	 a lot from him he listens to me scott	 shook	</s>	24.411752700805664	0.02966192178428173	2.50098136644894e-11	0.9961297512054443	10
+494	santa_align	aligned	roberta-base	 lot from him he listens to me scott shook	 his	</s>	14.647226333618164	0.001384689356200397	4.353016151981137e-07	0.999916672706604	10
+495	santa_align	aligned	roberta-base	 from him he listens to me scott shook his	 head	</s>	2.4196858406066895	0.5203626751899719	0.08894956111907959	0.8885617256164551	10
+496	santa_align	aligned	roberta-base	 him he listens to me scott shook his head	 yeah	</s>	18.73223876953125	0.00157835241407156	7.323051054441976e-09	0.9998912811279297	10
+497	santa_align	aligned	roberta-base	 he listens to me scott shook his head yeah	 and	</s>	11.523479461669922	0.027454517781734467	9.8950158644584e-06	0.9975359439849854	10
+498	santa_align	aligned	roberta-base	 listens to me scott shook his head yeah and	 then	</s>	10.19017219543457	0.06788478791713715	3.753740747924894e-05	0.9940179586410522	10
+499	santa_align	aligned	roberta-base	 to me scott shook his head yeah and then	 he	</s>	10.394914627075195	0.006746524944901466	3.0587634682888165e-05	0.9995403289794922	10
+500	santa_align	aligned	roberta-base	 me scott shook his head yeah and then he	 charges	</s>	21.982797622680664	0.005599303171038628	2.8378691063757344e-10	0.9995920062065125	10
+501	santa_align	aligned	roberta-base	 scott shook his head yeah and then he charges	 you	</s>	12.742178916931152	0.002932686358690262	2.9251084470161004e-06	0.9997910857200623	10
+502	santa_align	aligned	roberta-base	ott shook his head yeah and then he charges you	 for	</s>	13.816752433776855	0.05897681415081024	9.987588782678358e-07	0.9899598360061646	10
+503	santa_align	aligned	roberta-base	 shook his head yeah and then he charges you for	 it	</s>	4.474833965301514	0.6154592633247375	0.011392111890017986	0.9296543598175049	10
+504	santa_align	aligned	roberta-base	 his head yeah and then he charges you for it	 jud	</s>	23.956878662109375	0.04173576831817627	3.9414832508910536e-11	0.9934636950492859	10
+505	santa_align	aligned	roberta-base	 head yeah and then he charges you for it jud	y	</s>	16.08099937438965	0.046135637909173965	1.0377925008242528e-07	0.9926338791847229	10
+506	santa_align	aligned	roberta-base	 yeah and then he charges you for it judy	 	</s>	16.395130157470703	0.025495128706097603	7.580284488994948e-08	0.9964815378189087	10
+507	santa_align	aligned	roberta-base	 and then he charges you for it judy 	<unk>	</s>	24.442943572998047	0.10107239335775375	2.4241763110777192e-11	0.9827359914779663	10
+508	santa_align	aligned	roberta-base	 then he charges you for it judy <unk>	 with	</s>	12.986327171325684	0.11319095641374588	2.2914471173862694e-06	0.9792957305908203	10
+509	santa_align	aligned	roberta-base	 he charges you for it judy <unk> with	 their	</s>	16.28514862060547	0.06853923946619034	8.461550038418864e-08	0.9900800585746765	10
+510	santa_align	aligned	roberta-base	 charges you for it judy <unk> with their	 drinks	</s>	24.278484344482422	0.0004762870667036623	2.8575142252407204e-11	0.9999699592590332	10
+511	santa_align	aligned	roberta-base	 you for it judy <unk> with their drinks	 the	</s>	10.812847137451172	0.08654683828353882	2.013911034737248e-05	0.9870613217353821	10
+512	santa_align	aligned	roberta-base	 for it judy <unk> with their drinks the	 sandwich	</s>	16.167156219482422	0.2024499475955963	9.521226473907518e-08	0.965610146522522	10
+513	santa_align	aligned	roberta-base	 it judy <unk> with their drinks the sandwich	 and	</s>	10.222352027893066	0.11895335465669632	3.6348708817968145e-05	0.9808613657951355	10
+514	santa_align	aligned	roberta-base	 judy <unk> with their drinks the sandwich and	 chicken	</s>	16.09056854248047	0.08452960848808289	1.027908993478377e-07	0.9897903800010681	10
+515	santa_align	aligned	roberta-base	y <unk> with their drinks the sandwich and chicken	 fingers	</s>	20.151594161987305	0.09719014912843704	1.7712248334689207e-09	0.9845260381698608	10
+516	santa_align	aligned	roberta-base	 <unk> with their drinks the sandwich and chicken fingers	 char	</s>	22.971120834350586	0.04140343889594078	1.0562554303428229e-10	0.9937765598297119	10
+517	santa_align	aligned	roberta-base	<unk> with their drinks the sandwich and chicken fingers char	lie	</s>	22.12592124938965	0.07501731067895889	2.459428494194782e-10	0.9876856803894043	10
+518	santa_align	aligned	roberta-base	 with their drinks the sandwich and chicken fingers charlie	 dove	</s>	22.455961227416992	0.04745456948876381	1.7680716613011072e-10	0.992952287197113	10
+519	santa_align	aligned	roberta-base	 their drinks the sandwich and chicken fingers charlie dove	 into	</s>	15.607576370239258	0.047190967947244644	1.666156492774462e-07	0.9927992820739746	10
+520	santa_align	aligned	roberta-base	 drinks the sandwich and chicken fingers charlie dove into	 the	</s>	8.96721363067627	0.016470495611429214	0.00012752297334372997	0.9986445307731628	10
+521	santa_align	aligned	roberta-base	 the sandwich and chicken fingers charlie dove into the	 french	</s>	14.438563346862793	0.11575782299041748	5.363044692785479e-07	0.9907235503196716	10
+522	santa_align	aligned	roberta-base	 sandwich and chicken fingers charlie dove into the french	 fries	</s>	17.6216983795166	0.021664420142769814	2.2232770291452653e-08	0.9971144199371338	10
+523	santa_align	aligned	roberta-base	 and chicken fingers charlie dove into the french fries	 on	</s>	14.864025115966797	0.022055014967918396	3.5045795243604516e-07	0.9970346689224243	10
+524	santa_align	aligned	roberta-base	 chicken fingers charlie dove into the french fries on	 his	</s>	7.33173131942749	0.8274546265602112	0.000654439500067383	0.9104586243629456	10
+525	santa_align	aligned	roberta-base	 fingers charlie dove into the french fries on his	 plate	</s>	17.835155487060547	0.0018783562118187547	1.7959344233986485e-08	0.9998838901519775	10
+526	santa_align	aligned	roberta-base	 charlie dove into the french fries on his plate	 merry	</s>	26.70359230041504	0.018712997436523438	2.5280010289979726e-12	0.9974114298820496	10
+527	santa_align	aligned	roberta-base	lie dove into the french fries on his plate merry	 christ	</s>	20.13129997253418	0.09411080926656723	1.8075373420245455e-09	0.9822021126747131	10
+528	santa_align	aligned	roberta-base	 dove into the french fries on his plate merry christ	mas	</s>	22.035106658935547	0.036142557859420776	2.693236744732985e-10	0.9943619966506958	10
+529	santa_align	aligned	roberta-base	 into the french fries on his plate merry christmas	 you	</s>	16.58835792541504	0.026177216321229935	6.248386341667356e-08	0.99615877866745	10
+530	santa_align	aligned	roberta-base	 the french fries on his plate merry christmas you	 two	</s>	17.390769958496094	0.017007557675242424	2.8008178887262147e-08	0.9976612329483032	10
