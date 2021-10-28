@@ -20,27 +20,34 @@ class StridingMLM:
         self.context_length = context_length
         self.softmax_fn = torch.nn.Softmax(dim=-1)
         
-    def _split(self, tokenized):
-        n_tokens = tokenized['input_ids'].shape[-1]
+    def _split(self, whitespaced, tokenizer):
+        n_tokens = len(whitespaced)
+        #n_tokens = tokenized['input_ids'].shape[-1]
         i_start = list(range(0, 
                              n_tokens-(self.context_length+1)))
         i_end = [i+(self.context_length+1) for i in i_start]
-        split_tks = [tokenized['input_ids'][:,i_s:i_e]
+        split_tks = [tokenizer(' '.join(whitespaced[i_s:i_e]), return_tensors='pt')['input_ids']
                      for i_s, i_e in zip(i_start,i_end)]
+        #split_tks = [tokenized['input_ids'][:,i_s:i_e]
+        #             for i_s, i_e in zip(i_start,i_end)]
         return split_tks
     
     def _preprocess(self, text, tokenizer, gpu):
-        tokenized = tokenizer(text, return_tensors='pt').to(device=f'cuda:{str(gpu)}')
-        tokenized_lst = self._split(tokenized)
+        whitespaced = text.split(' ')
+        #tokenized = tokenizer(text, return_tensors='pt').to(device=f'cuda:{str(gpu)}')
+        # tokenized text is split into n-length windows
+        tokenized_lst = self._split(whitespaced, tokenizer)
         return tokenized_lst
     
     def _mask(self, list_item, tokenizer):
-        input_ids = list_item.clone()
+        input_ids = list_item.clone() # 
         target_ids = input_ids.clone()
-        input_ids[0][-1] = tokenizer.mask_token_id
-        target_ids[:,:-1] = -100
-        ctx = tokenizer.decode(input_ids[0][:-1])
-        wd_id = target_ids[0][-1]
+        #input_ids[0][-1] = tokenizer.mask_token_id
+        input_ids[0][-2] = tokenizer.mask_token_id
+        target_ids[:,:-2] = -100 # replaced -1 with -2
+        target_ids[:,-1] = -100 # added
+        ctx = tokenizer.decode(input_ids[0][:-2]) # replaced -1 with -2
+        wd_id = target_ids[0][-2] # replaced -1 with -2
         wd = tokenizer.decode(wd_id)
         return input_ids, target_ids, ctx, wd, wd_id
     
@@ -61,13 +68,13 @@ class StridingMLM:
         time.sleep(.5)
         results = []
         tokenized_lst = self._preprocess(dataset.text, 
-                                         tokenizer, gpu)
+                                         tokenizer, gpu) # masking
         print(f'Running {model_name}, '
               f'{dataset.name}, {self.context_length}, '
               f'{len(tokenized_lst)}')
         for i in tqdm(range(len(tokenized_lst))):
-            input_ids, target_ids, ctx, wd, wd_id = self._mask(tokenized_lst[i],
-                                                               tokenizer)
+            input_ids, target_ids, ctx, wd, wd_id = self._mask(tokenized_lst[i].to(device=f'cuda:{str(gpu)}'), # edited
+                                                               tokenizer) # make masking
             outputs = model(input_ids, labels=target_ids)
             metrics = self._compute_metrics(outputs, wd_id, tokenizer)
             results.append((dataset.name, 
@@ -77,8 +84,8 @@ class StridingMLM:
                             self.context_length))
         output = pd.DataFrame(results, columns=COLUMNS)
         return output
- 
-
+    
+    
 class StridingForwardLM(StridingMLM):
     ''' Class for striding forward LM over a dataset 
         Applies to GPT-like models.
@@ -95,6 +102,7 @@ class StridingForwardLM(StridingMLM):
         wd_id = list_item[0,-1]
         wd = tokenizer.decode(wd_id)
         return input_ids, target_ids, ctx, wd, wd_id
-   
+    
+
 
     
