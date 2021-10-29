@@ -1,0 +1,965 @@
+	dataset	type	model	context	target	orig_wd	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	shapessocial_transcript	transcript	gpt2	A young boy carrying a ball goes to an empty	play	playground	house	4.437135696411133	5.883350849151611	1.839072361065064e-08	0.05226550251245499	10
+1	shapessocial_transcript	transcript	gpt2	young boy carrying a ball goes to an empty playground	to	to	.	6.925492286682129	3.442815065383911	2.9783726063215e-07	0.260519415140152	10
+2	shapessocial_transcript	transcript	gpt2	boy carrying a ball goes to an empty playground to	play	play	play	5.197352409362793	5.420724868774414	1.236145635630237e-06	0.1194087490439415	10
+3	shapessocial_transcript	transcript	gpt2	carrying a ball goes to an empty playground to play	by	by	with	3.5404489040374756	4.484184741973877	6.935862870705023e-07	0.11203762888908386	10
+4	shapessocial_transcript	transcript	gpt2	a ball goes to an empty playground to play by	him	himself.	.	6.523281097412109	5.2541375160217285	9.87372686722665e-07	0.20133349299430847	10
+5	shapessocial_transcript	transcript	gpt2	ball goes to an empty playground to play by himself.	The	The	"
+"	0.7731283903121948	4.750035762786865	0.0002310324925929308	0.21037784218788147	10
+6	shapessocial_transcript	transcript	gpt2	goes to an empty playground to play by himself. The	boy	boy	game	2.9915404319763184	7.689029216766357	6.047405349818291e-07	0.023784073069691658	10
+7	shapessocial_transcript	transcript	gpt2	to an empty playground to play by himself. The boy	k	kicks	was	4.944869518280029	5.6582489013671875	2.6292773327440955e-06	0.07280872017145157	10
+8	shapessocial_transcript	transcript	gpt2	an empty playground to play by himself. The boy kicks	the	the	the	8.735937118530273	3.795917510986328	5.227615247349604e-07	0.19333475828170776	10
+9	shapessocial_transcript	transcript	gpt2	empty playground to play by himself. The boy kicks the	ball	ball	ball	1.7108910083770752	6.421053409576416	2.092936119879596e-05	0.11796897649765015	10
+10	shapessocial_transcript	transcript	gpt2	playground to play by himself. The boy kicks the ball	and	and	out	2.2904212474823	4.0960211753845215	1.941727759913192e-06	0.10075151920318604	10
+11	shapessocial_transcript	transcript	gpt2	to play by himself. The boy kicks the ball and	then	then	runs	2.715576410293579	6.294277667999268	1.0445317002449883e-06	0.04544523358345032	10
+12	shapessocial_transcript	transcript	gpt2	play by himself. The boy kicks the ball and then	d	dashes	runs	3.225041151046753	6.246131896972656	8.617075195616053e-07	0.03770207613706589	10
+13	shapessocial_transcript	transcript	gpt2	by himself. The boy kicks the ball and then dashes	after	after	off	0.8980451822280884	3.5218896865844727	4.451625272849924e-07	0.17087993025779724	10
+14	shapessocial_transcript	transcript	gpt2	himself. The boy kicks the ball and then dashes after	it	it.	the	3.8628437519073486	4.041382312774658	4.714519945991924e-06	0.28764986991882324	10
+15	shapessocial_transcript	transcript	gpt2	The boy kicks the ball and then dashes after it.	He	He	"
+"	1.2244832515716553	4.083440780639648	0.00020337333262432367	0.3123909831047058	10
+16	shapessocial_transcript	transcript	gpt2	boy kicks the ball and then dashes after it. He	lines	lines	's	2.533674478530884	5.593724727630615	1.821429691517551e-07	0.07860296964645386	10
+17	shapessocial_transcript	transcript	gpt2	kicks the ball and then dashes after it. He lines	up	up	up	8.430983543395996	0.6264620423316956	0.00013585356646217406	0.9209951758384705	10
+18	shapessocial_transcript	transcript	gpt2	the ball and then dashes after it. He lines up	his	his	on	0.1144273653626442	4.318273067474365	5.100981184114062e-07	0.08451186865568161	10
+19	shapessocial_transcript	transcript	gpt2	ball and then dashes after it. He lines up his	shot	shot	left	2.9398059844970703	7.0532989501953125	2.845117705874145e-06	0.02093401737511158	10
+20	shapessocial_transcript	transcript	gpt2	and then dashes after it. He lines up his shot	and	and	with	5.253727436065674	3.456580877304077	5.39258826393052e-06	0.24944829940795898	10
+21	shapessocial_transcript	transcript	gpt2	then dashes after it. He lines up his shot and	k	kicks	then	1.8988170623779297	6.414779186248779	4.1733903799467953e-07	0.03247063234448433	10
+22	shapessocial_transcript	transcript	gpt2	dashes after it. He lines up his shot and kicks	the	the	it	6.536040782928467	3.97377872467041	1.1435128044468001e-06	0.29335010051727295	10
+23	shapessocial_transcript	transcript	gpt2	after it. He lines up his shot and kicks the	ball	ball	ball	2.088611125946045	2.778977870941162	1.77847523445962e-05	0.6352477669715881	10
+24	shapessocial_transcript	transcript	gpt2	it. He lines up his shot and kicks the ball	again	again.	out	0.4397863745689392	3.791527271270752	1.207571287409337e-08	0.12120474874973297	10
+25	shapessocial_transcript	transcript	gpt2	He lines up his shot and kicks the ball again.	The	The	"
+"	1.1105709075927734	5.132187843322754	0.00032829001429490745	0.2234574556350708	10
+26	shapessocial_transcript	transcript	gpt2	lines up his shot and kicks the ball again. The	boy	boy	ball	2.8554484844207764	6.779208660125732	9.579215287658371e-08	0.04211060702800751	10
+27	shapessocial_transcript	transcript	gpt2	up his shot and kicks the ball again. The boy	cat	catches	is	8.482551574707031	5.869266986846924	1.746862494655943e-06	0.07006341218948364	10
+28	shapessocial_transcript	transcript	gpt2	his shot and kicks the ball again. The boy catches	up	up	it	6.062761306762695	2.5058693885803223	4.096650627616327e-06	0.3685372471809387	10
+29	shapessocial_transcript	transcript	gpt2	shot and kicks the ball again. The boy catches up	to	to	to	4.667370319366455	2.2203807830810547	2.7884296287084e-05	0.3783107399940491	10
+30	shapessocial_transcript	transcript	gpt2	and kicks the ball again. The boy catches up to	the	the	him	1.0022964477539062	3.526740312576294	1.3765755284111947e-05	0.33037516474723816	10
+31	shapessocial_transcript	transcript	gpt2	kicks the ball again. The boy catches up to the	ball	ball	ball	1.376357078552246	5.613676071166992	8.271829756267834e-06	0.17659078538417816	10
+32	shapessocial_transcript	transcript	gpt2	the ball again. The boy catches up to the ball	and	and	and	1.0757461786270142	3.149352788925171	9.142328781308606e-05	0.3761240839958191	10
+33	shapessocial_transcript	transcript	gpt2	ball again. The boy catches up to the ball and	b	bounces	throws	0.9528995752334595	6.175536632537842	8.142430374391552e-07	0.028587818145751953	10
+34	shapessocial_transcript	transcript	gpt2	again. The boy catches up to the ball and bounces	it	it	it	6.0043745040893555	2.5452234745025635	1.0239593848382356e-06	0.49945467710494995	10
+35	shapessocial_transcript	transcript	gpt2	The boy catches up to the ball and bounces it	off	off	off	0.6732854247093201	3.707178831100464	3.021797056135256e-06	0.19612541794776917	10
+36	shapessocial_transcript	transcript	gpt2	boy catches up to the ball and bounces it off	the	the	the	1.9158523082733154	3.3535068035125732	9.276315722672734e-06	0.3491249680519104	10
+37	shapessocial_transcript	transcript	gpt2	catches up to the ball and bounces it off the	play	playground’s	ground	0.8732446432113647	5.294099807739258	7.295182768984887e-08	0.07172191888093948	10
+38	shapessocial_transcript	transcript	gpt2	up to the ball and bounces it off the playground’s	f	fences	.	6.680436134338379	6.412215232849121	7.144353730836883e-05	0.08422968536615372	10
+39	shapessocial_transcript	transcript	gpt2	to the ball and bounces it off the playground’s fences	sever	several	.	7.501206398010254	3.102830648422241	5.990083877804864e-07	0.29585814476013184	10
+40	shapessocial_transcript	transcript	gpt2	the ball and bounces it off the playground’s fences several	times	times,	times	10.603224754333496	2.4978625774383545	9.389242222823668e-06	0.5456752777099609	10
+41	shapessocial_transcript	transcript	gpt2	ball and bounces it off the playground’s fences several times,	pass	passing	and	2.059110641479492	5.898011207580566	1.3472360933519667e-06	0.12634003162384033	10
+42	shapessocial_transcript	transcript	gpt2	and bounces it off the playground’s fences several times, passing	it	it	by	7.525310516357422	5.6618332862854	1.9735375644813757e-06	0.08918999880552292	10
+43	shapessocial_transcript	transcript	gpt2	bounces it off the playground’s fences several times, passing it	to	to	off	2.7757537364959717	3.7604782581329346	1.236544221683289e-06	0.14725032448768616	10
+44	shapessocial_transcript	transcript	gpt2	it off the playground’s fences several times, passing it to	him	himself.	the	2.768460273742676	5.638582706451416	1.2745938420266612e-06	0.1502799540758133	10
+45	shapessocial_transcript	transcript	gpt2	off the playground’s fences several times, passing it to himself.	As	As	"
+"	1.4837899208068848	4.86834716796875	0.0005710943369194865	0.19026750326156616	10
+46	shapessocial_transcript	transcript	gpt2	the playground’s fences several times, passing it to himself. As	he	he	he	4.396613121032715	3.9075767993927	0.00031532454886473715	0.33520492911338806	10
+47	shapessocial_transcript	transcript	gpt2	playground’s fences several times, passing it to himself. As he	c	circles	walks	1.2323697805404663	5.920259952545166	2.151948308437568e-07	0.047910481691360474	10
+48	shapessocial_transcript	transcript	gpt2	fences several times, passing it to himself. As he circles	the	the	around	9.986845970153809	3.2422468662261963	9.914441534419893e-07	0.2618129551410675	10
+49	shapessocial_transcript	transcript	gpt2	several times, passing it to himself. As he circles the	ball	ball,	room	1.3713144063949585	6.810544013977051	1.8085758028973942e-06	0.09188088029623032	10
+50	shapessocial_transcript	transcript	gpt2	times, passing it to himself. As he circles the ball,	lining	lining	he	0.7534402012825012	5.0313615798950195	3.513228818974312e-08	0.3103039562702179	10
+51	shapessocial_transcript	transcript	gpt2	passing it to himself. As he circles the ball, lining	up	up	up	10.65694808959961	1.8301928043365479	6.248315185075626e-05	0.6006529331207275	10
+52	shapessocial_transcript	transcript	gpt2	it to himself. As he circles the ball, lining up	his	his	for	0.5261189937591553	4.202019691467285	2.6366510610387195e-06	0.1326538473367691	10
+53	shapessocial_transcript	transcript	gpt2	to himself. As he circles the ball, lining up his	next	next	body	3.2579805850982666	6.439689636230469	2.8762544346250252e-08	0.03609734773635864	10
+54	shapessocial_transcript	transcript	gpt2	himself. As he circles the ball, lining up his next	shot	shot,	pass	5.821238040924072	5.507934093475342	1.447443719371222e-05	0.10684779286384583	10
+55	shapessocial_transcript	transcript	gpt2	As he circles the ball, lining up his next shot,	his	his	he	0.5896466970443726	6.707563877105713	4.644487034966005e-06	0.14118903875350952	10
+56	shapessocial_transcript	transcript	gpt2	he circles the ball, lining up his next shot, his	father	father	first	4.649747848510742	6.17281436920166	4.630316041698279e-08	0.0684109702706337	10
+57	shapessocial_transcript	transcript	gpt2	circles the ball, lining up his next shot, his father	shows	shows	,	7.454801559448242	6.706320762634277	2.205278626377094e-08	0.05719726160168648	10
+58	shapessocial_transcript	transcript	gpt2	the ball, lining up his next shot, his father shows	up	up	up	8.106473922729492	2.8336126804351807	1.2634991435334086e-05	0.39454033970832825	10
+59	shapessocial_transcript	transcript	gpt2	ball, lining up his next shot, his father shows up	and	and	and	0.9222699403762817	3.2270138263702393	7.20294565326185e-06	0.1676502525806427	10
+60	shapessocial_transcript	transcript	gpt2	lining up his next shot, his father shows up and	c	calls	says	1.6673636436462402	6.18193244934082	1.2042960406688508e-06	0.06353405117988586	10
+61	shapessocial_transcript	transcript	gpt2	up his next shot, his father shows up and calls	for	for	the	4.831496715545654	4.010708808898926	5.677619355992647e-06	0.20437824726104736	10
+62	shapessocial_transcript	transcript	gpt2	his next shot, his father shows up and calls for	him	him.	help	2.4477791786193848	4.306849002838135	5.27784678183707e-08	0.22094522416591644	10
+63	shapessocial_transcript	transcript	gpt2	next shot, his father shows up and calls for him.	The	The	"
+"	1.9590312242507935	4.82522439956665	0.00018936565902549773	0.21586623787879944	10
+64	shapessocial_transcript	transcript	gpt2	shot, his father shows up and calls for him. The	boy	boy	two	2.725579023361206	7.177893161773682	8.403395668210578e-07	0.06556207686662674	10
+65	shapessocial_transcript	transcript	gpt2	his father shows up and calls for him. The boy	t	takes	is	3.591604709625244	5.262389183044434	6.232820851437282e-06	0.14253172278404236	10
+66	shapessocial_transcript	transcript	gpt2	father shows up and calls for him. The boy takes	one	one	the	4.673019886016846	3.9387001991271973	8.013021357555772e-08	0.1421239972114563	10
+67	shapessocial_transcript	transcript	gpt2	shows up and calls for him. The boy takes one	final	final	look	4.291574954986572	3.0679800510406494	1.0307317221958101e-09	0.3106222152709961	10
+68	shapessocial_transcript	transcript	gpt2	up and calls for him. The boy takes one final	kick	kick	look	4.355255603790283	4.048095703125	3.372528212253201e-08	0.2986685633659363	10
+69	shapessocial_transcript	transcript	gpt2	and calls for him. The boy takes one final kick	of	of	to	6.346530437469482	3.0328986644744873	2.5043041205208283e-06	0.23385252058506012	10
+70	shapessocial_transcript	transcript	gpt2	calls for him. The boy takes one final kick of	the	the	his	3.9847285747528076	2.4633798599243164	1.3364235655899392e-06	0.6230300068855286	10
+71	shapessocial_transcript	transcript	gpt2	for him. The boy takes one final kick of the	ball	ball	kick	1.7528283596038818	6.337498188018799	1.696441245258029e-06	0.06531279534101486	10
+72	shapessocial_transcript	transcript	gpt2	him. The boy takes one final kick of the ball	before	before	and	3.352058172225952	2.925849676132202	1.2832312677346636e-05	0.35142621397972107	10
+73	shapessocial_transcript	transcript	gpt2	The boy takes one final kick of the ball before	le	leaving	he	2.859127998352051	5.991838455200195	2.090716151315064e-07	0.084844209253788	10
+74	shapessocial_transcript	transcript	gpt2	boy takes one final kick of the ball before leaving	the	the	the	5.149877548217773	2.3495395183563232	6.568887329194695e-06	0.6332719326019287	10
+75	shapessocial_transcript	transcript	gpt2	takes one final kick of the ball before leaving the	play	playground	field	0.49601879715919495	3.635568141937256	2.150226379171727e-07	0.4019677937030792	10
+76	shapessocial_transcript	transcript	gpt2	one final kick of the ball before leaving the playground	to	to	.	12.29263973236084	3.125328540802002	3.109819090241217e-06	0.3873210847377777	10
+77	shapessocial_transcript	transcript	gpt2	final kick of the ball before leaving the playground to	meet	meet	play	2.5681633949279785	5.9022674560546875	7.035401949906372e-08	0.03848305717110634	10
+78	shapessocial_transcript	transcript	gpt2	kick of the ball before leaving the playground to meet	his	his	the	4.703152656555176	5.523551940917969	3.6157446174911456e-06	0.14430120587348938	10
+79	shapessocial_transcript	transcript	gpt2	of the ball before leaving the playground to meet his	wa	waiting	mother	1.8754831552505493	5.489384651184082	2.045520730575845e-08	0.05355145409703255	10
+80	shapessocial_transcript	transcript	gpt2	the ball before leaving the playground to meet his waiting	father	father.	teammates	8.735608100891113	5.977414131164551	4.4068283955311927e-07	0.049008116126060486	10
+81	shapessocial_transcript	transcript	gpt2	ball before leaving the playground to meet his waiting father.	The	The	"
+"	0.6781314015388489	4.577367305755615	0.00046421802835538983	0.290094256401062	10
+82	shapessocial_transcript	transcript	gpt2	before leaving the playground to meet his waiting father. The	boy	boy	boy	2.9961891174316406	7.250035762786865	8.515806371178769e-07	0.047645166516304016	10
+83	shapessocial_transcript	transcript	gpt2	leaving the playground to meet his waiting father. The boy	and	and	was	3.044618606567383	5.673893451690674	4.2450113824088476e-07	0.09841662645339966	10
+84	shapessocial_transcript	transcript	gpt2	the playground to meet his waiting father. The boy and	his	his	his	4.671629905700684	2.334803342819214	2.070967411782476e-06	0.672008216381073	10
+85	shapessocial_transcript	transcript	gpt2	playground to meet his waiting father. The boy and his	father	father	father	0.41355735063552856	4.230944633483887	2.831491656252183e-06	0.2562313973903656	10
+86	shapessocial_transcript	transcript	gpt2	to meet his waiting father. The boy and his father	ex	exchange	were	1.3292325735092163	5.423118591308594	5.6762885947136965e-08	0.12442539632320404	10
+87	shapessocial_transcript	transcript	gpt2	meet his waiting father. The boy and his father exchange	a	a	a	7.148431777954102	5.579326152801514	1.301533984587877e-06	0.18077708780765533	10
+88	shapessocial_transcript	transcript	gpt2	his waiting father. The boy and his father exchange a	few	few	few	1.9650695323944092	5.226968288421631	3.133741756755626e-06	0.17872534692287445	10
+89	shapessocial_transcript	transcript	gpt2	waiting father. The boy and his father exchange a few	words	words	words	1.7199344635009766	4.731428146362305	4.304410140321124e-06	0.3701467514038086	10
+90	shapessocial_transcript	transcript	gpt2	father. The boy and his father exchange a few words	and	and	,	0.9616196155548096	3.024298667907715	4.781500706485531e-07	0.17520298063755035	10
+91	shapessocial_transcript	transcript	gpt2	The boy and his father exchange a few words and	leave	leave.	then	2.8912882804870605	6.02837610244751	3.949772775513338e-08	0.1444176286458969	10
+92	shapessocial_transcript	transcript	gpt2	boy and his father exchange a few words and leave.	The	The	"
+"	1.5852829217910767	5.5399603843688965	0.00023840439098421484	0.20128528773784637	10
+93	shapessocial_transcript	transcript	gpt2	and his father exchange a few words and leave. The	boy	boy	two	2.839211940765381	7.426547527313232	9.341611644231307e-07	0.03696068003773689	10
+94	shapessocial_transcript	transcript	gpt2	his father exchange a few words and leave. The boy	and	and	is	3.659881353378296	5.844734191894531	4.798430950359034e-07	0.06950999796390533	10
+95	shapessocial_transcript	transcript	gpt2	father exchange a few words and leave. The boy and	his	his	his	4.652951240539551	3.5795207023620605	8.265534461315838e-07	0.37769806385040283	10
+96	shapessocial_transcript	transcript	gpt2	exchange a few words and leave. The boy and his	father	father	friends	1.043466329574585	4.6937174797058105	3.5731652587855933e-06	0.11127305030822754	10
+97	shapessocial_transcript	transcript	gpt2	a few words and leave. The boy and his father	live	live	are	2.863795518875122	5.296710968017578	5.768675492845432e-08	0.12361370772123337	10
+98	shapessocial_transcript	transcript	gpt2	few words and leave. The boy and his father live	in	in	in	6.339522361755371	3.3319296836853027	1.9339229311299277e-06	0.41251182556152344	10
+99	shapessocial_transcript	transcript	gpt2	words and leave. The boy and his father live in	a	a	a	0.8214440941810608	4.501280784606934	9.552600204187911e-06	0.3065491020679474	10
+100	shapessocial_transcript	transcript	gpt2	and leave. The boy and his father live in a	mod	modest,	small	1.1860017776489258	5.238663196563721	5.3600572869072494e-08	0.20387983322143555	10
+101	shapessocial_transcript	transcript	gpt2	leave. The boy and his father live in a modest,	two	two	modest	2.397509813308716	5.9675822257995605	1.6851635109560448e-07	0.05727114528417587	10
+102	shapessocial_transcript	transcript	gpt2	The boy and his father live in a modest, two	story	story	-	2.7210757732391357	0.32626691460609436	5.791352577944053e-06	0.9478129148483276	10
+103	shapessocial_transcript	transcript	gpt2	boy and his father live in a modest, two story	home	home	house	4.126401901245117	3.226747512817383	4.4776343202102e-06	0.34336936473846436	10
+104	shapessocial_transcript	transcript	gpt2	and his father live in a modest, two story home	with	with	in	2.587038993835449	3.186497211456299	6.339463197946316e-06	0.22026392817497253	10
+105	shapessocial_transcript	transcript	gpt2	his father live in a modest, two story home with	a	a	a	2.2243363857269287	3.4518985748291016	3.161668018947239e-06	0.2545046806335449	10
+106	shapessocial_transcript	transcript	gpt2	father live in a modest, two story home with a	point	pointed	large	1.2074215412139893	6.566962718963623	1.6126023183460347e-08	0.044861726462841034	10
+107	shapessocial_transcript	transcript	gpt2	live in a modest, two story home with a pointed	ro	roof.	fireplace	10.038830757141113	4.874105930328369	1.1243231710977852e-05	0.142603799700737	10
+108	shapessocial_transcript	transcript	gpt2	in a modest, two story home with a pointed roof.	After	After	"
+"	1.6220664978027344	4.658925533294678	1.2145753316872288e-05	0.17200841009616852	10
+109	shapessocial_transcript	transcript	gpt2	a modest, two story home with a pointed roof. After	ar	arriving	a	5.804004669189453	5.555861949920654	9.391391358803958e-06	0.15698282420635223	10
+110	shapessocial_transcript	transcript	gpt2	modest, two story home with a pointed roof. After arriving	home	home,	at	5.283777713775635	2.553277015686035	2.0201114239171147e-06	0.3837677538394928	10
+111	shapessocial_transcript	transcript	gpt2	two story home with a pointed roof. After arriving home,	they	they	the	0.7667371034622192	5.1447319984436035	7.3531377893232275e-06	0.12022715061903	10
+112	shapessocial_transcript	transcript	gpt2	story home with a pointed roof. After arriving home, they	have	have	were	3.2892589569091797	5.354713439941406	1.1763611951209896e-07	0.10525976866483688	10
+113	shapessocial_transcript	transcript	gpt2	home with a pointed roof. After arriving home, they have	a	a	to	5.262241363525391	4.481677055358887	2.2418128082790645e-06	0.23961547017097473	10
+114	shapessocial_transcript	transcript	gpt2	with a pointed roof. After arriving home, they have a	short	short	conversation	1.611675500869751	6.430343151092529	5.5329000048232047e-08	0.047624725848436356	10
+115	shapessocial_transcript	transcript	gpt2	a pointed roof. After arriving home, they have a short	chat	chat,	conversation	4.236520767211914	3.6336777210235596	7.08891320755356e-07	0.29044800996780396	10
+116	shapessocial_transcript	transcript	gpt2	pointed roof. After arriving home, they have a short chat,	and	and	and	2.3622071743011475	4.311615467071533	6.70680237817578e-05	0.27710768580436707	10
+117	shapessocial_transcript	transcript	gpt2	roof. After arriving home, they have a short chat, and	the	the	then	1.1122462749481201	5.841145992279053	3.531456513883313e-06	0.07489867508411407	10
+118	shapessocial_transcript	transcript	gpt2	After arriving home, they have a short chat, and the	boy	boy	two	3.1471784114837646	6.534442901611328	3.7985631706760614e-07	0.10875877737998962	10
+119	shapessocial_transcript	transcript	gpt2	arriving home, they have a short chat, and the boy	turn	turns	is	5.308094024658203	5.345390796661377	3.441084572841646e-08	0.1099693700671196	10
+120	shapessocial_transcript	transcript	gpt2	home, they have a short chat, and the boy turns	and	and	to	5.432238578796387	3.4968833923339844	6.257722588998149e-07	0.20444345474243164	10
+121	shapessocial_transcript	transcript	gpt2	they have a short chat, and the boy turns and	cl	climbs	says	2.7819771766662598	4.781915187835693	4.639951711737922e-08	0.12649257481098175	10
+122	shapessocial_transcript	transcript	gpt2	have a short chat, and the boy turns and climbs	the	the	up	6.834298133850098	2.890415906906128	1.4173831175412488e-07	0.15169267356395721	10
+123	shapessocial_transcript	transcript	gpt2	a short chat, and the boy turns and climbs the	stairs	stairs	stairs	3.1420037746429443	4.15485143661499	1.209140577884682e-06	0.31918367743492126	10
+124	shapessocial_transcript	transcript	gpt2	short chat, and the boy turns and climbs the stairs	to	to	.	1.106063723564148	2.950242280960083	7.137682587199379e-06	0.30936217308044434	10
+125	shapessocial_transcript	transcript	gpt2	chat, and the boy turns and climbs the stairs to	his	his	the	1.5461373329162598	3.1648714542388916	3.1050094548845664e-06	0.4566479027271271	10
+126	shapessocial_transcript	transcript	gpt2	and the boy turns and climbs the stairs to his	second	second	room	1.9245842695236206	4.266361236572266	1.1739356153839253e-08	0.2964610457420349	10
+127	shapessocial_transcript	transcript	gpt2	the boy turns and climbs the stairs to his second	floor	floor	floor	5.747981071472168	2.997126579284668	0.0005528880283236504	0.3764697313308716	10
+128	shapessocial_transcript	transcript	gpt2	boy turns and climbs the stairs to his second floor	bedroom	bedroom.	apartment	0.8489677906036377	3.2940614223480225	8.025537681533024e-06	0.3361733555793762	10
+129	shapessocial_transcript	transcript	gpt2	turns and climbs the stairs to his second floor bedroom.	His	His	He	0.7379034161567688	4.345405101776123	2.298635445185937e-05	0.2115119993686676	10
+130	shapessocial_transcript	transcript	gpt2	and climbs the stairs to his second floor bedroom. His	father	father	wife	4.089132308959961	6.567601680755615	7.885954005359963e-07	0.04812276363372803	10
+131	shapessocial_transcript	transcript	gpt2	climbs the stairs to his second floor bedroom. His father	follow	follows,	,	4.541553974151611	5.204071044921875	8.428266973226073e-09	0.14591316878795624	10
+132	shapessocial_transcript	transcript	gpt2	the stairs to his second floor bedroom. His father follows,	g	gives	and	2.8320508003234863	5.871270179748535	6.133020633569686e-07	0.12222570180892944	10
+133	shapessocial_transcript	transcript	gpt2	stairs to his second floor bedroom. His father follows, gives	his	his	him	10.240970611572266	2.9514334201812744	2.6375531092526217e-07	0.5550015568733215	10
+134	shapessocial_transcript	transcript	gpt2	to his second floor bedroom. His father follows, gives his	son	son	son	3.1075074672698975	5.4778852462768555	1.2110834859413444e-06	0.12251520156860352	10
+135	shapessocial_transcript	transcript	gpt2	his second floor bedroom. His father follows, gives his son	a	a	a	2.1155307292938232	2.9947876930236816	2.610475530673284e-05	0.5574727058410645	10
+136	shapessocial_transcript	transcript	gpt2	second floor bedroom. His father follows, gives his son a	good	goodnight	hug	0.6026665568351746	6.31838321685791	1.8092337938924175e-07	0.09047038108110428	10
+137	shapessocial_transcript	transcript	gpt2	floor bedroom. His father follows, gives his son a goodnight	kiss	kiss,	kiss	6.220300674438477	1.0391712188720703	1.0018671758871278e-07	0.8613733053207397	10
+138	shapessocial_transcript	transcript	gpt2	bedroom. His father follows, gives his son a goodnight kiss,	and	and	and	1.0678235292434692	2.395669460296631	9.111388499150053e-05	0.6697909832000732	10
+139	shapessocial_transcript	transcript	gpt2	His father follows, gives his son a goodnight kiss, and	t	tucks	then	0.5746908783912659	5.742173194885254	1.7324347254543682e-06	0.09401984512805939	10
+140	shapessocial_transcript	transcript	gpt2	father follows, gives his son a goodnight kiss, and tucks	him	him	him	1.572651743888855	3.158470392227173	9.07655521587003e-06	0.21159932017326355	10
+141	shapessocial_transcript	transcript	gpt2	follows, gives his son a goodnight kiss, and tucks him	in	in	into	1.68385910987854	2.1798691749572754	0.0005036696093156934	0.34814971685409546	10
+142	shapessocial_transcript	transcript	gpt2	gives his son a goodnight kiss, and tucks him in	for	for	his	1.055875301361084	3.4246582984924316	2.322465843462851e-05	0.22505693137645721	10
+143	shapessocial_transcript	transcript	gpt2	his son a goodnight kiss, and tucks him in for	the	the	a	3.1339406967163086	3.996356964111328	5.490924650075613e-06	0.30710914731025696	10
+144	shapessocial_transcript	transcript	gpt2	son a goodnight kiss, and tucks him in for the	night	night.	night	2.220285415649414	5.587743759155273	1.294541925744852e-05	0.16621394455432892	10
+145	shapessocial_transcript	transcript	gpt2	a goodnight kiss, and tucks him in for the night.	While	While	"
+"	0.6455458998680115	4.812621116638184	1.3301939361554105e-05	0.24234582483768463	10
+146	shapessocial_transcript	transcript	gpt2	goodnight kiss, and tucks him in for the night. While	the	the	he	6.2669782638549805	4.731348514556885	1.8520828461987549e-06	0.19980134069919586	10
+147	shapessocial_transcript	transcript	gpt2	kiss, and tucks him in for the night. While the	boy	boy	rest	2.4115092754364014	7.0193190574646	3.6112615475758503e-07	0.05929567664861679	10
+148	shapessocial_transcript	transcript	gpt2	and tucks him in for the night. While the boy	falls	falls	is	5.414792060852051	4.729449272155762	3.054685180359229e-07	0.1791752427816391	10
+149	shapessocial_transcript	transcript	gpt2	tucks him in for the night. While the boy falls	as	asleep,	asleep	7.405285835266113	1.3367140293121338	1.6897355692435667e-07	0.7906408309936523	10
+150	shapessocial_transcript	transcript	gpt2	him in for the night. While the boy falls asleep,	his	his	he	0.4594983160495758	5.400077819824219	4.640859515347984e-06	0.17744450271129608	10
+151	shapessocial_transcript	transcript	gpt2	in for the night. While the boy falls asleep, his	father	father	mother	2.8269882202148438	5.123703956604004	3.6154301596980076e-06	0.1565987765789032	10
+152	shapessocial_transcript	transcript	gpt2	for the night. While the boy falls asleep, his father	wal	walks	,	1.861319899559021	5.714776515960693	3.1593657467965386e-08	0.058719027787446976	10
+153	shapessocial_transcript	transcript	gpt2	the night. While the boy falls asleep, his father walks	back	back	up	5.103053569793701	3.172935962677002	1.276783621051436e-07	0.15917055308818817	10
+154	shapessocial_transcript	transcript	gpt2	night. While the boy falls asleep, his father walks back	down	downstairs	to	4.224700450897217	2.1421427726745605	2.361781383797279e-07	0.522943377494812	10
+155	shapessocial_transcript	transcript	gpt2	While the boy falls asleep, his father walks back downstairs	to	to	to	4.568868637084961	2.2827987670898438	3.6074870877200738e-06	0.27162855863571167	10
+156	shapessocial_transcript	transcript	gpt2	the boy falls asleep, his father walks back downstairs to	his	his	find	1.654596209526062	4.573207855224609	1.9212484403396957e-06	0.14925965666770935	10
+157	shapessocial_transcript	transcript	gpt2	boy falls asleep, his father walks back downstairs to his	bedroom	bedroom	room	3.2781660556793213	3.595081329345703	5.907834861318406e-07	0.407060831785202	10
+158	shapessocial_transcript	transcript	gpt2	falls asleep, his father walks back downstairs to his bedroom	on	on	.	2.160221815109253	2.679762840270996	1.2017167705380416e-07	0.2989232838153839	10
+159	shapessocial_transcript	transcript	gpt2	asleep, his father walks back downstairs to his bedroom on	the	the	the	5.637415885925293	2.965315580368042	4.4125890781288035e-06	0.45629119873046875	10
+160	shapessocial_transcript	transcript	gpt2	his father walks back downstairs to his bedroom on the	first	first	second	1.249430775642395	5.6426005363464355	1.2473843469251733e-07	0.10332535952329636	10
+161	shapessocial_transcript	transcript	gpt2	father walks back downstairs to his bedroom on the first	floor	floor,	floor	3.4678196907043457	1.5495243072509766	1.3061644494882785e-05	0.68709796667099	10
+162	shapessocial_transcript	transcript	gpt2	walks back downstairs to his bedroom on the first floor,	cl	climbs	where	1.5913052558898926	5.537810325622559	5.802270948152e-07	0.15230931341648102	10
+163	shapessocial_transcript	transcript	gpt2	back downstairs to his bedroom on the first floor, climbs	into	into	into	11.553003311157227	2.6730847358703613	4.3599544596872875e-07	0.3018149435520172	10
+164	shapessocial_transcript	transcript	gpt2	downstairs to his bedroom on the first floor, climbs into	bed	bed,	bed	1.219437837600708	1.6462352275848389	2.3882587356638396e-06	0.5025402307510376	10
+165	shapessocial_transcript	transcript	gpt2	to his bedroom on the first floor, climbs into bed,	and	and	and	1.1199179887771606	3.9698126316070557	3.747160008060746e-05	0.471828818321228	10
+166	shapessocial_transcript	transcript	gpt2	his bedroom on the first floor, climbs into bed, and	quick	quickly	then	0.7929224967956543	6.013793468475342	1.065515675691131e-08	0.05617356672883034	10
+167	shapessocial_transcript	transcript	gpt2	bedroom on the first floor, climbs into bed, and quickly	falls	falls	gets	6.6345038414001465	6.0965256690979	6.399180847438402e-07	0.038416698575019836	10
+168	shapessocial_transcript	transcript	gpt2	on the first floor, climbs into bed, and quickly falls	as	asleep.	asleep	4.3973212242126465	0.741594672203064	1.0851369580677783e-07	0.8720049858093262	10
+169	shapessocial_transcript	transcript	gpt2	the first floor, climbs into bed, and quickly falls asleep.	Up	Upstairs,	"
+"	0.6295335292816162	4.696162223815918	2.5711872240208322e-06	0.16781125962734222	10
+170	shapessocial_transcript	transcript	gpt2	first floor, climbs into bed, and quickly falls asleep. Upstairs,	the	the	he	0.3767623007297516	5.156473159790039	6.478351679106709e-06	0.22487673163414001	10
+171	shapessocial_transcript	transcript	gpt2	floor, climbs into bed, and quickly falls asleep. Upstairs, the	boy	boy	two	2.764122486114502	7.630124568939209	2.748722067735798e-07	0.03655601292848587	10
+172	shapessocial_transcript	transcript	gpt2	climbs into bed, and quickly falls asleep. Upstairs, the boy	be	begins	is	4.621477127075195	5.404530048370361	1.2361783774395008e-06	0.14442011713981628	10
+173	shapessocial_transcript	transcript	gpt2	into bed, and quickly falls asleep. Upstairs, the boy begins	to	to	to	4.202634811401367	3.267430067062378	1.0554215805314016e-05	0.5751193165779114	10
+174	shapessocial_transcript	transcript	gpt2	bed, and quickly falls asleep. Upstairs, the boy begins to	dream	dream.	talk	0.5953689813613892	6.077847957611084	1.1231207963646739e-07	0.05815012753009796	10
+175	shapessocial_transcript	transcript	gpt2	and quickly falls asleep. Upstairs, the boy begins to dream.	The	The	He	1.6239298582077026	4.296060085296631	0.00018846808234229684	0.24329496920108795	10
+176	shapessocial_transcript	transcript	gpt2	quickly falls asleep. Upstairs, the boy begins to dream. The	ce	ceiling	boy	2.6713104248046875	5.983801364898682	2.670272181148903e-07	0.1237388625741005	10
+177	shapessocial_transcript	transcript	gpt2	falls asleep. Upstairs, the boy begins to dream. The ceiling	opens	opens	is	7.072062015533447	4.630702018737793	1.3357897898913507e-07	0.31085634231567383	10
+178	shapessocial_transcript	transcript	gpt2	asleep. Upstairs, the boy begins to dream. The ceiling opens	up	up	and	4.687475681304932	2.791228771209717	2.521076112316223e-06	0.2946173846721649	10
+179	shapessocial_transcript	transcript	gpt2	Upstairs, the boy begins to dream. The ceiling opens up	and	and	and	1.889357328414917	2.9833052158355713	5.198151939111995e-06	0.27621889114379883	10
+180	shapessocial_transcript	transcript	gpt2	the boy begins to dream. The ceiling opens up and	he	he	the	1.1489276885986328	4.722320556640625	1.0365736670792103e-05	0.20211881399154663	10
+181	shapessocial_transcript	transcript	gpt2	boy begins to dream. The ceiling opens up and he	flo	floats	sees	2.0969505310058594	4.61112117767334	4.305124434722529e-08	0.15934868156909943	10
+182	shapessocial_transcript	transcript	gpt2	begins to dream. The ceiling opens up and he floats	into	into	down	7.05880069732666	4.122978687286377	1.0313301856967882e-07	0.0904451534152031	10
+183	shapessocial_transcript	transcript	gpt2	to dream. The ceiling opens up and he floats into	the	the	the	2.8303582668304443	2.0803945064544678	4.267377789801685e-06	0.5859478712081909	10
+184	shapessocial_transcript	transcript	gpt2	dream. The ceiling opens up and he floats into the	sky	sky,	air	0.5234650373458862	5.130869388580322	2.789978452710784e-07	0.22953133285045624	10
+185	shapessocial_transcript	transcript	gpt2	The ceiling opens up and he floats into the sky,	along	along	his	1.7947546243667603	6.52864408493042	5.5988422786867886e-08	0.046212293207645416	10
+186	shapessocial_transcript	transcript	gpt2	ceiling opens up and he floats into the sky, along	with	with	with	7.375244140625	0.5085117816925049	0.00019083435472566634	0.9281049370765686	10
+187	shapessocial_transcript	transcript	gpt2	opens up and he floats into the sky, along with	a	a	the	0.06416366249322891	5.080156326293945	3.3774092571547953e-06	0.174710214138031	10
+188	shapessocial_transcript	transcript	gpt2	up and he floats into the sky, along with a	huge	huge	few	2.168971061706543	6.803727149963379	1.4188251498126192e-06	0.04885696992278099	10
+189	shapessocial_transcript	transcript	gpt2	and he floats into the sky, along with a huge	bird	bird.	,	4.331116676330566	6.811603546142578	1.0690752105801948e-06	0.03756898641586304	10
+190	shapessocial_transcript	transcript	gpt2	he floats into the sky, along with a huge bird.	High	High	"
+"	1.6972942352294922	4.536876678466797	1.6521003942671086e-07	0.22788424789905548	10
+191	shapessocial_transcript	transcript	gpt2	floats into the sky, along with a huge bird. High	above	above	above	9.45896053314209	2.6249289512634277	2.2703299691784196e-05	0.5292194485664368	10
+192	shapessocial_transcript	transcript	gpt2	into the sky, along with a huge bird. High above	mount	mountains,	the	0.7306751608848572	3.1849989891052246	1.537716656230259e-07	0.340227872133255	10
+193	shapessocial_transcript	transcript	gpt2	the sky, along with a huge bird. High above mountains,	the	the	the	1.253495216369629	5.968624114990234	7.778004146530293e-06	0.10950537025928497	10
+194	shapessocial_transcript	transcript	gpt2	sky, along with a huge bird. High above mountains, the	boy	boy	sky	1.9836232662200928	7.8418402671813965	2.9036471005383646e-08	0.03141181915998459	10
+195	shapessocial_transcript	transcript	gpt2	along with a huge bird. High above mountains, the boy	can	can	's	8.547197341918945	6.033226013183594	5.780237643193686e-06	0.07135586440563202	10
+196	shapessocial_transcript	transcript	gpt2	with a huge bird. High above mountains, the boy can	fly	fly.	see	3.9414796829223633	4.743175506591797	6.559108896908583e-06	0.15898990631103516	10
+197	shapessocial_transcript	transcript	gpt2	a huge bird. High above mountains, the boy can fly.	The	The	He	1.9557433128356934	4.588735103607178	0.00023177932598628104	0.1759423315525055	10
+198	shapessocial_transcript	transcript	gpt2	huge bird. High above mountains, the boy can fly. The	g	giant	boy	2.8567464351654053	7.457104206085205	1.6272625771307503e-06	0.042812928557395935	10
+199	shapessocial_transcript	transcript	gpt2	bird. High above mountains, the boy can fly. The giant	bird	bird	is	7.148682594299316	7.244284629821777	3.295333226560615e-05	0.037978772073984146	10
+200	shapessocial_transcript	transcript	gpt2	High above mountains, the boy can fly. The giant bird	spl	splits	is	4.1287617683410645	5.515158653259277	4.2669586264310055e-07	0.1128334105014801	10
+201	shapessocial_transcript	transcript	gpt2	above mountains, the boy can fly. The giant bird splits	into	into	into	7.694565773010254	3.561858654022217	2.54972121638275e-07	0.26579412817955017	10
+202	shapessocial_transcript	transcript	gpt2	mountains, the boy can fly. The giant bird splits into	two	two	two	1.2734003067016602	3.0610101222991943	1.1956162779824808e-06	0.44671598076820374	10
+203	shapessocial_transcript	transcript	gpt2	the boy can fly. The giant bird splits into two	small	smaller	,	0.654306173324585	5.072004318237305	7.020007330993394e-08	0.10274183750152588	10
+204	shapessocial_transcript	transcript	gpt2	boy can fly. The giant bird splits into two smaller	birds	birds,	wings	3.873692274093628	5.374636650085449	4.354188058641739e-05	0.11177555471658707	10
+205	shapessocial_transcript	transcript	gpt2	can fly. The giant bird splits into two smaller birds,	which	which	one	1.1854416131973267	4.695067882537842	3.718482912518084e-05	0.11668834835290909	10
+206	shapessocial_transcript	transcript	gpt2	fly. The giant bird splits into two smaller birds, which	so	soar	are	2.7583765983581543	5.44130802154541	5.783058920627582e-09	0.1031389832496643	10
+207	shapessocial_transcript	transcript	gpt2	The giant bird splits into two smaller birds, which soar	ac	across	in	6.286477088928223	4.167822360992432	4.982352752591623e-09	0.06946874409914017	10
+208	shapessocial_transcript	transcript	gpt2	giant bird splits into two smaller birds, which soar across	the	the	the	3.9370641708374023	2.10251522064209	6.299595497694099e-06	0.7063254714012146	10
+209	shapessocial_transcript	transcript	gpt2	bird splits into two smaller birds, which soar across the	sky	sky	sky	0.33864423632621765	4.893503189086914	1.3171056707506068e-06	0.26986896991729736	10
+210	shapessocial_transcript	transcript	gpt2	splits into two smaller birds, which soar across the sky	with	with	.	1.54660964012146	3.3791894912719727	5.419307854026556e-06	0.199191614985466	10
+211	shapessocial_transcript	transcript	gpt2	into two smaller birds, which soar across the sky with	the	the	a	3.1470232009887695	5.522630214691162	4.774872763846361e-07	0.1421113908290863	10
+212	shapessocial_transcript	transcript	gpt2	two smaller birds, which soar across the sky with the	boy	boy.	same	2.7927656173706055	6.590841770172119	3.5193792768950516e-08	0.12176201492547989	10
+213	shapessocial_transcript	transcript	gpt2	smaller birds, which soar across the sky with the boy.	The	The	"
+"	2.785305976867676	4.654992580413818	0.0006617276230826974	0.24654938280582428	10
+214	shapessocial_transcript	transcript	gpt2	birds, which soar across the sky with the boy. The	two	two	boy	2.441114664077759	7.529998302459717	4.3385711023802287e-07	0.0933835431933403	10
+215	shapessocial_transcript	transcript	gpt2	which soar across the sky with the boy. The two	birds	birds	of	4.922248840332031	6.6598801612854	6.9971370066923555e-06	0.0756358951330185	10
+216	shapessocial_transcript	transcript	gpt2	soar across the sky with the boy. The two birds	bec	become	were	6.696415901184082	6.089998245239258	1.127434870795696e-06	0.057242441922426224	10
+217	shapessocial_transcript	transcript	gpt2	across the sky with the boy. The two birds become	four	four	friends	7.304431438446045	5.589532852172852	3.472358844902601e-09	0.10385545343160629	10
+218	shapessocial_transcript	transcript	gpt2	the sky with the boy. The two birds become four	birds	birds.	,	8.07453441619873	3.8548905849456787	0.0001540829543955624	0.18447323143482208	10
+219	shapessocial_transcript	transcript	gpt2	sky with the boy. The two birds become four birds.	The	The	"
+"	1.6645417213439941	4.702877521514893	0.0005458362284116447	0.19498908519744873	10
+220	shapessocial_transcript	transcript	gpt2	with the boy. The two birds become four birds. The	boy	boy	boy	1.857194185256958	6.516176223754883	3.3958415315282764e-06	0.13733617961406708	10
+221	shapessocial_transcript	transcript	gpt2	the boy. The two birds become four birds. The boy	plays	plays	is	1.8838611841201782	5.4031524658203125	6.77725466857737e-08	0.12644529342651367	10
+222	shapessocial_transcript	transcript	gpt2	boy. The two birds become four birds. The boy plays	with	with	with	6.0619635581970215	3.952317237854004	1.9030740077141672e-05	0.36146047711372375	10
+223	shapessocial_transcript	transcript	gpt2	The two birds become four birds. The boy plays with	the	the	the	0.9577610492706299	3.639343500137329	3.7617332964146044e-06	0.2977157235145569	10
+224	shapessocial_transcript	transcript	gpt2	two birds become four birds. The boy plays with the	birds	birds,	bird	1.4738060235977173	6.594517707824707	2.821532916641445e-06	0.08143366128206253	10
+225	shapessocial_transcript	transcript	gpt2	birds become four birds. The boy plays with the birds,	but	but	and	1.6787186861038208	5.385835647583008	2.8892154659843072e-06	0.21077214181423187	10
+226	shapessocial_transcript	transcript	gpt2	become four birds. The boy plays with the birds, but	then	then	he	2.7125821113586426	5.049063205718994	1.1005457736246171e-06	0.10237560421228409	10
+227	shapessocial_transcript	transcript	gpt2	four birds. The boy plays with the birds, but then	the	the	he	3.872978925704956	5.197981834411621	2.232714223282528e-06	0.20373475551605225	10
+228	shapessocial_transcript	transcript	gpt2	birds. The boy plays with the birds, but then the	fl	flock	bird	2.9292943477630615	6.502772331237793	7.66382868278015e-08	0.08813236653804779	10
+229	shapessocial_transcript	transcript	gpt2	The boy plays with the birds, but then the flock	g	gangs	of	6.402096748352051	5.454371452331543	9.371829946758226e-06	0.12944194674491882	10
+230	shapessocial_transcript	transcript	gpt2	boy plays with the birds, but then the flock gangs	up	up	up	13.853468894958496	2.507401704788208	4.4451603571360465e-06	0.5126892328262329	10
+231	shapessocial_transcript	transcript	gpt2	plays with the birds, but then the flock gangs up	on	on	and	0.5720529556274414	2.936798572540283	1.550582965137437e-05	0.2938233017921448	10
+232	shapessocial_transcript	transcript	gpt2	with the birds, but then the flock gangs up on	him	him	each	1.8834171295166016	3.3900527954101562	1.5945132645356352e-06	0.1358882635831833	10
+233	shapessocial_transcript	transcript	gpt2	the birds, but then the flock gangs up on him	and	and	.	2.4214863777160645	2.9737660884857178	1.365652587992372e-05	0.2346213310956955	10
+234	shapessocial_transcript	transcript	gpt2	birds, but then the flock gangs up on him and	st	starts	he	1.3617724180221558	6.116982936859131	5.731879468839907e-07	0.10199318081140518	10
+235	shapessocial_transcript	transcript	gpt2	but then the flock gangs up on him and starts	ch	chasing	to	3.9588520526885986	5.2882771492004395	1.361740487482166e-06	0.12094934284687042	10
+236	shapessocial_transcript	transcript	gpt2	then the flock gangs up on him and starts chasing	him	him.	him	3.9975247383117676	1.5094027519226074	1.1688227914419258e-06	0.7083613276481628	10
+237	shapessocial_transcript	transcript	gpt2	the flock gangs up on him and starts chasing him.	He	He	"
+"	1.4258829355239868	5.208368301391602	0.0003069824306294322	0.1359461396932602	10
+238	shapessocial_transcript	transcript	gpt2	flock gangs up on him and starts chasing him. He	t	tries	's	2.1731326580047607	5.396933555603027	1.8316106434212998e-05	0.07015160471200943	10
+239	shapessocial_transcript	transcript	gpt2	gangs up on him and starts chasing him. He tries	to	to	to	3.2971253395080566	1.128492832183838	3.952131010009907e-05	0.8686637878417969	10
+240	shapessocial_transcript	transcript	gpt2	up on him and starts chasing him. He tries to	fly	fly	get	0.13962528109550476	5.364540100097656	7.75323840684905e-08	0.0746472030878067	10
+241	shapessocial_transcript	transcript	gpt2	on him and starts chasing him. He tries to fly	away	away	away	6.015082359313965	3.6513113975524902	0.00014818116324022412	0.205391526222229	10
+242	shapessocial_transcript	transcript	gpt2	him and starts chasing him. He tries to fly away	but	but	but	1.4279804229736328	2.397193431854248	1.148107367043849e-05	0.3235517144203186	10
+243	shapessocial_transcript	transcript	gpt2	and starts chasing him. He tries to fly away but	c	cannot	he	1.3647466897964478	5.644200325012207	7.204940857263864e-07	0.10223488509654999	10
+244	shapessocial_transcript	transcript	gpt2	starts chasing him. He tries to fly away but cannot	escape	escape.	.	6.105489730834961	3.319838047027588	1.1365155927478554e-07	0.32756558060646057	10
+245	shapessocial_transcript	transcript	gpt2	chasing him. He tries to fly away but cannot escape.	Thankfully	Thankfully,	He	0.9941685199737549	5.105654716491699	2.093855528073618e-06	0.17490659654140472	10
+246	shapessocial_transcript	transcript	gpt2	him. He tries to fly away but cannot escape. Thankfully,	the	the	he	0.7853140830993652	5.364911079406738	1.6067238902905956e-05	0.23515301942825317	10
+247	shapessocial_transcript	transcript	gpt2	He tries to fly away but cannot escape. Thankfully, the	dream	dream	ship	2.314831256866455	8.106258392333984	1.0345009826551177e-07	0.01609787717461586	10
+248	shapessocial_transcript	transcript	gpt2	tries to fly away but cannot escape. Thankfully, the dream	ends	ends	is	8.449424743652344	5.716497421264648	7.377258498308947e-06	0.12619540095329285	10
+249	shapessocial_transcript	transcript	gpt2	to fly away but cannot escape. Thankfully, the dream ends	and	and	with	5.425775527954102	3.8668203353881836	6.38941537545179e-06	0.12615996599197388	10
+250	shapessocial_transcript	transcript	gpt2	fly away but cannot escape. Thankfully, the dream ends and	the	the	the	2.723142147064209	5.080478191375732	8.48768831929192e-06	0.22909899055957794	10
+251	shapessocial_transcript	transcript	gpt2	away but cannot escape. Thankfully, the dream ends and the	birds	birds	dream	1.6638209819793701	7.7929229736328125	2.839417447830783e-07	0.020918961614370346	10
+252	shapessocial_transcript	transcript	gpt2	but cannot escape. Thankfully, the dream ends and the birds	dis	disappear.	are	7.278214931488037	4.662576198577881	8.623612046676499e-08	0.22738470137119293	10
+253	shapessocial_transcript	transcript	gpt2	cannot escape. Thankfully, the dream ends and the birds disappear.	The	The	"
+"	0.6176148653030396	4.575876712799072	0.0012933852849528193	0.33195775747299194	10
+254	shapessocial_transcript	transcript	gpt2	escape. Thankfully, the dream ends and the birds disappear. The	boy	boy	next	2.5612130165100098	7.698235511779785	2.1203675260039745e-07	0.0353836752474308	10
+255	shapessocial_transcript	transcript	gpt2	Thankfully, the dream ends and the birds disappear. The boy	sleep	sleeps	is	6.157841682434082	5.425949573516846	5.336417530088511e-07	0.12121771275997162	10
+256	shapessocial_transcript	transcript	gpt2	the dream ends and the birds disappear. The boy sleeps	peace	peacefully	in	5.938796520233154	4.01949405670166	8.434811320512381e-07	0.15163381397724152	10
+257	shapessocial_transcript	transcript	gpt2	dream ends and the birds disappear. The boy sleeps peacefully	for	for	,	3.400857925415039	3.02933406829834	2.770329103896074e-07	0.22176042199134827	10
+258	shapessocial_transcript	transcript	gpt2	ends and the birds disappear. The boy sleeps peacefully for	the	the	a	3.9686403274536133	3.4280126094818115	2.3231677914736792e-06	0.29989078640937805	10
+259	shapessocial_transcript	transcript	gpt2	and the birds disappear. The boy sleeps peacefully for the	rest	rest	rest	2.070584535598755	2.135314464569092	4.2098656649613986e-07	0.44227665662765503	10
+260	shapessocial_transcript	transcript	gpt2	the birds disappear. The boy sleeps peacefully for the rest	of	of	of	0.8548300266265869	0.04130445793271065	5.888117357244482e-06	0.9956110119819641	10
+261	shapessocial_transcript	transcript	gpt2	birds disappear. The boy sleeps peacefully for the rest of	the	the	the	0.003687845077365637	1.179492712020874	3.832245056401007e-06	0.6158362627029419	10
+262	shapessocial_transcript	transcript	gpt2	disappear. The boy sleeps peacefully for the rest of the	night	night.	day	0.23132126033306122	1.8679907321929932	5.448649972095154e-06	0.4298573136329651	10
+263	shapessocial_transcript	transcript	gpt2	The boy sleeps peacefully for the rest of the night.	In	In	"
+"	1.1949422359466553	4.187904357910156	4.8895355575950816e-05	0.23019523918628693	10
+264	shapessocial_transcript	transcript	gpt2	boy sleeps peacefully for the rest of the night. In	the	the	the	4.489975929260254	3.90879225730896	1.0909235243161675e-05	0.2824706733226776	10
+265	shapessocial_transcript	transcript	gpt2	sleeps peacefully for the rest of the night. In the	morning	morning,	morning	1.12028968334198	3.7917869091033936	5.9762173805211205e-06	0.4370620846748352	10
+266	shapessocial_transcript	transcript	gpt2	peacefully for the rest of the night. In the morning,	the	the	I	0.8153996467590332	5.153656959533691	1.536325362394564e-05	0.11428440362215042	10
+267	shapessocial_transcript	transcript	gpt2	for the rest of the night. In the morning, the	boy	boy's	sun	2.4987704753875732	8.151073455810547	1.0688730611718711e-07	0.025807524099946022	10
+268	shapessocial_transcript	transcript	gpt2	the rest of the night. In the morning, the boy's	father	father	mother	2.840881824493408	5.360208988189697	2.951431270048488e-06	0.15236756205558777	10
+269	shapessocial_transcript	transcript	gpt2	rest of the night. In the morning, the boy's father	cl	climbs	,	2.1597046852111816	5.387992858886719	1.6883197417882911e-07	0.10773730278015137	10
+270	shapessocial_transcript	transcript	gpt2	of the night. In the morning, the boy's father climbs	the	the	into	8.362217903137207	2.8027689456939697	6.99629651990108e-08	0.2505038380622864	10
+271	shapessocial_transcript	transcript	gpt2	the night. In the morning, the boy's father climbs the	stairs	stairs	stairs	2.883476734161377	4.433920860290527	1.869260131570627e-06	0.28403788805007935	10
+272	shapessocial_transcript	transcript	gpt2	night. In the morning, the boy's father climbs the stairs	to	to	to	1.314603328704834	2.8241188526153564	9.504049671704706e-07	0.2876396179199219	10
+273	shapessocial_transcript	transcript	gpt2	In the morning, the boy's father climbs the stairs to	his	his	the	1.3300658464431763	3.4533867835998535	1.1093898137914948e-06	0.34207043051719666	10
+274	shapessocial_transcript	transcript	gpt2	the morning, the boy's father climbs the stairs to his	son	son's	room	1.670979380607605	4.802364826202393	5.188548470869137e-07	0.1160227507352829	10
+275	shapessocial_transcript	transcript	gpt2	morning, the boy's father climbs the stairs to his son's	bedroom	bedroom	room	0.05097199231386185	3.4027814865112305	1.0470856750544044e-06	0.30984964966773987	10
+276	shapessocial_transcript	transcript	gpt2	the boy's father climbs the stairs to his son's bedroom	and	and	.	1.586254596710205	2.6807749271392822	6.283303719101241e-06	0.2716882824897766	10
+277	shapessocial_transcript	transcript	gpt2	boy's father climbs the stairs to his son's bedroom and	w	wakes	finds	2.1389451026916504	5.973403453826904	2.7439438099463587e-07	0.05981622263789177	10
+278	shapessocial_transcript	transcript	gpt2	father climbs the stairs to his son's bedroom and wakes	him	him	up	5.893066883087158	2.5857837200164795	3.9501032915723044e-06	0.4673318564891815	10
+279	shapessocial_transcript	transcript	gpt2	climbs the stairs to his son's bedroom and wakes him	up	up.	up	0.7346713542938232	1.9096219539642334	3.0854338547214866e-05	0.6504873037338257	10
+280	shapessocial_transcript	transcript	gpt2	the stairs to his son's bedroom and wakes him up.	The	The	He	1.1960636377334595	4.648849010467529	0.000417007424402982	0.18031953275203705	10
+281	shapessocial_transcript	transcript	gpt2	stairs to his son's bedroom and wakes him up. The	boy	boy	boy	2.701434850692749	6.813291072845459	6.018599947310577e-07	0.051447946578264236	10
+282	shapessocial_transcript	transcript	gpt2	to his son's bedroom and wakes him up. The boy	follow	follows	is	2.996976137161255	5.048582553863525	1.3605294668650458e-08	0.14735651016235352	10
+283	shapessocial_transcript	transcript	gpt2	his son's bedroom and wakes him up. The boy follows	his	his	him	6.486961364746094	4.438021183013916	6.71148313813319e-07	0.21281395852565765	10
+284	shapessocial_transcript	transcript	gpt2	son's bedroom and wakes him up. The boy follows his	father	father	father	3.2975521087646484	4.820163726806641	7.1263407335209195e-06	0.20795370638370514	10
+285	shapessocial_transcript	transcript	gpt2	bedroom and wakes him up. The boy follows his father	down	down	to	1.959694743156433	3.478463888168335	2.3489182865432667e-07	0.15770180523395538	10
+286	shapessocial_transcript	transcript	gpt2	and wakes him up. The boy follows his father down	the	the	the	4.259196758270264	2.181274890899658	2.7576490538194776e-05	0.4020821750164032	10
+287	shapessocial_transcript	transcript	gpt2	wakes him up. The boy follows his father down the	stairs	stairs	hall	0.8944234848022461	4.514305114746094	2.9206371436885092e-06	0.13109400868415833	10
+288	shapessocial_transcript	transcript	gpt2	him up. The boy follows his father down the stairs	to	to	,	2.212312936782837	2.70792555809021	2.8497449875430902e-06	0.22839345037937164	10
+289	shapessocial_transcript	transcript	gpt2	up. The boy follows his father down the stairs to	the	the	the	1.7366472482681274	3.039247512817383	1.713943674985785e-05	0.45334264636039734	10
+290	shapessocial_transcript	transcript	gpt2	The boy follows his father down the stairs to the	first	first	kitchen	0.8309603929519653	6.397977352142334	2.2309797031994094e-07	0.051688067615032196	10
+291	shapessocial_transcript	transcript	gpt2	boy follows his father down the stairs to the first	floor	floor	floor	4.443958282470703	2.556114912033081	0.00012428790796548128	0.6637709140777588	10
+292	shapessocial_transcript	transcript	gpt2	follows his father down the stairs to the first floor	of	of	.	0.5440999269485474	3.092945098876953	1.6067862816271372e-05	0.24499866366386414	10
+293	shapessocial_transcript	transcript	gpt2	his father down the stairs to the first floor of	their	their	the	1.693427562713623	2.734154462814331	6.153102276584832e-07	0.5737090110778809	10
+294	shapessocial_transcript	transcript	gpt2	father down the stairs to the first floor of their	home	home.	apartment	4.234054088592529	4.462274551391602	6.46259081804601e-07	0.22750891745090485	10
+295	shapessocial_transcript	transcript	gpt2	down the stairs to the first floor of their home.	They	They	"
+"	0.9498680830001831	4.660755634307861	0.0003820466226898134	0.2485412210226059	10
+296	shapessocial_transcript	transcript	gpt2	the stairs to the first floor of their home. They	have	have	were	2.6898398399353027	5.48274040222168	8.242425337812165e-07	0.09409686923027039	10
+297	shapessocial_transcript	transcript	gpt2	stairs to the first floor of their home. They have	a	a	a	2.9619362354278564	5.5120768547058105	1.991917088162154e-06	0.16796140372753143	10
+298	shapessocial_transcript	transcript	gpt2	to the first floor of their home. They have a	b	brief	small	2.0425634384155273	7.140638828277588	1.507757048102576e-07	0.03421320021152496	10
+299	shapessocial_transcript	transcript	gpt2	the first floor of their home. They have a brief	con	conversation	case	7.857021331787109	4.668617248535156	9.772088560566772e-07	0.2531920075416565	10
+300	shapessocial_transcript	transcript	gpt2	first floor of their home. They have a brief conversation	before	before	about	2.9424915313720703	3.0331203937530518	2.797398792608874e-07	0.25887584686279297	10
+301	shapessocial_transcript	transcript	gpt2	floor of their home. They have a brief conversation before	the	the	leaving	3.2970662117004395	5.237555980682373	2.116083805958624e-06	0.09241017699241638	10
+302	shapessocial_transcript	transcript	gpt2	of their home. They have a brief conversation before the	boy	boy	fire	2.5246827602386475	7.571560382843018	9.206371487380238e-08	0.012545066885650158	10
+303	shapessocial_transcript	transcript	gpt2	their home. They have a brief conversation before the boy	heads	heads	is	5.892446994781494	5.167718410491943	3.432848870943417e-06	0.08873633295297623	10
+304	shapessocial_transcript	transcript	gpt2	home. They have a brief conversation before the boy heads	out	out	to	6.704766273498535	2.572298049926758	1.5212090147542767e-06	0.2326848804950714	10
+305	shapessocial_transcript	transcript	gpt2	They have a brief conversation before the boy heads out	for	for	.	2.2300961017608643	2.8441896438598633	1.6321693010468152e-06	0.1978979855775833	10
+306	shapessocial_transcript	transcript	gpt2	have a brief conversation before the boy heads out for	the	the	the	2.7347726821899414	3.307802200317383	1.6526163335583988e-06	0.28029462695121765	10
+307	shapessocial_transcript	transcript	gpt2	a brief conversation before the boy heads out for the	day	day.	night	1.2599830627441406	6.691234588623047	4.134454627546802e-07	0.05153733864426613	10
+308	shapessocial_transcript	transcript	gpt2	brief conversation before the boy heads out for the day.	The	The	"
+"	0.6441459655761719	4.225944519042969	0.0006651845760643482	0.3432360291481018	10
+309	shapessocial_transcript	transcript	gpt2	conversation before the boy heads out for the day. The	day	day	boy	2.6955549716949463	7.092189311981201	1.6601101151536568e-06	0.1183171421289444	10
+310	shapessocial_transcript	transcript	gpt2	before the boy heads out for the day. The day	pass	passes.	is	4.925819396972656	4.130265712738037	5.344371857063379e-06	0.20103734731674194	10
+311	shapessocial_transcript	transcript	gpt2	the boy heads out for the day. The day passes.	The	The	The	2.7856059074401855	4.553295135498047	0.00033524399623274803	0.1970733255147934	10
+312	shapessocial_transcript	transcript	gpt2	boy heads out for the day. The day passes. The	father	father	day	2.004570960998535	6.694511413574219	2.706986634848363e-08	0.13293732702732086	10
+313	shapessocial_transcript	transcript	gpt2	heads out for the day. The day passes. The father	wa	waits	is	8.541128158569336	5.486166954040527	2.52917470788816e-06	0.06791558116674423	10
+314	shapessocial_transcript	transcript	gpt2	out for the day. The day passes. The father waits	for	for	.	5.197051525115967	2.980518341064453	2.3243583200383e-06	0.24909311532974243	10
+315	shapessocial_transcript	transcript	gpt2	for the day. The day passes. The father waits for	his	his	the	1.6127785444259644	2.9070489406585693	2.534656289299164e-07	0.32584983110427856	10
+316	shapessocial_transcript	transcript	gpt2	the day. The day passes. The father waits for his	son	son	son	1.4659439325332642	3.4647650718688965	6.166146249597659e-06	0.3681070804595947	10
+317	shapessocial_transcript	transcript	gpt2	day. The day passes. The father waits for his son	to	to	to	1.0053560733795166	2.0417191982269287	9.477733328822069e-06	0.43856123089790344	10
+318	shapessocial_transcript	transcript	gpt2	The day passes. The father waits for his son to	return	return	come	0.758631706237793	4.532669544219971	1.1524932830297985e-07	0.09947050362825394	10
+319	shapessocial_transcript	transcript	gpt2	day passes. The father waits for his son to return	home	home.	home	2.7506296634674072	2.33026123046875	1.42276655878959e-06	0.3558647036552429	10
+320	shapessocial_transcript	transcript	gpt2	passes. The father waits for his son to return home.	When	When	"
+"	1.3607773780822754	4.712075710296631	0.00019510634592734277	0.206869974732399	10
+321	shapessocial_transcript	transcript	gpt2	The father waits for his son to return home. When	he	he	he	4.686189651489258	3.338555097579956	1.446541864424944e-05	0.43030285835266113	10
+322	shapessocial_transcript	transcript	gpt2	father waits for his son to return home. When he	does	does,	does	1.2836754322052002	3.5557539463043213	4.5724468122898543e-07	0.20954544842243195	10
+323	shapessocial_transcript	transcript	gpt2	waits for his son to return home. When he does,	the	the	he	0.3012624680995941	4.818968772888184	2.339936872886028e-05	0.33870550990104675	10
+324	shapessocial_transcript	transcript	gpt2	for his son to return home. When he does, the	two	two	family	2.281561851501465	7.638535976409912	3.1459785532206297e-07	0.03782514110207558	10
+325	shapessocial_transcript	transcript	gpt2	his son to return home. When he does, the two	talk	talk	of	4.463031768798828	6.257125377655029	4.233458810176671e-07	0.09612344950437546	10
+326	shapessocial_transcript	transcript	gpt2	son to return home. When he does, the two talk	b	briefly.	about	6.172817230224609	2.4334847927093506	9.030357261963218e-08	0.580075204372406	10
+327	shapessocial_transcript	transcript	gpt2	to return home. When he does, the two talk briefly.	The	The	"
+"	2.3699522018432617	4.693359375	9.270806913264096e-05	0.26069486141204834	10
+328	shapessocial_transcript	transcript	gpt2	return home. When he does, the two talk briefly. The	boy	boy	two	3.096569061279297	7.400139331817627	1.3643979173139087e-06	0.04535834863781929	10
+329	shapessocial_transcript	transcript	gpt2	home. When he does, the two talk briefly. The boy	cl	climbs	is	4.749034881591797	5.321004390716553	9.904603075483465e-07	0.10594745725393295	10
+330	shapessocial_transcript	transcript	gpt2	When he does, the two talk briefly. The boy climbs	into	into	into	6.744937419891357	2.902623176574707	8.523770134161168e-07	0.18601132929325104	10
+331	shapessocial_transcript	transcript	gpt2	he does, the two talk briefly. The boy climbs into	bed	bed,	the	1.8408957719802856	2.167172431945801	2.5481704142293893e-06	0.3200412392616272	10
+332	shapessocial_transcript	transcript	gpt2	does, the two talk briefly. The boy climbs into bed,	as	as	and	1.2690749168395996	6.056600570678711	5.354501695364888e-07	0.16497662663459778	10
+333	shapessocial_transcript	transcript	gpt2	the two talk briefly. The boy climbs into bed, as	does	does	if	5.1801371574401855	4.276427745819092	2.175439840357285e-05	0.19205260276794434	10
+334	shapessocial_transcript	transcript	gpt2	two talk briefly. The boy climbs into bed, as does	his	his	the	2.6118977069854736	4.340699195861816	2.5181375349347945e-06	0.32046881318092346	10
+335	shapessocial_transcript	transcript	gpt2	talk briefly. The boy climbs into bed, as does his	father	father	mother	1.658244252204895	3.6968369483947754	5.087408680992667e-06	0.23653924465179443	10
+336	shapessocial_transcript	transcript	gpt2	briefly. The boy climbs into bed, as does his father	down	downstairs.	,	1.425637125968933	1.933924913406372	2.3140005467325864e-08	0.4116065502166748	10
+337	shapessocial_transcript	transcript	gpt2	The boy climbs into bed, as does his father downstairs.	Both	Both	"
+"	0.5896683931350708	4.460574150085449	1.8041600924334489e-06	0.18789780139923096	10
+338	shapessocial_transcript	transcript	gpt2	boy climbs into bed, as does his father downstairs. Both	fall	fall	men	5.735684394836426	5.533827781677246	7.075520329635765e-07	0.17551381886005402	10
+339	shapessocial_transcript	transcript	gpt2	climbs into bed, as does his father downstairs. Both fall	right	right	asleep	6.905162811279297	0.677927553653717	5.596092833570765e-08	0.901252806186676	10
+340	shapessocial_transcript	transcript	gpt2	into bed, as does his father downstairs. Both fall right	as	asleep.	into	7.829373836517334	2.47737455368042	4.607516643773124e-07	0.34953704476356506	10
+341	shapessocial_transcript	transcript	gpt2	bed, as does his father downstairs. Both fall right asleep.	Shortly	Shortly	"
+"	1.4983341693878174	4.710456848144531	3.0538633382093394e-06	0.3065110146999359	10
+342	shapessocial_transcript	transcript	gpt2	as does his father downstairs. Both fall right asleep. Shortly	after	after	after	7.468395233154297	1.8011420965194702	0.0001556384959258139	0.48278334736824036	10
+343	shapessocial_transcript	transcript	gpt2	does his father downstairs. Both fall right asleep. Shortly after	fall	falling	,	0.7922094464302063	3.794478416442871	1.3183813280193135e-05	0.31820982694625854	10
+344	shapessocial_transcript	transcript	gpt2	his father downstairs. Both fall right asleep. Shortly after falling	as	asleep,	asleep	6.311733245849609	1.1869746446609497	6.343117320284364e-08	0.7761911153793335	10
+345	shapessocial_transcript	transcript	gpt2	father downstairs. Both fall right asleep. Shortly after falling asleep,	the	the	the	0.3330129086971283	6.111481666564941	1.1258945050940383e-05	0.08579301834106445	10
+346	shapessocial_transcript	transcript	gpt2	downstairs. Both fall right asleep. Shortly after falling asleep, the	boy	boy	two	2.030999183654785	7.362401485443115	5.083786618342856e-07	0.07006730139255524	10
+347	shapessocial_transcript	transcript	gpt2	Both fall right asleep. Shortly after falling asleep, the boy	st	starts	is	5.15977668762207	5.6763787269592285	1.3360913726501167e-06	0.07279728353023529	10
+348	shapessocial_transcript	transcript	gpt2	fall right asleep. Shortly after falling asleep, the boy starts	to	to	to	5.784188747406006	4.193986892700195	1.1421670933486894e-05	0.38000887632369995	10
+349	shapessocial_transcript	transcript	gpt2	right asleep. Shortly after falling asleep, the boy starts to	have	have	cry	1.0249419212341309	5.748125076293945	1.3035106860570522e-07	0.08477538824081421	10
+350	shapessocial_transcript	transcript	gpt2	asleep. Shortly after falling asleep, the boy starts to have	the	the	nightmares	5.275681495666504	4.397463321685791	2.336236093469779e-07	0.1628747135400772	10
+351	shapessocial_transcript	transcript	gpt2	Shortly after falling asleep, the boy starts to have the	bird	bird	urge	4.766850471496582	5.628566741943359	7.643772725884901e-09	0.12609276175498962	10
+352	shapessocial_transcript	transcript	gpt2	after falling asleep, the boy starts to have the bird	dream	dream	's	10.071847915649414	5.885705947875977	1.5189046280283947e-05	0.19191420078277588	10
+353	shapessocial_transcript	transcript	gpt2	falling asleep, the boy starts to have the bird dream	again	again.	.	8.076677322387695	3.6546390056610107	2.2755393729312345e-05	0.2987041473388672	10
+354	shapessocial_transcript	transcript	gpt2	asleep, the boy starts to have the bird dream again.	The	The	"
+"	0.6518858075141907	4.887780666351318	0.0007271834765560925	0.18154093623161316	10
+355	shapessocial_transcript	transcript	gpt2	the boy starts to have the bird dream again. The	four	four	boy	2.5489776134490967	5.789233684539795	1.7180262545934966e-07	0.16696003079414368	10
+356	shapessocial_transcript	transcript	gpt2	boy starts to have the bird dream again. The four	birds	birds	of	7.2931928634643555	6.163637161254883	5.8635323512135074e-05	0.19186320900917053	10
+357	shapessocial_transcript	transcript	gpt2	starts to have the bird dream again. The four birds	from	from	are	3.4892330169677734	5.933061122894287	4.3689340145647293e-07	0.08000148087739944	10
+358	shapessocial_transcript	transcript	gpt2	to have the bird dream again. The four birds from	the	the	the	5.33199405670166	5.21085262298584	2.0651486920542084e-05	0.36814209818840027	10
+359	shapessocial_transcript	transcript	gpt2	have the bird dream again. The four birds from the	pre	previous	sky	1.0333195924758911	7.458643436431885	1.89716445220256e-07	0.040444277226924896	10
+360	shapessocial_transcript	transcript	gpt2	the bird dream again. The four birds from the previous	night	night	day	5.05634880065918	5.642512321472168	8.018490916583687e-06	0.10060914605855942	10
+361	shapessocial_transcript	transcript	gpt2	bird dream again. The four birds from the previous night	are	are	were	2.3663625717163086	5.1125359535217285	3.760709205380408e-06	0.1273292452096939	10
+362	shapessocial_transcript	transcript	gpt2	dream again. The four birds from the previous night are	back	back.	now	3.0870931148529053	5.598273754119873	1.127093469222018e-06	0.12477865070104599	10
+363	shapessocial_transcript	transcript	gpt2	again. The four birds from the previous night are back.	They	They	"
+"	1.802335500717163	5.137950897216797	0.00016664892609696835	0.1724732518196106	10
+364	shapessocial_transcript	transcript	gpt2	The four birds from the previous night are back. They	sur	surround	are	2.321431875228882	4.135856628417969	2.5346955645488833e-09	0.2027035653591156	10
+365	shapessocial_transcript	transcript	gpt2	four birds from the previous night are back. They surround	him	him,	the	10.469573020935059	3.484588384628296	7.424253567478445e-08	0.37706461548805237	10
+366	shapessocial_transcript	transcript	gpt2	birds from the previous night are back. They surround him,	pre	preventing	and	1.6163238286972046	6.228265285491943	2.393670399669645e-07	0.14771567285060883	10
+367	shapessocial_transcript	transcript	gpt2	from the previous night are back. They surround him, preventing	him	him	him	8.582266807556152	2.87457537651062	8.585129194216279e-07	0.5709354877471924	10
+368	shapessocial_transcript	transcript	gpt2	the previous night are back. They surround him, preventing him	from	from	from	0.5598253607749939	0.3350692391395569	9.594183939043432e-05	0.9663994312286377	10
+369	shapessocial_transcript	transcript	gpt2	previous night are back. They surround him, preventing him from	esc	escaping,	getting	0.03025307133793831	5.626343727111816	2.739331872447792e-09	0.07297850400209427	10
+370	shapessocial_transcript	transcript	gpt2	night are back. They surround him, preventing him from escaping,	no	no	and	2.366636276245117	3.3294878005981445	1.8793785727666545e-07	0.31603699922561646	10
+371	shapessocial_transcript	transcript	gpt2	are back. They surround him, preventing him from escaping, no	matter	matter	matter	7.823232650756836	1.8250175714492798	1.4955229744373355e-05	0.7105421423912048	10
+372	shapessocial_transcript	transcript	gpt2	back. They surround him, preventing him from escaping, no matter	which	which	how	0.20223315060138702	1.3890817165374756	5.75934564039926e-07	0.5086072683334351	10
+373	shapessocial_transcript	transcript	gpt2	They surround him, preventing him from escaping, no matter which	direction	direction	way	4.888002395629883	3.8682034015655518	2.5926872240233934e-06	0.2964012026786804	10
+374	shapessocial_transcript	transcript	gpt2	surround him, preventing him from escaping, no matter which direction	he	he	he	2.291083812713623	2.826631784439087	1.4678074876428582e-05	0.47051528096199036	10
+375	shapessocial_transcript	transcript	gpt2	him, preventing him from escaping, no matter which direction he	turn	turns.	was	0.8268818855285645	3.8626158237457275	5.012996684428117e-09	0.22559955716133118	10
+376	shapessocial_transcript	transcript	gpt2	preventing him from escaping, no matter which direction he turns.	The	The	"
+"	0.6613573431968689	4.95927619934082	0.0009246604167856276	0.24744844436645508	10
+377	shapessocial_transcript	transcript	gpt2	him from escaping, no matter which direction he turns. The	birds	birds	only	2.940551280975342	8.397417068481445	3.117405640296056e-07	0.024464847519993782	10
+378	shapessocial_transcript	transcript	gpt2	from escaping, no matter which direction he turns. The birds	transform	transform	are	8.332938194274902	5.601311683654785	5.5916395069743885e-08	0.10739374905824661	10
+379	shapessocial_transcript	transcript	gpt2	escaping, no matter which direction he turns. The birds transform	into	into	into	9.04981803894043	2.4084463119506836	7.858011485950556e-06	0.595910906791687	10
+380	shapessocial_transcript	transcript	gpt2	no matter which direction he turns. The birds transform into	a	a	a	0.544538140296936	7.264227867126465	3.0559426704712678e-06	0.061516065150499344	10
+381	shapessocial_transcript	transcript	gpt2	matter which direction he turns. The birds transform into a	g	giant	swarm	2.4138286113739014	7.096079349517822	9.404499792253773e-07	0.026702214032411575	10
+382	shapessocial_transcript	transcript	gpt2	which direction he turns. The birds transform into a giant	monster	monster	,	3.8177409172058105	6.972628116607666	1.125842530314003e-07	0.04928712174296379	10
+383	shapessocial_transcript	transcript	gpt2	direction he turns. The birds transform into a giant monster	with	with	and	6.240301132202148	3.593327522277832	1.2006196811853442e-05	0.19274355471134186	10
+384	shapessocial_transcript	transcript	gpt2	he turns. The birds transform into a giant monster with	two	two	a	2.4059460163116455	5.572898864746094	3.6649771573138423e-07	0.1894117146730423	10
+385	shapessocial_transcript	transcript	gpt2	turns. The birds transform into a giant monster with two	long	long	heads	5.053014278411865	4.8296380043029785	3.0950427571951877e-06	0.13281062245368958	10
+386	shapessocial_transcript	transcript	gpt2	The birds transform into a giant monster with two long	arms	arms	,	5.17626953125	3.9065215587615967	1.0188226042373572e-05	0.15347321331501007	10
+387	shapessocial_transcript	transcript	gpt2	birds transform into a giant monster with two long arms	and	and	and	1.7066651582717896	2.4364426136016846	3.260073935962282e-05	0.40093252062797546	10
+388	shapessocial_transcript	transcript	gpt2	transform into a giant monster with two long arms and	two	two	a	1.0830156803131104	4.167545795440674	1.2743616935040336e-06	0.289347767829895	10
+389	shapessocial_transcript	transcript	gpt2	into a giant monster with two long arms and two	w	wobbly	legs	1.8027478456497192	4.718355655670166	2.576189501724002e-07	0.12176245450973511	10
+390	shapessocial_transcript	transcript	gpt2	a giant monster with two long arms and two wobbly	leg	legs.	legs	0.00014876213390380144	2.896432876586914	2.658452729065175e-07	0.5052306056022644	10
+391	shapessocial_transcript	transcript	gpt2	giant monster with two long arms and two wobbly legs.	The	The	"
+"	0.7770973443984985	4.926240921020508	0.0004864551592618227	0.13742543756961823	10
+392	shapessocial_transcript	transcript	gpt2	monster with two long arms and two wobbly legs. The	monster	monster	creature	2.907555103302002	8.152383804321289	1.851031584010343e-06	0.016935201361775398	10
+393	shapessocial_transcript	transcript	gpt2	with two long arms and two wobbly legs. The monster	sw	swats	was	7.220965385437012	5.803722381591797	1.2978865697732545e-06	0.09669229388237	10
+394	shapessocial_transcript	transcript	gpt2	two long arms and two wobbly legs. The monster swats	at	at	at	4.340831279754639	4.4065351486206055	9.658222097641556e-07	0.12202788889408112	10
+395	shapessocial_transcript	transcript	gpt2	long arms and two wobbly legs. The monster swats at	the	the	the	2.1282193660736084	4.295048713684082	1.4000197552377358e-06	0.19711510837078094	10
+396	shapessocial_transcript	transcript	gpt2	arms and two wobbly legs. The monster swats at the	boy	boy.	creature	1.5033713579177856	7.174483776092529	5.927575443820388e-07	0.028750795871019363	10
+397	shapessocial_transcript	transcript	gpt2	and two wobbly legs. The monster swats at the boy.	He	He	"
+"	2.7217049598693848	4.155574798583984	0.00030836579389870167	0.1931850165128708	10
+398	shapessocial_transcript	transcript	gpt2	two wobbly legs. The monster swats at the boy. He	miss	misses	's	2.1491198539733887	5.928569793701172	1.4001414250230937e-08	0.03901184722781181	10
+399	shapessocial_transcript	transcript	gpt2	wobbly legs. The monster swats at the boy. He misses	and	and	the	6.216409683227539	3.6575639247894287	3.4285055789951002e-06	0.20345458388328552	10
+400	shapessocial_transcript	transcript	gpt2	legs. The monster swats at the boy. He misses and	t	tries	falls	4.448482990264893	6.026649475097656	7.619964890182018e-06	0.05132585018873215	10
+401	shapessocial_transcript	transcript	gpt2	The monster swats at the boy. He misses and tries	again	again.	to	3.491732120513916	0.7894251346588135	5.030470333622361e-07	0.8918105363845825	10
+402	shapessocial_transcript	transcript	gpt2	monster swats at the boy. He misses and tries again.	F	Frightened,	"
+"	1.764823317527771	5.044407367706299	5.328980478225276e-05	0.1794889271259308	10
+403	shapessocial_transcript	transcript	gpt2	swats at the boy. He misses and tries again. Frightened,	the	the	he	0.8241511583328247	4.697243690490723	2.0205328837619163e-05	0.39245742559432983	10
+404	shapessocial_transcript	transcript	gpt2	at the boy. He misses and tries again. Frightened, the	boy	boy	boy	2.6890952587127686	3.837204694747925	6.9861225711065345e-06	0.5269454121589661	10
+405	shapessocial_transcript	transcript	gpt2	the boy. He misses and tries again. Frightened, the boy	flies	flies	tries	0.6365677118301392	5.953693389892578	2.2902732155216654e-07	0.04451272636651993	10
+406	shapessocial_transcript	transcript	gpt2	boy. He misses and tries again. Frightened, the boy flies	over	over	off	6.316249847412109	3.3051388263702393	1.7544623460707953e-06	0.18915896117687225	10
+407	shapessocial_transcript	transcript	gpt2	He misses and tries again. Frightened, the boy flies over	the	the	to	3.667285442352295	2.8334667682647705	1.4568478036380839e-05	0.33253005146980286	10
+408	shapessocial_transcript	transcript	gpt2	misses and tries again. Frightened, the boy flies over the	monster	monster,	edge	1.5998191833496094	6.605441570281982	1.993771192587701e-08	0.06819319725036621	10
+409	shapessocial_transcript	transcript	gpt2	and tries again. Frightened, the boy flies over the monster,	ev	evading	and	1.9082155227661133	5.818018436431885	3.14826138492208e-07	0.17151886224746704	10
+410	shapessocial_transcript	transcript	gpt2	tries again. Frightened, the boy flies over the monster, evading	its	its	the	0.1670278161764145	4.503842353820801	1.30292949052091e-06	0.20462150871753693	10
+411	shapessocial_transcript	transcript	gpt2	again. Frightened, the boy flies over the monster, evading its	gr	grasp,	attacks	2.9462664127349854	5.65791130065918	5.6693369998583876e-08	0.15007008612155914	10
+412	shapessocial_transcript	transcript	gpt2	Frightened, the boy flies over the monster, evading its grasp,	the	the	and	1.8938133716583252	4.506259441375732	2.034099225056707e-06	0.33785948157310486	10
+413	shapessocial_transcript	transcript	gpt2	the boy flies over the monster, evading its grasp, the	monster	monster	monster	4.55263090133667	5.916684150695801	7.276050837390358e-06	0.20973192155361176	10
+414	shapessocial_transcript	transcript	gpt2	boy flies over the monster, evading its grasp, the monster	sc	scrunches	's	1.8002111911773682	6.192438125610352	2.910649925524922e-07	0.052748437970876694	10
+415	shapessocial_transcript	transcript	gpt2	flies over the monster, evading its grasp, the monster scrunches	into	into	up	1.1313819885253906	1.9208706617355347	4.7429445260149805e-08	0.6510144472122192	10
+416	shapessocial_transcript	transcript	gpt2	over the monster, evading its grasp, the monster scrunches into	a	a	the	4.355546951293945	3.2264039516448975	1.6122284023367683e-06	0.3426598608493805	10
+417	shapessocial_transcript	transcript	gpt2	the monster, evading its grasp, the monster scrunches into a	little	little	corner	2.28267765045166	6.147240161895752	6.548164321884542e-08	0.1379077434539795	10
+418	shapessocial_transcript	transcript	gpt2	monster, evading its grasp, the monster scrunches into a little	ball	ball.	corner	5.744021892547607	5.657614707946777	2.4581422621849924e-06	0.2019605040550232	10
+419	shapessocial_transcript	transcript	gpt2	evading its grasp, the monster scrunches into a little ball.	It	It	"
+"	2.611955404281616	4.637050628662109	0.00011136652028653771	0.20269633829593658	10
+420	shapessocial_transcript	transcript	gpt2	its grasp, the monster scrunches into a little ball. It	p	pounces,	's	2.3567371368408203	5.544740200042725	7.342334811255569e-07	0.15389829874038696	10
+421	shapessocial_transcript	transcript	gpt2	grasp, the monster scrunches into a little ball. It pounces,	l	lunging	and	1.8493614196777344	5.213579177856445	2.566777993706637e-06	0.2374584972858429	10
+422	shapessocial_transcript	transcript	gpt2	the monster scrunches into a little ball. It pounces, lunging	at	at	at	1.2538377046585083	3.8030128479003906	1.1504245094329235e-06	0.2001509666442871	10
+423	shapessocial_transcript	transcript	gpt2	monster scrunches into a little ball. It pounces, lunging at	the	the	the	1.4333734512329102	4.384689807891846	9.661046533437911e-06	0.31143859028816223	10
+424	shapessocial_transcript	transcript	gpt2	scrunches into a little ball. It pounces, lunging at the	boy	boy.	ball	0.988627016544342	6.936094760894775	1.3430847047857242e-06	0.08527456223964691	10
+425	shapessocial_transcript	transcript	gpt2	into a little ball. It pounces, lunging at the boy.	After	After	"
+"	1.6525852680206299	4.155141830444336	1.9045397493755445e-05	0.2118375301361084	10
+426	shapessocial_transcript	transcript	gpt2	a little ball. It pounces, lunging at the boy. After	the	the	a	5.730229377746582	3.582214117050171	1.7802453839976806e-06	0.44318342208862305	10
+427	shapessocial_transcript	transcript	gpt2	little ball. It pounces, lunging at the boy. After the	boy	boy	ball	2.798494815826416	6.362645626068115	1.3777392950942158e-06	0.11176513135433197	10
+428	shapessocial_transcript	transcript	gpt2	ball. It pounces, lunging at the boy. After the boy	d	dodges	's	2.6001293659210205	5.459805488586426	7.455085437868547e-07	0.07972480356693268	10
+429	shapessocial_transcript	transcript	gpt2	It pounces, lunging at the boy. After the boy dodges	this	this	the	0.003043545177206397	2.648437738418579	1.1512483411024732e-08	0.35024815797805786	10
+430	shapessocial_transcript	transcript	gpt2	pounces, lunging at the boy. After the boy dodges this	attack	attack,	,	5.262327194213867	5.026181221008301	2.5193805868184427e-06	0.18320141732692719	10
+431	shapessocial_transcript	transcript	gpt2	lunging at the boy. After the boy dodges this attack,	the	the	he	0.46549341082572937	5.677549362182617	2.615282755868975e-05	0.1815209537744522	10
+432	shapessocial_transcript	transcript	gpt2	at the boy. After the boy dodges this attack, the	night	nightmare	boy	1.7774369716644287	7.114346027374268	1.207553168569575e-07	0.10894228518009186	10
+433	shapessocial_transcript	transcript	gpt2	the boy. After the boy dodges this attack, the nightmare	f	finally	begins	9.79348087310791	5.153383731842041	8.011185855139047e-06	0.2122928351163864	10
+434	shapessocial_transcript	transcript	gpt2	boy. After the boy dodges this attack, the nightmare finally	ends	ends.	ends	5.49748420715332	4.263680934906006	1.825131619170861e-07	0.22638767957687378	10
+435	shapessocial_transcript	transcript	gpt2	After the boy dodges this attack, the nightmare finally ends.	The	The	"
+"	0.7071689963340759	4.6102614402771	0.0010240146657451987	0.32156655192375183	10
+436	shapessocial_transcript	transcript	gpt2	the boy dodges this attack, the nightmare finally ends. The	boy	boy	boy	2.4979376792907715	7.042778015136719	3.7770446397189517e-06	0.14314495027065277	10
+437	shapessocial_transcript	transcript	gpt2	boy dodges this attack, the nightmare finally ends. The boy	sleep	sleeps	is	5.723988056182861	5.883646011352539	5.034804217984856e-08	0.0915500745177269	10
+438	shapessocial_transcript	transcript	gpt2	dodges this attack, the nightmare finally ends. The boy sleeps	peace	peacefully	for	6.78146505355835	3.814687967300415	1.2866404404121567e-06	0.2409670352935791	10
+439	shapessocial_transcript	transcript	gpt2	this attack, the nightmare finally ends. The boy sleeps peacefully	for	for	,	3.402362108230591	3.039867639541626	5.395116318140936e-07	0.27460989356040955	10
+440	shapessocial_transcript	transcript	gpt2	attack, the nightmare finally ends. The boy sleeps peacefully for	the	the	a	3.2058701515197754	3.236957550048828	2.217304881924065e-06	0.3552198112010956	10
+441	shapessocial_transcript	transcript	gpt2	the nightmare finally ends. The boy sleeps peacefully for the	rest	rest	rest	1.8739758729934692	2.0335240364074707	5.152214157533308e-07	0.4752689301967621	10
+442	shapessocial_transcript	transcript	gpt2	nightmare finally ends. The boy sleeps peacefully for the rest	of	of	of	0.875838577747345	0.041526198387145996	1.5344296571129235e-06	0.9957595467567444	10
+443	shapessocial_transcript	transcript	gpt2	finally ends. The boy sleeps peacefully for the rest of	the	the	the	0.0028028511442244053	1.1439555883407593	7.118415851437021e-06	0.7190374732017517	10
+444	shapessocial_transcript	transcript	gpt2	ends. The boy sleeps peacefully for the rest of the	night	night.	day	0.3345227837562561	1.997713327407837	7.193955752882175e-06	0.41797688603401184	10
+445	shapessocial_transcript	transcript	gpt2	The boy sleeps peacefully for the rest of the night.	In	In	"
+"	1.1949422359466553	4.187904357910156	4.8895355575950816e-05	0.23019523918628693	10
+446	shapessocial_transcript	transcript	gpt2	boy sleeps peacefully for the rest of the night. In	the	the	the	4.489975929260254	3.90879225730896	1.0909235243161675e-05	0.2824706733226776	10
+447	shapessocial_transcript	transcript	gpt2	sleeps peacefully for the rest of the night. In the	morning	morning,	morning	1.12028968334198	3.7917869091033936	5.9762173805211205e-06	0.4370620846748352	10
+448	shapessocial_transcript	transcript	gpt2	peacefully for the rest of the night. In the morning,	the	the	I	0.8153996467590332	5.153656959533691	1.536325362394564e-05	0.11428440362215042	10
+449	shapessocial_transcript	transcript	gpt2	for the rest of the night. In the morning, the	boy	boy's	sun	2.4987704753875732	8.151073455810547	1.0688730611718711e-07	0.025807524099946022	10
+450	shapessocial_transcript	transcript	gpt2	the rest of the night. In the morning, the boy's	dad	dad	mother	2.840881824493408	5.360208988189697	3.572388607153698e-07	0.15236756205558777	10
+451	shapessocial_transcript	transcript	gpt2	rest of the night. In the morning, the boy's dad	w	wakes	,	5.551802158355713	5.440234661102295	2.3435757157130865e-06	0.08859910815954208	10
+452	shapessocial_transcript	transcript	gpt2	of the night. In the morning, the boy's dad wakes	up	up,	up	6.305294513702393	1.7614859342575073	5.384288670029491e-05	0.6233234405517578	10
+453	shapessocial_transcript	transcript	gpt2	the night. In the morning, the boy's dad wakes up,	wal	walks	and	2.184901714324951	5.8309712409973145	3.725354957850868e-08	0.18773747980594635	10
+454	shapessocial_transcript	transcript	gpt2	night. In the morning, the boy's dad wakes up, walks	to	to	to	4.980869293212891	3.1370608806610107	3.5071752790827304e-07	0.13729937374591827	10
+455	shapessocial_transcript	transcript	gpt2	In the morning, the boy's dad wakes up, walks to	the	the	the	1.9635660648345947	1.8556948900222778	7.811855539330281e-06	0.5169069766998291	10
+456	shapessocial_transcript	transcript	gpt2	the morning, the boy's dad wakes up, walks to the	stairs	stairs,	door	0.6444456577301025	5.2048563957214355	9.102063813770656e-08	0.09218242764472961	10
+457	shapessocial_transcript	transcript	gpt2	morning, the boy's dad wakes up, walks to the stairs,	and	and	and	0.6881552338600159	3.323784589767456	6.56807969789952e-05	0.5412461757659912	10
+458	shapessocial_transcript	transcript	gpt2	the boy's dad wakes up, walks to the stairs, and	sh	shouts	then	0.7224303483963013	5.8804931640625	8.109271902867476e-07	0.03541808947920799	10
+459	shapessocial_transcript	transcript	gpt2	boy's dad wakes up, walks to the stairs, and shouts	for	for	,	5.9842939376831055	3.342417001724243	2.0465893157961546e-06	0.22039580345153809	10
+460	shapessocial_transcript	transcript	gpt2	dad wakes up, walks to the stairs, and shouts for	his	his	her	2.919241428375244	5.236388206481934	3.52697782091127e-07	0.1439005732536316	10
+461	shapessocial_transcript	transcript	gpt2	wakes up, walks to the stairs, and shouts for his	son	son	friends	2.7577641010284424	5.126935005187988	5.048645448368916e-07	0.07359021157026291	10
+462	shapessocial_transcript	transcript	gpt2	up, walks to the stairs, and shouts for his son	to	to	to	4.049422740936279	2.849942207336426	2.5173882022500038e-05	0.32589423656463623	10
+463	shapessocial_transcript	transcript	gpt2	walks to the stairs, and shouts for his son to	come	come	come	1.0684148073196411	4.744743347167969	4.2360825318610296e-06	0.12502537667751312	10
+464	shapessocial_transcript	transcript	gpt2	to the stairs, and shouts for his son to come	down	down.	down	2.096024990081787	3.7246198654174805	3.092416363870143e-06	0.09119351208209991	10
+465	shapessocial_transcript	transcript	gpt2	the stairs, and shouts for his son to come down.	The	The	"
+"	1.303126573562622	4.757530212402344	0.00036806153366342187	0.22060392796993256	10
+466	shapessocial_transcript	transcript	gpt2	stairs, and shouts for his son to come down. The	boy	boy	boy	2.5910825729370117	7.438441753387451	1.0186769259235007e-06	0.04087594896554947	10
+467	shapessocial_transcript	transcript	gpt2	and shouts for his son to come down. The boy	j	jumps	is	3.1864731311798096	5.6951704025268555	9.787760291146697e-07	0.08109624683856964	10
+468	shapessocial_transcript	transcript	gpt2	shouts for his son to come down. The boy jumps	up	up	up	7.289575099945068	3.3120627403259277	9.474017588217976e-07	0.1496509313583374	10
+469	shapessocial_transcript	transcript	gpt2	for his son to come down. The boy jumps up	and	and	and	1.9692412614822388	2.533543348312378	6.190172825881746e-06	0.4594142735004425	10
+470	shapessocial_transcript	transcript	gpt2	his son to come down. The boy jumps up and	go	goes	down	0.8145386576652527	5.531891822814941	3.5213778915021976e-07	0.08057429641485214	10
+471	shapessocial_transcript	transcript	gpt2	son to come down. The boy jumps up and goes	down	down	to	4.417057037353516	3.5956170558929443	6.786561357330356e-07	0.20717336237430573	10
+472	shapessocial_transcript	transcript	gpt2	to come down. The boy jumps up and goes down	the	the	.	1.9015660285949707	3.5257861614227295	6.019806733092992e-06	0.1824234426021576	10
+473	shapessocial_transcript	transcript	gpt2	come down. The boy jumps up and goes down the	stairs	stairs.	stairs	2.793987274169922	3.435678243637085	9.125728865910787e-06	0.49081042408943176	10
+474	shapessocial_transcript	transcript	gpt2	down. The boy jumps up and goes down the stairs.	After	After	"
+"	1.0285919904708862	4.669402122497559	6.898606807226315e-05	0.15934444963932037	10
+475	shapessocial_transcript	transcript	gpt2	The boy jumps up and goes down the stairs. After	a	a	a	4.855631351470947	4.4069623947143555	1.1394817192922346e-05	0.22314780950546265	10
+476	shapessocial_transcript	transcript	gpt2	boy jumps up and goes down the stairs. After a	b	brief	while	1.9678025245666504	3.2583351135253906	5.559116971198819e-07	0.2021033614873886	10
+477	shapessocial_transcript	transcript	gpt2	jumps up and goes down the stairs. After a brief	good	good	pause	3.458794116973877	4.778514385223389	2.714000224557367e-08	0.2298286110162735	10
+478	shapessocial_transcript	transcript	gpt2	up and goes down the stairs. After a brief good	morning	morning,	-	8.285055160522461	5.397734642028809	3.340218972880393e-05	0.112349733710289	10
+479	shapessocial_transcript	transcript	gpt2	and goes down the stairs. After a brief good morning,	the	the	he	1.2957128286361694	4.756352424621582	1.1970966625085566e-05	0.20632635056972504	10
+480	shapessocial_transcript	transcript	gpt2	goes down the stairs. After a brief good morning, the	boy	boy	two	2.354062557220459	7.233065128326416	3.032956499282591e-07	0.05698251724243164	10
+481	shapessocial_transcript	transcript	gpt2	down the stairs. After a brief good morning, the boy	again	again	was	5.502809047698975	5.761268138885498	8.718863142576083e-08	0.08047859370708466	10
+482	shapessocial_transcript	transcript	gpt2	the stairs. After a brief good morning, the boy again	heads	heads	went	7.377419948577881	5.880204200744629	5.315270072969724e-07	0.04673592373728752	10
+483	shapessocial_transcript	transcript	gpt2	stairs. After a brief good morning, the boy again heads	out	out	to	5.905562877655029	2.678427219390869	2.4539524474676e-06	0.31410685181617737	10
+484	shapessocial_transcript	transcript	gpt2	After a brief good morning, the boy again heads out	for	for	to	2.3682920932769775	2.6235532760620117	3.586331558835809e-06	0.28918036818504333	10
+485	shapessocial_transcript	transcript	gpt2	a brief good morning, the boy again heads out for	the	the	the	2.370887279510498	3.0641512870788574	5.754425274062669e-06	0.3268079459667206	10
+486	shapessocial_transcript	transcript	gpt2	brief good morning, the boy again heads out for the	day	day,	bathroom	1.1994314193725586	6.655431270599365	3.4306293628105777e-07	0.07187940180301666	10
+487	shapessocial_transcript	transcript	gpt2	good morning, the boy again heads out for the day,	and	and	and	1.995652675628662	5.8457536697387695	1.9186107238056138e-05	0.14559459686279297	10
+488	shapessocial_transcript	transcript	gpt2	morning, the boy again heads out for the day, and	the	the	the	2.2647454738616943	5.669282913208008	3.0243099899962544e-06	0.101756252348423	10
+489	shapessocial_transcript	transcript	gpt2	the boy again heads out for the day, and the	day	day	boy	2.248371124267578	6.351792335510254	4.382523002277594e-07	0.11676173657178879	10
+490	shapessocial_transcript	transcript	gpt2	boy again heads out for the day, and the day	pass	passes.	after	5.450534820556641	3.946017265319824	2.034075578194461e-06	0.25914958119392395	10
+491	shapessocial_transcript	transcript	gpt2	again heads out for the day, and the day passes.	At	At	"
+"	2.345773935317993	5.0594587326049805	3.5225839383201674e-05	0.1760089099407196	10
+492	shapessocial_transcript	transcript	gpt2	heads out for the day, and the day passes. At	the	the	the	4.922520160675049	4.224704742431641	5.10740665049525e-06	0.146174356341362	10
+493	shapessocial_transcript	transcript	gpt2	out for the day, and the day passes. At the	end	end	end	1.7234232425689697	4.203530788421631	1.0898725122387987e-05	0.401660680770874	10
+494	shapessocial_transcript	transcript	gpt2	for the day, and the day passes. At the end	of	of	of	0.965067446231842	0.8633700013160706	0.0001313014217885211	0.8505282402038574	10
+495	shapessocial_transcript	transcript	gpt2	the day, and the day passes. At the end of	the	the	the	0.23222504556179047	2.289484739303589	1.693692865956109e-05	0.5475416779518127	10
+496	shapessocial_transcript	transcript	gpt2	day, and the day passes. At the end of the	day	day	day	0.6106845140457153	3.023101568222046	2.4265060346806422e-05	0.6016725301742554	10
+497	shapessocial_transcript	transcript	gpt2	and the day passes. At the end of the day	the	the	,	0.35465386509895325	2.115962266921997	3.391037125766161e-06	0.6774686574935913	10
+498	shapessocial_transcript	transcript	gpt2	the day passes. At the end of the day the	boy	boy	people	3.7195138931274414	8.28282356262207	2.9101380505380803e-07	0.01282674353569746	10
+499	shapessocial_transcript	transcript	gpt2	day passes. At the end of the day the boy	return	returns	is	7.958884239196777	4.996628284454346	4.269520275101968e-07	0.14356571435928345	10
+500	shapessocial_transcript	transcript	gpt2	passes. At the end of the day the boy returns	home	home,	to	7.060720443725586	2.2958738803863525	3.3826188428065507e-06	0.42183804512023926	10
+501	shapessocial_transcript	transcript	gpt2	At the end of the day the boy returns home,	gre	greets	and	2.2261290550231934	5.766567707061768	5.376765699338648e-09	0.13271525502204895	10
+502	shapessocial_transcript	transcript	gpt2	the end of the day the boy returns home, greets	his	his	his	10.478119850158691	3.0086209774017334	9.186700481222942e-06	0.4566131830215454	10
+503	shapessocial_transcript	transcript	gpt2	end of the day the boy returns home, greets his	father	father	parents	0.8643500208854675	3.624847173690796	3.3315839118586155e-06	0.21711941063404083	10
+504	shapessocial_transcript	transcript	gpt2	of the day the boy returns home, greets his father	quick	quickly,	and	2.2597389221191406	2.725231647491455	1.6303943084494676e-08	0.3102760910987854	10
+505	shapessocial_transcript	transcript	gpt2	the day the boy returns home, greets his father quickly,	and	and	and	1.4629603624343872	4.893442153930664	6.603207293665037e-05	0.3109399080276489	10
+506	shapessocial_transcript	transcript	gpt2	day the boy returns home, greets his father quickly, and	then	then	tells	0.736954927444458	5.787200927734375	2.564922397141345e-06	0.06551671028137207	10
+507	shapessocial_transcript	transcript	gpt2	the boy returns home, greets his father quickly, and then	go	goes	goes	2.91251277923584	5.993341445922852	2.968419494209229e-06	0.04727453365921974	10
+508	shapessocial_transcript	transcript	gpt2	boy returns home, greets his father quickly, and then goes	straight	straight	to	3.0200767517089844	2.6170310974121094	1.0810379080794519e-07	0.42306920886039734	10
+509	shapessocial_transcript	transcript	gpt2	returns home, greets his father quickly, and then goes straight	up	upstairs	to	5.060208320617676	1.596479892730713	2.084259904222563e-06	0.6285855174064636	10
+510	shapessocial_transcript	transcript	gpt2	home, greets his father quickly, and then goes straight upstairs	to	to	to	5.215620517730713	2.3127973079681396	6.547977591253584e-06	0.3382274806499481	10
+511	shapessocial_transcript	transcript	gpt2	greets his father quickly, and then goes straight upstairs to	his	his	the	1.1359766721725464	4.860461235046387	8.607023119111545e-06	0.1841733157634735	10
+512	shapessocial_transcript	transcript	gpt2	his father quickly, and then goes straight upstairs to his	bedroom	bedroom.	room	2.197416305541992	3.358149290084839	6.392971272362047e-07	0.39548370242118835	10
+513	shapessocial_transcript	transcript	gpt2	father quickly, and then goes straight upstairs to his bedroom.	The	The	He	0.9343477487564087	4.837426662445068	0.00014086681767366827	0.18767866492271423	10
+514	shapessocial_transcript	transcript	gpt2	quickly, and then goes straight upstairs to his bedroom. The	boy	boy	door	2.93908429145813	6.770817756652832	4.399470867610944e-07	0.06203199177980423	10
+515	shapessocial_transcript	transcript	gpt2	and then goes straight upstairs to his bedroom. The boy	cl	climbs	is	5.325778961181641	5.4085588455200195	1.0709738944569835e-06	0.13429519534111023	10
+516	shapessocial_transcript	transcript	gpt2	then goes straight upstairs to his bedroom. The boy climbs	into	into	into	4.902304649353027	2.5753254890441895	5.850238267157692e-07	0.26210716366767883	10
+517	shapessocial_transcript	transcript	gpt2	goes straight upstairs to his bedroom. The boy climbs into	bed	bed,	bed	1.3027583360671997	0.97471022605896	1.413406380379456e-06	0.7494178414344788	10
+518	shapessocial_transcript	transcript	gpt2	straight upstairs to his bedroom. The boy climbs into bed,	as	as	and	1.3857508897781372	6.2548933029174805	2.566307557572145e-07	0.11237606406211853	10
+519	shapessocial_transcript	transcript	gpt2	upstairs to his bedroom. The boy climbs into bed, as	does	does	if	5.3634467124938965	4.369994640350342	1.2647364201257005e-05	0.2066182792186737	10
+520	shapessocial_transcript	transcript	gpt2	to his bedroom. The boy climbs into bed, as does	his	his	the	3.032717227935791	4.390705108642578	2.305405814695405e-06	0.30313432216644287	10
+521	shapessocial_transcript	transcript	gpt2	his bedroom. The boy climbs into bed, as does his	father	father	mother	1.5802927017211914	3.483292579650879	4.4720163714373484e-06	0.25769704580307007	10
+522	shapessocial_transcript	transcript	gpt2	bedroom. The boy climbs into bed, as does his father	down	downstairs.	.	1.605403184890747	1.8165409564971924	1.9641156256966497e-08	0.4183615744113922	10
+523	shapessocial_transcript	transcript	gpt2	The boy climbs into bed, as does his father downstairs.	Both	Both	"
+"	0.5896683931350708	4.460574150085449	1.8041600924334489e-06	0.18789780139923096	10
+524	shapessocial_transcript	transcript	gpt2	boy climbs into bed, as does his father downstairs. Both	event	eventually	men	5.735684394836426	5.533827781677246	5.2636764280578063e-08	0.17551381886005402	10
+525	shapessocial_transcript	transcript	gpt2	climbs into bed, as does his father downstairs. Both eventually	fall	fall	fall	8.294025421142578	5.6522722244262695	3.7761083149234764e-06	0.07795283198356628	10
+526	shapessocial_transcript	transcript	gpt2	into bed, as does his father downstairs. Both eventually fall	as	asleep.	asleep	3.357562303543091	0.719145655632019	5.5868735415742776e-08	0.8834494948387146	10
+527	shapessocial_transcript	transcript	gpt2	bed, as does his father downstairs. Both eventually fall asleep.	For	For	"
+"	1.300768256187439	4.491579532623291	9.711234270071145e-06	0.3616795241832733	10
+528	shapessocial_transcript	transcript	gpt2	as does his father downstairs. Both eventually fall asleep. For	the	the	the	6.638579368591309	4.447328090667725	1.5786510630277917e-05	0.20529769361019135	10
+529	shapessocial_transcript	transcript	gpt2	does his father downstairs. Both eventually fall asleep. For the	third	third	next	1.6944438219070435	3.035602569580078	3.285850311840477e-07	0.431095153093338	10
+530	shapessocial_transcript	transcript	gpt2	his father downstairs. Both eventually fall asleep. For the third	night	night	time	5.241443634033203	0.9376204609870911	1.6153566093635163e-06	0.8375527858734131	10
+531	shapessocial_transcript	transcript	gpt2	father downstairs. Both eventually fall asleep. For the third night	in	in	,	2.367089033126831	3.0995090007781982	1.3296561519382522e-05	0.4573303759098053	10
+532	shapessocial_transcript	transcript	gpt2	downstairs. Both eventually fall asleep. For the third night in	a	a	a	1.7300021648406982	0.8347169160842896	4.417348463903181e-06	0.8786643743515015	10
+533	shapessocial_transcript	transcript	gpt2	Both eventually fall asleep. For the third night in a	row	row,	row	0.09884381294250488	0.0071250745095312595	1.1132973440908245e-06	0.9995031356811523	10
+534	shapessocial_transcript	transcript	gpt2	eventually fall asleep. For the third night in a row,	the	the	the	0.4248417615890503	6.015304088592529	1.9464274373603985e-05	0.12893523275852203	10
+535	shapessocial_transcript	transcript	gpt2	fall asleep. For the third night in a row, the	boy	boy	two	2.455242872238159	8.32702922821045	1.885920681843345e-07	0.009510887786746025	10
+536	shapessocial_transcript	transcript	gpt2	asleep. For the third night in a row, the boy	be	begins	was	6.244359970092773	5.435538291931152	5.898292329220567e-06	0.13252542912960052	10
+537	shapessocial_transcript	transcript	gpt2	For the third night in a row, the boy begins	to	to	to	8.850316047668457	3.7800440788269043	7.426322554238141e-06	0.496404230594635	10
+538	shapessocial_transcript	transcript	gpt2	the third night in a row, the boy begins to	dream	dream.	cry	0.6557492017745972	6.019790172576904	2.5598595243536693e-08	0.07281820476055145	10
+539	shapessocial_transcript	transcript	gpt2	third night in a row, the boy begins to dream.	The	The	"
+"	1.824392318725586	3.9736874103546143	0.00019794076797552407	0.2204732745885849	10
+540	shapessocial_transcript	transcript	gpt2	night in a row, the boy begins to dream. The	tower	towering	boy	2.691371440887451	6.727327823638916	4.974764777898599e-08	0.0936407744884491	10
+541	shapessocial_transcript	transcript	gpt2	in a row, the boy begins to dream. The towering	monster	monster	figure	10.414361000061035	6.981222152709961	8.74753567359221e-08	0.07904211431741714	10
+542	shapessocial_transcript	transcript	gpt2	a row, the boy begins to dream. The towering monster	from	from	is	5.4849348068237305	6.162935733795166	1.896382997301771e-07	0.07636949419975281	10
+543	shapessocial_transcript	transcript	gpt2	row, the boy begins to dream. The towering monster from	the	the	the	5.69034481048584	4.772031784057617	2.107926229655277e-05	0.3649771213531494	10
+544	shapessocial_transcript	transcript	gpt2	the boy begins to dream. The towering monster from the	pre	previous	past	0.924295961856842	6.814049243927002	2.007304686912903e-07	0.059868477284908295	10
+545	shapessocial_transcript	transcript	gpt2	boy begins to dream. The towering monster from the previous	dream	dream	episode	3.3402795791625977	4.877301216125488	1.0628805569012911e-07	0.1085328459739685	10
+546	shapessocial_transcript	transcript	gpt2	begins to dream. The towering monster from the previous dream	app	appears	is	7.15539026260376	5.543877601623535	3.054959233850241e-05	0.14975635707378387	10
+547	shapessocial_transcript	transcript	gpt2	to dream. The towering monster from the previous dream appears	again	again,	to	4.208910942077637	3.742109775543213	2.9786369282192027e-07	0.22614401578903198	10
+548	shapessocial_transcript	transcript	gpt2	dream. The towering monster from the previous dream appears again,	slow	slowly	and	1.4320653676986694	4.918592929840088	1.6222584164893306e-08	0.24007268249988556	10
+549	shapessocial_transcript	transcript	gpt2	The towering monster from the previous dream appears again, slowly	follow	following	moving	7.085942268371582	5.751721382141113	2.4699055245491763e-08	0.05575385317206383	10
+550	shapessocial_transcript	transcript	gpt2	towering monster from the previous dream appears again, slowly following	the	the	the	7.016627311706543	4.109498500823975	4.952787094225641e-06	0.2661510109901428	10
+551	shapessocial_transcript	transcript	gpt2	monster from the previous dream appears again, slowly following the	boy	boy,	same	1.5608551502227783	7.225427627563477	1.4547364912687044e-07	0.04541056603193283	10
+552	shapessocial_transcript	transcript	gpt2	from the previous dream appears again, slowly following the boy,	and	and	who	2.700399875640869	5.418703079223633	1.5080664525157772e-05	0.1661415994167328	10
+553	shapessocial_transcript	transcript	gpt2	the previous dream appears again, slowly following the boy, and	reaching	reaching	the	2.576880693435669	5.431068420410156	1.1075614025912728e-07	0.11383283883333206	10
+554	shapessocial_transcript	transcript	gpt2	previous dream appears again, slowly following the boy, and reaching	for	for	the	7.870417594909668	4.025396823883057	2.146850420103874e-05	0.20143535733222961	10
+555	shapessocial_transcript	transcript	gpt2	dream appears again, slowly following the boy, and reaching for	him	him	the	2.008547067642212	3.110172986984253	2.2860306216898607e-06	0.30891692638397217	10
+556	shapessocial_transcript	transcript	gpt2	appears again, slowly following the boy, and reaching for him	with	with	.	3.0644614696502686	2.8728747367858887	2.2182030079420656e-06	0.43422630429267883	10
+557	shapessocial_transcript	transcript	gpt2	again, slowly following the boy, and reaching for him with	one	one	his	3.3095901012420654	3.1252849102020264	1.1578590601857286e-06	0.30215945839881897	10
+558	shapessocial_transcript	transcript	gpt2	slowly following the boy, and reaching for him with one	arm	arm.	hand	2.704288959503174	1.4502595663070679	1.1052472359551757e-07	0.6924220323562622	10
+559	shapessocial_transcript	transcript	gpt2	following the boy, and reaching for him with one arm.	The	The	"
+"	1.171886682510376	3.9446775913238525	0.00118171120993793	0.32400649785995483	10
+560	shapessocial_transcript	transcript	gpt2	the boy, and reaching for him with one arm. The	boy	boy	boy	2.291491746902466	5.276597499847412	4.091874416189967e-06	0.30544909834861755	10
+561	shapessocial_transcript	transcript	gpt2	boy, and reaching for him with one arm. The boy	st	stays	was	3.7413506507873535	5.767081260681152	5.663461593030661e-07	0.08636988699436188	10
+562	shapessocial_transcript	transcript	gpt2	and reaching for him with one arm. The boy stays	out	out	with	9.667118072509766	4.770209312438965	1.7997167844896467e-07	0.09113802760839462	10
+563	shapessocial_transcript	transcript	gpt2	reaching for him with one arm. The boy stays out	of	of	of	4.470025062561035	1.7233814001083374	4.3443142203614116e-05	0.7445402145385742	10
+564	shapessocial_transcript	transcript	gpt2	for him with one arm. The boy stays out of	his	his	sight	0.2947421669960022	2.8799171447753906	1.3700258705284796e-07	0.2778029441833496	10
+565	shapessocial_transcript	transcript	gpt2	him with one arm. The boy stays out of his	reach	reach	way	3.2825489044189453	3.8526463508605957	1.1051411341611583e-08	0.3974849283695221	10
+566	shapessocial_transcript	transcript	gpt2	with one arm. The boy stays out of his reach	and	and	,	5.619222164154053	2.9887595176696777	1.4932601516193245e-05	0.2521512806415558	10
+567	shapessocial_transcript	transcript	gpt2	one arm. The boy stays out of his reach and	ho	hovers	is	1.8221806287765503	6.178706645965576	9.984773008397951e-09	0.07288312911987305	10
+568	shapessocial_transcript	transcript	gpt2	arm. The boy stays out of his reach and hovers	unc	uncertainly	over	0.5732356905937195	3.838792562484741	5.275698211626434e-10	0.24766556918621063	10
+569	shapessocial_transcript	transcript	gpt2	The boy stays out of his reach and hovers uncertainly	around	around	over	0.03508681431412697	2.6949174404144287	2.5366213662891823e-07	0.4046384394168854	10
+570	shapessocial_transcript	transcript	gpt2	boy stays out of his reach and hovers uncertainly around	the	the	the	2.6614718437194824	3.7473032474517822	5.50937056686962e-06	0.3892829418182373	10
+571	shapessocial_transcript	transcript	gpt2	stays out of his reach and hovers uncertainly around the	monster	monster’s	corner	0.9837914705276489	7.163341999053955	4.932667163615179e-09	0.04841616377234459	10
+572	shapessocial_transcript	transcript	gpt2	out of his reach and hovers uncertainly around the monster’s	feet	feet.	head	6.82725191116333	4.802962303161621	5.127270196680911e-05	0.18527890741825104	10
+573	shapessocial_transcript	transcript	gpt2	of his reach and hovers uncertainly around the monster’s feet.	Suddenly	Suddenly,	"
+"	0.6083863377571106	4.457864284515381	1.67039852385642e-05	0.26811325550079346	10
+574	shapessocial_transcript	transcript	gpt2	his reach and hovers uncertainly around the monster’s feet. Suddenly,	he	he	the	0.4845167398452759	4.735556602478027	4.1791165131144226e-05	0.1750151515007019	10
+575	shapessocial_transcript	transcript	gpt2	reach and hovers uncertainly around the monster’s feet. Suddenly, he	is	is	hears	2.4874184131622314	5.677811622619629	4.199102841084823e-05	0.06260688602924347	10
+576	shapessocial_transcript	transcript	gpt2	and hovers uncertainly around the monster’s feet. Suddenly, he is	joined	joined	struck	2.9199843406677246	6.006389617919922	1.5484937776477636e-08	0.05466415360569954	10
+577	shapessocial_transcript	transcript	gpt2	hovers uncertainly around the monster’s feet. Suddenly, he is joined	by	by	by	6.169877529144287	0.7914999127388	2.622384090500418e-05	0.8769243955612183	10
+578	shapessocial_transcript	transcript	gpt2	uncertainly around the monster’s feet. Suddenly, he is joined by	another	another	a	0.12948842346668243	5.4193620681762695	1.569854475746979e-06	0.15385845303535461	10
+579	shapessocial_transcript	transcript	gpt2	around the monster’s feet. Suddenly, he is joined by another	boy	boy.	monster	4.221144199371338	6.67813777923584	5.609198296951945e-07	0.08466581255197525	10
+580	shapessocial_transcript	transcript	gpt2	the monster’s feet. Suddenly, he is joined by another boy.	The	The	"
+"	2.0389184951782227	4.654057502746582	0.000743289478123188	0.1566741168498993	10
+581	shapessocial_transcript	transcript	gpt2	monster’s feet. Suddenly, he is joined by another boy. The	boys	boys	boy	2.1871931552886963	3.9624056816101074	6.667160619144852e-07	0.4566890597343445	10
+582	shapessocial_transcript	transcript	gpt2	feet. Suddenly, he is joined by another boy. The boys	speak	speak	are	3.166968584060669	5.342453956604004	8.627544012540511e-09	0.1967719942331314	10
+583	shapessocial_transcript	transcript	gpt2	Suddenly, he is joined by another boy. The boys speak	f	frantically	of	6.069732189178467	3.9992709159851074	1.8909580035142426e-07	0.16700434684753418	10
+584	shapessocial_transcript	transcript	gpt2	he is joined by another boy. The boys speak frantically	as	as	.	8.789488792419434	2.777886152267456	1.3401254363998305e-06	0.19667965173721313	10
+585	shapessocial_transcript	transcript	gpt2	is joined by another boy. The boys speak frantically as	the	the	they	2.5899975299835205	4.701475143432617	4.614667886926327e-06	0.2671026587486267	10
+586	shapessocial_transcript	transcript	gpt2	joined by another boy. The boys speak frantically as the	monster	monster	boy	1.8450284004211426	7.238894939422607	5.224337584763816e-08	0.05981576442718506	10
+587	shapessocial_transcript	transcript	gpt2	by another boy. The boys speak frantically as the monster	re	reaches	is	6.489017486572266	6.479913234710693	7.635484848833585e-07	0.023454131558537483	10
+588	shapessocial_transcript	transcript	gpt2	another boy. The boys speak frantically as the monster reaches	down	down.	for	5.749701499938965	3.2198452949523926	5.982018933536892e-07	0.32162028551101685	10
+589	shapessocial_transcript	transcript	gpt2	boy. The boys speak frantically as the monster reaches down.	The	The	"
+"	4.022431373596191	4.710507392883301	0.0004096105694770813	0.18699146807193756	10
+590	shapessocial_transcript	transcript	gpt2	The boys speak frantically as the monster reaches down. The	boys	boys	monster	2.211383104324341	6.291099548339844	6.802770826652704e-07	0.12632958590984344	10
+591	shapessocial_transcript	transcript	gpt2	boys speak frantically as the monster reaches down. The boys	fly	fly	are	7.607607364654541	6.057790279388428	4.9111292810266605e-08	0.09307847917079926	10
+592	shapessocial_transcript	transcript	gpt2	speak frantically as the monster reaches down. The boys fly	over	over	to	8.472319602966309	3.9914612770080566	2.682966169231804e-06	0.09232541173696518	10
+593	shapessocial_transcript	transcript	gpt2	frantically as the monster reaches down. The boys fly over	the	the	the	2.9702632427215576	3.3160037994384766	1.8209530026069842e-05	0.2646385729312897	10
+594	shapessocial_transcript	transcript	gpt2	as the monster reaches down. The boys fly over the	monster	monster	ground	1.3628841638565063	6.9027276039123535	2.0361179053907108e-07	0.02751350775361061	10
+595	shapessocial_transcript	transcript	gpt2	the monster reaches down. The boys fly over the monster	which	which	and	3.3313496112823486	2.921672821044922	1.7272917318678083e-07	0.29826807975769043	10
+596	shapessocial_transcript	transcript	gpt2	monster reaches down. The boys fly over the monster which	is	is	is	7.100531578063965	5.591607570648193	4.220172741042916e-06	0.16908647119998932	10
+597	shapessocial_transcript	transcript	gpt2	reaches down. The boys fly over the monster which is	still	still	now	1.5453875064849854	6.627350807189941	3.624416535785713e-07	0.02841297909617424	10
+598	shapessocial_transcript	transcript	gpt2	down. The boys fly over the monster which is still	claw	clawing	in	4.212931156158447	6.02134895324707	6.003992325531726e-08	0.08345798403024673	10
+599	shapessocial_transcript	transcript	gpt2	The boys fly over the monster which is still clawing	at	at	at	0.03296801447868347	2.4893593788146973	5.657685051119188e-06	0.5089184045791626	10
+600	shapessocial_transcript	transcript	gpt2	boys fly over the monster which is still clawing at	them	them.	the	0.7284625768661499	3.0157411098480225	1.3048052096564788e-06	0.2846367359161377	10
+601	shapessocial_transcript	transcript	gpt2	fly over the monster which is still clawing at them.	The	The	"
+"	0.8683334589004517	5.092439651489258	0.001494337571784854	0.2241489291191101	10
+602	shapessocial_transcript	transcript	gpt2	over the monster which is still clawing at them. The	boys	boys	monster	2.762052536010742	7.746667385101318	1.4014270277584728e-07	0.049827951937913895	10
+603	shapessocial_transcript	transcript	gpt2	the monster which is still clawing at them. The boys	make	make	are	7.772953033447266	5.618448734283447	1.0710920861356499e-07	0.147262841463089	10
+604	shapessocial_transcript	transcript	gpt2	monster which is still clawing at them. The boys make	a	a	a	5.866621971130371	4.552879810333252	1.1872281220348668e-06	0.20486536622047424	10
+605	shapessocial_transcript	transcript	gpt2	which is still clawing at them. The boys make a	des	desperate	point	1.9664851427078247	6.589344501495361	3.3298640289558534e-08	0.03876331448554993	10
+606	shapessocial_transcript	transcript	gpt2	is still clawing at them. The boys make a desperate	plan	plan	attempt	3.8713490962982178	4.6144938468933105	5.569429917251512e-10	0.18594591319561005	10
+607	shapessocial_transcript	transcript	gpt2	still clawing at them. The boys make a desperate plan	and	and	to	8.278424263000488	1.9398752450942993	9.391128514835145e-07	0.5545006394386292	10
+608	shapessocial_transcript	transcript	gpt2	clawing at them. The boys make a desperate plan and	the	the	try	3.002002477645874	6.243884086608887	1.549999751659925e-06	0.05130729079246521	10
+609	shapessocial_transcript	transcript	gpt2	at them. The boys make a desperate plan and the	new	new	girls	3.876504421234131	6.849578380584717	1.0980583553532597e-08	0.12282852083444595	10
+610	shapessocial_transcript	transcript	gpt2	them. The boys make a desperate plan and the new	boy	boy	leader	7.527172088623047	7.588379859924316	3.3331099984934554e-05	0.024778585880994797	10
+611	shapessocial_transcript	transcript	gpt2	The boys make a desperate plan and the new boy	spe	speeds	is	4.225394248962402	5.630949020385742	7.719924610682938e-07	0.12912751734256744	10
+612	shapessocial_transcript	transcript	gpt2	boys make a desperate plan and the new boy speeds	away	away.	off	10.724788665771484	2.7546133995056152	2.3789673377905274e-06	0.2886662185192108	10
+613	shapessocial_transcript	transcript	gpt2	make a desperate plan and the new boy speeds away.	He	He	"
+"	1.1569008827209473	4.917324542999268	0.0001888994302134961	0.2343972772359848	10
+614	shapessocial_transcript	transcript	gpt2	a desperate plan and the new boy speeds away. He	quick	quickly	's	2.5092625617980957	5.781905174255371	7.868136719935137e-08	0.06915871053934097	10
+615	shapessocial_transcript	transcript	gpt2	desperate plan and the new boy speeds away. He quickly	return	returns	realizes	5.025187969207764	6.013862133026123	1.2750156486163178e-07	0.04166822135448456	10
+616	shapessocial_transcript	transcript	gpt2	plan and the new boy speeds away. He quickly returns	with	with	to	4.920027732849121	1.7795010805130005	3.0787271043664077e-07	0.6937881112098694	10
+617	shapessocial_transcript	transcript	gpt2	and the new boy speeds away. He quickly returns with	a	a	a	3.812265396118164	4.2152180671691895	1.4348299373523332e-05	0.3020036816596985	10
+618	shapessocial_transcript	transcript	gpt2	the new boy speeds away. He quickly returns with a	ball	ball.	new	1.1537684202194214	7.282452583312988	9.352255574412993e-07	0.018599219620227814	10
+619	shapessocial_transcript	transcript	gpt2	new boy speeds away. He quickly returns with a ball.	The	The	"
+"	3.1840786933898926	5.104607105255127	0.000818673346657306	0.2514125108718872	10
+620	shapessocial_transcript	transcript	gpt2	boy speeds away. He quickly returns with a ball. The	boys	boys	ball	2.7679615020751953	7.498736381530762	1.170978478626239e-07	0.07017852365970612	10
+621	shapessocial_transcript	transcript	gpt2	speeds away. He quickly returns with a ball. The boys	put	put	are	6.6577653884887695	6.078104496002197	4.6709254775123554e-07	0.095570869743824	10
+622	shapessocial_transcript	transcript	gpt2	away. He quickly returns with a ball. The boys put	the	the	it	5.867160797119141	3.2054755687713623	4.863909907726338e-06	0.28684091567993164	10
+623	shapessocial_transcript	transcript	gpt2	He quickly returns with a ball. The boys put the	ball	ball	ball	1.80624258518219	3.0948965549468994	2.345711072848644e-05	0.655442476272583	10
+624	shapessocial_transcript	transcript	gpt2	quickly returns with a ball. The boys put the ball	in	in	in	0.49232217669487	3.082031726837158	1.4408414244826417e-05	0.19131387770175934	10
+625	shapessocial_transcript	transcript	gpt2	returns with a ball. The boys put the ball in	a	a	the	1.5727616548538208	3.1661384105682373	3.1165286600298714e-06	0.43237805366516113	10
+626	shapessocial_transcript	transcript	gpt2	with a ball. The boys put the ball in a	sl	slingshot,	basket	3.4404048919677734	6.164674282073975	2.7752907527656134e-08	0.09599711745977402	10
+627	shapessocial_transcript	transcript	gpt2	a ball. The boys put the ball in a slingshot,	at	at	and	1.7099828720092773	4.786238670349121	3.498245746413886e-07	0.2977665066719055	10
+628	shapessocial_transcript	transcript	gpt2	ball. The boys put the ball in a slingshot, at	the	the	which	6.687013626098633	3.332167625427246	6.690646387141896e-06	0.4000560939311981	10
+629	shapessocial_transcript	transcript	gpt2	The boys put the ball in a slingshot, at the	last	last	end	2.02422833442688	5.586953163146973	1.0616937515806057e-06	0.1465335339307785	10
+630	shapessocial_transcript	transcript	gpt2	boys put the ball in a slingshot, at the last	minute	minute,	minute	3.6390750408172607	1.6767053604125977	6.701203528791666e-05	0.489389568567276	10
+631	shapessocial_transcript	transcript	gpt2	put the ball in a slingshot, at the last minute,	they	they	and	1.4523018598556519	5.13782262802124	1.2784377076968667e-06	0.2485377937555313	10
+632	shapessocial_transcript	transcript	gpt2	the ball in a slingshot, at the last minute, they	let	let	were	4.283268928527832	5.993567943572998	4.0515047317057906e-07	0.0840856283903122	10
+633	shapessocial_transcript	transcript	gpt2	ball in a slingshot, at the last minute, they let	it	it	him	5.819255352020264	5.113073348999023	6.169997959659668e-06	0.13610662519931793	10
+634	shapessocial_transcript	transcript	gpt2	in a slingshot, at the last minute, they let it	go	go,	go	2.538336992263794	4.370563507080078	1.6922718941714265e-06	0.19923081994056702	10
+635	shapessocial_transcript	transcript	gpt2	a slingshot, at the last minute, they let it go,	sh	shooting	and	1.8657091856002808	5.137612819671631	1.3651588233187795e-06	0.27456429600715637	10
+636	shapessocial_transcript	transcript	gpt2	slingshot, at the last minute, they let it go, shooting	the	the	a	7.872348308563232	5.396579742431641	1.4687971088278573e-06	0.09072210639715195	10
+637	shapessocial_transcript	transcript	gpt2	at the last minute, they let it go, shooting the	ball	ball	ball	2.6958513259887695	5.1002888679504395	2.757805305009242e-05	0.3591626286506653	10
+638	shapessocial_transcript	transcript	gpt2	the last minute, they let it go, shooting the ball	into	into	down	1.5050106048583984	4.499794960021973	1.4404353123609326e-06	0.06856968253850937	10
+639	shapessocial_transcript	transcript	gpt2	last minute, they let it go, shooting the ball into	the	the	the	3.175729751586914	1.760106086730957	3.4519139262556564e-06	0.7719698548316956	10
+640	shapessocial_transcript	transcript	gpt2	minute, they let it go, shooting the ball into the	monster	monster	air	0.2582922875881195	4.742180824279785	2.521331407545624e-11	0.2560443878173828	10
+641	shapessocial_transcript	transcript	gpt2	they let it go, shooting the ball into the monster	which	which	's	10.773484230041504	4.894318103790283	7.455496131569816e-08	0.26221612095832825	10
+642	shapessocial_transcript	transcript	gpt2	let it go, shooting the ball into the monster which	breaks	breaks	is	7.788891792297363	5.540189266204834	5.4948827710177284e-08	0.13684625923633575	10
+643	shapessocial_transcript	transcript	gpt2	it go, shooting the ball into the monster which breaks	into	into	the	6.81974983215332	3.737657070159912	1.1141856930407812e-06	0.22472824156284332	10
+644	shapessocial_transcript	transcript	gpt2	go, shooting the ball into the monster which breaks into	a	a	two	3.319783926010132	4.3596978187561035	1.6913097624637885e-06	0.14359526336193085	10
+645	shapessocial_transcript	transcript	gpt2	shooting the ball into the monster which breaks into a	he	heap.	ball	2.212841510772705	7.047359466552734	3.393966494513734e-07	0.040737103670835495	10
+646	shapessocial_transcript	transcript	gpt2	the ball into the monster which breaks into a heap.	Exc	Excited,	"
+"	2.429020643234253	5.16287088394165	7.973366678015736e-07	0.19583961367607117	10
+647	shapessocial_transcript	transcript	gpt2	ball into the monster which breaks into a heap. Excited,	the	the	the	0.8645104169845581	6.334644794464111	1.6314490494551137e-05	0.09771324694156647	10
+648	shapessocial_transcript	transcript	gpt2	into the monster which breaks into a heap. Excited, the	boy	boy	monster	2.369053363800049	7.311400890350342	5.014530870539602e-07	0.07078036665916443	10
+649	shapessocial_transcript	transcript	gpt2	the monster which breaks into a heap. Excited, the boy	sw	swoops	goes	4.126791954040527	6.489802360534668	1.8185927501690458e-06	0.02660069242119789	10
+650	shapessocial_transcript	transcript	gpt2	monster which breaks into a heap. Excited, the boy swoops	over	over	down	2.4860901832580566	2.8479530811309814	8.474324317830906e-07	0.282121479511261	10
+651	shapessocial_transcript	transcript	gpt2	which breaks into a heap. Excited, the boy swoops over	the	the	to	3.0092966556549072	2.090810775756836	8.75303248903947e-06	0.3797498941421509	10
+652	shapessocial_transcript	transcript	gpt2	breaks into a heap. Excited, the boy swoops over the	he	heap	edge	2.902902364730835	6.681219100952148	6.90985018536594e-07	0.05958065390586853	10
+653	shapessocial_transcript	transcript	gpt2	into a heap. Excited, the boy swoops over the heap	until	until	and	5.906527042388916	2.2960941791534424	1.197643229033929e-07	0.4528881311416626	10
+654	shapessocial_transcript	transcript	gpt2	a heap. Excited, the boy swoops over the heap until	he	he	he	6.339107513427734	2.6280405521392822	1.0703602129069623e-05	0.4636830985546112	10
+655	shapessocial_transcript	transcript	gpt2	heap. Excited, the boy swoops over the heap until he	not	notices	finds	0.7196211814880371	4.067568778991699	8.542351714879715e-09	0.12343712151050568	10
+656	shapessocial_transcript	transcript	gpt2	Excited, the boy swoops over the heap until he notices	that	that	a	4.278620719909668	3.9024429321289062	8.193564099201467e-06	0.24910692870616913	10
+657	shapessocial_transcript	transcript	gpt2	the boy swoops over the heap until he notices that	the	the	the	1.9211894273757935	4.176364898681641	1.4205742445483338e-05	0.27350395917892456	10
+658	shapessocial_transcript	transcript	gpt2	boy swoops over the heap until he notices that the	other	other	man	1.378631591796875	8.020413398742676	3.8177975625330873e-07	0.010346406139433384	10
+659	shapessocial_transcript	transcript	gpt2	swoops over the heap until he notices that the other	boy	boy	two	4.725771427154541	7.008052349090576	2.8923725494678365e-06	0.057088110595941544	10
+660	shapessocial_transcript	transcript	gpt2	over the heap until he notices that the other boy	is	is	is	6.600995063781738	3.6328890323638916	2.5618222935008816e-05	0.2751356065273285	10
+661	shapessocial_transcript	transcript	gpt2	the heap until he notices that the other boy is	gone	gone.	still	1.1641732454299927	5.982193946838379	2.67397524567059e-07	0.06556878983974457	10
+662	shapessocial_transcript	transcript	gpt2	heap until he notices that the other boy is gone.	He	He	"
+"	0.5055062174797058	4.887040615081787	0.0002817356144078076	0.18199338018894196	10
+663	shapessocial_transcript	transcript	gpt2	until he notices that the other boy is gone. He	go	goes	tries	1.9920575618743896	5.746726989746094	9.038753319146053e-07	0.030170386657118797	10
+664	shapessocial_transcript	transcript	gpt2	he notices that the other boy is gone. He goes	looking	looking	to	3.5075855255126953	2.6660664081573486	3.745751087080862e-07	0.4493192136287689	10
+665	shapessocial_transcript	transcript	gpt2	notices that the other boy is gone. He goes looking	for	for	for	5.2616286277771	0.6007729172706604	8.768239058554173e-05	0.9145342111587524	10
+666	shapessocial_transcript	transcript	gpt2	that the other boy is gone. He goes looking for	his	his	his	0.08406099677085876	4.919276714324951	1.8835004311767989e-06	0.1584504246711731	10
+667	shapessocial_transcript	transcript	gpt2	the other boy is gone. He goes looking for his	new	new	father	1.7885339260101318	4.687625408172607	1.8368173471117188e-07	0.137604221701622	10
+668	shapessocial_transcript	transcript	gpt2	other boy is gone. He goes looking for his new	friend	friend	girlfriend	5.394597053527832	5.520510196685791	3.553792112143128e-06	0.1129162535071373	10
+669	shapessocial_transcript	transcript	gpt2	boy is gone. He goes looking for his new friend	but	but	,	3.0760838985443115	4.4627509117126465	5.285807674226817e-06	0.2619447708129883	10
+670	shapessocial_transcript	transcript	gpt2	is gone. He goes looking for his new friend but	can	can't	is	4.593121528625488	4.9336676597595215	2.87911097984761e-06	0.09828082472085953	10
+671	shapessocial_transcript	transcript	gpt2	gone. He goes looking for his new friend but can't	find	find	find	0.1215113028883934	0.7619742751121521	2.052950094366679e-06	0.883733868598938	10
+672	shapessocial_transcript	transcript	gpt2	He goes looking for his new friend but can't find	him	him.	him	0.13079242408275604	2.524498224258423	1.171327858173754e-05	0.4524521827697754	10
+673	shapessocial_transcript	transcript	gpt2	goes looking for his new friend but can't find him.	He	He	"
+"	0.6164998412132263	5.565802097320557	0.0003374975931365043	0.12414773553609848	10
+674	shapessocial_transcript	transcript	gpt2	looking for his new friend but can't find him. He	checks	checks	's	2.083725690841675	5.590511322021484	6.082804304696765e-08	0.08020035177469254	10
+675	shapessocial_transcript	transcript	gpt2	for his new friend but can't find him. He checks	under	under	his	8.207991600036621	3.8811099529266357	8.662441075557581e-08	0.13974802196025848	10
+676	shapessocial_transcript	transcript	gpt2	his new friend but can't find him. He checks under	the	the	the	7.257667541503906	3.984015941619873	0.00014306409866549075	0.3758259415626526	10
+677	shapessocial_transcript	transcript	gpt2	new friend but can't find him. He checks under the	rub	rubble	door	0.981535792350769	6.664134502410889	2.7661107537824137e-07	0.0931573435664177	10
+678	shapessocial_transcript	transcript	gpt2	friend but can't find him. He checks under the rubble	for	for	and	5.85367488861084	3.262901544570923	5.17801879595936e-07	0.2519378960132599	10
+679	shapessocial_transcript	transcript	gpt2	but can't find him. He checks under the rubble for	his	his	a	3.826934337615967	5.670384407043457	2.669029015578417e-07	0.13063442707061768	10
+680	shapessocial_transcript	transcript	gpt2	can't find him. He checks under the rubble for his	friend	friend.	father	3.307079315185547	6.952791690826416	2.243106536070627e-07	0.023263096809387207	10
+681	shapessocial_transcript	transcript	gpt2	find him. He checks under the rubble for his friend.	He	He	"
+"	1.5468213558197021	4.488847255706787	0.0003328197926748544	0.21892181038856506	10
+682	shapessocial_transcript	transcript	gpt2	him. He checks under the rubble for his friend. He	find	finds	looks	1.799122929573059	5.688314914703369	3.72208205590141e-07	0.05118818208575249	10
+683	shapessocial_transcript	transcript	gpt2	He checks under the rubble for his friend. He finds	the	the	a	3.406233072280884	4.618547439575195	2.591284101072233e-06	0.15579381585121155	10
+684	shapessocial_transcript	transcript	gpt2	checks under the rubble for his friend. He finds the	ball	ball	body	2.3724822998046875	7.696046829223633	7.685243303967582e-07	0.029236027970910072	10
+685	shapessocial_transcript	transcript	gpt2	under the rubble for his friend. He finds the ball	but	but	and	6.976749420166016	4.842941761016846	1.0860871952900197e-05	0.23984432220458984	10
+686	shapessocial_transcript	transcript	gpt2	the rubble for his friend. He finds the ball but	not	not	is	5.5447282791137695	5.174656391143799	1.044295800056716e-06	0.0950971394777298	10
+687	shapessocial_transcript	transcript	gpt2	rubble for his friend. He finds the ball but not	the	the	the	4.706480026245117	3.9303693771362305	3.4285902074771e-05	0.2957485318183899	10
+688	shapessocial_transcript	transcript	gpt2	for his friend. He finds the ball but not the	other	other	ball	1.1067296266555786	5.888790130615234	5.474815267803024e-08	0.22492599487304688	10
+689	shapessocial_transcript	transcript	gpt2	his friend. He finds the ball but not the other	boy	boy.	way	4.944362163543701	1.4078783988952637	5.644070597554673e-07	0.8171787858009338	10
+690	shapessocial_transcript	transcript	gpt2	friend. He finds the ball but not the other boy.	His	His	He	0.9253251552581787	4.803613185882568	3.224334795959294e-05	0.20722360908985138	10
+691	shapessocial_transcript	transcript	gpt2	He finds the ball but not the other boy. His	friend	friend	father	4.4835662841796875	6.086083889007568	6.951536306587514e-07	0.06305098533630371	10
+692	shapessocial_transcript	transcript	gpt2	finds the ball but not the other boy. His friend	is	is	,	5.7300519943237305	6.492349147796631	9.564031643094495e-06	0.08415105193853378	10
+693	shapessocial_transcript	transcript	gpt2	the ball but not the other boy. His friend is	now	nowhere	a	3.9776220321655273	6.298558712005615	1.784855641062677e-07	0.08677639812231064	10
+694	shapessocial_transcript	transcript	gpt2	ball but not the other boy. His friend is nowhere	to	to	to	6.903958320617676	1.2186775207519531	1.7051264876499772e-05	0.7553234696388245	10
+695	shapessocial_transcript	transcript	gpt2	but not the other boy. His friend is nowhere to	be	be	be	0.335872083902359	0.04142884537577629	2.124115781043656e-06	0.9962474703788757	10
+696	shapessocial_transcript	transcript	gpt2	not the other boy. His friend is nowhere to be	seen	seen.	found	0.003944950178265572	0.7294425964355469	6.64041635900503e-06	0.5689991116523743	10
+697	shapessocial_transcript	transcript	gpt2	the other boy. His friend is nowhere to be seen.	Dis	Disappointed,	"
+"	0.8677300214767456	4.7044878005981445	3.7649439832421194e-07	0.18749552965164185	10
+698	shapessocial_transcript	transcript	gpt2	other boy. His friend is nowhere to be seen. Disappointed,	the	the	he	1.1821393966674805	5.58850622177124	1.4230039596441202e-05	0.2678825855255127	10
+699	shapessocial_transcript	transcript	gpt2	boy. His friend is nowhere to be seen. Disappointed, the	boy	boy	two	3.3589720726013184	7.331739902496338	2.4116782242344925e-06	0.05628117918968201	10
+700	shapessocial_transcript	transcript	gpt2	His friend is nowhere to be seen. Disappointed, the boy	aband	abandons	's	4.047605037689209	5.685407638549805	4.868561109816483e-09	0.08934588730335236	10
+701	shapessocial_transcript	transcript	gpt2	friend is nowhere to be seen. Disappointed, the boy abandons	the	the	his	0.00029213930247351527	3.4790544509887695	2.611822083053994e-06	0.3118624985218048	10
+702	shapessocial_transcript	transcript	gpt2	is nowhere to be seen. Disappointed, the boy abandons the	ball	ball,	house	1.1736359596252441	7.592164516448975	5.368751772039104e-07	0.027392009273171425	10
+703	shapessocial_transcript	transcript	gpt2	nowhere to be seen. Disappointed, the boy abandons the ball,	and	and	and	1.7654733657836914	5.540450572967529	1.6186922948691063e-05	0.2326701581478119	10
+704	shapessocial_transcript	transcript	gpt2	to be seen. Disappointed, the boy abandons the ball, and	slow	slowly	the	1.385447382926941	6.206931114196777	2.598873471981733e-08	0.04757770895957947	10
+705	shapessocial_transcript	transcript	gpt2	be seen. Disappointed, the boy abandons the ball, and slowly	le	leaves	,	7.234910011291504	5.977802276611328	1.799017894654753e-07	0.05448002368211746	10
+706	shapessocial_transcript	transcript	gpt2	seen. Disappointed, the boy abandons the ball, and slowly leaves	the	the	the	4.808939456939697	2.973426103591919	9.787740964384284e-06	0.4554252028465271	10
+707	shapessocial_transcript	transcript	gpt2	Disappointed, the boy abandons the ball, and slowly leaves the	dream	dream.	field	0.8038347959518433	5.971850395202637	3.977251417097705e-09	0.08685720711946487	10
+708	shapessocial_transcript	transcript	gpt2	the boy abandons the ball, and slowly leaves the dream.	He	He	"
+"	1.646738052368164	4.732486248016357	0.0004524913674686104	0.24481266736984253	10
+709	shapessocial_transcript	transcript	gpt2	boy abandons the ball, and slowly leaves the dream. He	sleep	sleeps	is	2.7856180667877197	5.9293928146362305	9.757437169355399e-08	0.0565866082906723	10
+710	shapessocial_transcript	transcript	gpt2	abandons the ball, and slowly leaves the dream. He sleeps	the	the	for	7.379690170288086	4.3246331214904785	2.995340366851451e-07	0.12268716096878052	10
+711	shapessocial_transcript	transcript	gpt2	the ball, and slowly leaves the dream. He sleeps the	rest	rest	night	4.935389041900635	2.4425106048583984	2.944404187132932e-08	0.4168812036514282	10
+712	shapessocial_transcript	transcript	gpt2	ball, and slowly leaves the dream. He sleeps the rest	of	of	of	1.797642469406128	0.14524106681346893	6.661246516159736e-06	0.9844728112220764	10
+713	shapessocial_transcript	transcript	gpt2	and slowly leaves the dream. He sleeps the rest of	the	the	the	0.03554100915789604	0.7345923781394958	7.63594016461866e-06	0.8247532248497009	10
+714	shapessocial_transcript	transcript	gpt2	slowly leaves the dream. He sleeps the rest of the	night	night.	night	0.2310045063495636	1.9664647579193115	9.934770787367597e-06	0.3674560487270355	10
+715	shapessocial_transcript	transcript	gpt2	leaves the dream. He sleeps the rest of the night.	In	In	"
+"	1.668683409690857	4.302406311035156	7.324213220272213e-05	0.2763342559337616	10
+716	shapessocial_transcript	transcript	gpt2	the dream. He sleeps the rest of the night. In	the	the	the	4.332911968231201	3.4310262203216553	3.8774644053773955e-05	0.47153905034065247	10
+717	shapessocial_transcript	transcript	gpt2	dream. He sleeps the rest of the night. In the	morning	morning,	morning	0.880675196647644	3.280796527862549	1.095910101867048e-05	0.5256101489067078	10
+718	shapessocial_transcript	transcript	gpt2	He sleeps the rest of the night. In the morning,	the	the	he	0.8598736524581909	3.3279407024383545	3.606877726269886e-06	0.42693042755126953	10
+719	shapessocial_transcript	transcript	gpt2	sleeps the rest of the night. In the morning, the	boy	boy's	sun	2.393918752670288	7.984252452850342	6.611423941649264e-08	0.0385248064994812	10
+720	shapessocial_transcript	transcript	gpt2	the rest of the night. In the morning, the boy's	father	father	mother	2.840881824493408	5.360208988189697	2.951431270048488e-06	0.15236756205558777	10
+721	shapessocial_transcript	transcript	gpt2	rest of the night. In the morning, the boy's father	w	wakes	,	2.1597046852111816	5.387992858886719	1.3958331237517996e-06	0.10773730278015137	10
+722	shapessocial_transcript	transcript	gpt2	of the night. In the morning, the boy's father wakes	up	up	up	6.273991584777832	2.0222103595733643	5.730573320761323e-05	0.5810445547103882	10
+723	shapessocial_transcript	transcript	gpt2	the night. In the morning, the boy's father wakes up	and	and	and	0.515424907207489	3.4150137901306152	4.652515144698555e-06	0.22930599749088287	10
+724	shapessocial_transcript	transcript	gpt2	night. In the morning, the boy's father wakes up and	c	calls	finds	1.5625511407852173	5.556336879730225	7.636324994564347e-07	0.060503240674734116	10
+725	shapessocial_transcript	transcript	gpt2	In the morning, the boy's father wakes up and calls	for	for	911	4.505818843841553	3.6885337829589844	3.1373167530546198e-06	0.22754476964473724	10
+726	shapessocial_transcript	transcript	gpt2	the morning, the boy's father wakes up and calls for	him	him	help	2.6982951164245605	2.878559112548828	1.4372105283655401e-08	0.5106677412986755	10
+727	shapessocial_transcript	transcript	gpt2	morning, the boy's father wakes up and calls for him	from	from	.	3.8385417461395264	1.7065917253494263	3.97756139136618e-08	0.4055391848087311	10
+728	shapessocial_transcript	transcript	gpt2	the boy's father wakes up and calls for him from	the	the	the	6.190615653991699	2.930617332458496	4.95614631290664e-06	0.3962005376815796	10
+729	shapessocial_transcript	transcript	gpt2	boy's father wakes up and calls for him from the	bottom	bottom	hospital	1.068329095840454	6.410447597503662	8.235758173213981e-07	0.09351924806833267	10
+730	shapessocial_transcript	transcript	gpt2	father wakes up and calls for him from the bottom	of	of	of	5.800329208374023	0.9296996593475342	1.0186267900280654e-05	0.8425394892692566	10
+731	shapessocial_transcript	transcript	gpt2	wakes up and calls for him from the bottom of	the	the	the	0.20941390097141266	1.947072148323059	9.679542927187867e-06	0.4291301965713501	10
+732	shapessocial_transcript	transcript	gpt2	up and calls for him from the bottom of the	stairs	stairs.	stairs	0.9794330596923828	6.73925256729126	5.89613705415104e-07	0.07250315696001053	10
+733	shapessocial_transcript	transcript	gpt2	and calls for him from the bottom of the stairs.	The	The	"
+"	1.3414709568023682	4.319701194763184	0.00028741228743456304	0.2927473187446594	10
+734	shapessocial_transcript	transcript	gpt2	calls for him from the bottom of the stairs. The	boy	boy	door	2.9305553436279297	7.877941131591797	8.400377851103258e-07	0.021361174061894417	10
+735	shapessocial_transcript	transcript	gpt2	for him from the bottom of the stairs. The boy	w	wakes	was	5.08265495300293	5.623379707336426	5.805072760267649e-06	0.10387521237134933	10
+736	shapessocial_transcript	transcript	gpt2	him from the bottom of the stairs. The boy wakes	up	up,	up	7.9565653800964355	1.7887569665908813	5.4686453950125724e-05	0.7091777324676514	10
+737	shapessocial_transcript	transcript	gpt2	from the bottom of the stairs. The boy wakes up,	gets	gets	and	2.3256211280822754	5.971068382263184	7.56031522541889e-06	0.17354820668697357	10
+738	shapessocial_transcript	transcript	gpt2	the bottom of the stairs. The boy wakes up, gets	out	out	up	4.816987991333008	3.0785152912139893	3.306300015992747e-07	0.24316971004009247	10
+739	shapessocial_transcript	transcript	gpt2	bottom of the stairs. The boy wakes up, gets out	of	of	of	2.3207199573516846	1.0004220008850098	9.784521535038948e-05	0.7986900210380554	10
+740	shapessocial_transcript	transcript	gpt2	of the stairs. The boy wakes up, gets out of	bed	bed,	bed	0.23487693071365356	1.1320642232894897	5.747551313106669e-06	0.6456863880157471	10
+741	shapessocial_transcript	transcript	gpt2	the stairs. The boy wakes up, gets out of bed,	and	and	and	0.4888345003128052	3.414586067199707	3.414062666706741e-05	0.5151154398918152	10
+742	shapessocial_transcript	transcript	gpt2	stairs. The boy wakes up, gets out of bed, and	wal	walks	goes	0.5182722210884094	5.407292366027832	5.227440738053701e-07	0.07611676305532455	10
+743	shapessocial_transcript	transcript	gpt2	The boy wakes up, gets out of bed, and walks	down	downstairs.	to	3.1023788452148438	3.153157949447632	1.4276292858994566e-07	0.22797514498233795	10
+744	shapessocial_transcript	transcript	gpt2	boy wakes up, gets out of bed, and walks downstairs.	Father	Father	He	1.319847583770752	4.671446800231934	1.701960314903772e-07	0.21922637522220612	10
+745	shapessocial_transcript	transcript	gpt2	wakes up, gets out of bed, and walks downstairs. Father	and	and	is	9.571538925170898	6.603703022003174	4.5008623601461295e-06	0.05016336590051651	10
+746	shapessocial_transcript	transcript	gpt2	up, gets out of bed, and walks downstairs. Father and	son	son	son	3.802044153213501	3.8694748878479004	5.159065403859131e-05	0.2973931133747101	10
+747	shapessocial_transcript	transcript	gpt2	gets out of bed, and walks downstairs. Father and son	ex	exchange	are	1.3469924926757812	5.2353692054748535	2.0105751730170596e-07	0.13897381722927094	10
+748	shapessocial_transcript	transcript	gpt2	out of bed, and walks downstairs. Father and son exchange	a	a	a	7.121731758117676	4.923855781555176	8.052390398916032e-07	0.1996346414089203	10
+749	shapessocial_transcript	transcript	gpt2	of bed, and walks downstairs. Father and son exchange a	few	few	few	1.7172930240631104	4.624220371246338	5.359047008823836e-06	0.19805261492729187	10
+750	shapessocial_transcript	transcript	gpt2	bed, and walks downstairs. Father and son exchange a few	words	words,	words	1.67181396484375	4.29964542388916	3.468634531600401e-06	0.3923162519931793	10
+751	shapessocial_transcript	transcript	gpt2	and walks downstairs. Father and son exchange a few words,	and	and	and	1.4678746461868286	3.685443639755249	4.213111606077291e-05	0.24502834677696228	10
+752	shapessocial_transcript	transcript	gpt2	walks downstairs. Father and son exchange a few words, and	the	the	then	1.457781434059143	5.749597549438477	4.172370609012432e-06	0.1051371693611145	10
+753	shapessocial_transcript	transcript	gpt2	downstairs. Father and son exchange a few words, and the	boy	boy	two	2.131687879562378	6.601313591003418	4.553628230041795e-07	0.0790121927857399	10
+754	shapessocial_transcript	transcript	gpt2	Father and son exchange a few words, and the boy	heads	heads	is	3.1295926570892334	5.655874729156494	1.0788357940327842e-06	0.05323288217186928	10
+755	shapessocial_transcript	transcript	gpt2	and son exchange a few words, and the boy heads	out	out.	back	7.369588851928711	2.8878591060638428	6.933268537068216e-07	0.17336712777614594	10
+756	shapessocial_transcript	transcript	gpt2	son exchange a few words, and the boy heads out.	The	The	"
+"	1.9267306327819824	4.504539966583252	0.0004124660335946828	0.28883153200149536	10
+757	shapessocial_transcript	transcript	gpt2	exchange a few words, and the boy heads out. The	boy	boy	boy	2.542386770248413	7.428739070892334	2.576909082563361e-06	0.06359897553920746	10
+758	shapessocial_transcript	transcript	gpt2	a few words, and the boy heads out. The boy	wal	walks	is	2.6168220043182373	5.578486919403076	7.021837063803105e-06	0.10080771148204803	10
+759	shapessocial_transcript	transcript	gpt2	few words, and the boy heads out. The boy walks	to	to	into	4.280177116394043	3.560645580291748	1.4323846642128046e-07	0.11837201565504074	10
+760	shapessocial_transcript	transcript	gpt2	words, and the boy heads out. The boy walks to	the	the	the	2.70759916305542	2.301974296569824	3.266548446845263e-05	0.5901691913604736	10
+761	shapessocial_transcript	transcript	gpt2	and the boy heads out. The boy walks to the	play	playground	door	0.5487661361694336	6.526749134063721	2.7773612742976184e-08	0.07467070966959	10
+762	shapessocial_transcript	transcript	gpt2	the boy heads out. The boy walks to the playground	where	where	and	6.446209907531738	2.889728307723999	2.789489599308581e-06	0.2624901831150055	10
+763	shapessocial_transcript	transcript	gpt2	boy heads out. The boy walks to the playground where	his	his	he	2.423938035964966	4.148040771484375	2.8906042643939145e-06	0.31167811155319214	10
+764	shapessocial_transcript	transcript	gpt2	heads out. The boy walks to the playground where his	ball	ball	father	2.6949572563171387	4.127692699432373	3.2545426620345097e-07	0.1606357991695404	10
+765	shapessocial_transcript	transcript	gpt2	out. The boy walks to the playground where his ball	is	is	is	8.8773193359375	4.223063945770264	0.00014945273869670928	0.3894791305065155	10
+766	shapessocial_transcript	transcript	gpt2	The boy walks to the playground where his ball is	still	still	placed	0.9741078615188599	4.939060688018799	2.3256963288531551e-07	0.13485322892665863	10
+767	shapessocial_transcript	transcript	gpt2	boy walks to the playground where his ball is still	s	sitting	in	5.601220607757568	5.194592475891113	2.982310252264142e-05	0.1678297072649002	10
+768	shapessocial_transcript	transcript	gpt2	walks to the playground where his ball is still sitting	at	at	.	4.391423225402832	2.9062607288360596	1.5100753216756857e-06	0.4405963718891144	10
+769	shapessocial_transcript	transcript	gpt2	to the playground where his ball is still sitting at	the	the	the	3.9458892345428467	3.7675864696502686	7.40669520382653e-06	0.33801016211509705	10
+770	shapessocial_transcript	transcript	gpt2	the playground where his ball is still sitting at the	far	far	end	1.1497852802276611	5.4049201011657715	4.937826147966007e-08	0.12040616571903229	10
+771	shapessocial_transcript	transcript	gpt2	playground where his ball is still sitting at the far	end	end	end	4.493490219116211	2.1873621940612793	1.4898250810801983e-05	0.5502707958221436	10
+772	shapessocial_transcript	transcript	gpt2	where his ball is still sitting at the far end	of	of	of	0.7716524004936218	1.3643299341201782	2.8250682589714415e-05	0.7619208097457886	10
+773	shapessocial_transcript	transcript	gpt2	his ball is still sitting at the far end of	the	the	the	0.2569911777973175	1.9557366371154785	4.983169674233068e-06	0.695174515247345	10
+774	shapessocial_transcript	transcript	gpt2	ball is still sitting at the far end of the	yard	yard.	line	0.657825231552124	6.974236011505127	2.2660074137093034e-06	0.06679414212703705	10
+775	shapessocial_transcript	transcript	gpt2	is still sitting at the far end of the yard.	The	The	"
+"	1.1583008766174316	4.514720439910889	0.0002238858724012971	0.21265721321105957	10
+776	shapessocial_transcript	transcript	gpt2	still sitting at the far end of the yard. The	boy	boy	man	2.7434310913085938	7.912669658660889	3.814509739186178e-07	0.017484338954091072	10
+777	shapessocial_transcript	transcript	gpt2	sitting at the far end of the yard. The boy	ent	enters	was	5.583887577056885	5.517791271209717	3.5117923857796995e-07	0.11367195099592209	10
+778	shapessocial_transcript	transcript	gpt2	at the far end of the yard. The boy enters	the	the	the	7.643760681152344	2.7819666862487793	3.5389386994211236e-06	0.3845405578613281	10
+779	shapessocial_transcript	transcript	gpt2	the far end of the yard. The boy enters the	play	playground,	room	1.04739511013031	5.769592761993408	1.212264493233306e-07	0.10376518219709396	10
+780	shapessocial_transcript	transcript	gpt2	far end of the yard. The boy enters the playground,	cl	closing	and	1.7081217765808105	5.948247909545898	5.985190796309325e-07	0.15271228551864624	10
+781	shapessocial_transcript	transcript	gpt2	end of the yard. The boy enters the playground, closing	the	the	the	8.348773956298828	1.5235629081726074	1.6993204781101667e-06	0.5609427690505981	10
+782	shapessocial_transcript	transcript	gpt2	of the yard. The boy enters the playground, closing the	gate	gate	door	0.6044910550117493	3.361276626586914	1.1770149512813077e-06	0.508924663066864	10
+783	shapessocial_transcript	transcript	gpt2	the yard. The boy enters the playground, closing the gate	after	after	.	2.9536335468292236	2.739436388015747	4.522402718976082e-08	0.2337525337934494	10
+784	shapessocial_transcript	transcript	gpt2	yard. The boy enters the playground, closing the gate after	him	himself.	a	5.480601787567139	5.312446117401123	3.0551541385648306e-07	0.1558699607849121	10
+785	shapessocial_transcript	transcript	gpt2	The boy enters the playground, closing the gate after himself.	He	He	"
+"	0.5594356656074524	4.094372749328613	0.00012994857388548553	0.20700031518936157	10
+786	shapessocial_transcript	transcript	gpt2	boy enters the playground, closing the gate after himself. He	for	forlornly	is	2.2181122303009033	5.698629379272461	1.7327532475519547e-07	0.07281975448131561	10
+787	shapessocial_transcript	transcript	gpt2	enters the playground, closing the gate after himself. He forlornly	wal	walks	walks	0.004934276454150677	6.514773845672607	1.6610295006103115e-06	0.05775279924273491	10
+788	shapessocial_transcript	transcript	gpt2	the playground, closing the gate after himself. He forlornly walks	to	to	to	4.036721229553223	3.8948867321014404	4.5885656163591193e-07	0.06965719163417816	10
+789	shapessocial_transcript	transcript	gpt2	playground, closing the gate after himself. He forlornly walks to	the	the	the	2.659856081008911	2.592730760574341	6.983111234148964e-05	0.5875717401504517	10
+790	shapessocial_transcript	transcript	gpt2	closing the gate after himself. He forlornly walks to the	single	single	door	0.5691303014755249	6.369187355041504	1.2222577616682884e-08	0.10793793201446533	10
+791	shapessocial_transcript	transcript	gpt2	the gate after himself. He forlornly walks to the single	ball	ball.	-	9.425738334655762	6.265144348144531	1.0743052371253725e-05	0.11892497539520264	10
+792	shapessocial_transcript	transcript	gpt2	gate after himself. He forlornly walks to the single ball.	He	He	"
+"	2.786423683166504	4.783103942871094	0.0003032382228411734	0.22234810888767242	10
+793	shapessocial_transcript	transcript	gpt2	after himself. He forlornly walks to the single ball. He	slow	slowly	is	2.054015636444092	6.2533440589904785	3.300755935242705e-08	0.05370808765292168	10
+794	shapessocial_transcript	transcript	gpt2	himself. He forlornly walks to the single ball. He slowly	and	and	walks	7.69987678527832	6.099873065948486	2.7570758902584203e-06	0.03635857626795769	10
+795	shapessocial_transcript	transcript	gpt2	He forlornly walks to the single ball. He slowly and	un	unenthusiastically	carefully	4.140613555908203	5.603338718414307	2.6667831320992263e-07	0.1028304323554039	10
+796	shapessocial_transcript	transcript	gpt2	forlornly walks to the single ball. He slowly and unenthusiastically	k	kicks	takes	0.0049206349067389965	6.183145999908447	3.7412414144455397e-07	0.027414731681346893	10
+797	shapessocial_transcript	transcript	gpt2	walks to the single ball. He slowly and unenthusiastically kicks	the	the	the	6.8632121086120605	3.4722838401794434	1.5726352557976497e-06	0.27061569690704346	10
+798	shapessocial_transcript	transcript	gpt2	to the single ball. He slowly and unenthusiastically kicks the	ball	ball	ball	1.3055622577667236	1.2069892883300781	1.7068266970454715e-05	0.8780083060264587	10
+799	shapessocial_transcript	transcript	gpt2	the single ball. He slowly and unenthusiastically kicks the ball	half	halfway	out	0.18180707097053528	3.7624428272247314	2.603597692996118e-07	0.15068629384040833	10
+800	shapessocial_transcript	transcript	gpt2	single ball. He slowly and unenthusiastically kicks the ball halfway	down	down	through	8.80368423461914	2.643204927444458	6.861758805598583e-08	0.31636208295822144	10
+801	shapessocial_transcript	transcript	gpt2	ball. He slowly and unenthusiastically kicks the ball halfway down	the	the	the	2.635258197784424	0.809946596622467	9.821202547755092e-05	0.8692030906677246	10
+802	shapessocial_transcript	transcript	gpt2	He slowly and unenthusiastically kicks the ball halfway down the	yard	yard.	field	0.10169844329357147	3.197110176086426	5.066520316177048e-06	0.26374316215515137	10
+803	shapessocial_transcript	transcript	gpt2	slowly and unenthusiastically kicks the ball halfway down the yard.	As	As	"
+"	0.9694441556930542	4.907491683959961	4.628586248145439e-05	0.24666261672973633	10
+804	shapessocial_transcript	transcript	gpt2	and unenthusiastically kicks the ball halfway down the yard. As	he	he	the	4.845888137817383	5.018691062927246	6.021525041433051e-05	0.18770773708820343	10
+805	shapessocial_transcript	transcript	gpt2	unenthusiastically kicks the ball halfway down the yard. As he	k	kicks	does	2.155385971069336	5.340747833251953	6.486466759270115e-07	0.130541130900383	10
+806	shapessocial_transcript	transcript	gpt2	kicks the ball halfway down the yard. As he kicks	the	the	the	6.300086975097656	2.5618181228637695	1.780577690624341e-06	0.35077548027038574	10
+807	shapessocial_transcript	transcript	gpt2	the ball halfway down the yard. As he kicks the	ball	ball	ball	1.2133452892303467	0.8087111115455627	5.997150765324477e-06	0.9113556742668152	10
+808	shapessocial_transcript	transcript	gpt2	ball halfway down the yard. As he kicks the ball	again	again,	out	0.13131964206695557	3.3361363410949707	2.3146424776854246e-09	0.1626686006784439	10
+809	shapessocial_transcript	transcript	gpt2	halfway down the yard. As he kicks the ball again,	his	his	he	0.38330668210983276	5.723877429962158	3.489613845886197e-06	0.1613202691078186	10
+810	shapessocial_transcript	transcript	gpt2	down the yard. As he kicks the ball again, his	my	mysterious	eyes	3.74692440032959	5.984613418579102	1.7028003451713403e-09	0.06844101846218109	10
+811	shapessocial_transcript	transcript	gpt2	the yard. As he kicks the ball again, his mysterious	friend	friend	hand	11.829668045043945	6.9713358879089355	1.2211791045046994e-07	0.0325746163725853	10
+812	shapessocial_transcript	transcript	gpt2	yard. As he kicks the ball again, his mysterious friend	from	from	,	6.0425519943237305	6.912746429443359	2.950115742805792e-07	0.056476205587387085	10
+813	shapessocial_transcript	transcript	gpt2	As he kicks the ball again, his mysterious friend from	the	the	the	6.301741123199463	5.352588176727295	2.615088760649087e-06	0.24049974977970123	10
+814	shapessocial_transcript	transcript	gpt2	he kicks the ball again, his mysterious friend from the	dream	dream	past	1.443712592124939	7.080322742462158	3.5839059364661807e-07	0.08821514248847961	10
+815	shapessocial_transcript	transcript	gpt2	kicks the ball again, his mysterious friend from the dream	app	appears	world	7.895784378051758	5.842321872711182	1.554650043544825e-05	0.08145392686128616	10
+816	shapessocial_transcript	transcript	gpt2	the ball again, his mysterious friend from the dream appears	and	and	and	6.260733127593994	3.2188220024108887	1.84611817530822e-05	0.23112668097019196	10
+817	shapessocial_transcript	transcript	gpt2	ball again, his mysterious friend from the dream appears and	s	sneaks	tells	1.3332831859588623	5.931987762451172	1.639084985072259e-05	0.05359067767858505	10
+818	shapessocial_transcript	transcript	gpt2	again, his mysterious friend from the dream appears and sneaks	t	towards	into	0.030749348923563957	3.337425470352173	4.0187003946812183e-07	0.1792801171541214	10
+819	shapessocial_transcript	transcript	gpt2	his mysterious friend from the dream appears and sneaks towards	the	the	the	5.461086273193359	4.373574733734131	1.7125523299910128e-05	0.2934547960758209	10
+820	shapessocial_transcript	transcript	gpt2	mysterious friend from the dream appears and sneaks towards the	play	playground.	house	1.2610232830047607	7.638453960418701	1.0137137707033617e-07	0.026310957968235016	10
+821	shapessocial_transcript	transcript	gpt2	friend from the dream appears and sneaks towards the playground.	He	He	"
+"	0.8514282703399658	5.104503154754639	0.00012495994451455772	0.1573299616575241	10
+822	shapessocial_transcript	transcript	gpt2	from the dream appears and sneaks towards the playground. He	checks	checks	is	2.5528550148010254	5.880849361419678	1.2593004328209645e-07	0.08430029451847076	10
+823	shapessocial_transcript	transcript	gpt2	the dream appears and sneaks towards the playground. He checks	that	that	the	7.302667140960693	3.257809638977051	1.8686385772070935e-07	0.2612789273262024	10
+824	shapessocial_transcript	transcript	gpt2	dream appears and sneaks towards the playground. He checks that	his	his	the	4.459791660308838	4.075822353363037	5.682797450390353e-07	0.3372817933559418	10
+825	shapessocial_transcript	transcript	gpt2	appears and sneaks towards the playground. He checks that his	friend	friend	shoes	2.4850881099700928	7.288283824920654	3.356390720909985e-07	0.01465692650526762	10
+826	shapessocial_transcript	transcript	gpt2	and sneaks towards the playground. He checks that his friend	is	is	is	4.62156343460083	3.7570927143096924	2.2500673367176205e-05	0.31908315420150757	10
+827	shapessocial_transcript	transcript	gpt2	sneaks towards the playground. He checks that his friend is	there	there.	still	1.5588651895523071	5.071961879730225	5.267158940114314e-07	0.10881295055150986	10
+828	shapessocial_transcript	transcript	gpt2	towards the playground. He checks that his friend is there.	He	He	He	1.7176954746246338	4.386651039123535	0.00020493888587225229	0.22113189101219177	10
+829	shapessocial_transcript	transcript	gpt2	the playground. He checks that his friend is there. He	quiet	quietly	checks	1.2054921388626099	5.26315975189209	4.176871293282147e-09	0.126666858792305	10
+830	shapessocial_transcript	transcript	gpt2	playground. He checks that his friend is there. He quietly	opens	opens	asks	8.820436477661133	5.695969104766846	9.203807849189616e-08	0.05105888843536377	10
+831	shapessocial_transcript	transcript	gpt2	He checks that his friend is there. He quietly opens	the	the	the	5.674870491027832	1.292719841003418	3.272280537203187e-06	0.6652323603630066	10
+832	shapessocial_transcript	transcript	gpt2	checks that his friend is there. He quietly opens the	gate	gate.	door	0.5966869592666626	3.602667808532715	4.6135332354424463e-07	0.5555921792984009	10
+833	shapessocial_transcript	transcript	gpt2	that his friend is there. He quietly opens the gate.	He	He	"
+"	2.1910624504089355	4.824189186096191	0.00033965412876568735	0.21251721680164337	10
+834	shapessocial_transcript	transcript	gpt2	his friend is there. He quietly opens the gate. He	s	sneaks	is	2.440659999847412	5.561187267303467	9.207366929331329e-06	0.05544273927807808	10
+835	shapessocial_transcript	transcript	gpt2	friend is there. He quietly opens the gate. He sneaks	up	up	into	0.19292743504047394	3.004164695739746	2.106746990193642e-07	0.18503592908382416	10
+836	shapessocial_transcript	transcript	gpt2	is there. He quietly opens the gate. He sneaks up	on	on	behind	2.3590610027313232	2.472419500350952	2.906163535953965e-05	0.43730077147483826	10
+837	shapessocial_transcript	transcript	gpt2	there. He quietly opens the gate. He sneaks up on	the	the	the	2.8887779712677	4.896169185638428	7.372143500106176e-06	0.1901637613773346	10
+838	shapessocial_transcript	transcript	gpt2	He quietly opens the gate. He sneaks up on the	boy	boy,	man	1.5839269161224365	7.192113876342773	4.483746920413978e-07	0.03669112175703049	10
+839	shapessocial_transcript	transcript	gpt2	quietly opens the gate. He sneaks up on the boy,	who	who	who	1.3339128494262695	5.682703971862793	6.008184209349565e-05	0.13827432692050934	10
+840	shapessocial_transcript	transcript	gpt2	opens the gate. He sneaks up on the boy, who	still	still	is	1.9458622932434082	5.434171199798584	7.693201098391e-08	0.18608348071575165	10
+841	shapessocial_transcript	transcript	gpt2	the gate. He sneaks up on the boy, who still	doesn	doesn't	has	6.371629238128662	4.816812515258789	7.494432338717161e-06	0.1991301327943802	10
+842	shapessocial_transcript	transcript	gpt2	gate. He sneaks up on the boy, who still doesn't	see	see	know	0.0008006466086953878	3.660487651824951	1.0101514646976284e-07	0.2689509689807892	10
+843	shapessocial_transcript	transcript	gpt2	He sneaks up on the boy, who still doesn't see	him	him.	him	3.7850589752197266	3.1015148162841797	1.2431750292307697e-05	0.4373381733894348	10
+844	shapessocial_transcript	transcript	gpt2	sneaks up on the boy, who still doesn't see him.	He	He	"
+"	0.9161169528961182	4.573779582977295	0.00022892295964993536	0.2367304265499115	10
+845	shapessocial_transcript	transcript	gpt2	up on the boy, who still doesn't see him. He	t	taps	's	2.5096566677093506	5.527153015136719	4.252132839610567e-06	0.10843901336193085	10
+846	shapessocial_transcript	transcript	gpt2	on the boy, who still doesn't see him. He taps	the	the	his	8.415095329284668	3.3949010372161865	1.986667257369845e-06	0.301509827375412	10
+847	shapessocial_transcript	transcript	gpt2	the boy, who still doesn't see him. He taps the	boy	boy	boy	1.6928787231445312	6.2464776039123535	3.686559466586914e-06	0.13180768489837646	10
+848	shapessocial_transcript	transcript	gpt2	boy, who still doesn't see him. He taps the boy	on	on	's	5.950170516967773	2.3451316356658936	3.0720006179763004e-05	0.444580078125	10
+849	shapessocial_transcript	transcript	gpt2	who still doesn't see him. He taps the boy on	the	the	the	1.5552507638931274	0.49075502157211304	1.4538360119331628e-05	0.9142916798591614	10
+850	shapessocial_transcript	transcript	gpt2	still doesn't see him. He taps the boy on the	sh	shoulder.	shoulder	0.08725035935640335	1.7957146167755127	1.2239192415108846e-07	0.6697624921798706	10
+851	shapessocial_transcript	transcript	gpt2	doesn't see him. He taps the boy on the shoulder.	The	The	""""	1.3115793466567993	3.2470664978027344	0.00033045877353288233	0.3014737069606781	10
+852	shapessocial_transcript	transcript	gpt2	see him. He taps the boy on the shoulder. The	boy	boy	boy	3.159461498260498	4.7356085777282715	3.112929334747605e-06	0.4017130434513092	10
+853	shapessocial_transcript	transcript	gpt2	him. He taps the boy on the shoulder. The boy	wh	whirls	is	0.970771074295044	5.356667518615723	1.041221580067031e-07	0.07541373372077942	10
+854	shapessocial_transcript	transcript	gpt2	He taps the boy on the shoulder. The boy whirls	around	around.	around	0.0015767297009006143	3.0807511806488037	4.733471712370374e-07	0.4026309549808502	10
+855	shapessocial_transcript	transcript	gpt2	taps the boy on the shoulder. The boy whirls around.	The	The	"
+"	3.3683791160583496	4.701351165771484	0.0005231761024333537	0.14862357079982758	10
+856	shapessocial_transcript	transcript	gpt2	the boy on the shoulder. The boy whirls around. The	two	two	boy	1.7220494747161865	3.5475845336914062	1.6396991497913405e-07	0.5400267243385315	10
+857	shapessocial_transcript	transcript	gpt2	boy on the shoulder. The boy whirls around. The two	friends	friends	of	4.586501121520996	5.9084062576293945	5.9466888302495136e-08	0.1507037729024887	10
+858	shapessocial_transcript	transcript	gpt2	on the shoulder. The boy whirls around. The two friends	talk	talk	are	6.125969886779785	5.9937286376953125	2.0501086339663743e-07	0.06438042223453522	10
+859	shapessocial_transcript	transcript	gpt2	the shoulder. The boy whirls around. The two friends talk	back	back	.	5.260764122009277	3.419480562210083	3.1170227430266095e-06	0.20971587300300598	10
+860	shapessocial_transcript	transcript	gpt2	shoulder. The boy whirls around. The two friends talk back	and	and	and	5.9512410163879395	1.9521962404251099	1.315614008490229e-05	0.4750349521636963	10
+861	shapessocial_transcript	transcript	gpt2	The boy whirls around. The two friends talk back and	forth	forth.	forth	0.8657508492469788	0.23785287141799927	6.047597707947716e-05	0.977125883102417	10
+862	shapessocial_transcript	transcript	gpt2	boy whirls around. The two friends talk back and forth.	The	The	"
+"	2.4148952960968018	5.364435195922852	8.256422006525099e-05	0.12420549988746643	10
+863	shapessocial_transcript	transcript	gpt2	whirls around. The two friends talk back and forth. The	boy	boy	two	2.503523588180542	7.437701225280762	1.0818838518389384e-06	0.03660252317786217	10
+864	shapessocial_transcript	transcript	gpt2	around. The two friends talk back and forth. The boy	r	races	is	4.882958889007568	5.558621406555176	4.808152425539447e-06	0.09335891157388687	10
+865	shapessocial_transcript	transcript	gpt2	The two friends talk back and forth. The boy races	to	to	to	8.75338077545166	3.5321881771087646	2.2548006484157668e-07	0.21264535188674927	10
+866	shapessocial_transcript	transcript	gpt2	two friends talk back and forth. The boy races to	get	get	the	1.5520761013031006	3.858797788619995	2.8933673092979006e-05	0.3710802495479584	10
+867	shapessocial_transcript	transcript	gpt2	friends talk back and forth. The boy races to get	his	his	his	3.328756809234619	4.13886022567749	9.378406957694096e-07	0.12474790215492249	10
+868	shapessocial_transcript	transcript	gpt2	talk back and forth. The boy races to get his	ball	ball	bearings	2.318941116333008	6.554581642150879	3.233091945276101e-07	0.05372145026922226	10
+869	shapessocial_transcript	transcript	gpt2	back and forth. The boy races to get his ball	as	as	,	6.524544715881348	3.5613458156585693	5.349477760319132e-06	0.2162008285522461	10
+870	shapessocial_transcript	transcript	gpt2	and forth. The boy races to get his ball as	his	his	fast	4.865736484527588	3.9806125164031982	9.370111797579739e-07	0.23942726850509644	10
+871	shapessocial_transcript	transcript	gpt2	forth. The boy races to get his ball as his	friend	friend	father	3.4015114307403564	5.040016174316406	1.8812174573668017e-07	0.19098424911499023	10
+872	shapessocial_transcript	transcript	gpt2	The boy races to get his ball as his friend	gets	gets	,	4.31368350982666	6.772826671600342	1.1487388746900251e-06	0.06820182502269745	10
+873	shapessocial_transcript	transcript	gpt2	boy races to get his ball as his friend gets	in	in	his	4.9436798095703125	5.696326732635498	3.623453039836022e-07	0.0700075775384903	10
+874	shapessocial_transcript	transcript	gpt2	races to get his ball as his friend gets in	position	position.	the	3.8994522094726562	4.110047340393066	3.0980088467913447e-06	0.12563569843769073	10
+875	shapessocial_transcript	transcript	gpt2	to get his ball as his friend gets in position.	The	The	"
+"	1.5716402530670166	4.808971881866455	0.0008960391278378665	0.283631294965744	10
+876	shapessocial_transcript	transcript	gpt2	get his ball as his friend gets in position. The	boy	boy	ball	2.9906504154205322	7.4021196365356445	2.1644895298322808e-07	0.044952020049095154	10
+877	shapessocial_transcript	transcript	gpt2	his ball as his friend gets in position. The boy	k	kicks	is	6.483370780944824	5.891298294067383	6.707859483867651e-06	0.08165469020605087	10
+878	shapessocial_transcript	transcript	gpt2	ball as his friend gets in position. The boy kicks	the	the	the	6.977585792541504	4.060665607452393	5.897479127270344e-07	0.21119816601276398	10
+879	shapessocial_transcript	transcript	gpt2	as his friend gets in position. The boy kicks the	ball	ball	boy	1.4806642532348633	6.512143611907959	3.703263928400702e-06	0.07339313626289368	10
+880	shapessocial_transcript	transcript	gpt2	his friend gets in position. The boy kicks the ball	to	to	out	4.956686019897461	3.8050825595855713	2.219116765900253e-07	0.1368832290172577	10
+881	shapessocial_transcript	transcript	gpt2	friend gets in position. The boy kicks the ball to	his	his	the	2.941324472427368	4.968929290771484	1.1481164619908668e-05	0.30111899971961975	10
+882	shapessocial_transcript	transcript	gpt2	gets in position. The boy kicks the ball to his	friend	friend,	left	2.0822787284851074	4.181893348693848	3.370375054601027e-07	0.20276373624801636	10
+883	shapessocial_transcript	transcript	gpt2	in position. The boy kicks the ball to his friend,	who	who	who	1.6715766191482544	4.559544563293457	0.00015424368029925972	0.3601839542388916	10
+884	shapessocial_transcript	transcript	gpt2	position. The boy kicks the ball to his friend, who	quick	quickly	is	1.0544787645339966	5.825165748596191	2.9495939912749236e-08	0.06692474335432053	10
+885	shapessocial_transcript	transcript	gpt2	The boy kicks the ball to his friend, who quickly	pass	passes	gets	4.817828178405762	5.873068332672119	8.404862583688555e-09	0.03871406242251396	10
+886	shapessocial_transcript	transcript	gpt2	boy kicks the ball to his friend, who quickly passes	it	it	it	4.981225490570068	2.496614456176758	8.03774491942022e-06	0.38010174036026	10
+887	shapessocial_transcript	transcript	gpt2	kicks the ball to his friend, who quickly passes it	back	back,	to	0.9851115942001343	2.33743953704834	5.9578292166406754e-06	0.5031669735908508	10
+888	shapessocial_transcript	transcript	gpt2	the ball to his friend, who quickly passes it back,	playing	playing	and	4.323029041290283	5.485405921936035	4.4776348318009696e-07	0.2003246396780014	10
+889	shapessocial_transcript	transcript	gpt2	ball to his friend, who quickly passes it back, playing	together	together	it	7.571948051452637	4.476522445678711	4.54966908591814e-08	0.19777855277061462	10
+890	shapessocial_transcript	transcript	gpt2	to his friend, who quickly passes it back, playing together	in	in	.	7.414273262023926	3.391084671020508	4.595881819113856e-06	0.2884881794452667	10
+891	shapessocial_transcript	transcript	gpt2	his friend, who quickly passes it back, playing together in	real	real	the	2.861400842666626	4.56182861328125	5.297566829653988e-08	0.25008848309516907	10
+892	shapessocial_transcript	transcript	gpt2	friend, who quickly passes it back, playing together in real	life	life	life	5.857975959777832	1.2748982906341553	9.036538540385664e-05	0.6952555775642395	10
+893	shapessocial_transcript	transcript	gpt2	who quickly passes it back, playing together in real life	just	just	.	0.7055659890174866	3.378909111022949	1.4152799394651083e-06	0.24125255644321442	10
+894	shapessocial_transcript	transcript	gpt2	quickly passes it back, playing together in real life just	as	as	like	6.793359756469727	3.311505079269409	3.3276711519647506e-07	0.24704714119434357	10
+895	shapessocial_transcript	transcript	gpt2	passes it back, playing together in real life just as	they	they	they	1.8348804712295532	4.929168224334717	1.3430328635877231e-06	0.11599402129650116	10
+896	shapessocial_transcript	transcript	gpt2	it back, playing together in real life just as they	had	had	did	2.48327898979187	3.581879138946533	1.2886523848010256e-07	0.27200838923454285	10
+897	shapessocial_transcript	transcript	gpt2	back, playing together in real life just as they had	in	in	in	3.082955837249756	3.8449759483337402	8.077219604274433e-07	0.22714358568191528	10
+898	shapessocial_transcript	transcript	gpt2	playing together in real life just as they had in	the	the	the	1.2663888931274414	4.8662109375	2.6182033252553083e-06	0.28243908286094666	10
+899	shapessocial_transcript	transcript	gpt2	together in real life just as they had in the	dream	dream.	past	1.2078558206558228	6.086491107940674	2.0249426597729325e-06	0.09729417413473129	10

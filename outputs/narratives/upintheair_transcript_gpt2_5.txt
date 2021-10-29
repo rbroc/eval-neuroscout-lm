@@ -1,0 +1,508 @@
+	dataset	type	model	context	target	orig_wd	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	upintheair_transcript	transcript	gpt2	Ryan looked up from his	boarding	boarding	seat	0.6408568024635315	4.853789806365967	1.0128133887121749e-08	0.2675440013408661	5
+1	upintheair_transcript	transcript	gpt2	looked up from his boarding	pass	pass	pass	9.576945304870605	5.06806755065918	0.0006669582799077034	0.1324484795331955	5
+2	upintheair_transcript	transcript	gpt2	up from his boarding pass	and	and	.	2.926910400390625	3.394598960876465	5.865745151822921e-06	0.22730673849582672	5
+3	upintheair_transcript	transcript	gpt2	from his boarding pass and	s	sighed.	his	2.6286144256591797	7.050400733947754	6.819520422141068e-06	0.07385385781526566	5
+4	upintheair_transcript	transcript	gpt2	his boarding pass and sighed.	There	There	""""	0.9719003438949585	3.0075435638427734	1.372360929963179e-05	0.41656753420829773	5
+5	upintheair_transcript	transcript	gpt2	boarding pass and sighed. There	was	was	was	5.38674259185791	1.905538558959961	3.7507645174628124e-05	0.5419769883155823	5
+6	upintheair_transcript	transcript	gpt2	pass and sighed. There was	his	his	a	0.5669207572937012	3.0707719326019287	6.2593250582665405e-09	0.2774350941181183	5
+7	upintheair_transcript	transcript	gpt2	and sighed. There was his	new	new	face	6.085509300231934	7.01119327545166	1.7635106530633493e-07	0.04478367790579796	5
+8	upintheair_transcript	transcript	gpt2	sighed. There was his new	part	partner	wife	6.507275104522705	7.389547824859619	5.496672770277655e-07	0.03485320881009102	5
+9	upintheair_transcript	transcript	gpt2	There was his new partner	N	Natalie,	,	5.231589317321777	3.768035888671875	8.431502465100493e-07	0.41111740469932556	5
+10	upintheair_transcript	transcript	gpt2	was his new partner Natalie,	aw	awkwardly	who	2.5212697982788086	4.061974048614502	6.220227533049183e-08	0.26775118708610535	5
+11	upintheair_transcript	transcript	gpt2	his new partner Natalie, awkwardly	cl	climbing	,	12.479649543762207	7.227588653564453	9.706051429247964e-08	0.029250750318169594	5
+12	upintheair_transcript	transcript	gpt2	new partner Natalie, awkwardly climbing	out	out	up	8.03597354888916	3.310523271560669	1.8288146748091094e-06	0.12212295085191727	5
+13	upintheair_transcript	transcript	gpt2	partner Natalie, awkwardly climbing out	of	of	of	2.689478635787964	1.163127064704895	4.432892092154361e-05	0.7881186604499817	5
+14	upintheair_transcript	transcript	gpt2	Natalie, awkwardly climbing out of	a	a	the	0.24647283554077148	2.0444607734680176	3.1935967399476795e-06	0.46742770075798035	5
+15	upintheair_transcript	transcript	gpt2	awkwardly climbing out of a	tax	taxi	window	2.053943157196045	6.679034233093262	2.889002992390033e-08	0.09610506892204285	5
+16	upintheair_transcript	transcript	gpt2	climbing out of a taxi	at	at	.	6.967020034790039	4.2524189949035645	7.893198016972747e-06	0.1532921940088272	5
+17	upintheair_transcript	transcript	gpt2	out of a taxi at	the	the	the	4.092400550842285	5.707399368286133	6.3421234699490014e-06	0.24406301975250244	5
+18	upintheair_transcript	transcript	gpt2	of a taxi at the	c	curb	airport	1.5491948127746582	7.442127227783203	3.2045588795881486e-06	0.04881907254457474	5
+19	upintheair_transcript	transcript	gpt2	a taxi at the curb	of	of	of	7.774489402770996	3.327688455581665	4.759079729410587e-06	0.27769598364830017	5
+20	upintheair_transcript	transcript	gpt2	taxi at the curb of	the	the	the	1.9714592695236206	4.9303765296936035	8.316726962220855e-06	0.280441015958786	5
+21	upintheair_transcript	transcript	gpt2	at the curb of the	air	airport.	road	1.2393842935562134	7.384878158569336	1.2537671523205063e-07	0.04362471029162407	5
+22	upintheair_transcript	transcript	gpt2	the curb of the airport.	She	She	"
+"	1.7681394815444946	4.805375576019287	2.9090228053973988e-05	0.26116982102394104	5
+23	upintheair_transcript	transcript	gpt2	curb of the airport. She	f	fumbled	was	5.022789001464844	5.627507209777832	8.193438588932622e-06	0.11088260263204575	5
+24	upintheair_transcript	transcript	gpt2	of the airport. She fumbled	with	with	with	1.8377403020858765	3.2361533641815186	3.1877439141680952e-06	0.20132453739643097	5
+25	upintheair_transcript	transcript	gpt2	the airport. She fumbled with	her	her	her	1.6078442335128784	2.546553134918213	5.553699338634033e-06	0.3715609312057495	5
+26	upintheair_transcript	transcript	gpt2	airport. She fumbled with her	du	duffle	purse	1.13029146194458	6.0193190574646	1.4778122192637966e-07	0.1362852305173874	5
+27	upintheair_transcript	transcript	gpt2	She fumbled with her duffle	bag	bag,	bag	2.825648784637451	1.15999174118042	0.0323437824845314	0.7985799312591553	5
+28	upintheair_transcript	transcript	gpt2	fumbled with her duffle bag,	j	jacket,	she	1.6859207153320312	6.274752140045166	1.3753245866610087e-06	0.11667671799659729	5
+29	upintheair_transcript	transcript	gpt2	with her duffle bag, jacket,	and	and	and	0.5874032378196716	4.9994306564331055	9.323241101810709e-05	0.32745951414108276	5
+30	upintheair_transcript	transcript	gpt2	her duffle bag, jacket, and	massive	massive	a	1.8465263843536377	6.547269821166992	3.1992590798779474e-09	0.06366563588380814	5
+31	upintheair_transcript	transcript	gpt2	duffle bag, jacket, and massive	l	luggage	bag	10.440829277038574	7.329704284667969	4.417632226250134e-06	0.029617484658956528	5
+32	upintheair_transcript	transcript	gpt2	bag, jacket, and massive luggage	that	that	.	6.7986555099487305	4.006409168243408	1.4260018588174717e-06	0.36312925815582275	5
+33	upintheair_transcript	transcript	gpt2	jacket, and massive luggage that	s	squeaked	can	4.291154861450195	5.878631591796875	1.635444823477883e-05	0.05451713874936104	5
+34	upintheair_transcript	transcript	gpt2	and massive luggage that squeaked	shr	shrilly	and	0.7101508975028992	3.658921003341675	2.367263069597003e-12	0.13771219551563263	5
+35	upintheair_transcript	transcript	gpt2	massive luggage that squeaked shrilly	as	as	and	0.3726317882537842	3.7783267498016357	7.725188879703637e-07	0.08677969127893448	5
+36	upintheair_transcript	transcript	gpt2	luggage that squeaked shrilly as	she	she	it	2.8116047382354736	3.4798240661621094	1.5574248664051993e-06	0.25286415219306946	5
+37	upintheair_transcript	transcript	gpt2	that squeaked shrilly as she	t	tugged	looked	1.7874667644500732	5.933356761932373	6.085284098844568e-07	0.023579981178045273	5
+38	upintheair_transcript	transcript	gpt2	squeaked shrilly as she tugged	it	it	at	0.006614694371819496	3.1377780437469482	4.5669625592381635e-07	0.33936554193496704	5
+39	upintheair_transcript	transcript	gpt2	shrilly as she tugged it	through	through	out	3.9335999488830566	4.078571319580078	1.92078516647598e-07	0.11867735534906387	5
+40	upintheair_transcript	transcript	gpt2	as she tugged it through	the	the	her	4.92890739440918	2.3342223167419434	7.354769877565559e-06	0.42293521761894226	5
+41	upintheair_transcript	transcript	gpt2	she tugged it through the	air	airport	air	1.1855533123016357	7.043056488037109	7.85183488005714e-07	0.06540704518556595	5
+42	upintheair_transcript	transcript	gpt2	tugged it through the airport	doors	doors.	.	7.457535743713379	4.366990089416504	1.8749977925835992e-07	0.15474393963813782	5
+43	upintheair_transcript	transcript	gpt2	it through the airport doors.	Ryan	Ryan	"
+"	1.3810170888900757	4.944301128387451	1.263160470443836e-06	0.2370646595954895	5
+44	upintheair_transcript	transcript	gpt2	through the airport doors. Ryan	walk	walked	air	9.682119369506836	5.996565341949463	6.727577783749439e-06	0.0904233381152153	5
+45	upintheair_transcript	transcript	gpt2	the airport doors. Ryan walked	re	reluctantly	over	5.9587507247924805	3.405567169189453	3.1413249779177477e-09	0.12972337007522583	5
+46	upintheair_transcript	transcript	gpt2	airport doors. Ryan walked reluctantly	t	toward	to	10.439862251281738	3.2254111766815186	6.031075372447958e-07	0.17698995769023895	5
+47	upintheair_transcript	transcript	gpt2	doors. Ryan walked reluctantly toward	her	her,	the	3.8924665451049805	2.5882084369659424	3.7442896427819505e-07	0.6262277364730835	5
+48	upintheair_transcript	transcript	gpt2	Ryan walked reluctantly toward her,	pull	pulling	and	1.471211552619934	6.193500995635986	2.8942858421032724e-07	0.06161603331565857	5
+49	upintheair_transcript	transcript	gpt2	walked reluctantly toward her, pulling	his	his	her	5.926335334777832	3.2873971462249756	2.5138646719824465e-08	0.3664326071739197	5
+50	upintheair_transcript	transcript	gpt2	reluctantly toward her, pulling his	own	own	hand	3.8869876861572266	5.53997802734375	2.744855578384886e-07	0.08263928443193436	5
+51	upintheair_transcript	transcript	gpt2	toward her, pulling his own	ne	neatly-packed	hair	5.082460403442383	6.267937660217285	7.194249747044523e-07	0.07933523505926132	5
+52	upintheair_transcript	transcript	gpt2	her, pulling his own neatly-packed	carry	carry-on	bag	3.4949076175689697	6.766730308532715	6.264585294957215e-08	0.08196745812892914	5
+53	upintheair_transcript	transcript	gpt2	pulling his own neatly-packed carry-on	bag	bag	bag	0.24259285628795624	2.7515687942504883	0.00047087535494938493	0.5303723216056824	5
+54	upintheair_transcript	transcript	gpt2	his own neatly-packed carry-on bag	behind	behind	.	0.7239240407943726	3.423513174057007	6.445511644415092e-07	0.281358927488327	5
+55	upintheair_transcript	transcript	gpt2	own neatly-packed carry-on bag behind	him	him.	the	6.969723224639893	3.406730890274048	1.2021325801470084e-06	0.21147531270980835	5
+56	upintheair_transcript	transcript	gpt2	neatly-packed carry-on bag behind him.	After	After	"
+"	0.982326090335846	4.202122211456299	2.0598463379428722e-05	0.31387650966644287	5
+57	upintheair_transcript	transcript	gpt2	carry-on bag behind him. After	checking	checking	a	5.248866081237793	5.522400379180908	6.053149718354689e-06	0.1331668496131897	5
+58	upintheair_transcript	transcript	gpt2	bag behind him. After checking	N	Natalie's	the	6.5461530685424805	3.690107822418213	1.6470561092774005e-07	0.20469720661640167	5
+59	upintheair_transcript	transcript	gpt2	behind him. After checking Natalie's	bag	bag,	body	0.5067638158798218	7.281630516052246	6.009004778206872e-07	0.035704951733350754	5
+60	upintheair_transcript	transcript	gpt2	him. After checking Natalie's bag,	the	the	she	0.8410747647285461	4.900609970092773	1.1276664736215025e-05	0.2011575549840927	5
+61	upintheair_transcript	transcript	gpt2	After checking Natalie's bag, the	two	two	police	2.916689157485962	7.182062149047852	7.3392345711909e-07	0.051317423582077026	5
+62	upintheair_transcript	transcript	gpt2	checking Natalie's bag, the two	walk	walked	of	3.7364797592163086	6.416749477386475	2.136370085281669e-06	0.10220104455947876	5
+63	upintheair_transcript	transcript	gpt2	Natalie's bag, the two walked	t	toward	to	5.4572906494140625	3.4216341972351074	7.36422549607596e-08	0.17780441045761108	5
+64	upintheair_transcript	transcript	gpt2	bag, the two walked toward	the	the	the	4.4355669021606445	3.0306434631347656	6.4409305196022615e-06	0.5407562851905823	5
+65	upintheair_transcript	transcript	gpt2	the two walked toward the	air	airport	door	0.8354538679122925	7.176917552947998	1.1211916017828116e-07	0.04884517192840576	5
+66	upintheair_transcript	transcript	gpt2	two walked toward the airport	security	security	.	7.168689250946045	3.7761383056640625	2.2478822359062178e-07	0.21285511553287506	5
+67	upintheair_transcript	transcript	gpt2	walked toward the airport security	lines	lines.	checkpoint	6.48713493347168	5.001150608062744	4.094996711501153e-06	0.09113907068967819	5
+68	upintheair_transcript	transcript	gpt2	toward the airport security lines.	As	As	"
+"	1.3194401264190674	4.374668598175049	0.00017050163296516985	0.347881555557251	5
+69	upintheair_transcript	transcript	gpt2	the airport security lines. As	N	Natalie	a	4.739193916320801	4.990804195404053	1.39356723138917e-06	0.11715854704380035	5
+70	upintheair_transcript	transcript	gpt2	airport security lines. As Natalie	stru	struggled	said	12.66634464263916	7.230885028839111	6.172954147842802e-09	0.033329300582408905	5
+71	upintheair_transcript	transcript	gpt2	security lines. As Natalie struggled	to	to	to	10.952118873596191	1.5715522766113281	6.10279221291421e-06	0.6835864186286926	5
+72	upintheair_transcript	transcript	gpt2	lines. As Natalie struggled to	ext	extract	get	0.49971136450767517	5.422619342803955	9.93628006540348e-08	0.07772132754325867	5
+73	upintheair_transcript	transcript	gpt2	As Natalie struggled to extract	her	her	herself	7.705451011657715	3.828589916229248	2.8306685635470785e-06	0.2141365259885788	5
+74	upintheair_transcript	transcript	gpt2	Natalie struggled to extract her	ID	ID	voice	2.384744167327881	6.352620601654053	5.63180346802028e-09	0.07094702124595642	5
+75	upintheair_transcript	transcript	gpt2	struggled to extract her ID	from	from	card	9.09638786315918	3.1947977542877197	3.5148120787198422e-06	0.2698723375797272	5
+76	upintheair_transcript	transcript	gpt2	to extract her ID from	the	the	the	1.942246675491333	3.7907004356384277	1.3198435226513539e-05	0.3139806091785431	5
+77	upintheair_transcript	transcript	gpt2	extract her ID from the	bottom	bottom	database	1.0768733024597168	7.284756183624268	2.2920313824670302e-07	0.036872684955596924	5
+78	upintheair_transcript	transcript	gpt2	her ID from the bottom	of	of	of	6.916027545928955	3.1662864685058594	1.4508935237245169e-05	0.4605841338634491	5
+79	upintheair_transcript	transcript	gpt2	ID from the bottom of	her	her	the	0.8561038970947266	2.868311882019043	3.904524419340305e-06	0.5568866729736328	5
+80	upintheair_transcript	transcript	gpt2	from the bottom of her	du	duffel	mouth	4.5463128089904785	6.422011852264404	5.8034995475964024e-08	0.06532392650842667	5
+81	upintheair_transcript	transcript	gpt2	the bottom of her duffel	bag	bag,	bag	0.007280366960912943	0.5275425910949707	0.007017320021986961	0.9376440644264221	5
+82	upintheair_transcript	transcript	gpt2	bottom of her duffel bag,	Ryan	Ryan	she	1.7262065410614014	5.917746067047119	1.1298320856667488e-07	0.18010006844997406	5
+83	upintheair_transcript	transcript	gpt2	of her duffel bag, Ryan	sc	scoped	said	9.868553161621094	6.741770267486572	1.1744153880499653e-06	0.05452372878789902	5
+84	upintheair_transcript	transcript	gpt2	her duffel bag, Ryan scoped	out	out	out	5.429181098937988	3.1677908897399902	1.43106808536686e-05	0.21795935928821564	5
+85	upintheair_transcript	transcript	gpt2	duffel bag, Ryan scoped out	the	the	the	1.550987720489502	3.904712438583374	1.0229174222331494e-05	0.3403620421886444	5
+86	upintheair_transcript	transcript	gpt2	bag, Ryan scoped out the	different	different	room	0.991906464099884	7.6297383308410645	7.627251719100059e-09	0.024030253291130066	5
+87	upintheair_transcript	transcript	gpt2	Ryan scoped out the different	line	line	parts	8.498930931091309	7.324124336242676	2.1458885157699115e-07	0.038341037929058075	5
+88	upintheair_transcript	transcript	gpt2	scoped out the different line	cho	choices.	ages	8.553611755371094	4.866050720214844	4.5636724621545e-07	0.14741702377796173	5
+89	upintheair_transcript	transcript	gpt2	out the different line choices.	""""	"""Bingo,"	"
+"	1.9777544736862183	4.876030445098877	1.2276560482860077e-05	0.24195723235607147	5
+90	upintheair_transcript	transcript	gpt2	"the different line choices. ""Bingo,"	As	"Asians."""	you	1.973526120185852	5.933066368103027	5.145702175468614e-07	0.08432451635599136	5
+91	upintheair_transcript	transcript	gpt2	"different line choices. ""Bingo, Asians."""	He	He	"
+"	4.122884750366211	4.435730457305908	4.45137957285624e-05	0.26241737604141235	5
+92	upintheair_transcript	transcript	gpt2	"line choices. ""Bingo, Asians."" He"	motion	motioned	was	3.850705146789551	6.221268653869629	2.2790855869203597e-09	0.038409363478422165	5
+93	upintheair_transcript	transcript	gpt2	"choices. ""Bingo, Asians."" He motioned"	t	toward	to	0.0021043317392468452	3.249847888946533	1.8482097630112548e-07	0.2795940637588501	5
+94	upintheair_transcript	transcript	gpt2	"""Bingo, Asians."" He motioned toward"	the	the	the	3.150364398956299	3.68078351020813	7.819928214303218e-06	0.4000641405582428	5
+95	upintheair_transcript	transcript	gpt2	"Asians."" He motioned toward the"	right	rightmost	door	0.8800991773605347	7.42753267288208	2.612097773635469e-07	0.07244264334440231	5
+96	upintheair_transcript	transcript	gpt2	He motioned toward the rightmost	line	line	corner	4.724300384521484	6.229062080383301	4.792291747435229e-06	0.0765620693564415	5
+97	upintheair_transcript	transcript	gpt2	motioned toward the rightmost line	with	with	of	4.227499961853027	2.6966819763183594	2.8586086955328938e-06	0.377126544713974	5
+98	upintheair_transcript	transcript	gpt2	toward the rightmost line with	his	his	the	4.469664573669434	4.31773567199707	2.0139373191341292e-07	0.33297160267829895	5
+99	upintheair_transcript	transcript	gpt2	the rightmost line with his	chin	chin.	right	5.023920059204102	5.662487506866455	3.824268546281928e-08	0.12174232304096222	5
+100	upintheair_transcript	transcript	gpt2	rightmost line with his chin.	""""	"""You"	"
+"	1.5355030298233032	4.23286771774292	5.666057768394239e-05	0.2566809356212616	5
+101	upintheair_transcript	transcript	gpt2	"line with his chin. ""You"	can	can't	're	2.7212886810302734	4.297905445098877	9.360097124044842e-07	0.17786186933517456	5
+102	upintheair_transcript	transcript	gpt2	"with his chin. ""You can't"	be	be	be	0.9960353374481201	5.369035243988037	1.9705000795511296e-06	0.053821101784706116	5
+103	upintheair_transcript	transcript	gpt2	"his chin. ""You can't be"	serious	"serious,"""	a	2.927363395690918	6.008913993835449	5.835934757669747e-07	0.08311882615089417	5
+104	upintheair_transcript	transcript	gpt2	"chin. ""You can't be serious,"""	repl	replied	he	3.807173728942871	4.201808929443359	3.821411382887163e-07	0.36906206607818604	5
+105	upintheair_transcript	transcript	gpt2	"""You can't be serious,"" replied"	N	Natalie.	the	6.148369789123535	6.627737522125244	6.068738684916752e-07	0.16951751708984375	5
+106	upintheair_transcript	transcript	gpt2	"can't be serious,"" replied Natalie."	Ryan	Ryan	""""	1.2474285364151	2.0421695709228516	5.680930144080776e-07	0.5124502778053284	5
+107	upintheair_transcript	transcript	gpt2	"be serious,"" replied Natalie. Ryan"	sh	shrugged.	,	10.258467674255371	5.6896514892578125	6.44707006358658e-06	0.07601854205131531	5
+108	upintheair_transcript	transcript	gpt2	"serious,"" replied Natalie. Ryan shrugged."	""""	"""Look"	""""	0.7127932906150818	2.201817035675049	3.4431639505783096e-05	0.609276533126831	5
+109	upintheair_transcript	transcript	gpt2	"replied Natalie. Ryan shrugged. ""Look"	at	at	,	5.652505874633789	1.69968581199646	0.0001678962871665135	0.7153151035308838	5
+110	upintheair_transcript	transcript	gpt2	"Natalie. Ryan shrugged. ""Look at"	the	the	me	2.542558193206787	3.7378344535827637	1.2953976238350151e-06	0.13745932281017303	5
+111	upintheair_transcript	transcript	gpt2	"Ryan shrugged. ""Look at the"	other	other	numbers	1.7392125129699707	7.376493453979492	1.3850920765889896e-07	0.04210694134235382	5
+112	upintheair_transcript	transcript	gpt2	"shrugged. ""Look at the other"	lines	"lines."""	side	4.802851676940918	5.957355499267578	4.1935905414902663e-07	0.07730798423290253	5
+113	upintheair_transcript	transcript	gpt2	"""Look at the other lines."""	""""	"""I"	"
+"	3.5755057334899902	3.6892666816711426	0.0007406281656585634	0.48036372661590576	5
+114	upintheair_transcript	transcript	gpt2	"at the other lines."" ""I"	never	never	'm	2.414483070373535	4.3185505867004395	1.0632141993482946e-06	0.13834995031356812	5
+115	upintheair_transcript	transcript	gpt2	"the other lines."" ""I never"	get	get	thought	5.120320796966553	4.904181957244873	6.608890998904826e-07	0.11832953244447708	5
+116	upintheair_transcript	transcript	gpt2	"other lines."" ""I never get"	behind	behind	to	4.821778297424316	4.8935627937316895	1.796673743115207e-08	0.12831920385360718	5
+117	upintheair_transcript	transcript	gpt2	"lines."" ""I never get behind"	people	people	the	7.392693519592285	4.876156806945801	2.796988667341793e-07	0.211930513381958	5
+118	upintheair_transcript	transcript	gpt2	"""I never get behind people"	travel	traveling	who	4.569818019866943	3.363154172897339	8.648509686182138e-10	0.27072325348854065	5
+119	upintheair_transcript	transcript	gpt2	never get behind people traveling	with	with	to	11.155508041381836	4.009545803070068	2.1878820462006843e-06	0.12430544942617416	5
+120	upintheair_transcript	transcript	gpt2	get behind people traveling with	inf	infants	them	2.176513910293579	5.186320781707764	1.1238476815833565e-08	0.22456862032413483	5
+121	upintheair_transcript	transcript	gpt2	behind people traveling with infants	–	–	.	7.44398307800293	3.9345037937164307	0.0004718035343103111	0.1546678990125656	5
+122	upintheair_transcript	transcript	gpt2	people traveling with infants –	I	I've	and	6.9722490310668945	6.126243591308594	5.986453834339045e-05	0.06476490944623947	5
+123	upintheair_transcript	transcript	gpt2	traveling with infants – I've	never	never	been	2.597255229949951	3.995337724685669	1.899546873573854e-06	0.1346033662557602	5
+124	upintheair_transcript	transcript	gpt2	with infants – I've never	seen	seen	seen	2.0408034324645996	3.077484130859375	4.2888004259111767e-07	0.3599577248096466	5
+125	upintheair_transcript	transcript	gpt2	infants – I've never seen	a	a	a	1.5025038719177246	3.774348258972168	5.46922365174396e-06	0.169398695230484	5
+126	upintheair_transcript	transcript	gpt2	– I've never seen a	st	stroller	single	1.7961077690124512	7.478878021240234	3.769951320009568e-07	0.029906125739216805	5
+127	upintheair_transcript	transcript	gpt2	I've never seen a stroller	coll	collapse	that	3.6183619499206543	5.11577844619751	3.712722929094525e-08	0.08501321822404861	5
+128	upintheair_transcript	transcript	gpt2	never seen a stroller collapse	in	in	in	9.731542587280273	3.943718194961548	1.9367319055163534e-06	0.11773595958948135	5
+129	upintheair_transcript	transcript	gpt2	seen a stroller collapse in	less	less	the	1.9096310138702393	6.29167366027832	3.3850302116889e-08	0.12429382652044296	5
+130	upintheair_transcript	transcript	gpt2	a stroller collapse in less	than	than	than	7.800439834594727	0.16174979507923126	7.167028525145724e-05	0.9859996438026428	5
+131	upintheair_transcript	transcript	gpt2	stroller collapse in less than	tw	twenty	a	0.04126245528459549	2.9647367000579834	1.5936738595456745e-09	0.29776138067245483	5
+132	upintheair_transcript	transcript	gpt2	collapse in less than twenty	min	"minutes."""	minutes	5.4161057472229	2.180243492126465	3.643205855041742e-05	0.3739652931690216	5
+133	upintheair_transcript	transcript	gpt2	"in less than twenty minutes."""	""""	"""Old"	"
+"	4.6513895988464355	3.4035251140594482	0.0003874436079058796	0.5346091985702515	5
+134	upintheair_transcript	transcript	gpt2	"less than twenty minutes."" ""Old"	people	people	man	8.156665802001953	7.172345161437988	2.653709771038848e-06	0.10439983010292053	5
+135	upintheair_transcript	transcript	gpt2	"than twenty minutes."" ""Old people"	are	are	,	5.663858413696289	4.851497650146484	8.878901098796632e-07	0.12589827179908752	5
+136	upintheair_transcript	transcript	gpt2	"twenty minutes."" ""Old people are"	w	worse	always	2.5496439933776855	6.444246768951416	6.246629027373274e-07	0.03766632080078125	5
+137	upintheair_transcript	transcript	gpt2	"minutes."" ""Old people are worse"	–	–	than	6.924595355987549	2.608799934387207	5.160175351193175e-05	0.3951956629753113	5
+138	upintheair_transcript	transcript	gpt2	"""Old people are worse –"	their	their	they	6.844871997833252	5.1909098625183105	9.845276508713141e-06	0.18135231733322144	5
+139	upintheair_transcript	transcript	gpt2	people are worse – their	b	bodies	lives	5.164358139038086	7.001382350921631	2.857180447790597e-07	0.05627384036779404	5
+140	upintheair_transcript	transcript	gpt2	are worse – their bodies	are	are	are	5.652285099029541	4.458809852600098	5.199284714763053e-06	0.3220236599445343	5
+141	upintheair_transcript	transcript	gpt2	worse – their bodies are	l	littered	not	1.68253493309021	6.578644752502441	7.210550165837049e-07	0.05587625131011009	5
+142	upintheair_transcript	transcript	gpt2	– their bodies are littered	with	with	with	8.106494903564453	0.7439054250717163	2.388632856309414e-05	0.8942766189575195	5
+143	upintheair_transcript	transcript	gpt2	their bodies are littered with	hidden	hidden	corpses	0.264539897441864	6.731966018676758	7.2413910423563266e-09	0.057337887585163116	5
+144	upintheair_transcript	transcript	gpt2	bodies are littered with hidden	metal	metal	treasures	8.772906303405762	6.882808685302734	3.540675379554159e-07	0.03463958948850632	5
+145	upintheair_transcript	transcript	gpt2	are littered with hidden metal	and	and	and	7.251108646392822	5.529932975769043	7.083673608576646e-06	0.10941337794065475	5
+146	upintheair_transcript	transcript	gpt2	littered with hidden metal and	they	they	metal	1.837135672569275	7.517917633056641	1.6930163937445286e-08	0.02549702860414982	5
+147	upintheair_transcript	transcript	gpt2	with hidden metal and they	never	never	are	8.001972198486328	5.162600517272949	3.714934280196758e-07	0.1204429566860199	5
+148	upintheair_transcript	transcript	gpt2	hidden metal and they never	se	seem	get	5.814662933349609	5.899621486663818	1.7135501195753022e-07	0.03247874975204468	5
+149	upintheair_transcript	transcript	gpt2	metal and they never seem	to	to	to	4.210909843444824	0.5275856256484985	6.871221557958052e-05	0.9447130560874939	5
+150	upintheair_transcript	transcript	gpt2	and they never seem to	app	appreciate	be	0.05218159779906273	5.12459135055542	6.3300595876114585e-09	0.09965799748897552	5
+151	upintheair_transcript	transcript	gpt2	they never seem to appreciate	how	how	the	6.617644309997559	3.7721073627471924	4.559952230920317e-06	0.2709977626800537	5
+152	upintheair_transcript	transcript	gpt2	never seem to appreciate how	little	little	much	2.9793472290039062	6.164997577667236	1.0130803218544315e-07	0.16792234778404236	5
+153	upintheair_transcript	transcript	gpt2	seem to appreciate how little	time	time	we	5.308384418487549	5.6085991859436035	1.3975177353131585e-05	0.0746283158659935	5
+154	upintheair_transcript	transcript	gpt2	to appreciate how little time	they	they	you	3.434645414352417	4.056929111480713	6.037209914211417e-06	0.10557729005813599	5
+155	upintheair_transcript	transcript	gpt2	appreciate how little time they	have	have	spent	3.1166582107543945	3.2123849391937256	2.6238822101731785e-06	0.19562488794326782	5
+156	upintheair_transcript	transcript	gpt2	how little time they have	left	left	to	1.189456582069397	3.407506227493286	6.953430329303956e-06	0.24803972244262695	5
+157	upintheair_transcript	transcript	gpt2	little time they have left	on	on	.	3.03817081451416	4.022488117218018	1.8389595197731978e-06	0.10494624078273773	5
+158	upintheair_transcript	transcript	gpt2	time they have left on	earth	"earth."""	their	5.272219181060791	5.301604747772217	5.417891557613075e-08	0.17858128249645233	5
+159	upintheair_transcript	transcript	gpt2	"they have left on earth."""	""""	"""He"	"
+"	3.241372585296631	3.988187313079834	0.00031667787698097527	0.4513888657093048	5
+160	upintheair_transcript	transcript	gpt2	"have left on earth."" ""He"	motion	motioned	's	4.3299970626831055	4.96241569519043	3.186201746885331e-09	0.13726653158664703	5
+161	upintheair_transcript	transcript	gpt2	"left on earth."" ""He motioned"	to	to	to	0.01632911153137684	3.5679855346679688	1.2722470273729414e-05	0.20771688222885132	5
+162	upintheair_transcript	transcript	gpt2	"on earth."" ""He motioned to"	the	the	the	1.6672511100769043	4.889197826385498	1.7684938939055428e-05	0.21967032551765442	5
+163	upintheair_transcript	transcript	gpt2	"earth."" ""He motioned to the"	center	center	door	1.5990058183670044	7.692298412322998	7.96289043591969e-07	0.02805660292506218	5
+164	upintheair_transcript	transcript	gpt2	"""He motioned to the center"	line	line,	of	6.4757161140441895	3.7158796787261963	0.00564617570489645	0.373873770236969	5
+165	upintheair_transcript	transcript	gpt2	motioned to the center line,	where	where	and	2.0730743408203125	6.321435928344727	9.937782124325167e-06	0.1085822731256485	5
+166	upintheair_transcript	transcript	gpt2	to the center line, where	three	three	the	3.373779773712158	5.437610149383545	8.566148324007372e-08	0.15330860018730164	5
+167	upintheair_transcript	transcript	gpt2	the center line, where three	Middle	Middle	of	6.356889247894287	7.394289493560791	8.49109671463566e-09	0.07599125057458878	5
+168	upintheair_transcript	transcript	gpt2	center line, where three Middle	Eastern	Eastern	Eastern	9.67263126373291	1.1845805644989014	0.0014692276017740369	0.7548362612724304	5
+169	upintheair_transcript	transcript	gpt2	line, where three Middle Eastern	men	men	countries	0.16858971118927002	5.546172618865967	7.276730320882052e-05	0.1742120385169983	5
+170	upintheair_transcript	transcript	gpt2	where three Middle Eastern men	in	in	were	5.494140148162842	4.852790355682373	2.231052576462389e-06	0.16724839806556702	5
+171	upintheair_transcript	transcript	gpt2	three Middle Eastern men in	suits	suits	the	3.120871067047119	6.165104866027832	2.660527087527953e-08	0.15258082747459412	5
+172	upintheair_transcript	transcript	gpt2	Middle Eastern men in suits	were	were	and	7.66091251373291	4.0263285636901855	7.648139899174566e-07	0.2256002575159073	5
+173	upintheair_transcript	transcript	gpt2	Eastern men in suits were	taking	taking	seen	3.922635793685913	7.044881343841553	1.3758410410957822e-08	0.024216942489147186	5
+174	upintheair_transcript	transcript	gpt2	men in suits were taking	off	off	part	6.460063934326172	5.6338958740234375	4.443338639248395e-06	0.060729656368494034	5
+175	upintheair_transcript	transcript	gpt2	in suits were taking off	their	their	.	3.6884970664978027	3.4210476875305176	2.428501204576605e-07	0.1892002820968628	5
+176	upintheair_transcript	transcript	gpt2	suits were taking off their	sh	"shoes."""	sleeves	8.017908096313477	6.514150142669678	5.156261408956198e-07	0.06477268040180206	5
+177	upintheair_transcript	transcript	gpt2	"were taking off their shoes."""	""""	"""Five"	"
+"	4.081054210662842	2.635066509246826	0.0002007607399718836	0.651219367980957	5
+178	upintheair_transcript	transcript	gpt2	"taking off their shoes."" ""Five"	words	words:	minutes	8.834209442138672	4.923785209655762	3.346303856233135e-06	0.1706542819738388	5
+179	upintheair_transcript	transcript	gpt2	"off their shoes."" ""Five words:"	random	randomly	'	2.1536896228790283	7.740110397338867	7.230536169799961e-08	0.06305691599845886	5
+180	upintheair_transcript	transcript	gpt2	"their shoes."" ""Five words: randomly"	selected	selected	pick	12.221192359924316	6.025975227355957	2.075490920105949e-05	0.07551030814647675	5
+181	upintheair_transcript	transcript	gpt2	"shoes."" ""Five words: randomly selected"	for	for	"."""	2.6194849014282227	7.260646343231201	6.122704689914826e-07	0.07004138827323914	5
+182	upintheair_transcript	transcript	gpt2	"""Five words: randomly selected for"	add	additional	the	4.985779762268066	6.861309051513672	4.539451126106542e-08	0.06237415224313736	5
+183	upintheair_transcript	transcript	gpt2	words: randomly selected for additional	screen	"screening."""	information	7.038865089416504	6.745038986206055	1.3230796866992023e-06	0.04601972922682762	5
+184	upintheair_transcript	transcript	gpt2	"randomly selected for additional screening."""	""""	"""Now"	"
+"	4.573970794677734	2.745785713195801	0.00013295450480654836	0.6476979851722717	5
+185	upintheair_transcript	transcript	gpt2	"selected for additional screening."" ""Now"	As	Asians,	,	6.040142059326172	3.8144986629486084	2.2709425593347987e-06	0.2534286081790924	5
+186	upintheair_transcript	transcript	gpt2	"for additional screening."" ""Now Asians,"	they	they	especially	2.8336684703826904	5.40509033203125	1.7453854752602638e-06	0.051143523305654526	5
+187	upintheair_transcript	transcript	gpt2	"additional screening."" ""Now Asians, they"	pack	pack	're	4.403829574584961	3.5595672130584717	2.131635312707658e-09	0.3157825171947479	5
+188	upintheair_transcript	transcript	gpt2	"screening."" ""Now Asians, they pack"	light	light,	a	10.559840202331543	5.074869155883789	3.8444571259788063e-07	0.1404794454574585	5
+189	upintheair_transcript	transcript	gpt2	"""Now Asians, they pack light,"	travel	travel	they	2.35772442817688	5.427023887634277	3.6211513787520744e-08	0.24786780774593353	5
+190	upintheair_transcript	transcript	gpt2	Asians, they pack light, travel	efficient	efficiently,	well	8.000958442687988	4.419330596923828	3.1327013516602165e-07	0.1324865072965622	5
+191	upintheair_transcript	transcript	gpt2	they pack light, travel efficiently,	and	and	and	0.7571794986724854	2.7943484783172607	5.361477087717503e-05	0.6483837962150574	5
+192	upintheair_transcript	transcript	gpt2	pack light, travel efficiently, and	they	they've	provide	0.6769012808799744	6.0634379386901855	9.876245599116373e-08	0.04878789186477661	5
+193	upintheair_transcript	transcript	gpt2	light, travel efficiently, and they've	got	got	been	3.9732699394226074	4.646282196044922	1.7329406887256482e-07	0.15253226459026337	5
+194	upintheair_transcript	transcript	gpt2	travel efficiently, and they've got	a	a	a	2.628049612045288	5.063008785247803	4.035695837956155e-06	0.20735475420951843	5
+195	upintheair_transcript	transcript	gpt2	efficiently, and they've got a	thing	thing	lot	1.5747897624969482	5.9784321784973145	4.322807356516023e-08	0.17288990318775177	5
+196	upintheair_transcript	transcript	gpt2	and they've got a thing	for	for	for	6.602621555328369	1.664331316947937	2.248359305667691e-05	0.673576831817627	5
+197	upintheair_transcript	transcript	gpt2	they've got a thing for	sl	slip-on	you	0.3629411458969116	7.292149066925049	2.4500215545231185e-07	0.0480148009955883	5
+198	upintheair_transcript	transcript	gpt2	got a thing for slip-on	sh	shoes,	gloves	3.590672492980957	7.477897644042969	1.9181043171556666e-05	0.025446584448218346	5
+199	upintheair_transcript	transcript	gpt2	a thing for slip-on shoes,	god	god	but	1.7420363426208496	5.743264198303223	7.924036538042856e-09	0.13725914061069489	5
+200	upintheair_transcript	transcript	gpt2	thing for slip-on shoes, god	love	love	knows	11.452269554138184	3.5779733657836914	2.289906433361466e-06	0.36213448643684387	5
+201	upintheair_transcript	transcript	gpt2	for slip-on shoes, god love	�	"‘em."""	you	8.060201644897461	5.382811069488525	2.089540203087381e-06	0.08958510309457779	5
+202	upintheair_transcript	transcript	gpt2	"slip-on shoes, god love ‘em."""	N	Natalie	"
+"	4.877213478088379	4.0416083335876465	2.818022039718926e-05	0.44757258892059326	5
+203	upintheair_transcript	transcript	gpt2	"shoes, god love ‘em."" Natalie"	st	stared	's	11.863231658935547	7.116494178771973	5.666428023687331e-06	0.05592567101120949	5
+204	upintheair_transcript	transcript	gpt2	"god love ‘em."" Natalie stared"	at	at	at	8.18787670135498	2.4720773696899414	1.6985248294076882e-05	0.5899839401245117	5
+205	upintheair_transcript	transcript	gpt2	"love ‘em."" Natalie stared at"	him	him	him	0.5173779129981995	3.5544729232788086	6.956245215405943e-06	0.24017192423343658	5
+206	upintheair_transcript	transcript	gpt2	"‘em."" Natalie stared at him"	in	in	,	1.4790083169937134	3.6849942207336426	6.047863735147985e-06	0.1703106164932251	5
+207	upintheair_transcript	transcript	gpt2	Natalie stared at him in	wide	wide-eyed	disbelief	2.755095958709717	3.517092227935791	4.368108363905776e-08	0.21670769155025482	5
+208	upintheair_transcript	transcript	gpt2	stared at him in wide-eyed	shock	shock.	horror	0.3641514480113983	5.522627830505371	2.2879765992911416e-07	0.0652868002653122	5
+209	upintheair_transcript	transcript	gpt2	at him in wide-eyed shock.	""""	"""That's"	"
+"	1.0443881750106812	3.6944642066955566	6.284530536504462e-05	0.2958185076713562	5
+210	upintheair_transcript	transcript	gpt2	"him in wide-eyed shock. ""That's"	racist	"racist."""	not	0.7577282190322876	4.9776530265808105	4.459362301645342e-08	0.09376756846904755	5
+211	upintheair_transcript	transcript	gpt2	"in wide-eyed shock. ""That's racist."""	""""	"""I'm"	"
+"	2.2667713165283203	2.360262870788574	0.00015459534188266844	0.6337843537330627	5
+212	upintheair_transcript	transcript	gpt2	"wide-eyed shock. ""That's racist."" ""I'm"	like	like	not	1.554884910583496	3.8595588207244873	4.512060414185726e-08	0.2862071990966797	5
+213	upintheair_transcript	transcript	gpt2	"shock. ""That's racist."" ""I'm like"	my	my	,	5.590864181518555	2.466709613800049	1.4668374603843404e-07	0.6501357555389404	5
+214	upintheair_transcript	transcript	gpt2	"""That's racist."" ""I'm like my"	mother	"mother,"""	mom	6.660737037658691	5.0902791023254395	4.695137704402441e-06	0.12241724133491516	5
+215	upintheair_transcript	transcript	gpt2	"racist."" ""I'm like my mother,"""	Ryan	Ryan	he	1.713458776473999	4.657613277435303	3.8290434645205096e-07	0.23469844460487366	5
+216	upintheair_transcript	transcript	gpt2	"""I'm like my mother,"" Ryan"	sm	smiled	said	7.523649215698242	3.109894275665283	5.85155994770048e-08	0.5228920578956604	5
+217	upintheair_transcript	transcript	gpt2	"like my mother,"" Ryan smiled"	back	back	.	7.958122730255127	2.475797176361084	1.3355555950056441e-07	0.5108954310417175	5
+218	upintheair_transcript	transcript	gpt2	"my mother,"" Ryan smiled back"	at	at	.	4.679800987243652	2.195456027984619	3.852411794014188e-07	0.4268215000629425	5
+219	upintheair_transcript	transcript	gpt2	"mother,"" Ryan smiled back at"	her	her.	her	1.752063512802124	2.5947823524475098	4.814842782252526e-07	0.3937695324420929	5
+220	upintheair_transcript	transcript	gpt2	Ryan smiled back at her.	""""	"""I"	""""	1.0128722190856934	2.2400124073028564	2.1962860046187416e-05	0.5388386249542236	5
+221	upintheair_transcript	transcript	gpt2	"smiled back at her. ""I"	st	stereotype	'm	1.92826247215271	3.9988181591033936	1.6897545265237568e-06	0.21383297443389893	5
+222	upintheair_transcript	transcript	gpt2	"back at her. ""I stereotype"	–	–	her	16.399276733398438	4.407202243804932	8.609931683167815e-05	0.17144422233104706	5
+223	upintheair_transcript	transcript	gpt2	"at her. ""I stereotype –"	it	it's	I	7.725106239318848	4.69305419921875	3.9169288356788456e-05	0.2206020951271057	5
+224	upintheair_transcript	transcript	gpt2	"her. ""I stereotype – it's"	f	"faster."""	not	0.2891584634780884	4.84899377822876	1.057836769291498e-07	0.13052020967006683	5
+225	upintheair_transcript	transcript	gpt2	"""I stereotype – it's faster."""	N	Natalie	"
+"	4.026119709014893	2.1928038597106934	2.8899205062771216e-05	0.7077617049217224	5
+226	upintheair_transcript	transcript	gpt2	"stereotype – it's faster."" Natalie"	follow	followed	said	12.421216011047363	7.3827805519104	4.2531823396529944e-08	0.02382461354136467	5
+227	upintheair_transcript	transcript	gpt2	"– it's faster."" Natalie followed"	behind	behind	up	8.378872871398926	4.112578868865967	1.3898884390073363e-06	0.1674465388059616	5
+228	upintheair_transcript	transcript	gpt2	"it's faster."" Natalie followed behind"	him	him	.	4.152792453765869	4.127983570098877	3.1614248996447714e-07	0.15443260967731476	5
+229	upintheair_transcript	transcript	gpt2	"faster."" Natalie followed behind him"	in	in	,	2.4884543418884277	2.534135103225708	1.0278745321556926e-06	0.28445303440093994	5
+230	upintheair_transcript	transcript	gpt2	Natalie followed behind him in	dis	disbelief.	the	3.3108913898468018	4.032317161560059	4.440606744537945e-07	0.2764057517051697	5
+231	upintheair_transcript	transcript	gpt2	followed behind him in disbelief.	As	As	"
+"	1.1206367015838623	3.708250045776367	8.708913810551167e-05	0.3328363597393036	5
+232	upintheair_transcript	transcript	gpt2	behind him in disbelief. As	they	they	he	5.013871192932129	4.625756740570068	3.0102069104032125e-06	0.22731740772724152	5
+233	upintheair_transcript	transcript	gpt2	him in disbelief. As they	pass	passed	were	3.7593994140625	5.935794353485107	4.681568466224917e-09	0.07137393951416016	5
+234	upintheair_transcript	transcript	gpt2	in disbelief. As they passed	through	through	,	5.485053062438965	3.7424418926239014	2.9907168936915696e-06	0.16436338424682617	5
+235	upintheair_transcript	transcript	gpt2	disbelief. As they passed through	the	the	the	1.8110336065292358	3.3861801624298096	2.6661660740501247e-05	0.535639226436615	5
+236	upintheair_transcript	transcript	gpt2	As they passed through the	metal	metal	city	0.7607479691505432	7.404736042022705	1.202840707037467e-07	0.03871955722570419	5
+237	upintheair_transcript	transcript	gpt2	they passed through the metal	det	detector,	detector	6.9080352783203125	3.2957701683044434	1.5199682934508019e-07	0.3156411647796631	5
+238	upintheair_transcript	transcript	gpt2	passed through the metal detector,	N	Natalie's	and	1.8798247575759888	5.909948348999023	1.162489979833481e-06	0.11629408597946167	5
+239	upintheair_transcript	transcript	gpt2	through the metal detector, Natalie's	watch	watch	body	4.028046607971191	7.357827186584473	4.399989848025143e-07	0.05981576070189476	5
+240	upintheair_transcript	transcript	gpt2	the metal detector, Natalie's watch	tr	triggered	,	6.9840826988220215	3.856900930404663	4.288306627131533e-06	0.3344653248786926	5
+241	upintheair_transcript	transcript	gpt2	metal detector, Natalie's watch triggered	the	the	a	8.579570770263672	3.767698049545288	3.0377448183571687e-06	0.3136465847492218	5
+242	upintheair_transcript	transcript	gpt2	detector, Natalie's watch triggered the	al	alarm	alarm	2.392627239227295	7.734573841094971	1.0009167681346298e-06	0.05522647872567177	5
+243	upintheair_transcript	transcript	gpt2	Natalie's watch triggered the alarm	and	and	.	3.695941686630249	3.2261579036712646	8.564282325096428e-06	0.3047982156276703	5
+244	upintheair_transcript	transcript	gpt2	watch triggered the alarm and	she	she	the	2.421111583709717	6.388055801391602	4.1525950678078516e-07	0.08583458513021469	5
+245	upintheair_transcript	transcript	gpt2	triggered the alarm and she	was	was	was	6.157703399658203	5.693018436431885	3.0609965051553445e-06	0.12791305780410767	5
+246	upintheair_transcript	transcript	gpt2	the alarm and she was	pull	pulled	in	2.4790477752685547	6.368869781494141	8.12421419027487e-08	0.025395123288035393	5
+247	upintheair_transcript	transcript	gpt2	alarm and she was pulled	as	aside	over	6.662769317626953	2.9390816688537598	4.4647194386016054e-08	0.17155466973781586	5
+248	upintheair_transcript	transcript	gpt2	and she was pulled aside	for	for	by	4.385149955749512	2.866849422454834	3.4117945233447244e-06	0.24920660257339478	5
+249	upintheair_transcript	transcript	gpt2	she was pulled aside for	a	a	a	2.9397833347320557	4.954562664031982	9.380092933497508e-07	0.23676706850528717	5
+250	upintheair_transcript	transcript	gpt2	was pulled aside for a	pat	pat-down.	second	1.4270092248916626	6.658495903015137	1.6598741581219656e-07	0.05006154999136925	5
+251	upintheair_transcript	transcript	gpt2	pulled aside for a pat-down.	Ryan	Ryan	"
+"	1.5675914287567139	4.429024696350098	3.702423327922588e-07	0.29038578271865845	5
+252	upintheair_transcript	transcript	gpt2	aside for a pat-down. Ryan	stood	stood	's	10.05201244354248	6.690486907958984	3.742130871842164e-08	0.06127249822020531	5
+253	upintheair_transcript	transcript	gpt2	for a pat-down. Ryan stood	by	by	up	7.2820611000061035	4.133947372436523	6.402713097486412e-07	0.1562427282333374	5
+254	upintheair_transcript	transcript	gpt2	a pat-down. Ryan stood by	im	impatiently	the	3.246976852416992	4.32388973236084	2.1905545111167157e-07	0.1433003544807434	5
+255	upintheair_transcript	transcript	gpt2	pat-down. Ryan stood by impatiently	as	as	,	0.0032594669610261917	3.275334119796753	6.266481705097249e-06	0.21471762657165527	5
+256	upintheair_transcript	transcript	gpt2	Ryan stood by impatiently as	she	she	the	1.816793441772461	4.960751533508301	3.521105782056111e-06	0.19887526333332062	5
+257	upintheair_transcript	transcript	gpt2	stood by impatiently as she	was	was	watched	2.316985607147217	6.244309902191162	5.739755124523072e-07	0.02746281772851944	5
+258	upintheair_transcript	transcript	gpt2	by impatiently as she was	f	finally	about	3.736349105834961	6.680096626281738	9.387846944264311e-07	0.052225664258003235	5
+259	upintheair_transcript	transcript	gpt2	impatiently as she was finally	cle	cleared,	able	7.820817947387695	4.541139602661133	1.1503252572708789e-08	0.35543784499168396	5
+260	upintheair_transcript	transcript	gpt2	as she was finally cleared,	and	and	and	2.8851428031921387	5.904894828796387	4.973183968104422e-05	0.1420903354883194	5
+261	upintheair_transcript	transcript	gpt2	she was finally cleared, and	then	then	she	1.5637181997299194	5.84074592590332	7.388521225948352e-07	0.09118861705064774	5
+262	upintheair_transcript	transcript	gpt2	was finally cleared, and then	motion	motioned	the	3.992140769958496	6.255867958068848	2.315231029115239e-08	0.10565099865198135	5
+263	upintheair_transcript	transcript	gpt2	finally cleared, and then motioned	for	for	for	0.29917433857917786	4.1314544677734375	4.211604755255394e-05	0.28608953952789307	5
+264	upintheair_transcript	transcript	gpt2	cleared, and then motioned for	her	her	the	1.4646387100219727	5.457829475402832	2.8595000003406312e-06	0.2264966368675232	5
+265	upintheair_transcript	transcript	gpt2	and then motioned for her	to	to	to	3.167193651199341	2.146179676055908	7.292076043086126e-05	0.7475561499595642	5
+266	upintheair_transcript	transcript	gpt2	then motioned for her to	follow	follow	come	0.3702307641506195	5.4062299728393555	9.725697225348995e-08	0.04279860481619835	5
+267	upintheair_transcript	transcript	gpt2	motioned for her to follow	him	him	her	5.106330871582031	4.178657054901123	7.39111555958516e-07	0.14294636249542236	5
+268	upintheair_transcript	transcript	gpt2	for her to follow him	as	as	,	2.634063720703125	4.210268497467041	1.1065018270528526e-06	0.11436208337545395	5
+269	upintheair_transcript	transcript	gpt2	her to follow him as	he	he	he	3.9395182132720947	2.9273223876953125	7.087817357387394e-05	0.5237735509872437	5
+270	upintheair_transcript	transcript	gpt2	to follow him as he	walk	walked	was	0.7792248129844666	6.3659186363220215	1.8161610171318898e-07	0.03220555558800697	5
+271	upintheair_transcript	transcript	gpt2	follow him as he walked	down	down	through	4.136890411376953	3.7259342670440674	4.1595779975978076e-07	0.0938977599143982	5
+272	upintheair_transcript	transcript	gpt2	him as he walked down	the	the	the	2.9419925212860107	1.6263102293014526	5.812534436699934e-05	0.7960827350616455	5
+273	upintheair_transcript	transcript	gpt2	as he walked down the	con	concourse.	street	0.3016888201236725	4.061243534088135	5.6554164018507436e-08	0.25718924403190613	5
+274	upintheair_transcript	transcript	gpt2	he walked down the concourse.	He	He	"
+"	2.4075231552124023	3.985748052597046	0.00011234161502216011	0.27099180221557617	5
+275	upintheair_transcript	transcript	gpt2	walked down the concourse. He	st	stopped	was	3.3487932682037354	5.534095764160156	1.9850920125463745e-06	0.1433662325143814	5
+276	upintheair_transcript	transcript	gpt2	down the concourse. He stopped	half	halfway	to	5.738844871520996	3.7851459980010986	1.943180194530214e-08	0.13207226991653442	5
+277	upintheair_transcript	transcript	gpt2	the concourse. He stopped halfway	to	to	down	6.3925299644470215	2.7299282550811768	5.41463620606919e-08	0.2598743140697479	5
+278	upintheair_transcript	transcript	gpt2	concourse. He stopped halfway to	their	their	the	2.430473566055298	4.621706485748291	3.1031596847697074e-08	0.34053462743759155	5
+279	upintheair_transcript	transcript	gpt2	He stopped halfway to their	gate	gate	car	5.832175254821777	5.2829108238220215	1.883174149952538e-08	0.2619359493255615	5
+280	upintheair_transcript	transcript	gpt2	stopped halfway to their gate	and	and	.	7.841689109802246	3.153795003890991	1.8727025235421024e-05	0.2850334048271179	5
+281	upintheair_transcript	transcript	gpt2	halfway to their gate and	point	pointed	they	3.0388174057006836	6.893221855163574	4.795172117155744e-07	0.0327044315636158	5
+282	upintheair_transcript	transcript	gpt2	to their gate and pointed	at	at	out	7.953619956970215	3.429151773452759	4.6721015678485855e-06	0.19912363588809967	5
+283	upintheair_transcript	transcript	gpt2	their gate and pointed at	a	a	the	1.8171533346176147	4.324452877044678	4.222027655487182e-06	0.2597978711128235	5
+284	upintheair_transcript	transcript	gpt2	gate and pointed at a	l	luggage	man	3.0850436687469482	7.500714302062988	1.9104115835943958e-06	0.022224701941013336	5
+285	upintheair_transcript	transcript	gpt2	and pointed at a luggage	store	store.	rack	10.947742462158203	4.405763626098633	1.698704977570742e-06	0.2551923096179962	5
+286	upintheair_transcript	transcript	gpt2	pointed at a luggage store.	""""	"""If"	"
+"	2.1487927436828613	4.65595006942749	3.691050369525328e-05	0.28685081005096436	5
+287	upintheair_transcript	transcript	gpt2	"at a luggage store. ""If"	you	you're	you	3.7088208198547363	3.0334455966949463	6.614335234189639e-06	0.3523767292499542	5
+288	upintheair_transcript	transcript	gpt2	"a luggage store. ""If you're"	going	going	going	1.747548222541809	4.985415458679199	1.5510778439420392e-06	0.1425868719816208	5
+289	upintheair_transcript	transcript	gpt2	"luggage store. ""If you're going"	to	to	to	1.9583945274353027	0.9256535768508911	1.0326274605176877e-05	0.8779008984565735	5
+290	upintheair_transcript	transcript	gpt2	"store. ""If you're going to"	be	be	be	0.08324810862541199	5.453211784362793	1.0031974397861632e-06	0.0882842093706131	5
+291	upintheair_transcript	transcript	gpt2	"""If you're going to be"	flying	flying	a	2.342151403427124	5.986626625061035	1.5306426348615787e-08	0.1393527388572693	5
+292	upintheair_transcript	transcript	gpt2	you're going to be flying	with	with	in	7.160706996917725	5.002047061920166	3.254622527038009e-07	0.06298763304948807	5
+293	upintheair_transcript	transcript	gpt2	going to be flying with	me	me,	the	3.9089865684509277	5.566063404083252	1.0234882665827172e-06	0.10841231048107147	5
+294	upintheair_transcript	transcript	gpt2	to be flying with me,	you	you	and	2.2397496700286865	4.9125075340271	1.1211253877263516e-05	0.15484890341758728	5
+295	upintheair_transcript	transcript	gpt2	be flying with me, you	need	need	know	4.082402229309082	4.218399524688721	1.9915717075491557e-07	0.2285010665655136	5
+296	upintheair_transcript	transcript	gpt2	flying with me, you need	to	to	to	4.897710800170898	1.8510195016860962	0.00033538375282660127	0.7458614706993103	5
+297	upintheair_transcript	transcript	gpt2	with me, you need to	get	get	be	0.4641092121601105	5.30731725692749	1.9444523786660284e-06	0.08180472254753113	5
+298	upintheair_transcript	transcript	gpt2	me, you need to get	a	a	a	3.453099489212036	5.0468950271606445	5.614098881778773e-06	0.08865991979837418	5
+299	upintheair_transcript	transcript	gpt2	you need to get a	carry	carry-on	good	2.3287277221679688	7.381235599517822	1.9694159902883257e-07	0.037706274539232254	5
+300	upintheair_transcript	transcript	gpt2	need to get a carry-on	bag	"bag."""	bag	0.15510863065719604	5.077782154083252	5.736873936257325e-05	0.19333213567733765	5
+301	upintheair_transcript	transcript	gpt2	"to get a carry-on bag."""	""""	"""You"	"
+"	5.082772731781006	2.8180692195892334	0.00015848909970372915	0.6277540922164917	5
+302	upintheair_transcript	transcript	gpt2	"get a carry-on bag."" ""You"	know	know	're	2.9641623497009277	4.3723907470703125	2.8940037282154663e-06	0.17333680391311646	5
+303	upintheair_transcript	transcript	gpt2	"a carry-on bag."" ""You know"	how	how	,	2.8702473640441895	2.847794532775879	4.669381269195583e-06	0.3738832473754883	5
+304	upintheair_transcript	transcript	gpt2	"carry-on bag."" ""You know how"	much	much	I	3.0691206455230713	5.0587568283081055	5.098580913909245e-06	0.09660305082798004	5
+305	upintheair_transcript	transcript	gpt2	"bag."" ""You know how much"	time	time	I	2.674420118331909	4.63906717300415	8.303921276819892e-06	0.22366388142108917	5
+306	upintheair_transcript	transcript	gpt2	"""You know how much time"	you	you	I	3.8046164512634277	3.1752567291259766	5.855837116541807e-06	0.23422612249851227	5
+307	upintheair_transcript	transcript	gpt2	know how much time you	l	lose	have	2.2692909240722656	3.4562392234802246	1.1756363846870954e-06	0.20183075964450836	5
+308	upintheair_transcript	transcript	gpt2	how much time you lose	by	by	,	7.528338432312012	4.237857341766357	4.5711276470683515e-06	0.09045545011758804	5
+309	upintheair_transcript	transcript	gpt2	much time you lose by	checking	checking	not	4.239946365356445	6.232640266418457	2.754884178557404e-07	0.06482523679733276	5
+310	upintheair_transcript	transcript	gpt2	time you lose by checking	in	"in?"""	out	8.134381294250488	3.9620819091796875	7.118791836546734e-05	0.21245118975639343	5
+311	upintheair_transcript	transcript	gpt2	"you lose by checking in?"""	""""	"""I"	"
+"	6.608057022094727	4.597530841827393	0.0011968696489930153	0.3603447377681732	5
+312	upintheair_transcript	transcript	gpt2	"lose by checking in?"" ""I"	don	don't	'm	2.4575247764587402	4.322198390960693	6.027933523000684e-06	0.1322382688522339	5
+313	upintheair_transcript	transcript	gpt2	"by checking in?"" ""I don't"	know	"know,"""	know	0.0006436422117985785	2.516993999481201	1.3878027857572306e-05	0.4561145007610321	5
+314	upintheair_transcript	transcript	gpt2	"checking in?"" ""I don't know,"""	s	sighed	said	2.1917781829833984	5.204785346984863	5.926992798777064e-06	0.18810275197029114	5
+315	upintheair_transcript	transcript	gpt2	"in?"" ""I don't know,"" sighed"	N	Natalie.	the	6.791059970855713	6.949615478515625	1.2106498843422742e-06	0.0882653146982193	5
+316	upintheair_transcript	transcript	gpt2	"""I don't know,"" sighed Natalie."	""""	"""Five,"	""""	0.8398808836936951	1.4808449745178223	1.4166235814627726e-05	0.6787154078483582	5
+317	upintheair_transcript	transcript	gpt2	"don't know,"" sighed Natalie. ""Five,"	ten	ten	six	3.2784175872802734	3.5544185638427734	1.0234239198325668e-05	0.3575870394706726	5
+318	upintheair_transcript	transcript	gpt2	"know,"" sighed Natalie. ""Five, ten"	min	"minutes?"""	,	3.2621984481811523	3.249018907546997	1.3493901178662782e-06	0.4073529541492462	5
+319	upintheair_transcript	transcript	gpt2	"sighed Natalie. ""Five, ten minutes?"""	""""	"""Thirty-five"	"
+"	4.0462188720703125	2.8728606700897217	0.001587916282005608	0.479625403881073	5
+320	upintheair_transcript	transcript	gpt2	"Natalie. ""Five, ten minutes?"" ""Thirty-five"	min	minutes	minutes	1.6088327169418335	2.5106005668640137	1.6398313164245337e-05	0.40454137325286865	5
+321	upintheair_transcript	transcript	gpt2	"""Five, ten minutes?"" ""Thirty-five minutes"	a	a	"?"""	0.7281488180160522	2.5788135528564453	5.313063866196899e-06	0.31881004571914673	5
+322	upintheair_transcript	transcript	gpt2	"ten minutes?"" ""Thirty-five minutes a"	flight	"flight."""	day	6.559114456176758	2.6410887241363525	1.1704394182743272e-06	0.5365612506866455	5
+323	upintheair_transcript	transcript	gpt2	"minutes?"" ""Thirty-five minutes a flight."""	""""	"""I"	""""	2.0727157592773438	3.4244110584259033	0.0004909387789666653	0.41242802143096924	5
+324	upintheair_transcript	transcript	gpt2	"""Thirty-five minutes a flight."" ""I"	travel	travel	'm	2.442049026489258	4.148640155792236	1.3874311832751118e-07	0.15755924582481384	5
+325	upintheair_transcript	transcript	gpt2	"minutes a flight."" ""I travel"	two	two-hundred-seventy	to	9.462512016296387	4.815940856933594	7.716496241982895e-08	0.07578767091035843	5
+326	upintheair_transcript	transcript	gpt2	"a flight."" ""I travel two-hundred-seventy"	days	days	-	0.4959034323692322	2.2388460636138916	2.5464991267654113e-05	0.6101712584495544	5
+327	upintheair_transcript	transcript	gpt2	"flight."" ""I travel two-hundred-seventy days"	a	a	a	6.320717811584473	2.828542709350586	1.9423236153670587e-05	0.44677942991256714	5
+328	upintheair_transcript	transcript	gpt2	"""I travel two-hundred-seventy days a"	year	"year."""	year	0.41244322061538696	0.22576242685317993	0.00047271413495764136	0.9571640491485596	5
+329	upintheair_transcript	transcript	gpt2	"travel two-hundred-seventy days a year."""	""""	"""That's"	"
+"	3.603280782699585	3.806605815887451	0.00031270831823349	0.47038334608078003	5
+330	upintheair_transcript	transcript	gpt2	"two-hundred-seventy days a year."" ""That's"	one	one-hundred-fifty-seven	a	0.518125057220459	5.186942100524902	5.005267667002045e-07	0.10550560802221298	5
+331	upintheair_transcript	transcript	gpt2	"days a year."" ""That's one-hundred-fifty-seven"	hours	"hours."""	percent	2.3848366737365723	4.110298156738281	1.918471497219798e-07	0.3100886046886444	5
+332	upintheair_transcript	transcript	gpt2	"a year."" ""That's one-hundred-fifty-seven hours."""	""""	"""That"	""""	2.3181941509246826	3.22813081741333	0.000949196342844516	0.49484577775001526	5
+333	upintheair_transcript	transcript	gpt2	"year."" ""That's one-hundred-fifty-seven hours."" ""That"	makes	makes	's	2.2914693355560303	1.2599660158157349	1.1146671141659681e-07	0.8354043364524841	5
+334	upintheair_transcript	transcript	gpt2	"""That's one-hundred-fifty-seven hours."" ""That makes"	seven	seven	you	5.775395393371582	3.9086577892303467	3.3491164685983676e-07	0.16655193269252777	5
+335	upintheair_transcript	transcript	gpt2	"one-hundred-fifty-seven hours."" ""That makes seven"	days	"days."""	hours	5.609078884124756	5.2910380363464355	5.5838634580140933e-05	0.14538761973381042	5
+336	upintheair_transcript	transcript	gpt2	"hours."" ""That makes seven days."""	""""	"""You're"	""""	2.658111095428467	3.6351356506347656	0.0005520235863514245	0.48298537731170654	5
+337	upintheair_transcript	transcript	gpt2	"""That makes seven days."" ""You're"	w	willing	not	1.7903341054916382	5.264498710632324	3.247026256758545e-07	0.11259619146585464	5
+338	upintheair_transcript	transcript	gpt2	"makes seven days."" ""You're willing"	to	to	to	7.253983497619629	0.580072283744812	2.853613841580227e-05	0.9115121364593506	5
+339	upintheair_transcript	transcript	gpt2	"seven days."" ""You're willing to"	throw	throw	do	0.08649320155382156	4.990194797515869	7.632380949473827e-09	0.06844178587198257	5
+340	upintheair_transcript	transcript	gpt2	"days."" ""You're willing to throw"	away	away	your	5.872376441955566	4.472147464752197	6.295816274359822e-05	0.08518008142709732	5
+341	upintheair_transcript	transcript	gpt2	"""You're willing to throw away"	an	an	your	3.110827684402466	3.8629069328308105	7.839982885116115e-08	0.2711161971092224	5
+342	upintheair_transcript	transcript	gpt2	willing to throw away an	ent	entire	entire	4.760164737701416	5.96873664855957	1.2039282637488213e-06	0.10439488291740417	5
+343	upintheair_transcript	transcript	gpt2	to throw away an entire	week	"week?"""	season	2.545544385910034	6.874234676361084	4.858143256569747e-07	0.03602831810712814	5
+344	upintheair_transcript	transcript	gpt2	"throw away an entire week?"""	N	Natalie	"
+"	5.935945987701416	4.039885520935059	2.1789031961816363e-05	0.44870254397392273	5
+345	upintheair_transcript	transcript	gpt2	"away an entire week?"" Natalie"	p	pursed	asked	10.856222152709961	4.752092361450195	2.1482358079083497e-06	0.30623531341552734	5
+346	upintheair_transcript	transcript	gpt2	"an entire week?"" Natalie pursed"	her	her	her	0.0740135982632637	0.4748719036579132	9.543207397655351e-07	0.9345025420188904	5
+347	upintheair_transcript	transcript	gpt2	"entire week?"" Natalie pursed her"	l	lips,	lips	0.07649175077676773	0.1948479413986206	7.328932838390756e-08	0.9700000286102295	5
+348	upintheair_transcript	transcript	gpt2	"week?"" Natalie pursed her lips,"	but	but	""""	1.6182076930999756	5.759061336517334	9.980703907785937e-07	0.09375777840614319	5
+349	upintheair_transcript	transcript	gpt2	Natalie pursed her lips, but	then	then	she	3.289604902267456	5.301823616027832	9.354575354336703e-07	0.15130066871643066	5
+350	upintheair_transcript	transcript	gpt2	pursed her lips, but then	turned	turned	she	4.295684814453125	4.8917131423950195	3.663379288809665e-07	0.29993394017219543	5
+351	upintheair_transcript	transcript	gpt2	her lips, but then turned	and	and	her	5.524069309234619	3.313903331756592	7.611442356392217e-07	0.17389410734176636	5
+352	upintheair_transcript	transcript	gpt2	lips, but then turned and	walk	walked	walked	3.5747389793395996	5.374272346496582	5.076240086054895e-07	0.08524473011493683	5
+353	upintheair_transcript	transcript	gpt2	but then turned and walked	into	into	away	2.371171236038208	3.2645161151885986	3.6330345665192e-07	0.20846118032932281	5
+354	upintheair_transcript	transcript	gpt2	then turned and walked into	the	the	the	3.1080005168914795	2.403507947921753	5.0304693104408216e-06	0.5867268443107605	5
+355	upintheair_transcript	transcript	gpt2	turned and walked into the	l	luggage	room	0.6951113939285278	6.706295013427734	1.1593828048717114e-06	0.06949812918901443	5
+356	upintheair_transcript	transcript	gpt2	and walked into the luggage	store	store.	compartment	10.239734649658203	4.742708683013916	1.543455437058583e-05	0.09758488833904266	5
+357	upintheair_transcript	transcript	gpt2	walked into the luggage store.	Soon	Soon	"
+"	1.9457629919052124	4.473853588104248	4.775395609613042e-06	0.2680590748786926	5
+358	upintheair_transcript	transcript	gpt2	into the luggage store. Soon	they	they	after	7.74017858505249	3.501755952835083	2.9920779525127728e-06	0.25578510761260986	5
+359	upintheair_transcript	transcript	gpt2	the luggage store. Soon they	were	were	were	3.315502643585205	3.8464934825897217	3.6550325148709817e-06	0.23645131289958954	5
+360	upintheair_transcript	transcript	gpt2	luggage store. Soon they were	walking	walking	all	1.7342936992645264	6.400987148284912	3.0760023861375885e-08	0.060781609266996384	5
+361	upintheair_transcript	transcript	gpt2	store. Soon they were walking	down	down	down	6.3231587409973145	3.9430418014526367	4.963296760251978e-07	0.11903952807188034	5
+362	upintheair_transcript	transcript	gpt2	Soon they were walking down	the	the	the	2.10850191116333	2.4910457134246826	2.197178764618002e-05	0.5912896990776062	5
+363	upintheair_transcript	transcript	gpt2	they were walking down the	ais	aisle	street	0.4295571446418762	2.9107933044433594	4.223428273775198e-09	0.5461667776107788	5
+364	upintheair_transcript	transcript	gpt2	were walking down the aisle	of	of	,	3.2464590072631836	3.9278807640075684	9.201784223478171e-07	0.13850221037864685	5
+365	upintheair_transcript	transcript	gpt2	walking down the aisle of	the	the	the	2.7765722274780273	4.199148178100586	6.911822310939897e-06	0.3057846128940582	5
+366	upintheair_transcript	transcript	gpt2	down the aisle of the	plane	plane,	House	1.2828344106674194	7.630555629730225	3.268900741204561e-07	0.027544932439923286	5
+367	upintheair_transcript	transcript	gpt2	the aisle of the plane,	N	Natalie	and	1.8306553363800049	6.211843013763428	7.088467555149691e-07	0.11213308572769165	5
+368	upintheair_transcript	transcript	gpt2	aisle of the plane, Natalie	carry	carrying	,	11.254411697387695	7.548666000366211	3.383503477394356e-09	0.024125702679157257	5
+369	upintheair_transcript	transcript	gpt2	of the plane, Natalie carrying	both	both	the	11.626519203186035	4.5806450843811035	2.1581314513241523e-08	0.17425285279750824	5
+370	upintheair_transcript	transcript	gpt2	the plane, Natalie carrying both	her	her	her	6.217569351196289	5.49454402923584	4.221741164656123e-06	0.21399284899234772	5
+371	upintheair_transcript	transcript	gpt2	plane, Natalie carrying both her	du	duffel	and	1.8778235912322998	6.814896583557129	2.8306996568971954e-07	0.05476703494787216	5
+372	upintheair_transcript	transcript	gpt2	Natalie carrying both her duffel	bag	bag	bag	0.013089563697576523	0.7885915637016296	0.007795293815433979	0.829292893409729	5
+373	upintheair_transcript	transcript	gpt2	carrying both her duffel bag	and	and	and	0.40399545431137085	1.0238083600997925	0.00010437092714710161	0.859398603439331	5
+374	upintheair_transcript	transcript	gpt2	both her duffel bag and	a	a	her	0.9268260598182678	5.167524814605713	1.1052010449930094e-05	0.21952107548713684	5
+375	upintheair_transcript	transcript	gpt2	her duffel bag and a	new	new	pair	2.1601595878601074	7.267308712005615	1.5025864286144497e-07	0.033166829496622086	5
+376	upintheair_transcript	transcript	gpt2	duffel bag and a new	comp	compact	bag	5.741000175476074	8.039742469787598	3.0305508857964014e-07	0.020143793895840645	5
+377	upintheair_transcript	transcript	gpt2	bag and a new compact	carry	carry-on	.	8.778411865234375	6.953125953674316	3.869413092161267e-07	0.03433995693922043	5
+378	upintheair_transcript	transcript	gpt2	and a new compact carry-on	that	that	.	0.04830567166209221	5.522665023803711	2.3002223770163255e-06	0.093326635658741	5
+379	upintheair_transcript	transcript	gpt2	a new compact carry-on that	matched	matched	is	3.184478759765625	5.212159156799316	1.769770641146806e-08	0.08215890824794769	5
+380	upintheair_transcript	transcript	gpt2	new compact carry-on that matched	Ryan	Ryan's.	the	8.274408340454102	3.5173139572143555	2.292462930597594e-08	0.4249975383281708	5
+381	upintheair_transcript	transcript	gpt2	compact carry-on that matched Ryan's.	Ryan	Ryan	"
+"	3.337146759033203	4.165121078491211	4.4092710595577955e-05	0.31858596205711365	5
+382	upintheair_transcript	transcript	gpt2	carry-on that matched Ryan's. Ryan	hel	helped	's	4.473268508911133	5.1594462394714355	1.1441928648991961e-07	0.12763360142707825	5
+383	upintheair_transcript	transcript	gpt2	that matched Ryan's. Ryan helped	load	load	the	7.642032623291016	6.501742362976074	1.249935849045869e-06	0.08009456843137741	5
+384	upintheair_transcript	transcript	gpt2	matched Ryan's. Ryan helped load	the	the	the	7.689199447631836	3.0954155921936035	2.9600400921481196e-06	0.35529038310050964	5
+385	upintheair_transcript	transcript	gpt2	Ryan's. Ryan helped load the	carry	carry-on	team	1.000471591949463	7.013800144195557	3.928386860252431e-08	0.05621464177966118	5
+386	upintheair_transcript	transcript	gpt2	Ryan helped load the carry-on	into	into	bag	0.7211953997612	4.297093391418457	1.4053649977086025e-07	0.2731854319572449	5
+387	upintheair_transcript	transcript	gpt2	helped load the carry-on into	the	the	the	4.500150203704834	3.5250492095947266	4.530908881861251e-06	0.47975412011146545	5
+388	upintheair_transcript	transcript	gpt2	load the carry-on into the	over	overhead	back	0.9731436371803284	7.068539619445801	1.3272595822400035e-07	0.045330461114645004	5
+389	upintheair_transcript	transcript	gpt2	the carry-on into the overhead	comp	compartment	bins	10.485114097595215	6.20319938659668	2.8067194079994806e-07	0.05836235359311104	5
+390	upintheair_transcript	transcript	gpt2	carry-on into the overhead compartment	while	while	.	5.992458343505859	3.3646838665008545	1.735939122227137e-06	0.21204820275306702	5
+391	upintheair_transcript	transcript	gpt2	into the overhead compartment while	she	she	the	5.40989875793457	6.138133525848389	8.90699880073953e-07	0.12211897224187851	5
+392	upintheair_transcript	transcript	gpt2	the overhead compartment while she	started	started	was	3.8701541423797607	5.181589126586914	4.249474994111324e-09	0.23846952617168427	5
+393	upintheair_transcript	transcript	gpt2	overhead compartment while she started	to	to	to	7.054870128631592	4.91150426864624	1.1594373972911853e-05	0.29844099283218384	5
+394	upintheair_transcript	transcript	gpt2	compartment while she started to	un	unpack	cry	1.4689557552337646	6.258195877075195	2.3787046643519716e-07	0.05058816075325012	5
+395	upintheair_transcript	transcript	gpt2	while she started to unpack	items	items	her	2.9766197204589844	3.552243947982788	1.4427386929583008e-07	0.23957102000713348	5
+396	upintheair_transcript	transcript	gpt2	she started to unpack items	from	from	and	8.28844165802002	3.6082162857055664	1.8987748262588866e-06	0.12970255315303802	5
+397	upintheair_transcript	transcript	gpt2	started to unpack items from	her	her	the	1.941003441810608	4.716969013214111	3.862007815769175e-06	0.3094010651111603	5
+398	upintheair_transcript	transcript	gpt2	to unpack items from her	du	duffel	inventory	5.412557125091553	5.955373764038086	3.929140746095072e-08	0.12154924124479294	5
+399	upintheair_transcript	transcript	gpt2	unpack items from her duffel	bag	bag	bag	0.06745301187038422	1.066586971282959	0.018789712339639664	0.8345656991004944	5
+400	upintheair_transcript	transcript	gpt2	items from her duffel bag	onto	onto	.	0.17137330770492554	4.420365333557129	2.4951685873020324e-07	0.25357651710510254	5
+401	upintheair_transcript	transcript	gpt2	from her duffel bag onto	the	the	the	7.765969276428223	2.5293214321136475	7.852964699850418e-06	0.4479345679283142	5
+402	upintheair_transcript	transcript	gpt2	her duffel bag onto the	seat	seat.	floor	0.8451968431472778	6.164892196655273	3.6780562595595256e-07	0.11268939077854156	5
+403	upintheair_transcript	transcript	gpt2	duffel bag onto the seat.	Ryan	Ryan	"
+"	1.3636828660964966	5.111069679260254	1.0117828423972242e-06	0.22552239894866943	5
+404	upintheair_transcript	transcript	gpt2	bag onto the seat. Ryan	look	looked	then	9.414813995361328	6.270402431488037	4.275656010577222e-06	0.0802605077624321	5
+405	upintheair_transcript	transcript	gpt2	onto the seat. Ryan looked	over	over	at	5.1382904052734375	3.9877281188964844	1.520822792144827e-07	0.2140738070011139	5
+406	upintheair_transcript	transcript	gpt2	the seat. Ryan looked over	in	in	at	3.148073673248291	2.544968605041504	8.92922980710864e-06	0.37726569175720215	5
+407	upintheair_transcript	transcript	gpt2	seat. Ryan looked over in	conf	confusion.	his	5.036871910095215	4.474545001983643	4.116073739623971e-07	0.1650044322013855	5
+408	upintheair_transcript	transcript	gpt2	Ryan looked over in confusion.	""""	"""Two"	""""	1.5040357112884521	3.376699209213257	2.0674844563473016e-05	0.30553171038627625	5
+409	upintheair_transcript	transcript	gpt2	"looked over in confusion. ""Two"	neck	neck	of	7.527291297912598	6.829017639160156	2.411321133877209e-07	0.056801922619342804	5
+410	upintheair_transcript	transcript	gpt2	"over in confusion. ""Two neck"	pill	"pillows?"""	ties	10.87409782409668	5.940500736236572	1.506201624579262e-05	0.12142280489206314	5
+411	upintheair_transcript	transcript	gpt2	"in confusion. ""Two neck pillows?"""	""""	"""You"	"
+"	4.080921173095703	4.278963088989258	0.001311552245169878	0.2539956271648407	5
+412	upintheair_transcript	transcript	gpt2	"confusion. ""Two neck pillows?"" ""You"	real	realize	're	3.713099956512451	4.543298721313477	4.149938170883161e-09	0.16732320189476013	5
+413	upintheair_transcript	transcript	gpt2	"""Two neck pillows?"" ""You realize"	that	that	that	8.758971214294434	3.4394149780273438	6.030059012118727e-06	0.21096211671829224	5
+414	upintheair_transcript	transcript	gpt2	"neck pillows?"" ""You realize that"	we	we're	you	1.3544328212738037	5.447021961212158	1.0892748747437508e-07	0.08135692030191422	5
+415	upintheair_transcript	transcript	gpt2	"pillows?"" ""You realize that we're"	in	in	not	1.2560824155807495	5.48077917098999	1.314982455369318e-06	0.12664198875427246	5
+416	upintheair_transcript	transcript	gpt2	"""You realize that we're in"	business	business	a	3.1227059364318848	3.416487455368042	3.1917602427711245e-07	0.3337095379829407	5
+417	upintheair_transcript	transcript	gpt2	realize that we're in business	class	class	to	5.7270636558532715	3.508859395980835	1.9635922399174888e-06	0.13048730790615082	5
+418	upintheair_transcript	transcript	gpt2	that we're in business class	and	and	,	7.631371021270752	4.539575099945068	1.2387221431708895e-05	0.147874116897583	5
+419	upintheair_transcript	transcript	gpt2	we're in business class and	they	they	we	2.727518081665039	4.985829830169678	4.921873255625542e-07	0.2087033987045288	5
+420	upintheair_transcript	transcript	gpt2	in business class and they	will	will	're	5.149168968200684	5.060952663421631	4.6693838839928503e-07	0.1024627760052681	5
+421	upintheair_transcript	transcript	gpt2	business class and they will	give	give	be	3.3835041522979736	5.358890056610107	6.94691593139396e-08	0.1269681304693222	5
+422	upintheair_transcript	transcript	gpt2	class and they will give	you	you	you	5.082643508911133	3.069162607192993	1.739780964271631e-05	0.5468654036521912	5
+423	upintheair_transcript	transcript	gpt2	and they will give you	a	a	a	0.6023892760276794	5.173140048980713	6.452331945183687e-06	0.19719956815242767	5
+424	upintheair_transcript	transcript	gpt2	they will give you a	neck	neck	chance	1.6467665433883667	6.949460983276367	2.442847346628696e-08	0.036993347108364105	5
+425	upintheair_transcript	transcript	gpt2	will give you a neck	pill	pillow,	brace	10.176010131835938	5.78273868560791	1.1122466503366013e-06	0.0654044821858406	5
+426	upintheair_transcript	transcript	gpt2	give you a neck pillow,	right	"right?"""	but	1.8353424072265625	5.743185520172119	5.692151034963899e-07	0.06720353662967682	5
+427	upintheair_transcript	transcript	gpt2	"you a neck pillow, right?"""	N	Natalie	"
+"	0.5546590089797974	4.174099445343018	1.4926006770110689e-05	0.41769230365753174	5
+428	upintheair_transcript	transcript	gpt2	"a neck pillow, right?"" Natalie"	grim	grimaced	asked	10.208078384399414	4.733154773712158	1.4361557276743042e-08	0.29763534665107727	5
+429	upintheair_transcript	transcript	gpt2	"neck pillow, right?"" Natalie grimaced"	back	back	.	0.06663564592599869	2.328350067138672	5.508162104206349e-08	0.4518703520298004	5
+430	upintheair_transcript	transcript	gpt2	"pillow, right?"" Natalie grimaced back"	at	at	.	6.713789463043213	2.7037975788116455	5.00419810123276e-06	0.25645050406455994	5
+431	upintheair_transcript	transcript	gpt2	"right?"" Natalie grimaced back at"	him	him.	the	1.5713021755218506	4.210970401763916	3.342922809679294e-06	0.18689657747745514	5
+432	upintheair_transcript	transcript	gpt2	Natalie grimaced back at him.	""""	"""I"	""""	1.0168912410736084	2.446812868118286	1.2652615623665042e-05	0.5175213813781738	5
+433	upintheair_transcript	transcript	gpt2	"grimaced back at him. ""I"	like	like	'm	2.0618135929107666	4.0495476722717285	5.900042765460967e-07	0.19959256052970886	5
+434	upintheair_transcript	transcript	gpt2	"back at him. ""I like"	my	my	him	5.383495330810547	4.480066299438477	2.740144111612608e-07	0.15134753286838531	5
+435	upintheair_transcript	transcript	gpt2	"at him. ""I like my"	own	own	job	4.025012016296387	7.022559642791748	1.0126341294380836e-06	0.04895801097154617	5
+436	upintheair_transcript	transcript	gpt2	"him. ""I like my own"	stuff	"stuff."""	body	4.343606948852539	7.036919116973877	3.053783927953191e-07	0.04443766176700592	5
+437	upintheair_transcript	transcript	gpt2	"""I like my own stuff."""	""""	"""Don't"	"
+"	2.470208168029785	3.1550920009613037	0.00018330937018617988	0.5512655377388	5
+438	upintheair_transcript	transcript	gpt2	"like my own stuff."" ""Don't"	you	you	you	0.004969625733792782	4.456966876983643	1.1300181540718768e-05	0.13301900029182434	5
+439	upintheair_transcript	transcript	gpt2	"my own stuff."" ""Don't you"	like	like	think	2.0163681507110596	3.7559282779693604	1.3176215816201875e-06	0.222624734044075	5
+440	upintheair_transcript	transcript	gpt2	"own stuff."" ""Don't you like"	fe	feeling	the	3.756653308868408	5.686853885650635	2.722741783145466e-07	0.10258430987596512	5
+441	upintheair_transcript	transcript	gpt2	"stuff."" ""Don't you like feeling"	connected	connected	like	6.588517665863037	5.6469221115112305	1.2623112333187692e-08	0.07127208262681961	5
+442	upintheair_transcript	transcript	gpt2	"""Don't you like feeling connected"	to	to	to	6.6358771324157715	1.877435564994812	9.437173503101803e-06	0.5684022307395935	5
+443	upintheair_transcript	transcript	gpt2	you like feeling connected to	home	"home?"""	the	0.5518766045570374	4.29002046585083	5.7965209521171346e-08	0.17187504470348358	5
+444	upintheair_transcript	transcript	gpt2	"like feeling connected to home?"""	Ryan	Ryan	"
+"	6.505092144012451	3.8396549224853516	1.2063347867297125e-06	0.4716850817203522	5
+445	upintheair_transcript	transcript	gpt2	"feeling connected to home?"" Ryan"	l	laughed.	said	8.34564208984375	5.158601760864258	1.7267691873712465e-05	0.17706239223480225	5
+446	upintheair_transcript	transcript	gpt2	"connected to home?"" Ryan laughed."	""""	"""This"	""""	0.3928128778934479	1.6692068576812744	4.014017031295225e-05	0.570488452911377	5
+447	upintheair_transcript	transcript	gpt2	"to home?"" Ryan laughed. ""This"	is	is	is	4.864465713500977	3.4752187728881836	1.895806781249121e-05	0.4990796148777008	5
+448	upintheair_transcript	transcript	gpt2	"home?"" Ryan laughed. ""This is"	where	where	the	0.7411727905273438	5.051273345947266	5.379942194849718e-06	0.11667460203170776	5
+449	upintheair_transcript	transcript	gpt2	"Ryan laughed. ""This is where"	I	I	I	4.435886383056641	3.6019980907440186	1.669698758632876e-05	0.21510343253612518	5
+450	upintheair_transcript	transcript	gpt2	"laughed. ""This is where I"	live	"live."""	'm	1.750999927520752	4.679466247558594	1.5506591921621293e-07	0.13001534342765808	5
+451	upintheair_transcript	transcript	gpt2	"""This is where I live."""	""""	"""All"	"
+"	2.8006978034973145	3.193598508834839	0.00020111334742978215	0.5447829365730286	5
+452	upintheair_transcript	transcript	gpt2	"is where I live."" ""All"	the	the	right	5.634715557098389	2.8896267414093018	3.029959407285787e-05	0.5473765134811401	5
+453	upintheair_transcript	transcript	gpt2	"where I live."" ""All the"	things	things	time	2.9314444065093994	6.6178131103515625	4.143871774431318e-05	0.11763767153024673	5
+454	upintheair_transcript	transcript	gpt2	"I live."" ""All the things"	you	you	I	3.972564697265625	3.03132963180542	5.838546258019051e-06	0.2802986204624176	5
+455	upintheair_transcript	transcript	gpt2	"live."" ""All the things you"	probably	probably	've	2.0064144134521484	4.432185173034668	2.2038197045048946e-08	0.09106286615133286	5
+456	upintheair_transcript	transcript	gpt2	"""All the things you probably"	hate	hate	don	6.585294723510742	3.96187424659729	2.499418449986024e-08	0.13510841131210327	5
+457	upintheair_transcript	transcript	gpt2	the things you probably hate	about	about	about	5.151252269744873	3.685894727706909	8.282965609396342e-06	0.17658047378063202	5
+458	upintheair_transcript	transcript	gpt2	things you probably hate about	travel	traveling	the	2.1066362857818604	6.2776198387146	1.728139231715886e-08	0.12125162035226822	5
+459	upintheair_transcript	transcript	gpt2	you probably hate about traveling	–	–	,	9.729107856750488	3.860222101211548	0.0001593472552485764	0.15663008391857147	5
+460	upintheair_transcript	transcript	gpt2	probably hate about traveling –	the	the	but	6.801358222961426	5.085474014282227	9.551022958476096e-05	0.10783223062753677	5
+461	upintheair_transcript	transcript	gpt2	hate about traveling – the	re	recycled	idea	3.6117992401123047	7.858187675476074	4.7659611368544574e-07	0.018353518098592758	5
+462	upintheair_transcript	transcript	gpt2	about traveling – the recycled	air	air,	,	12.317831039428711	7.307367324829102	2.0608486295259354e-07	0.03221945837140083	5
+463	upintheair_transcript	transcript	gpt2	traveling – the recycled air,	the	the	the	2.5840630531311035	4.633800506591797	4.738306597573683e-05	0.4345138669013977	5
+464	upintheair_transcript	transcript	gpt2	– the recycled air, the	art	artificial	water	1.37282395362854	7.998361587524414	1.5156041754949e-08	0.02058483473956585	5
+465	upintheair_transcript	transcript	gpt2	the recycled air, the artificial	lighting	lighting	air	7.543539047241211	6.6967878341674805	5.975420691584077e-08	0.0980377048254013	5
+466	upintheair_transcript	transcript	gpt2	recycled air, the artificial lighting	–	–	system	6.919833183288574	4.993014335632324	6.24227977823466e-05	0.12725600600242615	5
+467	upintheair_transcript	transcript	gpt2	air, the artificial lighting –	are	are	and	7.694949150085449	6.2147111892700195	5.141668225405738e-06	0.0894898995757103	5
+468	upintheair_transcript	transcript	gpt2	the artificial lighting – are	warm	warm	not	5.948324203491211	6.469933032989502	1.6460187879374644e-08	0.0588807575404644	5
+469	upintheair_transcript	transcript	gpt2	artificial lighting – are warm	rem	reminders	and	9.692630767822266	3.3757858276367188	5.012742221310873e-08	0.3697601854801178	5
+470	upintheair_transcript	transcript	gpt2	lighting – are warm reminders	that	that	of	10.434715270996094	1.9061352014541626	4.078108304383932e-06	0.4782431125640869	5
+471	upintheair_transcript	transcript	gpt2	– are warm reminders that	I	I	the	1.3145911693572998	5.225311756134033	1.285081111745967e-06	0.16951438784599304	5
+472	upintheair_transcript	transcript	gpt2	are warm reminders that I	am	am	'm	3.9965028762817383	3.9545180797576904	2.0306486021581804e-06	0.18799903988838196	5
+473	upintheair_transcript	transcript	gpt2	warm reminders that I am	home	"home."""	not	2.0022828578948975	4.869572639465332	6.38810604414175e-08	0.1848183423280716	5

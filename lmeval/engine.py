@@ -7,7 +7,7 @@ from scipy.stats import entropy
 
 
 COLUMNS = ['dataset', 'type', 'model', 'context', 'target', 
-           'top_predicted', 'loss', 'entropy', 
+           'orig_wd', 'top_predicted', 'loss', 'entropy', 
            'prob_true', 'prob_predicted', 'context_size']
 
 
@@ -26,7 +26,7 @@ class StridingForwardLM:
         split_tks = [tokenizer(' '.join(whitespaced[i_s:i_e]), 
                                return_tensors='pt')['input_ids']
                      for i_s, i_e in zip(i_start,i_end)]
-        targets = [whitespaced[i_e] for i in i_end]
+        targets = [whitespaced[i_e] for i_e in i_end]
         return split_tks, targets
     
     def _preprocess(self, text, tokenizer):
@@ -34,15 +34,15 @@ class StridingForwardLM:
         tokenized_lst, targets = self._split(whitespaced, tokenizer)
         return tokenized_lst, targets
     
-    def _mask(self, list_item, tokenizer, true):
+    def _mask(self, list_item, tokenizer, true, gpu):
         input_ids = list_item.clone()
         ctx = tokenizer.decode(input_ids[0])
         target_ids = input_ids.clone()
-        target_ids[:,:] = -100
-        true_id = tokenizer.encode(true, return_tensors='pt')[:,:0] # get id for true token
-        true_token = tokenizer.decode(true_id[0,0]).strip(' ') # get true token model can predict
-        input_ids = torch.cat((input_ids, true_id), axis=-1) # append true token to the inputs
-        target_ids = torch.cat((target_ids, true_id), axis=-1) # append to labels too
+        target_ids[:,:-1] = -100
+        true_id = tokenizer.encode(true, return_tensors='pt')[:,:1].to(device=f'cuda:{str(gpu)}') # get id for true token
+        true_token = tokenizer.decode(true_id[0,0]).strip(' ')
+        # input_ids = torch.cat((input_ids, true_id), axis=-1)
+        # target_ids = torch.cat((target_ids, true_id), axis=-1)
         return input_ids, target_ids, ctx, true_token, true_id[0,0]
     
     def _compute_metrics(self, outputs, wd_id, tokenizer):
@@ -69,13 +69,14 @@ class StridingForwardLM:
         for i in tqdm(range(len(tokenized_lst))):
             input_ids, target_ids, ctx, wd, wd_id = self._mask(tokenized_lst[i].to(device=f'cuda:{str(gpu)}'), # edited
                                                                tokenizer, 
-                                                               targets[i]) # make masking
+                                                               targets[i], gpu) # make masking
             outputs = model(input_ids, labels=target_ids)
             metrics = self._compute_metrics(outputs, wd_id, tokenizer)
             results.append((dataset.name, 
                             dataset.dataset_type,
                             model_name, 
-                            ctx, wd, *metrics,
+                            ctx, wd, targets[i], 
+                            *metrics,
                             self.context_length))
         output = pd.DataFrame(results, columns=COLUMNS)
         return output

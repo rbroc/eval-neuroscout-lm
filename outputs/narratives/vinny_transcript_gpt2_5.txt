@@ -1,0 +1,511 @@
+	dataset	type	model	context	target	orig_wd	top_predicted	loss	entropy	prob_true	prob_predicted	context_size
+0	vinny_transcript	transcript	gpt2	Vinny and Mona stumbled bleary-eyed	into	into	into	0.0004543225804809481	3.6841139793395996	4.016444563603727e-06	0.12624312937259674	5
+1	vinny_transcript	transcript	gpt2	and Mona stumbled bleary-eyed into	a	a	the	2.3757829666137695	3.3099443912506104	2.0465147827053443e-05	0.34984859824180603	5
+2	vinny_transcript	transcript	gpt2	Mona stumbled bleary-eyed into a	ding	dingy-looking	corner	1.354442834854126	7.280622959136963	5.324692438080092e-07	0.048705000430345535	5
+3	vinny_transcript	transcript	gpt2	stumbled bleary-eyed into a dingy-looking	d	diner.	room	3.1021461486816406	6.219658374786377	1.0293647392245475e-06	0.13915683329105377	5
+4	vinny_transcript	transcript	gpt2	bleary-eyed into a dingy-looking diner.	The	The	"
+"	1.4321457147598267	4.748952865600586	0.0001667787437327206	0.2037992924451828	5
+5	vinny_transcript	transcript	gpt2	into a dingy-looking diner. The	place	place	restaurant	2.557466506958008	7.310942649841309	8.642380748824507e-07	0.02704235352575779	5
+6	vinny_transcript	transcript	gpt2	a dingy-looking diner. The place	was	was	is	3.681569814682007	3.008863925933838	1.0113999451277778e-05	0.43561819195747375	5
+7	vinny_transcript	transcript	gpt2	dingy-looking diner. The place was	des	deserted,	packed	1.7457337379455566	6.087548732757568	7.082052722040544e-09	0.052524641156196594	5
+8	vinny_transcript	transcript	gpt2	diner. The place was deserted,	save	save	and	1.5218768119812012	3.8757734298706055	1.059724809238105e-06	0.2975039780139923	5
+9	vinny_transcript	transcript	gpt2	The place was deserted, save	for	for	for	6.042867183685303	1.1969120502471924	3.573010326363146e-05	0.8083495497703552	5
+10	vinny_transcript	transcript	gpt2	place was deserted, save for	a	a	a	0.3295604884624481	3.9138424396514893	7.800848834449425e-06	0.27868911623954773	5
+11	vinny_transcript	transcript	gpt2	was deserted, save for a	few	few	few	1.5288594961166382	5.1505913734436035	1.1552921250768122e-06	0.3234461545944214	5
+12	vinny_transcript	transcript	gpt2	deserted, save for a few	flies	flies	small	1.2303965091705322	7.752779006958008	1.427474387583061e-07	0.03245256841182709	5
+13	vinny_transcript	transcript	gpt2	save for a few flies	l	lazily	.	11.929052352905273	3.805634021759033	5.1403763791313395e-05	0.2708400785923004	5
+14	vinny_transcript	transcript	gpt2	for a few flies lazily	c	circling	,	0.027255617082118988	6.701279640197754	5.737515493819956e-07	0.03707297518849373	5
+15	vinny_transcript	transcript	gpt2	a few flies lazily circling	around	around	the	4.266013145446777	3.844327449798584	2.0992092686356045e-06	0.2437427043914795	5
+16	vinny_transcript	transcript	gpt2	few flies lazily circling around	the	the	the	2.320037364959717	4.2355756759643555	9.752554433362093e-06	0.24793924391269684	5
+17	vinny_transcript	transcript	gpt2	flies lazily circling around the	l	lamps.	room	1.3762943744659424	7.594346046447754	1.7188563106174115e-06	0.03338257595896721	5
+18	vinny_transcript	transcript	gpt2	lazily circling around the lamps.	The	The	"
+"	1.54112708568573	4.744652271270752	0.00032239709980785847	0.21611501276493073	5
+19	vinny_transcript	transcript	gpt2	circling around the lamps. The	host	hostess,	light	2.630491256713867	8.274673461914062	1.0507609715659783e-07	0.013014509342610836	5
+20	vinny_transcript	transcript	gpt2	around the lamps. The hostess,	who	who	who	2.958327054977417	5.908560276031494	3.301857941551134e-05	0.2009400874376297	5
+21	vinny_transcript	transcript	gpt2	the lamps. The hostess, who	was	was	was	1.7784255743026733	4.499287128448486	2.2019155494490406e-06	0.21679078042507172	5
+22	vinny_transcript	transcript	gpt2	lamps. The hostess, who was	l	loudly	also	1.9285225868225098	6.467852592468262	2.8267896823308547e-07	0.04640499874949455	5
+23	vinny_transcript	transcript	gpt2	The hostess, who was loudly	che	chewing	boo	9.303091049194336	5.586998462677002	4.377849549541679e-08	0.12065830081701279	5
+24	vinny_transcript	transcript	gpt2	hostess, who was loudly chewing	a	a	on	8.235533714294434	3.2516958713531494	2.2073368199926335e-06	0.4518490731716156	5
+25	vinny_transcript	transcript	gpt2	who was loudly chewing a	w	wad	cigarette	3.4922163486480713	6.496238708496094	2.3392994989990257e-06	0.08870165795087814	5
+26	vinny_transcript	transcript	gpt2	was loudly chewing a wad	of	of	of	0.5443091988563538	0.7457268238067627	3.457300772424787e-05	0.9096534848213196	5
+27	vinny_transcript	transcript	gpt2	loudly chewing a wad of	g	gum,	gum	0.09345445036888123	7.129865646362305	7.706188398515224e-07	0.021455030888319016	5
+28	vinny_transcript	transcript	gpt2	chewing a wad of gum,	point	pointed	and	2.162787675857544	6.293938636779785	5.867974550710642e-07	0.12079483270645142	5
+29	vinny_transcript	transcript	gpt2	a wad of gum, pointed	t	toward	at	9.162315368652344	3.6568329334259033	3.83990573027404e-06	0.38871800899505615	5
+30	vinny_transcript	transcript	gpt2	wad of gum, pointed toward	the	the	the	5.213084697723389	4.380257606506348	1.2593679457495455e-05	0.3795856833457947	5
+31	vinny_transcript	transcript	gpt2	of gum, pointed toward the	counter	counter.	ground	0.8812944293022156	7.640439987182617	8.802845741229248e-08	0.016930406913161278	5
+32	vinny_transcript	transcript	gpt2	gum, pointed toward the counter.	""""	"""There's"	"
+"	1.6673322916030884	3.8196213245391846	6.743567792000249e-05	0.29723092913627625	5
+33	vinny_transcript	transcript	gpt2	"pointed toward the counter. ""There's"	se	seats	a	1.0236122608184814	3.694993495941162	8.038926324616114e-08	0.24150490760803223	5
+34	vinny_transcript	transcript	gpt2	"toward the counter. ""There's seats"	at	at	for	12.711642265319824	4.018909931182861	6.760172936992603e-07	0.14915691316127777	5
+35	vinny_transcript	transcript	gpt2	"the counter. ""There's seats at"	the	the	the	3.630986213684082	4.6460280418396	3.0196465559129138e-06	0.387410432100296	5
+36	vinny_transcript	transcript	gpt2	"counter. ""There's seats at the"	counter	counter	end	1.029106616973877	6.273829936981201	1.192810401562383e-07	0.07045762240886688	5
+37	vinny_transcript	transcript	gpt2	"""There's seats at the counter"	if	if	,	5.616466522216797	3.554717779159546	5.703653187083546e-06	0.22161979973316193	5
+38	vinny_transcript	transcript	gpt2	seats at the counter if	you	you	you	7.251384735107422	3.340322732925415	1.268007508770097e-05	0.3523167073726654	5
+39	vinny_transcript	transcript	gpt2	at the counter if you	want	want	're	1.0419851541519165	3.9853515625	2.5833371637418168e-06	0.179494708776474	5
+40	vinny_transcript	transcript	gpt2	the counter if you want	break	"breakfast."""	to	1.9561059474945068	2.841120719909668	2.9338343665585853e-07	0.5268528461456299	5
+41	vinny_transcript	transcript	gpt2	"counter if you want breakfast."""	""""	"""Thanks,"""	"
+"	4.37687873840332	3.2999324798583984	0.0006134005961939692	0.5503678917884827	5
+42	vinny_transcript	transcript	gpt2	"if you want breakfast."" ""Thanks,"""	said	said	said	1.9038095474243164	4.877961158752441	0.00015460197755601257	0.23490269482135773	5
+43	vinny_transcript	transcript	gpt2	"you want breakfast."" ""Thanks,"" said"	V	Vinny	the	1.4509081840515137	6.648935794830322	1.8061530226987088e-07	0.11023066192865372	5
+44	vinny_transcript	transcript	gpt2	"want breakfast."" ""Thanks,"" said Vinny"	and	and	.	0.9651992321014404	2.361619710922241	4.8231745495286305e-06	0.4891577959060669	5
+45	vinny_transcript	transcript	gpt2	"breakfast."" ""Thanks,"" said Vinny and"	they	they	he	5.1207756996154785	6.977490425109863	6.173676752041501e-07	0.030204439535737038	5
+46	vinny_transcript	transcript	gpt2	"""Thanks,"" said Vinny and they"	t	took	went	5.088572025299072	5.106257438659668	1.966490799532039e-06	0.07249445468187332	5
+47	vinny_transcript	transcript	gpt2	said Vinny and they took	their	their	him	4.826812267303467	4.258329391479492	1.0905438330155448e-07	0.13294145464897156	5
+48	vinny_transcript	transcript	gpt2	Vinny and they took their	se	seats	time	3.534306764602661	6.877002239227295	2.93459407885166e-08	0.04973338916897774	5
+49	vinny_transcript	transcript	gpt2	and they took their seats	with	with	in	3.8720760345458984	3.6424920558929443	2.997526564740838e-07	0.19397002458572388	5
+50	vinny_transcript	transcript	gpt2	they took their seats with	a	a	them	4.025543212890625	5.340373516082764	1.1974606195508386e-06	0.15316669642925262	5
+51	vinny_transcript	transcript	gpt2	took their seats with a	y	yawn.	smile	2.1998417377471924	6.966638565063477	1.0273714678987744e-06	0.024486474692821503	5
+52	vinny_transcript	transcript	gpt2	their seats with a yawn.	A	A	"
+"	1.425608515739441	4.507161617279053	9.103575575863943e-05	0.2864835262298584	5
+53	vinny_transcript	transcript	gpt2	seats with a yawn. A	cook	cook	few	4.5085296630859375	7.501792907714844	1.0358374424868089e-07	0.05842277780175209	5
+54	vinny_transcript	transcript	gpt2	with a yawn. A cook	w	wearing	's	10.168471336364746	5.834587097167969	0.00011095293302787468	0.09265211224555969	5
+55	vinny_transcript	transcript	gpt2	a yawn. A cook wearing	a	a	a	8.337401390075684	3.3867194652557373	1.3596166354545858e-05	0.5391036868095398	5
+56	vinny_transcript	transcript	gpt2	yawn. A cook wearing a	white	white	white	0.6589165925979614	6.607098579406738	2.7250064249528805e-06	0.05637063458561897	5
+57	vinny_transcript	transcript	gpt2	A cook wearing a white	ap	apron	shirt	3.0047214031219482	5.3537068367004395	4.1097848679783056e-08	0.10603629052639008	5
+58	vinny_transcript	transcript	gpt2	cook wearing a white apron	emer	emerged	.	0.020074648782610893	3.619225263595581	8.02825006473995e-09	0.20212291181087494	5
+59	vinny_transcript	transcript	gpt2	wearing a white apron emerged	from	from	from	10.783699989318848	2.4767370223999023	8.059594620135613e-06	0.554476261138916	5
+60	vinny_transcript	transcript	gpt2	a white apron emerged from	the	the	the	0.6291378140449524	2.845871686935425	1.827111373131629e-05	0.4727475345134735	5
+61	vinny_transcript	transcript	gpt2	white apron emerged from the	back	back	back	0.7630941867828369	7.441044330596924	3.139516138617182e-06	0.03439237177371979	5
+62	vinny_transcript	transcript	gpt2	apron emerged from the back	room	room	of	5.423455238342285	3.083141565322876	0.0030727884732186794	0.5332487225532532	5
+63	vinny_transcript	transcript	gpt2	emerged from the back room	and	and	of	5.7571187019348145	3.564293622970581	9.931792192219291e-06	0.20317278802394867	5
+64	vinny_transcript	transcript	gpt2	from the back room and	sl	slapped	the	3.2465734481811523	6.714285373687744	1.2795059944892273e-07	0.06213276460766792	5
+65	vinny_transcript	transcript	gpt2	the back room and slapped	a	a	her	10.93069076538086	4.09340763092041	3.6180997540213866e-06	0.1487482488155365	5
+66	vinny_transcript	transcript	gpt2	back room and slapped a	single	single	button	2.749445915222168	7.141781806945801	9.689853897043577e-08	0.01988241635262966	5
+67	vinny_transcript	transcript	gpt2	room and slapped a single	menu	menu	-	6.705557823181152	7.402393341064453	3.409614990346199e-08	0.024569854140281677	5
+68	vinny_transcript	transcript	gpt2	and slapped a single menu	down	down	item	9.751644134521484	3.4950950145721436	3.750463292817585e-05	0.29995498061180115	5
+69	vinny_transcript	transcript	gpt2	slapped a single menu down	in	in	to	6.813229560852051	3.633777379989624	3.922608811990358e-05	0.19828413426876068	5
+70	vinny_transcript	transcript	gpt2	a single menu down in	front	front	the	4.187502861022949	4.094142913818359	3.917994490620913e-06	0.45286795496940613	5
+71	vinny_transcript	transcript	gpt2	single menu down in front	of	of	of	3.6841061115264893	0.9777784943580627	5.8575002185534686e-05	0.8599604368209839	5
+72	vinny_transcript	transcript	gpt2	menu down in front of	them	them,	you	0.08852710574865341	3.6284303665161133	1.3869718031855882e-06	0.26201558113098145	5
+73	vinny_transcript	transcript	gpt2	down in front of them,	before	before	and	1.5631295442581177	6.0084733963012695	8.608114967501024e-07	0.1515548825263977	5
+74	vinny_transcript	transcript	gpt2	in front of them, before	sil	silently	they	5.974403381347656	5.7322564125061035	4.648449092314877e-08	0.1166645959019661	5
+75	vinny_transcript	transcript	gpt2	front of them, before silently	return	returning	walking	9.429534912109375	6.5019354820251465	1.9650991589514888e-07	0.028177715837955475	5
+76	vinny_transcript	transcript	gpt2	of them, before silently returning	through	through	to	5.37135124206543	1.8359242677688599	1.538031746406432e-08	0.6970028877258301	5
+77	vinny_transcript	transcript	gpt2	them, before silently returning through	the	the	the	6.64092493057251	2.8225932121276855	0.00011894069029949605	0.6234267950057983	5
+78	vinny_transcript	transcript	gpt2	before silently returning through the	sw	swinging	door	0.8881413340568542	7.397166728973389	4.5285813143891573e-07	0.08209894597530365	5
+79	vinny_transcript	transcript	gpt2	silently returning through the swinging	doors	doors.	door	9.677044868469238	6.550266265869141	2.7089661216450622e-06	0.10469751060009003	5
+80	vinny_transcript	transcript	gpt2	returning through the swinging doors.	M	Mona	"
+"	2.089446544647217	4.9098005294799805	3.071264654863626e-05	0.23938068747520447	5
+81	vinny_transcript	transcript	gpt2	through the swinging doors. Mona	picked	picked	's	3.1602275371551514	6.68134880065918	2.191765275938451e-07	0.047025781124830246	5
+82	vinny_transcript	transcript	gpt2	the swinging doors. Mona picked	it	it	up	7.897464275360107	1.8616135120391846	7.680635576434724e-07	0.672161340713501	5
+83	vinny_transcript	transcript	gpt2	swinging doors. Mona picked it	up	up,	up	3.922470808029175	0.5960184931755066	1.250363675353583e-05	0.9142193794250488	5
+84	vinny_transcript	transcript	gpt2	doors. Mona picked it up,	and	and	and	1.8078621625900269	5.468472480773926	4.849435936193913e-05	0.22405214607715607	5
+85	vinny_transcript	transcript	gpt2	Mona picked it up, and	V	Vinny	she	1.6784483194351196	5.736706733703613	3.567071473753458e-07	0.0749717503786087	5
+86	vinny_transcript	transcript	gpt2	picked it up, and Vinny	look	looked	was	0.6407392621040344	6.8557891845703125	4.3618547351798043e-07	0.03363460302352905	5
+87	vinny_transcript	transcript	gpt2	it up, and Vinny looked	over	over	at	6.005654811859131	3.9490864276885986	2.678342525541666e-07	0.2642545998096466	5
+88	vinny_transcript	transcript	gpt2	up, and Vinny looked over	her	her	at	3.617332935333252	2.528763771057129	2.3414538645738503e-06	0.4470495581626892	5
+89	vinny_transcript	transcript	gpt2	and Vinny looked over her	sh	shoulder.	shoulder	2.941523551940918	0.7805304527282715	1.0504485317142098e-06	0.9073025584220886	5
+90	vinny_transcript	transcript	gpt2	Vinny looked over her shoulder.	On	On	""""	2.0150771141052246	2.5891103744506836	1.3778849279333372e-06	0.49197667837142944	5
+91	vinny_transcript	transcript	gpt2	looked over her shoulder. On	the	the	the	6.725160121917725	3.433863878250122	3.709040902322158e-05	0.3843962848186493	5
+92	vinny_transcript	transcript	gpt2	over her shoulder. On the	menu	menu	other	0.8921065330505371	4.737998008728027	8.921875682688096e-09	0.31209850311279297	5
+93	vinny_transcript	transcript	gpt2	her shoulder. On the menu	were	were	,	8.364195823669434	3.869130849838257	1.1894034912529605e-07	0.3460198640823364	5
+94	vinny_transcript	transcript	gpt2	shoulder. On the menu were	ex	exactly	the	6.091430187225342	5.587144374847412	5.952448418611311e-07	0.10189298540353775	5
+95	vinny_transcript	transcript	gpt2	On the menu were exactly	three	three	the	10.236604690551758	3.1671369075775146	2.527552715037018e-05	0.40056681632995605	5
+96	vinny_transcript	transcript	gpt2	the menu were exactly three	cho	choices:	times	6.932814598083496	6.032755374908447	7.050369532635159e-08	0.0632702112197876	5
+97	vinny_transcript	transcript	gpt2	menu were exactly three choices:	BRE	BREAKFAST	"
+"	1.4716347455978394	6.530172348022461	2.1506782132973967e-08	0.2105269432067871	5
+98	vinny_transcript	transcript	gpt2	were exactly three choices: BREAKFAST	for	for	,	0.03848107531666756	4.3219499588012695	1.0852953664652887e-06	0.37567347288131714	5
+99	vinny_transcript	transcript	gpt2	exactly three choices: BREAKFAST for	one	one-ninety-nine,	the	6.569467544555664	7.038549423217773	1.297949211220839e-06	0.11855243146419525	5
+100	vinny_transcript	transcript	gpt2	three choices: BREAKFAST for one-ninety-nine,	L	LUNCH	BRE	2.2012133598327637	6.1614155769348145	1.0619558452162892e-05	0.15633653104305267	5
+101	vinny_transcript	transcript	gpt2	choices: BREAKFAST for one-ninety-nine, LUNCH	for	for	for	2.951814651489258	3.9919679164886475	0.0002885708527173847	0.3992272913455963	5
+102	vinny_transcript	transcript	gpt2	BREAKFAST for one-ninety-nine, LUNCH for	two	two-forty-nine,	another	3.2927327156066895	3.5259547233581543	4.235319283907302e-05	0.16019296646118164	5
+103	vinny_transcript	transcript	gpt2	for one-ninety-nine, LUNCH for two-forty-nine,	or	or	and	0.5714940428733826	5.81985330581665	2.0595382011379115e-05	0.2646583616733551	5
+104	vinny_transcript	transcript	gpt2	one-ninety-nine, LUNCH for two-forty-nine, or	D	DINNER,	the	4.161116600036621	7.213233470916748	7.974006621225271e-06	0.03161314129829407	5
+105	vinny_transcript	transcript	gpt2	LUNCH for two-forty-nine, or DINNER,	for	for	for	3.307586431503296	4.684310436248779	6.161066994536668e-05	0.2622734606266022	5
+106	vinny_transcript	transcript	gpt2	for two-forty-nine, or DINNER, for	three	three-forty-nine.	a	3.40151047706604	5.672757625579834	3.3877856822073227e-06	0.09890422224998474	5
+107	vinny_transcript	transcript	gpt2	two-forty-nine, or DINNER, for three-forty-nine.	M	Mona	"
+"	1.5911426544189453	4.900326728820801	1.9915181837859564e-05	0.21186546981334686	5
+108	vinny_transcript	transcript	gpt2	or DINNER, for three-forty-nine. Mona	til	tilted	,	3.4747180938720703	7.1147356033325195	1.4254951885561695e-08	0.05672520026564598	5
+109	vinny_transcript	transcript	gpt2	DINNER, for three-forty-nine. Mona tilted	her	her	her	11.108606338500977	2.354647159576416	3.1294408131543605e-07	0.6072438359260559	5
+110	vinny_transcript	transcript	gpt2	for three-forty-nine. Mona tilted her	head	head	head	0.3975765109062195	0.7254314422607422	6.042481800250243e-06	0.9128450751304626	5
+111	vinny_transcript	transcript	gpt2	three-forty-nine. Mona tilted her head	back	back	to	0.08542653173208237	3.6011180877685547	1.081658638213412e-06	0.14506177604198456	5
+112	vinny_transcript	transcript	gpt2	Mona tilted her head back	and	and	and	3.205784797668457	2.5158801078796387	1.1369312233000528e-05	0.3398195207118988	5
+113	vinny_transcript	transcript	gpt2	tilted her head back and	forth	forth	forth	1.3037290573120117	5.696160316467285	7.306209226953797e-06	0.09804633259773254	5
+114	vinny_transcript	transcript	gpt2	her head back and forth	in	in	,	2.15240478515625	3.670714855194092	2.2826720851298887e-06	0.1412656158208847	5
+115	vinny_transcript	transcript	gpt2	head back and forth in	s	sarcastic	the	3.445681571960449	4.767022132873535	5.2348168537719175e-06	0.26422882080078125	5
+116	vinny_transcript	transcript	gpt2	back and forth in sarcastic	amb	ambivalence.	tones	11.732146263122559	5.684741020202637	1.388419268444352e-09	0.1174813061952591	5
+117	vinny_transcript	transcript	gpt2	and forth in sarcastic ambivalence.	""""	"""So,"	"
+"	2.426309585571289	4.988422393798828	5.8617733884602785e-05	0.1943688839673996	5
+118	vinny_transcript	transcript	gpt2	"forth in sarcastic ambivalence. ""So,"	break	"breakfast?"""	you	2.0359456539154053	5.581249713897705	4.382234575217581e-09	0.09495957940816879	5
+119	vinny_transcript	transcript	gpt2	"in sarcastic ambivalence. ""So, breakfast?"""	""""	"""You"	"
+"	3.2028326988220215	3.998380184173584	0.0006684951949864626	0.26435694098472595	5
+120	vinny_transcript	transcript	gpt2	"sarcastic ambivalence. ""So, breakfast?"" ""You"	think	"think?"""	're	3.7294507026672363	4.401941299438477	3.2539031735723256e-07	0.200741708278656	5
+121	vinny_transcript	transcript	gpt2	"ambivalence. ""So, breakfast?"" ""You think?"""	repl	replied	""""	4.548089027404785	3.4655513763427734	3.5723982705349044e-07	0.5014187693595886	5
+122	vinny_transcript	transcript	gpt2	"""So, breakfast?"" ""You think?"" replied"	V	Vinny,	the	7.666892051696777	6.280417442321777	3.516497599775903e-07	0.17984288930892944	5
+123	vinny_transcript	transcript	gpt2	"breakfast?"" ""You think?"" replied Vinny,"	stro	stroking	""""	1.4533889293670654	5.947017669677734	7.514837818689557e-08	0.052825264632701874	5
+124	vinny_transcript	transcript	gpt2	"""You think?"" replied Vinny, stroking"	his	his	his	0.005674207583069801	2.9625296592712402	4.120694029552396e-06	0.34672948718070984	5
+125	vinny_transcript	transcript	gpt2	"think?"" replied Vinny, stroking his"	chin	chin.	chin	1.0520358085632324	5.641906261444092	2.7503370247927705e-08	0.09528288245201111	5
+126	vinny_transcript	transcript	gpt2	replied Vinny, stroking his chin.	The	The	""""	1.3927440643310547	3.1399595737457275	8.085059380391613e-05	0.39587926864624023	5
+127	vinny_transcript	transcript	gpt2	Vinny, stroking his chin. The	cook	cook	girl	3.958946943283081	7.902793884277344	4.06889846260583e-08	0.020948955789208412	5
+128	vinny_transcript	transcript	gpt2	stroking his chin. The cook	c	circled	was	9.748689651489258	5.88573694229126	0.00014276911679189652	0.06889902800321579	5
+129	vinny_transcript	transcript	gpt2	his chin. The cook circled	back	back	his	9.554685592651367	3.549102306365967	3.42432213074062e-06	0.15977860987186432	5
+130	vinny_transcript	transcript	gpt2	chin. The cook circled back	to	to	to	3.3568549156188965	2.7698776721954346	1.8514430848881602e-05	0.3843556046485901	5
+131	vinny_transcript	transcript	gpt2	The cook circled back to	the	the	the	0.877894401550293	4.513427257537842	1.7307467714999802e-05	0.2950243651866913	5
+132	vinny_transcript	transcript	gpt2	cook circled back to the	counter	counter.	top	1.4387354850769043	8.046747207641602	3.343250654097574e-08	0.019262848421931267	5
+133	vinny_transcript	transcript	gpt2	circled back to the counter.	""""	"""You"	"
+"	1.6255502700805664	5.267692565917969	4.254272789694369e-05	0.21819114685058594	5
+134	vinny_transcript	transcript	gpt2	"back to the counter. ""You"	two	two	're	2.893824815750122	4.3231201171875	2.0807851797144394e-07	0.16714781522750854	5
+135	vinny_transcript	transcript	gpt2	"to the counter. ""You two"	want	want	are	7.36431360244751	4.650901794433594	1.3254740451884572e-06	0.19082798063755035	5
+136	vinny_transcript	transcript	gpt2	"the counter. ""You two want"	something	something	to	4.837437629699707	2.6866724491119385	8.640873829790507e-07	0.5672615170478821	5
+137	vinny_transcript	transcript	gpt2	"counter. ""You two want something"	to	to	to	5.0170183181762695	4.869084358215332	9.598207952876692e-07	0.0838531106710434	5
+138	vinny_transcript	transcript	gpt2	"""You two want something to"	eat	"eat?"""	do	2.5884499549865723	3.505337953567505	3.2355231383007776e-07	0.3967737555503845	5
+139	vinny_transcript	transcript	gpt2	"two want something to eat?"""	""""	"""Two"	"
+"	4.904629707336426	4.725255489349365	0.0015200806083157659	0.3111875355243683	5
+140	vinny_transcript	transcript	gpt2	"want something to eat?"" ""Two"	break	breakfasts,	,	7.909626483917236	6.4063920974731445	2.5061140718207753e-07	0.0415777713060379	5
+141	vinny_transcript	transcript	gpt2	"something to eat?"" ""Two breakfasts,"	please	"please."""	one	1.9189647436141968	5.510446071624756	3.3485190442661406e-07	0.0822792798280716	5
+142	vinny_transcript	transcript	gpt2	"to eat?"" ""Two breakfasts, please."""	He	He	""""	1.4344319105148315	4.077014923095703	8.454806811641902e-05	0.3823702335357666	5
+143	vinny_transcript	transcript	gpt2	"eat?"" ""Two breakfasts, please."" He"	rub	rubbed	said	3.7573418617248535	6.031001567840576	1.0733724593592342e-06	0.03703928366303444	5
+144	vinny_transcript	transcript	gpt2	"""Two breakfasts, please."" He rubbed"	his	his	his	5.9920830726623535	1.89926278591156	2.0753291209985036e-06	0.5531871318817139	5
+145	vinny_transcript	transcript	gpt2	"breakfasts, please."" He rubbed his"	eyes	eyes	chin	0.45091238617897034	4.378054618835449	2.2797552290398926e-08	0.11139325052499771	5
+146	vinny_transcript	transcript	gpt2	"please."" He rubbed his eyes"	as	as	.	3.133322238922119	2.517949342727661	3.494047291496827e-07	0.35259249806404114	5
+147	vinny_transcript	transcript	gpt2	He rubbed his eyes as	he	he	he	2.8869853019714355	2.1204349994659424	4.234174775774591e-05	0.6538048386573792	5
+148	vinny_transcript	transcript	gpt2	rubbed his eyes as he	pass	passed	looked	0.4016968905925751	5.6397905349731445	1.3074065163820592e-09	0.065590500831604	5
+149	vinny_transcript	transcript	gpt2	his eyes as he passed	the	the	by	5.990388870239258	3.5544304847717285	1.6879798749869224e-06	0.21406523883342743	5
+150	vinny_transcript	transcript	gpt2	eyes as he passed the	menu	menu	door	2.4675421714782715	7.7629780769348145	2.6351779425226596e-08	0.03349459543824196	5
+151	vinny_transcript	transcript	gpt2	as he passed the menu	to	to	.	9.894116401672363	3.986485242843628	5.031274213251891e-06	0.18792729079723358	5
+152	vinny_transcript	transcript	gpt2	he passed the menu to	the	the	the	2.0449442863464355	6.189216136932373	9.77513445832301e-06	0.1352752447128296	5
+153	vinny_transcript	transcript	gpt2	passed the menu to the	cook	cook.	right	2.2517898082733154	5.0329813957214355	2.2740238136975677e-08	0.2340737283229828	5
+154	vinny_transcript	transcript	gpt2	the menu to the cook.	""""	"""Can"	"
+"	4.067874431610107	4.996176719665527	2.1406169253168628e-05	0.2163938283920288	5
+155	vinny_transcript	transcript	gpt2	"menu to the cook. ""Can"	I	I	you	5.998971462249756	2.708909034729004	0.0002789998543448746	0.33235904574394226	5
+156	vinny_transcript	transcript	gpt2	"to the cook. ""Can I"	ask	ask	have	1.3896675109863281	4.417621612548828	3.0064821743280845e-08	0.13663916289806366	5
+157	vinny_transcript	transcript	gpt2	"the cook. ""Can I ask"	you	you	you	2.4032583236694336	3.0343244075775146	6.425515493901912e-06	0.444362610578537	5
+158	vinny_transcript	transcript	gpt2	"cook. ""Can I ask you"	something	"something?"""	a	0.6506296992301941	2.9778389930725098	3.262077734689228e-05	0.2262546867132187	5
+159	vinny_transcript	transcript	gpt2	"""Can I ask you something?"""	""""	"""What's"	"
+"	1.042446494102478	4.422372341156006	0.007775305770337582	0.3506307005882263	5
+160	vinny_transcript	transcript	gpt2	"I ask you something?"" ""What's"	the	the	the	2.542689085006714	3.0945775508880615	1.01379673651536e-05	0.21229402720928192	5
+161	vinny_transcript	transcript	gpt2	"ask you something?"" ""What's the"	story	story	matter	1.828277587890625	4.856026649475098	4.8947885744610176e-08	0.26568880677223206	5
+162	vinny_transcript	transcript	gpt2	"you something?"" ""What's the story"	with	with	"?"""	5.459375858306885	2.2443060874938965	4.47374577561277e-06	0.519329309463501	5
+163	vinny_transcript	transcript	gpt2	"something?"" ""What's the story with"	this	this	you	3.8775625228881836	4.262520790100098	1.702793269942049e-06	0.2350584715604782	5
+164	vinny_transcript	transcript	gpt2	"""What's the story with this"	inc	incredibly,	"?"""	2.45622181892395	6.044955730438232	1.4408544757316122e-07	0.12972955405712128	5
+165	vinny_transcript	transcript	gpt2	the story with this incredibly,	rem	remarkably	incredibly	5.8184123039245605	5.7396650314331055	2.7707827143785835e-07	0.11340286582708359	5
+166	vinny_transcript	transcript	gpt2	story with this incredibly, remarkably	l	loud	,	6.444697856903076	6.34796142578125	5.719674391002627e-06	0.07442425191402435	5
+167	vinny_transcript	transcript	gpt2	with this incredibly, remarkably loud	wh	whistle	,	8.58470344543457	6.466245174407959	7.482721002816106e-07	0.13202084600925446	5
+168	vinny_transcript	transcript	gpt2	this incredibly, remarkably loud whistle	at	at	.	9.225772857666016	4.706174850463867	3.5233395010436652e-06	0.10142385214567184	5
+169	vinny_transcript	transcript	gpt2	incredibly, remarkably loud whistle at	five	five-thirty	the	4.607453346252441	4.887588024139404	1.3632580930789118e-07	0.26930907368659973	5
+170	vinny_transcript	transcript	gpt2	remarkably loud whistle at five-thirty	in	in	.	0.138638436794281	3.4884684085845947	2.5128916604444385e-05	0.221251979470253	5
+171	vinny_transcript	transcript	gpt2	loud whistle at five-thirty in	the	the	the	2.9476537704467773	1.8552665710449219	3.704490518430248e-05	0.8007540106773376	5
+172	vinny_transcript	transcript	gpt2	whistle at five-thirty in the	morning	"morning?"""	morning	0.3009105920791626	2.0010619163513184	5.442749625217402e-06	0.6453611254692078	5
+173	vinny_transcript	transcript	gpt2	"at five-thirty in the morning?"""	The	The	"
+"	5.647233486175537	4.2118144035339355	0.0002365440159337595	0.38439640402793884	5
+174	vinny_transcript	transcript	gpt2	"five-thirty in the morning?"" The"	cook	cook's	man	3.904679298400879	7.78832483291626	9.351346363928315e-08	0.031889598816633224	5
+175	vinny_transcript	transcript	gpt2	"in the morning?"" The cook's"	eyes	eyes	voice	3.6483967304229736	5.007920742034912	3.231003802284249e-07	0.1838800311088562	5
+176	vinny_transcript	transcript	gpt2	"the morning?"" The cook's eyes"	n	narrowed	widened	2.5680510997772217	4.539559364318848	4.995458766643424e-07	0.14489160478115082	5
+177	vinny_transcript	transcript	gpt2	"morning?"" The cook's eyes narrowed"	–	–	.	2.8185296058654785	2.676586866378784	1.1767524483730085e-05	0.3106231391429901	5
+178	vinny_transcript	transcript	gpt2	The cook's eyes narrowed –	clear	clearly	he	7.389960289001465	5.123797416687012	4.1030216380022466e-07	0.1008734330534935	5
+179	vinny_transcript	transcript	gpt2	cook's eyes narrowed – clearly	these	these	he	6.227889060974121	5.500113487243652	9.236628351061427e-09	0.08828321099281311	5
+180	vinny_transcript	transcript	gpt2	eyes narrowed – clearly these	two	two	were	6.746783256530762	5.25242805480957	4.0716170701671217e-07	0.18937291204929352	5
+181	vinny_transcript	transcript	gpt2	narrowed – clearly these two	were	were	are	3.635253667831421	6.699838161468506	2.5301701498392504e-06	0.0653090849518776	5
+182	vinny_transcript	transcript	gpt2	– clearly these two were	from	from	not	4.464195251464844	6.365617752075195	1.3563158063334413e-07	0.1408424973487854	5
+183	vinny_transcript	transcript	gpt2	clearly these two were from	out	out	the	6.646870136260986	5.189795970916748	1.047613568516681e-05	0.28111255168914795	5
+184	vinny_transcript	transcript	gpt2	these two were from out	of	of	of	6.745643138885498	1.3790754079818726	0.0006921112071722746	0.8271121382713318	5
+185	vinny_transcript	transcript	gpt2	two were from out of	town	town.	state	0.23734158277511597	2.2294840812683105	0.00010094422032125294	0.5417447686195374	5
+186	vinny_transcript	transcript	gpt2	were from out of town.	""""	"""It's"	"
+"	1.338111162185669	4.740245819091797	3.008675412274897e-05	0.24055474996566772	5
+187	vinny_transcript	transcript	gpt2	"from out of town. ""It's"	the	the	a	0.7588971853256226	4.995741367340088	1.2605072470250889e-06	0.12370498478412628	5
+188	vinny_transcript	transcript	gpt2	"out of town. ""It's the"	steam	steam	best	3.4299204349517822	6.186024188995361	4.251956564615966e-09	0.05719580128788948	5
+189	vinny_transcript	transcript	gpt2	"of town. ""It's the steam"	wh	whistle,	engine	11.531076431274414	5.281643390655518	3.9635437133256346e-05	0.079637311398983	5
+190	vinny_transcript	transcript	gpt2	"town. ""It's the steam whistle,"	over	over	the	2.6630747318267822	4.37019681930542	1.4518199975555035e-07	0.1994243711233139	5
+191	vinny_transcript	transcript	gpt2	"""It's the steam whistle, over"	by	by	and	8.525467872619629	3.8197402954101562	4.715190880233422e-05	0.3075551688671112	5
+192	vinny_transcript	transcript	gpt2	the steam whistle, over by	the	the	the	6.256249904632568	4.1236419677734375	5.1711158448597416e-05	0.47082921862602234	5
+193	vinny_transcript	transcript	gpt2	steam whistle, over by the	saw	saw	door	1.1144942045211792	8.006075859069824	3.365854439607574e-08	0.020526355132460594	5
+194	vinny_transcript	transcript	gpt2	whistle, over by the saw	mill	"mill."""	,	9.089994430541992	4.550179958343506	0.09465926140546799	0.1344168782234192	5
+195	vinny_transcript	transcript	gpt2	"over by the saw mill."""	""""	"""Tells"	"
+"	5.497005939483643	4.018780708312988	0.00034681972465477884	0.4641711115837097	5
+196	vinny_transcript	transcript	gpt2	"by the saw mill."" ""Tells"	fol	folks	you	6.866886138916016	3.3657219409942627	1.3360819650642952e-07	0.40525585412979126	5
+197	vinny_transcript	transcript	gpt2	"the saw mill."" ""Tells folks"	it	it's	that	8.97652816772461	4.006280422210693	2.6332863853895105e-05	0.15130607783794403	5
+198	vinny_transcript	transcript	gpt2	"saw mill."" ""Tells folks it's"	time	time	a	0.35861462354660034	5.66183614730835	1.2257561365913716e-06	0.14373993873596191	5
+199	vinny_transcript	transcript	gpt2	"mill."" ""Tells folks it's time"	to	to	to	4.759625434875488	1.5678032636642456	5.1271079428261146e-05	0.6180523037910461	5
+200	vinny_transcript	transcript	gpt2	"""Tells folks it's time to"	get	get	get	0.4571281671524048	5.493165969848633	9.9792487162631e-07	0.08323345333337784	5
+201	vinny_transcript	transcript	gpt2	folks it's time to get	up	"up."""	out	2.5151243209838867	4.946381568908691	1.2855068689532345e-06	0.07454478740692139	5
+202	vinny_transcript	transcript	gpt2	"it's time to get up."""	""""	"""You"	"
+"	3.309128761291504	2.7656090259552	0.0001813612470868975	0.6321620941162109	5
+203	vinny_transcript	transcript	gpt2	"time to get up."" ""You"	can	can	're	2.9314301013946533	4.298550605773926	7.764833753753919e-07	0.18286925554275513	5
+204	vinny_transcript	transcript	gpt2	"to get up."" ""You can"	he	hear	't	2.9610018730163574	3.8860955238342285	9.092980235436698e-08	0.38038143515586853	5
+205	vinny_transcript	transcript	gpt2	"get up."" ""You can hear"	it	it	the	5.668252468109131	3.4624524116516113	1.3468975339492317e-06	0.19043609499931335	5
+206	vinny_transcript	transcript	gpt2	"up."" ""You can hear it"	for	for	in	2.355715274810791	4.552525043487549	6.268734296099865e-07	0.13013318181037903	5
+207	vinny_transcript	transcript	gpt2	"""You can hear it for"	m	"miles."""	miles	5.389105796813965	3.6013312339782715	2.8592896796908462e-06	0.17259815335273743	5
+208	vinny_transcript	transcript	gpt2	"can hear it for miles."""	He	He	"
+"	3.591722011566162	2.9462411403656006	0.0004924620152451098	0.6009315848350525	5
+209	vinny_transcript	transcript	gpt2	"hear it for miles."" He"	turned	turned	said	3.6406564712524414	5.823518753051758	4.399823296807881e-07	0.0758783221244812	5
+210	vinny_transcript	transcript	gpt2	"it for miles."" He turned"	his	his	to	5.571507930755615	3.0628817081451416	2.2778002062295855e-07	0.3193042278289795	5
+211	vinny_transcript	transcript	gpt2	"for miles."" He turned his"	back	back	head	2.440786838531494	3.43460750579834	1.9245767362008337e-06	0.38993021845817566	5
+212	vinny_transcript	transcript	gpt2	"miles."" He turned his back"	t	toward	to	2.276808738708496	1.968240737915039	6.061952262825798e-06	0.4217897653579712	5
+213	vinny_transcript	transcript	gpt2	He turned his back toward	the	the	the	4.602730751037598	3.3525490760803223	6.558102541021071e-06	0.5620830655097961	5
+214	vinny_transcript	transcript	gpt2	turned his back toward the	c	couple	wall	0.7347484230995178	6.970216751098633	6.803160772506089e-07	0.09969999641180038	5
+215	vinny_transcript	transcript	gpt2	his back toward the couple	to	to	's	9.805843353271484	3.3228893280029297	1.2804285915990476e-06	0.21480940282344818	5
+216	vinny_transcript	transcript	gpt2	back toward the couple to	face	face	get	4.6297502517700195	6.286701679229736	1.0116573179175248e-07	0.04390478879213333	5
+217	vinny_transcript	transcript	gpt2	toward the couple to face	the	the	the	6.308928966522217	4.66081428527832	3.377176653884817e-06	0.18526285886764526	5
+218	vinny_transcript	transcript	gpt2	the couple to face the	gr	griddle,	charges	1.8130825757980347	7.337250709533691	1.0867558586369341e-07	0.02567589096724987	5
+219	vinny_transcript	transcript	gpt2	couple to face the griddle,	where	where	and	2.5443665981292725	5.940088748931885	2.3177651655714726e-06	0.13047075271606445	5
+220	vinny_transcript	transcript	gpt2	to face the griddle, where	sever	several	upon	5.47482967376709	4.448585033416748	1.1578456906136125e-05	0.14862073957920074	5
+221	vinny_transcript	transcript	gpt2	face the griddle, where several	stri	strips	of	7.344085693359375	7.440802574157715	5.978323258659657e-08	0.06657476723194122	5
+222	vinny_transcript	transcript	gpt2	the griddle, where several strips	of	of	of	8.545905113220215	1.408132791519165	9.207799848809373e-06	0.7878934144973755	5
+223	vinny_transcript	transcript	gpt2	griddle, where several strips of	b	bacon	paper	0.5024620890617371	6.6073899269104	4.6713330448255874e-07	0.1102689728140831	5
+224	vinny_transcript	transcript	gpt2	where several strips of bacon	were	were	and	6.724298477172852	4.310895919799805	7.983821888046805e-06	0.19313345849514008	5
+225	vinny_transcript	transcript	gpt2	several strips of bacon were	al	already	placed	3.5369181632995605	5.788370132446289	2.307509703314281e-07	0.06584618240594864	5
+226	vinny_transcript	transcript	gpt2	strips of bacon were already	s	sizzling.	in	5.424652099609375	6.152451515197754	2.9040563731541624e-06	0.07919154316186905	5
+227	vinny_transcript	transcript	gpt2	of bacon were already sizzling.	M	Mona	"
+"	1.8128602504730225	4.523195743560791	9.638677511247806e-06	0.25310254096984863	5
+228	vinny_transcript	transcript	gpt2	bacon were already sizzling. Mona	w	watched	and	2.963721513748169	6.3028178215026855	7.266029570018873e-06	0.06017836555838585	5
+229	vinny_transcript	transcript	gpt2	were already sizzling. Mona watched	in	in	as	7.1109113693237305	4.103854179382324	1.3375771459323005e-06	0.1979464590549469	5
+230	vinny_transcript	transcript	gpt2	already sizzling. Mona watched in	hor	horror	horror	3.2640867233276367	4.276615619659424	4.815256602341833e-07	0.14875873923301697	5
+231	vinny_transcript	transcript	gpt2	sizzling. Mona watched in horror	as	as	as	1.3003385066986084	1.4593472480773926	1.3840168321621604e-05	0.6887218952178955	5
+232	vinny_transcript	transcript	gpt2	Mona watched in horror as	he	he	the	0.5059996843338013	4.921762943267822	2.9330433335417183e-06	0.2516775131225586	5
+233	vinny_transcript	transcript	gpt2	watched in horror as he	sp	spooned	was	3.3383395671844482	6.551028251647949	8.171802790002403e-08	0.06306177377700806	5
+234	vinny_transcript	transcript	gpt2	in horror as he spooned	a	a	his	0.7279828190803528	5.131915092468262	3.548303538991604e-06	0.10779017955064774	5
+235	vinny_transcript	transcript	gpt2	horror as he spooned a	massive	massive	spoon	3.445178508758545	6.952375888824463	8.633124082280119e-08	0.03420041501522064	5
+236	vinny_transcript	transcript	gpt2	as he spooned a massive	s	scoop	amount	6.676815986633301	5.662079334259033	1.0367458571636234e-06	0.09439954906702042	5
+237	vinny_transcript	transcript	gpt2	he spooned a massive scoop	of	of	of	4.980055332183838	1.436497449874878	2.634237171150744e-05	0.7635529637336731	5
+238	vinny_transcript	transcript	gpt2	spooned a massive scoop of	l	lard	water	0.9046924710273743	7.030449390411377	3.289416326879291e-06	0.05565226078033447	5
+239	vinny_transcript	transcript	gpt2	a massive scoop of lard	onto	onto	,	2.5617337226867676	3.8154821395874023	1.232095048209203e-08	0.18564355373382568	5
+240	vinny_transcript	transcript	gpt2	massive scoop of lard onto	the	the	the	8.74668025970459	4.343681812286377	5.9313856581866276e-06	0.33377528190612793	5
+241	vinny_transcript	transcript	gpt2	scoop of lard onto the	gr	griddle	ground	1.1023536920547485	7.373310089111328	7.097030447766883e-07	0.03569994866847992	5
+242	vinny_transcript	transcript	gpt2	of lard onto the griddle	and	and	.	0.5894359350204468	3.1690151691436768	5.079180482425727e-06	0.2809612452983856	5
+243	vinny_transcript	transcript	gpt2	lard onto the griddle and	p	pushed	put	1.8403822183609009	6.767398834228516	1.9334027001605136e-06	0.02363155037164688	5
+244	vinny_transcript	transcript	gpt2	onto the griddle and pushed	it	it	the	8.36430835723877	3.3659074306488037	1.6277818986054626e-06	0.3064897954463959	5
+245	vinny_transcript	transcript	gpt2	the griddle and pushed it	around	around	into	1.707967758178711	4.006764888763428	4.743719017596959e-08	0.1242704764008522	5
+246	vinny_transcript	transcript	gpt2	griddle and pushed it around	to	to	.	4.36329460144043	3.9068729877471924	1.4808773585173185e-06	0.15568064153194427	5
+247	vinny_transcript	transcript	gpt2	and pushed it around to	coat	coat	the	3.47525691986084	5.192654132843018	7.928960599201673e-08	0.23865973949432373	5
+248	vinny_transcript	transcript	gpt2	pushed it around to coat	the	the	the	9.488012313842773	3.740654706954956	5.344360033632256e-06	0.2734631299972534	5
+249	vinny_transcript	transcript	gpt2	it around to coat the	surface	surface.	body	1.4673689603805542	7.605942726135254	2.7674175839820236e-07	0.019234949722886086	5
+250	vinny_transcript	transcript	gpt2	around to coat the surface.	""""	"""Excuse"	"
+"	2.741302013397217	5.014951705932617	1.459915529267164e-05	0.2077750861644745	5
+251	vinny_transcript	transcript	gpt2	"to coat the surface. ""Excuse"	me	"me,"""	me	0.4175098240375519	0.4835619628429413	0.00013039524492342025	0.9317383170127869	5
+252	vinny_transcript	transcript	gpt2	"coat the surface. ""Excuse me,"""	said	said	he	2.272221088409424	3.817310094833374	8.844558033160865e-05	0.19734163582324982	5
+253	vinny_transcript	transcript	gpt2	"the surface. ""Excuse me,"" said"	V	Vinny,	the	2.115304946899414	6.286561965942383	4.455975215478247e-07	0.18104234337806702	5
+254	vinny_transcript	transcript	gpt2	"surface. ""Excuse me,"" said Vinny,"	and	and	""""	0.8791339993476868	4.998501777648926	2.819143901433563e-06	0.27552008628845215	5
+255	vinny_transcript	transcript	gpt2	"""Excuse me,"" said Vinny, and"	the	the	he	3.6940603256225586	5.928574562072754	4.15695524225157e-07	0.08757130801677704	5
+256	vinny_transcript	transcript	gpt2	"me,"" said Vinny, and the"	cook	cook	two	3.142591953277588	7.845362186431885	1.0315550191819511e-08	0.03144264593720436	5
+257	vinny_transcript	transcript	gpt2	said Vinny, and the cook	turned	turned	,	9.508581161499023	5.905588626861572	4.1578146010579076e-06	0.05956624820828438	5
+258	vinny_transcript	transcript	gpt2	Vinny, and the cook turned	to	to	out	5.5732340812683105	3.4084386825561523	2.4546186523366487e-06	0.3155229091644287	5
+259	vinny_transcript	transcript	gpt2	and the cook turned to	him	him	the	1.8016357421875	4.58001708984375	3.811992883129278e-06	0.12321541458368301	5
+260	vinny_transcript	transcript	gpt2	the cook turned to him	susp	suspiciously.	and	3.006636142730713	2.5228981971740723	1.8987488914490314e-08	0.44601893424987793	5
+261	vinny_transcript	transcript	gpt2	cook turned to him suspiciously.	""""	"""Have"	"
+"	0.9401701092720032	3.503685712814331	9.490134107181802e-05	0.32028061151504517	5
+262	vinny_transcript	transcript	gpt2	"turned to him suspiciously. ""Have"	you	you	you	5.487791061401367	1.229864239692688	4.113971590413712e-05	0.8029533624649048	5
+263	vinny_transcript	transcript	gpt2	"to him suspiciously. ""Have you"	gu	guys	seen	0.28131434321403503	4.020717620849609	8.245952187735384e-08	0.18888050317764282	5
+264	vinny_transcript	transcript	gpt2	"him suspiciously. ""Have you guys"	around	around	seen	5.842568397521973	4.0530781745910645	8.08766653648263e-09	0.23201365768909454	5
+265	vinny_transcript	transcript	gpt2	"suspiciously. ""Have you guys around"	here	here	"?"""	10.093452453613281	3.5087404251098633	3.900450337823713e-06	0.34499391913414	5
+266	vinny_transcript	transcript	gpt2	"""Have you guys around here"	not	not	"?"""	2.304081678390503	4.923755645751953	4.456547841868996e-08	0.17282091081142426	5
+267	vinny_transcript	transcript	gpt2	you guys around here not	heard	heard	only	6.848430633544922	5.792694568634033	6.943797359326709e-08	0.04464799910783768	5
+268	vinny_transcript	transcript	gpt2	guys around here not heard	about	about	of	7.4379682540893555	2.8008663654327393	4.636221547116293e-06	0.30755940079689026	5
+269	vinny_transcript	transcript	gpt2	around here not heard about	the	the	it	3.374173879623413	4.580246448516846	7.3454275479889475e-06	0.262132853269577	5
+270	vinny_transcript	transcript	gpt2	here not heard about the	ongo	ongoing	new	2.485039710998535	8.551270484924316	1.191949863255104e-07	0.010727438144385815	5
+271	vinny_transcript	transcript	gpt2	not heard about the ongoing	ch	cholesterol	investigation	6.729450702667236	6.763338565826416	6.63459275074274e-07	0.10420479625463486	5
+272	vinny_transcript	transcript	gpt2	heard about the ongoing cholesterol	problem	problem	-	14.170585632324219	5.112483501434326	1.272082386094553e-07	0.1633802354335785	5
+273	vinny_transcript	transcript	gpt2	about the ongoing cholesterol problem	in	in	in	3.7712268829345703	3.5291497707366943	4.9131365813082084e-05	0.19470816850662231	5
+274	vinny_transcript	transcript	gpt2	the ongoing cholesterol problem in	the	the	the	1.9939144849777222	4.843045711517334	6.644490326834784e-07	0.26719358563423157	5
+275	vinny_transcript	transcript	gpt2	ongoing cholesterol problem in the	country	"country?"""	United	2.0367329120635986	6.130385398864746	1.0047984488892325e-07	0.08599179238080978	5
+276	vinny_transcript	transcript	gpt2	"cholesterol problem in the country?"""	The	The	"
+"	6.712136745452881	4.801718711853027	0.0006418231641873717	0.3547046184539795	5
+277	vinny_transcript	transcript	gpt2	"problem in the country?"" The"	cook	cook	answer	4.208607196807861	7.695319175720215	1.4793795521939046e-08	0.043002817779779434	5
+278	vinny_transcript	transcript	gpt2	"in the country?"" The cook"	look	looked	said	9.634943008422852	5.064286231994629	1.989269549085293e-05	0.13578195869922638	5
+279	vinny_transcript	transcript	gpt2	"the country?"" The cook looked"	back	back	at	4.982898235321045	3.3096330165863037	3.2833455065883754e-08	0.4390702247619629	5
+280	vinny_transcript	transcript	gpt2	"country?"" The cook looked back"	and	and	at	4.345584869384766	2.2935686111450195	6.9570796767948195e-06	0.4954122304916382	5
+281	vinny_transcript	transcript	gpt2	The cook looked back and	forth	forth	forth	2.3110716342926025	3.2645814418792725	1.2169395631644875e-05	0.41559305787086487	5
+282	vinny_transcript	transcript	gpt2	cook looked back and forth	at	at	between	0.6861388087272644	2.8480982780456543	4.2933862687277724e-08	0.39921167492866516	5
+283	vinny_transcript	transcript	gpt2	looked back and forth at	both	both	the	4.635542392730713	4.63051700592041	5.747046216697527e-08	0.3034956455230713	5
+284	vinny_transcript	transcript	gpt2	back and forth at both	of	of	ends	6.2006635665893555	1.804748773574829	7.309454872483911e-07	0.7870874404907227	5
+285	vinny_transcript	transcript	gpt2	and forth at both of	them	them,	them	5.18391227722168	2.665367841720581	3.376215772732394e-06	0.29047971963882446	5
+286	vinny_transcript	transcript	gpt2	forth at both of them,	p	pursed	and	1.6974272727966309	5.557722091674805	2.369256208112347e-06	0.174828439950943	5
+287	vinny_transcript	transcript	gpt2	at both of them, pursed	his	his	his	0.5754082202911377	1.9315658807754517	4.720318884210428e-06	0.3755159080028534	5
+288	vinny_transcript	transcript	gpt2	both of them, pursed his	l	lips,	lips	2.244105339050293	0.7812198996543884	2.156620553250832e-07	0.8840087056159973	5
+289	vinny_transcript	transcript	gpt2	of them, pursed his lips,	and	and	and	1.366676926612854	5.681262493133545	1.8903057934949175e-05	0.2101709395647049	5
+290	vinny_transcript	transcript	gpt2	them, pursed his lips, and	then	then	said	1.4420902729034424	6.301952362060547	8.158614832609601e-07	0.05484034866094589	5
+291	vinny_transcript	transcript	gpt2	pursed his lips, and then	turned	turned	he	3.5562124252319336	5.89348030090332	3.7050907053526316e-07	0.14343631267547607	5
+292	vinny_transcript	transcript	gpt2	his lips, and then turned	back	back	to	4.937348365783691	3.385777473449707	1.7613451746001374e-06	0.19447264075279236	5
+293	vinny_transcript	transcript	gpt2	lips, and then turned back	to	to	to	2.917362928390503	2.5331263542175293	5.788290309283184e-06	0.49331462383270264	5
+294	vinny_transcript	transcript	gpt2	and then turned back to	the	the	the	0.8024827241897583	5.34760856628418	1.940212860063184e-05	0.2358667552471161	5
+295	vinny_transcript	transcript	gpt2	then turned back to the	gr	griddle	door	1.4599236249923706	7.927236557006836	1.5466305569589167e-07	0.01390297431498766	5
+296	vinny_transcript	transcript	gpt2	turned back to the griddle	sh	shaking	.	4.412713527679443	4.334670066833496	1.1412718777137343e-05	0.18409037590026855	5
+297	vinny_transcript	transcript	gpt2	back to the griddle shaking	his	his	the	11.78725528717041	4.820231914520264	7.774626737955259e-07	0.11933005601167679	5
+298	vinny_transcript	transcript	gpt2	to the griddle shaking his	head	head	head	3.8547916412353516	3.1304445266723633	6.989705070736818e-06	0.5640296339988708	5
+299	vinny_transcript	transcript	gpt2	the griddle shaking his head	in	in	.	0.5150326490402222	3.43703031539917	2.4072294763755053e-05	0.24586300551891327	5
+300	vinny_transcript	transcript	gpt2	griddle shaking his head in	dis	disbelief.	disbelief	2.63997220993042	4.035110950469971	6.259219276216754e-07	0.25353166460990906	5
+301	vinny_transcript	transcript	gpt2	shaking his head in disbelief.	M	Mona	"
+"	1.1593499183654785	3.1768836975097656	1.7065685824491084e-05	0.31649574637413025	5
+302	vinny_transcript	transcript	gpt2	his head in disbelief. Mona	picked	picked	's	2.260164737701416	6.624663352966309	3.2340835787181277e-07	0.03489384800195694	5
+303	vinny_transcript	transcript	gpt2	head in disbelief. Mona picked	at	at	up	7.901670932769775	1.6179614067077637	1.2559899005282205e-06	0.7276014089584351	5
+304	vinny_transcript	transcript	gpt2	in disbelief. Mona picked at	her	her	her	4.737343788146973	3.06825590133667	7.462632765964372e-06	0.3120344579219818	5
+305	vinny_transcript	transcript	gpt2	disbelief. Mona picked at her	n	nails,	hair	1.6895633935928345	6.768574237823486	1.0994257308993838e-06	0.04864616319537163	5
+306	vinny_transcript	transcript	gpt2	Mona picked at her nails,	and	and	and	1.787190318107605	6.497241020202637	3.567530438886024e-05	0.10949241369962692	5
+307	vinny_transcript	transcript	gpt2	picked at her nails, and	then	then	she	2.0902700424194336	6.227522850036621	2.384083700235351e-06	0.10317759960889816	5
+308	vinny_transcript	transcript	gpt2	at her nails, and then	look	looked	she	2.843097686767578	6.44598388671875	1.5505247574765235e-07	0.136062353849411	5
+309	vinny_transcript	transcript	gpt2	her nails, and then looked	over	over	at	6.515742301940918	3.282068967819214	1.4040602991371998e-07	0.3344183564186096	5
+310	vinny_transcript	transcript	gpt2	nails, and then looked over	at	at	at	3.1894400119781494	2.9341678619384766	1.9314158635097556e-05	0.3224393129348755	5
+311	vinny_transcript	transcript	gpt2	and then looked over at	V	Vinny.	the	1.0370012521743774	5.3598198890686035	2.7582535722103785e-07	0.18968670070171356	5
+312	vinny_transcript	transcript	gpt2	then looked over at Vinny.	""""	"""You've"	""""	1.8679111003875732	2.5605194568634033	4.873200668953359e-05	0.3897821307182312	5
+313	vinny_transcript	transcript	gpt2	"looked over at Vinny. ""You've"	got	got	got	3.1792802810668945	3.0416812896728516	2.2695414827467175e-06	0.442520409822464	5
+314	vinny_transcript	transcript	gpt2	"over at Vinny. ""You've got"	one	one	to	0.6003389358520508	2.7783725261688232	1.290416804522465e-07	0.5803796052932739	5
+315	vinny_transcript	transcript	gpt2	"at Vinny. ""You've got one"	huge	huge	of	5.067563056945801	5.564237594604492	9.265334277586135e-09	0.24355833232402802	5
+316	vinny_transcript	transcript	gpt2	"Vinny. ""You've got one huge"	respons	responsibility,	problem	6.764379978179932	6.9941606521606445	3.6965559502277756e-09	0.0710689127445221	5
+317	vinny_transcript	transcript	gpt2	"""You've got one huge responsibility,"	taking	taking	and	2.124113082885742	4.6567912101745605	9.795147093427659e-08	0.23293393850326538	5
+318	vinny_transcript	transcript	gpt2	got one huge responsibility, taking	on	on	care	6.594209671020508	4.228054523468018	1.083590632333653e-06	0.22365832328796387	5
+319	vinny_transcript	transcript	gpt2	one huge responsibility, taking on	this	this	the	2.3130273818969727	5.020237445831299	3.165750968037173e-07	0.23724383115768433	5
+320	vinny_transcript	transcript	gpt2	huge responsibility, taking on this	mur	murder	responsibility	4.157223701477051	6.464297771453857	5.167361538660487e-10	0.08179578185081482	5
+321	vinny_transcript	transcript	gpt2	responsibility, taking on this murder	case	"case."""	-	11.02059268951416	5.102612495422363	9.420876267540734e-06	0.06800438463687897	5
+322	vinny_transcript	transcript	gpt2	"taking on this murder case."""	""""	"""You"	"
+"	3.359901189804077	2.1918983459472656	0.00016323634190484881	0.693337082862854	5
+323	vinny_transcript	transcript	gpt2	"on this murder case."" ""You"	sc	screw	're	3.5563693046569824	4.456286430358887	1.7973837529439152e-08	0.14290793240070343	5
+324	vinny_transcript	transcript	gpt2	"this murder case."" ""You screw"	up	up	up	11.095291137695312	2.9236390590667725	0.0018864559242501855	0.45955196022987366	5
+325	vinny_transcript	transcript	gpt2	"murder case."" ""You screw up"	and	and	,	0.8361852169036865	4.193624496459961	8.706449079909362e-06	0.1043005958199501	5
+326	vinny_transcript	transcript	gpt2	"case."" ""You screw up and"	those	those	you	3.7767348289489746	4.993422031402588	1.4461223329931272e-08	0.18150198459625244	5
+327	vinny_transcript	transcript	gpt2	"""You screw up and those"	boys	boys	guys	7.124300479888916	5.878361701965332	1.894221213660785e-06	0.16369476914405823	5
+328	vinny_transcript	transcript	gpt2	screw up and those boys	get	get	were	6.561540126800537	5.057096481323242	1.0688270322134485e-06	0.14085941016674042	5
+329	vinny_transcript	transcript	gpt2	up and those boys get	fried	"fried."""	to	5.367079734802246	6.0984416007995605	2.7564212246034003e-08	0.07173511385917664	5
+330	vinny_transcript	transcript	gpt2	"and those boys get fried."""	V	Vinny	"
+"	4.024126052856445	3.1005983352661133	1.4790616660320666e-05	0.58450847864151	5
+331	vinny_transcript	transcript	gpt2	"those boys get fried."" Vinny"	turned	turned	said	1.3137778043746948	6.634634494781494	5.50157750467406e-08	0.05319487676024437	5
+332	vinny_transcript	transcript	gpt2	"boys get fried."" Vinny turned"	to	to	to	7.094426155090332	3.0311107635498047	8.995572784442629e-07	0.3113757073879242	5
+333	vinny_transcript	transcript	gpt2	"get fried."" Vinny turned to"	her	her,	the	1.218612790107727	5.217319488525391	6.722582384099951e-07	0.13562163710594177	5
+334	vinny_transcript	transcript	gpt2	"fried."" Vinny turned to her,"	ann	annoyed.	""""	1.8322653770446777	5.496406555175781	5.3703310243236047e-08	0.13341520726680756	5
+335	vinny_transcript	transcript	gpt2	Vinny turned to her, annoyed.	""""	"""I"	""""	0.915264368057251	2.527557611465454	2.9278360671014525e-05	0.4724736511707306	5
+336	vinny_transcript	transcript	gpt2	"turned to her, annoyed. ""I"	know	"know."""	'm	2.073089361190796	3.938385009765625	6.874932751088636e-06	0.20519478619098663	5
+337	vinny_transcript	transcript	gpt2	"to her, annoyed. ""I know."""	""""	"""So"	"
+"	3.468656539916992	3.4343643188476562	0.00021966372150927782	0.4354466199874878	5
+338	vinny_transcript	transcript	gpt2	"her, annoyed. ""I know."" ""So"	you	you	you	4.310464859008789	3.7569069862365723	2.7300759029458277e-05	0.2389846295118332	5
+339	vinny_transcript	transcript	gpt2	"annoyed. ""I know."" ""So you"	think	think	're	1.6820954084396362	3.9699134826660156	1.0287676559528336e-06	0.26504403352737427	5
+340	vinny_transcript	transcript	gpt2	"""I know."" ""So you think"	you	you	you	3.3831121921539307	3.7208168506622314	9.685742952569854e-06	0.1874973326921463	5
+341	vinny_transcript	transcript	gpt2	"know."" ""So you think you"	know	know	're	2.03076171875	2.8369386196136475	7.927426850073971e-06	0.28698498010635376	5
+342	vinny_transcript	transcript	gpt2	"""So you think you know"	what	what	what	2.3354830741882324	3.137920379638672	8.215658453991637e-06	0.3860304057598114	5
+343	vinny_transcript	transcript	gpt2	you think you know what	you	you're	I	1.1399779319763184	3.8439719676971436	1.4771939277125057e-05	0.19138675928115845	5
+344	vinny_transcript	transcript	gpt2	think you know what you're	doing	"doing?"""	doing	0.6534740328788757	2.3407833576202393	1.0641054359439295e-05	0.49096590280532837	5
+345	vinny_transcript	transcript	gpt2	"you know what you're doing?"""	""""	"""Yeah,"	"
+"	2.351233959197998	3.9967093467712402	0.001446939306333661	0.4206809997558594	5
+346	vinny_transcript	transcript	gpt2	"know what you're doing?"" ""Yeah,"	I	I	I	0.5885290503501892	4.005324363708496	0.00011779602209571749	0.29531046748161316	5
+347	vinny_transcript	transcript	gpt2	"what you're doing?"" ""Yeah, I"	think	think	'm	1.2894303798675537	3.4066102504730225	5.513958853953227e-07	0.3651445508003235	5
+348	vinny_transcript	transcript	gpt2	"you're doing?"" ""Yeah, I think"	I	I	so	3.2498221397399902	2.1705429553985596	1.8875731257139705e-05	0.45954400300979614	5
+349	vinny_transcript	transcript	gpt2	"doing?"" ""Yeah, I think I"	know	know	'm	1.8892459869384766	3.8999521732330322	3.17329022436752e-06	0.1306493729352951	5
+350	vinny_transcript	transcript	gpt2	"""Yeah, I think I know"	what	what	what	3.6211328506469727	3.490032911300659	3.760029358090833e-06	0.2876100540161133	5
+351	vinny_transcript	transcript	gpt2	I think I know what	I	I'm	I	1.183068037033081	3.7594120502471924	2.4520977603970096e-05	0.21719950437545776	5
+352	vinny_transcript	transcript	gpt2	think I know what I'm	doing	"doing."""	doing	0.6592640280723572	2.0061044692993164	1.6149979273905046e-05	0.521022617816925	5
+353	vinny_transcript	transcript	gpt2	"I know what I'm doing."""	She	She	"
+"	2.846388339996338	3.347097873687744	0.00045117453555576503	0.5289865136146545	5
+354	vinny_transcript	transcript	gpt2	"know what I'm doing."" She"	held	held	said	3.701859712600708	5.793299674987793	2.3703663032392797e-08	0.07565919309854507	5
+355	vinny_transcript	transcript	gpt2	"what I'm doing."" She held"	up	up	up	5.836023330688477	2.7126247882843018	2.03890504053561e-05	0.3114473223686218	5
+356	vinny_transcript	transcript	gpt2	"I'm doing."" She held up"	her	her	her	1.139385461807251	2.0389957427978516	9.856050837697694e-07	0.35919278860092163	5
+357	vinny_transcript	transcript	gpt2	"doing."" She held up her"	hands	hands.	hand	1.2283838987350464	3.683317184448242	2.09493023817231e-07	0.2953207492828369	5
+358	vinny_transcript	transcript	gpt2	She held up her hands.	""""	"""Because"	""""	1.5907193422317505	2.5246105194091797	3.136780287604779e-05	0.44431620836257935	5
+359	vinny_transcript	transcript	gpt2	"held up her hands. ""Because"	you	you	I	6.637567520141602	3.95686936378479	1.0070171811094042e-05	0.21485964953899384	5
+360	vinny_transcript	transcript	gpt2	"up her hands. ""Because you"	didn	didn't	're	2.2978403568267822	3.9534671306610107	1.0504836467362111e-07	0.2773096263408661	5
+361	vinny_transcript	transcript	gpt2	"her hands. ""Because you didn't"	look	look	know	0.0006480501033365726	4.825102806091309	1.2519919323494832e-08	0.10000728070735931	5
+362	vinny_transcript	transcript	gpt2	"hands. ""Because you didn't look"	like	like	like	5.651005744934082	3.910560369491577	1.616380131963524e-06	0.2971704304218292	5
+363	vinny_transcript	transcript	gpt2	"""Because you didn't look like"	you	you	you	1.7685667276382446	4.126664161682129	6.663523436145624e-06	0.1476859748363495	5
+364	vinny_transcript	transcript	gpt2	you didn't look like you	k	knew	were	1.6759587526321411	3.8340396881103516	1.7625445707381004e-06	0.2357363998889923	5
+365	vinny_transcript	transcript	gpt2	didn't look like you knew	what	what	what	5.877199172973633	3.6825544834136963	1.0649855539668351e-05	0.23039983212947845	5
+366	vinny_transcript	transcript	gpt2	look like you knew what	you	you	you	1.9930963516235352	2.4732134342193604	4.899678970105015e-05	0.4937025010585785	5
+367	vinny_transcript	transcript	gpt2	like you knew what you	were	were	were	0.9421666860580444	0.9395792484283447	0.00038684275932610035	0.8355617523193359	5
+368	vinny_transcript	transcript	gpt2	you knew what you were	doing	doing	doing	0.2646387219429016	1.8318476676940918	1.5362753401859663e-05	0.6182953715324402	5
+369	vinny_transcript	transcript	gpt2	knew what you were doing	today	today	.	1.22731614112854	3.982454776763916	9.510219456387858e-07	0.23027490079402924	5
+370	vinny_transcript	transcript	gpt2	what you were doing today	in	in	was	5.407716751098633	4.143996715545654	1.014463123283349e-05	0.15749669075012207	5
+371	vinny_transcript	transcript	gpt2	you were doing today in	that	that	the	4.537989139556885	5.802030563354492	3.822728103841655e-06	0.16116927564144135	5
+372	vinny_transcript	transcript	gpt2	were doing today in that	court	"courtroom."""	area	4.744901657104492	6.704587459564209	7.40950198974133e-08	0.04235983267426491	5
+373	vinny_transcript	transcript	gpt2	"doing today in that courtroom."""	""""	"""Why"	"
+"	3.059758424758911	2.2790486812591553	9.043668251251802e-05	0.6858690977096558	5
+374	vinny_transcript	transcript	gpt2	"today in that courtroom."" ""Why"	is	is	did	5.042732238769531	3.9307827949523926	4.954414634994464e-06	0.09872161597013474	5
+375	vinny_transcript	transcript	gpt2	"in that courtroom."" ""Why is"	that	"that?"""	it	2.7973499298095703	3.807379961013794	2.227834556833841e-05	0.21327067911624908	5
+376	vinny_transcript	transcript	gpt2	"that courtroom."" ""Why is that?"""	V	Vinny	""""	0.9972503781318665	4.534627437591553	3.679437668324681e-06	0.2110029011964798	5
+377	vinny_transcript	transcript	gpt2	"courtroom."" ""Why is that?"" Vinny"	sh	shrugged.	asked	1.4275016784667969	4.532767295837402	8.890738172340207e-06	0.3663027584552765	5
+378	vinny_transcript	transcript	gpt2	"""Why is that?"" Vinny shrugged."	""""	"""Well"	""""	0.4417954385280609	1.6421397924423218	3.130259574390948e-05	0.6002112030982971	5
+379	vinny_transcript	transcript	gpt2	"is that?"" Vinny shrugged. ""Well"	it	it's	,	3.6876461505889893	1.4833401441574097	3.22665164276259e-06	0.7788544297218323	5
+380	vinny_transcript	transcript	gpt2	"that?"" Vinny shrugged. ""Well it's"	a	a	not	0.7148135900497437	4.7601847648620605	1.1375206668162718e-05	0.1743045300245285	5
+381	vinny_transcript	transcript	gpt2	"Vinny shrugged. ""Well it's a"	lot	lot	bit	2.4365007877349854	5.774074077606201	3.308818463665375e-07	0.09731973707675934	5
+382	vinny_transcript	transcript	gpt2	"shrugged. ""Well it's a lot"	of	of	of	2.9786875247955322	3.0700552463531494	4.712232112069614e-06	0.27047449350357056	5
+383	vinny_transcript	transcript	gpt2	"""Well it's a lot of"	pro	procedure,	work	0.844329297542572	5.1563496589660645	1.8668883683403692e-07	0.2049490511417389	5
+384	vinny_transcript	transcript	gpt2	it's a lot of procedure,	is	is	but	1.6615080833435059	4.564177989959717	2.784339585559792e-06	0.18155519664287567	5
+385	vinny_transcript	transcript	gpt2	a lot of procedure, is	all	"all."""	that	6.171313762664795	5.8621745109558105	8.199864964808512e-07	0.06828482449054718	5
+386	vinny_transcript	transcript	gpt2	"lot of procedure, is all."""	""""	"""It's"	"
+"	7.4340314865112305	3.0716192722320557	0.0003157688188366592	0.5882650017738342	5
+387	vinny_transcript	transcript	gpt2	"of procedure, is all."" ""It's"	my	my	not	0.9212759137153625	5.10910701751709	6.319789918052265e-07	0.12492385506629944	5
+388	vinny_transcript	transcript	gpt2	"procedure, is all."" ""It's my"	first	first	job	4.492037773132324	5.961062908172607	1.0700523489504121e-06	0.10255467146635056	5
+389	vinny_transcript	transcript	gpt2	"is all."" ""It's my first"	trial	trial	time	3.272470712661743	4.8215436935424805	4.67045291330237e-09	0.34171468019485474	5
+390	vinny_transcript	transcript	gpt2	"all."" ""It's my first trial"	case	case,	","""	8.879173278808594	3.468708038330078	7.688005280215293e-05	0.19549015164375305	5
+391	vinny_transcript	transcript	gpt2	"""It's my first trial case,"	I	I'll	and	1.7029831409454346	3.1458027362823486	3.11120311380364e-05	0.31002625823020935	5
+392	vinny_transcript	transcript	gpt2	my first trial case, I'll	learn	learn	be	4.663137435913086	4.736845970153809	2.653936626018094e-09	0.16004182398319244	5
+393	vinny_transcript	transcript	gpt2	first trial case, I'll learn	as	as	how	7.029841423034668	3.8660247325897217	2.6810866415871715e-07	0.12318570911884308	5
+394	vinny_transcript	transcript	gpt2	trial case, I'll learn as	I	I	much	5.15639591217041	1.9672282934188843	1.3201020010455977e-05	0.5724219679832458	5
+395	vinny_transcript	transcript	gpt2	case, I'll learn as I	go	"go."""	go	1.2088239192962646	2.347136974334717	5.756079553975724e-05	0.6240126490592957	5
+396	vinny_transcript	transcript	gpt2	"I'll learn as I go."""	The	The	"
+"	1.6692705154418945	3.1152853965759277	0.0006155901937745512	0.5640798807144165	5
+397	vinny_transcript	transcript	gpt2	"learn as I go."" The"	cook	cook	first	4.09919548034668	8.42203426361084	4.33588951409547e-08	0.009707535617053509	5
+398	vinny_transcript	transcript	gpt2	"as I go."" The cook"	placed	placed	said	9.353097915649414	5.977569103240967	1.1887616437888937e-06	0.0838480144739151	5
+399	vinny_transcript	transcript	gpt2	"I go."" The cook placed"	two	two	a	6.307806015014648	2.8739025592803955	1.6854939133281732e-07	0.2578898072242737	5
+400	vinny_transcript	transcript	gpt2	"go."" The cook placed two"	plates	plates	cups	3.9995784759521484	6.140103340148926	3.1700828913017176e-06	0.05129805579781532	5
+401	vinny_transcript	transcript	gpt2	The cook placed two plates	in	in	on	4.099841117858887	2.701826333999634	1.0889705663430505e-05	0.28669607639312744	5
+402	vinny_transcript	transcript	gpt2	cook placed two plates in	front	front	the	2.6503472328186035	2.8727011680603027	4.798084319190821e-06	0.3067837059497833	5
+403	vinny_transcript	transcript	gpt2	placed two plates in front	of	of	of	2.6833534240722656	0.6791581511497498	1.7696345821605064e-05	0.88124018907547	5
+404	vinny_transcript	transcript	gpt2	two plates in front of	them	them,	the	0.21734541654586792	3.652884006500244	2.7426599444879685e-06	0.20364750921726227	5
+405	vinny_transcript	transcript	gpt2	plates in front of them,	covered	covered	and	1.6893813610076904	5.789015769958496	4.027073146062321e-07	0.15473529696464539	5
+406	vinny_transcript	transcript	gpt2	in front of them, covered	in	in	in	7.453125	2.334733247756958	1.1506582268339116e-05	0.43702998757362366	5
+407	vinny_transcript	transcript	gpt2	front of them, covered in	b	bacon,	blood	1.3121174573898315	6.79082727432251	3.3680703381833155e-07	0.07024902105331421	5
+408	vinny_transcript	transcript	gpt2	of them, covered in bacon,	egg	eggs,	cheese	1.3690640926361084	6.286285877227783	3.48982066498138e-05	0.0592808872461319	5
+409	vinny_transcript	transcript	gpt2	them, covered in bacon, eggs,	and	and	and	0.49577441811561584	5.3599724769592285	6.366503657773137e-05	0.1878223568201065	5
+410	vinny_transcript	transcript	gpt2	covered in bacon, eggs, and	a	a	cheese	1.4729115962982178	5.584533214569092	2.143117399100447e-06	0.07054905593395233	5
+411	vinny_transcript	transcript	gpt2	in bacon, eggs, and a	p	pile	few	3.3286421298980713	5.727154731750488	3.955899956054054e-06	0.07691118121147156	5
+412	vinny_transcript	transcript	gpt2	bacon, eggs, and a pile	of	of	of	7.4680986404418945	0.14705389738082886	5.560521913139382e-06	0.9870654344558716	5
+413	vinny_transcript	transcript	gpt2	eggs, and a pile of	some	some	other	0.027042841538786888	7.786638259887695	1.6973658034658e-07	0.01538843009620905	5
+414	vinny_transcript	transcript	gpt2	and a pile of some	kind	kind	of	7.503812789916992	6.695762634277344	3.6768524296348915e-05	0.15068748593330383	5
+415	vinny_transcript	transcript	gpt2	a pile of some kind	of	of	.	2.735414743423462	3.7164173126220703	9.81292669166578e-06	0.22513356804847717	5
+416	vinny_transcript	transcript	gpt2	pile of some kind of	white	white	a	3.665846109390259	8.533831596374512	5.117522050568368e-08	0.00844547152519226	5
+417	vinny_transcript	transcript	gpt2	of some kind of white	por	porridge.	supremacist	7.687809944152832	6.061306953430176	1.1101450070327701e-07	0.1257166713476181	5
+418	vinny_transcript	transcript	gpt2	some kind of white porridge.	V	Vinny	"
+"	2.2024827003479004	4.875669479370117	3.7140980566618964e-06	0.15815016627311707	5
+419	vinny_transcript	transcript	gpt2	kind of white porridge. Vinny	p	poked	's	2.1173136234283447	6.606668949127197	1.5680694559705444e-05	0.06714316457509995	5
+420	vinny_transcript	transcript	gpt2	of white porridge. Vinny poked	at	at	at	9.050032615661621	3.3920297622680664	2.1147609459148953e-06	0.16147010028362274	5
+421	vinny_transcript	transcript	gpt2	white porridge. Vinny poked at	it	it	the	1.8465588092803955	4.333932876586914	1.4805189039179822e-06	0.32397225499153137	5
+422	vinny_transcript	transcript	gpt2	porridge. Vinny poked at it	with	with	,	4.253050327301025	3.6496336460113525	9.796765425562626e-07	0.211168572306633	5
+423	vinny_transcript	transcript	gpt2	Vinny poked at it with	his	his	a	2.6376523971557617	2.8194024562835693	2.0928348476445535e-06	0.3064747154712677	5
+424	vinny_transcript	transcript	gpt2	poked at it with his	fork	fork.	hands	2.710710048675537	6.441460132598877	1.0970649100272567e-06	0.061778660863637924	5
+425	vinny_transcript	transcript	gpt2	at it with his fork.	""""	"""What's"	"
+"	1.3123794794082642	4.527476787567139	6.368150206981227e-05	0.265205442905426	5
+426	vinny_transcript	transcript	gpt2	"it with his fork. ""What's"	this	this	the	1.9656274318695068	3.5822863578796387	2.0508123270701617e-06	0.16766081750392914	5
+427	vinny_transcript	transcript	gpt2	"with his fork. ""What's this"	over	over	"?"""	3.450814723968506	4.352352142333984	5.446311206469545e-07	0.33992135524749756	5
+428	vinny_transcript	transcript	gpt2	"his fork. ""What's this over"	here	"here?"""	there	7.370815753936768	2.7621853351593018	4.9322989070788026e-05	0.48895028233528137	5
+429	vinny_transcript	transcript	gpt2	"fork. ""What's this over here?"""	The	The	"
+"	0.7294303178787231	4.337759017944336	0.00011252384138060734	0.2232801914215088	5
+430	vinny_transcript	transcript	gpt2	"""What's this over here?"" The"	cook	cook	man	3.8312666416168213	7.5656657218933105	6.814491371187614e-08	0.04503120854496956	5
+431	vinny_transcript	transcript	gpt2	"this over here?"" The cook"	look	looked	said	8.866559982299805	5.607422828674316	0.00010059901978820562	0.10032516717910767	5
+432	vinny_transcript	transcript	gpt2	"over here?"" The cook looked"	at	at	at	4.219270706176758	3.3323872089385986	3.838650627585594e-06	0.42376628518104553	5
+433	vinny_transcript	transcript	gpt2	"here?"" The cook looked at"	him	him	her	0.837123453617096	3.027853012084961	4.400954367156373e-06	0.24734783172607422	5
+434	vinny_transcript	transcript	gpt2	The cook looked at him	in	in	and	2.116159677505493	3.558624267578125	3.250196868975763e-06	0.18121956288814545	5
+435	vinny_transcript	transcript	gpt2	cook looked at him in	dis	disbelief.	disbelief	3.2936229705810547	3.9873721599578857	4.984244696970563e-07	0.15654142200946808	5
+436	vinny_transcript	transcript	gpt2	looked at him in disbelief.	""""	"""You've"	"
+"	1.1179994344711304	3.5574615001678467	0.00012056605919497088	0.3106052577495575	5
+437	vinny_transcript	transcript	gpt2	"at him in disbelief. ""You've"	never	never	got	3.364743232727051	4.01686429977417	1.3214743148637353e-06	0.21467626094818115	5
+438	vinny_transcript	transcript	gpt2	"him in disbelief. ""You've never"	heard	heard	seen	2.498992919921875	3.0721065998077393	1.7836524648373597e-06	0.2887473702430725	5
+439	vinny_transcript	transcript	gpt2	"in disbelief. ""You've never heard"	of	of	of	1.6259838342666626	1.667366862297058	2.429967025818769e-05	0.7188825607299805	5
+440	vinny_transcript	transcript	gpt2	"disbelief. ""You've never heard of"	g	"grits?"""	it	0.3237045407295227	5.865381717681885	1.0921359034909983e-06	0.10836685448884964	5
+441	vinny_transcript	transcript	gpt2	"""You've never heard of grits?"""	""""	"""Sure,"	"
+"	1.3621386289596558	4.882789611816406	0.002652504714205861	0.2547798752784729	5
+442	vinny_transcript	transcript	gpt2	"never heard of grits?"" ""Sure,"	sure	sure,	but	1.2314633131027222	4.747727394104004	8.874037007444713e-07	0.17126025259494781	5
+443	vinny_transcript	transcript	gpt2	"heard of grits?"" ""Sure, sure,"	I	I've	sure	1.541975498199463	5.081274509429932	3.8049172871978953e-05	0.14892685413360596	5
+444	vinny_transcript	transcript	gpt2	"of grits?"" ""Sure, sure, I've"	heard	heard	got	3.0240492820739746	3.609610080718994	7.889822484230535e-08	0.19661054015159607	5
+445	vinny_transcript	transcript	gpt2	"grits?"" ""Sure, sure, I've heard"	of	of	of	2.280804395675659	3.5086400508880615	2.1835265215486288e-05	0.21071191132068634	5
+446	vinny_transcript	transcript	gpt2	"""Sure, sure, I've heard of"	g	grits,	it	1.94989812374115	5.623735427856445	9.376661296300881e-07	0.12534570693969727	5
+447	vinny_transcript	transcript	gpt2	sure, I've heard of grits,	I	I've	but	1.9349091053009033	6.271937370300293	2.2460633772425354e-05	0.1621909886598587	5
+448	vinny_transcript	transcript	gpt2	I've heard of grits, I've	just	just	heard	0.6194919347763062	1.4872900247573853	1.5335814396166825e-08	0.7083096504211426	5
+449	vinny_transcript	transcript	gpt2	heard of grits, I've just	never	never	been	4.928096771240234	4.859926700592041	1.1400184121157508e-06	0.1436527818441391	5
+450	vinny_transcript	transcript	gpt2	of grits, I've just never	actually	actually…	seen	4.122488975524902	3.4715757369995117	6.1811739726636e-08	0.27626413106918335	5
+451	vinny_transcript	transcript	gpt2	grits, I've just never actually…	seen	seen	I	8.74638557434082	6.194460391998291	0.0009380727424286306	0.11425238102674484	5
+452	vinny_transcript	transcript	gpt2	I've just never actually… seen	a	a	a	5.334822654724121	4.123992919921875	6.254718755371869e-05	0.13639453053474426	5
+453	vinny_transcript	transcript	gpt2	just never actually… seen a	g	grit	single	2.6633737087249756	7.397481918334961	2.0890120140393265e-06	0.028738578781485558	5
+454	vinny_transcript	transcript	gpt2	never actually… seen a grit	before	"before."""	-	15.151039123535156	6.108913421630859	4.473156707263115e-07	0.06117618829011917	5
+455	vinny_transcript	transcript	gpt2	"actually… seen a grit before."""	""""	"""Go"	"
+"	4.134987831115723	3.2613813877105713	0.0004771360836457461	0.5585640668869019	5
+456	vinny_transcript	transcript	gpt2	"seen a grit before."" ""Go"	ahead	ahead	ahead	6.695700645446777	4.540323734283447	2.08902401936939e-05	0.18681976199150085	5
+457	vinny_transcript	transcript	gpt2	"a grit before."" ""Go ahead"	h	honey,	,	1.6720490455627441	2.7957167625427246	2.7083251552539878e-06	0.2749911844730377	5
+458	vinny_transcript	transcript	gpt2	"grit before."" ""Go ahead honey,"	aren	aren't	I	1.235779047012329	4.949923515319824	4.938603979098843e-07	0.1751018464565277	5
+459	vinny_transcript	transcript	gpt2	"before."" ""Go ahead honey, aren't"	you	you	you	0.0003108495147898793	0.39199501276016235	2.3001099179964513e-05	0.9301854968070984	5
+460	vinny_transcript	transcript	gpt2	"""Go ahead honey, aren't you"	going	going	"?"""	0.23261848092079163	5.451306343078613	5.136997515364783e-06	0.109468013048172	5
+461	vinny_transcript	transcript	gpt2	ahead honey, aren't you going	to	to	to	3.7123398780822754	0.7432376146316528	1.2168015018687584e-05	0.9096460938453674	5
+462	vinny_transcript	transcript	gpt2	honey, aren't you going to	try	try	be	0.08142564445734024	5.5467658042907715	1.4266333892010152e-07	0.07308655977249146	5
+463	vinny_transcript	transcript	gpt2	aren't you going to try	it	"it?"""	to	4.150407791137695	3.489971876144409	3.142529976685182e-06	0.36034461855888367	5
+464	vinny_transcript	transcript	gpt2	"you going to try it?"""	""""	"""You"	"
+"	1.3719162940979004	4.329568386077881	0.0012788447784259915	0.3700096905231476	5
+465	vinny_transcript	transcript	gpt2	"going to try it?"" ""You"	first	"first,"""	're	3.204305410385132	4.237015247344971	6.7129737324478356e-09	0.1605929136276245	5
+466	vinny_transcript	transcript	gpt2	"to try it?"" ""You first,"""	she	she	said	3.8515872955322266	5.168905258178711	5.3667870815843344e-05	0.16365936398506165	5
+467	vinny_transcript	transcript	gpt2	"try it?"" ""You first,"" she"	said	said	said	2.3368539810180664	3.023989677429199	2.819774863382918e-06	0.4680941700935364	5
+468	vinny_transcript	transcript	gpt2	"it?"" ""You first,"" she said"	with	with	.	0.7692940831184387	2.6942250728607178	8.855909072735813e-07	0.4074404537677765	5
+469	vinny_transcript	transcript	gpt2	"""You first,"" she said with"	a	a	a	3.9486355781555176	1.993574857711792	2.0649508769565728e-06	0.7445929050445557	5
+470	vinny_transcript	transcript	gpt2	"first,"" she said with a"	sm	smile.	laugh	0.3258371651172638	3.5245020389556885	1.9523765786289005e-06	0.30978265404701233	5
