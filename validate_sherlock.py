@@ -59,6 +59,8 @@ def _validate(datafile,
             data = NeuroscoutDataset(datafile, 'sherlock_transcript')
         else:
             data = NeuroscoutDataset(datafile, 'sherlock_align')
+        data.text = data.text.replace('That...', 'That... ')
+        data.text = data.text.replace(' - ', '- ')
         engine = StridingForwardLM(context_length=ctx_length)
         result = engine.run(data, tokenizer, model, model_id, gpu)
         result.to_csv(log_path, sep='\t')

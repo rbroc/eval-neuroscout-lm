@@ -6,11 +6,11 @@ class NeuroscoutDataset:
         if filename.endswith('.srt'):
             self.dataset_type = 'transcript'
             data = pysrt.open(filename)
-            text_list = [d.text.replace('\n', ' ') 
-                        for d in data]
-            text_list = [d.text.replace('  ', ' ') 
-                        for d in data]
+            text_list = [d.text for d in data]
             self.text = ' '.join(text_list)
+            self.text = self.text.replace('\n',' ')
+            self.text = self.text.replace(r'\n',' ')
+            self.text = self.text.replace('  ',' ')
         else:
             self.dataset_type = 'aligned'
             data = pd.read_csv(filename, sep='\t')
