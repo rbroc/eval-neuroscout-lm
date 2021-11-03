@@ -57,10 +57,16 @@ class StridingForwardLM:
         return top_token, loss, entr, prob_true, prob_predicted
         
     def run(self, dataset, tokenizer, model,
-            model_name, gpu=0, case_sensitive=False):
+            model_name, 
+            gpu=0, 
+            case_sensitive=False,
+            dataset_type='align'):
         time.sleep(.5)
         results = []
-        cs = 'cs' if case_sensitive else 'nocs'
+        if dataset_type == 'align':
+            cs = 'align_cs' if case_sensitive else 'align_nocs'
+        else:
+            cs = 'transcript'
         tokenized_lst, targets = self._preprocess(dataset.text, 
                                                   tokenizer) # masking
         print(f'Running {model_name}, '
