@@ -8,7 +8,8 @@ from scipy.stats import entropy
 
 COLUMNS = ['dataset', 'type', 'model', 'context', 'target', 
            'orig_wd', 'top_predicted', 'loss', 'entropy', 
-           'prob_true', 'prob_predicted', 'context_size']
+           'prob_true', 'prob_predicted', 'context_size',
+           'case_sensitive']
 
 
 class StridingForwardLM:
@@ -39,10 +40,8 @@ class StridingForwardLM:
         ctx = tokenizer.decode(input_ids[0])
         target_ids = input_ids.clone()
         target_ids[:,:-1] = -100
-        true_id = tokenizer.encode(true, return_tensors='pt')[:,:1].to(device=f'cuda:{str(gpu)}') # get id for true token
+        true_id = tokenizer.encode(true, return_tensors='pt')[:,:1].to(device=f'cuda:{str(gpu)}')
         true_token = tokenizer.decode(true_id[0,0]).strip(' ')
-        # input_ids = torch.cat((input_ids, true_id), axis=-1)
-        # target_ids = torch.cat((target_ids, true_id), axis=-1)
         return input_ids, target_ids, ctx, true_token, true_id[0,0]
     
     def _compute_metrics(self, outputs, wd_id, tokenizer):
@@ -58,9 +57,10 @@ class StridingForwardLM:
         return top_token, loss, entr, prob_true, prob_predicted
         
     def run(self, dataset, tokenizer, model,
-            model_name, gpu=0):
+            model_name, gpu=0, case_sensitive=False):
         time.sleep(.5)
         results = []
+        cs = 'cs' if case_sensitive else 'nocs'
         tokenized_lst, targets = self._preprocess(dataset.text, 
                                                   tokenizer) # masking
         print(f'Running {model_name}, '
@@ -77,6 +77,7 @@ class StridingForwardLM:
                             model_name, 
                             ctx, wd, targets[i], 
                             *metrics,
-                            self.context_length))
+                            self.context_length,
+                            cs))
         output = pd.DataFrame(results, columns=COLUMNS)
         return output

@@ -15,6 +15,8 @@ parser.add_argument('--gpu', type=int, default=0,
                     help='Which gpu to use')
 parser.add_argument('--ctx-length', nargs='+', default=[25],
                     help='Context sizes', type=int)
+parser.add_argument('--case-sensitive', dest='case_sensitive', 
+                    action='store_true')
 
 transformers.logging.set_verbosity(50)
 
@@ -53,24 +55,22 @@ def _validate(datafile,
               gpu=0,
               case_sensitive=True):
     ''' Main functon to run the validation'''
-    files = glob.glob('outputs/narratives/*')
+    files = glob.glob('outputs/narratives_compare/*')
     n_files = len(files)
     dataset_name = _make_dataset_id(datafile)
     if '/' in model_id:
         model_id_log = model_id.split('/')[1]
     else:
         model_id_log = model_id
-    if case_sensitive:
-        log_id = f'{dataset_name}_{model_id_log}_{ctx_length}_cs.txt'    
-    else:
-        log_id = f'{dataset_name}_{model_id_log}_{ctx_length}_nocs.txt'          
-    log_path = f'outputs/narratives/{log_id}' # sherlock
+    log_id = f'{dataset_name}_{model_id_log}_{ctx_length}.txt'          
+    log_path = f'outputs/narratives_compare/{log_id}' # sherlock
     if log_path not in files:
         tokenizer = tokenizer_class.from_pretrained(model_id)
         model = model_class.from_pretrained(model_id).to(device=f'cuda:{str(gpu)}')
         data = NarrativesDataset(datafile, dataset_name, case_sensitive=case_sensitive)
         engine = StridingForwardLM(context_length=ctx_length)
-        result = engine.run(data, tokenizer, model, model_id, gpu)
+        result = engine.run(data, tokenizer, model, model_id, gpu, 
+                            case_sensitive=case_sensitive)
         result.to_csv(log_path, sep='\t')
         print(f'{n_files+1} out of {len(parameters)}')
         return result
@@ -82,4 +82,5 @@ if __name__=='__main__':
     pars = product(parameters, args.ctx_length)
     pars = [(*p[0], p[1]) for p in pars]
     for p in pars:
-        _validate(*p, args.gpu)
+        _validate(*p, args.gpu, 
+                  case_sensitive=args.case_sensitive)
