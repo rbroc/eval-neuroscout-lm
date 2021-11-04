@@ -4,9 +4,10 @@ import pandas as pd
 import time
 import torch
 from scipy.stats import entropy
+from itertools import chain
 
 
-COLUMNS = ['dataset', 'type', 'model', 'context', 'target', 
+COLUMNS = ['dataset', 'model', 'context', 'target', 
            'orig_wd', 'top_predicted', 'loss', 'entropy', 
            'prob_true', 'prob_predicted', 'context_size',
            'case_sensitive']
@@ -32,6 +33,11 @@ class StridingForwardLM:
     
     def _preprocess(self, text, tokenizer):
         whitespaced = text.split(' ')
+        for c in ['–', '-', ':', '.', '…']: # to align transcripts and aligned
+            whitespaced = list(chain(*[w.split(c) 
+                                       for w in whitespaced]))
+        whitespaced = [w for w in whitespaced 
+                       if w not in ['"', '', '”', '’', '’”', ',']]
         tokenized_lst, targets = self._split(whitespaced, tokenizer)
         return tokenized_lst, targets
     
@@ -58,15 +64,9 @@ class StridingForwardLM:
         
     def run(self, dataset, tokenizer, model,
             model_name, 
-            gpu=0, 
-            case_sensitive=False,
-            dataset_type='align'):
+            gpu=0):
         time.sleep(.5)
         results = []
-        if dataset_type == 'align':
-            cs = 'align_cs' if case_sensitive else 'align_nocs'
-        else:
-            cs = 'transcript'
         tokenized_lst, targets = self._preprocess(dataset.text, 
                                                   tokenizer) # masking
         print(f'Running {model_name}, '
@@ -75,15 +75,14 @@ class StridingForwardLM:
         for i in tqdm(range(len(tokenized_lst))):
             input_ids, target_ids, ctx, wd, wd_id = self._mask(tokenized_lst[i].to(device=f'cuda:{str(gpu)}'), # edited
                                                                tokenizer, 
-                                                               targets[i], gpu) # make masking
+                                                               targets[i], gpu)
             outputs = model(input_ids, labels=target_ids)
             metrics = self._compute_metrics(outputs, wd_id, tokenizer)
             results.append((dataset.name, 
-                            dataset.dataset_type,
                             model_name, 
                             ctx, wd, targets[i], 
                             *metrics,
                             self.context_length,
-                            cs))
+                            dataset.dataset_type))
         output = pd.DataFrame(results, columns=COLUMNS)
         return output
