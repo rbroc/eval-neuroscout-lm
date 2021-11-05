@@ -14,8 +14,7 @@ COLUMNS = ['dataset', 'model', 'context', 'target',
 
 
 class StridingForwardLM:
-    ''' Class for striding forward LM over a dataset.
-    '''
+    ''' Striding forward LM over a dataset. '''
     def __init__(self, 
                  context_length=20):
         self.context_length = context_length
@@ -32,12 +31,13 @@ class StridingForwardLM:
         return split_tks, targets
     
     def _preprocess(self, text, tokenizer):
-        whitespaced = text.split(' ')
-        for c in ['–', '-', ':', '.', '…']: # to align transcripts and aligned
+        whitespaced = text.split()
+        for c in [r'—', r'–', r'-', r'—', 
+                  r':', r'.', r'…']: # this is not working...
             whitespaced = list(chain(*[w.split(c) 
                                        for w in whitespaced]))
         whitespaced = [w for w in whitespaced 
-                       if w not in ['"', '', '”', '’', '’”', ',']]
+                       if w not in [r'"', r'', r'”', r'’', r'’”', r',']]
         tokenized_lst, targets = self._split(whitespaced, tokenizer)
         return tokenized_lst, targets
     
