@@ -38,11 +38,12 @@ class NarrativesDataset:
             else:
                 if fill_na == 'unk':
                     text = data.iloc[:,1].fillna('<unk>').tolist()
+                    # maybe replace unk with other columns
                     self.dataset_type = 'align_lower_unk'
                 elif fill_na == 'replace':
                     data.iloc[:,1].fillna(data.iloc[:,0].str.lower(), 
                                           inplace=True) #replace na w/ other column
-                    data.iloc[:,1] = np.where(data.iloc[:,1] == '<unk>', 
+                    data.iloc[:,1] = np.where(data.iloc[:,1] == '<unk>',
                                               data.iloc[:,0].str.lower(), 
                                               data.iloc[:,1]) # replace unk with other column
                     self.dataset_type = 'align_lower_nounk'

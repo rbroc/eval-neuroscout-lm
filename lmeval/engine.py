@@ -5,6 +5,7 @@ import time
 import torch
 from scipy.stats import entropy
 from itertools import chain
+import re
 
 
 COLUMNS = ['dataset', 'model', 'context', 'target', 
@@ -32,12 +33,17 @@ class StridingForwardLM:
     
     def _preprocess(self, text, tokenizer):
         whitespaced = text.split()
-        for c in [r'—', r'–', r'-', r'—', 
-                  r':', r'.', r'…']: # this is not working...
-            whitespaced = list(chain(*[w.split(c) 
-                                       for w in whitespaced]))
-        whitespaced = [w for w in whitespaced 
-                       if w not in [r'"', r'', r'”', r'’', r'’”', r',']]
+        whitespaced = [re.sub(r'\b[^A-Za-z0-9\']+\b', ' ', c) 
+                       for w for w in whitespaced] # strip non-alpha in string [could add space]
+        whitespaced = list(chain(*[w.split() for w in whitespaced]))
+        pattern = re.compile("[^A-Za-z0-9]+") # drop non-alpha chars
+        whitespaced = [w for w in whitespaced if not bool(pattern.match(w))]
+        #for c in [r'—', r'–', r'-', r'—', 
+        #          r':', r'.', r'…']:
+        #    whitespaced = list(chain(*[w.split(c) 
+        #                               for w in whitespaced]))
+        #whitespaced = [w for w in whitespaced
+        #               if w not in [r'"', r'', r'”', r'’', r'’”', r',']] 
         tokenized_lst, targets = self._split(whitespaced, tokenizer)
         return tokenized_lst, targets
     
