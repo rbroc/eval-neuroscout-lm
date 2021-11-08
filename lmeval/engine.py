@@ -33,17 +33,23 @@ class StridingForwardLM:
     
     def _preprocess(self, text, tokenizer):
         whitespaced = text.split()
-        whitespaced = [re.sub(r'\b[^A-Za-z0-9\']+\b', ' ', c) 
-                       for w for w in whitespaced] # strip non-alpha in string [could add space]
-        whitespaced = list(chain(*[w.split() for w in whitespaced]))
-        pattern = re.compile("[^A-Za-z0-9]+") # drop non-alpha chars
-        whitespaced = [w for w in whitespaced if not bool(pattern.match(w))]
-        #for c in [r'—', r'–', r'-', r'—', 
-        #          r':', r'.', r'…']:
-        #    whitespaced = list(chain(*[w.split(c) 
-        #                               for w in whitespaced]))
-        #whitespaced = [w for w in whitespaced
-        #               if w not in [r'"', r'', r'”', r'’', r'’”', r',']] 
+        # Remove these characters
+        for c in [r'—', r'–', r'-', r'—', 
+                  r'…']: #r'.', 
+            whitespaced = list(chain(*[w.split(c) 
+                                       for w in whitespaced]))
+        # Strip : and . from middle but keep if not in middle
+        for c in [r':',r'.']:
+            for i in range(len(whitespaced)):
+                if whitespaced[i].endswith(c):
+                    whitespaced[i] = whitespaced[i].replace(c, ' ').rstrip(' ') + c
+                else:
+                    whitespaced[i] = whitespaced[i].replace(c, ' ')
+            whitespaced = list(chain(*[w.split() 
+                                       for w in whitespaced]))
+        # Attach these characters to work
+        whitespaced = [w for w in whitespaced
+                       if w not in [r'"', r'', r'”', r'’', r'’”', r',']] 
         tokenized_lst, targets = self._split(whitespaced, tokenizer)
         return tokenized_lst, targets
     
