@@ -1,4 +1,5 @@
-from transformers import (GPT2LMHeadModel, GPT2TokenizerFast)
+from transformers import (GPT2LMHeadModel, GPT2TokenizerFast,
+                          GPTNeoForCausalLM)
 from multiprocessing import Pool
 import pandas as pd
 import glob
@@ -42,8 +43,6 @@ def _validate(datafile,
               case_sensitive,
               fill_na):
     ''' Main function to run the validation'''
-    files = glob.glob('outputs/narratives_compare/*')
-    n_files = len(files)
     dataset_name = _make_dataset_id(datafile)
     if '/' in model_id:
         model_id_log = model_id.split('/')[1]
@@ -56,7 +55,7 @@ def _validate(datafile,
                              case_sensitive=case_sensitive,
                              fill_na=fill_na)
     log_id = f'{dataset_name}_{model_id_log}_{ctx_length}_{data.dataset_type}.txt'          
-    log_path = f'outputs/narratives_compare/{log_id}'
+    log_path = f'outputs/narratives_gpt3/{log_id}'
     engine = StridingForwardLM(context_length=ctx_length)
     result = engine.run(data, 
                         tokenizer, 
@@ -78,9 +77,9 @@ if __name__=='__main__':
         dataset_files = transcripts
     else:
         dataset_files = aligned + transcripts
-    model_classes = [GPT2LMHeadModel]
-    model_ids = ['gpt2']
-    tokenizer_classes = [GPT2TokenizerFast]
+    model_classes = [GPTNeoForCausalLM] #[GPT2LMHeadModel, OpenAIGPTLMHeadModel]
+    model_ids = ["EleutherAI/gpt-neo-1.3B"] #['gpt2', 'openai-gpt']
+    tokenizer_classes = [GPT2TokenizerFast] # OpenAIGPTTokenizerFast
     # Set up parameters
     model_parameters = list(zip(model_classes, 
                                 model_ids, 
