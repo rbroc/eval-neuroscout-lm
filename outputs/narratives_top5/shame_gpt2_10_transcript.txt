@@ -1,0 +1,483 @@
+	dataset	model	context	target	orig_wd	top_predicted	loss	entropy	prob_true	prob_predicted	top_5	top_10	context_size	case_sensitive
+0	shame	gpt2	Brandon spotted Marianne at a table as soon as he	 entered	entered	 arrived	4.860580921173096	4.072332382202148	0.01907925307750702	0.1436639130115509	0	0	10	transcript
+1	shame	gpt2	spotted Marianne at a table as soon as he entered	 the	the	 the	5.066374778747559	3.055461883544922	0.3780174255371094	0.3780174255371094	1	1	10	transcript
+2	shame	gpt2	Marianne at a table as soon as he entered the	 restaurant	restaurant.	 room	4.438660621643066	4.2230634689331055	0.015142635442316532	0.4465278387069702	0	1	10	transcript
+3	shame	gpt2	at a table as soon as he entered the restaurant.	 Though	Though	"
+"	3.2717807292938232	4.147273063659668	0.0007429835386574268	0.23763799667358398	0	0	10	transcript
+4	shame	gpt2	a table as soon as he entered the restaurant. Though	 he	he	 he	4.062934875488281	4.46248722076416	0.3081698417663574	0.3081698417663574	1	1	10	transcript
+5	shame	gpt2	table as soon as he entered the restaurant. Though he	 was	was	 was	3.435009002685547	4.6939473152160645	0.17401914298534393	0.17401914298534393	1	1	10	transcript
+6	shame	gpt2	as soon as he entered the restaurant. Though he was	 already	already	 not	3.347722291946411	6.1738972663879395	0.011000018566846848	0.08394050598144531	0	1	10	transcript
+7	shame	gpt2	soon as he entered the restaurant. Though he was already	 running	running	 in	3.617089033126831	6.299050807952881	0.0022311918437480927	0.05705663561820984	0	0	10	transcript
+8	shame	gpt2	as he entered the restaurant. Though he was already running	 late	late,	 late	4.195105075836182	3.897752523422241	0.18839281797409058	0.18839281797409058	1	1	10	transcript
+9	shame	gpt2	he entered the restaurant. Though he was already running late,	 he	he	 he	3.8041977882385254	4.590974807739258	0.3519779145717621	0.3519779145717621	1	1	10	transcript
+10	shame	gpt2	entered the restaurant. Though he was already running late, he	 stood	stood	 was	3.9268267154693604	5.043663024902344	0.0019995528273284435	0.1399657428264618	0	0	10	transcript
+11	shame	gpt2	the restaurant. Though he was already running late, he stood	 and	and	 up	4.097251892089844	3.6918935775756836	0.04681478813290596	0.33961227536201477	1	1	10	transcript
+12	shame	gpt2	restaurant. Though he was already running late, he stood and	 watched	watched	 watched	3.9487926959991455	5.692203521728516	0.08764747530221939	0.08764747530221939	1	1	10	transcript
+13	shame	gpt2	Though he was already running late, he stood and watched	 her	her	 the	3.467799663543701	4.453249931335449	0.018934287130832672	0.24084945023059845	0	1	10	transcript
+14	shame	gpt2	he was already running late, he stood and watched her	 for	for	.	3.9425244331359863	5.912686824798584	0.015840258449316025	0.08071890473365784	0	1	10	transcript
+15	shame	gpt2	was already running late, he stood and watched her for	 a	a	 a	4.283794403076172	2.3224427700042725	0.601190447807312	0.601190447807312	1	1	10	transcript
+16	shame	gpt2	already running late, he stood and watched her for a	 moment	moment	 moment	4.790000915527344	2.7501652240753174	0.27585548162460327	0.27585548162460327	1	1	10	transcript
+17	shame	gpt2	running late, he stood and watched her for a moment	 until	until	.	3.912726640701294	2.1796038150787354	0.006478573195636272	0.34240400791168213	0	0	10	transcript
+18	shame	gpt2	late, he stood and watched her for a moment until	 he	he	 she	3.496455669403076	2.6688477993011475	0.30009227991104126	0.37691444158554077	1	1	10	transcript
+19	shame	gpt2	he stood and watched her for a moment until he	 was	was	 finally	3.4170427322387695	4.9975152015686035	0.03901241719722748	0.06378889083862305	1	1	10	transcript
+20	shame	gpt2	stood and watched her for a moment until he was	 interrupted	interrupted	 able	3.5498852729797363	5.264749526977539	0.0011906255967915058	0.06411248445510864	0	0	10	transcript
+21	shame	gpt2	and watched her for a moment until he was interrupted	 by	by	 by	4.314779281616211	1.4542838335037231	0.6768667697906494	0.6768667697906494	1	1	10	transcript
+22	shame	gpt2	watched her for a moment until he was interrupted by	 the	the	 a	4.644365310668945	4.9652791023254395	0.15991225838661194	0.23033955693244934	1	1	10	transcript
+23	shame	gpt2	her for a moment until he was interrupted by the	 host	host.	 sound	3.401792287826538	7.301835060119629	0.00013565205154009163	0.07808686792850494	0	0	10	transcript
+24	shame	gpt2	for a moment until he was interrupted by the host.	" """	"""Are"	"
+"	4.228847026824951	3.8900961875915527	0.24267692863941193	0.26734715700149536	1	1	10	transcript
+25	shame	gpt2	"a moment until he was interrupted by the host. ""Are"	 you	you	 you	4.317178249359131	0.7071237564086914	0.8902782201766968	0.8902782201766968	1	1	10	transcript
+26	shame	gpt2	"moment until he was interrupted by the host. ""Are you"	 waiting	waiting	 sure	3.824816942214966	5.208347797393799	0.001305604469962418	0.10629330575466156	0	0	10	transcript
+27	shame	gpt2	"until he was interrupted by the host. ""Are you waiting"	 for	for	 for	3.862474203109741	1.4011521339416504	0.748655378818512	0.748655378818512	1	1	10	transcript
+28	shame	gpt2	"he was interrupted by the host. ""Are you waiting for"	 someone	someone,	 me	3.7106332778930664	3.383167266845703	0.014209664426743984	0.3858244717121124	0	0	10	transcript
+29	shame	gpt2	"was interrupted by the host. ""Are you waiting for someone,"	 sir	"sir?"""	 Mr	3.9357922077178955	6.978612422943115	0.0327853187918663	0.06871262937784195	1	1	10	transcript
+30	shame	gpt2	"interrupted by the host. ""Are you waiting for someone, sir?"""	" """	"""Oh"	"
+"	3.4370205402374268	3.924326181411743	0.03887903690338135	0.4080291986465454	1	1	10	transcript
+31	shame	gpt2	"by the host. ""Are you waiting for someone, sir?"" ""Oh"	 no	no,	,	3.672931432723999	2.03226375579834	0.0649309828877449	0.6503884792327881	1	1	10	transcript
+32	shame	gpt2	"the host. ""Are you waiting for someone, sir?"" ""Oh no,"	 my	my	 I	3.554586172103882	3.861306667327881	0.020088426768779755	0.29519277811050415	0	1	10	transcript
+33	shame	gpt2	"host. ""Are you waiting for someone, sir?"" ""Oh no, my"	 date	date's	 God	3.3665170669555664	4.662539482116699	3.364537769812159e-05	0.13960279524326324	0	0	10	transcript
+34	shame	gpt2	"""Are you waiting for someone, sir?"" ""Oh no, my date's"	 here	here,	 not	3.883807420730591	4.92971134185791	0.04761273041367531	0.14832517504692078	1	1	10	transcript
+35	shame	gpt2	"you waiting for someone, sir?"" ""Oh no, my date's here,"	 thank	thank	 and	4.122613906860352	5.077473163604736	0.003447570139542222	0.10750719159841537	0	0	10	transcript
+36	shame	gpt2	"waiting for someone, sir?"" ""Oh no, my date's here, thank"	 you	"you,"""	 you	4.591758728027344	0.6763901710510254	0.8974345326423645	0.8974345326423645	1	1	10	transcript
+37	shame	gpt2	"for someone, sir?"" ""Oh no, my date's here, thank you,"""	 said	said	 said	4.155697345733643	4.471791744232178	0.32147154211997986	0.32147154211997986	1	1	10	transcript
+38	shame	gpt2	"someone, sir?"" ""Oh no, my date's here, thank you,"" said"	 Brandon	Brandon,	 the	3.637977361679077	6.288085460662842	0.0001014717563521117	0.18252772092819214	0	0	10	transcript
+39	shame	gpt2	"sir?"" ""Oh no, my date's here, thank you,"" said Brandon,"	 and	and	" """	4.302709102630615	5.823260307312012	0.03493371233344078	0.06792936474084854	1	1	10	transcript
+40	shame	gpt2	"""Oh no, my date's here, thank you,"" said Brandon, and"	 walked	walked	 he	4.088855266571045	5.720878601074219	0.010148610919713974	0.13397476077079773	0	1	10	transcript
+41	shame	gpt2	"no, my date's here, thank you,"" said Brandon, and walked"	 quickly	quickly	 out	4.165060043334961	3.067364454269409	0.0035636750981211662	0.14269955456256866	0	0	10	transcript
+42	shame	gpt2	"my date's here, thank you,"" said Brandon, and walked quickly"	 over	over	 to	4.453060626983643	3.08398175239563	0.07097912579774857	0.20103628933429718	1	1	10	transcript
+43	shame	gpt2	"date's here, thank you,"" said Brandon, and walked quickly over"	 to	to	 to	4.334000110626221	0.9771304130554199	0.8294203281402588	0.8294203281402588	1	1	10	transcript
+44	shame	gpt2	"here, thank you,"" said Brandon, and walked quickly over to"	 Marian	Marianne's	 the	3.6938841342926025	4.234196662902832	3.431228833505884e-05	0.3767814040184021	0	0	10	transcript
+45	shame	gpt2	"thank you,"" said Brandon, and walked quickly over to Marianne's"	 table	table.	 bed	3.8911564350128174	5.645569801330566	0.035317208617925644	0.06939084082841873	0	1	10	transcript
+46	shame	gpt2	"you,"" said Brandon, and walked quickly over to Marianne's table."	 They	They	" """	3.8345046043395996	2.2583651542663574	0.012267660349607468	0.4585983157157898	0	1	10	transcript
+47	shame	gpt2	said Brandon, and walked quickly over to Marianne's table. They	 greeted	greeted	 were	4.46782112121582	5.039645195007324	0.002485138364136219	0.10590321570634842	0	0	10	transcript
+48	shame	gpt2	Brandon, and walked quickly over to Marianne's table. They greeted	 each	each	 her	4.261784553527832	2.686629056930542	0.18256935477256775	0.4025309383869171	1	1	10	transcript
+49	shame	gpt2	and walked quickly over to Marianne's table. They greeted each	 other	other	 other	4.352163314819336	0.12157231569290161	0.985925018787384	0.985925018787384	1	1	10	transcript
+50	shame	gpt2	walked quickly over to Marianne's table. They greeted each other	 with	with	 with	4.101405143737793	4.176883697509766	0.17434389889240265	0.17434389889240265	1	1	10	transcript
+51	shame	gpt2	quickly over to Marianne's table. They greeted each other with	 awkward	awkward	 a	4.131158828735352	4.93665885925293	0.0008945618174038827	0.2974170744419098	0	0	10	transcript
+52	shame	gpt2	over to Marianne's table. They greeted each other with awkward	 hell	hellos	 smiles	4.287395000457764	4.385012626647949	1.5450900718860794e-06	0.14334388077259064	0	0	10	transcript
+53	shame	gpt2	to Marianne's table. They greeted each other with awkward hellos	 as	as	.	5.041410446166992	2.516183376312256	0.031188219785690308	0.3301065266132355	1	1	10	transcript
+54	shame	gpt2	Marianne's table. They greeted each other with awkward hellos as	 Brandon	Brandon	 they	5.013644218444824	3.957390785217285	0.0001542099198559299	0.32032322883605957	0	0	10	transcript
+55	shame	gpt2	table. They greeted each other with awkward hellos as Brandon	 took	took	 and	5.3686747550964355	6.5896735191345215	0.015263772569596767	0.08488542586565018	0	1	10	transcript
+56	shame	gpt2	They greeted each other with awkward hellos as Brandon took	 his	his	 a	5.49330997467041	3.4495110511779785	0.11606321483850479	0.22318069636821747	1	1	10	transcript
+57	shame	gpt2	greeted each other with awkward hellos as Brandon took his	 seat	seat.	 place	5.695560455322266	4.79136323928833	0.08284363895654678	0.2764972746372223	1	1	10	transcript
+58	shame	gpt2	each other with awkward hellos as Brandon took his seat.	" """	"""Did"	"
+"	5.58948278427124	4.510712623596191	0.09414330124855042	0.2821492552757263	1	1	10	transcript
+59	shame	gpt2	"other with awkward hellos as Brandon took his seat. ""Did"	 you	you	 you	5.524276256561279	2.356290817260742	0.547848641872406	0.547848641872406	1	1	10	transcript
+60	shame	gpt2	"with awkward hellos as Brandon took his seat. ""Did you"	 find	find	 know	5.252220630645752	4.4701361656188965	0.011984441429376602	0.09394329786300659	0	0	10	transcript
+61	shame	gpt2	"awkward hellos as Brandon took his seat. ""Did you find"	 it	it	 out	5.3716630935668945	3.6804168224334717	0.03209724649786949	0.22019831836223602	0	1	10	transcript
+62	shame	gpt2	"hellos as Brandon took his seat. ""Did you find it"	 ok	"ok?"""	"?"""	4.7395429611206055	4.558503150939941	0.0006210800493136048	0.2556730806827545	0	0	10	transcript
+63	shame	gpt2	"as Brandon took his seat. ""Did you find it ok?"""	 he	he	"
+"	4.407716751098633	3.0265414714813232	0.1316981315612793	0.45381397008895874	1	1	10	transcript
+64	shame	gpt2	"Brandon took his seat. ""Did you find it ok?"" he"	 asked	asked.	 asked	3.688837766647339	0.8526285290718079	0.8722662329673767	0.8722662329673767	1	1	10	transcript
+65	shame	gpt2	"took his seat. ""Did you find it ok?"" he asked."	" """	"""Yes,"""	"
+"	3.2857303619384766	3.1949691772460938	0.2780941128730774	0.35207802057266235	1	1	10	transcript
+66	shame	gpt2	"his seat. ""Did you find it ok?"" he asked. ""Yes,"""	 replied	replied	 I	3.043921947479248	3.9057905673980713	0.01948537863790989	0.2775428295135498	0	1	10	transcript
+67	shame	gpt2	"seat. ""Did you find it ok?"" he asked. ""Yes,"" replied"	 Marian	Marianne	 the	2.891875982284546	6.167634010314941	6.458493589889258e-05	0.20422691106796265	0	0	10	transcript
+68	shame	gpt2	"""Did you find it ok?"" he asked. ""Yes,"" replied Marianne"	 with	with	.	3.34348464012146	1.654477596282959	0.010396757163107395	0.6587144136428833	1	1	10	transcript
+69	shame	gpt2	"you find it ok?"" he asked. ""Yes,"" replied Marianne with"	 a	a	 a	3.7876620292663574	1.2685447931289673	0.8417077660560608	0.8417077660560608	1	1	10	transcript
+70	shame	gpt2	"find it ok?"" he asked. ""Yes,"" replied Marianne with a"	 smile	smile.	 smile	3.505580186843872	4.365840435028076	0.2842726707458496	0.2842726707458496	1	1	10	transcript
+71	shame	gpt2	"it ok?"" he asked. ""Yes,"" replied Marianne with a smile."	" """	"""You"	" """	3.220078706741333	2.4869887828826904	0.4878650903701782	0.4878650903701782	1	1	10	transcript
+72	shame	gpt2	"ok?"" he asked. ""Yes,"" replied Marianne with a smile. ""You"	 look	look	're	2.8533759117126465	4.2737250328063965	0.012947076000273228	0.14246247708797455	0	0	10	transcript
+73	shame	gpt2	"he asked. ""Yes,"" replied Marianne with a smile. ""You look"	 handsome	handsome	 like	3.299314260482788	4.622207164764404	0.0013305465690791607	0.13597024977207184	0	0	10	transcript
+74	shame	gpt2	"asked. ""Yes,"" replied Marianne with a smile. ""You look handsome"	" """	"""You"	"."""	3.5675742626190186	2.564849615097046	1.4955451661080588e-05	0.2608558237552643	0	0	10	transcript
+75	shame	gpt2	"""Yes,"" replied Marianne with a smile. ""You look handsome ""You"	 look	look	're	4.2524566650390625	4.771481513977051	0.0490899384021759	0.12326153367757797	1	1	10	transcript
+76	shame	gpt2	"replied Marianne with a smile. ""You look handsome ""You look"	 amazing	amazing	 like	4.875002384185791	4.586484909057617	0.00573381595313549	0.15847714245319366	0	0	10	transcript
+77	shame	gpt2	"Marianne with a smile. ""You look handsome ""You look amazing"	 A	A	.	4.643996715545654	4.616554260253906	0.0007082372321747243	0.1513187289237976	0	0	10	transcript
+78	shame	gpt2	"with a smile. ""You look handsome ""You look amazing A"	 waiter	waiter	ww	5.0815253257751465	6.441046714782715	0.0002876081853173673	0.046598415821790695	0	0	10	transcript
+79	shame	gpt2	"a smile. ""You look handsome ""You look amazing A waiter"	 approached	approached	 comes	5.6739325523376465	5.653923034667969	0.001520046847872436	0.04526250436902046	0	0	10	transcript
+80	shame	gpt2	"smile. ""You look handsome ""You look amazing A waiter approached"	 their	their	 me	5.877762794494629	2.471123218536377	0.00014835842011962086	0.5561341047286987	0	0	10	transcript
+81	shame	gpt2	"""You look handsome ""You look amazing A waiter approached their"	 tables	tables	 table	7.0026326179504395	3.146855115890503	0.015901751816272736	0.6069015860557556	1	1	10	transcript
+82	shame	gpt2	"look handsome ""You look amazing A waiter approached their tables"	 with	with	 and	7.237248420715332	4.40130090713501	0.06741799414157867	0.22843436896800995	1	1	10	transcript
+83	shame	gpt2	"handsome ""You look amazing A waiter approached their tables with"	 menus	menus.	 a	6.675185680389404	3.5283546447753906	1.2844766388298012e-05	0.4459529519081116	0	0	10	transcript
+84	shame	gpt2	"""You look amazing A waiter approached their tables with menus."	" """	"""Welcome,"	 He	6.877225875854492	4.549661636352539	0.010734900832176208	0.12131943553686142	0	0	10	transcript
+85	shame	gpt2	"look amazing A waiter approached their tables with menus. ""Welcome,"	 I	I	 Mr	6.278651714324951	6.818234443664551	0.022394513711333275	0.050442181527614594	0	1	10	transcript
+86	shame	gpt2	"amazing A waiter approached their tables with menus. ""Welcome, I"	 have	have	'm	6.150003433227539	2.551621198654175	0.025009242817759514	0.49286386370658875	1	1	10	transcript
+87	shame	gpt2	"A waiter approached their tables with menus. ""Welcome, I have"	 a	a	 a	5.327632904052734	3.7192065715789795	0.3413352966308594	0.3413352966308594	1	1	10	transcript
+88	shame	gpt2	"waiter approached their tables with menus. ""Welcome, I have a"	 few	few	 question	5.283127784729004	6.165804386138916	0.019914600998163223	0.1163192093372345	1	1	10	transcript
+89	shame	gpt2	"approached their tables with menus. ""Welcome, I have a few"	 specials	specials	 questions	5.072662353515625	4.256375789642334	0.0002160800650017336	0.3629130423069	0	0	10	transcript
+90	shame	gpt2	"their tables with menus. ""Welcome, I have a few specials"	 on	on	 for	5.239583969116211	3.6709420680999756	0.09259273111820221	0.12787145376205444	1	1	10	transcript
+91	shame	gpt2	"tables with menus. ""Welcome, I have a few specials on"	 the	the	 my	5.09317684173584	3.571868896484375	0.18022271990776062	0.295949250459671	1	1	10	transcript
+92	shame	gpt2	"with menus. ""Welcome, I have a few specials on the"	 menu	menu,	 way	4.900083065032959	2.021116018295288	0.1287616342306137	0.693777859210968	1	1	10	transcript
+93	shame	gpt2	"menus. ""Welcome, I have a few specials on the menu,"	 if	if	 but	4.452928066253662	4.12197208404541	0.010783838108181953	0.24240197241306305	0	0	10	transcript
+94	shame	gpt2	"""Welcome, I have a few specials on the menu, if"	 you	you'd	 you	4.32399320602417	1.296484112739563	0.7713198661804199	0.7713198661804199	1	1	10	transcript
+95	shame	gpt2	I have a few specials on the menu, if you'd	 like	like	 like	3.4774668216705322	0.3755967617034912	0.9333660006523132	0.9333660006523132	1	1	10	transcript
+96	shame	gpt2	have a few specials on the menu, if you'd like	 to	to	 to	3.286621332168579	2.5036799907684326	0.5418462157249451	0.5418462157249451	1	1	10	transcript
+97	shame	gpt2	a few specials on the menu, if you'd like to	 hear	hear	 try	3.533457040786743	4.58653450012207	0.003710363991558552	0.16307760775089264	0	0	10	transcript
+98	shame	gpt2	few specials on the menu, if you'd like to hear	 them	"them?"""	 more	3.369901418685913	2.827793836593628	0.04701114818453789	0.3582770824432373	1	1	10	transcript
+99	shame	gpt2	"specials on the menu, if you'd like to hear them?"""	 They	They	"
+"	3.7615931034088135	3.4095981121063232	0.0013705678284168243	0.5551478266716003	0	0	10	transcript
+100	shame	gpt2	"on the menu, if you'd like to hear them?"" They"	 didn	didn't	 were	4.231515407562256	5.784601211547852	0.010011806152760983	0.06318827718496323	0	0	10	transcript
+101	shame	gpt2	"the menu, if you'd like to hear them?"" They didn't"	 even	even	 seem	4.075058460235596	4.503394603729248	0.03679104894399643	0.09363295882940292	0	1	10	transcript
+102	shame	gpt2	"menu, if you'd like to hear them?"" They didn't even"	 have	have	 know	3.9090359210968018	4.58384370803833	0.08816316723823547	0.10553360730409622	1	1	10	transcript
+103	shame	gpt2	"if you'd like to hear them?"" They didn't even have"	 time	time	 to	3.6308727264404297	3.4932403564453125	0.04454957693815231	0.3201707601547241	1	1	10	transcript
+104	shame	gpt2	"you'd like to hear them?"" They didn't even have time"	 to	to	 to	3.438918113708496	0.4204762279987335	0.9027231335639954	0.9027231335639954	1	1	10	transcript
+105	shame	gpt2	"like to hear them?"" They didn't even have time to"	 respond	respond	 think	3.4900946617126465	5.565988063812256	0.027226092293858528	0.07407145202159882	1	1	10	transcript
+106	shame	gpt2	"to hear them?"" They didn't even have time to respond"	 before	before	.	3.752784013748169	2.0961503982543945	0.010398492217063904	0.5221679210662842	0	1	10	transcript
+107	shame	gpt2	"hear them?"" They didn't even have time to respond before"	 he	he	 the	3.931053400039673	5.541903972625732	0.06699687242507935	0.22026503086090088	1	1	10	transcript
+108	shame	gpt2	"them?"" They didn't even have time to respond before he"	 launched	launched	 started	3.4330482482910156	5.714778900146484	0.0022650244645774364	0.06312683969736099	0	0	10	transcript
+109	shame	gpt2	They didn't even have time to respond before he launched	 into	into	 into	3.5477325916290283	2.4585952758789062	0.39517393708229065	0.39517393708229065	1	1	10	transcript
+110	shame	gpt2	didn't even have time to respond before he launched into	 his	his	 a	3.202934741973877	3.730649948120117	0.1276736706495285	0.33104661107063293	1	1	10	transcript
+111	shame	gpt2	even have time to respond before he launched into his	 speech	speech.	 own	4.294046878814697	6.67739200592041	0.004750762600451708	0.08459371328353882	0	0	10	transcript
+112	shame	gpt2	have time to respond before he launched into his speech.	 He	He	"
+"	4.042203903198242	3.1954803466796875	0.04887381196022034	0.5043545365333557	1	1	10	transcript
+113	shame	gpt2	time to respond before he launched into his speech. He	 finally	finally	 said	3.9549057483673096	5.278195381164551	0.0007382212206721306	0.11362151056528091	0	0	10	transcript
+114	shame	gpt2	to respond before he launched into his speech. He finally	 finished	finished,	 did	4.631948471069336	5.412137031555176	0.011616550385951996	0.08274755626916885	0	0	10	transcript
+115	shame	gpt2	respond before he launched into his speech. He finally finished,	 asking	asking	 and	4.109241962432861	4.923320770263672	0.0019849780946969986	0.20613618195056915	0	0	10	transcript
+116	shame	gpt2	before he launched into his speech. He finally finished, asking	 if	if	,	4.0635576248168945	4.291795253753662	0.04610110819339752	0.21015287935733795	1	1	10	transcript
+117	shame	gpt2	he launched into his speech. He finally finished, asking if	 they	they	 he	4.350986957550049	4.253417015075684	0.023315729573369026	0.2557052969932556	0	1	10	transcript
+118	shame	gpt2	launched into his speech. He finally finished, asking if they	 would	would	 could	4.675412178039551	3.1049551963806152	0.10084610432386398	0.21738824248313904	1	1	10	transcript
+119	shame	gpt2	into his speech. He finally finished, asking if they would	 like	like	 be	4.132816791534424	4.69315767288208	0.11163592338562012	0.14080914855003357	1	1	10	transcript
+120	shame	gpt2	his speech. He finally finished, asking if they would like	 to	to	 to	4.09280252456665	1.7916373014450073	0.7193617820739746	0.7193617820739746	1	1	10	transcript
+121	shame	gpt2	speech. He finally finished, asking if they would like to	 start	start	 see	3.7900702953338623	4.934816837310791	0.00827312096953392	0.0738050639629364	0	0	10	transcript
+122	shame	gpt2	He finally finished, asking if they would like to start	 with	with	 a	3.852713108062744	5.088785171508789	0.01958458311855793	0.1529882401227951	0	1	10	transcript
+123	shame	gpt2	finally finished, asking if they would like to start with	 some	some	 a	4.314103603363037	5.367090702056885	0.029165320098400116	0.2049901783466339	1	1	10	transcript
+124	shame	gpt2	finished, asking if they would like to start with some	 wine	wine.	 of	3.4764811992645264	7.581250190734863	0.0013097680639475584	0.05399862676858902	0	0	10	transcript
+125	shame	gpt2	asking if they would like to start with some wine.	 Brandon	Brandon	"
+"	3.667036771774292	4.778326034545898	2.401003621343989e-05	0.2533649802207947	0	0	10	transcript
+126	shame	gpt2	if they would like to start with some wine. Brandon	 looked	looked	's	4.838962554931641	6.528184413909912	0.001450807903893292	0.05081292986869812	0	0	10	transcript
+127	shame	gpt2	they would like to start with some wine. Brandon looked	 at	at	 at	5.020937919616699	2.7290561199188232	0.5429190397262573	0.5429190397262573	1	1	10	transcript
+128	shame	gpt2	would like to start with some wine. Brandon looked at	 Marian	Marianne.	 me	4.762760639190674	3.302173614501953	2.9088914743624628e-05	0.2998191714286804	0	0	10	transcript
+129	shame	gpt2	like to start with some wine. Brandon looked at Marianne.	" """	"""You"	" """	5.1861443519592285	2.8754990100860596	0.30526286363601685	0.30526286363601685	1	1	10	transcript
+130	shame	gpt2	"to start with some wine. Brandon looked at Marianne. ""You"	 want	want	 know	4.794678211212158	3.916006326675415	0.034402888268232346	0.19190439581871033	0	1	10	transcript
+131	shame	gpt2	"start with some wine. Brandon looked at Marianne. ""You want"	 some	some	 to	4.439690113067627	2.683696985244751	0.036900363862514496	0.501194179058075	1	1	10	transcript
+132	shame	gpt2	"with some wine. Brandon looked at Marianne. ""You want some"	 wine	"wine?"""	 wine	4.562248229980469	5.087856292724609	0.20352262258529663	0.20352262258529663	1	1	10	transcript
+133	shame	gpt2	"some wine. Brandon looked at Marianne. ""You want some wine?"""	" """	"""White,"	"
+"	4.07744026184082	2.646916389465332	0.09599466621875763	0.32547998428344727	1	1	10	transcript
+134	shame	gpt2	"wine. Brandon looked at Marianne. ""You want some wine?"" ""White,"	 red	"red?"""	 white	4.337576389312744	6.047047138214111	0.016735665500164032	0.09645195305347443	0	1	10	transcript
+135	shame	gpt2	"Brandon looked at Marianne. ""You want some wine?"" ""White, red?"""	" """	"""Red,"""	" """	4.526590824127197	3.2088096141815186	0.4798564016819	0.4798564016819	1	1	10	transcript
+136	shame	gpt2	"looked at Marianne. ""You want some wine?"" ""White, red?"" ""Red,"""	 she	she	 said	4.082581043243408	4.14398717880249	0.17296910285949707	0.1780395209789276	1	1	10	transcript
+137	shame	gpt2	"at Marianne. ""You want some wine?"" ""White, red?"" ""Red,"" she"	 nodded	nodded.	 said	4.1287970542907715	2.7387421131134033	0.002391482936218381	0.48309704661369324	0	0	10	transcript
+138	shame	gpt2	"Marianne. ""You want some wine?"" ""White, red?"" ""Red,"" she nodded."	" """	"""Maybe"	" """	3.9058189392089844	2.4683098793029785	0.6471814513206482	0.6471814513206482	1	1	10	transcript
+139	shame	gpt2	"""You want some wine?"" ""White, red?"" ""Red,"" she nodded. ""Maybe"	" """	"""Pinot"	 a	3.9078664779663086	4.445013046264648	0.0005913255154155195	0.1008969396352768	0	0	10	transcript
+140	shame	gpt2	"want some wine?"" ""White, red?"" ""Red,"" she nodded. ""Maybe ""Pinot"	 Noir	Noir	 Noir	4.405723571777344	1.0081181526184082	0.8288294672966003	0.8288294672966003	1	1	10	transcript
+141	shame	gpt2	"some wine?"" ""White, red?"" ""Red,"" she nodded. ""Maybe ""Pinot Noir"	 is	is,	","""	4.338623046875	2.9568843841552734	0.007751460652798414	0.21389664709568024	0	0	10	transcript
+142	shame	gpt2	"wine?"" ""White, red?"" ""Red,"" she nodded. ""Maybe ""Pinot Noir is,"	 um	um,	 well	4.372222423553467	4.501524925231934	0.08362706005573273	0.09368502348661423	1	1	10	transcript
+143	shame	gpt2	"""White, red?"" ""Red,"" she nodded. ""Maybe ""Pinot Noir is, um,"	 light	"light,"""	 a	4.334145545959473	6.151067733764648	0.00027059525018557906	0.10952547937631607	0	0	10	transcript
+144	shame	gpt2	"red?"" ""Red,"" she nodded. ""Maybe ""Pinot Noir is, um, light,"""	 the	the	 she	4.632859706878662	4.09213399887085	0.012410090304911137	0.38320839405059814	0	1	10	transcript
+145	shame	gpt2	"""Red,"" she nodded. ""Maybe ""Pinot Noir is, um, light,"" the"	 waiter	waiter	 girl	4.830773830413818	7.43145751953125	0.0051201810128986835	0.027482058852910995	0	0	10	transcript
+146	shame	gpt2	"she nodded. ""Maybe ""Pinot Noir is, um, light,"" the waiter"	 interrupted	interrupted.	 said	4.909862518310547	4.0010986328125	0.006216851994395256	0.3728918135166168	0	0	10	transcript
+147	shame	gpt2	"nodded. ""Maybe ""Pinot Noir is, um, light,"" the waiter interrupted."	" """	"""If"	" """	4.558920383453369	2.5355632305145264	0.4953855276107788	0.4953855276107788	1	1	10	transcript
+148	shame	gpt2	"""Maybe ""Pinot Noir is, um, light,"" the waiter interrupted. ""If"	 you	you	 you	4.768657207489014	3.140888214111328	0.34294816851615906	0.34294816851615906	1	1	10	transcript
+149	shame	gpt2	"""Pinot Noir is, um, light,"" the waiter interrupted. ""If you"	 like	like	're	4.148410797119141	4.079931735992432	0.050146616995334625	0.20750020444393158	1	1	10	transcript
+150	shame	gpt2	"Noir is, um, light,"" the waiter interrupted. ""If you like"	 it	it	,	4.375735759735107	4.662168979644775	0.10171021521091461	0.21641407907009125	1	1	10	transcript
+151	shame	gpt2	"is, um, light,"" the waiter interrupted. ""If you like it"	 like	like	,	4.012238502502441	2.9216208457946777	0.006744855083525181	0.5505668520927429	0	0	10	transcript
+152	shame	gpt2	"um, light,"" the waiter interrupted. ""If you like it like"	 light	light	 I	4.348481178283691	3.147242546081543	0.00022312311921268702	0.2662798762321472	0	0	10	transcript
+153	shame	gpt2	"light,"" the waiter interrupted. ""If you like it like light"	 He	He	,	4.5409064292907715	2.920555830001831	1.4108909454080276e-05	0.539552628993988	0	0	10	transcript
+154	shame	gpt2	"the waiter interrupted. ""If you like it like light He"	 trailed	trailed	's	5.656492710113525	5.703188419342041	3.902834578184411e-06	0.06140127032995224	0	0	10	transcript
+155	shame	gpt2	"waiter interrupted. ""If you like it like light He trailed"	 off	off	 off	6.267117977142334	2.724926471710205	0.5210403800010681	0.5210403800010681	1	1	10	transcript
+156	shame	gpt2	"interrupted. ""If you like it like light He trailed off"	 awkwardly	awkwardly.	.	5.397084712982178	3.567559003829956	0.0001985854614758864	0.16172215342521667	0	0	10	transcript
+157	shame	gpt2	"""If you like it like light He trailed off awkwardly."	" """	"""Great,"""	" """	6.193235397338867	4.704615116119385	0.13179825246334076	0.13179825246334076	1	1	10	transcript
+158	shame	gpt2	"you like it like light He trailed off awkwardly. ""Great,"""	 said	said	 he	5.556857585906982	4.139429092407227	0.0877896398305893	0.2403343766927719	1	1	10	transcript
+159	shame	gpt2	"like it like light He trailed off awkwardly. ""Great,"" said"	 Brandon	Brandon,	 the	5.368722438812256	6.830760955810547	0.00012739749217871577	0.11650111526250839	0	0	10	transcript
+160	shame	gpt2	"it like light He trailed off awkwardly. ""Great,"" said Brandon,"	 amused	amused.	" """	5.466555595397949	5.43096399307251	0.00034584119566716254	0.18014521896839142	0	0	10	transcript
+161	shame	gpt2	"like light He trailed off awkwardly. ""Great,"" said Brandon, amused."	 Brandon	Brandon	" """	5.0804877281188965	2.3692076206207275	0.005666167940944433	0.6227015852928162	0	1	10	transcript
+162	shame	gpt2	"light He trailed off awkwardly. ""Great,"" said Brandon, amused. Brandon"	 and	and	 looked	4.801143646240234	5.129519462585449	0.011485201306641102	0.07743138819932938	0	0	10	transcript
+163	shame	gpt2	"He trailed off awkwardly. ""Great,"" said Brandon, amused. Brandon and"	 Marian	Marianne	 Brandon	4.490392684936523	6.332197666168213	0.00013882633356843144	0.11244875937700272	0	0	10	transcript
+164	shame	gpt2	"trailed off awkwardly. ""Great,"" said Brandon, amused. Brandon and Marianne"	 made	made	 were	5.343669414520264	5.672402858734131	0.0059120687656104565	0.09528937190771103	0	0	10	transcript
+165	shame	gpt2	"off awkwardly. ""Great,"" said Brandon, amused. Brandon and Marianne made"	 small	small	 a	4.965364456176758	3.5851523876190186	0.009774748235940933	0.19177576899528503	0	0	10	transcript
+166	shame	gpt2	"awkwardly. ""Great,"" said Brandon, amused. Brandon and Marianne made small"	 talk	talk	 talk	4.749174118041992	0.7544091939926147	0.9162657260894775	0.9162657260894775	1	1	10	transcript
+167	shame	gpt2	"""Great,"" said Brandon, amused. Brandon and Marianne made small talk"	 about	about	,	4.746303081512451	2.948681354522705	0.06696464121341705	0.2664717733860016	1	1	10	transcript
+168	shame	gpt2	said Brandon, amused. Brandon and Marianne made small talk about	 where	where	 the	4.99133825302124	5.521449565887451	0.006243991665542126	0.15556657314300537	0	0	10	transcript
+169	shame	gpt2	Brandon, amused. Brandon and Marianne made small talk about where	 they	they	 they	5.061239719390869	3.172701597213745	0.47104841470718384	0.47104841470718384	1	1	10	transcript
+170	shame	gpt2	amused. Brandon and Marianne made small talk about where they	 grew	grew	 were	4.744991779327393	3.6575846672058105	0.008672240190207958	0.22270308434963226	0	0	10	transcript
+171	shame	gpt2	Brandon and Marianne made small talk about where they grew	 up	up	 up	4.166065216064453	0.18024441599845886	0.9788424968719482	0.9788424968719482	1	1	10	transcript
+172	shame	gpt2	and Marianne made small talk about where they grew up	 (	(Brooklyn	 and	4.479762077331543	2.198800802230835	0.00669198390096426	0.29450276494026184	0	1	10	transcript
+173	shame	gpt2	Marianne made small talk about where they grew up (Brooklyn	 for	for	,	4.504339694976807	3.184256076812744	0.0022462611086666584	0.48462826013565063	0	0	10	transcript
+174	shame	gpt2	made small talk about where they grew up (Brooklyn for	 her	her,	 example	4.543512344360352	6.041341781616211	0.006387664005160332	0.09301484376192093	0	0	10	transcript
+175	shame	gpt2	small talk about where they grew up (Brooklyn for her,	 Ireland	Ireland	 Brooklyn	4.476256847381592	6.810661315917969	8.119219273794442e-05	0.04873673990368843	0	0	10	transcript
+176	shame	gpt2	talk about where they grew up (Brooklyn for her, Ireland	 for	for	 for	4.843225479125977	0.852081835269928	0.8656696081161499	0.8656696081161499	1	1	10	transcript
+177	shame	gpt2	about where they grew up (Brooklyn for her, Ireland for	 him	him)	 her	4.35054349899292	3.924623966217041	0.010691097937524319	0.41492706537246704	0	1	10	transcript
+178	shame	gpt2	where they grew up (Brooklyn for her, Ireland for him)	 and	and	 and	4.348275184631348	4.697946548461914	0.2745407819747925	0.2745407819747925	1	1	10	transcript
+179	shame	gpt2	they grew up (Brooklyn for her, Ireland for him) and	 their	their	 they	4.316585540771484	5.796885967254639	0.011714284308254719	0.049279484897851944	0	0	10	transcript
+180	shame	gpt2	grew up (Brooklyn for her, Ireland for him) and their	 families	families	 family	4.549556255340576	6.646929740905762	0.031999144703149796	0.04273033142089844	1	1	10	transcript
+181	shame	gpt2	up (Brooklyn for her, Ireland for him) and their families	 (	(a	.	4.553961753845215	4.5958356857299805	0.02379799447953701	0.21567969024181366	0	1	10	transcript
+182	shame	gpt2	(Brooklyn for her, Ireland for him) and their families (a	 sister	sister	 few	4.574680805206299	7.359386444091797	0.0025379229336977005	0.04145199432969093	0	0	10	transcript
+183	shame	gpt2	for her, Ireland for him) and their families (a sister	 each	each),	,	5.1949872970581055	4.0769877433776855	7.332749373745173e-05	0.19746260344982147	0	0	10	transcript
+184	shame	gpt2	her, Ireland for him) and their families (a sister each),	 and	and	 and	5.498315811157227	5.308130741119385	0.18570257723331451	0.18570257723331451	1	1	10	transcript
+185	shame	gpt2	Ireland for him) and their families (a sister each), and	 then	then	 the	5.2640275955200195	5.773582935333252	0.03225937858223915	0.07182930409908295	1	1	10	transcript
+186	shame	gpt2	for him) and their families (a sister each), and then	 looked	looked	 they	4.855128288269043	5.800187110900879	0.0002221720205852762	0.1127612516283989	0	0	10	transcript
+187	shame	gpt2	him) and their families (a sister each), and then looked	 over	over	 at	5.026101589202881	3.140195369720459	0.02536134608089924	0.35051417350769043	0	1	10	transcript
+188	shame	gpt2	and their families (a sister each), and then looked over	 their	their	 at	5.39829683303833	3.182090997695923	0.15479779243469238	0.2089860886335373	1	1	10	transcript
+189	shame	gpt2	their families (a sister each), and then looked over their	 menus	menus	 shoulder	5.395236492156982	5.6316704750061035	7.679716509301215e-05	0.12697573006153107	0	0	10	transcript
+190	shame	gpt2	families (a sister each), and then looked over their menus	 in	in	.	5.776596546173096	2.8094286918640137	0.02755834348499775	0.2699184715747833	0	1	10	transcript
+191	shame	gpt2	(a sister each), and then looked over their menus in	 uncomfortable	uncomfortable	 the	5.819440841674805	4.933578014373779	2.098348704748787e-05	0.2355518490076065	0	0	10	transcript
+192	shame	gpt2	sister each), and then looked over their menus in uncomfortable	 silence	silence.	 silence	6.2942118644714355	4.687495231628418	0.2302086055278778	0.2302086055278778	1	1	10	transcript
+193	shame	gpt2	each), and then looked over their menus in uncomfortable silence.	 Marian	Marianne	"
+"	4.825222492218018	4.330539226531982	6.294539161899593e-06	0.31171366572380066	0	0	10	transcript
+194	shame	gpt2	and then looked over their menus in uncomfortable silence. Marianne	 tried	tried	,	5.302222728729248	6.03849458694458	0.003268454223871231	0.07675984501838684	0	0	10	transcript
+195	shame	gpt2	then looked over their menus in uncomfortable silence. Marianne tried	 to	to	 to	5.376675128936768	1.9570168256759644	0.7112777829170227	0.7112777829170227	1	1	10	transcript
+196	shame	gpt2	looked over their menus in uncomfortable silence. Marianne tried to	 start	start	 explain	4.69044828414917	6.03547477722168	0.0016284118173643947	0.067423515021801	0	0	10	transcript
+197	shame	gpt2	over their menus in uncomfortable silence. Marianne tried to start	 the	the	 a	5.5839104652404785	4.383987903594971	0.12196190655231476	0.15960319340229034	1	1	10	transcript
+198	shame	gpt2	their menus in uncomfortable silence. Marianne tried to start the	 conversation	conversation	 conversation	5.354409694671631	4.595209121704102	0.38340553641319275	0.38340553641319275	1	1	10	transcript
+199	shame	gpt2	menus in uncomfortable silence. Marianne tried to start the conversation	 again	again,	,	4.720914840698242	2.911903142929077	0.01800219714641571	0.2840161621570587	0	1	10	transcript
+200	shame	gpt2	in uncomfortable silence. Marianne tried to start the conversation again,	 saying	saying	 but	4.3349385261535645	2.6636154651641846	0.012331985868513584	0.6294149160385132	1	1	10	transcript
+201	shame	gpt2	uncomfortable silence. Marianne tried to start the conversation again, saying	" """	"""It"	,	3.935237169265747	2.9086155891418457	0.05426231026649475	0.23067893087863922	1	1	10	transcript
+202	shame	gpt2	"silence. Marianne tried to start the conversation again, saying ""It"	 took	took	's	3.974923849105835	1.946041464805603	0.001930274534970522	0.6528945565223694	0	0	10	transcript
+203	shame	gpt2	"Marianne tried to start the conversation again, saying ""It took"	 me	me	 me	4.091736316680908	3.3714187145233154	0.3345947861671448	0.3345947861671448	1	1	10	transcript
+204	shame	gpt2	"tried to start the conversation again, saying ""It took me"	 an	an	 a	3.896426200866699	3.4172120094299316	0.020086251199245453	0.38368383049964905	0	1	10	transcript
+205	shame	gpt2	"to start the conversation again, saying ""It took me an"	 hour	hour	 hour	4.016794204711914	1.4290390014648438	0.7198875546455383	0.7198875546455383	1	1	10	transcript
+206	shame	gpt2	"start the conversation again, saying ""It took me an hour"	 to	to	 to	3.6624655723571777	2.6248958110809326	0.4167528450489044	0.4167528450489044	1	1	10	transcript
+207	shame	gpt2	"the conversation again, saying ""It took me an hour to"	 figure	figure	 get	3.850943088531494	4.294206619262695	0.08458495885133743	0.22093531489372253	1	1	10	transcript
+208	shame	gpt2	"conversation again, saying ""It took me an hour to figure"	 out	out	 out	3.6071577072143555	1.3153663873672485	0.6423405408859253	0.6423405408859253	1	1	10	transcript
+209	shame	gpt2	"again, saying ""It took me an hour to figure out"	 what	what	 what	2.937816619873047	3.3263683319091797	0.22411178052425385	0.22411178052425385	1	1	10	transcript
+210	shame	gpt2	"saying ""It took me an hour to figure out what"	 to	to	 I	3.3907883167266846	4.094710826873779	0.1045977994799614	0.14160262048244476	1	1	10	transcript
+211	shame	gpt2	"""It took me an hour to figure out what to"	 wear	wear	 do	2.4513373374938965	1.3410552740097046	0.0026321543846279383	0.7405647039413452	0	0	10	transcript
+212	shame	gpt2	took me an hour to figure out what to wear	" """	"""You"	.	3.141390562057495	2.8881001472473145	0.0001279798016184941	0.3547728359699249	0	0	10	transcript
+213	shame	gpt2	"me an hour to figure out what to wear ""You"	 chose	chose	're	4.444921016693115	4.393937110900879	0.0002561098663136363	0.16988728940486908	0	0	10	transcript
+214	shame	gpt2	"an hour to figure out what to wear ""You chose"	 wisely	"wisely,"""	 your	5.25244140625	4.073291301727295	0.006705427076667547	0.18729883432388306	0	0	10	transcript
+215	shame	gpt2	"hour to figure out what to wear ""You chose wisely,"""	 said	said	 he	4.699069976806641	5.729279041290283	0.04270197078585625	0.13082276284694672	1	1	10	transcript
+216	shame	gpt2	"to figure out what to wear ""You chose wisely,"" said"	 Brandon	Brandon,	 the	4.973873615264893	7.695376396179199	0.000574774865526706	0.04953362047672272	0	0	10	transcript
+217	shame	gpt2	"figure out what to wear ""You chose wisely,"" said Brandon,"	 nodding	nodding.	 who	5.19687032699585	4.083782196044922	7.408061355818063e-05	0.3234620690345764	0	0	10	transcript
+218	shame	gpt2	"out what to wear ""You chose wisely,"" said Brandon, nodding."	 The	The	" """	5.431135177612305	2.8234004974365234	0.023601200431585312	0.44343358278274536	1	1	10	transcript
+219	shame	gpt2	"what to wear ""You chose wisely,"" said Brandon, nodding. The"	 waiter	waiter	 man	5.36566162109375	7.926238059997559	0.0007645240402780473	0.01765819638967514	0	0	10	transcript
+220	shame	gpt2	"to wear ""You chose wisely,"" said Brandon, nodding. The waiter"	 rushed	rushed	,	5.866426944732666	5.597768783569336	0.0005029496387578547	0.05077463388442993	0	0	10	transcript
+221	shame	gpt2	"wear ""You chose wisely,"" said Brandon, nodding. The waiter rushed"	 over	over	 over	5.500447750091553	2.623783826828003	0.4139374792575836	0.4139374792575836	1	1	10	transcript
+222	shame	gpt2	"""You chose wisely,"" said Brandon, nodding. The waiter rushed over"	 to	to	 to	4.691928386688232	1.7029964923858643	0.4620077311992645	0.4620077311992645	1	1	10	transcript
+223	shame	gpt2	"chose wisely,"" said Brandon, nodding. The waiter rushed over to"	 the	the	 the	5.275049209594727	5.060741901397705	0.22777718305587769	0.22777718305587769	1	1	10	transcript
+224	shame	gpt2	"wisely,"" said Brandon, nodding. The waiter rushed over to the"	 table	table	 table	4.394251823425293	6.012600898742676	0.1857796162366867	0.1857796162366867	1	1	10	transcript
+225	shame	gpt2	said Brandon, nodding. The waiter rushed over to the table	 and	and	 and	4.592787742614746	2.3811349868774414	0.3321579396724701	0.3321579396724701	1	1	10	transcript
+226	shame	gpt2	Brandon, nodding. The waiter rushed over to the table and	 poured	poured	 sat	3.788473606109619	5.434089183807373	0.004166394006460905	0.08841787278652191	0	0	10	transcript
+227	shame	gpt2	nodding. The waiter rushed over to the table and poured	 their	their	 a	3.8828649520874023	3.989067792892456	0.002417863579466939	0.20220375061035156	0	0	10	transcript
+228	shame	gpt2	The waiter rushed over to the table and poured their	 wine	wine.	 drinks	4.215112686157227	4.99044132232666	0.0678400993347168	0.11928129941225052	1	1	10	transcript
+229	shame	gpt2	waiter rushed over to the table and poured their wine.	 He	He	"
+"	4.542128086090088	4.0534539222717285	0.07734676450490952	0.245479553937912	1	1	10	transcript
+230	shame	gpt2	rushed over to the table and poured their wine. He	 then	then	 was	4.1286234855651855	5.6551079750061035	0.03194453939795494	0.0660000741481781	1	1	10	transcript
+231	shame	gpt2	over to the table and poured their wine. He then	 stood	stood	 took	3.9682509899139404	5.660154342651367	0.008227740414440632	0.04657173529267311	0	0	10	transcript
+232	shame	gpt2	to the table and poured their wine. He then stood	 there	there	 up	4.380791664123535	2.948345899581909	0.04889046400785446	0.3976452052593231	1	1	10	transcript
+233	shame	gpt2	the table and poured their wine. He then stood there	 expect	expectantly,	,	4.4720611572265625	3.583702325820923	2.7685591703630053e-05	0.24387617409229279	0	0	10	transcript
+234	shame	gpt2	table and poured their wine. He then stood there expectantly,	 and	and	 and	4.55022668838501	5.656813621520996	0.08939048647880554	0.08939048647880554	1	1	10	transcript
+235	shame	gpt2	and poured their wine. He then stood there expectantly, and	 they	they	 said	4.3511152267456055	5.744574069976807	0.010518765076994896	0.08075887709856033	0	0	10	transcript
+236	shame	gpt2	poured their wine. He then stood there expectantly, and they	 realized	realized	 all	4.465524673461914	5.2639851570129395	0.0005057835369370878	0.09738314896821976	0	0	10	transcript
+237	shame	gpt2	their wine. He then stood there expectantly, and they realized	 he	he	 that	4.759057998657227	2.7902557849884033	0.09569936990737915	0.3948361873626709	1	1	10	transcript
+238	shame	gpt2	wine. He then stood there expectantly, and they realized he	 was	was	 was	4.31856107711792	2.074460506439209	0.5521373748779297	0.5521373748779297	1	1	10	transcript
+239	shame	gpt2	He then stood there expectantly, and they realized he was	 waiting	waiting	 not	4.151250839233398	5.743015289306641	0.005588885396718979	0.06092074513435364	0	0	10	transcript
+240	shame	gpt2	then stood there expectantly, and they realized he was waiting	 for	for	 for	4.188626766204834	1.6848820447921753	0.6812776923179626	0.6812776923179626	1	1	10	transcript
+241	shame	gpt2	stood there expectantly, and they realized he was waiting for	 their	their	 them	4.07862663269043	1.736769199371338	0.02711619809269905	0.7066677212715149	0	1	10	transcript
+242	shame	gpt2	there expectantly, and they realized he was waiting for their	 order	order.	 attention	4.539997577667236	6.73244571685791	0.006005818024277687	0.05820752680301666	0	0	10	transcript
+243	shame	gpt2	expectantly, and they realized he was waiting for their order.	 They	They	"
+"	4.180649757385254	4.240631103515625	0.06516781449317932	0.3012639582157135	1	1	10	transcript
+244	shame	gpt2	and they realized he was waiting for their order. They	 both	both	 were	3.8871798515319824	5.678781986236572	0.004311371594667435	0.0680324137210846	0	0	10	transcript
+245	shame	gpt2	they realized he was waiting for their order. They both	 ordered	ordered	 knew	3.946268081665039	5.734738826751709	0.0044743092730641365	0.045977652072906494	0	0	10	transcript
+246	shame	gpt2	realized he was waiting for their order. They both ordered	 the	the	 him	4.472825527191162	4.812121391296387	0.12590885162353516	0.1748751699924469	1	1	10	transcript
+247	shame	gpt2	he was waiting for their order. They both ordered the	 lamb	lamb,	 same	4.019468784332275	7.625566005706787	0.0002496611559763551	0.035782814025878906	0	0	10	transcript
+248	shame	gpt2	was waiting for their order. They both ordered the lamb,	 then	then	 and	4.401042938232422	4.107696056365967	0.01845564879477024	0.24093405902385712	0	1	10	transcript
+249	shame	gpt2	waiting for their order. They both ordered the lamb, then	 turned	turned	 the	4.680510997772217	6.03815221786499	0.00960384402424097	0.0660976842045784	0	0	10	transcript
+250	shame	gpt2	for their order. They both ordered the lamb, then turned	 to	to	 to	5.000235080718994	2.7928004264831543	0.22809983789920807	0.22809983789920807	1	1	10	transcript
+251	shame	gpt2	their order. They both ordered the lamb, then turned to	 one	one	 the	4.686111927032471	4.7124714851379395	0.019036846235394478	0.25642406940460205	0	1	10	transcript
+252	shame	gpt2	order. They both ordered the lamb, then turned to one	 another	another	 another	4.723361015319824	2.0676052570343018	0.5632603168487549	0.5632603168487549	1	1	10	transcript
+253	shame	gpt2	They both ordered the lamb, then turned to one another	 as	as	 and	4.545704364776611	2.4728293418884277	0.025394771248102188	0.3106251657009125	0	1	10	transcript
+254	shame	gpt2	both ordered the lamb, then turned to one another as	 the	the	 they	5.031477928161621	3.5113706588745117	0.07105278223752975	0.21872110664844513	1	1	10	transcript
+255	shame	gpt2	ordered the lamb, then turned to one another as the	 waiter	waiter	 lamb	4.475162029266357	7.719740867614746	0.0008114236989058554	0.02836592122912407	0	0	10	transcript
+256	shame	gpt2	the lamb, then turned to one another as the waiter	 nodded	nodded	,	5.024763107299805	5.966041564941406	0.0006042757886461914	0.03317229822278023	0	0	10	transcript
+257	shame	gpt2	lamb, then turned to one another as the waiter nodded	 and	and	.	5.1174163818359375	3.3384287357330322	0.11737613379955292	0.2211119532585144	1	1	10	transcript
+258	shame	gpt2	then turned to one another as the waiter nodded and	 backed	backed	 said	4.766812324523926	5.632701873779297	0.0002811803133226931	0.06498409062623978	0	0	10	transcript
+259	shame	gpt2	turned to one another as the waiter nodded and backed	 away	away.	 away	5.134626388549805	2.1637983322143555	0.2875920236110687	0.2875920236110687	1	1	10	transcript
+260	shame	gpt2	to one another as the waiter nodded and backed away.	" """	"""So,"	"
+"	4.916413307189941	3.9949121475219727	0.07887245714664459	0.34992918372154236	1	1	10	transcript
+261	shame	gpt2	"one another as the waiter nodded and backed away. ""So,"	 you	you	 what	4.569375038146973	5.177481651306152	0.0956810712814331	0.12544456124305725	1	1	10	transcript
+262	shame	gpt2	"another as the waiter nodded and backed away. ""So, you"	 seeing	seeing	're	4.263351917266846	4.3495635986328125	7.92398932389915e-05	0.22023986279964447	0	0	10	transcript
+263	shame	gpt2	"as the waiter nodded and backed away. ""So, you seeing"	 anyone	anyone	 the	4.677750110626221	4.572579383850098	0.0016331742517650127	0.1070646196603775	0	0	10	transcript
+264	shame	gpt2	"the waiter nodded and backed away. ""So, you seeing anyone"	 at	at	 here	4.904128551483154	5.351838111877441	0.01907406933605671	0.069369837641716	0	0	10	transcript
+265	shame	gpt2	"waiter nodded and backed away. ""So, you seeing anyone at"	 the	the	 all	4.866679668426514	3.3271310329437256	0.21431419253349304	0.3678056299686432	1	1	10	transcript
+266	shame	gpt2	"nodded and backed away. ""So, you seeing anyone at the"	 moment	"moment?"""	 airport	4.592875957489014	7.214894771575928	0.007787506096065044	0.021988902240991592	0	0	10	transcript
+267	shame	gpt2	"and backed away. ""So, you seeing anyone at the moment?"""	 asked	asked	"
+"	4.789254188537598	4.322604656219482	0.03642355650663376	0.30906155705451965	0	1	10	transcript
+268	shame	gpt2	"backed away. ""So, you seeing anyone at the moment?"" asked"	 Brandon	Brandon.	 the	4.462187767028809	6.996171474456787	0.00013371360546443611	0.11752314120531082	0	0	10	transcript
+269	shame	gpt2	"away. ""So, you seeing anyone at the moment?"" asked Brandon."	" """	"""No"	" """	4.334530830383301	2.393929958343506	0.4966563880443573	0.4966563880443573	1	1	10	transcript
+270	shame	gpt2	"""So, you seeing anyone at the moment?"" asked Brandon. ""No"	 actually	actually,	,	4.4901347160339355	2.6299257278442383	0.00016159121878445148	0.5188432931900024	0	0	10	transcript
+271	shame	gpt2	"you seeing anyone at the moment?"" asked Brandon. ""No actually,"	 I	I'm	 I	4.269495964050293	4.089075088500977	0.20930969715118408	0.20930969715118408	1	1	10	transcript
+272	shame	gpt2	"seeing anyone at the moment?"" asked Brandon. ""No actually, I'm"	 separated	separated	 just	3.8920764923095703	4.167728424072266	4.51167625215021e-06	0.2640322148799896	0	0	10	transcript
+273	shame	gpt2	"anyone at the moment?"" asked Brandon. ""No actually, I'm separated"	" """	"""Kind"	 from	4.5754289627075195	1.721483588218689	6.468976789619774e-05	0.7142132520675659	0	0	10	transcript
+274	shame	gpt2	"at the moment?"" asked Brandon. ""No actually, I'm separated ""Kind"	 of	of	 of	5.364375591278076	2.936131477355957	0.3257937729358673	0.3257937729358673	1	1	10	transcript
+275	shame	gpt2	"the moment?"" asked Brandon. ""No actually, I'm separated ""Kind of"	 a	a	"."""	5.515341281890869	4.874530792236328	0.020997649058699608	0.12306978553533554	0	1	10	transcript
+276	shame	gpt2	"moment?"" asked Brandon. ""No actually, I'm separated ""Kind of a"	 recent	recent	 weird	5.3966264724731445	6.5945234298706055	8.942819840740412e-05	0.1020723208785057	0	0	10	transcript
+277	shame	gpt2	"asked Brandon. ""No actually, I'm separated ""Kind of a recent"	 thing	thing	 thing	6.1052470207214355	6.735581398010254	0.05285274609923363	0.05285274609923363	1	1	10	transcript
+278	shame	gpt2	"Brandon. ""No actually, I'm separated ""Kind of a recent thing"	" """	"""Oh,"	.	5.630141258239746	3.421274423599243	0.0013318605488166213	0.22448234260082245	0	0	10	transcript
+279	shame	gpt2	"""No actually, I'm separated ""Kind of a recent thing ""Oh,"	 you	you	 I	5.826958179473877	4.686661243438721	0.05542338266968727	0.14779654145240784	1	1	10	transcript
+280	shame	gpt2	"actually, I'm separated ""Kind of a recent thing ""Oh, you"	 were	were	're	5.479577541351318	4.0980939865112305	0.01950192078948021	0.20849139988422394	0	1	10	transcript
+281	shame	gpt2	"I'm separated ""Kind of a recent thing ""Oh, you were"	 married	married	 a	5.940465450286865	5.780124187469482	0.009765250608325005	0.05558198690414429	0	0	10	transcript
+282	shame	gpt2	"separated ""Kind of a recent thing ""Oh, you were married"	 for	for	 to	5.880661487579346	4.295460224151611	0.025333652272820473	0.15855881571769714	0	1	10	transcript
+283	shame	gpt2	"""Kind of a recent thing ""Oh, you were married for"	 long	"long?"""	 a	4.894979476928711	4.292881488800049	0.001167242880910635	0.136384516954422	0	0	10	transcript
+284	shame	gpt2	"of a recent thing ""Oh, you were married for long?"""	" """	"""No,"	"
+"	5.2052483558654785	5.407980442047119	0.03002537041902542	0.10185776650905609	1	1	10	transcript
+285	shame	gpt2	"a recent thing ""Oh, you were married for long?"" ""No,"	 gave	gave	 I	4.625572681427002	3.4153847694396973	1.0711632967286278e-05	0.35265815258026123	0	0	10	transcript
+286	shame	gpt2	"recent thing ""Oh, you were married for long?"" ""No, gave"	 it	it	 me	4.811776161193848	2.945784091949463	0.05574379488825798	0.39818108081817627	1	1	10	transcript
+287	shame	gpt2	"thing ""Oh, you were married for long?"" ""No, gave it"	 a	a	 to	4.324860572814941	3.203540086746216	0.15206217765808105	0.2308962047100067	1	1	10	transcript
+288	shame	gpt2	"""Oh, you were married for long?"" ""No, gave it a"	 shot	shot,	 try	4.202648639678955	4.040135860443115	0.10566025972366333	0.2741873264312744	1	1	10	transcript
+289	shame	gpt2	"you were married for long?"" ""No, gave it a shot,"	 it	it	 but	4.287588119506836	5.144571781158447	0.029125342145562172	0.1080990806221962	0	1	10	transcript
+290	shame	gpt2	"were married for long?"" ""No, gave it a shot, it"	 didn	didn't	 was	4.604766368865967	3.392577886581421	0.0766831636428833	0.31290799379348755	1	1	10	transcript
+291	shame	gpt2	"married for long?"" ""No, gave it a shot, it didn't"	 really	really	 hurt	3.820425271987915	4.543545246124268	0.0213940367102623	0.13034041225910187	0	0	10	transcript
+292	shame	gpt2	"for long?"" ""No, gave it a shot, it didn't really"	 work	work	 work	3.8477303981781006	4.645549774169922	0.10145963728427887	0.10145963728427887	1	1	10	transcript
+293	shame	gpt2	"long?"" ""No, gave it a shot, it didn't really work"	 out	out	"."""	3.451786518096924	2.8198485374450684	0.2033427357673645	0.2268901914358139	1	1	10	transcript
+294	shame	gpt2	"""No, gave it a shot, it didn't really work out"	 She	She	 that	3.232987403869629	3.077179431915283	2.365654609093326e-06	0.2059991955757141	0	0	10	transcript
+295	shame	gpt2	gave it a shot, it didn't really work out She	 paused	paused,	 was	3.9065818786621094	5.990797996520996	0.0006482413737103343	0.07108799368143082	0	0	10	transcript
+296	shame	gpt2	it a shot, it didn't really work out She paused,	 fing	fingering	 looking	4.399104118347168	5.6987409591674805	6.0815291362814605e-05	0.06969299912452698	0	0	10	transcript
+297	shame	gpt2	a shot, it didn't really work out She paused, fingering	 her	her	 her	4.658990859985352	2.765315532684326	0.34623122215270996	0.34623122215270996	1	1	10	transcript
+298	shame	gpt2	shot, it didn't really work out She paused, fingering her	 nap	napkin.	 lips	4.255030632019043	5.827134609222412	2.2839814846520312e-05	0.04948745295405388	0	0	10	transcript
+299	shame	gpt2	it didn't really work out She paused, fingering her napkin.	" """	"""What"	" """	4.415153503417969	3.6948769092559814	0.3309780955314636	0.3309780955314636	1	1	10	transcript
+300	shame	gpt2	"didn't really work out She paused, fingering her napkin. ""What"	 about	about	 do	4.240482807159424	3.6660263538360596	0.056215208023786545	0.14217829704284668	1	1	10	transcript
+301	shame	gpt2	"really work out She paused, fingering her napkin. ""What about"	 you	"you?"""	 you	4.5180487632751465	5.195713996887207	0.17335231602191925	0.17335231602191925	1	1	10	transcript
+302	shame	gpt2	"work out She paused, fingering her napkin. ""What about you?"""	" """	"""No,"	"
+"	3.9950101375579834	2.5813546180725098	0.04744281619787216	0.4768379330635071	1	1	10	transcript
+303	shame	gpt2	"out She paused, fingering her napkin. ""What about you?"" ""No,"	 I	I'm	 I	3.4801766872406006	3.8568217754364014	0.39279717206954956	0.39279717206954956	1	1	10	transcript
+304	shame	gpt2	"She paused, fingering her napkin. ""What about you?"" ""No, I'm"	 not	not	 not	3.0288267135620117	4.061499118804932	0.2534009516239166	0.2534009516239166	1	1	10	transcript
+305	shame	gpt2	"paused, fingering her napkin. ""What about you?"" ""No, I'm not"	 seeing	seeing	 going	3.053070545196533	5.286609172821045	0.0019961220677942038	0.13027633726596832	0	0	10	transcript
+306	shame	gpt2	"fingering her napkin. ""What about you?"" ""No, I'm not seeing"	 anyone	anyone	 you	3.312810182571411	3.3801114559173584	0.047171320766210556	0.3739840090274811	1	1	10	transcript
+307	shame	gpt2	"her napkin. ""What about you?"" ""No, I'm not seeing anyone"	" """	"""To"	"."""	3.1382393836975098	3.226428270339966	0.00013723176380153745	0.22177189588546753	0	0	10	transcript
+308	shame	gpt2	"napkin. ""What about you?"" ""No, I'm not seeing anyone ""To"	 be	be	-	3.889589548110962	6.506270408630371	0.03235400840640068	0.05119911581277847	1	1	10	transcript
+309	shame	gpt2	"""What about you?"" ""No, I'm not seeing anyone ""To be"	 honest	honest	 honest	3.628758430480957	2.8119564056396484	0.547715425491333	0.547715425491333	1	1	10	transcript
+310	shame	gpt2	"about you?"" ""No, I'm not seeing anyone ""To be honest"	 I	I	,	3.59297776222229	2.000936269760132	0.06038237363100052	0.5638101100921631	1	1	10	transcript
+311	shame	gpt2	"you?"" ""No, I'm not seeing anyone ""To be honest I"	 can	can't	'm	3.6912684440612793	3.5745108127593994	0.027356455102562904	0.20297908782958984	0	1	10	transcript
+312	shame	gpt2	"""No, I'm not seeing anyone ""To be honest I can't"	 understand	understand	 see	3.8032894134521484	4.111085891723633	0.02273521013557911	0.17183390259742737	0	0	10	transcript
+313	shame	gpt2	"I'm not seeing anyone ""To be honest I can't understand"	 how	how	 why	4.335377216339111	3.60067081451416	0.0896642729640007	0.31768378615379333	1	1	10	transcript
+314	shame	gpt2	"not seeing anyone ""To be honest I can't understand how"	 people	people	 you	4.419935703277588	4.38370418548584	0.037670135498046875	0.13437806069850922	0	1	10	transcript
+315	shame	gpt2	"seeing anyone ""To be honest I can't understand how people"	 can	can	 would	4.05672025680542	4.309956073760986	0.1194479912519455	0.1692473441362381	1	1	10	transcript
+316	shame	gpt2	"anyone ""To be honest I can't understand how people can"	 stay	stay	 be	3.679626226425171	5.186106204986572	0.0017769898986443877	0.07847602665424347	0	0	10	transcript
+317	shame	gpt2	"""To be honest I can't understand how people can stay"	 with	with	 in	3.2090494632720947	4.641902923583984	0.022047948092222214	0.18771414458751678	0	1	10	transcript
+318	shame	gpt2	be honest I can't understand how people can stay with	 one	one	 a	4.266355991363525	5.148736000061035	0.015880966559052467	0.09583514928817749	0	0	10	transcript
+319	shame	gpt2	honest I can't understand how people can stay with one	 person	person	 person	4.343670845031738	6.138061046600342	0.10207648575305939	0.10207648575305939	1	1	10	transcript
+320	shame	gpt2	I can't understand how people can stay with one person	 for	for	 for	3.3546977043151855	3.2984328269958496	0.2776120901107788	0.2776120901107788	1	1	10	transcript
+321	shame	gpt2	can't understand how people can stay with one person for	 the	the	 so	3.509425640106201	3.8530311584472656	0.043812066316604614	0.27020588517189026	1	1	10	transcript
+322	shame	gpt2	understand how people can stay with one person for the	 rest	rest	 rest	4.398617267608643	2.8989338874816895	0.4082724452018738	0.4082724452018738	1	1	10	transcript
+323	shame	gpt2	how people can stay with one person for the rest	 of	of	 of	3.5645666122436523	0.040118105709552765	0.99616938829422	0.99616938829422	1	1	10	transcript
+324	shame	gpt2	people can stay with one person for the rest of	 their	their	 their	2.9968533515930176	0.685653030872345	0.8518004417419434	0.8518004417419434	1	1	10	transcript
+325	shame	gpt2	can stay with one person for the rest of their	 lives	lives	 lives	2.8461320400238037	0.9169576168060303	0.7971187829971313	0.7971187829971313	1	1	10	transcript
+326	shame	gpt2	stay with one person for the rest of their lives	 my	my	.	2.7477011680603027	3.0584328174591064	5.271933332551271e-05	0.3648371398448944	0	0	10	transcript
+327	shame	gpt2	with one person for the rest of their lives my	 longest	longest	 life	3.7716283798217773	6.82642936706543	0.00011869610898429528	0.027056271210312843	0	0	10	transcript
+328	shame	gpt2	one person for the rest of their lives my longest	 relationship	relationship	-	4.614423751831055	6.518392562866211	0.005532760638743639	0.058048151433467865	0	0	10	transcript
+329	shame	gpt2	person for the rest of their lives my longest relationship	 was	was	 with	4.385709762573242	3.7305495738983154	0.17106211185455322	0.21357186138629913	1	1	10	transcript
+330	shame	gpt2	for the rest of their lives my longest relationship was	 four	four	 with	4.1594624519348145	3.2320430278778076	0.000620331964455545	0.5053381323814392	0	0	10	transcript
+331	shame	gpt2	the rest of their lives my longest relationship was four	 months	months	 years	5.2021565437316895	2.2596280574798584	0.06795474886894226	0.6087501645088196	1	1	10	transcript
+332	shame	gpt2	rest of their lives my longest relationship was four months	 Marian	Marianne	 ago	5.338748931884766	3.3114962577819824	7.166878646103214e-08	0.23424004018306732	0	0	10	transcript
+333	shame	gpt2	of their lives my longest relationship was four months Marianne	 raised	raised	.	6.367777347564697	5.554143905639648	9.357640374219045e-05	0.11529931426048279	0	0	10	transcript
+334	shame	gpt2	their lives my longest relationship was four months Marianne raised	 her	her	 me	7.203436851501465	2.075897693634033	0.06986841559410095	0.6419785618782043	1	1	10	transcript
+335	shame	gpt2	lives my longest relationship was four months Marianne raised her	 eyebrows	eyebrows.	 two	6.8827972412109375	5.22843074798584	0.004942335654050112	0.06550057977437973	0	0	10	transcript
+336	shame	gpt2	my longest relationship was four months Marianne raised her eyebrows.	" """	"""Four"	" """	6.0387043952941895	3.7408254146575928	0.252424031496048	0.252424031496048	1	1	10	transcript
+337	shame	gpt2	"longest relationship was four months Marianne raised her eyebrows. ""Four"	 months	"months?"""	 months	5.753579139709473	1.7192189693450928	0.7053841352462769	0.7053841352462769	1	1	10	transcript
+338	shame	gpt2	"relationship was four months Marianne raised her eyebrows. ""Four months?"""	" """	"""You"	"
+"	4.998586177825928	3.2298412322998047	0.08070411533117294	0.33384889364242554	1	1	10	transcript
+339	shame	gpt2	"was four months Marianne raised her eyebrows. ""Four months?"" ""You"	 have	have	 mean	4.468657493591309	3.9823153018951416	0.02305701933801174	0.19278323650360107	0	1	10	transcript
+340	shame	gpt2	"four months Marianne raised her eyebrows. ""Four months?"" ""You have"	 to	to	 to	4.4467973709106445	4.092623710632324	0.2637782096862793	0.2637782096862793	1	1	10	transcript
+341	shame	gpt2	"months Marianne raised her eyebrows. ""Four months?"" ""You have to"	 commit	commit,	 be	4.088403701782227	4.533910274505615	0.0004718044074252248	0.20533554255962372	0	0	10	transcript
+342	shame	gpt2	"Marianne raised her eyebrows. ""Four months?"" ""You have to commit,"	 you	you	 you	4.220697402954102	6.242194175720215	0.044100116938352585	0.044100116938352585	1	1	10	transcript
+343	shame	gpt2	"raised her eyebrows. ""Four months?"" ""You have to commit, you"	 have	have	 know	4.245382785797119	3.753491163253784	0.1031971350312233	0.34261244535446167	1	1	10	transcript
+344	shame	gpt2	"her eyebrows. ""Four months?"" ""You have to commit, you have"	 to	to	 to	4.467093467712402	0.3747243881225586	0.9588989615440369	0.9588989615440369	1	1	10	transcript
+345	shame	gpt2	"eyebrows. ""Four months?"" ""You have to commit, you have to"	 actually	actually	 commit	4.238121509552002	5.251619815826416	0.000604074914008379	0.07771232724189758	0	0	10	transcript
+346	shame	gpt2	"""Four months?"" ""You have to commit, you have to actually"	 give	give	 commit	4.247505187988281	4.404191017150879	0.006428455002605915	0.18496283888816833	0	0	10	transcript
+347	shame	gpt2	"months?"" ""You have to commit, you have to actually give"	 it	it	 it	4.067128658294678	3.6671009063720703	0.26870012283325195	0.26870012283325195	1	1	10	transcript
+348	shame	gpt2	"""You have to commit, you have to actually give it"	 a	a	 to	3.407332420349121	2.88397479057312	0.04719649255275726	0.4024738669395447	0	1	10	transcript
+349	shame	gpt2	have to commit, you have to actually give it a	 shot	shot	 shot	3.561002731323242	3.164153814315796	0.23700156807899475	0.23700156807899475	1	1	10	transcript
+350	shame	gpt2	to commit, you have to actually give it a shot	" """	"""I"	.	3.646113157272339	2.3857457637786865	0.0003523085324559361	0.5398634672164917	0	0	10	transcript
+351	shame	gpt2	"commit, you have to actually give it a shot ""I"	 did	"did,"""	'm	3.810420036315918	4.2179460525512695	0.0060575432144105434	0.1594070941209793	0	0	10	transcript
+352	shame	gpt2	"you have to actually give it a shot ""I did,"""	 he	he	 and	4.0824666023254395	4.602412223815918	0.03489624336361885	0.1043766513466835	0	1	10	transcript
+353	shame	gpt2	"have to actually give it a shot ""I did,"" he"	 laughed	laughed.	 said	4.1213154792785645	3.0737693309783936	0.0045422338880598545	0.43131223320961	0	0	10	transcript
+354	shame	gpt2	"to actually give it a shot ""I did,"" he laughed."	" """	"""For"	" """	3.988187789916992	2.2624285221099854	0.4901551902294159	0.4901551902294159	1	1	10	transcript
+355	shame	gpt2	"actually give it a shot ""I did,"" he laughed. ""For"	 four	four	 the	3.917628288269043	4.638478755950928	0.0010502405930310488	0.12191198766231537	0	0	10	transcript
+356	shame	gpt2	"give it a shot ""I did,"" he laughed. ""For four"	 months	months	 years	4.155545234680176	2.9984898567199707	0.05902978032827377	0.454720675945282	1	1	10	transcript
+357	shame	gpt2	"it a shot ""I did,"" he laughed. ""For four months"	 Soon	Soon	,	4.207512855529785	3.0455410480499268	2.3421527828304534e-07	0.2661639451980591	0	0	10	transcript
+358	shame	gpt2	"a shot ""I did,"" he laughed. ""For four months Soon"	 the	the	-	5.22578763961792	6.006547927856445	0.0028859071899205446	0.11778690665960312	0	0	10	transcript
+359	shame	gpt2	"shot ""I did,"" he laughed. ""For four months Soon the"	 waiter	waiter	 world	4.892714977264404	8.211813926696777	6.269576988415793e-05	0.02031116373836994	0	0	10	transcript
+360	shame	gpt2	"""I did,"" he laughed. ""For four months Soon the waiter"	 returned	returned	 came	5.224769115447998	4.713356971740723	0.000898747006431222	0.14264652132987976	0	0	10	transcript
+361	shame	gpt2	"did,"" he laughed. ""For four months Soon the waiter returned"	 with	with	 to	5.730027675628662	3.6069023609161377	0.0791890025138855	0.19249433279037476	1	1	10	transcript
+362	shame	gpt2	"he laughed. ""For four months Soon the waiter returned with"	 their	their	 a	6.255210876464844	4.280148506164551	0.002011060481891036	0.3251773416996002	0	0	10	transcript
+363	shame	gpt2	"laughed. ""For four months Soon the waiter returned with their"	 lamb	lamb,	 order	6.378730297088623	7.111403942108154	0.00040241549140773714	0.03378046303987503	0	0	10	transcript
+364	shame	gpt2	"""For four months Soon the waiter returned with their lamb,"	 art	artfully	 and	6.751357555389404	5.577866554260254	1.957915083039552e-05	0.14609530568122864	0	0	10	transcript
+365	shame	gpt2	four months Soon the waiter returned with their lamb, artfully	 arranged	arranged	 dressed	6.923709392547607	6.08180046081543	0.01360216923058033	0.0484200045466423	0	1	10	transcript
+366	shame	gpt2	months Soon the waiter returned with their lamb, artfully arranged	 on	on	 in	6.566327095031738	3.113828659057617	0.037307318300008774	0.2035379409790039	0	1	10	transcript
+367	shame	gpt2	Soon the waiter returned with their lamb, artfully arranged on	 the	the	 the	5.356441974639893	3.3229544162750244	0.3076694905757904	0.3076694905757904	1	1	10	transcript
+368	shame	gpt2	the waiter returned with their lamb, artfully arranged on the	 plate	plate.	 table	5.5402374267578125	4.2344160079956055	0.030546700581908226	0.403791606426239	1	1	10	transcript
+369	shame	gpt2	waiter returned with their lamb, artfully arranged on the plate.	 As	As	"
+"	5.251091957092285	4.659981727600098	0.012338665314018726	0.22194890677928925	0	0	10	transcript
+370	shame	gpt2	returned with their lamb, artfully arranged on the plate. As	 they	they	 the	4.96014928817749	4.757392406463623	0.0635404959321022	0.15622740983963013	1	1	10	transcript
+371	shame	gpt2	with their lamb, artfully arranged on the plate. As they	 began	began	 were	4.707309246063232	6.206229209899902	0.007836921140551567	0.06386291235685349	0	0	10	transcript
+372	shame	gpt2	their lamb, artfully arranged on the plate. As they began	 to	to	 to	4.686163902282715	2.97885799407959	0.5700848698616028	0.5700848698616028	1	1	10	transcript
+373	shame	gpt2	lamb, artfully arranged on the plate. As they began to	 cut	cut	 walk	4.544503211975098	6.365396022796631	0.0019627942238003016	0.029021846130490303	0	0	10	transcript
+374	shame	gpt2	artfully arranged on the plate. As they began to cut	 into	into	,	4.699321269989014	3.7148115634918213	0.02676154486835003	0.20972639322280884	0	1	10	transcript
+375	shame	gpt2	arranged on the plate. As they began to cut into	 the	the	 the	4.518730163574219	3.801591157913208	0.49496737122535706	0.49496737122535706	1	1	10	transcript
+376	shame	gpt2	on the plate. As they began to cut into the	 meat	meat,	 plate	3.8995113372802734	6.850219249725342	0.01896017976105213	0.04874861612915993	1	1	10	transcript
+377	shame	gpt2	the plate. As they began to cut into the meat,	 Brandon	Brandon	 the	3.682588815689087	5.187045097351074	6.997155287535861e-05	0.1861094832420349	0	0	10	transcript
+378	shame	gpt2	plate. As they began to cut into the meat, Brandon	 leaned	leaned	's	3.8176515102386475	6.090316295623779	0.0013069056440144777	0.08184969425201416	0	0	10	transcript
+379	shame	gpt2	As they began to cut into the meat, Brandon leaned	 over	over	 over	4.577384948730469	2.987192392349243	0.19914130866527557	0.19914130866527557	1	1	10	transcript
+380	shame	gpt2	they began to cut into the meat, Brandon leaned over	 to	to	 and	4.844324588775635	2.3733294010162354	0.17728643119335175	0.42847976088523865	1	1	10	transcript
+381	shame	gpt2	began to cut into the meat, Brandon leaned over to	 Marian	Marianne.	 see	4.77493143081665	5.110518932342529	1.958707116500591e-06	0.07624246925115585	0	0	10	transcript
+382	shame	gpt2	to cut into the meat, Brandon leaned over to Marianne.	" """	"""If"	" """	5.177948474884033	2.512756586074829	0.3893151581287384	0.3893151581287384	1	1	10	transcript
+383	shame	gpt2	"cut into the meat, Brandon leaned over to Marianne. ""If"	 you	you	 you	4.895414352416992	2.6126160621643066	0.44456300139427185	0.44456300139427185	1	1	10	transcript
+384	shame	gpt2	"into the meat, Brandon leaned over to Marianne. ""If you"	 had	had	 want	4.639044761657715	4.113541603088379	0.015778282657265663	0.15171922743320465	0	0	10	transcript
+385	shame	gpt2	"the meat, Brandon leaned over to Marianne. ""If you had"	 a	a	 to	4.916014194488525	4.363351345062256	0.14470601081848145	0.19636426866054535	1	1	10	transcript
+386	shame	gpt2	"meat, Brandon leaned over to Marianne. ""If you had a"	 choice	choice	 choice	4.440082550048828	6.7242841720581055	0.051406342536211014	0.051406342536211014	1	1	10	transcript
+387	shame	gpt2	"Brandon leaned over to Marianne. ""If you had a choice"	 to	to	,	3.825432538986206	2.290020227432251	0.014131673611700535	0.41266679763793945	0	1	10	transcript
+388	shame	gpt2	"leaned over to Marianne. ""If you had a choice to"	 live	live	 make	4.118774890899658	4.796345233917236	0.015666889026761055	0.09867540746927261	0	1	10	transcript
+389	shame	gpt2	"over to Marianne. ""If you had a choice to live"	 in	in	 with	3.898474931716919	3.5360960960388184	0.16679085791110992	0.18732352554798126	1	1	10	transcript
+390	shame	gpt2	"to Marianne. ""If you had a choice to live in"	 the	the	 a	3.7654850482940674	5.591378211975098	0.10479868948459625	0.13167384266853333	1	1	10	transcript
+391	shame	gpt2	"Marianne. ""If you had a choice to live in the"	 past	past	 United	3.530547618865967	6.282714366912842	0.00911036878824234	0.06672338396310806	0	0	10	transcript
+392	shame	gpt2	"""If you had a choice to live in the past"	 or	or	,	3.382976531982422	2.288928985595703	0.15697221457958221	0.5520155429840088	1	1	10	transcript
+393	shame	gpt2	you had a choice to live in the past or	 the	the	 not	3.418936014175415	4.021121501922607	0.04640397056937218	0.3101886212825775	1	1	10	transcript
+394	shame	gpt2	had a choice to live in the past or the	 future	future	 future	3.4434056282043457	0.8052527904510498	0.6709984540939331	0.6709984540939331	1	1	10	transcript
+395	shame	gpt2	a choice to live in the past or the future	 and	and	.	3.394716501235962	2.6897425651550293	0.02082877606153488	0.44713982939720154	0	1	10	transcript
+396	shame	gpt2	choice to live in the past or the future and	 you	you	 to	3.060267686843872	6.224247932434082	0.006130400113761425	0.0758700743317604	0	0	10	transcript
+397	shame	gpt2	to live in the past or the future and you	 could	could	're	3.2705469131469727	4.163330554962158	0.016630936414003372	0.13344338536262512	0	0	10	transcript
+398	shame	gpt2	live in the past or the future and you could	 be	be	 be	3.293100357055664	5.2302775382995605	0.12642458081245422	0.12642458081245422	1	1	10	transcript
+399	shame	gpt2	in the past or the future and you could be	 anything	anything	 a	3.411094903945923	6.61307430267334	0.000915102253202349	0.04627091437578201	0	0	10	transcript
+400	shame	gpt2	the past or the future and you could be anything	 you	you	 you	4.165683269500732	2.9644432067871094	0.3498914837837219	0.3498914837837219	1	1	10	transcript
+401	shame	gpt2	past or the future and you could be anything you	 wanted	wanted,	 want	4.190873146057129	1.3114832639694214	0.20190221071243286	0.6621431708335876	1	1	10	transcript
+402	shame	gpt2	or the future and you could be anything you wanted,	 what	what	 but	3.917947292327881	4.247860431671143	0.0036994328256696463	0.28982096910476685	0	0	10	transcript
+403	shame	gpt2	the future and you could be anything you wanted, what	 would	would	 you	4.149717330932617	4.056587219238281	0.10444208234548569	0.16380853950977325	1	1	10	transcript
+404	shame	gpt2	future and you could be anything you wanted, what would	 you	you	 you	3.791339874267578	2.1314198970794678	0.6085071563720703	0.6085071563720703	1	1	10	transcript
+405	shame	gpt2	and you could be anything you wanted, what would you	 be	"be?"""	 want	3.5364811420440674	3.6782994270324707	0.02656247653067112	0.16801071166992188	0	1	10	transcript
+406	shame	gpt2	"you could be anything you wanted, what would you be?"""	" """	"""Well,"	"
+"	3.099256992340088	3.6288366317749023	0.04292163625359535	0.5037594437599182	1	1	10	transcript
+407	shame	gpt2	"could be anything you wanted, what would you be?"" ""Well,"	 what	what	 I	3.117123603820801	4.125493049621582	0.02644207701086998	0.3023204505443573	0	1	10	transcript
+408	shame	gpt2	"be anything you wanted, what would you be?"" ""Well, what"	 would	would	 would	3.502669334411621	3.479731559753418	0.26158276200294495	0.26158276200294495	1	1	10	transcript
+409	shame	gpt2	"anything you wanted, what would you be?"" ""Well, what would"	 you	you	 you	3.0850727558135986	1.2823842763900757	0.7377361059188843	0.7377361059188843	1	1	10	transcript
+410	shame	gpt2	"you wanted, what would you be?"" ""Well, what would you"	 be	"be?"""	 be	2.8021352291107178	2.4510104656219482	0.4825356900691986	0.4825356900691986	1	1	10	transcript
+411	shame	gpt2	"wanted, what would you be?"" ""Well, what would you be?"""	" """	"""I"	" """	2.9169883728027344	3.50944447517395	0.5045173764228821	0.5045173764228821	1	1	10	transcript
+412	shame	gpt2	"what would you be?"" ""Well, what would you be?"" ""I"	 always	always	 would	2.1899869441986084	3.211399793624878	0.0007824162603355944	0.20696045458316803	0	0	10	transcript
+413	shame	gpt2	"would you be?"" ""Well, what would you be?"" ""I always"	 wanted	wanted	 thought	2.8008620738983154	4.015621185302734	0.13677898049354553	0.20058228075504303	1	1	10	transcript
+414	shame	gpt2	"you be?"" ""Well, what would you be?"" ""I always wanted"	 to	to	 to	3.023488759994507	1.25332510471344	0.808330774307251	0.808330774307251	1	1	10	transcript
+415	shame	gpt2	"be?"" ""Well, what would you be?"" ""I always wanted to"	 be	be	 be	3.064554214477539	3.369264841079712	0.3919915556907654	0.3919915556907654	1	1	10	transcript
+416	shame	gpt2	"""Well, what would you be?"" ""I always wanted to be"	 a	a	 a	3.1361896991729736	2.8919382095336914	0.5319845676422119	0.5319845676422119	1	1	10	transcript
+417	shame	gpt2	"what would you be?"" ""I always wanted to be a"	 musician	musician	 doctor	2.8036577701568604	6.41846227645874	0.026134269312024117	0.048247940838336945	1	1	10	transcript
+418	shame	gpt2	"would you be?"" ""I always wanted to be a musician"	 in	in	","""	2.947969913482666	2.4081478118896484	0.007556161377578974	0.3154256343841553	0	1	10	transcript
+419	shame	gpt2	"you be?"" ""I always wanted to be a musician in"	 the	the	 my	3.2819173336029053	3.8050267696380615	0.15592612326145172	0.26498037576675415	1	1	10	transcript
+420	shame	gpt2	"be?"" ""I always wanted to be a musician in the"	 s	sixties	 first	3.2875893115997314	5.50176477432251	0.0017053111223503947	0.07874611765146255	0	0	10	transcript
+421	shame	gpt2	"""I always wanted to be a musician in the sixties"	 Marian	Marianne	,	2.8711297512054443	2.448837995529175	8.98800056603477e-09	0.25699833035469055	0	0	10	transcript
+422	shame	gpt2	always wanted to be a musician in the sixties Marianne	 shook	shook	 Moore	4.383360385894775	6.556037902832031	3.147165625705384e-05	0.05995814502239227	0	0	10	transcript
+423	shame	gpt2	wanted to be a musician in the sixties Marianne shook	 her	her	 her	5.2133259773254395	2.1915175914764404	0.582512617111206	0.582512617111206	1	1	10	transcript
+424	shame	gpt2	to be a musician in the sixties Marianne shook her	 head	head.	 head	5.219182014465332	0.9511564373970032	0.8933508396148682	0.8933508396148682	1	1	10	transcript
+425	shame	gpt2	be a musician in the sixties Marianne shook her head.	" """	"""I"	" """	4.664871692657471	3.1901450157165527	0.41365012526512146	0.41365012526512146	1	1	10	transcript
+426	shame	gpt2	"a musician in the sixties Marianne shook her head. ""I"	 saw	saw	 don	4.374884128570557	3.9905667304992676	0.003072599647566676	0.13887079060077667	0	0	10	transcript
+427	shame	gpt2	"musician in the sixties Marianne shook her head. ""I saw"	 that	that	 her	4.228357791900635	4.813802719116211	0.05401928350329399	0.101563960313797	1	1	10	transcript
+428	shame	gpt2	"in the sixties Marianne shook her head. ""I saw that"	 Rolling	Rolling	 she	4.026977062225342	6.407195091247559	4.105956031708047e-05	0.0588589571416378	0	0	10	transcript
+429	shame	gpt2	"the sixties Marianne shook her head. ""I saw that Rolling"	 Stones	Stones	 Stone	4.85336971282959	0.5664348006248474	0.12415001541376114	0.8522194027900696	1	1	10	transcript
+430	shame	gpt2	"sixties Marianne shook her head. ""I saw that Rolling Stones"	 documentary	documentary	 were	4.988128185272217	5.299935340881348	0.00011013935727532953	0.11604996025562286	0	0	10	transcript
+431	shame	gpt2	"Marianne shook her head. ""I saw that Rolling Stones documentary"	 recently	recently,	,	4.423203468322754	4.406426429748535	0.0013885374646633863	0.1287396252155304	0	0	10	transcript
+432	shame	gpt2	"shook her head. ""I saw that Rolling Stones documentary recently,"	 the	the	 and	4.727578639984131	3.752051591873169	0.0067448485642671585	0.3541891276836395	0	0	10	transcript
+433	shame	gpt2	"her head. ""I saw that Rolling Stones documentary recently, the"	 s	sixties	 one	5.105377674102783	7.201572895050049	0.0002433183544781059	0.05757782980799675	0	0	10	transcript
+434	shame	gpt2	"head. ""I saw that Rolling Stones documentary recently, the sixties"	 seemed	seemed	,	4.864291191101074	5.594396114349365	0.00038339110324159265	0.13780464231967926	0	0	10	transcript
+435	shame	gpt2	"""I saw that Rolling Stones documentary recently, the sixties seemed"	 like	like	 to	5.624465465545654	2.15584135055542	0.2689700424671173	0.5112143754959106	1	1	10	transcript
+436	shame	gpt2	saw that Rolling Stones documentary recently, the sixties seemed like	 chaos	chaos	 a	5.525667190551758	2.495178699493408	2.089556619466748e-05	0.512153148651123	0	0	10	transcript
+437	shame	gpt2	that Rolling Stones documentary recently, the sixties seemed like chaos	" """	"""The"	.	6.490021228790283	3.186929225921631	0.00014585406461264938	0.3122190237045288	0	0	10	transcript
+438	shame	gpt2	"Rolling Stones documentary recently, the sixties seemed like chaos ""The"	 last	last	 Great	6.44978141784668	7.556150436401367	0.009610430337488651	0.04224272817373276	1	1	10	transcript
+439	shame	gpt2	"Stones documentary recently, the sixties seemed like chaos ""The last"	 place	place	 time	6.727772235870361	5.520468235015869	0.002419102005660534	0.15348631143569946	0	0	10	transcript
+440	shame	gpt2	"documentary recently, the sixties seemed like chaos ""The last place"	 I	I'd	 you	6.230284690856934	3.474278688430786	0.15086758136749268	0.17917336523532867	1	1	10	transcript
+441	shame	gpt2	"recently, the sixties seemed like chaos ""The last place I'd"	 want	want	 ever	5.1928205490112305	4.264034271240234	0.026133032515645027	0.11562676727771759	0	1	10	transcript
+442	shame	gpt2	"the sixties seemed like chaos ""The last place I'd want"	 to	to	 to	5.49910306930542	1.2752994298934937	0.8241499066352844	0.8241499066352844	1	1	10	transcript
+443	shame	gpt2	"sixties seemed like chaos ""The last place I'd want to"	 be	be	 be	5.630101680755615	1.5642727613449097	0.7150238156318665	0.7150238156318665	1	1	10	transcript
+444	shame	gpt2	"seemed like chaos ""The last place I'd want to be"	" """	"""So"	 was	4.465383052825928	3.5987370014190674	0.0014121894491836429	0.23802703619003296	0	0	10	transcript
+445	shame	gpt2	"like chaos ""The last place I'd want to be ""So"	 where	where	 I	4.620467662811279	5.622781276702881	0.008952684700489044	0.09126096963882446	0	0	10	transcript
+446	shame	gpt2	"chaos ""The last place I'd want to be ""So where"	 would	would	 are	4.48310661315918	2.831453561782837	0.01694032922387123	0.22081978619098663	0	1	10	transcript
+447	shame	gpt2	"""The last place I'd want to be ""So where would"	 you	you	 you	4.231242656707764	1.9703049659729004	0.6028974652290344	0.6028974652290344	1	1	10	transcript
+448	shame	gpt2	"last place I'd want to be ""So where would you"	 wanna	wanna	 like	4.297381401062012	3.1833138465881348	0.0011004616972059011	0.322793185710907	0	0	10	transcript
+449	shame	gpt2	"place I'd want to be ""So where would you wanna"	 be	"be?"""	 go	4.595841407775879	2.5660929679870605	0.19312873482704163	0.49432045221328735	1	1	10	transcript
+450	shame	gpt2	"I'd want to be ""So where would you wanna be?"""	" """	"""You"	"
+"	4.3322319984436035	5.192946434020996	0.030918430536985397	0.1018419861793518	1	1	10	transcript
+451	shame	gpt2	"want to be ""So where would you wanna be?"" ""You"	 know	know	 wanna	4.029386043548584	3.8352811336517334	0.1395331174135208	0.14905670285224915	1	1	10	transcript
+452	shame	gpt2	"to be ""So where would you wanna be?"" ""You know"	" """	"""Here,"	,	4.166348934173584	2.5182385444641113	0.00029693215037696064	0.48610708117485046	0	0	10	transcript
+453	shame	gpt2	"be ""So where would you wanna be?"" ""You know ""Here,"	 now	now	 I	4.28085470199585	5.854696273803711	0.012504098005592823	0.09298893064260483	0	1	10	transcript
+454	shame	gpt2	"""So where would you wanna be?"" ""You know ""Here, now"	" """	"""Don't"	,	4.491244316101074	3.457807779312134	0.005624098237603903	0.22557611763477325	0	0	10	transcript
+455	shame	gpt2	"where would you wanna be?"" ""You know ""Here, now ""Don't"	 be	be	 you	4.281561851501465	4.3766326904296875	0.06127551198005676	0.1761658489704132	1	1	10	transcript
+456	shame	gpt2	"would you wanna be?"" ""You know ""Here, now ""Don't be"	 so	so	 a	4.491783618927002	4.648439884185791	0.08346155285835266	0.08359857648611069	1	1	10	transcript
+457	shame	gpt2	"you wanna be?"" ""You know ""Here, now ""Don't be so"	 boring	"boring,"""	 hard	4.409820079803467	5.678769588470459	0.0018294049659743905	0.06381577253341675	0	0	10	transcript
+458	shame	gpt2	"wanna be?"" ""You know ""Here, now ""Don't be so boring,"""	 he	he	 you	4.504774570465088	5.336552619934082	0.04755173623561859	0.09352466464042664	1	1	10	transcript
+459	shame	gpt2	"be?"" ""You know ""Here, now ""Don't be so boring,"" he"	 said	said	 said	4.447857856750488	3.6098978519439697	0.38690847158432007	0.38690847158432007	1	1	10	transcript
+460	shame	gpt2	"""You know ""Here, now ""Don't be so boring,"" he said"	 play	playfully.	.	4.4960784912109375	2.0076141357421875	7.547734185209265e-06	0.5479750633239746	0	0	10	transcript
