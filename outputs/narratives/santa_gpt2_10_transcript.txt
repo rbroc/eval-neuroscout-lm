@@ -1,0 +1,464 @@
+	dataset	model	context	target	orig_wd	top_predicted	loss	entropy	prob_true	prob_predicted	context_size	case_sensitive
+0	santa	gpt2	"""Denny's, It's always open,"" proclaimed Scott as he opened the"	 door	door	 door	4.8177995681762695	4.402165412902832	0.4331609606742859	0.4331609606742859	10	transcript
+1	santa	gpt2	"It's always open,"" proclaimed Scott as he opened the door"	 to	to	 to	4.511856555938721	2.2983646392822266	0.3212035000324249	0.3212035000324249	10	transcript
+2	santa	gpt2	"always open,"" proclaimed Scott as he opened the door to"	 the	the	 the	4.226832389831543	3.635754108428955	0.4517994821071625	0.4517994821071625	10	transcript
+3	santa	gpt2	"open,"" proclaimed Scott as he opened the door to the"	 restaurant	restaurant.	 room	3.9880805015563965	6.975797176361084	0.007604740560054779	0.08935149759054184	10	transcript
+4	santa	gpt2	proclaimed Scott as he opened the door to the restaurant.	 His	His	"
+"	3.633049726486206	3.5324490070343018	0.004561292473226786	0.3838067948818207	10	transcript
+5	santa	gpt2	Scott as he opened the door to the restaurant. His	 son	son	 wife	3.134016513824463	6.358863830566406	0.005333086475729942	0.08377175033092499	10	transcript
+6	santa	gpt2	as he opened the door to the restaurant. His son	 Charlie	Charlie	,	3.4192981719970703	5.455258846282959	0.00041702247108332813	0.19828678667545319	10	transcript
+7	santa	gpt2	he opened the door to the restaurant. His son Charlie	 grim	grimly	 was	3.9036686420440674	5.129339694976807	4.449791231309064e-05	0.14359356462955475	10	transcript
+8	santa	gpt2	opened the door to the restaurant. His son Charlie grimly	 shuff	shuffled	 looked	4.59263277053833	5.334760665893555	0.0009463760652579367	0.07932533323764801	10	transcript
+9	santa	gpt2	the door to the restaurant. His son Charlie grimly shuffled	 through	through	 over	5.02157735824585	3.690631866455078	0.08801465481519699	0.09562578797340393	10	transcript
+10	santa	gpt2	door to the restaurant. His son Charlie grimly shuffled through	 the	the	 the	4.8356852531433105	1.371381163597107	0.8008161187171936	0.8008161187171936	10	transcript
+11	santa	gpt2	to the restaurant. His son Charlie grimly shuffled through the	 door	door,	 crowd	4.834312438964844	6.247020721435547	0.01737944968044758	0.07077360153198242	10	transcript
+12	santa	gpt2	the restaurant. His son Charlie grimly shuffled through the door,	 kicking	kicking	 his	4.725499153137207	6.311784744262695	0.00021530456433538347	0.059840720146894455	10	transcript
+13	santa	gpt2	restaurant. His son Charlie grimly shuffled through the door, kicking	 snow	snow	 the	4.713655471801758	3.930668830871582	7.491362339351326e-05	0.1496473252773285	10	transcript
+14	santa	gpt2	His son Charlie grimly shuffled through the door, kicking snow	 onto	onto	 off	5.274000644683838	2.781377077102661	0.0013163108378648758	0.4806538224220276	10	transcript
+15	santa	gpt2	son Charlie grimly shuffled through the door, kicking snow onto	 the	the	 the	5.645275115966797	2.128979206085205	0.4214639663696289	0.4214639663696289	10	transcript
+16	santa	gpt2	Charlie grimly shuffled through the door, kicking snow onto the	 entry	entryway	 floor	4.822225093841553	5.2205610275268555	0.00021176431619096547	0.19394920766353607	10	transcript
+17	santa	gpt2	grimly shuffled through the door, kicking snow onto the entryway	 carpet	carpet.	.	4.736464500427246	2.6334104537963867	6.346891314024106e-05	0.4677557945251465	10	transcript
+18	santa	gpt2	shuffled through the door, kicking snow onto the entryway carpet.	" """	"""I"	"
+"	4.844313144683838	4.450109004974365	0.06624342501163483	0.2596001923084259	10	transcript
+19	santa	gpt2	"through the door, kicking snow onto the entryway carpet. ""I"	 don	don't	'm	4.827037334442139	4.253514289855957	0.0642019659280777	0.1809043288230896	10	transcript
+20	santa	gpt2	"the door, kicking snow onto the entryway carpet. ""I don't"	 want	want	 know	4.7111005783081055	2.622720718383789	0.13031378388404846	0.3819163739681244	10	transcript
+21	santa	gpt2	"door, kicking snow onto the entryway carpet. ""I don't want"	 to	to	 to	4.387534141540527	2.262125253677368	0.5834605097770691	0.5834605097770691	10	transcript
+22	santa	gpt2	"kicking snow onto the entryway carpet. ""I don't want to"	 eat	eat	 be	4.523336887359619	4.83772087097168	0.0038839003536850214	0.1133916825056076	10	transcript
+23	santa	gpt2	"snow onto the entryway carpet. ""I don't want to eat"	 here	"here,"""	 that	4.570983409881592	4.774045944213867	0.03922456502914429	0.08149506896734238	10	transcript
+24	santa	gpt2	"onto the entryway carpet. ""I don't want to eat here,"""	 he	he	 she	3.647310972213745	3.9420113563537598	0.2638339400291443	0.2768312096595764	10	transcript
+25	santa	gpt2	"the entryway carpet. ""I don't want to eat here,"" he"	 m	mumbled	 said	3.6941299438476562	2.7012665271759033	0.004928514361381531	0.42710745334625244	10	transcript
+26	santa	gpt2	"entryway carpet. ""I don't want to eat here,"" he mumbled"	 as	as	.	3.581876039505005	2.4064435958862305	0.051373906433582306	0.44261935353279114	10	transcript
+27	santa	gpt2	"carpet. ""I don't want to eat here,"" he mumbled as"	 Scott	Scott	 he	2.983985662460327	1.5649722814559937	1.2098368642909918e-05	0.7483008503913879	10	transcript
+28	santa	gpt2	"""I don't want to eat here,"" he mumbled as Scott"	 entered	entered	 walked	3.3880209922790527	5.993640422821045	0.012037583626806736	0.04726249724626541	10	transcript
+29	santa	gpt2	"don't want to eat here,"" he mumbled as Scott entered"	 behind	behind	 the	4.06818151473999	1.95839524269104	0.0010095172328874469	0.5364971160888672	10	transcript
+30	santa	gpt2	"want to eat here,"" he mumbled as Scott entered behind"	 him	him.	 him	4.635544300079346	1.935451626777649	0.6371291279792786	0.6371291279792786	10	transcript
+31	santa	gpt2	"to eat here,"" he mumbled as Scott entered behind him."	 This	This	"
+"	4.661030292510986	2.829829692840576	0.0018386325100436807	0.3598965108394623	10	transcript
+32	santa	gpt2	"eat here,"" he mumbled as Scott entered behind him. This"	 wasn	wasn't	 was	4.374293804168701	4.681944847106934	0.019033122807741165	0.2554134130477905	10	transcript
+33	santa	gpt2	"here,"" he mumbled as Scott entered behind him. This wasn't"	 how	how	 the	4.090725421905518	4.651408672332764	0.011407184414565563	0.18312902748584747	10	transcript
+34	santa	gpt2	he mumbled as Scott entered behind him. This wasn't how	 he	he	 he	4.76687479019165	4.410057544708252	0.27070578932762146	0.27070578932762146	10	transcript
+35	santa	gpt2	mumbled as Scott entered behind him. This wasn't how he	 had	had	'd	4.896694660186768	4.047717571258545	0.07467024773359299	0.1312364786863327	10	transcript
+36	santa	gpt2	as Scott entered behind him. This wasn't how he had	 pictured	pictured	 been	4.798190593719482	4.322620868682861	0.0006659576902166009	0.12658609449863434	10	transcript
+37	santa	gpt2	Scott entered behind him. This wasn't how he had pictured	 spending	spending	 it	4.617722988128662	3.503850221633911	4.606038419296965e-05	0.28720080852508545	10	transcript
+38	santa	gpt2	entered behind him. This wasn't how he had pictured spending	 his	his	 his	4.895406246185303	2.6015727519989014	0.38571274280548096	0.38571274280548096	10	transcript
+39	santa	gpt2	behind him. This wasn't how he had pictured spending his	 Christmas	Christmas	 time	4.232130527496338	4.453882217407227	0.005479677580296993	0.12332221865653992	10	transcript
+40	santa	gpt2	him. This wasn't how he had pictured spending his Christmas	 Eve	Eve.	.	4.275204658508301	4.298525333404541	0.02814876288175583	0.1865716129541397	10	transcript
+41	santa	gpt2	This wasn't how he had pictured spending his Christmas Eve.	" """	"""What"	"
+"	4.328027725219727	2.8743937015533447	0.05479250103235245	0.49316027760505676	10	transcript
+42	santa	gpt2	"wasn't how he had pictured spending his Christmas Eve. ""What"	 are	are	 I	4.5063557624816895	4.310678005218506	0.01485744584351778	0.12764856219291687	10	transcript
+43	santa	gpt2	"how he had pictured spending his Christmas Eve. ""What are"	 you	you	 you	4.994776725769043	1.3816314935684204	0.7083808779716492	0.7083808779716492	10	transcript
+44	santa	gpt2	"he had pictured spending his Christmas Eve. ""What are you"	 talking	talking	 doing	4.924005508422852	2.760429620742798	0.025065191090106964	0.45355549454689026	10	transcript
+45	santa	gpt2	"had pictured spending his Christmas Eve. ""What are you talking"	 about	"about?"""	 about	4.925460338592529	0.06377992779016495	0.9932088255882263	0.9932088255882263	10	transcript
+46	santa	gpt2	"pictured spending his Christmas Eve. ""What are you talking about?"""	" """	"""Everybody"	 he	3.9829044342041016	3.571221113204956	0.016786126419901848	0.3157080411911011	10	transcript
+47	santa	gpt2	"spending his Christmas Eve. ""What are you talking about?"" ""Everybody"	 likes	likes	's	4.177753925323486	4.559309005737305	0.009402641095221043	0.20014970004558563	10	transcript
+48	santa	gpt2	"his Christmas Eve. ""What are you talking about?"" ""Everybody likes"	 D	Denny's	 Christmas	3.919175148010254	5.111575603485107	0.00030089530628174543	0.1697085201740265	10	transcript
+49	santa	gpt2	"Christmas Eve. ""What are you talking about?"" ""Everybody likes Denny's"	" """	"""It's"	"."""	3.9921088218688965	5.289454936981201	0.0006885166512802243	0.13569049537181854	10	transcript
+50	santa	gpt2	"Eve. ""What are you talking about?"" ""Everybody likes Denny's ""It's"	 an	an	 a	3.997955322265625	5.543351650238037	0.012831389904022217	0.13992734253406525	10	transcript
+51	santa	gpt2	"""What are you talking about?"" ""Everybody likes Denny's ""It's an"	 American	American	 American	3.91774845123291	6.641237735748291	0.05599692836403847	0.05599692836403847	10	transcript
+52	santa	gpt2	"are you talking about?"" ""Everybody likes Denny's ""It's an American"	 institution	"institution!"""	 thing	4.306427001953125	6.532578945159912	0.00012296978093218058	0.05759727582335472	10	transcript
+53	santa	gpt2	"you talking about?"" ""Everybody likes Denny's ""It's an American institution!"""	 As	As	" """	4.834240436553955	6.427975177764893	0.0008540938724763691	0.061649687588214874	10	transcript
+54	santa	gpt2	"talking about?"" ""Everybody likes Denny's ""It's an American institution!"" As"	 they	they	 if	5.208294868469238	4.610107421875	0.030015388503670692	0.11873581260442734	10	transcript
+55	santa	gpt2	"about?"" ""Everybody likes Denny's ""It's an American institution!"" As they"	 approached	approached	 say	5.095275402069092	6.104224681854248	0.006558886729180813	0.06735645234584808	10	transcript
+56	santa	gpt2	"""Everybody likes Denny's ""It's an American institution!"" As they approached"	 the	the	 the	5.535287857055664	3.3543033599853516	0.531777024269104	0.531777024269104	10	transcript
+57	santa	gpt2	"likes Denny's ""It's an American institution!"" As they approached the"	 host	hostess	 stage	5.053014755249023	6.741235256195068	0.0003174625744577497	0.07949841022491455	10	transcript
+58	santa	gpt2	"Denny's ""It's an American institution!"" As they approached the hostess"	 stand	stand,	,	4.848378658294678	2.8435285091400146	7.97109241830185e-05	0.4683006703853607	10	transcript
+59	santa	gpt2	"""It's an American institution!"" As they approached the hostess stand,"	 they	they	 the	4.483811855316162	5.681458473205566	0.039238281548023224	0.12901221215724945	10	transcript
+60	santa	gpt2	"an American institution!"" As they approached the hostess stand, they"	 heard	heard	 were	5.422165393829346	4.950687885284424	0.0334739051759243	0.19613777101039886	10	transcript
+61	santa	gpt2	"American institution!"" As they approached the hostess stand, they heard"	 a	a	 a	5.002438068389893	4.6353559494018555	0.23790816962718964	0.23790816962718964	10	transcript
+62	santa	gpt2	"institution!"" As they approached the hostess stand, they heard a"	 loud	loud	 loud	4.620512962341309	5.948118686676025	0.07858830690383911	0.07858830690383911	10	transcript
+63	santa	gpt2	As they approached the hostess stand, they heard a loud	 comm	commotion	 bang	4.055333614349365	4.3554582595825195	0.007373367436230183	0.1659315526485443	10	transcript
+64	santa	gpt2	they approached the hostess stand, they heard a loud commotion	 from	from	.	4.481210231781006	2.813450336456299	0.03505101054906845	0.2915414273738861	10	transcript
+65	santa	gpt2	approached the hostess stand, they heard a loud commotion from	 inside	inside	 the	4.65683650970459	3.246304750442505	0.1276862919330597	0.3200007677078247	10	transcript
+66	santa	gpt2	the hostess stand, they heard a loud commotion from inside	 the	the	 the	4.407180309295654	2.207430362701416	0.41321632266044617	0.41321632266044617	10	transcript
+67	santa	gpt2	hostess stand, they heard a loud commotion from inside the	 restaurant	restaurant.	 building	4.241180419921875	5.750917911529541	0.01619848981499672	0.2141348421573639	10	transcript
+68	santa	gpt2	stand, they heard a loud commotion from inside the restaurant.	 A	A	"
+"	3.139178514480591	4.443223476409912	0.037379518151283264	0.29334497451782227	10	transcript
+69	santa	gpt2	they heard a loud commotion from inside the restaurant. A	 huge	huge	 man	3.0905344486236572	5.845139980316162	0.003646732773631811	0.1111004427075386	10	transcript
+70	santa	gpt2	heard a loud commotion from inside the restaurant. A huge	 table	table	 crowd	3.323484182357788	5.7336015701293945	0.0011808067793026567	0.14189790189266205	10	transcript
+71	santa	gpt2	a loud commotion from inside the restaurant. A huge table	 of	of	 was	4.352524280548096	4.73480224609375	0.03519352152943611	0.2372039407491684	10	transcript
+72	santa	gpt2	loud commotion from inside the restaurant. A huge table of	 Japanese	Japanese	 people	4.9220147132873535	7.016754627227783	0.00024086197663564235	0.05986190587282181	10	transcript
+73	santa	gpt2	commotion from inside the restaurant. A huge table of Japanese	 businessmen	businessmen	 food	5.06093692779541	6.709323883056641	0.0006667028646916151	0.07473621517419815	10	transcript
+74	santa	gpt2	from inside the restaurant. A huge table of Japanese businessmen	 were	were	 and	5.313858985900879	5.2592878341674805	0.02169492095708847	0.12225357443094254	10	transcript
+75	santa	gpt2	inside the restaurant. A huge table of Japanese businessmen were	 excited	excitedly	 sitting	4.876560211181641	4.387714385986328	0.00012781091209035367	0.1546095758676529	10	transcript
+76	santa	gpt2	the restaurant. A huge table of Japanese businessmen were excitedly	 gest	gesturing	 waiting	5.684451103210449	5.063206672668457	0.00033844824065454304	0.13904911279678345	10	transcript
+77	santa	gpt2	restaurant. A huge table of Japanese businessmen were excitedly gesturing	 to	to	 to	5.471977710723877	3.05838942527771	0.2463763803243637	0.2463763803243637	10	transcript
+78	santa	gpt2	A huge table of Japanese businessmen were excitedly gesturing to	 one	one	 the	5.82704496383667	4.999879360198975	0.037582073360681534	0.2282714992761612	10	transcript
+79	santa	gpt2	huge table of Japanese businessmen were excitedly gesturing to one	 another	another	 another	5.541970729827881	1.7438287734985352	0.7282082438468933	0.7282082438468933	10	transcript
+80	santa	gpt2	table of Japanese businessmen were excitedly gesturing to one another	 and	and	.	4.902925491333008	3.2340853214263916	0.04913013428449631	0.22282907366752625	10	transcript
+81	santa	gpt2	of Japanese businessmen were excitedly gesturing to one another and	 erupt	erupting	 saying	4.86882209777832	6.835702419281006	1.603366581548471e-05	0.02840499021112919	10	transcript
+82	santa	gpt2	Japanese businessmen were excitedly gesturing to one another and erupting	 in	in	 in	4.722348690032959	2.732689142227173	0.34187570214271545	0.34187570214271545	10	transcript
+83	santa	gpt2	businessmen were excitedly gesturing to one another and erupting in	 upro	uproars	 laughter	4.299435615539551	4.463686943054199	2.8040665711159818e-05	0.2506851255893707	10	transcript
+84	santa	gpt2	were excitedly gesturing to one another and erupting in uproars	 of	of	 of	5.001846790313721	2.691315174102783	0.32617315649986267	0.32617315649986267	10	transcript
+85	santa	gpt2	excitedly gesturing to one another and erupting in uproars of	 laughter	laughter.	 laughter	4.512835502624512	5.949077606201172	0.1978841871023178	0.1978841871023178	10	transcript
+86	santa	gpt2	gesturing to one another and erupting in uproars of laughter.	 Har	Harried	"
+"	4.182461261749268	4.595389366149902	8.903250272851437e-05	0.2800319492816925	10	transcript
+87	santa	gpt2	to one another and erupting in uproars of laughter. Harried	 wait	waitresses	,	4.874449253082275	5.017197132110596	5.8264442486688495e-05	0.20983704924583435	10	transcript
+88	santa	gpt2	one another and erupting in uproars of laughter. Harried waitresses	 we	weaved	 and	5.414862155914307	5.789513111114502	0.0003559088509064168	0.122032031416893	10	transcript
+89	santa	gpt2	another and erupting in uproars of laughter. Harried waitresses weaved	 between	between	 their	5.254359722137451	4.970794200897217	0.006702329497784376	0.13999854028224945	10	transcript
+90	santa	gpt2	and erupting in uproars of laughter. Harried waitresses weaved between	 them	them	 the	5.396714210510254	6.085343837738037	0.06350776553153992	0.2356613278388977	10	transcript
+91	santa	gpt2	erupting in uproars of laughter. Harried waitresses weaved between them	 to	to	,	6.062679767608643	3.12235951423645	0.0267218966037035	0.32602402567863464	10	transcript
+92	santa	gpt2	in uproars of laughter. Harried waitresses weaved between them to	 pour	pour	 make	5.98330020904541	6.256826877593994	0.0008916465449146926	0.06158803775906563	10	transcript
+93	santa	gpt2	uproars of laughter. Harried waitresses weaved between them to pour	 ref	refills	 their	5.692828178405762	5.158478260040283	4.741645170724951e-06	0.09730727225542068	10	transcript
+94	santa	gpt2	of laughter. Harried waitresses weaved between them to pour refills	 of	of	 of	6.031671047210693	2.9029457569122314	0.1866486817598343	0.1866486817598343	10	transcript
+95	santa	gpt2	laughter. Harried waitresses weaved between them to pour refills of	 coffee	coffee.	 their	5.719799995422363	6.395800590515137	0.02173006534576416	0.08287892490625381	10	transcript
+96	santa	gpt2	Harried waitresses weaved between them to pour refills of coffee.	 A	A	"
+"	5.451514720916748	4.991017818450928	0.028885412961244583	0.18599319458007812	10	transcript
+97	santa	gpt2	waitresses weaved between them to pour refills of coffee. A	 host	hostess	 few	5.7541046142578125	7.372347354888916	0.001120260450989008	0.05745270475745201	10	transcript
+98	santa	gpt2	weaved between them to pour refills of coffee. A hostess	 hurried	hurried	,	5.241597652435303	5.590193748474121	0.0007473821169696748	0.06707832962274551	10	transcript
+99	santa	gpt2	between them to pour refills of coffee. A hostess hurried	 up	up	ly	5.418645858764648	3.3459174633026123	0.03089875914156437	0.18915225565433502	10	transcript
+100	santa	gpt2	them to pour refills of coffee. A hostess hurried up	 to	to	 to	4.998047828674316	1.9173790216445923	0.565300703048706	0.565300703048706	10	transcript
+101	santa	gpt2	to pour refills of coffee. A hostess hurried up to	 meet	meet	 the	4.95182991027832	4.236791610717773	0.009741919115185738	0.25627318024635315	10	transcript
+102	santa	gpt2	pour refills of coffee. A hostess hurried up to meet	 them	them.	 him	4.845584869384766	3.440304756164551	0.030093034729361534	0.25748395919799805	10	transcript
+103	santa	gpt2	refills of coffee. A hostess hurried up to meet them.	" """	"""Are"	" """	4.501428127288818	3.1444287300109863	0.35373035073280334	0.35373035073280334	10	transcript
+104	santa	gpt2	"of coffee. A hostess hurried up to meet them. ""Are"	 you	you	 you	3.985307455062866	0.8279979825019836	0.8628668189048767	0.8628668189048767	10	transcript
+105	santa	gpt2	"coffee. A hostess hurried up to meet them. ""Are you"	 with	with	 sure	4.188096046447754	5.557890892028809	0.009926210157573223	0.09258287400007248	10	transcript
+106	santa	gpt2	"A hostess hurried up to meet them. ""Are you with"	 Hats	"Hatsutashi?"""	 us	3.9445908069610596	4.4911789894104	2.5667602585599525e-06	0.18357506394386292	10	transcript
+107	santa	gpt2	"hostess hurried up to meet them. ""Are you with Hatsutashi?"""	" """	"""No,"""	"
+"	5.086074352264404	3.28837513923645	0.04839210957288742	0.4276459813117981	10	transcript
+108	santa	gpt2	"hurried up to meet them. ""Are you with Hatsutashi?"" ""No,"""	 said	said	 said	4.76579475402832	4.400355815887451	0.18966540694236755	0.18966540694236755	10	transcript
+109	santa	gpt2	"up to meet them. ""Are you with Hatsutashi?"" ""No,"" said"	 Charlie	Charlie.	 the	4.417419910430908	5.958861827850342	3.8903661334188655e-05	0.15577302873134613	10	transcript
+110	santa	gpt2	"to meet them. ""Are you with Hatsutashi?"" ""No,"" said Charlie."	" """	"""Dad"	" """	4.747552394866943	1.6650058031082153	0.7451580166816711	0.7451580166816711	10	transcript
+111	santa	gpt2	"meet them. ""Are you with Hatsutashi?"" ""No,"" said Charlie. ""Dad"	 burnt	burnt	's	4.642704963684082	4.147907733917236	2.3146974399423925e-06	0.15392743051052094	10	transcript
+112	santa	gpt2	"them. ""Are you with Hatsutashi?"" ""No,"" said Charlie. ""Dad burnt"	 the	the	 his	5.180611610412598	3.89646577835083	0.13368099927902222	0.14175653457641602	10	transcript
+113	santa	gpt2	"""Are you with Hatsutashi?"" ""No,"" said Charlie. ""Dad burnt the"	 turkey	turkey	 house	5.445582389831543	6.6711015701293945	6.188618863234296e-05	0.13256113231182098	10	transcript
+114	santa	gpt2	"you with Hatsutashi?"" ""No,"" said Charlie. ""Dad burnt the turkey"	" """	"""Oh,"	.	5.88271951675415	4.197290897369385	0.00012599093315657228	0.14605696499347687	10	transcript
+115	santa	gpt2	"with Hatsutashi?"" ""No,"" said Charlie. ""Dad burnt the turkey ""Oh,"	 yeah	yeah,	 no	5.938033580780029	4.958216190338135	0.026138385757803917	0.09828615188598633	10	transcript
+116	santa	gpt2	"Hatsutashi?"" ""No,"" said Charlie. ""Dad burnt the turkey ""Oh, yeah,"	 this	this	 I	5.259611129760742	4.594033241271973	0.004541197791695595	0.1585875302553177	10	transcript
+117	santa	gpt2	"""No,"" said Charlie. ""Dad burnt the turkey ""Oh, yeah, this"	 way	way,	 is	4.903375148773193	3.6549465656280518	0.004555866122245789	0.4135212302207947	10	transcript
+118	santa	gpt2	"said Charlie. ""Dad burnt the turkey ""Oh, yeah, this way,"	 come	come	 I	5.45994758605957	4.202939033508301	0.0009237985359504819	0.16057705879211426	10	transcript
+119	santa	gpt2	"Charlie. ""Dad burnt the turkey ""Oh, yeah, this way, come"	 on	"on,"""	 on	5.2201313972473145	2.5844039916992188	0.534356415271759	0.534356415271759	10	transcript
+120	santa	gpt2	"""Dad burnt the turkey ""Oh, yeah, this way, come on,"""	 said	said	 he	5.204648971557617	5.0584235191345215	0.05027962476015091	0.1814289391040802	10	transcript
+121	santa	gpt2	"burnt the turkey ""Oh, yeah, this way, come on,"" said"	 the	the	 the	4.660935401916504	7.098185062408447	0.09356474131345749	0.09356474131345749	10	transcript
+122	santa	gpt2	"the turkey ""Oh, yeah, this way, come on,"" said the"	 host	hostess,	 woman	4.250073432922363	7.00909423828125	0.00229891506023705	0.06221820041537285	10	transcript
+123	santa	gpt2	"turkey ""Oh, yeah, this way, come on,"" said the hostess,"	 motion	motioning	 who	3.9594061374664307	5.590978622436523	0.00015587914094794542	0.19698911905288696	10	transcript
+124	santa	gpt2	"""Oh, yeah, this way, come on,"" said the hostess, motioning"	 them	them	 for	3.697206974029541	2.7380313873291016	0.0017059833044186234	0.3739456534385681	10	transcript
+125	santa	gpt2	"yeah, this way, come on,"" said the hostess, motioning them"	 toward	toward	 to	4.027115345001221	2.94584584236145	0.0375000536441803	0.4344164729118347	10	transcript
+126	santa	gpt2	"this way, come on,"" said the hostess, motioning them toward"	 a	a	 the	4.256295680999756	2.154465675354004	0.09262297302484512	0.6190486550331116	10	transcript
+127	santa	gpt2	"way, come on,"" said the hostess, motioning them toward a"	 back	back	 small	3.9684085845947266	6.600430011749268	0.002024398185312748	0.04849265143275261	10	transcript
+128	santa	gpt2	"come on,"" said the hostess, motioning them toward a back"	 room	room.	 door	4.2866411209106445	3.702453851699829	0.17761999368667603	0.19882936775684357	10	transcript
+129	santa	gpt2	"on,"" said the hostess, motioning them toward a back room."	 Several	Several	" """	3.9189839363098145	2.6983015537261963	0.0004995678318664432	0.3866896331310272	10	transcript
+130	santa	gpt2	said the hostess, motioning them toward a back room. Several	 other	other	 of	4.477062225341797	5.606943607330322	0.019302835687994957	0.21133899688720703	10	transcript
+131	santa	gpt2	the hostess, motioning them toward a back room. Several other	 families	families	 women	4.741961479187012	4.975064277648926	0.001273505506105721	0.2091519683599472	10	transcript
+132	santa	gpt2	hostess, motioning them toward a back room. Several other families	 sat	sat	 were	5.109047889709473	5.065812587738037	0.013226421549916267	0.14811484515666962	10	transcript
+133	santa	gpt2	motioning them toward a back room. Several other families sat	 quietly	quietly	 in	5.1336894035339355	3.4401471614837646	0.014296851120889187	0.2819518446922302	10	transcript
+134	santa	gpt2	them toward a back room. Several other families sat quietly	 in	in	 in	5.205370903015137	3.247133255004883	0.27796319127082825	0.27796319127082825	10	transcript
+135	santa	gpt2	toward a back room. Several other families sat quietly in	 their	their	 the	5.000834941864014	2.341954469680786	0.0618533119559288	0.6058530211448669	10	transcript
+136	santa	gpt2	a back room. Several other families sat quietly in their	 booths	booths,	 rooms	4.664545059204102	5.504787445068359	0.0013244026340544224	0.10610267519950867	10	transcript
+137	santa	gpt2	back room. Several other families sat quietly in their booths,	 and	and	 waiting	4.464480876922607	5.884942531585693	0.029422780498862267	0.07509931921958923	10	transcript
+138	santa	gpt2	room. Several other families sat quietly in their booths, and	 one	one	 the	4.141200065612793	5.656464576721191	0.05056842416524887	0.13629589974880219	10	transcript
+139	santa	gpt2	Several other families sat quietly in their booths, and one	 of	of	 of	4.322408199310303	5.16625452041626	0.1655791997909546	0.1655791997909546	10	transcript
+140	santa	gpt2	other families sat quietly in their booths, and one of	 the	the	 them	4.5394721031188965	1.2569761276245117	0.2526272237300873	0.6416701078414917	10	transcript
+141	santa	gpt2	families sat quietly in their booths, and one of the	 fathers	fathers	 women	4.13114595413208	6.617234706878662	0.002654834184795618	0.06929731369018555	10	transcript
+142	santa	gpt2	sat quietly in their booths, and one of the fathers	 sport	sported	,	4.579577445983887	5.796311855316162	0.00013394365669228137	0.08269847184419632	10	transcript
+143	santa	gpt2	quietly in their booths, and one of the fathers sported	 a	a	 a	4.595101356506348	2.0473403930664062	0.6727486252784729	0.6727486252784729	10	transcript
+144	santa	gpt2	in their booths, and one of the fathers sported a	 fresh	fresh	 black	4.4336934089660645	7.2539520263671875	0.00029943170375190675	0.028834346681833267	10	transcript
+145	santa	gpt2	their booths, and one of the fathers sported a fresh	 band	bandage	 pair	4.721675395965576	6.239336013793945	0.0014856826746836305	0.100648432970047	10	transcript
+146	santa	gpt2	booths, and one of the fathers sported a fresh bandage	 on	on	 on	4.6962385177612305	3.62184739112854	0.18801447749137878	0.18801447749137878	10	transcript
+147	santa	gpt2	and one of the fathers sported a fresh bandage on	 his	his	 his	4.3054304122924805	0.7722921371459961	0.8755389451980591	0.8755389451980591	10	transcript
+148	santa	gpt2	one of the fathers sported a fresh bandage on his	 hand	hand.	 left	3.9879579544067383	3.9663150310516357	0.021368643268942833	0.10002419352531433	10	transcript
+149	santa	gpt2	of the fathers sported a fresh bandage on his hand.	 He	He	"
+"	4.3539652824401855	3.935431480407715	0.11843028664588928	0.24534107744693756	10	transcript
+150	santa	gpt2	the fathers sported a fresh bandage on his hand. He	 and	and	 was	4.421833515167236	5.479389667510986	0.0038026045076549053	0.12632140517234802	10	transcript
+151	santa	gpt2	fathers sported a fresh bandage on his hand. He and	 Scott	Scott	 his	3.916348695755005	5.139008045196533	0.0006266277632676065	0.35791638493537903	10	transcript
+152	santa	gpt2	sported a fresh bandage on his hand. He and Scott	 nodded	nodded	 were	4.7951741218566895	6.2408952713012695	0.0002918568206951022	0.1075359433889389	10	transcript
+153	santa	gpt2	a fresh bandage on his hand. He and Scott nodded	 to	to	.	4.841749668121338	3.7302684783935547	0.09170043468475342	0.14898423850536346	10	transcript
+154	santa	gpt2	fresh bandage on his hand. He and Scott nodded to	 each	each	 each	4.500805377960205	2.617391586303711	0.5862851142883301	0.5862851142883301	10	transcript
+155	santa	gpt2	bandage on his hand. He and Scott nodded to each	 other	other	 other	4.545785427093506	0.2711108326911926	0.961463987827301	0.961463987827301	10	transcript
+156	santa	gpt2	on his hand. He and Scott nodded to each other	 in	in	.	4.024033546447754	2.5842318534851074	0.039898864924907684	0.3368511497974396	10	transcript
+157	santa	gpt2	his hand. He and Scott nodded to each other in	 a	a	 agreement	3.938631534576416	4.346619129180908	0.0784749910235405	0.2022467851638794	10	transcript
+158	santa	gpt2	hand. He and Scott nodded to each other in a	 gesture	gesture	 friendly	3.7628910541534424	6.0458221435546875	0.005395990796387196	0.07927899062633514	10	transcript
+159	santa	gpt2	He and Scott nodded to each other in a gesture	 of	of	 of	3.779475688934326	1.7251967191696167	0.6809645891189575	0.6809645891189575	10	transcript
+160	santa	gpt2	and Scott nodded to each other in a gesture of	 solidarity	solidarity	 respect	4.471454620361328	5.245543003082275	0.025811031460762024	0.12146269530057907	10	transcript
+161	santa	gpt2	Scott nodded to each other in a gesture of solidarity	 as	as	.	4.145432949066162	1.8417381048202515	0.020862342789769173	0.566896378993988	10	transcript
+162	santa	gpt2	nodded to each other in a gesture of solidarity as	 Scott	Scott	 they	3.7292938232421875	4.51079797744751	2.4549966838094406e-05	0.1684170961380005	10	transcript
+163	santa	gpt2	to each other in a gesture of solidarity as Scott	 and	and	 and	4.3200531005859375	6.964200973510742	0.06788729876279831	0.06788729876279831	10	transcript
+164	santa	gpt2	each other in a gesture of solidarity as Scott and	 Charlie	Charlie	 his	4.534340858459473	6.9555439949035645	0.0003408139746170491	0.08510154485702515	10	transcript
+165	santa	gpt2	other in a gesture of solidarity as Scott and Charlie	 took	took	 were	5.097648620605469	7.275527477264404	0.009896533563733101	0.029319915920495987	10	transcript
+166	santa	gpt2	in a gesture of solidarity as Scott and Charlie took	 their	their	 the	5.205324172973633	4.101822853088379	0.1275198757648468	0.1494787633419037	10	transcript
+167	santa	gpt2	a gesture of solidarity as Scott and Charlie took their	 seats	seats.	 seats	5.597869873046875	5.528300762176514	0.23001544177532196	0.23001544177532196	10	transcript
+168	santa	gpt2	gesture of solidarity as Scott and Charlie took their seats.	 The	The	"
+"	5.3240180015563965	4.209283828735352	0.05916101858019829	0.3605023920536041	10	transcript
+169	santa	gpt2	of solidarity as Scott and Charlie took their seats. The	 host	hostess	 crowd	5.658108711242676	7.4254608154296875	0.0004944304237142205	0.0502205565571785	10	transcript
+170	santa	gpt2	solidarity as Scott and Charlie took their seats. The hostess	 handed	handed	,	5.4923176765441895	5.643020153045654	0.0027296915650367737	0.0897921621799469	10	transcript
+171	santa	gpt2	as Scott and Charlie took their seats. The hostess handed	 them	them	 them	4.913754463195801	3.957573175430298	0.15118861198425293	0.15118861198425293	10	transcript
+172	santa	gpt2	Scott and Charlie took their seats. The hostess handed them	 menus	menus,	 a	4.177933216094971	3.382568597793579	6.585417577298358e-05	0.39143508672714233	10	transcript
+173	santa	gpt2	and Charlie took their seats. The hostess handed them menus,	 which	which	 and	4.766098499298096	5.939441680908203	0.04963390529155731	0.16947950422763824	10	transcript
+174	santa	gpt2	Charlie took their seats. The hostess handed them menus, which	 Charlie	Charlie	 included	4.623723030090332	4.538590908050537	0.00030095389229245484	0.20112761855125427	10	transcript
+175	santa	gpt2	took their seats. The hostess handed them menus, which Charlie	 reluctantly	reluctantly	 said	4.988907337188721	6.174690246582031	0.00028147248667664826	0.05212707445025444	10	transcript
+176	santa	gpt2	their seats. The hostess handed them menus, which Charlie reluctantly	 opened	opened.	 accepted	5.489789962768555	4.945466041564941	0.004842247348278761	0.12773942947387695	10	transcript
+177	santa	gpt2	seats. The hostess handed them menus, which Charlie reluctantly opened.	" """	"""You"	"
+"	5.437221050262451	3.9771170616149902	0.1411243975162506	0.2141980230808258	10	transcript
+178	santa	gpt2	"The hostess handed them menus, which Charlie reluctantly opened. ""You"	 know	know,	're	5.221595764160156	4.033699035644531	0.10056181997060776	0.14069411158561707	10	transcript
+179	santa	gpt2	"hostess handed them menus, which Charlie reluctantly opened. ""You know,"	 Neal	Neal's	 I	5.404368877410889	4.708998203277588	9.468324606132228e-06	0.1707199066877365	10	transcript
+180	santa	gpt2	"handed them menus, which Charlie reluctantly opened. ""You know, Neal's"	 a	a	 a	5.875007629394531	5.899508953094482	0.0828530415892601	0.0828530415892601	10	transcript
+181	santa	gpt2	"them menus, which Charlie reluctantly opened. ""You know, Neal's a"	 real	real	 good	5.12579870223999	5.713232517242432	0.014811111614108086	0.08425065129995346	10	transcript
+182	santa	gpt2	"menus, which Charlie reluctantly opened. ""You know, Neal's a real"	 good	good	 good	5.019713878631592	6.080977439880371	0.08688676357269287	0.08688676357269287	10	transcript
+183	santa	gpt2	"which Charlie reluctantly opened. ""You know, Neal's a real good"	 cook	"cook,"""	 guy	5.1637773513793945	3.1808745861053467	0.0012917056446895003	0.4801177680492401	10	transcript
+184	santa	gpt2	"Charlie reluctantly opened. ""You know, Neal's a real good cook,"""	 he	he	 he	4.685496807098389	2.7433528900146484	0.4645276665687561	0.4645276665687561	10	transcript
+185	santa	gpt2	"reluctantly opened. ""You know, Neal's a real good cook,"" he"	 said	said,	 said	4.187814712524414	2.445188045501709	0.5123624801635742	0.5123624801635742	10	transcript
+186	santa	gpt2	"opened. ""You know, Neal's a real good cook,"" he said,"	 e	eying	" """	3.3802995681762695	4.820556163787842	8.568359771743417e-05	0.23943759500980377	10	transcript
+187	santa	gpt2	"""You know, Neal's a real good cook,"" he said, eying"	 his	his	 the	3.876715660095215	4.742543697357178	0.11832134425640106	0.21686217188835144	10	transcript
+188	santa	gpt2	"know, Neal's a real good cook,"" he said, eying his"	 father	father	 plate	4.143898963928223	6.820149898529053	0.0019003682537004352	0.03023684397339821	10	transcript
+189	santa	gpt2	"Neal's a real good cook,"" he said, eying his father"	 above	above	's	4.2007737159729	2.817845582962036	1.4258623195928521e-05	0.46513235569000244	10	transcript
+190	santa	gpt2	"a real good cook,"" he said, eying his father above"	 the	the	 the	4.94721794128418	2.7839107513427734	0.3592134118080139	0.3592134118080139	10	transcript
+191	santa	gpt2	"real good cook,"" he said, eying his father above the"	 menu	menu.	 table	4.733918190002441	5.483100414276123	0.0005666707875207067	0.2618742883205414	10	transcript
+192	santa	gpt2	"good cook,"" he said, eying his father above the menu."	 Scott	Scott	" """	4.460986137390137	2.6176321506500244	5.9313908423064277e-05	0.4289572536945343	10	transcript
+193	santa	gpt2	"cook,"" he said, eying his father above the menu. Scott"	 gave	gave	's	4.708767890930176	5.911680698394775	0.003054180881008506	0.11203187704086304	10	transcript
+194	santa	gpt2	he said, eying his father above the menu. Scott gave	 a	a	 him	5.390163421630859	3.4875705242156982	0.1290389746427536	0.3021771013736725	10	transcript
+195	santa	gpt2	said, eying his father above the menu. Scott gave a	 sn	snort	 small	5.39769983291626	6.601768493652344	0.0015302659012377262	0.03387890383601189	10	transcript
+196	santa	gpt2	eying his father above the menu. Scott gave a snort	 at	at	 of	5.8141560554504395	2.6620407104492188	0.030309971421957016	0.21456709504127502	10	transcript
+197	santa	gpt2	his father above the menu. Scott gave a snort at	 the	the	 the	5.917761325836182	4.0676188468933105	0.28770026564598083	0.28770026564598083	10	transcript
+198	santa	gpt2	father above the menu. Scott gave a snort at the	 mention	mention	 end	5.0274152755737305	7.610048294067383	0.0025242988485842943	0.017697568982839584	10	transcript
+199	santa	gpt2	above the menu. Scott gave a snort at the mention	 of	of	 of	5.083472728729248	0.4537428915500641	0.941460907459259	0.941460907459259	10	transcript
+200	santa	gpt2	the menu. Scott gave a snort at the mention of	 his	his	 the	4.815758228302002	6.875853061676025	0.03057173453271389	0.1415208876132965	10	transcript
+201	santa	gpt2	menu. Scott gave a snort at the mention of his	 ex	ex	 name	4.576026439666748	6.809518814086914	0.0027841634582728148	0.059159040451049805	10	transcript
+202	santa	gpt2	Scott gave a snort at the mention of his ex	 wife	wife's	-	4.073476314544678	1.158757209777832	0.0024045342579483986	0.8576783537864685	10	transcript
+203	santa	gpt2	gave a snort at the mention of his ex wife's	 new	new	 name	4.43932580947876	7.140646457672119	0.002895912155508995	0.10385431349277496	10	transcript
+204	santa	gpt2	a snort at the mention of his ex wife's new	 boyfriend	boyfriend.	 name	4.5179572105407715	6.512648105621338	0.05974136292934418	0.07157200574874878	10	transcript
+205	santa	gpt2	snort at the mention of his ex wife's new boyfriend.	" """	"""Yeah,"	"
+"	4.31869649887085	4.531635284423828	0.07197143137454987	0.2890513241291046	10	transcript
+206	santa	gpt2	"at the mention of his ex wife's new boyfriend. ""Yeah,"	 and	and	 I	4.065333843231201	4.0785040855407715	0.01661812514066696	0.22442558407783508	10	transcript
+207	santa	gpt2	"the mention of his ex wife's new boyfriend. ""Yeah, and"	 you	you	 I	4.239959239959717	4.442441463470459	0.017694897949695587	0.1511811912059784	10	transcript
+208	santa	gpt2	"mention of his ex wife's new boyfriend. ""Yeah, and you"	 should	should	're	4.419272422790527	4.492735862731934	0.011123611591756344	0.1821056455373764	10	transcript
+209	santa	gpt2	"of his ex wife's new boyfriend. ""Yeah, and you should"	 see	see	 have	4.289897918701172	4.531352519989014	0.028892332687973976	0.12318973243236542	10	transcript
+210	santa	gpt2	"his ex wife's new boyfriend. ""Yeah, and you should see"	 him	him	 her	4.242537498474121	3.881918430328369	0.11661390960216522	0.20925208926200867	10	transcript
+211	santa	gpt2	"ex wife's new boyfriend. ""Yeah, and you should see him"	 walk	walk	","""	4.067201614379883	4.749114036560059	0.00070585758658126	0.07927040755748749	10	transcript
+212	santa	gpt2	"wife's new boyfriend. ""Yeah, and you should see him walk"	 on	on	 around	3.8194069862365723	3.6235451698303223	0.017506645992398262	0.1445821225643158	10	transcript
+213	santa	gpt2	"new boyfriend. ""Yeah, and you should see him walk on"	 water	water	 the	4.350684642791748	3.674767255783081	0.006168112624436617	0.3556160032749176	10	transcript
+214	santa	gpt2	"boyfriend. ""Yeah, and you should see him walk on water"	" """	"""You"	"."""	4.261345863342285	3.6262893676757812	0.0001223235303768888	0.20099647343158722	10	transcript
+215	santa	gpt2	"""Yeah, and you should see him walk on water ""You"	 don	don't	 know	4.810586929321289	4.70420503616333	0.017869863659143448	0.13402768969535828	10	transcript
+216	santa	gpt2	"and you should see him walk on water ""You don't"	 like	like	 have	4.69124174118042	3.5846588611602783	0.011834795586764812	0.2023199051618576	10	transcript
+217	santa	gpt2	"you should see him walk on water ""You don't like"	 him	him	 to	4.8725481033325195	4.488333225250244	0.06396060436964035	0.1292276382446289	10	transcript
+218	santa	gpt2	"should see him walk on water ""You don't like him"	 very	very	"?"""	4.780119895935059	4.359902381896973	0.0038044974207878113	0.1399896740913391	10	transcript
+219	santa	gpt2	"see him walk on water ""You don't like him very"	 much	much,	 much	4.968348026275635	0.28227052092552185	0.9642335176467896	0.9642335176467896	10	transcript
+220	santa	gpt2	"him walk on water ""You don't like him very much,"	 do	do	 do	4.1433515548706055	4.809078693389893	0.20019207894802094	0.20019207894802094	10	transcript
+221	santa	gpt2	"walk on water ""You don't like him very much, do"	 you	you	 you	3.884058952331543	0.1332787275314331	0.9847174286842346	0.9847174286842346	10	transcript
+222	santa	gpt2	"on water ""You don't like him very much, do you"	 Dad	"Dad?"""	"?"""	3.6817092895507812	1.1930922269821167	1.636537490412593e-05	0.691654622554779	10	transcript
+223	santa	gpt2	"water ""You don't like him very much, do you Dad?"""	 A	A	"
+"	3.5469753742218018	4.317940711975098	0.003058528294786811	0.31929507851600647	10	transcript
+224	santa	gpt2	"""You don't like him very much, do you Dad?"" A"	 tall	tall	 voice	3.566368579864502	7.137454986572266	0.0026613804511725903	0.040489841252565384	10	transcript
+225	santa	gpt2	"don't like him very much, do you Dad?"" A tall"	 waitress	waitress	,	4.511323928833008	3.5102992057800293	5.636553396470845e-05	0.3104316294193268	10	transcript
+226	santa	gpt2	"like him very much, do you Dad?"" A tall waitress"	 with	with	 asked	6.045639514923096	5.487290859222412	0.04144643619656563	0.06095736473798752	10	transcript
+227	santa	gpt2	"him very much, do you Dad?"" A tall waitress with"	 fri	frizzy	 a	5.600367069244385	4.2633466720581055	0.0002002664696192369	0.3854195475578308	10	transcript
+228	santa	gpt2	"very much, do you Dad?"" A tall waitress with frizzy"	 hair	hair	 hair	5.625931262969971	2.208070993423462	0.6093249917030334	0.6093249917030334	10	transcript
+229	santa	gpt2	"much, do you Dad?"" A tall waitress with frizzy hair"	 approached	approached	 and	5.198184490203857	5.391577243804932	0.006409269757568836	0.15385784208774567	10	transcript
+230	santa	gpt2	"do you Dad?"" A tall waitress with frizzy hair approached"	 the	the	.	5.502991199493408	3.3648507595062256	0.1477123200893402	0.14961208403110504	10	transcript
+231	santa	gpt2	"you Dad?"" A tall waitress with frizzy hair approached the"	 table	table	 table	5.132928371429443	5.579431533813477	0.15391437709331512	0.15391437709331512	10	transcript
+232	santa	gpt2	"Dad?"" A tall waitress with frizzy hair approached the table"	 with	with	.	4.617530822753906	2.200732707977295	0.06088506057858467	0.3199826180934906	10	transcript
+233	santa	gpt2	A tall waitress with frizzy hair approached the table with	 an	an	 a	4.7719926834106445	3.051234006881714	0.04837341234087944	0.5439332127571106	10	transcript
+234	santa	gpt2	tall waitress with frizzy hair approached the table with an	 order	order	 open	4.557076454162598	5.63340425491333	0.0023784232325851917	0.09707492589950562	10	transcript
+235	santa	gpt2	waitress with frizzy hair approached the table with an order	 pad	pad.	 of	5.0821075439453125	2.8861663341522217	4.103874380234629e-05	0.2010291963815689	10	transcript
+236	santa	gpt2	with frizzy hair approached the table with an order pad.	" """	"""Coffee?"""	"
+"	5.9440507888793945	4.3359527587890625	0.1587490439414978	0.18783576786518097	10	transcript
+237	santa	gpt2	"frizzy hair approached the table with an order pad. ""Coffee?"""	 The	The	 she	5.311598777770996	4.650475978851318	0.01744951494038105	0.15210051834583282	10	transcript
+238	santa	gpt2	"hair approached the table with an order pad. ""Coffee?"" The"	 smile	smile	 woman	4.42542028427124	6.827402114868164	0.0013826012145727873	0.0568489246070385	10	transcript
+239	santa	gpt2	"approached the table with an order pad. ""Coffee?"" The smile"	 returned	returned	 on	4.8318772315979	4.375979900360107	0.015337600372731686	0.2551719546318054	10	transcript
+240	santa	gpt2	"the table with an order pad. ""Coffee?"" The smile returned"	 to	to	.	4.762989044189453	2.902994155883789	0.10833681374788284	0.3768797814846039	10	transcript
+241	santa	gpt2	"table with an order pad. ""Coffee?"" The smile returned to"	 Scott	Scott's	 her	4.545865535736084	5.136153221130371	0.00026583726867102087	0.22314412891864777	10	transcript
+242	santa	gpt2	"with an order pad. ""Coffee?"" The smile returned to Scott's"	 face	face.	 face	4.900705814361572	1.7086751461029053	0.7531376481056213	0.7531376481056213	10	transcript
+243	santa	gpt2	"an order pad. ""Coffee?"" The smile returned to Scott's face."	" """	"""No,"	" """	4.401140213012695	2.047593116760254	0.6467637419700623	0.6467637419700623	10	transcript
+244	santa	gpt2	"order pad. ""Coffee?"" The smile returned to Scott's face. ""No,"	 thank	thank	 I	3.674943208694458	4.099559307098389	0.013514507561922073	0.21963267028331757	10	transcript
+245	santa	gpt2	"pad. ""Coffee?"" The smile returned to Scott's face. ""No, thank"	 you	you	 you	3.291295051574707	0.31381097435951233	0.9572083950042725	0.9572083950042725	10	transcript
+246	santa	gpt2	"""Coffee?"" The smile returned to Scott's face. ""No, thank you"	 Scott	Scott	"."""	3.068591356277466	2.4247517585754395	0.0005927500315010548	0.32039886713027954	10	transcript
+247	santa	gpt2	"The smile returned to Scott's face. ""No, thank you Scott"	 paused	paused	.	3.5533552169799805	2.1148290634155273	9.598366546015313e-08	0.4137617349624634	10	transcript
+248	santa	gpt2	"smile returned to Scott's face. ""No, thank you Scott paused"	 for	for	.	4.79425048828125	3.3137285709381104	0.1583891063928604	0.17824611067771912	10	transcript
+249	santa	gpt2	"returned to Scott's face. ""No, thank you Scott paused for"	 a	a	 a	4.92670202255249	0.6099672317504883	0.9293289184570312	0.9293289184570312	10	transcript
+250	santa	gpt2	"to Scott's face. ""No, thank you Scott paused for a"	 minute	minute	 moment	4.26185941696167	1.2236829996109009	0.06389618664979935	0.5251851081848145	10	transcript
+251	santa	gpt2	"Scott's face. ""No, thank you Scott paused for a minute"	 as	as	.	4.3396453857421875	2.586530923843384	0.007592198438942432	0.29358235001564026	10	transcript
+252	santa	gpt2	"face. ""No, thank you Scott paused for a minute as"	 he	he	 he	4.5172438621521	2.8622889518737793	0.2709406018257141	0.2709406018257141	10	transcript
+253	santa	gpt2	"""No, thank you Scott paused for a minute as he"	 read	read	 looked	4.54395866394043	5.387202262878418	0.018235133960843086	0.09496606141328812	10	transcript
+254	santa	gpt2	thank you Scott paused for a minute as he read	 her	her	 the	4.839042663574219	3.814894199371338	0.004938480909913778	0.27948012948036194	10	transcript
+255	santa	gpt2	you Scott paused for a minute as he read her	 name	name	 a	4.672975063323975	5.8177900314331055	0.0348750539124012	0.07963148504495621	10	transcript
+256	santa	gpt2	Scott paused for a minute as he read her name	 tag	tag	.	3.892634153366089	2.3063273429870605	7.469444972230121e-05	0.46021169424057007	10	transcript
+257	santa	gpt2	paused for a minute as he read her name tag	" """	"""Judy"	.	4.479545593261719	3.2414486408233643	0.0028457145672291517	0.33759456872940063	10	transcript
+258	santa	gpt2	"for a minute as he read her name tag ""Judy"	" """	"""What"	""""	5.278547763824463	6.128786087036133	0.0011186788324266672	0.1394563764333725	10	transcript
+259	santa	gpt2	"a minute as he read her name tag ""Judy ""What"	 do	do	 a	5.951879978179932	4.046987056732178	0.07811218500137329	0.14885759353637695	10	transcript
+260	santa	gpt2	"minute as he read her name tag ""Judy ""What do"	 you	you	 you	5.431351184844971	0.9146191477775574	0.8663884997367859	0.8663884997367859	10	transcript
+261	santa	gpt2	"as he read her name tag ""Judy ""What do you"	 say	say	 think	5.351734161376953	2.3802967071533203	0.023860536515712738	0.4352398216724396	10	transcript
+262	santa	gpt2	"he read her name tag ""Judy ""What do you say"	 we	we	 to	5.338834285736084	3.3826639652252197	0.0016383936163038015	0.2962227463722229	10	transcript
+263	santa	gpt2	"read her name tag ""Judy ""What do you say we"	 start	start	're	5.294349670410156	4.899265289306641	0.001487052533775568	0.11720207333564758	10	transcript
+264	santa	gpt2	"her name tag ""Judy ""What do you say we start"	 out	out	 with	5.549557209014893	5.653055191040039	0.030841447412967682	0.07205621153116226	10	transcript
+265	santa	gpt2	"name tag ""Judy ""What do you say we start out"	 with	with	 with	6.115619659423828	3.629378080368042	0.4607589542865753	0.4607589542865753	10	transcript
+266	santa	gpt2	"tag ""Judy ""What do you say we start out with"	 cold	cold	"?"""	4.844722270965576	4.417083740234375	3.898128488799557e-05	0.27553072571754456	10	transcript
+267	santa	gpt2	"""Judy ""What do you say we start out with cold"	 glasses	glasses	 water	5.07509708404541	5.911589622497559	0.00022594141773879528	0.07525350153446198	10	transcript
+268	santa	gpt2	"""What do you say we start out with cold glasses"	 of	of	 and	4.764809608459473	3.120722532272339	0.04724883288145065	0.2590436637401581	10	transcript
+269	santa	gpt2	do you say we start out with cold glasses of	 that	that	 water	5.2369279861450195	5.05022668838501	0.000535543542355299	0.20413923263549805	10	transcript
+270	santa	gpt2	you say we start out with cold glasses of that	 delicious	delicious	 kind	5.662610054016113	6.483931541442871	0.0023619569838047028	0.0844801664352417	10	transcript
+271	santa	gpt2	say we start out with cold glasses of that delicious	 seasonal	seasonal	,	5.790773391723633	7.017256736755371	0.00016127429262269288	0.040028952062129974	10	transcript
+272	santa	gpt2	we start out with cold glasses of that delicious seasonal	 favorite	favorite:	 brew	5.991269588470459	6.45175313949585	0.001224128995090723	0.05578283965587616	10	transcript
+273	santa	gpt2	start out with cold glasses of that delicious seasonal favorite:	 egg	"eggnog!"""	"
+"	5.8763322830200195	7.293575763702393	0.0011327912798151374	0.039127055555582047	10	transcript
+274	santa	gpt2	"out with cold glasses of that delicious seasonal favorite: eggnog!"""	 Charlie	Charlie	"
+"	5.602319717407227	3.3442163467407227	2.6923207769868895e-05	0.5569193959236145	10	transcript
+275	santa	gpt2	"with cold glasses of that delicious seasonal favorite: eggnog!"" Charlie"	 had	had	's	6.1558990478515625	6.481760025024414	0.011746385134756565	0.06464715301990509	10	transcript
+276	santa	gpt2	"cold glasses of that delicious seasonal favorite: eggnog!"" Charlie had"	 just	just	 been	6.0175299644470215	5.567766189575195	0.0173509418964386	0.10434062033891678	10	transcript
+277	santa	gpt2	"glasses of that delicious seasonal favorite: eggnog!"" Charlie had just"	 begun	begun	 finished	6.145421504974365	5.391780853271484	0.010509531013667583	0.1483796238899231	10	transcript
+278	santa	gpt2	"of that delicious seasonal favorite: eggnog!"" Charlie had just begun"	 to	to	 to	5.79005765914917	4.192976474761963	0.3672282099723816	0.3672282099723816	10	transcript
+279	santa	gpt2	"that delicious seasonal favorite: eggnog!"" Charlie had just begun to"	 protest	protest	 eat	5.868223190307617	6.422575950622559	0.0004770150117110461	0.040121257305145264	10	transcript
+280	santa	gpt2	"delicious seasonal favorite: eggnog!"" Charlie had just begun to protest"	 that	that	 the	6.043671607971191	3.840789794921875	0.09058655798435211	0.15874558687210083	10	transcript
+281	santa	gpt2	"seasonal favorite: eggnog!"" Charlie had just begun to protest that"	 he	he	 he	5.700915813446045	5.641361236572266	0.20108084380626678	0.20108084380626678	10	transcript
+282	santa	gpt2	"favorite: eggnog!"" Charlie had just begun to protest that he"	 didn	didn't	 was	5.168796062469482	3.156158685684204	0.06601786613464355	0.24434849619865417	10	transcript
+283	santa	gpt2	"eggnog!"" Charlie had just begun to protest that he didn't"	 like	like	 want	4.465884685516357	3.488586187362671	0.06036099046468735	0.16791537404060364	10	transcript
+284	santa	gpt2	Charlie had just begun to protest that he didn't like	 egg	eggnog,	 the	3.546626329421997	5.490633010864258	1.677491673035547e-05	0.23021188378334045	10	transcript
+285	santa	gpt2	had just begun to protest that he didn't like eggnog,	 when	when	 and	3.853454113006592	4.231171607971191	0.003854181617498398	0.22307336330413818	10	transcript
+286	santa	gpt2	just begun to protest that he didn't like eggnog, when	 Judy	Judy	 he	4.3839592933654785	4.117734909057617	1.997716390178539e-05	0.28641143441200256	10	transcript
+287	santa	gpt2	begun to protest that he didn't like eggnog, when Judy	 interrupted	interrupted	 asked	4.9266767501831055	6.0094709396362305	0.003404955379664898	0.05710480362176895	10	transcript
+288	santa	gpt2	to protest that he didn't like eggnog, when Judy interrupted	 him	him,	 him	4.84572696685791	2.503765106201172	0.42589372396469116	0.42589372396469116	10	transcript
+289	santa	gpt2	protest that he didn't like eggnog, when Judy interrupted him,	" """	"""we're"	" """	4.542140483856201	3.6270060539245605	0.3872254490852356	0.3872254490852356	10	transcript
+290	santa	gpt2	"that he didn't like eggnog, when Judy interrupted him, ""we're"	 out	out	 not	4.139102935791016	4.859527111053467	0.004427286796271801	0.16893698275089264	10	transcript
+291	santa	gpt2	"he didn't like eggnog, when Judy interrupted him, ""we're out"	 Scott	Scott	 of	4.370149612426758	2.6159682273864746	7.364859584413352e-07	0.4804794490337372	10	transcript
+292	santa	gpt2	"didn't like eggnog, when Judy interrupted him, ""we're out Scott"	 shrugged	shrugged.	's	5.052031517028809	4.584575176239014	1.290362519057453e-07	0.2154175192117691	10	transcript
+293	santa	gpt2	"like eggnog, when Judy interrupted him, ""we're out Scott shrugged."	" """	"""Then"	 He	5.875672817230225	4.825110912322998	0.004059850238263607	0.14705052971839905	10	transcript
+294	santa	gpt2	"eggnog, when Judy interrupted him, ""we're out Scott shrugged. ""Then"	 I	I'll	 he	5.888628005981445	4.479625701904297	0.08708043396472931	0.1683187037706375	10	transcript
+295	santa	gpt2	"when Judy interrupted him, ""we're out Scott shrugged. ""Then I'll"	 take	take	 be	5.803171634674072	4.652388572692871	0.03588585555553436	0.08994624763727188	10	transcript
+296	santa	gpt2	"Judy interrupted him, ""we're out Scott shrugged. ""Then I'll take"	 a	a	 you	5.431697845458984	3.8983569145202637	0.10617047548294067	0.1286369413137436	10	transcript
+297	santa	gpt2	"interrupted him, ""we're out Scott shrugged. ""Then I'll take a"	 dec	decaf	 look	5.430554389953613	4.87960958480835	6.0881164245074615e-05	0.2564047574996948	10	transcript
+298	santa	gpt2	"him, ""we're out Scott shrugged. ""Then I'll take a decaf"	 coffee	coffee	,	5.708951473236084	6.801965236663818	0.014536119066178799	0.039552170783281326	10	transcript
+299	santa	gpt2	"""we're out Scott shrugged. ""Then I'll take a decaf coffee"	 and	and	 and	5.6607136726379395	3.8949549198150635	0.19910146296024323	0.19910146296024323	10	transcript
+300	santa	gpt2	"out Scott shrugged. ""Then I'll take a decaf coffee and"	 turkey	turkey	 a	4.585423469543457	5.540197849273682	1.3501246939995326e-05	0.0832957848906517	10	transcript
+301	santa	gpt2	"Scott shrugged. ""Then I'll take a decaf coffee and turkey"	 club	club	 and	4.738607406616211	4.743465900421143	4.722831363324076e-05	0.12083999067544937	10	transcript
+302	santa	gpt2	"shrugged. ""Then I'll take a decaf coffee and turkey club"	 She	She	 and	5.4055657386779785	3.6926169395446777	5.252629193819303e-07	0.2537049949169159	10	transcript
+303	santa	gpt2	"""Then I'll take a decaf coffee and turkey club She"	 turned	turned	's	6.358217716217041	5.689257621765137	0.0006379940314218402	0.12950535118579865	10	transcript
+304	santa	gpt2	I'll take a decaf coffee and turkey club She turned	 to	to	 out	6.960055828094482	3.947650671005249	0.11643626540899277	0.13505297899246216	10	transcript
+305	santa	gpt2	take a decaf coffee and turkey club She turned to	 Charlie	Charlie.	 me	6.8896002769470215	4.569930553436279	0.0001089948636945337	0.19090516865253448	10	transcript
+306	santa	gpt2	a decaf coffee and turkey club She turned to Charlie.	" """	"""I'll"	" """	6.922750473022461	2.400756597518921	0.45946788787841797	0.45946788787841797	10	transcript
+307	santa	gpt2	"decaf coffee and turkey club She turned to Charlie. ""I'll"	 have	have	 be	5.9064507484436035	4.254850387573242	0.04723315313458443	0.15151497721672058	10	transcript
+308	santa	gpt2	"coffee and turkey club She turned to Charlie. ""I'll have"	 a	a	 to	5.681541919708252	3.200026512145996	0.1207776591181755	0.3369302749633789	10	transcript
+309	santa	gpt2	"and turkey club She turned to Charlie. ""I'll have a"	 chocolate	chocolate	 good	5.456361293792725	6.379611968994141	0.0006730907480232418	0.053334541618824005	10	transcript
+310	santa	gpt2	"turkey club She turned to Charlie. ""I'll have a chocolate"	 milk	milk,	 bar	5.305922508239746	4.597846508026123	0.005491179414093494	0.2947910726070404	10	transcript
+311	santa	gpt2	"club She turned to Charlie. ""I'll have a chocolate milk,"	 and	and	 I	4.563076496124268	5.301333427429199	0.08567246049642563	0.10070836544036865	10	transcript
+312	santa	gpt2	"She turned to Charlie. ""I'll have a chocolate milk, and"	" """	"""We're"	 a	3.870561361312866	4.218557357788086	0.00017644766194280237	0.2142648845911026	10	transcript
+313	santa	gpt2	"turned to Charlie. ""I'll have a chocolate milk, and ""We're"	 out	out	 going	4.356631278991699	4.6948723793029785	0.008361236192286015	0.22943107783794403	10	transcript
+314	santa	gpt2	"to Charlie. ""I'll have a chocolate milk, and ""We're out"	 Judy	Judy	 of	4.5858154296875	3.742772340774536	1.9177755348209757e-06	0.20607219636440277	10	transcript
+315	santa	gpt2	"Charlie. ""I'll have a chocolate milk, and ""We're out Judy"	 interrupted	interrupted	,	4.709996223449707	3.6968979835510254	2.829409311289055e-07	0.19963108003139496	10	transcript
+316	santa	gpt2	"""I'll have a chocolate milk, and ""We're out Judy interrupted"	 again	again,	 me	5.97208833694458	3.1696534156799316	0.0032893894240260124	0.3547494411468506	10	transcript
+317	santa	gpt2	"have a chocolate milk, and ""We're out Judy interrupted again,"	 and	and	 and	6.347676753997803	5.081588268280029	0.23857538402080536	0.23857538402080536	10	transcript
+318	santa	gpt2	"a chocolate milk, and ""We're out Judy interrupted again, and"	 Charlie	Charlie	 Judy	6.15949821472168	4.765968322753906	0.00013432920968625695	0.1566096693277359	10	transcript
+319	santa	gpt2	"chocolate milk, and ""We're out Judy interrupted again, and Charlie"	 sighed	sighed.	 was	6.389342784881592	6.225066661834717	0.0010004764189943671	0.04012244567275047	10	transcript
+320	santa	gpt2	"milk, and ""We're out Judy interrupted again, and Charlie sighed."	" """	"""Plain"	" """	5.938809394836426	3.424907922744751	0.2621026933193207	0.2621026933193207	10	transcript
+321	santa	gpt2	"and ""We're out Judy interrupted again, and Charlie sighed. ""Plain"	 milk	milk's	 and	5.944258689880371	4.309167861938477	1.9956050891778432e-05	0.17064142227172852	10	transcript
+322	santa	gpt2	"""We're out Judy interrupted again, and Charlie sighed. ""Plain milk's"	 fine	fine,	 not	6.150028705596924	5.177581310272217	0.040876682847738266	0.09729348868131638	10	transcript
+323	santa	gpt2	"out Judy interrupted again, and Charlie sighed. ""Plain milk's fine,"	 and	and	 but	5.5158281326293945	4.295745372772217	0.06771030277013779	0.32574018836021423	10	transcript
+324	santa	gpt2	"Judy interrupted again, and Charlie sighed. ""Plain milk's fine, and"	 chicken	chicken	 I	4.737890720367432	5.051515102386475	0.0007148763979785144	0.17543905973434448	10	transcript
+325	santa	gpt2	"interrupted again, and Charlie sighed. ""Plain milk's fine, and chicken"	 fingers	fingers	's	4.642016410827637	4.628936290740967	0.0022602712269872427	0.15652276575565338	10	transcript
+326	santa	gpt2	"again, and Charlie sighed. ""Plain milk's fine, and chicken fingers"	 Judy	Judy	 are	5.0854644775390625	3.653667688369751	1.6512386480371788e-07	0.3886083662509918	10	transcript
+327	santa	gpt2	"and Charlie sighed. ""Plain milk's fine, and chicken fingers Judy"	 collected	collected	,	6.322501182556152	4.674743175506592	3.704139817273244e-05	0.1047188863158226	10	transcript
+328	santa	gpt2	"Charlie sighed. ""Plain milk's fine, and chicken fingers Judy collected"	 their	their	.	6.331114768981934	4.753708362579346	0.005647276993840933	0.08285453915596008	10	transcript
+329	santa	gpt2	"sighed. ""Plain milk's fine, and chicken fingers Judy collected their"	 menus	menus	 own	6.608240604400635	6.713862419128418	6.0218688304303214e-05	0.07369748502969742	10	transcript
+330	santa	gpt2	"""Plain milk's fine, and chicken fingers Judy collected their menus"	 and	and	.	7.110355854034424	3.8492352962493896	0.1256255805492401	0.14244912564754486	10	transcript
+331	santa	gpt2	milk's fine, and chicken fingers Judy collected their menus and	 stro	strode	 handed	6.7263875007629395	6.859577178955078	0.00010548779391683638	0.022381765767931938	10	transcript
+332	santa	gpt2	fine, and chicken fingers Judy collected their menus and strode	 off	off	 out	6.655288219451904	3.214024782180786	0.08721493184566498	0.1507950872182846	10	transcript
+333	santa	gpt2	and chicken fingers Judy collected their menus and strode off	 toward	toward	 to	7.077601432800293	2.610557794570923	0.007803894579410553	0.318048357963562	10	transcript
+334	santa	gpt2	chicken fingers Judy collected their menus and strode off toward	 the	the	 the	6.969059467315674	2.3245465755462646	0.6738318204879761	0.6738318204879761	10	transcript
+335	santa	gpt2	fingers Judy collected their menus and strode off toward the	 kitchen	kitchen.	 kitchen	5.572459697723389	6.466616153717041	0.06664235144853592	0.06664235144853592	10	transcript
+336	santa	gpt2	Judy collected their menus and strode off toward the kitchen.	 The	The	"
+"	4.480415344238281	4.397775173187256	0.03765171021223068	0.2805231511592865	10	transcript
+337	santa	gpt2	collected their menus and strode off toward the kitchen. The	 two	two	 kitchen	4.6873345375061035	7.485179901123047	0.017884977161884308	0.021870877593755722	10	transcript
+338	santa	gpt2	their menus and strode off toward the kitchen. The two	 sat	sat	 men	4.458844184875488	6.046702861785889	0.00833223108202219	0.10212644934654236	10	transcript
+339	santa	gpt2	menus and strode off toward the kitchen. The two sat	 in	in	 down	4.223438262939453	3.3077964782714844	0.10504355281591415	0.31617027521133423	10	transcript
+340	santa	gpt2	and strode off toward the kitchen. The two sat in	 silence	silence	 silence	3.9364097118377686	2.089163303375244	0.45880043506622314	0.45880043506622314	10	transcript
+341	santa	gpt2	strode off toward the kitchen. The two sat in silence	 for	for	 for	4.575164318084717	2.226144552230835	0.4429474174976349	0.4429474174976349	10	transcript
+342	santa	gpt2	off toward the kitchen. The two sat in silence for	 a	a	 a	3.6991889476776123	1.7967623472213745	0.6837483644485474	0.6837483644485474	10	transcript
+343	santa	gpt2	toward the kitchen. The two sat in silence for a	 minute	minute.	 while	3.7107720375061035	2.2387030124664307	0.026925260201096535	0.30372029542922974	10	transcript
+344	santa	gpt2	the kitchen. The two sat in silence for a minute.	 Scott	Scott	 Then	3.246375799179077	3.8279218673706055	0.00011085412552347407	0.3154585361480713	10	transcript
+345	santa	gpt2	kitchen. The two sat in silence for a minute. Scott	 put	put	 was	4.108543872833252	5.9440507888793945	0.0025455416180193424	0.04411360248923302	10	transcript
+346	santa	gpt2	The two sat in silence for a minute. Scott put	 his	his	 his	4.042724609375	2.4378039836883545	0.48510587215423584	0.48510587215423584	10	transcript
+347	santa	gpt2	two sat in silence for a minute. Scott put his	 palms	palms	 hand	4.161645412445068	3.472458600997925	0.0029021436348557472	0.3046114444732666	10	transcript
+348	santa	gpt2	sat in silence for a minute. Scott put his palms	 down	down	 together	4.481165409088135	2.3322067260742188	0.060915153473615646	0.3313227891921997	10	transcript
+349	santa	gpt2	in silence for a minute. Scott put his palms down	 on	on	 and	4.805842876434326	2.5335001945495605	0.2565109431743622	0.26736894249916077	10	transcript
+350	santa	gpt2	silence for a minute. Scott put his palms down on	 the	the	 the	4.48798131942749	1.4316707849502563	0.4672790765762329	0.4672790765762329	10	transcript
+351	santa	gpt2	for a minute. Scott put his palms down on the	 table	table.	 table	4.3784637451171875	4.943864822387695	0.30352869629859924	0.30352869629859924	10	transcript
+352	santa	gpt2	a minute. Scott put his palms down on the table.	" """	"""Look,"	" """	4.189383029937744	3.2122280597686768	0.40730607509613037	0.40730607509613037	10	transcript
+353	santa	gpt2	"minute. Scott put his palms down on the table. ""Look,"	 I	I	 I	3.4652862548828125	4.374134063720703	0.2938292622566223	0.2938292622566223	10	transcript
+354	santa	gpt2	"Scott put his palms down on the table. ""Look, I"	 I	I'm	'm	2.8892438411712646	3.523010492324829	2.309107549081091e-05	0.2526138126850128	10	transcript
+355	santa	gpt2	"put his palms down on the table. ""Look, I I'm"	 sorry	sorry,	 not	3.295384645462036	4.332983016967773	0.10356653481721878	0.2460344284772873	10	transcript
+356	santa	gpt2	"his palms down on the table. ""Look, I I'm sorry,"	 I	I	 I	3.4079108238220215	3.8004720211029053	0.2902510464191437	0.2902510464191437	10	transcript
+357	santa	gpt2	"palms down on the table. ""Look, I I'm sorry, I"	 was	was	'm	3.6988232135772705	3.6357004642486572	0.04231714829802513	0.2555440664291382	10	transcript
+358	santa	gpt2	"down on the table. ""Look, I I'm sorry, I was"	 just	just	 just	3.1997554302215576	4.184283256530762	0.3424685597419739	0.3424685597419739	10	transcript
+359	santa	gpt2	"on the table. ""Look, I I'm sorry, I was just"	 kidding	kidding	 trying	3.1789371967315674	4.9033203125	0.014226371422410011	0.15560321509838104	10	transcript
+360	santa	gpt2	"the table. ""Look, I I'm sorry, I was just kidding"	 about	about	.	3.4989397525787354	2.4050307273864746	0.020025523379445076	0.4068590998649597	10	transcript
+361	santa	gpt2	"table. ""Look, I I'm sorry, I was just kidding about"	 Neal	Neal	 that	3.3543624877929688	4.038471221923828	3.978967924922472e-06	0.1941412091255188	10	transcript
+362	santa	gpt2	"""Look, I I'm sorry, I was just kidding about Neal"	" """	"""I"	.	4.156692028045654	4.326605796813965	0.00011437435023253784	0.23076896369457245	10	transcript
+363	santa	gpt2	"I I'm sorry, I was just kidding about Neal ""I"	 like	like	'm	4.379042148590088	3.250535249710083	0.002012292155995965	0.5175952315330505	10	transcript
+364	santa	gpt2	"I'm sorry, I was just kidding about Neal ""I like"	 him	him,	 to	4.556080341339111	5.961084365844727	0.03114955872297287	0.1697123497724533	10	transcript
+365	santa	gpt2	"sorry, I was just kidding about Neal ""I like him,"	 I	I'm	 but	4.60697603225708	3.2890326976776123	0.18323424458503723	0.341093510389328	10	transcript
+366	santa	gpt2	"I was just kidding about Neal ""I like him, I'm"	 sure	sure	 not	4.716832637786865	4.677386283874512	0.02848166599869728	0.1330643892288208	10	transcript
+367	santa	gpt2	"was just kidding about Neal ""I like him, I'm sure"	 he	he's	 he	4.872707366943359	2.76540470123291	0.4845010042190552	0.4845010042190552	10	transcript
+368	santa	gpt2	"just kidding about Neal ""I like him, I'm sure he's"	 a	a	 a	4.607841968536377	4.569103240966797	0.23631617426872253	0.23631617426872253	10	transcript
+369	santa	gpt2	"kidding about Neal ""I like him, I'm sure he's a"	 good	good	 good	4.536339282989502	4.2085957527160645	0.25891581177711487	0.25891581177711487	10	transcript
+370	santa	gpt2	"about Neal ""I like him, I'm sure he's a good"	 psychiatrist	psychiatrist,	 guy	3.7150285243988037	3.451042413711548	8.80063271324616e-06	0.38223326206207275	10	transcript
+371	santa	gpt2	"Neal ""I like him, I'm sure he's a good psychiatrist,"	 you	you	 but	3.410670042037964	2.544525623321533	0.007395224645733833	0.42505815625190735	10	transcript
+372	santa	gpt2	"""I like him, I'm sure he's a good psychiatrist, you"	 know	know,	 know	3.4202144145965576	1.343662142753601	0.7843977808952332	0.7843977808952332	10	transcript
+373	santa	gpt2	like him, I'm sure he's a good psychiatrist, you know,	 there	there's	 but	3.2299818992614746	4.427053451538086	0.002867269329726696	0.1978011280298233	10	transcript
+374	santa	gpt2	him, I'm sure he's a good psychiatrist, you know, there's	 just	just	 a	3.1354072093963623	3.742428779602051	0.024333864450454712	0.25082096457481384	10	transcript
+375	santa	gpt2	I'm sure he's a good psychiatrist, you know, there's just	 something	something	 something	3.4194703102111816	3.252521514892578	0.19829703867435455	0.19829703867435455	10	transcript
+376	santa	gpt2	sure he's a good psychiatrist, you know, there's just something	 about	about	 about	3.4744629859924316	3.4247212409973145	0.49024805426597595	0.49024805426597595	10	transcript
+377	santa	gpt2	he's a good psychiatrist, you know, there's just something about	 him	him,	 him	3.140385150909424	3.1931235790252686	0.4045138955116272	0.4045138955116272	10	transcript
+378	santa	gpt2	a good psychiatrist, you know, there's just something about him,	 that	that	 and	3.41727614402771	4.002047538757324	0.045508310198783875	0.15062057971954346	10	transcript
+379	santa	gpt2	good psychiatrist, you know, there's just something about him, that	 makes	makes	's	3.3879683017730713	3.852710008621216	0.04165019094944	0.2713903784751892	10	transcript
+380	santa	gpt2	psychiatrist, you know, there's just something about him, that makes	 me	me	 him	3.1640889644622803	2.2618300914764404	0.2166917771100998	0.2933869957923889	10	transcript
+381	santa	gpt2	you know, there's just something about him, that makes me	 want	want	 want	2.5824592113494873	4.201189041137695	0.1629655808210373	0.1629655808210373	10	transcript
+382	santa	gpt2	know, there's just something about him, that makes me want	 to	to,	 to	2.387308359146118	0.24156694114208221	0.9737793803215027	0.9737793803215027	10	transcript
+383	santa	gpt2	there's just something about him, that makes me want to,	 I	I	 like	2.7187588214874268	3.9896366596221924	0.11044051498174667	0.1756666749715805	10	transcript
+384	santa	gpt2	just something about him, that makes me want to, I	 don	don't	 don	3.267725944519043	3.46697998046875	0.12499596178531647	0.12499596178531647	10	transcript
+385	santa	gpt2	something about him, that makes me want to, I don't	 know	know	 know	2.95576548576355	1.9584953784942627	0.5316964983940125	0.5316964983940125	10	transcript
+386	santa	gpt2	about him, that makes me want to, I don't know	" """	"""Lash"	,	3.0894014835357666	2.6449410915374756	0.00030145436176098883	0.31853702664375305	10	transcript
+387	santa	gpt2	"him, that makes me want to, I don't know ""Lash"	 out	out	""""	3.903351306915283	6.427728652954102	0.0002898571838159114	0.07639233022928238	10	transcript
+388	santa	gpt2	"that makes me want to, I don't know ""Lash out"	 ir	"irrationally?"""	""""	4.259057521820068	4.940394401550293	7.043553068797337e-06	0.13183534145355225	10	transcript
+389	santa	gpt2	"makes me want to, I don't know ""Lash out irrationally?"""	 suggested	suggested	"
+"	4.3841471672058105	4.848832130432129	1.8305892126591061e-06	0.14997917413711548	10	transcript
+390	santa	gpt2	"me want to, I don't know ""Lash out irrationally?"" suggested"	 Charlie	Charlie.	 the	5.17330265045166	6.977868556976318	0.0007264994201250374	0.07586230337619781	10	transcript
+391	santa	gpt2	"want to, I don't know ""Lash out irrationally?"" suggested Charlie."	" """	"""Where"	" """	4.962401390075684	2.7681946754455566	0.4019952714443207	0.4019952714443207	10	transcript
+392	santa	gpt2	"to, I don't know ""Lash out irrationally?"" suggested Charlie. ""Where"	 did	did	 are	4.974582195281982	3.3714661598205566	0.060005564242601395	0.1775989532470703	10	transcript
+393	santa	gpt2	"I don't know ""Lash out irrationally?"" suggested Charlie. ""Where did"	 you	you	 you	5.170698642730713	2.624453067779541	0.5048761367797852	0.5048761367797852	10	transcript
+394	santa	gpt2	"don't know ""Lash out irrationally?"" suggested Charlie. ""Where did you"	 hear	hear	 get	5.073520660400391	3.0468974113464355	0.04154696315526962	0.4269202947616577	10	transcript
+395	santa	gpt2	"know ""Lash out irrationally?"" suggested Charlie. ""Where did you hear"	 that	"that?"""	 that	4.932979583740234	2.733751058578491	0.4738187789916992	0.4738187789916992	10	transcript
+396	santa	gpt2	"""Lash out irrationally?"" suggested Charlie. ""Where did you hear that?"""	" """	"""From"	"
+"	4.218995571136475	2.514068365097046	0.15128564834594727	0.5439056158065796	10	transcript
+397	santa	gpt2	"out irrationally?"" suggested Charlie. ""Where did you hear that?"" ""From"	 Neal	Neal	 the	3.9242796897888184	4.834138870239258	3.2674473914084956e-05	0.23848915100097656	10	transcript
+398	santa	gpt2	"irrationally?"" suggested Charlie. ""Where did you hear that?"" ""From Neal"	" """	"""I"	","""	4.688218593597412	4.583521842956543	7.701766298850998e-05	0.23066264390945435	10	transcript
+399	santa	gpt2	"suggested Charlie. ""Where did you hear that?"" ""From Neal ""I"	 learn	learn	'm	4.680352687835693	4.510632514953613	5.182370659895241e-05	0.09439977258443832	10	transcript
+400	santa	gpt2	"Charlie. ""Where did you hear that?"" ""From Neal ""I learn"	 a	a	 that	4.4836106300354	3.9947431087493896	0.033496782183647156	0.2063087522983551	10	transcript
+401	santa	gpt2	"""Where did you hear that?"" ""From Neal ""I learn a"	 lot	lot	 lot	4.989753246307373	1.663122296333313	0.7459701895713806	0.7459701895713806	10	transcript
+402	santa	gpt2	"did you hear that?"" ""From Neal ""I learn a lot"	 from	from	 about	5.099999904632568	2.0438144207000732	0.28930675983428955	0.43930965662002563	10	transcript
+403	santa	gpt2	"you hear that?"" ""From Neal ""I learn a lot from"	 him	him	 him	5.281356334686279	4.230085849761963	0.23585569858551025	0.23585569858551025	10	transcript
+404	santa	gpt2	"hear that?"" ""From Neal ""I learn a lot from him"	" """	"""He"	.	5.751460552215576	3.041494607925415	0.0009183083311654627	0.2068084478378296	10	transcript
+405	santa	gpt2	"that?"" ""From Neal ""I learn a lot from him ""He"	 listens	listens	's	5.5132036209106445	4.491530418395996	0.0012833153596147895	0.2261899709701538	10	transcript
+406	santa	gpt2	"""From Neal ""I learn a lot from him ""He listens"	 to	to	 to	5.65568733215332	2.3366236686706543	0.6113799810409546	0.6113799810409546	10	transcript
+407	santa	gpt2	"Neal ""I learn a lot from him ""He listens to"	 me	me	 me	4.202507495880127	3.4655089378356934	0.3134172558784485	0.3134172558784485	10	transcript
+408	santa	gpt2	"""I learn a lot from him ""He listens to me"	 Scott	Scott	,	4.024136066436768	3.9559545516967773	1.1414947493904037e-06	0.1676790714263916	10	transcript
+409	santa	gpt2	"learn a lot from him ""He listens to me Scott"	 shook	shook	,	5.253262519836426	4.47114372253418	8.234180313593242e-06	0.1666007786989212	10	transcript
+410	santa	gpt2	"a lot from him ""He listens to me Scott shook"	 his	his	 his	6.820748329162598	1.3071664571762085	0.7668769955635071	0.7668769955635071	10	transcript
+411	santa	gpt2	"lot from him ""He listens to me Scott shook his"	 head	head.	 head	6.268424987792969	0.64699786901474	0.9002525210380554	0.9002525210380554	10	transcript
+412	santa	gpt2	"from him ""He listens to me Scott shook his head."	" """	"""Yeah,"	 He	5.453551769256592	4.022981643676758	0.1724875420331955	0.1771298348903656	10	transcript
+413	santa	gpt2	"him ""He listens to me Scott shook his head. ""Yeah,"	 and	and	 he	4.644443511962891	4.314223766326904	0.017912007868289948	0.19550782442092896	10	transcript
+414	santa	gpt2	"""He listens to me Scott shook his head. ""Yeah, and"	 then	then	 he	4.518792152404785	4.032331943511963	0.02554783597588539	0.251370906829834	10	transcript
+415	santa	gpt2	"listens to me Scott shook his head. ""Yeah, and then"	 he	he	 I	4.357267379760742	4.062770843505859	0.08256210386753082	0.23525318503379822	10	transcript
+416	santa	gpt2	"to me Scott shook his head. ""Yeah, and then he"	 charges	charges	 said	3.856782913208008	5.217338562011719	1.649417754379101e-05	0.11994176357984543	10	transcript
+417	santa	gpt2	"me Scott shook his head. ""Yeah, and then he charges"	 you	you	 me	4.128308296203613	3.6954896450042725	0.07078493386507034	0.2049105167388916	10	transcript
+418	santa	gpt2	"Scott shook his head. ""Yeah, and then he charges you"	 for	for	 with	3.5528266429901123	3.200885534286499	0.0814739242196083	0.35640212893486023	10	transcript
+419	santa	gpt2	"shook his head. ""Yeah, and then he charges you for"	 it	it	 it	3.8829715251922607	5.75143575668335	0.09515734761953354	0.09515734761953354	10	transcript
+420	santa	gpt2	"his head. ""Yeah, and then he charges you for it"	 Judy	Judy	"."""	3.8335459232330322	2.637158155441284	2.0961188340606896e-07	0.28016212582588196	10	transcript
+421	santa	gpt2	"head. ""Yeah, and then he charges you for it Judy"	 reapp	reappeared	.	4.675726413726807	2.558600664138794	7.912038881840999e-07	0.2808783948421478	10	transcript
+422	santa	gpt2	"""Yeah, and then he charges you for it Judy reappeared"	 with	with	 and	5.724013805389404	3.6827385425567627	0.03623780608177185	0.17494679987430573	10	transcript
+423	santa	gpt2	and then he charges you for it Judy reappeared with	 their	their	 a	6.186298370361328	4.346209526062012	0.0010185567662119865	0.2686861455440521	10	transcript
+424	santa	gpt2	then he charges you for it Judy reappeared with their	 drinks	drinks,	 new	6.481121063232422	7.636544227600098	0.0021439450792968273	0.023608611896634102	10	transcript
+425	santa	gpt2	he charges you for it Judy reappeared with their drinks,	 the	the	 and	6.552774429321289	5.985897064208984	0.013626868836581707	0.14822843670845032	10	transcript
+426	santa	gpt2	charges you for it Judy reappeared with their drinks, the	 sandwich	sandwich,	 two	6.429572582244873	7.667727470397949	8.549207268515602e-05	0.03336003050208092	10	transcript
+427	santa	gpt2	you for it Judy reappeared with their drinks, the sandwich,	 and	and	 and	6.274829864501953	2.7940707206726074	0.6472557783126831	0.6472557783126831	10	transcript
+428	santa	gpt2	for it Judy reappeared with their drinks, the sandwich, and	 chicken	chicken	 the	5.887430667877197	5.594517230987549	0.0002831683086697012	0.17128662765026093	10	transcript
+429	santa	gpt2	it Judy reappeared with their drinks, the sandwich, and chicken	 fingers	fingers.	.	5.864427089691162	4.444987773895264	0.005570476409047842	0.26936063170433044	10	transcript
+430	santa	gpt2	Judy reappeared with their drinks, the sandwich, and chicken fingers.	 Charlie	Charlie	"
+"	5.064276695251465	5.038532257080078	0.0003017621347680688	0.17386704683303833	10	transcript
+431	santa	gpt2	reappeared with their drinks, the sandwich, and chicken fingers. Charlie	 dove	dove	 was	5.034778118133545	6.111224174499512	0.0003418276319280267	0.0717952623963356	10	transcript
+432	santa	gpt2	with their drinks, the sandwich, and chicken fingers. Charlie dove	 into	into	 into	5.582448482513428	3.355645179748535	0.23504862189292908	0.23504862189292908	10	transcript
+433	santa	gpt2	their drinks, the sandwich, and chicken fingers. Charlie dove into	 the	the	 the	5.209171772003174	3.471463918685913	0.43160831928253174	0.43160831928253174	10	transcript
+434	santa	gpt2	drinks, the sandwich, and chicken fingers. Charlie dove into the	 French	French	 kitchen	4.877719402313232	7.265633583068848	0.0011945421574637294	0.02982405200600624	10	transcript
+435	santa	gpt2	the sandwich, and chicken fingers. Charlie dove into the French	 fries	fries	 fries	5.364067554473877	4.990598678588867	0.13935302197933197	0.13935302197933197	10	transcript
+436	santa	gpt2	sandwich, and chicken fingers. Charlie dove into the French fries	 on	on	,	4.900909423828125	2.9883880615234375	0.013404663652181625	0.28156742453575134	10	transcript
+437	santa	gpt2	and chicken fingers. Charlie dove into the French fries on	 his	his	 the	5.56771183013916	2.8477301597595215	0.1127355545759201	0.4962640404701233	10	transcript
+438	santa	gpt2	chicken fingers. Charlie dove into the French fries on his	 plate	plate.	 plate	5.852877616882324	5.518107891082764	0.08178623020648956	0.08178623020648956	10	transcript
+439	santa	gpt2	fingers. Charlie dove into the French fries on his plate.	" """	"""Merry"	" """	4.677639484405518	3.8083975315093994	0.24089176952838898	0.24089176952838898	10	transcript
+440	santa	gpt2	"Charlie dove into the French fries on his plate. ""Merry"	 Christmas	Christmas,	 Christmas	4.492384433746338	1.0394376516342163	0.8960846662521362	0.8960846662521362	10	transcript
+441	santa	gpt2	"dove into the French fries on his plate. ""Merry Christmas,"	 you	you	 Mr	4.278938293457031	6.676486492156982	0.01817929558455944	0.09383748471736908	10	transcript
+442	santa	gpt2	"into the French fries on his plate. ""Merry Christmas, you"	 two	two	 two	3.7577078342437744	5.789588928222656	0.10140970349311829	0.10140970349311829	10	transcript
