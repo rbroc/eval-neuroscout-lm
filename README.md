@@ -1,8 +1,21 @@
 ### Evaluating LLMs on forward language modeling for NeuroScout transcripts
-- Check how to align transcripts and force-aligned transcripts so they actually have the same nr of words
-    - Replace -
-    - Do not skip blanks
-    - Remove empty strings (or replace double spaces)
-- Run on column 1
-- Run on column 2
-- Run on parsed
+To dos
+[] Make list of models to expand to
+    Forward language models:
+    - GPT-Neo / GPT-J
+    - BlenderBot
+    Bidirectional language models
+    - Bigbird
+    - BERT / DistilBERT
+    - RoBERTa - RobertaForCausalLM
+    - BART for conditional generation
+
+Potential classes:
+    - CausalLM
+    - Conditional generation
+    - MaskedLM
+[] Implement code for each of the models
+[] Clean up code
+[] Add more qualitative discussion to the paper 
+[] Add references on syntax / downstream tasks 
+[] Try out downstream tasks?
