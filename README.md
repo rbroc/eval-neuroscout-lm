@@ -1,21 +1,11 @@
 ### Evaluating LLMs on forward language modeling for NeuroScout transcripts
-To dos
-[] Make list of models to expand to
+To dos:
+- [x] Make list of models to expand to
     Forward language models:
-    - GPT-Neo / GPT-J
-    - BlenderBot
-    Bidirectional language models
-    - Bigbird
-    - BERT / DistilBERT
-    - RoBERTa - RobertaForCausalLM
-    - BART for conditional generation
+    - GPT2, GPT-Neo, OPT (facebook/opt-1.3b)
+    - Bigbird, BERT, RoBERTA
+- [] Add engine for MLM   
+- [] Implement code for each of the models
+- [] Add more qualitative discussion to the paper 
+- [] Add references on syntax / downstream tasks
 
-Potential classes:
-    - CausalLM
-    - Conditional generation
-    - MaskedLM
-[] Implement code for each of the models
-[] Clean up code
-[] Add more qualitative discussion to the paper 
-[] Add references on syntax / downstream tasks 
-[] Try out downstream tasks?
