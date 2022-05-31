@@ -6,6 +6,7 @@ import torch
 from scipy.stats import entropy
 from itertools import chain
 import re
+import random
 import numpy as np
 
 
@@ -17,8 +18,9 @@ COLUMNS = ['dataset', 'model', 'context',
            'prob_true', 'prob_predicted', 
            'top_5', 'top_10',
            'to_1', 'to_5', 'to_10', 'to_100', 
-            'to_1000', 'bottom_1000', 'avg_all'
-           'context_size', 'case_sensitive']
+           'to_1000', 'bottom_1000', 'avg_all'
+           'context_size', 'case_sensitive',
+           'mask_idx']
 
 
 class StridingForwardLM:
@@ -71,21 +73,21 @@ class StridingForwardLM:
         target_ids = torch.tensor([-100]*(input_ids[0].shape[0]-1) + [true_id[0,0]]) # model-specific
         true_id = true_id.to(device=f'cuda:{str(gpu)}')
         true_token = tokenizer.decode(true_id[0,0]) # model-specific
-        return input_ids, target_ids, ctx, true_token, true_id[0,0]
+        return input_ids, target_ids, ctx, true_token, true_id[0,0], -1
     
     def _compute_metrics(self, outputs, wd_id, tokenizer):
         ''' Compute metrics from model output and id of true token '''
         
         # Get loss and language modeling metrics
-        loss = float(outputs.loss.cpu().detach().numpy()) # MS
-        top_id = torch.argmax(outputs.logits[0,-1,:], 
+        loss = float(outputs.loss.cpu().detach().numpy())
+        top_id = torch.argmax(outputs.logits[0,mask_idx,:], 
                               axis=-1)
-        top_token = tokenizer.decode(top_id) # MS
+        top_token = tokenizer.decode(top_id)
         softmaxed = self.softmax_fn(outputs.logits)
-        prob_true = softmaxed[0,-1,wd_id]
+        prob_true = softmaxed[0,mask_idx,wd_id]
         prob_true = float(prob_true.cpu().detach().numpy())
-        prob_predicted = float(softmaxed[0,-1,top_id].cpu().detach().numpy())
-        softmaxed = softmaxed[0,-1,:].cpu().detach().numpy()
+        prob_predicted = float(softmaxed[0,mask_idx,top_id].cpu().detach().numpy())
+        softmaxed = softmaxed[0,mask_idx,:].cpu().detach().numpy()
         entr = entropy(softmaxed)
         true_rank = softmaxed.argsort().argsort()[wd_id] 
         top_5 = int(true_rank >= tokenizer.vocab_size-5)
@@ -103,7 +105,6 @@ class StridingForwardLM:
         
         # Postprocess some metrics
         top_id = top_id.cpu().detach().numpy()
-        wd_id = wd_id.cpu().detach().numpy()
         
         # Gather metrics
         top_metrics = [top_id, top_token]
@@ -123,11 +124,12 @@ class StridingForwardLM:
               f'{dataset.name}, {self.context_length}, '
               f'{len(tokenized_lst)}')
         for i in tqdm(range(len(tokenized_lst))):
-            iids, tids, ctx, wd, wd_id = self._prepseq(tokenized_lst[i].to(device=f'cuda:{str(gpu)}'),
-                                                       tokenizer, 
-                                                       targets[i], gpu)
+            iids, tids, ctx, wd, wd_id, mask_idx = self._prepseq(tokenized_lst[i].to(device=f'cuda:{str(gpu)}'),
+                                                                 tokenizer, 
+                                                                 targets[i], gpu)
             outputs = model(iids, labels=tids)
-            metrics = self._compute_metrics(outputs, wd_id, tokenizer)
+            metrics = self._compute_metrics(outputs, wd_id, tokenizer, mask_idx)
+            wd_id = wd_id.detach().numpy()
             top_id, top_token = metrics[:2]
             metrics = metrics[2:]
             results.append((dataset.name, 
@@ -138,34 +140,47 @@ class StridingForwardLM:
                             targets[i], 
                             *metrics,
                             self.context_length,
-                            dataset.dataset_type))
+                            dataset.dataset_type,
+                            mask_idx))
         output = pd.DataFrame(results, columns=COLUMNS)
         return output
     
 
 class StridingMLM(StridingForwardLM):
-    ''' Engine for masked LM models '''
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
+    ''' Engine for masked language models '''
+    def __init__(self, mask_dict, **kwargs):
+        super().__init__()
+        self.mask_dict = mask_dict[self.context_length]
     
     def _split(self, whitespaced, tokenizer):
+        ''' Tokenization for MLM '''
         n_tokens = len(whitespaced)
         i_start = list(range(0, n_tokens-(self.context_length)))
         i_end = [i+(self.context_length) for i in i_start]
-        split_tks = []
+        split_tks = [] # this is the list of inputs
         targets = []
         for i_s, i_e in zip(i_start, i_end):
-            # Sample random integer in i_start, i_end
-            # Replace that with '[MASK]'
             # Encode
-            split.tks.append(tokenizer(' '.join(whitespaced[i_s:i_e+1]), # edit with correct whitespaced
-                                       return_tensors='pt')['input_ids'])
-            targets.append(whitespaced[i_e]) # edit correct index 
+            tokenized = tokenizer(' '.join(whitespaced[i_s:i_e+1]))['input_ids']
+            # Mask and get target
+            mask_idx = self.mask_dict.pop(0)
+            target = tokenizer.decode(tokenized[mask_idx])
+            targets.append(target)
+            # Replace in encoding
+            tokenized = tokenized[:mask_idx] + [tokenizer.mask_token_id] + tokenized[mask_idx+1:]
+            split_tks.append(torch.tensor([tokenized]))
         return split_tks, targets
         
     def _prepseq(self, list_item, tokenizer, true, gpu):
-        ''' Prepare the input sequence for MLM. '''
-        pass
+        ''' Prepare the input sequence for MLM '''
+        input_ids = list_item.clone()
+        ctx = tokenizer.decode(input_ids[0]) # also includes the mask
+        true_id = tokenizer.encode(true, return_tensors='pt')[0,1]
+        mask_idx = np.where(input_ids[0] == tokenizer.mask_token_id)[0][0]
+        target_ids = [-100] * mask_idx + [true_id] 
+        target_ids += [-100] * (input_ids[0].shape[0] - len(target_ids))
+        target_ids = torch.tensor(target_ids)
+        true_id = true_id.to(device=f'cuda:{str(gpu)}')
+        true_token = tokenizer.decode(true_id)
+        return input_ids, target_ids, ctx, true_token, true_id
     
-    def _compute_metrics(self):
-        pass
