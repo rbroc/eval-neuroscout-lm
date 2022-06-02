@@ -18,7 +18,7 @@ COLUMNS = ['dataset', 'model', 'context',
            'prob_true', 'prob_predicted', 
            'top_5', 'top_10',
            'to_1', 'to_5', 'to_10', 'to_100', 
-           'to_1000', 'bottom_1000', 'avg_all'
+           'to_1000', 'bottom_1000', 'avg_all',
            'context_size', 'case_sensitive',
            'mask_idx']
 
@@ -70,12 +70,12 @@ class StridingForwardLM:
         input_ids = list_item.clone()
         ctx = tokenizer.decode(input_ids[0])
         true_id = tokenizer.encode(' ' + true, return_tensors='pt')[:,:1]
-        target_ids = torch.tensor([-100]*(input_ids[0].shape[0]-1) + [true_id[0,0]]) # model-specific
+        target_ids = torch.tensor([-100]*(input_ids[0].shape[0]-1) + [true_id[0,0]]).to(device=f'cuda:{str(gpu)}') # edited
         true_id = true_id.to(device=f'cuda:{str(gpu)}')
         true_token = tokenizer.decode(true_id[0,0]) # model-specific
         return input_ids, target_ids, ctx, true_token, true_id[0,0], -1
     
-    def _compute_metrics(self, outputs, wd_id, tokenizer):
+    def _compute_metrics(self, outputs, wd_id, tokenizer, mask_idx):
         ''' Compute metrics from model output and id of true token '''
         
         # Get loss and language modeling metrics
@@ -94,8 +94,8 @@ class StridingForwardLM:
         top_10 = int(true_rank >= tokenizer.vocab_size-10)
         
         # Compute distribution mass metrics
-        to_1 = float(softmaxed.max().cpu().detach().numpy())
-        s_sorted = np.sort(softmaxed.cpu().detach().numpy())
+        to_1 = float(softmaxed.max()) # edited
+        s_sorted = np.sort(softmaxed) # edited
         to_5 = float(s_sorted[-5:-1].mean())
         to_10 = float(s_sorted[-10:-5].mean())
         to_100 = float(s_sorted[-100:-10].mean())
@@ -129,14 +129,14 @@ class StridingForwardLM:
                                                                  targets[i], gpu)
             outputs = model(iids, labels=tids)
             metrics = self._compute_metrics(outputs, wd_id, tokenizer, mask_idx)
-            wd_id = wd_id.detach().numpy()
+            wd_id = wd_id.cpu().detach().numpy() # edited
             top_id, top_token = metrics[:2]
             metrics = metrics[2:]
             results.append((dataset.name, 
                             model_name, 
                             ctx, 
-                            top_id, top_token,
-                            wd_id, wd, 
+                            float(top_id), top_token,
+                            float(wd_id), wd, 
                             targets[i], 
                             *metrics,
                             self.context_length,
@@ -145,19 +145,19 @@ class StridingForwardLM:
         output = pd.DataFrame(results, columns=COLUMNS)
         return output
     
-
+    
 class StridingMLM(StridingForwardLM):
     ''' Engine for masked language models '''
     def __init__(self, mask_dict, **kwargs):
         super().__init__()
-        self.mask_dict = mask_dict[self.context_length]
+        self.mask_dict = mask_dict[str(self.context_length)]
     
     def _split(self, whitespaced, tokenizer):
         ''' Tokenization for MLM '''
         n_tokens = len(whitespaced)
         i_start = list(range(0, n_tokens-(self.context_length)))
         i_end = [i+(self.context_length) for i in i_start]
-        split_tks = [] # this is the list of inputs
+        split_tks = [] 
         targets = []
         for i_s, i_e in zip(i_start, i_end):
             # Encode
@@ -176,11 +176,11 @@ class StridingMLM(StridingForwardLM):
         input_ids = list_item.clone()
         ctx = tokenizer.decode(input_ids[0]) # also includes the mask
         true_id = tokenizer.encode(true, return_tensors='pt')[0,1]
-        mask_idx = np.where(input_ids[0] == tokenizer.mask_token_id)[0][0]
+        mask_idx = np.where(input_ids[0].cpu() == tokenizer.mask_token_id)[0][0]
         target_ids = [-100] * mask_idx + [true_id] 
         target_ids += [-100] * (input_ids[0].shape[0] - len(target_ids))
-        target_ids = torch.tensor(target_ids)
+        target_ids = torch.tensor(target_ids).to(device=f'cuda:{str(gpu)}')
         true_id = true_id.to(device=f'cuda:{str(gpu)}')
         true_token = tokenizer.decode(true_id)
-        return input_ids, target_ids, ctx, true_token, true_id
+        return input_ids, target_ids, ctx, true_token, true_id, mask_idx
     
