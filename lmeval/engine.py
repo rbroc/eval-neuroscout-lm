@@ -25,7 +25,7 @@ COLUMNS = ['dataset', 'model', 'context',
 
 class StridingForwardLM:
     ''' Engine to perform striding window forward LM over a dataset. '''
-    def __init__(self, context_length=20):
+    def __init__(self, context_length):
         self.context_length = context_length
         self.softmax_fn = torch.nn.Softmax(dim=-1)
         
@@ -63,16 +63,20 @@ class StridingForwardLM:
         tokenized_lst, targets = self._split(whitespaced, tokenizer)
         return tokenized_lst, targets
     
-    def _prepseq(self, list_item, tokenizer, true, gpu):
+    def _prepseq(self, list_item, tokenizer, true, gpu, model_name):
         ''' Prepare the input sequence. Note that true
             is the true word, not the token.
         '''
         input_ids = list_item.clone()
-        ctx = tokenizer.decode(input_ids[0])
-        true_id = tokenizer.encode(' ' + true, return_tensors='pt')[:,:1]
-        target_ids = torch.tensor([-100]*(input_ids[0].shape[0]-1) + [true_id[0,0]]).to(device=f'cuda:{str(gpu)}') # edited
+        ctx = tokenizer.decode(input_ids[0]) 
+        true_ids = tokenizer.encode(' ' + true, return_tensors='pt')
+        if 'opt-' in model_name:
+            true_id = true_ids[:,1:2]
+        else:
+            true_id = true_ids[:,:1]
+        target_ids = torch.tensor([-100]*(input_ids[0].shape[0]-1) + [true_id[0,0]]).to(device=f'cuda:{str(gpu)}')
         true_id = true_id.to(device=f'cuda:{str(gpu)}')
-        true_token = tokenizer.decode(true_id[0,0]) # model-specific
+        true_token = tokenizer.decode(true_id[0,0])
         return input_ids, target_ids, ctx, true_token, true_id[0,0], -1
     
     def _compute_metrics(self, outputs, wd_id, tokenizer, mask_idx):
@@ -126,7 +130,8 @@ class StridingForwardLM:
         for i in tqdm(range(len(tokenized_lst))):
             iids, tids, ctx, wd, wd_id, mask_idx = self._prepseq(tokenized_lst[i].to(device=f'cuda:{str(gpu)}'),
                                                                  tokenizer, 
-                                                                 targets[i], gpu)
+                                                                 targets[i], gpu,
+                                                                 model_name)
             outputs = model(iids, labels=tids)
             metrics = self._compute_metrics(outputs, wd_id, tokenizer, mask_idx)
             wd_id = wd_id.cpu().detach().numpy() # edited
@@ -149,7 +154,7 @@ class StridingForwardLM:
 class StridingMLM(StridingForwardLM):
     ''' Engine for masked language models '''
     def __init__(self, mask_dict, **kwargs):
-        super().__init__()
+        super().__init__(**kwargs)
         self.mask_dict = mask_dict[str(self.context_length)]
     
     def _split(self, whitespaced, tokenizer):
@@ -171,7 +176,7 @@ class StridingMLM(StridingForwardLM):
             split_tks.append(torch.tensor([tokenized]))
         return split_tks, targets
         
-    def _prepseq(self, list_item, tokenizer, true, gpu):
+    def _prepseq(self, list_item, tokenizer, true, gpu, model_name):
         ''' Prepare the input sequence for MLM '''
         input_ids = list_item.clone()
         ctx = tokenizer.decode(input_ids[0]) # also includes the mask
