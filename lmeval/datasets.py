@@ -38,7 +38,6 @@ class NarrativesDataset:
             else:
                 if fill_na == 'unk':
                     text = data.iloc[:,1].fillna('<unk>').tolist()
-                    # maybe replace unk with other columns
                     self.dataset_type = 'align_lower_unk'
                 elif fill_na == 'replace':
                     data.iloc[:,1].fillna(data.iloc[:,0].str.lower(), 
@@ -50,8 +49,12 @@ class NarrativesDataset:
                     text = data.iloc[:,1].tolist()
             self.text = ' '.join(text) 
         elif 'transcript' in filename:
-            self.dataset_type = 'transcript'
             self.text = open(filename).read()
+            if case_sensitive:
+                self.text = self.text.lower()
+                self.dataset_type = 'transcript_cased'
+            else:
+                self.dataset_type = 'transcript'      
         else:
             raise ValueError('unable to determine type')
         if name is not None:
